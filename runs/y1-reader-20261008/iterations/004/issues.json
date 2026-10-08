@@ -1,0 +1,150 @@
+{
+  "material_id": "D004",
+  "incoming_prof": "2026-10-08-r10",
+  "frozen_document_sha256": "5adb3e95c2fa47c94b4c665d85dc2fe669e2c0086dbc2ebc194cd59720d5d8ad",
+  "whole_document_audit": true,
+  "unresolved_material_teaching_issues": 0,
+  "issues": [
+    {
+      "id": "D004-S01",
+      "kind": "source proof gap",
+      "evidence": "Original PDF2 ratio Δy/Δt=(Δy/Δx)(Δx/Δt); source-review D004-G01; lead-source-review.json",
+      "causes": [
+        "Division requires nonzero intermediate increment, not guaranteed by differentiability."
+      ],
+      "affected": "Chain-rule justification and constant/noninjective inner cases.",
+      "resolution": "P10–P13 define exact slope remainder, handle k=0, establish k→0 from finite product law and divide only by h.",
+      "verification": [
+        "technical-precheck-v1-original.md",
+        "technical-review-v1.md",
+        "sasis-reader-v1-original.md P10–P13"
+      ],
+      "status": "resolved",
+      "prof_edit": "None; existing T1–T3/T10 require this check."
+    },
+    {
+      "id": "D004-S02",
+      "kind": "source conditions and scope",
+      "evidence": "Source-review D004-C01,C02,C03,A01,C04; original all4pages.",
+      "causes": [
+        "Compressed differentiability/evaluation/domain/radian/positive-integer/successive-existence conditions.",
+        "General noncommutativity not universal failure for every pair."
+      ],
+      "affected": "Every source derivative, composition comparison and factorial induction.",
+      "resolution": "P03–P04,P08,P14–P17,P20–P22 state and use exact conditions; all displayed source results verified correct within them.",
+      "verification": [
+        "technical-review-v1.md",
+        "sasis-reader-v1-original.md"
+      ],
+      "status": "resolved",
+      "prof_edit": "None; existing T1–T3/T10 sufficient."
+    },
+    {
+      "id": "D004-D01",
+      "kind": "pre-freeze drafting refinements",
+      "evidence": "author-record-v1.md Pre-freeze refinements; fixed and final task-prompts files; root earlier/final complete reads.",
+      "causes": [
+        "P07 second derivative calculation could mean derivative order.",
+        "P12 product-limit premise needed explicit status.",
+        "P16 coincident numerical values weakly discriminated derivative meanings.",
+        "P23 preliminary recall prompt printed the recalled answer; two P-label pointers also corrected."
+      ],
+      "affected": "P07,P12,P16,P23 and two author-recorded pointers.",
+      "resolution": "Final frozen bytes use right-hand calculation, explicit finite-product law, x=1 with3versus6, and answer-free recall prompt; pointers verified in finalroute.",
+      "verification": [
+        "author-record-v1.md",
+        "technical-review-v1.md",
+        "sasis-reader-v1-original.md"
+      ],
+      "status": "resolved_before_freeze",
+      "prof_edit": "None; existing duties handled these during drafting. No post-freeze change."
+    },
+    {
+      "id": "D004-R01",
+      "kind": "reader verification boundary",
+      "evidence": "Original SASIS report P01/P24/P25/P36 and final limits.",
+      "causes": [
+        "Two-input reader cannot check raw source provenance or empirically rank study advice."
+      ],
+      "affected": "Lecture/date/coverage assertions and P24 advice, not mathematical dependencies.",
+      "resolution": "Lead/author/sourcechecker separately inspected original source. P24 explicitly gives adjustable advice and no optimum/effect/observed outcome; most useful is pedagogical advice rather than an empirical comparison used as a premise.",
+      "verification": [
+        "lead-source-review.json",
+        "technical-review-v1.md"
+      ],
+      "status": "nonblocking_limit_resolved_in_scope",
+      "prof_edit": "None; preserve reader original and separate evidence roles."
+    },
+    {
+      "id": "D004-I01",
+      "kind": "input admission",
+      "evidence": "admission-v1.json and input-access-verification-v1.json.",
+      "causes": [
+        "Full baseline and full frozen document actual access must be established, not inferred from file names."
+      ],
+      "affected": "Admissibility of fresh reader findings.",
+      "resolution": "Exact identities/lengths, fifteen baseline ranges and two document ranges through both raw EOFs, complete chronological P01–P36 witnesses inspected. No input/truncation/unauthorized-access failure reported.",
+      "verification": [
+        "input-access-verification-v1.json"
+      ],
+      "status": "admitted",
+      "prof_edit": "None; unchanged two-input protocol applied; instruction-only isolation disclosed."
+    },
+    {
+      "id": "D004-T01",
+      "kind": "review tool false-positive and scope bug",
+      "evidence": "Initial actual GitHub markup check counted67label/reference occurrences against36paragraph leads; source/math/fulltext all exact.",
+      "causes": [
+        "All-text regex confused cross-references with leading labels.",
+        "Link owner reset at body paragraphs; PDF compared all references with lead labels only.",
+        "Absent generic q/h/s routes vacuously appeared to pass."
+      ],
+      "affected": "Representation check only, not teaching bytes.",
+      "resolution": "Narrow helper fix separates actual HTMLparagraph leads and all references, carries current label, compares like PDFoccurrences, marks absent generic navigation not applicable. Explicit A–D route check supplied; cached D002/D003 regression preserves earlier reports.",
+      "verification": [
+        "render-markup-initial-v1.json",
+        "render-markup-v1.json",
+        "render-navigation-v1.json",
+        "render-regression-v1.json",
+        "render-review-v1-original.md"
+      ],
+      "status": "resolved",
+      "prof_edit": "Run tooling only; no ordinary PROF instruction changed."
+    },
+    {
+      "id": "D004-T02",
+      "kind": "author bookkeeping failure",
+      "evidence": "state-authoring-note-v1.md and initial author full/topic checks.",
+      "causes": [
+        "Initial evidence selector expected double newlines and stopped before state write."
+      ],
+      "affected": "Administrative pending statuses only.",
+      "resolution": "Author corrected selector, preserved original initial outputs, recorded actual T1–T10 evidence with T11/T12 pending for parent. Parent preserved original full author state before final checks.",
+      "verification": [
+        "author-state-before-parent-review-v1",
+        "state-authoring-note-v1.md"
+      ],
+      "status": "resolved",
+      "prof_edit": "None; no teaching/coverage claim inferred from failed initial check."
+    },
+    {
+      "id": "D004-O01",
+      "kind": "output observation boundary",
+      "evidence": "Actual GitHub source/markup and complete nine-page internal preview; render-review-v1-original.md.",
+      "causes": [
+        "No live browser pixels or client execution observed.",
+        "Secondary PDF pagination differs from GitHub."
+      ],
+      "affected": "Bound of usable-output claim.",
+      "resolution": "Exact frozen bytes, complete actual article,305mathpayloads,14anchors,22internalhrefs and custommatchedhelp verified; fullpagevisual inspection supports legibility. Preserve preview-only heading/body splits; do not claim PDFdelivery or liveCSS/MathJax/click tests.",
+      "verification": [
+        "render-review-v1-original.md",
+        "render-preview-v1.json",
+        "render-navigation-v1.json"
+      ],
+      "status": "disclosed_nonblocking_limit",
+      "prof_edit": "None."
+    }
+  ],
+  "closure_gate": "Representation, independent technical, full fresh-reader admission and semantic parent acceptance complete; full helper state MECHANICALLY_READY. Closure becomes effective only on verified GitHub main publication of this evidence and metadata r11."
+}

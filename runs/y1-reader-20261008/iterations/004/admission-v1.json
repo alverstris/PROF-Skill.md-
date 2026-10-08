@@ -1,0 +1,37 @@
+{
+  "material_id": "D004",
+  "document_revision": "v1",
+  "frozen_commit": "197b57555834d36952e948d4100d2f835c86b20c",
+  "reader_agent": "/root/sasis_d004_v1_fresh",
+  "fork_turns": "none",
+  "mode": "instruction-confined read-only retrieval",
+  "subject_content_inputs": 2,
+  "inputs": [
+    {
+      "source": "/workspace/scratch/ac36b9c5ff31/PROF-repo/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "reader_input": "/workspace/scratch/ac36b9c5ff31/prof-readability/sasis-d004-v1/baseline.txt",
+      "bytes": 247840,
+      "characters": 246945,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    {
+      "source": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/004/teaching-v1.md",
+      "reader_input": "/workspace/scratch/ac36b9c5ff31/prof-readability/sasis-d004-v1/document.md",
+      "bytes": 22691,
+      "characters": 22645,
+      "sha256": "5adb3e95c2fa47c94b4c665d85dc2fe669e2c0086dbc2ebc194cd59720d5d8ad"
+    }
+  ],
+  "document_constituents": [
+    "document.md"
+  ],
+  "operating_instruction": "Fresh dispatch grounded in unchanged student-role.txt (SHA2563dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469), contract and current sasis.md; no subject facts or expected findings included.",
+  "permitted_tools": "exec_command/Python read-only retrieval, hashes and bounded raw UTF8 chunks of exactly the two named input files; writing its own original report is permitted. No other files, web, skill reads, author/source material, past reports or other-agent messages.",
+  "technical_access_boundary": false,
+  "pretraining_erasure_claimed": false,
+  "input_delivery": "Both full raw inputs read in reported coherent overlapping chunks through EOF; original report complete and whole-document witnesses inspected.",
+  "admission_state": "admitted_complete_inputs_identity_and_range_coverage_verified",
+  "known_limit": "Actual reading ranges/access restrictions are reader-reported and supported by full chronological content witnesses. Root did not independently monitor every tool read or establish a technical sandbox. Paths/hashes alone are not treated as evidence of reading; no erased-pretraining or simultaneous-context claim.",
+  "verification": "input-access-verification-v1.json",
+  "original_report_sha256": "fd4ff98fe508b422fdb97fba2513c239674b7ce1995c6a48a32ae6a2c29cde22"
+}

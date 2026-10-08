@@ -142,7 +142,9 @@ def audit_article(source, article_html):
     }
     normalize = lambda text: re.sub(r'\s+', ' ', text).strip()
     source_labels = re.findall(r'^\[P\d+\]', source, re.M)
-    actual_labels = re.findall(r'\[P\d+\]', actual_text)
+    # A prose cross-reference such as "see [P03]" is not a paragraph label.
+    actual_labels = [match[0] for p in article.paragraphs
+                     if (match := re.match(r'\[P\d+\]', p['text']))]
     source_ids = re.findall(r'<a id="([^"]+)"></a>', source)
     anchor_to_paragraph, pending = {}, []
     for p in article.paragraphs:
@@ -153,9 +155,11 @@ def audit_article(source, article_html):
                 anchor_to_paragraph[anchor] = match[0]
             pending = []
     link_checks = []
+    label = None
     for p in article.paragraphs:
         match = re.match(r'\[P\d+\]', p['text'])
-        label = match[0] if match else None
+        if match:
+            label = match[0]
         for link in p['links']:
             if link['href'].startswith('#'):
                 target = 'user-content-' + link['href'][1:]
@@ -181,8 +185,8 @@ def audit_article(source, article_html):
         })
     hints = [i for i in source_ids if re.fullmatch(r'h\d+', i)]
     solutions = [i for i in source_ids if re.fullmatch(r's\d+', i)]
-    group_order = (not hints or not solutions or
-                   max(source_ids.index(i) for i in hints) < min(source_ids.index(i) for i in solutions))
+    group_order = (max(source_ids.index(i) for i in hints) < min(source_ids.index(i) for i in solutions)
+                   if hints and solutions else None)
     checks = {
         'complete_text_equal_after_documented_markup_normalization': normalize(prose_stream(source)) == normalize(actual_text),
         'paragraph_labels_match_source_in_order': source_labels == actual_labels,
@@ -194,13 +198,15 @@ def audit_article(source, article_html):
         'all_internal_targets_present_once': all(l['present_once'] for l in link_checks),
         'plain_prose_no_bold_italic_or_heading_tags': not any(article.tags[t] for t in ['em','i','b','strong','h1','h2','h3','h4','h5','h6']),
         'source_has_no_atx_headings': not re.search(r'^#{1,6}\s', source, re.M),
-        'all_q_h_s_matching_links_and_returns': all(q['hint_target'] and q['solution_target'] and q['question_to_hint'] and q['question_to_solution'] and q['return_link_count'] == 2 for q in question_checks),
+        'all_q_h_s_matching_links_and_returns': all(q['hint_target'] and q['solution_target'] and q['question_to_hint'] and q['question_to_solution'] and q['return_link_count'] == 2 for q in question_checks) if question_checks else None,
         'hint_entries_all_before_solution_entries': group_order,
     }
     result = {
-        'checks': checks, 'checks_pass': all(checks.values()),
+        'checks': checks, 'checks_pass': all(value for value in checks.values() if value is not None),
         'source_bytes': len(source.encode()), 'source_sha256': sha(source.encode()),
         'actual_github_article_tags': dict(article.tags), 'paragraph_labels': actual_labels,
+        'paragraph_label_and_reference_occurrences': re.findall(r'\[P\d+\]', actual_text),
+        'custom_navigation_check_required': not bool(question_checks),
         'math': {kind: {'source_count': len(expected[kind]), 'github_count': len(actual[kind]),
                        'exact_all': expected[kind] == actual[kind],
                        'source_payloads': expected[kind], 'github_payloads': actual[kind]}
@@ -318,10 +324,10 @@ def prepare_preview(source, out):
         'pdf_sha256': sha((out / 'preview.pdf').read_bytes()), 'page_count': page_count,
         'font_size_pt': 11, 'margins_mm': 25, 'page_size': 'US Letter (Pandoc default)',
         'log_diagnostics': diagnostics,
-        'pdf_paragraph_labels_match_source': re.findall(r'\[P\d+\]', pdf_text) == re.findall(r'^\[P\d+\]', source, re.M),
+        'pdf_label_and_reference_occurrences_match_source': re.findall(r'\[P\d+\]', pdf_text) == re.findall(r'\[P\d+\]', source),
         'full_page_visual_review': 'PENDING; open every complete final page before recording findings',
         'page_inspections': [{'page': i, 'image': f'page-{i:0{len(str(page_count))}d}.png',
-                              'paragraph_labels_starting_on_page': re.findall(r'\[P\d+\]', page_text[i-1]),
+                              'paragraph_label_and_reference_occurrences_on_page': re.findall(r'\[P\d+\]', page_text[i-1]),
                               'complete_page_viewed': False, 'findings': None}
                              for i in range(1, page_count+1)],
         'preview_only_differences_to_consider': [

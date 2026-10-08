@@ -1,0 +1,842 @@
+{
+  "schema_version": 1,
+  "kind": "technical_source_preparation_only",
+  "review_date": "2026-10-08",
+  "material_id": "D112",
+  "session_id": "mit-8-02t-spring2005-S12",
+  "studio": 12,
+  "original_order": 112,
+  "active_order": 41,
+  "title": "Hour 1 Working with Circuits Experiment 4: Part I: Measuring V, I, R Hour 2 RC Circuits Experiment 4: Part II: RC Circuits",
+  "selection_file": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/readability-selection.json",
+  "audit_index_file": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/readability-audit/teal.json",
+  "index_url": "https://ocw.mit.edu/courses/8-02t-electricity-and-magnetism-spring-2005/pages/lecture-notes/",
+  "index_row_text": "5 12 Hour 1 Working with Circuits Experiment 4: Part I: Measuring V, I, R Hour 2 RC Circuits Experiment 4: Part II: RC Circuits Chapter 7 ( PDF ) ( PDF ) ( PDF )",
+  "required_page_occurrences": 57,
+  "fresh_required_page_occurrences_inspected": 57,
+  "assets": [
+    {
+      "role": "reading",
+      "url": "https://ocw.mit.edu/courses/8-02t-electricity-and-magnetism-spring-2005/01decae81aae80df6e65d8831582764a_chap7dc_circuits.pdf",
+      "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/pdfs/01decae81aae80df6e65d8831582764a_chap7dc_circuits.pdf",
+      "sha256": "31ca5032b01dfa04f5b803a37f8326106cd01433b5cd3f43146a226e97d33cbe",
+      "bytes": 684518,
+      "pages": 28,
+      "assigned_portion": "Chapter 7: entire chapter",
+      "required_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "alias": "C7",
+      "sha256_verified_fresh": true,
+      "assigned_ranges": [
+        {
+          "sections": "entire chapter",
+          "pdf_page_range": [
+            1,
+            28
+          ],
+          "start_boundary": "PDF beginning, including contents page(s)",
+          "end_boundary": "PDF end"
+        }
+      ],
+      "coverage": [
+        {
+          "pdf_page": 1,
+          "printed_page": 0,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p001.png",
+          "render_sha256": "85a9ba01f5f65090a8fb5c23dbcc71dbd3eea4bab8d437fdaef458b24fd63cea",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 2,
+          "printed_page": 1,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p002.png",
+          "render_sha256": "aa9fd049fc577a7a80a37d7875c85d11cccc3d01f125d472ef504e5e67ee3c27",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 3,
+          "printed_page": 2,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p003.png",
+          "render_sha256": "4ee6fe25c6c60b1b9f39739112881c83a29d41c18dcfcb8e9feabf4f763004c1",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 4,
+          "printed_page": 3,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p004.png",
+          "render_sha256": "3ddf1ee7d23a3097631c45e5ced26dc05bf6fe437d32288b00a2b19a5a678bae",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 5,
+          "printed_page": 4,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p005.png",
+          "render_sha256": "15c1c0070a111d0a9ccc300f75d2724684d409dbd321b447cd37cadfe1c57ae8",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 6,
+          "printed_page": 5,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p006.png",
+          "render_sha256": "eb2badc08b602b033447290f392d802bb6f7edba3fb095970bcb03bc5a5abb7f",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 7,
+          "printed_page": 6,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p007.png",
+          "render_sha256": "9c044a65d463718d6ffd13dfe3c4adc98addcb41821304cbe35d25e061655598",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 8,
+          "printed_page": 7,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p008.png",
+          "render_sha256": "8d92f280a080d13e5779063930aa2fff72136097bd3beb6ce703690c5a0148ce",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 9,
+          "printed_page": 8,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p009.png",
+          "render_sha256": "e47a63d8ec2a0dbed0d155070e08a1eb1ff8a9028a1f55fed8ca5a20b2a4b8e4",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 9,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p010.png",
+          "render_sha256": "5660987f315b3b0ba26abca72f51f0015fee7fcc0763acd1b8f04bdf0181e1cd",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 10,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p011.png",
+          "render_sha256": "c54b6f587c4c49658a845b51f5312a6206557925f4510bc86eda461f04c57e1c",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 11,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p012.png",
+          "render_sha256": "a4c5206c1034ce221924712b051d5802572787d1eb5e7425a66ee0d3a245dcdf",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 13,
+          "printed_page": 12,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p013.png",
+          "render_sha256": "62f3b359eb8880e3c2c5c0fc479b1e2edb191fa3ec148c17e4080adc7cb05e17",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": 13,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p014.png",
+          "render_sha256": "3a320df67fc906e69bf4b582154f4a7cd2b59387cc6cb3a62635dad04536a19c",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 15,
+          "printed_page": 14,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p015.png",
+          "render_sha256": "eceacb57059557143f33947a69c31b86b9dd244afa6cf9f54c466173d51b72ea",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 16,
+          "printed_page": 15,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p016.png",
+          "render_sha256": "9b0807e73348628a502e46976a7daec0e9396486a80a9998bc8cc53fbaf1f32e",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 16,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p017.png",
+          "render_sha256": "224dd099c7d51bfff10cbde6e79fb6a21d9a8310510acc017f60cb7a7d7e16ac",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 18,
+          "printed_page": 17,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p018.png",
+          "render_sha256": "393aa0326c1551378c5f9beb6506b72934b70d881c4ab12b56951fb0a314bd47",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 19,
+          "printed_page": 18,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p019.png",
+          "render_sha256": "9db844b7d73dba5111b93e76bd08e6b9a570f408f2c7990d3dd8fcbef1a65de7",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 19,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p020.png",
+          "render_sha256": "9ca2a3a8d879e41a61539c3753a17045ed37b928184703292215580448e19b03",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 21,
+          "printed_page": 20,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p021.png",
+          "render_sha256": "37795141462f72c5173dd7934af5aa3da774ea46d49328c64b7199200e56473e",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 22,
+          "printed_page": 21,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p022.png",
+          "render_sha256": "f37d0e5dbb33aa0d7b93890792a132b3dd6551ad44548a734de9de6f21ab817d",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 23,
+          "printed_page": 22,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p023.png",
+          "render_sha256": "0c00d7c0557573fd4474bf34c5b30ea1484a0826291ff089656c6ca014435a3c",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 24,
+          "printed_page": 23,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p024.png",
+          "render_sha256": "0df8fd1c16cd43539b33cc862d40b93fcf28f440fbf70f0668faf56075751d0d",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 25,
+          "printed_page": 24,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p025.png",
+          "render_sha256": "395ceb84e92c3a50d328b92087a86443130cafb734a831205dddc961d9d406b4",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 26,
+          "printed_page": 25,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p026.png",
+          "render_sha256": "ff429789489dd7f1badc0e2075af1d32cd79de302ff1a868bd81f1721fad9060",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 27,
+          "printed_page": 26,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p027.png",
+          "render_sha256": "622f1d33821d61b114e8ad715676ae7fe45a44020bc1d202e8090e75b2a8f6a8",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 28,
+          "printed_page": 27,
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/01decae81aae80df6e65d8831582764a_chap7dc_circuits/p028.png",
+          "render_sha256": "5f5851a6342e2f9195e9cb2fd07b0ee4e041268db7a234eeb8f5b496441c5418",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        }
+      ]
+    },
+    {
+      "role": "presentation",
+      "url": "https://ocw.mit.edu/courses/8-02t-electricity-and-magnetism-spring-2005/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1.pdf",
+      "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/pdfs/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1.pdf",
+      "sha256": "3951507e5d3876cc1e2c6a4f6bd85c7a0fe9ebcf950cb503731a0e500fdbba76",
+      "bytes": 335490,
+      "pages": 23,
+      "assigned_portion": "entire PDF",
+      "required_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "alias": "P",
+      "sha256_verified_fresh": true,
+      "assigned_ranges": [
+        {
+          "sections": "entire PDF",
+          "pdf_page_range": [
+            1,
+            23
+          ],
+          "start_boundary": "PDF beginning",
+          "end_boundary": "PDF end"
+        }
+      ],
+      "coverage": [
+        {
+          "pdf_page": 1,
+          "printed_page": "P12-1",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p001.png",
+          "render_sha256": "b91962d36be2097edd2bb00a29b2db742bf9059619d4afa18848fc8b16dcda91",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 2,
+          "printed_page": "P12-2",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p002.png",
+          "render_sha256": "a97a6d4f9ede9d7e839ca5a89788e71f8e32d561d59fce44f6b8e5c877208202",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 3,
+          "printed_page": "P12-3",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p003.png",
+          "render_sha256": "b881171ae792b88b74477a5cfd962e007f23f6a1b54bb3ba4bb5088c66234944",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 4,
+          "printed_page": "P12-4",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p004.png",
+          "render_sha256": "ae707fa06717d449a9d3603756a4474d8ca356eeb2f595e652ff4471d4a59756",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 5,
+          "printed_page": "P12- (number absent)",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p005.png",
+          "render_sha256": "4aa08e0541648af870ac9d0593a97e83c858c3bb033a3c4ead00fe2a140704f1",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 6,
+          "printed_page": "P12- (number absent)",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p006.png",
+          "render_sha256": "01f29688ab0c7b7c36952b89cd97eb476925bb035b5324cb019db56f35bc380b",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 7,
+          "printed_page": "P12- (number absent)",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p007.png",
+          "render_sha256": "54bdc0555d110554c2ca26bfce65d9c270fd3b316c625b7b8a64f745caa8107d",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 8,
+          "printed_page": "P12-8",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p008.png",
+          "render_sha256": "8488a83db6cb838bc3862420f07c2ae11c6cd6c37a4fdced2cd94b04534fb8c0",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 9,
+          "printed_page": "P12-9",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p009.png",
+          "render_sha256": "c1de6e2b37338fa2c6368af75956108454dc2dbfcfbd696429d16997ff130c1d",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": "P12-10",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p010.png",
+          "render_sha256": "b327c5d2f3bbfc2abb56acbcc5cbe1ea9182e093b04f2900e622fa4312714b97",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": "P12-11",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p011.png",
+          "render_sha256": "1bb6d77327d787035a5623d58ef8ede8d4181208858d6d7d7cf47296c176861d",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": "P12-12",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p012.png",
+          "render_sha256": "411f444332a28655823f7915a0e6a12a9716eb355e9d8fb1e9bd9014a68e871a",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 13,
+          "printed_page": "P12-13",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p013.png",
+          "render_sha256": "bf8837c00f376debda3a6dbd6cd1f6d61074e6c92b76d03fc9b69eadb6ff8173",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": "P12-14",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p014.png",
+          "render_sha256": "5759f21cf482c1da39739ddffc123264e003349a6bdea45cff3c24929a81d2ca",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 15,
+          "printed_page": "P12-15",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p015.png",
+          "render_sha256": "54aba720fb8e712f034fab06a87bd35149a7da657796efa4e8f57cbb0dabcd13",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 16,
+          "printed_page": "P12-16",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p016.png",
+          "render_sha256": "de63ae46a57af96caf968d816733ecbb71f6c09a908f44ebe3f822a08427a2db",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": "P12-17",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p017.png",
+          "render_sha256": "a0ccc2f709bb0a09b6a56450e539de50646398ee60a2c5773202a5a6c2e60250",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 18,
+          "printed_page": "P12-18",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p018.png",
+          "render_sha256": "03a6cc2ec837da92358accf5ad4b02dd7d485dcef9cc0306bfd9db126e69c216",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 19,
+          "printed_page": "P12-19",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p019.png",
+          "render_sha256": "238100fcd61478809cf85614532274e71997020b2588a5dec75ddb7ce86c8f74",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": "P12-20",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p020.png",
+          "render_sha256": "fb4e042b3953a04790dfb5c462bc56d8d9c283aea386fb5389fa8a4d380e7747",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 21,
+          "printed_page": "P12-21",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p021.png",
+          "render_sha256": "ca3f6e2a756155426a19f8625f57c34846d0c8c178f0dab5c2019dc065f6b646",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 22,
+          "printed_page": "P12-22",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p022.png",
+          "render_sha256": "bfb23125832b1ca6e514af4bcd07e83fa5459db2c13710f885cb9cefd494c0d0",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 23,
+          "printed_page": "P12-23",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/9965e4e342f728436d23e0e191a58e2a_presentati_w05d1/p023.png",
+          "render_sha256": "91a81e19919c305090b9535449aa4d90f0158356200eabcc941f616871bf4412",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        }
+      ]
+    },
+    {
+      "role": "prs",
+      "url": "https://ocw.mit.edu/courses/8-02t-electricity-and-magnetism-spring-2005/2aa16359b5c77376d08f3301645fefa1_prs_w05d1.pdf",
+      "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/pdfs/2aa16359b5c77376d08f3301645fefa1_prs_w05d1.pdf",
+      "sha256": "6751b5e62bec7888863c494395a3395fa4c515eb0ab6b3c5b7b65277d73b235f",
+      "bytes": 173839,
+      "pages": 6,
+      "assigned_portion": "entire PDF",
+      "required_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "alias": "Q",
+      "sha256_verified_fresh": true,
+      "assigned_ranges": [
+        {
+          "sections": "entire PDF",
+          "pdf_page_range": [
+            1,
+            6
+          ],
+          "start_boundary": "PDF beginning",
+          "end_boundary": "PDF end"
+        }
+      ],
+      "coverage": [
+        {
+          "pdf_page": 1,
+          "printed_page": "unnumbered",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/2aa16359b5c77376d08f3301645fefa1_prs_w05d1/p001.png",
+          "render_sha256": "08fd9333eac70787bdabcfd608a7889815ee9b4373185c4e0bbb8bdf3ebfcbc4",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 2,
+          "printed_page": "unnumbered",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/2aa16359b5c77376d08f3301645fefa1_prs_w05d1/p002.png",
+          "render_sha256": "e3d2d7049218c5adc00c7f928dd7afad2f143724c04be1fe86341faafeef63de",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 3,
+          "printed_page": "unnumbered",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/2aa16359b5c77376d08f3301645fefa1_prs_w05d1/p003.png",
+          "render_sha256": "58dd844526858a8251e70d13efedbf2830c51140d4f048f6b78e14529425349a",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 4,
+          "printed_page": "unnumbered",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/2aa16359b5c77376d08f3301645fefa1_prs_w05d1/p004.png",
+          "render_sha256": "5fae371f59b8892c5ce5345b030b2a9d91f033d7da3c518aec8b30393f2e3320",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 5,
+          "printed_page": "unnumbered",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/2aa16359b5c77376d08f3301645fefa1_prs_w05d1/p005.png",
+          "render_sha256": "7f35b57cdfad1af0aebb879064ce432771e98a112e9df41b0b94b5a6af0c7ee5",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        },
+        {
+          "pdf_page": 6,
+          "printed_page": "unnumbered",
+          "full_page_render": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/2aa16359b5c77376d08f3301645fefa1_prs_w05d1/p006.png",
+          "render_sha256": "a68c5408672e2ff6ccfcd44c8b564a0474a04a02fdc19bcb5f0aa38337997da2",
+          "cached_png_nonempty_decoded_loaded": true,
+          "fresh_visual_inspection": true,
+          "text_read": true,
+          "equations_figures_labels_answers_checked": true
+        }
+      ]
+    }
+  ],
+  "inspection_batches": {
+    "P": [
+      [
+        1,
+        8
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        17,
+        23
+      ]
+    ],
+    "Q": [
+      [
+        1,
+        6
+      ]
+    ],
+    "C7": [
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        16,
+        21
+      ],
+      [
+        22,
+        25
+      ],
+      [
+        26,
+        28
+      ]
+    ]
+  },
+  "supplemental_render_inspection": [
+    {
+      "asset_alias": "P",
+      "pdf_page": 6,
+      "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/sourceprep-teal-d112-d115/D112/P-p006-verification.png",
+      "sha256": "e0dcbd980feedb4c6196a9879f99cf4c839d162059c7bd809fe684932c50ad46",
+      "renderer": "PyMuPDF get_pixmap Matrix(2,2), alpha=False, original page rotation/crop respected",
+      "purpose": "Resolve apparent clipping in displayed 1.6-scale image; full page visually inspected",
+      "original_pdf_sha256": "3951507e5d3876cc1e2c6a4f6bd85c7a0fe9ebcf950cb503731a0e500fdbba76",
+      "same_scale_verification": "Independent 1.6 rendering was byte-identical and pixel-identical to cached p006.png; temporary duplicate removed",
+      "cache_defect_confirmed": false
+    }
+  ],
+  "review_report": "source-review.md",
+  "grouped_confirmed_source_findings": 2,
+  "issues": [
+    {
+      "id": "E1",
+      "class": "confirmed_cross_reference_error",
+      "locator": "C7 PDF15 printed14 paragraph below Eq7.6.24",
+      "finding": "Voltage graph is Fig7.6.7, not7.6.8"
+    },
+    {
+      "id": "E2",
+      "class": "confirmed_signed_equation_error",
+      "locator": "C7 PDF22 printed21 section7.9.3c",
+      "finding": "Iprime is defined negative; downward switch current is I1-Iprime, while final positive magnitude expression is correct"
+    }
+  ],
+  "graphic_state_observations": [
+    {
+      "locator": "Q PDF5-6",
+      "finding": "Reused artwork shows switch open; text and intended answer explicitly concern closed-switch late state"
+    }
+  ],
+  "prs_answer_options": [
+    1,
+    2,
+    2
+  ],
+  "unresolved_issues": [
+    "No particular 2005 course-meter specification independently identified",
+    "Actual experiment execution, measurement data and fit results absent",
+    "Lamp brightness requires operating characteristics",
+    "P19 all-quantities response statement needs state-variable/initial-condition/linear-single-mode restrictions",
+    "C7 7.9.3 earlier charging expression needs a separate time origin"
+  ],
+  "source_originals_changed": false,
+  "cache_changed": false,
+  "failed_cached_derivatives": 0,
+  "authored_teaching_route": false,
+  "iteration_closed": false,
+  "student_baseline_or_reader_reports_loaded": false,
+  "external_primary_checks": [
+    {
+      "url": "https://www.fluke.com/en-us/learn/blog/digital-multimeters/how-to-measure-resistance",
+      "locator": "steps1-2 and final parallel-path discussion",
+      "purpose": "resistance-measurement conditions"
+    },
+    {
+      "url": "https://www.vishay.com/docs/20143/colorcod.pdf",
+      "locator": "PDF1 four-band diagram and color table, revision28-Aug-2009",
+      "purpose": "color-code verification"
+    },
+    {
+      "url": "https://circuits.mit.edu/S26/labs/pots",
+      "locator": "section5",
+      "purpose": "conditional incandescent resistance/brightness interpretation"
+    }
+  ]
+}

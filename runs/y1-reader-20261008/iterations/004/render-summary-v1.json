@@ -1,0 +1,65 @@
+{
+  "artifact": "D004 teaching-v1.md; no images",
+  "frozen_commit": "197b57555834d36952e948d4100d2f835c86b20c",
+  "canonical_url": "https://github.com/alverstris/PROF-Skill.md-/blob/197b57555834d36952e948d4100d2f835c86b20c/runs/y1-reader-20261008/iterations/004/teaching-v1.md",
+  "source": {
+    "bytes": 22691,
+    "decoded_characters": 22645,
+    "sha256": "5adb3e95c2fa47c94b4c665d85dc2fe669e2c0086dbc2ebc194cd59720d5d8ad"
+  },
+  "outcome": {
+    "actual_github_markup": "PASS",
+    "exact_frozen_source_identity": "PASS",
+    "custom_A_D_navigation_markup": "PASS",
+    "local_full_page_visual_review": "PASS_WITH_PREVIEW_ONLY_PAGINATION_NOTES",
+    "product_representation_defects_found": [],
+    "live_github_pixels_mathjax_responsive_clicks": "UNOBSERVED"
+  },
+  "actual_markup": {
+    "leading_paragraphs": 36,
+    "all_label_reference_occurrences": 67,
+    "inline_math_exact": 275,
+    "display_math_exact": 30,
+    "unique_anchors": 14,
+    "internal_hrefs_and_unique_targets": 22,
+    "custom_A_D_routes_all_exact": true,
+    "hints": "P26-P30",
+    "complete_solutions": "P31-P35",
+    "external_source_hrefs_preserved": 2,
+    "complete_text_match": true,
+    "plain_prose_typography": true
+  },
+  "complete_preview_coverage": {
+    "pages_visually_opened": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "all_30_displays": true,
+    "all_tasks_hints_complete_solutions": true,
+    "observed_clipping_overlap_missing_or_unrendered_content": [],
+    "latex_diagnostics": [],
+    "preview_only_notes": "P05/P17/P25 headings split from bodies; several continued displays/prose sections; every continuation inspected."
+  },
+  "initial_failure": "Tool counted 67 total P occurrences as 36 paragraph leads; teaching unchanged. Related link-source and PDF comparison bugs corrected; q/h/s-specific absent checks now null.",
+  "regression": "Cached actual D002 and D003 evidence and converted math unchanged; D004 corrected exact checks pass. All 82 prior evidence files preserved.",
+  "evidence": {
+    "report": "report-v1.md",
+    "page_inspection": "preview-check.json",
+    "custom_navigation": "navigation-check.json",
+    "regression": "regression-d002-d003-d004.json",
+    "narrow_patch": "helper-patch.diff"
+  },
+  "limitations": [
+    "Actual immutable GitHub markup observed; live pixels, MathJax, responsive layout and click execution unobserved.",
+    "11 pt / 25 mm pdflatex PDF is supporting internal preview, not the requested product or proof of GitHub layout.",
+    "No PDF hyperlink parity claimed."
+  ],
+  "source_unchanged": true
+}

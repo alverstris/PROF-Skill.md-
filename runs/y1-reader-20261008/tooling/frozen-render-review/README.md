@@ -5,7 +5,7 @@
 After the parent provides the exact freeze, use:
 
 ```bash
-python3 /workspace/scratch/ac36b9c5ff31/prof-readability/render-tools/frozen_render_review.py \
+python3 /absolute/path/to/tooling/frozen-render-review/frozen_render_review.py \
   --source /absolute/path/to/frozen/teaching-vN.md \
   --url https://github.com/OWNER/REPO/blob/FULL_40_HEX_COMMIT/path/to/teaching-vN.md \
   --out /workspace/scratch/ac36b9c5ff31/prof-readability/REVIEW_NAME/vN
@@ -22,6 +22,8 @@ The argument before `=` must exactly match its Markdown reference. The workflow 
 For just actual markup and frozen-image checks, add `--markup-only`. Otherwise, read the PDF skill and follow its existing pre-authoring marker requirement before invoking the PDF-producing command. Dependencies are the existing Python standard library, Pandoc, pdflatex and Poppler tools; there is no installer or browser fallback in this helper.
 
 The helper fetches and saves the actual GitHub page/article, compares the entire normalized article text, separately compares every TeX payload exactly, checks plain prose typography, every P label and every internal href/target, and records matching Q/H/S links and return links. It verifies source and constituent image bytes against public raw URLs at the same commit. GitHub's `#qN` links and `user-content-qN` IDs are checked as corresponding markup, not as observed click execution.
+
+Paragraph labels are taken from actual HTML paragraph starts; prose cross-references are retained separately. Links after a label-only paragraph or display retain the most recent P label. PDF text comparison checks all label/reference occurrences against the same source occurrences. For a different navigation scheme, q/h/s-specific checks are `null` (not applicable), and `custom_navigation_check_required` is true; explicitly check its task, hint, solution, return and group mappings rather than treating an empty generic check as proof.
 
 For the internal preview it transparently changes only math delimiters, verifies the Pandoc AST's mathematical payloads, uses the existing `\gt`/`\lt` compatibility definitions, and compiles twice at 11 pt with 25 mm margins. It renders every final PDF page at 120 dpi and extracts page labels and compiler diagnostics. These operations do not mark any page visually reviewed.
 

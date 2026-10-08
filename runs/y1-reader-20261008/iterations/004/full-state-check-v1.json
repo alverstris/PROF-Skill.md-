@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "scripts/prof_state.py",
+    "check",
+    "--state",
+    "runs/y1-reader-20261008/iterations/004/.prof-state",
+    "--json"
+  ],
+  "incoming_skill": "2026-10-08-r10",
+  "exit_code": 0,
+  "stdout": "{\n  \"result\": \"MECHANICALLY_READY\",\n  \"scope\": \"full declared project\",\n  \"limits\": \"This checks declared records, file/locator existence and revision freshness only. Source reads, web reads, applicability, waivers and semantic reviews are self-reported. It does not certify teaching quality, learner mastery, authorization, or skill invocation/application.\",\n  \"requirements\": {\n    \"chain-higher\": {\n      \"fail\": 0,\n      \"not_applicable\": 0,\n      \"pass\": 12,\n      \"pending\": 0,\n      \"unverified\": 0,\n      \"waived_by_user\": 0\n    }\n  },\n  \"defects\": [],\n  \"notes\": [],\n  \"next_action\": \"Author remains responsible for substantive acceptance and honest delivery.\"\n}\n",
+  "stderr": ""
+}

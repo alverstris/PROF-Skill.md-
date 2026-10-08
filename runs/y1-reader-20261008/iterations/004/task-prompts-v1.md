@@ -1,0 +1,9 @@
+D004 fixed learner-task prompts, before authored solutions
+
+Task A (early supported application). Let y=cos(t^2), with angles in radians. Find dy/dt and its value at t=0. State the inner input, the derivative of the outer function with respect to that input, and why the final derivative is not just -sin(t^2). Criterion: both factors and their evaluation are correct, with a reason for the inner factor.
+
+Task B (changed representation and information sufficiency). Let f and g be differentiable at the needed inputs, with compositions defined nearby. You are given f(4)=7, f'(4)=-2, g(1)=4 and g'(1)=3. Find the derivative of H(t)=f(g(t)) at t=1, identifying exactly which data it uses. Do these data determine the derivative of J(t)=g(f(t)) at t=1? Explain what information is missing rather than assuming the orders are interchangeable. Criterion: correct evaluation points and a justified sufficient/insufficient decision.
+
+Task C (handover to repeated differentiation). Let q(t)=sin(t^2), with angles in radians. Find q''(t) and q''(0). Label the derivative rule needed when differentiating q'(t), and explain why q'' is not [q']^2. Criterion: a connected two-derivative calculation with both product terms and the correct input factors.
+
+Task D (later retrieval and transfer). On a later study occasion, first recall what D^3 p means and the positive-integer identity D^n(x^n)=n!, without looking at the earlier statements. Then let p(x)=(2x-1)^3. Find D^3 p and (Dp)^3, and decide whether the latter could be substituted for the former as an identity in x. Use either repeated differentiation or polynomial expansion, explaining how the method handles the inner 2x-1. Criterion: distinguish order from power, account for the inner slope and justify the identity decision. The first recall step is retrieval; the transformed polynomial and comparison are transfer.

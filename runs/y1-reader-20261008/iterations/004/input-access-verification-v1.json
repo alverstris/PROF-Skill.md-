@@ -1,0 +1,106 @@
+{
+  "reader_agent": "/root/sasis_d004_v1_fresh",
+  "fork_turns": "none",
+  "input_condition": "instruction-confined read-only retrieval; exactly two subject-content inputs",
+  "baseline": {
+    "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+    "bytes": 247840,
+    "characters": 246945,
+    "reader_reported_actual_ranges": [
+      [
+        0,
+        18000
+      ],
+      [
+        17500,
+        35500
+      ],
+      [
+        35000,
+        53000
+      ],
+      [
+        52500,
+        70500
+      ],
+      [
+        70000,
+        88000
+      ],
+      [
+        87500,
+        105500
+      ],
+      [
+        105000,
+        123000
+      ],
+      [
+        122500,
+        140500
+      ],
+      [
+        140000,
+        158000
+      ],
+      [
+        157500,
+        175500
+      ],
+      [
+        175000,
+        193000
+      ],
+      [
+        192500,
+        210500
+      ],
+      [
+        210000,
+        228000
+      ],
+      [
+        227500,
+        245500
+      ],
+      [
+        245000,
+        246945
+      ]
+    ],
+    "union_complete": true
+  },
+  "document": {
+    "sha256": "5adb3e95c2fa47c94b4c665d85dc2fe669e2c0086dbc2ebc194cd59720d5d8ad",
+    "bytes": 22691,
+    "characters": 22645,
+    "reader_reported_actual_ranges": [
+      [
+        0,
+        16000
+      ],
+      [
+        15500,
+        22645
+      ]
+    ],
+    "union_complete": true,
+    "constituents": [
+      "document.md"
+    ],
+    "whole_ordered_coverage": "P01–P36, every math/representation/task/hint/solution/source paragraph"
+  },
+  "source_and_copy_identities_independently_matched": true,
+  "reported_failures": [],
+  "reported_unauthorized_subject_access": false,
+  "original_report": {
+    "path": "sasis-reader-v1-original.md",
+    "bytes": 37565,
+    "sha256": "fd4ff98fe508b422fdb97fba2513c239674b7ce1995c6a48a32ae6a2c29cde22",
+    "lead_read_complete": true
+  },
+  "finding": "No supported substantive mathematical gap or consequential unresolved convention. Source provenance and study-advice empirical comparison are outside reader condition.",
+  "root_independent_check": "Root recomputed exact copy/source identities, sizes/raw character counts and coverage unions, read entire original report and checked substantive witnesses against complete final document, inspected original source and actual relevant baseline.",
+  "limits": "Actual reading ranges/access restrictions are reader-reported and supported by full chronological content witnesses. Root did not independently monitor every tool read or establish a technical sandbox. Paths/hashes alone are not treated as evidence of reading; no erased-pretraining or simultaneous-context claim.",
+  "provenance_resolution": "Original4-page PDF/text/visual inspection and lead-source-review.json/technical-review-v1.md establish the excluded source facts without adding them to reader inputs. P24 is explicitly adjustable study advice, not empirical optimum/effect-size claim."
+}

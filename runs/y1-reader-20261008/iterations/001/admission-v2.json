@@ -1,0 +1,37 @@
+{
+  "call_id": "001-reader-v2",
+  "state": "provisional_until_reader_access_log",
+  "document": {
+    "path": "runs/y1-reader-20261008/iterations/001/teaching-v2.md",
+    "characters": 23508,
+    "bytes": 23542,
+    "sha256": "5a892606c9064d56bb6dea693ed5b3dfbb823608da9a4b1926c408aed00aca5b",
+    "git_blob": "a26d2965edc88e83bc7899534188d8c07a0d5df4",
+    "repair": "Delimiter-only GitHub Markdown conversion; all mathematical payloads, display/inline modes and prose unchanged",
+    "commit": "3bdad7a365b5ce56e7430702d6daf3d963a11de3"
+  },
+  "baseline": {
+    "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+    "commit": "3bdad7a365b5ce56e7430702d6daf3d963a11de3",
+    "git_blob_sha": "edc601f173faf6a703545d8c4e41f217d5bbce79",
+    "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+    "utf8_bytes": 247840,
+    "js_characters": 246945,
+    "lf_split_lines": 1378,
+    "universal_newline_split_lines": 2562,
+    "issue": "Mixed CRCRLF and CRLF. GitHub ranged reads use different line segmentation from JS split on LF. Do not infer end of delivery from 1378.",
+    "safe_delivery": "Fetch entire pinned artifact into store; verify content hash/size; output coherent character-offset chunks without truncation through actual EOF. Or record actual API ranges through confirmed EOF. Preserve headings for all four subjects.",
+    "profile_verified_at": "6486b2afcee950d8d4cc4bfe7f443c05e10beb9f"
+  },
+  "role_revision": "r7",
+  "role_sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+  "agent_history": "fork_turns:none",
+  "delivery": "instruction-confined read-only GitHub retrieval of exactly two immutable subject artifacts",
+  "available_tools": "Broad inherited tools; whitelist is an instruction restriction, not technical isolation. Only github_fetch_file permitted for these paths plus pure JS orchestration/printing.",
+  "access_requirements": "Fetch full baseline/notes; print and read coherent untruncated chunks through exact EOF. No external links or author records. Record actual ranges.",
+  "context_capacity": "Not independently measured; no claim all content remains simultaneously in context. Re-fetch the two authorised inputs when needed.",
+  "reader_grade": "none",
+  "report_subject": "Teaching document's sequential meaning, available premises, justified connections and conclusions",
+  "scope": "Complete teaching-v2 paragraphs P01–P42 including hints and solutions.",
+  "agent": "/root/sasis_l01_v2"
+}

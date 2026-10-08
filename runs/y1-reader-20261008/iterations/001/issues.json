@@ -1,0 +1,137 @@
+{
+  "iteration": "001",
+  "material_id": "D001",
+  "session_id": "mit-18-01-fall-2006-L01",
+  "incoming_prof": {
+    "revision": "2026-10-08-r7",
+    "commit": "6486b2afcee950d8d4cc4bfe7f443c05e10beb9f"
+  },
+  "current_document": {
+    "path": "runs/y1-reader-20261008/iterations/001/teaching-v2.md",
+    "characters": 23508,
+    "bytes": 23542,
+    "sha256": "5a892606c9064d56bb6dea693ed5b3dfbb823608da9a4b1926c408aed00aca5b",
+    "git_blob": "a26d2965edc88e83bc7899534188d8c07a0d5df4",
+    "repair": "Delimiter-only GitHub Markdown conversion; all mathematical payloads, display/inline modes and prose unchanged"
+  },
+  "issues": [
+    {
+      "id": "SRC01",
+      "category": "source scientific wording",
+      "locator": "MIT Lecture1 printedp7 / PDFp8; teachingP25/P39",
+      "finding": "Source labels a signed displacement/time quotient average speed.",
+      "resolution": "Teach average velocity -80ft/s and average speed80ft/s; distinguish reversing-motion example.",
+      "status": "resolved_in_authored_v1_and_retained_v2",
+      "evidence": [
+        "author-record-v1.md",
+        "technical-review-v1.md",
+        "independent-numeric-checks.json"
+      ],
+      "prof_change": "None: existing T10 requires independent source correction."
+    },
+    {
+      "id": "SRC02",
+      "category": "source notation",
+      "locator": "MIT Lecture1 printedp5 / PDFp6; teachingP15",
+      "finding": "Source calls prime notation Newton notation.",
+      "resolution": "Prime notation identified as Lagrange notation after official Open University verification.",
+      "status": "resolved_in_authored_v1_and_retained_v2",
+      "evidence": [
+        "author-record-v1.md",
+        "technical-review-v1.md"
+      ],
+      "prof_change": "None."
+    },
+    {
+      "id": "SRC03",
+      "category": "source scope and conditions",
+      "locator": "Reciprocal derivation, power proof and falling model; teachingP07–P08,P11,P16–P20,P23–P27",
+      "finding": "Unqualified cancellation necessity, signed geometric intercept lengths, power-proof scope and collision endpoint require explicit conditions.",
+      "resolution": "Cancellation described as this example's method; absolute side lengths; positive-integer scope and bounded finite remainder; one-sided pre-impact velocity under declared model.",
+      "status": "resolved_in_authored_v1_and_retained_v2",
+      "evidence": [
+        "author-record-v1.md",
+        "technical-review-v1.md"
+      ],
+      "prof_change": "None: conditions and legitimacy already required by T1–T3/T10."
+    },
+    {
+      "id": "IN01",
+      "category": "input delivery",
+      "locator": "Complete baseline file mixed CRCRLF",
+      "finding": "JS LF count1378 differs from API universal-line count2562; stopping at1378 would omit required baseline.",
+      "resolution": "Reader full-string fetch, exact identity and overlapping character ranges through actual EOF; no LF-count inference.",
+      "status": "resolved_for_reader_v1; v2_admission_pending_actual_report",
+      "evidence": [
+        "input-access.json",
+        "admission-v1.json",
+        "sasis-reader-v1-original.md"
+      ],
+      "prof_change": "No extra rule: r7 admission already requires complete actual access."
+    },
+    {
+      "id": "FMT01",
+      "category": "output syntax",
+      "locator": "All math delimiters in teaching-v1",
+      "finding": "Chat-style backslash delimiters not GitHub's documented math syntax.",
+      "resolution": "v2 converts only delimiters. All288 math payloads and all prose exactly preserved.",
+      "status": "syntax_repair_verified; actual_visual_render_unverified",
+      "evidence": [
+        "format-repair.md",
+        "mechanical-v2.json"
+      ],
+      "prof_change": "No substantive edit warranted; T11 already requires format-appropriate output."
+    },
+    {
+      "id": "EXT01",
+      "category": "required source visual access",
+      "locator": "MIT Lecture1 PDFpages2–6 / printedpages1–5; Figures1–5 and opening preview expression",
+      "finding": "Web screenshot requests returned only a text placeholder, no image payload. Relevant source artwork and exact preview grouping remain unseen.",
+      "resolution": null,
+      "status": "unverified_external_block",
+      "evidence": [
+        "input-access.json",
+        "author-record-v1.md"
+      ],
+      "required_next_action": "Obtain actual rendered source pages through a permitted cloud image route or user attachment; compare all relevant figures/expressions with source map and teaching; repair/re-read if consequential.",
+      "closure_effect": "Prevents complete source audit and iteration promotion under PROF execution-protocol and SASIS source-inspection rule."
+    },
+    {
+      "id": "EXT02",
+      "category": "final output appearance",
+      "locator": "teaching-v2.md",
+      "finding": "Markdown source and documented delimiters checked; rendered math appearance not directly inspected.",
+      "resolution": null,
+      "status": "unverified",
+      "evidence": [
+        "mechanical-v2.json",
+        "format-repair.md"
+      ],
+      "required_next_action": "Inspect the actual rendered GitHub teaching revision; verify math and help separation. Do not equate source syntax with visual QA.",
+      "closure_effect": "No claim that rendered quality passed."
+    },
+    {
+      "id": "EXT03",
+      "category": "supplied instruction access",
+      "locator": "PROF_SASIS_Implementation_Manual.md and AI_Execution_Prompt.txt",
+      "finding": "Full native reads return0lines; indexed excerpts accessible but incomplete for manual.",
+      "status": "unverified_partial_access",
+      "resolution": null,
+      "evidence": [
+        "../../attachment-access-and-reconciliation.md",
+        "../../attachment-excerpts.json"
+      ],
+      "required_next_action": "Read full original attachments via permitted cloud route, reconcile any remaining unsuperseded instructions against current run.",
+      "closure_effect": "Cannot claim full instruction/source reconciliation."
+    }
+  ],
+  "reader_findings": "v1 reports no established substantive teaching gap; v2 report pending.",
+  "skill_decision": "Protocol r6→r7 was preparation implementing the user's reader correction. No lecture-derived substantive PROF change established. Preserve rolling progression at valid closure without inventing a teaching rule; no promotion while required source check blocked.",
+  "closure": {
+    "state": "open",
+    "promoted": false,
+    "closed_sessions": 0,
+    "assigned_sessions": 147,
+    "next_session_authorised_after_closure": "D002"
+  }
+}

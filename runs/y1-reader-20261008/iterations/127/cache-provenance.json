@@ -1,0 +1,50 @@
+{
+  "material_id": "D127",
+  "pdf_page": 9,
+  "printed_slides": [
+    17,
+    18
+  ],
+  "observed_date": "2026-10-08",
+  "original_pdf": {
+    "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/source.pdf",
+    "bytes": 235086,
+    "sha256": "ef97bc72a2d7d71bf89fb294b1690e3c03f9899b1e9c0b62387e847af02ca50b"
+  },
+  "audit_pdf_hash_matches": true,
+  "old_image": {
+    "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-009.png",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "old_open_result": "view_image failed; file was observed empty",
+  "recovery": {
+    "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/sourceprep-d126-d129/D127/original-page-009-rerender.png",
+    "bytes": 96639,
+    "sha256": "5bb05dbf4d2bd87d3183908d7673d7c881064267ba32a2602155d5fae8810517"
+  },
+  "renderer": "PyMuPDF 1.26.6",
+  "scale": 1.7,
+  "effective_dpi": 122.4,
+  "pixel_dimensions": [
+    1041,
+    1347
+  ],
+  "renderer_command": "import fitz; d=fitz.open('/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/source.pdf'); d[8].get_pixmap(matrix=fitz.Matrix(1.7,1.7)).save('/workspace/scratch/ac36b9c5ff31/prof-readability/sourceprep-d126-d129/D127/original-page-009-rerender.png')",
+  "actual_visual_inspection": {
+    "tool": "view_image",
+    "successful": true,
+    "full_page": true,
+    "content": "Slide 17 electric flux and tilted surface normal; slide 18 axial-field cylinder, opposite caps and side surface."
+  },
+  "historical_comparison": {
+    "audit": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/readability-audit/8022.json",
+    "audit_lists_page9_as_viewed": true,
+    "audit_page9_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-009.png",
+    "previous_image_sha256": "Not present in audit or manifest.",
+    "specific_alternate_page9_detail": "None listed; the detailed full-page list includes page 6 only.",
+    "documented_overview": "contact-007-012.jpg was recorded as viewed and includes the page-9 range. This reviewer did not use it as a substitute for the fresh full-page inspection.",
+    "manifest": "Manifest lists the same page-009.png but supplies no PNG hash.",
+    "inference_limit": "Current zero-byte observation does not establish when or why it occurred or whether the historical review read the page. Original audit and cache are unchanged."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/23c2c1b1ab31c9f10745b18e7b0bf131_lec3.pdf",
+  "sha256": "ccf25930cfad63d99e3fd5045e7931860051bbbb3eedd2bd8cd9318ebd32845a",
+  "lead_read_scope": "All five text page files and all five complete original PNG pages opened in same tool output; images recover missing/corrupt extraction symbols. Page1cover;2sum/constants/trig setup;3trig and product proof;4increment rectangle;5quotient algebra.",
+  "independent_source_findings": [
+    "PDF2 omitted prime on (cu) and on (u+v) proof heading: real typographic mistakes; displayed proof correct.",
+    "PDF3 product proof add/subtract u(x+h)v(x) factors into v(x)Delta-u/h+u(x+h)Delta-v/h. Differentiability ensures u continuous.",
+    "PDF4 rectangle assumes positive side lengths/increments; algebraic signed increment identity is general. Corner contribution after division is (Delta-u/h)Delta-v, so tends finite u-prime times0; small absolute area alone is insufficient.",
+    "PDF5 quotient requires v(x)!=0, differentiability and hence continuity supply nearby nonvanishing and denominator limit v(x)^2. Numerator order gives minus.",
+    "Sine/cosine derivative derivations require radians; sine proof uses two supplied trig limits; cosine addition gives cos(x)(cos(h)-1)/h-sin(x)sin(h)/h."
+  ],
+  "actual_baseline_read_scope_for_lead": "Targeted reinspection raw LF-delimited lines95–176 (Trigonometry and Differentiation); author/reader separately must read full operational baseline. The preceding broad rg discovery was truncated and is not claimed as a complete read.",
+  "baseline_support": {
+    "L101-124": "Unit-circle interpretation, radians/sectorarea, addition identities, exact values, function transformations.",
+    "L138-163": "Derivative definition, sine/cosine trig limits and route, power/constant/sum rules, product/quotient/chain formulas and quotient restriction."
+  },
+  "current_teaching_review": "Not yet authored; no acceptance inferred from source review."
+}

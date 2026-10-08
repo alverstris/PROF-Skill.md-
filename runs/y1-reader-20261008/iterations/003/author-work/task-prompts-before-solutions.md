@@ -1,0 +1,11 @@
+D003 proposed original practice prompts, delivered before solutions
+
+A. A calibrated reading is r(t)=2a(t)-b(t), with a and b differentiable voltage readings and fixed coefficient2. At time t0, a′=0.30 V/s and b′=0.40 V/s. Find r′(t0) and decide whether r is locally increasing or decreasing. Give the derivative relation, signed value and units. Meaning of locally here: sign of instantaneous rate at this time, not a claim about an entire time interval.
+
+B. A rectangle has differentiable side lengths u(t),v(t). At t0, u=3 m,v=4 m,u′=-0.2 m/s,v′=0.5 m/s. Find the instantaneous area rate and say whether the area is increasing at this instant. Then judge: “The extra product-increment term can be discarded after dividing by h merely because ΔuΔv→0.” Give a valid limit argument using the differentiability assumptions. Criterion: correct signed rate with units and a scaled error argument, distinguishing a negative increment from a negative physical side length.
+
+C. q(x)=(x²-1)/(x-1) is defined only for x≠1. Find q′ wherever it exists and decide whether q′(1) exists. Then define Q(x)=q(x) for x≠1 and Q(1)=2. Is Q differentiable at1, and with what derivative? Justify using the actual functions' domains and a method you select. Criterion: distinguish original from extended function; algebra alone cannot silently supply a missing function value.
+
+D. Later retrieval, with earlier teaching covered: state sum, constant-multiple, product, quotient, sine and cosine derivative rules with relevant differentiability/domain/angle conditions; write the exact product increment identity, then show why its cross term contributes zero to the derivative. Criterion: both formula recall and limiting warrant, not formula-only recognition.
+
+E. Later transfer, using notes if useful: F(x)=sin(x)/(1+cos(x)), angles in radians. Obtain a derivative formula and find F′(π/3). A second representation is G(x)=(1-cos(x))/sin(x). Explain where both expressions are defined and equal, and decide whether G can be substituted directly into the difference quotient for F′(0). Determine F′(0) by a valid route. Criterion: quotient computation, identity comparison with domains, and explanation of why equality on common inputs does not grant equality of their domains.

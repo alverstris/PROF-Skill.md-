@@ -1,0 +1,11 @@
+D003 outgoing dependency review
+
+Incoming published r9:44bc0b1ed6d3e20835e998098190a25faeae35ac. Outgoing progression r10 changes only SKILL.md's version identifier. Exact inverse restores every incoming byte; all ordinary teaching instructions, reader protocol/role/contract/profile, execution/domain/state/rewrite guidance, exact user requests and the full operational baseline are unchanged (outgoing-control-checks.json).
+
+The actual incoming-r9 skill produced a complete route after its ordinary author audit. Source errors, abbreviations and conditions were handled under existingT1–T4/T10; typography/help/navigation underT11. Pre-freeze author refinements implemented existing requirements. Independent full final technical and fresh reader reviews found no supported substantive defect in the final teaching. No new rule or measured improvement is invented to justify the required version progression.
+
+The regeneration dependency set for this metadata-only change is empty: no teaching premise, source, convention, scope, reader input or obligation changed. D003 frozen v1, image and all actual checks remain evidentially unchanged. D001 andD002 likewise have no affected substantive dependency; their original closure evidence remains preserved. Later substantive skill/source/profile/scope changes must reopen affected cases and regenerate/review as required.
+
+full-state-check-v1.json is the historical full-project MECHANICALLY_READY result at actual incomingr9, after real reader/render/lead acceptance. Original author state before parent acceptance is preserved in author-work/state-before-parent-review-v1. The helper points at the cloud skill path and would correctly see a changed metadata digest under r10. No old hash/pass was automatically refreshed to conceal that change. Reproduce the historical check against the incoming commit's actual skill/unchanged controls; outgoing carry-forward is justified here by exact byte-equivalence apart from version, not by an unperformed new author/reader run.
+
+Actual destination markup and the entire local preview were inspected. Live GitHub client pixels/MathJax/clicks remain outside the performed observations. This scope limitation and the lack of human-learning evidence carry forward unchanged.

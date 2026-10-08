@@ -1,0 +1,48 @@
+{
+  "material_id": "D003",
+  "document_revision": "v1",
+  "frozen_commit": "4cbf83f2dc2859d5123fc01a0c311a268d580483",
+  "frozen_tree": "16516a9e32518b4ab8247a1fb2aff948ec66951b",
+  "frozen_parent": "44bc0b1ed6d3e20835e998098190a25faeae35ac",
+  "main_advanced_at_freeze": false,
+  "reader_agent": "/root/sasis_d003_v1_fresh",
+  "fork_turns": "none",
+  "subject_content_inputs": 2,
+  "image_is_constituent_of_document": true,
+  "delivery_mode": "instruction-confined read-only retrieval of exact frozen copies",
+  "actual_isolation": "Instruction-only; shared tools/filesystem remain available. No erased pretraining or simultaneous whole-input context claimed.",
+  "operating_instruction_resource": "references/sasis/student-role.txt",
+  "operating_instruction_resource_sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+  "operating_instruction_delivery": "Task prompt adapts full current role instruction plus exact path/hash/reading/write logistics; not claimed byte-identical to role resource. No author findings or other subject input supplied.",
+  "permitted_subject_reads": [
+    "/workspace/scratch/ac36b9c5ff31/sasis-d003-v1/baseline.txt",
+    "/workspace/scratch/ac36b9c5ff31/sasis-d003-v1/document.md",
+    "/workspace/scratch/ac36b9c5ff31/sasis-d003-v1/product-increment-v1.png"
+  ],
+  "permitted_writes": [
+    "/workspace/scratch/ac36b9c5ff31/sasis-d003-v1/report-original.md",
+    "/workspace/scratch/ac36b9c5ff31/sasis-d003-v1/access.json"
+  ],
+  "inputs": [
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/sasis-d003-v1/baseline.txt",
+      "bytes": 247840,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "raw_utf8_characters": 246945
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/sasis-d003-v1/document.md",
+      "bytes": 25480,
+      "sha256": "cd7426a9b70d0ac41aa3ca0418db8c89c391b67304016a7ad38f8379fe98b5a8",
+      "raw_utf8_characters": 25408
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/sasis-d003-v1/product-increment-v1.png",
+      "bytes": 23338,
+      "sha256": "61bc47e951267028b32ac0007370244d8d6489e8552639572a56bdf5cc2ad2b0"
+    }
+  ],
+  "known_limits": "Admission depends on actual complete read ranges, EOF and image access, not paths/hashes alone.",
+  "admission_state": "admitted_complete_verified",
+  "actual_access": "Full original report and independent input-access-verification-v1.json; all14baseline ranges and4document ranges reach exact rawEOF, image read at reference; no gaps/truncation reported."
+}

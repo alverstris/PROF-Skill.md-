@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-08",
+  "purpose": "Repair observed empty cached render files, preserve original audit and source PDFs; no authored teaching or iteration closure claimed.",
+  "inspection_scope": "A byte-size inventory of 220 calculus, 273 MIT 8.022 and 1560 TEAL cached PNG files found exactly 5 empty files. This is not a new full visual audit of 2053 images. All 5 affected pages were then freshly viewed at complete-page size from verified original PDFs.",
+  "counting_note": "PNG counts include render derivatives; original audit PDF/page-occurrence totals remain separately reported.",
+  "historical_limit": "The original audit records full visual coverage, including retained contact sheets. The two inspected original MIT 8.022 contact sheets contain the affected content. No original per-page PNG hash/timestamp proves when or why the 5 individual files became empty; do not claim either intrinsic source unreadability or a fabricated historical reading from this observation alone.",
+  "effect": "All 5 current access gaps repaired and fully visually checked. No required page remains unreadable from these cache findings. Eligible 76/excluded 71 selection unchanged. Each full source packet is re-read before authoring as already required.",
+  "repairs": [
+    {
+      "material_id": "D108",
+      "page": 5,
+      "original_pdf_url": "https://ocw.mit.edu/courses/8-02t-electricity-and-magnetism-spring-2005/0abf0c8160d489fe3183fd380e5bca98_presentati_w02d2.pdf",
+      "original_pdf_sha256": "74191ed9a6443f21e00b164e12a2ebf03c7cc5d07cb405ada7e1674a718c70f6",
+      "old_cache_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/0abf0c8160d489fe3183fd380e5bca98_presentati_w02d2/p005.png",
+      "old_bytes": 0,
+      "new_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/sourceprep-teal-d106-d108/D108/presentation-p005.png",
+      "new_bytes": 58428,
+      "new_sha256": "7f36fa3899ec029f875e40258c15de792d9e3ebe53d1f792d3fa568ca8bd78a5",
+      "render_provenance": "Source-preparer recovery from hash-verified original; see session source-review/source-map for renderer and complete packet evidence.",
+      "actual_view": "Fresh source preparer plus lead each opened entire new page.",
+      "finding": "D108 F=qE vector equation, W=DeltaU=qDeltaV equation, all words and page label readable despite irregular font spacing."
+    },
+    {
+      "material_id": "D122",
+      "page": 19,
+      "original_pdf_url": "https://ocw.mit.edu/courses/8-02t-electricity-and-magnetism-spring-2005/4a9e147aa46466d7480f0ba268e94360_presentati_w12d2.pdf",
+      "original_pdf_sha256": "09f5aae20855abcde19182ec7d8b26e9d3b7863919dfa7dfe0f0648495877200",
+      "old_cache_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/rendered/4a9e147aa46466d7480f0ba268e94360_presentati_w12d2/p019.png",
+      "old_bytes": 0,
+      "new_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/cache-recovery-20261008/D122-page-019.png",
+      "new_bytes": 461789,
+      "new_sha256": "a811940cec9095b0fbd3883e086ee2880ba3d999ddc59d84e4f3c8bd3cff32b3",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "19",
+        "-l",
+        "19",
+        "-r",
+        "150",
+        "-png",
+        "-singlefile",
+        "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-teal/pdfs/4a9e147aa46466d7480f0ba268e94360_presentati_w12d2.pdf",
+        "/workspace/scratch/ac36b9c5ff31/prof-readability/cache-recovery-20261008/D122-page-019"
+      ],
+      "actual_view": "Lead opened complete fresh page image with view_image; no missing/unreadable required symbols found.",
+      "finding": "Complete presentation page19 viewed: full electromagnetic spectrum with wavelength/frequency scale, waveband ranges, visible-light inset and lambda*f=c are readable."
+    },
+    {
+      "material_id": "D127",
+      "page": 9,
+      "original_pdf_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/63f25e1a6788d1f29da7870ec50d7b91_lecture2.pdf",
+      "original_pdf_sha256": "ef97bc72a2d7d71bf89fb294b1690e3c03f9899b1e9c0b62387e847af02ca50b",
+      "old_cache_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-009.png",
+      "old_bytes": 0,
+      "new_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/sourceprep-d126-d129/D127/original-page-009-rerender.png",
+      "new_bytes": 96639,
+      "new_sha256": "5bb05dbf4d2bd87d3183908d7673d7c881064267ba32a2602155d5fae8810517",
+      "render_provenance": "Source-preparer recovery from hash-verified original; see session source-review/source-map for renderer and complete packet evidence.",
+      "actual_view": "Fresh source preparer plus lead each opened entire new page.",
+      "finding": "D127 both flux slides, oriented-area/angle diagram, complete cylinder flux signs and equations are readable."
+    },
+    {
+      "material_id": "D140",
+      "page": 10,
+      "original_pdf_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/e89de838a0391197f9cb4f44c2e30c10_lecture15.pdf",
+      "original_pdf_sha256": "88482378aef7c95a3e43eedb6ad77bce84135e1a721ed733e9b7a3d05e825474",
+      "old_cache_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/page-010.png",
+      "old_bytes": 0,
+      "new_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/cache-recovery-20261008/D140-page-010.png",
+      "new_bytes": 167418,
+      "new_sha256": "ab7f2ed786387c9d996a6237c37e901adff06da3c14c0eae00695d9fb4223865",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "10",
+        "-l",
+        "10",
+        "-r",
+        "150",
+        "-png",
+        "-singlefile",
+        "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/source.pdf",
+        "/workspace/scratch/ac36b9c5ff31/prof-readability/cache-recovery-20261008/D140-page-010"
+      ],
+      "actual_view": "Lead opened complete fresh page image with view_image; no missing/unreadable required symbols found.",
+      "finding": "Complete page10 viewed: transformer winding N1/N2 diagram, both Faraday equations, voltage ratio and turn-count inequalities, two demo parameter lists are readable."
+    },
+    {
+      "material_id": "D142",
+      "page": 12,
+      "original_pdf_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/06e667759af969c3ede560f1fc0bc93b_lecture17.pdf",
+      "original_pdf_sha256": "23a00a31aad8bb2bf20659c30a41ccf878ba3084f2912ec7ed8258b966d93bcc",
+      "old_cache_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/page-012.png",
+      "old_bytes": 0,
+      "new_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/cache-recovery-20261008/D142-page-012.png",
+      "new_bytes": 119825,
+      "new_sha256": "f73113b463a41e1cdb54d37f1282f576e46f5ae21f883ce8c366ca0856408e11",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "12",
+        "-l",
+        "12",
+        "-r",
+        "150",
+        "-png",
+        "-singlefile",
+        "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/source.pdf",
+        "/workspace/scratch/ac36b9c5ff31/prof-readability/cache-recovery-20261008/D142-page-012"
+      ],
+      "actual_view": "Lead opened complete fresh page image with view_image; no missing/unreadable required symbols found.",
+      "finding": "Complete page12 viewed: two-coil AC motor schematic, R/L/impedance and64degree label, current resonance graph with axes and I0/omega0 formulas are readable."
+    }
+  ],
+  "historical_contact_checks": [
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/contact-007-011.jpg",
+      "sha256": "07392419201fb720f4aafbfcf14eecfdda575544bd36230ba4605439a8362289",
+      "lead_view": "Original retained contact sheet opened; visibly contains the affected page panel matching the fresh full-page render. Not used instead of the new full-page view."
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/contact-007-012.jpg",
+      "sha256": "5bbde735974197162ebbe56bc276d01760adcf367bfedf014b454684a970ff37",
+      "lead_view": "Original retained contact sheet opened; visibly contains the affected page panel matching the fresh full-page render. Not used instead of the new full-page view."
+    }
+  ]
+}

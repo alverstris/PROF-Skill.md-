@@ -1,0 +1,113 @@
+{
+  "basis": "Lead read the full original reader report, independently checked exact input/report hashes and consecutive union of the reported actual raw UTF8 read ranges against the complete files.",
+  "reader_agent": "/root/sasis_d003_v1_fresh",
+  "fork_turns": "none",
+  "baseline_ranges_raw_utf8_half_open": [
+    [
+      0,
+      18000
+    ],
+    [
+      17750,
+      35750
+    ],
+    [
+      35500,
+      53500
+    ],
+    [
+      53250,
+      71250
+    ],
+    [
+      71000,
+      89000
+    ],
+    [
+      88750,
+      106750
+    ],
+    [
+      106500,
+      124500
+    ],
+    [
+      124250,
+      142250
+    ],
+    [
+      142000,
+      160000
+    ],
+    [
+      159750,
+      177750
+    ],
+    [
+      177500,
+      195500
+    ],
+    [
+      195250,
+      213250
+    ],
+    [
+      213000,
+      231000
+    ],
+    [
+      230750,
+      246945
+    ]
+  ],
+  "baseline_complete_union": true,
+  "document_ranges_raw_utf8_half_open": [
+    [
+      0,
+      8500
+    ],
+    [
+      8250,
+      10477
+    ],
+    [
+      10477,
+      18477
+    ],
+    [
+      18227,
+      25408
+    ]
+  ],
+  "document_complete_union": true,
+  "document_image_event": "PNG viewed after reading through image-reference line at10477 and before document[10477,18477).",
+  "reader_eof_observed": {
+    "baseline": 246945,
+    "document": 25408
+  },
+  "input_identities": [
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/sasis-d003-v1/baseline.txt",
+      "bytes": 247840,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/sasis-d003-v1/document.md",
+      "bytes": 25480,
+      "sha256": "cd7426a9b70d0ac41aa3ca0418db8c89c391b67304016a7ad38f8379fe98b5a8"
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/sasis-d003-v1/product-increment-v1.png",
+      "bytes": 23338,
+      "sha256": "61bc47e951267028b32ac0007370244d8d6489e8552639572a56bdf5cc2ad2b0"
+    }
+  ],
+  "document_and_figure_equal_frozen_repo_artifacts": true,
+  "baseline_equal_frozen_operational_profile": true,
+  "reader_report_sha256": "b39fd8122c4f82c955689be25a6e754275a3cf9f3044975365a78d4a022fc4ba",
+  "reader_report_bytes": 29822,
+  "truncation_or_access_failure_reported": false,
+  "unauthorized_subject_access_reported": false,
+  "admission": "admitted_complete_verified",
+  "limitations": "Read-range and no-outside-access evidence is the fresh reader original report, checked for coverage and identity; not a separately enforced tool firewall. Shared tools/filesystem technically available; no erased pretraining, no simultaneous whole-input context and no authenticated human-learning claim."
+}

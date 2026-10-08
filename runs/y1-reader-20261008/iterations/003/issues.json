@@ -1,0 +1,104 @@
+{
+  "material_id": "D003",
+  "frozen_revision": "4cbf83f2dc2859d5123fc01a0c311a268d580483",
+  "supported_material_teaching_defects_remaining": 0,
+  "reader_established_substantive_gaps": 0,
+  "issues": [
+    {
+      "id": "SRC01",
+      "kind": "source typography",
+      "locator": "PDF2, general scalar example and sum-proof title",
+      "resolution": "Two missing derivative primes corrected in P06/P07 and acknowledged P32; original source unchanged.",
+      "evidence": "source-review.md; technical-review-v1.md",
+      "disposition": "resolved_or_bounded_as_stated",
+      "skill_change": "No substantive change warranted; existing obligations produced/caught the required handling."
+    },
+    {
+      "id": "SRC02",
+      "kind": "required source conditions",
+      "locator": "Source sum/scalar/product proofs",
+      "resolution": "P05\u2013P07/P14\u2013P16 supply finite derivatives, constant coefficient and noncircular continuity; source formulas correct with these conditions.",
+      "evidence": "technical-review-v1.md; sasis-reader-v1-original.md",
+      "disposition": "resolved_or_bounded_as_stated",
+      "skill_change": "No substantive change warranted; existing obligations produced/caught the required handling."
+    },
+    {
+      "id": "SRC03",
+      "kind": "implicit source angle convention",
+      "locator": "PDF2\u20133 trigonometric formulas",
+      "resolution": "P10\u2013P13 expressly use radian limits, both addition calculations and correct degree conversion; actual baseline supplies limits.",
+      "evidence": "technical-review-v1.md; sasis-reader-v1-original.md",
+      "disposition": "resolved_or_bounded_as_stated",
+      "skill_change": "No substantive change warranted; existing obligations produced/caught the required handling."
+    },
+    {
+      "id": "SRC04",
+      "kind": "abbreviated source inference",
+      "locator": "PDF4 Figure1/corner term",
+      "resolution": "P18\u2013P20 keep exact signed identity and positive-picture restriction, then prove scaled cross term vanishes using differentiability/continuity; B/D preserve warrant.",
+      "evidence": "technical-review-v1.md; sasis-reader-v1-original.md",
+      "disposition": "resolved_or_bounded_as_stated",
+      "skill_change": "No substantive change warranted; existing obligations produced/caught the required handling."
+    },
+    {
+      "id": "SRC05",
+      "kind": "omitted source domain condition",
+      "locator": "PDF5 quotient proof",
+      "resolution": "P22 proves nearby nonvanishing from continuity before P23\u2013P24 common-denominator/limit steps.",
+      "evidence": "technical-review-v1.md; sasis-reader-v1-original.md",
+      "disposition": "resolved_or_bounded_as_stated",
+      "skill_change": "No substantive change warranted; existing obligations produced/caught the required handling."
+    },
+    {
+      "id": "IN01",
+      "kind": "extraction errors",
+      "locator": "PDF3 cosine result and PDF5 final quotient formula",
+      "resolution": "All original page images were read; source correctly includes minus-sine and v-squared despite corrupt extraction. No wrong OCR formula copied.",
+      "evidence": "author-work/technical-source-check-original.md; lead-source-review.json",
+      "disposition": "resolved_or_bounded_as_stated",
+      "skill_change": "No substantive change warranted; existing obligations produced/caught the required handling."
+    },
+    {
+      "id": "AUTHOR01",
+      "kind": "pre-freeze author refinements",
+      "locator": "P04/P23/P31/P32",
+      "resolution": "Author clarified specific/general distinction, fixed-other-variable interpretation, precise whole G quotient question, and removed scan-unverified optional instructor attribution. All four current seams rechecked; final entire document independently read by lead and fresh SASIS. Existing r9 duties suffice.",
+      "evidence": "author-record-v1.md; author-work/technical-document-check-v1-original.md; technical-review-v1.md",
+      "disposition": "resolved_or_bounded_as_stated",
+      "skill_change": "No substantive change warranted; existing obligations produced/caught the required handling."
+    },
+    {
+      "id": "CHECK01",
+      "kind": "source validator false positives",
+      "locator": "URL underscore and earlier P39 navigation mention",
+      "resolution": "Original naive output preserved; validator interpretation corrected without changing teaching to hide false positives. Actual GitHub full typography and grouped support/navigation reviewed independently.",
+      "evidence": "author-work/source-validation-v1-initial-original.json; author-work/source-validation-v1.json; render-review-v1-original.md",
+      "disposition": "resolved_or_bounded_as_stated",
+      "skill_change": "No substantive change warranted; existing obligations produced/caught the required handling."
+    },
+    {
+      "id": "RD01",
+      "kind": "reader evidence boundary",
+      "locator": "SASIS P03/P19/P32 external provenance limit",
+      "resolution": "Expected two-input reader cannot verify source identity/page count/redraw/typos. Full original-source author/lead/technical inspections independently establish those facts; reader was not supplied extra content.",
+      "evidence": "sasis-reader-v1-original.md; technical-review-v1.md; input-access-verification-v1.json",
+      "disposition": "resolved_or_bounded_as_stated",
+      "skill_change": "No substantive change warranted; existing obligations produced/caught the required handling."
+    },
+    {
+      "id": "OUT01",
+      "kind": "bounded output/environment observation",
+      "locator": "Actual GitHub markup and internal8page preview",
+      "resolution": "All276math payloads,complete article,44paragraphs,49internal links,exact image and every preview page inspected. Live GitHub pixels/MathJax/responsive/click execution remain unobserved; preview page splits/caption behavior are documented, not promoted to actual-client success.",
+      "evidence": "render-review-v1-original.md; render-summary-v1.json",
+      "disposition": "resolved_or_bounded_as_stated",
+      "skill_change": "No substantive change warranted; existing obligations produced/caught the required handling."
+    }
+  ],
+  "not_claimed": [
+    "human learning",
+    "exhaustive latent-error detection",
+    "technically enforced reader isolation",
+    "live GitHub client rendering"
+  ]
+}

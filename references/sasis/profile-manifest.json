@@ -84,40 +84,41 @@
     "Original raw-source audit cache: C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\outputs\\ocr-baseline-20261007. The skill can be relocated; use its relative baseline/profile paths and official source URLs.",
     "No new student trial has run under this profile merely because these resources were installed. Verify live editions/placement before claiming freshness for a new run."
   ],
-  "protocol_revision": "2026-10-08-r6",
+  "protocol_revision": "2026-10-08-r7",
   "rewrite_guide": "rewrite-guide.md",
   "student_input_policy": {
     "subject_content_inputs": 2,
     "complete_baseline_required": true,
-    "baseline_read_before_task_design": true,
-    "baseline_supplied_afresh_each_independent_condition": true,
-    "baseline_must_not_be_removed_for_missing_bridge_controls": true,
-    "blocking_admission_record_required": true,
+    "complete_document_including_help_required": true,
+    "dedicated_fresh_reader_agent_required": true,
+    "fork_turns": "none",
+    "baseline_supplied_or_wholly_available_afresh_each_document_revision": true,
+    "full_baseline_read_required": true,
+    "same_call_current_input_recall_and_supported_deduction_allowed": true,
+    "cross_call_memory_may_supply_premises": false,
     "admission_modes": [
       "verified complete full-text delivery",
-      "separately labelled confined read-only retrieval of the whole two artefacts"
+      "explicitly labelled instruction-confined read-only retrieval of the two immutable artifacts"
     ],
-    "unestablished_delivery": "unverified; repair before admission",
-    "absent_mismatched_incomplete_or_truncated_baseline": "block dispatch; repair and freeze a new independent condition",
-    "same_call_recall_of_current_supplied_baseline_and_document_allowed": true,
-    "same_call_reuse_of_valid_deductions_from_current_inputs_allowed": true,
-    "cross_document_call_or_condition_recall_may_supplement_inputs": false,
-    "external_remembered_OCR_knowledge_may_supplement_inputs": false,
-    "author_designer_evaluator_external_subject_recollection_may_supplement_evidence": false,
-    "separate_fresh_call_per_teaching_document_revision_in_self_iteration": true,
-    "multiple_questions_in_same_frozen_call_may_share_supplied_content": true,
-    "question_order_and_supported_deduction_reuse_recorded": true,
-    "operational_recovery_records_are_student_content": false,
-    "technical_erasure_of_pretraining_claimed": false
+    "actual_access_ranges_and_limits_recorded": true,
+    "unestablished_delivery": "provisional input-access dispatch only; no substantive teaching acceptance",
+    "missing_mismatched_incomplete_input": "block substantive admission, repair and dispatch fresh condition",
+    "broad_tools_instruction_whitelist_is_technical_isolation": false,
+    "technical_erasure_of_pretraining_claimed": false,
+    "core_procedure": "sequential entire-document reading with meaning, availability, warrant, conclusion and accessibility evidence",
+    "mandatory_held_out_task_battery": false,
+    "reader_is_graded": false,
+    "prior_reader_report_is_content": false
   },
   "control_file_hashes": {
-    "student-role.txt": "959e4515bc61e14747ac24845b2481a5e03cb01db351894c524434ad426545a3",
-    "student-testing-contract.txt": "06be8ecb556e0eeb59264e00e30896ea917a8c61dd3f3f15bec2d1fcac0f8aff",
-    "rewrite-guide.md": "3f631507166243269f855291a3774720bcdf8413be5fde4c5cf51dc2e636b8e9"
+    "student-role.txt": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+    "student-testing-contract.txt": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10",
+    "rewrite-guide.md": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
   },
   "protocol_update_notes": [
     "Original reviewed-release provenance and hashes describe the unchanged 19 baseline/profile payloads.",
     "The 2026-10-08-r5 revision established the protocol, student operating instruction, testing contract and rewrite guide. Revision 2026-10-08-r6 clarifies that SASIS evaluates the notes and their supported connections; simulated responses are diagnostic evidence, and restriction controls establish evidence validity. control_file_hashes bind the current resources.",
-    "This update adds instructions and inspectable records; it does not install a runtime that can erase pretraining or mechanically guarantee semantic compliance. The 2026-10-08-r6 clarification runs no SASIS trials and does not claim an empirically validated improvement."
+    "This update adds instructions and inspectable records; it does not install a runtime that can erase pretraining or mechanically guarantee semantic compliance. The 2026-10-08-r6 clarification runs no SASIS trials and does not claim an empirically validated improvement.",
+    "2026-10-08-r7 implements Jonathan's explicit correction: SASIS is a dedicated fresh whole-document reader, not a task solver. Original frozen baseline files and their hashes are unchanged. Protocol preparation is not a lecture iteration or evidence of human outcomes."
   ]
 }

@@ -1,6 +1,6 @@
 {
   "call_id": "001-reader-v1",
-  "state": "provisional_until_reader_access_log",
+  "state": "admitted_instruction_confined_retrieval",
   "document": {
     "commit": "a82371f2ae8183927877bfd85759e73cf4e0b070",
     "document_path": "runs/y1-reader-20261008/iterations/001/teaching-v1.md",
@@ -31,5 +31,89 @@
   "context_capacity": "Not independently measured; no claim all content remains simultaneously in context. Re-fetch the two authorised inputs when needed.",
   "reader_grade": "none",
   "report_subject": "Teaching document's sequential meaning, available premises, justified connections and conclusions",
-  "scope": "Complete teaching-v1 paragraphsP01–P42 including hints/solutions. Source-visual limits kept outside reader input and separately audited."
+  "scope": "Complete teaching-v1 paragraphsP01–P42 including hints/solutions. Source-visual limits kept outside reader input and separately audited.",
+  "agent": "/root/sasis_l01_v1",
+  "access_evidence": {
+    "baseline_character_ranges": [
+      [
+        0,
+        18000
+      ],
+      [
+        17900,
+        36000
+      ],
+      [
+        35900,
+        54000
+      ],
+      [
+        53900,
+        72000
+      ],
+      [
+        71900,
+        90000
+      ],
+      [
+        89900,
+        108000
+      ],
+      [
+        107900,
+        126000
+      ],
+      [
+        125900,
+        144000
+      ],
+      [
+        143900,
+        162000
+      ],
+      [
+        161900,
+        180000
+      ],
+      [
+        179900,
+        198000
+      ],
+      [
+        197900,
+        216000
+      ],
+      [
+        215900,
+        234000
+      ],
+      [
+        233900,
+        246945
+      ]
+    ],
+    "document_character_ranges": [
+      [
+        0,
+        6500
+      ],
+      [
+        6400,
+        13000
+      ],
+      [
+        12900,
+        19500
+      ],
+      [
+        19400,
+        24006
+      ]
+    ],
+    "reader_returned_counts_match": true,
+    "baseline_end": "Chemistry CH-REF reference and verification-record paragraph",
+    "document_end": "P42",
+    "unauthorised_access": "none reported; role restricted to exact two paths; technical erasure/isolation not claimed",
+    "source": "Original reader report; orchestrator independently verified frozen fullfile hashes and continuous range coverage."
+  }
 }

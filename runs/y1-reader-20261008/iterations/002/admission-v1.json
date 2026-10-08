@@ -1,0 +1,44 @@
+{
+  "material_id": "D002",
+  "document_revision": "v1",
+  "frozen_commit": "f1c0e91c24e9140049d50c7ca965f41e36f3e1a2",
+  "incoming_prof": "2026-10-08-r8",
+  "admission_state": "admitted_after_complete_actual_input_access_verification",
+  "agent": "/root/sasis_d002_v1_fresh",
+  "fork_turns": "none",
+  "subject_content_inputs": 2,
+  "document_includes_markdown_and_one_referenced_PNG": true,
+  "files": [
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/sasis-d002-v1/baseline.txt",
+      "bytes": 247840,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "characters": 246945
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/sasis-d002-v1/document.md",
+      "bytes": 34994,
+      "sha256": "8139080278edb96287576629e7d80933b380c1b82af60d3ede888d500cb68a3a",
+      "characters": 34968
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/sasis-d002-v1/figures/unit-circle-proof-v1.png",
+      "bytes": 90094,
+      "sha256": "95616719d3035e9f174367b55c48ccb3e04a8cbf5105434115e4bddff0b3c75d",
+      "characters": null
+    }
+  ],
+  "delivery_mode": "instruction-confined read-only retrieval of exact frozen local copies",
+  "permitted_tools": "exec read-only retrieval of only baseline.txt/document.md; view_image for the exact document PNG; write original report only; no browsing, other-agent messaging or other subject-content retrieval",
+  "isolation_limit": "Instruction whitelist only; technically shared tools and pretrained knowledge are not erased. Valid warrants must come from two supplied subject inputs.",
+  "figure_read_order": "Read document through the figure reference at decoded offset 18952, inspect its PNG, then continue the document.",
+  "operating_instruction_resource_sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+  "operating_instruction_delivery": "Fresh dispatch prompt carries current reader-role rules, adapted to exact immutable artifact identities, read-only allowed tools, the PNG as document constituent, and full access-range reporting. Resource hash identifies the governing role file, not a claim of byte-identical task prompt.",
+  "original_report": "sasis-reader-v1-original.md",
+  "original_report_sha256": "0498bf746da06de82aebd0d7de1d6cc1df5406f64da6f54222834ac5a3c4d2d3",
+  "complete_document_order": "[0,18952), exact PNG viewed, [18952,34968) to EOF",
+  "complete_baseline_access": "See input-access-verification-v1.json; complete normalized delivery mapped exactly to all original decoded content. Newline-only delivery deviation preserved, no missing subject text.",
+  "lead_original_report_read": "Complete original report read without truncation before diagnosis; original bytes preserved.",
+  "operational_message": "Use read_bytes().decode(utf-8) for raw offsets because the baseline has mixed line endings; no subject feedback supplied. Reader had initially normalized line endings and independently verified full equivalence/range coverage.",
+  "unauthorized_subject_access_observed": false
+}

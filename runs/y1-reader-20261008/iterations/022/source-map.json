@@ -1,0 +1,104 @@
+{
+  "schema": "prof-source-preparation-v1",
+  "material_id": "D022",
+  "lecture_number": 24,
+  "title": "Numerical integration",
+  "audit_kind": "technical_source_only",
+  "asset": {
+    "resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec24/",
+    "asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/f141a3b7777511268cd1b1e1d21e38fb_lec24.pdf",
+    "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L24/lec24.pdf",
+    "sha256": "fb4de992b596cd707e31529a24fbe2bb2258a43e76ff5d7ce7e122b5b9c8d3da",
+    "bytes": 1182500,
+    "page_count": 6
+  },
+  "actual_sha256": "fb4de992b596cd707e31529a24fbe2bb2258a43e76ff5d7ce7e122b5b9c8d3da",
+  "hash_matches": true,
+  "pages": [
+    {
+      "page": 1,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L24/lec24-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L24/lec24-p01.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Cover",
+      "figures": []
+    },
+    {
+      "page": 2,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L24/lec24-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L24/lec24-p02.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Motivation and left Riemann sum; Figure 1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "page": 3,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L24/lec24-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L24/lec24-p03.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Trapezoids and composite formula; Figures 2-3",
+      "figures": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "page": 4,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L24/lec24-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L24/lec24-p04.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Simpson panel and weight addition; Figure 4",
+      "figures": [
+        "4"
+      ]
+    },
+    {
+      "page": 5,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L24/lec24-p05.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L24/lec24-p05.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Composite Simpson rule and constant check; Figure 5",
+      "figures": [
+        "5"
+      ]
+    },
+    {
+      "page": 6,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L24/lec24-p06.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L24/lec24-p06.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Example 1 values, trapezoid, Simpson, exact integral/error; Figure 6",
+      "figures": [
+        "6"
+      ]
+    }
+  ],
+  "all_text_pages_read": true,
+  "all_page_renders_individually_inspected": true,
+  "confirmed_errors": [
+    {
+      "pdf_page": 6,
+      "issue": "Simpson substitution multiplies endpoint value by 4 through misplaced parentheses",
+      "witness": "Printed expression is 31/30; correct Simpson value is 47/60"
+    }
+  ],
+  "conditions_and_omissions": [
+    "Equal spacing and even Simpson interval count",
+    "Signed integral versus geometric area",
+    "Panel derivation and cubic exactness omitted",
+    "Fourth-order error needs smoothness and is not a nonzero lower bound",
+    "No formula refers to elementary primitives"
+  ],
+  "external_sources": [],
+  "open_uncertainties": [],
+  "source_files_unchanged": true,
+  "source_review": "source-review.md"
+}

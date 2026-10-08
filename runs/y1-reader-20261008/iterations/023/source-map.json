@@ -1,0 +1,80 @@
+{
+  "schema": "prof-source-preparation-v1",
+  "material_id": "D023",
+  "lecture_number": 25,
+  "title": "Exam 3 review",
+  "audit_kind": "technical_source_only",
+  "asset": {
+    "resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec25/",
+    "asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/2a2c56d0665ea6c00add496287b1d41a_lec25.pdf",
+    "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L25/lec25.pdf",
+    "sha256": "e0769768a9ad051f19b34c8657d03d5537afe20d8dd877fb65ef29e069b42156",
+    "bytes": 607859,
+    "page_count": 4
+  },
+  "actual_sha256": "e0769768a9ad051f19b34c8657d03d5537afe20d8dd877fb65ef29e069b42156",
+  "hash_matches": true,
+  "pages": [
+    {
+      "page": 1,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L25/lec25-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L25/lec25-p01.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Cover",
+      "figures": []
+    },
+    {
+      "page": 2,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L25/lec25-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L25/lec25-p02.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Review topics; FTC; shell/washer formulas; work",
+      "figures": []
+    },
+    {
+      "page": 3,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L25/lec25-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L25/lec25-p03.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Pendulum setup and force projection; Figures 1-2",
+      "figures": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "page": 4,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L25/lec25-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L25/lec25-p04.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Pendulum work and vertical-drop interpretation; Figure 3",
+      "figures": [
+        "3"
+      ]
+    }
+  ],
+  "all_text_pages_read": true,
+  "all_page_renders_individually_inspected": true,
+  "confirmed_errors": [
+    {
+      "pdf_page": 2,
+      "issue": "FTC right side f(t) should be f(x)",
+      "witness": "f(t)=t gives derivative x"
+    }
+  ],
+  "conditions_and_omissions": [
+    "FTC continuity/integrability and endpoint scope",
+    "Nonnegative ordered radii, shell overlap and piecewise regions",
+    "Tangential signed work versus force magnitude",
+    "Pendulum angular direction, radians, circular constraint and uniform gravity",
+    "Conservative-cycle conclusion distinct from universal machine claim"
+  ],
+  "external_sources": [],
+  "open_uncertainties": [],
+  "source_files_unchanged": true,
+  "source_review": "source-review.md"
+}

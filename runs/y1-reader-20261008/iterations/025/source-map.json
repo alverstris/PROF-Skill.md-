@@ -1,0 +1,116 @@
+{
+  "schema": "prof-source-preparation-v1",
+  "material_id": "D025",
+  "lecture_number": 28,
+  "title": "Integration by inverse substitution; completing the square",
+  "audit_kind": "technical_source_only",
+  "asset": {
+    "resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec28/",
+    "asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/27cbacec1a8547e176f6d2367e244153_lec28.pdf",
+    "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L28/lec28.pdf",
+    "sha256": "e7c53d2b79d75aa14e619dc42751ce731e08b58f93952a45ef698ea7c86b7e4b",
+    "bytes": 874671,
+    "page_count": 6
+  },
+  "actual_sha256": "e7c53d2b79d75aa14e619dc42751ce731e08b58f93952a45ef698ea7c86b7e4b",
+  "hash_matches": true,
+  "pages": [
+    {
+      "page": 1,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L28/lec28-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L28/lec28-p01.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Cover",
+      "figures": []
+    },
+    {
+      "page": 2,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L28/lec28-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L28/lec28-p02.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Semicircle and substitution/bounds; Figure 1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "page": 3,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L28/lec28-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L28/lec28-p03.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Back-substitution/area result; Figure 2",
+      "figures": [
+        "2"
+      ]
+    },
+    {
+      "page": 4,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L28/lec28-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L28/lec28-p04.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Sector/triangle Figure 3; substitution table; square completion",
+      "figures": [
+        "3"
+      ]
+    },
+    {
+      "page": 5,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L28/lec28-p05.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L28/lec28-p05.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Square-completion primitive; Figure 4; rational preview",
+      "figures": [
+        "4"
+      ]
+    },
+    {
+      "page": 6,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L28/lec28-p06.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L28/lec28-p06.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Rational recombination and next-lecture teaser",
+      "figures": []
+    }
+  ],
+  "all_text_pages_read": true,
+  "all_page_renders_individually_inspected": true,
+  "confirmed_errors": [
+    {
+      "pdf_page": 3,
+      "issue": "u/4 intermediate coefficient should be u/2"
+    },
+    {
+      "pdf_page": 5,
+      "issue": "Spurious factor 2 before secant in integral"
+    },
+    {
+      "pdf_page": 4,
+      "issue": "dv definition omits du"
+    },
+    {
+      "pdf_page": 5,
+      "issue": "Logarithm formulas omit absolute values/domain restriction; negative x branch fails"
+    },
+    {
+      "pdf_page": 6,
+      "issue": "Final unevaluated integral omits dx; minor notation"
+    }
+  ],
+  "conditions_and_omissions": [
+    "a positive and principal inverse-trig branch",
+    "Full branch endpoints versus actual definite-integral limits",
+    "Positive triangle lengths and negative-domain extensions",
+    "Square-root absolute values, real components and excluded singular endpoints",
+    "Rational primitives componentwise; no pole-crossing convergence claim"
+  ],
+  "external_sources": [],
+  "open_uncertainties": [],
+  "source_files_unchanged": true,
+  "source_review": "source-review.md"
+}

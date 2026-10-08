@@ -1,0 +1,14 @@
+[
+  {
+    "command": "prof_state.py check --topic limits-rates-continuity",
+    "exit_code": 0,
+    "stdout": "MECHANICALLY_READY \u2014 topic:limits-rates-continuity\nThis checks declared records, file/locator existence and revision freshness only. Source reads, web reads, applicability, waivers and semantic reviews are self-reported. It does not certify teaching quality, learner mastery, authorization, or skill invocation/application.\nlimits-rates-continuity: pass=12\nAuthor remains responsible for substantive acceptance and honest delivery.\n",
+    "stderr": ""
+  },
+  {
+    "command": "prof_state.py check",
+    "exit_code": 1,
+    "stdout": "NOT_READY \u2014 full declared project\nThis checks declared records, file/locator existence and revision freshness only. Source reads, web reads, applicability, waivers and semantic reviews are self-reported. It does not certify teaching quality, learner mastery, authorization, or skill invocation/application.\nlimits-rates-continuity: pass=12\nREADINESS ITEM output_check.destination_render: not ready: unverified\nREADINESS ITEM output_check.fresh_sasis: not ready: unverified\nAddress the listed readiness items: repair actual defects or await required student information. Recheck affected teaching and dependencies before updating recorded hashes; do not invent resolution to obtain a clean status.\n",
+    "stderr": ""
+  }
+]

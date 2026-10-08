@@ -1,0 +1,112 @@
+{
+  "schema": "prof-source-preparation-v1",
+  "material_id": "D024",
+  "lecture_number": 26,
+  "title": "Trigonometric integrals and substitution",
+  "audit_kind": "technical_source_only",
+  "asset": {
+    "resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec26/",
+    "asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/b25e2ddd293746020ae78af50cb30372_lec26.pdf",
+    "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L26/lec26.pdf",
+    "sha256": "7846771d22c62c3c6004450f7d116187c2925c49d821b89fb640a3fd63e813ad",
+    "bytes": 517179,
+    "page_count": 6
+  },
+  "actual_sha256": "7846771d22c62c3c6004450f7d116187c2925c49d821b89fb640a3fd63e813ad",
+  "hash_matches": true,
+  "pages": [
+    {
+      "page": 1,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L26/lec26-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L26/lec26-p01.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Cover",
+      "figures": []
+    },
+    {
+      "page": 2,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L26/lec26-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L26/lec26-p02.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Method A and Examples 1-2",
+      "figures": []
+    },
+    {
+      "page": 3,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L26/lec26-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L26/lec26-p03.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Method B, Example 3, secant identities",
+      "figures": []
+    },
+    {
+      "page": 4,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L26/lec26-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L26/lec26-p04.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Tangent, secant-fourth, odd-tangent and secant primitives",
+      "figures": []
+    },
+    {
+      "page": 5,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L26/lec26-p05.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L26/lec26-p05.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Secant derivation and semicircle; Figure 1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "page": 6,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L26/lec26-p06.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L26/lec26-p06.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Circle partial-area substitution and limits; Figure 2",
+      "figures": [
+        "2"
+      ]
+    }
+  ],
+  "all_text_pages_read": true,
+  "all_page_renders_individually_inspected": true,
+  "confirmed_errors": [
+    {
+      "pdf_page": 2,
+      "issue": "Example 1 back-substitution cos^3 u should be cos^3 x"
+    },
+    {
+      "pdf_page": 3,
+      "issue": "Double-angle intermediate sin^2 must be cos^2"
+    },
+    {
+      "pdf_page": 3,
+      "issue": "Secant identity denominator cos^3 should be cos^2"
+    },
+    {
+      "pdf_page": 4,
+      "issue": "Tangent and secant logarithms lack absolute values or positivity restrictions; repeated p5"
+    },
+    {
+      "pdf_page": 5,
+      "issue": "Middle secant derivation expression omits integral sign"
+    }
+  ],
+  "conditions_and_omissions": [
+    "Radian arguments and secant/tangent domain components",
+    "Positive radius and principal arcsine branch for square root",
+    "Signed area for negative upper limit; endpoint continuity",
+    "Even-secant polynomial strategy needs n>=2; zero-exponent base cases",
+    "Deferred cases and omitted final simplification"
+  ],
+  "external_sources": [],
+  "open_uncertainties": [],
+  "source_files_unchanged": true,
+  "source_review": "source-review.md"
+}

@@ -1,0 +1,21 @@
+D002 closure: MIT 18.01 Fall 2006, Lecture 2
+
+Incoming PROF r8; outgoing progression r9, effective after verified publication to main. This is the second closed iteration of the 76 eligible source packets. The full 147-session inventory and 71 precise exclusions remain preserved.
+
+Final teaching is teaching-v1.md plus figures/unit-circle-proof-v1.png, frozen at f1c0e91c24e9140049d50c7ca965f41e36f3e1a2. Teaching SHA256: 8139080278edb96287576629e7d80933b380c1b82af60d3ede888d500cb68a3a. PNG SHA256: 95616719d3035e9f174367b55c48ccb3e04a8cbf5105434115e4bddff0b3c75d. Neither changed after author handoff.
+
+| Gate | Actual evidence and disposition |
+| --- | --- |
+| Full source packet | The source preparer and fresh author each read all twelve original PDF pages and all fifteen figures. Exact identity, source errors, mathematical conditions and coverage appear in source-review.md, source-map.json and author-record-v1.md. No assigned source portion is missing. |
+| Authoring and ordinary PROF | The fresh author read the complete operational four-subject baseline and actual incoming skill/references, then authored P01–P72, six meaningful applications with separate grouped hints/full solutions and one proof diagram. C00–C12 and R1–R6 in the author record show actual coverage and prerequisite-to-use reconstruction; all T1–T12 have substantive witnesses. |
+| Fresh SASIS admission | /root/sasis_d002_v1_fresh was launched with fork_turns:none and only the full baseline plus complete frozen document including PNG as subject inputs. admission-v1.json and input-access-verification-v1.json verify identities and complete access. The initial line-ending normalization is preserved with exact mapped ranges, not concealed as a raw-offset read. |
+| Full reader review | sasis-reader-v1-original.md is preserved byte-for-byte. It covers every substantive P01–P72 passage, PNG, question, hint and solution with baseline/document warrants. No consequential teaching defect or blocked current dependency is established. The limited arbitrary-domain concern and source-verification boundary have explicit dispositions. |
+| Independent correctness | technical-review-v1.md records the lead's complete final-document read and independent calculations/proof/condition checks. It agrees with the source audit and bounded pre-solution mathematics checker. All six complete answers and the noncircular trigonometric proofs were checked. |
+| Actual output representation | All 330 inline and 24 display math payloads match the delivered GitHub renderer inputs. Complete article text, P01–P72 order, plain typography, all 41 internal references and unique target markup agree. Public raw text and PNG hashes match. All eleven complete local preview pages were visually inspected without defects. Original render report and structured results are retained. |
+| Issue resolution | issues.json preserves source mistakes, pre-freeze formatting repair, reader input accounting and all bounded concerns/limits. No supported material issue remains unresolved in the requested scope. |
+| Mechanical bookkeeping | Full declared-project check returned MECHANICALLY_READY under incoming r8; full-state-check-v1.json. This is presence/freshness bookkeeping, distinct from all semantic and visual evidence above. |
+| Outgoing skill | r9 changes only the metadata progression identifier. Exact inverse and unchanged controls are in outgoing-control-checks.json; the empty teaching-change dependency scope and D001 carry-forward are explained in dependency-review-v1.md. No improvement claim is manufactured. |
+
+Live GitHub client pixels, MathJax execution, responsive layout and click execution remain unobserved. Acceptance is for the inspected destination markup/image and complete local mathematical-preview evidence, not an unperformed browser check. Source endpoint-dot intent and unspecified units are also left honestly unspecified; no presented mathematical result depends on inventing them.
+
+No model review proves human learning, retention or absence of every latent error. Preserve this evidence and reopen affected earlier checks if a later substantive skill change warrants it. Publish with an expected-head check, verify/reload the actual resulting r9, then begin D003 with a fresh author and reader cycle.

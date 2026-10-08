@@ -1,0 +1,143 @@
+{
+  "schema": "prof-source-preparation-v1",
+  "material_id": "D027",
+  "lecture_number": 30,
+  "title": "Integration by parts, reduction formulae",
+  "audit_kind": "technical_source_only",
+  "asset": {
+    "resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec30/",
+    "asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/e2ae9ec87ea3cb1a02d02400c4c2a276_lec30.pdf",
+    "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30.pdf",
+    "sha256": "e33d3476478c0d0d1b26e6487ec4fb66544c12fc7b20941e5ef9c4c93dd8a8a1",
+    "bytes": 1481979,
+    "page_count": 9
+  },
+  "actual_sha256": "e33d3476478c0d0d1b26e6487ec4fb66544c12fc7b20941e5ef9c4c93dd8a8a1",
+  "hash_matches": true,
+  "pages": [
+    {
+      "page": 1,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p01.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Cover",
+      "figures": []
+    },
+    {
+      "page": 2,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p02.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Integration by parts and arctangent Example 1",
+      "figures": []
+    },
+    {
+      "page": 3,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p03.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Definite formula, logarithm Example 2, recurrences Examples 3-4",
+      "figures": []
+    },
+    {
+      "page": 4,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p04.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Exponential recurrence; nonelementary assertions; finite and divergent parameter integrals",
+      "figures": []
+    },
+    {
+      "page": 5,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p05.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p05.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Arc-length differential; Figures 1-2",
+      "figures": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "page": 6,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p06.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p06.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Graph-length formula; circle Example 5; Figures 3-4",
+      "figures": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "page": 7,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p07.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p07.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Unit-circle arc computation; Figure 5",
+      "figures": [
+        "5"
+      ]
+    },
+    {
+      "page": 8,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p08.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p08.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Unit-circle angle Figure 6; parametrized circle Example 6",
+      "figures": [
+        "6"
+      ]
+    },
+    {
+      "page": 9,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p09.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L30/lec30-p09.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Circle Figure 7; ellipse Example 7/Figure 8; circle ds",
+      "figures": [
+        "7",
+        "8"
+      ]
+    }
+  ],
+  "all_text_pages_read": true,
+  "all_page_renders_individually_inspected": true,
+  "confirmed_errors": [
+    {
+      "pdf_page": 3,
+      "issue": "Example 3 v'=dx should be v'=1 or dv=dx"
+    },
+    {
+      "pdf_page": 4,
+      "issue": "Integral from 1 to infinity of e^x/x^a diverges for every real a; not a finite-valued parameter family"
+    },
+    {
+      "pdf_page": 6,
+      "issue": "Figure 4 caption misreferences Example 1 instead of 5"
+    }
+  ],
+  "conditions_and_omissions": [
+    "Integration by parts regularity and improper-limit conditions",
+    "Integer recurrence termination and logarithm domain",
+    "Impossible/always numerical claims require qualification",
+    "Arc-length nonnegative differential and regularity; endpoint improper limit",
+    "Unit-circle a in [0,1] versus later positive radius a",
+    "Parameter orientation and repeated traversal"
+  ],
+  "external_sources": [],
+  "open_uncertainties": [
+    "Non-elementarity classification is asserted by source; no independent differential-algebra proof claimed"
+  ],
+  "source_files_unchanged": true,
+  "source_review": "source-review.md"
+}

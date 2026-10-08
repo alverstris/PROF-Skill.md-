@@ -1,0 +1,325 @@
+{
+  "material_id": "D018",
+  "stable_id": "mit-18-01-fall-2006-L20",
+  "title": "Second fundamental theorem",
+  "scope": "Complete lecture-specific original source packet only; no PROF evaluation, teaching authoring, SASIS, iteration closure, repository edit or GitHub write.",
+  "review_date": "2026-10-08",
+  "source": {
+    "index_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/",
+    "resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec20/",
+    "asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/3cd98c68cec64e9214c8c9003f6cf983_lec20.pdf",
+    "local_pdf": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L20/lec20.pdf",
+    "sha256": "711e84263db3b675c39d18aa1951a55a4f026783732924324b6578913360c990",
+    "sha256_recomputed": "711e84263db3b675c39d18aa1951a55a4f026783732924324b6578913360c990",
+    "sha256_independently_verified": true,
+    "page_count": 5,
+    "audit_path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/readability-audit/1801-notes.json"
+  },
+  "coverage": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "topics": [
+        "MIT OCW course identity, Fall 2006 and terms/citation notice"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L20/lec20-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L20/lec20-p01.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": 1,
+      "topics": [
+        "FTC 1 recall and endpoint evaluation of indefinite antiderivative",
+        "Existence of integral-defined antiderivatives; Gaussian and other examples",
+        "FTC 2 with continuity assumption",
+        "Geometric increment approximation and derivative limit"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L20/lec20-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L20/lec20-p02.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": 2,
+      "topics": [
+        "FTC 2 area diagram",
+        "Average-integral difference quotient proof",
+        "Proof of FTC 1 via FTC 2 and mean value theorem",
+        "Remark distinguishing integral-defined G from arbitrary antiderivative F; sin/cos example begins"
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "description": "Positive increasing curve above [a,x+Δx]; light region F(x), darker strip ΔF; labels a,x,x+Δx and y axis."
+        }
+      ],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L20/lec20-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L20/lec20-p03.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": 3,
+      "topics": [
+        "Continuation F=sin x+21 example",
+        "Error-function definition, limit and graph",
+        "Li(x)=integral_2^x dt/ln t and approximate prime counts",
+        "Cryptography motivation and proposed 200-digit interval",
+        "Endpoint logarithm estimates 200 ln10 and 201 ln10"
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "description": "Odd increasing S-shaped erf curve through origin, flattening at both ends; axes have no numerical ticks."
+        }
+      ],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L20/lec20-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L20/lec20-p04.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 4,
+      "topics": [
+        "Constant-denominator approximation of prime-count integral",
+        "Cryptography probability assertion",
+        "Fresnel integral definitions and C-prime(x)=cos(x²)",
+        "Bessel J0 integral representation",
+        "Next-lecture L(x)=integral_1^x dt/t",
+        "Footnote integral of constant c over [a,b]"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L20/lec20-p05.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L20/lec20-p05.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "D018-E01",
+      "classification": "confirmed_integrand_source_errors",
+      "pages": [
+        3,
+        4
+      ],
+      "location": "Remark at end of printed2 and opening displayed integral on printed3",
+      "observation": "Remark announces f(x)=sin x but computes G=integral cos t=sin x. Next page correctly gives F=sin x+21 and F-prime=cos x, yet prints integral sin x=sin b-sin a.",
+      "resolution": "Use f=cos x in the remark and cos x as the integrand on PDF4; then the displayed F,G and endpoint difference are consistent.",
+      "derivation": "Differentiating sin x+21 gives cos x. Counterexample a=0,b=π: integral sin x=2 but sinπ-sin0=0.",
+      "printed_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "D018-E02",
+      "classification": "confirmed_special_function_normalization_error",
+      "pages": [
+        5
+      ],
+      "location": "Bessel J0 displayed formula",
+      "observation": "Source prints J0(x)=(1/(2π)) integral_0^π cos(x sinθ)dθ.",
+      "resolution": "For these limits, replace 1/(2π) by 1/π. NIST DLMF Eq.10.9.1 gives the standard formula.",
+      "derivation": "At x=0 the printed expression equals 1/2, while the standard normalized J0(0)=1. Doubling the integration interval to 2π would alternatively make the source prefactor valid; no such upper limit is printed.",
+      "printed_pages": [
+        4
+      ]
+    },
+    {
+      "id": "D018-E03",
+      "classification": "confirmed_digit_interval_error",
+      "pages": [
+        4,
+        5
+      ],
+      "location": "Integral offered for number of 200-digit primes",
+      "observation": "The limits 10^200 to 10^201 count the 201-digit range, not the 200-digit range (prime endpoints are absent).",
+      "resolution": "Use 10^199≤p<10^200 for 200-digit primes, so the approximation is integral_(10^199)^(10^200) dt/ln t.",
+      "derivation": "A positive integer has d decimal digits iff 10^(d-1)≤n<10^d. This elementary check settles the mismatch.",
+      "printed_pages": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "D018-E04",
+      "classification": "confirmed_lower_bound_typo",
+      "pages": [
+        5
+      ],
+      "location": "First sentence: ln t approximately 500",
+      "observation": "The source prints the range 200≤t≤10^201. The lower limit required by its own calculation is 10^200.",
+      "resolution": "For the printed integral use 10^200≤t≤10^201. For a corrected 200-digit computation use 10^199≤t≤10^200.",
+      "derivation": "ln200≈5.3, so ln t≈500 is not a uniform rough approximation on the printed literal range.",
+      "printed_pages": [
+        4
+      ]
+    },
+    {
+      "id": "D018-E05",
+      "classification": "precision_mismatch_in_approximation",
+      "pages": [
+        5
+      ],
+      "location": "Final approximation to 10^198",
+      "observation": "The source declares one significant figure but changes 9×10^200/500=1.8×10^198 to approximately 10^198.",
+      "resolution": "Treat 10^198 only as an order-of-magnitude estimate; rounding 1.8×10^198 to one significant figure gives 2×10^198. The corrected 200-digit integral has magnitude about 2×10^197.",
+      "derivation": "For its printed interval, monotonicity bounds the integral between 9×10^200/(201 ln10) and 9×10^200/(200 ln10), approximately 1.9446×10^198 and 1.9543×10^198. These bounds concern the integral, not a proven exact prime count.",
+      "printed_pages": [
+        4
+      ]
+    },
+    {
+      "id": "D018-G01",
+      "classification": "abbreviated_limit_proof",
+      "pages": [
+        2,
+        3
+      ],
+      "location": "Geometric/average proof of FTC 2",
+      "observation": "The source uses approximate rectangle area and then states that the average tends to f(x), without an explicit error bound or negative-increment discussion.",
+      "resolution": "For an interior x and h of either sign, use oriented integrals and bound the difference from f(x).",
+      "derivation": "|(F(x+h)-F(x))/h-f(x)| ≤ sup_{|t-x|≤|h|}|f(t)-f(x)|→0 by continuity. This completes the proof for both signs and does not require positivity of f. At an endpoint the corresponding one-sided statement holds.",
+      "printed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "D018-C01",
+      "classification": "integral_domain_conditions",
+      "pages": [
+        2,
+        4,
+        5
+      ],
+      "location": "New-function examples and Li,L definitions",
+      "observation": "Continuity is correctly required by FTC 2; several displayed examples need domains.",
+      "resolution": "For real x^(1/2)e^(-x²) use x≥0; for sin x/x fill the removable value 1 at 0 if integrating across 0. The ordinary integral from 2 of 1/ln t stays on x>1; L from 1 of 1/t stays on x>0.",
+      "derivation": "The integrands 1/ln t and 1/t have singularities at 1 and 0 respectively. The source neither defines a principal value nor an improper continuation, so none is assumed.",
+      "printed_pages": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "D018-C02",
+      "classification": "special_function_convention_not_error",
+      "pages": [
+        5
+      ],
+      "location": "Fresnel C and S definitions",
+      "observation": "The source uses integrands cos(t²), sin(t²); common standard normalization uses cos(πt²/2), sin(πt²/2).",
+      "resolution": "These source-defined functions are valid scaled Fresnel integrals; retain its explicit convention and C-prime(x)=cos(x²).",
+      "derivation": "If Cstd(z)=integral_0^z cos(πt²/2)dt, then Csource(x)=sqrt(π/2) Cstd(sqrt(2/π)x), and likewise S. This is a change-of-variable derivation; the normalization difference is not a source error.",
+      "printed_pages": [
+        4
+      ]
+    },
+    {
+      "id": "D018-G02",
+      "classification": "external_theorem_not_proved_in_packet",
+      "pages": [
+        4,
+        5
+      ],
+      "location": "Li as approximation to prime counts",
+      "observation": "The prime-count connection is asserted, not derived from FTC 2. NIST DLMF §27.12 supplies a prime-number theorem estimate relative to logarithmic integral.",
+      "resolution": "Treat prime counting as a specialized application imported from number theory. Do not infer an exact count or a numerical error bound solely from the rectangular estimate.",
+      "derivation": "The integral denominator bounds are elementary; controlling the difference between π(x) and Li(x) requires additional theory. The base-2 Li differs from other conventions by a constant.",
+      "printed_pages": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "D018-G03",
+      "classification": "unsupported_security_inference_and_oversimplification",
+      "pages": [
+        4,
+        5
+      ],
+      "location": "Secret prime and hacker-odds prose",
+      "observation": "A large number of candidate primes is used to infer cryptographic safety; the scheme, attacker and probability model are not specified.",
+      "resolution": "The prime-count illustration cannot establish security. If RSA is intended, its public modulus has at least two prime factors and decryption uses a private exponent or an equivalent factor-based representation, not simply an unexplained secret-prime search.",
+      "derivation": "RFC8017 §§3.1–3.2 describes modulus, public exponent and private-key representations. Candidate count alone does not constrain an algorithm exploiting structure; even an arbitrarily large key set is not secure when the key is disclosed. This is a logical limitation, not a current security recommendation.",
+      "printed_pages": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "D018-S01",
+      "classification": "reviewer_supplementary_function_checks",
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "location": "FTC1 proof and erf/Fresnel checks",
+      "observation": "The abstract FTC1 proof from FTC2 is correct; the later illustration has the separately recorded typos. erf definition and positive-infinity limit agree with NIST.",
+      "resolution": "Keep the valid proof: F-prime=G-prime implies F-G constant on a connected interval, and G(a)=0.",
+      "derivation": "erf-prime(x)=2exp(-x²)/sqrtπ>0 and erf-double-prime(x)=-4x exp(-x²)/sqrtπ; symmetry of the integrand makes erf odd. This verifies the schematic graph. C-prime and S-prime follow immediately from FTC2.",
+      "printed_pages": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "independent_checks": [
+    "Read all FTC hypotheses, geometric increments and average-value expressions; verified signed-increment proof supplement.",
+    "Verified zero derivative implies constant via MVT on a connected interval and cancellation of the antiderivative constant.",
+    "Independently differentiated the sine/cosine example to isolate its errors.",
+    "Checked erf normalization, monotonicity, oddness and curvature; checked specialized infinity value against NIST.",
+    "Checked digit ranges, powers of ten, constant-integral footnote and monotonic denominator bounds.",
+    "Checked Fresnel source convention, FTC derivative, Bessel normalization at zero and L-domain."
+  ],
+  "external_research": {
+    "needed": true,
+    "reason": "Specialized normalizations and prime/security assertions require primary-reference verification.",
+    "sources": [
+      {
+        "url": "https://dlmf.nist.gov/10.9.E1",
+        "locator": "Eq.10.9.1",
+        "supports": "Bessel J0 normalization 1/π for integration 0 to π",
+        "retrieved": "2026-10-08"
+      },
+      {
+        "url": "https://dlmf.nist.gov/7.2",
+        "locator": "Eqs.7.2.1,7.2.4,7.2.7,7.2.8",
+        "supports": "erf definition and infinity limit; normalized Fresnel convention",
+        "retrieved": "2026-10-08"
+      },
+      {
+        "url": "https://dlmf.nist.gov/27.12",
+        "locator": "Eq.27.12.5 and prime number theorem discussion",
+        "supports": "Asymptotic link between prime count and logarithmic integral",
+        "retrieved": "2026-10-08"
+      },
+      {
+        "url": "https://www.rfc-editor.org/rfc/rfc8017.html",
+        "locator": "Sections 3.1 and 3.2",
+        "supports": "RSA modulus and private-key representations",
+        "retrieved": "2026-10-08"
+      }
+    ]
+  },
+  "unreadable_or_unreviewed_portions": [],
+  "unresolved_limits": [
+    "Non-elementary antiderivative impossibility is not proved here: the source says these are new functions, and this review does not supply differential-algebraic non-elementarity proofs.",
+    "Exact prime counts and finite error certification were not computed; only the integral estimate and cited asymptotic connection were checked.",
+    "The optics/circular-symmetry application labels are contextual; their physical derivations are outside this packet."
+  ],
+  "technical_disposition": "FTC2 and the abstract deduction of FTC1 are mathematically sound with the explicit limiting estimate supplied. The illustrative sin/cos mismatches, Bessel normalization, digit range, missing exponent in a bound and claimed precision are actual source defects. The prime theorem and security motivation are kept separate from proved calculus; no security conclusion is certified.",
+  "review_status": "source_review_complete"
+}

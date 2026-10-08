@@ -1,0 +1,95 @@
+{
+  "schema": "prof-source-preparation-v1",
+  "material_id": "D028",
+  "lecture_number": 31,
+  "title": "Parametric equations, arclength, surface area",
+  "audit_kind": "technical_source_only",
+  "asset": {
+    "resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec31/",
+    "asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/4e595a52d48ece2a2d6b9cc8fd71136a_lec31.pdf",
+    "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L31/lec31.pdf",
+    "sha256": "bb9c961070896a4290b78aa35cdfcd794cb7ac87318f40c7fdb86f4f2332a85e",
+    "bytes": 980981,
+    "page_count": 5
+  },
+  "actual_sha256": "bb9c961070896a4290b78aa35cdfcd794cb7ac87318f40c7fdb86f4f2332a85e",
+  "hash_matches": true,
+  "pages": [
+    {
+      "page": 1,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L31/lec31-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L31/lec31-p01.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Cover",
+      "figures": []
+    },
+    {
+      "page": 2,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L31/lec31-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L31/lec31-p02.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Parametric length Example 1; two-panel Figure 1",
+      "figures": [
+        "1-left",
+        "1-right"
+      ]
+    },
+    {
+      "page": 3,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L31/lec31-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L31/lec31-p03.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Surface strip; trumpet Example 2; Figures 2-3",
+      "figures": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "page": 4,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L31/lec31-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L31/lec31-p04.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Trumpet area and trig substitution; sphere Example 3/Figure 4",
+      "figures": [
+        "4"
+      ]
+    },
+    {
+      "page": 5,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L31/lec31-p05.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L31/lec31-p05.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Sphere zone and whole/half sphere calculations",
+      "figures": []
+    }
+  ],
+  "all_text_pages_read": true,
+  "all_page_renders_individually_inspected": true,
+  "confirmed_errors": [
+    {
+      "pdf_page": 2,
+      "issue": "Cartesian exponent y=x^(2/3) should be y=x^(3/2)"
+    },
+    {
+      "pdf_page": 5,
+      "issue": "Top half of sphere wording should identify the generating top half of circle; final areas correct"
+    }
+  ],
+  "conditions_and_omissions": [
+    "Nonnegative speed and t>=0; zero velocity endpoint allowed",
+    "Radius absolute value and one sweep without retracing",
+    "Curved surfaces exclude disk end caps",
+    "Thin strip formula is limiting; sphere endpoint product handled by limit",
+    "Ordered band bounds and principal tangent branch"
+  ],
+  "external_sources": [],
+  "open_uncertainties": [],
+  "source_files_unchanged": true,
+  "source_review": "source-review.md"
+}

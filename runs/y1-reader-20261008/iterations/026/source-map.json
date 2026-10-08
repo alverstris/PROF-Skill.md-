@@ -1,0 +1,78 @@
+{
+  "schema": "prof-source-preparation-v1",
+  "material_id": "D026",
+  "lecture_number": 29,
+  "title": "Partial fractions",
+  "audit_kind": "technical_source_only",
+  "asset": {
+    "resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec29/",
+    "asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/9715437d38fdfc4b91095d1b20920b79_lec29.pdf",
+    "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L29/lec29.pdf",
+    "sha256": "e3fbda25f5094d4d8cc1e519ff389c7bef954a47f38dae4062d484205bad9dcc",
+    "bytes": 149696,
+    "page_count": 4
+  },
+  "actual_sha256": "e3fbda25f5094d4d8cc1e519ff389c7bef954a47f38dae4062d484205bad9dcc",
+  "hash_matches": true,
+  "pages": [
+    {
+      "page": 1,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L29/lec29-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L29/lec29-p01.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Cover",
+      "figures": []
+    },
+    {
+      "page": 2,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L29/lec29-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L29/lec29-p02.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Simple linear-factor decomposition and cover-up",
+      "figures": []
+    },
+    {
+      "page": 3,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L29/lec29-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L29/lec29-p03.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Cover-up markings; repeated pole; irreducible-quadratic setup",
+      "figures": []
+    },
+    {
+      "page": 4,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L29/lec29-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L29/lec29-p04.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Quadratic coefficients/integral; tenth powers and tangent substitution",
+      "figures": []
+    }
+  ],
+  "all_text_pages_read": true,
+  "all_page_renders_individually_inspected": true,
+  "confirmed_errors": [
+    {
+      "pdf_page": 3,
+      "issue": "Repeated-factor B intermediate numerator x^2+1 should be x^2+2"
+    },
+    {
+      "pdf_page": 3,
+      "issue": "Repeated-factor C intermediate square is attached to fraction rather than denominator (x-1)^2"
+    }
+  ],
+  "conditions_and_omissions": [
+    "Domain components and limits in cover-up",
+    "Polynomial division for improper rational functions",
+    "Repeated irreducible quadratics not fully demonstrated",
+    "Direct cover-up versus derivative-assisted repeated-pole coefficients",
+    "Last cos^18 integral intentionally unevaluated but finite reduction verified"
+  ],
+  "external_sources": [],
+  "open_uncertainties": [],
+  "source_files_unchanged": true,
+  "source_review": "source-review.md"
+}

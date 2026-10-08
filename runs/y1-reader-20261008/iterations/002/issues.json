@@ -1,0 +1,105 @@
+{
+  "material_id": "D002",
+  "document_revision": "v1",
+  "document_sha256": "8139080278edb96287576629e7d80933b380c1b82af60d3ede888d500cb68a3a",
+  "all_supported_material_issues_resolved": true,
+  "issues": [
+    {
+      "id": "SRC01",
+      "kind": "false source branch condition",
+      "evidence": "source-review.md F01, PDF4/printed3; teaching P18–P19",
+      "disposition": "Source figure/continuation identify x≤0 for −x. Corrected branches, left/right limits and point value independently verified; reader reconstructs them.",
+      "state": "resolved",
+      "blocks_closure": false
+    },
+    {
+      "id": "SRC02",
+      "kind": "false source side labels",
+      "evidence": "source-review.md F02, PDF6/printed5; teaching P15/P20",
+      "disposition": "Use approach-side definitions confirmed by source PDF5. All examples/help retain correct +/− input sides.",
+      "state": "resolved",
+      "blocks_closure": false
+    },
+    {
+      "id": "SRC03",
+      "kind": "false source geometric referent",
+      "evidence": "source-review.md F03, PDF11/printed10; teaching P34–P41 and PNG",
+      "disposition": "Arc length θ, vertical sinθ and horizontal gap 1−cosθ are separately constructed and used. Independent proof and reader witnesses agree.",
+      "state": "resolved",
+      "blocks_closure": false
+    },
+    {
+      "id": "SRC04",
+      "kind": "ambiguous source notation/conditions",
+      "evidence": "source-review.md F04–F06; teaching P05–P06/P15–P22",
+      "disposition": "Explicit increment substitution, right-only source limit and finite removable-limit conditions prevent the ambiguous readings.",
+      "state": "resolved",
+      "blocks_closure": false
+    },
+    {
+      "id": "SRC05",
+      "kind": "source proof gaps",
+      "evidence": "source-review.md F07–F08; teaching P34–P42",
+      "disposition": "Area inequalities, noncircular cosine bound, squeeze and negative-angle extensions provide the omitted reasoning. Root independent review and fresh reader cover each dependency.",
+      "state": "resolved",
+      "blocks_closure": false
+    },
+    {
+      "id": "SRC06",
+      "kind": "source parity ambiguity",
+      "evidence": "source-review.md F09; teaching P28–P29/P31/Q4/S4",
+      "disposition": "Paired differentiability and symmetric-domain conditions are explicit; both forward derivative rules are proved and the false converse refuted. Changed-origin application verifies domain sensitivity.",
+      "state": "resolved",
+      "blocks_closure": false
+    },
+    {
+      "id": "SRC07",
+      "kind": "unestablished source intent/data",
+      "evidence": "source-review.md F10; teaching P30–P32/P64–P67; reader issue section",
+      "disposition": "Original units and endpoint-dot convention remain unspecified. Teaching supplies exact interior and explicitly named one-sided results plus conditional polynomial-extension interpretation, with no result depending on selecting an absent course convention. No building height or physical extension is invented.",
+      "state": "bounded_source_uncertainty_no_dependent_block",
+      "blocks_closure": false
+    },
+    {
+      "id": "OUT01",
+      "kind": "pre-freeze author formatting issue",
+      "evidence": "Author record mechanical-check paragraph; lead pre-freeze P26 review",
+      "disposition": "Markdown table header risk removed before freezing; P26 now plain prose with exact four triples. Frozen GitHub article has no bold/italic/heading tags. Existing T11 covers the action; no new rule warranted.",
+      "state": "resolved",
+      "blocks_closure": false
+    },
+    {
+      "id": "IN01",
+      "kind": "reader line-ending range accounting",
+      "evidence": "sasis-reader-v1-original.md input section; input-access-verification-v1.json",
+      "disposition": "Initial reading normalized line endings. Reader preserved all actual normalized ranges and verified complete raw correspondence; lead independently reproduced every mapped boundary and complete union to raw EOF. No subject text missing and hashes match. Report admitted without relabeling original ranges as raw.",
+      "state": "resolved",
+      "blocks_closure": false
+    },
+    {
+      "id": "RD01",
+      "kind": "limited arbitrary-domain definition concern",
+      "evidence": "Original reader issue P03/P15/P70",
+      "disposition": "The reader does not establish a defect. All actual examples use interval or punctured-interval domains with the needed approaching inputs; theorem uses an interior point. Approach wording is not promoted to a formal definition for isolated arbitrary domains. No current conclusion or dependency is blocked; reconsider if future scope introduces those domains. No gratuitous document/skill repair.",
+      "state": "resolved",
+      "blocks_closure": false
+    },
+    {
+      "id": "RD02",
+      "kind": "reader source-fidelity boundary",
+      "evidence": "Original reader P01/P18/P19/P20/P27/P30/P32/P35/P51",
+      "disposition": "The restricted reader correctly did not inspect the original source. Source fidelity is separately supported by all12original pages/all15figures read by both preparer and author, exact source map, independent source corrections and lead comparison. This boundary is not a teaching defect or permission to add source inputs to SASIS.",
+      "state": "resolved",
+      "blocks_closure": false
+    },
+    {
+      "id": "OUT02",
+      "kind": "environment verification limit",
+      "evidence": "render-review-v1-original.md; render-preview-v1.json",
+      "disposition": "Actual GitHub complete article/math/typography/link targets and exact public image verified; all11local preview pages actually inspected. Live GitHub client pixels, responsive layout, MathJax and click execution remain unobserved. Bounded repository-format acceptance is explicit, matching D001; no live-client pass is claimed.",
+      "state": "bounded_nonblocking_environment_limit",
+      "blocks_closure": false
+    }
+  ],
+  "ordinary_prof_change_warranted": false
+}

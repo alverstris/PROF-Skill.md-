@@ -1,0 +1,2 @@
+Initial symbolic-check invocation used system python and stopped before performing any check: ModuleNotFoundError: No module named sympy. This was an environment error, not a mathematical check result. Recovery uses the available primary runtime interpreter if present.
+Primary runtime Python also lacked sympy (second ModuleNotFoundError). Recovery used standard-library Fraction/math with exact arithmetic and finite differences, plus independent analytic checks. No dependency was installed and no symbolic pass is claimed.

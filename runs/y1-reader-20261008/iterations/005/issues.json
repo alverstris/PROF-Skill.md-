@@ -1,0 +1,121 @@
+{
+  "material_id": "D005",
+  "accepted_document": "teaching-v2.md",
+  "document_sha256": "4ae6d0f33e2957ebaf3bbd31c34e154c4a7c5eaab4bc3a09a9e909574b1a48e6",
+  "issues": [
+    {
+      "id": "D005-S01",
+      "classification": "source conditions",
+      "evidence_issue": "Source rational powers, implicit curves, inverse formula and acute triangle compress differentiability and domain conditions.",
+      "evidence_locations": "source-review.md; source-map.json; technical-review-v1.md",
+      "status": "resolved",
+      "disposition": "P03-P05/P07-P08/P14 keep conditional statements; P15-P20 supply existence and domain proof; P21 gives separate zero quotients; P23-P25 justify all-real arctan independently of acute triangle."
+    },
+    {
+      "id": "D005-T01",
+      "classification": "pre-freeze prompt overclaim",
+      "evidence_issue": "Original Q4 said inverse slope is not 1/f prime(5), although equality can occur.",
+      "evidence_locations": "task-prompts-v1.md; lead-pre-solution-math-original.md; lead-pre-freeze-review-v1.md",
+      "status": "resolved",
+      "disposition": "Before v1 freeze changed demand to explain required evaluation point; f(x)=11-3x disproves the old universal inequality. Root initial broad wording pass preserved, not silently corrected."
+    },
+    {
+      "id": "D005-F01",
+      "classification": "pre-freeze syntax",
+      "evidence_issue": "Five missing backslashes in quad/qquad expressions.",
+      "evidence_locations": "draft-before-lead-review-v1-original.md; prefreeze-repairs-v1.md",
+      "status": "resolved",
+      "disposition": "All five commands repaired before frozen v1; full final303payload/preview inspection confirms expressions."
+    },
+    {
+      "id": "D005-T02",
+      "classification": "pre-freeze warrant refinement",
+      "evidence_issue": "Inverse continuity and reciprocal limit needed inspectable warrants.",
+      "evidence_locations": "lead-pre-freeze-review-v1.md; teaching-v1.md P16-P17",
+      "status": "resolved",
+      "disposition": "Explicit continuous sign-change application to f(t)-z and nonzero reciprocal-limit bound included before freeze, independently checked and reconstructed by both readers."
+    },
+    {
+      "id": "D005-F02",
+      "classification": "destination serialization",
+      "evidence_issue": "13 inline payloads/17 comparison signs differ after ordinary HTML parsing.",
+      "evidence_locations": "render-evidence/v1/markup-audit.json; render-evidence/diagnosis-recovery-v1/diagnosis.md; format-repair-v2.json",
+      "status": "resolved",
+      "disposition": "v2 named TeX relations preserve identical mathematics; actual frozen v2 complete text and all303math payloads exact. No extra entity decoding used."
+    },
+    {
+      "id": "D005-R01",
+      "classification": "reader optional bridge suggestions",
+      "evidence_issue": "Elementary continuity, local sign preservation and cube-root-at-zero continuity are compressed.",
+      "evidence_locations": "reader-report-v1-recovery-original.md; reader-report-v2-original.md; parent-acceptance-v2.md",
+      "status": "resolved_no_material_defect",
+      "disposition": "Short explicit deductions from supplied derivative definition, bounds and power/order facts establish each link; no substantial untaught theorem needed. Original suggestions preserved."
+    },
+    {
+      "id": "D005-R02",
+      "classification": "reader wording observations",
+      "evidence_issue": "P22 nonzero formulas; P27 hypotheses needed; H5 inverse shorthand.",
+      "evidence_locations": "reader-report-v1-recovery-original.md; reader-report-v2-original.md; parent-acceptance-v2.md",
+      "status": "resolved_no_material_defect",
+      "disposition": "P22 primary request expressly x>0 then zero; P15 earlier frames one reusable sufficient justification. Context licenses intended operation before help; no global necessity or negative-input task asserted. Optional editorial precision retained as observation."
+    },
+    {
+      "id": "D005-R03",
+      "classification": "reader source boundary",
+      "evidence_issue": "Actual original figures and source provenance not permitted reader inputs.",
+      "evidence_locations": "reader-report-v1-recovery-original.md; reader-report-v2-original.md; lead-source-review.json",
+      "status": "resolved_separate_review",
+      "disposition": "Mathematical coordinate/triangle roles fully in teaching; original five-page text/visuals independently checked by author and lead. No external premise granted to reader."
+    },
+    {
+      "id": "D005-I01",
+      "classification": "uncompleted provisional dispatch",
+      "evidence_issue": "Earlier v1 agent unavailable on recovery, original report absent.",
+      "evidence_locations": "admission-v1.json; admission-v1-recovery.json",
+      "status": "resolved_input_recovery",
+      "disposition": "No verdict inferred; new fork-none v1 reader fully read unchanged frozen inputs. Changed v2 got its own further fork-none reader, with complete access evidence."
+    },
+    {
+      "id": "D005-E01",
+      "classification": "technical tool unavailable",
+      "evidence_issue": "SymPy unavailable in both attempted engines.",
+      "evidence_locations": "author-checks-initial-error.txt; author-record-v1.md",
+      "status": "resolved_alternative_check",
+      "disposition": "Preserved failures; exact algebra and standard-library Fraction/math checks plus independent root derivations supply actual evidence, not a fabricated symbolic pass."
+    },
+    {
+      "id": "D005-E02",
+      "classification": "scanner false positive",
+      "evidence_issue": "Initial command scanner matched second q within valid qquad.",
+      "evidence_locations": "author-checks-v1-initial.json; author-checks-v1.json",
+      "status": "resolved",
+      "disposition": "Word-boundary repair and actual final output check; initial report preserved."
+    },
+    {
+      "id": "D005-E03",
+      "classification": "review provenance limit",
+      "evidence_issue": "Delivered scoped report contains initial review and later amendment spot check; separate pre-addendum file absent.",
+      "evidence_locations": "independent-technical-original.md; author-record-v1.md; technical-review-v1.md",
+      "status": "resolved_honest_scope",
+      "disposition": "Combined delivered original bytes preserved. Do not claim full-current reread or source visuals by this checker; lead and author provide those distinct actual reads."
+    },
+    {
+      "id": "D005-V01",
+      "classification": "preview export failure",
+      "evidence_issue": "Initial pages1and7 PNG exports truncated despite command exit0.",
+      "evidence_locations": "render-evidence/v2/render-review-original.md; render-evidence/v2/preview-check.json",
+      "status": "resolved",
+      "disposition": "Originals preserved in scratch, complete replacements from unchanged PDF fully viewed. All8finalpages inspected; PDF/source hashes unchanged."
+    },
+    {
+      "id": "D005-V02",
+      "classification": "representation observation limit",
+      "evidence_issue": "Live GitHub pixels, MathJax, responsive layout and clicks unobserved; minor local preview pagination seams.",
+      "evidence_locations": "render-evidence/v2/render-review-original.md; parent-acceptance-v2.md",
+      "status": "bounded_acceptance",
+      "disposition": "Accept actual markup/target mapping and full secondary preview only; no live-client or learner-PDF claim. Preview-only P40 split disclosed."
+    }
+  ],
+  "unresolved_material_teaching_issues": 0,
+  "skill_decision": "Existing obligations require these repairs; no substantive new skill rule justified. Version progression alone is not demonstrated improvement."
+}

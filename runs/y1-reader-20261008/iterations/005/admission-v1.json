@@ -1,0 +1,31 @@
+{
+  "material_id": "D005",
+  "document_revision": "v1",
+  "document_commit": "bdfe638d531ae5a37aa699304d5ba9042a115f2b",
+  "reader_agent": "/root/sasis_d005_v1_fresh",
+  "fork_turns": "none",
+  "role_instruction_revision": "2026-10-08-r7, current dedicated-reader operating instruction applied in dispatch",
+  "role_file_sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+  "subject_inputs": [
+    {
+      "source": "/workspace/scratch/ac36b9c5ff31/PROF-repo/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "reader_input": "/workspace/scratch/ac36b9c5ff31/prof-readability/sasis-d005-v1/baseline.txt",
+      "bytes": 247840,
+      "characters": 246945,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    {
+      "source": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/005/teaching-v1.md",
+      "reader_input": "/workspace/scratch/ac36b9c5ff31/prof-readability/sasis-d005-v1/document.md",
+      "bytes": 24210,
+      "characters": 24186,
+      "sha256": "2279a7267fdd143a3266ffb03097abe65b7194af3cbbb31dfd3433406c6068e0"
+    }
+  ],
+  "delivery_condition": "Instruction-confined read-only retrieval of exactly two immutable complete artifacts; no other subject input. Reader may write/read only its own original report.",
+  "allowed_tools": "Read exact baseline/document bounded rawUTF8 chunks and metadata; write/read original report. No web, other files, sources, memory or agent communication/subagents.",
+  "isolation_limits": "Tools remain technically available; instruction whitelist is not runtime sandboxing or erasure of pretraining. Actor access accounting must be inspected, not inferred from identities.",
+  "admission_state": "PROVISIONAL_PENDING_COMPLETE_ACTUAL_ACCESS_EVIDENCE",
+  "complete_read_evidence": "Pending report exact successful ranges through bothEOFs and chronological reconstruction; any truncation/mismatch/unauthorized access must be dispositioned.",
+  "known_input_limits": "No delivery defect presently observed; copies hash-identical, full baseline and full document present, no additional learner constituent."
+}

@@ -1,0 +1,1 @@
+D005 final v2 accepted under immutable published r11 control snapshot. Full source/author/technical/fresh-reader and actual-markup/secondary-preview evidence in parent-acceptance-v2.md. Original state and reports retained. Publish closure, verify/reload outgoing r12, then fresh D006.

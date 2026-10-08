@@ -1,0 +1,95 @@
+{
+  "material_id": "D005",
+  "document_revision": "v2",
+  "document_commit": "32c553f279ac1e5771ff05b78a9951cbff3fee38",
+  "reader_agent": "/root/sasis_d005_v2_fresh",
+  "fork_turns": "none",
+  "role_instruction_revision": "2026-10-08-r7, current dedicated-reader operating instruction applied in dispatch",
+  "role_file_sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+  "subject_inputs": [
+    {
+      "source": "/workspace/scratch/ac36b9c5ff31/PROF-repo/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "reader_input": "/workspace/scratch/ac36b9c5ff31/prof-readability/sasis-d005-v2/baseline.txt",
+      "bytes": 247840,
+      "characters": 246945,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    {
+      "source": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/005/teaching-v2.md",
+      "reader_input": "/workspace/scratch/ac36b9c5ff31/prof-readability/sasis-d005-v2/document.md",
+      "bytes": 24261,
+      "characters": 24237,
+      "sha256": "4ae6d0f33e2957ebaf3bbd31c34e154c4a7c5eaab4bc3a09a9e909574b1a48e6"
+    }
+  ],
+  "delivery_condition": "Instruction-confined read-only retrieval of exactly two immutable complete artifacts; no other subject input. Reader may write/read only its own original report.",
+  "allowed_tools": "Read exact baseline/document bounded rawUTF8 chunks and metadata; write/read original report. No web, other files, sources, memory or agent communication/subagents.",
+  "isolation_limits": "Tools remain technically available; instruction whitelist is not runtime sandboxing or erasure of pretraining. Actor access accounting must be inspected, not inferred from identities.",
+  "admission_state": "ADMITTED_COMPLETE_INPUTS_AND_CHRONOLOGICAL_READING",
+  "complete_read_evidence": {
+    "report": "reader-report-v2-original.md",
+    "report_sha256": "246895de67205c9ad307204cf7ade6266965164db11ad059863ac97ab5ca2d09",
+    "baseline_ranges": [
+      [
+        0,
+        28000
+      ],
+      [
+        28000,
+        56000
+      ],
+      [
+        56000,
+        84000
+      ],
+      [
+        84000,
+        112000
+      ],
+      [
+        112000,
+        140000
+      ],
+      [
+        140000,
+        168000
+      ],
+      [
+        168000,
+        196000
+      ],
+      [
+        196000,
+        224000
+      ],
+      [
+        224000,
+        246945
+      ]
+    ],
+    "document_ranges": [
+      [
+        0,
+        24237
+      ]
+    ],
+    "reported_truncation": false,
+    "metadata_and_subject_files_match": true,
+    "parent_report_full_read_ranges": [
+      [
+        0,
+        26000
+      ],
+      [
+        25500,
+        51000
+      ],
+      [
+        50500,
+        55652
+      ]
+    ],
+    "inspection_limit": "Identities independently checked against local and actual public/Git object bytes. Access/chronological reconstruction inspected in preserved actor report, not runtime-enforced confinement or pretraining erasure."
+  },
+  "known_input_limits": "No delivery defect presently observed; copies hash-identical, full baseline and full document present, no additional learner constituent."
+}

@@ -1,0 +1,521 @@
+{
+  "material_id": "D143",
+  "stable_id": "mit-8-022-fall2004-L23",
+  "official_session_number": 23,
+  "printed_lecture_number": 18,
+  "title": "AC Circuits (Conclusion) Filters Quality Factor and Resonance",
+  "review_date": "2026-10-08",
+  "scope": "Source-only technical preparation. No teaching, PROF evaluation, SASIS, iteration closure, repository, skill or original-source/cache edits.",
+  "mapping_evidence": {
+    "audit": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/readability-audit/8022.json",
+    "queue": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/queue.json",
+    "selection": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/readability-selection.json",
+    "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+    "queue_order": 143,
+    "active_order": 72,
+    "queue_selection_evidence": "Official index labels this row SES # 23: AC Circuits (Conclusion)\n\n\nFilters\n\n\nQuality Factor and Resonance."
+  },
+  "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+  "original_audit_caveats": [],
+  "sources": [
+    {
+      "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/19b92b261f2a29004c97cdbf189e103b_lecture18.pdf",
+      "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture18/",
+      "local_pdf": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/source.pdf",
+      "logical_asset_name": "lecture18.pdf",
+      "sha256": "b59ea1d7b2b8c187d67534d2a8526c4d46518998cf68fae07bfbaf41ae59a355",
+      "sha256_recomputed": "b59ea1d7b2b8c187d67534d2a8526c4d46518998cf68fae07bfbaf41ae59a355",
+      "hash_verified": true,
+      "page_count": 10,
+      "complete_text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/text.txt"
+    }
+  ],
+  "coverage": [
+    {
+      "source_asset": "lecture18.pdf",
+      "pdf_page": 1,
+      "printed_sheet_page": 1,
+      "printed_slides": [
+        1,
+        2
+      ],
+      "topics": [
+        "Title Lecture 18, footer Lecture 17",
+        "Complex impedance recap"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 2,
+          "kind": "driven RLC inset",
+          "description": "Series AC source,C,R,L; correct R/C/L impedance list."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-001.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-001.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 699,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture18.pdf",
+      "pdf_page": 2,
+      "printed_sheet_page": 2,
+      "printed_slides": [
+        3,
+        4
+      ],
+      "topics": [
+        "Series and parallel impedances",
+        "Reference voltage and current phase"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 3,
+          "kind": "two network diagrams",
+          "description": "Two impedances in series versus parallel; branch-current equation checked."
+        },
+        {
+          "printed_slide": 4,
+          "kind": "impedance/current diagrams",
+          "description": "R horizontal, inductive reactance up, capacitive reactance down; reference V real and lagging I illustrated."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-002.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-002.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 905,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture18.pdf",
+      "pdf_page": 3,
+      "printed_sheet_page": 3,
+      "printed_slides": [
+        5,
+        6
+      ],
+      "topics": [
+        "Impedance magnitude and phase",
+        "Current lead/lag from reciprocal impedance"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 5,
+          "kind": "complex-vector sum",
+          "description": "Resultant Z has positive imaginary component and angle φZ."
+        },
+        {
+          "printed_slide": 6,
+          "kind": "paired impedance and current phasors",
+          "description": "Current phase opposite impedance phase for real reference voltage."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-003.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-003.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 843,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture18.pdf",
+      "pdf_page": 4,
+      "printed_sheet_page": 4,
+      "printed_slides": [
+        7,
+        8
+      ],
+      "topics": [
+        "Instantaneous and period-average power",
+        "RMS and real-power formula"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 7,
+          "kind": "undriven circuit inset reused",
+          "description": "Capacitor,R,L with open-switch-like gap, although equations explicitly assume a driven sinusoidal state; inset not used as proof of the drive."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-004.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-004.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 1501,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture18.pdf",
+      "pdf_page": 5,
+      "printed_sheet_page": 5,
+      "printed_slides": [
+        9,
+        10
+      ],
+      "topics": [
+        "Power resonance",
+        "Reactance cancellation"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 9,
+          "kind": "power peak graph",
+          "description": "Frequency-dependent power with maximum at Ω=1/√LC."
+        },
+        {
+          "printed_slide": 10,
+          "kind": "canceling reactance arrows",
+          "description": "Inductive and capacitive vertical vectors cancel, leaving R."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-005.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-005.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 803,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture18.pdf",
+      "pdf_page": 6,
+      "printed_sheet_page": 6,
+      "printed_slides": [
+        11,
+        12
+      ],
+      "topics": [
+        "Half-power width and Q",
+        "Antenna equivalent circuit"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 11,
+          "kind": "half-height construction",
+          "description": "Power curve, Pmax/2 line and two positive crossing frequencies; quadratic roots inspected."
+        },
+        {
+          "printed_slide": 12,
+          "kind": "antenna schematic",
+          "description": "Aerial symbol feeds R,L,C series equivalent to ground; source EMF specified in prose."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-006.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-006.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 1126,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture18.pdf",
+      "pdf_page": 7,
+      "printed_sheet_page": 7,
+      "printed_slides": [
+        13,
+        14
+      ],
+      "topics": [
+        "Resonant current and capacitor voltage",
+        "Antenna bandwidth and Q changes"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 13,
+          "kind": "repeated antenna equivalent",
+          "description": "R=75 ohm, L=8.22 microhenry, C=0.27 picofarad and 9.13 microvolt RMS input."
+        },
+        {
+          "printed_slide": 14,
+          "kind": "repeated antenna equivalent",
+          "description": "Same model for bandwidth/selectivity discussion."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-007.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-007.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 1049,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture18.pdf",
+      "pdf_page": 8,
+      "printed_sheet_page": 8,
+      "printed_slides": [
+        15,
+        16
+      ],
+      "topics": [
+        "RL low-pass across R",
+        "RL high-pass across L"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 15,
+          "kind": "RL circuit and gain curve",
+          "description": "Output terminals across R; gain decreases from one to zero."
+        },
+        {
+          "printed_slide": 16,
+          "kind": "RL output terminals",
+          "description": "Output taken across L at the two bottom terminals; high-pass limits inspected."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-008.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-008.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 959,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture18.pdf",
+      "pdf_page": 9,
+      "printed_sheet_page": 9,
+      "printed_slides": [
+        17,
+        18
+      ],
+      "topics": [
+        "RC low-pass across C",
+        "RC high-pass across R"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 17,
+          "kind": "RC capacitor output",
+          "description": "Output terminal pair spans capacitor, despite asymptote text labelling VR."
+        },
+        {
+          "printed_slide": 18,
+          "kind": "RC resistor output",
+          "description": "Output terminal pair spans R; intermediate amplitude formula misses a numerator R."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-009.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-009.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 870,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture18.pdf",
+      "pdf_page": 10,
+      "printed_sheet_page": 10,
+      "printed_slides": [
+        19
+      ],
+      "topics": [
+        "Summary; lower half blank"
+      ],
+      "visual_elements": [],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-010.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-010.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 304,
+      "original_full_page_render_visually_inspected": true
+    }
+  ],
+  "cache_recovery_provenance": [],
+  "additional_original_detail_images_viewed": [
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/sourceprep-d140-d147/D143/power-integral-detail.png",
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/sourceprep-d140-d147/D143/power-average-detail.png"
+  ],
+  "findings": [
+    {
+      "id": "D143-N01",
+      "classification": "identity_and_reused_notation",
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        10
+      ],
+      "printed_slides": [
+        1,
+        2,
+        4,
+        6,
+        19
+      ],
+      "location": "Title/footer and symbols",
+      "observation": "Official indexed session 23 links lecture18.pdf. Title says Lecture 18, while slide footers throughout say Lecture 17. This is a source identity inconsistency, not grounds to remap the assigned asset.",
+      "resolution": "Retain official session 23, title Lecture 18 and footer Lecture 17 explicitly. All 10 full sheets/19 slides were read. The ZC subscript in slides 4/6 is used where the context is total circuit impedance; define Ztot rather than confuse it with the capacitor impedance already defined on slide 2.",
+      "independent_derivation_or_check": "The packet’s formulas and diagrams establish the total impedance R+i(ωL−1/(ωC)); interpreting that repeated ZC as only a capacitor would contradict the R/L vectors and general magnitude formula. No new source file is inferred from the erroneous footer.",
+      "source_asset": "lecture18.pdf"
+    },
+    {
+      "id": "D143-E01",
+      "classification": "parallel_branch_currents_incorrectly_equated",
+      "pdf_pages": [
+        2
+      ],
+      "printed_slides": [
+        3
+      ],
+      "location": "Parallel impedance calculation",
+      "observation": "The source writes V1/Z1=V2/Z2=V/Zeq for parallel branches, incorrectly equating each branch current to the total. Its final reciprocal-impedance result is correct.",
+      "resolution": "Use V1=V2=V and V/Zeq=V1/Z1+V2/Z2. In series, I1=I2=I and V=I(Z1+Z2), as the source correctly states.",
+      "independent_derivation_or_check": "KCL gives I=I1+I2, so Yeq=Y1+Y2. Counterexample Z1=Z2=R: each branch carries V/R and total is 2V/R, hence Zeq=R/2, not R. The sum formulas require a common sinusoidal frequency and linear uncoupled lumped elements; mutually coupled inductors need their coupling terms rather than simple independent impedances.",
+      "source_asset": "lecture18.pdf"
+    },
+    {
+      "id": "D143-C01",
+      "classification": "phasor_reference_and_complex_ordering",
+      "pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "printed_slides": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "location": "Choosing V real and comparing impedances",
+      "observation": "The magnitude and phase formulas are correct, but ZL>ZC is not an ordering of complex numbers. Choosing a real voltage means choosing its constant phasor reference, not making the full V0e^(iωt) real at every time.",
+      "resolution": "For R>0, X=ωL−1/(ωC), Z=R+iX and φZ=atan2(X,R). Compare positive reactance magnitudes ωL and 1/(ωC), then current phase relative to voltage is −φZ.",
+      "independent_derivation_or_check": "With voltage phasor V0 real, I=V0/Z=(V0/|Z|)e^(−iφZ), |Z|=√(R²+X²). X>0 gives lag, X<0 gives lead. The time-domain signal is Re[Ie^(iωt)]. This algebra addresses sinusoidal steady state; arbitrary initial transients/nonlinear or time-varying components are not captured by the instruction to analyze like DC resistors.",
+      "source_asset": "lecture18.pdf"
+    },
+    {
+      "id": "D143-E02",
+      "classification": "period_average_integral_limits_inverted",
+      "pdf_pages": [
+        4
+      ],
+      "printed_slides": [
+        7,
+        8
+      ],
+      "location": "Expanded integrals and trigonometric averages",
+      "observation": "Both original slides print upper integration limit ω/(2π) with integration variable t. That is a frequency, not one period. Direct original-PDF enlargements confirm this is visible source notation, not extraction noise.",
+      "resolution": "Replace every such time limit by T=2π/ω. Keep the outside averaging prefactor 1/T=ω/(2π). The final power expression is correct after this repair.",
+      "independent_derivation_or_check": "For corrected limits, (ω/2π)∫0^(2π/ω) cos²ωt dt=1/2 and (ω/2π)∫0^(2π/ω) cosωt sinωt dt=0. With u=ωt, limits become 0 and 2π and prefactor 1/(2π). The printed frequency upper bound fails dimensional consistency and does not produce those identities generally.",
+      "source_asset": "lecture18.pdf"
+    },
+    {
+      "id": "D143-S01",
+      "classification": "real_power_rms_and_reactive_exchange",
+      "pdf_pages": [
+        4
+      ],
+      "printed_slides": [
+        7,
+        8
+      ],
+      "location": "Power result and no-work wording",
+      "observation": "The corrected derivation yields Pavg=(V0I0/2)cosφ=Vrms Irms cosφ=R Irms². RMS equals peak/√2 here because the signals are sinusoidal. No-work wording for cosφ=0 must mean zero net work over a full cycle, not zero instantaneous exchange.",
+      "resolution": "For an ideal pure reactive element, p(t)=v(t)i(t) oscillates positive and negative; stored field energy rises and falls while its period-average change vanishes. For general waveforms, compute RMS by sqrt of the mean square and average power directly, not automatically by peak/√2.",
+      "independent_derivation_or_check": "Use cos a cos(a−φ)=[cosφ+cos(2a−φ)]/2; the second term averages to zero. In peak phasors Pavg=Re[V I*]/2, not generally the real part of an unconjugated product. The source’s given 120-V RMS sinusoidal example has peak 120√2≈169.706 V, consistent with its 170-V rounding; this is a calculation from stated input, not a current supply-specification audit.",
+      "source_asset": "lecture18.pdf"
+    },
+    {
+      "id": "D143-S02",
+      "classification": "power_resonance_and_exact_bandwidth",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "printed_slides": [
+        9,
+        10,
+        11
+      ],
+      "location": "Power peak and half-power quadratics",
+      "observation": "The power peak, positive-frequency half-power roots, Δω=R/L and Q=Ω/Δω=ΩL/R are correct for a series ideal RLC with constant positive R and frequency-independent input RMS amplitude. One intermediate line writes |X|=±R; the absolute value should equal only +R, or remove the bars for the ± branches.",
+      "resolution": "Let Ω=1/√LC. P=Vrms²R/[R²+(ωL−1/(ωC))²], with Pmax=Vrms²/R at Ω. Half-power points obey X=−R and X=+R, respectively. The bandwidth formula is exact for this model, not limited to weak damping.",
+      "independent_derivation_or_check": "Positive roots: ω1=[sqrt(R²+4L/C)−R]/(2L), ω2=[sqrt(R²+4L/C)+R]/(2L). Subtraction gives R/L; multiplication gives ω1ω2=1/(LC)=Ω², so Ω is their geometric mean, not exactly arithmetic midpoint. Other quadratic roots are negative-frequency partners and the source explicitly discards them. R→0 is singular at resonance: its divergent steady-current formula does not establish finite lossless steady power.",
+      "source_asset": "lecture18.pdf"
+    },
+    {
+      "id": "D143-S03",
+      "classification": "antenna_equivalent_model_numerics",
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "printed_slides": [
+        12,
+        13,
+        14
+      ],
+      "location": "Given L,C,R and induced EMF",
+      "observation": "The source uses a lumped series RLC representation of a receiving system. Its displayed values are coarse approximations; recalculating the stated inputs gives more precise numbers below.",
+      "resolution": "For L=8.22 microhenry,C=0.27 picofarad,R=75 ohm,Vrms=9.13 microvolt: Ω=6.712467704×10^8 rad/s, f0=106.8322415 MHz, Irms=0.121733333 microampere, capacitor RMS magnitude 0.671681738 mV, Δω=9.124087591×10^6 rad/s, Δf=1.452143641 MHz and Q=73.568646.",
+      "independent_derivation_or_check": "Use Ω=1/√LC, I=V/R, |Vc|=I/(ΩC)=QV, Δω=R/L. The source 106 MHz/0.66 mV/1.4 MHz/73 values are approximate or truncated, not precise rounding of all given digits. Voltage magnification does not create power: reactive capacitor/inductor voltages are opposite in phase and cancel at resonance, while their individual magnitudes can exceed source voltage. Source real power for these ideal inputs is Vrms²/R≈1.111425333×10^−12 W. The voltage across C should use |ZC| for an RMS magnitude, or retain its complex phase if using ZC.",
+      "source_asset": "lecture18.pdf"
+    },
+    {
+      "id": "D143-C02",
+      "classification": "selectivity_and_improving_q_constraints",
+      "pdf_pages": [
+        7
+      ],
+      "printed_slides": [
+        14
+      ],
+      "location": "Antenna quality discussion",
+      "observation": "Using the source’s stated 0.2-MHz channel-separation benchmark, its approximately 1.45-MHz bandwidth is broad. This toy calculation alone does not establish complete receiver/antenna performance. Saying decreasing R is the only solution tacitly fixes C and prohibits coordinated retuning.",
+      "resolution": "At fixed L,C, reducing R narrows the modeled bandwidth without changing Ω. At fixed desired Ω but adjustable L and C, L′=kL,C′=C/k keeps LC constant and increases Q by k at unchanged R. Real parasitics, loss, matching, occupied signal bandwidth and receiver design are outside the supplied model.",
+      "independent_derivation_or_check": "From Q=ΩL/R and Δf=R/(2πL), either mathematical change follows directly. If a 0.2-MHz full half-power bandwidth were adopted solely as this model’s target, Q=f0/Δf≈534.16 and at original L it would correspond to R≈10.33 ohm. This is a conditional algebraic comparison, not an operational radio design recommendation or a newly verified allocation/channel-spacing claim.",
+      "source_asset": "lecture18.pdf"
+    },
+    {
+      "id": "D143-S04",
+      "classification": "rl_filter_transfer_functions",
+      "pdf_pages": [
+        8
+      ],
+      "printed_slides": [
+        15,
+        16
+      ],
+      "location": "Low/high-pass RL circuits",
+      "observation": "The two output terminal pairs and all RL amplitude formulas/limits are correct for unloaded ideal voltage measurements. A frequency-dependent voltage divider attenuates continuously; select only certain frequencies is qualitative language.",
+      "resolution": "Across R: HR=R/(R+iωL), |HR|=R/√(R²+ω²L²), low pass. Across L: HL=iωL/(R+iωL), |HL|=ωL/√(R²+ω²L²), high pass.",
+      "independent_derivation_or_check": "At cutoff ωc=R/L both magnitudes are 1/√2 (−3.0103 dB amplitude ratio). HR phase is −arctan(ωL/R); HL phase is π/2−arctan(ωL/R). Complex gains satisfy HR+HL=1, while magnitudes generally do not sum to one. Input source impedance, winding resistance, finite load and high-frequency parasitics change these ideal formulas.",
+      "source_asset": "lecture18.pdf"
+    },
+    {
+      "id": "D143-E03",
+      "classification": "rc_filter_label_and_missing_r_factor",
+      "pdf_pages": [
+        9
+      ],
+      "printed_slides": [
+        17,
+        18
+      ],
+      "location": "Low-pass asymptotes and high-pass intermediate equality",
+      "observation": "Slide 17 correctly computes capacitor voltage and draws capacitor output terminals, but labels its asymptotic voltage VR; it should be VC. Slide 18 writes VR=R|I|=V0/√(R²+1/(ω²C²)), omitting R in that intermediate numerator, although the final expression includes it correctly.",
+      "resolution": "Correct low-pass limits to VC→V0 as ω→0 and VC→0 as ω→∞. Correct the high-pass intermediate amplitude to R V0/√(R²+1/(ω²C²)), giving ωCRV0/√(1+ω²C²R²).",
+      "independent_derivation_or_check": "Derive HC=ZC/(R+ZC)=1/(1+iωRC) and HR=R/(R+ZC)=iωRC/(1+iωRC). Their magnitudes are 1/√(1+ω²R²C²) and ωRC/√(1+ω²R²C²); limits match the actual output nodes. The incorrect intermediate V0/impedance has current units rather than voltage. Cutoff is ωc=1/(RC), with low/high phases −arctan(ωRC) and π/2−arctan(ωRC). Loading and source-resistance assumptions are the same as for the RL examples.",
+      "source_asset": "lecture18.pdf"
+    }
+  ],
+  "independent_checks": [
+    "Read all 10 complete texts, all 19 slides and every original full sheet; title/footer conflict explicitly retained.",
+    "Inspected all impedance and current phasors, series/parallel topologies, power/half-height plots, antenna equivalent and all four filter output-node pairs.",
+    "Independently derived correct averaging integrals and inspected two direct-PDF enlargements of their erroneous original upper bounds.",
+    "Solved the bandwidth quadratics exactly, recalculated all antenna numbers, and derived all RL/RC complex transfer functions, cutoffs and phases."
+  ],
+  "technical_disposition": "Source review complete. Confirmed errors are equated parallel branch currents, inverted period-integration limits, an absolute-value ± notation slip, incorrect RC output label and a missing R factor in one intermediate amplitude. Final power, bandwidth and filter formulas are otherwise consistent under their linear steady-state/unloaded assumptions. Antenna values and improvement claims are retained as a qualified lumped example.",
+  "unresolved_required_content": [],
+  "unresolved_limits": [
+    "The antenna model does not specify physical geometry, matching, distributed effects, radiation/loss partition or receiver architecture; no empirical performance is certified.",
+    "The stated 0.2-MHz separation is used only as the source’s benchmark, not asserted as a newly checked universal/current broadcasting rule.",
+    "No filter demonstration or radio observation was performed; graphical scales without model parameters are illustrative.",
+    "Source title Lecture18 and repeated Lecture17 footers are both recorded; official session23 mapping remains determined by audit/queue/selection."
+  ],
+  "external_research": {
+    "needed": false,
+    "primary_sources": [],
+    "reason": "Mathematics and model conditions settled by explicit derivation; no unsupported empirical correction supplied."
+  },
+  "review_status": "source_review_complete"
+}

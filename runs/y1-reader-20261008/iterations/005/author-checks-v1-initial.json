@@ -1,0 +1,67 @@
+{
+  "artifact_sha256": "2279a7267fdd143a3266ffb03097abe65b7194af3cbbb31dfd3433406c6068e0",
+  "checks": {
+    "rational_exponent_samples": true,
+    "q1_lower_branch": true,
+    "q2_changed_product": true,
+    "source_cubic_point": true,
+    "q5_combined_inverse": true,
+    "cubic_inverse_numerical": true,
+    "arctan_signed_zero_numerical": true,
+    "unique_anchors": true,
+    "all_local_targets": true,
+    "task_help_ids": true,
+    "hints_before_solutions": true,
+    "no_prose_heading_emphasis": true,
+    "no_bare_spacing_tokens": false,
+    "plain_labels_p01_to_p41": true
+  },
+  "numerical_cubic": [
+    {
+      "y": -2.0,
+      "implicit_slope": -0.8,
+      "inverse_numerical_slope": -0.7999999999592319,
+      "error": 4.0768166620352986e-11
+    },
+    {
+      "y": -1.0,
+      "implicit_slope": -0.3333333333333333,
+      "inverse_numerical_slope": -0.33333333334225185,
+      "error": 8.918532579116345e-12
+    },
+    {
+      "y": 0.5,
+      "implicit_slope": 0.06666666666666667,
+      "inverse_numerical_slope": 0.06666666666721678,
+      "error": 5.501155087017651e-13
+    },
+    {
+      "y": 2.0,
+      "implicit_slope": -1.3333333333333333,
+      "inverse_numerical_slope": -1.3333333331469628,
+      "error": 1.8637047460856593e-10
+    }
+  ],
+  "numerical_arctan": [
+    {
+      "x": -2.0,
+      "numerical": 0.20000000000575113,
+      "formula": 0.2,
+      "error": 5.751121801012005e-12
+    },
+    {
+      "x": 0.0,
+      "numerical": 0.9999999999996667,
+      "formula": 1.0,
+      "error": 3.33288951992472e-13
+    },
+    {
+      "x": 3.0,
+      "numerical": 0.10000000005838672,
+      "formula": 0.1,
+      "error": 5.838671213176383e-11
+    }
+  ],
+  "all_checked_results": false,
+  "limits": "Exact rational arithmetic and discriminating finite differences plus Markdown source structure. Analytic proofs separately reconstructed in author record. No symbolic engine was available; no final render, fresh SASIS or user mastery claim."
+}

@@ -1,0 +1,26 @@
+{
+  "original_pdf": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/source.pdf",
+  "original_pdf_sha256": "039e3459414a7703aff514474607e2983de73b9161d24728ce954bc3e43f6057",
+  "old_cached_text": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/text.txt",
+  "old_bytes": 0,
+  "recovered_text": "/workspace/scratch/ac36b9c5ff31/prof-readability/sourceprep-d140-d147/D145/recovered-complete-text.txt",
+  "recovered_bytes": 13446,
+  "recovered_sha256": "2e02b875e85591cb52f079b6758b22ff93da1bd734daf71a2b7715d82716c8bd",
+  "method": "PyMuPDF: doc=fitz.open(original_pdf); texts=[page.get_text() for page in doc]; join PAGE n headings and page text with two newlines; UTF-8 write into owned scratch",
+  "pymupdf_version": "1.26.6",
+  "recovered_text_chars_per_page": [
+    723,
+    969,
+    1528,
+    1342,
+    1304,
+    895,
+    1568,
+    1319,
+    1127,
+    793,
+    1062
+  ],
+  "page_count": 11,
+  "limitation": "Current empty text cache observed. Original audit records nonzero per-page counts; no evidence here determines historical timing/cause or prior reading. Original cache untouched."
+}

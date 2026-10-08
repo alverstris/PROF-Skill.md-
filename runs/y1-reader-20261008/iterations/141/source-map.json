@@ -1,0 +1,513 @@
+{
+  "material_id": "D141",
+  "stable_id": "mit-8-022-fall2004-L18",
+  "official_session_number": 18,
+  "printed_lecture_number": 16,
+  "title": "RL Circuits Undriven RLC Circuits Phasor Representation",
+  "review_date": "2026-10-08",
+  "scope": "Source-only technical preparation. No teaching, PROF evaluation, SASIS, iteration closure, repository, skill or original-source/cache edits.",
+  "mapping_evidence": {
+    "audit": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/readability-audit/8022.json",
+    "queue": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/queue.json",
+    "selection": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/readability-selection.json",
+    "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+    "queue_order": 141,
+    "active_order": 70,
+    "queue_selection_evidence": "Official index labels this row SES # 18: RL Circuits\n\n\nUndriven RLC Circuits\n\n\nPhasor Representation."
+  },
+  "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+  "original_audit_caveats": [
+    "Printed slide15 refers to a complex-number handout and future recitation. The indexed required lecture asset is the PDF, which includes the needed complex-number definition, complex-plane figure, Euler identity and phasor representation. A separate handout was not added to the assigned source packet."
+  ],
+  "sources": [
+    {
+      "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/7b7348480e71d4b842dbc339543bd513_lecture16.pdf",
+      "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture16/",
+      "local_pdf": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/source.pdf",
+      "logical_asset_name": "lecture16.pdf",
+      "sha256": "bb5247752f741d958b73554783364db1dff0b383c76aabbec85951ffd54f8ec1",
+      "sha256_recomputed": "bb5247752f741d958b73554783364db1dff0b383c76aabbec85951ffd54f8ec1",
+      "hash_verified": true,
+      "page_count": 10,
+      "complete_text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/text.txt"
+    }
+  ],
+  "coverage": [
+    {
+      "source_asset": "lecture16.pdf",
+      "pdf_page": 1,
+      "printed_sheet_page": 1,
+      "printed_slides": [
+        1,
+        2
+      ],
+      "topics": [
+        "Printed Lecture 16 title",
+        "Induction recap"
+      ],
+      "visual_elements": [],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-001.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-001.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 522,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture16.pdf",
+      "pdf_page": 2,
+      "printed_sheet_page": 2,
+      "printed_slides": [
+        3,
+        4
+      ],
+      "topics": [
+        "Switched RL intuition",
+        "RL rise equation and integration"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 3,
+          "kind": "two-switch RL circuit",
+          "description": "S1 connects battery; S2 bypasses source to retain closed R-L discharge path; S1 closed/S2 open on energizing."
+        },
+        {
+          "printed_slide": 4,
+          "kind": "repeated switch diagram",
+          "description": "Same topology with voltage-drop equation."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-002.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-002.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 849,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture16.pdf",
+      "pdf_page": 3,
+      "printed_sheet_page": 3,
+      "printed_slides": [
+        5,
+        6
+      ],
+      "topics": [
+        "RL decay after switching",
+        "Initial/open and final/short limits"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 5,
+          "kind": "piecewise current plot",
+          "description": "Exponential rise followed by decay, continuous current at switch; decay annotation needs a reset time origin."
+        },
+        {
+          "printed_slide": 6,
+          "kind": "repeated rise/decay plot",
+          "description": "Qualitative inertia and endpoint interpretation."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-003.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-003.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 972,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture16.pdf",
+      "pdf_page": 4,
+      "printed_sheet_page": 4,
+      "printed_slides": [
+        7,
+        8
+      ],
+      "topics": [
+        "Time constant and units",
+        "75-Hz square-wave RL display"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 7,
+          "kind": "repeated transient plot",
+          "description": "One rise/decay pair with L/R time scale."
+        },
+        {
+          "printed_slide": 8,
+          "kind": "series RL circuit and four traces",
+          "description": "Square-wave input, continuous current and resistor voltage, positive/negative inductor voltage pulses; all four traces inspected."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-004.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-004.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 713,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture16.pdf",
+      "pdf_page": 5,
+      "printed_sheet_page": 5,
+      "printed_slides": [
+        9,
+        10
+      ],
+      "topics": [
+        "Undriven LC differential equation",
+        "LC initial conditions and phase"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 9,
+          "kind": "switched LC loop",
+          "description": "Initially charged capacitor and ideal inductor; chosen discharge current I=−Qdot."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-005.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-005.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 1018,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture16.pdf",
+      "pdf_page": 6,
+      "printed_sheet_page": 6,
+      "printed_slides": [
+        11,
+        12
+      ],
+      "topics": [
+        "LC phase plot",
+        "Electric/magnetic energy exchange"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 11,
+          "kind": "current/voltage oscillations",
+          "description": "Sinusoidal current and capacitor voltage in quadrature; unequal vertical scaling is schematic, not comparable physical units."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-006.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-006.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 906,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture16.pdf",
+      "pdf_page": 7,
+      "printed_sheet_page": 7,
+      "printed_slides": [
+        13,
+        14
+      ],
+      "topics": [
+        "Series RLC equation",
+        "Damped sinusoid and complex exponential approaches"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 13,
+          "kind": "RLC loop",
+          "description": "Capacitor top, resistor right, inductor bottom and initially open switch."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-007.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-007.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 1086,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture16.pdf",
+      "pdf_page": 8,
+      "printed_sheet_page": 8,
+      "printed_slides": [
+        15,
+        16
+      ],
+      "topics": [
+        "Complex plane, Euler identity and phasor notation",
+        "Characteristic equation and damped roots"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 15,
+          "kind": "complex plane",
+          "description": "Point z=x+iy in first quadrant, real/imaginary coordinate projections; phase formula needs quadrant qualification."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-008.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-008.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 1360,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture16.pdf",
+      "pdf_page": 9,
+      "printed_sheet_page": 9,
+      "printed_slides": [
+        17,
+        18
+      ],
+      "topics": [
+        "Weak-damping derivative and approximation",
+        "Zero-initial-current approximation and L2 demonstration"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 18,
+          "kind": "damped current plot",
+          "description": "Alternating red current lobes with decaying positive envelope; drawing represents underdamping only."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-009.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-009.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 1111,
+      "original_full_page_render_visually_inspected": true
+    },
+    {
+      "source_asset": "lecture16.pdf",
+      "pdf_page": 10,
+      "printed_sheet_page": 10,
+      "printed_slides": [
+        19
+      ],
+      "topics": [
+        "Summary and historical quiz notice; lower half blank"
+      ],
+      "visual_elements": [
+        {
+          "printed_slide": 19,
+          "kind": "three miniature response sketches",
+          "description": "Exponential, undamped sinusoid and damped sinusoid summarize the selected regimes."
+        }
+      ],
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-010.png",
+      "original_audit_image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-010.png",
+      "image_basis": "Original cached full-page render",
+      "complete_extracted_text_read": true,
+      "extracted_char_count": 275,
+      "original_full_page_render_visually_inspected": true
+    }
+  ],
+  "cache_recovery_provenance": [],
+  "additional_original_detail_images_viewed": [],
+  "findings": [
+    {
+      "id": "D141-N01",
+      "classification": "identity_and_packet_scope",
+      "pdf_pages": [
+        1,
+        8,
+        10
+      ],
+      "printed_slides": [
+        1,
+        15,
+        19
+      ],
+      "location": "Source mapping and handout reference",
+      "observation": "Official session 18 links lecture16.pdf, printed Lecture 16. All 10 full sheets and 19 published slides were inspected. Slide 15 references a complex-number handout and later recitation.",
+      "resolution": "The assigned indexed packet is the PDF; the audit explicitly excludes adding an unassigned separate handout. The PDF contains the needed complex-plane definition, Euler identity and phasor representation. The missing written proof is supplied below as a reviewer derivation, not represented as a recovered handout.",
+      "independent_derivation_or_check": "Queue, selection, audit and original SHA256 agree. Historical quiz and demonstration references do not expand the required packet or authorize an experiment.",
+      "source_asset": "lecture16.pdf"
+    },
+    {
+      "id": "D141-S01",
+      "classification": "rl_rise_and_switching_time_origin",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "printed_slides": [
+        3,
+        4,
+        5
+      ],
+      "location": "RL equations and switch transition",
+      "observation": "L Idot+RI=V gives the displayed rise I=(V/R)(1−e^(−Rt/L)) for zero initial current. After switching at global time t′, the printed decay uses t as though reset to zero and assumes saturation.",
+      "resolution": "With τ=L/R and I(0)=0, current just before switching is I′=(V/R)(1−e^(−t′/τ)). For t≥t′, I(t)=I′e^(−(t−t′)/τ). The source expression (V/R)e^(−t/τ) is valid if t is elapsed discharge time and the preceding energizing interval was much longer than τ.",
+      "independent_derivation_or_check": "Solving the first linear ODE with an integrating factor gives I=V/R+(Ii−V/R)e^(−t/τ). Removing the source while closing the discharge path gives Idot=−I/τ. Continuity of inductor current fixes the decay prefactor. The plotted continuous transition is physically consistent; the unshifted annotations alone are ambiguous on a shared global time axis. The ideal switching model never closes S1 and S2 together across the source.",
+      "source_asset": "lecture16.pdf"
+    },
+    {
+      "id": "D141-C01",
+      "classification": "inductor_endpoint_and_quasistatic_conditions",
+      "pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "printed_slides": [
+        3,
+        6,
+        7
+      ],
+      "location": "Current inertia and open/short language",
+      "observation": "An initially unenergized ideal inductor has I(0+)=0 under finite applied voltage, and at steady DC its ideal inductive voltage vanishes. These endpoint analogies depend on initial state and component model.",
+      "resolution": "Require positive constant L,R, fixed geometry, linear response and a lumped quasistatic circuit with parasitic capacitance/inductance, radiation and core loss neglected. A pre-existing current is retained at switching, so the inductor is not generally an initial open circuit. Winding resistance remains at DC.",
+      "independent_derivation_or_check": "LΔI=∫vL dt establishes current continuity for finite voltages. The time constant L/R has units seconds: Gaussian (s²/cm)/(s/cm)=s and SI H/ohm=s. For rise the fraction of final-minus-initial change after τ is 1−1/e; for decay the remaining deviation is 1/e. Stored U=LI²/2 explains inertia without claiming an inductor can generate unlimited real voltage or energy.",
+      "source_asset": "lecture16.pdf"
+    },
+    {
+      "id": "D141-S02",
+      "classification": "square_wave_rl_trace_check",
+      "pdf_pages": [
+        4
+      ],
+      "printed_slides": [
+        8
+      ],
+      "location": "75-Hz driven RL diagram",
+      "observation": "All four qualitative traces have the correct relationships: I and VR are continuous, while VL changes sign at falling input and can jump with the input. No component values or measured amplitudes are given.",
+      "resolution": "For a constant input segment Vs beginning with Ia, I=Vs/R+(Ia−Vs/R)e^(−t/τ), VR=RI and VL=Vs−RI. Nearly complete rise/decay between pulses requires segment length large compared with τ.",
+      "independent_derivation_or_check": "At a finite input step, ΔI=0 and ΔVR=0, hence ΔVL=ΔVin. For 75 Hz, full period is 1/75≈13.333 ms; if duty cycle is 50%, each segment is 6.667 ms. No specified L/R establishes whether the shown near-settling actually occurs. Decay energy check: ∫0∞ RIa²e^(−2t/τ)dt=LIa²/2.",
+      "source_asset": "lecture16.pdf"
+    },
+    {
+      "id": "D141-E01",
+      "classification": "lc_initial_current_derivative_sign_slip",
+      "pdf_pages": [
+        5
+      ],
+      "printed_slides": [
+        9,
+        10
+      ],
+      "location": "Initial-condition line on slide 10",
+      "observation": "The source consistently defines I=−dQ/dt, but its initial-current line uses −ω0 A sin(0)+ω0 B cos(0), the sign of Qdot instead of −Qdot.",
+      "resolution": "For Q=A cosω0t+B sinω0t, I=ω0 A sinω0t−ω0 B cosω0t. Thus I(0)=−ω0B. The specific zero-current condition still gives B=0, so the displayed final solution is unaffected.",
+      "independent_derivation_or_check": "With Ω=1/√(LC), Q(0)=Q0 and I(0)=0 give Q=Q0cosΩt and I=ΩQ0sinΩt. More generally, Q=Q0cosΩt−(I0/Ω)sinΩt; a nonzero I0 would expose the source sign error.",
+      "source_asset": "lecture16.pdf"
+    },
+    {
+      "id": "D141-S03",
+      "classification": "lc_energy_phase_and_idealization",
+      "pdf_pages": [
+        5,
+        6,
+        7
+      ],
+      "printed_slides": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "location": "LC solution and energy exchange",
+      "observation": "The differential equation Qddot+Q/(LC)=0, Ω=1/√(LC), final LC formulas and total energy Q0²/(2C) are correct for the specified initial state. The phrase R is never exactly zero is too universal as a material statement; superconducting DC resistance can vanish, although a physical oscillator still has other loss channels.",
+      "resolution": "Distinguish ideal LC modeling from a claim about every material. For I=−Qdot, positive sinusoidal discharge current lags capacitor-charge cosine by a quarter period. With a passive capacitor-current convention the phase wording changes sign.",
+      "independent_derivation_or_check": "UC=(Q0²/2C)cos²Ωt and UL=(Q0²/2C)sin²Ωt; the sum is constant. Energy exchanges at twice the charge-oscillation frequency because the energies involve squares. At a capacitor-voltage zero all ideal energy is magnetic, and at current zero all is electric. Real losses may include resistance, dielectric/core loss and radiation; a zero DC resistance alone does not imply a perfectly loss-free oscillator.",
+      "source_asset": "lecture16.pdf"
+    },
+    {
+      "id": "D141-G01",
+      "classification": "rlc_oscillatory_solution_requires_underdamping",
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "printed_slides": [
+        13,
+        14,
+        16
+      ],
+      "location": "Must have an oscillatory term claim",
+      "observation": "The series RLC equation is correct, but a solution is not necessarily oscillatory for arbitrary positive R. The real damped-cosine form requires R<2√(L/C).",
+      "resolution": "Let β=R/(2L) and Ω=1/√(LC). Roots for Q∝e^(st) are s=−β±√(β²−Ω²). Underdamped β<Ω: Q=e^(−βt)[Acosωt+Bsinωt], ω=√(Ω²−β²). Critical β=Ω: Q=(A+Bt)e^(−βt). Overdamped β>Ω: two real decaying exponentials.",
+      "independent_derivation_or_check": "Substitution into Qddot+2βQdot+Ω²Q=0 gives the characteristic polynomial. In the alternative source ansatz e^(iαt), α=iβ±√(Ω²−β²), so iα=−β±iω for underdamping. The signs on slide 16 are correct. Slide 14 uses e^(αt) while slide 16 uses e^(iαt), an implicit parameter change; the first trial’s ω0 should be an unknown damped frequency rather than fixed to the prior LC Ω when R≠0. At critical damping, a single cosine form misses the second independent t e^(−βt) solution.",
+      "source_asset": "lecture16.pdf"
+    },
+    {
+      "id": "D141-C02",
+      "classification": "complex_phase_quadrant_and_real_solution_conditions",
+      "pdf_pages": [
+        8
+      ],
+      "printed_slides": [
+        15,
+        16
+      ],
+      "location": "Complex notation and real-part method",
+      "observation": "Euler’s identity and polar form are correct. θ=arctan(y/x) only directly gives the right quadrant for appropriate x,y; phase is undefined at z=0. Taking the real part of a complex solution is valid because the ODE has real coefficients.",
+      "resolution": "Use r=√(x²+y²)≥0 and θ=atan2(y,x) modulo 2π for z≠0. A real number is also a complex number with zero imaginary part; both parts need not be nonzero. For a second-order ODE retain two real integration constants via amplitude/phase or two fundamental solutions.",
+      "independent_derivation_or_check": "Reviewer Maclaurin proof: e^(iθ)=Σ(iθ)^n/n!; grouping even powers yields cosθ and odd powers yields i sinθ. Absolute convergence justifies grouping. If Qtilde=u+iv solves a real linear ODE, its real and imaginary parts separately solve it by equating real/imaginary coefficients. Counterexample to principal arctan alone: z=−1 gives y/x=0 but phase π, not 0. A general decaying complex root is not a constant-amplitude steady-state sinusoidal phasor.",
+      "source_asset": "lecture16.pdf"
+    },
+    {
+      "id": "D141-C03",
+      "classification": "weak_damping_and_initial_condition_accuracy",
+      "pdf_pages": [
+        9
+      ],
+      "printed_slides": [
+        17,
+        18
+      ],
+      "location": "Approximate current and initial phase",
+      "observation": "The source explicitly labels its final weak-damping formulas approximate. Dropping the βcos term in I and setting phase zero are leading-order approximations, not an exact initial-value solution for finite R. The general derivative should use the amplitude A; calling it Q0 before the phase is fixed conflates amplitude with initial charge.",
+      "resolution": "Require β/Ω≪1, equivalently R≪2√(L/C). Exact zero-initial-current underdamped solution is Q=Q0 e^(−βt)[cosωt+(β/ω)sinωt] and I=Q0(Ω²/ω)e^(−βt)sinωt, with ω=√(Ω²−β²).",
+      "independent_derivation_or_check": "Differentiate the exact Q: cosine terms cancel, leaving Qdot=−Q0(ω+β²/ω)e^(−βt)sinωt=−Q0Ω²/ω e^(−βt)sinωt. In A e^(−βt)cos(ωt+φ), exact I(0)=0 requires tanφ=−β/ω and A=Q0Ω/ω for Q0>0. The source approximate pair Q≈Q0e^(−βt)cosΩt, I≈ΩQ0e^(−βt)sinΩt is leading order, but differentiating its approximate Q gives an additional βQ0e^(−βt)cosΩt and nonzero I(0)=βQ0. Thus it should not be advertised as exactly satisfying both derivative relation and initial conditions. The omitted term may dominate relative error near current zeros even when its absolute amplitude is small.",
+      "source_asset": "lecture16.pdf"
+    },
+    {
+      "id": "D141-S04",
+      "classification": "damping_energy_and_envelope_interpretation",
+      "pdf_pages": [
+        7,
+        8,
+        9
+      ],
+      "printed_slides": [
+        13,
+        16,
+        17,
+        18
+      ],
+      "location": "Meaning of damping and plotted envelope",
+      "observation": "For positive R, circuit energy decreases. Charge/current envelope time constant 2L/R differs from the earlier RL current time constant L/R; the source exponent R/(2L) is correct.",
+      "resolution": "Use U=Q²/(2C)+LI²/2 and dU/dt=−RI² for the exact source-free model. A pure energy exponential e^(−Rt/L) is generally an averaged weak-damping approximation, not an exact instantaneous identity for arbitrary initial phase.",
+      "independent_derivation_or_check": "Multiply Qddot+(R/L)Qdot+Q/(LC)=0 by LQdot and use I=−Qdot to obtain dU/dt=−R Qdot². For weak damping, averaging sin² and cos² over a cycle gives Ubar proportional to e^(−2βt), hence energy-decay time L/R, while amplitudes decay on 1/β=2L/R. The red-envelope sketch illustrates this regime; exact successive maxima are affected by the phase and frequency. No L2 measured trace was supplied or observed.",
+      "source_asset": "lecture16.pdf"
+    }
+  ],
+  "independent_checks": [
+    "Read all 10 complete page texts and personally viewed every original full sheet, 19 slides and final blank lower half.",
+    "Checked both switch configurations, RL integration, current continuity, time-origin shift, SI/CGS units and all four square-wave traces.",
+    "Verified LC frequency, current sign, initial conditions and energy transfer; localized a derivative-sign slip that cancels only for zero initial current.",
+    "Derived all three RLC damping regimes, checked the complex-root signs, supplied Euler proof and quadrant conditions, and compared exact versus weak-damping initial-value solutions."
+  ],
+  "technical_disposition": "Source review complete. Main issues are the LC initial-current sign slip, unqualified oscillation claim, RL decay time-origin/prefactor assumptions, and weak-damping/phase conditions. The displayed RL and final ideal-LC solutions are correct in their stated zero-initial-current settings; RLC roots and decay exponent are correct below the stated critical-damping boundary.",
+  "unresolved_required_content": [],
+  "unresolved_limits": [
+    "The separate complex-number handout/recitation is referenced but not an indexed assigned asset. No unprovided handout is claimed read.",
+    "The 75-Hz demonstration lacks component values and scope calibration; no quantitative settling or measured amplitude is certified.",
+    "Weak-damping expressions have controlled leading-order scope; exact equality near current zeros or exact initial phase is not asserted.",
+    "No demonstration or historical quiz material was executed, observed or invented."
+  ],
+  "external_research": {
+    "needed": true,
+    "primary_sources": [
+      {
+        "title": "CERN, Superconductivity",
+        "url": "https://home.cern/science/physics/superconductivity/",
+        "locator": "Opening explanation of vanishing electrical resistance below critical temperature, with critical-field conditions",
+        "use": "Primary institution page successfully opened earlier in this source-preparation conversation. Used only to qualify the universal material statement R is never exactly zero; it does not establish zero total loss in a real AC resonator."
+      }
+    ],
+    "reason": "Specialized uncertainties checked with the primary sources listed."
+  },
+  "review_status": "source_review_complete"
+}

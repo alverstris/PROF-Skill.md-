@@ -2,7 +2,7 @@
 name: prof
 description: "Write, revise, extend, or continue teaching documents, study notes, worked solutions, research primers, and programming or language tutorials using Jonathan's evidence-informed requirements. Apply the source research, prerequisite, explanation, practice, and verification workflow to every topic, with durable recovery for long projects. Default to an Overleaf-ready LaTeX project and compiled PDF. Use whenever explicitly invoked; otherwise applies to teaching-document authoring rather than every short subject answer. Explicit PROF self-iteration uses SASIS; ordinary teaching-document work does not invoke that scheme."
 metadata:
-  version: "2026-10-08-r12"
+  version: "2026-10-08-r11"
 ---
 
 # PROF

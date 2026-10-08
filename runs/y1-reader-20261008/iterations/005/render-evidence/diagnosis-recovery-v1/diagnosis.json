@@ -1,0 +1,362 @@
+{
+  "status": "FAIL: actual frozen serialized inline payload mismatch; live client appearance unobserved",
+  "immutable_url": "https://github.com/alverstris/PROF-Skill.md-/blob/bdfe638d531ae5a37aa699304d5ba9042a115f2b/runs/y1-reader-20261008/iterations/005/teaching-v1.md",
+  "frozen_commit": "bdfe638d531ae5a37aa699304d5ba9042a115f2b",
+  "source_path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/005/teaching-v1.md",
+  "helper_path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/tooling/frozen-render-review/frozen_render_review.py",
+  "method": "JSON extraction followed by ordinary HTML parsing; no extra entity-unescape pass",
+  "source_bytes": 24210,
+  "source_sha256": "2279a7267fdd143a3266ffb03097abe65b7194af3cbbb31dfd3433406c6068e0",
+  "input_file_sha256": {
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/005/teaching-v1.md": "2279a7267fdd143a3266ffb03097abe65b7194af3cbbb31dfd3433406c6068e0",
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/tooling/frozen-render-review/frozen_render_review.py": "c4f20677ab1197428f2e665b85184e4f617bfb0f402967b5381e5a779d708b6d",
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d005-render-review/v1/github-page.html": "0aec4d150735676f78bb110f4285f39d1bf06755ab1cacd56385d023d8e50396",
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d005-render-review/v1/github-article.html": "0768d97dc588513994670005b709db58dca9766c21347b0f3cd602f9a75c1e35",
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d005-render-review/v1/markup-audit.json": "738821adc75d0856215cea6248294b9052560b4ef2d60f62a2e23463f8e14995",
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d005-render-review/v1/source-fetch.json": "1d1430070c3c586cf15d16bd9c887c861d8771374f1c0f39fd20e2656491f4a5"
+  },
+  "identity_checks": {
+    "local_source_hash_matches_captured_audit": true,
+    "local_source_hash_matches_source_fetch_record": true,
+    "source_fetch_record_reported_exact_match": true,
+    "page_hash_matches_captured_fetch_record": true,
+    "article_reextracted_from_page_equals_saved_article": true,
+    "recomputed_math_audit_equals_saved_audit": true,
+    "recomputed_all_checks_equal_saved_checks": true,
+    "independent_lxml_all_text_equals_helper": true,
+    "independent_lxml_math_text_equals_helper": true
+  },
+  "optional_local_git_object_check": {
+    "returncode": 0,
+    "stderr": "",
+    "equal_if_available": true,
+    "interpretation": "Local object lookup is supplementary; captured HTTP source identity is recorded separately."
+  },
+  "counts": {
+    "source_inline": 280,
+    "actual_inline": 280,
+    "matching_inline": 267,
+    "mismatching_inline": 13,
+    "source_display": 23,
+    "actual_display": 23,
+    "matching_display": 23,
+    "affected_logical_paragraphs": 10,
+    "unequal_normalized_text_spans": 17
+  },
+  "mismatches": [
+    {
+      "kind": "inline",
+      "global_math_ordinal_1_based": 12,
+      "paragraph": "[P04]",
+      "within_paragraph_math_ordinal_1_based": 4,
+      "source_line_1_based": 15,
+      "source_column_1_based": 206,
+      "source_payload": "-1<x<1",
+      "ordinary_html_parsed_payload": "-1&lt;x&lt;1",
+      "raw_article_inner_html": "$-1&amp;lt;x&amp;lt;1$",
+      "raw_article_html_character_offset_0_based": 3583
+    },
+    {
+      "kind": "inline",
+      "global_math_ordinal_1_based": 98,
+      "paragraph": "[P16]",
+      "within_paragraph_math_ordinal_1_based": 3,
+      "source_line_1_based": 87,
+      "source_column_1_based": 97,
+      "source_payload": "l<a<r",
+      "ordinary_html_parsed_payload": "l&lt;a&lt;r",
+      "raw_article_inner_html": "$l&amp;lt;a&amp;lt;r$",
+      "raw_article_html_character_offset_0_based": 22270
+    },
+    {
+      "kind": "inline",
+      "global_math_ordinal_1_based": 140,
+      "paragraph": "[P19]",
+      "within_paragraph_math_ordinal_1_based": 3,
+      "source_line_1_based": 115,
+      "source_column_1_based": 129,
+      "source_payload": "x>0",
+      "ordinary_html_parsed_payload": "x&gt;0",
+      "raw_article_inner_html": "$x&amp;gt;0$",
+      "raw_article_html_character_offset_0_based": 30721
+    },
+    {
+      "kind": "inline",
+      "global_math_ordinal_1_based": 145,
+      "paragraph": "[P19]",
+      "within_paragraph_math_ordinal_1_based": 8,
+      "source_line_1_based": 115,
+      "source_column_1_based": 319,
+      "source_payload": "p'(t)=nt^{n-1}>0",
+      "ordinary_html_parsed_payload": "p'(t)=nt^{n-1}&gt;0",
+      "raw_article_inner_html": "$p'(t)=nt^{n-1}&amp;gt;0$",
+      "raw_article_html_character_offset_0_based": 31563
+    },
+    {
+      "kind": "inline",
+      "global_math_ordinal_1_based": 150,
+      "paragraph": "[P20]",
+      "within_paragraph_math_ordinal_1_based": 3,
+      "source_line_1_based": 125,
+      "source_column_1_based": 6,
+      "source_payload": "y>0",
+      "ordinary_html_parsed_payload": "y&gt;0",
+      "raw_article_inner_html": "$y&amp;gt;0$",
+      "raw_article_html_character_offset_0_based": 32948
+    },
+    {
+      "kind": "inline",
+      "global_math_ordinal_1_based": 152,
+      "paragraph": "[P20]",
+      "within_paragraph_math_ordinal_1_based": 5,
+      "source_line_1_based": 134,
+      "source_column_1_based": 40,
+      "source_payload": "x>0",
+      "ordinary_html_parsed_payload": "x&gt;0",
+      "raw_article_inner_html": "$x&amp;gt;0$",
+      "raw_article_html_character_offset_0_based": 33552
+    },
+    {
+      "kind": "inline",
+      "global_math_ordinal_1_based": 157,
+      "paragraph": "[P21]",
+      "within_paragraph_math_ordinal_1_based": 1,
+      "source_line_1_based": 136,
+      "source_column_1_based": 44,
+      "source_payload": "x>0",
+      "ordinary_html_parsed_payload": "x&gt;0",
+      "raw_article_inner_html": "$x&amp;gt;0$",
+      "raw_article_html_character_offset_0_based": 34454
+    },
+    {
+      "kind": "inline",
+      "global_math_ordinal_1_based": 166,
+      "paragraph": "[P22]",
+      "within_paragraph_math_ordinal_1_based": 4,
+      "source_line_1_based": 148,
+      "source_column_1_based": 141,
+      "source_payload": "x>0",
+      "ordinary_html_parsed_payload": "x&gt;0",
+      "raw_article_inner_html": "$x&amp;gt;0$",
+      "raw_article_html_character_offset_0_based": 36901
+    },
+    {
+      "kind": "inline",
+      "global_math_ordinal_1_based": 169,
+      "paragraph": "[P23]",
+      "within_paragraph_math_ordinal_1_based": 2,
+      "source_line_1_based": 150,
+      "source_column_1_based": 108,
+      "source_payload": "-\\pi/2<y<\\pi/2",
+      "ordinary_html_parsed_payload": "-\\pi/2&lt;y&lt;\\pi/2",
+      "raw_article_inner_html": "$-\\pi/2&amp;lt;y&amp;lt;\\pi/2$",
+      "raw_article_html_character_offset_0_based": 37825
+    },
+    {
+      "kind": "inline",
+      "global_math_ordinal_1_based": 172,
+      "paragraph": "[P24]",
+      "within_paragraph_math_ordinal_1_based": 2,
+      "source_line_1_based": 158,
+      "source_column_1_based": 95,
+      "source_payload": "x>0",
+      "ordinary_html_parsed_payload": "x&gt;0",
+      "raw_article_inner_html": "$x&amp;gt;0$",
+      "raw_article_html_character_offset_0_based": 38948
+    },
+    {
+      "kind": "inline",
+      "global_math_ordinal_1_based": 185,
+      "paragraph": "[P25]",
+      "within_paragraph_math_ordinal_1_based": 5,
+      "source_line_1_based": 168,
+      "source_column_1_based": 132,
+      "source_payload": "1+x^2>0",
+      "ordinary_html_parsed_payload": "1+x^2&gt;0",
+      "raw_article_inner_html": "$1+x^2&amp;gt;0$",
+      "raw_article_html_character_offset_0_based": 41621
+    },
+    {
+      "kind": "inline",
+      "global_math_ordinal_1_based": 186,
+      "paragraph": "[P25]",
+      "within_paragraph_math_ordinal_1_based": 6,
+      "source_line_1_based": 174,
+      "source_column_1_based": 22,
+      "source_payload": "\\cos y>0",
+      "ordinary_html_parsed_payload": "\\cos y&gt;0",
+      "raw_article_inner_html": "$\\cos y&amp;gt;0$",
+      "raw_article_html_character_offset_0_based": 42013
+    },
+    {
+      "kind": "inline",
+      "global_math_ordinal_1_based": 237,
+      "paragraph": "[P35]",
+      "within_paragraph_math_ordinal_1_based": 2,
+      "source_line_1_based": 214,
+      "source_column_1_based": 121,
+      "source_payload": "-1<x<1",
+      "ordinary_html_parsed_payload": "-1&lt;x&lt;1",
+      "raw_article_inner_html": "$-1&amp;lt;x&amp;lt;1$",
+      "raw_article_html_character_offset_0_based": 53228
+    }
+  ],
+  "normalized_text_differences": [
+    {
+      "type": "replace",
+      "source": "<",
+      "ordinary_html_parsed": "&lt;",
+      "normalized_source_offset_0_based": 1796,
+      "normalized_actual_offset_0_based": 1796,
+      "source_context": "er branch and the open interval $-1<x<1$, the familiar power and chain "
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "ordinary_html_parsed": "&lt;",
+      "normalized_source_offset_0_based": 1798,
+      "normalized_actual_offset_0_based": 1801,
+      "source_context": " branch and the open interval $-1<x<1$, the familiar power and chain ru"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "ordinary_html_parsed": "&lt;",
+      "normalized_source_offset_0_based": 7959,
+      "normalized_actual_offset_0_based": 7965,
+      "source_context": "onnection, bracket $a$ by points $l<a<r$ as close to $a$ as desired. By"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "ordinary_html_parsed": "&lt;",
+      "normalized_source_offset_0_based": 7961,
+      "normalized_actual_offset_0_based": 7970,
+      "source_context": "nection, bracket $a$ by points $l<a<r$ as close to $a$ as desired. By s"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "ordinary_html_parsed": "&gt;",
+      "normalized_source_offset_0_based": 10404,
+      "normalized_actual_offset_0_based": 10416,
+      "source_context": "eger, $n$ a positive integer and $x>0$, define $y=x^{m/n}$ to be the po"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "ordinary_html_parsed": "&gt;",
+      "normalized_source_offset_0_based": 10597,
+      "normalized_actual_offset_0_based": 10612,
+      "source_context": "ly increasing, with $p'(t)=nt^{n-1}>0$. Its positive inverse root is di"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "ordinary_html_parsed": "&gt;",
+      "normalized_source_offset_0_based": 11143,
+      "normalized_actual_offset_0_based": 11161,
+      "source_context": "c{x^{m-1}}{x^{m(n-1)/n}}.$$ Here $y>0$ makes the division valid. Dividi"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "ordinary_html_parsed": "&gt;",
+      "normalized_source_offset_0_based": 11335,
+      "normalized_actual_offset_0_based": 11356,
+      "source_context": " $(x^{m/n})'=(m/n)x^{m/n-1}$ for $x>0$, reproducing every exponent step"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "ordinary_html_parsed": "&gt;",
+      "normalized_source_offset_0_based": 11557,
+      "normalized_actual_offset_0_based": 11581,
+      "source_context": " calculation was deliberately on $x>0$. Negative powers cannot include "
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "ordinary_html_parsed": "&gt;",
+      "normalized_source_offset_0_based": 12610,
+      "normalized_actual_offset_0_based": 12637,
+      "source_context": "/3}$. Find their derivatives for $x>0$. Then use difference quotients a"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "ordinary_html_parsed": "&lt;",
+      "normalized_source_offset_0_based": 13085,
+      "normalized_actual_offset_0_based": 13115,
+      "source_context": "=\\arctan x$, whose range is $-\\pi/2<y<\\pi/2$. This is the branch alread"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "ordinary_html_parsed": "&lt;",
+      "normalized_source_offset_0_based": 13087,
+      "normalized_actual_offset_0_based": 13120,
+      "source_context": "arctan x$, whose range is $-\\pi/2<y<\\pi/2$. This is the branch already "
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "ordinary_html_parsed": "&gt;",
+      "normalized_source_offset_0_based": 13653,
+      "normalized_actual_offset_0_based": 13689,
+      "source_context": "n into an expression in $x$. For $x>0$, form a right triangle with angl"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "ordinary_html_parsed": "&gt;",
+      "normalized_source_offset_0_based": 14459,
+      "normalized_actual_offset_0_based": 14498,
+      "source_context": "es $1+x^2=1/\\cos^2 y$. Since $1+x^2>0$, invert to obtain $$\\frac{d}{dx}"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "ordinary_html_parsed": "&gt;",
+      "normalized_source_offset_0_based": 14571,
+      "normalized_actual_offset_0_based": 14613,
+      "source_context": " R).$$ On the chosen branch $\\cos y>0$, so even the unsquared identity "
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "ordinary_html_parsed": "&lt;",
+      "normalized_source_offset_0_based": 18182,
+      "normalized_actual_offset_0_based": 18227,
+      "source_context": "anches are differentiable where $-1<x<1$. Differentiating gives $2x+2yy"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "ordinary_html_parsed": "&lt;",
+      "normalized_source_offset_0_based": 18184,
+      "normalized_actual_offset_0_based": 18232,
+      "source_context": "ches are differentiable where $-1<x<1$. Differentiating gives $2x+2yy'="
+    }
+  ],
+  "all_text_differences_are_observed_angle_entity_spellings": true,
+  "captured_checks": {
+    "complete_text_equal_after_documented_markup_normalization": false,
+    "paragraph_labels_match_source_in_order": true,
+    "paragraph_labels_unique": true,
+    "all_inline_math_payloads_exact": false,
+    "all_display_math_payloads_exact": true,
+    "all_anchor_ids_match_source_in_order": true,
+    "all_internal_hrefs_match_source_in_order": true,
+    "all_internal_targets_present_once": true,
+    "plain_prose_no_bold_italic_or_heading_tags": true,
+    "source_has_no_atx_headings": true,
+    "all_q_h_s_matching_links_and_returns": true,
+    "hint_entries_all_before_solution_entries": true
+  },
+  "limits": [
+    "Frozen saved server response only; no new network fetch.",
+    "Live GitHub client pixels, client entity handling, MathJax execution and link clicking unobserved.",
+    "No PDF generated or inspected; no teaching-content review performed."
+  ]
+}

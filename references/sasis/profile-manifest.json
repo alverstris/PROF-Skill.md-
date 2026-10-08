@@ -1,0 +1,123 @@
+{
+  "name": "SASIS OCR A four-subject / bachelor year 1 profile",
+  "installed_date": "2026-10-08",
+  "researched_date": "2026-10-07",
+  "baseline_revision": "OCR-A-4-subjects-r1",
+  "invocation": "Explicit PROF self-iteration only; storage/configuration requests do not run trials.",
+  "complete_student_baseline": "ocr-baseline-20261007/student-baseline.txt",
+  "subject_files": [
+    {
+      "subject": "Mathematics",
+      "qualification": "H240",
+      "version": "3.1, August 2026",
+      "path": "ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "official_specification": "https://www.ocr.org.uk/Images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf",
+      "research": "ocr-baseline-20261007/maths/research-record.md"
+    },
+    {
+      "subject": "Further Mathematics",
+      "qualification": "H245",
+      "version": "2, October 2025",
+      "path": "ocr-baseline-20261007/further-maths/baseline.txt",
+      "sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "official_specification": "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf",
+      "research": "ocr-baseline-20261007/further-maths/research-verification.txt"
+    },
+    {
+      "subject": "Physics",
+      "qualification": "H556",
+      "version": "3.0, March 2026",
+      "path": "ocr-baseline-20261007/physics/baseline.txt",
+      "sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "official_specification": "https://www.ocr.org.uk/Images/171726-specification-accredited-a-level-gce-physics-a-h556.pdf",
+      "research": "ocr-baseline-20261007/physics/research.md"
+    },
+    {
+      "subject": "Chemistry",
+      "qualification": "H432",
+      "version": "3.1, May 2026",
+      "path": "ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "official_specification": "https://www.ocr.org.uk/Images/171720-specification-accredited-a-level-gce-chemistry-a-h432.pdf",
+      "research": "ocr-baseline-20261007/chemistry/research-verification.txt"
+    }
+  ],
+  "further_maths_components": [
+    "Y540",
+    "Y541",
+    "Y542 Statistics",
+    "Y543 Mechanics"
+  ],
+  "university_scope": "Bachelor year 1 physics/mathematics; positive university placement evidence required.",
+  "course_registry": "ocr-baseline-20261007/year1-course-registry.json",
+  "lecture_index": "ocr-baseline-20261007/year1-lecture-index.csv",
+  "student_role": "student-role.txt",
+  "testing_contract": "student-testing-contract.txt",
+  "file_hashes_base_directory": "ocr-baseline-20261007",
+  "file_hashes": {
+    "student-baseline.txt": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+    "student-input-cover.txt": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+    "release-manifest.json": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+    "maths/mathematics-a-h240-baseline.txt": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+    "maths/research-record.md": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+    "maths/research/lds-metadata.json": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+    "further-maths/baseline.txt": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+    "further-maths/research-verification.txt": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+    "further-maths/download-manifest.json": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+    "physics/baseline.txt": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+    "physics/research.md": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+    "physics/source-manifest.json": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+    "chemistry/student-baseline.txt": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+    "chemistry/research-verification.txt": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+    "chemistry/baseline-section-index.json": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+    "chemistry/freeze-manifest.json": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+    "chemistry/reference/download-manifest.json": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+    "year1-course-registry.json": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+    "year1-lecture-index.csv": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1"
+  },
+  "provenance_notes": [
+    "These files are exact copies of the reviewed release. Their scientific content is not reauthored during installation.",
+    "Research logs and download inventories are author/evaluator evidence; they are not student inputs.",
+    "Raw OCR PDFs, rendering intermediates, the earlier release ZIP, and university lecture/media assets are not bundled in the installed skill. Obtain actual case sources from the official URLs or an independently checked local cache.",
+    "The registry source_library and historical release metadata identify the original optional cache/release; they are provenance, not required installed paths.",
+    "Original raw-source audit cache: C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\outputs\\ocr-baseline-20261007. The skill can be relocated; use its relative baseline/profile paths and official source URLs.",
+    "No new student trial has run under this profile merely because these resources were installed. Verify live editions/placement before claiming freshness for a new run."
+  ],
+  "protocol_revision": "2026-10-08-r6",
+  "rewrite_guide": "rewrite-guide.md",
+  "student_input_policy": {
+    "subject_content_inputs": 2,
+    "complete_baseline_required": true,
+    "baseline_read_before_task_design": true,
+    "baseline_supplied_afresh_each_independent_condition": true,
+    "baseline_must_not_be_removed_for_missing_bridge_controls": true,
+    "blocking_admission_record_required": true,
+    "admission_modes": [
+      "verified complete full-text delivery",
+      "separately labelled confined read-only retrieval of the whole two artefacts"
+    ],
+    "unestablished_delivery": "unverified; repair before admission",
+    "absent_mismatched_incomplete_or_truncated_baseline": "block dispatch; repair and freeze a new independent condition",
+    "same_call_recall_of_current_supplied_baseline_and_document_allowed": true,
+    "same_call_reuse_of_valid_deductions_from_current_inputs_allowed": true,
+    "cross_document_call_or_condition_recall_may_supplement_inputs": false,
+    "external_remembered_OCR_knowledge_may_supplement_inputs": false,
+    "author_designer_evaluator_external_subject_recollection_may_supplement_evidence": false,
+    "separate_fresh_call_per_teaching_document_revision_in_self_iteration": true,
+    "multiple_questions_in_same_frozen_call_may_share_supplied_content": true,
+    "question_order_and_supported_deduction_reuse_recorded": true,
+    "operational_recovery_records_are_student_content": false,
+    "technical_erasure_of_pretraining_claimed": false
+  },
+  "control_file_hashes": {
+    "student-role.txt": "959e4515bc61e14747ac24845b2481a5e03cb01db351894c524434ad426545a3",
+    "student-testing-contract.txt": "06be8ecb556e0eeb59264e00e30896ea917a8c61dd3f3f15bec2d1fcac0f8aff",
+    "rewrite-guide.md": "3f631507166243269f855291a3774720bcdf8413be5fde4c5cf51dc2e636b8e9"
+  },
+  "protocol_update_notes": [
+    "Original reviewed-release provenance and hashes describe the unchanged 19 baseline/profile payloads.",
+    "The 2026-10-08-r5 revision established the protocol, student operating instruction, testing contract and rewrite guide. Revision 2026-10-08-r6 clarifies that SASIS evaluates the notes and their supported connections; simulated responses are diagnostic evidence, and restriction controls establish evidence validity. control_file_hashes bind the current resources.",
+    "This update adds instructions and inspectable records; it does not install a runtime that can erase pretraining or mechanically guarantee semantic compliance. The 2026-10-08-r6 clarification runs no SASIS trials and does not claim an empirically validated improvement."
+  ]
+}

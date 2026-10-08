@@ -20,3 +20,13 @@ After the assistant disclosed partial verified source access, the147-session que
 The imported r6 protocol records prior confirmation that the assignment comprises126lectures and21studios. Preserve that declared scope; do not treat a first lecture as the whole run.
 
 Project AGENTS.md: all files under sources/ are read-only synced reference material; do not edit, rename, move or delete them. This run uses GitHub and cloud sources, not those local files.
+
+Latest scope instruction and clarification, 2026-10-08
+
+“Go through and find all of the lectures that can be fully read through properly, then iterate on those only.”
+
+“To clarify, through those, not on those”
+
+These instructions authorise auditing the complete original queue and iterating PROF through only source packets whose complete faithful reading is established. The lecture sources are inputs, not the objects being edited. Retain every original ID, ordering and provenance; preserve excluded packets and precise reasons rather than deleting them. This supersedes the earlier obligation to complete an iteration for every one of the 147 original sessions. Exclusion does not establish intrinsic unreadability or missing access.
+
+The work takes place in the cloud Linux workspace. The prohibition on operating Jonathan's computer and editing the installed Windows skill continues. GitHub remains canonical.

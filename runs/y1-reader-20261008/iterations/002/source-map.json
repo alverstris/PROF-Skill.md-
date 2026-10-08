@@ -1,0 +1,904 @@
+{
+  "schema": "d002-source-technical-map-v1",
+  "material_id": "D002",
+  "stable_id": "mit-18-01-fall-2006-L02",
+  "task_scope": "Technical source preparation only; no teaching authoring, learner baseline, next-document design, SASIS, PROF or GitHub edits.",
+  "reviewed_at_utc": "2026-10-08T20:20:48.213645+00:00",
+  "title": "Lecture 2: Limits, Continuity, and Trigonometric Limits",
+  "course": "MIT 18.01 Single Variable Calculus, Fall 2006",
+  "access": {
+    "method": "Read the supplied local PDF provenance and all extracted page texts; inspected all 12 original page renders individually using view_image. Recomputed the PDF SHA-256 locally.",
+    "official_index_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/",
+    "resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec2/",
+    "asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/acebd5cc8fe0315270d486685739d08f_lec2.pdf",
+    "pdf_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2.pdf",
+    "audit_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/audit.json",
+    "acquisition_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/acquisition.json",
+    "sha256_recorded": "55bc48e3f4b4f1652984ed5e5f59ab2ef366fe897aa46f38b70ea8c4f89437e3",
+    "sha256_recomputed": "55bc48e3f4b4f1652984ed5e5f59ab2ef366fe897aa46f38b70ea8c4f89437e3",
+    "bytes": 2718760,
+    "page_count": 12,
+    "printed_page_mapping": "PDF page 1 is the unnumbered cover; PDF pages 2–12 are printed pages 1–11.",
+    "network_access_in_this_review": false,
+    "network_access_note": "Official URLs inherited from supplied acquisition/audit records; source was not downloaded again. No uncertain consequential claim required external verification.",
+    "skill_used": "PDF skill, read-only workflow; no PDF create/edit marker was invoked."
+  },
+  "inspection": {
+    "text_pages_actually_read": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "image_pages_actually_inspected_individually": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "render_dimensions": [
+      1224,
+      1584
+    ],
+    "render_provenance": "Existing PyMuPDF 2x renders recorded in supplied audit.",
+    "cover_inspected": true,
+    "content_pages_inspected": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "unreadable_pages": [],
+    "missing_pages": [],
+    "unresolved_symbol_readings": [],
+    "prior_audit_not_substituted_for_current_inspection": true,
+    "complementary_independent_check": {
+      "scope": "PDF pages 8–12, original renders and text, mathematical second check by a separate agent.",
+      "agreement": "Derivative formulas, limit values, parity conditions, endpoint convention, trig proof gaps and arc-length wording findings agreed.",
+      "files_edited_by_second_checker": []
+    }
+  },
+  "pages": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p01.png",
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p01.txt",
+      "text_read": true,
+      "full_page_image_inspected": true,
+      "topic": "Cover and course identity",
+      "figures": [],
+      "required_content": [
+        "MIT OpenCourseWare; 18.01 Single Variable Calculus; Fall 2006; terms/citation URL."
+      ]
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": 1,
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p02.png",
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p02.txt",
+      "text_read": true,
+      "full_page_image_inspected": true,
+      "topic": "Rate of change and physical interpretations",
+      "figures": [
+        1
+      ],
+      "required_content": [
+        "Average-to-instantaneous rate limit.",
+        "Charge/current, distance/speed, temperature/spatial gradient."
+      ]
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": 2,
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p03.png",
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p03.txt",
+      "text_read": true,
+      "full_page_image_inspected": true,
+      "topic": "Sensitivity and GPS geometry",
+      "figures": [
+        2,
+        3
+      ],
+      "required_content": [
+        "Measurement change ratio ΔL/Δh.",
+        "Curved-Earth diagram and simplified flat-Earth right triangle, with s, h, L labels."
+      ]
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": 3,
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p04.png",
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p04.txt",
+      "text_read": true,
+      "full_page_image_inspected": true,
+      "topic": "Easy limit, derivative quotient, continuity and piecewise example",
+      "figures": [
+        4
+      ],
+      "required_content": [
+        "Rational limit at x=3.",
+        "Punctured derivative quotient.",
+        "Continuity criterion.",
+        "Piecewise branch typo."
+      ]
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 4,
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p05.png",
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p05.txt",
+      "text_read": true,
+      "full_page_image_inspected": true,
+      "topic": "One-sided limits and removable discontinuity",
+      "figures": [
+        5
+      ],
+      "required_content": [
+        "Continuation of piecewise example.",
+        "Right/left limit notation.",
+        "Removable discontinuity and sin(x)/x at zero."
+      ]
+    },
+    {
+      "pdf_page": 6,
+      "printed_page": 5,
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p06.png",
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p06.txt",
+      "text_read": true,
+      "full_page_image_inspected": true,
+      "topic": "Jump and infinite discontinuities",
+      "figures": [
+        6,
+        7
+      ],
+      "required_content": [
+        "Unequal one-sided limits; reversed superscripts in sentence.",
+        "1/x limits +∞ from right and −∞ from left."
+      ]
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": 6,
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p07.png",
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p07.txt",
+      "text_read": true,
+      "full_page_image_inspected": true,
+      "topic": "Oscillatory failure of a limit",
+      "figures": [
+        8
+      ],
+      "required_content": [
+        "Persistent bounded oscillations near the origin; no formula supplied."
+      ]
+    },
+    {
+      "pdf_page": 8,
+      "printed_page": 7,
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p08.png",
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p08.txt",
+      "text_read": true,
+      "full_page_image_inspected": true,
+      "topic": "Function graph versus derivative graph and parity",
+      "figures": [
+        9
+      ],
+      "required_content": [
+        "1/x versus −1/x².",
+        "Odd/even differentiation statement."
+      ]
+    },
+    {
+      "pdf_page": 9,
+      "printed_page": 8,
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p09.png",
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p09.txt",
+      "text_read": true,
+      "full_page_image_inspected": true,
+      "topic": "Pumpkin motion and derivative graph",
+      "figures": [
+        10,
+        11
+      ],
+      "required_content": [
+        "y(t)=400−16t² for −5≤t≤5.",
+        "Parabolic height graph and decreasing linear derivative sketch."
+      ]
+    },
+    {
+      "pdf_page": 10,
+      "printed_page": 9,
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p10.png",
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p10.txt",
+      "text_read": true,
+      "full_page_image_inspected": true,
+      "topic": "Two trigonometric limits and sine geometry",
+      "figures": [
+        12,
+        13
+      ],
+      "required_content": [
+        "Radians explicitly required.",
+        "sinθ/θ→1 and (1−cosθ)/θ→0.",
+        "Positive acute-angle unit-circle geometry."
+      ]
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": 10,
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p11.png",
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p11.txt",
+      "text_read": true,
+      "full_page_image_inspected": true,
+      "topic": "Cosine-limit geometry",
+      "figures": [
+        14,
+        15
+      ],
+      "required_content": [
+        "cosθ projection and 1−cosθ horizontal gap.",
+        "Visual small-angle comparison; arc-length wording issue."
+      ]
+    },
+    {
+      "pdf_page": 12,
+      "printed_page": 11,
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p12.png",
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L02/lec2-p12.txt",
+      "text_read": true,
+      "full_page_image_inspected": true,
+      "topic": "Differentiability implies continuity",
+      "figures": [],
+      "required_content": [
+        "Theorem and factorization proof on a punctured neighborhood.",
+        "Division-by-zero caution."
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "figure": 1,
+      "locator": {
+        "pdf_page": 2,
+        "printed_page": 1,
+        "detail": "Figure 1"
+      },
+      "observed_content": "Generic increasing concave-down curve with two points; horizontal Δx and vertical Δy.",
+      "technical_interpretation_and_conditions": "Represents a finite difference quotient. The derivative limit requires a base point held fixed and differentiability there."
+    },
+    {
+      "figure": 2,
+      "locator": {
+        "pdf_page": 3,
+        "printed_page": 2,
+        "detail": "Figure 2"
+      },
+      "observed_content": "Satellite and observer above/on curved Earth; s is satellite altitude, h the slant distance, L the red surface arc.",
+      "technical_interpretation_and_conditions": "The curved geometry gives context only. Earth radius and a governing spherical equation are absent."
+    },
+    {
+      "figure": 3,
+      "locator": {
+        "pdf_page": 3,
+        "printed_page": 2,
+        "detail": "Figure 3"
+      },
+      "observed_content": "Flat-Earth right triangle: vertical leg s, hypotenuse h, horizontal leg L.",
+      "technical_interpretation_and_conditions": "For fixed s, h²=s²+L²; take L≥0 and h≥s. Do not identify this straight L with an exact spherical arc length."
+    },
+    {
+      "figure": 4,
+      "locator": {
+        "pdf_page": 4,
+        "printed_page": 3,
+        "detail": "Figure 4"
+      },
+      "observed_content": "Left line ends with filled point at (0,0); right line starts with open point at (0,1).",
+      "technical_interpretation_and_conditions": "Matches f(x)=−x for x≤0 and x+1 for x>0, not the printed second condition x≥0."
+    },
+    {
+      "figure": 5,
+      "locator": {
+        "pdf_page": 5,
+        "printed_page": 4,
+        "detail": "Figure 5"
+      },
+      "observed_content": "Continuous-looking oscillating curve interrupted by one open circle.",
+      "technical_interpretation_and_conditions": "Schematic removable hole; no axes, coordinate or alternative filled value specified."
+    },
+    {
+      "figure": 6,
+      "locator": {
+        "pdf_page": 6,
+        "printed_page": 5,
+        "detail": "Figure 6"
+      },
+      "observed_content": "Two horizontal levels separated at x0; both endpoints are hollow.",
+      "technical_interpretation_and_conditions": "Illustrates unequal finite one-sided limits. The value at x0 is unspecified and cannot remove the jump."
+    },
+    {
+      "figure": 7,
+      "locator": {
+        "pdf_page": 6,
+        "printed_page": 5,
+        "detail": "Figure 7"
+      },
+      "observed_content": "Reciprocal hyperbola in quadrants I and III, asymptotic to both axes.",
+      "technical_interpretation_and_conditions": "Correct 1/x geometry on x≠0; +∞ from right and −∞ from left at zero."
+    },
+    {
+      "figure": 8,
+      "locator": {
+        "pdf_page": 7,
+        "printed_page": 6,
+        "detail": "Figure 8"
+      },
+      "observed_content": "Positive-side oscillations of persistent amplitude become increasingly rapid near the vertical axis.",
+      "technical_interpretation_and_conditions": "No analytic formula or scale is supplied. Only the right-side behavior is pictured; oscillation alone is not enough unless its amplitude fails to vanish."
+    },
+    {
+      "figure": 9,
+      "locator": {
+        "pdf_page": 8,
+        "printed_page": 7,
+        "detail": "Figure 9"
+      },
+      "observed_content": "Top: reciprocal branches with red tangent samples. Bottom: negative derivative branches with corresponding red samples.",
+      "technical_interpretation_and_conditions": "Correct qualitative f=1/x and f′=−1/x² for x≠0; both branches of f decrease; derivative is even and negative."
+    },
+    {
+      "figure": 10,
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 8,
+        "detail": "Figure 10"
+      },
+      "observed_content": "Parabolic arc passes above a rectangular building; caption y=400−16t², −5≤t≤5.",
+      "technical_interpretation_and_conditions": "Schematic physical scene. Axes, units, horizontal-motion model and building height are not specified."
+    },
+    {
+      "figure": 11,
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 8,
+        "detail": "Figure 11"
+      },
+      "observed_content": "Top: downward parabola with positive, zero and negative tangent samples. Bottom: decreasing red line through origin with corresponding samples.",
+      "technical_interpretation_and_conditions": "Consistent with y′=−32t. Closed derivative endpoints imply an unstated extension or one-sided convention."
+    },
+    {
+      "figure": 12,
+      "locator": {
+        "pdf_page": 10,
+        "printed_page": 9,
+        "detail": "Figure 12"
+      },
+      "observed_content": "Unit-radius circular arc, positive acute θ, vertical sinθ segment and arc labelled θ.",
+      "technical_interpretation_and_conditions": "Arc length equals θ only with unit radius and radians; drawn lengths use θ>0."
+    },
+    {
+      "figure": 13,
+      "locator": {
+        "pdf_page": 10,
+        "printed_page": 9,
+        "detail": "Figure 13"
+      },
+      "observed_content": "Small-angle enlargement retaining radius 1, sinθ vertical segment and arc θ.",
+      "technical_interpretation_and_conditions": "Qualitative comparison supporting the sine ratio; does not itself supply a squeeze proof."
+    },
+    {
+      "figure": 14,
+      "locator": {
+        "pdf_page": 11,
+        "printed_page": 10,
+        "detail": "Figure 14"
+      },
+      "observed_content": "Unit sector with horizontal projection cosθ and residual horizontal gap 1−cosθ; arc θ.",
+      "technical_interpretation_and_conditions": "Labels consistent for the pictured positive acute angle. Arc length differs from vertical displacement sinθ."
+    },
+    {
+      "figure": 15,
+      "locator": {
+        "pdf_page": 11,
+        "printed_page": 10,
+        "detail": "Figure 15"
+      },
+      "observed_content": "Small-angle sector with near-horizontal radius and short horizontal gap 1−cosθ.",
+      "technical_interpretation_and_conditions": "Qualitative scale comparison; needs a bound to establish the quotient limit and a sign/symmetry step for negative angles."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "locator": {
+        "pdf_page": 2,
+        "printed_page": 1,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "Δy/Δx tends to dy/dx as Δx→0.",
+      "assessment": "correct_with_conditions",
+      "conditions": [
+        "Δy=f(x0+Δx)−f(x0), base x0 fixed.",
+        "Δx≠0 while taking the limit.",
+        "A finite derivative must exist."
+      ],
+      "independent_check": "This is the defining difference-quotient limit."
+    },
+    {
+      "id": "C02",
+      "locator": {
+        "pdf_page": 2,
+        "printed_page": 1,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "dq/dt is current; ds/dt is speed; dT/dx is temperature gradient.",
+      "assessment": "correct_with_conditions",
+      "conditions": [
+        "q denotes charge transferred; s denotes distance traveled, not signed position.",
+        "Temperature varies along the indicated spatial coordinate."
+      ],
+      "independent_check": "If s meant signed position, its derivative would be velocity rather than speed."
+    },
+    {
+      "id": "C03",
+      "locator": {
+        "pdf_page": 3,
+        "printed_page": 2,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "ΔL/Δh measures sensitivity of inferred position to range error.",
+      "assessment": "correct_with_conditions",
+      "conditions": [
+        "The geometric relation and other parameters must be held fixed.",
+        "A derivative describes the local small-error limit, not an exact arbitrary finite-error ratio."
+      ],
+      "independent_check": "Figure 3 yields L=√(h²−s²) and dL/dh=h/√(h²−s²) for fixed s and h>s; these formulas are reviewer deductions, not printed equations."
+    },
+    {
+      "id": "C04",
+      "locator": {
+        "pdf_page": 4,
+        "printed_page": 3,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "lim as x→3 of (x²+x)/(x+1) equals 3.",
+      "assessment": "correct",
+      "conditions": [
+        "Denominator at 3 equals 4."
+      ],
+      "independent_check": "Direct substitution gives 12/4=3; algebraic cancellation gives x on x≠−1."
+    },
+    {
+      "id": "C05",
+      "locator": {
+        "pdf_page": 4,
+        "printed_page": 3,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "The displayed derivative difference quotient excludes a zero denominator.",
+      "assessment": "correct_but_notation_implicit",
+      "conditions": [
+        "Set Δx=x−x0 to interpret its printed x→x0 limit; otherwise use Δx→0."
+      ],
+      "independent_check": "A limit uses punctured inputs; substituting Δx=0 into the original quotient is undefined."
+    },
+    {
+      "id": "C06",
+      "locator": {
+        "pdf_page": 4,
+        "printed_page": 3,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "Continuity at x0 means lim f(x)=f(x0).",
+      "assessment": "correct_with_conditions",
+      "conditions": [
+        "f(x0) is defined and finite.",
+        "For the pictured interior-point setting the finite two-sided limit exists.",
+        "At a domain endpoint the appropriate relative/one-sided interpretation applies."
+      ],
+      "independent_check": "This separates existence of a nearby limit from the assigned function value."
+    },
+    {
+      "id": "C07",
+      "locator": {
+        "pdf_page": 4,
+        "printed_page": 3,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "Printed piecewise f: x+1 for x>0; −x for x≥0.",
+      "assessment": "incorrect_as_printed",
+      "conditions": [
+        "Second branch must be x≤0 to match Figure 4 and the following page."
+      ],
+      "independent_check": "As printed, x>0 receives two conflicting values and x<0 receives none. Corrected limits at zero: left 0, right 1; f(0)=0."
+    },
+    {
+      "id": "C08",
+      "locator": {
+        "pdf_page": 5,
+        "printed_page": 4,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "For x>0 the displayed lim as x→0 of f(x) is 1; f(0)=0 and f is continuous from the left only.",
+      "assessment": "correct_with_restriction",
+      "conditions": [
+        "Use corrected piecewise function from C07.",
+        "The limit value 1 is the right-hand limit; the unrestricted two-sided limit does not exist."
+      ],
+      "independent_check": "Write x→0+ for the displayed limit to preserve the prose restriction."
+    },
+    {
+      "id": "C09",
+      "locator": {
+        "pdf_page": 5,
+        "printed_page": 4,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "Right limit uses x→x0+ and x>x0; left uses x→x0− and x<x0.",
+      "assessment": "correct",
+      "conditions": [],
+      "independent_check": "These definitions are correctly printed here and contradict the reversed pairing on the next page."
+    },
+    {
+      "id": "C10",
+      "locator": {
+        "pdf_page": 5,
+        "printed_page": 4,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "A removable discontinuity has equal one-sided limits but a different or undefined point value.",
+      "assessment": "correct_with_conditions",
+      "conditions": [
+        "The common one-sided limit must exist as a finite real number.",
+        "An undefined point value alone is not sufficient."
+      ],
+      "independent_check": "For sin x/x at zero, the later limit is 1, so assigning that value removes the hole."
+    },
+    {
+      "id": "C11",
+      "locator": {
+        "pdf_page": 6,
+        "printed_page": 5,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "Jump discontinuity: both one-sided limits exist but differ.",
+      "assessment": "correct_idea_incorrect_notation",
+      "conditions": [
+        "Both limits are finite.",
+        "The x<x0 limit uses x0− and the x>x0 limit uses x0+."
+      ],
+      "independent_check": "The source sentence reverses both superscripts; the graph correctly depicts unequal limiting levels."
+    },
+    {
+      "id": "C12",
+      "locator": {
+        "pdf_page": 6,
+        "printed_page": 5,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "1/x→+∞ from the right of 0 and →−∞ from the left.",
+      "assessment": "correct",
+      "conditions": [
+        "x≠0.",
+        "Infinity notation denotes unbounded divergence, not a finite real limit."
+      ],
+      "independent_check": "There is no two-sided finite or common signed-infinite limit at zero."
+    },
+    {
+      "id": "C13",
+      "locator": {
+        "pdf_page": 7,
+        "printed_page": 6,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "The illustrated oscillatory function has no limit at the origin.",
+      "assessment": "correct_for_intended_schematic",
+      "conditions": [
+        "Oscillations retain distinct limiting heights arbitrarily near zero.",
+        "No specific analytic function is printed."
+      ],
+      "independent_check": "The displayed right-side nonconvergence is enough to preclude a two-sided limit. Oscillation with shrinking amplitude can instead have a limit."
+    },
+    {
+      "id": "C14",
+      "locator": {
+        "pdf_page": 8,
+        "printed_page": 7,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "For f(x)=1/x, f′(x)=−1/x².",
+      "assessment": "correct",
+      "conditions": [
+        "x≠0."
+      ],
+      "independent_check": "Direct quotient simplifies to −1/[x(x+h)] for h≠0, x+h≠0 and tends to −1/x²."
+    },
+    {
+      "id": "C15",
+      "locator": {
+        "pdf_page": 8,
+        "printed_page": 7,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "The derivative of an odd function is even, and vice versa.",
+      "assessment": "correct_intended_statement_ambiguous_phrase",
+      "conditions": [
+        "Domain symmetric under x↦−x.",
+        "Function differentiable at the paired points.",
+        "Vice versa means the derivative of an even function is odd."
+      ],
+      "independent_check": "From parity and difference quotients: odd f gives f′(−x)=f′(x); even f gives f′(−x)=−f′(x). The inference f′ even ⇒ f odd is false, e.g. f=x+1."
+    },
+    {
+      "id": "C16",
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 8,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "y(t)=400−16t² on −5≤t≤5, paired with a straight decreasing derivative graph.",
+      "assessment": "correct_with_conditions",
+      "conditions": [
+        "Ordinary two-sided derivative on −5<t<5; endpoints need one-sided derivatives or polynomial extension.",
+        "Negative t uses a time origin before which the pumpkin is rising; the apex occurs at t=0.",
+        "Units are not stated on this page."
+      ],
+      "independent_check": "y′=−32t; heights at −5,0,5 are 0,400,0; derivative values under the extension are 160,0,−160. The derivative is signed vertical velocity, not speed."
+    },
+    {
+      "id": "C17",
+      "locator": {
+        "pdf_page": 10,
+        "printed_page": 9,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "lim sinθ/θ=1 as θ→0 with θ in radians.",
+      "assessment": "correct_value_incomplete_printed_proof",
+      "conditions": [
+        "θ≠0 within quotient.",
+        "Geometry shown uses 0<θ<π/2.",
+        "Negative side follows because sinθ/θ is even."
+      ],
+      "independent_check": "Sector/triangle areas give sinθ≤θ≤tanθ, hence cosθ≤sinθ/θ≤1; geometric continuity of cosine at 0 or the bound 1−cosθ≤θ²/2 completes the squeeze. These quantitative steps are absent from the printed visual argument."
+    },
+    {
+      "id": "C18",
+      "locator": {
+        "pdf_page": 10,
+        "printed_page": 9,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "lim (1−cosθ)/θ=0 as θ→0.",
+      "assessment": "correct_value_incomplete_printed_proof",
+      "conditions": [
+        "θ≠0.",
+        "Negative-angle handling is not represented by unsigned lengths in the drawings."
+      ],
+      "independent_check": "For real radian θ, |sin(θ/2)|≤|θ|/2 gives 0≤1−cosθ≤θ²/2 and |(1−cosθ)/θ|≤|θ|/2→0. This is an independent check, not a printed proof."
+    },
+    {
+      "id": "C19",
+      "locator": {
+        "pdf_page": 11,
+        "printed_page": 10,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "The short segment 1−cosθ becomes much smaller than the “vertical distance θ along the arc.”",
+      "assessment": "correct_ratio_conclusion_inaccurate_wording",
+      "conditions": [
+        "The figure uses positive acute θ."
+      ],
+      "independent_check": "θ is the unit-circle arc length, not the vertical displacement. The latter is sinθ. Merely restating relative smallness gives no quantitative proof of the quotient limit."
+    },
+    {
+      "id": "C20",
+      "locator": {
+        "pdf_page": 12,
+        "printed_page": 11,
+        "detail": "claim/equation or surrounding paragraph"
+      },
+      "source_claim": "Differentiability at x0 implies continuity at x0.",
+      "assessment": "correct",
+      "conditions": [
+        "f(x0) is defined.",
+        "Derivative exists as a finite real limit under the ordinary definition.",
+        "Identity and quotient are used only for x≠x0."
+      ],
+      "independent_check": "f(x)−f(x0)=[(f(x)−f(x0))/(x−x0)](x−x0)→f′(x0)·0=0. Thus lim f(x)=f(x0). No substantive error found."
+    }
+  ],
+  "technical_findings": [
+    {
+      "id": "F01",
+      "category": "definite_symbolic_error",
+      "significance": "high",
+      "locator": {
+        "pdf_page": 4,
+        "printed_page": 3,
+        "detail": "piecewise formula below Figure 4",
+        "figures": [
+          4
+        ]
+      },
+      "source_observation": "Second branch is printed −x for x≥0.",
+      "correct_statement_or_interpretation": "Replace that condition with x≤0.",
+      "basis": "Graph has negative-x branch and filled origin; PDF5 states f(0)=0 and left continuity. Printed branches overlap incompatibly for x>0."
+    },
+    {
+      "id": "F02",
+      "category": "definite_symbolic_error",
+      "significance": "high",
+      "locator": {
+        "pdf_page": 6,
+        "printed_page": 5,
+        "detail": "sentence below Figure 6",
+        "figures": [
+          6
+        ]
+      },
+      "source_observation": "The x<x0 clause carries x→x0+; the x>x0 clause carries x→x0−.",
+      "correct_statement_or_interpretation": "Use x→x0− for x<x0 and x→x0+ for x>x0.",
+      "basis": "Definitions on PDF5 are correct; signs on PDF6 are reversed. The worded jump criterion remains correct."
+    },
+    {
+      "id": "F03",
+      "category": "definite_wording_error",
+      "significance": "medium",
+      "locator": {
+        "pdf_page": 11,
+        "printed_page": 10,
+        "detail": "paragraph between Figures 14 and 15",
+        "figures": [
+          14,
+          15
+        ]
+      },
+      "source_observation": "θ is called a vertical distance along the arc.",
+      "correct_statement_or_interpretation": "θ is arc length in the positive-angle unit-circle picture; vertical displacement is sinθ.",
+      "basis": "The arc and the vertical segment are distinct geometric objects."
+    },
+    {
+      "id": "F04",
+      "category": "notation_ambiguity",
+      "significance": "medium",
+      "locator": {
+        "pdf_page": 5,
+        "printed_page": 4,
+        "detail": "opening continuation of the piecewise example",
+        "figures": [
+          4
+        ]
+      },
+      "source_observation": "Displayed limit x→0 equals 1, with x>0 stated only in prose.",
+      "correct_statement_or_interpretation": "It is lim x→0+ f(x)=1. The two-sided limit does not exist.",
+      "basis": "Corrected example has unequal limits 0 and 1."
+    },
+    {
+      "id": "F05",
+      "category": "implicit_condition",
+      "significance": "medium",
+      "locator": {
+        "pdf_page": 5,
+        "printed_page": 4,
+        "detail": "definition of removable discontinuity",
+        "figures": [
+          5
+        ]
+      },
+      "source_observation": "Finiteness of the equal one-sided limits is not explicit; the undefined-value alternative can be misread.",
+      "correct_statement_or_interpretation": "Both side limits must equal the same finite real L, and f(x0) must be absent or unequal to L.",
+      "basis": "Undefined value alone does not imply removability; an infinite common limit cannot be repaired by a finite point value."
+    },
+    {
+      "id": "F06",
+      "category": "notation_ambiguity",
+      "significance": "low",
+      "locator": {
+        "pdf_page": 4,
+        "printed_page": 3,
+        "detail": "displayed derivative quotient"
+      },
+      "source_observation": "Limit subscript is x→x0 while quotient is written with Δx.",
+      "correct_statement_or_interpretation": "Read with the implicit relation Δx=x−x0, or write Δx→0.",
+      "basis": "No calculation is wrong if the relation is supplied."
+    },
+    {
+      "id": "F07",
+      "category": "proof_gap",
+      "significance": "medium",
+      "locator": {
+        "pdf_page": 10,
+        "printed_page": 9,
+        "detail": "geometric proof statement and closing sentence",
+        "figures": [
+          12,
+          13
+        ]
+      },
+      "source_observation": "The asserted sine-ratio proof rests on how the picture looks for small positive θ.",
+      "correct_statement_or_interpretation": "A quantitative bound such as cosθ≤sinθ/θ≤1 plus cosθ→1 and an evenness step establishes the two-sided limit.",
+      "basis": "The stated limit is correct; the bound and negative-side extension are not printed."
+    },
+    {
+      "id": "F08",
+      "category": "proof_gap",
+      "significance": "medium",
+      "locator": {
+        "pdf_page": 11,
+        "printed_page": 10,
+        "detail": "small-segment comparison",
+        "figures": [
+          14,
+          15
+        ]
+      },
+      "source_observation": "“Gets much smaller” asserts the desired relative-size conclusion without establishing it.",
+      "correct_statement_or_interpretation": "The bound |(1−cosθ)/θ|≤|θ|/2 for nonzero radian θ proves the conclusion on both sides.",
+      "basis": "Follows from 1−cosθ=2sin²(θ/2) and |sin u|≤|u|; these quantitative steps are absent."
+    },
+    {
+      "id": "F09",
+      "category": "scope_ambiguity",
+      "significance": "medium",
+      "locator": {
+        "pdf_page": 8,
+        "printed_page": 7,
+        "detail": "paragraph below Figure 9",
+        "figures": [
+          9
+        ]
+      },
+      "source_observation": "“And vice versa” can denote two different logical statements.",
+      "correct_statement_or_interpretation": "Valid intended meaning: even differentiable f has odd f′ on a symmetric domain.",
+      "basis": "The converse f′ even ⇒ f odd fails for f(x)=x+1; source omits differentiability and symmetry conditions."
+    },
+    {
+      "id": "F10",
+      "category": "unstated_convention",
+      "significance": "low",
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 8,
+        "detail": "captioned interval and derivative sketch",
+        "figures": [
+          10,
+          11
+        ]
+      },
+      "source_observation": "Derivative endpoints are drawn closed although the given time interval is closed; negative time and units are unexplained.",
+      "correct_statement_or_interpretation": "On the restricted domain, the usual two-sided derivative has −5<t<5; endpoint derivative values use an extension/one-sided convention. Time zero is at the apex. Units remain unspecified.",
+      "basis": "The polynomial and qualitative derivative sketch are otherwise consistent."
+    }
+  ],
+  "scope_limits": [
+    "Packet is exactly the 12-page lecture-specific notes PDF linked from the official index; cover included.",
+    "Problem Set 1 is referenced by the notes but its contents were not supplied or inspected here. No GPS numerical problem, given parameter values or full GPS algorithm is inferred.",
+    "No lecture recording, transcript, textbook chapter or other lecture packet was inspected.",
+    "Schematic graphs without formulas were not assigned invented analytic formulas.",
+    "Quantitative checks and corrected statements in this review are reviewer deductions, not transcriptions of additional source material.",
+    "This source preparation does not advance a teaching-document iteration or claim a SASIS/PROF review."
+  ]
+}

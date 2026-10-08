@@ -18,14 +18,15 @@
     {
       "id": "SRC01",
       "category": "source scientific wording",
-      "locator": "MIT Lecture1 printedp7 / PDFp8; teachingP25/P39",
-      "finding": "Source labels a signed displacement/time quotient average speed.",
+      "locator": "MIT Lecture 1 printed p6 / PDF p7 for the signed-quotient definition; printed p7 / PDF p8 for the subsequent correct positive 80 ft/s speed; teaching P25/P39",
+      "finding": "Source equates average speed with the signed height-change quotient in its definition, then correctly gives positive 400/5 = 80 ft/s on the following page.",
       "resolution": "Teach average velocity -80ft/s and average speed80ft/s; distinguish reversing-motion example.",
       "status": "resolved_in_authored_v1_and_retained_v2",
       "evidence": [
         "author-record-v1.md",
         "technical-review-v1.md",
-        "independent-numeric-checks.json"
+        "independent-numeric-checks.json",
+        "source-visual-review-v2.md"
       ],
       "prof_change": "None: existing T10 requires independent source correction."
     },
@@ -61,11 +62,13 @@
       "locator": "Complete baseline file mixed CRCRLF",
       "finding": "JS LF count1378 differs from API universal-line count2562; stopping at1378 would omit required baseline.",
       "resolution": "Reader full-string fetch, exact identity and overlapping character ranges through actual EOF; no LF-count inference.",
-      "status": "resolved_for_reader_v1; reader_v2_full_access_unverified",
+      "status": "resolved_for_complete_v1_and_v2_fresh3_reads; v3_admission_pending",
       "evidence": [
         "input-access.json",
         "admission-v1.json",
-        "sasis-reader-v1-original.md"
+        "sasis-reader-v1-original.md",
+        "admission-v2-fresh3.json",
+        "sasis-reader-v2-fresh3-original.md"
       ],
       "prof_change": "No extra rule: r7 admission already requires complete actual access."
     },
@@ -75,7 +78,7 @@
       "locator": "All math delimiters in teaching-v1",
       "finding": "Chat-style backslash delimiters not GitHub's documented math syntax.",
       "resolution": "v2 converts only delimiters. All288 math payloads and all prose exactly preserved.",
-      "status": "syntax_repair_verified; actual_visual_render_unverified",
+      "status": "v2_delimiter_repair_preserved_content_but_gitHub_markup_defects_found; see_FMT02",
       "evidence": [
         "format-repair.md",
         "mechanical-v2.json"
@@ -87,28 +90,37 @@
       "category": "required source visual access",
       "locator": "MIT Lecture1 PDFpages2–6 / printedpages1–5; Figures1–5 and opening preview expression",
       "finding": "Web screenshot requests returned only a text placeholder, no image payload. Relevant source artwork and exact preview grouping remain unseen.",
-      "resolution": null,
-      "status": "unverified_external_block",
+      "resolution": "Cloud download and actual visual inspection of all eight source pages, including Figures 1–5 and exact preview expression; current teaching preserves consequential content.",
+      "status": "resolved_by_complete_source_image_inspection",
       "evidence": [
         "input-access.json",
-        "author-record-v1.md"
+        "author-record-v1.md",
+        "source-visual-review-v2.md"
       ],
-      "required_next_action": "Obtain actual rendered source pages through a permitted cloud image route or user attachment; compare all relevant figures/expressions with source map and teaching; repair/re-read if consequential.",
-      "closure_effect": "Prevents complete source audit and iteration promotion under PROF execution-protocol and SASIS source-inspection rule."
+      "required_next_action": "No source-visual action remains unless a consequential source or document change occurs.",
+      "closure_effect": "Source visual gate satisfied; other closure gates remain separate."
     },
     {
       "id": "EXT02",
       "category": "final output appearance",
       "locator": "teaching-v2.md",
-      "finding": "Markdown source and documented delimiters checked; rendered math appearance not directly inspected.",
-      "resolution": null,
-      "status": "unverified",
+      "finding": "Actual GitHub-delivered v2 markup inspected and found defective; local typeset preview was legible. Live client-rendered GitHub pixels remain unobserved.",
+      "resolution": "All288v4GitHub renderer inputs exactly match. Full local visual-preview scope and changed-page rechecks are preserved. This establishes checked representation integrity/legibility, not live GitHub client behavior.",
+      "status": "markup_integrity_and_local_preview_checked; live_client_pixels_unobserved",
       "evidence": [
         "mechanical-v2.json",
-        "format-repair.md"
+        "format-repair.md",
+        "render-review-v2-original.md",
+        "render-markup-v2.json",
+        "render-review-v4-original.md",
+        "render-markup-v4.json",
+        "render-preview-v4.json",
+        "render-review-v4-original.md",
+        "render-markup-v4.json",
+        "render-preview-v4.json"
       ],
-      "required_next_action": "Inspect the actual rendered GitHub teaching revision; verify math and help separation. Do not equate source syntax with visual QA.",
-      "closure_effect": "No claim that rendered quality passed."
+      "required_next_action": "Retain precise live-client limitation; do not claim a browser rendered GitHub.",
+      "closure_effect": "No observed unresolved material defect remains in the checked Markdown/renderer-input/preview representations; no live-site pixel acceptance claim."
     },
     {
       "id": "EXT03",
@@ -130,23 +142,61 @@
       "category": "unfinished reader attempt",
       "locator": "/root/sasis_l01_v2",
       "finding": "No complete reader report or verified full-input ranges returned before parent interrupted attempt.",
-      "status": "pending_fresh_reader",
-      "resolution": null,
+      "status": "resolved_by_completed_fresh_v2_read",
+      "resolution": "Fresh reader sasis_d001_v2_fresh3 read both complete inputs and all P01–P42; original report preserved, no substantive connection defect established. The unfinished older attempt remains preserved separately.",
       "evidence": [
         "admission-v2.json",
-        "reader-v2-unfinished.md"
+        "reader-v2-unfinished.md",
+        "admission-v2-fresh3.json",
+        "sasis-reader-v2-fresh3-original.md"
       ],
-      "required_next_action": "Launch a new fork_turns:none reader for the complete current document and baseline; preserve all outcomes.",
-      "closure_effect": "Currentv2 lacks its required admitted fresh SASIS reading."
+      "required_next_action": "Current v3 requires its own fresh admitted reader, separately dispatched.",
+      "closure_effect": "V2 reader gap resolved; v3 cannot inherit reader acceptance."
+    },
+    {
+      "id": "FMT02",
+      "category": "output rendering",
+      "locator": "All39v2display math blocks; sixinline thin-space commands; see render-markup-v2.json",
+      "finding": "GitHub delivered v2 display expressions as ordinary paragraph text. Nine display and six inline payloads lost TeX escapes under Markdown processing. A local Pandoc preview masked this destination-specific defect.",
+      "resolution": "V4 actual GitHub markup preserves all288math payloads exactly; local full-preview evidence plus changed-page checks show legible equivalent notation. Freshv4SASISadmission separately pending.",
+      "status": "verified_repaired_in_v4",
+      "evidence": [
+        "render-review-v2-original.md",
+        "render-markup-v2.json",
+        "format-repair-v3.md",
+        "mechanical-v3.json",
+        "render-review-v3-original.md",
+        "format-repair-v4.md",
+        "render-review-v4-original.md",
+        "render-markup-v4.json",
+        "render-preview-v4.json",
+        "render-review-v3-original.md",
+        "render-review-v4-original.md",
+        "render-markup-v4.json",
+        "render-preview-v4.json",
+        "format-repair-v4.md",
+        "mechanical-v4.json"
+      ],
+      "prof_change": "No new teaching clause warranted: existing T11 and actual rendering gate exposed the execution failure."
     }
   ],
-  "reader_findings": "v1 reports no established substantive teaching gap. The v2 attempt was interrupted before a complete report/access record returned; no admitted v2 teaching verdict.",
+  "reader_findings": "V1 and admitted v2 fresh3 reports establish no substantive teaching-connection defect. Older unfinished v2 attempt is preserved. V3 is a new frozen format revision with a new reader pending.",
   "skill_decision": "Protocol r6→r7 was preparation implementing the user's reader correction. No lecture-derived substantive PROF change established. Preserve rolling progression at valid closure without inventing a teaching rule; no promotion while required source check blocked.",
   "closure": {
     "state": "open",
     "promoted": false,
     "closed_sessions": 0,
     "assigned_sessions": 147,
-    "next_session_authorised_after_closure": "D002"
+    "next_session_authorised_after_closure": "D002",
+    "eligible_sessions": 76,
+    "excluded_sessions": 71
+  },
+  "candidate_document": {
+    "path": "runs/y1-reader-20261008/iterations/001/teaching-v4.md",
+    "commit": "0716ea92991d7f9fe2814e137bcc830d91a27511",
+    "bytes": 24315,
+    "characters": 24281,
+    "sha256": "402485baa2767af9625146721e356f92bad76e4cfb738e5729c6c8b94ea79401",
+    "state": "frozen_format_checked_fresh_reader_pending"
   }
 }

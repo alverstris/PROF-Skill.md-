@@ -1,25 +1,15 @@
 PROF Y1 reader run — active checkpoint
 
-Run:y1-reader-20261008. Authorisation and constraints:requests.md.
-GitHub is canonical. Do not operate Jonathan's computer or edit the installed Windows skill.
-Effective PROF:r7 at6486b2afcee950d8d4cc4bfe7f443c05e10beb9f; this was protocol preparation, not a closed lecture.
-Complete assigned queue:queue.json,147sessions in the recovered manual's order.0closed;D001open;146later sessionspending.
+Run: y1-reader-20261008. Exact governing instructions: requests.md. GitHub is canonical; no operation on Jonathan's computer or installed Windows skill.
 
-Active:D001 / iteration001 / mit-18-01-fall-2006-L01.
-Original author output:a82371f2ae8183927877bfd85759e73cf4e0b070, teaching-v1.md and author-record-v1.md.
-Current teaching:v2 at3bdad7a365b5ce56e7430702d6daf3d963a11de3, iterations/001/teaching-v2.md.
-V2 changes only GitHub math delimiters; all288payloads and all prose unchanged.
-Original SASIS report preserved in sasis-reader-v1-original.md; input admission verified in admission-v1.json.
-Fresh SASISv2 attempt:/root/sasis_l01_v2, fork_turns:none, baseline+v2 only. Interrupted without a returned complete review/access record; no admitted v2 verdict. See reader-v2-unfinished.md and admission-v2.json. No reader remains assigned to substantive work.
-Independent technical audit:technical-review-v1.md. Content-equality justification for v2:technical-carry-forward-v2.md. No supported mathematical/physical error found.
-Issues and closure:iterations/001/issues.json. No outgoing skill progression version promoted.
+Effective PROF: 2026-10-08-r7. No lecture iteration has closed. Original scope:147sessions, all retained in queue.json. Readability audit complete:76eligible,71excluded under the latest explicit instruction; see readability-selection.json and readability-selection.md. Iterate THROUGH eligible sources in original order. The70video exclusions record unestablished complete semantic visual coverage, not absent access or intrinsic unreadability. D105/S01 has an observed assigned-figure label defect.
 
-Material limits:
-- OriginalPDF page screenshots return text placeholders without image data. Source Figures1–5 and preview typography remain unseen.
-- Actual rendered teaching appearance remains unverified, despite syntax and content checks.
-- Full native attachment reads failed, but complete indexed manual/prompt text was subsequently recovered and read. See recovered-inputs/recovery-and-read-record.md for continuous63-chunk coverage and2terminal-byte caveat.
-- Reader restriction is an instruction whitelist, not technical isolation or erasure of pretraining.
+Active:D001 / iteration001 / mit-18-01-fall-2006-L01. Source gate resolved: all8original PDFpages actually visually inspected, including all5figures. See iterations/001/source-visual-review-v2.md. SRC01's original source locator was corrected without altering historical reports.
 
-Next action: obtain inspectable images of the first source PDF's consequential pages through a permitted cloud route or user attachment, compare with source/teaching records, and repair if required. Dispatch a new fresh SASIS reader on the complete final current document and baseline, verify actual ranges and preserve its original report. Inspect required output presentation and disposition all issues. Only after verified closure publish the next cumulative revision, reload it, and authorD002. Do not use historicalr5/version formulas to relabel actualr6/r7 preparation history.
+Frozen current candidate: teaching-v4.md at0716ea92991d7f9fe2814e137bcc830d91a27511; SHA256402485baa2767af9625146721e356f92bad76e4cfb738e5729c6c8b94ea79401. V2 actual GitHub markup failed; v3 repaired display recognition/escaping but retained two serialization uncertainties; v4 removes them. All288v4GitHub math-renderer payloads match exactly, and full local-preview evidence with changed-page rechecks is preserved. Live GitHub client pixels remain unobserved; no claim otherwise.
 
-See CHANGELOG.md, protocol-preparation.md and textbook-research.md. A partial checkpoint is not a completed iteration or a continuing background scheduler.
+Original admitted readers for v1, v2-fresh3 and v3 report no established substantive teaching-connection defect. The older unfinished v2 attempt remains preserved. Fresh v4 reader /root/sasis_d001_v4_fresh is active with fork_turns:none and only the complete frozen baseline/document. Admission remains provisional until its full access/report returns. Independent content audit is retained through exact math/prose equivalence and the explicitly equivalent v4 notation.
+
+Next action: inspect/preserve the original v4 reader report and access coverage, disposition all issues and close D001 only when its gates are satisfied. Publish outgoing r8 progression and the explicit readable-subset control update, verify/reload GitHub, then author D002 afresh. D002 source preparation only is saved in iterations/002; no next-session teaching has been authored.
+
+Reader restriction is an instruction whitelist, not technical isolation or erased pretraining. No human learning/retention claim. See CHANGELOG.md for preparation history and recovered-inputs for the full indexed manual/prompt and its raw-terminal-byte caveat.

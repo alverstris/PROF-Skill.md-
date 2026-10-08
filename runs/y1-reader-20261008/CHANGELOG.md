@@ -5,3 +5,8 @@ PROF Y1 run change log
 - Queue reconciliation: recovered manual's prescribed ordering and addedD001–D147 while preserving all147 original session IDs; historicalr5 arithmetic retained as history, not substituted for actualGitHub state.
 
 Scope:0closed;D001open;146later sessionspending. No claim of human mastery, retention, empirical PROF improvement or completed corpus.
+
+- Readability selection under the latest user instruction: audited all147original sessions;76eligible,71excluded with precise reasons. D001source visuals resolved; fresh v2/v3 readings admitted. ActualGitHubmathmarkup defects repaired in frozenv4; finalfreshreaderpending. No lectureclosed or outgoingversionpromoted by this checkpoint.
+
+- Readability selection: audited every original session and all2,047pages of the113required note/studio PDFs. Selected76sessions; excluded70recordings with unestablished whole-visual reading plus TEALS01's unreadable assigned contour labels. All147IDs and original order retained. This is scope preparation, not76completed iterations.
+- D001 recovery: resolved source-visual access; preserved complete freshv2/v3readings; actual GitHub format inspection exposed math conversion defects, repaired in frozenv4. Freshv4reading pending; still0closed.

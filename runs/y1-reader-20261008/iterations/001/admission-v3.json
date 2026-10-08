@@ -1,0 +1,105 @@
+{
+  "call_id": "001-reader-v3-fresh",
+  "agent": "/root/sasis_d001_v3_fresh",
+  "state": "admitted_instruction_confined_retrieval",
+  "agent_history": "fork_turns:none",
+  "operating_instruction": "r7 reader role faithfully supplied inline with exact cloud-file retrieval whitelist; no expected findings supplied",
+  "delivery": "instruction-confined read-only retrieval of two exact cloud copies of pinned GitHub inputs",
+  "baseline": {
+    "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+    "commit": "324480d599e9de6aadfb137514dd1531888f6da0",
+    "bytes": 247840,
+    "characters": 246945,
+    "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+  },
+  "document": {
+    "path": "runs/y1-reader-20261008/iterations/001/teaching-v3.md",
+    "commit": "964c91ebf2947f557315e1583229f8365bc6a2fc",
+    "bytes": 24313,
+    "characters": 24279,
+    "sha256": "494a7508d8b7fbe56f3ce3c9a6fbe1bf2261ecdbfca0a80e81c8997d46dc6d13"
+  },
+  "input_copies": "/workspace/scratch/ac36b9c5ff31/sasis-d001-v3-fresh",
+  "copy_identity_verified": true,
+  "subject_content_inputs": 2,
+  "technical_isolation": false,
+  "pretraining_erasure_claimed": false,
+  "context_capacity": "Not measured; no simultaneous retention claim. Reader may re-read only its two inputs.",
+  "scope": "Complete baseline and all P01\u2013P42, including existing tasks, hints and solutions. This evaluates teaching connections, not a student.",
+  "report_path": "sasis-reader-v3-original.md",
+  "access_evidence": {
+    "baseline_character_ranges": [
+      [
+        0,
+        18000
+      ],
+      [
+        17900,
+        35900
+      ],
+      [
+        35800,
+        53800
+      ],
+      [
+        53700,
+        71700
+      ],
+      [
+        71600,
+        89600
+      ],
+      [
+        89500,
+        107500
+      ],
+      [
+        107400,
+        125400
+      ],
+      [
+        125300,
+        143300
+      ],
+      [
+        143200,
+        161200
+      ],
+      [
+        161100,
+        179100
+      ],
+      [
+        179000,
+        197000
+      ],
+      [
+        196900,
+        214900
+      ],
+      [
+        214800,
+        232800
+      ],
+      [
+        232700,
+        246945
+      ]
+    ],
+    "document_character_ranges": [
+      [
+        0,
+        12200
+      ],
+      [
+        12100,
+        24279
+      ]
+    ],
+    "original_report": "sasis-reader-v3-original.md",
+    "identities_match": true,
+    "contiguous_coverage_verified": true,
+    "actual_coverage": "Complete four-subject baseline through EOF; P01\u2013P42 including all help and ending",
+    "limitations": "Instruction-only whitelist; no unauthorised subject access or truncated reads reported; no technical-isolation or human-outcome claim."
+  }
+}

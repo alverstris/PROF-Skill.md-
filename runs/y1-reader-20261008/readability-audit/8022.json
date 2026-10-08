@@ -1,0 +1,1932 @@
+{
+  "audit_date_utc": "2026-10-08T20:02:41.144027+00:00",
+  "series": "mit-8-022-fall2004",
+  "scope": {
+    "session_count": 22,
+    "asset_count": 22,
+    "pdf_file_pages": 270,
+    "eligible_readable": 22,
+    "excluded_incomplete_or_unreadable": 0
+  },
+  "source_index": {
+    "url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+    "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/index.html",
+    "sha256": "f07e70081891bb8752422796b0175335289011ccbc846be949f2f38034773a26",
+    "web_source_ref": "turn71view0"
+  },
+  "mapping_rule": "Keep queue stable IDs and official SES numbers. PDF lecture ordinal differs from SES number after the first four: resolve by the actual index row, never by filename guess.",
+  "methodology": "Downloaded official index and every linked resource page; resolved one actual PDF per queued session. Stored exact URL, hash, page count and per-page extracted-text metrics. Rendered all270 file pages at1.7x and actually viewed all contact sheets, then detailed images for dense equations, figure labels, source numbering gaps and the lone raster-only page. Source errors do not themselves cause exclusion. Fully readable means complete published assigned lecture content can be faithfully read; tiny nonconsequential illustrative screenshot glyphs are caveated, not converted into a content blocker.",
+  "sessions": [
+    {
+      "id": "mit-8-022-fall2004-L01",
+      "material_id": "D126",
+      "series": "mit-8-022-fall2004",
+      "number": 1,
+      "title": "Introduction Coulomb’s Law, Superposition Energy of Charge Distributions",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (17 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Vector-calculus diagrams, Coulomb/superposition diagrams and charged-rod/Taylor equations; closeups resolved dense equations and the particle/force tables.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/f59496323e413301a73107db95e40a7e_lecture1.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture1/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/source.pdf",
+          "sha256": "df40b1901b5adbabb3199162490d15c22d4af1215fe188f7a2e18e0b5584af7e",
+          "page_count": 17,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/text.txt",
+          "text_chars_per_page": [
+            566,
+            0,
+            690,
+            1150,
+            555,
+            1021,
+            1140,
+            516,
+            692,
+            193,
+            1104,
+            1189,
+            849,
+            596,
+            966,
+            1078,
+            913
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 251197
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-010.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-011.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-012.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-013.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-014.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-015.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-016.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-017.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/contact-007-012.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/contact-013-017.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/page-017.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/detail-page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D126/detail-page-012.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": 3,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Vector-calculus diagrams, Coulomb/superposition diagrams and charged-rod/Taylor equations; closeups resolved dense equations and the particle/force tables.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [
+        "PDF page5 has a blank upper slide position; printed slide numbering jumps from8 to10. All published content is present in the downloaded PDF. Adjacent material is course orientation followed by mathematics review; no unresolved substantive reference to the blank slot was found. A missing number alone is not an accessibility failure.",
+        "PDF page2 (printed slides3–4) is raster-only, with zero extracted text. It was visually inspected at 3x render scale: main title, course URL http://web.mit.edu/8.022/www/, staff names and meeting table are recoverable. Tiny browser screenshot body text is intrinsically blurred, but is an illustrative homepage preview, not a physics claim, assigned exercise, or needed course-logistics instruction. No external homepage was used to supply missing lecture content. This nonconsequential screenshot detail does not block faithful reading of the assigned lecture."
+      ],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L02",
+      "material_id": "D127",
+      "series": "mit-8-022-fall2004",
+      "number": 2,
+      "title": "Electric Field, Electric Flux, Gauss’s Law",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (15 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Energy/field/flux diagrams, charge-ring and disk integrations, Gaussian surfaces and field solutions.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/63f25e1a6788d1f29da7870ec50d7b91_lecture2.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture2/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/source.pdf",
+          "sha256": "ef97bc72a2d7d71bf89fb294b1690e3c03f9899b1e9c0b62387e847af02ca50b",
+          "page_count": 15,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/text.txt",
+          "text_chars_per_page": [
+            718,
+            739,
+            1032,
+            862,
+            704,
+            977,
+            1166,
+            836,
+            847,
+            836,
+            937,
+            1480,
+            1172,
+            1530,
+            1629
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 235086
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-010.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-011.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-012.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-013.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-014.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-015.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/contact-007-012.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/contact-013-015.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D127/page-006.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Energy/field/flux diagrams, charge-ring and disk integrations, Gaussian surfaces and field solutions.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L03",
+      "material_id": "D128",
+      "series": "mit-8-022-fall2004",
+      "number": 3,
+      "title": "Energy Density of the Field Electric Potential Gradient Gauss’s Law Revisited Divergence",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (12 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Energy and potential equations, gradient/equipotential plots, divergence surfaces and differential Gauss derivation.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/9b5b6faf40963626e33a59428df627ad_lecture3.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture3/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/source.pdf",
+          "sha256": "aaa4606ed1202a67e25e5350ef47823c79e7a5d5fec00deeadfd481b37ae9465",
+          "page_count": 12,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/text.txt",
+          "text_chars_per_page": [
+            547,
+            1216,
+            1172,
+            1350,
+            1247,
+            1365,
+            1077,
+            543,
+            1096,
+            1044,
+            1137,
+            157
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 206600
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/page-010.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/page-011.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/page-012.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/contact-007-012.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D128/page-010.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Energy and potential equations, gradient/equipotential plots, divergence surfaces and differential Gauss derivation.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L04",
+      "material_id": "D129",
+      "series": "mit-8-022-fall2004",
+      "number": 4,
+      "title": "Poisson and Laplace Equations Curl Uniqueness Theorem Introduction to Conductors",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (13 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Laplacian plot, circulation/curl and Stokes diagrams, conductor/cavity diagrams and uniqueness applications.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/94fbcd2167568164328feac8e82c6019_lecture4.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture4/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/source.pdf",
+          "sha256": "21baf0aef68069129e1fe1a55821b8b7089910bd63c309b6f87fcee61a9c0da6",
+          "page_count": 13,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/text.txt",
+          "text_chars_per_page": [
+            784,
+            815,
+            794,
+            827,
+            1232,
+            1343,
+            1364,
+            860,
+            1095,
+            879,
+            1291,
+            974,
+            297
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 132024
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/page-010.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/page-011.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/page-012.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/page-013.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/contact-007-012.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/contact-013-013.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D129/page-006.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Laplacian plot, circulation/curl and Stokes diagrams, conductor/cavity diagrams and uniqueness applications.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L06",
+      "material_id": "D130",
+      "series": "mit-8-022-fall2004",
+      "number": 6,
+      "title": "Fields and Potentials around Conductors Capacitance",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (9 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Charge-on-conductor diagrams, method of images, spherical/parallel-plate/cylindrical capacitor equations and geometry.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/bbd323d11bd97ec8e514027495551a09_lecture5.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture5/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D130/source.pdf",
+          "sha256": "752defdfe953d4cc5eb1239256b41eecaf276a1b416c9458096e81559553a4c3",
+          "page_count": 9,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D130/text.txt",
+          "text_chars_per_page": [
+            617,
+            948,
+            657,
+            1271,
+            783,
+            1004,
+            1035,
+            1157,
+            178
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 73305
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D130/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D130/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D130/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D130/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D130/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D130/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D130/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D130/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D130/page-009.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D130/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D130/contact-007-009.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D130/page-008.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Charge-on-conductor diagrams, method of images, spherical/parallel-plate/cylindrical capacitor equations and geometry.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L07",
+      "material_id": "D131",
+      "series": "mit-8-022-fall2004",
+      "number": 7,
+      "title": "More on Capacitance",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (13 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Capacitor circuits and dielectric diagrams, electrostatics review equations, potential-field-density summary diagram.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/07002b8b4ec36c93c70bfc4697be3789_lecture6.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture6/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/source.pdf",
+          "sha256": "0cea3f0bd944685f8079b5ada3ddbbea54af51f56d2ba45ed58bf4cadfc9b571",
+          "page_count": 13,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/text.txt",
+          "text_chars_per_page": [
+            467,
+            794,
+            1005,
+            675,
+            1060,
+            670,
+            549,
+            1103,
+            842,
+            1034,
+            471,
+            1037,
+            608
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 108268
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/page-010.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/page-011.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/page-012.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/page-013.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/contact-007-012.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/contact-013-013.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D131/page-011.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Capacitor circuits and dielectric diagrams, electrostatics review equations, potential-field-density summary diagram.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L08",
+      "material_id": "D132",
+      "series": "mit-8-022-fall2004",
+      "number": 8,
+      "title": "Current, Continuity Equation Resistance, Ohm’s Law",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (9 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Current-density/continuity diagrams, resistivity table and graph, shell resistance and microscopic conductivity equations.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/fa6d8a67e9e53df0e2cbaed7b755b07a_lecture7.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture7/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D132/source.pdf",
+          "sha256": "6d9dc979afd3cb0d057ffd03dd7a181c4619ae8cdfcca3a1200d07a74fa0578a",
+          "page_count": 9,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D132/text.txt",
+          "text_chars_per_page": [
+            481,
+            1230,
+            930,
+            687,
+            692,
+            692,
+            1358,
+            1226,
+            298
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 103541
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D132/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D132/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D132/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D132/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D132/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D132/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D132/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D132/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D132/page-009.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D132/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D132/contact-007-009.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D132/page-006.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Current-density/continuity diagrams, resistivity table and graph, shell resistance and microscopic conductivity equations.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L10",
+      "material_id": "D133",
+      "series": "mit-8-022-fall2004",
+      "number": 10,
+      "title": "EMF, Circuits Kirchhoff’s Rules",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (12 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Battery diagrams, Kirchhoff circuit topologies and arrow directions, series/parallel reductions and two-loop formulas.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/7abaea2ba93dcbc20f6ec38bb95fbdfe_lecture8.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture8/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/source.pdf",
+          "sha256": "3b301472dae82e7c7efa486dbbe240b184e1a0f68c4eadd735ca9c96e9cade7c",
+          "page_count": 12,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/text.txt",
+          "text_chars_per_page": [
+            97,
+            985,
+            948,
+            720,
+            942,
+            789,
+            682,
+            574,
+            676,
+            918,
+            1100,
+            901
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 103687
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/page-010.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/page-011.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/page-012.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/contact-007-012.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D133/page-010.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Battery diagrams, Kirchhoff circuit topologies and arrow directions, series/parallel reductions and two-loop formulas.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [
+        "PDF page1 contains the title slide only; subsequent printed slide numbering begins at3. The next page contains quiz comments and a previous-lecture recap, then the EMF/circuit sequence. No unresolved substantive reference to absent printed slide2 was found; all published content is readable."
+      ],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L11",
+      "material_id": "D134",
+      "series": "mit-8-022-fall2004",
+      "number": 11,
+      "title": "Variable Currents, RC Circuits Thévenin Equivalence",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (12 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. RC time-domain plots, charging/discharging integrations, Thevenin/Norton circuit diagrams and formulas.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/46de97e4978fc003565f683871741451_lecture9.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture9/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/source.pdf",
+          "sha256": "072bc2998b5448a93dbe75a8e0833eb069763b75f26ed40c7b674e88b1959e56",
+          "page_count": 12,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/text.txt",
+          "text_chars_per_page": [
+            552,
+            828,
+            820,
+            984,
+            856,
+            979,
+            785,
+            756,
+            1246,
+            1014,
+            1037,
+            775
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 95605
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/page-010.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/page-011.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/page-012.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/contact-007-012.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D134/page-010.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "RC time-domain plots, charging/discharging integrations, Thevenin/Norton circuit diagrams and formulas.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L12",
+      "material_id": "D135",
+      "series": "mit-8-022-fall2004",
+      "number": 12,
+      "title": "Magnetic Force, Magnetic Field Ampere’s Law",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (11 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Magnetic-force diagrams, cathode-ray tube, BaBar event image with particle labels, Ampere applications and divergence equations.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/f8443a251633d63eeb0e19a7b213d4ce_lecture10.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture10/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D135/source.pdf",
+          "sha256": "76c2f871ae70bbfe143eaa65196e001464e7695adae65b2142c53d3b9e66c11e",
+          "page_count": 11,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D135/text.txt",
+          "text_chars_per_page": [
+            902,
+            1113,
+            937,
+            1065,
+            865,
+            987,
+            1062,
+            1220,
+            1040,
+            1475,
+            1019
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 130794
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D135/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D135/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D135/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D135/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D135/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D135/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D135/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D135/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D135/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D135/page-010.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D135/page-011.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D135/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D135/contact-007-011.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D135/page-005.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Magnetic-force diagrams, cathode-ray tube, BaBar event image with particle labels, Ampere applications and divergence equations.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L13",
+      "material_id": "D136",
+      "series": "mit-8-022-fall2004",
+      "number": 13,
+      "title": "Special Relativity I: Spacetime",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (12 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Train/reference-frame diagrams, time/length derivations, muon plots and Lorentz/velocity transformations.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/d876dcd7dec74b158ff59b54f9e706d0_lecture11.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture11/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/source.pdf",
+          "sha256": "17b6d9bc1c32846d9c9db35b509815294a7c3fcba3dfb39b5b00b0a3bf74104e",
+          "page_count": 12,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/text.txt",
+          "text_chars_per_page": [
+            872,
+            1030,
+            1233,
+            835,
+            807,
+            928,
+            1258,
+            1395,
+            1481,
+            1252,
+            1152,
+            1037
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 12288
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/page-010.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/page-011.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/page-012.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/contact-007-012.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D136/page-010.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Train/reference-frame diagrams, time/length derivations, muon plots and Lorentz/velocity transformations.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L14",
+      "material_id": "D137",
+      "series": "mit-8-022-fall2004",
+      "number": 14,
+      "title": "Special Relativity II: Forces and Fields Equivalence of Electric and Magnetic Fields",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (9 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Boosted capacitors, force transformations and charged-wire/reference-frame diagrams; dense charge-density equations legible.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/8e5a529371d7ebc503049d075cfae958_lecture12.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture12/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D137/source.pdf",
+          "sha256": "3ae24de9c79f0231b021dc850f7ec756d905e92ba79c0507bb9250b9d0a4e253",
+          "page_count": 9,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D137/text.txt",
+          "text_chars_per_page": [
+            780,
+            1163,
+            1081,
+            1503,
+            1390,
+            944,
+            1321,
+            980,
+            966
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 105874
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D137/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D137/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D137/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D137/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D137/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D137/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D137/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D137/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D137/page-009.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D137/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D137/contact-007-009.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D137/page-007.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Boosted capacitors, force transformations and charged-wire/reference-frame diagrams; dense charge-density equations legible.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L15",
+      "material_id": "D138",
+      "series": "mit-8-022-fall2004",
+      "number": 15,
+      "title": "Ampere’s Law Revisited Vector Potential, Biot-Savart Law",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (9 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Vector potential, Biot-Savart derivation and loop/solenoid geometry.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/c60353232b6ab6cb77de48f0f6572b50_lecture13.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture13/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D138/source.pdf",
+          "sha256": "2dca9b750c3146b97bb49d2b9fb4e879d791154c041b3451e1ebbdf572f63dde",
+          "page_count": 9,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D138/text.txt",
+          "text_chars_per_page": [
+            601,
+            1268,
+            1044,
+            1342,
+            1150,
+            881,
+            946,
+            691,
+            726
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 142912
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D138/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D138/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D138/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D138/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D138/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D138/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D138/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D138/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D138/page-009.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D138/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D138/contact-007-009.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D138/page-005.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Vector potential, Biot-Savart derivation and loop/solenoid geometry.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L16",
+      "material_id": "D139",
+      "series": "mit-8-022-fall2004",
+      "number": 16,
+      "title": "Faraday’s Law, Lenz’s Law",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (11 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Motional emf and Lenz diagrams, Faraday swept-loop proof, induction demos and differential equations.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/dc89e80ee651b20cf525d2c89e026fd8_lecture14.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture14/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D139/source.pdf",
+          "sha256": "7b1301592940a98a663abd31089893a0e74a7e454a718be8445e20b9ded95a31",
+          "page_count": 11,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D139/text.txt",
+          "text_chars_per_page": [
+            423,
+            775,
+            708,
+            850,
+            921,
+            1089,
+            796,
+            786,
+            544,
+            781,
+            836
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 337112
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D139/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D139/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D139/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D139/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D139/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D139/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D139/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D139/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D139/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D139/page-010.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D139/page-011.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D139/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D139/contact-007-011.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D139/page-006.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Motional emf and Lenz diagrams, Faraday swept-loop proof, induction demos and differential equations.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L17",
+      "material_id": "D140",
+      "series": "mit-8-022-fall2004",
+      "number": 17,
+      "title": "Mutual and Self Inductance Magnetic Field Energy",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (11 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Induction/generator illustrations, self/mutual inductance, reciprocal flux proof, transformer winding diagrams.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/e89de838a0391197f9cb4f44c2e30c10_lecture15.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture15/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/source.pdf",
+          "sha256": "88482378aef7c95a3e43eedb6ad77bce84135e1a721ed733e9b7a3d05e825474",
+          "page_count": 11,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/text.txt",
+          "text_chars_per_page": [
+            399,
+            696,
+            740,
+            792,
+            1087,
+            808,
+            1048,
+            1098,
+            1109,
+            1200,
+            268
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 84893
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/page-010.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/page-011.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/contact-007-011.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D140/page-009.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Induction/generator illustrations, self/mutual inductance, reciprocal flux proof, transformer winding diagrams.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L18",
+      "material_id": "D141",
+      "series": "mit-8-022-fall2004",
+      "number": 18,
+      "title": "RL Circuits Undriven RLC Circuits Phasor Representation",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (10 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. RL/LC/RLC circuits and waveforms, complex-plane representation, damped-oscillation formulas.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/7b7348480e71d4b842dbc339543bd513_lecture16.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture16/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/source.pdf",
+          "sha256": "bb5247752f741d958b73554783364db1dff0b383c76aabbec85951ffd54f8ec1",
+          "page_count": 10,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/text.txt",
+          "text_chars_per_page": [
+            522,
+            849,
+            972,
+            713,
+            1018,
+            906,
+            1086,
+            1360,
+            1111,
+            275
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 94549
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-010.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/contact-007-010.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D141/page-008.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "RL/LC/RLC circuits and waveforms, complex-plane representation, damped-oscillation formulas.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [
+        "Printed slide15 refers to a complex-number handout and future recitation. The indexed required lecture asset is the PDF, which includes the needed complex-number definition, complex-plane figure, Euler identity and phasor representation. A separate handout was not added to the assigned source packet."
+      ],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L21",
+      "material_id": "D142",
+      "series": "mit-8-022-fall2004",
+      "number": 21,
+      "title": "Driven AC Circuits: Phasors, Impedance Power and Energy",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (14 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Driven circuit/impedance phasors, damping and resonance graphs, frequency/phase equations and demo schematics.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/06e667759af969c3ede560f1fc0bc93b_lecture17.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture17/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/source.pdf",
+          "sha256": "23a00a31aad8bb2bf20659c30a41ccf878ba3084f2912ec7ed8258b966d93bcc",
+          "page_count": 14,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/text.txt",
+          "text_chars_per_page": [
+            454,
+            894,
+            761,
+            1181,
+            1031,
+            791,
+            662,
+            923,
+            953,
+            881,
+            752,
+            600,
+            552,
+            658
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 180028
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/page-010.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/page-011.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/page-012.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/page-013.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/page-014.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/contact-007-012.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/contact-013-014.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D142/page-011.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Driven circuit/impedance phasors, damping and resonance graphs, frequency/phase equations and demo schematics.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [
+        "PDF has14 file pages while printed handout numbering runs1,3–15 and slide numbering begins1,4–30. The title lists exam discussion, followed by recap and a continuous circuit sequence. No unresolved substantive reference to absent printed slides2–3 was found. Eligibility concerns all published indexed lecture content, not unpublished class material."
+      ],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L23",
+      "material_id": "D143",
+      "series": "mit-8-022-fall2004",
+      "number": 23,
+      "title": "AC Circuits (Conclusion) Filters Quality Factor and Resonance",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (10 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Complex impedance/phasor diagrams, power and resonance derivations, FM antenna, high/low-pass filter plots.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/19b92b261f2a29004c97cdbf189e103b_lecture18.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture18/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/source.pdf",
+          "sha256": "b59ea1d7b2b8c187d67534d2a8526c4d46518998cf68fae07bfbaf41ae59a355",
+          "page_count": 10,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/text.txt",
+          "text_chars_per_page": [
+            699,
+            905,
+            843,
+            1501,
+            803,
+            1126,
+            1049,
+            959,
+            870,
+            304
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 113273
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-010.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/contact-007-010.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D143/page-006.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Complex impedance/phasor diagrams, power and resonance derivations, FM antenna, high/low-pass filter plots.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L24",
+      "material_id": "D144",
+      "series": "mit-8-022-fall2004",
+      "number": 24,
+      "title": "Displacement Current, Maxwell’s Equations",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (12 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Displacement-current capacitor geometry, complete Maxwell equations, wave-equation derivation and propagation diagrams.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/ece8a047519660f7128c2dea6fcec74d_lecture19.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture19/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/source.pdf",
+          "sha256": "fa5c60e6aa9e49500acb9ae2d4e54aa7f0db1975809715fbd84c629f1dfbc5ef",
+          "page_count": 12,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/text.txt",
+          "text_chars_per_page": [
+            639,
+            1300,
+            1087,
+            1180,
+            1029,
+            982,
+            1346,
+            1508,
+            1309,
+            1123,
+            1153,
+            338
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 123761
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/page-010.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/page-011.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/page-012.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/contact-007-012.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D144/page-008.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Displacement-current capacitor geometry, complete Maxwell equations, wave-equation derivation and propagation diagrams.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L25",
+      "material_id": "D145",
+      "series": "mit-8-022-fall2004",
+      "number": 25,
+      "title": "Wave Equation Electromagnetic Radiation",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (11 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Plane-wave equations, E/B/k geometry, polarization diagrams, antennas and circular/elliptical wave illustrations.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/d5c891405a068cfb6f4e493cae793000_lecture20.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture20/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/source.pdf",
+          "sha256": "039e3459414a7703aff514474607e2983de73b9161d24728ce954bc3e43f6057",
+          "page_count": 11,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/text.txt",
+          "text_chars_per_page": [
+            723,
+            969,
+            1528,
+            1342,
+            1304,
+            895,
+            1568,
+            1319,
+            1127,
+            793,
+            1062
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 175739
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/page-010.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/page-011.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/contact-007-011.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D145/page-009.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Plane-wave equations, E/B/k geometry, polarization diagrams, antennas and circular/elliptical wave illustrations.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L26",
+      "material_id": "D146",
+      "series": "mit-8-022-fall2004",
+      "number": 26,
+      "title": "Radiation (cont.) Polarization, Poynting Vector: Energy, Power and Momentum of Radiation",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (11 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Poynting/dipole/capacitor energy diagrams, transmission-line derivation and schematics, scattering/polarization setups.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/2f5efba0b9926c9ce8e9ab0d04bfc7b3_lecture21.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture21/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D146/source.pdf",
+          "sha256": "2a9f4078384b3643c87bd32f0e9caa95e5384651b71a17444b87679d261a60b9",
+          "page_count": 11,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D146/text.txt",
+          "text_chars_per_page": [
+            981,
+            1216,
+            1303,
+            1582,
+            1329,
+            918,
+            1420,
+            1101,
+            1447,
+            915,
+            576
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 117861
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D146/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D146/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D146/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D146/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D146/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D146/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D146/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D146/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D146/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D146/page-010.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D146/page-011.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D146/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D146/contact-007-011.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D146/page-007.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": null,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Poynting/dipole/capacitor energy diagrams, transmission-line derivation and schematics, scattering/polarization setups.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [],
+      "unresolved_required_content": []
+    },
+    {
+      "id": "mit-8-022-fall2004-L28",
+      "material_id": "D147",
+      "series": "mit-8-022-fall2004",
+      "number": 28,
+      "title": "Poynting Vector: Energy, Power and Momentum of Radiation, Magnetic Properties of Materials Transmission Lines",
+      "index_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/pages/lecture-notes/",
+      "status": "eligible_readable",
+      "reason": "The complete indexed lecture PDF (27 file pages) was downloaded, parsed, text-extracted and rendered; every file page was actually visually inspected. Published required text, equations, diagrams and labels are recoverable. Magnetic-orbit/spin/domain diagrams, susceptibility table, magnetization and hysteresis diagrams, all speaker notes below slide20.",
+      "source_packet_definition": "One PDF linked by the official lecture-notes index row for this session. Other in-class demonstrations, incidental prior-course references and unassigned external material are not represented as inspected assets.",
+      "assets": [
+        {
+          "asset_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/e88d6b3e6784f1446e110b0319703a28_lecture22.pdf",
+          "resource_url": "https://ocw.mit.edu/courses/8-022-physics-ii-electricity-and-magnetism-fall-2004/resources/lecture22/",
+          "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/source.pdf",
+          "sha256": "d1eb6f8d7c3210b771995e41e58a7d3b2630b010bef0700daf5995905affe1d2",
+          "page_count": 27,
+          "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/text.txt",
+          "text_chars_per_page": [
+            210,
+            498,
+            379,
+            603,
+            816,
+            366,
+            672,
+            641,
+            520,
+            569,
+            510,
+            769,
+            792,
+            449,
+            648,
+            660,
+            610,
+            320,
+            462,
+            2070,
+            482,
+            402,
+            567,
+            304,
+            528,
+            394,
+            214
+          ],
+          "content_type": "application/pdf",
+          "download_succeeded": true,
+          "parse_succeeded": true,
+          "render_succeeded_for_all_pages": true,
+          "file_bytes": 319873
+        }
+      ],
+      "inspection": {
+        "review_type": "readability/capability only; not a lesson-quality, technical-correctness or teaching audit",
+        "all_file_pages_actually_viewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "all_page_images": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-001.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-002.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-003.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-004.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-005.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-006.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-007.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-008.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-010.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-011.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-012.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-013.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-014.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-015.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-016.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-017.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-018.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-019.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-020.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-021.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-022.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-023.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-024.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-025.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-026.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-027.png"
+        ],
+        "overview_contact_sheets_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/contact-001-006.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/contact-007-012.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/contact-013-018.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/contact-019-024.jpg",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/contact-025-027.jpg"
+        ],
+        "full_page_or_detail_images_actually_viewed": [
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/page-009.png",
+          "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-8022/D147/detail-page-020.png"
+        ],
+        "render_scale": 1.7,
+        "detail_render_scale": 3,
+        "all_pages_text_extracted": true,
+        "inspection_notes": "Magnetic-orbit/spin/domain diagrams, susceptibility table, magnetization and hysteresis diagrams, all speaker notes below slide20.",
+        "basis": "All-page visual inspection plus detailed page enlargement when small/dense content needed it; eligibility was not inferred from a sample or text extraction alone."
+      },
+      "caveats": [
+        "This PDF has one slide per page (unlike earlier two-up files), and page20 includes substantial speaker notes below the slide; these notes were included in visual review."
+      ],
+      "unresolved_required_content": []
+    }
+  ]
+}

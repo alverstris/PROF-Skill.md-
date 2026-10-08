@@ -1,0 +1,187 @@
+{
+  "material_id": "D012",
+  "stable_id": "mit-18-01-fall-2006-L13",
+  "lecture": 13,
+  "title": "Newton\u2019s method and other applications",
+  "scope": "technical SOURCE preparation only",
+  "status": "complete",
+  "pdf_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L13/lec13.pdf",
+  "official_asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/fb8c24f09aba8413984f8ce5961586bd_lec13.pdf",
+  "official_resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec13/",
+  "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65",
+  "sha256_recomputed_matches": true,
+  "page_count": 7,
+  "pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "page_map": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "contents": "Cover; course and terms notice",
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L13/lec13-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L13/lec13-p01.png",
+      "text_read": true,
+      "render_inspected": true
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": 1,
+      "contents": "Newton tangent derivation; positive-root example",
+      "figures": [
+        "Figure 1"
+      ],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L13/lec13-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L13/lec13-p02.png",
+      "text_read": true,
+      "render_inspected": true
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": 2,
+      "contents": "Recurrence and second tangent",
+      "figures": [
+        "Figure 2"
+      ],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L13/lec13-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L13/lec13-p03.png",
+      "text_read": true,
+      "render_inspected": true
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": 3,
+      "contents": "Iterate/error table; general iteration; limit",
+      "figures": [
+        "Table of iterates",
+        "Figure 3"
+      ],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L13/lec13-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L13/lec13-p04.png",
+      "text_read": true,
+      "render_inspected": true
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 4,
+      "contents": "Negative root; two-cycle",
+      "figures": [
+        "Figure 4",
+        "Figure 5"
+      ],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L13/lec13-p05.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L13/lec13-p05.png",
+      "text_read": true,
+      "render_inspected": true
+    },
+    {
+      "pdf_page": 6,
+      "printed_page": 5,
+      "contents": "Ring constraint; implicit derivative",
+      "figures": [
+        "Figure 6"
+      ],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L13/lec13-p06.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L13/lec13-p06.png",
+      "text_read": true,
+      "render_inspected": true
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": 6,
+      "contents": "Angles, physical and optical interpretation; exact minimizing coordinates",
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L13/lec13-p07.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L13/lec13-p07.png",
+      "text_read": true,
+      "render_inspected": true
+    }
+  ],
+  "confirmed_source_errors": [
+    {
+      "id": "D012-E1",
+      "pages": [
+        3
+      ],
+      "summary": "Newton denominator 2x should be 2x0."
+    },
+    {
+      "id": "D012-E2",
+      "pages": [
+        4
+      ],
+      "summary": "Table y and |y-sqrt(3)| label x iterates as f-values."
+    },
+    {
+      "id": "D012-E3",
+      "pages": [
+        5
+      ],
+      "summary": "Figure 5 caption claims root convergence but diagram/body show a two-cycle."
+    },
+    {
+      "id": "D012-E4",
+      "pages": [
+        6
+      ],
+      "summary": "Figure 6 right distance has (b-y^2) instead of (b-y)^2."
+    },
+    {
+      "id": "D012-E5",
+      "pages": [
+        6
+      ],
+      "summary": "Position of string should read position of ring."
+    }
+  ],
+  "missing_conditions_or_pedagogical_omissions": [
+    {
+      "pages": [
+        2,
+        5
+      ],
+      "summary": "Opening positive-root target not stated; negative root later acknowledged."
+    },
+    {
+      "pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "summary": "Nonzero derivative, domain, local convergence and existence of limit conditions."
+    },
+    {
+      "pages": [
+        6,
+        7
+      ],
+      "summary": "Nondegenerate length L>sqrt(a^2+b^2), local lower branch, global minimality and physical assumptions."
+    }
+  ],
+  "resolved_witnesses": [
+    "Exact iterates and numerical error values checked.",
+    "Exact Newton error recurrence proves convergence for positive start.",
+    "Explicit smooth cubic certifies displayed two-cycle mechanism.",
+    "Exact ring distances verify constraint and stationarity.",
+    "Triangle inequality proves global minimum and resolves length boundaries."
+  ],
+  "open_uncertainties": [],
+  "review_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/sourceprep-d008-d014/D012/source-review.md"
+}

@@ -1,0 +1,145 @@
+{
+  "material_id": "D013",
+  "stable_id": "mit-18-01-fall-2006-L14",
+  "lecture": 14,
+  "title": "Mean value theorem Inequalities",
+  "scope": "technical SOURCE preparation only",
+  "status": "complete",
+  "pdf_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14.pdf",
+  "official_asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/1a211af8e4860b63b801aa3d6e7a2e95_lec14.pdf",
+  "official_resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec14/",
+  "sha256": "67d74be87119ab367516c8a80cc710664e48059bc1184c7042846556b3c0a609",
+  "sha256_recomputed_matches": true,
+  "page_count": 5,
+  "pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "page_map": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "contents": "Cover; course and terms notice",
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p01.png",
+      "text_read": true,
+      "render_inspected": true
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": 1,
+      "contents": "MVT statement and geometric proof; nondifferentiable warning",
+      "figures": [
+        "Figure 1"
+      ],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p02.png",
+      "text_read": true,
+      "render_inspected": true
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": 2,
+      "contents": "Absolute-value example, travel interpretation, equivalent MVT versions",
+      "figures": [
+        "Figure 2"
+      ],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p03.png",
+      "text_read": true,
+      "render_inspected": true
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": 3,
+      "contents": "Linearization comparison; derivative-sign conclusions and proofs",
+      "figures": [
+        "Figure 3"
+      ],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p04.png",
+      "text_read": true,
+      "render_inspected": true
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 4,
+      "contents": "Exponential inequalities and Taylor-series preview",
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p05.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p05.png",
+      "text_read": true,
+      "render_inspected": true
+    }
+  ],
+  "confirmed_source_errors": [
+    {
+      "id": "D013-E1",
+      "pages": [
+        4
+      ],
+      "summary": "Definition of decreasing reverses required inequality; f(a)>f(b) for a<b."
+    },
+    {
+      "id": "D013-E2",
+      "pages": [
+        5
+      ],
+      "summary": "Proof of property 2 switches f1 to undefined f in an intermediate comparison."
+    }
+  ],
+  "missing_conditions_or_pedagogical_omissions": [
+    {
+      "pages": [
+        2
+      ],
+      "summary": "Geometric proof needs compact interval, interior extremum and affine special case."
+    },
+    {
+      "pages": [
+        2,
+        3
+      ],
+      "summary": "Absolute-value first contact needs a<0<b and secant slope in (-1,1)."
+    },
+    {
+      "pages": [
+        3,
+        4
+      ],
+      "summary": "Travel interpretation and derivative-sign corollaries require scalar-speed and interval hypotheses."
+    },
+    {
+      "pages": [
+        4
+      ],
+      "summary": "Figure 3 error sign is a depicted convex case, not universal."
+    },
+    {
+      "pages": [
+        5
+      ],
+      "summary": "Strict exponential inequalities need domain/equality qualifications; infinite-sum convergence deferred."
+    }
+  ],
+  "resolved_witnesses": [
+    "Subtracting the secant line proves the MVT rigorously.",
+    "Absolute-value slope range and failure verified.",
+    "Decreasing counterexample and disconnected-domain examples supplied.",
+    "Exponential remainder induction and endpoint/negative-x checks supplied.",
+    "Travel units and scalar derivative interpretation verified."
+  ],
+  "open_uncertainties": [],
+  "review_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/sourceprep-d008-d014/D013/source-review.md"
+}

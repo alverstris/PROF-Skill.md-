@@ -1,0 +1,132 @@
+{
+  "schema": "prof-source-preparation-v1",
+  "material_id": "D010",
+  "lecture_number": 11,
+  "title": "Max-min problems",
+  "audit_kind": "technical_source_only",
+  "asset": {
+    "resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec11/",
+    "asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/8896949be9dd22428b03e64dbcd990af_lec11.pdf",
+    "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L11/lec11.pdf",
+    "sha256": "50008af6e500a21462047f2de0481bccca440f3a5358d554c8eecbbd37a2a4b5",
+    "bytes": 1168494,
+    "page_count": 6
+  },
+  "actual_sha256": "50008af6e500a21462047f2de0481bccca440f3a5358d554c8eecbbd37a2a4b5",
+  "hash_matches": true,
+  "all_text_pages_read": true,
+  "all_page_renders_individually_inspected": true,
+  "pages": [
+    {
+      "page": 1,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L11/lec11-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L11/lec11-p01.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Cover",
+      "figures": []
+    },
+    {
+      "page": 2,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L11/lec11-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L11/lec11-p02.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Logarithmic maximum; Figure 1; generic extrema setup",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "page": 3,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L11/lec11-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L11/lec11-p03.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Generic extrema Figure 2; can setup/Figure 3",
+      "figures": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "page": 4,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L11/lec11-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L11/lec11-p04.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Can optimization, Figure 4 and minimum area/proportions",
+      "figures": [
+        "4"
+      ]
+    },
+    {
+      "page": 5,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L11/lec11-p05.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L11/lec11-p05.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Wire squares Example 4/Figure 5 and area calculations",
+      "figures": [
+        "5"
+      ]
+    },
+    {
+      "page": 6,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L11/lec11-p06.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L11/lec11-p06.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Wire endpoint conclusion and Figure 6",
+      "figures": [
+        "6"
+      ]
+    }
+  ],
+  "figures_inspected": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "confirmed_errors": [
+    {
+      "pdf_page": 4,
+      "issue": "Initial h=V/(2 pi r) wrong; must be V/(pi r^2)"
+    },
+    {
+      "pdf_page": 4,
+      "issue": "Domain incorrectly includes r=0"
+    },
+    {
+      "pdf_page": 4,
+      "issue": "Prose second term 2/r omits V"
+    },
+    {
+      "pdf_page": 4,
+      "issue": "Reciprocal substitution exponent has wrong sign and final pi exponent wrong; S_min=3 pi^(1/3) V^(2/3)"
+    },
+    {
+      "pdf_page": 4,
+      "issue": "Unconditional attainment of maximum asserted for unbounded S"
+    },
+    {
+      "pdf_page": 5,
+      "issue": "Figure 5 misreferences Example 5 instead of 4"
+    }
+  ],
+  "conditions_and_omissions": [
+    "Existence and full candidate conditions for extrema",
+    "Positive-volume ideal open-cylinder assumptions",
+    "Open versus closed feasible interval for positive wire pieces",
+    "Hollow circle markers do not indicate removed minimum"
+  ],
+  "external_sources": [],
+  "open_uncertainties": [
+    "Physical wire endpoint admissibility depends on whether zero-length pieces are allowed"
+  ],
+  "source_review": "source-review.md",
+  "source_files_unchanged": true
+}

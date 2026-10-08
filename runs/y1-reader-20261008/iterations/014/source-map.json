@@ -1,0 +1,178 @@
+{
+  "material_id": "D014",
+  "stable_id": "mit-18-01-fall-2006-L15",
+  "lecture": 15,
+  "title": "Differentials, antiderivatives",
+  "scope": "technical SOURCE preparation only",
+  "status": "complete",
+  "pdf_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15.pdf",
+  "official_asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/c07ab6e13cf8684dd98b2650b64672fb_lec15.pdf",
+  "official_resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec15/",
+  "sha256": "10c3dc97fa877d3ed97c5561b5082dca3006c632d85e58e01d059484ae455323",
+  "sha256_recomputed_matches": true,
+  "page_count": 5,
+  "pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "page_map": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "contents": "Cover; course and terms notice",
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p01.png",
+      "text_read": true,
+      "render_inspected": true,
+      "text_evidence_note": "Cached text read."
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": 1,
+      "contents": "Differentials and cube-root approximation methods 1-2",
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p02.png",
+      "text_read": true,
+      "render_inspected": true,
+      "text_evidence_note": "Cached text read."
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": 2,
+      "contents": "Approximation method 3; six primitives; log derivative",
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p03.png",
+      "text_read": true,
+      "render_inspected": true,
+      "text_evidence_note": "Cached text read."
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": 3,
+      "contents": "Uniqueness and substitution examples 1-3",
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p04.png",
+      "text_read": true,
+      "render_inspected": true,
+      "text_evidence_note": "Cached text read."
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 4,
+      "contents": "Substitution examples 4-6; trig constants; logarithmic domain",
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p05.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p05.png",
+      "text_read": true,
+      "render_inspected": true,
+      "text_evidence_note": "Cached file empty; direct PDF extraction read and saved as supplement."
+    }
+  ],
+  "resolved_evidence_discrepancies": [
+    {
+      "pdf_page": 5,
+      "kind": "empty_cached_text",
+      "manifest_characters": 1016,
+      "observed_cached_characters": 0,
+      "direct_pdf_extraction_characters": 1016,
+      "supplement_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/sourceprep-d008-d014/D014/lec15-p05-reextracted.txt",
+      "original_cache_modified": false,
+      "source_pdf_hash_still_matches": true,
+      "full_render_inspected": true
+    }
+  ],
+  "confirmed_source_errors": [
+    {
+      "id": "D014-E1",
+      "pages": [
+        2
+      ],
+      "summary": "Exact equality used for first-order cube-root approximation."
+    },
+    {
+      "id": "D014-E2",
+      "pages": [
+        3
+      ],
+      "summary": "Differential method again equates approximate cube root exactly."
+    },
+    {
+      "id": "D014-E3",
+      "pages": [
+        3
+      ],
+      "summary": "Proof of Property 2 should be Property 3."
+    },
+    {
+      "id": "D014-E4",
+      "pages": [
+        4
+      ],
+      "summary": "Additive constant called a constant factor."
+    },
+    {
+      "id": "D014-E5",
+      "pages": [
+        4
+      ],
+      "summary": "Intermediate evaluated primitive omits +C and is then set equal to same expression plus arbitrary C."
+    },
+    {
+      "id": "D014-E6",
+      "pages": [
+        5
+      ],
+      "summary": "ln(ln x) is not real on permitted 0<x<1; use ln|ln x| or explicitly require x>1."
+    }
+  ],
+  "missing_conditions_or_pedagogical_omissions": [
+    {
+      "pages": [
+        2,
+        3
+      ],
+      "summary": "Differentials versus finite changes and real-power derivative domains."
+    },
+    {
+      "pages": [
+        3
+      ],
+      "summary": "Power, logarithm, tangent and arcsine primitive domains and endpoints."
+    },
+    {
+      "pages": [
+        4
+      ],
+      "summary": "One-constant uniqueness requires a common interval; otherwise componentwise."
+    },
+    {
+      "pages": [
+        5
+      ],
+      "summary": "Example 6 must exclude x=1 and permits separate constants on (0,1) and (1,infinity)."
+    }
+  ],
+  "resolved_witnesses": [
+    "Exact cube discrepancy 577/110592 and concavity/error bounds.",
+    "All six primitive formulas differentiated with domain boundaries.",
+    "All six worked substitution examples differentiated.",
+    "Disconnected-domain counterexample to one global integration constant.",
+    "Example 6 negative logarithm branch and singular x=1 checked."
+  ],
+  "open_uncertainties": [],
+  "review_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/sourceprep-d008-d014/D014/source-review.md"
+}

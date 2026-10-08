@@ -1,0 +1,138 @@
+{
+  "schema": "prof-source-preparation-v1",
+  "material_id": "D008",
+  "lecture_number": 9,
+  "title": "Linear and quadratic approximations",
+  "audit_kind": "technical_source_only",
+  "asset": {
+    "resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec9/",
+    "asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/40cb41807e6d67373f3299ce87c4d9b3_lec9.pdf",
+    "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L09/lec9.pdf",
+    "sha256": "d1b383663f7792bbdaa4d6108e17b11679d4688e413e197486941af337892320",
+    "bytes": 880629,
+    "page_count": 7
+  },
+  "actual_sha256": "d1b383663f7792bbdaa4d6108e17b11679d4688e413e197486941af337892320",
+  "hash_matches": true,
+  "all_text_pages_read": true,
+  "all_page_renders_individually_inspected": true,
+  "pages": [
+    {
+      "page": 1,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L09/lec9-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L09/lec9-p01.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Cover",
+      "figures": []
+    },
+    {
+      "page": 2,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L09/lec9-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L09/lec9-p02.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Linear approximation; ln example; Figure 1",
+      "figures": [
+        "Figure 1: tangent and contact point; ends schematic"
+      ]
+    },
+    {
+      "page": 3,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L09/lec9-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L09/lec9-p03.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Five linear approximations and proofs; Figure 2 panels a,b; Example 2 opening",
+      "figures": [
+        "Figure 2a: sine and y=x; Figure 2b: cosine and y=1; ends schematic"
+      ]
+    },
+    {
+      "page": 4,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L09/lec9-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L09/lec9-p04.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Example 2 and reciprocal footnote; Example 3 limit; Example 4 formula",
+      "figures": []
+    },
+    {
+      "page": 5,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L09/lec9-p05.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L09/lec9-p05.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Figure 3; Example 4; quadratic formula, cosine and arbitrary quadratic",
+      "figures": [
+        "Figure 3: satellite velocity and observer; schematic ground/marker"
+      ]
+    },
+    {
+      "page": 6,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L09/lec9-p06.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L09/lec9-p06.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Figure 4; five quadratic approximations; logarithm proof; gamma expansion",
+      "figures": [
+        "Figure 4: cosine and quadratic; no numerical endpoints"
+      ]
+    },
+    {
+      "page": 7,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L09/lec9-p07.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L09/lec9-p07.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Precision aside; Example 5 quadratic product",
+      "figures": []
+    }
+  ],
+  "figures_inspected": [
+    "1",
+    "2a",
+    "2b",
+    "3",
+    "4"
+  ],
+  "confirmed_errors": [
+    {
+      "pdf_page": 3,
+      "issue": "Sine approximation printed as exact f(x)=x"
+    },
+    {
+      "pdf_page": 3,
+      "issue": "General power approximation printed as exact equality"
+    },
+    {
+      "pdf_page": 5,
+      "issue": "Time factor T omitted on approximate right side"
+    },
+    {
+      "pdf_page": 5,
+      "issue": "General binomial exponent r mistyped as 4"
+    }
+  ],
+  "conditions_and_omissions": [
+    "Local differentiability and remainder meaning",
+    "No monotonic-error theorem away from basepoint",
+    "Real domains, radians, fixed r",
+    "Quadratic smoothness and remainder; derivative matching meaning of best fit",
+    "Special-relativity frame/proper time and omitted gravity/GPS corrections",
+    "Clock performance assertion dated and underspecified"
+  ],
+  "external_sources": [
+    {
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1385.pdf",
+      "scope_read": "Section 2.3, relevant excerpt only",
+      "purpose": "Verify GPS kinematic versus gravitational interpretation",
+      "web_reference": "turn80view0"
+    }
+  ],
+  "open_uncertainties": [
+    "Unverified unspecified historical/global atomic-clock precision assertion"
+  ],
+  "source_review": "source-review.md",
+  "source_files_unchanged": true
+}

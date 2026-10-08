@@ -1,0 +1,144 @@
+{
+  "schema": "prof-source-preparation-v1",
+  "material_id": "D009",
+  "lecture_number": 10,
+  "title": "Curve sketching",
+  "audit_kind": "technical_source_only",
+  "asset": {
+    "resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec10/",
+    "asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/d41418f410d1e11d0e606a0fc8441b82_lec10.pdf",
+    "local_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10.pdf",
+    "sha256": "0f6fd33b13a6a13444e23db72f4445d7d5eab49b6538e266fcf96813ff431da0",
+    "bytes": 1852844,
+    "page_count": 8
+  },
+  "actual_sha256": "0f6fd33b13a6a13444e23db72f4445d7d5eab49b6538e266fcf96813ff431da0",
+  "hash_matches": true,
+  "all_text_pages_read": true,
+  "all_page_renders_individually_inspected": true,
+  "pages": [
+    {
+      "page": 1,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10-p01.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Cover",
+      "figures": []
+    },
+    {
+      "page": 2,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10-p02.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Extrema and derivative signs; Figures 1-2",
+      "figures": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "page": 3,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10-p03.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Sketching rubric and cubic Example 1; Figure 3",
+      "figures": [
+        "3"
+      ]
+    },
+    {
+      "page": 4,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10-p04.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Reciprocal Example 2; Figures 4-5",
+      "figures": [
+        "4",
+        "5"
+      ]
+    },
+    {
+      "page": 5,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10-p05.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10-p05.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Stationary non-extremum Example 3/Figure 6; logarithmic quotient Example 4",
+      "figures": [
+        "6"
+      ]
+    },
+    {
+      "page": 6,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10-p06.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10-p06.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Logarithmic quotient continuation; Figure 7",
+      "figures": [
+        "7"
+      ]
+    },
+    {
+      "page": 7,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10-p07.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10-p07.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Second derivative, Figures 8-9 and local-extremum table",
+      "figures": [
+        "8",
+        "9"
+      ]
+    },
+    {
+      "page": 8,
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10-p08.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L10/lec10-p08.png",
+      "text_read_complete": true,
+      "original_render_inspected": true,
+      "contents": "Inflection definition and cubic Figure 10",
+      "figures": [
+        "10"
+      ]
+    }
+  ],
+  "figures_inspected": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "confirmed_errors": [
+    {
+      "pdf_page": 8,
+      "issue": "f double-prime equals zero falsely defined as sufficient for inflection",
+      "witness": "x^4 has f double-prime(0)=0 and no concavity change"
+    },
+    {
+      "pdf_page": 5,
+      "issue": "Figure 6 caption duplicates y ="
+    }
+  ],
+  "conditions_and_omissions": [
+    "Critical-point convention omits nondifferentiable candidates",
+    "Derivative sign tests need intervals and appropriate differentiability",
+    "Second derivative test is local and zero case inconclusive",
+    "Figure 3 hollow markers do not indicate excluded polynomial points",
+    "Logarithmic quotient sequence limits need bridge if n is restricted to integers"
+  ],
+  "external_sources": [],
+  "open_uncertainties": [],
+  "source_review": "source-review.md",
+  "source_files_unchanged": true
+}

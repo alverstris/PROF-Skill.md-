@@ -1,0 +1,74 @@
+Z 
+Z 
+Z 
+Z 
+2 
+Example 4. 
+xe−x dx 
+2 
+Guess: e−x Again, take the derivative to check: 
+d e−x 2
+2 
+= (−2x)(e−x ) 
+dx 
+Therefore, 
+Z 
+2
+xe−x dx = − 
+2 
+1 
+2 e−x + c 
+1 
+Example 5. 
+sin x cos xdx = 
+sin2 x + c
+2 
+Another, equally acceptable answer is 
+sin x cos xdx = − 1 cos2 x + c 
+2 
+This seems like a contradiction, so let’s check our answers: 
+d sin2 x = (2 sin x)(cos x)
+dx 
+and 
+d 
+2 
+cos x = (2 cos x)(− sin x)
+dx 
+So both of these are correct. Here’s how we resolve this apparent paradox: the diﬀerence between 
+the two answers is a constant. 
+1 sin2 x − (− 1 cos2 x) = 1(sin2 x + cos2 x) = 1 
+2
+2
+2 
+2 
+So, 
+1 sin2 x − 1 = 1(sin2 x − 1) = 1(− cos2 x) = − 1 cos2 x 
+2
+2
+2
+2 
+2 
+The two answers are, in fact, equivalent. The constant c is shifted by 1
+2 from one answer to the 
+other. 
+dx
+Example 6. 
+(We will assume x > 0.) 
+x ln x 
+1 
+Let u = ln x. This means du = 
+dx. Substitute these into the integral to get 
+x 
+Z 
+Z 
+dx 
+1 
+= 
+du = ln u + c = ln(ln(x)) + c 
+x ln x
+u 
+4 
+Lecture 15
+ 
+ 
+18.01 Fall 2006 

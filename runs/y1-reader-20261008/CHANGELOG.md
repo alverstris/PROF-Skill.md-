@@ -1,7 +1,7 @@
 PROF Y1 run change log
 
 - Preparation: canonicalr6 (3d90fcfe9f63d4bd7ff465ac11e33eb2c9d02450) → r7 (6486b2afcee950d8d4cc4bfe7f443c05e10beb9f): implemented Jonathan's dedicated fresh whole-document SASIS reader, complete two-input admission and honest instruction-level isolation; froze unchanged baseline. No lecture closed.
-- D001, MIT18.01Fall2006L01, incomingr7: authored full42-paragraphv1; fresh reader and independent technical audit found no supported substantive gap/error; repaired GitHub math delimiters without changing content, and dispatched a freshv2reader. Source figures and rendered output remain unverified; outgoing version not promoted.
+- D001, MIT18.01Fall2006L01, incomingr7: authored full42-paragraphv1; fresh reader and independent technical audit found no supported substantive gap/error; repaired GitHub math delimiters without changing content, and dispatched a freshv2reader. That attempt was interrupted without an admitted report; a new fresh reading remains required. Source figures and rendered output remain unverified; outgoing version not promoted.
 - Queue reconciliation: recovered manual's prescribed ordering and addedD001–D147 while preserving all147 original session IDs; historicalr5 arithmetic retained as history, not substituted for actualGitHub state.
 
 Scope:0closed;D001open;146later sessionspending. No claim of human mastery, retention, empirical PROF improvement or completed corpus.

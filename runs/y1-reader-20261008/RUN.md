@@ -10,7 +10,7 @@ Original author output:a82371f2ae8183927877bfd85759e73cf4e0b070, teaching-v1.md 
 Current teaching:v2 at3bdad7a365b5ce56e7430702d6daf3d963a11de3, iterations/001/teaching-v2.md.
 V2 changes only GitHub math delimiters; all288payloads and all prose unchanged.
 Original SASIS report preserved in sasis-reader-v1-original.md; input admission verified in admission-v1.json.
-Fresh SASISv2 agent:/root/sasis_l01_v2, fork_turns:none, baseline+v2 only; report still pending at this checkpoint.
+Fresh SASISv2 attempt:/root/sasis_l01_v2, fork_turns:none, baseline+v2 only. Interrupted without a returned complete review/access record; no admitted v2 verdict. See reader-v2-unfinished.md and admission-v2.json. No reader remains assigned to substantive work.
 Independent technical audit:technical-review-v1.md. Content-equality justification for v2:technical-carry-forward-v2.md. No supported mathematical/physical error found.
 Issues and closure:iterations/001/issues.json. No outgoing skill progression version promoted.
 
@@ -20,6 +20,6 @@ Material limits:
 - Full native attachment reads failed, but complete indexed manual/prompt text was subsequently recovered and read. See recovered-inputs/recovery-and-read-record.md for continuous63-chunk coverage and2terminal-byte caveat.
 - Reader restriction is an instruction whitelist, not technical isolation or erasure of pretraining.
 
-Next action: collect and preserve the originalv2reader report, verify its actual complete-input ranges, and disposition any new findings. Publish that evidence. To closeD001, obtain actual source images/rendered output through a permitted cloud route, inspect consequential details; repair and dispatch fresh readers if content changes. Only after verified closure publish the next cumulative revision, reload it, and authorD002. Do not use historicalr5/version formulas to relabel actualr6/r7 preparation history.
+Next action: obtain inspectable images of the first source PDF's consequential pages through a permitted cloud route or user attachment, compare with source/teaching records, and repair if required. Dispatch a new fresh SASIS reader on the complete final current document and baseline, verify actual ranges and preserve its original report. Inspect required output presentation and disposition all issues. Only after verified closure publish the next cumulative revision, reload it, and authorD002. Do not use historicalr5/version formulas to relabel actualr6/r7 preparation history.
 
 See CHANGELOG.md, protocol-preparation.md and textbook-research.md. A partial checkpoint is not a completed iteration or a continuing background scheduler.

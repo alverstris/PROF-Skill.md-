@@ -61,7 +61,7 @@
       "locator": "Complete baseline file mixed CRCRLF",
       "finding": "JS LF count1378 differs from API universal-line count2562; stopping at1378 would omit required baseline.",
       "resolution": "Reader full-string fetch, exact identity and overlapping character ranges through actual EOF; no LF-count inference.",
-      "status": "resolved_for_reader_v1; v2_admission_pending_actual_report",
+      "status": "resolved_for_reader_v1; reader_v2_full_access_unverified",
       "evidence": [
         "input-access.json",
         "admission-v1.json",
@@ -124,9 +124,23 @@
       ],
       "required_next_action": "Preserve raw-byte caveat; do not claim raw-file checksum identity.",
       "closure_effect": "Full indexed-content reconciliation completed; this no longer blocks the iteration."
+    },
+    {
+      "id": "RUN01",
+      "category": "unfinished reader attempt",
+      "locator": "/root/sasis_l01_v2",
+      "finding": "No complete reader report or verified full-input ranges returned before parent interrupted attempt.",
+      "status": "pending_fresh_reader",
+      "resolution": null,
+      "evidence": [
+        "admission-v2.json",
+        "reader-v2-unfinished.md"
+      ],
+      "required_next_action": "Launch a new fork_turns:none reader for the complete current document and baseline; preserve all outcomes.",
+      "closure_effect": "Currentv2 lacks its required admitted fresh SASIS reading."
     }
   ],
-  "reader_findings": "v1 reports no established substantive teaching gap; v2 report pending.",
+  "reader_findings": "v1 reports no established substantive teaching gap. The v2 attempt was interrupted before a complete report/access record returned; no admitted v2 teaching verdict.",
   "skill_decision": "Protocol r6→r7 was preparation implementing the user's reader correction. No lecture-derived substantive PROF change established. Preserve rolling progression at valid closure without inventing a teaching rule; no promotion while required source check blocked.",
   "closure": {
     "state": "open",

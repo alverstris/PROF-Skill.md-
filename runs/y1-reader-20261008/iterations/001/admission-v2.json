@@ -1,6 +1,6 @@
 {
   "call_id": "001-reader-v2",
-  "state": "provisional_until_reader_access_log",
+  "state": "not_admitted_unfinished_attempt",
   "document": {
     "path": "runs/y1-reader-20261008/iterations/001/teaching-v2.md",
     "characters": 23508,
@@ -34,5 +34,20 @@
   "report_subject": "Teaching document's sequential meaning, available premises, justified connections and conclusions",
   "scope": "Complete teaching-v2 paragraphs P01–P42 including hints and solutions.",
   "agent": "/root/sasis_l01_v2",
-  "operating_addendum": "operating-addendum-v2.txt"
+  "operating_addendum": "operating-addendum-v2.txt",
+  "progress_log": [
+    {
+      "event": "reader_report_before_input_fetch",
+      "verbatim": "Full input reading has not begun in this worker context yet. I am locating the authorised fetch tool now; no blocking call has been encountered. I will read both complete inputs before writing the report.",
+      "interpretation": "No substantive verdict can be admitted yet. This is process/access status, not a teaching finding."
+    },
+    {
+      "event": "parent_tool_locator",
+      "detail": "Parent identified github_fetch_file and its exact repository/ref retrieval schema; no additional subject-content source or expected finding supplied."
+    }
+  ],
+  "attempt_outcome": "Parent interrupted the running reader; no complete report or verified input-reading ranges had been returned.",
+  "interrupted_at_utc": "2026-10-08T19:40:54.850Z",
+  "substantive_verdict": "none",
+  "retry_requirement": "Dispatch a new fork_turns:none SASIS agent for the complete frozen current document and complete baseline after resuming. Do not treat exact v1/v2 content equivalence as a replacement for the required fresh reading."
 }

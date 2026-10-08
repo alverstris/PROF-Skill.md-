@@ -1,0 +1,173 @@
+{
+  "material_id": "D003",
+  "stable_id": "mit-18-01-fall-2006-L03",
+  "title": "Derivatives of products, quotients, sine, cosine",
+  "scope": "Complete lecture-specific original source packet only; no PROF evaluation or teaching authoring.",
+  "source": {
+    "index_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/",
+    "resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec3/",
+    "asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/23c2c1b1ab31c9f10745b18e7b0bf131_lec3.pdf",
+    "local_pdf": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L03/lec3.pdf",
+    "sha256": "ccf25930cfad63d99e3fd5045e7931860051bbbb3eedd2bd8cd9318ebd32845a",
+    "sha256_independently_verified": true,
+    "page_count": 5
+  },
+  "coverage": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "topics": [
+        "MIT OCW course identity, Fall 2006, terms/citation notice"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L03/lec3-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L03/lec3-p01.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": 1,
+      "topics": [
+        "Specific versus general derivative formulas; constant-multiple and sum rules",
+        "Function sum/product notation",
+        "Difference-quotient proof of sum rule",
+        "Review of sin(h)/h and (cos(h)-1)/h limits at zero",
+        "Sine/cosine derivatives at zero and setup at arbitrary x"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L03/lec3-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L03/lec3-p02.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": 2,
+      "topics": [
+        "Sine addition identity and sine derivative",
+        "Cosine derivative stated by analogous calculation",
+        "Product rule and full add-subtract proof",
+        "Differentiability implies continuity condition"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L03/lec3-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L03/lec3-p03.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": 3,
+      "topics": [
+        "Increment notation",
+        "Geometric product increment and discarded cross term"
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "description": "Orange uv rectangle; red u Delta-v strip; yellow v Delta-u strip; white Delta-u Delta-v corner; horizontal u and Delta-u, vertical v and Delta-v."
+        }
+      ],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L03/lec3-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L03/lec3-p04.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 4,
+      "topics": [
+        "Quotient increment algebra",
+        "Quotient rule limit"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L03/lec3-p05.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L03/lec3-p05.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "D003-E01",
+      "classification": "confirmed_notational_source_error",
+      "pages": [
+        2
+      ],
+      "location": "General Examples item 2 and sum-rule proof heading",
+      "observation": "The source prints (cu) = cu-prime in the item and (u+v) = u-prime+v-prime in the heading, omitting the derivative prime on the left.",
+      "resolution": "Read these as (cu)-prime = c u-prime and (u+v)-prime = u-prime+v-prime. The displayed derivation and later constant-multiple sentence use the intended correct forms.",
+      "derivation": "Without the missing primes the equalities fail, e.g. u(x)=x, c=1."
+    },
+    {
+      "id": "D003-C01",
+      "classification": "required_condition",
+      "pages": [
+        2,
+        3
+      ],
+      "location": "Sum, constant-multiple, and product rules",
+      "observation": "The rules require the component functions to be differentiable at the point; c is constant. Product proof states this explicitly.",
+      "resolution": "Take finite two-sided derivatives on a neighborhood of the point (or formulate appropriate one-sided variants).",
+      "derivation": "The limit sum/product operations use existence of the finite difference-quotient limits; differentiability gives continuity."
+    },
+    {
+      "id": "D003-C02",
+      "classification": "implicit_convention",
+      "pages": [
+        2,
+        3
+      ],
+      "location": "Trigonometric limits and derivative formulas",
+      "observation": "The displayed limits and derivatives use radian measure; this packet does not repeat that convention.",
+      "resolution": "For radians, sin-prime(x)=cos(x), cos-prime(x)=-sin(x). For degree-valued input a factor pi/180 is needed.",
+      "derivation": "Writing sin_degrees(x)=sin_radians(pi*x/180) accounts for the scaling."
+    },
+    {
+      "id": "D003-G01",
+      "classification": "abbreviated_proof_not_false_result",
+      "pages": [
+        4
+      ],
+      "location": "Figure 1 and instruction to divide by Delta-x",
+      "observation": "Smallness of Delta-u Delta-v alone is insufficient to justify its disappearance after division by Delta-x. The figure is explicitly called an intuitive justification.",
+      "resolution": "Use (Delta-u Delta-v)/Delta-x = (Delta-u/Delta-x) Delta-v -> u-prime(x)*0=0.",
+      "derivation": "Differentiability of u and continuity of v supply both factors; this completes the omitted limiting step. The figure assumes positive side lengths and positive increments, whereas the algebra holds for signed increments."
+    },
+    {
+      "id": "D003-C03",
+      "classification": "omitted_domain_condition",
+      "pages": [
+        5
+      ],
+      "location": "Quotient formula and its proof",
+      "observation": "The page does not explicitly require v(x) nonzero.",
+      "resolution": "Require u and v differentiable at x and v(x) != 0. Continuity then makes v(x+h) nonzero for sufficiently small h.",
+      "derivation": "The exact common-denominator identity and limit division are then legal, giving (u-prime*v-u*v-prime)/v^2."
+    },
+    {
+      "id": "D003-G02",
+      "classification": "explicitly_deferred_calculation",
+      "pages": [
+        3
+      ],
+      "location": "Cosine derivative",
+      "observation": "The cosine derivative is asserted after saying a similar calculation gives it; the derivation is not displayed.",
+      "resolution": "cos(x+h)-cos(x) = cos(x)(cos(h)-1)-sin(x)sin(h); divide by h and use the two reviewed limits.",
+      "derivation": "The result is -sin(x), with no further hypothesis beyond the radian convention."
+    }
+  ],
+  "independent_checks": [
+    "Recomputed sum and scalar-multiple limits.",
+    "Expanded product increment exactly as u Delta-v + v Delta-u + Delta-u Delta-v.",
+    "Recomputed sine and cosine derivatives from angle addition and the reviewed limits.",
+    "Recomputed quotient increment and checked local nonvanishing of the denominator."
+  ],
+  "external_research": {
+    "needed": false,
+    "reason": "All consequential mathematical uncertainties are settled by source equations and elementary independent deduction."
+  },
+  "unreadable_or_unreviewed_portions": [],
+  "review_status": "source_review_complete"
+}

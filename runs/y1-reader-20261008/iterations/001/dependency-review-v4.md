@@ -1,0 +1,15 @@
+D001 final-revision dependency review
+
+Incoming authoring skill: r7 at 6486b2afcee950d8d4cc4bfe7f443c05e10beb9f. Original teaching v1 and full author audit are frozen and preserved. The source, complete operational baseline, capability scope, scientific premises and teaching route have not changed.
+
+V1 to v2 changes only math delimiters; all 249 inline and 39 display mathematical payloads and all prose are equal. V2 to v3 changes destination-specific delimiters and paragraph boundaries; the independent inverse transformation recovers v2 exactly. V3 to v4 changes the TeX spelling of greater-than and the source whitespace following two aligned row separators. The inverse transformation recovers v3 exactly, and fresh preview images of both affected pages are pixel-identical to the previously inspected pages.
+
+Consequently, technical-review-v1.md, independent-numeric-checks.json and the substantive T1–T12 witnesses in author-record-v1.md retain their mathematical and explanatory dependencies. The source-coverage qualification in those historical records is superseded by source-visual-review-v2.md: the lead and source auditor actually inspected the entire eight-page original, including all figures. The SRC01 locator is corrected in the current issue register; historical reports are unmodified.
+
+Output acceptance is freshly checked, not inherited from source equivalence. Render-review-v2-original.md records real GitHub failures; render-review-v3-original.md records two remaining serialization uncertainties. Render-review-v4-original.md and render-markup-v4.json verify all 288 actual GitHub renderer inputs exactly. The full local-preview inspection and fresh checks of changed pages establish legibility of the checked representation. Live GitHub client pixels and responsive behavior remain unobserved; no such claim is made. A PDF preview is an internal inspection aid, not a requested PDF deliverable or a claim of PDF help-navigation compliance.
+
+Reader acceptance is revision-specific. Every frozen teaching revision retains its own original admitted report or honest failed-dispatch record. V4 needs its completed fresh two-input reader; a v1/v2/v3 finding cannot discharge that gate.
+
+The proposed r8 changes only the progression identifier and explicit run controls: the user's fully-readable-subset instruction and required version increment at closure. The baseline, reader role/contract, rewrite guide, ordinary PROF obligations and all source/teaching premises are byte-identical. No D001 teaching behavior is affected, so there is no affected teaching to regenerate from a changed pedagogical rule. This is not evidence that a substantive skill repair successfully regenerated a lesson; no such skill repair is claimed. A later teaching-rule change must reopen its actual consumers and undergo fresh author regeneration as required.
+
+This dependency review does not itself close D001. Closure still requires the final reader admission and issue disposition, followed by verified GitHub publication before D002 authoring.

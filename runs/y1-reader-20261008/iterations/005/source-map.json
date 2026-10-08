@@ -1,0 +1,179 @@
+{
+  "material_id": "D005",
+  "stable_id": "mit-18-01-fall-2006-L05",
+  "title": "Implicit differentiation, inverses",
+  "scope": "Complete original packet only; source technical audit independent of any PROF document.",
+  "source": {
+    "index_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/",
+    "resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec5/",
+    "asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/18d6a86a30a4bc046c5f7034d47587f1_lec5.pdf",
+    "local_pdf": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L05/lec5.pdf",
+    "sha256": "d0ed3d4624b0a15cc5c65cff6aece48f70e185f5c417ba7d37a7c935b652848c",
+    "sha256_independently_verified": true,
+    "page_count": 5
+  },
+  "coverage": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "topics": [
+        "MIT OCW cover, course/term identity and terms notice"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L05/lec5-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L05/lec5-p01.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": 1,
+      "topics": [
+        "Review of integer power rules",
+        "Rational-power derivative via y^n=x^m and exponent simplification",
+        "Circle equation and positive-square-root explicit differentiation"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L05/lec5-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L05/lec5-p02.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": 2,
+      "topics": [
+        "Circle implicit differentiation",
+        "Cubic implicit example y^3+xy^2+1=0",
+        "Inverse function notation and reciprocal derivative computation"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L05/lec5-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L05/lec5-p03.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": 3,
+      "topics": [
+        "Arctangent implicit derivative",
+        "Triangle/Pythagorean simplification of cos(arctan(x))"
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "description": "Right triangle: adjacent vertical side 1, opposite horizontal side x, hypotenuse sqrt(1+x^2), angle y at upper left; labels and right-angle square inspected."
+        }
+      ],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L05/lec5-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L05/lec5-p04.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 4,
+      "topics": [
+        "Final arctangent derivative",
+        "Inverse graph variable exchange",
+        "Both inverse composition identities"
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "description": "Black f(x), blue g(x), red line y=x, axes x and y, dashed guides, labels a=f^(-1)(b) and b=f(a); inspected as a qualitative schematic of reflection."
+        }
+      ],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L05/lec5-p05.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L05/lec5-p05.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "D005-C01",
+      "classification": "omitted_domain_and_branch_conditions",
+      "pages": [
+        2
+      ],
+      "location": "Rational-power calculation",
+      "observation": "The source says m and n are integers but does not state n != 0, real-power domain, or the nonzero denominator needed when dividing by n*y^(n-1).",
+      "resolution": "Take n positive, reduce m/n when discussing negative inputs, and use x>0 as a sufficient common domain. Negative x is also possible for reduced odd n with the real odd-root convention. Negative powers exclude zero. The division argument is made at nonzero x (and hence nonzero y); x=0 requires a separate check.",
+      "derivation": "Exponent simplification gives (m/n)*x^(m/n-1) correctly on this domain. On a two-sided real domain through zero, positive rational exponent a has derivative 0 at zero if a>1, derivative 1 if a=1, and no finite derivative there if 0<a<1. With even reduced denominator only a one-sided endpoint version is available. A defined constant x^0 has derivative 0 separately; the unsimplified formula involving x^(-1) cannot be evaluated at zero."
+    },
+    {
+      "id": "D005-G01",
+      "classification": "existence_proof_gap",
+      "pages": [
+        2
+      ],
+      "location": "Differentiate y^n=x^m",
+      "observation": "Knowing y=x^(m/n) is a function does not by itself establish that it is differentiable; the chain-rule step presupposes this.",
+      "resolution": "The displayed work correctly computes the derivative conditional on its existence. Away from y=0 the real nth-root inverse is differentiable and supplies the missing existence justification.",
+      "derivation": "For p(y)=y^n, p-prime(y)=n*y^(n-1) is nonzero on the chosen nonzero branch. The inverse difference quotient tends to 1/p-prime(y), which justifies differentiability before composing with x^m."
+    },
+    {
+      "id": "D005-C02",
+      "classification": "omitted_domain_condition",
+      "pages": [
+        2,
+        3
+      ],
+      "location": "Circle examples",
+      "observation": "The explicit upper branch sqrt(1-x^2) is defined for -1<=x<=1 but its displayed finite derivative applies only for -1<x<1. The implicit formula divides by y.",
+      "resolution": "Use y-prime=-x/y at circle points with y != 0, for either local branch. Points (+/-1,0) have vertical tangents and no finite dy/dx.",
+      "derivation": "2x+2y*y-prime=0 gives the formula when y != 0. At (+/-1,0), the equation would require nonzero 2x=0 if a finite derivative existed."
+    },
+    {
+      "id": "D005-C03",
+      "classification": "omitted_division_condition_and_exception",
+      "pages": [
+        3
+      ],
+      "location": "Cubic implicit example",
+      "observation": "The displayed y-prime=-y^2/(3y^2+2xy) requires 3y^2+2xy != 0 on the curve.",
+      "resolution": "The curve never has y=0. Its unique real point with zero displayed denominator is y=cuberoot(2), x=-(3/2)*cuberoot(2). At this point there is no finite dy/dx and the regular curve has a vertical tangent.",
+      "derivation": "Since y != 0, a vanishing denominator gives x=-3y/2. Substitution into y^3+xy^2+1=0 gives y^3=2. F_x=y^2 is nonzero there. Independently x=-y-y^(-2) has dx/dy=-1+2/y^3=0 there, agreeing with the vertical tangent."
+    },
+    {
+      "id": "D005-C04",
+      "classification": "inverse_hypotheses_and_proof_gap",
+      "pages": [
+        3,
+        5
+      ],
+      "location": "Inverse definition, inverse derivative, and graphing",
+      "observation": "An inverse function requires a one-to-one restriction and its appropriate range; writing g(f(x))=x for a single pair does not define an inverse globally. The chain-rule computation also assumes inverse differentiability and divides by f-prime(x).",
+      "resolution": "Treat f as a bijection from its chosen domain to its range. For the local derivative, sufficient assumptions are continuous strict monotonicity on an interval and differentiability at x0 with f-prime(x0) != 0. Then g-prime(y0)=1/f-prime(g(y0)), y0=f(x0).",
+      "derivation": "As y->y0, inverse continuity gives g(y)->x0. The inverse difference quotient equals 1/((f(g(y))-f(x0))/(g(y)-x0)), tending to 1/f-prime(x0). A zero forward derivative is not covered. The two composition identities live respectively on the original domain and its range; graph reflection swaps (a,b) to (b,a)."
+    },
+    {
+      "id": "D005-C05",
+      "classification": "branch_convention_and_geometric_coverage_gap",
+      "pages": [
+        4,
+        5
+      ],
+      "location": "Arctangent and Figure 1",
+      "observation": "The source does not state the principal arctan range. A side labeled x in an ordinary triangle only depicts positive x, so the diagram alone does not justify negative inputs or the degenerate x=0 case.",
+      "resolution": "Use the radian principal inverse of tan on (-pi/2,pi/2), with real input x. Its cosine is positive and its derivative 1/(1+x^2) holds for all real x.",
+      "derivation": "sec^2(y)=1+tan^2(y)=1+x^2 implies cos^2(y)=1/(1+x^2) without a sign restriction on x. Positivity of cos(y) on the branch gives cos(y)=1/sqrt(1+x^2). tan-prime(y)=sec^2(y)>0 supplies the nonzero forward derivative. The triangle is consistent for x>0."
+    }
+  ],
+  "confirmed_formula_errors": [],
+  "independent_checks": [
+    "Recomputed rational-power exponent arithmetic and zero/domain cases.",
+    "Recomputed circle and cubic implicit derivatives and located their exceptional points.",
+    "Derived inverse derivative directly by inverse difference quotients.",
+    "Checked arctan result for all real x using sec^2 identity and principal branch.",
+    "Checked both figures, all labels, and inverse composition domains."
+  ],
+  "external_research": {
+    "needed": false,
+    "reason": "The actual pages plus direct algebra, limits, and elementary function properties settle the identified conditions."
+  },
+  "unreadable_or_unreviewed_portions": [],
+  "review_status": "source_review_complete"
+}

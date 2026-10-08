@@ -7,12 +7,13 @@
     "commit": "6486b2afcee950d8d4cc4bfe7f443c05e10beb9f"
   },
   "current_document": {
-    "path": "runs/y1-reader-20261008/iterations/001/teaching-v2.md",
-    "characters": 23508,
-    "bytes": 23542,
-    "sha256": "5a892606c9064d56bb6dea693ed5b3dfbb823608da9a4b1926c408aed00aca5b",
-    "git_blob": "a26d2965edc88e83bc7899534188d8c07a0d5df4",
-    "repair": "Delimiter-only GitHub Markdown conversion; all mathematical payloads, display/inline modes and prose unchanged"
+    "path": "runs/y1-reader-20261008/iterations/001/teaching-v4.md",
+    "commit": "0716ea92991d7f9fe2814e137bcc830d91a27511",
+    "bytes": 24315,
+    "characters": 24281,
+    "sha256": "402485baa2767af9625146721e356f92bad76e4cfb738e5729c6c8b94ea79401",
+    "state": "accepted_v4",
+    "git_blob": "b5c7ccb11e2d9f2f05e5b8f2c7830d62f26b1d66"
   },
   "issues": [
     {
@@ -62,13 +63,15 @@
       "locator": "Complete baseline file mixed CRCRLF",
       "finding": "JS LF count1378 differs from API universal-line count2562; stopping at1378 would omit required baseline.",
       "resolution": "Reader full-string fetch, exact identity and overlapping character ranges through actual EOF; no LF-count inference.",
-      "status": "resolved_for_complete_v1_and_v2_fresh3_reads; v3_admission_pending",
+      "status": "resolved_complete_reads_verified",
       "evidence": [
         "input-access.json",
         "admission-v1.json",
         "sasis-reader-v1-original.md",
         "admission-v2-fresh3.json",
-        "sasis-reader-v2-fresh3-original.md"
+        "sasis-reader-v2-fresh3-original.md",
+        "admission-v3.json",
+        "admission-v4-recovery.json"
       ],
       "prof_change": "No extra rule: r7 admission already requires complete actual access."
     },
@@ -78,10 +81,11 @@
       "locator": "All math delimiters in teaching-v1",
       "finding": "Chat-style backslash delimiters not GitHub's documented math syntax.",
       "resolution": "v2 converts only delimiters. All288 math payloads and all prose exactly preserved.",
-      "status": "v2_delimiter_repair_preserved_content_but_gitHub_markup_defects_found; see_FMT02",
+      "status": "resolved_in_v4_after_preserved_v2_failure",
       "evidence": [
         "format-repair.md",
-        "mechanical-v2.json"
+        "mechanical-v2.json",
+        "render-review-v4-original.md"
       ],
       "prof_change": "No substantive edit warranted; T11 already requires format-appropriate output."
     },
@@ -142,16 +146,19 @@
       "category": "unfinished reader attempt",
       "locator": "/root/sasis_l01_v2",
       "finding": "No complete reader report or verified full-input ranges returned before parent interrupted attempt.",
-      "status": "resolved_by_completed_fresh_v2_read",
-      "resolution": "Fresh reader sasis_d001_v2_fresh3 read both complete inputs and all P01–P42; original report preserved, no substantive connection defect established. The unfinished older attempt remains preserved separately.",
+      "status": "resolved_complete_final_v4_reader_admitted",
+      "resolution": "Original unfinished v2 and noninitialised firstv4dispatch retained. Freshv2,v3,andfinalv4readers read their complete inputs. Finalv4reader establishes no substantive teaching-connection blocker.",
       "evidence": [
         "admission-v2.json",
         "reader-v2-unfinished.md",
         "admission-v2-fresh3.json",
-        "sasis-reader-v2-fresh3-original.md"
+        "sasis-reader-v2-fresh3-original.md",
+        "admission-v4.json",
+        "admission-v4-recovery.json",
+        "sasis-reader-v4-recovery-original.md"
       ],
-      "required_next_action": "Current v3 requires its own fresh admitted reader, separately dispatched.",
-      "closure_effect": "V2 reader gap resolved; v3 cannot inherit reader acceptance."
+      "required_next_action": "None for this frozen revision.",
+      "closure_effect": "Finalv4has its own admitted complete fresh reading."
     },
     {
       "id": "FMT02",
@@ -180,23 +187,19 @@
       "prof_change": "No new teaching clause warranted: existing T11 and actual rendering gate exposed the execution failure."
     }
   ],
-  "reader_findings": "V1 and admitted v2 fresh3 reports establish no substantive teaching-connection defect. Older unfinished v2 attempt is preserved. V3 is a new frozen format revision with a new reader pending.",
-  "skill_decision": "Protocol r6→r7 was preparation implementing the user's reader correction. No lecture-derived substantive PROF change established. Preserve rolling progression at valid closure without inventing a teaching rule; no promotion while required source check blocked.",
+  "reader_findings": "All completed original reports are preserved. Final admitted v4 recovery reader covers full baseline and P01–P42 and establishes no substantive teaching-connection blocker. No human outcome is inferred.",
+  "skill_decision": "Outgoingr8 increments the required progression identifier and records explicit readable-subset scope/rolling-version controls. No ordinary teaching-rule change is supported or invented. See dependency-review-v4.md for unaffected content and control hashes.",
   "closure": {
-    "state": "open",
-    "promoted": false,
-    "closed_sessions": 0,
-    "assigned_sessions": 147,
-    "next_session_authorised_after_closure": "D002",
+    "state": "closed_on_verified_publication",
+    "material_id": "D001",
+    "closed_sessions": 1,
+    "original_inventory_sessions": 147,
     "eligible_sessions": 76,
-    "excluded_sessions": 71
-  },
-  "candidate_document": {
-    "path": "runs/y1-reader-20261008/iterations/001/teaching-v4.md",
-    "commit": "0716ea92991d7f9fe2814e137bcc830d91a27511",
-    "bytes": 24315,
-    "characters": 24281,
-    "sha256": "402485baa2767af9625146721e356f92bad76e4cfb738e5729c6c8b94ea79401",
-    "state": "frozen_format_checked_fresh_reader_pending"
+    "excluded_sessions": 71,
+    "eligible_remaining": 75,
+    "outgoing_revision": "2026-10-08-r8",
+    "next_session": "D002",
+    "evidence": "closure.md",
+    "publication_gate": "Expected-head main update, exact tree/file readback, then reload current GitHub PROF before D002 authoring."
   }
 }

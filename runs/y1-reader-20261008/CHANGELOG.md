@@ -10,3 +10,5 @@ Scope:0closed;D001open;146later sessionspending. No claim of human mastery, rete
 
 - Readability selection: audited every original session and all2,047pages of the113required note/studio PDFs. Selected76sessions; excluded70recordings with unestablished whole-visual reading plus TEALS01's unreadable assigned contour labels. All147IDs and original order retained. This is scope preparation, not76completed iterations.
 - D001 recovery: resolved source-visual access; preserved complete freshv2/v3readings; actual GitHub format inspection exposed math conversion defects, repaired in frozenv4. Freshv4reading pending; still0closed.
+
+- Closed D001, MIT18.01Fall2006L01: r7→r8. Fullsourcevisual audit, freshfinalv4SASISreading, independentcontentverification and checkedoutputrepresentations completed. Repaired GitHub math formatting; corrected current source-issue locator; retained alloriginalreports and failed dispatches. No substantive teaching-rule change. R8records the user's readable-subset/rolling-version controls. Evidence:iterations/001/closure.md. Currenttotal:1of76eligibleclosed,75remaining;71excluded retained.

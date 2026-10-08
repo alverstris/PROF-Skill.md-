@@ -1,0 +1,162 @@
+{
+  "material_id": "D004",
+  "stable_id": "mit-18-01-fall-2006-L04",
+  "title": "Chain rule Higher derivatives",
+  "scope": "Original complete source packet only; no PROF quality evaluation or teaching authoring.",
+  "source": {
+    "index_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/",
+    "resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec4/",
+    "asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/b8051c7c7a28e2cd03667de9dd4865fb_lec4.pdf",
+    "local_pdf": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L04/lec4.pdf",
+    "sha256": "df83eb89d84220591c909921a5c6a0529e77a661f913009f57741d8220d885d6",
+    "sha256_independently_verified": true,
+    "page_count": 4
+  },
+  "coverage": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "topics": [
+        "MIT OCW course, term, citation/terms notice"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L04/lec4-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L04/lec4-p01.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": 1,
+      "topics": [
+        "Chain-rule setup using t, x=g(t), y=f(x), base values and increments",
+        "Ratio-factorization argument and continuity",
+        "sin(t^2) derivative",
+        "Function-notation chain rule",
+        "Both compositions of sin(x) and x^2; noncommutativity"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L04/lec4-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L04/lec4-p02.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": 2,
+      "topics": [
+        "Composition diagram",
+        "Derivative of cos(1/x)",
+        "Two derivations of derivative of x^(-n)"
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "description": "Input x passes through g to g(x), then through f to f(g(x)); arrow order checked."
+        }
+      ],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L04/lec4-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L04/lec4-p03.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": 3,
+      "topics": [
+        "Higher derivatives as repeated derivatives",
+        "Prime, D, and Leibniz notation table for orders 1, 2, 3, n",
+        "D^n x^n examples n=1 through 4",
+        "Factorial definition and induction proof"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L04/lec4-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L04/lec4-p04.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "D004-G01",
+      "classification": "proof_gap",
+      "pages": [
+        2
+      ],
+      "location": "Delta-y/Delta-t = (Delta-y/Delta-x)(Delta-x/Delta-t)",
+      "observation": "Cancellation assumes Delta-x is nonzero. A differentiable inner function can have Delta-x=0 for nonzero Delta-t arbitrarily close to the base point, so this argument does not by itself prove the full chain rule.",
+      "resolution": "With x0=g(t0), write f(x0+k)-f(x0)=(f-prime(x0)+r(k))k, where r(k)->0 and r(0)=0. Substitute k=g(t0+h)-g(t0) and divide only by h.",
+      "derivation": "Continuity of g gives k->0, and k/h->g-prime(t0), yielding f-prime(g(t0))*g-prime(t0) even when k=0. This repairs a proof gap, not a false chain-rule formula."
+    },
+    {
+      "id": "D004-C01",
+      "classification": "required_hypotheses",
+      "pages": [
+        2,
+        3
+      ],
+      "location": "General chain-rule statements and composition diagram",
+      "observation": "The packet does not explicitly state the full hypotheses alongside the general formula.",
+      "resolution": "g must be differentiable at t0, f must be differentiable at g(t0), and the composition must be defined for nearby inputs.",
+      "derivation": "Continuity alone supplies Delta-x->0 but does not supply either derivative; the derivative of f is evaluated at g(t0)."
+    },
+    {
+      "id": "D004-C02",
+      "classification": "implicit_convention",
+      "pages": [
+        2,
+        3
+      ],
+      "location": "Sine/cosine examples",
+      "observation": "Trigonometric differentiation assumes radian arguments.",
+      "resolution": "Use radians in sin(t^2), sin(x), and cos(1/x).",
+      "derivation": "The displayed sine/cosine derivative formulas are the radian formulas."
+    },
+    {
+      "id": "D004-C03",
+      "classification": "omitted_domain_condition",
+      "pages": [
+        3
+      ],
+      "location": "Examples 2 and 3",
+      "observation": "Both cos(1/x) and the two reciprocal expressions for x^(-n) exclude x=0; Example 3 does not restate the intended integer range of n.",
+      "resolution": "For the negative-integer power argument take n a positive integer and x != 0. The cos(1/x) result sin(1/x)/x^2 also has x != 0.",
+      "derivation": "The first route gives n(1/x)^(n-1)(-1/x^2)=-n x^(-n-1); the second gives (-1/(x^n)^2)n x^(n-1), the same expression. Real noninteger n requires domain choices and a power rule not established by this argument."
+    },
+    {
+      "id": "D004-A01",
+      "classification": "scope_of_statement",
+      "pages": [
+        2
+      ],
+      "location": "f composed with g != g composed with f; Not Commutative",
+      "observation": "The displayed sine/square compositions are different functions. Noncommutativity is a general failure of an identity, not a claim that no pair of functions can commute.",
+      "resolution": "Read the statement as composition is not commutative in general.",
+      "derivation": "For the chosen functions, at x=pi/2 the reverse composition equals 1 but sin(pi^2/4) does not equal 1."
+    },
+    {
+      "id": "D004-C04",
+      "classification": "existence_and_index_condition",
+      "pages": [
+        4
+      ],
+      "location": "Higher derivatives and factorial induction",
+      "observation": "Repeated derivatives exist only where each successive derivative exists. The written induction begins at n=1.",
+      "resolution": "The proven identity is D^n(x^n)=n! for positive integers n; polynomials supply all required derivatives. Extension to n=0 would use D^0 as identity and 0!=1.",
+      "derivation": "D^(n+1)x^(n+1)=D^n((n+1)x^n)=(n+1)n! by linearity of repeated differentiation. All four displayed small cases are correct."
+    }
+  ],
+  "confirmed_formula_errors": [],
+  "independent_checks": [
+    "Recomputed every displayed derivative example.",
+    "Checked both composition orders and Figure 1 arrows.",
+    "Repaired chain-rule proof for zero inner increments.",
+    "Checked n=1,2,3,4 higher derivatives and induction step."
+  ],
+  "external_research": {
+    "needed": false,
+    "reason": "Source equations and independent elementary deductions settle all material uncertainties."
+  },
+  "unreadable_or_unreviewed_portions": [],
+  "review_status": "source_review_complete"
+}

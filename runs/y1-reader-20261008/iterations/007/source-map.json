@@ -1,0 +1,197 @@
+{
+  "material_id": "D007",
+  "stable_id": "mit-18-01-fall-2006-L07",
+  "title": "Exam 1 review",
+  "source_display_title": "Lecture 7: Continuation and Exam Review",
+  "scope": "Complete original packet, including hyperbolic continuation and all incidental review conditions; no PROF or teaching authoring.",
+  "source": {
+    "index_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/",
+    "resource_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec7/",
+    "asset_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/a30756fe9d577184f205b09bc6d6d005_lec7.pdf",
+    "local_pdf": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7.pdf",
+    "sha256": "47316203594d35c47220c7049238045ff0a2ac73ba3292d17107f13d575f3602",
+    "sha256_independently_verified": true,
+    "page_count": 5
+  },
+  "coverage": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "topics": [
+        "MIT OCW cover, course/term, citation/terms notice"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p01.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p01.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": 1,
+      "topics": [
+        "Hyperbolic sine/cosine exponential definitions",
+        "Both hyperbolic derivatives and comparison with circular cosine derivative",
+        "Expanded proof of cosh^2-sinh^2=1",
+        "Hyperbola relation in u,v and circle relation for cosine/sine"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p02.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p02.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": 2,
+      "topics": [
+        "Exam 1 review: sum, constant-multiple, product, quotient, chain rules",
+        "Quotient-rule derivation reminder using reciprocal power",
+        "Implicit cubic y^3+3xy^2=8",
+        "Inverse sine derivative via implicit differentiation"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p03.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p03.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": 3,
+      "topics": [
+        "Exam-specific derivative list: x^n, inverse sine, inverse tangent, sine, cosine, tangent, secant, exponential, logarithm",
+        "Secant derivative derivation",
+        "Sine/cosine limit prerequisites and derivative definition",
+        "Power rule for real constant r via base e and logarithmic differentiation"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p04.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p04.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 4,
+      "topics": [
+        "Closing derivative of exp(x arctan(x))",
+        "General exp(uv) chain/product calculation and substitution"
+      ],
+      "figures": [],
+      "text_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p05.txt",
+      "image_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p05.png",
+      "full_text_read": true,
+      "original_page_render_visually_inspected": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "D007-C01",
+      "classification": "parametrization_scope",
+      "pages": [
+        2
+      ],
+      "location": "Hyperbolic naming explanation",
+      "observation": "u=cosh(x), v=sinh(x) satisfies u^2-v^2=1, but it covers only the right branch of that hyperbola. No figure is present.",
+      "resolution": "For real x, u>=1 and v ranges over all real numbers; the other branch has u<=-1. The stated hyperbola equation is correct.",
+      "derivation": "cosh(x)=(e^x+e^(-x))/2>=1. sinh is strictly increasing, has limits +/-infinity, and cosh^2-sinh^2=1. Hence the parameterization covers exactly u=sqrt(1+v^2). The circular parameterization covers the full unit circle."
+    },
+    {
+      "id": "D007-C02",
+      "classification": "review_rule_hypotheses",
+      "pages": [
+        3
+      ],
+      "location": "General differentiation formulas and reciprocal rewrite",
+      "observation": "The compressed review omits local hypotheses beside the formulas.",
+      "resolution": "Use differentiable u and v; c must be constant. The quotient rule and v^(-1) rewrite require v(x) != 0. For the chain rule, u is differentiable at x, f is differentiable at u(x), and the composition is locally defined.",
+      "derivation": "Continuity of v ensures local nonvanishing at a point where v(x) != 0. Applying product and chain rules to u*v^(-1) yields u-prime/v-u*v-prime/v^2, equal to the printed quotient rule."
+    },
+    {
+      "id": "D007-C03",
+      "classification": "implicit_derivative_domain_and_exception",
+      "pages": [
+        3
+      ],
+      "location": "y^3+3xy^2=8",
+      "observation": "The final expression divides by 3y^2+6xy without stating its nonzero condition or the local-function assumption.",
+      "resolution": "The source formula applies on differentiable local y(x) branches where 3y^2+6xy != 0. The only real exceptional curve point is (x,y)=(cuberoot(2),-2*cuberoot(2)), where the regular curve has a vertical tangent and no finite dy/dx.",
+      "derivation": "The equation excludes y=0. A zero denominator forces y+2x=0; substitution gives y^3=-16 and x=-y/2=cuberoot(2). Since F_x=3y^2 != 0, x is locally a differentiable function of y. Independently x=8/(3y^2)-y/3 has dx/dy=-16/(3y^3)-1/3=0 at this point. Away from it, the printed derivative simplifies to -y/(y+2x)."
+    },
+    {
+      "id": "D007-C04",
+      "classification": "inverse_branch_and_endpoint_conditions",
+      "pages": [
+        3,
+        4
+      ],
+      "location": "Inverse-sine calculation and inverse-tangent review notation",
+      "observation": "The inverse-sine derivation replaces cos(y) with the positive square root, which requires the principal branch; sin^(-1) is inverse notation here, not the reciprocal.",
+      "resolution": "Use arcsin range [-pi/2,pi/2], with derivative 1/sqrt(1-x^2) only for -1<x<1. At x=+/-1 there is no finite derivative. Use arctan range (-pi/2,pi/2), whose derivative 1/(1+x^2) holds for every real x.",
+      "derivation": "For arcsin interior values, cos(y)>0 and cos^2(y)=1-x^2. For arctan, sec^2(y)=1+x^2>0. Both inverse derivatives require existence on these branches, justified by the nonzero forward derivatives there."
+    },
+    {
+      "id": "D007-C05",
+      "classification": "review_domains_and_angular_convention",
+      "pages": [
+        4
+      ],
+      "location": "Specific derivative checklist, sec derivative, and trigonometric limits",
+      "observation": "The review list and displayed secant derivative do not repeat domain restrictions or the radian convention.",
+      "resolution": "The sine/cosine limits and derivative formulas use radians. tan and sec require cos(x) != 0; ln requires x>0. Sine, cosine, and e^x are defined and differentiable for all real x. Integer power domains depend on whether the exponent is negative; the real-power discussion has x>0.",
+      "derivation": "Differentiating 1/cos(x) gives sin(x)/cos^2(x)=tan(x)sec(x) wherever cos(x) != 0. tan-prime(x)=sec^2(x), sine-prime=cosine, cosine-prime=-sine, exp-prime=exp, and log-prime=1/x agree with their corresponding reviewed rules and domains. A derivative-definition limit is an existence requirement, not automatic for every function."
+    },
+    {
+      "id": "D007-C06",
+      "classification": "real_power_and_logarithmic_domain",
+      "pages": [
+        4
+      ],
+      "location": "Both derivations of d(x^r)/dx",
+      "observation": "Both proofs use ln(x) and require positive x; r must be a constant real number. Neither proof establishes a uniform real-valued formula for arbitrary negative x or behavior at x=0.",
+      "resolution": "For x>0 define x^r=exp(r ln x); then the displayed derivative r*x^(r-1) follows. Treat integer/rational extensions and endpoints separately where defined. Logarithmic differentiation with ln(f) requires f>0.",
+      "derivation": "exp(r ln x) is differentiable and its derivative is exp(r ln x)*r/x. Thus this route also supplies existence, while the log-differentiation route computes the same derivative under its assumptions. If r varied with x an additional r-prime(x)*ln(x) term would be needed."
+    },
+    {
+      "id": "D007-C07",
+      "classification": "closing_example_conventions",
+      "pages": [
+        5
+      ],
+      "location": "exp(x tan^(-1)(x))",
+      "observation": "tan^(-1) denotes arctan on its usual branch in this calculation. The composition and final derivative have no real domain singularity.",
+      "resolution": "For all real x, the derivative is exp(x arctan(x))*(arctan(x)+x/(1+x^2)).",
+      "derivation": "The product derivative of x*arctan(x) is arctan(x)+x/(1+x^2); multiplying by the outer exponential gives the displayed result. The source rhetoric about differentiating anything is not a theorem asserting every function has a derivative."
+    },
+    {
+      "id": "D007-S01",
+      "classification": "actual_packet_scope",
+      "pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "location": "Queue label versus complete source body",
+      "observation": "The queue label is Exam 1 review; the PDF itself begins with a continuation on hyperbolic sine/cosine and later adds the real-power derivation and closing composite example.",
+      "resolution": "All these portions belong to this original source packet and were included in this audit, not just the section headed Exam 1 Review.",
+      "derivation": "The four content pages are complete and consecutively numbered 1–4; there are no figures or diagrams in this packet."
+    }
+  ],
+  "confirmed_formula_errors": [],
+  "independent_checks": [
+    "Recomputed both hyperbolic derivatives and the expanded hyperbolic identity.",
+    "Checked conic relations and the hyperbola branch reached.",
+    "Verified every general rule and its applicability conditions.",
+    "Recomputed implicit cubic derivative and singular point.",
+    "Checked arcsin branch/sign and all review-list domains.",
+    "Verified sec derivative, both real-power derivations, and final exponential/arctan derivative."
+  ],
+  "external_research": {
+    "needed": false,
+    "reason": "All mathematical conditions and claims can be verified directly from definitions, known derivative rules, and elementary algebra/limits."
+  },
+  "unreadable_or_unreviewed_portions": [],
+  "review_status": "source_review_complete"
+}

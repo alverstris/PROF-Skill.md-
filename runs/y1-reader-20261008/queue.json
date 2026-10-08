@@ -19,7 +19,7 @@
       "session_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/",
       "material_kinds": "notes",
       "selection_evidence": "Official lecture-notes index labels row 1: Derivatives, slope, velocity, rate of change and links its lecture-specific PDF.",
-      "status": "open_v4_fresh_reader_pending",
+      "status": "closed",
       "source_access": "All eight original PDF pages actually visually inspected; source visual gate resolved. See iterations/001/source-visual-review-v2.md.",
       "required_portions": "all assigned lecture assets; resolve exact asset URLs before authoring",
       "evidence": [
@@ -44,7 +44,10 @@
         "iterations/001/source-visual-review-v2.md",
         "iterations/001/teaching-v4.md",
         "iterations/001/render-review-v4-original.md",
-        "iterations/001/admission-v4.json"
+        "iterations/001/admission-v4.json",
+        "iterations/001/closure.md",
+        "iterations/001/sasis-reader-v4-recovery-original.md",
+        "iterations/001/admission-v4-recovery.json"
       ],
       "incoming_prof": "6486b2afcee950d8d4cc4bfe7f443c05e10beb9f",
       "source_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/c6a2d4081848972d197c41332e604d49_lec1.pdf",
@@ -71,7 +74,9 @@
         "audit_collection": "sessions",
         "status": "eligible_readable",
         "active_order": 1
-      }
+      },
+      "outgoing_prof": "2026-10-08-r8",
+      "final_document_sha256": "402485baa2767af9625146721e356f92bad76e4cfb738e5729c6c8b94ea79401"
     },
     {
       "order": 2,
@@ -137,6 +142,14 @@
         "audit_collection": "sessions",
         "status": "eligible_readable",
         "active_order": 3
+      },
+      "source_preparation": {
+        "state": "technical_source_review_prepared_only",
+        "evidence": [
+          "iterations/003/source-review.md",
+          "iterations/003/source-map.json"
+        ],
+        "next_document_authored": false
       }
     },
     {
@@ -170,6 +183,14 @@
         "audit_collection": "sessions",
         "status": "eligible_readable",
         "active_order": 4
+      },
+      "source_preparation": {
+        "state": "technical_source_review_prepared_only",
+        "evidence": [
+          "iterations/004/source-review.md",
+          "iterations/004/source-map.json"
+        ],
+        "next_document_authored": false
       }
     },
     {
@@ -203,6 +224,14 @@
         "audit_collection": "sessions",
         "status": "eligible_readable",
         "active_order": 5
+      },
+      "source_preparation": {
+        "state": "technical_source_review_prepared_only",
+        "evidence": [
+          "iterations/005/source-review.md",
+          "iterations/005/source-map.json"
+        ],
+        "next_document_authored": false
       }
     },
     {
@@ -236,6 +265,14 @@
         "audit_collection": "sessions",
         "status": "eligible_readable",
         "active_order": 6
+      },
+      "source_preparation": {
+        "state": "technical_source_review_prepared_only",
+        "evidence": [
+          "iterations/006/source-review.md",
+          "iterations/006/source-map.json"
+        ],
+        "next_document_authored": false
       }
     },
     {
@@ -269,6 +306,14 @@
         "audit_collection": "sessions",
         "status": "eligible_readable",
         "active_order": 7
+      },
+      "source_preparation": {
+        "state": "technical_source_review_prepared_only",
+        "evidence": [
+          "iterations/007/source-review.md",
+          "iterations/007/source-map.json"
+        ],
+        "next_document_authored": false
       }
     },
     {
@@ -5126,7 +5171,7 @@
     "selection_manifest": "readability-selection.json",
     "eligible": 76,
     "excluded": 71,
-    "closed": 0,
+    "closed": 1,
     "active_session_ids": [
       "mit-18-01-fall-2006-L01",
       "mit-18-01-fall-2006-L02",
@@ -5204,6 +5249,7 @@
       "mit-8-022-fall2004-L25",
       "mit-8-022-fall2004-L26",
       "mit-8-022-fall2004-L28"
-    ]
+    ],
+    "remaining": 75
   }
 }

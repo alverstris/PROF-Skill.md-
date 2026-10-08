@@ -20,12 +20,14 @@
     "impact": "Can author/check extracted mathematics; cannot claim complete source visual inspection or full-source closure while required visual evidence is missing.",
     "cloud_recovery_attempts": [
       "Repeated screenshot calls by source reviewer and root, including single-page retry: only text placeholder, no image content block.",
-      "Native attachment searches for lec1/18.01/university-lecture-library and alternate calculus/lecture titles under Physics: no matching lecture asset found; negative search is not proof no such file exists."
+      "Native attachment searches for lec1/18.01/university-lecture-library and alternate calculus/lecture titles under Physics: no matching lecture asset found; negative search is not proof no such file exists.",
+      "Complete native PDF metadata listing of /Physics returned no MIT lecture source PDF; next_cursor null. Other providers/folders were not exhaustively searched."
     ]
   },
   "attachment_access": {
-    "manual": "Indexed excerpts accessible; native full read still0lines.",
-    "execution_prompt": "Awaiting audit reconciliation of indexed snippet; native full read still0lines.",
-    "consequence": "Do not claim both attachments fully read."
+    "manual": "Complete indexed text recovered as63consecutive chunks, read950reconstructed lines; native raw read still fails.",
+    "execution_prompt": "Complete visible indexed snippet read9lines.",
+    "identity_limit": "Both reconstructed texts are2bytes shorter than reported rawfile sizes; no rawbyte identity claim.",
+    "evidence": "../../recovered-inputs/recovery-and-read-record.md"
   }
 }

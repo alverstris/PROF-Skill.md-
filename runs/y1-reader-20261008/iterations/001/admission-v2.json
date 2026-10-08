@@ -27,11 +27,12 @@
   "role_sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
   "agent_history": "fork_turns:none",
   "delivery": "instruction-confined read-only GitHub retrieval of exactly two immutable subject artifacts",
-  "available_tools": "Broad inherited tools; whitelist is an instruction restriction, not technical isolation. Only github_fetch_file permitted for these paths plus pure JS orchestration/printing.",
+  "available_tools": "Broad inherited tools; whitelist is an instruction restriction, not technical isolation. Only github_fetch_file permitted for these paths plus pure JS orchestration/printing. A later non-content clarification permits parent-directed collaboration.send_message solely for process/access status.",
   "access_requirements": "Fetch full baseline/notes; print and read coherent untruncated chunks through exact EOF. No external links or author records. Record actual ranges.",
   "context_capacity": "Not independently measured; no claim all content remains simultaneously in context. Re-fetch the two authorised inputs when needed.",
   "reader_grade": "none",
   "report_subject": "Teaching document's sequential meaning, available premises, justified connections and conclusions",
   "scope": "Complete teaching-v2 paragraphs P01–P42 including hints and solutions.",
-  "agent": "/root/sasis_l01_v2"
+  "agent": "/root/sasis_l01_v2",
+  "operating_addendum": "operating-addendum-v2.txt"
 }

@@ -115,14 +115,15 @@
       "category": "supplied instruction access",
       "locator": "PROF_SASIS_Implementation_Manual.md and AI_Execution_Prompt.txt",
       "finding": "Full native reads return0lines; indexed excerpts accessible but incomplete for manual.",
-      "status": "unverified_partial_access",
-      "resolution": null,
+      "status": "resolved_for_indexed_instruction_content",
+      "resolution": "All63consecutive indexed manual chunks reconstructed without internal gaps and950lines read; full visible prompt also read. Remaining2terminalbytes/rawfilechecksum uncertainty is disclosed and does not create an instructional-content blocker.",
       "evidence": [
         "../../attachment-access-and-reconciliation.md",
-        "../../attachment-excerpts.json"
+        "../../attachment-excerpts.json",
+        "../../recovered-inputs/recovery-and-read-record.md"
       ],
-      "required_next_action": "Read full original attachments via permitted cloud route, reconcile any remaining unsuperseded instructions against current run.",
-      "closure_effect": "Cannot claim full instruction/source reconciliation."
+      "required_next_action": "Preserve raw-byte caveat; do not claim raw-file checksum identity.",
+      "closure_effect": "Full indexed-content reconciliation completed; this no longer blocks the iteration."
     }
   ],
   "reader_findings": "v1 reports no established substantive teaching gap; v2 report pending.",

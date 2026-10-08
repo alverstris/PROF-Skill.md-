@@ -1,3 +1,11 @@
+Current status after indexed-text recovery
+
+The later recovery supersedes the partial-content limitation below. All63consecutive manual chunks were joined by exact overlaps; the agent read all950 reconstructed lines. The complete visible prompt's9lines were read. Full recovered texts and detailed evidence are in recovered-inputs/implementation-manual-indexed.txt, execution-prompt-indexed.txt and recovery-and-read-record.md, frozen atd0c78727e0f62b18652fb49260b17e609b4b7989. Both reconstructions are2bytes shorter than reported original sizes; a terminalCRLF would explain this, but raw identity remains unverified. Native full-read failures remain recorded honestly.
+
+The complete indexed-content audit confirms the reconciliations below. It additionally confirms that plain-text iteration teaching is permitted, materially equivalent authoritative source resolutions may be used with evidence, and unavailable provider-internal proof must not become an invented admission barrier. No further substantive teaching requirement was found that changes the current document. Source-visual verification remains open.
+
+Historical partial-access record follows unchanged:
+
 Supplied attachment access and instruction reconciliation
 
 Date:2026-10-08. Reviewer:/root/audit_sasis_pipeline; lead independently inspected the retrieved queue/version and pending-branch passages. No local files or computer were accessed.

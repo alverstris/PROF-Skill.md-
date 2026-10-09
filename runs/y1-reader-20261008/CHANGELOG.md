@@ -1,5 +1,12 @@
 PROF Y1 run change log
 
+Current accepted closure D001–D015: 15 of 76 eligible closed, 61 remaining; all 147 original IDs and 71 exclusions preserved. Final D015 evidence and metadata-only r22 at 1371453b7a6bdc978bfdfcda6a744e6d62165bd2 verified against all 94 planned local blobs and fetched bytes. Next verify closure readback, fully reload actual r22 and start D016/Lecture 18 afresh. See iterations/015/closure.md. No scheduling mutation; historical unknown writes remain unknown.
+
+D015: repaired actual parser comparison corruption and one ambiguous prompt; full fresh reader, independent technical review, actual destination and final-document checks accepted. Existing rules suffice; r22 records progression only.
+
+Earlier change log (preserved):
+PROF Y1 run change log
+
 Current closure state: D001–D014 closed, 14 of 76 eligible; 62 remaining. PROF r21 is metadata-only progression. Final D014 evidence 2cc47f1a2a17f4062f98824f1c6040611311b59b verified; 147 IDs and 71 exclusions preserved.
 
 Earlier header, superseded at D014 closure: Current closure state: D001–D013 closed, 13 of 76 eligible; 63 remaining. PROF r20 is metadata-only progression. Complete D013 evidence and skill publication bce9b1117bb377e65c1dbbeb5d0b253be3eb3bdb verified. All 147 original IDs and 71 exclusions retained.

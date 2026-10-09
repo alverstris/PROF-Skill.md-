@@ -1,0 +1,157 @@
+{
+  "method": "SymPy whole-function differentiation and exact rational identities; domain conditions independently checked in author-audit.md, not inferred from symbolic simplification",
+  "checks": [
+    {
+      "id": "sin",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "power",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "log-positive",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "log-negative",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "sec2",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "arcsin",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "arctan",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "source-substitution",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "source-sqrt",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "source-exp",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "source-gaussian",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "source-trig-A",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "source-trig-B",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "source-loglog-upper",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "source-loglog-lower",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "P4",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "P5",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "P7b",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "P4-value",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "P5-value",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "P6-same-function",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "P6-initial",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "P7b-value",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "P1-delta",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "P2-linear",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "id": "P4-wrong-pattern-discriminator",
+      "actual_derivative_at_zero": "0",
+      "proposed_integrand_at_zero": "1",
+      "pass": true
+    }
+  ],
+  "numerical_approximations": [
+    {
+      "input": "65",
+      "actual": 4.020725758589058,
+      "linear": 4.020833333333333,
+      "linear_minus_actual": 0.00010757474427535724
+    },
+    {
+      "input": "641/10",
+      "actual": 4.002082249204809,
+      "linear": 4.002083333333333,
+      "linear_minus_actual": 1.0841285239085813e-06
+    },
+    {
+      "input": "637/10",
+      "actual": 3.993740208863938,
+      "linear": 3.99375,
+      "linear_minus_actual": 9.791136062151614e-06
+    }
+  ],
+  "all_pass": true
+}

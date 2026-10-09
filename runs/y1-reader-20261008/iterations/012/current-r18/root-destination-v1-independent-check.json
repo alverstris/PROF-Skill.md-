@@ -1,0 +1,90 @@
+{
+  "method": "independent single HTMLParser pass convert_charrefs=True over actual GitHub article; no second unescape",
+  "nodes": 309,
+  "affected_nodes": 20,
+  "literal_comparison_entities": 23,
+  "examples": [
+    [
+      50,
+      "$x_1=2&gt;r$"
+    ],
+    [
+      52,
+      "$0&lt;e_k&lt;x_k$"
+    ],
+    [
+      53,
+      "$0&lt;e_{k+1}&lt;e_k/2$"
+    ],
+    [
+      90,
+      "$a&gt;0$"
+    ],
+    [
+      94,
+      "$m,g&gt;0$"
+    ],
+    [
+      103,
+      "$L&gt;\\sqrt{a^2+b^2}$"
+    ],
+    [
+      151,
+      "$b-2y=D&gt;0$"
+    ],
+    [
+      153,
+      "$L^2&gt;a^2+b^2$"
+    ],
+    [
+      154,
+      "$D&gt;|b|$"
+    ],
+    [
+      155,
+      "$0&lt;x&lt;a$"
+    ],
+    [
+      156,
+      "$y&lt;0$"
+    ],
+    [
+      157,
+      "$y&lt;b$"
+    ],
+    [
+      160,
+      "$D\\pm b&gt;0$"
+    ],
+    [
+      175,
+      "$\\sqrt{73}\\ \\mathrm m&lt;10\\ \\mathrm m$"
+    ],
+    [
+      188,
+      "$L&lt;AB$"
+    ],
+    [
+      192,
+      "$L&gt;AB$"
+    ],
+    [
+      217,
+      "$AB&lt;L$"
+    ],
+    [
+      271,
+      "$10&gt;\\sqrt{40}$"
+    ],
+    [
+      286,
+      "$L=6\\ \\mathrm m&lt;AB$"
+    ],
+    [
+      298,
+      "$L&gt;AB=8\\ \\mathrm m$"
+    ]
+  ],
+  "source_archive_sha256": "54ab1593b0f8a5bf2ba4eb922660204ad1eababf09f31a4f5793dc6a6a16c342",
+  "claim": "Actual parser text preservation fails. Live MathJax handling is unobserved; no claim that a visual client failure was directly observed."
+}

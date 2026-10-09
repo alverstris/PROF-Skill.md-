@@ -1,0 +1,92 @@
+{
+  "observed_scope_result": "FAIL — actual mathematical comparison operators not preserved",
+  "immutable_commit": "d118f2de055f8afd6fa92d861104f005820b2f6c",
+  "source_sha256": "8a9845299b276ba13c3f2c18862bdde3ed9b0227451e89fb57f9fe2719e573f0",
+  "actual_raw_bytes_equal_local": true,
+  "identity": {
+    "requested_commit": "d118f2de055f8afd6fa92d861104f005820b2f6c",
+    "requested_path": "runs/y1-reader-20261008/iterations/012/current-r18/author/teaching-v1.md",
+    "source_sha256": "8a9845299b276ba13c3f2c18862bdde3ed9b0227451e89fb57f9fe2719e573f0",
+    "source_hash_matches": true,
+    "layout_commit_matches": true,
+    "blob_commit_matches": true,
+    "layout_path_matches": true,
+    "blob_path_matches": true,
+    "rich_text_untruncated": true,
+    "embedded_raw_exact_without_added_newline": false,
+    "embedded_raw_exact_with_one_added_terminal_newline": true
+  },
+  "manifest": [
+    {
+      "path": "teaching-v1.md",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "figures/newton-steps.png",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "figures/newton-cycle.png",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "figures/ring-geometry.png",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "figures/ellipse-reflection.png",
+      "hash_matches": true,
+      "bytes_match": true
+    }
+  ],
+  "source_math_count": 309,
+  "actual_math_count": 309,
+  "source_inline": 281,
+  "source_display": 28,
+  "math_wrappers_valid": true,
+  "ordered_math_types_equal": true,
+  "exact_math_payload_count": 288,
+  "comparison_payload_failures": 20,
+  "comparison_operator_occurrences": 23,
+  "ordinary_whitespace_only_payload_mismatches": 1,
+  "all_nonmath_prose_exact_after_whitespace_folding": true,
+  "whole_prose_plus_math_exact_after_whitespace_folding": false,
+  "all46_paragraph_start_labels_exact": true,
+  "raw_label_like_occurrence_count": 47,
+  "paragraph_label_scope_note": "47 raw label-like mentions include the P025. cross-reference inside P019; exactly 46 paragraph-start labels P001 through P046 match.",
+  "all17_name_anchors_in_order": true,
+  "all28_internal_refs_in_source_order": true,
+  "all28_internal_refs_resolve_uniquely": true,
+  "all_Q1_Q2_Q3_Q4_task_hint_solution_returns": true,
+  "hints_group_precedes_solutions": true,
+  "all4_image_markup_paths_exact": true,
+  "all4_fresh_image_bytes_match": true,
+  "all_CSS_downloads_succeeded": true,
+  "CSS_count": 21,
+  "no_bold_italic_heading_or_table_prose_elements": true,
+  "style_scope": "Fetched body CSS default font weight 400. Heading/table/definition-term emphasis rules do not match this article, whose tags are article,p,a,math-renderer,img. No live computed style assertion.",
+  "source_PDF": {
+    "href": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/fb8c24f09aba8413984f8ce5961586bd_lec13.pdf",
+    "actual_exact_links": [
+      {
+        "element": 528,
+        "href": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/fb8c24f09aba8413984f8ce5961586bd_lec13.pdf",
+        "text": "MIT OpenCourseWare, 18.01 Single Variable Calculus, Fall 2006, Lecture 13: Newton’s Method and Other Applications"
+      }
+    ],
+    "official_frozen_local_bytes_equal": true,
+    "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65",
+    "page_count": 7
+  },
+  "all4_actual_figures_visually_inspected": true,
+  "internal_preview": "NOT PERFORMED — held by root because actual immutable destination parser fails preservation. No build attempt, AST conversion or PDF/page/nav pass claimed.",
+  "limitations": [
+    "Live GitHub pixels, computed styles, client MathJax, responsive layout and browser clicks unobserved.",
+    "Parser/HTML/CSS data and raw/asset/source identity checks do not prove native visual rendering.",
+    "No final PDF produced for this known-failing candidate."
+  ]
+}

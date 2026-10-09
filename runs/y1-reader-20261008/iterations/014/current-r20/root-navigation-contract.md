@@ -1,0 +1,5 @@
+Navigation contract supplement, 2026-10-09
+
+Root read GitHub official Docs, Basic writing and formatting syntax, Custom anchors section (retrieval lines228–252), https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#custom-anchors . Search2 then official-source Search1 and actualpage/find read verifiedthecurrentcontract.
+
+The documentation supports custom HTML name anchors and links usingtheauthorednamefragment, with unique names. D014usespreciselythisdocumentedsyntax. ActualGitHubserver output sanitizes targetnameswithuser-content- whilepreservingauthoredhrefs. Positiveparserreview maps observedprefix correspondence; itdoesnotclaim rawliteralhref/nameequality. Documentedplatformbehavior supportsusingtheauthoredfragment. Browserclientimplementation,liveclick/scrollpositions andcomputedstylesremainunobserved. Thiscontractevidence andactual25target/41ref correspondence support therepairednavigationwithintherecordedreview boundary; aPDFpreviewcannotestablishclientbehavior.

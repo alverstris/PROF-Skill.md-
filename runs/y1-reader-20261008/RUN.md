@@ -1,3 +1,6 @@
+D016 is active under published PROF r22 at 65e1338c9695ec4cdd72a536b762cb2698d44744. Root freshly read all original six text/page images and all five figures; independent source math saved. Fresh author /root/author_d016_r22 owns author/** and is reading full frozen baseline and sources. Next receive prompt-only tasks and solve before authored answers, then complete freeze, fresh two-input SASIS and full audits. 15/76 closed, 61 remaining, all 147 IDs and 71 exclusions retained. No competing author/publisher. No scheduling mutation; historical unknown writes remain unknown.
+
+Earlier records (preserved):
 Current accepted closure D001–D015: 15 of 76 eligible closed, 61 remaining; all 147 original IDs and 71 exclusions preserved. Final D015 evidence and metadata-only r22 at 1371453b7a6bdc978bfdfcda6a744e6d62165bd2 verified against all 94 planned local blobs and fetched bytes. Next verify closure readback, fully reload actual r22 and start D016/Lecture 18 afresh. See iterations/015/closure.md. No scheduling mutation; historical unknown writes remain unknown.
 
 Earlier records (preserved):

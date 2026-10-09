@@ -1,0 +1,42 @@
+X 
+X 
+Lecture 18 
+18.01 Fall 2006 
+General Picture 
+a
+b
+ci
+y=f(x)
+Figure 5: One rectangle from a Riemann Sum 
+Divide into n equal pieces of length = Δx = b − a 
+• 
+n 
+• Pick any ci in the interval; use f(ci) as the height of the rectangle 
+• Sum of areas: f(c1)Δx + f(c2)Δx + · · · + f(cn)Δx 
+n
+In summation notation: 
+f(ci)Δx 
+called a Riemann sum.
+← 
+i=1 
+Deﬁnition: 
+n
+Z b 
+lim 
+f(ci)Δx = 
+f(x)dx 
+called a deﬁnite integral 
+a 
+n→∞ 
+i=1 
+← 
+This deﬁnite integral represents the area under the curve y = f(x) above [a, b]. 
+Example 3. (Integrals applied to quantity besides area.) Student borrows from parents. 
+P = principal in dollars, t = time in years, r = interest rate (e.g., 6 % is r = 0.06/year). 
+After time t, you owe P (1 + rt) = P + Prt 
+The integral can be used to represent the total amount borrowed as follows. Consider a function 
+f(t), the “borrowing function” in dollars per year. For instance, if you borrow $ 1000 /month, then 
+f(t) = 12, 000/year. Allow f to vary over time. 
+Say Δt = 1/12 year = 1 month. 
+ti = i/12 i = 1, · · · , 12. 
+4 

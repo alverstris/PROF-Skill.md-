@@ -1,0 +1,13 @@
+{
+  "reason": "Actual GitHub v2 richText loses comparison operands representation and thinspace commands. Existing PROF r15 destination-preservation check detected failure before acceptance.",
+  "from_sha256": "7b8be9795369dd3dd69300954ac9a2dcd37177d27ec92d18279768ccb5d4de6d",
+  "to_sha256": "5c9e307b08931099316a2d12149ab3d1cd3a75ba2ae75bc48ef60a77b562c244",
+  "operations": {
+    "inline_operators": 46,
+    "display_blocks": 12
+  },
+  "semantic_scope": "Only mathematical presentation syntax. Inequality operators replaced by equivalent TeX macros; display delimiters become supported math fences. No prose, mathematical meaning, examples, task/help content or figure bytes changed.",
+  "original_preserved": true,
+  "skill_change_warranted": false,
+  "next": "Publish exact candidate; fresh destination checks and fresh full-input SASIS on v3 required."
+}

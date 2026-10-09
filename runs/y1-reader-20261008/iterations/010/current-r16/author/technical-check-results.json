@@ -1,0 +1,145 @@
+{
+  "log_derivative": true,
+  "log_limits": [
+    "-oo",
+    "0"
+  ],
+  "can_1_bases": {
+    "radius": "V**(1/3)/pi**(1/3)",
+    "height_radius_ratio": "1",
+    "area": "3*pi**(1/3)*V**(2/3)",
+    "stationary": true,
+    "second_derivative": "2*(2*V/r**3 + pi)",
+    "ends": [
+      "oo",
+      "oo"
+    ]
+  },
+  "can_2_bases": {
+    "radius": "2**(2/3)*V**(1/3)/(2*pi**(1/3))",
+    "height_radius_ratio": "2",
+    "area": "3*2**(1/3)*pi**(1/3)*V**(2/3)",
+    "stationary": true,
+    "second_derivative": "4*(V/r**3 + pi)",
+    "ends": [
+      "oo",
+      "oo"
+    ]
+  },
+  "wire_derivative": "(2*x - 1)/8",
+  "wire_completed_square": true,
+  "wire_values": {
+    "0": "1/16",
+    "1/4": "5/128",
+    "1/2": "1/32",
+    "3/4": "5/128",
+    "1": "1/16"
+  },
+  "q1_endpoint_values": [
+    "0",
+    "exp(-1/2)/2"
+  ],
+  "open_can_V8pi": {
+    "r": 2,
+    "h": 2,
+    "volume": "8*pi",
+    "direct_area": "12*pi",
+    "formula_area": "12*pi"
+  },
+  "static": {
+    "paragraph_labels": [
+      "P001.",
+      "P002.",
+      "P003.",
+      "P004.",
+      "P005.",
+      "P006.",
+      "P007.",
+      "P008.",
+      "P009.",
+      "P010.",
+      "P011.",
+      "P012.",
+      "P013.",
+      "P014.",
+      "P015.",
+      "P016.",
+      "P017.",
+      "P018.",
+      "P019.",
+      "P020.",
+      "P021.",
+      "P022.",
+      "P023.",
+      "P024.",
+      "P025.",
+      "P026.",
+      "P027.",
+      "P028.",
+      "P029.",
+      "P030.",
+      "P031.",
+      "P032.",
+      "P033.",
+      "P034.",
+      "P035.",
+      "P036.",
+      "P037.",
+      "P038.",
+      "P039.",
+      "P040.",
+      "P041.",
+      "P042.",
+      "P043.",
+      "P044.",
+      "P045.",
+      "P046.",
+      "P047.",
+      "P048.",
+      "P049."
+    ],
+    "anchors": [
+      "q1",
+      "q2",
+      "q3",
+      "hints",
+      "h1",
+      "h2",
+      "h3",
+      "solutions",
+      "s1",
+      "s2",
+      "s3"
+    ],
+    "fragment_links": [
+      "hints",
+      "solutions",
+      "h1",
+      "s1",
+      "h2",
+      "s2",
+      "h3",
+      "s3",
+      "q1",
+      "q2",
+      "q3",
+      "q1",
+      "q2",
+      "q3",
+      "hints"
+    ],
+    "remaining_dollars": 0,
+    "prose_headings": [],
+    "emphasis_markers": [],
+    "image_paths": [
+      "figures/log-over-x.png",
+      "figures/candidates.png",
+      "figures/can-geometry.png",
+      "figures/can-area.png",
+      "figures/wire-and-area.png"
+    ],
+    "links_match": true,
+    "all_figures_exist": true,
+    "labels_sequential": true
+  }
+}

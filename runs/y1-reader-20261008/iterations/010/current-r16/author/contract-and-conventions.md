@@ -1,0 +1,13 @@
+D010 author contract and conventions
+
+Product: complete self-contained repo-native Markdown reconstruction of MIT18.01 Fall2006 Lecture11 Max/Min Problems, all six PDF pages/six figures. Plain P labels, protected GitHub math, no emphasized prose or heading/table styles. No PDF requested. Incoming published skill f41d57552016e5870d5cbf8db37bfdc85550d926/r16, SHA d408ddd2ca6d377f484be84ca4c3213e7e8b06b69840984303beab46172bb557. Parent owns publication/global state and independent SASIS; author owns only this directory.
+
+Starting knowledge: explicitly assumed operational OCR four-subject baseline, not observed learner mastery. Actual full baseline read recorded access-record.md. Relevant secure operations: H240 domains, derivatives, sign changes and optimisation; elementary cylinder/square geometry; logarithms and powers. Immediate novelty: rigorous distinction of attained value/location, candidate completeness conditions including nonsmooth points and open-domain limits; integrated modelling and endpoint feasibility. No earlier MIT lesson is needed.
+
+Conventions established by original source: positive cylinder radius/height and fixed V; open top means one circular base plus side; x is wire length of first piece in units where total length1. Source uses stationary critical points; notes explicitly include defined nonsmooth candidates. Whole-domain minimum/maximum distinguished from local. Degenerate square endpoints allowed only in explicitly extended model; two genuine positive pieces exclude them. Infinity is a limit direction, not an admitted input.
+
+Original source retained unchanged. Correct can formula h=V/(pi r²), fixed V>0 and r>0. Its derivative gives pi r³=V, hence h=r and Smin=3 pi^(1/3)V^(2/3). Figure4 source is a qualitative valley; replacement graph exact at V=pi. Source wire derivative correct. Figure5 caption saying Example5 is a label error, not an extra example. Figure6 source hollow circles are ambiguous and are replaced with explicitly filled admitted points in the closed-domain model.
+
+Author's proposed route: value/location via log example, candidate completeness and conditions, early domain-change application Q1; modelling via open cylinder and changed lid task Q2; wire counterexample to stationary-only optimisation and domain variants; delayed retrieval/transfer Q3; separate hints then full solutions. T5–T8 applicable, no practice waiver. Three tasks are chosen because each varies a consequential condition; no additional workbook.
+
+Pending at author handoff: separate technical review, fresh SASIS reader, actual GitHub expression preservation and live rendered visual inspection, final acceptance/publication. Local PNG inspection and Markdown static audits are distinct from GitHub verification.

@@ -1,0 +1,7 @@
+D010 post-freeze precision issue, v1 preserved
+
+I01 — P011, T1, established narrow definition defect. After freezing v1 and after the author full reconstruction, root independently noted that defining a least upper bound as a bound approachable arbitrarily closely “from below” is too narrow if read generally. An attained supremum can be a maximum; for the constant function f=1 there are no values below1 to approach it, but1 is still the least upper bound. The given open-interval function x and the wire application have correct values/conclusions. The affected issue is the general meaning, not those calculations.
+
+Necessary local repair after full issue collection: define it as the smallest upper bound (no lower number bounds every output), explicitly allowing attainment; then identify that in this particular example all values are less than1 and approach1. Recheck P031 and P049 downstream uses. Existing T1 rule already requires accurate meaning before use; this does not itself warrant a new skill clause.
+
+Status: frozen teaching-v1.md and five PNGs unchanged; independent SASIS continues on its unprompted original inputs. Author state T1 is fail for this known wording defect, T11/T12 and final/destination/SASIS acceptance pending. No new revision authored until parent's whole-issue review is ready. Original author reconstruction remains preserved as the pre-report audit, not silently relabeled as after-repair evidence.

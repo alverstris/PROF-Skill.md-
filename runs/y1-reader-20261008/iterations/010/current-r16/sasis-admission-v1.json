@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-10-09T11:44:19.268666+00:00",
+  "reader": "/root/sasis_d010_v1",
+  "fork_turns": "none",
+  "status": "Provisional dispatch until actual complete access established",
+  "mode": "Instruction-confined read-only retrieval, not technical isolation or erased pretraining",
+  "subject_inputs": [
+    {
+      "kind": "complete frozen operational four-subject baseline",
+      "path": "/workspace/scratch/6a5c7131498d/prof-current/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    {
+      "kind": "complete frozen teaching document including all five PNG constituents",
+      "files": [
+        {
+          "path": "/workspace/scratch/6a5c7131498d/prof-current/runs/y1-reader-20261008/iterations/010/current-r16/author/teaching-v1.md",
+          "bytes": 20096,
+          "sha256": "1b275379f9398b140788c09d0599bee2749d409fd7ddcd17aa182059e4c67368"
+        },
+        {
+          "path": "/workspace/scratch/6a5c7131498d/prof-current/runs/y1-reader-20261008/iterations/010/current-r16/author/figures/can-area.png",
+          "bytes": 51695,
+          "sha256": "48752de7d613e45a50c48cc8bc72daeeb43ac306c137a169bf158ff51f13305f"
+        },
+        {
+          "path": "/workspace/scratch/6a5c7131498d/prof-current/runs/y1-reader-20261008/iterations/010/current-r16/author/figures/can-geometry.png",
+          "bytes": 35138,
+          "sha256": "ed6bccb6ca1a38b897bcbcf498a22058846489da546a6a14590c63568d20acae"
+        },
+        {
+          "path": "/workspace/scratch/6a5c7131498d/prof-current/runs/y1-reader-20261008/iterations/010/current-r16/author/figures/candidates.png",
+          "bytes": 50914,
+          "sha256": "b267d8b4598fe541f0bd63149ad9357feebc3ac1df3d5a9771ec49142a70f3bd"
+        },
+        {
+          "path": "/workspace/scratch/6a5c7131498d/prof-current/runs/y1-reader-20261008/iterations/010/current-r16/author/figures/log-over-x.png",
+          "bytes": 24483,
+          "sha256": "2f65842860471e84b269b25e970d60ca588c33e9708ca7331c38df84958b572d"
+        },
+        {
+          "path": "/workspace/scratch/6a5c7131498d/prof-current/runs/y1-reader-20261008/iterations/010/current-r16/author/figures/wire-and-area.png",
+          "bytes": 59562,
+          "sha256": "6d1eabfa0662e71cc6cfd5baba0cb7fdafb38aa0a2715bbb653b24c0d4da2293"
+        }
+      ]
+    }
+  ],
+  "operating_instruction": "references/sasis/student-role.txt revision2026-10-08-r7, provided as instructions; no other subject content",
+  "limits": "No baseline/document truncation admitted; original report must log whole sequential reading and every actual figure view; no author/source/prior reports permitted"
+}

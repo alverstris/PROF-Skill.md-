@@ -1,0 +1,71 @@
+Z 
+Z 
+Z 
+Z 
+Z 
+Uniqueness of the antiderivative up to an additive constant. 
+If F 0(x) = f(x), and G0(x) = f(x), then G(x) = F (x) + c for some constant factor c. 
+Proof: 
+(G − F )0 = f − f = 0 
+Recall that we proved as a corollary of the Mean Value Theorem that if a function has a derivative 
+zero then it is constant. Hence G(x) − F (x) = c (for some constant c). That is, G(x) = F (x) + c. 
+Method of substitution. 
+Example 1. 
+x 3(x 4 + 2)5dx 
+Substitution: 
+1 
+u = x 4 + 2, 
+du = 4x 3dx, 
+(x 4 + 2)5 = u 5 ,
+x 3dx = du
+4 
+Hence, 
+Z
+Z
+1 
+u6 
+u6 
+1 
+x 3(x 4 + 2)5dx = 
+u 5du = 
+=
++ c =
+(x 4 + 2)6 + c
+4 
+4(6) 
+24 
+24 
+x
+Example 2. 
+dx
+√
+1 + x2 
+Another way to ﬁnd an anti-derivative is “advanced guessing.” First write 
+x 
+√
+1 + x2 dx = 
+x(1 + x 2)−1/2dx 
+Guess: (1 + x 2)1/2 . Check this. 
+d 
+1
+(1 + x 2)1/2 = (1 + x 2)−1/2(2x) = x(1 + x 2)−1/2 
+dx 
+2 
+Therefore, 
+Z 
+x(1 + x 2)−1/2dx = (1 + x 2)1/2 + c 
+Example 3. 
+e 6xdx 
+Guess: e 6x . Check this: 
+d e 6x = 6e 6x 
+dx 
+Therefore, 
+Z 
+1 
+e 6xdx = e 6x + c
+6 
+3 
+Lecture 15
+ 
+ 
+18.01 Fall 2006 

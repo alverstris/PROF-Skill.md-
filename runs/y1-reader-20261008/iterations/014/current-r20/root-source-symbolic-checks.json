@@ -1,0 +1,102 @@
+{
+  "checked_at": "2026-10-09T14:45:46.809882+00:00",
+  "primitive_checks": [
+    {
+      "name": "sin",
+      "primitive": "-cos(x)",
+      "integrand": "sin(x)",
+      "derivative_residual": "0"
+    },
+    {
+      "name": "power",
+      "primitive": "p**(n + 1)/(n + 1)",
+      "integrand": "p**n",
+      "derivative_residual": "0"
+    },
+    {
+      "name": "tan",
+      "primitive": "tan(x)",
+      "integrand": "cos(x)**(-2)",
+      "derivative_residual": "0"
+    },
+    {
+      "name": "arcsin",
+      "primitive": "asin(x)",
+      "integrand": "1/sqrt(1 - x**2)",
+      "derivative_residual": "0"
+    },
+    {
+      "name": "arctan",
+      "primitive": "atan(x)",
+      "integrand": "1/(x**2 + 1)",
+      "derivative_residual": "0"
+    },
+    {
+      "name": "sub1",
+      "primitive": "(x**4 + 2)**6/24",
+      "integrand": "x**3*(x**4 + 2)**5",
+      "derivative_residual": "0"
+    },
+    {
+      "name": "sub2",
+      "primitive": "sqrt(x**2 + 1)",
+      "integrand": "x/sqrt(x**2 + 1)",
+      "derivative_residual": "0"
+    },
+    {
+      "name": "sub3",
+      "primitive": "exp(6*x)/6",
+      "integrand": "exp(6*x)",
+      "derivative_residual": "0"
+    },
+    {
+      "name": "sub4",
+      "primitive": "-exp(-x**2)/2",
+      "integrand": "x*exp(-x**2)",
+      "derivative_residual": "0"
+    },
+    {
+      "name": "sub5a",
+      "primitive": "sin(x)**2/2",
+      "integrand": "sin(x)*cos(x)",
+      "derivative_residual": "0"
+    },
+    {
+      "name": "sub5b",
+      "primitive": "-cos(x)**2/2",
+      "integrand": "sin(x)*cos(x)",
+      "derivative_residual": "0"
+    },
+    {
+      "name": "logpositive",
+      "primitive": "log(x)",
+      "residual": "0",
+      "domains": "Branches treated separately in root-source-review.md; symbolic algebra alone does not establish real domain."
+    },
+    {
+      "name": "lognegative",
+      "primitive": "log(-x)",
+      "residual": "0",
+      "domains": "Branches treated separately in root-source-review.md; symbolic algebra alone does not establish real domain."
+    },
+    {
+      "name": "loglogpositive",
+      "primitive": "log(log(x))",
+      "residual": "0",
+      "domains": "Branches treated separately in root-source-review.md; symbolic algebra alone does not establish real domain."
+    },
+    {
+      "name": "loglognegative",
+      "primitive": "log(-log(x))",
+      "residual": "0",
+      "domains": "Branches treated separately in root-source-review.md; symbolic algebra alone does not establish real domain."
+    }
+  ],
+  "cube_approximation": "193/48",
+  "cube_discrepancy": "577/110592",
+  "actual_cuberoot65": "4.02072575858905797608654451443",
+  "overestimate": "0.000107574744275357246788818901845",
+  "64_1_approx": "1921/480",
+  "64_1_overestimate": "0.00000108412852390858117777628062530",
+  "trig_representative_difference": "1/2"
+}

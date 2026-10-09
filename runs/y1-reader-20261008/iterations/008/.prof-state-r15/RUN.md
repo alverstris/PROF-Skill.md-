@@ -1,1 +1,1 @@
-D008 configured final-revision reviews completed; actual phase-A main publication remains pending. Original author activation/evidence preserved. Keep counts 7/76 and D008 open.
+D008 phase-A publication verified. Publish phase-B closure/counts 8/76, verify latest main, fully reload actual PROF, then fresh next author.

@@ -1,0 +1,158 @@
+{
+  "method": "Root separate regex and stdlibHTMLParser once; all362source/actual type and payloads compared; no extra decoding/normalization; same parserlibrary as reviewer, not independent rendering engine.",
+  "counts": {
+    "notes": {
+      "nodes": 252,
+      "inline": 224,
+      "display": 28,
+      "failed": 8,
+      "sha256": "ed58e55175508f36f831dd4340e46f87a62bfb1e0256ffb62f12e3adae4db40f"
+    },
+    "hints": {
+      "nodes": 21,
+      "inline": 21,
+      "display": 0,
+      "failed": 0,
+      "sha256": "1ce9784fb886d58811990954c0a934b91236d7cfadd00a42294b307b9097f3f2"
+    },
+    "solutions": {
+      "nodes": 89,
+      "inline": 71,
+      "display": 18,
+      "failed": 6,
+      "sha256": "00b4bebca64c3ff16de23b2456e5769906a0e74b22683be497e82915410fe65e"
+    }
+  },
+  "all_inline_exact": true,
+  "failures": [
+    {
+      "file": "notes",
+      "ordinal": 112,
+      "line": 146,
+      "source_type": "js-display-math",
+      "actual_type": "js-display-math",
+      "source": "\n\\int_a^b f(x)\\,dx=\\lim_{n\\to\\infty}\\sum_{i=1}^n f(c_i)\\Delta x.\n",
+      "actual": "\n\\int_a^b f(x),dx=\\lim_{n\\to\\infty}\\sum_{i=1}^n f(c_i)\\Delta x.\n"
+    },
+    {
+      "file": "notes",
+      "ordinal": 155,
+      "line": 177,
+      "source_type": "js-display-math",
+      "actual_type": "js-display-math",
+      "source": "\nA(b)=\\int_a^b f(x)\\,dx,\n",
+      "actual": "\nA(b)=\\int_a^b f(x),dx,\n"
+    },
+    {
+      "file": "notes",
+      "ordinal": 194,
+      "line": 209,
+      "source_type": "js-display-math",
+      "actual_type": "js-display-math",
+      "source": "\n\\bar f=\\frac1{b-a}\\int_a^b f(x)\\,dx\\qquad(a\\lt b).\n",
+      "actual": "\n\\bar f=\\frac1{b-a}\\int_a^b f(x),dx\\qquad(a\\lt b).\n"
+    },
+    {
+      "file": "notes",
+      "ordinal": 211,
+      "line": 227,
+      "source_type": "js-display-math",
+      "actual_type": "js-display-math",
+      "source": "\nB=\\int_0^1 f(t)\\,dt.\n",
+      "actual": "\nB=\\int_0^1 f(t),dt.\n"
+    },
+    {
+      "file": "notes",
+      "ordinal": 225,
+      "line": 252,
+      "source_type": "js-display-math",
+      "actual_type": "js-display-math",
+      "source": "\nD=\\int_0^1 f(t)\\bigl(1+r(1-t)\\bigr)\\,dt.\n",
+      "actual": "\nD=\\int_0^1 f(t)\\bigl(1+r(1-t)\\bigr),dt.\n"
+    },
+    {
+      "file": "notes",
+      "ordinal": 233,
+      "line": 260,
+      "source_type": "js-display-math",
+      "actual_type": "js-display-math",
+      "source": "\nB=\\int_0^1 12000\\,dt=12000\\text{ dollars},\n",
+      "actual": "\nB=\\int_0^1 12000,dt=12000\\text{ dollars},\n"
+    },
+    {
+      "file": "notes",
+      "ordinal": 234,
+      "line": 264,
+      "source_type": "js-display-math",
+      "actual_type": "js-display-math",
+      "source": "\nD=12000\\int_0^1\\bigl(1+0.06(1-t)\\bigr)\\,dt\n=12000\\left(1+\\frac{0.06}{2}\\right)\n=12360\\text{ dollars}.\n",
+      "actual": "\nD=12000\\int_0^1\\bigl(1+0.06(1-t)\\bigr),dt\n=12000\\left(1+\\frac{0.06}{2}\\right)\n=12360\\text{ dollars}.\n"
+    },
+    {
+      "file": "notes",
+      "ordinal": 244,
+      "line": 284,
+      "source_type": "js-display-math",
+      "actual_type": "js-display-math",
+      "source": "\nD(T)=\\int_a^T f(t)\\bigl(1+r(T-t)\\bigr)\\,dt.\n",
+      "actual": "\nD(T)=\\int_a^T f(t)\\bigl(1+r(T-t)\\bigr),dt.\n"
+    },
+    {
+      "file": "solutions",
+      "ordinal": 42,
+      "line": 87,
+      "source_type": "js-display-math",
+      "actual_type": "js-display-math",
+      "source": "\n\\int_1^3(4-x)\\,dx\n=\\left(12-\\frac92\\right)-\\left(4-\\frac12\\right)=4.\n",
+      "actual": "\n\\int_1^3(4-x),dx\n=\\left(12-\\frac92\\right)-\\left(4-\\frac12\\right)=4.\n"
+    },
+    {
+      "file": "solutions",
+      "ordinal": 66,
+      "line": 128,
+      "source_type": "js-display-math",
+      "actual_type": "js-display-math",
+      "source": "\nB=\\int_0^1 24000t\\,dt\n=24000\\left[\\frac{t^2}{2}\\right]_0^1\n=12000\\text{ dollars}.\n",
+      "actual": "\nB=\\int_0^1 24000t,dt\n=24000\\left[\\frac{t^2}{2}\\right]_0^1\n=12000\\text{ dollars}.\n"
+    },
+    {
+      "file": "solutions",
+      "ordinal": 67,
+      "line": 136,
+      "source_type": "js-display-math",
+      "actual_type": "js-display-math",
+      "source": "\nD=\\int_0^1 24000t\\bigl(1+0.06(1-t)\\bigr)\\,dt\n=B+1440\\int_0^1(t-t^2)\\,dt.\n",
+      "actual": "\nD=\\int_0^1 24000t\\bigl(1+0.06(1-t)\\bigr),dt\n=B+1440\\int_0^1(t-t^2),dt.\n"
+    },
+    {
+      "file": "solutions",
+      "ordinal": 68,
+      "line": 143,
+      "source_type": "js-display-math",
+      "actual_type": "js-display-math",
+      "source": "\n\\int_0^1(t-t^2)\\,dt=\\frac12-\\frac13=\\frac16.\n",
+      "actual": "\n\\int_0^1(t-t^2),dt=\\frac12-\\frac13=\\frac16.\n"
+    },
+    {
+      "file": "solutions",
+      "ordinal": 77,
+      "line": 161,
+      "source_type": "js-display-math",
+      "actual_type": "js-display-math",
+      "source": "\n\\text{displacement}=\\int_0^3(2-t)\\,dt\n=\\left[2t-\\frac{t^2}{2}\\right]_0^3\n=6-\\frac92=\\frac32\\text{ m}.\n",
+      "actual": "\n\\text{displacement}=\\int_0^3(2-t),dt\n=\\left[2t-\\frac{t^2}{2}\\right]_0^3\n=6-\\frac92=\\frac32\\text{ m}.\n"
+    },
+    {
+      "file": "solutions",
+      "ordinal": 83,
+      "line": 169,
+      "source_type": "js-display-math",
+      "actual_type": "js-display-math",
+      "source": "\n\\text{distance}=\\int_0^2(2-t)\\,dt+\\int_2^3(t-2)\\,dt\n=2+\\frac12=\\frac52\\text{ m}.\n",
+      "actual": "\n\\text{distance}=\\int_0^2(2-t),dt+\\int_2^3(t-2),dt\n=2+\\frac12=\\frac52\\text{ m}.\n"
+    }
+  ],
+  "exact_cause": "16 TeX thin-space commands lose backslash in14 display math nodes; literal commas result. No other payload difference detected.",
+  "status": "actualdestinationfail",
+  "preview": "held before build; no compilefailureclaimed"
+}

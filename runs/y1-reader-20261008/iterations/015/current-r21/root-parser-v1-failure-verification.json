@@ -1,0 +1,126 @@
+{
+  "method": "Independent Python stdlib HTMLParser convert_charrefs once; compare every source regex expression and type in order, no HTML unescape pass added.",
+  "files": [
+    {
+      "file": "teaching.md",
+      "math_count": 253,
+      "mismatches": [
+        {
+          "ordinal": 52,
+          "expected": "e^c>0",
+          "actual": "e^c&gt;0"
+        },
+        {
+          "ordinal": 75,
+          "expected": "x<0",
+          "actual": "x&lt;0"
+        },
+        {
+          "ordinal": 76,
+          "expected": "x>0",
+          "actual": "x&gt;0"
+        },
+        {
+          "ordinal": 172,
+          "expected": "x>0",
+          "actual": "x&gt;0"
+        },
+        {
+          "ordinal": 173,
+          "expected": "x<0",
+          "actual": "x&lt;0"
+        },
+        {
+          "ordinal": 176,
+          "expected": "x>0",
+          "actual": "x&gt;0"
+        },
+        {
+          "ordinal": 195,
+          "expected": "c>0",
+          "actual": "c&gt;0"
+        },
+        {
+          "ordinal": 207,
+          "expected": "c<0",
+          "actual": "c&lt;0"
+        },
+        {
+          "ordinal": 213,
+          "expected": "c>0",
+          "actual": "c&gt;0"
+        },
+        {
+          "ordinal": 215,
+          "expected": "-2\\sqrt c<x<2\\sqrt c",
+          "actual": "-2\\sqrt c&lt;x&lt;2\\sqrt c"
+        },
+        {
+          "ordinal": 250,
+          "expected": "x<0",
+          "actual": "x&lt;0"
+        }
+      ]
+    },
+    {
+      "file": "hints.md",
+      "math_count": 29,
+      "mismatches": [
+        {
+          "ordinal": 28,
+          "expected": "x<0",
+          "actual": "x&lt;0"
+        }
+      ]
+    },
+    {
+      "file": "solutions.md",
+      "math_count": 116,
+      "mismatches": [
+        {
+          "ordinal": 24,
+          "expected": "g(y)>0",
+          "actual": "g(y)&gt;0"
+        },
+        {
+          "ordinal": 34,
+          "expected": "x^2<\\pi",
+          "actual": "x^2&lt;\\pi"
+        },
+        {
+          "ordinal": 42,
+          "expected": "1+b^2>0",
+          "actual": "1+b^2&gt;0"
+        },
+        {
+          "ordinal": 46,
+          "expected": "x>0",
+          "actual": "x&gt;0"
+        },
+        {
+          "ordinal": 54,
+          "expected": "x>0",
+          "actual": "x&gt;0"
+        },
+        {
+          "ordinal": 60,
+          "expected": "x>0",
+          "actual": "x&gt;0"
+        },
+        {
+          "ordinal": 99,
+          "expected": "x<0",
+          "actual": "x&lt;0"
+        },
+        {
+          "ordinal": 104,
+          "expected": "x<0",
+          "actual": "x&lt;0"
+        }
+      ]
+    }
+  ],
+  "total": 398,
+  "failed_payloads": 20,
+  "literal_entities": 21
+}

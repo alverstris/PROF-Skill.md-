@@ -1,0 +1,90 @@
+{
+  "revision": "D016-r22-v1",
+  "immutable_commit": "a968fe34a61d5b250c6ab35c468156313f68a372",
+  "result": "fail: actual destination parser does not preserve eight comparison payloads",
+  "scope_complete": "Whole original actual server destination audit, raw identities, all math/prose, labels/parts, positive navigation, fetched CSS, four PNG visual views and source identity complete. Internal PDF intentionally held by root after established parser failure.",
+  "raw_identity": {
+    "constituents": 7,
+    "all_manifest_local_remote_exact": true,
+    "all3_actual_page_commit_path_exact": true,
+    "all3_richText_untruncated": true,
+    "embedded_raw_note": "Embedded rawLines match after restoring one terminal newline; downloaded raw is exact bytes without normalization."
+  },
+  "math": {
+    "nodes": 263,
+    "inline": 235,
+    "fenced_display": 28,
+    "recognized_types_counts_order_preserved": true,
+    "exact_payloads": 255,
+    "failed_payloads": 8,
+    "literal_entities": 8,
+    "display_payloads_all_exact": true,
+    "single_parse_only": true,
+    "double_entity_decode_used_for_verification": false,
+    "failure_map": "complete-math-failure-map.json",
+    "character_positions": "comparison-character-failures.json",
+    "implication": "Four literal less-than and four greater-than operators are replaced by entity spellings at the parsed TeX boundary. Operands and grouping otherwise remain exact; constraints/domain/sign distinctions are not preserved literally. No live client-rendering corruption asserted."
+  },
+  "prose": {
+    "all_nonmath_exact_after_whitespace_folding": true,
+    "full_prose_math_differences_only_eight_entities": true,
+    "paragraph_start_labels": 26,
+    "paragraph_start_labels_exact": true,
+    "titles_preserved_in_full_prose": true,
+    "lettered_part_labels": 6,
+    "all_lettered_parts_exact": true,
+    "native_list_nodes": 0,
+    "list_note": "Parts(a),(b),(c) are literal paragraphs in P4 and its solution; no native numbered/bulleted list claimed."
+  },
+  "navigation": {
+    "named_targets": 12,
+    "crossfile_refs": 20,
+    "source_PDF_refs": 1,
+    "image_links": 4,
+    "all_href_id_mappings_exact": true,
+    "all4_positive_P_H_S_return_chains": true,
+    "route": "P→H→S, H→P and S→P, with global hints/solutions file links. No per-task direct P→S claimed or required.",
+    "help_separated_by_files": true,
+    "official_contract": "root-navigation-contract-copy.json; current official GitHub relative-link/custom-anchor evidence supplied by root, not this reviewer browser observation.",
+    "prefix_mapping": "Actual names user-content- + authored ID; href fragments authored ID. Explicit server correspondence and official contract; not literal name/href equality."
+  },
+  "style": {
+    "stylesheets_fetched": 21,
+    "applicable_body_weight": 400,
+    "no_emphasis_nodes_or_inline_font_styles": true,
+    "actual_prose_elements": "p and a inside article.markdown-body.entry-content.container-lg",
+    "finding": "Fetched CSS body normal400 definitions; heading/table/definition-term emphasis selectors do not apply because those nodes absent. Inline styles only math display and image max-width. PNG prose labels upright regular in full visual views.",
+    "live_computed_style_unobserved": true
+  },
+  "assets": {
+    "all4_exact": true,
+    "all4_full_frames_viewed": true,
+    "all4_alt_src_refs_preserved": true,
+    "material_issues": []
+  },
+  "source": {
+    "official_immutable_local_exact": true,
+    "pages": 6,
+    "bytes": 985183,
+    "sha256": "3469042c0ca6aa75aa7e420b2bbf726228c31093aea11ddb2fc0044a4404fec0",
+    "first_two_page_identity_text_read": true,
+    "full_source_technical_review_not_claimed": true
+  },
+  "internal_preview": {
+    "status": "unverified; held per root after actual parser failure",
+    "compiled": false,
+    "pages_viewed": 0,
+    "AST_native_PDF_targets_page_separation": "not performed on rejected original; required on corrected final packet",
+    "build_failures": []
+  },
+  "unobserved": [
+    "live GitHub pixels",
+    "client MathJax interpretation",
+    "computed styles",
+    "responsive browser layout",
+    "browser navigation clicks",
+    "PDF preview and PDF viewer clicks"
+  ],
+  "additional_supported_material_findings": [],
+  "preservation": "No learner/source/control mutation; no publication. Original page/article/raw/CSS/math/prose/positions retained. Root owns repair disposition and acceptance."
+}

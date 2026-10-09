@@ -1,3 +1,7 @@
+## D016 recovery completed and accepted
+
+Release abfd5ae20c4af75b424b70d612082b07071c2ae6 verified for all 60 files. Complete closure: `iterations/016/closure.md`. Scope: 16/76 closed; 60 remain, 147 original IDs and 71 exclusions preserved. Next verify closure publication, fully reload published r23, then start D017/Lecture 19 afresh. Historical unknowns and scheduling reconciliation remain in force.
+
 D016 local v2 is frozen/published at 80c86f6d11c0cbec403dad2da04ee887ca52ce6f. Root admitted the complete fresh v2 SASIS report and completed full content/figure/author checks. Root independently verifies all 362 actual GitHub expression payloads and all 15 canonical internal-preview page rasters/native target pages. Destination reviewer /root/d009_destination_review is finishing the complete final evidence. Author v2 pre-external packet is frozen; next integrate accepted final evidence in a separate final state, publish/r23 release/readback, then close only after all gates. Published PROF remains r22; candidate r23-1 is unchanged. Counts 15/76 closed, 61 remaining; 147 IDs and 71 exclusions retained. No competing publisher, no scheduling mutation; historical unknown writes remain unknown.
 
 Earlier record preserved:

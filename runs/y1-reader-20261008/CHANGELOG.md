@@ -1,3 +1,7 @@
+## 2026-10-09 — PROF r23 / D016
+
+Added evidence-backed safe comparison syntax for GitHub protected inline math. Fresh generation, complete fresh SASIS, source/science/author/destination/final-document checks and all 15 affected earlier cases accepted. A separate local display-delimiter repair preserved learner TeX and required fresh complete checks. D016 closed; 16/76 eligible iterations complete. Release and limitations: `iterations/016/closure.md`.
+
 PROF Y1 run change log
 
 Current accepted closure D001–D015: 15 of 76 eligible closed, 61 remaining; all 147 original IDs and 71 exclusions preserved. Final D015 evidence and metadata-only r22 at 1371453b7a6bdc978bfdfcda6a744e6d62165bd2 verified against all 94 planned local blobs and fetched bytes. Next verify closure readback, fully reload actual r22 and start D016/Lecture 18 afresh. See iterations/015/closure.md. No scheduling mutation; historical unknown writes remain unknown.

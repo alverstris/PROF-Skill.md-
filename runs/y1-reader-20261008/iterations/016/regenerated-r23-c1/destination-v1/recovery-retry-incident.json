@@ -1,0 +1,7 @@
+{
+  "incident": "After tool-inventory recovery, complete-audit.py was unnecessarily invoked despite existing structured outputs. Its exclusive-create guard stopped at existing paragraph-label-list-check.json.",
+  "retained_error": "complete-audit.log now contains the exact FileExistsError from recovery retry.",
+  "original_log_status": "The shell redirection replaced any previous complete-audit.log contents; its prior contents were not re-read and cannot be claimed preserved. Original structured audit JSON and original raw/page/article inputs remain intact.",
+  "effects": "Before reaching guard, script rewrote deterministic expected/destination prose-placeholder streams from the same immutable inputs. No learner or raw GitHub evidence mutation; final values agree with original structured checks. No PDF build.",
+  "classification": "Reviewer recovery/log-preservation error, not learner defect. Earlier paragraph-regex overcount and diagnostic SyntaxError separately retained with their supplements."
+}

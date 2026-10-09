@@ -1,3 +1,7 @@
+## D017 started afresh under verified published r23
+
+D016 closure d71b2c7ce197baf47b25e11fda15e18135eb67e6 and all six closure files fetched exactly; complete published SKILL reloaded. D017 original five-page Lecture19 source acquired/read with all three figures. Fresh author /root/author_d017_r23 works only in iterations/017/current-r23/author; root remains sole publisher. See iterations/017/current-r23/activation.json and RECOVERY.md. Scope16closed/60remaining of76;147 IDs/71exclusions unchanged.
+
 ## D016 accepted; PROF r23 released
 
 Release abfd5ae20c4af75b424b70d612082b07071c2ae6 verified for all 60 files. Complete closure: `iterations/016/closure.md`. Scope: 16/76 closed; 60 remain, 147 original IDs and 71 exclusions preserved. Next verify closure publication, fully reload published r23, then start D017/Lecture 19 afresh. Historical unknowns and scheduling reconciliation remain in force.

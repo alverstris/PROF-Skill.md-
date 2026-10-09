@@ -1,0 +1,245 @@
+{
+  "mathematical_checks": [
+    {
+      "id": "square-sum-normalized",
+      "actual": "(n**3/3 + n**2/2 + n/6)/n**3",
+      "expected": "1/3 + 1/(2*n) + 1/(6*n**2)",
+      "pass": true
+    },
+    {
+      "id": "outer-volume-gap",
+      "actual": "-n**3/3 - n**2/2 - n/6 + (n + 1)**3/3",
+      "expected": "(n + 1)*(3*n + 2)/6",
+      "pass": true
+    },
+    {
+      "id": "inner-volume-gap",
+      "actual": "n**2/2 + n/6",
+      "expected": "n*(3*n + 1)/6",
+      "pass": true
+    },
+    {
+      "id": "square-area",
+      "actual": "b**3/3",
+      "expected": "b**3/3",
+      "pass": true
+    },
+    {
+      "id": "pyramid-cross-sectional-check",
+      "actual": "n**3/3",
+      "expected": "n**3/3",
+      "pass": true
+    },
+    {
+      "id": "line-area",
+      "actual": "b**2/2",
+      "expected": "b**2/2",
+      "pass": true
+    },
+    {
+      "id": "square-LR-gap",
+      "actual": "b**3/n",
+      "expected": "b**3/n",
+      "pass": true
+    },
+    {
+      "id": "P1-R",
+      "actual": "15/4",
+      "expected": "15/4",
+      "pass": true
+    },
+    {
+      "id": "P1-L",
+      "actual": "7/4",
+      "expected": "7/4",
+      "pass": true
+    },
+    {
+      "id": "P2-R",
+      "actual": "2*(2*n - 2*(n**2/2 + n/2)/n)/n",
+      "expected": "2 - 2/n",
+      "pass": true
+    },
+    {
+      "id": "P2-L",
+      "actual": "2*(2*n + 2 - 2*(n**2/2 + n/2)/n)/n",
+      "expected": "2 + 2/n",
+      "pass": true
+    },
+    {
+      "id": "worked-borrow",
+      "actual": "12360",
+      "expected": "12360",
+      "pass": true
+    },
+    {
+      "id": "P3-principal",
+      "actual": "3000",
+      "expected": "3000",
+      "pass": true
+    },
+    {
+      "id": "P3-debt",
+      "actual": "3060",
+      "expected": "3060",
+      "pass": true
+    },
+    {
+      "id": "P3-duration",
+      "actual": "1/3",
+      "expected": "1/3",
+      "pass": true
+    },
+    {
+      "id": "P3-uniform",
+      "actual": "3090",
+      "expected": "3090",
+      "pass": true
+    },
+    {
+      "id": "P4-signed",
+      "actual": "2",
+      "expected": "2",
+      "pass": true
+    },
+    {
+      "id": "P4-positive",
+      "actual": "9/4",
+      "expected": "9/4",
+      "pass": true
+    },
+    {
+      "id": "P4-negative",
+      "actual": "-1/4",
+      "expected": "-1/4",
+      "pass": true
+    },
+    {
+      "id": "P4-derivative",
+      "actual": "-1",
+      "expected": "-1",
+      "pass": true
+    },
+    {
+      "id": "pyramid-containment-samples",
+      "pass": true,
+      "scope": "n=1..10, every slab, five distinct heights; general warrant in teaching C2"
+    },
+    {
+      "id": "midpoint-debt-numerical",
+      "pass": true,
+      "last_n": 10000,
+      "last_value": 3060.0000003
+    }
+  ],
+  "navigation_local_source": [
+    {
+      "from": "teaching.md",
+      "to": "hints.md",
+      "pass": true
+    },
+    {
+      "from": "teaching.md",
+      "to": "solutions.md",
+      "pass": true
+    },
+    {
+      "from": "teaching.md",
+      "to": "hints.md#h1",
+      "pass": true
+    },
+    {
+      "from": "teaching.md",
+      "to": "hints.md#h2",
+      "pass": true
+    },
+    {
+      "from": "teaching.md",
+      "to": "hints.md#h3",
+      "pass": true
+    },
+    {
+      "from": "teaching.md",
+      "to": "hints.md#h4",
+      "pass": true
+    },
+    {
+      "from": "teaching.md",
+      "to": "../source/lec18.pdf",
+      "pass": true
+    },
+    {
+      "from": "hints.md",
+      "to": "solutions.md",
+      "pass": true
+    },
+    {
+      "from": "hints.md",
+      "to": "teaching.md#p1",
+      "pass": true
+    },
+    {
+      "from": "hints.md",
+      "to": "solutions.md#s1",
+      "pass": true
+    },
+    {
+      "from": "hints.md",
+      "to": "teaching.md#p2",
+      "pass": true
+    },
+    {
+      "from": "hints.md",
+      "to": "solutions.md#s2",
+      "pass": true
+    },
+    {
+      "from": "hints.md",
+      "to": "teaching.md#p3",
+      "pass": true
+    },
+    {
+      "from": "hints.md",
+      "to": "solutions.md#s3",
+      "pass": true
+    },
+    {
+      "from": "hints.md",
+      "to": "teaching.md#p4",
+      "pass": true
+    },
+    {
+      "from": "hints.md",
+      "to": "solutions.md#s4",
+      "pass": true
+    },
+    {
+      "from": "solutions.md",
+      "to": "hints.md",
+      "pass": true
+    },
+    {
+      "from": "solutions.md",
+      "to": "teaching.md#p1",
+      "pass": true
+    },
+    {
+      "from": "solutions.md",
+      "to": "teaching.md#p2",
+      "pass": true
+    },
+    {
+      "from": "solutions.md",
+      "to": "teaching.md#p3",
+      "pass": true
+    },
+    {
+      "from": "solutions.md",
+      "to": "teaching.md#p4",
+      "pass": true
+    }
+  ],
+  "typography_source_issues": [],
+  "task_hint_solution_ids": "P1..P4 exact matching",
+  "limits": "Symbolic/numerical/source syntax checks and inspected PNG figures do not establish actual GitHub parsed mathematics/style/navigation. Those external gates remain pending. Pyramid cross-section integration is an independent author check using baseline calculus, not the logical basis of the learner geometric argument."
+}

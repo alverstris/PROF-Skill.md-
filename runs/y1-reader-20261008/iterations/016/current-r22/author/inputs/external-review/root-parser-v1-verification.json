@@ -1,0 +1,83 @@
+{
+  "method": "Independent Python stdlib HTMLParser convert_charrefs=True once; parse actual saved GitHub article, compare complete ordered source regex math nodes and types. No second unescape.",
+  "files": [
+    {
+      "file": "teaching.md",
+      "count": 191,
+      "differences": [
+        {
+          "ordinal": 4,
+          "expected_type": "js-inline-math",
+          "actual_type": "js-inline-math",
+          "expected": "a<b",
+          "actual": "a&lt;b"
+        },
+        {
+          "ordinal": 13,
+          "expected_type": "js-inline-math",
+          "actual_type": "js-inline-math",
+          "expected": "b>0",
+          "actual": "b&gt;0"
+        },
+        {
+          "ordinal": 31,
+          "expected_type": "js-inline-math",
+          "actual_type": "js-inline-math",
+          "expected": "k\\le z<k+1",
+          "actual": "k\\le z&lt;k+1"
+        },
+        {
+          "ordinal": 55,
+          "expected_type": "js-inline-math",
+          "actual_type": "js-inline-math",
+          "expected": "b>0",
+          "actual": "b&gt;0"
+        },
+        {
+          "ordinal": 62,
+          "expected_type": "js-inline-math",
+          "actual_type": "js-inline-math",
+          "expected": "b>0",
+          "actual": "b&gt;0"
+        },
+        {
+          "ordinal": 73,
+          "expected_type": "js-inline-math",
+          "actual_type": "js-inline-math",
+          "expected": "h>0",
+          "actual": "h&gt;0"
+        },
+        {
+          "ordinal": 76,
+          "expected_type": "js-inline-math",
+          "actual_type": "js-inline-math",
+          "expected": "h<0",
+          "actual": "h&lt;0"
+        }
+      ],
+      "html_sha256": "53e9a1d4cf0fa81285beac820861293f3216b0665770c0c21e5dd23b29088504"
+    },
+    {
+      "file": "hints.md",
+      "count": 13,
+      "differences": [],
+      "html_sha256": "2f19d9361c86eb2ed47d75195e2a616b0c34a4603935d2115a047f40fdee29dc"
+    },
+    {
+      "file": "solutions.md",
+      "count": 59,
+      "differences": [
+        {
+          "ordinal": 37,
+          "expected_type": "js-inline-math",
+          "actual_type": "js-inline-math",
+          "expected": "a<b",
+          "actual": "a&lt;b"
+        }
+      ],
+      "html_sha256": "d78ab0338ffe533202dcdecfec94ece8c1c4eafd017888cb704fa8455bac8ad1"
+    }
+  ],
+  "total": 263,
+  "failed_payloads": 8
+}

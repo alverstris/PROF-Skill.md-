@@ -1,0 +1,7 @@
+D013 v2 root complete readback
+
+Root read all326 lines of actual frozen learner-v2.md in untruncated ranges1–112,113–228,229–end, including every hint, solution and ending. SHA256d17f77d36f7c30db9777230a85decb363a1fb967bb5c51d60cb5af4cd7b078c0,31740bytes. All6 figure bytes match the separately inspected PNG/SVG originals; no visual change occurred.
+
+Independent inverse reconstruction restores every v1 byte after exactly the58 equivalent comparison-command substitutions and three phrases. The derivative now fixes one input atc; plottedpoints explicitly pair inputwithoutput; P1calls3c²=4 a slope-matching equation. All three clarifications match the actual baseline and earlier/later worked uses. All48 inline comparisons retain their operand order, grouping and strictness, including negative-x R1/R2 logic and log reciprocal bounds. All24 displays, six exact prompts, every calculation/answer and remaining prose remain unchanged. The full source/technical reconstruction in root-technical-review-v1.md therefore applies with these explicitly rechecked alterations. No new material issue found.
+
+Fresh /root/sasis_d013_v2 receives fullbaseline and all7 currentconstituents, with stricttext/image order; its admission/report remains pending. Fresh actualdestination and fullfinalpreview, finalhelper/semanticacceptance/publication remain pending. No destination pass is inferred from source equivalence. Original v1 report/failure archive and allauthorstate remain preserved. No substantivePROFchange warranted.

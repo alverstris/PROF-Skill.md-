@@ -1,0 +1,216 @@
+--- learner-v1.md
++++ learner-v2.md
+@@ -12,11 +12,11 @@
+ <a id="a"></a>
+ A. From an average slope to an actual tangent slope
+ 
+-Let a and b be fixed real numbers with $a<b$. The interval $[a,b]$ includes both endpoints; $(a,b)$ contains only the points strictly between them. The slope of the secant line through $(a,f(a))$ and $(b,f(b))$ is
++Let a and b be fixed real numbers with $a\lt b$. The interval $[a,b]$ includes both endpoints; $(a,b)$ contains only the points strictly between them. The slope of the secant line through $(a,f(a))$ and $(b,f(b))$ is
+ 
+ $$m=\frac{f(b)-f(a)}{b-a}.$$
+ 
+-The numerator is the change in output and the denominator is the positive change in input. A secant uses two points. By contrast, the derivative $f'(c)$ is the tangent slope at one point c: it is the limit of nearby secant slopes as their two inputs approach one another. The Mean Value Theorem (MVT) connects these two scales of change.
++The numerator is the change in output and the denominator is the positive change in input. A secant uses two points. By contrast, the derivative $f'(c)$ is the tangent slope at one point c: it is the limit of secant slopes with one input fixed at c while the other approaches c. The Mean Value Theorem (MVT) connects these two scales of change.
+ 
+ Here continuity at an interior point means the limiting output as the input approaches that point equals the function's value there. At a or b, continuity is required from within the interval. Thus there can be no jump, hole or endpoint value detached from the approaching graph. Differentiability at a point means the derivative limit exists as a finite number there; a corner whose left and right slopes disagree fails this condition. Familiar polynomials, exponentials and logarithms are continuous and differentiable on their ordinary real domains. We use these standard regularity facts alongside their derivative rules.
+ 
+@@ -30,7 +30,7 @@
+ 
+ ![Figure 1. The parabola x², secant of slope 4 through inputs 1 and 3, and parallel tangent at input 2. A dashed parallel line shifts upward to first contact.](figures/figure-1-parallel-lines.png)
+ 
+-Figure 1. This exact plotted example reconstructs the lecture's parallel-line picture. The horizontal labels a, c and b denote inputs; the black points are their outputs on the curve. The dashed line and red tangent have the same slope as the blue secant. Shifting a line changes its intercept, not its slope. Section B explains why an interior tangent must occur under the stated hypotheses.
++Figure 1. This exact plotted example reconstructs the lecture's parallel-line picture. The horizontal labels a, c and b denote inputs; the black points pair each input with its output on the curve. The dashed line and red tangent have the same slope as the blue secant. Shifting a line changes its intercept, not its slope. Section B explains why an interior tangent must occur under the stated hypotheses.
+ 
+ <a id="p1"></a>
+ Task P1
+@@ -50,7 +50,7 @@
+ 
+ We introduce one additional theorem as a premise: a real continuous function on a closed, bounded interval attains a greatest and a least value on that interval. This is the extreme value theorem. “Attains” means an actual input gives the value, rather than values merely approaching it. Its proof is beyond this lesson; it is the existence premise behind the sliding-line argument. [OpenStax, Calculus Volume 1, §4.3, Theorem 4.1](https://openstax.org/books/calculus-volume-1/pages/4-3-maxima-and-minima).
+ 
+-We also need the following consequence of the derivative definition, which we can justify here. At a differentiable interior maximum c, nearby differences $g(c+h)-g(c)$ are nonpositive. Dividing by $h>0$ gives a nonpositive quotient; dividing by $h<0$ gives a nonnegative quotient. Since the derivative exists, both one-sided limits must agree. A limit of nonpositive numbers is nonpositive, and a limit of nonnegative numbers is nonnegative. The common limit must therefore be zero. At an interior minimum the signs reverse and again force zero. The word interior matters because both directions must be available. This does not say every point with derivative zero is an extremum.
++We also need the following consequence of the derivative definition, which we can justify here. At a differentiable interior maximum c, nearby differences $g(c+h)-g(c)$ are nonpositive. Dividing by $h\gt 0$ gives a nonpositive quotient; dividing by $h\lt 0$ gives a nonnegative quotient. Since the derivative exists, both one-sided limits must agree. A limit of nonpositive numbers is nonpositive, and a limit of nonnegative numbers is nonnegative. The common limit must therefore be zero. At an interior minimum the signs reverse and again force zero. The word interior matters because both directions must be available. This does not say every point with derivative zero is an extremum.
+ 
+ Now apply the existence premise to g. If g is identically zero, its derivative is zero throughout $(a,b)$, and any interior c works. Otherwise g has a nonzero value somewhere inside: its endpoint values are both zero. If some value is positive, its attained greatest value is positive and cannot be at either endpoint. At the interior point where it is attained, the preceding argument gives $g'(c)=0$. If no value is positive but g is not identically zero, some value is negative; its attained least value is then negative and interior, again giving $g'(c)=0$. These alternatives cover all possibilities, proving the MVT from the stated premise.
+ 
+@@ -74,7 +74,7 @@
+ <a id="c"></a>
+ C. Interpreting and rewriting the exact result
+ 
+-The lecture's trip is an idealised model: take a fixed route from Boston to Chicago of length 1,000 miles, completed in 3 hours. These are stipulated example data. Let s(t) be progress along that route, in miles, with time t in hours, $s(0)=0$ and $s(3)=1000$. Assume s is continuous throughout the trip, differentiable at interior times, and the motion is forward so that its nonnegative rate is speed. The MVT then gives some time $0<c<3$ at which
++The lecture's trip is an idealised model: take a fixed route from Boston to Chicago of length 1,000 miles, completed in 3 hours. These are stipulated example data. Let s(t) be progress along that route, in miles, with time t in hours, $s(0)=0$ and $s(3)=1000$. Assume s is continuous throughout the trip, differentiable at interior times, and the motion is forward so that its nonnegative rate is speed. The MVT then gives some time $0\lt c\lt 3$ at which
+ 
+ $$s'(c)=\frac{s(3)-s(0)}{3-0}=\frac{1000}{3}\text{ miles per hour}.$$
+ 
+@@ -86,11 +86,11 @@
+ 
+ $$f(b)=f(a)+f'(c)(b-a).$$
+ 
+-Changing the endpoint name b to x gives, for $x>a$,
++Changing the endpoint name b to x gives, for $x\gt a$,
+ 
+ $$f(x)=f(a)+f'(c)(x-a),\qquad a<c<x.$$
+ 
+-Here a is the chosen fixed starting input; x is the selected endpoint; and c may change when x changes. There is no single c promised for every endpoint. For $x<a$, applying the MVT to $[x,a]$ and rearranging gives the same equality with $x<c<a$. For $x=a$, $f(x)=f(a)$ directly; there is then no nonempty interval in which to seek c.
++Here a is the chosen fixed starting input; x is the selected endpoint; and c may change when x changes. There is no single c promised for every endpoint. For $x\lt a$, applying the MVT to $[x,a]$ and rearranging gives the same equality with $x\lt c\lt a$. For $x=a$, $f(x)=f(a)$ directly; there is then no nonempty interval in which to seek c.
+ 
+ The similar-looking tangent approximation uses a specified slope at the starting point:
+ 
+@@ -114,23 +114,23 @@
+ <a id="d"></a>
+ D. Derivative signs control finite changes on an interval
+ 
+-Strictly increasing on an interval means that every pair $a<b$ in it satisfies $f(a)<f(b)$. Strictly decreasing means every such pair satisfies $f(a)>f(b)$. This corrects the reversed decreasing inequality printed on lecture p. 3. “Every pair” is what distinguishes a statement about the whole interval from the slope at just one point.
++Strictly increasing on an interval means that every pair $a\lt b$ in it satisfies $f(a)\lt f(b)$. Strictly decreasing means every such pair satisfies $f(a)\gt f(b)$. This corrects the reversed decreasing inequality printed on lecture p. 3. “Every pair” is what distinguishes a statement about the whole interval from the slope at just one point.
+ 
+ Assume f is differentiable throughout an open interval I. Differentiability implies continuity there: for small nonzero h, $f(x+h)-f(x)$ is h times the derivative quotient, whose finite limit exists, so that difference tends to zero. Hence any closed subinterval $[a,b]$ within I satisfies the MVT hypotheses. If endpoints of a larger closed interval are included in the conclusion, also assume continuity at those endpoints.
+ 
+-Choose arbitrary $a<b$ in the interval and use
++Choose arbitrary $a\lt b$ in the interval and use
+ 
+ $$f(b)-f(a)=f'(c)(b-a),\qquad a<c<b.$$
+ 
+-If $f'>0$ throughout the interior, both factors on the right are positive, so $f(b)>f(a)$. If $f'<0$ throughout, the derivative factor is negative and $b-a$ is positive, so $f(b)<f(a)$. If $f'=0$ throughout, the right side is zero, so $f(b)=f(a)$. Because the pair was arbitrary, these prove respectively strict increase, strict decrease, and constancy on the interval. This supplies the lecture's omitted decreasing proof as well as the two displayed proofs.
+-
+-For example $v(x)=x^3+2x$ has $v'(x)=3x^2+2>0$ for every real input, so any two inputs in increasing order have outputs in increasing order. There is no need to find the unknown c: its derivative sign is already known wherever it could be. Likewise, if $w'(x)=0$ throughout an interval and $w(2)=7$ there, comparing any point with 2 shows w is identically 7 on that interval. A derivative of zero at just one point does not suffice: $x^2$ has derivative zero at zero but is not constant.
+-
+-The non-strict condition $f'\geq0$ similarly proves $f(b)\geq f(a)$, called nondecreasing; it alone does not ensure strict increase, since a constant function meets it. Conversely, strict increase does not require a positive derivative at every point. For $x^3$, the derivative is zero at zero, yet when $a<b$,
++If $f'\gt 0$ throughout the interior, both factors on the right are positive, so $f(b)\gt f(a)$. If $f'\lt 0$ throughout, the derivative factor is negative and $b-a$ is positive, so $f(b)\lt f(a)$. If $f'=0$ throughout, the right side is zero, so $f(b)=f(a)$. Because the pair was arbitrary, these prove respectively strict increase, strict decrease, and constancy on the interval. This supplies the lecture's omitted decreasing proof as well as the two displayed proofs.
++
++For example $v(x)=x^3+2x$ has $v'(x)=3x^2+2\gt 0$ for every real input, so any two inputs in increasing order have outputs in increasing order. There is no need to find the unknown c: its derivative sign is already known wherever it could be. Likewise, if $w'(x)=0$ throughout an interval and $w(2)=7$ there, comparing any point with 2 shows w is identically 7 on that interval. A derivative of zero at just one point does not suffice: $x^2$ has derivative zero at zero but is not constant.
++
++The non-strict condition $f'\geq0$ similarly proves $f(b)\geq f(a)$, called nondecreasing; it alone does not ensure strict increase, since a constant function meets it. Conversely, strict increase does not require a positive derivative at every point. For $x^3$, the derivative is zero at zero, yet when $a\lt b$,
+ 
+ $$b^3-a^3=(b-a)(b^2+ab+a^2)>0.$$
+ 
+-The second factor is $(b+a/2)^2+3a^2/4$, nonnegative and zero only if both a and b are zero, which is impossible when $a<b$. Thus the sufficient strict-sign condition is not a necessary one.
++The second factor is $(b+a/2)^2+3a^2/4$, nonnegative and zero only if both a and b are zero, which is impossible when $a\lt b$. Thus the sufficient strict-sign condition is not a necessary one.
+ 
+ The interval condition also matters: it ensures the entire route from a to b lies in the domain. It cannot be replaced by “wherever the derivative happens to exist.” The MVT is precisely the justification connecting infinitesimally local slopes to a nonzero finite input change; that connection was the point of the lecture's warning about relying on an apparently obvious picture.
+ 
+@@ -148,9 +148,9 @@
+ 
+ To prove that one expression is larger than another, subtract the proposed smaller expression from the proposed larger one. A positive difference is exactly the desired inequality. If that difference is zero at a known starting input and has positive derivative to its right, section D proves it becomes positive. This choice turns a comparison of values into a derivative-sign problem.
+ 
+-Use the familiar premises $e^x>0$ for all real x, $e^0=1$, and $(e^x)'=e^x$. Positivity is a starting property of the exponential, not a consequence of the inequality we are about to prove. The lecture also explicitly takes it as given.
+-
+-First set $R_0(x)=e^x-1$. The subscript is just a label for this difference; it is not a derivative. We have $R_0(0)=0$ and $R_0'(x)=e^x>0$. The MVT sign result makes $R_0$ strictly increasing. Therefore for $x>0$,
++Use the familiar premises $e^x\gt 0$ for all real x, $e^0=1$, and $(e^x)'=e^x$. Positivity is a starting property of the exponential, not a consequence of the inequality we are about to prove. The lecture also explicitly takes it as given.
++
++First set $R_0(x)=e^x-1$. The subscript is just a label for this difference; it is not a derivative. We have $R_0(0)=0$ and $R_0'(x)=e^x\gt 0$. The MVT sign result makes $R_0$ strictly increasing. Therefore for $x\gt 0$,
+ 
+ $$R_0(x)>R_0(0)=0,\qquad\text{so }e^x>1.$$
+ 
+@@ -158,7 +158,7 @@
+ 
+ $$R_1'(x)=e^x-1=R_0(x)>0\quad\text{for }x>0.$$
+ 
+-Applying the MVT on $[0,x]$ uses only this derivative sign in its interior. It gives $R_1(x)>0$, hence
++Applying the MVT on $[0,x]$ uses only this derivative sign in its interior. It gives $R_1(x)\gt 0$, hence
+ 
+ $$e^x>1+x\quad(x>0).$$
+ 
+@@ -168,19 +168,19 @@
+ 
+ $$R_2(0)=0,\qquad R_2'(x)=e^x-(1+x)=R_1(x).$$
+ 
+-Since $R_1(x)>0$ for $x>0$, the same reasoning yields $R_2(x)>0$. For the cubic level set $R_3(x)=e^x-(1+x+x^2/2+x^3/6)$. Its derivative is $R_2(x)$ because $(x^3/6)'=x^2/2$, and $R_3(0)=0$. Therefore
++Since $R_1(x)\gt 0$ for $x\gt 0$, the same reasoning yields $R_2(x)\gt 0$. For the cubic level set $R_3(x)=e^x-(1+x+x^2/2+x^3/6)$. Its derivative is $R_2(x)$ because $(x^3/6)'=x^2/2$, and $R_3(0)=0$. Therefore
+ 
+ $$e^x>1+x+\frac{x^2}{2}>1+x,\qquad x>0,$$
+ 
+ $$e^x>1+x+\frac{x^2}{2}+\frac{x^3}{3!},\qquad x>0.$$
+ 
+-Here $3!=3\cdot2\cdot1=6$. Each added positive term makes a stronger lower bound for a fixed positive x. For example, at x=1 the cubic bound proves $e>1+1+1/2+1/6=8/3$ without approximating e numerically. This is a bound, not an exact value.
++Here $3!=3\cdot2\cdot1=6$. Each added positive term makes a stronger lower bound for a fixed positive x. For example, at x=1 the cubic bound proves $e\gt 1+1+1/2+1/6=8/3$ without approximating e numerically. This is a bound, not an exact value.
+ 
+ The same construction works to any finite degree. For integer $n\geq0$, define the polynomial and its remainder (the exact difference, not an estimate) by
+ 
+ $$P_n(x)=\sum_{k=0}^{n}\frac{x^k}{k!},\qquad R_n(x)=e^x-P_n(x).$$
+ 
+-The sum means add the terms with k=0,1,…,n; k is a counting index, n fixes where the sum ends, and $0!=1$. Thus $P_0=1$ and $P_3=1+x+x^2/2+x^3/6$. For $n\geq1$, differentiating $x^k/k!$ gives $x^{k-1}/(k-1)!$ for each k≥1, while the constant k=0 term disappears. Consequently $P_n'=P_{n-1}$, $R_n'=R_{n-1}$, and $R_n(0)=0$. Starting with the proved positivity of $R_0$ for x>0, induction repeats the previous argument: positivity of $R_{n-1}$ makes $R_n$ increase from zero. Thus $e^x>P_n(x)$ for every finite n and every x>0.
++The sum means add the terms with k=0,1,…,n; k is a counting index, n fixes where the sum ends, and $0!=1$. Thus $P_0=1$ and $P_3=1+x+x^2/2+x^3/6$. For $n\geq1$, differentiating $x^k/k!$ gives $x^{k-1}/(k-1)!$ for each k≥1, while the constant k=0 term disappears. Consequently $P_n'=P_{n-1}$, $R_n'=R_{n-1}$, and $R_n(0)=0$. Starting with the proved positivity of $R_0$ for x>0, induction repeats the previous argument: positivity of $R_{n-1}$ makes $R_n$ increase from zero. Thus $e^x\gt P_n(x)$ for every finite n and every x>0.
+ 
+ The lecture ends by previewing
+ 
+@@ -200,13 +200,13 @@
+ <a id="f"></a>
+ F. Using the intermediate point without finding it
+ 
+-Often the unknown c is useful precisely because it lies in a controlled interval. Suppose $L<f'(t)<U$ for every $a<t<b$, with the MVT hypotheses on $[a,b]$. The derivative at its guaranteed c obeys the same bounds. Multiplying by $b-a>0$ yields
++Often the unknown c is useful precisely because it lies in a controlled interval. Suppose $L\lt f'(t)\lt U$ for every $a\lt t\lt b$, with the MVT hypotheses on $[a,b]$. The derivative at its guaranteed c obeys the same bounds. Multiplying by $b-a\gt 0$ yields
+ 
+ $$L(b-a)<f(b)-f(a)<U(b-a).$$
+ 
+ L and U are bounds on slope, not function values. With non-strict derivative bounds the corresponding conclusions are non-strict. The function's regularity and the order of the endpoints must still be checked.
+ 
+-For example take $f(t)=\sqrt t$ on $[1,4]$. It is continuous on this interval and differentiable inside, with $f'(t)=1/(2\sqrt t)$. For $1<c<4$, we have $1<\sqrt c<2$, so $1/4<f'(c)<1/2$. The MVT gives
++For example take $f(t)=\sqrt t$ on $[1,4]$. It is continuous on this interval and differentiable inside, with $f'(t)=1/(2\sqrt t)$. For $1\lt c\lt 4$, we have $1\lt \sqrt c\lt 2$, so $1/4\lt f'(c)\lt 1/2$. The MVT gives
+ 
+ $$\frac34<\sqrt4-\sqrt1<\frac32.$$
+ 
+@@ -255,12 +255,12 @@
+ <a id="h5"></a>
+ Hint P5
+ 
+-Since $e^x$ is strictly increasing and $e^0=1$, its value is below 1 for x<0. Hence $R_1'(x)<0$ there. Compare $R_1(x)$ with $R_1(0)$ by moving from x up to 0. Then use $R_2'=R_1$ on the same interval. [Return to P5](#p5)
++Since $e^x$ is strictly increasing and $e^0=1$, its value is below 1 for x<0. Hence $R_1'(x)\lt 0$ there. Compare $R_1(x)$ with $R_1(0)$ by moving from x up to 0. Then use $R_2'=R_1$ on the same interval. [Return to P5](#p5)
+ 
+ <a id="h6"></a>
+ Hint P6
+ 
+-For (a), keep endpoint continuity separate from interior differentiability; the theorem promises at least one point. For (b), use $f(t)=\ln t$ between 1 and 1+h: an intermediate c satisfies $1<c<1+h$, and $f'(c)=1/c$. For (c), subtract the function 2x from F; its derivative is zero, and the value at zero fixes the remaining constant. [Return to P6](#p6)
++For (a), keep endpoint continuity separate from interior differentiability; the theorem promises at least one point. For (b), use $f(t)=\ln t$ between 1 and 1+h: an intermediate c satisfies $1\lt c\lt 1+h$, and $f'(c)=1/c$. For (c), subtract the function 2x from F; its derivative is zero, and the value at zero fixes the remaining constant. [Return to P6](#p6)
+ 
+ <a id="solutions"></a>
+ Complete reasoned solutions
+@@ -270,7 +270,7 @@
+ <a id="s1"></a>
+ Solution P1
+ 
+-The polynomial is continuous on [0,2] and differentiable on (0,2). Its secant slope is $(8-0)/(2-0)=4$. The tangent equation is $3c^2=4$, giving algebraic roots $c=\pm2/\sqrt3$. Only $c=2/\sqrt3$ is positive, and it is below 2 because $\sqrt3>1$; it is therefore the only admissible value. Its tangent is parallel to the endpoint secant. It is not the midpoint 1, whose derivative is 3 rather than 4. Treating c as a midpoint automatically would be an anticipated conceptual mistake; the defining equation and interior restriction determine it here. [Return to P1](#p1) · [Hint P1](#h1)
++The polynomial is continuous on [0,2] and differentiable on (0,2). Its secant slope is $(8-0)/(2-0)=4$. The equation matching the tangent slope to the secant slope is $3c^2=4$, giving algebraic roots $c=\pm2/\sqrt3$. Only $c=2/\sqrt3$ is positive, and it is below 2 because $\sqrt3\gt 1$; it is therefore the only admissible value. Its tangent is parallel to the endpoint secant. It is not the midpoint 1, whose derivative is 3 rather than 4. Treating c as a midpoint automatically would be an anticipated conceptual mistake; the defining equation and interior restriction determine it here. [Return to P1](#p1) · [Hint P1](#h1)
+ 
+ <a id="s2"></a>
+ Solution P2
+@@ -285,20 +285,20 @@
+ <a id="s4"></a>
+ Solution P4
+ 
+-(a) Choose any $0<a<b$. The logarithm is continuous on [a,b] and differentiable on (a,b), so the same is true of $u=-\ln x$. The MVT gives $u(b)-u(a)=u'(c)(b-a)$ for some positive $c\in(a,b)$. Since $u'(c)=-1/c<0$ and $b-a>0$, their product is negative. Thus u(b)<u(a) for every such pair, proving strict decrease on (0,∞).
++(a) Choose any $0\lt a\lt b$. The logarithm is continuous on [a,b] and differentiable on (a,b), so the same is true of $u=-\ln x$. The MVT gives $u(b)-u(a)=u'(c)(b-a)$ for some positive $c\in(a,b)$. Since $u'(c)=-1/c\lt 0$ and $b-a\gt 0$, their product is negative. Thus u(b)<u(a) for every such pair, proving strict decrease on (0,∞).
+ 
+ (b) k is not constant on its whole domain: k(−1)=0 and k(1)=1. The zero derivative on each branch agrees with its constant local value. But [−1,1] is not contained in its domain, since k(0) is undefined. It therefore cannot meet the MVT hypotheses on that interval. On (−∞,0) the function is constant 0, and on (0,∞) it is constant 1; the theorem applies within either interval separately. There is no contradiction. A missing domain point is a failure of the required route between endpoints, not an arithmetic slip. [Return to P4](#p4) · [Hint P4](#h4)
+ 
+ <a id="s5"></a>
+ Solution P5
+ 
+-Because the exponential has positive derivative everywhere, it is strictly increasing. Hence $e^x<e^0=1$ when x<0. It follows that $R_1'(x)=e^x-1<0$ on the negative interval. To compare its value at a chosen negative x with zero, apply the MVT on [x,0]: for an interior c<0,
++Because the exponential has positive derivative everywhere, it is strictly increasing. Hence $e^x\lt e^0=1$ when x<0. It follows that $R_1'(x)=e^x-1\lt 0$ on the negative interval. To compare its value at a chosen negative x with zero, apply the MVT on [x,0]: for an interior c<0,
+ 
+ $$R_1(0)-R_1(x)=R_1'(c)(0-x)<0.$$
+ 
+-Since $R_1(0)=0$, this means $R_1(x)>0$, so $e^x>1+x$ remains true for x<0. A decreasing function can be above its later value zero; decreasing does not mean negative.
+-
+-Now $R_2'(x)=R_1(x)>0$ for x<0, so the MVT on [x,0] gives $R_2(0)-R_2(x)>0$. Since $R_2(0)=0$, we get $R_2(x)<0$. Thus for negative x the quadratic inequality reverses:
++Since $R_1(0)=0$, this means $R_1(x)\gt 0$, so $e^x\gt 1+x$ remains true for x<0. A decreasing function can be above its later value zero; decreasing does not mean negative.
++
++Now $R_2'(x)=R_1(x)\gt 0$ for x<0, so the MVT on [x,0] gives $R_2(0)-R_2(x)\gt 0$. Since $R_2(0)=0$, we get $R_2(x)\lt 0$. Thus for negative x the quadratic inequality reverses:
+ 
+ $$e^x<1+x+\frac{x^2}{2}\quad(x<0).$$
+ 
+@@ -307,13 +307,13 @@
+ <a id="s6"></a>
+ Solution P6
+ 
+-(a) For real $a<b$, if f is continuous on [a,b] and differentiable on (a,b), there exists at least one $c\in(a,b)$ with $f'(c)=[f(b)-f(a)]/(b-a)$. The MVT neither identifies c beforehand nor guarantees uniqueness. A linear function already shows why uniqueness is not promised: every interior tangent has its constant secant slope.
++(a) For real $a\lt b$, if f is continuous on [a,b] and differentiable on (a,b), there exists at least one $c\in(a,b)$ with $f'(c)=[f(b)-f(a)]/(b-a)$. The MVT neither identifies c beforehand nor guarantees uniqueness. A linear function already shows why uniqueness is not promised: every interior tangent has its constant secant slope.
+ 
+ (b) Take $f(t)=\ln t$ on [1,1+h]. Since h>0, the interval is in the positive domain of the logarithm; f is continuous on the closed interval and differentiable inside. The MVT gives
+ 
+ $$\ln(1+h)-\ln1=\frac{1}{c}h,\qquad 1<c<1+h.$$
+ 
+-Here $\ln1=0$. Taking reciprocals of the positive inequalities gives $1/(1+h)<1/c<1$. Multiplying by the positive h preserves their order:
++Here $\ln1=0$. Taking reciprocals of the positive inequalities gives $1/(1+h)\lt 1/c\lt 1$. Multiplying by the positive h preserves their order:
+ 
+ $$\frac{h}{1+h}<\ln(1+h)<h.$$
+ 

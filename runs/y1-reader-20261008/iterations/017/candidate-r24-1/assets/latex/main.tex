@@ -1,0 +1,184 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{prof}
+\ProfHeader{Two-state quantum model}
+
+\begin{document}
+\ProfTitle{Constructing a two-state Hamiltonian}
+  {Build the matrix from the operator's action, then test whether a state has
+   a definite energy.}
+
+This short example demonstrates the document layout and linked practice.
+For a new teaching document, replace its subject matter and choose the scope
+from the learner's goal. It is a starter, not a complete quantum mechanics
+course.
+
+\section{What the matrix represents}
+
+Assume that the orthonormal states $|A\rangle$ and $|B\rangle$ form the whole
+space of our two-state model. The inner product measures the overlap of
+two states; a state's norm squared is its inner product with itself.
+``Orthonormal'' means that
+$\langle A|A\rangle=\langle B|B\rangle=1$ and
+$\langle A|B\rangle=0$. The first condition fixes each basis state's scale;
+the second makes them independent, distinguishable basis alternatives.
+In this ordered basis a state is
+\[
+ |\psi\rangle=c_A|A\rangle+c_B|B\rangle
+ \quad\longleftrightarrow\quad
+ \begin{pmatrix}c_A\\c_B\end{pmatrix}.
+\]
+The column records the state's coefficients. It is a representation of the
+state in this chosen basis, not a new physical state.
+For a normalized state, $|c_A|^2+|c_B|^2=1$: the squared coefficient
+magnitudes are the probabilities of the two corresponding basis-state
+measurement outcomes, which must add to one.
+
+The Hamiltonian $\hat H$ is the linear energy operator. Linearity means
+$\hat H(c_A|A\rangle+c_B|B\rangle)
+=c_A\hat H|A\rangle+c_B\hat H|B\rangle$.
+Therefore its action on the two basis states tells us its action on every
+state in this model. Suppose that
+\begin{align}
+ \hat H|A\rangle&=(2\,\mathrm{eV})|A\rangle
+                  -(1\,\mathrm{eV})|B\rangle,\\
+ \hat H|B\rangle&=-(1\,\mathrm{eV})|A\rangle
+                  +(2\,\mathrm{eV})|B\rangle.
+\end{align}
+Here eV is an energy unit, the electronvolt. Each coefficient in these
+operator actions has units of energy.
+
+\begin{profworked}{Read the output coefficients}
+Multiplying a matrix by $(1,0)^{\mathsf T}$ selects its first column. Since
+that input represents $|A\rangle$, the first column must be $(2,-1)^{\mathsf T}$
+in eV. The second column must similarly represent $\hat H|B\rangle$.
+Thus
+\[
+ H=\begin{pmatrix}2&-1\\-1&2\end{pmatrix}\,\mathrm{eV}.
+\]
+As a quick check, multiplying this matrix by $(1,0)^{\mathsf T}$ reproduces
+the first stated operator action. An off-diagonal entry means that applying
+the energy operator to one basis state produces a component along the other.
+It is an energy-valued coupling, not a probability or a transition rate.
+\end{profworked}
+
+\section{Use the matrix to make a decision}
+
+A definite-energy state satisfies $\hat H|\psi\rangle=E|\psi\rangle$:
+the output is the original state multiplied by a single energy $E$.
+This is the eigenvalue equation. The matrix representation gives the same
+test using its coefficient column.
+
+For the normalized state $(|A\rangle+|B\rangle)/\sqrt{2}$, direct multiplication
+gives
+\[
+ \begin{pmatrix}2&-1\\-1&2\end{pmatrix}
+ \frac{1}{\sqrt{2}}\begin{pmatrix}1\\1\end{pmatrix}
+ =\frac{1}{\sqrt{2}}\begin{pmatrix}1\\1\end{pmatrix}.
+\]
+Restoring the matrix's eV unit gives $E=1\,\mathrm{eV}$. Both coefficients
+are multiplied by the same number, so the state does have a definite energy.
+The factor $1/\sqrt{2}$ normalizes the state because
+$|1/\sqrt{2}|^2+|1/\sqrt{2}|^2=1$.
+
+\begin{profattempt}{changed-site}{Does the same state still work?}
+The local environment of state $|B\rangle$ changes. The new operator actions are
+\[
+ \hat H|A\rangle=(2|A\rangle-|B\rangle)\,\mathrm{eV},\qquad
+ \hat H|B\rangle=(-|A\rangle+4|B\rangle)\,\mathrm{eV}.
+\]
+Construct the new matrix and use it to decide whether
+$(|A\rangle+|B\rangle)/\sqrt{2}$ still has a definite energy.
+Give one calculation that justifies your decision. This is one connected
+task: represent the changed model and interpret its action.
+\end{profattempt}
+
+\begin{table}[htbp]
+\centering
+\begin{tabularx}{\linewidth}{@{}p{0.29\linewidth}Y@{}}
+\toprule
+If you are stuck on & Return to this idea \\
+\midrule
+Choosing matrix entries & Each column is the output for its corresponding
+  input basis state. \\
+Interpreting the result & A definite energy requires one common multiplier
+  for the entire coefficient column. \\
+\bottomrule
+\end{tabularx}
+\caption{Use the specific missing idea before repeating the whole explanation.}
+\end{table}
+
+The two-site equality used in the worked example was a property of that
+model, not a rule for every two-state Hamiltonian. Changing the environment
+tests whether the method still works when that property is removed.
+
+\begin{profattempt}{relative-sign}{A later check}
+After a gap, repeat the definite-energy decision with
+\[
+ H=\begin{pmatrix}3&-2\\-2&3\end{pmatrix}\,\mathrm{eV},\qquad
+ |\psi\rangle=\frac{|A\rangle-|B\rangle}{\sqrt{2}}.
+\]
+Give the energy if it exists and justify your decision. The relative sign
+between the two coefficients has changed; use the same operator-action
+test rather than guessing from the earlier result.
+\end{profattempt}
+
+% Group hints after the lesson route, then put full solutions on a separate
+% page so a hint link does not expose the complete answer beside the hint.
+\clearpage
+\section{Hints}
+
+Use a hint if you cannot identify a next step, then return to the attempt.
+The full solutions are on a separate page: follow the matching link when
+you are ready to check the complete reasoning.
+
+\begin{profhint}{changed-site}{Compare both coefficients}
+The changed second basis-state action supplies the second column. After
+multiplication by $(1,1)^{\mathsf T}/\sqrt{2}$, ask whether the first and
+second output coefficients have the same ratio to their input coefficients.
+\end{profhint}
+
+\begin{profhint}{relative-sign}{Track the minus sign}
+The input column is $(1,-1)^{\mathsf T}/\sqrt{2}$. Multiply both rows by
+this column, then compare the whole output with the whole input.
+\end{profhint}
+
+\clearpage
+\section{Full solutions}
+
+After checking the reasoning, return to the attempt and reproduce its key
+decision without reading the answer.
+
+\begin{profsolution}{changed-site}{The symmetry assumption no longer applies}
+The first and second columns give
+\[
+ H=\begin{pmatrix}2&-1\\-1&4\end{pmatrix}\,\mathrm{eV}.
+\]
+Applying it to the proposed state gives
+\[
+ H\frac{1}{\sqrt{2}}\begin{pmatrix}1\\1\end{pmatrix}
+ =\frac{1}{\sqrt{2}}\begin{pmatrix}1\\3\end{pmatrix}\,\mathrm{eV}.
+\]
+The first coefficient would require $E=1\,\mathrm{eV}$, while the second
+would require $E=3\,\mathrm{eV}$. There is no common multiplier. The proposed
+state is therefore not a definite-energy state of this changed Hamiltonian.
+Computing an average energy would answer a different question: an average
+does not establish that the state has only one possible measured energy.
+
+If your matrix was right but you accepted the state anyway, the point to
+repair is the common-multiplier test. If your matrix was wrong, reconstruct
+its columns from the stated basis-state actions before continuing.
+\end{profsolution}
+
+\begin{profsolution}{relative-sign}{One multiplier for both entries}
+Direct multiplication gives
+\[
+ H\frac{1}{\sqrt{2}}\begin{pmatrix}1\\-1\end{pmatrix}
+ =\frac{1}{\sqrt{2}}\begin{pmatrix}5\\-5\end{pmatrix}\,\mathrm{eV}
+ =(5\,\mathrm{eV})\frac{1}{\sqrt{2}}\begin{pmatrix}1\\-1\end{pmatrix}.
+\]
+Both input coefficients are multiplied by $5\,\mathrm{eV}$, so the state
+has definite energy $5\,\mathrm{eV}$. Opposite output signs are consistent
+with one multiplier because the input signs were already opposite.
+\end{profsolution}
+
+\end{document}

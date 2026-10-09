@@ -1,3 +1,7 @@
+## D017 original audited; r24 candidate prepared
+
+All69original audit publication paths verified at6b052b2bc1d2ed47a13de2521d542ebcc2cbd81c. Source-level checks accepted; actual destination fails2missing nodes and46altered payloads. Frozen candidate iterations/017/candidate-r24-1 has a narrow GitHub math-delimiter instruction. Publication/fresh generation/allfinalchecks pending. See iterations/017/current-r23/RECOVERY.md. Root published skill remainsr23; scope16closed/60remaining; no scheduling change.
+
 ## D017 started afresh under verified published r23
 
 D016 closure d71b2c7ce197baf47b25e11fda15e18135eb67e6 and all six closure files fetched exactly; complete published SKILL reloaded. D017 original five-page Lecture19 source acquired/read with all three figures. Fresh author /root/author_d017_r23 works only in iterations/017/current-r23/author; root remains sole publisher. See iterations/017/current-r23/activation.json and RECOVERY.md. Scope16closed/60remaining of76;147 IDs/71exclusions unchanged.

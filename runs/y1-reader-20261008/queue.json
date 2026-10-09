@@ -428,10 +428,32 @@
       "session_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/",
       "material_kinds": "notes",
       "selection_evidence": "Official lecture-notes index labels row 7: Exam 1 review and links its lecture-specific PDF.",
-      "status": "in_progress",
-      "source_access": "Complete source text and original page images inspected by source reviewer; see source_preparation. No teaching iteration completed.",
+      "status": "closed",
+      "source_access": "All five original source texts and full page images fully read by source reviewer, fresh author and parent. Complete final source/math, author evidence, actual destination and fresh two-input reader reviews accepted; verified r14 phase-A publication and ready final state recorded in iterations/007.",
       "required_portions": "all assigned lecture assets; resolve exact asset URLs before authoring",
-      "evidence": [],
+      "evidence": [
+        "iterations/007/source-review.md",
+        "iterations/007/source-map.json",
+        "iterations/007/lead-source-review.json",
+        "iterations/007/author-work-r13/author-evidence.md",
+        "iterations/007/author-evidence-audit/audit.md",
+        "iterations/007/revised-v3/teaching-v3.md",
+        "iterations/007/lead-pre-solution-v1-original.md",
+        "iterations/007/parent-technical-v3.md",
+        "iterations/007/revision-review-v3.md",
+        "iterations/007/reader-report-v3-original.md",
+        "iterations/007/reader-access-v3-original.json",
+        "iterations/007/reader-admission-v3-final.json",
+        "iterations/007/reader-disposition-v3.md",
+        "iterations/007/render-evidence/v3/report.md",
+        "iterations/007/parent-acceptance-v3.md",
+        "iterations/007/issues-final-v3.json",
+        "iterations/007/outgoing-skill-equivalence.json",
+        "iterations/007/publication-main-phase-a.json",
+        "iterations/007/state-evidence-final-v3/full-check-phase-b.json",
+        "iterations/007/dependency-review-v3.md",
+        "iterations/007/closure.md"
+      ],
       "material_id": "D007",
       "readability": {
         "material_id": "D007",
@@ -460,20 +482,20 @@
       "incoming_revision": "2026-10-08-r13",
       "incoming_commit": "905f6443a0e0198c1472c5e671e355b656d4f3bd",
       "activation": "iterations/007/activation.json",
-      "current_teaching": {
-        "path": "iterations/007/revised-v3/teaching-v3.md",
-        "commit": "2c0a49dff10d407296675a9d52a2d664be1bb0f0",
-        "sha256": "6dc2823d9f931c1baaa6eb4ce5076ed2aef1859ba29255d5503eed627824ae54",
-        "author_original": "iterations/007/author-work-r13/teaching.md",
-        "revision_scope": "Equivalent math serialization repairs only; original failures preserved."
-      },
+      "current_teaching": "iterations/007/revised-v3/teaching-v3.md",
       "current_review_status": {
         "parent_technical": "complete",
         "destination": "bounded pass; live client unobserved",
         "fresh_reader": "complete and admitted; no established consequential teaching defect",
         "reader_agent": "/root/sasis_d007_v3_fresh",
-        "iteration_closure": "content accepted; main publication pending"
-      }
+        "iteration_closure": "closed after verified phase-A publication; closure checkpoint requires final readback"
+      },
+      "current_frozen_commit": "2c0a49dff10d407296675a9d52a2d664be1bb0f0",
+      "incoming_prof": "2026-10-08-r13",
+      "outgoing_prof": "2026-10-08-r14",
+      "document_revision": "r13-v3",
+      "document_commit": "2c0a49dff10d407296675a9d52a2d664be1bb0f0",
+      "final_document_sha256": "6dc2823d9f931c1baaa6eb4ce5076ed2aef1859ba29255d5503eed627824ae54"
     },
     {
       "order": 8,
@@ -5906,7 +5928,7 @@
     "selection_manifest": "readability-selection.json",
     "eligible": 76,
     "excluded": 71,
-    "closed": 6,
+    "closed": 7,
     "active_session_ids": [
       "mit-18-01-fall-2006-L01",
       "mit-18-01-fall-2006-L02",
@@ -5985,6 +6007,6 @@
       "mit-8-022-fall2004-L26",
       "mit-8-022-fall2004-L28"
     ],
-    "remaining": 70
+    "remaining": 69
   }
 }

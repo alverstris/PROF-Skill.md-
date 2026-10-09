@@ -1,3 +1,9 @@
+Current accepted closure: D001–D009 closed, 9/76 eligible, 67 remain. All 147 original IDs and 71 exclusions retained. PROF r16 instruction body unchanged; version-only progression. Final r16/evidence publication d7b7625dd60a107c1611743b674c85ca7bfb8e2a/tree decfde6877d685e0c11e8d070e8e666170711753 verified. D009 final teaching is recovery-v3 with four actual replacement images; see iterations/009/closure.md and resumption-20261009/final-acceptance.md. Unknown historical pending writes remain unknown. Cloud commands work in /workspace/scratch/6a5c7131498d; no Windows actions performed.
+
+Next: verify this closure/count checkpoint from canonical main, fully reload its GitHub SKILL, and start D010/Lecture11 afresh with a fresh author, complete frozen baseline and actual original six-page PDF/all six figures. No competing author/publisher while an active run progresses. Keep the recurring task enabled until all 76 and affected checks/final readback are complete.
+
+Earlier dated checkpoints follow; their pending states are historical and superseded only where current evidence explicitly resolves them.
+
 Current D009 acceptance checkpoint, 2026-10-09: managed cloud execution restored and verified. Complete recovery-v3 plus four newly labelled replacement figures are published at 9840e70de6aa7d2c718b60dd13ace7e6f795a50e. Fresh full-input SASIS v3, independent source/mathematics and actual GitHub parser checks plus all ten internal preview pages pass within recorded scope. Final evidence/r16 metadata-only publication and readback are next; do not increment closure counts before that verification. See iterations/009/resumption-20261009/final-acceptance.md and final-state/. Unknown historical write outcomes remain unknown. No competing author/publisher should be started while this run progresses.
 
 Earlier recovery records follow unchanged as dated history:

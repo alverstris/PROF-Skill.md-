@@ -1,0 +1,268 @@
+{
+  "scope": "Local representation repair only; no destination, fresh SASIS or final acceptance claim",
+  "v1_sha256": "8a9845299b276ba13c3f2c18862bdde3ed9b0227451e89fb57f9fe2719e573f0",
+  "v2_sha256": "04355b5ac132bfdaecf6a165cf332d0e04a0ff29bd59b53e03d6c801c9838d59",
+  "v2_bytes": 32634,
+  "changed_inline_payloads": 20,
+  "comparison_replacements": 23,
+  "changed_display_payloads": 1,
+  "all_309_math_nodes_preserved_in_order": true,
+  "all_nonmath_prose_anchors_links_image_markup_exact": true,
+  "inverse_restores_complete_v1_bytes": true,
+  "all_other_math_payloads_byte_exact": true,
+  "semantic_justification": "TeX relation control sequences \\lt and \\gt denote the same strict inequalities as literal < and >. Each newly inserted control word ends with an ordinary delimiting space, avoiding name merging. Existing commands, operands and grouping remain unchanged. The sole removed leading display space is ordinary math whitespace following an explicit \\qquad; TeX mathematical spacing and tokens are unchanged.",
+  "repairs": [
+    {
+      "ordinal": 51,
+      "paragraph": "P010",
+      "type": "js-inline-math",
+      "source_span": [
+        5741,
+        5748
+      ],
+      "before": "x_1=2>r",
+      "after": "x_1=2\\gt r",
+      "comparison_count": 1
+    },
+    {
+      "ordinal": 53,
+      "paragraph": "P010",
+      "type": "js-inline-math",
+      "source_span": [
+        5818,
+        5827
+      ],
+      "before": "0<e_k<x_k",
+      "after": "0\\lt e_k\\lt x_k",
+      "comparison_count": 2
+    },
+    {
+      "ordinal": 54,
+      "paragraph": "P010",
+      "type": "js-inline-math",
+      "source_span": [
+        5836,
+        5851
+      ],
+      "before": "0<e_{k+1}<e_k/2",
+      "after": "0\\lt e_{k+1}\\lt e_k/2",
+      "comparison_count": 2
+    },
+    {
+      "ordinal": 91,
+      "paragraph": "P016",
+      "type": "js-inline-math",
+      "source_span": [
+        10094,
+        10097
+      ],
+      "before": "a>0",
+      "after": "a\\gt 0",
+      "comparison_count": 1
+    },
+    {
+      "ordinal": 95,
+      "paragraph": "P016",
+      "type": "js-inline-math",
+      "source_span": [
+        10435,
+        10440
+      ],
+      "before": "m,g>0",
+      "after": "m,g\\gt 0",
+      "comparison_count": 1
+    },
+    {
+      "ordinal": 104,
+      "paragraph": "P017",
+      "type": "js-inline-math",
+      "source_span": [
+        11412,
+        11428
+      ],
+      "before": "L>\\sqrt{a^2+b^2}",
+      "after": "L\\gt \\sqrt{a^2+b^2}",
+      "comparison_count": 1
+    },
+    {
+      "ordinal": 152,
+      "paragraph": "P023",
+      "type": "js-inline-math",
+      "source_span": [
+        15624,
+        15632
+      ],
+      "before": "b-2y=D>0",
+      "after": "b-2y=D\\gt 0",
+      "comparison_count": 1
+    },
+    {
+      "ordinal": 154,
+      "paragraph": "P023",
+      "type": "js-inline-math",
+      "source_span": [
+        15762,
+        15773
+      ],
+      "before": "L^2>a^2+b^2",
+      "after": "L^2\\gt a^2+b^2",
+      "comparison_count": 1
+    },
+    {
+      "ordinal": 155,
+      "paragraph": "P023",
+      "type": "js-inline-math",
+      "source_span": [
+        15786,
+        15791
+      ],
+      "before": "D>|b|",
+      "after": "D\\gt |b|",
+      "comparison_count": 1
+    },
+    {
+      "ordinal": 156,
+      "paragraph": "P023",
+      "type": "js-inline-math",
+      "source_span": [
+        15802,
+        15807
+      ],
+      "before": "0<x<a",
+      "after": "0\\lt x\\lt a",
+      "comparison_count": 2
+    },
+    {
+      "ordinal": 157,
+      "paragraph": "P023",
+      "type": "js-inline-math",
+      "source_span": [
+        15813,
+        15816
+      ],
+      "before": "y<0",
+      "after": "y\\lt 0",
+      "comparison_count": 1
+    },
+    {
+      "ordinal": 158,
+      "paragraph": "P023",
+      "type": "js-inline-math",
+      "source_span": [
+        15825,
+        15828
+      ],
+      "before": "y<b",
+      "after": "y\\lt b",
+      "comparison_count": 1
+    },
+    {
+      "ordinal": 159,
+      "paragraph": "P024",
+      "type": "js-display-math",
+      "source_span": [
+        16035,
+        16135
+      ],
+      "before": "\nx=\\frac{a(D-b)}{2D},\\quad -y=\\frac{D-b}{2},\n\\qquad\n a-x=\\frac{a(D+b)}{2D},\\quad b-y=\\frac{D+b}{2}.\n",
+      "after": "\nx=\\frac{a(D-b)}{2D},\\quad -y=\\frac{D-b}{2},\n\\qquad\na-x=\\frac{a(D+b)}{2D},\\quad b-y=\\frac{D+b}{2}.\n",
+      "comparison_count": 0
+    },
+    {
+      "ordinal": 161,
+      "paragraph": "P024",
+      "type": "js-inline-math",
+      "source_span": [
+        16167,
+        16175
+      ],
+      "before": "D\\pm b>0",
+      "after": "D\\pm b\\gt 0",
+      "comparison_count": 1
+    },
+    {
+      "ordinal": 176,
+      "paragraph": "P026",
+      "type": "js-inline-math",
+      "source_span": [
+        17466,
+        17500
+      ],
+      "before": "\\sqrt{73}\\ \\mathrm m<10\\ \\mathrm m",
+      "after": "\\sqrt{73}\\ \\mathrm m\\lt 10\\ \\mathrm m",
+      "comparison_count": 1
+    },
+    {
+      "ordinal": 189,
+      "paragraph": "P027",
+      "type": "js-inline-math",
+      "source_span": [
+        18180,
+        18184
+      ],
+      "before": "L<AB",
+      "after": "L\\lt AB",
+      "comparison_count": 1
+    },
+    {
+      "ordinal": 193,
+      "paragraph": "P027",
+      "type": "js-inline-math",
+      "source_span": [
+        18800,
+        18804
+      ],
+      "before": "L>AB",
+      "after": "L\\gt AB",
+      "comparison_count": 1
+    },
+    {
+      "ordinal": 218,
+      "paragraph": "P030",
+      "type": "js-inline-math",
+      "source_span": [
+        21711,
+        21715
+      ],
+      "before": "AB<L",
+      "after": "AB\\lt L",
+      "comparison_count": 1
+    },
+    {
+      "ordinal": 272,
+      "paragraph": "P043",
+      "type": "js-inline-math",
+      "source_span": [
+        28464,
+        28476
+      ],
+      "before": "10>\\sqrt{40}",
+      "after": "10\\gt \\sqrt{40}",
+      "comparison_count": 1
+    },
+    {
+      "ordinal": 287,
+      "paragraph": "P043",
+      "type": "js-inline-math",
+      "source_span": [
+        29619,
+        29636
+      ],
+      "before": "L=6\\ \\mathrm m<AB",
+      "after": "L=6\\ \\mathrm m\\lt AB",
+      "comparison_count": 1
+    },
+    {
+      "ordinal": 299,
+      "paragraph": "P044",
+      "type": "js-inline-math",
+      "source_span": [
+        30495,
+        30512
+      ],
+      "before": "L>AB=8\\ \\mathrm m",
+      "after": "L\\gt AB=8\\ \\mathrm m",
+      "comparison_count": 1
+    }
+  ]
+}

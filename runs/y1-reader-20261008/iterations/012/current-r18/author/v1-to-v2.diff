@@ -1,0 +1,112 @@
+--- teaching-v1.md
++++ teaching-v2.md
+@@ -98,7 +98,7 @@
+ =\frac{e_k^2}{2x_k}.
+ $$
+ 
+-Starting from $`x_1=2>r`$, this identity keeps every subsequent estimate above $`r`$. Also $`0<e_k<x_k`$, so $`0<e_{k+1}<e_k/2`$. Repeated halving bounds the errors by a geometric sequence tending to zero; hence these estimates really do converge to $`r`$. Once close to $`r`$, the factor $`1/(2x_k)`$ changes little and the next error is roughly a constant times the square of the current error. An error of order $`10^{-d}`$ then becomes roughly of order $`10^{-2d}`$. This explains the lecture's approximate doubling of correct digits here. It is not a promise for every function or starting value.
++Starting from $`x_1=2\gt r`$, this identity keeps every subsequent estimate above $`r`$. Also $`0\lt e_k\lt x_k`$, so $`0\lt e_{k+1}\lt e_k/2`$. Repeated halving bounds the errors by a geometric sequence tending to zero; hence these estimates really do converge to $`r`$. Once close to $`r`$, the factor $`1/(2x_k)`$ changes little and the next error is roughly a constant times the square of the current error. An error of order $`10^{-d}`$ then becomes roughly of order $`10^{-2d}`$. This explains the lecture's approximate doubling of correct digits here. It is not a promise for every function or starting value.
+ 
+ P011. What a limit calculation can establish
+ 
+@@ -142,7 +142,7 @@
+ 
+ P016. A different use of a derivative: the ring model
+ 
+-A string is fixed at $`A=(0,0)`$ and $`B=(a,b)`$. Take horizontal $`x`$ positive to the right, vertical $`y`$ positive upward, and $`a>0`$. Its total length is $`L`$. A ring can slide freely along the string; we seek its lowest possible position $`P=(x,y)`$. Model the string as light, inextensible and taut in two straight segments, and the ring-string contact as frictionless. In uniform gravity the ring's potential energy is $`mgy`$, up to an arbitrary constant, with $`m,g>0`$. Minimising that energy is therefore the same as minimising $`y`$. Small dissipative effects would let motion settle toward a stable lowest configuration; an exactly lossless moving system need not settle. Our calculation identifies the equilibrium geometry and energy minimum.
++A string is fixed at $`A=(0,0)`$ and $`B=(a,b)`$. Take horizontal $`x`$ positive to the right, vertical $`y`$ positive upward, and $`a\gt 0`$. Its total length is $`L`$. A ring can slide freely along the string; we seek its lowest possible position $`P=(x,y)`$. Model the string as light, inextensible and taut in two straight segments, and the ring-string contact as frictionless. In uniform gravity the ring's potential energy is $`mgy`$, up to an arbitrary constant, with $`m,g\gt 0`$. Minimising that energy is therefore the same as minimising $`y`$. Small dissipative effects would let motion settle toward a stable lowest configuration; an exactly lossless moving system need not settle. Our calculation identifies the equilibrium geometry and energy minimum.
+ 
+ P017. Build the fixed-length equation
+ 
+@@ -154,7 +154,7 @@
+ r_1+r_2=L.
+ $$
+ 
+-For example, the horizontal difference between $`P`$ and $`B`$ is $`x-a`$ and the vertical difference is $`y-b`$; both whole differences are squared. Their signs disappear in the lengths but will matter after differentiation. Every term in the length equation has length units. The locus, meaning the set of allowed ring positions, is an ellipse: by definition an ellipse has constant sum of distances to two fixed points, its foci. Here those foci are the supports, not the ring. We assume $`L>\sqrt{a^2+b^2}`$, so the string is longer than the straight support separation and the ellipse is nondegenerate. P027 will explain what happens at or below that boundary.
++For example, the horizontal difference between $`P`$ and $`B`$ is $`x-a`$ and the vertical difference is $`y-b`$; both whole differences are squared. Their signs disappear in the lengths but will matter after differentiation. Every term in the length equation has length units. The locus, meaning the set of allowed ring positions, is an ellipse: by definition an ellipse has constant sum of distances to two fixed points, its foci. Here those foci are the supports, not the ring. We assume $`L\gt \sqrt{a^2+b^2}`$, so the string is longer than the straight support separation and the ellipse is nondegenerate. P027 will explain what happens at or below that boundary.
+ 
+ P018. Figure 3 — lengths and angles at the bottom
+ 
+@@ -237,7 +237,7 @@
+ (b-2y)x=-ay.
+ $$
+ 
+-Now $`b-2y=D>0`$, so
++Now $`b-2y=D\gt 0`$, so
+ 
+ $$
+ x=-\frac{ay}{D}
+@@ -245,7 +245,7 @@
+ =\frac a2\left(1-\frac b{\sqrt{L^2-a^2}}\right).
+ $$
+ 
+-Our assumption $`L^2>a^2+b^2`$ implies $`D>|b|`$. Thus $`0<x<a`$, $`y<0`$ and $`y<b`$. This verifies the region and positive rises used to build the candidate, rather than relying only on the picture.
++Our assumption $`L^2\gt a^2+b^2`$ implies $`D\gt |b|`$. Thus $`0\lt x\lt a`$, $`y\lt 0`$ and $`y\lt b`$. This verifies the region and positive rises used to build the candidate, rather than relying only on the picture.
+ 
+ P024. Check that the candidate has the required string length
+ 
+@@ -254,10 +254,10 @@
+ $$
+ x=\frac{a(D-b)}{2D},\quad -y=\frac{D-b}{2},
+ \qquad
+- a-x=\frac{a(D+b)}{2D},\quad b-y=\frac{D+b}{2}.
+-$$
+-
+-Using $`a^2+D^2=L^2`$ and $`D\pm b>0`$ in the distance formulas yields
++a-x=\frac{a(D+b)}{2D},\quad b-y=\frac{D+b}{2}.
++$$
++
++Using $`a^2+D^2=L^2`$ and $`D\pm b\gt 0`$ in the distance formulas yields
+ 
+ $$
+ r_1=\frac{L(D-b)}{2D},\qquad
+@@ -278,11 +278,11 @@
+ 
+ P026. A connected numerical example
+ 
+-Take $`a=8\ \mathrm m`$, $`b=3\ \mathrm m`$ and $`L=10\ \mathrm m`$. The support separation is $`\sqrt{73}\ \mathrm m<10\ \mathrm m`$, so the model is nondegenerate. Then $`D=\sqrt{100-64}=6\ \mathrm m`$, giving $`y=(3-6)/2=-1.5\ \mathrm m`$ and $`x=4(1-3/6)=2\ \mathrm m`$. The two lengths are $`\sqrt{2^2+1.5^2}=2.5\ \mathrm m`$ and $`\sqrt{6^2+4.5^2}=7.5\ \mathrm m`$, totaling $`10\ \mathrm m`$. The sine ratios are $`2/2.5=6/7.5=0.8`$, so both vertical angles are about $`53.13^\circ`$. P025 bounds every allowed height below by $`-1.5\ \mathrm m`$, and our point attains it. Notice that the minimum is not the midpoint of the two supports.
++Take $`a=8\ \mathrm m`$, $`b=3\ \mathrm m`$ and $`L=10\ \mathrm m`$. The support separation is $`\sqrt{73}\ \mathrm m\lt 10\ \mathrm m`$, so the model is nondegenerate. Then $`D=\sqrt{100-64}=6\ \mathrm m`$, giving $`y=(3-6)/2=-1.5\ \mathrm m`$ and $`x=4(1-3/6)=2\ \mathrm m`$. The two lengths are $`\sqrt{2^2+1.5^2}=2.5\ \mathrm m`$ and $`\sqrt{6^2+4.5^2}=7.5\ \mathrm m`$, totaling $`10\ \mathrm m`$. The sine ratios are $`2/2.5=6/7.5=0.8`$, so both vertical angles are about $`53.13^\circ`$. P025 bounds every allowed height below by $`-1.5\ \mathrm m`$, and our point attains it. Notice that the minimum is not the midpoint of the two supports.
+ 
+ P027. Feasibility comes before calculus
+ 
+-Any broken path from $`A`$ through the ring to $`B`$ has length at least the straight distance $`AB=\sqrt{a^2+b^2}`$. If $`L<AB`$, no such taut string configuration exists. If $`L=AB`$, equality requires the ring to lie on the straight segment from $`A`$ to $`B`$. The ellipse has collapsed to that segment. Its lowest geometric point is the lower endpoint when heights differ; if the endpoints are level, every point of the segment has the same height. An endpoint puts one segment length at zero, so the interior smooth-branch differentiation and two positive-angle derivation do not apply there. Nor should this degenerate geometry be taken as a suspended, freely sliding massive ring in equilibrium without additional contact forces. If $`L>AB`$, the formulas and checks in P022–P025 apply. Keeping the supports fixed while changing string length can therefore change the kind of problem, not just its numerical answer.
++Any broken path from $`A`$ through the ring to $`B`$ has length at least the straight distance $`AB=\sqrt{a^2+b^2}`$. If $`L\lt AB`$, no such taut string configuration exists. If $`L=AB`$, equality requires the ring to lie on the straight segment from $`A`$ to $`B`$. The ellipse has collapsed to that segment. Its lowest geometric point is the lower endpoint when heights differ; if the endpoints are level, every point of the segment has the same height. An endpoint puts one segment length at zero, so the interior smooth-branch differentiation and two positive-angle derivation do not apply there. Nor should this degenerate geometry be taken as a suspended, freely sliding massive ring in equilibrium without additional contact forces. If $`L\gt AB`$, the formulas and checks in P022–P025 apply. Keeping the supports fixed while changing string length can therefore change the kind of problem, not just its numerical answer.
+ 
+ <a name="q3"></a>
+ 
+@@ -302,7 +302,7 @@
+ (\mathbf u_1+\mathbf u_2)\cdot\mathbf t=0.
+ $$
+ 
+-Thus $`\mathbf n=\mathbf u_1+\mathbf u_2`$ is a normal direction. It is nonzero on the nondegenerate ellipse: opposite unit vectors would put $`P`$ between the foci, where the distance sum is only $`AB<L`$. Because both unit vectors have length one,
++Thus $`\mathbf n=\mathbf u_1+\mathbf u_2`$ is a normal direction. It is nonzero on the nondegenerate ellipse: opposite unit vectors would put $`P`$ between the foci, where the distance sum is only $`AB\lt L`$. Because both unit vectors have length one,
+ 
+ $$
+ \mathbf n\cdot\mathbf u_1=1+\mathbf u_1\cdot\mathbf u_2
+@@ -395,7 +395,7 @@
+ 
+ P043. Solution Q3
+ 
+-For $`L=10\ \mathrm m`$, $`10>\sqrt{40}`$ verifies feasibility and nondegeneracy. We have $`D=\sqrt{100-36}=8\ \mathrm m`$. Therefore
++For $`L=10\ \mathrm m`$, $`10\gt \sqrt{40}`$ verifies feasibility and nondegeneracy. We have $`D=\sqrt{100-36}=8\ \mathrm m`$. Therefore
+ 
+ $$
+ y=\frac{2-8}{2}=-3\ \mathrm m,
+@@ -405,7 +405,7 @@
+ 
+ The left length is $`\sqrt{(9/4)^2+3^2}=15/4\ \mathrm m`$; the right length is $`\sqrt{(15/4)^2+5^2}=25/4\ \mathrm m`$. They sum to $`10\ \mathrm m`$. The horizontal-to-length ratios are both $`3/5`$, so $`\sin\alpha=\sin\beta=3/5`$. Both angles are acute, giving $`\alpha=\beta=\arcsin(3/5)\approx36.87^\circ`$. P025 bounds every allowed height by $`y\ge(2-8)/2=-3\ \mathrm m`$; this feasible point attains the bound, proving the global minimum.
+ 
+-When $`L=\sqrt{40}\ \mathrm m=AB`$, every allowed geometric position lies on the straight segment from $`(0,0)`$ to $`(6,2)`$. Its lowest point is $`(0,0)`$. One string segment then has zero length: the nondegenerate two-segment stationary derivation is inapplicable, and an unconstrained suspended equilibrium there is not established. Although the final coordinate formulas have a limiting value here because $`D=2\ \mathrm m`$, their earlier divisions by segment lengths do not remain valid. When $`L=6\ \mathrm m<AB`$, the string is shorter than the support separation, so there is no allowed taut configuration at all. [Return to Q3](#q3) · [Hint Q3](#h3)
++When $`L=\sqrt{40}\ \mathrm m=AB`$, every allowed geometric position lies on the straight segment from $`(0,0)`$ to $`(6,2)`$. Its lowest point is $`(0,0)`$. One string segment then has zero length: the nondegenerate two-segment stationary derivation is inapplicable, and an unconstrained suspended equilibrium there is not established. Although the final coordinate formulas have a limiting value here because $`D=2\ \mathrm m`$, their earlier divisions by segment lengths do not remain valid. When $`L=6\ \mathrm m\lt AB`$, the string is shorter than the support separation, so there is no allowed taut configuration at all. [Return to Q3](#q3) · [Hint Q3](#h3)
+ 
+ <a name="s4"></a>
+ 
+@@ -413,7 +413,7 @@
+ 
+ For the root problem define $`f(u)=u^2-7`$. The required zero is $`f(u)=0`$, a point on the horizontal axis; a stationary value $`f'(u)=0`$ would answer a different question. The tangent at a current estimate has equation $`y-f(u_k)=f'(u_k)(u-u_k)`$. Setting its height to zero and dividing by its nonzero slope gives $`u_{k+1}=u_k-f(u_k)/f'(u_k)`$. Since $`f(3)=2`$ and $`f'(3)=6`$, $`u_1=3-2/6=8/3`$. Its residual is $`64/9-7=1/9`$, so this is an estimate, not an exact root.
+ 
+-For the ring, the required zero at a smooth interior height minimum is $`dy/dx=0`$ along the fixed-length locus. The height itself need not be zero. Here $`a=8\ \mathrm m,b=0,L=10\ \mathrm m`$ and $`L>AB=8\ \mathrm m`$. Thus $`D=6\ \mathrm m`$, $`x=4\ \mathrm m`$ and $`y=-3\ \mathrm m`$. Each length is $`\sqrt{4^2+3^2}=5\ \mathrm m`$, totaling $`10\ \mathrm m`$. The global bound is $`y\ge-3\ \mathrm m`$, attained by this point. The two zero conditions therefore serve different aims: a function value identifies a root, whereas a derivative value identifies a stationary candidate subject to the constraint and subsequent checks. [Return to Q4](#q4) · [Hint Q4](#h4)
++For the ring, the required zero at a smooth interior height minimum is $`dy/dx=0`$ along the fixed-length locus. The height itself need not be zero. Here $`a=8\ \mathrm m,b=0,L=10\ \mathrm m`$ and $`L\gt AB=8\ \mathrm m`$. Thus $`D=6\ \mathrm m`$, $`x=4\ \mathrm m`$ and $`y=-3\ \mathrm m`$. Each length is $`\sqrt{4^2+3^2}=5\ \mathrm m`$, totaling $`10\ \mathrm m`$. The global bound is $`y\ge-3\ \mathrm m`$, attained by this point. The two zero conditions therefore serve different aims: a function value identifies a root, whereas a derivative value identifies a stationary candidate subject to the constraint and subsequent checks. [Return to Q4](#q4) · [Hint Q4](#h4)
+ 
+ <a name="source"></a>
+ 

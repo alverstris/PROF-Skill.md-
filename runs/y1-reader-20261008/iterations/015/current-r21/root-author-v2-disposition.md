@@ -1,0 +1,5 @@
+D015 revised author disposition
+
+Root read the full A01–A20 revised audit and every T1–T12 witness, current technical residuals, complete read-access record, topic addendum and structural links/anchors/counts. Root independently verified all28 packet file hashes and all43 original snapshot byte identities. Exact inverse and nine-file freeze checks are separately preserved. Current author math checks contain18 zero residuals plus the two rejected Q5 residuals -2 and -4, agreeing with root independent pre-solutions and revised full read.
+
+Root reran topic and full prof_state checks. Both correctly return NOT_READY: T1–T10 pass, G08/T11/T12 and six root-owned output gates pending. No schema, missing, stale or locator error. This is the author checkpoint, not final acceptance. Native GitHub parser is now independently confirmed in root-parser-v2-verification.json; remaining complete reader and destination/preview evidence is still pending. No frozen original or revised teaching artifact has been changed.

@@ -1,0 +1,349 @@
+{
+  "method": "Independent root HTMLParser single entity decode directly from actual stored GitHub article; independently regex-extracted every source math expression; no second unescape",
+  "source_count": 214,
+  "actual_count": 214,
+  "display_count": 24,
+  "inline_count": 190,
+  "mismatched_inline_count": 48,
+  "literal_entity_instances": 58,
+  "all_other_math_exact": true,
+  "issues": [
+    {
+      "ordinal": 1,
+      "source_line": 15,
+      "kind": "inline",
+      "source": "$a<b$",
+      "actual": "$a&lt;b$"
+    },
+    {
+      "ordinal": 26,
+      "source_line": 53,
+      "kind": "inline",
+      "source": "$h>0$",
+      "actual": "$h&gt;0$"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 53,
+      "kind": "inline",
+      "source": "$h<0$",
+      "actual": "$h&lt;0$"
+    },
+    {
+      "ordinal": 44,
+      "source_line": 77,
+      "kind": "inline",
+      "source": "$0<c<3$",
+      "actual": "$0&lt;c&lt;3$"
+    },
+    {
+      "ordinal": 50,
+      "source_line": 89,
+      "kind": "inline",
+      "source": "$x>a$",
+      "actual": "$x&gt;a$"
+    },
+    {
+      "ordinal": 52,
+      "source_line": 93,
+      "kind": "inline",
+      "source": "$x<a$",
+      "actual": "$x&lt;a$"
+    },
+    {
+      "ordinal": 54,
+      "source_line": 93,
+      "kind": "inline",
+      "source": "$x<c<a$",
+      "actual": "$x&lt;c&lt;a$"
+    },
+    {
+      "ordinal": 70,
+      "source_line": 117,
+      "kind": "inline",
+      "source": "$a<b$",
+      "actual": "$a&lt;b$"
+    },
+    {
+      "ordinal": 71,
+      "source_line": 117,
+      "kind": "inline",
+      "source": "$f(a)<f(b)$",
+      "actual": "$f(a)&lt;f(b)$"
+    },
+    {
+      "ordinal": 72,
+      "source_line": 117,
+      "kind": "inline",
+      "source": "$f(a)>f(b)$",
+      "actual": "$f(a)&gt;f(b)$"
+    },
+    {
+      "ordinal": 75,
+      "source_line": 121,
+      "kind": "inline",
+      "source": "$a<b$",
+      "actual": "$a&lt;b$"
+    },
+    {
+      "ordinal": 77,
+      "source_line": 125,
+      "kind": "inline",
+      "source": "$f'>0$",
+      "actual": "$f'&gt;0$"
+    },
+    {
+      "ordinal": 78,
+      "source_line": 125,
+      "kind": "inline",
+      "source": "$f(b)>f(a)$",
+      "actual": "$f(b)&gt;f(a)$"
+    },
+    {
+      "ordinal": 79,
+      "source_line": 125,
+      "kind": "inline",
+      "source": "$f'<0$",
+      "actual": "$f'&lt;0$"
+    },
+    {
+      "ordinal": 81,
+      "source_line": 125,
+      "kind": "inline",
+      "source": "$f(b)<f(a)$",
+      "actual": "$f(b)&lt;f(a)$"
+    },
+    {
+      "ordinal": 85,
+      "source_line": 127,
+      "kind": "inline",
+      "source": "$v'(x)=3x^2+2>0$",
+      "actual": "$v'(x)=3x^2+2&gt;0$"
+    },
+    {
+      "ordinal": 92,
+      "source_line": 129,
+      "kind": "inline",
+      "source": "$a<b$",
+      "actual": "$a&lt;b$"
+    },
+    {
+      "ordinal": 95,
+      "source_line": 133,
+      "kind": "inline",
+      "source": "$a<b$",
+      "actual": "$a&lt;b$"
+    },
+    {
+      "ordinal": 96,
+      "source_line": 151,
+      "kind": "inline",
+      "source": "$e^x>0$",
+      "actual": "$e^x&gt;0$"
+    },
+    {
+      "ordinal": 101,
+      "source_line": 153,
+      "kind": "inline",
+      "source": "$R_0'(x)=e^x>0$",
+      "actual": "$R_0'(x)=e^x&gt;0$"
+    },
+    {
+      "ordinal": 103,
+      "source_line": 153,
+      "kind": "inline",
+      "source": "$x>0$",
+      "actual": "$x&gt;0$"
+    },
+    {
+      "ordinal": 109,
+      "source_line": 161,
+      "kind": "inline",
+      "source": "$R_1(x)>0$",
+      "actual": "$R_1(x)&gt;0$"
+    },
+    {
+      "ordinal": 114,
+      "source_line": 171,
+      "kind": "inline",
+      "source": "$R_1(x)>0$",
+      "actual": "$R_1(x)&gt;0$"
+    },
+    {
+      "ordinal": 115,
+      "source_line": 171,
+      "kind": "inline",
+      "source": "$x>0$",
+      "actual": "$x&gt;0$"
+    },
+    {
+      "ordinal": 116,
+      "source_line": 171,
+      "kind": "inline",
+      "source": "$R_2(x)>0$",
+      "actual": "$R_2(x)&gt;0$"
+    },
+    {
+      "ordinal": 124,
+      "source_line": 177,
+      "kind": "inline",
+      "source": "$e>1+1+1/2+1/6=8/3$",
+      "actual": "$e&gt;1+1+1/2+1/6=8/3$"
+    },
+    {
+      "ordinal": 139,
+      "source_line": 183,
+      "kind": "inline",
+      "source": "$e^x>P_n(x)$",
+      "actual": "$e^x&gt;P_n(x)$"
+    },
+    {
+      "ordinal": 143,
+      "source_line": 203,
+      "kind": "inline",
+      "source": "$L<f'(t)<U$",
+      "actual": "$L&lt;f'(t)&lt;U$"
+    },
+    {
+      "ordinal": 144,
+      "source_line": 203,
+      "kind": "inline",
+      "source": "$a<t<b$",
+      "actual": "$a&lt;t&lt;b$"
+    },
+    {
+      "ordinal": 146,
+      "source_line": 203,
+      "kind": "inline",
+      "source": "$b-a>0$",
+      "actual": "$b-a&gt;0$"
+    },
+    {
+      "ordinal": 151,
+      "source_line": 209,
+      "kind": "inline",
+      "source": "$1<c<4$",
+      "actual": "$1&lt;c&lt;4$"
+    },
+    {
+      "ordinal": 152,
+      "source_line": 209,
+      "kind": "inline",
+      "source": "$1<\\sqrt c<2$",
+      "actual": "$1&lt;\\sqrt c&lt;2$"
+    },
+    {
+      "ordinal": 153,
+      "source_line": 209,
+      "kind": "inline",
+      "source": "$1/4<f'(c)<1/2$",
+      "actual": "$1/4&lt;f'(c)&lt;1/2$"
+    },
+    {
+      "ordinal": 164,
+      "source_line": 258,
+      "kind": "inline",
+      "source": "$R_1'(x)<0$",
+      "actual": "$R_1'(x)&lt;0$"
+    },
+    {
+      "ordinal": 169,
+      "source_line": 263,
+      "kind": "inline",
+      "source": "$1<c<1+h$",
+      "actual": "$1&lt;c&lt;1+h$"
+    },
+    {
+      "ordinal": 175,
+      "source_line": 273,
+      "kind": "inline",
+      "source": "$\\sqrt3>1$",
+      "actual": "$\\sqrt3&gt;1$"
+    },
+    {
+      "ordinal": 185,
+      "source_line": 288,
+      "kind": "inline",
+      "source": "$0<a<b$",
+      "actual": "$0&lt;a&lt;b$"
+    },
+    {
+      "ordinal": 189,
+      "source_line": 288,
+      "kind": "inline",
+      "source": "$u'(c)=-1/c<0$",
+      "actual": "$u'(c)=-1/c&lt;0$"
+    },
+    {
+      "ordinal": 190,
+      "source_line": 288,
+      "kind": "inline",
+      "source": "$b-a>0$",
+      "actual": "$b-a&gt;0$"
+    },
+    {
+      "ordinal": 191,
+      "source_line": 295,
+      "kind": "inline",
+      "source": "$e^x<e^0=1$",
+      "actual": "$e^x&lt;e^0=1$"
+    },
+    {
+      "ordinal": 192,
+      "source_line": 295,
+      "kind": "inline",
+      "source": "$R_1'(x)=e^x-1<0$",
+      "actual": "$R_1'(x)=e^x-1&lt;0$"
+    },
+    {
+      "ordinal": 195,
+      "source_line": 299,
+      "kind": "inline",
+      "source": "$R_1(x)>0$",
+      "actual": "$R_1(x)&gt;0$"
+    },
+    {
+      "ordinal": 196,
+      "source_line": 299,
+      "kind": "inline",
+      "source": "$e^x>1+x$",
+      "actual": "$e^x&gt;1+x$"
+    },
+    {
+      "ordinal": 197,
+      "source_line": 301,
+      "kind": "inline",
+      "source": "$R_2'(x)=R_1(x)>0$",
+      "actual": "$R_2'(x)=R_1(x)&gt;0$"
+    },
+    {
+      "ordinal": 198,
+      "source_line": 301,
+      "kind": "inline",
+      "source": "$R_2(0)-R_2(x)>0$",
+      "actual": "$R_2(0)-R_2(x)&gt;0$"
+    },
+    {
+      "ordinal": 200,
+      "source_line": 301,
+      "kind": "inline",
+      "source": "$R_2(x)<0$",
+      "actual": "$R_2(x)&lt;0$"
+    },
+    {
+      "ordinal": 202,
+      "source_line": 310,
+      "kind": "inline",
+      "source": "$a<b$",
+      "actual": "$a&lt;b$"
+    },
+    {
+      "ordinal": 208,
+      "source_line": 316,
+      "kind": "inline",
+      "source": "$1/(1+h)<1/c<1$",
+      "actual": "$1/(1+h)&lt;1/c&lt;1$"
+    }
+  ],
+  "article_sha256": "ec8bb3cf6fa90e3e691f8cc14ba1e4d9d5e06d3bf7bb1d04f167160d1dc48728"
+}

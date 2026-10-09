@@ -1,0 +1,11 @@
+D013 author recovery index — frozen learner v1
+
+Task: authorized PROF self-iteration through MIT18.01Fall2006Lecture14. Exact user constraints: runs/y1-reader-20261008/requests.md from checkout root; author assignment in parent agent handoff. Cloud-only, source inputs read-only, no Windows skill editing, no publication by this author. Incoming exact skill2026-10-09-r19, SHA2569a40f31312855aed26f5ad78227e509a3401600e351bf4690c5d7c9f9cf5fa23.
+
+Current topic mvt complete authoring/checkpoint. All required portions S00–S08 in ../source-coverage.md. Full baseline/control/original-source access in ../access-log.md; no historical lesson template used. Relevant baseline/current-premise distinction in ../reconstruction.md and ../research-and-math.md. No unsettled convention or user question. Original source errors are corrected in frozen teaching; no substantive skill change proposed.
+
+Frozen deliverable: ../packet-manifest-v1.json identifies all7actual constituent files. Markdown ../learner-v1.md SHA2564af6ed4369de2cc322f2d1022fdc05071a5355d05f4cf8df52d3fc343baf7364. Freeze2026-10-09T14:07:20.585210+00:00. Do not modify these bytes; any necessary revision must become a separately frozen revision and fresh reader condition. The six original prompts were handed to root before solutions; root acknowledged independent presolutions saved before this document was created.
+
+Checks: entire326-line learner read sequentially including ending/help; three full figures inspected, two initial Figure1 label overlaps preserved and corrected before freeze;43algebra/navigation/source-format checks passed. Detailed T1–T12 witnesses ../requirements.md; full prerequisite-to-use author reconstruction ../reconstruction.md. Current helper returns pending T11,T12 and independent/destination/SASIS gates intentionally. No stale all-pass or semantic guarantee is claimed.
+
+Next action: root completes fresh two-input SASIS, independent technical/fullcoverage/final review, actual destination math/typography/fullpreview/navigation, then diagnoses any supported issues. Author owns no closure/publication. Wait for a concrete reported defect before any further learner work. Do not read other agents' answers as an authoring template.

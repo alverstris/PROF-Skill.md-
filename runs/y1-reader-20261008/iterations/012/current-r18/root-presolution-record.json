@@ -1,0 +1,61 @@
+{
+  "saved_at_utc": "2026-10-09T13:03:20.838846+00:00",
+  "prompt_sha256": "6cc1bb5d29000024c4022ab1ba576b2a9e87cf0b49f8e190f0c6f6acba280e2e",
+  "condition": "Root read only frozen prompts and original source; no authored teaching/hints/solutions opened before these independent calculations",
+  "Q1": {
+    "tangent": "y+1=4(x-2)",
+    "x1": "9/4",
+    "residual": "1/16",
+    "interpretation": "new x-axis intercept is an approximate input root, not function height; originalheight-1, tangentheight0 atx1, actualcurveheight1/16"
+  },
+  "Q2": {
+    "iterates": [
+      "0",
+      "1",
+      "0",
+      "1"
+    ],
+    "function_values": [
+      "2",
+      "1",
+      "2",
+      "1"
+    ],
+    "derivatives": [
+      "-2",
+      "1",
+      "-2",
+      "1"
+    ],
+    "conclusion": "exact two-cycle, neither state root; deterministic further repetition cannotconverge",
+    "alternative": "bisection/continuity between-2and-1; midpoint-3/2hasf=13/8positive, retain[-2,-3/2]"
+  },
+  "Q3": {
+    "S": "8m",
+    "position": [
+      "9/4m",
+      "-3m"
+    ],
+    "lengths": [
+      "15/4m",
+      "25/4m"
+    ],
+    "angles": "both asin(3/5)=atan(3/4), approximately36.86989765degrees fromupwardvertical",
+    "global": "L>=sqrt(36+(2-2y)^2) => y>=-3; candidateattains bound",
+    "L_sqrt40": "equalsendpointseparation, feasiblepoint-ringlocus isstraightclosedsegmentAB; minimumatA=(0,0),segmentlengths0andsqrt40. Nondegenerateimplicit/acute-angle derivation invalid atzero segment; S=2formulagivesendpointformally butdoesnotjustifydivision. If a differentphysicalmodel excludesends, minimumnotattained andheightinfimum0; not imposed onstatedpoint-ring model.",
+    "L_6": "less than sqrt40; impossibletautstringconstraint, no configuration; S=0 alsoinvalidatesnondegenerateformula"
+  },
+  "Q4": {
+    "root_zero_condition": "u\u00b2-7=0; tangentv-2=6(u-3),v=0givesu1=8/3,residual1/9",
+    "ring_zero_condition": "localheightderivativeyprime=0 subjecttostringconstraint, thencheckminimum; noty=0",
+    "ring_position": [
+      "4m",
+      "-3m"
+    ],
+    "ring_lengths": [
+      "5m",
+      "5m"
+    ],
+    "global": "10 >= sqrt(64 + 4y\u00b2) implies y >= -3; attained"
+  }
+}

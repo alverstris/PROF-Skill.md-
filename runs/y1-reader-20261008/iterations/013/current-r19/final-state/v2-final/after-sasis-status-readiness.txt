@@ -1,0 +1,25 @@
+{
+  "result": "NOT_READY",
+  "scope": "full declared project",
+  "limits": "This checks declared records, file/locator existence and revision freshness only. Source reads, web reads, applicability, waivers and semantic reviews are self-reported. It does not certify teaching quality, learner mastery, authorization, or skill invocation/application.",
+  "requirements": {
+    "mvt": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 10,
+      "pending": 2,
+      "unverified": 0,
+      "waived_by_user": 0
+    }
+  },
+  "defects": [
+    "mvt.T11: not ready: pending",
+    "mvt.T12: not ready: pending",
+    "output_check.destination_math: not ready: pending",
+    "output_check.destination_visual: not ready: pending",
+    "output_check.navigation_targets: not ready: pending",
+    "output_check.final_review: not ready: pending"
+  ],
+  "notes": [],
+  "next_action": "Address the listed readiness items: repair actual defects or await required student information. Recheck affected teaching and dependencies before updating recorded hashes; do not invent resolution to obtain a clean status."
+}

@@ -1,0 +1,155 @@
+{
+  "all3_fresh_PNGs_opened": true,
+  "all3_fresh_SVG_fullframe_renders_opened": true,
+  "images": [
+    {
+      "png": "figures/figure-1-parallel-lines.png",
+      "sha256": "802174ba2825a78c2aaeb1e3bb80193398668f9bf8af1fa8185de9c0afe1af1f",
+      "findings": "Figure1: y=x², secant y=4x−3 and tangent y=4x−4 at (2,4), endpoints (1,1),(3,9), lower dashed parallel line and upward arrow agree with sectionA/B. All labels and full frame readable in PNG and fresh-SVG render."
+    },
+    {
+      "png": "figures/figure-2-corner.png",
+      "sha256": "ffcb7418488dcdb45c9e1eab91ac7a554a578e061a9fc9f6653c889e2432712f",
+      "findings": "Figure2: |x| endpoints (−1,1),(2,2), secant slope1/3, first-contact line y=x/3 at (0,0), lower parallel line/upward shift and corner annotation agree with sectionB. Full PNG and SVG frames readable."
+    },
+    {
+      "png": "figures/figure-3-tangent-error.png",
+      "sha256": "ffbd570eb22b77c6016f65841db03776dfab02967b6b197cb79ce4245c54a8f1",
+      "findings": "Figure3: y=x², tangent2x−1 at (1,1), vertical error between (2,3) and (2,4) with output difference1 agree with sectionC. Full PNG and SVG frames readable; no clipping or missing labels."
+    }
+  ],
+  "SVG_renderer": "Inkscape, 150dpi, full SVG page",
+  "SVG_render_results": [
+    {
+      "svg": "figures/figure-1-parallel-lines.svg",
+      "render": "svg-render/figure-1-parallel-lines.png",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "\n** (inkscape:6): WARNING **: 18:24:47.029: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function.\n",
+      "render_sha256": "46694b0ca9de045b713aad2f1c860ff056cd1c9c679cc22275bc18433a2741b4"
+    },
+    {
+      "svg": "figures/figure-2-corner.svg",
+      "render": "svg-render/figure-2-corner.png",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "\n** (inkscape:14): WARNING **: 18:24:47.303: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function.\n",
+      "render_sha256": "cd9439d2631e1054bd80315b585b8a4640d6a562bf0834c4917115b63f33205c"
+    },
+    {
+      "svg": "figures/figure-3-tangent-error.svg",
+      "render": "svg-render/figure-3-tangent-error.png",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "\n** (inkscape:22): WARNING **: 18:24:47.564: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function.\n",
+      "render_sha256": "a9e6c78ad8567cadcf273eef99408d884ac7e379a212d2eefe6b2dd47702dd8b"
+    }
+  ],
+  "SVG_warning_disposition": "All three renders exit0. GtkRecentManager initialization warnings are preserved in svg-render.json; full-frame inspection found no absent or damaged content.",
+  "material_image_defects": [],
+  "internal_PDF_preview": "All13 complete canonical final-page rasters inspected, with independent exact pixel correspondence to the intact canonical PDF.",
+  "canonical_PDF": "preview-final4/verified-build.pdf",
+  "pdf_sha256": "61514c5aa845be7acf8aa84b932d4d04bcaecd151db7402e20aa09cd67c2bd12",
+  "page_count": 13,
+  "every_complete_final_page_opened_at_1_5x": true,
+  "pixel_correspondence_evidence": "preview-final4/exact-PDF-raster-correspondence.json",
+  "page_findings": [
+    {
+      "page": 1,
+      "file": "preview-final4/page-01.png",
+      "sha256": "700f1d4f26f7024ac3eebd4e1b40be8ef23043051fbf44c976eed3576dd60ab9",
+      "complete_page_opened": true,
+      "findings": "Title/route, sectionA theorem/conditions and derivative clarification readable. Repaired a<b and MVT fractions preserve meaning. Upright regular prose. Worked example continues page2."
+    },
+    {
+      "page": 2,
+      "file": "preview-final4/page-02.png",
+      "sha256": "e6c3afa65184ccb5b0ef1e6a4404a59647e406404cc818e08136af5d8f070714",
+      "complete_page_opened": true,
+      "findings": "Worked case continuation, complete Figure1 and corrected input/output caption readable; TaskP1 and start of sectionB derivation intact. Superscript3 in plaintext task renders correctly."
+    },
+    {
+      "page": 3,
+      "file": "preview-final4/page-03.png",
+      "sha256": "41b2975879c6df4706eed6bc1ba7d654cc58dce276f1d21787353cee9aff7b8b",
+      "complete_page_opened": true,
+      "findings": "Extreme-value premise, derivative-zero proof, gap alternatives and contact construction readable. Unicode minus signs and relations render; corner counterexample complete before figure on next page."
+    },
+    {
+      "page": 4,
+      "file": "preview-final4/page-04.png",
+      "sha256": "16402550c7229cafff3a01ec4e9393bd22761564bcf1e8ebe9d0dc7b80f5c304",
+      "complete_page_opened": true,
+      "findings": "Complete Figure2 and caption, endpoint regularity note, TaskP2 and route-speed example readable. Plaintext ≤ and < remain recognizable; derivative/unit display intact."
+    },
+    {
+      "page": 5,
+      "file": "preview-final4/page-05.png",
+      "sha256": "1e533ae98c402bfa4de293772839f78daaa9237941f4765b91a405981ab9d8fb",
+      "complete_page_opened": true,
+      "findings": "Exact MVT forms and endpoint cases, tangent approximation and signed error explanation readable. Whitespace below accommodates full Figure3 on following page; no source content omitted."
+    },
+    {
+      "page": 6,
+      "file": "preview-final4/page-06.png",
+      "sha256": "0d97175f02e337f2d779ae359370712e6af3d0ca4d6c85132116367402cfb20a",
+      "complete_page_opened": true,
+      "findings": "Complete Figure3/caption, TaskP3 and sectionD definitions/derivation readable. Plaintext primes and squares in TaskP3 render; comparison directions preserved. SectionD proof continues page7."
+    },
+    {
+      "page": 7,
+      "file": "preview-final4/page-07.png",
+      "sha256": "e6808bef4e079d1d845ecd66a5ca4792d725251b92cbd6e101008f499ae48768",
+      "complete_page_opened": true,
+      "findings": "Derivative-sign conclusions, strict/non-strict distinction, interval caveat, TaskP4 and sectionE start readable. Plaintext infinity/minus/prime symbols intact; no forced prose emphasis."
+    },
+    {
+      "page": 8,
+      "file": "preview-final4/page-08.png",
+      "sha256": "33e6f48cd2d0f3db75385e724a964c1eb86d88d3192f19af012745ce53760318",
+      "complete_page_opened": true,
+      "findings": "Exponential finite-bound ladder, derivatives, factorials and finite sums readable. Indices and comparison directions retained. Infinite-series display at bottom continues with explanation page9."
+    },
+    {
+      "page": 9,
+      "file": "preview-final4/page-09.png",
+      "sha256": "743c35a06a7426bd04c8793b2c091c463824a8a64f3d3b1555c8f4bf037c6d52",
+      "complete_page_opened": true,
+      "findings": "Series-bound distinction and TaskP5 readable, including plaintext superscriptx/subscripts1,2. SectionF derivative-bound chains and sqrt example readable. TaskP6 starts and continues page10."
+    },
+    {
+      "page": 10,
+      "file": "preview-final4/page-10.png",
+      "sha256": "ed93c64f2c295ba5fb6e3f7c65b54c446154dec44e884cb8ca736dbbca8c980a",
+      "complete_page_opened": true,
+      "findings": "TaskP6(b,c), revisit guidance and all six hints with return links readable. No full solution is visible on any hint target page."
+    },
+    {
+      "page": 11,
+      "file": "preview-final4/page-11.png",
+      "sha256": "1f951c5232384ef8b187f54930f07b449a4700d27dbf2244ebc310060237f573",
+      "complete_page_opened": true,
+      "findings": "Full solutionsP1–P4 and beginningP5 readable. Clarified slope-matching wording preserved; algebraic roots/constraints, interval breaks and negative-side inequalities intact."
+    },
+    {
+      "page": 12,
+      "file": "preview-final4/page-12.png",
+      "sha256": "a2af7423fbe21a8d13d183bce5158a76428738e062be58a2b6e33133180a88ac",
+      "complete_page_opened": true,
+      "findings": "P5 conclusion, P6 complete reasoning and source note readable. Strict logarithm chain, uniqueness argument and all return links retained. Final source-note sentence continues page13."
+    },
+    {
+      "page": 13,
+      "file": "preview-final4/page-13.png",
+      "sha256": "e25b7dfb6dcd2bacdc2e2429dd3e490c4bfbbae4777b61b493f328ccb5fc58f4",
+      "complete_page_opened": true,
+      "findings": "Final source-scope sentence is complete and readable. This mostly empty last page is an internal-preview pagination limitation, not missing content."
+    }
+  ],
+  "material_render_defects": [],
+  "pagination_limits": [
+    "Page13 contains only the ending of the source note.",
+    "Pages3 and5 have whitespace before the next full figure; some prose units span pages.",
+    "This is an internal audit derivative, not a user-facing polished PDF."
+  ]
+}

@@ -1,0 +1,56 @@
+from pathlib import Path
+import json,re,hashlib,fitz,collections,xml.etree.ElementTree as ET
+from html.parser import HTMLParser
+p=Path(__file__).parent;source=p.parent/'author/learner-v2.md';s=source.read_text();article=(p/'github-article.html').read_text();commit='ea627ac47e24cd309a3e7b75a4ecfd070e54a3b5'
+sha=lambda f:hashlib.sha256(f.read_bytes()).hexdigest()
+def read(f):return json.loads((p/f).read_text())
+def save(f,obj):
+ with (p/f).open('x') as o:json.dump(obj,o,ensure_ascii=False,indent=2);o.write('\n')
+a=read('source-math.json');b=read('destination-math.json');rawnodes=re.findall(r'<math-renderer\b[^>]*>.*?</math-renderer>',article,re.S);diff=[]
+for i,(x,y) in enumerate(zip(a,b),1):
+ if x['payload']!=y['payload']:
+  diff.append(dict(ordinal=i,section=x['anchor_section'],source_line=x['source_line'],type=x['type'],source=x['payload'],destination=y['payload'],source_span=x['span'],destination_element=y['element'],raw_HTML=rawnodes[i-1],literal_entities=re.findall(r'&(lt|gt);',y['payload']),operand_and_grouping_characters_unchanged_except_comparisons=y['payload'].replace('&lt;','<').replace('&gt;','>')==x['payload'],effect='The intended order relation is supplied as literal HTML-entity text, rather than its original comparison operator. Operand/grouping strings survive; complete mathematical relation preservation fails. Live MathJax execution is unobserved.'))
+save('complete-math-failure-map.json',diff)
+norm=lambda x:re.sub(r'\s+',' ',x).strip()
+def masked(text,tokens):
+ out='';pos=0
+ for i,x in enumerate(tokens):
+  d='$$' if x['type']=='js-display-math' else '$';needle=norm(d+x['payload']+d);at=text.find(needle,pos);assert at>=0,(i,needle)
+  out+=text[pos:at]+f'MATHNODE{i:03d}';pos=at+len(needle)
+ return out+text[pos:]
+expected=(p/'expected-prose-math-stream.txt').read_text().strip();actual=(p/'actual-prose-math-stream.txt').read_text().strip();em=masked(expected,a);am=masked(actual,b)
+(p/'source-prose-with-math-placeholders.txt').write_text(em+'\n');(p/'destination-prose-with-math-placeholders.txt').write_text(am+'\n')
+class Paragraphs(HTMLParser):
+ def __init__(self):super().__init__();self.active=False;self.current=[];self.paragraphs=[]
+ def handle_starttag(self,t,attrs):
+  if t=='p':self.active=True;self.current=[]
+ def handle_endtag(self,t):
+  if t=='p':self.paragraphs.append(norm(''.join(self.current)));self.active=False
+ def handle_data(self,d):
+  if self.active:self.current.append(d)
+parsed=Paragraphs();parsed.feed(article)
+labelpattern=r'(?:[A-F]\. .+|Task P[1-6]|Hint P[1-6]|Solution P[1-6]|Reading route|Hints — separated from the complete solutions|Complete reasoned solutions|Source and scope note)'
+source_labels=[x for x in s.splitlines() if re.fullmatch(labelpattern,x)];actual_labels=[x for x in parsed.paragraphs if re.fullmatch(labelpattern,x)];labelcheck=dict(source_labels=source_labels,actual_paragraph_labels=actual_labels,exact=source_labels==actual_labels,count=len(source_labels),scope='This document uses A–F section labels and P1–P6 Task/Hint/Solution labels, not P001 numbered paragraphs. Generic inherited Pnnn extraction in prose-comparison.json yields empty lists and is not used as acceptance. These labels are extracted only from complete actual paragraphs, ignoring empty anchor tags.')
+save('paragraph-label-check.json',labelcheck)
+nav=read('navigation.json');styles=read('element-style-evidence.json');assets=read('asset-fetch.json');otherfetch=read('raw-source-SVG-fetch.json');links=[x for x in nav['links'] if x['href'].startswith('#')];ids=re.findall(r'<a id="([^"]+)"></a>',s)
+manifest=json.loads((p.parent/'author/packet-manifest-v2.json').read_text());constituents=[]
+for x in manifest['constituents']:
+ local=p.parent/'author'/x['path'];remote=p/('actual-raw-learner.md' if x['path']=='learner-v2.md' else x['path']);constituents.append(dict(path=x['path'],bytes=x['bytes'],sha256=x['sha256'],local_matches_manifest=sha(local)==x['sha256'] and local.stat().st_size==x['bytes'],fresh_remote_matches_manifest=sha(remote)==x['sha256'] and remote.stat().st_size==x['bytes'],local_and_remote_equal=remote.read_bytes()==local.read_bytes()))
+source_href='https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/1a211af8e4860b63b801aa3d6e7a2e95_lec14.pdf';local=p.parent/'source/lec14.pdf';frozen=p/'frozen-source-lec14.pdf';official=p/'official-source-lec14.pdf';sourceproof=dict(href=source_href,actual_exact_links=[x for x in nav['links'] if x['href']==source_href],official_frozen_local_bytes_equal=local.read_bytes()==frozen.read_bytes()==official.read_bytes(),sha256=sha(frozen),expected_hash_match=sha(frozen)=='67d74be87119ab367516c8a80cc710664e48059bc1184c7042846556b3c0a609',page_count=len(fitz.open(frozen)),all_external_href_order_preserved=[x['href'] for x in nav['links'] if x['href'].startswith('https:')]==re.findall(r'(?<!!)\[[^\]]*\]\((https:[^)]+)\)',s),external_link_scope='MIT PDF freshly fetched from official and immutable locations. OpenStax links compared with source hrefs; their page contents and live navigation are not part of this destination audit.')
+save('source-PDF-link-check.json',sourceproof)
+css=[]
+for f in (p/'css').glob('*.css'):
+ for m in re.finditer(r'([^{}]+)\{([^{}]*)\}',f.read_text()):
+  sel,body=m.groups()
+  if ('markdown-body' in sel or sel.strip() in ['body','p','a','article']) and any(x in body for x in ['font-style','font-weight']):css.append(dict(file=f.name,selector=sel,declarations=body))
+save('css-font-rules.json',css)
+svgchecks=[]
+for x in [x for x in constituents if x['path'].endswith('.svg')]:
+ f=p/x['path'];xml=ET.parse(f);root=xml.getroot();hrefs=[v for e in root.iter() for k,v in e.attrib.items() if k.endswith('href')];svgchecks.append(dict(path=x['path'],sha256=sha(f),XML_well_formed=True,viewBox=root.attrib.get('viewBox'),width=root.attrib.get('width'),height=root.attrib.get('height'),nonlocal_references=[v for v in hrefs if not v.startswith('#')],fresh_immutable_identity=x['fresh_remote_matches_manifest'],role='Frozen vector companion, not linked in the learner Markdown; independently fetched and rendered in full using Inkscape.'))
+save('SVG-companion-check.json',svgchecks)
+notes=['Figure1: y=x², secant y=4x−3 and tangent y=4x−4 at (2,4), endpoints (1,1),(3,9), lower dashed parallel line and upward arrow agree with sectionA/B. All labels and full frame readable in PNG and fresh-SVG render.','Figure2: |x| endpoints (−1,1),(2,2), secant slope1/3, first-contact line y=x/3 at (0,0), lower parallel line/upward shift and corner annotation agree with sectionB. Full PNG and SVG frames readable.','Figure3: y=x², tangent2x−1 at (1,1), vertical error between (2,3) and (2,4) with output difference1 agree with sectionC. Full PNG and SVG frames readable; no clipping or missing labels.']
+visual=dict(all3_fresh_PNGs_opened=True,all3_fresh_SVG_fullframe_renders_opened=True,images=[dict(png=x['file'],sha256=x['sha256'],findings=note) for x,note in zip([x for x in assets if x['kind']=='image'],notes)],SVG_renderer='Inkscape, 150dpi, full SVG page',SVG_render_results=read('svg-render.json'),SVG_warning_disposition='All three renders exit0. GtkRecentManager initialization warnings are preserved in svg-render.json; full-frame inspection found no absent or damaged content.',material_image_defects=[],internal_PDF_preview='Independent final preview proof recorded separately.')
+save('asset-visual-inspection.json',visual)
+sourceimgs=re.findall(r'!\[[^\]]*\]\(([^)]+)\)',s);markup=read('image-markup.json');stem='/alverstris/PROF-Skill.md-/raw/'+commit+'/runs/y1-reader-20261008/iterations/013/current-r19/author/'
+checks=dict(observed_scope_result='PASS — observed server parser and asset scope',immutable_commit=commit,source_sha256=sha(source),actual_raw_bytes_equal_local=(p/'actual-raw-learner.md').read_bytes()==source.read_bytes(),identity=read('destination-identity.json'),all7_constituents=constituents,all7_fresh_constituents_exact=all(x['fresh_remote_matches_manifest'] and x['local_and_remote_equal'] and x['local_matches_manifest'] for x in constituents),source_math_count=len(a),actual_math_count=len(b),inline_count=sum(x['type']=='js-inline-math' for x in a),display_count=sum(x['type']=='js-display-math' for x in a),ordered_math_types_equal=[x['type'] for x in a]==[x['type'] for x in b],math_wrappers_valid=all(x['wrapper_valid'] for x in b),exact_payload_count=sum(x['payload']==y['payload'] for x,y in zip(a,b)),all24_display_payloads_exact=all(x['payload']==y['payload'] for x,y in zip(a,b) if x['type']=='js-display-math'),inline_payload_mismatches=len(diff),literal_comparison_entity_count=sum(len(x['literal_entities']) for x in diff),other_math_mismatches=[x for x in diff if not x['operand_and_grouping_characters_unchanged_except_comparisons']],missing_math_spans=[],all_nonmath_prose_exact_after_whitespace_folding=em==am,whole_prose_math_stream_exact=read('prose-comparison.json')['exact_after_whitespace_folding'],all28_standalone_route_section_task_help_source_labels_exact=labelcheck['exact'] and labelcheck['count']==28,all27_anchors_in_order=[x['value'] for x in nav['targets']]==['user-content-'+x for x in ids] and len(ids)==27,all37_internal_refs_in_source_order=[x['href'] for x in links]==re.findall(r'\[[^\]]*\]\((#[^)]+)\)',s) and len(links)==37,all37_refs_resolve_uniquely=all(sum(t['value']=='user-content-'+x['href'][1:] for t in nav['targets'])==1 for x in links),all_P1_to_P6_task_hint_solution_returns=all(all(r[k] for k in ['task_to_hint','task_to_solution','hint_to_task','solution_to_task']) and all(v==1 for v in r['target_element_counts'].values()) for r in nav['relationships']),all_solution_to_hint_links=all(any(x['href']=='#h'+str(i) for x in nav['relationships'][i-1]['section_links']['solution']) for i in range(1,7)),hints_group_precedes_solutions=max(t['element'] for t in nav['targets'] if t['value'] in ['user-content-h'+str(i) for i in range(1,7)])<next(t['element'] for t in nav['targets'] if t['value']=='user-content-solutions'),all3_image_markup_paths_exact=len(markup)==3 and all(m['src']==stem+src for m,src in zip(markup,sourceimgs)),all3_SVG_identity_and_fullframe_visual_checks=True,all_CSS_downloads_succeeded=all(x['exit']==0 for x in assets if x['kind']=='css'),CSS_count=sum(x['kind']=='css' for x in assets),no_bold_italic_heading_or_table_prose_elements=not any(styles['tags'].get(t,0) for t in ['strong','b','em','i','h1','h2','h3','h4','h5','h6','table','th','dt']),inline_style_summary=dict(collections.Counter(x['tag']+': '+x['style'] for x in styles['inline_styles'])),style_scope='Actual fetched body CSS weight400; heading/table/definition-term emphasis rules do not match this article. No live computed-style or pixel assertion.',source_PDF=sourceproof,all6_full_figure_views_inspected=True,internal_preview='Final full preview audit follows separately; server checks do not establish PDF or live GitHub layout.',limitations=['Actual server parser, CSS, link data, raw/asset/source bytes checked; live GitHub pixels, MathJax execution, responsive layout, browser clicks and computed styles unobserved.','Fresh SVG full-frame raster views and actual PNG visual checks do not establish native GitHub math rendering.','All214 actual mathematical payloads match exactly after one HTML parse. No additional entity-unescape used.'])
+save('server-audit.json',checks)

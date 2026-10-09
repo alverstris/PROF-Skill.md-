@@ -1,3 +1,13 @@
+Current D013 v2 content acceptance (publication/closure still pending)
+
+Final learner-v2 and all six PNG/SVG companions are frozen at ea627ac47e24cd309a3e7b75a4ecfd070e54a3b5. Complete fresh v2 reader, root source/math/whole-route review and actual destination checks are accepted within their recorded scopes. See final-acceptance.md, issue-register.md and root-sasis-v2-disposition.md. Separate final-state/v2-final/ is being reconciled by the existing author; do not launch another author or publisher. Counts remain12/76closed,64remaining until verified closure.
+
+The complete stable destination-v2 directory is preserved as destination-v2-complete-evidence.zip,171members, SHA256de391da17cdf0c44e67e8d4e159e00f73ef93d95eb984a75c49199be60f1911a. destination-v2-archive.json gives every member identity and byte-exact roundtrip result. Extract into current-r19 only when absent; compare existing bytes and preserve differences rather than overwrite. The only accepted preview is destination-v2/preview-final4/verified-build.pdf, SHA25661514c5aa845be7acf8aa84b932d4d04bcaecd151db7402e20aa09cd67c2bd12. Two main.pdf files inexplicably became truncated; preserve and reject them. Cause remains unknown. All171files include every failure and original log. Actual GitHub pixels, computed styles, MathJax and clicks remain unobserved.
+
+Next: verify final helper readiness/inventory, publish all final evidence plus metadata-onlyr20, compare intended local blobs to actual canonical/fetched bytes, then publish closure/derived13closed63remaining and verify it. Fully reload actual published skill and begin D014/Lecture15 afresh. The entire task remains unfinished; continuation stays enabled. Historical unknown D009 write outcomes remain unknown.
+
+Earlier recovery checkpoint follows unchanged.
+
 D013 recovery index
 
 Incoming actual published PROF r19; D001–D012 closed,12/76;64 remain. All147 original IDs and76eligible/71excluded scope retained.

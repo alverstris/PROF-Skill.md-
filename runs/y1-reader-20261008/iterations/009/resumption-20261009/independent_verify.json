@@ -1,0 +1,735 @@
+{
+  "observed_utc": "2026-10-09T11:18:59.902434+00:00",
+  "conditions": "Root fresh independent symbolic recomputation after reading authored text; NOT pre-solution blind. Historical independent-before-solutions record preserved separately.",
+  "checks": [
+    {
+      "name": "cubic",
+      "order": 1,
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "cubic",
+      "order": 2,
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "cubic",
+      "input": "-3",
+      "value": "18",
+      "derivative_sign": "-1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "cubic",
+      "input": "-1",
+      "value": "-2",
+      "derivative_sign": "0",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "cubic",
+      "input": "-1/2",
+      "value": "-11/8",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "cubic",
+      "input": "1/2",
+      "value": "11/8",
+      "derivative_sign": "1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "cubic",
+      "input": "1",
+      "value": "2",
+      "derivative_sign": "0",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "cubic",
+      "input": "2",
+      "value": "-2",
+      "derivative_sign": "-1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "cubic",
+      "input": "3",
+      "value": "-18",
+      "derivative_sign": "-1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "cubic",
+      "input": "5",
+      "value": "-110",
+      "derivative_sign": "-1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "reciprocal",
+      "order": 1,
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "reciprocal",
+      "order": 2,
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "reciprocal",
+      "input": "-3",
+      "value": "-1/3",
+      "derivative_sign": "-1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "reciprocal",
+      "input": "-1",
+      "value": "-1",
+      "derivative_sign": "-1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "reciprocal",
+      "input": "-1/2",
+      "value": "-2",
+      "derivative_sign": "-1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "reciprocal",
+      "input": "1/2",
+      "value": "2",
+      "derivative_sign": "-1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "reciprocal",
+      "input": "1",
+      "value": "1",
+      "derivative_sign": "-1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "reciprocal",
+      "input": "2",
+      "value": "1/2",
+      "derivative_sign": "-1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "reciprocal",
+      "input": "3",
+      "value": "1/3",
+      "derivative_sign": "-1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "reciprocal",
+      "input": "5",
+      "value": "1/5",
+      "derivative_sign": "-1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "shifted_cubic",
+      "order": 1,
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "shifted_cubic",
+      "order": 2,
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "shifted_cubic",
+      "input": "-3",
+      "value": "-63",
+      "derivative_sign": "1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "shifted_cubic",
+      "input": "-1",
+      "value": "-7",
+      "derivative_sign": "1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "shifted_cubic",
+      "input": "-1/2",
+      "value": "-19/8",
+      "derivative_sign": "1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "shifted_cubic",
+      "input": "1/2",
+      "value": "7/8",
+      "derivative_sign": "1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "shifted_cubic",
+      "input": "1",
+      "value": "1",
+      "derivative_sign": "0",
+      "concavity_sign": "0"
+    },
+    {
+      "name": "shifted_cubic",
+      "input": "2",
+      "value": "2",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "shifted_cubic",
+      "input": "3",
+      "value": "9",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "shifted_cubic",
+      "input": "5",
+      "value": "65",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "logarithmic",
+      "order": 1,
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "logarithmic",
+      "order": 2,
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "logarithmic",
+      "input": "1/2",
+      "value": "-2*log(2)",
+      "derivative_sign": "1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "logarithmic",
+      "input": "1",
+      "value": "0",
+      "derivative_sign": "1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "logarithmic",
+      "input": "2",
+      "value": "log(2)/2",
+      "derivative_sign": "1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "logarithmic",
+      "input": "3",
+      "value": "log(3)/3",
+      "derivative_sign": "-1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "logarithmic",
+      "input": "5",
+      "value": "log(5)/5",
+      "derivative_sign": "-1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "A",
+      "order": 1,
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "A",
+      "order": 2,
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "A",
+      "input": "-3",
+      "value": "-16",
+      "derivative_sign": "1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "A",
+      "input": "-1",
+      "value": "4",
+      "derivative_sign": "0",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "A",
+      "input": "-1/2",
+      "value": "27/8",
+      "derivative_sign": "-1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "A",
+      "input": "1/2",
+      "value": "5/8",
+      "derivative_sign": "-1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "A",
+      "input": "1",
+      "value": "0",
+      "derivative_sign": "0",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "A",
+      "input": "2",
+      "value": "4",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "A",
+      "input": "3",
+      "value": "20",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "A",
+      "input": "5",
+      "value": "112",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "B_even",
+      "order": 1,
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "B_even",
+      "order": 2,
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "B_even",
+      "input": "-3",
+      "value": "81",
+      "derivative_sign": "-1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "B_even",
+      "input": "-1",
+      "value": "1",
+      "derivative_sign": "-1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "B_even",
+      "input": "-1/2",
+      "value": "1/16",
+      "derivative_sign": "-1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "B_even",
+      "input": "1/2",
+      "value": "1/16",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "B_even",
+      "input": "1",
+      "value": "1",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "B_even",
+      "input": "2",
+      "value": "16",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "B_even",
+      "input": "3",
+      "value": "81",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "B_even",
+      "input": "5",
+      "value": "625",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "B_odd",
+      "order": 1,
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "B_odd",
+      "order": 2,
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "B_odd",
+      "input": "-3",
+      "value": "-27",
+      "derivative_sign": "1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "B_odd",
+      "input": "-1",
+      "value": "-1",
+      "derivative_sign": "1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "B_odd",
+      "input": "-1/2",
+      "value": "-1/8",
+      "derivative_sign": "1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "B_odd",
+      "input": "1/2",
+      "value": "1/8",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "B_odd",
+      "input": "1",
+      "value": "1",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "B_odd",
+      "input": "2",
+      "value": "8",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "B_odd",
+      "input": "3",
+      "value": "27",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "B_odd",
+      "input": "5",
+      "value": "125",
+      "derivative_sign": "1",
+      "concavity_sign": "1"
+    },
+    {
+      "name": "C",
+      "order": 1,
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "C",
+      "order": 2,
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "C",
+      "input": "-3",
+      "value": "-4/9",
+      "derivative_sign": "-1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "C",
+      "input": "-1",
+      "value": "-2",
+      "derivative_sign": "-1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "C",
+      "input": "-1/2",
+      "value": "-6",
+      "derivative_sign": "-1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "C",
+      "input": "1/2",
+      "value": "-2",
+      "derivative_sign": "1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "C",
+      "input": "1",
+      "value": "0",
+      "derivative_sign": "1",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "C",
+      "input": "2",
+      "value": "1/4",
+      "derivative_sign": "0",
+      "concavity_sign": "-1"
+    },
+    {
+      "name": "C",
+      "input": "3",
+      "value": "2/9",
+      "derivative_sign": "-1",
+      "concavity_sign": "0"
+    },
+    {
+      "name": "C",
+      "input": "5",
+      "value": "4/25",
+      "derivative_sign": "-1",
+      "concavity_sign": "1"
+    }
+  ],
+  "limits": [
+    {
+      "name": "cubic",
+      "input": "0",
+      "side": "+",
+      "limit": "0"
+    },
+    {
+      "name": "cubic",
+      "input": "0",
+      "side": "-",
+      "limit": "0"
+    },
+    {
+      "name": "cubic",
+      "input": "oo",
+      "side": "-",
+      "limit": "-oo"
+    },
+    {
+      "name": "cubic",
+      "input": "-oo",
+      "side": "+",
+      "limit": "oo"
+    },
+    {
+      "name": "reciprocal",
+      "input": "0",
+      "side": "+",
+      "limit": "oo"
+    },
+    {
+      "name": "reciprocal",
+      "input": "0",
+      "side": "-",
+      "limit": "-oo"
+    },
+    {
+      "name": "reciprocal",
+      "input": "oo",
+      "side": "-",
+      "limit": "0"
+    },
+    {
+      "name": "reciprocal",
+      "input": "-oo",
+      "side": "+",
+      "limit": "0"
+    },
+    {
+      "name": "shifted_cubic",
+      "input": "0",
+      "side": "+",
+      "limit": "0"
+    },
+    {
+      "name": "shifted_cubic",
+      "input": "0",
+      "side": "-",
+      "limit": "0"
+    },
+    {
+      "name": "shifted_cubic",
+      "input": "oo",
+      "side": "-",
+      "limit": "oo"
+    },
+    {
+      "name": "shifted_cubic",
+      "input": "-oo",
+      "side": "+",
+      "limit": "-oo"
+    },
+    {
+      "name": "logarithmic",
+      "input": "0",
+      "side": "+",
+      "limit": "-oo"
+    },
+    {
+      "name": "logarithmic",
+      "input": "oo",
+      "side": "-",
+      "limit": "0"
+    },
+    {
+      "name": "A",
+      "input": "0",
+      "side": "+",
+      "limit": "2"
+    },
+    {
+      "name": "A",
+      "input": "0",
+      "side": "-",
+      "limit": "2"
+    },
+    {
+      "name": "A",
+      "input": "oo",
+      "side": "-",
+      "limit": "oo"
+    },
+    {
+      "name": "A",
+      "input": "-oo",
+      "side": "+",
+      "limit": "-oo"
+    },
+    {
+      "name": "B_even",
+      "input": "0",
+      "side": "+",
+      "limit": "0"
+    },
+    {
+      "name": "B_even",
+      "input": "0",
+      "side": "-",
+      "limit": "0"
+    },
+    {
+      "name": "B_even",
+      "input": "oo",
+      "side": "-",
+      "limit": "oo"
+    },
+    {
+      "name": "B_even",
+      "input": "-oo",
+      "side": "+",
+      "limit": "oo"
+    },
+    {
+      "name": "B_odd",
+      "input": "0",
+      "side": "+",
+      "limit": "0"
+    },
+    {
+      "name": "B_odd",
+      "input": "0",
+      "side": "-",
+      "limit": "0"
+    },
+    {
+      "name": "B_odd",
+      "input": "oo",
+      "side": "-",
+      "limit": "oo"
+    },
+    {
+      "name": "B_odd",
+      "input": "-oo",
+      "side": "+",
+      "limit": "-oo"
+    },
+    {
+      "name": "C",
+      "input": "0",
+      "side": "+",
+      "limit": "-oo"
+    },
+    {
+      "name": "C",
+      "input": "0",
+      "side": "-",
+      "limit": "-oo"
+    },
+    {
+      "name": "C",
+      "input": "oo",
+      "side": "-",
+      "limit": "0"
+    },
+    {
+      "name": "C",
+      "input": "-oo",
+      "side": "+",
+      "limit": "0"
+    }
+  ],
+  "identities": [
+    {
+      "name": "r factorization",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "shifted cubic",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "C global maximum",
+      "residual": "0",
+      "pass": true
+    },
+    {
+      "name": "log antiderivative",
+      "residual": "0",
+      "pass": true
+    }
+  ],
+  "all_equalities_pass": true,
+  "limits_on_log": "Only its real positive-input domain used."
+}

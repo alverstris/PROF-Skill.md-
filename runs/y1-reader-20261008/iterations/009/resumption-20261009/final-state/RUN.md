@@ -1,0 +1,1 @@
+D009 separate parent final state. Generation binds exact frozen r15; current learner output is v3. Original author/.prof-state unchanged. See reconciliation.md and README.md. Root acceptance recorded; run helper checks and preserve actual scope. No global queue/skill/publication action is performed here.

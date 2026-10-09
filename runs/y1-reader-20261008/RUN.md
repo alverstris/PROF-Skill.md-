@@ -1,3 +1,7 @@
+Current D009 acceptance checkpoint, 2026-10-09: managed cloud execution restored and verified. Complete recovery-v3 plus four newly labelled replacement figures are published at 9840e70de6aa7d2c718b60dd13ace7e6f795a50e. Fresh full-input SASIS v3, independent source/mathematics and actual GitHub parser checks plus all ten internal preview pages pass within recorded scope. Final evidence/r16 metadata-only publication and readback are next; do not increment closure counts before that verification. See iterations/009/resumption-20261009/final-acceptance.md and final-state/. Unknown historical write outcomes remain unknown. No competing author/publisher should be started while this run progresses.
+
+Earlier recovery records follow unchanged as dated history:
+
 Current resumption, 2026-10-09: managed cloud commands work in a fresh session workspace. Source PDF recovered with exact original hash; its eight text pages and eight rendered pages read again. Old workspace is absent; historical pending writes and original four figures remain unrecovered. New recovery author is rebuilding a separately labelled complete revision. See iterations/009/resumption-20261009/runtime-and-source-recovery.json. D009 remains incomplete; PROF r15 and 8/76 closed unchanged.
 
 PROF Y1 reader run — recovery checkpoint

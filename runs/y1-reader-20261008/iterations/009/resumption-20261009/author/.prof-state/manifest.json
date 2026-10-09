@@ -1,0 +1,661 @@
+{
+  "schema_version": 1,
+  "project_root": "/workspace/scratch/6a5c7131498d/prof-recovery/runs/y1-reader-20261008/iterations/009/resumption-20261009/author",
+  "skill": {
+    "path": "/workspace/scratch/6a5c7131498d/prof-recovery/SKILL.md",
+    "sha256": "24b8c2e2d1898384f85eca608f34074d91a78268efcec69d7ceb81052a87659e"
+  },
+  "request": {
+    "path": "/workspace/scratch/6a5c7131498d/prof-recovery/runs/y1-reader-20261008/requests.md",
+    "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+  },
+  "required_topics": [
+    {
+      "id": "curve-sketching",
+      "title": "Construct and justify complete qualitative curve sketches",
+      "source_portions": [
+        {
+          "source_id": "lecture",
+          "portion_id": "p1"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p2"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p3"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p4"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p5"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p6"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p7"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p8"
+        },
+        {
+          "source_id": "baseline",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "execution",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "domain",
+          "portion_id": "math"
+        },
+        {
+          "source_id": "sasis",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "profile",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "state-guide",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "archive",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "continuation",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "text-review",
+          "portion_id": "all"
+        }
+      ],
+      "outputs": [
+        "teaching",
+        "cubic-replacement",
+        "logarithmic-replacement",
+        "reciprocal-replacement",
+        "stationary-inflection-replacement"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "lecture",
+      "path": "/workspace/scratch/6a5c7131498d/prof-recovery/runs/y1-reader-20261008/iterations/009/resumption-20261009/source/lec10.pdf",
+      "sha256": "0f6fd33b13a6a13444e23db72f4445d7d5eab49b6538e266fcf96813ff431da0",
+      "portions": [
+        {
+          "id": "p1",
+          "locator": "PDF page 1",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        },
+        {
+          "id": "p2",
+          "locator": "PDF page 2",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        },
+        {
+          "id": "p3",
+          "locator": "PDF page 3",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        },
+        {
+          "id": "p4",
+          "locator": "PDF page 4",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        },
+        {
+          "id": "p5",
+          "locator": "PDF page 5",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        },
+        {
+          "id": "p6",
+          "locator": "PDF page 6",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        },
+        {
+          "id": "p7",
+          "locator": "PDF page 7",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        },
+        {
+          "id": "p8",
+          "locator": "PDF page 8",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "baseline",
+      "path": "/workspace/scratch/6a5c7131498d/prof-recovery/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Complete lines 1\u20131377, all four subjects",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "execution",
+      "path": "/workspace/scratch/6a5c7131498d/prof-recovery/references/execution-protocol.md",
+      "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Complete file",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "domain",
+      "path": "/workspace/scratch/6a5c7131498d/prof-recovery/references/domain-patterns.md",
+      "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+      "portions": [
+        {
+          "id": "math",
+          "locator": "Physics and mathematics section",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "sasis",
+      "path": "/workspace/scratch/6a5c7131498d/prof-recovery/references/sasis.md",
+      "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Complete file",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "path": "/workspace/scratch/6a5c7131498d/prof-recovery/references/sasis/profile-manifest.json",
+      "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Complete file",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "state-guide",
+      "path": "/workspace/scratch/6a5c7131498d/prof-recovery/references/state-tool.md",
+      "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Complete file",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "archive",
+      "path": "/workspace/scratch/6a5c7131498d/prof-recovery/runs/y1-reader-20261008/iterations/009/runtime-recovery/teaching-pending-write-recovery.md",
+      "sha256": "b9ba2bf9468187a9c0ef48db5d6214cc18c8368c3642a63d1bb0962f71e24e39",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Complete archived text, P001\u2013P062",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "continuation",
+      "path": "/workspace/scratch/6a5c7131498d/prof-recovery/runs/y1-reader-20261008/iterations/009/runtime-recovery/continuation-20261009.json",
+      "sha256": "234475bc250d0886256e0a0a10b83fac40894a7f225f25e8e93506ba91fa58ef",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Complete file",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "text-review",
+      "path": "/workspace/scratch/6a5c7131498d/prof-recovery/runs/y1-reader-20261008/iterations/009/runtime-recovery/independent-text-math-review-20261009.md",
+      "sha256": "2b2d96997f0b7a84b56af859b182cb84437445db0184941300e0bc58d265e074",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Complete file",
+          "disposition": "required",
+          "reason": "Input to recovery author audit",
+          "evidence": []
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "id": "teaching",
+      "path": "teaching-r15-recovery-v2.md",
+      "sha256": "7b8be9795369dd3dd69300954ac9a2dcd37177d27ec92d18279768ccb5d4de6d"
+    },
+    {
+      "id": "cubic-replacement",
+      "path": "figures/cubic-replacement.png",
+      "sha256": "02b1dd90377e76715018ac34bf6fe3da4bfff8793a23ad8224a83a1220ca0814"
+    },
+    {
+      "id": "logarithmic-replacement",
+      "path": "figures/logarithmic-replacement.png",
+      "sha256": "78c4d440bf4a3aa990830760240fce0b856299cf3591b5099077b6e75ebfd7c0"
+    },
+    {
+      "id": "reciprocal-replacement",
+      "path": "figures/reciprocal-replacement.png",
+      "sha256": "84300d6d963458f472a9fb4f5bfebc50bbdc291c5b59e51aa580161bedcf158f"
+    },
+    {
+      "id": "stationary-inflection-replacement",
+      "path": "figures/stationary-inflection-replacement.png",
+      "sha256": "7e5895c88837e5cfa03483a29a6a067892a1d9268e9f13222deed42f81bbfe75"
+    }
+  ],
+  "output_checks": [
+    {
+      "id": "coverage",
+      "description": "All source pages/topics connected to current teaching",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Full actual PDF reading and full current teaching comparison, not a sample.",
+      "evidence": [
+        {
+          "path": "source-coverage.md",
+          "sha256": "23b0abef4ec4065b6e6f9bea06da865028833017de08268c2855cb3e19b592e6",
+          "locator": {
+            "kind": "text",
+            "value": "All ten source figures and the second-derivative table are covered."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "8e3abd71e9cec73715e3b5d17e754141ad8d41b123b1549aecea8e626b8a0383"
+        },
+        {
+          "kind": "output",
+          "id": "cubic-replacement",
+          "sha256": "02b1dd90377e76715018ac34bf6fe3da4bfff8793a23ad8224a83a1220ca0814"
+        },
+        {
+          "kind": "output",
+          "id": "logarithmic-replacement",
+          "sha256": "78c4d440bf4a3aa990830760240fce0b856299cf3591b5099077b6e75ebfd7c0"
+        },
+        {
+          "kind": "output",
+          "id": "reciprocal-replacement",
+          "sha256": "84300d6d963458f472a9fb4f5bfebc50bbdc291c5b59e51aa580161bedcf158f"
+        },
+        {
+          "kind": "output",
+          "id": "stationary-inflection-replacement",
+          "sha256": "7e5895c88837e5cfa03483a29a6a067892a1d9268e9f13222deed42f81bbfe75"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "7b8be9795369dd3dd69300954ac9a2dcd37177d27ec92d18279768ccb5d4de6d"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "24b8c2e2d1898384f85eca608f34074d91a78268efcec69d7ceb81052a87659e"
+        },
+        {
+          "kind": "source",
+          "id": "archive",
+          "sha256": "b9ba2bf9468187a9c0ef48db5d6214cc18c8368c3642a63d1bb0962f71e24e39"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "continuation",
+          "sha256": "234475bc250d0886256e0a0a10b83fac40894a7f225f25e8e93506ba91fa58ef"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "0f6fd33b13a6a13444e23db72f4445d7d5eab49b6538e266fcf96813ff431da0"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "text-review",
+          "sha256": "2b2d96997f0b7a84b56af859b182cb84437445db0184941300e0bc58d265e074"
+        },
+        {
+          "kind": "source_scope",
+          "id": "archive",
+          "sha256": "8e3b462303112ccad80a51a93fd9c5f1bfd290307756b00a7398c412d120fa1f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "077ac0365c7eb32962e537c8e05cf1efbbc8777a9e0fcc71eb71532caf8b8bad"
+        },
+        {
+          "kind": "source_scope",
+          "id": "continuation",
+          "sha256": "a5e86320becf68482e8d4832bd1c97b24a432c5512c81d9ce26e17447b1425d1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "279648d8be123cd5f52b397d15e1425dac8f49761a1a3c48a5eb819c72280b34"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "30bef3e739e67c6ab93cb63efe84232d6f4d545a7e99e3fb1d011de4abcc96a0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "3e21397d8262411f18553cb1e2dff7bf8b7a1ac9f95620888e09f206d732fa00"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "82f121d11875493fe4a44696fa34ef1b20fd67ec93cee609ccd2354c463ee292"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "467c79c52a551f5e4b0a03e17311f91c9f522dcb4b234c5af5b14f7816f9efe4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "de8b62eca82a3322648c5c48510342d4e0f5e1056658d910c92dee2560627f8d"
+        },
+        {
+          "kind": "source_scope",
+          "id": "text-review",
+          "sha256": "05a83899b227fcb036954f08158e6a4049fa21e1f330ff41e96d147f1c556c59"
+        },
+        {
+          "kind": "topic",
+          "id": "curve-sketching",
+          "sha256": "75fe8d25d4e708328ac68b3ef64da9fe1ae2d4b530be3c247b467ad4d3a52ab9"
+        }
+      ]
+    },
+    {
+      "id": "final_review",
+      "description": "Whole final acceptance including destination and fresh reader",
+      "applicable": true,
+      "status": "pending",
+      "reason": "Author audit complete; root destination verification, independent acceptance and fresh SASIS pending.",
+      "evidence": [],
+      "dependencies": []
+    },
+    {
+      "id": "local_figures",
+      "description": "Inspect every current scientific PNG",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Four replacement plots directly viewed and checked against original-function values, signs and limits.",
+      "evidence": [
+        {
+          "path": "author-audit.md",
+          "sha256": "fbd087ddfbab1c155564cb6155bf15559d9d33187a37dd3c1d949ffd58628da3",
+          "locator": {
+            "kind": "text",
+            "value": "Each new PNG was directly viewed full-size."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "8e3abd71e9cec73715e3b5d17e754141ad8d41b123b1549aecea8e626b8a0383"
+        },
+        {
+          "kind": "output",
+          "id": "cubic-replacement",
+          "sha256": "02b1dd90377e76715018ac34bf6fe3da4bfff8793a23ad8224a83a1220ca0814"
+        },
+        {
+          "kind": "output",
+          "id": "logarithmic-replacement",
+          "sha256": "78c4d440bf4a3aa990830760240fce0b856299cf3591b5099077b6e75ebfd7c0"
+        },
+        {
+          "kind": "output",
+          "id": "reciprocal-replacement",
+          "sha256": "84300d6d963458f472a9fb4f5bfebc50bbdc291c5b59e51aa580161bedcf158f"
+        },
+        {
+          "kind": "output",
+          "id": "stationary-inflection-replacement",
+          "sha256": "7e5895c88837e5cfa03483a29a6a067892a1d9268e9f13222deed42f81bbfe75"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "7b8be9795369dd3dd69300954ac9a2dcd37177d27ec92d18279768ccb5d4de6d"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "24b8c2e2d1898384f85eca608f34074d91a78268efcec69d7ceb81052a87659e"
+        },
+        {
+          "kind": "source",
+          "id": "archive",
+          "sha256": "b9ba2bf9468187a9c0ef48db5d6214cc18c8368c3642a63d1bb0962f71e24e39"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "continuation",
+          "sha256": "234475bc250d0886256e0a0a10b83fac40894a7f225f25e8e93506ba91fa58ef"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "0f6fd33b13a6a13444e23db72f4445d7d5eab49b6538e266fcf96813ff431da0"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "text-review",
+          "sha256": "2b2d96997f0b7a84b56af859b182cb84437445db0184941300e0bc58d265e074"
+        },
+        {
+          "kind": "source_scope",
+          "id": "archive",
+          "sha256": "8e3b462303112ccad80a51a93fd9c5f1bfd290307756b00a7398c412d120fa1f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "077ac0365c7eb32962e537c8e05cf1efbbc8777a9e0fcc71eb71532caf8b8bad"
+        },
+        {
+          "kind": "source_scope",
+          "id": "continuation",
+          "sha256": "a5e86320becf68482e8d4832bd1c97b24a432c5512c81d9ce26e17447b1425d1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "279648d8be123cd5f52b397d15e1425dac8f49761a1a3c48a5eb819c72280b34"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "30bef3e739e67c6ab93cb63efe84232d6f4d545a7e99e3fb1d011de4abcc96a0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "3e21397d8262411f18553cb1e2dff7bf8b7a1ac9f95620888e09f206d732fa00"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "82f121d11875493fe4a44696fa34ef1b20fd67ec93cee609ccd2354c463ee292"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "467c79c52a551f5e4b0a03e17311f91c9f522dcb4b234c5af5b14f7816f9efe4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "de8b62eca82a3322648c5c48510342d4e0f5e1056658d910c92dee2560627f8d"
+        },
+        {
+          "kind": "source_scope",
+          "id": "text-review",
+          "sha256": "05a83899b227fcb036954f08158e6a4049fa21e1f330ff41e96d147f1c556c59"
+        },
+        {
+          "kind": "topic",
+          "id": "curve-sketching",
+          "sha256": "75fe8d25d4e708328ac68b3ef64da9fe1ae2d4b530be3c247b467ad4d3a52ab9"
+        }
+      ]
+    },
+    {
+      "id": "destination",
+      "description": "Actual destination mathematics, styling and navigation",
+      "applicable": true,
+      "status": "unverified",
+      "reason": "Root owns actual destination verification; local source checks do not establish it.",
+      "evidence": [],
+      "dependencies": []
+    }
+  ]
+}

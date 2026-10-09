@@ -1,0 +1,136 @@
+{
+  "scope": "D006 P17 table-header typography follow-up only; original report/checks preserved",
+  "finding": "DEFINITE DESTINATION STYLESHEET CONFLICT WITH T11: matching table-header prose is explicitly assigned semibold weight 600.",
+  "inspection_layer": "Captured server HTML plus current HTTP bytes from its actual linked stylesheet URLs; not browser pixels or computed-style execution",
+  "source_commit": "e17c6ae521b5f8ff70e9f6e1ffa2ff66881b8663",
+  "source_locator": "P17, source lines 67-70, four table header cells",
+  "captured_page_sha256": "6dd3fc4fcd0c9e0b811e8382b0cf5c420f6f9410fe596270c07632a476af68dc",
+  "captured_article_sha256": "9e560c9cdafb43ef64ba9d5b85fdfd59600bc8b3fe729523d47705889d6e849c",
+  "article_attributes": {
+    "class": "markdown-body entry-content container-lg",
+    "itemprop": "text"
+  },
+  "matching_headers": [
+    {
+      "text": "Curve",
+      "tag": "th",
+      "attributes": {},
+      "matches_selector": true
+    },
+    {
+      "text": "Secant endpoints",
+      "tag": "th",
+      "attributes": {},
+      "matches_selector": true
+    },
+    {
+      "text": "Secant slope and line",
+      "tag": "th",
+      "attributes": {},
+      "matches_selector": true
+    },
+    {
+      "text": "Tangent at zero",
+      "tag": "th",
+      "attributes": {},
+      "matches_selector": true
+    }
+  ],
+  "primary_rule": {
+    "exact_css": ".markdown-body table th{font-weight:var(--base-text-weight-semibold,600)}",
+    "selector": ".markdown-body table th",
+    "declaration": "font-weight:var(--base-text-weight-semibold,600)",
+    "conditional_context": "Unconditional top-level rule in the linked stylesheet",
+    "rule_offset_0_based": 204027,
+    "source_url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+    "final_url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+    "http_status": 200,
+    "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+    "css_bytes": 411517,
+    "saved_file": "css-typography-evidence/06-primer-9be9fe6313f476af.css"
+  },
+  "weight_resolution": {
+    "root_selector": ":root",
+    "exact_declaration": "--base-text-weight-semibold:600",
+    "resolved_weight": 600,
+    "fallback_weight": 600,
+    "source_url": "https://github.githubassets.com/assets/primer-primitives-97df7784617ce1ea.css",
+    "final_url": "https://github.githubassets.com/assets/primer-primitives-97df7784617ce1ea.css",
+    "http_status": 200,
+    "css_sha256": "88a966eb569aa65ffd1442f7c18a056ac0e44d3c87fcdc373fec51456d9371ce",
+    "css_bytes": 11008,
+    "saved_file": "css-typography-evidence/05-primer-primitives-97df7784617ce1ea.css",
+    "all_assignments_found_in_fetched_active_stylesheets": [
+      {
+        "source_url": "https://github.githubassets.com/assets/primer-primitives-97df7784617ce1ea.css",
+        "declaration": "--base-text-weight-semibold:600",
+        "offset": 2036
+      },
+      {
+        "source_url": "https://github.githubassets.com/assets/primer-react-brand-css.05b219cdb8e80c43.module.css",
+        "declaration": "--base-text-weight-semibold:600",
+        "offset": 14499
+      }
+    ]
+  },
+  "supporting_bold_utility_rule": {
+    "exact_css": ".text-bold{font-weight:var(--base-text-weight-semibold,600)!important}",
+    "source_url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+    "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+    "interpretation": "The same stylesheet uses the same semibold token and 600 fallback for its explicitly named text-bold utility."
+  },
+  "related_th_font_weight_rules_in_fetched_active_stylesheets": [
+    {
+      "source_url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+      "selector": ".markdown-body table th",
+      "declarations": "font-weight:var(--base-text-weight-semibold,600)"
+    },
+    {
+      "source_url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+      "selector": ".markdown-body .csv-data th",
+      "declarations": "font-weight:var(--base-text-weight-semibold,600);background:var(--bgColor-muted,var(--color-canvas-subtle));border-top:0"
+    },
+    {
+      "source_url": "https://github.githubassets.com/assets/primer-react-brand-css.05b219cdb8e80c43.module.css",
+      "selector": ".Primer_Brand__Prose-module__Prose___8WnSE table th",
+      "declarations": "font-size:var(--brand-text-size-100);font-weight:var(--brand-text-weight-400);line-height:var(--brand-text-lineHeight-100);color:var(--brand-color-text-muted)"
+    }
+  ],
+  "fetch_coverage": {
+    "active_unique_href_stylesheets": 21,
+    "success_count": 21,
+    "failures": [],
+    "data_href_only_theme_placeholders": 14,
+    "inventory_file": "css-typography-evidence/css-fetch-inventory.json"
+  },
+  "interpretation": "The four bare th cells match the explicit semibold rule through the captured article markdown-body ancestor. T11 forbids bold/italic prose including tables; the destination stylesheet makes these header labels bold/semibold despite absent strong/em markup. The previous markup-tag-only check and regular-weight secondary PDF do not establish compliance with this destination style.",
+  "prior_observations_retained": "Article has no strong/b/em/i elements; local preview header prose uses regular upright font. Those facts remain true but do not remove the observed CSS conflict.",
+  "limits": [
+    "No browser, client pixels, computed-style query or MathJax execution was observed.",
+    "The CSS bytes were fetched in this follow-up from the exact asset URLs recorded in the immutable source page capture; they are not claimed to be historical CSS bytes recovered at the original capture time.",
+    "Inactive data-href-only theme placeholders were not loaded by this read-only inspection."
+  ],
+  "preservation": {
+    "original_report_sha256": "a73ceefb7096750380fefb65aa115e93b6d60c9a69d3d54cb5b9bffafd780aaa",
+    "original_preview_check_sha256": "98effac5d4f6467f37127c82eb577562e414fd78e9aa6c332182a977f85d1aca",
+    "all_prior_manifest_artifacts_unchanged": true,
+    "per_artifact_unchanged": {
+      "frozen-teaching-v1.md": true,
+      "frozen-source-fetch.json": true,
+      "independent_audit.py": true,
+      "independent-audit.json": true,
+      "preview-check.json": true,
+      "render-review-original.md": true,
+      "capture-initial/github-page.html": true,
+      "capture-initial/github-article.html": true,
+      "capture-initial/markup-audit.json": true,
+      "capture-initial/source-fetch.json": true,
+      "preview-initial/preview.pdf": true,
+      "preview-initial/preview-check-generated.json": true,
+      "preview-recovery/page-2.png": true,
+      "typography-scope.json": true
+    },
+    "teaching_helper_state_changed": false,
+    "subagents_used": false
+  }
+}

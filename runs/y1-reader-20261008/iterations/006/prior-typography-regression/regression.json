@@ -1,0 +1,1295 @@
+{
+  "scope": "Independent narrow representation regression for accepted D001–D005 under proposed PROF T11 destination-emphasis trigger",
+  "candidate_commit": "a2389390c0709d65af4a3cf070a04e396e4a4792",
+  "candidate_skill_sha256": "3f7d903a399bdbaaeef397e7af7033dc0229cbb982371ea7c0679fe042c9cc8f",
+  "candidate_T11": "| T11 Usable output | When distinct core, help, or extension material exists, provide a short reading route. Ordinary reading order suffices for a micro-explanation; do not create extensions or support sections merely to meet a template. No bold or italic prose in titles, headings, captions, tables, labels, code comments, or bibliography; conventional mathematical notation is allowed. In Markdown teaching prose, use plain paragraph labels rather than ATX/setext heading markup, bold markers, or italic markers. Exempt literal syntax inside code and conventional mathematical notation; do not exempt prose headings from the typography check. Check destination styling that can add emphasis without explicit markers, such as table headers. A different renderer's preview or absence of emphasis tags cannot verify this. When the destination forces bold or italic prose and its styling cannot be controlled, preserve the same information and relationships in a representation without that forced emphasis. Honour the requested format. Attempts, hints, and solutions must be reachable and correctly matched, with usable separation before answers are seen. For non-PDF notes, group hints apart from complete solutions with distinct labels and navigation when supported. Never interleave a hint with its full answer unless the user explicitly requests a combined worked solution rather than attempt help. In static PDFs use named links and return links; keep hints on different pages from full solutions and do not promise interactive reveals. |",
+  "conclusion": "NO_AFFECTED_EARLIER_ACCEPTED_ARTIFACT_FOUND",
+  "affected_set": [],
+  "all_identity_and_completeness_checks_true": true,
+  "cases": [
+    {
+      "document": "D001",
+      "source_path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/001/teaching-v4.md",
+      "source_commit": "0716ea92991d7f9fe2814e137bcc830d91a27511",
+      "source_sha256": "402485baa2767af9625146721e356f92bad76e4cfb738e5729c6c8b94ea79401",
+      "source_bytes": 24315,
+      "closure_path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/001/closure.md",
+      "capture_directory": "/workspace/scratch/ac36b9c5ff31/prof-readability/d001-render-review/v4",
+      "page_sha256": "e17ed975ea3afa2036f7cf048249e7d5faaf76e5ed7db34991b7da7cf53191be",
+      "article_sha256": "1f274a5a1a0e56fec82e8a220ef52e47e04e90ebd36e2ca00986a2d7c0e1fd85",
+      "rawline_reconstruction": "Join page JSON rawLines with LF and append one final LF; byte comparison, no prose or math normalization.",
+      "reconstructed_source_sha256": "402485baa2767af9625146721e356f92bad76e4cfb738e5729c6c8b94ea79401",
+      "identity_and_completeness_checks": {
+        "source_sha256_equals_accepted_closure": true,
+        "closure_names_exact_accepted_commit": true,
+        "source_bytes_equal_accepted_git_object": true,
+        "captured_page_source_path_exact": true,
+        "captured_page_source_commit_exact": true,
+        "captured_page_rawlines_plus_final_lf_equal_accepted_source_bytes": true,
+        "captured_richtext_not_truncated": true,
+        "captured_source_not_truncated": true,
+        "article_exactly_equals_page_embedded_richtext": true,
+        "audit_source_hash_agrees_but_not_used_as_only_evidence": true,
+        "whole_article_text_equals_source_after_explicit_markup_normalization": true,
+        "all_actual_linked_stylesheet_urls_covered_by_hashed_current_css": true
+      },
+      "article_attributes": {
+        "class": "markdown-body entry-content container-lg",
+        "itemprop": "text"
+      },
+      "whole_dom_tag_counts": {
+        "article": 1,
+        "p": 79,
+        "math-renderer": 288,
+        "a": 9
+      },
+      "semantic_structure_counts": {
+        "table": 0,
+        "thead": 0,
+        "tbody": 0,
+        "tr": 0,
+        "th": 0,
+        "td": 0,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0,
+        "strong": 0,
+        "em": 0,
+        "b": 0,
+        "i": 0,
+        "caption": 0,
+        "figcaption": 0,
+        "figure": 0,
+        "dl": 0,
+        "dt": 0,
+        "dd": 0,
+        "blockquote": 0,
+        "summary": 0
+      },
+      "all_class_counts": {
+        "markdown-body": 1,
+        "entry-content": 1,
+        "container-lg": 1,
+        "js-inline-math": 249,
+        "js-display-math": 39
+      },
+      "all_inline_style_counts": {
+        "display: inline-block": 249,
+        "display: block": 39
+      },
+      "nonmath_inline_style_elements": [],
+      "math_renderer_counts_exempt_from_prose_emphasis": {
+        "inline": 249,
+        "display": 39
+      },
+      "first_title_paragraph": {
+        "tag": "p",
+        "attributes": {
+          "dir": "auto"
+        },
+        "text": "[P01] Derivatives: slope, velocity and rate of change"
+      },
+      "images_and_explanatory_wrappers": [],
+      "current_css_table_header_rule_matches": 0,
+      "current_css_heading_rule_matches": 0,
+      "current_css_definition_term_emphasis_rule_matches": 0,
+      "actual_linked_stylesheet_urls": [
+        "https://github.githubassets.com/assets/light-5c4e9fc574bf49f3.css",
+        "https://github.githubassets.com/assets/light_high_contrast-fb37c309e0603a69.css",
+        "https://github.githubassets.com/assets/dark-afff6c53aef9b9d1.css",
+        "https://github.githubassets.com/assets/dark_high_contrast-c409873d7987dffa.css",
+        "https://github.githubassets.com/assets/primer-primitives-97df7784617ce1ea.css",
+        "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "https://github.githubassets.com/assets/global-62747e27e61258dc.css",
+        "https://github.githubassets.com/assets/github-7a418ea859d1654d.css",
+        "https://github.githubassets.com/assets/repository-72bd7d974b5ac1cc.css",
+        "https://github.githubassets.com/assets/code-4c5c0895f723f870.css",
+        "https://github.githubassets.com/assets/app-runtime.7ee70a9cd769c13f.module.css",
+        "https://github.githubassets.com/assets/react-core.be84e87b659d3b98.module.css",
+        "https://github.githubassets.com/assets/primer-react-css.e4334163c54cccf5.module.css",
+        "https://github.githubassets.com/assets/45z.922f816fb2d6b268.module.css",
+        "https://github.githubassets.com/assets/oj.ecb4903dbaae6412.module.css",
+        "https://github.githubassets.com/assets/code-view.09a8548c5512abb2.module.css",
+        "https://github.githubassets.com/assets/keyboard-shortcuts-dialog.c805423771ad5c52.module.css",
+        "https://github.githubassets.com/assets/app-install-banner-partial.38a0735e2022b71c.module.css",
+        "https://github.githubassets.com/assets/primer-react-brand-css.05b219cdb8e80c43.module.css",
+        "https://github.githubassets.com/assets/zn.9fc2e923e926de87.module.css",
+        "https://github.githubassets.com/assets/global-nav-bar.08339d28e8ce6f25.module.css"
+      ],
+      "inactive_data_href_only_stylesheets": 14,
+      "affected_by_narrow_forced_prose_emphasis_trigger": false,
+      "disposition": "No matching forced-emphasis representation found in inspected article; no lesson regeneration supported by this trigger."
+    },
+    {
+      "document": "D002",
+      "source_path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/002/teaching-v1.md",
+      "source_commit": "f1c0e91c24e9140049d50c7ca965f41e36f3e1a2",
+      "source_sha256": "8139080278edb96287576629e7d80933b380c1b82af60d3ede888d500cb68a3a",
+      "source_bytes": 34994,
+      "closure_path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/002/closure.md",
+      "capture_directory": "/workspace/scratch/ac36b9c5ff31/prof-readability/d002-render-review/v1",
+      "page_sha256": "c36cce22b52d7ce15a738b4910c5308b12c0eb77ce14695752e2a74f28f713a8",
+      "article_sha256": "fc13929544ab99941883428ba79970a2da0288e2592744b4ef93348ad868b528",
+      "rawline_reconstruction": "Join page JSON rawLines with LF and append one final LF; byte comparison, no prose or math normalization.",
+      "reconstructed_source_sha256": "8139080278edb96287576629e7d80933b380c1b82af60d3ede888d500cb68a3a",
+      "identity_and_completeness_checks": {
+        "source_sha256_equals_accepted_closure": true,
+        "closure_names_exact_accepted_commit": true,
+        "source_bytes_equal_accepted_git_object": true,
+        "captured_page_source_path_exact": true,
+        "captured_page_source_commit_exact": true,
+        "captured_page_rawlines_plus_final_lf_equal_accepted_source_bytes": true,
+        "captured_richtext_not_truncated": true,
+        "captured_source_not_truncated": true,
+        "article_exactly_equals_page_embedded_richtext": true,
+        "audit_source_hash_agrees_but_not_used_as_only_evidence": true,
+        "whole_article_text_equals_source_after_explicit_markup_normalization": true,
+        "all_actual_linked_stylesheet_urls_covered_by_hashed_current_css": true
+      },
+      "article_attributes": {
+        "class": "markdown-body entry-content container-lg",
+        "itemprop": "text"
+      },
+      "whole_dom_tag_counts": {
+        "article": 1,
+        "p": 95,
+        "a": 65,
+        "math-renderer": 354,
+        "img": 1
+      },
+      "semantic_structure_counts": {
+        "table": 0,
+        "thead": 0,
+        "tbody": 0,
+        "tr": 0,
+        "th": 0,
+        "td": 0,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0,
+        "strong": 0,
+        "em": 0,
+        "b": 0,
+        "i": 0,
+        "caption": 0,
+        "figcaption": 0,
+        "figure": 0,
+        "dl": 0,
+        "dt": 0,
+        "dd": 0,
+        "blockquote": 0,
+        "summary": 0
+      },
+      "all_class_counts": {
+        "markdown-body": 1,
+        "entry-content": 1,
+        "container-lg": 1,
+        "js-inline-math": 330,
+        "js-display-math": 24
+      },
+      "all_inline_style_counts": {
+        "display: inline-block": 330,
+        "display: block": 24,
+        "max-width: 100%;": 1
+      },
+      "nonmath_inline_style_elements": [
+        {
+          "tag": "img",
+          "attributes": {
+            "src": "/alverstris/PROF-Skill.md-/raw/f1c0e91c24e9140049d50c7ca965f41e36f3e1a2/runs/y1-reader-20261008/iterations/002/figures/unit-circle-proof-v1.png",
+            "alt": "Unit-circle construction: inner triangle OAB is inside sector OAB, which is inside triangle OAT. OA and OB are 1; OC is cos theta, BC is sin theta, CA is 1 minus cos theta, AT is tan theta, and arc AB has length theta.",
+            "style": "max-width: 100%;"
+          },
+          "text": ""
+        }
+      ],
+      "math_renderer_counts_exempt_from_prose_emphasis": {
+        "inline": 330,
+        "display": 24
+      },
+      "first_title_paragraph": {
+        "tag": "p",
+        "attributes": {
+          "dir": "auto"
+        },
+        "text": "[P01] MIT 18.01, Fall 2006, Lecture 2: limits, continuity, and trigonometric limits."
+      },
+      "images_and_explanatory_wrappers": [
+        {
+          "image": {
+            "tag": "img",
+            "attributes": {
+              "src": "/alverstris/PROF-Skill.md-/raw/f1c0e91c24e9140049d50c7ca965f41e36f3e1a2/runs/y1-reader-20261008/iterations/002/figures/unit-circle-proof-v1.png",
+              "alt": "Unit-circle construction: inner triangle OAB is inside sector OAB, which is inside triangle OAT. OA and OB are 1; OC is cos theta, BC is sin theta, CA is 1 minus cos theta, AT is tan theta, and arc AB has length theta.",
+              "style": "max-width: 100%;"
+            },
+            "text": ""
+          },
+          "wrapper_outer_html": "<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/alverstris/PROF-Skill.md-/blob/f1c0e91c24e9140049d50c7ca965f41e36f3e1a2/runs/y1-reader-20261008/iterations/002/figures/unit-circle-proof-v1.png\"><img src=\"/alverstris/PROF-Skill.md-/raw/f1c0e91c24e9140049d50c7ca965f41e36f3e1a2/runs/y1-reader-20261008/iterations/002/figures/unit-circle-proof-v1.png\" alt=\"Unit-circle construction: inner triangle OAB is inside sector OAB, which is inside triangle OAT. OA and OB are 1; OC is cos theta, BC is sin theta, CA is 1 minus cos theta, AT is tan theta, and arc AB has length theta.\" style=\"max-width: 100%;\"></a></p>\n",
+          "wrapper_ancestry": [
+            {
+              "tag": "a",
+              "attributes": {
+                "target": "_blank",
+                "rel": "noopener noreferrer",
+                "href": "/alverstris/PROF-Skill.md-/blob/f1c0e91c24e9140049d50c7ca965f41e36f3e1a2/runs/y1-reader-20261008/iterations/002/figures/unit-circle-proof-v1.png"
+              },
+              "text": ""
+            },
+            {
+              "tag": "p",
+              "attributes": {
+                "dir": "auto"
+              },
+              "text": ""
+            }
+          ],
+          "preceding_prose": {
+            "tag": "p",
+            "attributes": {
+              "dir": "auto"
+            },
+            "text": "[P35] Thus $BC=\\sin\\theta$ is the vertical distance, $OC=\\cos\\theta$ the horizontal projection, and $CA=1-\\cos\\theta$ the remaining horizontal gap. The curved arc from $A$ to $B$ has length $\\theta$; it is not a vertical distance. These are the relationships in the lecture's four sector pictures. The diagram below adds the tangent triangle needed to compare their areas. Its angle is illustrative, not a new source measurement."
+          },
+          "following_prose": {
+            "tag": "p",
+            "attributes": {
+              "dir": "auto"
+            },
+            "text": "[P36] We will use the squeeze principle: if $A(x)\\le F(x)\\le B(x)$ near the point and both bounding functions approach the same finite number $L$, then $F(x)$ approaches $L$ as well. Once the bounds lie within any desired distance of $L$, the number trapped between them must do so too. In particular, a bound $|F(x)|\\le B(x)$ with nonnegative $B(x)\\to0$ forces $F(x)\\to0$. This supplies a quantitative reason for a small quantity or a ratio to vanish; a shrinking drawing alone does not."
+          },
+          "image_source_path": "runs/y1-reader-20261008/iterations/002/figures/unit-circle-proof-v1.png",
+          "image_sha256": "95616719d3035e9f174367b55c48ccb3e04a8cbf5105434115e4bddff0b3c75d",
+          "captured_reference_pins_accepted_commit": true,
+          "saved_image_matches_accepted_git_blob": true,
+          "interpretation": "Plain p > a > img wrapper; neighboring explanatory prose is p[dir=auto]. No caption element or emphasis class/style. Existing image teaching content not retested."
+        }
+      ],
+      "current_css_table_header_rule_matches": 0,
+      "current_css_heading_rule_matches": 0,
+      "current_css_definition_term_emphasis_rule_matches": 0,
+      "actual_linked_stylesheet_urls": [
+        "https://github.githubassets.com/assets/light-5c4e9fc574bf49f3.css",
+        "https://github.githubassets.com/assets/light_high_contrast-fb37c309e0603a69.css",
+        "https://github.githubassets.com/assets/dark-afff6c53aef9b9d1.css",
+        "https://github.githubassets.com/assets/dark_high_contrast-c409873d7987dffa.css",
+        "https://github.githubassets.com/assets/primer-primitives-97df7784617ce1ea.css",
+        "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "https://github.githubassets.com/assets/global-62747e27e61258dc.css",
+        "https://github.githubassets.com/assets/github-7a418ea859d1654d.css",
+        "https://github.githubassets.com/assets/repository-72bd7d974b5ac1cc.css",
+        "https://github.githubassets.com/assets/code-4c5c0895f723f870.css",
+        "https://github.githubassets.com/assets/app-runtime.7ee70a9cd769c13f.module.css",
+        "https://github.githubassets.com/assets/react-core.be84e87b659d3b98.module.css",
+        "https://github.githubassets.com/assets/primer-react-css.e4334163c54cccf5.module.css",
+        "https://github.githubassets.com/assets/45z.922f816fb2d6b268.module.css",
+        "https://github.githubassets.com/assets/oj.ecb4903dbaae6412.module.css",
+        "https://github.githubassets.com/assets/code-view.09a8548c5512abb2.module.css",
+        "https://github.githubassets.com/assets/keyboard-shortcuts-dialog.c805423771ad5c52.module.css",
+        "https://github.githubassets.com/assets/app-install-banner-partial.38a0735e2022b71c.module.css",
+        "https://github.githubassets.com/assets/primer-react-brand-css.05b219cdb8e80c43.module.css",
+        "https://github.githubassets.com/assets/zn.9fc2e923e926de87.module.css",
+        "https://github.githubassets.com/assets/global-nav-bar.08339d28e8ce6f25.module.css"
+      ],
+      "inactive_data_href_only_stylesheets": 14,
+      "affected_by_narrow_forced_prose_emphasis_trigger": false,
+      "disposition": "No matching forced-emphasis representation found in inspected article; no lesson regeneration supported by this trigger."
+    },
+    {
+      "document": "D003",
+      "source_path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/003/teaching-v1.md",
+      "source_commit": "4cbf83f2dc2859d5123fc01a0c311a268d580483",
+      "source_sha256": "cd7426a9b70d0ac41aa3ca0418db8c89c391b67304016a7ad38f8379fe98b5a8",
+      "source_bytes": 25480,
+      "closure_path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/003/closure.md",
+      "capture_directory": "/workspace/scratch/ac36b9c5ff31/prof-readability/d003-render-review/v1",
+      "page_sha256": "d2eca9fd26bd54b0bafd8aa1328e5e643cfcd9d24aa116f6aba44140f8c70140",
+      "article_sha256": "280362e73c91795baea4da3974a5dd06d75127235d9b41813cd1fd00528b0eee",
+      "rawline_reconstruction": "Join page JSON rawLines with LF and append one final LF; byte comparison, no prose or math normalization.",
+      "reconstructed_source_sha256": "cd7426a9b70d0ac41aa3ca0418db8c89c391b67304016a7ad38f8379fe98b5a8",
+      "identity_and_completeness_checks": {
+        "source_sha256_equals_accepted_closure": true,
+        "closure_names_exact_accepted_commit": true,
+        "source_bytes_equal_accepted_git_object": true,
+        "captured_page_source_path_exact": true,
+        "captured_page_source_commit_exact": true,
+        "captured_page_rawlines_plus_final_lf_equal_accepted_source_bytes": true,
+        "captured_richtext_not_truncated": true,
+        "captured_source_not_truncated": true,
+        "article_exactly_equals_page_embedded_richtext": true,
+        "audit_source_hash_agrees_but_not_used_as_only_evidence": true,
+        "whole_article_text_equals_source_after_explicit_markup_normalization": true,
+        "all_actual_linked_stylesheet_urls_covered_by_hashed_current_css": true
+      },
+      "article_attributes": {
+        "class": "markdown-body entry-content container-lg",
+        "itemprop": "text"
+      },
+      "whole_dom_tag_counts": {
+        "article": 1,
+        "p": 108,
+        "a": 95,
+        "math-renderer": 276,
+        "img": 1
+      },
+      "semantic_structure_counts": {
+        "table": 0,
+        "thead": 0,
+        "tbody": 0,
+        "tr": 0,
+        "th": 0,
+        "td": 0,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0,
+        "strong": 0,
+        "em": 0,
+        "b": 0,
+        "i": 0,
+        "caption": 0,
+        "figcaption": 0,
+        "figure": 0,
+        "dl": 0,
+        "dt": 0,
+        "dd": 0,
+        "blockquote": 0,
+        "summary": 0
+      },
+      "all_class_counts": {
+        "markdown-body": 1,
+        "entry-content": 1,
+        "container-lg": 1,
+        "js-inline-math": 251,
+        "js-display-math": 25
+      },
+      "all_inline_style_counts": {
+        "display: inline-block": 251,
+        "display: block": 25,
+        "max-width: 100%;": 1
+      },
+      "nonmath_inline_style_elements": [
+        {
+          "tag": "img",
+          "attributes": {
+            "src": "/alverstris/PROF-Skill.md-/raw/4cbf83f2dc2859d5123fc01a0c311a268d580483/runs/y1-reader-20261008/iterations/003/product-increment-v1.png",
+            "alt": "A rectangle split into an original uv area, a top u Delta-v strip, a right v Delta-u strip, and a corner Delta-u Delta-v area. The bottom lengths are u and Delta-u, and the left heights are v and Delta-v.",
+            "style": "max-width: 100%;"
+          },
+          "text": ""
+        }
+      ],
+      "math_renderer_counts_exempt_from_prose_emphasis": {
+        "inline": 251,
+        "display": 25
+      },
+      "first_title_paragraph": {
+        "tag": "p",
+        "attributes": {
+          "dir": "auto"
+        },
+        "text": ""
+      },
+      "images_and_explanatory_wrappers": [
+        {
+          "image": {
+            "tag": "img",
+            "attributes": {
+              "src": "/alverstris/PROF-Skill.md-/raw/4cbf83f2dc2859d5123fc01a0c311a268d580483/runs/y1-reader-20261008/iterations/003/product-increment-v1.png",
+              "alt": "A rectangle split into an original uv area, a top u Delta-v strip, a right v Delta-u strip, and a corner Delta-u Delta-v area. The bottom lengths are u and Delta-u, and the left heights are v and Delta-v.",
+              "style": "max-width: 100%;"
+            },
+            "text": ""
+          },
+          "wrapper_outer_html": "<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/alverstris/PROF-Skill.md-/blob/4cbf83f2dc2859d5123fc01a0c311a268d580483/runs/y1-reader-20261008/iterations/003/product-increment-v1.png\"><img src=\"/alverstris/PROF-Skill.md-/raw/4cbf83f2dc2859d5123fc01a0c311a268d580483/runs/y1-reader-20261008/iterations/003/product-increment-v1.png\" alt=\"A rectangle split into an original uv area, a top u Delta-v strip, a right v Delta-u strip, and a corner Delta-u Delta-v area. The bottom lengths are u and Delta-u, and the left heights are v and Delta-v.\" style=\"max-width: 100%;\"></a></p>\n",
+          "wrapper_ancestry": [
+            {
+              "tag": "a",
+              "attributes": {
+                "target": "_blank",
+                "rel": "noopener noreferrer",
+                "href": "/alverstris/PROF-Skill.md-/blob/4cbf83f2dc2859d5123fc01a0c311a268d580483/runs/y1-reader-20261008/iterations/003/product-increment-v1.png"
+              },
+              "text": ""
+            },
+            {
+              "tag": "p",
+              "attributes": {
+                "dir": "auto"
+              },
+              "text": ""
+            }
+          ],
+          "preceding_prose": {
+            "tag": "p",
+            "attributes": {
+              "dir": "auto"
+            },
+            "text": "[P19] The diagram redraws the source’s Figure 1. The orange rectangle has width $u$, height $v$ and area $uv$. Increasing height adds the top red strip $u\\Delta v$; increasing width adds the right yellow strip $v\\Delta u$. Doing both also adds the white corner $\\Delta u\\Delta v$. All four pieces together have area $(u+\\Delta u)(v+\\Delta v)$. This literal area picture assumes positive side lengths and positive increments. Negative increments would remove area, and negative function values need not be physical lengths; P18’s algebra remains valid for signed real values and changes."
+          },
+          "following_prose": {
+            "tag": "p",
+            "attributes": {
+              "dir": "auto"
+            },
+            "text": "[P20] The corner is small, but the derivative is change divided by $h$. Its contribution must therefore be checked after division. By differentiability, $\\Delta u/h\\to u'(x)$; by P14 applied to $v$, $\\Delta v\\to0$. Thus"
+          },
+          "image_source_path": "runs/y1-reader-20261008/iterations/003/product-increment-v1.png",
+          "image_sha256": "61bc47e951267028b32ac0007370244d8d6489e8552639572a56bdf5cc2ad2b0",
+          "captured_reference_pins_accepted_commit": true,
+          "saved_image_matches_accepted_git_blob": true,
+          "interpretation": "Plain p > a > img wrapper; neighboring explanatory prose is p[dir=auto]. No caption element or emphasis class/style. Existing image teaching content not retested."
+        }
+      ],
+      "current_css_table_header_rule_matches": 0,
+      "current_css_heading_rule_matches": 0,
+      "current_css_definition_term_emphasis_rule_matches": 0,
+      "actual_linked_stylesheet_urls": [
+        "https://github.githubassets.com/assets/light-5c4e9fc574bf49f3.css",
+        "https://github.githubassets.com/assets/light_high_contrast-fb37c309e0603a69.css",
+        "https://github.githubassets.com/assets/dark-afff6c53aef9b9d1.css",
+        "https://github.githubassets.com/assets/dark_high_contrast-c409873d7987dffa.css",
+        "https://github.githubassets.com/assets/primer-primitives-97df7784617ce1ea.css",
+        "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "https://github.githubassets.com/assets/global-62747e27e61258dc.css",
+        "https://github.githubassets.com/assets/github-7a418ea859d1654d.css",
+        "https://github.githubassets.com/assets/repository-72bd7d974b5ac1cc.css",
+        "https://github.githubassets.com/assets/code-4c5c0895f723f870.css",
+        "https://github.githubassets.com/assets/app-runtime.7ee70a9cd769c13f.module.css",
+        "https://github.githubassets.com/assets/react-core.be84e87b659d3b98.module.css",
+        "https://github.githubassets.com/assets/primer-react-css.e4334163c54cccf5.module.css",
+        "https://github.githubassets.com/assets/45z.922f816fb2d6b268.module.css",
+        "https://github.githubassets.com/assets/oj.ecb4903dbaae6412.module.css",
+        "https://github.githubassets.com/assets/code-view.09a8548c5512abb2.module.css",
+        "https://github.githubassets.com/assets/keyboard-shortcuts-dialog.c805423771ad5c52.module.css",
+        "https://github.githubassets.com/assets/app-install-banner-partial.38a0735e2022b71c.module.css",
+        "https://github.githubassets.com/assets/primer-react-brand-css.05b219cdb8e80c43.module.css",
+        "https://github.githubassets.com/assets/zn.9fc2e923e926de87.module.css",
+        "https://github.githubassets.com/assets/global-nav-bar.08339d28e8ce6f25.module.css"
+      ],
+      "inactive_data_href_only_stylesheets": 14,
+      "affected_by_narrow_forced_prose_emphasis_trigger": false,
+      "disposition": "No matching forced-emphasis representation found in inspected article; no lesson regeneration supported by this trigger."
+    },
+    {
+      "document": "D004",
+      "source_path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/004/teaching-v1.md",
+      "source_commit": "197b57555834d36952e948d4100d2f835c86b20c",
+      "source_sha256": "5adb3e95c2fa47c94b4c665d85dc2fe669e2c0086dbc2ebc194cd59720d5d8ad",
+      "source_bytes": 22691,
+      "closure_path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/004/closure.md",
+      "capture_directory": "/workspace/scratch/ac36b9c5ff31/prof-readability/d004-render-review/v1-corrected",
+      "page_sha256": "ec8718015dbe2f244f847497c0715563eb10e05e64dda3d3808d1d0f831435fe",
+      "article_sha256": "f62b483587c9be18efc5febeb16570e352f8b51ce093b3f98bdded0a8a4f5586",
+      "rawline_reconstruction": "Join page JSON rawLines with LF and append one final LF; byte comparison, no prose or math normalization.",
+      "reconstructed_source_sha256": "5adb3e95c2fa47c94b4c665d85dc2fe669e2c0086dbc2ebc194cd59720d5d8ad",
+      "identity_and_completeness_checks": {
+        "source_sha256_equals_accepted_closure": true,
+        "closure_names_exact_accepted_commit": true,
+        "source_bytes_equal_accepted_git_object": true,
+        "captured_page_source_path_exact": true,
+        "captured_page_source_commit_exact": true,
+        "captured_page_rawlines_plus_final_lf_equal_accepted_source_bytes": true,
+        "captured_richtext_not_truncated": true,
+        "captured_source_not_truncated": true,
+        "article_exactly_equals_page_embedded_richtext": true,
+        "audit_source_hash_agrees_but_not_used_as_only_evidence": true,
+        "whole_article_text_equals_source_after_explicit_markup_normalization": true,
+        "all_actual_linked_stylesheet_urls_covered_by_hashed_current_css": true
+      },
+      "article_attributes": {
+        "class": "markdown-body entry-content container-lg",
+        "itemprop": "text"
+      },
+      "whole_dom_tag_counts": {
+        "article": 1,
+        "p": 114,
+        "a": 38,
+        "math-renderer": 305
+      },
+      "semantic_structure_counts": {
+        "table": 0,
+        "thead": 0,
+        "tbody": 0,
+        "tr": 0,
+        "th": 0,
+        "td": 0,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0,
+        "strong": 0,
+        "em": 0,
+        "b": 0,
+        "i": 0,
+        "caption": 0,
+        "figcaption": 0,
+        "figure": 0,
+        "dl": 0,
+        "dt": 0,
+        "dd": 0,
+        "blockquote": 0,
+        "summary": 0
+      },
+      "all_class_counts": {
+        "markdown-body": 1,
+        "entry-content": 1,
+        "container-lg": 1,
+        "js-inline-math": 275,
+        "js-display-math": 30
+      },
+      "all_inline_style_counts": {
+        "display: inline-block": 275,
+        "display: block": 30
+      },
+      "nonmath_inline_style_elements": [],
+      "math_renderer_counts_exempt_from_prose_emphasis": {
+        "inline": 275,
+        "display": 30
+      },
+      "first_title_paragraph": {
+        "tag": "p",
+        "attributes": {
+          "dir": "auto"
+        },
+        "text": "[P01] Chain rule and higher derivatives"
+      },
+      "images_and_explanatory_wrappers": [],
+      "current_css_table_header_rule_matches": 0,
+      "current_css_heading_rule_matches": 0,
+      "current_css_definition_term_emphasis_rule_matches": 0,
+      "actual_linked_stylesheet_urls": [
+        "https://github.githubassets.com/assets/light-5c4e9fc574bf49f3.css",
+        "https://github.githubassets.com/assets/light_high_contrast-fb37c309e0603a69.css",
+        "https://github.githubassets.com/assets/dark-afff6c53aef9b9d1.css",
+        "https://github.githubassets.com/assets/dark_high_contrast-c409873d7987dffa.css",
+        "https://github.githubassets.com/assets/primer-primitives-97df7784617ce1ea.css",
+        "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "https://github.githubassets.com/assets/global-62747e27e61258dc.css",
+        "https://github.githubassets.com/assets/github-7a418ea859d1654d.css",
+        "https://github.githubassets.com/assets/repository-72bd7d974b5ac1cc.css",
+        "https://github.githubassets.com/assets/code-4c5c0895f723f870.css",
+        "https://github.githubassets.com/assets/app-runtime.7ee70a9cd769c13f.module.css",
+        "https://github.githubassets.com/assets/react-core.be84e87b659d3b98.module.css",
+        "https://github.githubassets.com/assets/primer-react-css.e4334163c54cccf5.module.css",
+        "https://github.githubassets.com/assets/45z.922f816fb2d6b268.module.css",
+        "https://github.githubassets.com/assets/oj.ecb4903dbaae6412.module.css",
+        "https://github.githubassets.com/assets/code-view.09a8548c5512abb2.module.css",
+        "https://github.githubassets.com/assets/keyboard-shortcuts-dialog.c805423771ad5c52.module.css",
+        "https://github.githubassets.com/assets/app-install-banner-partial.38a0735e2022b71c.module.css",
+        "https://github.githubassets.com/assets/primer-react-brand-css.05b219cdb8e80c43.module.css",
+        "https://github.githubassets.com/assets/zn.9fc2e923e926de87.module.css",
+        "https://github.githubassets.com/assets/global-nav-bar.08339d28e8ce6f25.module.css"
+      ],
+      "inactive_data_href_only_stylesheets": 14,
+      "affected_by_narrow_forced_prose_emphasis_trigger": false,
+      "disposition": "No matching forced-emphasis representation found in inspected article; no lesson regeneration supported by this trigger."
+    },
+    {
+      "document": "D005",
+      "source_path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/005/teaching-v2.md",
+      "source_commit": "32c553f279ac1e5771ff05b78a9951cbff3fee38",
+      "source_sha256": "4ae6d0f33e2957ebaf3bbd31c34e154c4a7c5eaab4bc3a09a9e909574b1a48e6",
+      "source_bytes": 24261,
+      "closure_path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/005/closure.md",
+      "capture_directory": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/005/render-evidence/v2",
+      "page_sha256": "979613f82c70b12b6268df06b947dec4be42977192722de59af55f5018498666",
+      "article_sha256": "24fbac5e8b61dc3532ac2da047970c01b81a7c5043dd2ca1b0294715bb65316e",
+      "rawline_reconstruction": "Join page JSON rawLines with LF and append one final LF; byte comparison, no prose or math normalization.",
+      "reconstructed_source_sha256": "4ae6d0f33e2957ebaf3bbd31c34e154c4a7c5eaab4bc3a09a9e909574b1a48e6",
+      "identity_and_completeness_checks": {
+        "source_sha256_equals_accepted_closure": true,
+        "closure_names_exact_accepted_commit": true,
+        "source_bytes_equal_accepted_git_object": true,
+        "captured_page_source_path_exact": true,
+        "captured_page_source_commit_exact": true,
+        "captured_page_rawlines_plus_final_lf_equal_accepted_source_bytes": true,
+        "captured_richtext_not_truncated": true,
+        "captured_source_not_truncated": true,
+        "article_exactly_equals_page_embedded_richtext": true,
+        "audit_source_hash_agrees_but_not_used_as_only_evidence": true,
+        "whole_article_text_equals_source_after_explicit_markup_normalization": true,
+        "all_actual_linked_stylesheet_urls_covered_by_hashed_current_css": true
+      },
+      "article_attributes": {
+        "class": "markdown-body entry-content container-lg",
+        "itemprop": "text"
+      },
+      "whole_dom_tag_counts": {
+        "article": 1,
+        "p": 81,
+        "a": 46,
+        "math-renderer": 303
+      },
+      "semantic_structure_counts": {
+        "table": 0,
+        "thead": 0,
+        "tbody": 0,
+        "tr": 0,
+        "th": 0,
+        "td": 0,
+        "h1": 0,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0,
+        "strong": 0,
+        "em": 0,
+        "b": 0,
+        "i": 0,
+        "caption": 0,
+        "figcaption": 0,
+        "figure": 0,
+        "dl": 0,
+        "dt": 0,
+        "dd": 0,
+        "blockquote": 0,
+        "summary": 0
+      },
+      "all_class_counts": {
+        "markdown-body": 1,
+        "entry-content": 1,
+        "container-lg": 1,
+        "js-inline-math": 280,
+        "js-display-math": 23
+      },
+      "all_inline_style_counts": {
+        "display: inline-block": 280,
+        "display: block": 23
+      },
+      "nonmath_inline_style_elements": [],
+      "math_renderer_counts_exempt_from_prose_emphasis": {
+        "inline": 280,
+        "display": 23
+      },
+      "first_title_paragraph": {
+        "tag": "p",
+        "attributes": {
+          "dir": "auto"
+        },
+        "text": "[P01] Implicit differentiation and inverses"
+      },
+      "images_and_explanatory_wrappers": [],
+      "current_css_table_header_rule_matches": 0,
+      "current_css_heading_rule_matches": 0,
+      "current_css_definition_term_emphasis_rule_matches": 0,
+      "actual_linked_stylesheet_urls": [
+        "https://github.githubassets.com/assets/light-5c4e9fc574bf49f3.css",
+        "https://github.githubassets.com/assets/light_high_contrast-fb37c309e0603a69.css",
+        "https://github.githubassets.com/assets/dark-afff6c53aef9b9d1.css",
+        "https://github.githubassets.com/assets/dark_high_contrast-c409873d7987dffa.css",
+        "https://github.githubassets.com/assets/primer-primitives-97df7784617ce1ea.css",
+        "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "https://github.githubassets.com/assets/global-62747e27e61258dc.css",
+        "https://github.githubassets.com/assets/github-7a418ea859d1654d.css",
+        "https://github.githubassets.com/assets/repository-72bd7d974b5ac1cc.css",
+        "https://github.githubassets.com/assets/code-4c5c0895f723f870.css",
+        "https://github.githubassets.com/assets/app-runtime.7ee70a9cd769c13f.module.css",
+        "https://github.githubassets.com/assets/react-core.be84e87b659d3b98.module.css",
+        "https://github.githubassets.com/assets/primer-react-css.e4334163c54cccf5.module.css",
+        "https://github.githubassets.com/assets/45z.922f816fb2d6b268.module.css",
+        "https://github.githubassets.com/assets/oj.ecb4903dbaae6412.module.css",
+        "https://github.githubassets.com/assets/code-view.09a8548c5512abb2.module.css",
+        "https://github.githubassets.com/assets/keyboard-shortcuts-dialog.c805423771ad5c52.module.css",
+        "https://github.githubassets.com/assets/app-install-banner-partial.38a0735e2022b71c.module.css",
+        "https://github.githubassets.com/assets/primer-react-brand-css.05b219cdb8e80c43.module.css",
+        "https://github.githubassets.com/assets/zn.9fc2e923e926de87.module.css",
+        "https://github.githubassets.com/assets/global-nav-bar.08339d28e8ce6f25.module.css"
+      ],
+      "inactive_data_href_only_stylesheets": 14,
+      "affected_by_narrow_forced_prose_emphasis_trigger": false,
+      "disposition": "No matching forced-emphasis representation found in inspected article; no lesson regeneration supported by this trigger."
+    }
+  ],
+  "css_evidence": {
+    "provenance": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/css-fetch-inventory.json",
+    "current_saved_css_files": [
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/01-light-5c4e9fc574bf49f3.css",
+        "url": "https://github.githubassets.com/assets/light-5c4e9fc574bf49f3.css",
+        "recorded_status": 200,
+        "sha256": "bf8e491bcae88932922f977a6d09e85dc3b4957308450041dd1bffbf74997746",
+        "bytes": 87305,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/02-light_high_contrast-fb37c309e0603a69.css",
+        "url": "https://github.githubassets.com/assets/light_high_contrast-fb37c309e0603a69.css",
+        "recorded_status": 200,
+        "sha256": "812a21b9443e26fb20c14f271f02ce0ba385b6633be4eda907f21c5d977886f3",
+        "bytes": 87975,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/03-dark-afff6c53aef9b9d1.css",
+        "url": "https://github.githubassets.com/assets/dark-afff6c53aef9b9d1.css",
+        "recorded_status": 200,
+        "sha256": "7dbd576ae3e02de3b3b51ccadd9c17f67e1adb324adc69b6da2453ba878349e9",
+        "bytes": 87137,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/04-dark_high_contrast-c409873d7987dffa.css",
+        "url": "https://github.githubassets.com/assets/dark_high_contrast-c409873d7987dffa.css",
+        "recorded_status": 200,
+        "sha256": "63908f8936246f1f1df9a9655eacc4df9e81d9a6313acb5e30b6f3462b184849",
+        "bytes": 87869,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/05-primer-primitives-97df7784617ce1ea.css",
+        "url": "https://github.githubassets.com/assets/primer-primitives-97df7784617ce1ea.css",
+        "recorded_status": 200,
+        "sha256": "88a966eb569aa65ffd1442f7c18a056ac0e44d3c87fcdc373fec51456d9371ce",
+        "bytes": 11008,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css",
+        "url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "recorded_status": 200,
+        "sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+        "bytes": 411517,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/07-global-62747e27e61258dc.css",
+        "url": "https://github.githubassets.com/assets/global-62747e27e61258dc.css",
+        "recorded_status": 200,
+        "sha256": "82d18fcb1c1d9ff94c7b483b263ad9b8250f9f8b8dbb4bc1ed0dfa07d5f911cb",
+        "bytes": 297533,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/08-github-7a418ea859d1654d.css",
+        "url": "https://github.githubassets.com/assets/github-7a418ea859d1654d.css",
+        "recorded_status": 200,
+        "sha256": "5c33478825d8ebc514ada9da349c78a2c4e07143328f96f682d53594da29c62d",
+        "bytes": 126016,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/09-repository-72bd7d974b5ac1cc.css",
+        "url": "https://github.githubassets.com/assets/repository-72bd7d974b5ac1cc.css",
+        "recorded_status": 200,
+        "sha256": "2b2c9480881aa24106e20f781993ea7fd1563f2f1f233853dadf107314347ba2",
+        "bytes": 31169,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/10-code-4c5c0895f723f870.css",
+        "url": "https://github.githubassets.com/assets/code-4c5c0895f723f870.css",
+        "recorded_status": 200,
+        "sha256": "4e809cdcb922e4bfa69bfd90a7143f8e4b6a2086f7579819afc95659a6dcafa3",
+        "bytes": 27072,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/11-app-runtime.7ee70a9cd769c13f.module.css",
+        "url": "https://github.githubassets.com/assets/app-runtime.7ee70a9cd769c13f.module.css",
+        "recorded_status": 200,
+        "sha256": "7966626df655c7fbcef158ce64e6ea4d71fc66c69c6fb004550e8f07f1d8cf30",
+        "bytes": 4448,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/12-react-core.be84e87b659d3b98.module.css",
+        "url": "https://github.githubassets.com/assets/react-core.be84e87b659d3b98.module.css",
+        "recorded_status": 200,
+        "sha256": "910e86c6359f24cce9e42cb444a0f9c920424ef7b364288949af42f2e7bc4588",
+        "bytes": 446,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/13-primer-react-css.e4334163c54cccf5.module.css",
+        "url": "https://github.githubassets.com/assets/primer-react-css.e4334163c54cccf5.module.css",
+        "recorded_status": 200,
+        "sha256": "5b027b85151ec86acd34b0d9b054b6bda173d4e5a2a424852c52ab27c01003e0",
+        "bytes": 302510,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/14-45z.922f816fb2d6b268.module.css",
+        "url": "https://github.githubassets.com/assets/45z.922f816fb2d6b268.module.css",
+        "recorded_status": 200,
+        "sha256": "2cd4a1f6ca28227032bf1926e1dcc5daa808d358d680c81ef33057fb535c62ff",
+        "bytes": 24242,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/15-oj.ecb4903dbaae6412.module.css",
+        "url": "https://github.githubassets.com/assets/oj.ecb4903dbaae6412.module.css",
+        "recorded_status": 200,
+        "sha256": "926850f229f5eeb627cc6dcfa46c43708b9481e4546ebb74e9044b15f7a15591",
+        "bytes": 26338,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/16-code-view.09a8548c5512abb2.module.css",
+        "url": "https://github.githubassets.com/assets/code-view.09a8548c5512abb2.module.css",
+        "recorded_status": 200,
+        "sha256": "1cb1aafab214219af28cd14da6fd02167dead8f83ef1a8ce594de6ad1c51f56c",
+        "bytes": 146822,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/17-keyboard-shortcuts-dialog.c805423771ad5c52.module.css",
+        "url": "https://github.githubassets.com/assets/keyboard-shortcuts-dialog.c805423771ad5c52.module.css",
+        "recorded_status": 200,
+        "sha256": "43406c193eb7b68762ba8e46f416d7f26f9cdc77ecb0142c137c22ec4e88b619",
+        "bytes": 331,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/18-app-install-banner-partial.38a0735e2022b71c.module.css",
+        "url": "https://github.githubassets.com/assets/app-install-banner-partial.38a0735e2022b71c.module.css",
+        "recorded_status": 200,
+        "sha256": "51b4fd167f2d051226740fcff5a65879a75aa71023b68eaaf31591649de4092d",
+        "bytes": 446,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/19-primer-react-brand-css.05b219cdb8e80c43.module.css",
+        "url": "https://github.githubassets.com/assets/primer-react-brand-css.05b219cdb8e80c43.module.css",
+        "recorded_status": 200,
+        "sha256": "5540a47f3e2d6791082dc54e443c8a76aa6c402bfb65c65dfa43f9d33a323074",
+        "bytes": 703598,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/20-zn.9fc2e923e926de87.module.css",
+        "url": "https://github.githubassets.com/assets/zn.9fc2e923e926de87.module.css",
+        "recorded_status": 200,
+        "sha256": "b8172f8419fb839f9b5e5031b61dbaa5d2e5dee7b72f9fcd274787524b459a62",
+        "bytes": 17365,
+        "matches_recorded_hash": true
+      },
+      {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/21-global-nav-bar.08339d28e8ce6f25.module.css",
+        "url": "https://github.githubassets.com/assets/global-nav-bar.08339d28e8ce6f25.module.css",
+        "recorded_status": 200,
+        "sha256": "c05386d4c121c658b89e927846151405303be6d4a3f346cb24fd5c9aa50be212",
+        "bytes": 9553,
+        "matches_recorded_hash": true
+      }
+    ],
+    "all_css_hashes_match_fetch_inventory": true,
+    "exact_relevant_rules_and_tokens": [
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/05-primer-primitives-97df7784617ce1ea.css",
+        "url": "https://github.githubassets.com/assets/primer-primitives-97df7784617ce1ea.css",
+        "css_sha256": "88a966eb569aa65ffd1442f7c18a056ac0e44d3c87fcdc373fec51456d9371ce",
+        "offset_0_based": 2006,
+        "declaration": "--base-text-weight-normal:400"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/05-primer-primitives-97df7784617ce1ea.css",
+        "url": "https://github.githubassets.com/assets/primer-primitives-97df7784617ce1ea.css",
+        "css_sha256": "88a966eb569aa65ffd1442f7c18a056ac0e44d3c87fcdc373fec51456d9371ce",
+        "offset_0_based": 2036,
+        "declaration": "--base-text-weight-semibold:600"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css",
+        "url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+        "offset_0_based": 1430,
+        "selector": "body",
+        "declarations": "--color-accent-emphasis:Highlight;--color-fg-on-emphasis:LinkText;--fgColor-onEmphasis:LinkText;--fgColor-accent:Highlight",
+        "exact_rule": "body{--color-accent-emphasis:Highlight;--color-fg-on-emphasis:LinkText;--fgColor-onEmphasis:LinkText;--fgColor-accent:Highlight}"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css",
+        "url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+        "offset_0_based": 1681,
+        "selector": "body",
+        "declarations": "margin:0",
+        "exact_rule": "body{margin:0}"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css",
+        "url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+        "offset_0_based": 3588,
+        "selector": "body",
+        "declarations": "font-family:var(--fontStack-sansSerif,-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\");font-size:var(--body-font-size,14px);font-weight:var(--base-text-weight-normal,400);color:var(--fgColor-default,var(--color-fg-default));background-color:var(--bgColor-default,var(--color-canvas-default));line-height:1.5",
+        "exact_rule": "body{font-family:var(--fontStack-sansSerif,-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\");font-size:var(--body-font-size,14px);font-weight:var(--base-text-weight-normal,400);color:var(--fgColor-default,var(--color-fg-default));background-color:var(--bgColor-default,var(--color-canvas-default));line-height:1.5}"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css",
+        "url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+        "offset_0_based": 190300,
+        "selector": ".text-bold",
+        "declarations": "font-weight:var(--base-text-weight-semibold,600)!important",
+        "exact_rule": ".text-bold{font-weight:var(--base-text-weight-semibold,600)!important}"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css",
+        "url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+        "offset_0_based": 199365,
+        "selector": ".markdown-body",
+        "declarations": "font-family:var(--fontStack-sansSerif,-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\");overflow-wrap:break-word;font-size:16px;line-height:1.5",
+        "exact_rule": ".markdown-body{font-family:var(--fontStack-sansSerif,-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\");overflow-wrap:break-word;font-size:16px;line-height:1.5}"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css",
+        "url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+        "offset_0_based": 199811,
+        "selector": ".markdown-body a:not([href])",
+        "declarations": "color:inherit;text-decoration:none",
+        "exact_rule": ".markdown-body a:not([href]){color:inherit;text-decoration:none}"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css",
+        "url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+        "offset_0_based": 200090,
+        "selector": ".markdown-body p,.markdown-body blockquote,.markdown-body ul,.markdown-body ol,.markdown-body dl,.markdown-body table,.markdown-body pre,.markdown-body details",
+        "declarations": "margin-top:0;margin-bottom:var(--base-size-16)",
+        "exact_rule": ".markdown-body p,.markdown-body blockquote,.markdown-body ul,.markdown-body ol,.markdown-body dl,.markdown-body table,.markdown-body pre,.markdown-body details{margin-top:0;margin-bottom:var(--base-size-16)}"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css",
+        "url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+        "offset_0_based": 200720,
+        "selector": ".markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6",
+        "declarations": "margin-top:var(--base-size-24);margin-bottom:var(--base-size-16);font-weight:var(--base-text-weight-semibold,600);line-height:1.25",
+        "exact_rule": ".markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:var(--base-size-24);margin-bottom:var(--base-size-16);font-weight:var(--base-text-weight-semibold,600);line-height:1.25}"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css",
+        "url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+        "offset_0_based": 203654,
+        "selector": ".markdown-body dl dt",
+        "declarations": "margin-top:var(--base-size-16);font-size:1em;font-style:italic;font-weight:var(--base-text-weight-semibold,600);padding:0",
+        "exact_rule": ".markdown-body dl dt{margin-top:var(--base-size-16);font-size:1em;font-style:italic;font-weight:var(--base-text-weight-semibold,600);padding:0}"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css",
+        "url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+        "offset_0_based": 204027,
+        "selector": ".markdown-body table th",
+        "declarations": "font-weight:var(--base-text-weight-semibold,600)",
+        "exact_rule": ".markdown-body table th{font-weight:var(--base-text-weight-semibold,600)}"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css",
+        "url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+        "offset_0_based": 204604,
+        "selector": ".markdown-body img",
+        "declarations": "box-sizing:content-box;max-width:100%",
+        "exact_rule": ".markdown-body img{box-sizing:content-box;max-width:100%}"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/13-primer-react-css.e4334163c54cccf5.module.css",
+        "url": "https://github.githubassets.com/assets/primer-react-css.e4334163c54cccf5.module.css",
+        "css_sha256": "5b027b85151ec86acd34b0d9b054b6bda173d4e5a2a424852c52ab27c01003e0",
+        "offset_0_based": 150542,
+        "selector": "body",
+        "declarations": "margin:0",
+        "exact_rule": "body{margin:0}"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/19-primer-react-brand-css.05b219cdb8e80c43.module.css",
+        "url": "https://github.githubassets.com/assets/primer-react-brand-css.05b219cdb8e80c43.module.css",
+        "css_sha256": "5540a47f3e2d6791082dc54e443c8a76aa6c402bfb65c65dfa43f9d33a323074",
+        "offset_0_based": 24701,
+        "selector": "body",
+        "declarations": "min-height:100vh;line-height:1.5",
+        "exact_rule": "body{min-height:100vh;line-height:1.5}"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/19-primer-react-brand-css.05b219cdb8e80c43.module.css",
+        "url": "https://github.githubassets.com/assets/primer-react-brand-css.05b219cdb8e80c43.module.css",
+        "css_sha256": "5540a47f3e2d6791082dc54e443c8a76aa6c402bfb65c65dfa43f9d33a323074",
+        "offset_0_based": 14561,
+        "declaration": "--base-text-weight-normal:400"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/19-primer-react-brand-css.05b219cdb8e80c43.module.css",
+        "url": "https://github.githubassets.com/assets/primer-react-brand-css.05b219cdb8e80c43.module.css",
+        "css_sha256": "5540a47f3e2d6791082dc54e443c8a76aa6c402bfb65c65dfa43f9d33a323074",
+        "offset_0_based": 14499,
+        "declaration": "--base-text-weight-semibold:600"
+      }
+    ],
+    "all_lexically_found_font_rules_for_actual_article_class_names": [
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css",
+        "url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+        "offset_0_based": 200720,
+        "selector": ".markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6",
+        "declarations": "margin-top:var(--base-size-24);margin-bottom:var(--base-size-16);font-weight:var(--base-text-weight-semibold,600);line-height:1.25",
+        "exact_rule": ".markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:var(--base-size-24);margin-bottom:var(--base-size-16);font-weight:var(--base-text-weight-semibold,600);line-height:1.25}"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css",
+        "url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+        "offset_0_based": 203654,
+        "selector": ".markdown-body dl dt",
+        "declarations": "margin-top:var(--base-size-16);font-size:1em;font-style:italic;font-weight:var(--base-text-weight-semibold,600);padding:0",
+        "exact_rule": ".markdown-body dl dt{margin-top:var(--base-size-16);font-size:1em;font-style:italic;font-weight:var(--base-text-weight-semibold,600);padding:0}"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css",
+        "url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+        "offset_0_based": 204027,
+        "selector": ".markdown-body table th",
+        "declarations": "font-weight:var(--base-text-weight-semibold,600)",
+        "exact_rule": ".markdown-body table th{font-weight:var(--base-text-weight-semibold,600)}"
+      },
+      {
+        "file": "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css",
+        "url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+        "css_sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+        "offset_0_based": 207549,
+        "selector": ".markdown-body .csv-data th",
+        "declarations": "font-weight:var(--base-text-weight-semibold,600);background:var(--bgColor-muted,var(--color-canvas-subtle));border-top:0",
+        "exact_rule": ".markdown-body .csv-data th{font-weight:var(--base-text-weight-semibold,600);background:var(--bgColor-muted,var(--color-canvas-subtle));border-top:0}"
+      }
+    ]
+  },
+  "unresolved_limits": [
+    "Only this proposed T11 destination-emphasis trigger is regressed. No SASIS, student/subject test, teaching re-authoring, mathematical regrading or broad teaching acceptance was performed.",
+    "Saved GitHub server markup and page-embedded source identities are inspected; no live pixels, browser/CUA, computed-style execution, MathJax execution or client state is claimed.",
+    "CSS bytes come from the already saved D006 current HTTP retrieval of the exact linked asset URLs; hashes independently verified. They are not claimed to be historical stylesheet bytes at the D001–D005 original capture times.",
+    "The CSS evidence is targeted exact-rule inspection and lexical inventory of scoped font declarations, not a complete executable CSS cascade. Inactive data-href theme placeholders and dynamic/interaction styling are not executed.",
+    "Conventional mathematical notation in math-renderer elements is exempt from prose emphasis; no italic-variable failure is inferred. D002/D003 accepted image contents are not reopened; actual wrappers and adjacent explanatory prose are inspected.",
+    "No earlier accepted artifact exercises the newly observed table-header case. The empty affected set therefore does not establish a positive regression test of a conversion that removes forced table-header emphasis."
+  ],
+  "preservation": {
+    "all_read_inputs_unchanged_at_end": true,
+    "no_original_artifact_skill_helper_source_or_repo_write_performed": true,
+    "subagents_used": false,
+    "browser_used": false,
+    "new_http_fetches": false
+  },
+  "input_hashes": {
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/css-fetch-inventory.json": {
+      "sha256": "165c2beb4609950b9613e92cb4e13de83773492ec4d91d3a12bd10c2a864bef3",
+      "bytes": 19252
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/01-light-5c4e9fc574bf49f3.css": {
+      "sha256": "bf8e491bcae88932922f977a6d09e85dc3b4957308450041dd1bffbf74997746",
+      "bytes": 87305
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/02-light_high_contrast-fb37c309e0603a69.css": {
+      "sha256": "812a21b9443e26fb20c14f271f02ce0ba385b6633be4eda907f21c5d977886f3",
+      "bytes": 87975
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/03-dark-afff6c53aef9b9d1.css": {
+      "sha256": "7dbd576ae3e02de3b3b51ccadd9c17f67e1adb324adc69b6da2453ba878349e9",
+      "bytes": 87137
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/04-dark_high_contrast-c409873d7987dffa.css": {
+      "sha256": "63908f8936246f1f1df9a9655eacc4df9e81d9a6313acb5e30b6f3462b184849",
+      "bytes": 87869
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/05-primer-primitives-97df7784617ce1ea.css": {
+      "sha256": "88a966eb569aa65ffd1442f7c18a056ac0e44d3c87fcdc373fec51456d9371ce",
+      "bytes": 11008
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/06-primer-9be9fe6313f476af.css": {
+      "sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+      "bytes": 411517
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/07-global-62747e27e61258dc.css": {
+      "sha256": "82d18fcb1c1d9ff94c7b483b263ad9b8250f9f8b8dbb4bc1ed0dfa07d5f911cb",
+      "bytes": 297533
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/08-github-7a418ea859d1654d.css": {
+      "sha256": "5c33478825d8ebc514ada9da349c78a2c4e07143328f96f682d53594da29c62d",
+      "bytes": 126016
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/09-repository-72bd7d974b5ac1cc.css": {
+      "sha256": "2b2c9480881aa24106e20f781993ea7fd1563f2f1f233853dadf107314347ba2",
+      "bytes": 31169
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/10-code-4c5c0895f723f870.css": {
+      "sha256": "4e809cdcb922e4bfa69bfd90a7143f8e4b6a2086f7579819afc95659a6dcafa3",
+      "bytes": 27072
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/11-app-runtime.7ee70a9cd769c13f.module.css": {
+      "sha256": "7966626df655c7fbcef158ce64e6ea4d71fc66c69c6fb004550e8f07f1d8cf30",
+      "bytes": 4448
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/12-react-core.be84e87b659d3b98.module.css": {
+      "sha256": "910e86c6359f24cce9e42cb444a0f9c920424ef7b364288949af42f2e7bc4588",
+      "bytes": 446
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/13-primer-react-css.e4334163c54cccf5.module.css": {
+      "sha256": "5b027b85151ec86acd34b0d9b054b6bda173d4e5a2a424852c52ab27c01003e0",
+      "bytes": 302510
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/14-45z.922f816fb2d6b268.module.css": {
+      "sha256": "2cd4a1f6ca28227032bf1926e1dcc5daa808d358d680c81ef33057fb535c62ff",
+      "bytes": 24242
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/15-oj.ecb4903dbaae6412.module.css": {
+      "sha256": "926850f229f5eeb627cc6dcfa46c43708b9481e4546ebb74e9044b15f7a15591",
+      "bytes": 26338
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/16-code-view.09a8548c5512abb2.module.css": {
+      "sha256": "1cb1aafab214219af28cd14da6fd02167dead8f83ef1a8ce594de6ad1c51f56c",
+      "bytes": 146822
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/17-keyboard-shortcuts-dialog.c805423771ad5c52.module.css": {
+      "sha256": "43406c193eb7b68762ba8e46f416d7f26f9cdc77ecb0142c137c22ec4e88b619",
+      "bytes": 331
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/18-app-install-banner-partial.38a0735e2022b71c.module.css": {
+      "sha256": "51b4fd167f2d051226740fcff5a65879a75aa71023b68eaaf31591649de4092d",
+      "bytes": 446
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/19-primer-react-brand-css.05b219cdb8e80c43.module.css": {
+      "sha256": "5540a47f3e2d6791082dc54e443c8a76aa6c402bfb65c65dfa43f9d33a323074",
+      "bytes": 703598
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/20-zn.9fc2e923e926de87.module.css": {
+      "sha256": "b8172f8419fb839f9b5e5031b61dbaa5d2e5dee7b72f9fcd274787524b459a62",
+      "bytes": 17365
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/v1/css-typography-evidence/21-global-nav-bar.08339d28e8ce6f25.module.css": {
+      "sha256": "c05386d4c121c658b89e927846151405303be6d4a3f346cb24fd5c9aa50be212",
+      "bytes": 9553
+    },
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/001/teaching-v4.md": {
+      "sha256": "402485baa2767af9625146721e356f92bad76e4cfb738e5729c6c8b94ea79401",
+      "bytes": 24315
+    },
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/001/closure.md": {
+      "sha256": "70964ccd547010e386bb66f01c267ab392e9db20c001223994085b2c714bc928",
+      "bytes": 3968
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d001-render-review/v4/github-page.html": {
+      "sha256": "e17ed975ea3afa2036f7cf048249e7d5faaf76e5ed7db34991b7da7cf53191be",
+      "bytes": 402122
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d001-render-review/v4/github-article.html": {
+      "sha256": "1f274a5a1a0e56fec82e8a220ef52e47e04e90ebd36e2ca00986a2d7c0e1fd85",
+      "bytes": 62671
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d001-render-review/v4/markup-audit.json": {
+      "sha256": "ce8fabfe7484b6ee944057a1ca4054caaf41373a330d89359f1b83594a5f1234",
+      "bytes": 40335
+    },
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/002/teaching-v1.md": {
+      "sha256": "8139080278edb96287576629e7d80933b380c1b82af60d3ede888d500cb68a3a",
+      "bytes": 34994
+    },
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/002/closure.md": {
+      "sha256": "c01cd7baab2b544eafd873b486a69598fe5fe20490ccda6a6eb8f111d45bdb5c",
+      "bytes": 4308
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d002-render-review/v1/github-page.html": {
+      "sha256": "c36cce22b52d7ce15a738b4910c5308b12c0eb77ce14695752e2a74f28f713a8",
+      "bytes": 466350
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d002-render-review/v1/github-article.html": {
+      "sha256": "fc13929544ab99941883428ba79970a2da0288e2592744b4ef93348ad868b528",
+      "bytes": 83190
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d002-render-review/v1/markup-audit.json": {
+      "sha256": "71f4ec72a9534503bd432f3d4823a5ec4cd88fd61da787edd91fe11e28aea1c0",
+      "bytes": 54635
+    },
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/002/figures/unit-circle-proof-v1.png": {
+      "sha256": "95616719d3035e9f174367b55c48ccb3e04a8cbf5105434115e4bddff0b3c75d",
+      "bytes": 90094
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d002-render-review/v1/figures/unit-circle-proof-v1.png": {
+      "sha256": "95616719d3035e9f174367b55c48ccb3e04a8cbf5105434115e4bddff0b3c75d",
+      "bytes": 90094
+    },
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/003/teaching-v1.md": {
+      "sha256": "cd7426a9b70d0ac41aa3ca0418db8c89c391b67304016a7ad38f8379fe98b5a8",
+      "bytes": 25480
+    },
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/003/closure.md": {
+      "sha256": "574c75d8b8b992ec2cec4af6a3dc769759a287e4d9904c82efdaf9b930f4f8e6",
+      "bytes": 4072
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d003-render-review/v1/github-page.html": {
+      "sha256": "d2eca9fd26bd54b0bafd8aa1328e5e643cfcd9d24aa116f6aba44140f8c70140",
+      "bytes": 417122
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d003-render-review/v1/github-article.html": {
+      "sha256": "280362e73c91795baea4da3974a5dd06d75127235d9b41813cd1fd00528b0eee",
+      "bytes": 64160
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d003-render-review/v1/markup-audit.json": {
+      "sha256": "7a7b5df769e751b230da81491c9a3a16eb49753b7220690290dd2adb21cc8bbd",
+      "bytes": 30307
+    },
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/003/product-increment-v1.png": {
+      "sha256": "61bc47e951267028b32ac0007370244d8d6489e8552639572a56bdf5cc2ad2b0",
+      "bytes": 23338
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d003-render-review/v1/product-increment-v1.png": {
+      "sha256": "61bc47e951267028b32ac0007370244d8d6489e8552639572a56bdf5cc2ad2b0",
+      "bytes": 23338
+    },
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/004/teaching-v1.md": {
+      "sha256": "5adb3e95c2fa47c94b4c665d85dc2fe669e2c0086dbc2ebc194cd59720d5d8ad",
+      "bytes": 22691
+    },
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/004/closure.md": {
+      "sha256": "dec0bfd6d5597b15af1fe4fd52f058780ad77266c196384ce9e8b35ad8f12181",
+      "bytes": 3955
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d004-render-review/v1-corrected/github-page.html": {
+      "sha256": "ec8718015dbe2f244f847497c0715563eb10e05e64dda3d3808d1d0f831435fe",
+      "bytes": 411090
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d004-render-review/v1-corrected/github-article.html": {
+      "sha256": "f62b483587c9be18efc5febeb16570e352f8b51ce093b3f98bdded0a8a4f5586",
+      "bytes": 64145
+    },
+    "/workspace/scratch/ac36b9c5ff31/prof-readability/d004-render-review/v1-corrected/markup-audit.json": {
+      "sha256": "b4bf504e7d67e52b8d48451684afee9aff753682fd1812aa6e1231fcc87a431b",
+      "bytes": 23589
+    },
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/005/teaching-v2.md": {
+      "sha256": "4ae6d0f33e2957ebaf3bbd31c34e154c4a7c5eaab4bc3a09a9e909574b1a48e6",
+      "bytes": 24261
+    },
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/005/closure.md": {
+      "sha256": "736f44b6ec2c14d3e221bb5240eb36a704831720cb6fff9baace81c64e78dfc8",
+      "bytes": 2611
+    },
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/005/render-evidence/v2/github-page.html": {
+      "sha256": "979613f82c70b12b6268df06b947dec4be42977192722de59af55f5018498666",
+      "bytes": 415606
+    },
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/005/render-evidence/v2/github-article.html": {
+      "sha256": "24fbac5e8b61dc3532ac2da047970c01b81a7c5043dd2ca1b0294715bb65316e",
+      "bytes": 65081
+    },
+    "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/005/render-evidence/v2/markup-audit.json": {
+      "sha256": "10a6c49b13d6dc87604f5a7f603079e665387f295e5077b53ebb731baa41da15",
+      "bytes": 25548
+    }
+  }
+}

@@ -1,0 +1,12 @@
+# Shared reading by sourceprep_d118_d120_recovery
+
+This record establishes reading by this agent only. It does not borrow any predecessor's claimed reading. The original Chapter 11 PDF SHA-256 is `408ec79bde29712182a3cd44634c48e5ab2edf13979ef03c5bbdf597c9d735d7` (53 pages), verified locally before fresh extraction/rendering. All page numbers below are PDF numbers; printed page = PDF page minus one.
+
+## SR-11.1 (complete; used by D118 and D119)
+
+Personally read the complete original section 11.1, from its heading on PDF p3 through Example 11.1 on p5, stopping before section 11.2. Personally opened full original page renders p003.png, p004.png, p005.png, not contact sheets, in the current agent turn. Read all extracted text and visually reconciled equations, figures 11.1.1-11.1.3, subscripts, arrows, and the R1 >> R2 approximation. Text/render files are under `assets/5039d9b38e0e96be41771c5455731e34_chap11inductance/` in this review directory. Their exact hashes and paths are in recovery-manifest.json and each referencing source-map.json.
+
+- Supplied definition: flux per receiving turn Phi21 due to source current I1; total linkage N2 Phi21 = M21 I1. For fixed geometry and a linear medium, epsilon21 = -M21 dI1/dt. Corresponding 12 relation and reciprocal M12=M21 apply with consistent winding/current/flux orientations and a reciprocal linear medium. Units H=Wb/A=V s/A.
+- Consequential notation ambiguity: Eqs. 11.1.1 and 11.1.5 print -N dPhi/dt = -d/dt integral B.dA. Since Phi is explicitly flux through one turn, the final surface integral needs N for a single-turn surface, or must denote the whole multi-turn linked surface. Do not drop the receiving-turn factor.
+- 'Depends only on geometry' is a fixed-medium, fixed-orientation model statement, not an assertion of independence from permeability or nonlinear material behavior. With time-varying geometry the full derivative is -d(MI)/dt.
+- Independently recomputed Example 11.1: field of the large outer loop near its center is mu0 I1/(2R1); approximately uniform over small inner loop when R2/R1 << 1. Thus M approximately mu0 pi R2^2/(2R1), positive for the aligned reference convention; units H, vanishes quadratically as R2 -> 0. This is an approximation, not the exact equal-radius result. Figures' outer current and upward central field agree with the right-hand rule. Reciprocity is supplied, not proved in these assigned pages.

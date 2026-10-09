@@ -1,0 +1,13 @@
+{
+  "exit_code": 1,
+  "exception": "ValueError: Actual markup check failed; inspect markup-audit.json before previewing",
+  "helper_source_math_counts": {
+    "inline": 0,
+    "display": 0
+  },
+  "actual_math_counts": {
+    "inline": 291,
+    "display": 46
+  },
+  "interpretation": "Existing helper recognizes protected-backtick inline and fenced display syntax; candidate ordinary dollar math requires the separate diagnostic. Invisible comments and unordered-list markers also exceed its normalized-prose handling. Original helper files and failed audit retained."
+}

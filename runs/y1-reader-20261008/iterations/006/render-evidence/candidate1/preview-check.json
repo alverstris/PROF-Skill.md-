@@ -1,0 +1,235 @@
+{
+  "current_verdict": "FAIL actual GitHub math-payload fidelity; independent prose, routes/grouping and inspected typography scope pass",
+  "source_commit": "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f",
+  "source_sha256": "7030eca0fddab9a27c720a9ac4f7c3ae2d7e2e9716fc5d798cbaea5769c54986",
+  "source_bytes": 28540,
+  "controls_commit": "a2389390c0709d65af4a3cf070a04e396e4a4792",
+  "math_differences": {
+    "inline": 34,
+    "display": 2,
+    "angle_payloads": 32,
+    "angle_characters": 35,
+    "percent_payloads": 4,
+    "percent_escape_backslashes_lost": 9
+  },
+  "prose_correspondence": "All non-math visible prose exactly matches after documented source markup removal and whitespace normalization",
+  "navigation": {
+    "all_six_tasks_pass": true,
+    "anchor_count": 25,
+    "internal_links": 33,
+    "external_links": 1,
+    "hints_grouped_before_solutions": true,
+    "clicks_observed": false
+  },
+  "typography": {
+    "inspection_scope_verdict": "PASS inspected destination prose structure/style scope; no matching forced-emphasis rule found; live pixels/computed cascade remain unobserved",
+    "record": "typography-audit.json",
+    "no_table_or_heading_emphasis_triggers": true,
+    "live_pixels_observed": false
+  },
+  "preview": {
+    "role": "Internal source-faithful secondary preview, not learner PDF delivery or evidence that altered GitHub payloads render correctly",
+    "source_sha256": "7030eca0fddab9a27c720a9ac4f7c3ae2d7e2e9716fc5d798cbaea5769c54986",
+    "preview_md_identical_to_frozen_source": true,
+    "ast_checks": {
+      "all_payloads_and_types_exact_in_document_order": true,
+      "inline_count": 291,
+      "display_count": 46
+    },
+    "pdf_sha256": "ceef50b2261ad7dde0bee4842f3cc3bc0f3c6f45bd17609a0d849f64b08e7f69",
+    "page_count": 12,
+    "log_diagnostics": [],
+    "visual_review": "COMPLETE: 12/12 full pages opened; source-faithful math and percentages visible; minor local pagination seams recorded",
+    "no_visible_comment_locator_requirement": true,
+    "pdf_skill_marker_calls_this_operation": 1,
+    "page_inspections": [
+      {
+        "page": 1,
+        "image": "preview-initial/page-01.png",
+        "sha256": "8daaaa6522d117833631af83e1dd9ed42e1a488dc34b44f3da4e093ef7eec855",
+        "dimensions": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "method": "Full 120 dpi page opened with view_image, not a crop or thumbnail",
+        "findings": "Complete page viewed. Title, course line, reading route and Part 1 label use ordinary upright prose. Power laws, difference quotient, M(a) definition and exponential derivative fit within margins. Invisible Pnnn comments are not printed.",
+        "clipped_overlap_missing_glyph_observed": false
+      },
+      {
+        "page": 2,
+        "image": "preview-initial/page-02.png",
+        "sha256": "a32cf9f52fc5900e39969470635e39c55c005c6d52a60e56ffdd3c9904aeb399",
+        "dimensions": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "method": "Full 120 dpi page opened with view_image, not a crop or thumbnail",
+        "findings": "Complete page viewed. The two-item secant list replaces the prior table and is ordinary prose with mathematical notation. Exponential/chain-rule displays and Task A1/help labels are legible. Part 2 label is alone at the bottom, with its body beginning page 3.",
+        "clipped_overlap_missing_glyph_observed": false
+      },
+      {
+        "page": 3,
+        "image": "preview-initial/page-03.png",
+        "sha256": "0884466658489d76414de641231e3c55574da0cc1b4ea6bf8c69bb05c81ff643",
+        "dimensions": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "method": "Full 120 dpi page opened with view_image, not a crop or thumbnail",
+        "findings": "Complete page viewed. Logarithm inverse pairs, domain inequalities, product law and inverse/chain-rule displays are readable. Lower-page base-change display and footer do not collide. No missing mathematical glyphs observed.",
+        "clipped_overlap_missing_glyph_observed": false
+      },
+      {
+        "page": 4,
+        "image": "preview-initial/page-04.png",
+        "sha256": "34762103dcfeacc086216bf71635bf7e6da5bc7dc04bb1ea1e550a5c3589ae95",
+        "dimensions": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "method": "Full 120 dpi page opened with view_image, not a crop or thumbnail",
+        "findings": "Complete page viewed. Base derivative, comparison inequalities, Task A2/help, Part 3 and logarithmic differentiation displays are clear. Title/part/task prose remains normal weight.",
+        "clipped_overlap_missing_glyph_observed": false
+      },
+      {
+        "page": 5,
+        "image": "preview-initial/page-05.png",
+        "sha256": "1ef8bc0dae98a3c35b1a572faf645c183ecdb1880acd822f8294c2cbc2b29b0e",
+        "dimensions": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "method": "Full 120 dpi page opened with view_image, not a crop or thumbnail",
+        "findings": "Complete page viewed. x^x and varying-base/exponent calculations, domain condition, Task A3/help and opening sequence definition are readable. Fractions, superscripts and parentheses are distinct.",
+        "clipped_overlap_missing_glyph_observed": false
+      },
+      {
+        "page": 6,
+        "image": "preview-initial/page-06.png",
+        "sha256": "1237d40347c4761886b1caf16569f7ab29a5028fb2c7efd562049ea99b75147a",
+        "dimensions": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "method": "Full 120 dpi page opened with view_image, not a crop or thumbnail",
+        "findings": "Complete page viewed. Logarithmic sequence transformations, evaluation bar, exponential continuity step and limiting value are legible. Task A4 ends near bottom; its help links appear at the start of page 7.",
+        "clipped_overlap_missing_glyph_observed": false
+      },
+      {
+        "page": 7,
+        "image": "preview-initial/page-07.png",
+        "sha256": "c20da9f42b90309e790a1a42e90add66f737704c33debbbff79f734911375d0e",
+        "dimensions": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "method": "Full 120 dpi page opened with view_image, not a crop or thumbnail",
+        "findings": "Complete page viewed. Task A4 help labels, Part 5, relative/log-rate displays, units and percentages in the example are readable. Task A5 prompt continues page 8.",
+        "clipped_overlap_missing_glyph_observed": false
+      },
+      {
+        "page": 8,
+        "image": "preview-initial/page-08.png",
+        "sha256": "b6b0e86756394a47f85b815299e6652b7faf3e79941fb99ada4c298071bd4194",
+        "dimensions": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "method": "Full 120 dpi page opened with view_image, not a crop or thumbnail",
+        "findings": "Complete page viewed. Task A5 continuation/help, later-return Task A6/help and the Hints group are readable. Hints A1-A4 and returns are visible; Hint A5 label is at the bottom and its body begins page 9.",
+        "clipped_overlap_missing_glyph_observed": false
+      },
+      {
+        "page": 9,
+        "image": "preview-initial/page-09.png",
+        "sha256": "e7e118aba635029f5e28f4ea80fb1e2a0cae5667f130aa0eb249b435ce976003",
+        "dimensions": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "method": "Full 120 dpi page opened with view_image, not a crop or thumbnail",
+        "findings": "Complete page viewed. Hints A5/A6 and returns precede the distinct Complete solutions group. Solutions A1/A2 and returns are legible. Solution A3 label is at the bottom and its body begins page 10. Hints and solutions share this internal-preview page; source grouping is preserved.",
+        "clipped_overlap_missing_glyph_observed": false
+      },
+      {
+        "page": 10,
+        "image": "preview-initial/page-10.png",
+        "sha256": "2d83acffce684ad553594aa1f24e513861d1c255b34b08050aec3a927f614a3f",
+        "dimensions": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "method": "Full 120 dpi page opened with view_image, not a crop or thumbnail",
+        "findings": "Complete page viewed. Solutions A3/A4 and returns show readable logarithmic derivatives, domain conditions and signed limit. Solution A5 begins with its derivative display near the bottom. No clipping or overlap observed.",
+        "clipped_overlap_missing_glyph_observed": false
+      },
+      {
+        "page": 11,
+        "image": "preview-recovery/page-11.png",
+        "sha256": "5121eb04f12b37dffa66f7c4eb586d3ec0e4af3a8348b3ef4d4e60f05417ac05",
+        "dimensions": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "method": "Full 120 dpi page opened with view_image, not a crop or thumbnail",
+        "findings": "Complete recovered page viewed. Source-faithful percentage signs are visibly retained in the two inline -2% expressions and both percentage displays (the locations whose GitHub payloads lose escapes). Solution A6 limit calculation, return/help labels and source/scope opening are readable. No missing percent glyph or clipping observed.",
+        "clipped_overlap_missing_glyph_observed": false
+      },
+      {
+        "page": 12,
+        "image": "preview-initial/page-12.png",
+        "sha256": "8bcb9ea4edd7d32f165c4650544095c93ae998b9e09c9b46f02840cb366ceeb2",
+        "dimensions": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "method": "Full 120 dpi page opened with view_image, not a crop or thumbnail",
+        "findings": "Complete page viewed. Source/scope continuation and correction summary are readable, with normal trailing document whitespace. No printed Pnnn locators, clipping or missing prose observed.",
+        "clipped_overlap_missing_glyph_observed": false
+      }
+    ],
+    "all_full_pages_viewed": true,
+    "pdf_path": "preview-initial/preview.pdf",
+    "raster_recovery": {
+      "original": "preview-initial/page-11.png",
+      "original_sha256": "b1ef86fc0d921026cbba8cd7330f5fe88d23b37b013d2515d034f5ffe7decdc2",
+      "original_preserved": true,
+      "failure": "Pillow full load reported image file is truncated despite initial exporter success",
+      "recovered": "preview-recovery/page-11.png",
+      "recovered_full_page_viewed": true,
+      "unchanged_pdf": true
+    },
+    "pagination_observations": [
+      "Part 2 label is at bottom of page 2, body on page 3.",
+      "Task A4 prompt ends page 6; help labels start page 7.",
+      "Task A5 spans pages 7-8.",
+      "Hint A5 label is at bottom of page 8, body on page 9.",
+      "Solution A3 label is at bottom of page 9, body on page 10.",
+      "Source/scope prose spans pages 11-12."
+    ],
+    "help_separation_scope": "Hints remain grouped before complete solutions. Both occupy page 9 of this internal preview. The teaching product is Markdown, not a static learner PDF; this preview is not offered as a T11-compliant learner PDF."
+  },
+  "identity_checks": {
+    "source_unchanged": true,
+    "pdf_unchanged": true,
+    "initial_helper_failure_preserved": true
+  },
+  "limits": [
+    "Actual server HTML and linked CSS only; no live browser/CUA, client pixels, computed cascade, MathJax or clicking.",
+    "Ordinary single HTML parse, no extra entity decoding.",
+    "Local source-faithful preview does not cure actual destination payload changes.",
+    "No teaching acceptance, author-content edit, helper/control/state edit or subagent work."
+  ]
+}

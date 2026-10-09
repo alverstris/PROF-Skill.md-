@@ -1,0 +1,416 @@
+{
+  "role": "Internal representation-review evidence only; not a user PDF deliverable",
+  "source_origin": "Direct immutable GitHub raw-object fetch into this evidence tree; no worktree input",
+  "source_commit": "e17c6ae521b5f8ff70e9f6e1ffa2ff66881b8663",
+  "source_path": "frozen-teaching-v1.md",
+  "source_bytes": 24386,
+  "source_sha256": "d2946240bb9d5442919d1fb22f1f93b2f7626b69ad2e5a04178c283005f5bfdf",
+  "immutable_url": "https://github.com/alverstris/PROF-Skill.md-/blob/e17c6ae521b5f8ff70e9f6e1ffa2ff66881b8663/runs/y1-reader-20261008/iterations/006/teaching-v1.md",
+  "original_helper_capture": "capture-initial",
+  "original_helper_status": "FAIL retained: unsupported Markdown table syntax in complete-text normalization; generic Q/H/S route checks null",
+  "independent_representation_verdict": "PASS: all math, explicit table cells, table-aware normalized text, labels, anchors, hrefs and custom A-E routes match; live table typography/T11 client-pixel compliance unobserved",
+  "independent_audit": "independent-audit.json",
+  "independent_checks_pass": true,
+  "preview": {
+    "role": "Internal preview QA only; source Markdown remains the requested product.",
+    "conversion": "Only protected-inline and fenced-math delimiters changed; all mathematical payloads retained.",
+    "pandoc_ast_checks": {
+      "inline_payloads_exact": true,
+      "display_payloads_exact_after_removing_conversion_wrapper_newlines": true
+    },
+    "preview_md_sha256": "a066349ec333281d07439fd68863e3c25b2d071df70719e9809130fc095c82ba",
+    "pdf_sha256": "b4ab3d405216521beed9ce90554ec0f27f13e3f9da0be1ed5ddf28470f49eed1",
+    "page_count": 8,
+    "font_size_pt": 11,
+    "margins_mm": 25,
+    "page_size": "US Letter (Pandoc default)",
+    "log_diagnostics": [],
+    "pdf_label_and_reference_occurrences_match_source": true,
+    "preview_only_differences_to_consider": [
+      "Pandoc may promote image alt text to a figure caption and float the figure.",
+      "Page breaks may separate a paragraph and display; this does not establish a GitHub defect.",
+      "Hint and solution groups need not occupy different PDF pages."
+    ],
+    "hyperlink_parity_claimed": false,
+    "limitations": [
+      "Actual GitHub server-delivered markup, not live client pixels or MathJax execution.",
+      "GitHub-prefixed destination markup is checked; clicking and JavaScript fragment handling are unobserved.",
+      "Local pdflatex preview is a secondary renderer, not evidence of GitHub CSS, responsive layout or hyperlink parity.",
+      "Every complete final PDF page still requires visual opening and inspection; automatic evidence is not visual sign-off."
+    ],
+    "source_sha256": "d2946240bb9d5442919d1fb22f1f93b2f7626b69ad2e5a04178c283005f5bfdf",
+    "authorization_note": "Internal representation-review preview only, not a user PDF deliverable.",
+    "pdf_path": "preview-initial/preview.pdf",
+    "full_page_visual_review": "COMPLETE: all 8 full pages opened; no clipping, overlap, missing glyphs or lost labels; preview-only page-break seams recorded",
+    "page_inspections": [
+      {
+        "page": 1,
+        "image": "preview-initial/page-1.png",
+        "image_sha256": "cc987f1e0a76d5590a3f38f14a5af5fc664630e00b59ec48929122e30a1a6c08",
+        "image_dimensions_pixels": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "view_method": "Complete 120 dpi PNG opened with view_image; no crop/thumbnail substitute",
+        "paragraph_label_and_reference_occurrences_on_page": [
+          "[P01]",
+          "[P02]",
+          "[P03]",
+          "[P04]",
+          "[P05]",
+          "[P06]",
+          "[P07]",
+          "[P08]",
+          "[P09]"
+        ],
+        "findings": "Complete page viewed. P01-P09, positive-domain comparators, powers and the three difference-quotient/M(a) displays are legible. Task A begins near the bottom and continues on page 2. No clipped formula, missing glyph or footer collision observed.",
+        "clipping_overlap_or_missing_glyph_observed": false
+      },
+      {
+        "page": 2,
+        "image": "preview-recovery/page-2.png",
+        "image_sha256": "f02dc721bb8b302c20b774560a4b14f664b80dbf46b64c7e95f907dfbad5751b",
+        "image_dimensions_pixels": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "view_method": "Complete 120 dpi PNG opened with view_image; no crop/thumbnail substitute",
+        "paragraph_label_and_reference_occurrences_on_page": [
+          "[P10]",
+          "[P11]",
+          "[P12]",
+          "[P13]",
+          "[P14]",
+          "[P15]",
+          "[P16]",
+          "[P17]"
+        ],
+        "findings": "Complete recovered page viewed. Task A continuation and Hint A/Solution A labels are visible. P10-P17 inverse-log, base-change and secant-integral displays are legible. All comparison signs appear correctly. P17 table introduction ends this page and the full table follows on page 3.",
+        "clipping_overlap_or_missing_glyph_observed": false
+      },
+      {
+        "page": 3,
+        "image": "preview-initial/page-3.png",
+        "image_sha256": "6f4e9da200006fd341cdc044ef647b2ffec4e44946922df86854b9e08e92950d",
+        "image_dimensions_pixels": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "view_method": "Complete 120 dpi PNG opened with view_image; no crop/thumbnail substitute",
+        "paragraph_label_and_reference_occurrences_on_page": [
+          "[P18]",
+          "[P19]",
+          "[P20]",
+          "[P21]",
+          "[P22]",
+          "[P23]",
+          "[P24]"
+        ],
+        "findings": "Complete page viewed. The P17 table has all four headers and both complete rows; cell math, endpoints, slope-one lines and tangent inequalities are readable and remain within their columns. P18-P24, evaluation bar at zero and logarithmic derivative displays are legible. P24 introduction ends this page; its x^x calculation begins page 4.",
+        "clipping_overlap_or_missing_glyph_observed": false
+      },
+      {
+        "page": 4,
+        "image": "preview-initial/page-4.png",
+        "image_sha256": "1d73624aa7829f7ef009516791ba3e43416b278440678788448d82855101425d",
+        "image_dimensions_pixels": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "view_method": "Complete 120 dpi PNG opened with view_image; no crop/thumbnail substitute",
+        "paragraph_label_and_reference_occurrences_on_page": [
+          "[P25]",
+          "[P26]",
+          "[P27]",
+          "[P28]",
+          "[P29]",
+          "[P30]",
+          "[P31]",
+          "[P32]"
+        ],
+        "findings": "Complete page viewed. P24 x^x display is readable at the top. P25-P32, Task B and its help labels, logarithmic sequence transformation and limit displays are clear. Parentheses, fractions, limits and evaluation bar are intact. P32 numerical comparison continues on page 5.",
+        "clipping_overlap_or_missing_glyph_observed": false
+      },
+      {
+        "page": 5,
+        "image": "preview-initial/page-5.png",
+        "image_sha256": "78a7d574b619648cb06670b940378d453b08a642eaf5baed6cf677b99cccc240",
+        "image_dimensions_pixels": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "view_method": "Complete 120 dpi PNG opened with view_image; no crop/thumbnail substitute",
+        "paragraph_label_and_reference_occurrences_on_page": [
+          "[P33]",
+          "[P34]",
+          "[P35]",
+          "[P36]",
+          "[P37]",
+          "[P38]",
+          "[P39]",
+          "[P40]"
+        ],
+        "findings": "Complete page viewed. P32 continuation and P33-P40 are legible. Task C limit and direction notation, rate/log-rate display, percentages, units, and Task D help labels are visible. No clipped text, overlapping math or missing glyph observed.",
+        "clipping_overlap_or_missing_glyph_observed": false
+      },
+      {
+        "page": 6,
+        "image": "preview-initial/page-6.png",
+        "image_sha256": "f4f23824f93ea1bbcb0324b52780fea41dfa6730aa9e711f4677a219d5df35d5",
+        "image_dimensions_pixels": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "view_method": "Complete 120 dpi PNG opened with view_image; no crop/thumbnail substitute",
+        "paragraph_label_and_reference_occurrences_on_page": [
+          "[P41]",
+          "[P42]",
+          "[P43]",
+          "[P44]",
+          "[P45]",
+          "[P46]",
+          "[P47]",
+          "[P48]",
+          "[P49]",
+          "[P50]",
+          "[P51]"
+        ],
+        "findings": "Complete page viewed. P41-P51 includes the Task E display and continuation, source label, all five hints with their return labels, the separate solutions group label, and Solution A opening. Help groups are in the required order and are visually distinct by their labels/paragraph spacing. Solution A continues page 7.",
+        "clipping_overlap_or_missing_glyph_observed": false
+      },
+      {
+        "page": 7,
+        "image": "preview-initial/page-7.png",
+        "image_sha256": "0fe53699ee311432816fd28563517e34c997a447e91c92902feb74787b3d766f",
+        "image_dimensions_pixels": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "view_method": "Complete 120 dpi PNG opened with view_image; no crop/thumbnail substitute",
+        "paragraph_label_and_reference_occurrences_on_page": [
+          "[P52]",
+          "[P53]",
+          "[P54]",
+          "[P55]",
+          "[P56]",
+          "[P57]",
+          "[P58]",
+          "[P59]"
+        ],
+        "findings": "Complete page viewed. Solution A continuation and return label, P52-P59, logarithmic product derivation, evaluated derivative, negative-sign sequence limit and fractional-rate display are legible. Return labels for B and C are visible; Solution D continuation/return is on page 8. No clipping or missing glyph observed.",
+        "clipping_overlap_or_missing_glyph_observed": false
+      },
+      {
+        "page": 8,
+        "image": "preview-initial/page-8.png",
+        "image_sha256": "a045529b5b7424e3fffa9169cd5de85872c184c65e43294a422f314b7265665c",
+        "image_dimensions_pixels": [
+          1020,
+          1320
+        ],
+        "complete_page_viewed": true,
+        "view_method": "Complete 120 dpi PNG opened with view_image; no crop/thumbnail substitute",
+        "paragraph_label_and_reference_occurrences_on_page": [
+          "[P60]",
+          "[P61]",
+          "[P62]",
+          "[P63]"
+        ],
+        "findings": "Complete page viewed. P59 continuation and Return to Task D appear above P60-P63. Solution E logarithm, quotient-rule derivative, positive-domain condition and limit/continuity displays are readable. Return to Task E is present. The remaining page is normal end-of-document whitespace; footer is clear.",
+        "clipping_overlap_or_missing_glyph_observed": false
+      }
+    ],
+    "visual_page_coverage": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "raster_recovery": {
+      "initial_file": "preview-initial/page-2.png",
+      "initial_file_bytes": 73728,
+      "initial_file_sha256": "1ca628ac5e613cfc97cf26c1311820b56a03ba698c967a52a82dc7d7a22cd632",
+      "failure": "Pillow full load confirmed image file is truncated; initial exporter returned success",
+      "initial_file_preserved": true,
+      "recovery_file": "preview-recovery/page-2.png",
+      "recovery_command": "pdftoppm -f 2 -l 2 -r 120 -png preview-initial/preview.pdf preview-recovery/page",
+      "recovered_full_image_loaded_and_viewed": true,
+      "pdf_unchanged": true,
+      "cause_of_initial_truncation": "Not established; not treated as a source or PDF content defect"
+    },
+    "pagination_observations": [
+      {
+        "pages": [
+          1,
+          2
+        ],
+        "locator": "P09 / Task A",
+        "finding": "Task prompt spans pages; help labels remain with continuation."
+      },
+      {
+        "pages": [
+          2,
+          3
+        ],
+        "locator": "P17",
+        "finding": "Introduction and its complete table are separated by a page break; table itself is not split."
+      },
+      {
+        "pages": [
+          3,
+          4
+        ],
+        "locator": "P24",
+        "finding": "Logarithmic differentiation introduction and its display are separated by a page break."
+      },
+      {
+        "pages": [
+          4,
+          5
+        ],
+        "locator": "P32",
+        "finding": "Numerical comparison prose continues on next page."
+      },
+      {
+        "pages": [
+          6,
+          7
+        ],
+        "locator": "P51 / Solution A",
+        "finding": "Solution continues next page with return label."
+      },
+      {
+        "pages": [
+          7,
+          8
+        ],
+        "locator": "P59 / Solution D",
+        "finding": "Finite-change explanation continues next page with return label."
+      }
+    ],
+    "pdf_marker": {
+      "skill_path": "/root/.codex/skills/builtins/pdf/SKILL.md",
+      "read_in_full": true,
+      "successful_calls_this_D006_operation": 1,
+      "scope": "Internal preview creation; no output deliverable citation or PDF delivery intended"
+    }
+  },
+  "limits": [
+    "No browser/computer operation performed.",
+    "Live GitHub client pixels, CSS/responsive layout and MathJax/custom-element execution remain unobserved.",
+    "Actual href and prefixed ID mapping checked; clicking and JavaScript fragment handling remain unobserved.",
+    "Local Pandoc/pdflatex PDF is a secondary renderer, not GitHub visual or hyperlink-parity evidence.",
+    "No teaching-sufficiency, independent-reader or SASIS verdict is made."
+  ],
+  "final_identity_checks": {
+    "frozen_source_hash_unchanged": true,
+    "pdf_hash_unchanged": true,
+    "initial_markup_audit_still_failed": true
+  },
+  "table_typography_scope": {
+    "scope": "P17 table prose, with T11 prohibition on bold/italic prose including tables taken into account",
+    "actual_github_article": {
+      "table_count": 1,
+      "header_cells": [
+        {
+          "tag": "th",
+          "attributes": {},
+          "text": "Curve"
+        },
+        {
+          "tag": "th",
+          "attributes": {},
+          "text": "Secant endpoints"
+        },
+        {
+          "tag": "th",
+          "attributes": {},
+          "text": "Secant slope and line"
+        },
+        {
+          "tag": "th",
+          "attributes": {},
+          "text": "Tangent at zero"
+        }
+      ],
+      "emphasis_tag_counts": {
+        "strong": 0,
+        "b": 0,
+        "em": 0,
+        "i": 0
+      },
+      "header_client_pixels_or_computed_style_observed": false,
+      "finding": "Four semantic th cells, with no explicit header attributes or strong/b/em/i markup; CSS/default presentation is not established by this inspection."
+    },
+    "internal_preview": {
+      "page": 3,
+      "full_page_visually_viewed": true,
+      "visual_finding": "All four table header labels appear upright and normal weight; no bold or italic header prose observed.",
+      "header_font_spans": [
+        {
+          "text": "Curve",
+          "font": "LMRoman10-Regular",
+          "size": 10.909099578857422,
+          "flags": 4,
+          "bbox": [
+            70.86599731445312,
+            75.54371643066406,
+            99.39329528808594,
+            86.45281982421875
+          ]
+        },
+        {
+          "text": "Secant endpoints",
+          "font": "LMRoman10-Regular",
+          "size": 10.909099578857422,
+          "flags": 4,
+          "bbox": [
+            191.43338012695312,
+            75.54371643066406,
+            272.4552917480469,
+            86.45281982421875
+          ]
+        },
+        {
+          "text": "Secant slope and line",
+          "font": "LMRoman10-Regular",
+          "size": 10.909099578857422,
+          "flags": 4,
+          "bbox": [
+            312.0444030761719,
+            75.54371643066406,
+            412.76812744140625,
+            86.45281982421875
+          ]
+        },
+        {
+          "text": "Tangent at zero",
+          "font": "LMRoman10-Regular",
+          "size": 10.909099578857422,
+          "flags": 4,
+          "bbox": [
+            432.2626953125,
+            75.54371643066406,
+            507.4701232910156,
+            86.45281982421875
+          ]
+        }
+      ],
+      "all_headers_regular_upright_font": true,
+      "table_tex_emphasis_commands": []
+    },
+    "T11_scope": "No explicit emphasis markup or local-preview bold/italic header prose observed. GitHub th styling can depend on destination CSS/defaults, so live table typography and full client-pixel T11 compliance remain UNOBSERVED. The helper tag check alone does not certify that boundary.",
+    "source_or_helper_changed": false
+  }
+}

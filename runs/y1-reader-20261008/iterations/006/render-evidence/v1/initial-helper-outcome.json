@@ -1,0 +1,8 @@
+{
+  "command": "frozen_render_review.py --source frozen-teaching-v1.md --url [immutable e17c6ae... GitHub blob URL] --out capture-initial --markup-only",
+  "exit_code": 1,
+  "exception": "ValueError: Actual markup check failed; inspect markup-audit.json before previewing",
+  "failed_check": "complete_text_equal_after_documented_markup_normalization",
+  "actual_math_payload_mismatch": false,
+  "interpretation": "Source-normalization gap for the P17 Markdown table, demonstrated by exact cell and complete table-aware text comparisons. No source or helper edit."
+}

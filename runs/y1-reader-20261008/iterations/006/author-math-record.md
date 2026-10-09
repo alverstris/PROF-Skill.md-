@@ -1,0 +1,28 @@
+D006 author mathematical verification
+
+These are author calculations, not SASIS and not measured learner outcomes. The main calculations were independently reconstructed using explicit exponent identities and product/chain/quotient rules, with numeric cross-checks in author-math-checks.json. Two attempted symbolic-tool imports failed before performing any calculation; author-math-check-failure.txt preserves that limit. No CAS success is claimed.
+
+Source and core
+
+1. M(a): a^(x+h)-a^x=a^x(a^h-1) and the h denominator remains intact. Existence comes from the explicitly granted base-e exponential and a^x=exp(x ln a), rather than continuity alone. Its derivative is a^x ln a, so M(a)=ln a. The baseline grants all these standard differentiation premises; the teaching openly reconstructs them instead of pretending this proves the original construction of e.
+2. Inverse: if w=ln x, exp(w)=x. At x=1,w=0 the printed exp(x)=w would give e=0, disproving it. For the correct inverse, exp(w)>0 ensures the inverse differentiation rule applies and exp(w)w'=1 gives w'=1/x.
+3. Geometry: for a>1, ln a>0 and a^x strictly increases, so E' strictly increases. The fundamental theorem expresses a secant as the integral mean of E'; strict monotonicity makes the average strictly between endpoint derivatives. The corrected base4 chord goes from(-1/2,1/2) to(0,1) with exact slope1. Printed endpoint(1,0) is not on the curve and the printed pair has slope-1/3. M2<1<M4 follows with no unannounced diagram premise; ln is one-to-one, so M(a)=1 iff a=e, and 2<e<4. The comparative-base claim is explicitly local to slope at zero.
+4. x^x: writing exp(x ln x) and differentiating directly gives exp(x ln x)(ln x+1) on x>0; this alternate route matches logarithmic differentiation. ln(1+x^2)'=2x/(1+x^2) has positive argument throughout R and the sign of x, checking that output positivity does not imply slope positivity.
+5. Limit: for h=1/k, k ln(1+1/k)=[ln(1+h)-ln1]/h tends to ln'(1)=1. Exponentiating uses continuous exp and establishes existence of the original sequence limit. No interchange with an unproved original limit occurs. Numeric k10=2.5937424601, difference from e≈0.124539368359, relative shortfall≈0.04581547324. These numerics quantify the source's qualitative remark.
+6. Rates: log derivative is f'/f when f>0. For dimensional f, ln(f/f_ref)'=[(f'/f_ref)/(f/f_ref)]=f'/f. Finite fractional r and log change ln(1+r) differ; their ratio tends to1 for r->0, justifying only the local approximation. The50-point falls give -1/6 and-0.005. Example300 exp(-.02t) has initial absolute rate-6 and fractional rate-.02/day;10000 exp(-.02t) has initial-200 and the same fractional rate.
+
+Tasks, derived without root answers first
+
+A. E0=1,E2=9; E'0=M3,E'2=9M3. Divide each by its own height: both fractional rates M3. Tangent through(0,1) with slope M3 is y=1+M3 x.
+B. G=exp((x-1)ln(1+x)) for x>-1. Its inner derivative is ln(1+x)+(x-1)/(1+x), so multiply by G. At1 the second term vanishes and G=1; result ln2. The full derivative is needed since testing only at1 would miss a dropped base-variation term. Numeric independent central differences of the exp form match the displayed power-form derivative at x=-.7,.7,2; this samples the negative-x part of the domain and two nonspecial positive points.
+C. h=-2/n implies3n=-6/h. Positive n>=3 keeps all bases positive below1; log c_n=-6 ln(1+h)/h ->-6 as h->0-. exp continuity gives e^-6. Numeric sequence checks approach0.002478752 from below and reject a sign-flipped e^6.
+D. For t>0 derivative200(1+t), quotient2/(1+t). At the endpoint, [100(1+h)^2-100]/h=200+100h ->200 from the right; divide by100 for initial fractional rate2/day. At1 it is1/day. Levels100 and400 give fractional3=300percent and log ln4. Both level and ordinary slope rise, but their ratio falls. The endpoint issue was independently flagged by root before root read authored solutions. P40 now defines the right-hand initial-rate convention, P57 restricts the ordinary derivative to t>0, and P58 explicitly computes the right quotient.
+E. Differentiate exp(ln(1+x)/x): quotient derivative [x/(1+x)-ln(1+x)]/x^2, multiplied by P. The log quotient itself tends to ln'(1)=1 as x->0+, so P->e. These are separate operations. Numeric central differences at .1,.4,2 discriminate quotient sign/factor errors; function values at decreasing positive x approach e.
+
+Independent comparison
+
+After the above derivations and numeric checks, author read root's unchanged lead-pre-solution-math-original.md (SHA111f002eb879922d5e6b3d97921e95f91abc2683237613c0c08797f781c0e622). A–E agree. Root's endpoint concern is resolved as described, with original prompts and original root report preserved. Its extra derivative-sign argument for E is correct but not needed by the task and was not added to the lesson. A guessed filename for root's numeric record did not exist; no claim is made to have read it. Root's original record itself supplies independent mathematical derivations.
+
+Readback repairs
+
+The first full sequential readback found two serialization defects: Python editing had introduced tab characters instead of backslash-t in P58's two arrow commands, and P61 had a bare quad instead of a TeX command. Preserved teaching-v1-pre-readback-repairs.md records those defects. Both are corrected in teaching-v1.md, and P40/P57/P58/P61 were read back in full afterward. teaching-v1-pre-endpoint-clarification.md preserves the earlier domain omission. Final mechanical check rejects all non-newline control characters and raw angle signs inside mathematics. No unresolved mathematical error is known from the performed checks; rendering and fresh SASIS remain pending.

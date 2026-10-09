@@ -1,0 +1,113 @@
+{
+  "material_id": "D007",
+  "reviewer": "/root",
+  "status": "future_source_preparation_only",
+  "source_pdf_sha256": "47316203594d35c47220c7049238045ff0a2ac73ba3292d17107f13d575f3602",
+  "coverage": [
+    {
+      "pdf_page": 1,
+      "entire_text_personally_read": true,
+      "full_original_page_image_personally_opened": true,
+      "artifacts": {
+        "text": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p01.txt",
+          "sha256": "11c690867bfc86462780321c0a2f505caa77a5b25de25f251a48516b67b1cd34",
+          "bytes": 183
+        },
+        "image": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p01.png",
+          "sha256": "cf38e5a69e5dd2300bf90b52b69cd6ecdaf2d083412ded9643cdcf08cf025ccf",
+          "bytes": 30822
+        }
+      }
+    },
+    {
+      "pdf_page": 2,
+      "entire_text_personally_read": true,
+      "full_original_page_image_personally_opened": true,
+      "artifacts": {
+        "text": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p02.txt",
+          "sha256": "27a74a75fd3547060d476c7ea7c0d407dc01cbc840d8ce5ac9115392e73bdfb4",
+          "bytes": 932
+        },
+        "image": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p02.png",
+          "sha256": "ab8e5a4e906fb9bfb67d36b2e3a7f43cc07299958b580af11ab9dc3010163094",
+          "bytes": 101631
+        }
+      }
+    },
+    {
+      "pdf_page": 3,
+      "entire_text_personally_read": true,
+      "full_original_page_image_personally_opened": true,
+      "artifacts": {
+        "text": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p03.txt",
+          "sha256": "27f09c63bffda35d26728cc42943c742df932c786e61b1ea9f9fd011faa1f77b",
+          "bytes": 955
+        },
+        "image": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p03.png",
+          "sha256": "7d1eec59afd2e832aca8b71dd686655993d5b0797ba7d341883d033440000924",
+          "bytes": 103272
+        }
+      }
+    },
+    {
+      "pdf_page": 4,
+      "entire_text_personally_read": true,
+      "full_original_page_image_personally_opened": true,
+      "artifacts": {
+        "text": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p04.txt",
+          "sha256": "d8301a54d88512d039ad643d67f21e7900f162c60e5a615dad9d3621b48878ec",
+          "bytes": 1188
+        },
+        "image": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p04.png",
+          "sha256": "4302342f410b9880ff0d5dc39f5ef5a8831fa5c1d0d1b79c5d048a303d3a6d36",
+          "bytes": 112804
+        }
+      }
+    },
+    {
+      "pdf_page": 5,
+      "entire_text_personally_read": true,
+      "full_original_page_image_personally_opened": true,
+      "artifacts": {
+        "text": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p05.txt",
+          "sha256": "f289760af3b0812f465592dbdc1b296d419464ff547458fb15d791687399a530",
+          "bytes": 343
+        },
+        "image": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p05.png",
+          "sha256": "f11b921f70aa92bedccdb718f7177b680a38f480fcd77f118d89e2d167a07a7c",
+          "bytes": 41977
+        }
+      }
+    }
+  ],
+  "scope": "Full source-review.md/source-map.json read. All five original text files read in one untruncated call; all five full original images opened in two calls. No source modified, teaching authored, SASIS dispatched or iteration closed.",
+  "independent_deductions": [
+    "From exponential definitions, sinh derivative is (exp(x)+exp(-x))/2=cosh; cosh derivative is (exp(x)-exp(-x))/2=sinh. Difference of squares expands to exp(x)exp(-x)=1. No circular-cosine minus sign transfers to cosh.",
+    "cosh(x)>=1 follows from (exp(x/2)-exp(-x/2))^2>=0. For every real v, t=v+sqrt(v^2+1)>0 and x=ln(t) yield sinh(x)=v and cosh(x)=sqrt(v^2+1); this parametrization covers exactly the right branch. A left branch is not supplied by cosh(x).",
+    "Sum/constant/product/quotient/chain formulas are correct under their differentiability and domain conditions. Differentiating u*v^(-1) gives u-prime/v-u*v-prime/v^2. A constant c is required for the constant-multiple rule.",
+    "Implicit cubic gives 3y^2*y-prime+3y^2+6xy*y-prime=0. The curve forbids y=0, so y-prime=-y/(y+2x) wherever a differentiable y(x) branch and nonzero denominator are available. Denominator zero forces x=cuberoot(2), y=-2*cuberoot(2). Parametrization x(y)=8/(3y^2)-y/3 is valid for every curve point since y!=0; dx/dy=-16/(3y^3)-1/3 vanishes exactly there, and dy/dy=1. Its tangent direction is therefore vertical. Local invertibility away from that point must be justified or explicitly conditioned in teaching; conditional differentiation alone cannot prove existence.",
+    "Principal arcsin has range [-pi/2,pi/2]. On interior inputs its cosine is positive, so inverse derivative =1/sqrt(1-x^2). Endpoints have no finite slope. Principal arctan ranges (-pi/2,pi/2); sec^2=1+x^2 gives derivative 1/(1+x^2) on all real inputs. Inverse notation is not reciprocal.",
+    "Sine and cosine derivative proofs use radian-angle addition formulas and the two displayed limits. For sine the quotient becomes sin(x)*(cos(h)-1)/h+cos(x)*sin(h)/h; cosine becomes cos(x)*(cos(h)-1)/h-sin(x)*sin(h)/h. Limits give cos(x), -sin(x). Sec derivative is sin(x)/cos(x)^2=tan(x)sec(x) where cos(x)!=0.",
+    "For x>0 and fixed real r, x^r=exp(r ln x) is differentiable and yields r*x^(r-1). Log differentiation gives the same expression but needs positivity and differentiability; the exponential route supplies those. It does not establish a universal formula on negative x or at zero.",
+    "Final exp(x arctan x) derivative is exp(x arctan x)*(arctan x+x/(1+x^2)) on all real x. This follows by outer chain and inner product rules, retaining both product terms. Source rhetoric about differentiating anything is not universal differentiability.",
+    "Full packet contains hyperbolic continuation, historical exam review, real-power routes and final composite example despite shorter queue label. No figures; typography/extraction grouping checked against all originals. No wrong displayed derivative found. Historical assessment wording does not establish present assessed scope."
+  ],
+  "numerical_checks": {
+    "cubic_exception_curve_residual": 0.0,
+    "dxdy_at_exception": 0.0,
+    "composite_derivative_at_1": 2.819238149034907,
+    "central_difference_at_1": 2.8192381491543013
+  },
+  "external_research": "No external claim needed: explicit elementary deductions from the inspected mathematical definitions and rules. Numerical values corroborate, not prove, the identities.",
+  "reader_boundary": "Future SASIS will receive baseline and fresh teaching only, never this source review."
+}

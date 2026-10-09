@@ -1,0 +1,95 @@
+{
+  "scope": "P17 table prose, with T11 prohibition on bold/italic prose including tables taken into account",
+  "actual_github_article": {
+    "table_count": 1,
+    "header_cells": [
+      {
+        "tag": "th",
+        "attributes": {},
+        "text": "Curve"
+      },
+      {
+        "tag": "th",
+        "attributes": {},
+        "text": "Secant endpoints"
+      },
+      {
+        "tag": "th",
+        "attributes": {},
+        "text": "Secant slope and line"
+      },
+      {
+        "tag": "th",
+        "attributes": {},
+        "text": "Tangent at zero"
+      }
+    ],
+    "emphasis_tag_counts": {
+      "strong": 0,
+      "b": 0,
+      "em": 0,
+      "i": 0
+    },
+    "header_client_pixels_or_computed_style_observed": false,
+    "finding": "Four semantic th cells, with no explicit header attributes or strong/b/em/i markup; CSS/default presentation is not established by this inspection."
+  },
+  "internal_preview": {
+    "page": 3,
+    "full_page_visually_viewed": true,
+    "visual_finding": "All four table header labels appear upright and normal weight; no bold or italic header prose observed.",
+    "header_font_spans": [
+      {
+        "text": "Curve",
+        "font": "LMRoman10-Regular",
+        "size": 10.909099578857422,
+        "flags": 4,
+        "bbox": [
+          70.86599731445312,
+          75.54371643066406,
+          99.39329528808594,
+          86.45281982421875
+        ]
+      },
+      {
+        "text": "Secant endpoints",
+        "font": "LMRoman10-Regular",
+        "size": 10.909099578857422,
+        "flags": 4,
+        "bbox": [
+          191.43338012695312,
+          75.54371643066406,
+          272.4552917480469,
+          86.45281982421875
+        ]
+      },
+      {
+        "text": "Secant slope and line",
+        "font": "LMRoman10-Regular",
+        "size": 10.909099578857422,
+        "flags": 4,
+        "bbox": [
+          312.0444030761719,
+          75.54371643066406,
+          412.76812744140625,
+          86.45281982421875
+        ]
+      },
+      {
+        "text": "Tangent at zero",
+        "font": "LMRoman10-Regular",
+        "size": 10.909099578857422,
+        "flags": 4,
+        "bbox": [
+          432.2626953125,
+          75.54371643066406,
+          507.4701232910156,
+          86.45281982421875
+        ]
+      }
+    ],
+    "all_headers_regular_upright_font": true,
+    "table_tex_emphasis_commands": []
+  },
+  "T11_scope": "No explicit emphasis markup or local-preview bold/italic header prose observed. GitHub th styling can depend on destination CSS/defaults, so live table typography and full client-pixel T11 compliance remain UNOBSERVED. The helper tag check alone does not certify that boundary.",
+  "source_or_helper_changed": false
+}

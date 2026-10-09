@@ -1,0 +1,391 @@
+{
+  "verdict": "PASS with documented table-aware source normalization; original helper failure retained",
+  "source_sha256": "d2946240bb9d5442919d1fb22f1f93b2f7626b69ad2e5a04178c283005f5bfdf",
+  "source_bytes": 24386,
+  "source_origin": "Direct immutable raw GitHub fetch, not mutable worktree",
+  "checks": {
+    "frozen_source_matches_expected_hash": true,
+    "captured_page_hash_exact": true,
+    "reextracted_article_exact": true,
+    "all_math_payloads_exact": true,
+    "all_table_cells_exact": true,
+    "complete_text_equal_after_explicit_table_markup_normalization": true,
+    "labels_exactly_P01_through_P63": true,
+    "all_prefixed_anchor_ids_exact_in_order": true,
+    "all_anchor_ids_unique": true,
+    "all_link_text_href_pairs_exact_in_order": true,
+    "all_internal_targets_unique": true,
+    "custom_A_to_E_routes_and_returns_exact": true,
+    "source_and_actual_hints_grouped_before_solutions": true
+  },
+  "checks_pass": true,
+  "math": {
+    "inline": {
+      "source_count": 320,
+      "actual_count": 320,
+      "all_payloads_exact_in_order": true,
+      "differences": []
+    },
+    "display": {
+      "source_count": 24,
+      "actual_count": 24,
+      "all_payloads_exact_in_order": true,
+      "differences": []
+    }
+  },
+  "table": {
+    "logical_paragraph": "[P17]",
+    "source_lines": [
+      67,
+      70
+    ],
+    "source_rows": [
+      [
+        "Curve",
+        "Secant endpoints",
+        "Secant slope and line",
+        "Tangent at zero"
+      ],
+      [
+        "$y=2^x$",
+        "$(0,1)$ and $(1,2)$",
+        "$(2-1)/(1-0)=1$; $y=1+x$",
+        "$y=1+M(2)x$, with $M(2)\\lt1$"
+      ],
+      [
+        "$y=4^x$",
+        "$(-1/2,1/2)$ and $(0,1)$",
+        "$(1-1/2)/(0+1/2)=1$; $y=1+x$",
+        "$y=1+M(4)x$, with $M(4)\\gt1$"
+      ]
+    ],
+    "actual_rows": [
+      [
+        "Curve",
+        "Secant endpoints",
+        "Secant slope and line",
+        "Tangent at zero"
+      ],
+      [
+        "$y=2^x$",
+        "$(0,1)$ and $(1,2)$",
+        "$(2-1)/(1-0)=1$; $y=1+x$",
+        "$y=1+M(2)x$, with $M(2)\\lt1$"
+      ],
+      [
+        "$y=4^x$",
+        "$(-1/2,1/2)$ and $(0,1)$",
+        "$(1-1/2)/(0+1/2)=1$; $y=1+x$",
+        "$y=1+M(4)x$, with $M(4)\\gt1$"
+      ]
+    ],
+    "all_12_cells_exact_in_order": true,
+    "header_rows": 1,
+    "body_rows": 2,
+    "columns": 4
+  },
+  "A_to_E_navigation": [
+    {
+      "task": "A",
+      "task_start_paragraph": "[P09]",
+      "outgoing_links_paragraph": "[P09]",
+      "hint_paragraph": "[P45]",
+      "solution_start_paragraph": "[P51]",
+      "solution_return_paragraph": "[P51]",
+      "anchor_destinations_exact": true,
+      "task_to_matching_hint_once": true,
+      "task_to_matching_solution_once": true,
+      "hint_return_once": true,
+      "solution_return_once": true,
+      "exactly_two_named_returns": true,
+      "pass": true
+    },
+    {
+      "task": "B",
+      "task_start_paragraph": "[P26]",
+      "outgoing_links_paragraph": "[P26]",
+      "hint_paragraph": "[P46]",
+      "solution_start_paragraph": "[P52]",
+      "solution_return_paragraph": "[P54]",
+      "anchor_destinations_exact": true,
+      "task_to_matching_hint_once": true,
+      "task_to_matching_solution_once": true,
+      "hint_return_once": true,
+      "solution_return_once": true,
+      "exactly_two_named_returns": true,
+      "pass": true
+    },
+    {
+      "task": "C",
+      "task_start_paragraph": "[P33]",
+      "outgoing_links_paragraph": "[P34]",
+      "hint_paragraph": "[P47]",
+      "solution_start_paragraph": "[P55]",
+      "solution_return_paragraph": "[P56]",
+      "anchor_destinations_exact": true,
+      "task_to_matching_hint_once": true,
+      "task_to_matching_solution_once": true,
+      "hint_return_once": true,
+      "solution_return_once": true,
+      "exactly_two_named_returns": true,
+      "pass": true
+    },
+    {
+      "task": "D",
+      "task_start_paragraph": "[P40]",
+      "outgoing_links_paragraph": "[P40]",
+      "hint_paragraph": "[P48]",
+      "solution_start_paragraph": "[P57]",
+      "solution_return_paragraph": "[P59]",
+      "anchor_destinations_exact": true,
+      "task_to_matching_hint_once": true,
+      "task_to_matching_solution_once": true,
+      "hint_return_once": true,
+      "solution_return_once": true,
+      "exactly_two_named_returns": true,
+      "pass": true
+    },
+    {
+      "task": "E",
+      "task_start_paragraph": "[P41]",
+      "outgoing_links_paragraph": "[P42]",
+      "hint_paragraph": "[P49]",
+      "solution_start_paragraph": "[P60]",
+      "solution_return_paragraph": "[P63]",
+      "anchor_destinations_exact": true,
+      "task_to_matching_hint_once": true,
+      "task_to_matching_solution_once": true,
+      "hint_return_once": true,
+      "solution_return_once": true,
+      "exactly_two_named_returns": true,
+      "pass": true
+    }
+  ],
+  "anchor_to_paragraph": {
+    "user-content-task-a": "[P09]",
+    "user-content-task-b": "[P26]",
+    "user-content-task-c": "[P33]",
+    "user-content-task-d": "[P40]",
+    "user-content-task-e": "[P41]",
+    "user-content-hints": "[P44]",
+    "user-content-hint-a": "[P45]",
+    "user-content-hint-b": "[P46]",
+    "user-content-hint-c": "[P47]",
+    "user-content-hint-d": "[P48]",
+    "user-content-hint-e": "[P49]",
+    "user-content-solutions": "[P50]",
+    "user-content-solution-a": "[P51]",
+    "user-content-solution-b": "[P52]",
+    "user-content-solution-c": "[P55]",
+    "user-content-solution-d": "[P57]",
+    "user-content-solution-e": "[P60]"
+  },
+  "all_links": [
+    {
+      "from": "[P02]",
+      "href": "#task-e",
+      "text": "Task E"
+    },
+    {
+      "from": "[P02]",
+      "href": "#hints",
+      "text": "Hints"
+    },
+    {
+      "from": "[P02]",
+      "href": "#solutions",
+      "text": "complete solutions"
+    },
+    {
+      "from": "[P09]",
+      "href": "#hint-a",
+      "text": "Hint A"
+    },
+    {
+      "from": "[P09]",
+      "href": "#solution-a",
+      "text": "Solution A"
+    },
+    {
+      "from": "[P26]",
+      "href": "#hint-b",
+      "text": "Hint B"
+    },
+    {
+      "from": "[P26]",
+      "href": "#solution-b",
+      "text": "Solution B"
+    },
+    {
+      "from": "[P34]",
+      "href": "#hint-c",
+      "text": "Hint C"
+    },
+    {
+      "from": "[P34]",
+      "href": "#solution-c",
+      "text": "Solution C"
+    },
+    {
+      "from": "[P40]",
+      "href": "#hint-d",
+      "text": "Hint D"
+    },
+    {
+      "from": "[P40]",
+      "href": "#solution-d",
+      "text": "Solution D"
+    },
+    {
+      "from": "[P42]",
+      "href": "#hint-e",
+      "text": "Hint E"
+    },
+    {
+      "from": "[P42]",
+      "href": "#solution-e",
+      "text": "complete solution"
+    },
+    {
+      "from": "[P43]",
+      "href": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/f9af0e98490296c99d330faf47389507_lec6.pdf",
+      "text": "original lecture PDF"
+    },
+    {
+      "from": "[P45]",
+      "href": "#task-a",
+      "text": "Return to Task A"
+    },
+    {
+      "from": "[P46]",
+      "href": "#task-b",
+      "text": "Return to Task B"
+    },
+    {
+      "from": "[P47]",
+      "href": "#task-c",
+      "text": "Return to Task C"
+    },
+    {
+      "from": "[P48]",
+      "href": "#task-d",
+      "text": "Return to Task D"
+    },
+    {
+      "from": "[P49]",
+      "href": "#task-e",
+      "text": "Return to Task E"
+    },
+    {
+      "from": "[P51]",
+      "href": "#task-a",
+      "text": "Return to Task A"
+    },
+    {
+      "from": "[P54]",
+      "href": "#task-b",
+      "text": "Return to Task B"
+    },
+    {
+      "from": "[P56]",
+      "href": "#task-c",
+      "text": "Return to Task C"
+    },
+    {
+      "from": "[P59]",
+      "href": "#task-d",
+      "text": "Return to Task D"
+    },
+    {
+      "from": "[P63]",
+      "href": "#task-e",
+      "text": "Return to Task E"
+    }
+  ],
+  "counts": {
+    "logical_paragraphs": 63,
+    "anchors": 17,
+    "internal_links": 23,
+    "external_links": 1
+  },
+  "initial_helper_diagnosis": {
+    "failed_check": "complete_text_equal_after_documented_markup_normalization",
+    "cause": "prose_stream retains Markdown pipe-table delimiters and alignment separator; actual HTML table text omits these syntax characters",
+    "source_locator": "[P17], source lines 67-70",
+    "differences": [
+      {
+        "type": "delete",
+        "source": "| ",
+        "actual": ""
+      },
+      {
+        "type": "delete",
+        "source": " |",
+        "actual": ""
+      },
+      {
+        "type": "delete",
+        "source": " |",
+        "actual": ""
+      },
+      {
+        "type": "delete",
+        "source": "| ",
+        "actual": ""
+      },
+      {
+        "type": "delete",
+        "source": "| | --- | --- | --- | --- | | ",
+        "actual": ""
+      },
+      {
+        "type": "delete",
+        "source": " |",
+        "actual": ""
+      },
+      {
+        "type": "delete",
+        "source": " |",
+        "actual": ""
+      },
+      {
+        "type": "delete",
+        "source": " |",
+        "actual": ""
+      },
+      {
+        "type": "delete",
+        "source": "| | ",
+        "actual": ""
+      },
+      {
+        "type": "delete",
+        "source": " |",
+        "actual": ""
+      },
+      {
+        "type": "delete",
+        "source": " |",
+        "actual": ""
+      },
+      {
+        "type": "delete",
+        "source": "| ",
+        "actual": ""
+      },
+      {
+        "type": "delete",
+        "source": " |",
+        "actual": ""
+      }
+    ],
+    "original_audit_unchanged": true,
+    "generic_Q_H_S_checks_not_applicable": true
+  },
+  "normalization_added": "For the sole verified four-column table, remove only outer/inter-cell pipe syntax and the alignment row; retain all 12 cell texts and their order. Then apply existing helper Markdown/whitespace normalization.",
+  "html_parsing": "One ordinary lxml HTML parse; no extra entity-unescape pass",
+  "limits": [
+    "Saved server-delivered markup only; client pixels and MathJax execution unobserved.",
+    "Href/ID presence and routing intent checked; live clicking and JavaScript fragment behavior unobserved."
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "verdict": "PASS inspected destination prose structure/style scope; no matching forced-emphasis rule found; live pixels/computed cascade remain unobserved",
+  "controls_commit": "a2389390c0709d65af4a3cf070a04e396e4a4792",
+  "controls_skill_sha256": "3f7d903a399bdbaaeef397e7af7033dc0229cbb982371ea7c0679fe042c9cc8f",
+  "source_structures": "Plain paragraphs for titles/part labels/task/help/source labels; one two-item unordered list; no tables or headings.",
+  "actual_tag_counts": {
+    "p": 218,
+    "ul": 1,
+    "li": 2,
+    "h1": 0,
+    "h2": 0,
+    "h3": 0,
+    "h4": 0,
+    "h5": 0,
+    "h6": 0,
+    "table": 0,
+    "th": 0,
+    "dl": 0,
+    "dt": 0,
+    "strong": 0,
+    "b": 0,
+    "em": 0,
+    "i": 0
+  },
+  "article_attributes": {
+    "class": "markdown-body entry-content container-lg",
+    "itemprop": "text"
+  },
+  "font_weight_or_style_rules_explicitly_scoped_to_markdown_body": [
+    {
+      "selector": ".markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6",
+      "declarations": "margin-top:var(--base-size-24);margin-bottom:var(--base-size-16);font-weight:var(--base-text-weight-semibold,600);line-height:1.25",
+      "source_url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+      "sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+      "present_structure_matches": false,
+      "why_not_present": "No h1-h6, dl/dt, table/th or csv-data structures occur in the captured article."
+    },
+    {
+      "selector": ".markdown-body dl dt",
+      "declarations": "margin-top:var(--base-size-16);font-size:1em;font-style:italic;font-weight:var(--base-text-weight-semibold,600);padding:0",
+      "source_url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+      "sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+      "present_structure_matches": false,
+      "why_not_present": "No h1-h6, dl/dt, table/th or csv-data structures occur in the captured article."
+    },
+    {
+      "selector": ".markdown-body table th",
+      "declarations": "font-weight:var(--base-text-weight-semibold,600)",
+      "source_url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+      "sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+      "present_structure_matches": false,
+      "why_not_present": "No h1-h6, dl/dt, table/th or csv-data structures occur in the captured article."
+    },
+    {
+      "selector": ".markdown-body .csv-data th",
+      "declarations": "font-weight:var(--base-text-weight-semibold,600);background:var(--bgColor-muted,var(--color-canvas-subtle));border-top:0",
+      "source_url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+      "sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3",
+      "present_structure_matches": false,
+      "why_not_present": "No h1-h6, dl/dt, table/th or csv-data structures occur in the captured article."
+    }
+  ],
+  "plain_structure_rules": [
+    {
+      "selector": "body",
+      "declarations": "margin:0",
+      "source_url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+      "sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3"
+    },
+    {
+      "selector": "body",
+      "declarations": "font-family:var(--fontStack-sansSerif,-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\");font-size:var(--body-font-size,14px);font-weight:var(--base-text-weight-normal,400);color:var(--fgColor-default,var(--color-fg-default));background-color:var(--bgColor-default,var(--color-canvas-default));line-height:1.5",
+      "source_url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+      "sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3"
+    },
+    {
+      "selector": ".markdown-body",
+      "declarations": "font-family:var(--fontStack-sansSerif,-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\");overflow-wrap:break-word;font-size:16px;line-height:1.5",
+      "source_url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+      "sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3"
+    },
+    {
+      "selector": ".markdown-body li>p",
+      "declarations": "margin-top:var(--base-size-16)",
+      "source_url": "https://github.githubassets.com/assets/primer-9be9fe6313f476af.css",
+      "sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3"
+    },
+    {
+      "selector": "body",
+      "declarations": "margin:0",
+      "source_url": "https://github.githubassets.com/assets/primer-react-css.e4334163c54cccf5.module.css",
+      "sha256": "5b027b85151ec86acd34b0d9b054b6bda173d4e5a2a424852c52ab27c01003e0"
+    },
+    {
+      "selector": "body",
+      "declarations": "min-height:100vh;line-height:1.5",
+      "source_url": "https://github.githubassets.com/assets/primer-react-brand-css.05b219cdb8e80c43.module.css",
+      "sha256": "5540a47f3e2d6791082dc54e443c8a76aa6c402bfb65c65dfa43f9d33a323074"
+    }
+  ],
+  "fresh_css_assets": {
+    "linked_and_fetched": 21,
+    "all_http_200": true,
+    "inventory": "css-evidence/fetch-inventory.json",
+    "prior_css_reused": false
+  },
+  "interpretation": "The actual linked Primer rules that force bold/italic prose target headings, definition terms and table headers; none of those structures is present. Ordinary p/ul/li rules do not impose those weights/styles. The earlier bare-th failure is absent in this candidate.",
+  "limits": [
+    "Static saved HTML and linked CSS inspection only, not a browser computed-style/pixel test.",
+    "Conventional mathematical italics are allowed by candidate T11 and are not treated as prose emphasis.",
+    "The internal PDF is a secondary preview, not a learner PDF deliverable; static learner-PDF page-separation rules are not used to change this Markdown source."
+  ]
+}

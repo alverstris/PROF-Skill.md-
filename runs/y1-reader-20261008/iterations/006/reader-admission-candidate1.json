@@ -1,0 +1,32 @@
+{
+  "agent": "/root/sasis_d006_candidate1_fresh",
+  "fork_turns": "none",
+  "condition": "Instruction-confined retrieval of exactly two immutable git objects; broad shared tools remain available. No technical isolation or erased pretraining.",
+  "admission": "ADMITTED_COMPLETE_REPORTED_ACCESS_VERIFIED",
+  "operating_instruction": "Complete reader procedure delivered inline, matching reader-role/contract; no author history, suspected issues, raw sources or skill content supplied.",
+  "content_inputs": [
+    {
+      "commit": "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "bytes": 247840,
+      "raw_characters": 246945
+    },
+    {
+      "commit": "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f",
+      "path": "runs/y1-reader-20261008/iterations/006/regenerated-r13-candidate1/teaching.md",
+      "sha256": "7030eca0fddab9a27c720a9ac4f7c3ae2d7e2e9716fc5d798cbaea5769c54986",
+      "bytes": 28540,
+      "raw_characters": 28516
+    }
+  ],
+  "permitted_retrieval": "exec_command read-only exact git show objects, coherent bounded raw UTF-8 ranges; own report/access output only",
+  "complete_delivery_not_yet_established": false,
+  "expected_outputs": [
+    "reader-report-candidate1-original.md",
+    "reader-access-candidate1-original.json"
+  ],
+  "report_sha256": "a4f3048b344e39c0831002301ac729a1c28400625fc2cc79668d885ff22e686b",
+  "access_sha256": "2815f420f11e996afe95853fe4a90cb423e1f473e179ba77c14349c68ea32af4",
+  "parent_review": "Full original report read at raw[0,17000),[16500,34006); all access-event ranges/results/commands checked. Initial combined display was clipped; recovered report separately. Actor-reported reading under instruction-only boundary, not runtime audit."
+}

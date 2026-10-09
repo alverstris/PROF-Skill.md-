@@ -1,0 +1,19 @@
+{
+  "actor": "/root",
+  "original_sha256": "7030eca0fddab9a27c720a9ac4f7c3ae2d7e2e9716fc5d798cbaea5769c54986",
+  "v2_sha256": "53a69398d757bfe20c062450aace5a405ad66664a7f749b8f1f1cbbe2703efc3",
+  "forward_whole_document_exact": true,
+  "inverse_whole_document_exact": true,
+  "only_math_spans_changed": true,
+  "replacement_counts": {
+    "less_than": 13,
+    "greater_than": 27,
+    "percent_escape": 9
+  },
+  "scope": "Full original source to v2 transformation restricted to dollar-delimited math; outside prose, comments, anchors and prompts unchanged. Named comparison commands preserve relation; spelled-out percent preserves the percentage unit and sign. Root personally read full final v2 P001\u2013P194 and rechecked all changed expressions in context.",
+  "initial_failed_check": {
+    "cause": "First inverse test replaced command name without consuming its added TeX delimiter space; source identity assertion failed due solely to remaining spaces after relations.",
+    "preserved_observation": "No Git object was created by that failed script. Follow-up inverse diff showed those spaces; exact inverse including delimiter space restores every original byte. No teaching edit made for this runner issue."
+  },
+  "acceptance": "Actual new destination representation and a separate fresh full reader remain pending; equivalence alone cannot pass those gates."
+}

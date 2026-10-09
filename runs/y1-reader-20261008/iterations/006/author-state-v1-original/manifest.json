@@ -1,0 +1,1148 @@
+{
+  "schema_version": 1,
+  "project_root": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006",
+  "skill": {
+    "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/inputs/prof-r12/SKILL.md",
+    "sha256": "8d494499e419d3543a35235dbf9345cbce3ac8aee8319a9f63be88c622f89352"
+  },
+  "request": {
+    "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/inputs/requests.md",
+    "sha256": "83827f13eae3f98ba89cbf0df6085b6d3430b1b8ac31db2e336c1ca83539d8da"
+  },
+  "required_topics": [
+    {
+      "id": "exponential-logarithm",
+      "title": "Exponential derivatives, natural logs, logarithmic differentiation, exponential limit and relative rates",
+      "source_portions": [
+        {
+          "source_id": "execution",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "sasis",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "profile",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "reader-contract",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "reader-role",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "rewrite",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "domain",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "state-tool",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "baseline",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "author-instruction",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "conventions",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "task-prompts",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "task-clarification",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "source-review",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "source-map",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "lead-source-review",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "lead-math",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p01"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p02"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p03"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p04"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p05"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p06"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p07"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p08"
+        }
+      ],
+      "outputs": [
+        "teaching"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "execution",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/inputs/prof-r12/references/execution-protocol.md",
+      "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "sasis",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/inputs/prof-r12/references/sasis.md",
+      "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/inputs/prof-r12/references/sasis/profile-manifest.json",
+      "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "reader-contract",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/inputs/prof-r12/references/sasis/student-testing-contract.txt",
+      "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "reader-role",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/inputs/prof-r12/references/sasis/student-role.txt",
+      "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "rewrite",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/inputs/prof-r12/references/sasis/rewrite-guide.md",
+      "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "domain",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/inputs/prof-r12/references/domain-patterns.md",
+      "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "state-tool",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/inputs/prof-r12/references/state-tool.md",
+      "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "baseline",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/inputs/student-baseline.txt",
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "author-instruction",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/inputs/author-instruction.txt",
+      "sha256": "28407a324aa72b9d9ea873808b8e3b6267b65c1a8b2cbe7687d3c8c6b1641aeb",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "conventions",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/prerequisites-conventions.md",
+      "sha256": "b4cec73b5bd20400f3598637d9a01138dda0216fa4c1045761c1c3db9f258fd1",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "task-prompts",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/task-prompts-v1.md",
+      "sha256": "693ea4ed587482b3d44070e99b6b3d011c54c275f797a99d3b90656d202dd6c5",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "task-clarification",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/task-clarification-v1.md",
+      "sha256": "2319d7d043d228113bcb56dce024a06df9e37c26fe4e89123522ca3d2d5bf1b7",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "source-review",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/source-review.md",
+      "sha256": "22c2a71792bbb6894c425769656287e7178a0609399ab6dc8571672e59c27aea",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "source-map",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/source-map.json",
+      "sha256": "b580eaa1ccb20ca85dc5e861ef26c53c78ebc8b9c1ae2c3b7d75319e849dac86",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "lead-source-review",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/lead-source-review.json",
+      "sha256": "090eaa4844709412f1f466cdb5f57f7cbb40f570201056f94bd6dd3a24d1049c",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "lead-math",
+      "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/lead-pre-solution-math-original.md",
+      "sha256": "111f002eb879922d5e6b3d97921e95f91abc2683237613c0c08797f781c0e622",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "Used author input/control or verified prerequisite/evidence record.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "lecture",
+      "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L06/lec6.pdf",
+      "sha256": "e36b81f73c0e6265a814de8875c3898b1255d2e0aa656547a731b8274a00f66d",
+      "url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/f9af0e98490296c99d330faf47389507_lec6.pdf",
+      "portions": [
+        {
+          "id": "p01",
+          "locator": "PDF page 1, complete extraction and full original page image",
+          "disposition": "required",
+          "reason": "Assigned complete lecture source.",
+          "evidence": []
+        },
+        {
+          "id": "p02",
+          "locator": "PDF page 2, complete extraction and full original page image",
+          "disposition": "required",
+          "reason": "Assigned complete lecture source.",
+          "evidence": []
+        },
+        {
+          "id": "p03",
+          "locator": "PDF page 3, complete extraction and full original page image",
+          "disposition": "required",
+          "reason": "Assigned complete lecture source.",
+          "evidence": []
+        },
+        {
+          "id": "p04",
+          "locator": "PDF page 4, complete extraction and full original page image",
+          "disposition": "required",
+          "reason": "Assigned complete lecture source.",
+          "evidence": []
+        },
+        {
+          "id": "p05",
+          "locator": "PDF page 5, complete extraction and full original page image",
+          "disposition": "required",
+          "reason": "Assigned complete lecture source.",
+          "evidence": []
+        },
+        {
+          "id": "p06",
+          "locator": "PDF page 6, complete extraction and full original page image",
+          "disposition": "required",
+          "reason": "Assigned complete lecture source.",
+          "evidence": []
+        },
+        {
+          "id": "p07",
+          "locator": "PDF page 7, complete extraction and full original page image",
+          "disposition": "required",
+          "reason": "Assigned complete lecture source.",
+          "evidence": []
+        },
+        {
+          "id": "p08",
+          "locator": "PDF page 8, complete extraction and full original page image",
+          "disposition": "required",
+          "reason": "Assigned complete lecture source.",
+          "evidence": []
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "id": "teaching",
+      "path": "teaching-v1.md",
+      "sha256": "d2946240bb9d5442919d1fb22f1f93b2f7626b69ad2e5a04178c283005f5bfdf"
+    }
+  ],
+  "output_checks": [
+    {
+      "id": "coverage",
+      "description": "Full eight-page source coverage including figures and final remarks.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Author has personally read and mapped every source portion; no required body topic omitted.",
+      "evidence": [
+        {
+          "path": "author-coverage.md",
+          "sha256": "48ea6a956b3a806549765f0ee4df0a3a413d41d6e082cfdee6c097f0ba82f83b",
+          "locator": {
+            "kind": "lines",
+            "start": 3,
+            "end": 3
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "aa3dd26b731904e055d97ee6f2291c6a727fa4b687d8f12003ad1b0da1fdcee7"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "d2946240bb9d5442919d1fb22f1f93b2f7626b69ad2e5a04178c283005f5bfdf"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "83827f13eae3f98ba89cbf0df6085b6d3430b1b8ac31db2e336c1ca83539d8da"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "8d494499e419d3543a35235dbf9345cbce3ac8aee8319a9f63be88c622f89352"
+        },
+        {
+          "kind": "source",
+          "id": "author-instruction",
+          "sha256": "28407a324aa72b9d9ea873808b8e3b6267b65c1a8b2cbe7687d3c8c6b1641aeb"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "conventions",
+          "sha256": "b4cec73b5bd20400f3598637d9a01138dda0216fa4c1045761c1c3db9f258fd1"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lead-math",
+          "sha256": "111f002eb879922d5e6b3d97921e95f91abc2683237613c0c08797f781c0e622"
+        },
+        {
+          "kind": "source",
+          "id": "lead-source-review",
+          "sha256": "090eaa4844709412f1f466cdb5f57f7cbb40f570201056f94bd6dd3a24d1049c"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "e36b81f73c0e6265a814de8875c3898b1255d2e0aa656547a731b8274a00f66d"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-map",
+          "sha256": "b580eaa1ccb20ca85dc5e861ef26c53c78ebc8b9c1ae2c3b7d75319e849dac86"
+        },
+        {
+          "kind": "source",
+          "id": "source-review",
+          "sha256": "22c2a71792bbb6894c425769656287e7178a0609399ab6dc8571672e59c27aea"
+        },
+        {
+          "kind": "source",
+          "id": "state-tool",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "task-clarification",
+          "sha256": "2319d7d043d228113bcb56dce024a06df9e37c26fe4e89123522ca3d2d5bf1b7"
+        },
+        {
+          "kind": "source",
+          "id": "task-prompts",
+          "sha256": "693ea4ed587482b3d44070e99b6b3d011c54c275f797a99d3b90656d202dd6c5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "author-instruction",
+          "sha256": "2663e4c37a904d1d3df1239fb11372c8dd2703b611017e169ebb85fc66a987a3"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "081593da45c8e06981424096c8299e2da5f205d11b2983d25286f4e4831f2a9d"
+        },
+        {
+          "kind": "source_scope",
+          "id": "conventions",
+          "sha256": "7d4df1dbfef082f9ec11a79a36c5644b31051de7f193af5102bd5b6a9df82128"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "15bd5845d45dc6b1ca9fb20e6a3b9d800b0856c7b3fd630ea068774d32b0a37f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "bf327e05fa1e59f43d9782bce78f88406057b7a5b334bb1379d4e350458d49d5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lead-math",
+          "sha256": "89e4ca7302c3ed5edb1f7d21dcc630b5806903c692b0ed937581db7b388993fd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lead-source-review",
+          "sha256": "ca9b72ef1d6fe135ce6f2a4df3584295614654863dc1e4ea5b63a23d70210946"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "90e2d06a6cd6959399f0ec53fb1eb37d7b72ed0bd0d8ca7f1be47bd5be0f8697"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "f990c174e27c79b2306657396582e73bdb9044b198f0a757c438bcb566dfc78f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "7a14c887f455022c358fac0869fc91a9b88a881d5499e7a7fb44130b00eab1df"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "33d4f44460cc9368498100f8b16a16108391bdf5ce25b50e73f2e4f5d18bfcc4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "31e37625f41b1d02521a1a16b870bd9944aac98135a7f67ed7ccb1ff833bee47"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "548f6401f17246c9de998905d75cd21464a531c5dd6d342e0af70dc2243de765"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-map",
+          "sha256": "9d12e53b19b01cc189adaa9cbf65bbb894b06a20801ccb331db8b06f20a2f422"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-review",
+          "sha256": "1477cbc10f3c08685f356797fbb0b32d6eb0967f323364464dc498e8ece9c5c0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-tool",
+          "sha256": "0f51b181f2a057d91065d5e68e822e44a042cb70293554ba5bb014f7158a1a43"
+        },
+        {
+          "kind": "source_scope",
+          "id": "task-clarification",
+          "sha256": "12571ae2fb6df9b886bb724539b493130e038ee7152b4ebc2ad2d60edab62e03"
+        },
+        {
+          "kind": "source_scope",
+          "id": "task-prompts",
+          "sha256": "a0bd5cffe256a1940f7507e6e2dd9704cd8fb52a99b550b5605afc857ab48f79"
+        },
+        {
+          "kind": "topic",
+          "id": "exponential-logarithm",
+          "sha256": "b0d4d36f02dd36c30f016d29aa6229222577fc3c2ffb81a736fc843202112b21"
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "description": "Source corrections, full answers and mathematical checks.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Manual algebra plus independent root pre-solution calculations and numerical discrimination agree; failed symbolic imports disclosed.",
+      "evidence": [
+        {
+          "path": "author-math-record.md",
+          "sha256": "ee5cc2e48bf83629fe529fe21ddb10eaa00c54a8da924687acf5fc52f895e1e6",
+          "locator": {
+            "kind": "lines",
+            "start": 24,
+            "end": 24
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "aa3dd26b731904e055d97ee6f2291c6a727fa4b687d8f12003ad1b0da1fdcee7"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "d2946240bb9d5442919d1fb22f1f93b2f7626b69ad2e5a04178c283005f5bfdf"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "83827f13eae3f98ba89cbf0df6085b6d3430b1b8ac31db2e336c1ca83539d8da"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "8d494499e419d3543a35235dbf9345cbce3ac8aee8319a9f63be88c622f89352"
+        },
+        {
+          "kind": "source",
+          "id": "author-instruction",
+          "sha256": "28407a324aa72b9d9ea873808b8e3b6267b65c1a8b2cbe7687d3c8c6b1641aeb"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "conventions",
+          "sha256": "b4cec73b5bd20400f3598637d9a01138dda0216fa4c1045761c1c3db9f258fd1"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lead-math",
+          "sha256": "111f002eb879922d5e6b3d97921e95f91abc2683237613c0c08797f781c0e622"
+        },
+        {
+          "kind": "source",
+          "id": "lead-source-review",
+          "sha256": "090eaa4844709412f1f466cdb5f57f7cbb40f570201056f94bd6dd3a24d1049c"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "e36b81f73c0e6265a814de8875c3898b1255d2e0aa656547a731b8274a00f66d"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-map",
+          "sha256": "b580eaa1ccb20ca85dc5e861ef26c53c78ebc8b9c1ae2c3b7d75319e849dac86"
+        },
+        {
+          "kind": "source",
+          "id": "source-review",
+          "sha256": "22c2a71792bbb6894c425769656287e7178a0609399ab6dc8571672e59c27aea"
+        },
+        {
+          "kind": "source",
+          "id": "state-tool",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "task-clarification",
+          "sha256": "2319d7d043d228113bcb56dce024a06df9e37c26fe4e89123522ca3d2d5bf1b7"
+        },
+        {
+          "kind": "source",
+          "id": "task-prompts",
+          "sha256": "693ea4ed587482b3d44070e99b6b3d011c54c275f797a99d3b90656d202dd6c5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "author-instruction",
+          "sha256": "2663e4c37a904d1d3df1239fb11372c8dd2703b611017e169ebb85fc66a987a3"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "081593da45c8e06981424096c8299e2da5f205d11b2983d25286f4e4831f2a9d"
+        },
+        {
+          "kind": "source_scope",
+          "id": "conventions",
+          "sha256": "7d4df1dbfef082f9ec11a79a36c5644b31051de7f193af5102bd5b6a9df82128"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "15bd5845d45dc6b1ca9fb20e6a3b9d800b0856c7b3fd630ea068774d32b0a37f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "bf327e05fa1e59f43d9782bce78f88406057b7a5b334bb1379d4e350458d49d5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lead-math",
+          "sha256": "89e4ca7302c3ed5edb1f7d21dcc630b5806903c692b0ed937581db7b388993fd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lead-source-review",
+          "sha256": "ca9b72ef1d6fe135ce6f2a4df3584295614654863dc1e4ea5b63a23d70210946"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "90e2d06a6cd6959399f0ec53fb1eb37d7b72ed0bd0d8ca7f1be47bd5be0f8697"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "f990c174e27c79b2306657396582e73bdb9044b198f0a757c438bcb566dfc78f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "7a14c887f455022c358fac0869fc91a9b88a881d5499e7a7fb44130b00eab1df"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "33d4f44460cc9368498100f8b16a16108391bdf5ce25b50e73f2e4f5d18bfcc4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "31e37625f41b1d02521a1a16b870bd9944aac98135a7f67ed7ccb1ff833bee47"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "548f6401f17246c9de998905d75cd21464a531c5dd6d342e0af70dc2243de765"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-map",
+          "sha256": "9d12e53b19b01cc189adaa9cbf65bbb894b06a20801ccb331db8b06f20a2f422"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-review",
+          "sha256": "1477cbc10f3c08685f356797fbb0b32d6eb0967f323364464dc498e8ece9c5c0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-tool",
+          "sha256": "0f51b181f2a057d91065d5e68e822e44a042cb70293554ba5bb014f7158a1a43"
+        },
+        {
+          "kind": "source_scope",
+          "id": "task-clarification",
+          "sha256": "12571ae2fb6df9b886bb724539b493130e038ee7152b4ebc2ad2d60edab62e03"
+        },
+        {
+          "kind": "source_scope",
+          "id": "task-prompts",
+          "sha256": "a0bd5cffe256a1940f7507e6e2dd9704cd8fb52a99b550b5605afc857ab48f79"
+        },
+        {
+          "kind": "topic",
+          "id": "exponential-logarithm",
+          "sha256": "b0d4d36f02dd36c30f016d29aa6229222577fc3c2ffb81a736fc843202112b21"
+        }
+      ]
+    },
+    {
+      "id": "mechanical",
+      "description": "Markdown labels, supported math delimiters and exact task/help/return targets.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Final syntax checks report matched tasks/help and all internal targets; this is not a rendered-layout claim.",
+      "evidence": [
+        {
+          "path": "author-mechanical-checks.json",
+          "sha256": "4ef3969b56bb9027de7fbdd95cc196ad472a5288b4b9dba8731bb35d2d0665af",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 32
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "aa3dd26b731904e055d97ee6f2291c6a727fa4b687d8f12003ad1b0da1fdcee7"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "d2946240bb9d5442919d1fb22f1f93b2f7626b69ad2e5a04178c283005f5bfdf"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "83827f13eae3f98ba89cbf0df6085b6d3430b1b8ac31db2e336c1ca83539d8da"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "8d494499e419d3543a35235dbf9345cbce3ac8aee8319a9f63be88c622f89352"
+        },
+        {
+          "kind": "source",
+          "id": "author-instruction",
+          "sha256": "28407a324aa72b9d9ea873808b8e3b6267b65c1a8b2cbe7687d3c8c6b1641aeb"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "conventions",
+          "sha256": "b4cec73b5bd20400f3598637d9a01138dda0216fa4c1045761c1c3db9f258fd1"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lead-math",
+          "sha256": "111f002eb879922d5e6b3d97921e95f91abc2683237613c0c08797f781c0e622"
+        },
+        {
+          "kind": "source",
+          "id": "lead-source-review",
+          "sha256": "090eaa4844709412f1f466cdb5f57f7cbb40f570201056f94bd6dd3a24d1049c"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "e36b81f73c0e6265a814de8875c3898b1255d2e0aa656547a731b8274a00f66d"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-map",
+          "sha256": "b580eaa1ccb20ca85dc5e861ef26c53c78ebc8b9c1ae2c3b7d75319e849dac86"
+        },
+        {
+          "kind": "source",
+          "id": "source-review",
+          "sha256": "22c2a71792bbb6894c425769656287e7178a0609399ab6dc8571672e59c27aea"
+        },
+        {
+          "kind": "source",
+          "id": "state-tool",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "task-clarification",
+          "sha256": "2319d7d043d228113bcb56dce024a06df9e37c26fe4e89123522ca3d2d5bf1b7"
+        },
+        {
+          "kind": "source",
+          "id": "task-prompts",
+          "sha256": "693ea4ed587482b3d44070e99b6b3d011c54c275f797a99d3b90656d202dd6c5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "author-instruction",
+          "sha256": "2663e4c37a904d1d3df1239fb11372c8dd2703b611017e169ebb85fc66a987a3"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "081593da45c8e06981424096c8299e2da5f205d11b2983d25286f4e4831f2a9d"
+        },
+        {
+          "kind": "source_scope",
+          "id": "conventions",
+          "sha256": "7d4df1dbfef082f9ec11a79a36c5644b31051de7f193af5102bd5b6a9df82128"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "15bd5845d45dc6b1ca9fb20e6a3b9d800b0856c7b3fd630ea068774d32b0a37f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "bf327e05fa1e59f43d9782bce78f88406057b7a5b334bb1379d4e350458d49d5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lead-math",
+          "sha256": "89e4ca7302c3ed5edb1f7d21dcc630b5806903c692b0ed937581db7b388993fd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lead-source-review",
+          "sha256": "ca9b72ef1d6fe135ce6f2a4df3584295614654863dc1e4ea5b63a23d70210946"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "90e2d06a6cd6959399f0ec53fb1eb37d7b72ed0bd0d8ca7f1be47bd5be0f8697"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "f990c174e27c79b2306657396582e73bdb9044b198f0a757c438bcb566dfc78f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "7a14c887f455022c358fac0869fc91a9b88a881d5499e7a7fb44130b00eab1df"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "33d4f44460cc9368498100f8b16a16108391bdf5ce25b50e73f2e4f5d18bfcc4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "31e37625f41b1d02521a1a16b870bd9944aac98135a7f67ed7ccb1ff833bee47"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "548f6401f17246c9de998905d75cd21464a531c5dd6d342e0af70dc2243de765"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-map",
+          "sha256": "9d12e53b19b01cc189adaa9cbf65bbb894b06a20801ccb331db8b06f20a2f422"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-review",
+          "sha256": "1477cbc10f3c08685f356797fbb0b32d6eb0967f323364464dc498e8ece9c5c0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-tool",
+          "sha256": "0f51b181f2a057d91065d5e68e822e44a042cb70293554ba5bb014f7158a1a43"
+        },
+        {
+          "kind": "source_scope",
+          "id": "task-clarification",
+          "sha256": "12571ae2fb6df9b886bb724539b493130e038ee7152b4ebc2ad2d60edab62e03"
+        },
+        {
+          "kind": "source_scope",
+          "id": "task-prompts",
+          "sha256": "a0bd5cffe256a1940f7507e6e2dd9704cd8fb52a99b550b5605afc857ab48f79"
+        },
+        {
+          "kind": "topic",
+          "id": "exponential-logarithm",
+          "sha256": "b0d4d36f02dd36c30f016d29aa6229222577fc3c2ffb81a736fc843202112b21"
+        }
+      ]
+    },
+    {
+      "id": "render",
+      "description": "Actual final GitHub rendering and destinations. ",
+      "applicable": true,
+      "status": "pending",
+      "reason": "Parent-owned final rendering has not been claimed by author.",
+      "evidence": [],
+      "dependencies": []
+    },
+    {
+      "id": "sasis",
+      "description": "Fresh full-document two-input SASIS reader and issue dispositions.",
+      "applicable": true,
+      "status": "pending",
+      "reason": "Parent dispatches fresh SASIS after freeze; author is not the reader.",
+      "evidence": [],
+      "dependencies": []
+    },
+    {
+      "id": "final_review",
+      "description": "Final current full-route acceptance after rendering/SASIS and issue resolution.",
+      "applicable": true,
+      "status": "pending",
+      "reason": "Author full route/help reconstruction is recorded, but final acceptance remains parent-owned.",
+      "evidence": [
+        {
+          "path": "author-record.md",
+          "sha256": "308b05d3bacf313be4b9ddc341d4c286c35109ab0dc43b7dd9298e0ed99d05d7",
+          "locator": {
+            "kind": "lines",
+            "start": 31,
+            "end": 31
+          }
+        }
+      ],
+      "dependencies": []
+    }
+  ]
+}

@@ -1,0 +1,586 @@
+{
+  "schema": "sasis-actual-access-log-v1",
+  "reader": "SASIS dedicated fresh reader of frozen candidate1",
+  "commit": "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f",
+  "repo": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+  "units": "raw UTF-8 decoded Unicode characters, zero-based half-open; carriage returns retained",
+  "confinement": "instruction-confined read-only subject retrieval, not runtime isolation; no erased-pretraining or simultaneous-whole-input-context claim",
+  "inputs": [
+    {
+      "id": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "expected_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "observed_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "bytes": 247840,
+      "raw_characters": 246945,
+      "coverage_union": [
+        [
+          0,
+          246945
+        ]
+      ],
+      "gaps": [],
+      "read_events": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": "teaching",
+      "path": "runs/y1-reader-20261008/iterations/006/regenerated-r13-candidate1/teaching.md",
+      "expected_sha256": "7030eca0fddab9a27c720a9ac4f7c3ae2d7e2e9716fc5d798cbaea5769c54986",
+      "observed_sha256": "7030eca0fddab9a27c720a9ac4f7c3ae2d7e2e9716fc5d798cbaea5769c54986",
+      "bytes": 28540,
+      "raw_characters": 28516,
+      "coverage_union": [
+        [
+          0,
+          28516
+        ]
+      ],
+      "gaps": [],
+      "read_events": [
+        15,
+        16
+      ],
+      "locator_coverage": "P001-P194; hints, solutions, source and ending included",
+      "boundary_note": "Event 15 ends just after P097 locator; event 16 starts with the complete P097 text."
+    }
+  ],
+  "events": [
+    {
+      "sequence": 1,
+      "input": "baseline",
+      "tool": "functions.exec -> tools.exec_command",
+      "command_form": "python heredoc: subprocess.check_output(['git','show',commit+':'+path], cwd=repo); bytes.decode('utf-8'); print metadata/range; print(s[a:e], end='')",
+      "git_argv": [
+        "git",
+        "show",
+        "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f:references/sasis/ocr-baseline-20261007/student-baseline.txt"
+      ],
+      "git_cwd": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+      "decode": "UTF-8 strict; direct bytes decode; no newline normalization",
+      "requested_range_start": 0,
+      "requested_max_character_width": 16000,
+      "end_selection": "s.rfind('\\n', a, a+width)+1",
+      "delivered_raw_character_range": [
+        0,
+        15823
+      ],
+      "range_convention": "zero-based half-open",
+      "max_output_tokens": 7500,
+      "result": {
+        "exit_code": 0,
+        "chunk_id": "4da1ce",
+        "original_token_count": 3991,
+        "wall_time_seconds": 0.014463986
+      },
+      "observed_truncation": false,
+      "recovery_needed": false,
+      "metadata_sha256_and_lengths_printed": true
+    },
+    {
+      "sequence": 2,
+      "input": "baseline",
+      "tool": "functions.exec -> tools.exec_command",
+      "command_form": "python heredoc: subprocess.check_output(['git','show',commit+':'+path], cwd=repo); bytes.decode('utf-8'); print metadata/range; print(s[a:e], end='')",
+      "git_argv": [
+        "git",
+        "show",
+        "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f:references/sasis/ocr-baseline-20261007/student-baseline.txt"
+      ],
+      "git_cwd": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+      "decode": "UTF-8 strict; direct bytes decode; no newline normalization",
+      "requested_range_start": 15823,
+      "requested_max_character_width": 16000,
+      "end_selection": "s.rfind('\\n', a, a+width)+1",
+      "delivered_raw_character_range": [
+        15823,
+        31691
+      ],
+      "range_convention": "zero-based half-open",
+      "max_output_tokens": 7500,
+      "result": {
+        "exit_code": 0,
+        "chunk_id": "d47c3c",
+        "original_token_count": 3976,
+        "wall_time_seconds": 0.000317304
+      },
+      "observed_truncation": false,
+      "recovery_needed": false,
+      "metadata_sha256_and_lengths_printed": false
+    },
+    {
+      "sequence": 3,
+      "input": "baseline",
+      "tool": "functions.exec -> tools.exec_command",
+      "command_form": "python heredoc: subprocess.check_output(['git','show',commit+':'+path], cwd=repo); bytes.decode('utf-8'); print metadata/range; print(s[a:e], end='')",
+      "git_argv": [
+        "git",
+        "show",
+        "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f:references/sasis/ocr-baseline-20261007/student-baseline.txt"
+      ],
+      "git_cwd": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+      "decode": "UTF-8 strict; direct bytes decode; no newline normalization",
+      "requested_range_start": 31691,
+      "requested_max_character_width": 16000,
+      "end_selection": "s.rfind('\\n', a, a+width)+1",
+      "delivered_raw_character_range": [
+        31691,
+        47600
+      ],
+      "range_convention": "zero-based half-open",
+      "max_output_tokens": 7500,
+      "result": {
+        "exit_code": 0,
+        "chunk_id": "bdba50",
+        "original_token_count": 3986,
+        "wall_time_seconds": 1.5834e-05
+      },
+      "observed_truncation": false,
+      "recovery_needed": false,
+      "metadata_sha256_and_lengths_printed": false
+    },
+    {
+      "sequence": 4,
+      "input": "baseline",
+      "tool": "functions.exec -> tools.exec_command",
+      "command_form": "python heredoc: subprocess.check_output(['git','show',commit+':'+path], cwd=repo); bytes.decode('utf-8'); print metadata/range; print(s[a:e], end='')",
+      "git_argv": [
+        "git",
+        "show",
+        "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f:references/sasis/ocr-baseline-20261007/student-baseline.txt"
+      ],
+      "git_cwd": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+      "decode": "UTF-8 strict; direct bytes decode; no newline normalization",
+      "requested_range_start": 47600,
+      "requested_max_character_width": 16000,
+      "end_selection": "s.rfind('\\n', a, a+width)+1",
+      "delivered_raw_character_range": [
+        47600,
+        63445
+      ],
+      "range_convention": "zero-based half-open",
+      "max_output_tokens": 7500,
+      "result": {
+        "exit_code": 0,
+        "chunk_id": "c3686a",
+        "original_token_count": 3970,
+        "wall_time_seconds": 1.2369e-05
+      },
+      "observed_truncation": false,
+      "recovery_needed": false,
+      "metadata_sha256_and_lengths_printed": false
+    },
+    {
+      "sequence": 5,
+      "input": "baseline",
+      "tool": "functions.exec -> tools.exec_command",
+      "command_form": "python heredoc: subprocess.check_output(['git','show',commit+':'+path], cwd=repo); bytes.decode('utf-8'); print metadata/range; print(s[a:e], end='')",
+      "git_argv": [
+        "git",
+        "show",
+        "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f:references/sasis/ocr-baseline-20261007/student-baseline.txt"
+      ],
+      "git_cwd": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+      "decode": "UTF-8 strict; direct bytes decode; no newline normalization",
+      "requested_range_start": 63445,
+      "requested_max_character_width": 18000,
+      "end_selection": "s.rfind('\\n', a, a+width)+1",
+      "delivered_raw_character_range": [
+        63445,
+        81336
+      ],
+      "range_convention": "zero-based half-open",
+      "max_output_tokens": 8500,
+      "result": {
+        "exit_code": 0,
+        "chunk_id": "0a52a6",
+        "original_token_count": 4482,
+        "wall_time_seconds": 0.049477106
+      },
+      "observed_truncation": false,
+      "recovery_needed": false,
+      "metadata_sha256_and_lengths_printed": false
+    },
+    {
+      "sequence": 6,
+      "input": "baseline",
+      "tool": "functions.exec -> tools.exec_command",
+      "command_form": "python heredoc: subprocess.check_output(['git','show',commit+':'+path], cwd=repo); bytes.decode('utf-8'); print metadata/range; print(s[a:e], end='')",
+      "git_argv": [
+        "git",
+        "show",
+        "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f:references/sasis/ocr-baseline-20261007/student-baseline.txt"
+      ],
+      "git_cwd": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+      "decode": "UTF-8 strict; direct bytes decode; no newline normalization",
+      "requested_range_start": 81336,
+      "requested_max_character_width": 18000,
+      "end_selection": "s.rfind('\\n', a, a+width)+1",
+      "delivered_raw_character_range": [
+        81336,
+        98854
+      ],
+      "range_convention": "zero-based half-open",
+      "max_output_tokens": 8500,
+      "result": {
+        "exit_code": 0,
+        "chunk_id": "87b034",
+        "original_token_count": 4461,
+        "wall_time_seconds": 1.6464e-05
+      },
+      "observed_truncation": false,
+      "recovery_needed": false,
+      "metadata_sha256_and_lengths_printed": false
+    },
+    {
+      "sequence": 7,
+      "input": "baseline",
+      "tool": "functions.exec -> tools.exec_command",
+      "command_form": "python heredoc: subprocess.check_output(['git','show',commit+':'+path], cwd=repo); bytes.decode('utf-8'); print metadata/range; print(s[a:e], end='')",
+      "git_argv": [
+        "git",
+        "show",
+        "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f:references/sasis/ocr-baseline-20261007/student-baseline.txt"
+      ],
+      "git_cwd": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+      "decode": "UTF-8 strict; direct bytes decode; no newline normalization",
+      "requested_range_start": 98854,
+      "requested_max_character_width": 20000,
+      "end_selection": "s.rfind('\\n', a, a+width)+1",
+      "delivered_raw_character_range": [
+        98854,
+        118584
+      ],
+      "range_convention": "zero-based half-open",
+      "max_output_tokens": 9500,
+      "result": {
+        "exit_code": 0,
+        "chunk_id": "53517e",
+        "original_token_count": 4983,
+        "wall_time_seconds": 1.703863049
+      },
+      "observed_truncation": false,
+      "recovery_needed": false,
+      "metadata_sha256_and_lengths_printed": false
+    },
+    {
+      "sequence": 8,
+      "input": "baseline",
+      "tool": "functions.exec -> tools.exec_command",
+      "command_form": "python heredoc: subprocess.check_output(['git','show',commit+':'+path], cwd=repo); bytes.decode('utf-8'); print metadata/range; print(s[a:e], end='')",
+      "git_argv": [
+        "git",
+        "show",
+        "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f:references/sasis/ocr-baseline-20261007/student-baseline.txt"
+      ],
+      "git_cwd": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+      "decode": "UTF-8 strict; direct bytes decode; no newline normalization",
+      "requested_range_start": 118584,
+      "requested_max_character_width": 20000,
+      "end_selection": "s.rfind('\\n', a, a+width)+1",
+      "delivered_raw_character_range": [
+        118584,
+        138551
+      ],
+      "range_convention": "zero-based half-open",
+      "max_output_tokens": 9500,
+      "result": {
+        "exit_code": 0,
+        "chunk_id": "e22fc0",
+        "original_token_count": 5079,
+        "wall_time_seconds": 0.42356202
+      },
+      "observed_truncation": false,
+      "recovery_needed": false,
+      "metadata_sha256_and_lengths_printed": false
+    },
+    {
+      "sequence": 9,
+      "input": "baseline",
+      "tool": "functions.exec -> tools.exec_command",
+      "command_form": "python heredoc: subprocess.check_output(['git','show',commit+':'+path], cwd=repo); bytes.decode('utf-8'); print metadata/range; print(s[a:e], end='')",
+      "git_argv": [
+        "git",
+        "show",
+        "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f:references/sasis/ocr-baseline-20261007/student-baseline.txt"
+      ],
+      "git_cwd": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+      "decode": "UTF-8 strict; direct bytes decode; no newline normalization",
+      "requested_range_start": 138551,
+      "requested_max_character_width": 20000,
+      "end_selection": "s.rfind('\\n', a, a+width)+1",
+      "delivered_raw_character_range": [
+        138551,
+        158425
+      ],
+      "range_convention": "zero-based half-open",
+      "max_output_tokens": 9500,
+      "result": {
+        "exit_code": 0,
+        "chunk_id": "3631f2",
+        "original_token_count": 5011,
+        "wall_time_seconds": 0.451926185
+      },
+      "observed_truncation": false,
+      "recovery_needed": false,
+      "metadata_sha256_and_lengths_printed": false
+    },
+    {
+      "sequence": 10,
+      "input": "baseline",
+      "tool": "functions.exec -> tools.exec_command",
+      "command_form": "python heredoc: subprocess.check_output(['git','show',commit+':'+path], cwd=repo); bytes.decode('utf-8'); print metadata/range; print(s[a:e], end='')",
+      "git_argv": [
+        "git",
+        "show",
+        "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f:references/sasis/ocr-baseline-20261007/student-baseline.txt"
+      ],
+      "git_cwd": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+      "decode": "UTF-8 strict; direct bytes decode; no newline normalization",
+      "requested_range_start": 158425,
+      "requested_max_character_width": 20000,
+      "end_selection": "s.rfind('\\n', a, a+width)+1",
+      "delivered_raw_character_range": [
+        158425,
+        178352
+      ],
+      "range_convention": "zero-based half-open",
+      "max_output_tokens": 9500,
+      "result": {
+        "exit_code": 0,
+        "chunk_id": "70b24d",
+        "original_token_count": 4992,
+        "wall_time_seconds": 0.009281569
+      },
+      "observed_truncation": false,
+      "recovery_needed": false,
+      "metadata_sha256_and_lengths_printed": false
+    },
+    {
+      "sequence": 11,
+      "input": "baseline",
+      "tool": "functions.exec -> tools.exec_command",
+      "command_form": "python heredoc: subprocess.check_output(['git','show',commit+':'+path], cwd=repo); bytes.decode('utf-8'); print metadata/range; print(s[a:e], end='')",
+      "git_argv": [
+        "git",
+        "show",
+        "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f:references/sasis/ocr-baseline-20261007/student-baseline.txt"
+      ],
+      "git_cwd": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+      "decode": "UTF-8 strict; direct bytes decode; no newline normalization",
+      "requested_range_start": 178352,
+      "requested_max_character_width": 20000,
+      "end_selection": "s.rfind('\\n', a, a+width)+1",
+      "delivered_raw_character_range": [
+        178352,
+        198068
+      ],
+      "range_convention": "zero-based half-open",
+      "max_output_tokens": 9500,
+      "result": {
+        "exit_code": 0,
+        "chunk_id": "08bfee",
+        "original_token_count": 4939,
+        "wall_time_seconds": 1.8788e-05
+      },
+      "observed_truncation": false,
+      "recovery_needed": false,
+      "metadata_sha256_and_lengths_printed": false
+    },
+    {
+      "sequence": 12,
+      "input": "baseline",
+      "tool": "functions.exec -> tools.exec_command",
+      "command_form": "python heredoc: subprocess.check_output(['git','show',commit+':'+path], cwd=repo); bytes.decode('utf-8'); print metadata/range; print(s[a:e], end='')",
+      "git_argv": [
+        "git",
+        "show",
+        "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f:references/sasis/ocr-baseline-20261007/student-baseline.txt"
+      ],
+      "git_cwd": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+      "decode": "UTF-8 strict; direct bytes decode; no newline normalization",
+      "requested_range_start": 198068,
+      "requested_max_character_width": 20000,
+      "end_selection": "s.rfind('\\n', a, a+width)+1",
+      "delivered_raw_character_range": [
+        198068,
+        218027
+      ],
+      "range_convention": "zero-based half-open",
+      "max_output_tokens": 9500,
+      "result": {
+        "exit_code": 0,
+        "chunk_id": "07d405",
+        "original_token_count": 4999,
+        "wall_time_seconds": 0.404558096
+      },
+      "observed_truncation": false,
+      "recovery_needed": false,
+      "metadata_sha256_and_lengths_printed": false
+    },
+    {
+      "sequence": 13,
+      "input": "baseline",
+      "tool": "functions.exec -> tools.exec_command",
+      "command_form": "python heredoc: subprocess.check_output(['git','show',commit+':'+path], cwd=repo); bytes.decode('utf-8'); print metadata/range; print(s[a:e], end='')",
+      "git_argv": [
+        "git",
+        "show",
+        "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f:references/sasis/ocr-baseline-20261007/student-baseline.txt"
+      ],
+      "git_cwd": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+      "decode": "UTF-8 strict; direct bytes decode; no newline normalization",
+      "requested_range_start": 218027,
+      "requested_max_character_width": 18000,
+      "end_selection": "s.rfind('\\n', a, a+width)+1",
+      "delivered_raw_character_range": [
+        218027,
+        235527
+      ],
+      "range_convention": "zero-based half-open",
+      "max_output_tokens": 8500,
+      "result": {
+        "exit_code": 0,
+        "chunk_id": "a6cedd",
+        "original_token_count": 4385,
+        "wall_time_seconds": 3.7622405690000003
+      },
+      "observed_truncation": false,
+      "recovery_needed": false,
+      "metadata_sha256_and_lengths_printed": false
+    },
+    {
+      "sequence": 14,
+      "input": "baseline",
+      "tool": "functions.exec -> tools.exec_command",
+      "command_form": "python heredoc: subprocess.check_output(['git','show',commit+':'+path], cwd=repo); bytes.decode('utf-8'); print metadata/range; print(s[a:e], end='')",
+      "git_argv": [
+        "git",
+        "show",
+        "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f:references/sasis/ocr-baseline-20261007/student-baseline.txt"
+      ],
+      "git_cwd": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+      "decode": "UTF-8 strict; direct bytes decode; no newline normalization",
+      "requested_range_start": 235527,
+      "requested_max_character_width": null,
+      "end_selection": "len(s)",
+      "delivered_raw_character_range": [
+        235527,
+        246945
+      ],
+      "range_convention": "zero-based half-open",
+      "max_output_tokens": 6500,
+      "result": {
+        "exit_code": 0,
+        "chunk_id": "eeae73",
+        "original_token_count": 2864,
+        "wall_time_seconds": 1.440435798
+      },
+      "observed_truncation": false,
+      "recovery_needed": false,
+      "metadata_sha256_and_lengths_printed": false
+    },
+    {
+      "sequence": 15,
+      "input": "teaching",
+      "tool": "functions.exec -> tools.exec_command",
+      "command_form": "python heredoc: subprocess.check_output(['git','show',commit+':'+path], cwd=repo); bytes.decode('utf-8'); print metadata/range; print(s[a:e], end='')",
+      "git_argv": [
+        "git",
+        "show",
+        "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f:runs/y1-reader-20261008/iterations/006/regenerated-r13-candidate1/teaching.md"
+      ],
+      "git_cwd": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+      "decode": "UTF-8 strict; direct bytes decode; no newline normalization",
+      "requested_range_start": 0,
+      "requested_max_character_width": 14500,
+      "end_selection": "s.rfind('\\n', a, a+width)+1",
+      "delivered_raw_character_range": [
+        0,
+        14196
+      ],
+      "range_convention": "zero-based half-open",
+      "max_output_tokens": 9500,
+      "result": {
+        "exit_code": 0,
+        "chunk_id": "50906f",
+        "original_token_count": 3585,
+        "wall_time_seconds": 0.008198716
+      },
+      "observed_truncation": false,
+      "recovery_needed": false,
+      "metadata_sha256_and_lengths_printed": true
+    },
+    {
+      "sequence": 16,
+      "input": "teaching",
+      "tool": "functions.exec -> tools.exec_command",
+      "command_form": "python heredoc: subprocess.check_output(['git','show',commit+':'+path], cwd=repo); bytes.decode('utf-8'); print metadata/range; print(s[a:e], end='')",
+      "git_argv": [
+        "git",
+        "show",
+        "4bf1c6df54d26f3b44806a0f1955f17fb33a3e7f:runs/y1-reader-20261008/iterations/006/regenerated-r13-candidate1/teaching.md"
+      ],
+      "git_cwd": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+      "decode": "UTF-8 strict; direct bytes decode; no newline normalization",
+      "requested_range_start": 14196,
+      "requested_max_character_width": null,
+      "end_selection": "len(s)",
+      "delivered_raw_character_range": [
+        14196,
+        28516
+      ],
+      "range_convention": "zero-based half-open",
+      "max_output_tokens": 9500,
+      "result": {
+        "exit_code": 0,
+        "chunk_id": "7a0058",
+        "original_token_count": 3593,
+        "wall_time_seconds": 0.022342549
+      },
+      "observed_truncation": false,
+      "recovery_needed": false,
+      "metadata_sha256_and_lengths_printed": false
+    }
+  ],
+  "failures": [],
+  "truncations": [],
+  "recoveries": [],
+  "sequence_assertions": {
+    "entire_baseline_before_first_teaching_access": true,
+    "teaching_read_in_order": true,
+    "baseline_all_four_subjects_read": true,
+    "all_expected_hashes_and_lengths_match": true,
+    "all_subject_access_from_exact_git_objects": true
+  },
+  "other_subject_inputs_used": [],
+  "external_source_links_opened": [],
+  "worktree_subject_files_read": [],
+  "agents_spawned": [],
+  "report_generation": {
+    "operation": "write only the requested own original report and access log",
+    "report_path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/006/reader-report-candidate1-original.md",
+    "report_sha256": "a4f3048b344e39c0831002301ac729a1c28400625fc2cc79668d885ff22e686b",
+    "report_bytes": 34413,
+    "author_feedback_or_changed_teaching_accepted": false
+  },
+  "verdict_limits": [
+    "Internal teaching reasoning only; external source provenance unverified",
+    "No human learning, retention, universal accessibility or exhaustive-error-detection claim",
+    "No learner grading or invented assessment battery"
+  ]
+}

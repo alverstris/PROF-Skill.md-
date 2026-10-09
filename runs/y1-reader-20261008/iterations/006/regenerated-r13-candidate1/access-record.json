@@ -1,0 +1,107 @@
+{
+  "baseline": {
+    "path": "controls/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+    "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+    "bytes": 247840,
+    "raw_utf8_characters": 246945,
+    "LF_lines": 1377,
+    "complete_successful_ranges": [
+      [
+        1,
+        240
+      ],
+      [
+        241,
+        360
+      ],
+      [
+        361,
+        480
+      ],
+      [
+        481,
+        600
+      ],
+      [
+        601,
+        740
+      ],
+      [
+        741,
+        900
+      ],
+      [
+        901,
+        1060
+      ],
+      [
+        1061,
+        1220
+      ],
+      [
+        1221,
+        1377
+      ]
+    ],
+    "range_unit": "1-based LF-delimited lines (sed), retaining original CRCRLF bytes; not Python splitlines",
+    "truncation_recovered": [
+      "Attempt 241-480 clipped in combined result; fully re-read 241-360 and 361-480.",
+      "Attempt 481-700 clipped; fully re-read 481-600 and 601-740."
+    ],
+    "subject_notes": {
+      "Mathematics": "Read complete. Algebra, exponent/log laws, derivative definition, chain/product rules, implicit/inverse rate, logarithmic/exponential derivative premises, continuity and local approximations available. Other statistics/mechanics read; not needed here.",
+      "Further Mathematics": "Read FM01-FM71 complete. Hyperbolic and Maclaurin premises available but unnecessary to source body. Selected Statistics/Mechanics and transfer restrictions read.",
+      "Physics": "Read complete quantities through final scope. Relative rates, exponentials, signs and units available. No outside empirical model required.",
+      "Chemistry": "Read CH-META through CH-REF complete, including rates conventions, thermodynamic limits, organics, practicals and references. Not needed as subject premises for this lecture."
+    }
+  },
+  "controls": {
+    "pinned_commit": "a2389390c0709d65af4a3cf070a04e396e4a4792",
+    "read_complete": [
+      "SKILL.md",
+      "references/execution-protocol.md",
+      "references/domain-patterns.md",
+      "references/state-tool.md",
+      "runs/y1-reader-20261008/requests.md",
+      "references/sasis.md",
+      "references/sasis/student-testing-contract.txt",
+      "references/sasis/student-role.txt",
+      "references/sasis/profile-manifest.json",
+      "references/sasis/rewrite-guide.md"
+    ],
+    "limits": "Initial execution-protocol output was clipped by an oversized tool discovery result; full protocol re-read alone. PDF skill read in full from authorised local path; PDF is read-only, so no authoring marker applies. Research rationale/production references not triggered: no method changes or PDF production."
+  },
+  "source": {
+    "pdf": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L06/lec6.pdf",
+    "sha256": "e36b81f73c0e6265a814de8875c3898b1255d2e0aa656547a731b8274a00f66d",
+    "text_read": "All lec6-p01.txt through lec6-p08.txt complete, single successful 1715-token result.",
+    "visual_read": "Every full original page PNG p01-p04 then p05-p08 inspected, uncropped. Cover + seven printed pages; all equations, figures1-3 and final two remarks.",
+    "independent_findings": [
+      "Printed p2 and figure3 printed p3 mislabel the y-intercept as (1,0); correct (0,1). At x=0,4^0=1.",
+      "Printed p4 inverse box says w=ln(x) implies e^x=w; correct e^w=x. Subsequent derivation uses corrected relation.",
+      "Geometric discussion does not supply a full analytic existence/continuity/uniqueness proof for the special base; distinguish foundational fact from picture motivation.",
+      "Title mentions hyperbolic functions, but no substantive hyperbolic content appears in any of the seven printed pages. Record absence, do not invent continuation.",
+      "Remark1 k=10 approximation should be quantified rather than calling it highly accurate.",
+      "Remark2 finite percent changes differ from instantaneous f prime/f; teach exact finite comparison and local-rate interpretation."
+    ]
+  },
+  "teaching_final_read": {
+    "sha256": "7030eca0fddab9a27c720a9ac4f7c3ae2d7e2e9716fc5d798cbaea5769c54986",
+    "paragraphs": "P001-P194",
+    "ranges": [
+      [
+        1,
+        263
+      ],
+      [
+        264,
+        510
+      ],
+      [
+        511,
+        731
+      ]
+    ],
+    "coverage": "Complete actual final teaching, all core, prompts, hints, complete solutions and ending; no clipping. Earlier full draft read and local percentage-notation repair preserved in math-review.md."
+  }
+}

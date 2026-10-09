@@ -1,0 +1,86 @@
+{
+  "math_mismatches": [
+    {
+      "math_index": 303,
+      "paragraph": "P177",
+      "source_payload": "-2\\,\\text{percent}",
+      "github_payload": "-2,\\text{percent}",
+      "lost_thinspace_backslashes": 1,
+      "source_numeric_tokens": [
+        "2"
+      ],
+      "github_numeric_tokens": [
+        "2"
+      ]
+    },
+    {
+      "math_index": 304,
+      "paragraph": "P179",
+      "source_payload": "\n\\frac{-50}{300}\\times100\\,\\text{percent}=-\\frac{50}{3}\\,\\text{percent}\\approx-16.67\\,\\text{percent},\\qquad\n\\frac{-50}{10000}\\times100\\,\\text{percent}=-0.5\\,\\text{percent}.\n",
+      "github_payload": "\n\\frac{-50}{300}\\times100,\\text{percent}=-\\frac{50}{3},\\text{percent}\\approx-16.67,\\text{percent},\\qquad\n\\frac{-50}{10000}\\times100,\\text{percent}=-0.5,\\text{percent}.\n",
+      "lost_thinspace_backslashes": 5,
+      "source_numeric_tokens": [
+        "50",
+        "300",
+        "100",
+        "50",
+        "3",
+        "16.67",
+        "50",
+        "10000",
+        "100",
+        "0.5"
+      ],
+      "github_numeric_tokens": [
+        "50",
+        "300",
+        "100",
+        "50",
+        "3",
+        "16.67",
+        "50",
+        "10000",
+        "100",
+        "0.5"
+      ]
+    },
+    {
+      "math_index": 307,
+      "paragraph": "P182",
+      "source_payload": "\n100(e^{-0.02}-1)\\,\\text{percent}\\approx-1.9801\\,\\text{percent}.\n",
+      "github_payload": "\n100(e^{-0.02}-1),\\text{percent}\\approx-1.9801,\\text{percent}.\n",
+      "lost_thinspace_backslashes": 2,
+      "source_numeric_tokens": [
+        "100",
+        "0.02",
+        "1",
+        "1.9801"
+      ],
+      "github_numeric_tokens": [
+        "100",
+        "0.02",
+        "1",
+        "1.9801"
+      ]
+    },
+    {
+      "math_index": 308,
+      "paragraph": "P183",
+      "source_payload": "-2\\,\\text{percent}",
+      "github_payload": "-2,\\text{percent}",
+      "lost_thinspace_backslashes": 1,
+      "source_numeric_tokens": [
+        "2"
+      ],
+      "github_numeric_tokens": [
+        "2"
+      ]
+    }
+  ],
+  "math_payload_count": 337,
+  "math_payload_exact_count": 333,
+  "prose_only_exact_with_each_math_replaced_by_same_token": true,
+  "all_numeric_tokens_in_full_stream_same_order": true,
+  "no_extra_entity_decoding": true,
+  "findings": "Four math payloads at P177, P179, P182 and P183 lose a total of nine backslashes in LaTeX thinspace commands. Ordinary commas survive instead. Other 333 math payloads match exactly including display internal newlines."
+}

@@ -1,0 +1,63 @@
+{
+  "condition_id": "D006-v1-reader",
+  "agent": "/root/sasis_d006_v1_fresh",
+  "fork_turns": "none",
+  "state": "admitted_complete_report_and_actual_access_record",
+  "instruction_version": "student-role.txt at incoming r12; unchanged from r11",
+  "instruction_sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+  "inputs": [
+    {
+      "id": "baseline",
+      "git_path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "commit": "e17c6ae521b5f8ff70e9f6e1ffa2ff66881b8663",
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "bytes": 247840,
+      "utf8_characters_raw_decode": 246945,
+      "verified_against_local": true
+    },
+    {
+      "id": "document",
+      "git_path": "runs/y1-reader-20261008/iterations/006/teaching-v1.md",
+      "commit": "e17c6ae521b5f8ff70e9f6e1ffa2ff66881b8663",
+      "sha256": "d2946240bb9d5442919d1fb22f1f93b2f7626b69ad2e5a04178c283005f5bfdf",
+      "bytes": 24386,
+      "utf8_characters_raw_decode": 24374,
+      "verified_against_local": true
+    }
+  ],
+  "subject_input_count": 2,
+  "retrieval": "Instruction-confined read-only git show of these two immutable objects only; reader may save its own original report and access log. Actual range/byte access must be reported.",
+  "technical_boundary": "Shared tools remain technically available. This is an instruction whitelist, not technical confinement or erasure of pretraining.",
+  "excluded_subject_inputs": [
+    "raw lecture sources",
+    "author records",
+    "skill instructions",
+    "other teaching",
+    "previous reports",
+    "parent solutions",
+    "history",
+    "research"
+  ],
+  "known_input_limits": "No truncation found in parent freeze verification. Actual reader delivery/read remains to be established.",
+  "freeze_tree": "cbc1bfc7b11da74812b2bf4baee6c76d120d2bc5",
+  "report": {
+    "path": "reader-report-v1-original.md",
+    "sha256": "102446358a9bcbe7d3bd75909657a84a4a638e01a2babed411494578948c4c0d",
+    "raw_chars": 26907
+  },
+  "access": {
+    "path": "reader-access-v1-original.json",
+    "sha256": "26952b77f15b79a9c1eaab011bbcc05b18701e3823927fffc7fd120d4ec39f3d",
+    "baseline_complete": [
+      0,
+      246945
+    ],
+    "teaching_complete": [
+      0,
+      24374
+    ],
+    "truncations_reported": false,
+    "unauthorised_subject_access_reported": false
+  },
+  "parent_review": "Entire original report personally read in overlapping raw ranges [0,26000) and [25500,26907), with complete original access log. Contiguous ranges and immutable input/report hashes independently checked. Actual reader inspection/access remains actor-reported under instruction-only confinement."
+}

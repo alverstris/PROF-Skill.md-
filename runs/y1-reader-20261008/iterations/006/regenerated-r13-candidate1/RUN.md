@@ -1,0 +1,7 @@
+D006 r13-candidate1 fresh author, stable handoff. Exact request request.txt; pinned run requests controls/runs/y1-reader-20261008/requests.md. Skill controls/SKILL.md at a2389390c0709d65af4a3cf070a04e396e4a4792, SHA3f7d903a399bdbaaeef397e7af7033dc0229cbb982371ea7c0679fe042c9cc8f.
+
+Single connected topic exponential-log. All original8 pages text and full images inspected; all1377 LF baseline lines read in bounded chunks with clipping recovered. access-record.json records actual access; author-evidence.md maps coverage and full sequential reconstruction. prerequisites-conventions.md supplies active dependencies; math-review.md and math-checks.json supply analytic/numeric evidence.
+
+Teaching is stable at7030eca0fddab9a27c720a9ac4f7c3ae2d7e2e9716fc5d798cbaea5769c54986, paragraphsP001-P194,731lines; final actual file fully read after locator insertion. Prompts were sent before full solutions, original SHAfd11c2975dd5a4eea6e3c50c208769d8e9101433f06e2e721e5dea2e384eef78.
+
+Known author limits: no analytic construction of real exponential family promised; hyperbolic body absent in original. No unresolved source/math defect found in author checks. T11 and T12 plus final independent/destination/SASIS/freeze/publication gates remain pending. Do not mark them passed from author evidence. Next action: parent performs assigned checks on frozen actual bytes; any content change reopens affected current evidence and fresh-reader condition.

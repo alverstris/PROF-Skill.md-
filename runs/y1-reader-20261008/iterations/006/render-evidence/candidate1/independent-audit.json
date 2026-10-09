@@ -1,0 +1,4868 @@
+{
+  "verdict": "FAIL actual frozen math serialization; independent navigation and prose findings reported separately",
+  "source_sha256": "7030eca0fddab9a27c720a9ac4f7c3ae2d7e2e9716fc5d798cbaea5769c54986",
+  "checks": {
+    "source_locator_comments_exactly_P001_to_P194": true,
+    "all_math_payloads_exact": false,
+    "non_math_visible_prose_equal": true,
+    "full_normalized_text_equal": false,
+    "no_diagnostic_locator_labels_visible": true,
+    "anchors_exact_order_and_unique": true,
+    "all_link_text_href_pairs_exact": true,
+    "all_internal_targets_unique": true,
+    "custom_A1_A6_routes_returns_and_solution_to_hint_links": true,
+    "all_hints_before_solutions": true,
+    "no_heading_table_or_explicit_prose_emphasis_elements": true
+  },
+  "math_counts": {
+    "source": {
+      "inline": 291,
+      "display": 46
+    },
+    "actual": {
+      "inline": 291,
+      "display": 46
+    },
+    "mismatches": 36,
+    "by_kind": {
+      "inline": 34,
+      "display": 2
+    },
+    "by_classification": {
+      "angle_entity_text": 32,
+      "percent_escape_lost": 4,
+      "other": 0
+    }
+  },
+  "math_differences": [
+    {
+      "kind": "inline",
+      "payload": "a>1",
+      "index_1_based": 3,
+      "locator": "P007",
+      "line_1_based": 22,
+      "actual_kind": "inline",
+      "actual_payload": "a&gt;1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$a&amp;gt;1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "M(2)<1",
+      "index_1_based": 34,
+      "locator": "P022",
+      "line_1_based": 80,
+      "actual_kind": "inline",
+      "actual_payload": "M(2)&lt;1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$M(2)&amp;lt;1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "M(4)>1",
+      "index_1_based": 39,
+      "locator": "P022",
+      "line_1_based": 81,
+      "actual_kind": "inline",
+      "actual_payload": "M(4)&gt;1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$M(4)&amp;gt;1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln x<0",
+      "index_1_based": 60,
+      "locator": "P037",
+      "line_1_based": 138,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln x&lt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$\\ln x&amp;lt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "0<x<1",
+      "index_1_based": 61,
+      "locator": "P037",
+      "line_1_based": 138,
+      "actual_kind": "inline",
+      "actual_payload": "0&lt;x&lt;1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$0&amp;lt;x&amp;lt;1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln x>0",
+      "index_1_based": 62,
+      "locator": "P037",
+      "line_1_based": 138,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln x&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$\\ln x&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "x>1",
+      "index_1_based": 63,
+      "locator": "P037",
+      "line_1_based": 138,
+      "actual_kind": "inline",
+      "actual_payload": "x&gt;1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$x&amp;gt;1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "u>0",
+      "index_1_based": 69,
+      "locator": "P040",
+      "line_1_based": 149,
+      "actual_kind": "inline",
+      "actual_payload": "u&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$u&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "e^{w(x)}=x>0",
+      "index_1_based": 75,
+      "locator": "P043",
+      "line_1_based": 160,
+      "actual_kind": "inline",
+      "actual_payload": "e^{w(x)}=x&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$e^{w(x)}=x&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "a>0",
+      "index_1_based": 84,
+      "locator": "P049",
+      "line_1_based": 182,
+      "actual_kind": "inline",
+      "actual_payload": "a&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$a&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "a>0",
+      "index_1_based": 91,
+      "locator": "P053",
+      "line_1_based": 198,
+      "actual_kind": "inline",
+      "actual_payload": "a&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$a&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "2<e<4",
+      "index_1_based": 94,
+      "locator": "P053",
+      "line_1_based": 198,
+      "actual_kind": "inline",
+      "actual_payload": "2&lt;e&lt;4",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$2&amp;lt;e&amp;lt;4$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "a>1",
+      "index_1_based": 97,
+      "locator": "P054",
+      "line_1_based": 201,
+      "actual_kind": "inline",
+      "actual_payload": "a&gt;1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$a&amp;gt;1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "0<a<1",
+      "index_1_based": 98,
+      "locator": "P054",
+      "line_1_based": 201,
+      "actual_kind": "inline",
+      "actual_payload": "0&lt;a&lt;1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$0&amp;lt;a&amp;lt;1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln a<0",
+      "index_1_based": 99,
+      "locator": "P054",
+      "line_1_based": 201,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln a&lt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$\\ln a&amp;lt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "f(x)>0",
+      "index_1_based": 104,
+      "locator": "P059",
+      "line_1_based": 220,
+      "actual_kind": "inline",
+      "actual_payload": "f(x)&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$f(x)&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "x>0",
+      "index_1_based": 113,
+      "locator": "P067",
+      "line_1_based": 251,
+      "actual_kind": "inline",
+      "actual_payload": "x&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$x&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "u(x)>0",
+      "index_1_based": 122,
+      "locator": "P075",
+      "line_1_based": 281,
+      "actual_kind": "inline",
+      "actual_payload": "u(x)&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$u(x)&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "x>-1",
+      "index_1_based": 129,
+      "locator": "P079",
+      "line_1_based": 298,
+      "actual_kind": "inline",
+      "actual_payload": "x&gt;-1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$x&amp;gt;-1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "k>2",
+      "index_1_based": 159,
+      "locator": "P099",
+      "line_1_based": 375,
+      "actual_kind": "inline",
+      "actual_payload": "k&gt;2",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$k&amp;gt;2$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "F(t)>0",
+      "index_1_based": 176,
+      "locator": "P110",
+      "line_1_based": 416,
+      "actual_kind": "inline",
+      "actual_payload": "F(t)&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$F(t)&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "x>0",
+      "index_1_based": 199,
+      "locator": "P119",
+      "line_1_based": 450,
+      "actual_kind": "inline",
+      "actual_payload": "x&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$x&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "5-2x>0",
+      "index_1_based": 208,
+      "locator": "P127",
+      "line_1_based": 480,
+      "actual_kind": "inline",
+      "actual_payload": "5-2x&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$5-2x&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln(1/2)<0",
+      "index_1_based": 235,
+      "locator": "P151",
+      "line_1_based": 570,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln(1/2)&lt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$\\ln(1/2)&amp;lt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "f'<0",
+      "index_1_based": 236,
+      "locator": "P151",
+      "line_1_based": 570,
+      "actual_kind": "inline",
+      "actual_payload": "f'&lt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$f'&amp;lt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "5-2x>0",
+      "index_1_based": 238,
+      "locator": "P152",
+      "line_1_based": 573,
+      "actual_kind": "inline",
+      "actual_payload": "5-2x&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$5-2x&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "x<5/2",
+      "index_1_based": 239,
+      "locator": "P152",
+      "line_1_based": 573,
+      "actual_kind": "inline",
+      "actual_payload": "x&lt;5/2",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$x&amp;lt;5/2$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "x>-1",
+      "index_1_based": 242,
+      "locator": "P157",
+      "line_1_based": 592,
+      "actual_kind": "inline",
+      "actual_payload": "x&gt;-1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$x&amp;gt;-1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "k>2",
+      "index_1_based": 248,
+      "locator": "P166",
+      "line_1_based": 627,
+      "actual_kind": "inline",
+      "actual_payload": "k&gt;2",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$k&amp;gt;2$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "1-2/k>0",
+      "index_1_based": 249,
+      "locator": "P166",
+      "line_1_based": 627,
+      "actual_kind": "inline",
+      "actual_payload": "1-2/k&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$1-2/k&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "-2\\%",
+      "index_1_based": 260,
+      "locator": "P177",
+      "line_1_based": 670,
+      "actual_kind": "inline",
+      "actual_payload": "-2%",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$-2%$</math-renderer>",
+      "classification": "percent_escape_lost"
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\frac{-50}{300}\\times100\\%=-\\frac{50}{3}\\%\\approx-16.67\\%,\\qquad\n\\frac{-50}{10000}\\times100\\%=-0.5\\%.\n",
+      "index_1_based": 44,
+      "locator": "P179",
+      "line_1_based": 676,
+      "actual_kind": "display",
+      "actual_payload": "\n\\frac{-50}{300}\\times100%=-\\frac{50}{3}%\\approx-16.67%,\\qquad\n\\frac{-50}{10000}\\times100%=-0.5%.\n",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$$\n\\frac{-50}{300}\\times100%=-\\frac{50}{3}%\\approx-16.67%,\\qquad\n\\frac{-50}{10000}\\times100%=-0.5%.\n$$</math-renderer>",
+      "classification": "percent_escape_lost"
+    },
+    {
+      "kind": "display",
+      "payload": "\n100(e^{-0.02}-1)\\%\\approx-1.9801\\%.\n",
+      "index_1_based": 45,
+      "locator": "P182",
+      "line_1_based": 688,
+      "actual_kind": "display",
+      "actual_payload": "\n100(e^{-0.02}-1)%\\approx-1.9801%.\n",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$$\n100(e^{-0.02}-1)%\\approx-1.9801%.\n$$</math-renderer>",
+      "classification": "percent_escape_lost"
+    },
+    {
+      "kind": "inline",
+      "payload": "-2\\%",
+      "index_1_based": 263,
+      "locator": "P183",
+      "line_1_based": 693,
+      "actual_kind": "inline",
+      "actual_payload": "-2%",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$-2%$</math-renderer>",
+      "classification": "percent_escape_lost"
+    },
+    {
+      "kind": "inline",
+      "payload": "x>0",
+      "index_1_based": 278,
+      "locator": "P187",
+      "line_1_based": 707,
+      "actual_kind": "inline",
+      "actual_payload": "x&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$x&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln c_k>k/2",
+      "index_1_based": 281,
+      "locator": "P190",
+      "line_1_based": 719,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln c_k&gt;k/2",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$\\ln c_k&amp;gt;k/2$</math-renderer>",
+      "classification": "angle_entity_text"
+    }
+  ],
+  "all_math_comparisons": [
+    {
+      "kind": "inline",
+      "payload": "(uv)'=u'v+uv'",
+      "index_1_based": 1,
+      "locator": "P005",
+      "line_1_based": 14,
+      "actual_kind": "inline",
+      "actual_payload": "(uv)'=u'v+uv'",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(F(u(x)))'=F'(u(x))u'(x)",
+      "index_1_based": 2,
+      "locator": "P005",
+      "line_1_based": 14,
+      "actual_kind": "inline",
+      "actual_payload": "(F(u(x)))'=F'(u(x))u'(x)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a>1",
+      "index_1_based": 3,
+      "locator": "P007",
+      "line_1_based": 22,
+      "actual_kind": "inline",
+      "actual_payload": "a&gt;1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$a&amp;gt;1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "a^x",
+      "index_1_based": 4,
+      "locator": "P007",
+      "line_1_based": 22,
+      "actual_kind": "inline",
+      "actual_payload": "a^x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a",
+      "index_1_based": 5,
+      "locator": "P007",
+      "line_1_based": 22,
+      "actual_kind": "inline",
+      "actual_payload": "a",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x",
+      "index_1_based": 6,
+      "locator": "P007",
+      "line_1_based": 22,
+      "actual_kind": "inline",
+      "actual_payload": "x",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\na^0=1,\\qquad a^1=a,\\qquad a^2=a\\cdot a,\n",
+      "index_1_based": 1,
+      "locator": "P008",
+      "line_1_based": 25,
+      "actual_kind": "display",
+      "actual_payload": "\na^0=1,\\qquad a^1=a,\\qquad a^2=a\\cdot a,\n",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\na^{x_1+x_2}=a^{x_1}a^{x_2},\\qquad (a^{x_1})^{x_2}=a^{x_1x_2}.\n",
+      "index_1_based": 2,
+      "locator": "P009",
+      "line_1_based": 30,
+      "actual_kind": "display",
+      "actual_payload": "\na^{x_1+x_2}=a^{x_1}a^{x_2},\\qquad (a^{x_1})^{x_2}=a^{x_1x_2}.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "p",
+      "index_1_based": 7,
+      "locator": "P010",
+      "line_1_based": 35,
+      "actual_kind": "inline",
+      "actual_payload": "p",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "q",
+      "index_1_based": 8,
+      "locator": "P010",
+      "line_1_based": 35,
+      "actual_kind": "inline",
+      "actual_payload": "q",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a^{p/q}=\\sqrt[q]{a^p}",
+      "index_1_based": 9,
+      "locator": "P010",
+      "line_1_based": 35,
+      "actual_kind": "inline",
+      "actual_payload": "a^{p/q}=\\sqrt[q]{a^p}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "h",
+      "index_1_based": 10,
+      "locator": "P011",
+      "line_1_based": 38,
+      "actual_kind": "inline",
+      "actual_payload": "h",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x",
+      "index_1_based": 11,
+      "locator": "P011",
+      "line_1_based": 38,
+      "actual_kind": "inline",
+      "actual_payload": "x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\Delta x",
+      "index_1_based": 12,
+      "locator": "P011",
+      "line_1_based": 38,
+      "actual_kind": "inline",
+      "actual_payload": "\\Delta x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x",
+      "index_1_based": 13,
+      "locator": "P011",
+      "line_1_based": 38,
+      "actual_kind": "inline",
+      "actual_payload": "x",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\frac{a^{x+h}-a^x}{h}\n=a^x\\frac{a^h-1}{h}.\n",
+      "index_1_based": 3,
+      "locator": "P012",
+      "line_1_based": 41,
+      "actual_kind": "display",
+      "actual_payload": "\n\\frac{a^{x+h}-a^x}{h}\n=a^x\\frac{a^h-1}{h}.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a^{x+h}",
+      "index_1_based": 14,
+      "locator": "P013",
+      "line_1_based": 47,
+      "actual_kind": "inline",
+      "actual_payload": "a^{x+h}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a^xa^h",
+      "index_1_based": 15,
+      "locator": "P013",
+      "line_1_based": 47,
+      "actual_kind": "inline",
+      "actual_payload": "a^xa^h",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "h",
+      "index_1_based": 16,
+      "locator": "P013",
+      "line_1_based": 47,
+      "actual_kind": "inline",
+      "actual_payload": "h",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a^x",
+      "index_1_based": 17,
+      "locator": "P013",
+      "line_1_based": 47,
+      "actual_kind": "inline",
+      "actual_payload": "a^x",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\nM(a)=\\lim_{h\\to0}\\frac{a^h-1}{h}.\n",
+      "index_1_based": 4,
+      "locator": "P014",
+      "line_1_based": 50,
+      "actual_kind": "display",
+      "actual_payload": "\nM(a)=\\lim_{h\\to0}\\frac{a^h-1}{h}.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "M",
+      "index_1_based": 18,
+      "locator": "P015",
+      "line_1_based": 55,
+      "actual_kind": "inline",
+      "actual_payload": "M",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x=0",
+      "index_1_based": 19,
+      "locator": "P015",
+      "line_1_based": 55,
+      "actual_kind": "inline",
+      "actual_payload": "x=0",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x",
+      "index_1_based": 20,
+      "locator": "P015",
+      "line_1_based": 55,
+      "actual_kind": "inline",
+      "actual_payload": "x",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\frac{d}{dx}a^x=M(a)a^x.\n",
+      "index_1_based": 5,
+      "locator": "P016",
+      "line_1_based": 58,
+      "actual_kind": "display",
+      "actual_payload": "\n\\frac{d}{dx}a^x=M(a)a^x.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a^x",
+      "index_1_based": 21,
+      "locator": "P017",
+      "line_1_based": 63,
+      "actual_kind": "inline",
+      "actual_payload": "a^x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "M(a)",
+      "index_1_based": 22,
+      "locator": "P017",
+      "line_1_based": 63,
+      "actual_kind": "inline",
+      "actual_payload": "M(a)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(0,1)",
+      "index_1_based": 23,
+      "locator": "P017",
+      "line_1_based": 63,
+      "actual_kind": "inline",
+      "actual_payload": "(0,1)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "M(a)",
+      "index_1_based": 24,
+      "locator": "P017",
+      "line_1_based": 63,
+      "actual_kind": "inline",
+      "actual_payload": "M(a)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a^0=1",
+      "index_1_based": 25,
+      "locator": "P017",
+      "line_1_based": 63,
+      "actual_kind": "inline",
+      "actual_payload": "a^0=1",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x",
+      "index_1_based": 26,
+      "locator": "P017",
+      "line_1_based": 63,
+      "actual_kind": "inline",
+      "actual_payload": "x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e",
+      "index_1_based": 27,
+      "locator": "P018",
+      "line_1_based": 66,
+      "actual_kind": "inline",
+      "actual_payload": "e",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e",
+      "index_1_based": 28,
+      "locator": "P019",
+      "line_1_based": 69,
+      "actual_kind": "inline",
+      "actual_payload": "e",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "M(e)=1",
+      "index_1_based": 29,
+      "locator": "P019",
+      "line_1_based": 69,
+      "actual_kind": "inline",
+      "actual_payload": "M(e)=1",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\lim_{h\\to0}\\frac{e^h-1}{h}=1.\n",
+      "index_1_based": 6,
+      "locator": "P020",
+      "line_1_based": 72,
+      "actual_kind": "display",
+      "actual_payload": "\n\\lim_{h\\to0}\\frac{e^h-1}{h}=1.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "y=2^x",
+      "index_1_based": 30,
+      "locator": "P022",
+      "line_1_based": 80,
+      "actual_kind": "inline",
+      "actual_payload": "y=2^x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(0,1)",
+      "index_1_based": 31,
+      "locator": "P022",
+      "line_1_based": 80,
+      "actual_kind": "inline",
+      "actual_payload": "(0,1)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(1,2)",
+      "index_1_based": 32,
+      "locator": "P022",
+      "line_1_based": 80,
+      "actual_kind": "inline",
+      "actual_payload": "(1,2)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(2-1)/(1-0)=1",
+      "index_1_based": 33,
+      "locator": "P022",
+      "line_1_based": 80,
+      "actual_kind": "inline",
+      "actual_payload": "(2-1)/(1-0)=1",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "M(2)<1",
+      "index_1_based": 34,
+      "locator": "P022",
+      "line_1_based": 80,
+      "actual_kind": "inline",
+      "actual_payload": "M(2)&lt;1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$M(2)&amp;lt;1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "y=4^x",
+      "index_1_based": 35,
+      "locator": "P022",
+      "line_1_based": 81,
+      "actual_kind": "inline",
+      "actual_payload": "y=4^x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(-1/2,1/2)",
+      "index_1_based": 36,
+      "locator": "P022",
+      "line_1_based": 81,
+      "actual_kind": "inline",
+      "actual_payload": "(-1/2,1/2)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(0,1)",
+      "index_1_based": 37,
+      "locator": "P022",
+      "line_1_based": 81,
+      "actual_kind": "inline",
+      "actual_payload": "(0,1)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(1-1/2)/(0-(-1/2))=1",
+      "index_1_based": 38,
+      "locator": "P022",
+      "line_1_based": 81,
+      "actual_kind": "inline",
+      "actual_payload": "(1-1/2)/(0-(-1/2))=1",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "M(4)>1",
+      "index_1_based": 39,
+      "locator": "P022",
+      "line_1_based": 81,
+      "actual_kind": "inline",
+      "actual_payload": "M(4)&gt;1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$M(4)&amp;gt;1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "M(a)",
+      "index_1_based": 40,
+      "locator": "P023",
+      "line_1_based": 84,
+      "actual_kind": "inline",
+      "actual_payload": "M(a)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "M(a)",
+      "index_1_based": 41,
+      "locator": "P023",
+      "line_1_based": 84,
+      "actual_kind": "inline",
+      "actual_payload": "M(a)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(1,0)",
+      "index_1_based": 42,
+      "locator": "P023",
+      "line_1_based": 84,
+      "actual_kind": "inline",
+      "actual_payload": "(1,0)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(0,1)",
+      "index_1_based": 43,
+      "locator": "P023",
+      "line_1_based": 84,
+      "actual_kind": "inline",
+      "actual_payload": "(0,1)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "M(e)=1",
+      "index_1_based": 44,
+      "locator": "P024",
+      "line_1_based": 87,
+      "actual_kind": "inline",
+      "actual_payload": "M(e)=1",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\frac{d}{dx}e^x=e^x.\n",
+      "index_1_based": 7,
+      "locator": "P025",
+      "line_1_based": 90,
+      "actual_kind": "display",
+      "actual_payload": "\n\\frac{d}{dx}e^x=e^x.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "u(x)",
+      "index_1_based": 45,
+      "locator": "P026",
+      "line_1_based": 95,
+      "actual_kind": "inline",
+      "actual_payload": "u(x)",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\frac{d}{dx}e^{u(x)}=e^{u(x)}u'(x).\n",
+      "index_1_based": 8,
+      "locator": "P027",
+      "line_1_based": 98,
+      "actual_kind": "display",
+      "actual_payload": "\n\\frac{d}{dx}e^{u(x)}=e^{u(x)}u'(x).\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e^{3x}",
+      "index_1_based": 46,
+      "locator": "P028",
+      "line_1_based": 103,
+      "actual_kind": "inline",
+      "actual_payload": "e^{3x}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e^u",
+      "index_1_based": 47,
+      "locator": "P028",
+      "line_1_based": 103,
+      "actual_kind": "inline",
+      "actual_payload": "e^u",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "u=3x",
+      "index_1_based": 48,
+      "locator": "P028",
+      "line_1_based": 103,
+      "actual_kind": "inline",
+      "actual_payload": "u=3x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e^{3x}",
+      "index_1_based": 49,
+      "locator": "P028",
+      "line_1_based": 103,
+      "actual_kind": "inline",
+      "actual_payload": "e^{3x}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(e^{3x})'=3e^{3x}",
+      "index_1_based": 50,
+      "locator": "P028",
+      "line_1_based": 103,
+      "actual_kind": "inline",
+      "actual_payload": "(e^{3x})'=3e^{3x}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "y=e^{2x-1}",
+      "index_1_based": 51,
+      "locator": "P030",
+      "line_1_based": 111,
+      "actual_kind": "inline",
+      "actual_payload": "y=e^{2x-1}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "dy/dx",
+      "index_1_based": 52,
+      "locator": "P030",
+      "line_1_based": 111,
+      "actual_kind": "inline",
+      "actual_payload": "dy/dx",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x=1/2",
+      "index_1_based": 53,
+      "locator": "P030",
+      "line_1_based": 111,
+      "actual_kind": "inline",
+      "actual_payload": "x=1/2",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e",
+      "index_1_based": 54,
+      "locator": "P033",
+      "line_1_based": 122,
+      "actual_kind": "inline",
+      "actual_payload": "e",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\ny=e^x\\quad\\Longleftrightarrow\\quad\\ln y=x,\n",
+      "index_1_based": 9,
+      "locator": "P034",
+      "line_1_based": 125,
+      "actual_kind": "display",
+      "actual_payload": "\ny=e^x\\quad\\Longleftrightarrow\\quad\\ln y=x,\n",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\nw=\\ln x\\quad\\Longleftrightarrow\\quad e^w=x\\qquad(x>0).\n",
+      "index_1_based": 10,
+      "locator": "P036",
+      "line_1_based": 133,
+      "actual_kind": "display",
+      "actual_payload": "\nw=\\ln x\\quad\\Longleftrightarrow\\quad e^w=x\\qquad(x>0).\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln(e^3)=3",
+      "index_1_based": 55,
+      "locator": "P037",
+      "line_1_based": 138,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln(e^3)=3",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e^{\\ln 5}=5",
+      "index_1_based": 56,
+      "locator": "P037",
+      "line_1_based": 138,
+      "actual_kind": "inline",
+      "actual_payload": "e^{\\ln 5}=5",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln x",
+      "index_1_based": 57,
+      "locator": "P037",
+      "line_1_based": 138,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e^0=1",
+      "index_1_based": 58,
+      "locator": "P037",
+      "line_1_based": 138,
+      "actual_kind": "inline",
+      "actual_payload": "e^0=1",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln1=0",
+      "index_1_based": 59,
+      "locator": "P037",
+      "line_1_based": 138,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln1=0",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln x<0",
+      "index_1_based": 60,
+      "locator": "P037",
+      "line_1_based": 138,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln x&lt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$\\ln x&amp;lt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "0<x<1",
+      "index_1_based": 61,
+      "locator": "P037",
+      "line_1_based": 138,
+      "actual_kind": "inline",
+      "actual_payload": "0&lt;x&lt;1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$0&amp;lt;x&amp;lt;1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln x>0",
+      "index_1_based": 62,
+      "locator": "P037",
+      "line_1_based": 138,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln x&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$\\ln x&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "x>1",
+      "index_1_based": 63,
+      "locator": "P037",
+      "line_1_based": 138,
+      "actual_kind": "inline",
+      "actual_payload": "x&gt;1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$x&amp;gt;1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "u,v",
+      "index_1_based": 64,
+      "locator": "P038",
+      "line_1_based": 141,
+      "actual_kind": "inline",
+      "actual_payload": "u,v",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\ln(uv)=\\ln u+\\ln v.\n",
+      "index_1_based": 11,
+      "locator": "P039",
+      "line_1_based": 144,
+      "actual_kind": "display",
+      "actual_payload": "\n\\ln(uv)=\\ln u+\\ln v.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "u=e^r",
+      "index_1_based": 65,
+      "locator": "P040",
+      "line_1_based": 149,
+      "actual_kind": "inline",
+      "actual_payload": "u=e^r",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "v=e^s",
+      "index_1_based": 66,
+      "locator": "P040",
+      "line_1_based": 149,
+      "actual_kind": "inline",
+      "actual_payload": "v=e^s",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "uv=e^{r+s}",
+      "index_1_based": 67,
+      "locator": "P040",
+      "line_1_based": 149,
+      "actual_kind": "inline",
+      "actual_payload": "uv=e^{r+s}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "r+s",
+      "index_1_based": 68,
+      "locator": "P040",
+      "line_1_based": 149,
+      "actual_kind": "inline",
+      "actual_payload": "r+s",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "u>0",
+      "index_1_based": 69,
+      "locator": "P040",
+      "line_1_based": 149,
+      "actual_kind": "inline",
+      "actual_payload": "u&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$u&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "r",
+      "index_1_based": 70,
+      "locator": "P040",
+      "line_1_based": 149,
+      "actual_kind": "inline",
+      "actual_payload": "r",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln(u^r)=r\\ln u",
+      "index_1_based": 71,
+      "locator": "P040",
+      "line_1_based": 149,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln(u^r)=r\\ln u",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "w(x)=\\ln x",
+      "index_1_based": 72,
+      "locator": "P041",
+      "line_1_based": 152,
+      "actual_kind": "inline",
+      "actual_payload": "w(x)=\\ln x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e^{w(x)}=x",
+      "index_1_based": 73,
+      "locator": "P041",
+      "line_1_based": 152,
+      "actual_kind": "inline",
+      "actual_payload": "e^{w(x)}=x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x",
+      "index_1_based": 74,
+      "locator": "P041",
+      "line_1_based": 152,
+      "actual_kind": "inline",
+      "actual_payload": "x",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\ne^{w(x)}w'(x)=1.\n",
+      "index_1_based": 12,
+      "locator": "P042",
+      "line_1_based": 155,
+      "actual_kind": "display",
+      "actual_payload": "\ne^{w(x)}w'(x)=1.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e^{w(x)}=x>0",
+      "index_1_based": 75,
+      "locator": "P043",
+      "line_1_based": 160,
+      "actual_kind": "inline",
+      "actual_payload": "e^{w(x)}=x&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$e^{w(x)}=x&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\frac{d}{dx}\\ln x=\\frac1x\\qquad(x>0).\n",
+      "index_1_based": 13,
+      "locator": "P044",
+      "line_1_based": 163,
+      "actual_kind": "display",
+      "actual_payload": "\n\\frac{d}{dx}\\ln x=\\frac1x\\qquad(x>0).\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln x",
+      "index_1_based": 76,
+      "locator": "P045",
+      "line_1_based": 168,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "u(x)",
+      "index_1_based": 77,
+      "locator": "P045",
+      "line_1_based": 168,
+      "actual_kind": "inline",
+      "actual_payload": "u(x)",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\frac{d}{dx}\\ln(u(x))=\\frac{u'(x)}{u(x)}.\n",
+      "index_1_based": 14,
+      "locator": "P046",
+      "line_1_based": 171,
+      "actual_kind": "display",
+      "actual_payload": "\n\\frac{d}{dx}\\ln(u(x))=\\frac{u'(x)}{u(x)}.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln(1+x^2)",
+      "index_1_based": 78,
+      "locator": "P047",
+      "line_1_based": 176,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln(1+x^2)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x",
+      "index_1_based": 79,
+      "locator": "P047",
+      "line_1_based": 176,
+      "actual_kind": "inline",
+      "actual_payload": "x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "2x/(1+x^2)",
+      "index_1_based": 80,
+      "locator": "P047",
+      "line_1_based": 176,
+      "actual_kind": "inline",
+      "actual_payload": "2x/(1+x^2)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x=0",
+      "index_1_based": 81,
+      "locator": "P047",
+      "line_1_based": 176,
+      "actual_kind": "inline",
+      "actual_payload": "x=0",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x",
+      "index_1_based": 82,
+      "locator": "P047",
+      "line_1_based": 176,
+      "actual_kind": "inline",
+      "actual_payload": "x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "-x",
+      "index_1_based": 83,
+      "locator": "P047",
+      "line_1_based": 176,
+      "actual_kind": "inline",
+      "actual_payload": "-x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a>0",
+      "index_1_based": 84,
+      "locator": "P049",
+      "line_1_based": 182,
+      "actual_kind": "inline",
+      "actual_payload": "a&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$a&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "a=e^{\\ln a}",
+      "index_1_based": 85,
+      "locator": "P049",
+      "line_1_based": 182,
+      "actual_kind": "inline",
+      "actual_payload": "a=e^{\\ln a}",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\na^x=(e^{\\ln a})^x=e^{x\\ln a}.\n",
+      "index_1_based": 15,
+      "locator": "P050",
+      "line_1_based": 185,
+      "actual_kind": "display",
+      "actual_payload": "\na^x=(e^{\\ln a})^x=e^{x\\ln a}.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e",
+      "index_1_based": 86,
+      "locator": "P051",
+      "line_1_based": 190,
+      "actual_kind": "inline",
+      "actual_payload": "e",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln a",
+      "index_1_based": 87,
+      "locator": "P051",
+      "line_1_based": 190,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln a",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x",
+      "index_1_based": 88,
+      "locator": "P051",
+      "line_1_based": 190,
+      "actual_kind": "inline",
+      "actual_payload": "x",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\frac{d}{dx}a^x=(\\ln a)e^{x\\ln a}=(\\ln a)a^x.\n",
+      "index_1_based": 16,
+      "locator": "P052",
+      "line_1_based": 193,
+      "actual_kind": "display",
+      "actual_payload": "\n\\frac{d}{dx}a^x=(\\ln a)e^{x\\ln a}=(\\ln a)a^x.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "M(a)=\\ln a",
+      "index_1_based": 89,
+      "locator": "P053",
+      "line_1_based": 198,
+      "actual_kind": "inline",
+      "actual_payload": "M(a)=\\ln a",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "M",
+      "index_1_based": 90,
+      "locator": "P053",
+      "line_1_based": 198,
+      "actual_kind": "inline",
+      "actual_payload": "M",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a>0",
+      "index_1_based": 91,
+      "locator": "P053",
+      "line_1_based": 198,
+      "actual_kind": "inline",
+      "actual_payload": "a&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$a&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "M(a)=1",
+      "index_1_based": 92,
+      "locator": "P053",
+      "line_1_based": 198,
+      "actual_kind": "inline",
+      "actual_payload": "M(a)=1",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a=e",
+      "index_1_based": 93,
+      "locator": "P053",
+      "line_1_based": 198,
+      "actual_kind": "inline",
+      "actual_payload": "a=e",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "2<e<4",
+      "index_1_based": 94,
+      "locator": "P053",
+      "line_1_based": 198,
+      "actual_kind": "inline",
+      "actual_payload": "2&lt;e&lt;4",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$2&amp;lt;e&amp;lt;4$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "e",
+      "index_1_based": 95,
+      "locator": "P053",
+      "line_1_based": 198,
+      "actual_kind": "inline",
+      "actual_payload": "e",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(10^x)'=(\\ln10)10^x",
+      "index_1_based": 96,
+      "locator": "P054",
+      "line_1_based": 201,
+      "actual_kind": "inline",
+      "actual_payload": "(10^x)'=(\\ln10)10^x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a>1",
+      "index_1_based": 97,
+      "locator": "P054",
+      "line_1_based": 201,
+      "actual_kind": "inline",
+      "actual_payload": "a&gt;1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$a&amp;gt;1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "0<a<1",
+      "index_1_based": 98,
+      "locator": "P054",
+      "line_1_based": 201,
+      "actual_kind": "inline",
+      "actual_payload": "0&lt;a&lt;1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$0&amp;lt;a&amp;lt;1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln a<0",
+      "index_1_based": 99,
+      "locator": "P054",
+      "line_1_based": 201,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln a&lt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$\\ln a&amp;lt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "a^x",
+      "index_1_based": 100,
+      "locator": "P054",
+      "line_1_based": 201,
+      "actual_kind": "inline",
+      "actual_payload": "a^x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a=1",
+      "index_1_based": 101,
+      "locator": "P054",
+      "line_1_based": 201,
+      "actual_kind": "inline",
+      "actual_payload": "a=1",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "f(x)=(1/2)^{3x}",
+      "index_1_based": 102,
+      "locator": "P056",
+      "line_1_based": 209,
+      "actual_kind": "inline",
+      "actual_payload": "f(x)=(1/2)^{3x}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "g(x)=\\ln(5-2x)",
+      "index_1_based": 103,
+      "locator": "P056",
+      "line_1_based": 209,
+      "actual_kind": "inline",
+      "actual_payload": "g(x)=\\ln(5-2x)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "f(x)>0",
+      "index_1_based": 104,
+      "locator": "P059",
+      "line_1_based": 220,
+      "actual_kind": "inline",
+      "actual_payload": "f(x)&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$f(x)&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "display",
+      "payload": "\n(\\ln f(x))'=\\frac{f'(x)}{f(x)},\\qquad\nf'(x)=f(x)(\\ln f(x))'.\n",
+      "index_1_based": 17,
+      "locator": "P060",
+      "line_1_based": 223,
+      "actual_kind": "display",
+      "actual_payload": "\n(\\ln f(x))'=\\frac{f'(x)}{f(x)},\\qquad\nf'(x)=f(x)(\\ln f(x))'.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x",
+      "index_1_based": 105,
+      "locator": "P061",
+      "line_1_based": 229,
+      "actual_kind": "inline",
+      "actual_payload": "x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(\\ln f)'",
+      "index_1_based": 106,
+      "locator": "P061",
+      "line_1_based": 229,
+      "actual_kind": "inline",
+      "actual_payload": "(\\ln f)'",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x\\mapsto\\ln(f(x))",
+      "index_1_based": 107,
+      "locator": "P061",
+      "line_1_based": 229,
+      "actual_kind": "inline",
+      "actual_payload": "x\\mapsto\\ln(f(x))",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln(f')",
+      "index_1_based": 108,
+      "locator": "P061",
+      "line_1_based": 229,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln(f')",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "f(x)=a^x",
+      "index_1_based": 109,
+      "locator": "P063",
+      "line_1_based": 235,
+      "actual_kind": "inline",
+      "actual_payload": "f(x)=a^x",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\ln f=x\\ln a,\\qquad (\\ln f)'=\\ln a,\n",
+      "index_1_based": 18,
+      "locator": "P064",
+      "line_1_based": 238,
+      "actual_kind": "display",
+      "actual_payload": "\n\\ln f=x\\ln a,\\qquad (\\ln f)'=\\ln a,\n",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\nf'=f\\ln a=(\\ln a)a^x.\n",
+      "index_1_based": 19,
+      "locator": "P065",
+      "line_1_based": 243,
+      "actual_kind": "display",
+      "actual_payload": "\nf'=f\\ln a=(\\ln a)a^x.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln a",
+      "index_1_based": 110,
+      "locator": "P066",
+      "line_1_based": 248,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln a",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e",
+      "index_1_based": 111,
+      "locator": "P066",
+      "line_1_based": 248,
+      "actual_kind": "inline",
+      "actual_payload": "e",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "f(x)=x^x",
+      "index_1_based": 112,
+      "locator": "P067",
+      "line_1_based": 251,
+      "actual_kind": "inline",
+      "actual_payload": "f(x)=x^x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x>0",
+      "index_1_based": 113,
+      "locator": "P067",
+      "line_1_based": 251,
+      "actual_kind": "inline",
+      "actual_payload": "x&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$x&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "(x^n)'=nx^{n-1}",
+      "index_1_based": 114,
+      "locator": "P067",
+      "line_1_based": 251,
+      "actual_kind": "inline",
+      "actual_payload": "(x^n)'=nx^{n-1}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "n",
+      "index_1_based": 115,
+      "locator": "P067",
+      "line_1_based": 251,
+      "actual_kind": "inline",
+      "actual_payload": "n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(a^x)'=(\\ln a)a^x",
+      "index_1_based": 116,
+      "locator": "P067",
+      "line_1_based": 251,
+      "actual_kind": "inline",
+      "actual_payload": "(a^x)'=(\\ln a)a^x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a",
+      "index_1_based": 117,
+      "locator": "P067",
+      "line_1_based": 251,
+      "actual_kind": "inline",
+      "actual_payload": "a",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x",
+      "index_1_based": 118,
+      "locator": "P067",
+      "line_1_based": 251,
+      "actual_kind": "inline",
+      "actual_payload": "x",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\ln f=x\\ln x.\n",
+      "index_1_based": 20,
+      "locator": "P069",
+      "line_1_based": 257,
+      "actual_kind": "display",
+      "actual_payload": "\n\\ln f=x\\ln x.\n",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n(\\ln f)'=1\\cdot\\ln x+x\\cdot\\frac1x=\\ln x+1.\n",
+      "index_1_based": 21,
+      "locator": "P071",
+      "line_1_based": 265,
+      "actual_kind": "display",
+      "actual_payload": "\n(\\ln f)'=1\\cdot\\ln x+x\\cdot\\frac1x=\\ln x+1.\n",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\nf'(x)=x^x(\\ln x+1)\\qquad(x>0).\n",
+      "index_1_based": 22,
+      "locator": "P073",
+      "line_1_based": 273,
+      "actual_kind": "display",
+      "actual_payload": "\nf'(x)=x^x(\\ln x+1)\\qquad(x>0).\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x=2",
+      "index_1_based": 119,
+      "locator": "P074",
+      "line_1_based": 278,
+      "actual_kind": "inline",
+      "actual_payload": "x=2",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "4(\\ln2+1)",
+      "index_1_based": 120,
+      "locator": "P074",
+      "line_1_based": 278,
+      "actual_kind": "inline",
+      "actual_payload": "4(\\ln2+1)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x^x=e^{x\\ln x}",
+      "index_1_based": 121,
+      "locator": "P074",
+      "line_1_based": 278,
+      "actual_kind": "inline",
+      "actual_payload": "x^x=e^{x\\ln x}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "u(x)>0",
+      "index_1_based": 122,
+      "locator": "P075",
+      "line_1_based": 281,
+      "actual_kind": "inline",
+      "actual_payload": "u(x)&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$u(x)&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "u,v",
+      "index_1_based": 123,
+      "locator": "P075",
+      "line_1_based": 281,
+      "actual_kind": "inline",
+      "actual_payload": "u,v",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "y=u(x)^{v(x)}",
+      "index_1_based": 124,
+      "locator": "P075",
+      "line_1_based": 281,
+      "actual_kind": "inline",
+      "actual_payload": "y=u(x)^{v(x)}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e^{v(x)\\ln u(x)}",
+      "index_1_based": 125,
+      "locator": "P075",
+      "line_1_based": 281,
+      "actual_kind": "inline",
+      "actual_payload": "e^{v(x)\\ln u(x)}",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\ln y=v\\ln u,\\qquad\n\\frac{y'}{y}=v'\\ln u+v\\frac{u'}u.\n",
+      "index_1_based": 23,
+      "locator": "P076",
+      "line_1_based": 284,
+      "actual_kind": "display",
+      "actual_payload": "\n\\ln y=v\\ln u,\\qquad\n\\frac{y'}{y}=v'\\ln u+v\\frac{u'}u.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "v",
+      "index_1_based": 126,
+      "locator": "P077",
+      "line_1_based": 290,
+      "actual_kind": "inline",
+      "actual_payload": "v",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "u",
+      "index_1_based": 127,
+      "locator": "P077",
+      "line_1_based": 290,
+      "actual_kind": "inline",
+      "actual_payload": "u",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "y=(1+x)^{x^2}",
+      "index_1_based": 128,
+      "locator": "P079",
+      "line_1_based": 298,
+      "actual_kind": "inline",
+      "actual_payload": "y=(1+x)^{x^2}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x>-1",
+      "index_1_based": 129,
+      "locator": "P079",
+      "line_1_based": 298,
+      "actual_kind": "inline",
+      "actual_payload": "x&gt;-1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$x&amp;gt;-1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "y'",
+      "index_1_based": 130,
+      "locator": "P079",
+      "line_1_based": 298,
+      "actual_kind": "inline",
+      "actual_payload": "y'",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x=0",
+      "index_1_based": 131,
+      "locator": "P079",
+      "line_1_based": 298,
+      "actual_kind": "inline",
+      "actual_payload": "x=0",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x^2",
+      "index_1_based": 132,
+      "locator": "P079",
+      "line_1_based": 298,
+      "actual_kind": "inline",
+      "actual_payload": "x^2",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\nb_k=\\left(1+\\frac1k\\right)^k\\qquad(k=1,2,3,\\ldots).\n",
+      "index_1_based": 24,
+      "locator": "P083",
+      "line_1_based": 312,
+      "actual_kind": "display",
+      "actual_payload": "\nb_k=\\left(1+\\frac1k\\right)^k\\qquad(k=1,2,3,\\ldots).\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "k\\to\\infty",
+      "index_1_based": 133,
+      "locator": "P084",
+      "line_1_based": 317,
+      "actual_kind": "inline",
+      "actual_payload": "k\\to\\infty",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "k",
+      "index_1_based": 134,
+      "locator": "P084",
+      "line_1_based": 317,
+      "actual_kind": "inline",
+      "actual_payload": "k",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln(1+1/k)",
+      "index_1_based": 135,
+      "locator": "P084",
+      "line_1_based": 317,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln(1+1/k)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "b_k",
+      "index_1_based": 136,
+      "locator": "P085",
+      "line_1_based": 320,
+      "actual_kind": "inline",
+      "actual_payload": "b_k",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a_k=\\ln b_k",
+      "index_1_based": 137,
+      "locator": "P085",
+      "line_1_based": 320,
+      "actual_kind": "inline",
+      "actual_payload": "a_k=\\ln b_k",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a",
+      "index_1_based": 138,
+      "locator": "P085",
+      "line_1_based": 320,
+      "actual_kind": "inline",
+      "actual_payload": "a",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\na_k=k\\ln\\left(1+\\frac1k\\right)\n=\\frac{\\ln(1+1/k)}{1/k}.\n",
+      "index_1_based": 25,
+      "locator": "P086",
+      "line_1_based": 323,
+      "actual_kind": "display",
+      "actual_payload": "\na_k=k\\ln\\left(1+\\frac1k\\right)\n=\\frac{\\ln(1+1/k)}{1/k}.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "h=1/k",
+      "index_1_based": 139,
+      "locator": "P087",
+      "line_1_based": 329,
+      "actual_kind": "inline",
+      "actual_payload": "h=1/k",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "h\\to0",
+      "index_1_based": 140,
+      "locator": "P087",
+      "line_1_based": 329,
+      "actual_kind": "inline",
+      "actual_payload": "h\\to0",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln1=0",
+      "index_1_based": 141,
+      "locator": "P087",
+      "line_1_based": 329,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln1=0",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\na_k=\\frac{\\ln(1+h)-\\ln1}{h}.\n",
+      "index_1_based": 26,
+      "locator": "P088",
+      "line_1_based": 332,
+      "actual_kind": "display",
+      "actual_payload": "\na_k=\\frac{\\ln(1+h)-\\ln1}{h}.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "[F(x_0+h)-F(x_0)]/h",
+      "index_1_based": 142,
+      "locator": "P089",
+      "line_1_based": 337,
+      "actual_kind": "inline",
+      "actual_payload": "[F(x_0+h)-F(x_0)]/h",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "F=\\ln",
+      "index_1_based": 143,
+      "locator": "P089",
+      "line_1_based": 337,
+      "actual_kind": "inline",
+      "actual_payload": "F=\\ln",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x_0=1",
+      "index_1_based": 144,
+      "locator": "P089",
+      "line_1_based": 337,
+      "actual_kind": "inline",
+      "actual_payload": "x_0=1",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\na_k\\longrightarrow (\\ln x)'\\big|_{x=1}=\\frac11=1.\n",
+      "index_1_based": 27,
+      "locator": "P090",
+      "line_1_based": 340,
+      "actual_kind": "display",
+      "actual_payload": "\na_k\\longrightarrow (\\ln x)'\\big|_{x=1}=\\frac11=1.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "b_k=e^{a_k}",
+      "index_1_based": 145,
+      "locator": "P091",
+      "line_1_based": 345,
+      "actual_kind": "inline",
+      "actual_payload": "b_k=e^{a_k}",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\nb_k=e^{a_k}\\longrightarrow e^1=e.\n",
+      "index_1_based": 28,
+      "locator": "P092",
+      "line_1_based": 348,
+      "actual_kind": "display",
+      "actual_payload": "\nb_k=e^{a_k}\\longrightarrow e^1=e.\n",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\lim_{k\\to\\infty}\\left(1+\\frac1k\\right)^k=e.\n",
+      "index_1_based": 29,
+      "locator": "P094",
+      "line_1_based": 356,
+      "actual_kind": "display",
+      "actual_payload": "\n\\lim_{k\\to\\infty}\\left(1+\\frac1k\\right)^k=e.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "b_k",
+      "index_1_based": 146,
+      "locator": "P095",
+      "line_1_based": 361,
+      "actual_kind": "inline",
+      "actual_payload": "b_k",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "a_k",
+      "index_1_based": 147,
+      "locator": "P095",
+      "line_1_based": 361,
+      "actual_kind": "inline",
+      "actual_payload": "a_k",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e",
+      "index_1_based": 148,
+      "locator": "P096",
+      "line_1_based": 364,
+      "actual_kind": "inline",
+      "actual_payload": "e",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "k=10",
+      "index_1_based": 149,
+      "locator": "P096",
+      "line_1_based": 364,
+      "actual_kind": "inline",
+      "actual_payload": "k=10",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(1.1)^{10}\\approx2.59374",
+      "index_1_based": 150,
+      "locator": "P096",
+      "line_1_based": 364,
+      "actual_kind": "inline",
+      "actual_payload": "(1.1)^{10}\\approx2.59374",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e\\approx2.71828",
+      "index_1_based": 151,
+      "locator": "P096",
+      "line_1_based": 364,
+      "actual_kind": "inline",
+      "actual_payload": "e\\approx2.71828",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "k",
+      "index_1_based": 152,
+      "locator": "P096",
+      "line_1_based": 364,
+      "actual_kind": "inline",
+      "actual_payload": "k",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "k=10",
+      "index_1_based": 153,
+      "locator": "P096",
+      "line_1_based": 364,
+      "actual_kind": "inline",
+      "actual_payload": "k=10",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln",
+      "index_1_based": 154,
+      "locator": "P097",
+      "line_1_based": 367,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "L",
+      "index_1_based": 155,
+      "locator": "P097",
+      "line_1_based": 367,
+      "actual_kind": "inline",
+      "actual_payload": "L",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e^L",
+      "index_1_based": 156,
+      "locator": "P097",
+      "line_1_based": 367,
+      "actual_kind": "inline",
+      "actual_payload": "e^L",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "+\\infty",
+      "index_1_based": 157,
+      "locator": "P097",
+      "line_1_based": 367,
+      "actual_kind": "inline",
+      "actual_payload": "+\\infty",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "-\\infty",
+      "index_1_based": 158,
+      "locator": "P097",
+      "line_1_based": 367,
+      "actual_kind": "inline",
+      "actual_payload": "-\\infty",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "k>2",
+      "index_1_based": 159,
+      "locator": "P099",
+      "line_1_based": 375,
+      "actual_kind": "inline",
+      "actual_payload": "k&gt;2",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$k&amp;gt;2$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "b_k=(1-2/k)^{3k}",
+      "index_1_based": 160,
+      "locator": "P099",
+      "line_1_based": 375,
+      "actual_kind": "inline",
+      "actual_payload": "b_k=(1-2/k)^{3k}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln(b_k)",
+      "index_1_based": 161,
+      "locator": "P099",
+      "line_1_based": 375,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln(b_k)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "b_k",
+      "index_1_based": 162,
+      "locator": "P099",
+      "line_1_based": 375,
+      "actual_kind": "inline",
+      "actual_payload": "b_k",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "h=-2/k",
+      "index_1_based": 163,
+      "locator": "P099",
+      "line_1_based": 375,
+      "actual_kind": "inline",
+      "actual_payload": "h=-2/k",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln(b_k)",
+      "index_1_based": 164,
+      "locator": "P099",
+      "line_1_based": 375,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln(b_k)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln",
+      "index_1_based": 165,
+      "locator": "P099",
+      "line_1_based": 375,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "h",
+      "index_1_based": 166,
+      "locator": "P099",
+      "line_1_based": 375,
+      "actual_kind": "inline",
+      "actual_payload": "h",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "F_0,F_1",
+      "index_1_based": 167,
+      "locator": "P102",
+      "line_1_based": 386,
+      "actual_kind": "inline",
+      "actual_payload": "F_0,F_1",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\frac{F_1-F_0}{F_0},\n",
+      "index_1_based": 30,
+      "locator": "P103",
+      "line_1_based": 389,
+      "actual_kind": "display",
+      "actual_payload": "\n\\frac{F_1-F_0}{F_0},\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "F(t)",
+      "index_1_based": 168,
+      "locator": "P105",
+      "line_1_based": 397,
+      "actual_kind": "inline",
+      "actual_payload": "F(t)",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\frac{F'(t)}{F(t)}=\\frac{d}{dt}\\ln(F(t)).\n",
+      "index_1_based": 31,
+      "locator": "P106",
+      "line_1_based": 400,
+      "actual_kind": "display",
+      "actual_payload": "\n\\frac{F'(t)}{F(t)}=\\frac{d}{dt}\\ln(F(t)).\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "t",
+      "index_1_based": 169,
+      "locator": "P107",
+      "line_1_based": 405,
+      "actual_kind": "inline",
+      "actual_payload": "t",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "F",
+      "index_1_based": 170,
+      "locator": "P107",
+      "line_1_based": 405,
+      "actual_kind": "inline",
+      "actual_payload": "F",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "F'",
+      "index_1_based": 171,
+      "locator": "P107",
+      "line_1_based": 405,
+      "actual_kind": "inline",
+      "actual_payload": "F'",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "F'/F",
+      "index_1_based": 172,
+      "locator": "P107",
+      "line_1_based": 405,
+      "actual_kind": "inline",
+      "actual_payload": "F'/F",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln(F/F_{\\rm ref})",
+      "index_1_based": 173,
+      "locator": "P107",
+      "line_1_based": 405,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln(F/F_{\\rm ref})",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "F'/F",
+      "index_1_based": 174,
+      "locator": "P107",
+      "line_1_based": 405,
+      "actual_kind": "inline",
+      "actual_payload": "F'/F",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\Delta t",
+      "index_1_based": 175,
+      "locator": "P108",
+      "line_1_based": 408,
+      "actual_kind": "inline",
+      "actual_payload": "\\Delta t",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\nF(t+\\Delta t)-F(t)\\approx F'(t)\\Delta t,\n",
+      "index_1_based": 32,
+      "locator": "P109",
+      "line_1_based": 411,
+      "actual_kind": "display",
+      "actual_payload": "\nF(t+\\Delta t)-F(t)\\approx F'(t)\\Delta t,\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "F(t)>0",
+      "index_1_based": 176,
+      "locator": "P110",
+      "line_1_based": 416,
+      "actual_kind": "inline",
+      "actual_payload": "F(t)&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$F(t)&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\frac{F(t+\\Delta t)-F(t)}{F(t)}\n\\approx\\frac{F'(t)}{F(t)}\\Delta t.\n",
+      "index_1_based": 33,
+      "locator": "P111",
+      "line_1_based": 419,
+      "actual_kind": "display",
+      "actual_payload": "\n\\frac{F(t+\\Delta t)-F(t)}{F(t)}\n\\approx\\frac{F'(t)}{F(t)}\\Delta t.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln(F_1/F_0)",
+      "index_1_based": 177,
+      "locator": "P112",
+      "line_1_based": 425,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln(F_1/F_0)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(F_1-F_0)/F_0",
+      "index_1_based": 178,
+      "locator": "P112",
+      "line_1_based": 425,
+      "actual_kind": "inline",
+      "actual_payload": "(F_1-F_0)/F_0",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(\\ln x)'",
+      "index_1_based": 179,
+      "locator": "P112",
+      "line_1_based": 425,
+      "actual_kind": "inline",
+      "actual_payload": "(\\ln x)'",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "F(t)=80e^{0.03t}",
+      "index_1_based": 180,
+      "locator": "P113",
+      "line_1_based": 428,
+      "actual_kind": "inline",
+      "actual_payload": "F(t)=80e^{0.03t}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "t",
+      "index_1_based": 181,
+      "locator": "P113",
+      "line_1_based": 428,
+      "actual_kind": "inline",
+      "actual_payload": "t",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "F",
+      "index_1_based": 182,
+      "locator": "P113",
+      "line_1_based": 428,
+      "actual_kind": "inline",
+      "actual_payload": "F",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "F'=2.4e^{0.03t}",
+      "index_1_based": 183,
+      "locator": "P113",
+      "line_1_based": 428,
+      "actual_kind": "inline",
+      "actual_payload": "F'=2.4e^{0.03t}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "F'/F=0.03",
+      "index_1_based": 184,
+      "locator": "P113",
+      "line_1_based": 428,
+      "actual_kind": "inline",
+      "actual_payload": "F'/F=0.03",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "100(e^{0.03}-1)",
+      "index_1_based": 185,
+      "locator": "P113",
+      "line_1_based": 428,
+      "actual_kind": "inline",
+      "actual_payload": "100(e^{0.03}-1)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "F(t)=300e^{-0.02t}",
+      "index_1_based": 186,
+      "locator": "P115",
+      "line_1_based": 436,
+      "actual_kind": "inline",
+      "actual_payload": "F(t)=300e^{-0.02t}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "G(t)=10000e^{-0.02t}",
+      "index_1_based": 187,
+      "locator": "P115",
+      "line_1_based": 436,
+      "actual_kind": "inline",
+      "actual_payload": "G(t)=10000e^{-0.02t}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "t",
+      "index_1_based": 188,
+      "locator": "P115",
+      "line_1_based": 436,
+      "actual_kind": "inline",
+      "actual_payload": "t",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "t=0",
+      "index_1_based": 189,
+      "locator": "P115",
+      "line_1_based": 436,
+      "actual_kind": "inline",
+      "actual_payload": "t=0",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "F",
+      "index_1_based": 190,
+      "locator": "P115",
+      "line_1_based": 436,
+      "actual_kind": "inline",
+      "actual_payload": "F",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e",
+      "index_1_based": 191,
+      "locator": "P115",
+      "line_1_based": 436,
+      "actual_kind": "inline",
+      "actual_payload": "e",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "M(a)",
+      "index_1_based": 192,
+      "locator": "P119",
+      "line_1_based": 450,
+      "actual_kind": "inline",
+      "actual_payload": "M(a)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(\\ln f)'",
+      "index_1_based": 193,
+      "locator": "P119",
+      "line_1_based": 450,
+      "actual_kind": "inline",
+      "actual_payload": "(\\ln f)'",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "f'",
+      "index_1_based": 194,
+      "locator": "P119",
+      "line_1_based": 450,
+      "actual_kind": "inline",
+      "actual_payload": "f'",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "f",
+      "index_1_based": 195,
+      "locator": "P119",
+      "line_1_based": 450,
+      "actual_kind": "inline",
+      "actual_payload": "f",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "p(x)=x^3",
+      "index_1_based": 196,
+      "locator": "P119",
+      "line_1_based": 450,
+      "actual_kind": "inline",
+      "actual_payload": "p(x)=x^3",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "q(x)=3^x",
+      "index_1_based": 197,
+      "locator": "P119",
+      "line_1_based": 450,
+      "actual_kind": "inline",
+      "actual_payload": "q(x)=3^x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "r(x)=x^x",
+      "index_1_based": 198,
+      "locator": "P119",
+      "line_1_based": 450,
+      "actual_kind": "inline",
+      "actual_payload": "r(x)=x^x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x>0",
+      "index_1_based": 199,
+      "locator": "P119",
+      "line_1_based": 450,
+      "actual_kind": "inline",
+      "actual_payload": "x&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$x&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "c_k=(1+1/k)^{k^2}",
+      "index_1_based": 200,
+      "locator": "P119",
+      "line_1_based": 450,
+      "actual_kind": "inline",
+      "actual_payload": "c_k=(1+1/k)^{k^2}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "k",
+      "index_1_based": 201,
+      "locator": "P119",
+      "line_1_based": 450,
+      "actual_kind": "inline",
+      "actual_payload": "k",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln(c_k)",
+      "index_1_based": 202,
+      "locator": "P119",
+      "line_1_based": 450,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln(c_k)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "u=2x-1",
+      "index_1_based": 203,
+      "locator": "P124",
+      "line_1_based": 469,
+      "actual_kind": "inline",
+      "actual_payload": "u=2x-1",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e^u",
+      "index_1_based": 204,
+      "locator": "P124",
+      "line_1_based": 469,
+      "actual_kind": "inline",
+      "actual_payload": "e^u",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "u'",
+      "index_1_based": 205,
+      "locator": "P124",
+      "line_1_based": 469,
+      "actual_kind": "inline",
+      "actual_payload": "u'",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x=1/2",
+      "index_1_based": 206,
+      "locator": "P124",
+      "line_1_based": 469,
+      "actual_kind": "inline",
+      "actual_payload": "x=1/2",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e^{3x\\ln(1/2)}",
+      "index_1_based": 207,
+      "locator": "P127",
+      "line_1_based": 480,
+      "actual_kind": "inline",
+      "actual_payload": "e^{3x\\ln(1/2)}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "5-2x>0",
+      "index_1_based": 208,
+      "locator": "P127",
+      "line_1_based": 480,
+      "actual_kind": "inline",
+      "actual_payload": "5-2x&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$5-2x&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "1+x",
+      "index_1_based": 209,
+      "locator": "P130",
+      "line_1_based": 491,
+      "actual_kind": "inline",
+      "actual_payload": "1+x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln y=x^2\\ln(1+x)",
+      "index_1_based": 210,
+      "locator": "P130",
+      "line_1_based": 491,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln y=x^2\\ln(1+x)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(x^2)'",
+      "index_1_based": 211,
+      "locator": "P130",
+      "line_1_based": 491,
+      "actual_kind": "inline",
+      "actual_payload": "(x^2)'",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(\\ln(1+x))'",
+      "index_1_based": 212,
+      "locator": "P130",
+      "line_1_based": 491,
+      "actual_kind": "inline",
+      "actual_payload": "(\\ln(1+x))'",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "y",
+      "index_1_based": 213,
+      "locator": "P130",
+      "line_1_based": 491,
+      "actual_kind": "inline",
+      "actual_payload": "y",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "3k\\ln(1-2/k)",
+      "index_1_based": 214,
+      "locator": "P133",
+      "line_1_based": 502,
+      "actual_kind": "inline",
+      "actual_payload": "3k\\ln(1-2/k)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "h=-2/k",
+      "index_1_based": 215,
+      "locator": "P133",
+      "line_1_based": 502,
+      "actual_kind": "inline",
+      "actual_payload": "h=-2/k",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "k",
+      "index_1_based": 216,
+      "locator": "P133",
+      "line_1_based": 502,
+      "actual_kind": "inline",
+      "actual_payload": "k",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "-2/h",
+      "index_1_based": 217,
+      "locator": "P133",
+      "line_1_based": 502,
+      "actual_kind": "inline",
+      "actual_payload": "-2/h",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "[\\ln(1+h)-\\ln1]/h",
+      "index_1_based": 218,
+      "locator": "P133",
+      "line_1_based": 502,
+      "actual_kind": "inline",
+      "actual_payload": "[\\ln(1+h)-\\ln1]/h",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\Delta F/F_0",
+      "index_1_based": 219,
+      "locator": "P136",
+      "line_1_based": 513,
+      "actual_kind": "inline",
+      "actual_payload": "\\Delta F/F_0",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\Delta F=-50",
+      "index_1_based": 220,
+      "locator": "P136",
+      "line_1_based": 513,
+      "actual_kind": "inline",
+      "actual_payload": "\\Delta F=-50",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "F(1)/F(0)",
+      "index_1_based": 221,
+      "locator": "P136",
+      "line_1_based": 513,
+      "actual_kind": "inline",
+      "actual_payload": "F(1)/F(0)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "M(a)",
+      "index_1_based": 222,
+      "locator": "P139",
+      "line_1_based": 524,
+      "actual_kind": "inline",
+      "actual_payload": "M(a)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(0,1)",
+      "index_1_based": 223,
+      "locator": "P139",
+      "line_1_based": 524,
+      "actual_kind": "inline",
+      "actual_payload": "(0,1)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln c_k=k[k\\ln(1+1/k)]",
+      "index_1_based": 224,
+      "locator": "P139",
+      "line_1_based": 524,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln c_k=k[k\\ln(1+1/k)]",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "1/2",
+      "index_1_based": 225,
+      "locator": "P139",
+      "line_1_based": 524,
+      "actual_kind": "inline",
+      "actual_payload": "1/2",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e^u",
+      "index_1_based": 226,
+      "locator": "P144",
+      "line_1_based": 543,
+      "actual_kind": "inline",
+      "actual_payload": "e^u",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e^u",
+      "index_1_based": 227,
+      "locator": "P144",
+      "line_1_based": 543,
+      "actual_kind": "inline",
+      "actual_payload": "e^u",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "u=2x-1",
+      "index_1_based": 228,
+      "locator": "P144",
+      "line_1_based": 543,
+      "actual_kind": "inline",
+      "actual_payload": "u=2x-1",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\frac{dy}{dx}=2e^{2x-1}.\n",
+      "index_1_based": 34,
+      "locator": "P145",
+      "line_1_based": 546,
+      "actual_kind": "display",
+      "actual_payload": "\n\\frac{dy}{dx}=2e^{2x-1}.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x=1/2",
+      "index_1_based": 229,
+      "locator": "P146",
+      "line_1_based": 551,
+      "actual_kind": "inline",
+      "actual_payload": "x=1/2",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e^0=1",
+      "index_1_based": 230,
+      "locator": "P146",
+      "line_1_based": 551,
+      "actual_kind": "inline",
+      "actual_payload": "e^0=1",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x",
+      "index_1_based": 231,
+      "locator": "P146",
+      "line_1_based": 551,
+      "actual_kind": "inline",
+      "actual_payload": "x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "1/2",
+      "index_1_based": 232,
+      "locator": "P149",
+      "line_1_based": 562,
+      "actual_kind": "inline",
+      "actual_payload": "1/2",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x",
+      "index_1_based": 233,
+      "locator": "P149",
+      "line_1_based": 562,
+      "actual_kind": "inline",
+      "actual_payload": "x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "f=e^{3x\\ln(1/2)}",
+      "index_1_based": 234,
+      "locator": "P149",
+      "line_1_based": 562,
+      "actual_kind": "inline",
+      "actual_payload": "f=e^{3x\\ln(1/2)}",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\nf'(x)=3\\ln(1/2)(1/2)^{3x}.\n",
+      "index_1_based": 35,
+      "locator": "P150",
+      "line_1_based": 565,
+      "actual_kind": "display",
+      "actual_payload": "\nf'(x)=3\\ln(1/2)(1/2)^{3x}.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln(1/2)<0",
+      "index_1_based": 235,
+      "locator": "P151",
+      "line_1_based": 570,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln(1/2)&lt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$\\ln(1/2)&amp;lt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "f'<0",
+      "index_1_based": 236,
+      "locator": "P151",
+      "line_1_based": 570,
+      "actual_kind": "inline",
+      "actual_payload": "f'&lt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$f'&amp;lt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "x",
+      "index_1_based": 237,
+      "locator": "P151",
+      "line_1_based": 570,
+      "actual_kind": "inline",
+      "actual_payload": "x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "5-2x>0",
+      "index_1_based": 238,
+      "locator": "P152",
+      "line_1_based": 573,
+      "actual_kind": "inline",
+      "actual_payload": "5-2x&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$5-2x&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "x<5/2",
+      "index_1_based": 239,
+      "locator": "P152",
+      "line_1_based": 573,
+      "actual_kind": "inline",
+      "actual_payload": "x&lt;5/2",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$x&amp;lt;5/2$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "display",
+      "payload": "\ng'(x)=\\frac{-2}{5-2x}<0.\n",
+      "index_1_based": 36,
+      "locator": "P153",
+      "line_1_based": 576,
+      "actual_kind": "display",
+      "actual_payload": "\ng'(x)=\\frac{-2}{5-2x}<0.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "1/(5-2x)",
+      "index_1_based": 240,
+      "locator": "P154",
+      "line_1_based": 581,
+      "actual_kind": "inline",
+      "actual_payload": "1/(5-2x)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x=5/2",
+      "index_1_based": 241,
+      "locator": "P154",
+      "line_1_based": 581,
+      "actual_kind": "inline",
+      "actual_payload": "x=5/2",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x>-1",
+      "index_1_based": 242,
+      "locator": "P157",
+      "line_1_based": 592,
+      "actual_kind": "inline",
+      "actual_payload": "x&gt;-1",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$x&amp;gt;-1$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "y=e^{x^2\\ln(1+x)}",
+      "index_1_based": 243,
+      "locator": "P157",
+      "line_1_based": 592,
+      "actual_kind": "inline",
+      "actual_payload": "y=e^{x^2\\ln(1+x)}",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\ln y=x^2\\ln(1+x).\n",
+      "index_1_based": 37,
+      "locator": "P158",
+      "line_1_based": 595,
+      "actual_kind": "display",
+      "actual_payload": "\n\\ln y=x^2\\ln(1+x).\n",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\frac{y'}y=2x\\ln(1+x)+\\frac{x^2}{1+x}.\n",
+      "index_1_based": 38,
+      "locator": "P160",
+      "line_1_based": 603,
+      "actual_kind": "display",
+      "actual_payload": "\n\\frac{y'}y=2x\\ln(1+x)+\\frac{x^2}{1+x}.\n",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\ny'=(1+x)^{x^2}\\left(2x\\ln(1+x)+\\frac{x^2}{1+x}\\right),\\qquad x>-1.\n",
+      "index_1_based": 39,
+      "locator": "P162",
+      "line_1_based": 611,
+      "actual_kind": "display",
+      "actual_payload": "\ny'=(1+x)^{x^2}\\left(2x\\ln(1+x)+\\frac{x^2}{1+x}\\right),\\qquad x>-1.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x=0",
+      "index_1_based": 244,
+      "locator": "P163",
+      "line_1_based": 616,
+      "actual_kind": "inline",
+      "actual_payload": "x=0",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "y=1",
+      "index_1_based": 245,
+      "locator": "P163",
+      "line_1_based": 616,
+      "actual_kind": "inline",
+      "actual_payload": "y=1",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "2x\\ln(1+x)",
+      "index_1_based": 246,
+      "locator": "P163",
+      "line_1_based": 616,
+      "actual_kind": "inline",
+      "actual_payload": "2x\\ln(1+x)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x^2",
+      "index_1_based": 247,
+      "locator": "P163",
+      "line_1_based": 616,
+      "actual_kind": "inline",
+      "actual_payload": "x^2",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "k>2",
+      "index_1_based": 248,
+      "locator": "P166",
+      "line_1_based": 627,
+      "actual_kind": "inline",
+      "actual_payload": "k&gt;2",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$k&amp;gt;2$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "1-2/k>0",
+      "index_1_based": 249,
+      "locator": "P166",
+      "line_1_based": 627,
+      "actual_kind": "inline",
+      "actual_payload": "1-2/k&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$1-2/k&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\ln b_k=3k\\ln(1-2/k).\n",
+      "index_1_based": 40,
+      "locator": "P167",
+      "line_1_based": 630,
+      "actual_kind": "display",
+      "actual_payload": "\n\\ln b_k=3k\\ln(1-2/k).\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "h=-2/k",
+      "index_1_based": 250,
+      "locator": "P168",
+      "line_1_based": 635,
+      "actual_kind": "inline",
+      "actual_payload": "h=-2/k",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "h\\to0",
+      "index_1_based": 251,
+      "locator": "P168",
+      "line_1_based": 635,
+      "actual_kind": "inline",
+      "actual_payload": "h\\to0",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "k=-2/h",
+      "index_1_based": 252,
+      "locator": "P168",
+      "line_1_based": 635,
+      "actual_kind": "inline",
+      "actual_payload": "k=-2/h",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\ln b_k=-6\\frac{\\ln(1+h)-\\ln1}{h}\\longrightarrow-6.\n",
+      "index_1_based": 41,
+      "locator": "P169",
+      "line_1_based": 638,
+      "actual_kind": "display",
+      "actual_payload": "\n\\ln b_k=-6\\frac{\\ln(1+h)-\\ln1}{h}\\longrightarrow-6.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(\\ln x)'",
+      "index_1_based": 253,
+      "locator": "P170",
+      "line_1_based": 643,
+      "actual_kind": "inline",
+      "actual_payload": "(\\ln x)'",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "b_k=e^{\\ln b_k}",
+      "index_1_based": 254,
+      "locator": "P170",
+      "line_1_based": 643,
+      "actual_kind": "inline",
+      "actual_payload": "b_k=e^{\\ln b_k}",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\nb_k\\longrightarrow e^{-6}.\n",
+      "index_1_based": 42,
+      "locator": "P171",
+      "line_1_based": 646,
+      "actual_kind": "display",
+      "actual_payload": "\nb_k\\longrightarrow e^{-6}.\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "-6",
+      "index_1_based": 255,
+      "locator": "P172",
+      "line_1_based": 651,
+      "actual_kind": "inline",
+      "actual_payload": "-6",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "b_k",
+      "index_1_based": 256,
+      "locator": "P172",
+      "line_1_based": 651,
+      "actual_kind": "inline",
+      "actual_payload": "b_k",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\nF'(t)=-0.02F(t),\\qquad G'(t)=-0.02G(t).\n",
+      "index_1_based": 43,
+      "locator": "P176",
+      "line_1_based": 665,
+      "actual_kind": "display",
+      "actual_payload": "\nF'(t)=-0.02F(t),\\qquad G'(t)=-0.02G(t).\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "-0.02(300)=-6",
+      "index_1_based": 257,
+      "locator": "P177",
+      "line_1_based": 670,
+      "actual_kind": "inline",
+      "actual_payload": "-0.02(300)=-6",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "-0.02(10000)=-200",
+      "index_1_based": 258,
+      "locator": "P177",
+      "line_1_based": 670,
+      "actual_kind": "inline",
+      "actual_payload": "-0.02(10000)=-200",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "-0.02",
+      "index_1_based": 259,
+      "locator": "P177",
+      "line_1_based": 670,
+      "actual_kind": "inline",
+      "actual_payload": "-0.02",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "-2\\%",
+      "index_1_based": 260,
+      "locator": "P177",
+      "line_1_based": 670,
+      "actual_kind": "inline",
+      "actual_payload": "-2%",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$-2%$</math-renderer>",
+      "classification": "percent_escape_lost"
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\frac{-50}{300}\\times100\\%=-\\frac{50}{3}\\%\\approx-16.67\\%,\\qquad\n\\frac{-50}{10000}\\times100\\%=-0.5\\%.\n",
+      "index_1_based": 44,
+      "locator": "P179",
+      "line_1_based": 676,
+      "actual_kind": "display",
+      "actual_payload": "\n\\frac{-50}{300}\\times100%=-\\frac{50}{3}%\\approx-16.67%,\\qquad\n\\frac{-50}{10000}\\times100%=-0.5%.\n",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$$\n\\frac{-50}{300}\\times100%=-\\frac{50}{3}%\\approx-16.67%,\\qquad\n\\frac{-50}{10000}\\times100%=-0.5%.\n$$</math-renderer>",
+      "classification": "percent_escape_lost"
+    },
+    {
+      "kind": "inline",
+      "payload": "F",
+      "index_1_based": 261,
+      "locator": "P181",
+      "line_1_based": 685,
+      "actual_kind": "inline",
+      "actual_payload": "F",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "F(1)/F(0)=e^{-0.02}",
+      "index_1_based": 262,
+      "locator": "P181",
+      "line_1_based": 685,
+      "actual_kind": "inline",
+      "actual_payload": "F(1)/F(0)=e^{-0.02}",
+      "exact": true
+    },
+    {
+      "kind": "display",
+      "payload": "\n100(e^{-0.02}-1)\\%\\approx-1.9801\\%.\n",
+      "index_1_based": 45,
+      "locator": "P182",
+      "line_1_based": 688,
+      "actual_kind": "display",
+      "actual_payload": "\n100(e^{-0.02}-1)%\\approx-1.9801%.\n",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$$\n100(e^{-0.02}-1)%\\approx-1.9801%.\n$$</math-renderer>",
+      "classification": "percent_escape_lost"
+    },
+    {
+      "kind": "inline",
+      "payload": "-2\\%",
+      "index_1_based": 263,
+      "locator": "P183",
+      "line_1_based": 693,
+      "actual_kind": "inline",
+      "actual_payload": "-2%",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$-2%$</math-renderer>",
+      "classification": "percent_escape_lost"
+    },
+    {
+      "kind": "inline",
+      "payload": "y=a^x",
+      "index_1_based": 264,
+      "locator": "P186",
+      "line_1_based": 704,
+      "actual_kind": "inline",
+      "actual_payload": "y=a^x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(0,1)",
+      "index_1_based": 265,
+      "locator": "P186",
+      "line_1_based": 704,
+      "actual_kind": "inline",
+      "actual_payload": "(0,1)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "M(a)",
+      "index_1_based": 266,
+      "locator": "P186",
+      "line_1_based": 704,
+      "actual_kind": "inline",
+      "actual_payload": "M(a)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(\\ln f)'=f'/f",
+      "index_1_based": 267,
+      "locator": "P186",
+      "line_1_based": 704,
+      "actual_kind": "inline",
+      "actual_payload": "(\\ln f)'=f'/f",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "f",
+      "index_1_based": 268,
+      "locator": "P186",
+      "line_1_based": 704,
+      "actual_kind": "inline",
+      "actual_payload": "f",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "f'=f(\\ln f)'",
+      "index_1_based": 269,
+      "locator": "P186",
+      "line_1_based": 704,
+      "actual_kind": "inline",
+      "actual_payload": "f'=f(\\ln f)'",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "M(a)=\\ln a",
+      "index_1_based": 270,
+      "locator": "P186",
+      "line_1_based": 704,
+      "actual_kind": "inline",
+      "actual_payload": "M(a)=\\ln a",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "p=x^3",
+      "index_1_based": 271,
+      "locator": "P187",
+      "line_1_based": 707,
+      "actual_kind": "inline",
+      "actual_payload": "p=x^3",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "p'=3x^2",
+      "index_1_based": 272,
+      "locator": "P187",
+      "line_1_based": 707,
+      "actual_kind": "inline",
+      "actual_payload": "p'=3x^2",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "q=3^x",
+      "index_1_based": 273,
+      "locator": "P187",
+      "line_1_based": 707,
+      "actual_kind": "inline",
+      "actual_payload": "q=3^x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "q'=(\\ln3)3^x",
+      "index_1_based": 274,
+      "locator": "P187",
+      "line_1_based": 707,
+      "actual_kind": "inline",
+      "actual_payload": "q'=(\\ln3)3^x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "r=x^x",
+      "index_1_based": 275,
+      "locator": "P187",
+      "line_1_based": 707,
+      "actual_kind": "inline",
+      "actual_payload": "r=x^x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e^{x\\ln x}",
+      "index_1_based": 276,
+      "locator": "P187",
+      "line_1_based": 707,
+      "actual_kind": "inline",
+      "actual_payload": "e^{x\\ln x}",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "r'=x^x(\\ln x+1)",
+      "index_1_based": 277,
+      "locator": "P187",
+      "line_1_based": 707,
+      "actual_kind": "inline",
+      "actual_payload": "r'=x^x(\\ln x+1)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x>0",
+      "index_1_based": 278,
+      "locator": "P187",
+      "line_1_based": 707,
+      "actual_kind": "inline",
+      "actual_payload": "x&gt;0",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$x&amp;gt;0$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "display",
+      "payload": "\n\\ln c_k=k^2\\ln(1+1/k)\n=k\\left[k\\ln(1+1/k)\\right].\n",
+      "index_1_based": 46,
+      "locator": "P189",
+      "line_1_based": 713,
+      "actual_kind": "display",
+      "actual_payload": "\n\\ln c_k=k^2\\ln(1+1/k)\n=k\\left[k\\ln(1+1/k)\\right].\n",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "1/2",
+      "index_1_based": 279,
+      "locator": "P190",
+      "line_1_based": 719,
+      "actual_kind": "inline",
+      "actual_payload": "1/2",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "k",
+      "index_1_based": 280,
+      "locator": "P190",
+      "line_1_based": 719,
+      "actual_kind": "inline",
+      "actual_payload": "k",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln c_k>k/2",
+      "index_1_based": 281,
+      "locator": "P190",
+      "line_1_based": 719,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln c_k&gt;k/2",
+      "exact": false,
+      "raw_renderer_html": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"5f28c7d9c9ada77b708545c3c1f06a29\">$\\ln c_k&amp;gt;k/2$</math-renderer>",
+      "classification": "angle_entity_text"
+    },
+    {
+      "kind": "inline",
+      "payload": "\\ln c_k\\to+\\infty",
+      "index_1_based": 282,
+      "locator": "P190",
+      "line_1_based": 719,
+      "actual_kind": "inline",
+      "actual_payload": "\\ln c_k\\to+\\infty",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "c_k\\to+\\infty",
+      "index_1_based": 283,
+      "locator": "P190",
+      "line_1_based": 719,
+      "actual_kind": "inline",
+      "actual_payload": "c_k\\to+\\infty",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "k",
+      "index_1_based": 284,
+      "locator": "P190",
+      "line_1_based": 719,
+      "actual_kind": "inline",
+      "actual_payload": "k",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "e",
+      "index_1_based": 285,
+      "locator": "P190",
+      "line_1_based": 719,
+      "actual_kind": "inline",
+      "actual_payload": "e",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "x^x",
+      "index_1_based": 286,
+      "locator": "P194",
+      "line_1_based": 731,
+      "actual_kind": "inline",
+      "actual_payload": "x^x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(1,0)",
+      "index_1_based": 287,
+      "locator": "P194",
+      "line_1_based": 731,
+      "actual_kind": "inline",
+      "actual_payload": "(1,0)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "4^x",
+      "index_1_based": 288,
+      "locator": "P194",
+      "line_1_based": 731,
+      "actual_kind": "inline",
+      "actual_payload": "4^x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "(0,1)",
+      "index_1_based": 289,
+      "locator": "P194",
+      "line_1_based": 731,
+      "actual_kind": "inline",
+      "actual_payload": "(0,1)",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "w=\\ln x\\Rightarrow e^w=x",
+      "index_1_based": 290,
+      "locator": "P194",
+      "line_1_based": 731,
+      "actual_kind": "inline",
+      "actual_payload": "w=\\ln x\\Rightarrow e^w=x",
+      "exact": true
+    },
+    {
+      "kind": "inline",
+      "payload": "k=10",
+      "index_1_based": 291,
+      "locator": "P194",
+      "line_1_based": 731,
+      "actual_kind": "inline",
+      "actual_payload": "k=10",
+      "exact": true
+    }
+  ],
+  "full_text_differences": [
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "actual": "&lt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "actual": "&lt;"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "actual": "&lt;"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "actual": "&lt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "actual": "&lt;"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "actual": "&lt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "actual": "&lt;"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "actual": "&lt;"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "actual": "&lt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "actual": "&lt;"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "actual": "&lt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": "<",
+      "actual": "&lt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "delete",
+      "source": "\\",
+      "actual": ""
+    },
+    {
+      "type": "delete",
+      "source": "\\",
+      "actual": ""
+    },
+    {
+      "type": "delete",
+      "source": "\\",
+      "actual": ""
+    },
+    {
+      "type": "delete",
+      "source": "\\",
+      "actual": ""
+    },
+    {
+      "type": "delete",
+      "source": "\\",
+      "actual": ""
+    },
+    {
+      "type": "delete",
+      "source": "\\",
+      "actual": ""
+    },
+    {
+      "type": "delete",
+      "source": "\\",
+      "actual": ""
+    },
+    {
+      "type": "delete",
+      "source": "\\",
+      "actual": ""
+    },
+    {
+      "type": "delete",
+      "source": "\\",
+      "actual": ""
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    },
+    {
+      "type": "replace",
+      "source": ">",
+      "actual": "&gt;"
+    }
+  ],
+  "navigation": [
+    {
+      "task": "A1",
+      "task_locator": "P029",
+      "hint_locator": "P123",
+      "solution_locator": "P143",
+      "routes": [
+        {
+          "from_anchor": "task-a1",
+          "to_href": "#hint-a1",
+          "source_link_locators": [
+            "P031"
+          ],
+          "count": 1,
+          "target_locator": "P123",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "task-a1",
+          "to_href": "#solution-a1",
+          "source_link_locators": [
+            "P031"
+          ],
+          "count": 1,
+          "target_locator": "P143",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "hint-a1",
+          "to_href": "#task-a1",
+          "source_link_locators": [
+            "P125"
+          ],
+          "count": 1,
+          "target_locator": "P029",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "solution-a1",
+          "to_href": "#task-a1",
+          "source_link_locators": [
+            "P147"
+          ],
+          "count": 1,
+          "target_locator": "P029",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "solution-a1",
+          "to_href": "#hint-a1",
+          "source_link_locators": [
+            "P147"
+          ],
+          "count": 1,
+          "target_locator": "P123",
+          "actual_target_count": 1,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "task": "A2",
+      "task_locator": "P055",
+      "hint_locator": "P126",
+      "solution_locator": "P148",
+      "routes": [
+        {
+          "from_anchor": "task-a2",
+          "to_href": "#hint-a2",
+          "source_link_locators": [
+            "P057"
+          ],
+          "count": 1,
+          "target_locator": "P126",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "task-a2",
+          "to_href": "#solution-a2",
+          "source_link_locators": [
+            "P057"
+          ],
+          "count": 1,
+          "target_locator": "P148",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "hint-a2",
+          "to_href": "#task-a2",
+          "source_link_locators": [
+            "P128"
+          ],
+          "count": 1,
+          "target_locator": "P055",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "solution-a2",
+          "to_href": "#task-a2",
+          "source_link_locators": [
+            "P155"
+          ],
+          "count": 1,
+          "target_locator": "P055",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "solution-a2",
+          "to_href": "#hint-a2",
+          "source_link_locators": [
+            "P155"
+          ],
+          "count": 1,
+          "target_locator": "P126",
+          "actual_target_count": 1,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "task": "A3",
+      "task_locator": "P078",
+      "hint_locator": "P129",
+      "solution_locator": "P156",
+      "routes": [
+        {
+          "from_anchor": "task-a3",
+          "to_href": "#hint-a3",
+          "source_link_locators": [
+            "P080"
+          ],
+          "count": 1,
+          "target_locator": "P129",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "task-a3",
+          "to_href": "#solution-a3",
+          "source_link_locators": [
+            "P080"
+          ],
+          "count": 1,
+          "target_locator": "P156",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "hint-a3",
+          "to_href": "#task-a3",
+          "source_link_locators": [
+            "P131"
+          ],
+          "count": 1,
+          "target_locator": "P078",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "solution-a3",
+          "to_href": "#task-a3",
+          "source_link_locators": [
+            "P164"
+          ],
+          "count": 1,
+          "target_locator": "P078",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "solution-a3",
+          "to_href": "#hint-a3",
+          "source_link_locators": [
+            "P164"
+          ],
+          "count": 1,
+          "target_locator": "P129",
+          "actual_target_count": 1,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "task": "A4",
+      "task_locator": "P098",
+      "hint_locator": "P132",
+      "solution_locator": "P165",
+      "routes": [
+        {
+          "from_anchor": "task-a4",
+          "to_href": "#hint-a4",
+          "source_link_locators": [
+            "P100"
+          ],
+          "count": 1,
+          "target_locator": "P132",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "task-a4",
+          "to_href": "#solution-a4",
+          "source_link_locators": [
+            "P100"
+          ],
+          "count": 1,
+          "target_locator": "P165",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "hint-a4",
+          "to_href": "#task-a4",
+          "source_link_locators": [
+            "P134"
+          ],
+          "count": 1,
+          "target_locator": "P098",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "solution-a4",
+          "to_href": "#task-a4",
+          "source_link_locators": [
+            "P173"
+          ],
+          "count": 1,
+          "target_locator": "P098",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "solution-a4",
+          "to_href": "#hint-a4",
+          "source_link_locators": [
+            "P173"
+          ],
+          "count": 1,
+          "target_locator": "P132",
+          "actual_target_count": 1,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "task": "A5",
+      "task_locator": "P114",
+      "hint_locator": "P135",
+      "solution_locator": "P174",
+      "routes": [
+        {
+          "from_anchor": "task-a5",
+          "to_href": "#hint-a5",
+          "source_link_locators": [
+            "P116"
+          ],
+          "count": 1,
+          "target_locator": "P135",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "task-a5",
+          "to_href": "#solution-a5",
+          "source_link_locators": [
+            "P116"
+          ],
+          "count": 1,
+          "target_locator": "P174",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "hint-a5",
+          "to_href": "#task-a5",
+          "source_link_locators": [
+            "P137"
+          ],
+          "count": 1,
+          "target_locator": "P114",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "solution-a5",
+          "to_href": "#task-a5",
+          "source_link_locators": [
+            "P184"
+          ],
+          "count": 1,
+          "target_locator": "P114",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "solution-a5",
+          "to_href": "#hint-a5",
+          "source_link_locators": [
+            "P184"
+          ],
+          "count": 1,
+          "target_locator": "P135",
+          "actual_target_count": 1,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "task": "A6",
+      "task_locator": "P117",
+      "hint_locator": "P138",
+      "solution_locator": "P185",
+      "routes": [
+        {
+          "from_anchor": "task-a6",
+          "to_href": "#hint-a6",
+          "source_link_locators": [
+            "P120"
+          ],
+          "count": 1,
+          "target_locator": "P138",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "task-a6",
+          "to_href": "#solution-a6",
+          "source_link_locators": [
+            "P120"
+          ],
+          "count": 1,
+          "target_locator": "P185",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "hint-a6",
+          "to_href": "#task-a6",
+          "source_link_locators": [
+            "P140"
+          ],
+          "count": 1,
+          "target_locator": "P117",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "solution-a6",
+          "to_href": "#task-a6",
+          "source_link_locators": [
+            "P191"
+          ],
+          "count": 1,
+          "target_locator": "P117",
+          "actual_target_count": 1,
+          "pass": true
+        },
+        {
+          "from_anchor": "solution-a6",
+          "to_href": "#hint-a6",
+          "source_link_locators": [
+            "P191"
+          ],
+          "count": 1,
+          "target_locator": "P138",
+          "actual_target_count": 1,
+          "pass": true
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "anchors": {
+    "part-1": {
+      "source_locator": "P006",
+      "actual_id": "user-content-part-1",
+      "actual_target_count": 1
+    },
+    "task-a1": {
+      "source_locator": "P029",
+      "actual_id": "user-content-task-a1",
+      "actual_target_count": 1
+    },
+    "part-2": {
+      "source_locator": "P032",
+      "actual_id": "user-content-part-2",
+      "actual_target_count": 1
+    },
+    "task-a2": {
+      "source_locator": "P055",
+      "actual_id": "user-content-task-a2",
+      "actual_target_count": 1
+    },
+    "part-3": {
+      "source_locator": "P058",
+      "actual_id": "user-content-part-3",
+      "actual_target_count": 1
+    },
+    "task-a3": {
+      "source_locator": "P078",
+      "actual_id": "user-content-task-a3",
+      "actual_target_count": 1
+    },
+    "part-4": {
+      "source_locator": "P081",
+      "actual_id": "user-content-part-4",
+      "actual_target_count": 1
+    },
+    "task-a4": {
+      "source_locator": "P098",
+      "actual_id": "user-content-task-a4",
+      "actual_target_count": 1
+    },
+    "part-5": {
+      "source_locator": "P101",
+      "actual_id": "user-content-part-5",
+      "actual_target_count": 1
+    },
+    "task-a5": {
+      "source_locator": "P114",
+      "actual_id": "user-content-task-a5",
+      "actual_target_count": 1
+    },
+    "task-a6": {
+      "source_locator": "P117",
+      "actual_id": "user-content-task-a6",
+      "actual_target_count": 1
+    },
+    "hints": {
+      "source_locator": "P121",
+      "actual_id": "user-content-hints",
+      "actual_target_count": 1
+    },
+    "hint-a1": {
+      "source_locator": "P123",
+      "actual_id": "user-content-hint-a1",
+      "actual_target_count": 1
+    },
+    "hint-a2": {
+      "source_locator": "P126",
+      "actual_id": "user-content-hint-a2",
+      "actual_target_count": 1
+    },
+    "hint-a3": {
+      "source_locator": "P129",
+      "actual_id": "user-content-hint-a3",
+      "actual_target_count": 1
+    },
+    "hint-a4": {
+      "source_locator": "P132",
+      "actual_id": "user-content-hint-a4",
+      "actual_target_count": 1
+    },
+    "hint-a5": {
+      "source_locator": "P135",
+      "actual_id": "user-content-hint-a5",
+      "actual_target_count": 1
+    },
+    "hint-a6": {
+      "source_locator": "P138",
+      "actual_id": "user-content-hint-a6",
+      "actual_target_count": 1
+    },
+    "solutions": {
+      "source_locator": "P141",
+      "actual_id": "user-content-solutions",
+      "actual_target_count": 1
+    },
+    "solution-a1": {
+      "source_locator": "P143",
+      "actual_id": "user-content-solution-a1",
+      "actual_target_count": 1
+    },
+    "solution-a2": {
+      "source_locator": "P148",
+      "actual_id": "user-content-solution-a2",
+      "actual_target_count": 1
+    },
+    "solution-a3": {
+      "source_locator": "P156",
+      "actual_id": "user-content-solution-a3",
+      "actual_target_count": 1
+    },
+    "solution-a4": {
+      "source_locator": "P165",
+      "actual_id": "user-content-solution-a4",
+      "actual_target_count": 1
+    },
+    "solution-a5": {
+      "source_locator": "P174",
+      "actual_id": "user-content-solution-a5",
+      "actual_target_count": 1
+    },
+    "solution-a6": {
+      "source_locator": "P185",
+      "actual_id": "user-content-solution-a6",
+      "actual_target_count": 1
+    }
+  },
+  "all_links": [
+    {
+      "text": "hints",
+      "href": "#hints",
+      "source_locator": "P004",
+      "exact": true
+    },
+    {
+      "text": "solutions",
+      "href": "#solutions",
+      "source_locator": "P004",
+      "exact": true
+    },
+    {
+      "text": "A6",
+      "href": "#task-a6",
+      "source_locator": "P004",
+      "exact": true
+    },
+    {
+      "text": "Hint A1",
+      "href": "#hint-a1",
+      "source_locator": "P031",
+      "exact": true
+    },
+    {
+      "text": "Solution A1",
+      "href": "#solution-a1",
+      "source_locator": "P031",
+      "exact": true
+    },
+    {
+      "text": "Hint A2",
+      "href": "#hint-a2",
+      "source_locator": "P057",
+      "exact": true
+    },
+    {
+      "text": "Solution A2",
+      "href": "#solution-a2",
+      "source_locator": "P057",
+      "exact": true
+    },
+    {
+      "text": "Hint A3",
+      "href": "#hint-a3",
+      "source_locator": "P080",
+      "exact": true
+    },
+    {
+      "text": "Solution A3",
+      "href": "#solution-a3",
+      "source_locator": "P080",
+      "exact": true
+    },
+    {
+      "text": "Hint A4",
+      "href": "#hint-a4",
+      "source_locator": "P100",
+      "exact": true
+    },
+    {
+      "text": "Solution A4",
+      "href": "#solution-a4",
+      "source_locator": "P100",
+      "exact": true
+    },
+    {
+      "text": "Hint A5",
+      "href": "#hint-a5",
+      "source_locator": "P116",
+      "exact": true
+    },
+    {
+      "text": "Solution A5",
+      "href": "#solution-a5",
+      "source_locator": "P116",
+      "exact": true
+    },
+    {
+      "text": "Hint A6",
+      "href": "#hint-a6",
+      "source_locator": "P120",
+      "exact": true
+    },
+    {
+      "text": "Solution A6",
+      "href": "#solution-a6",
+      "source_locator": "P120",
+      "exact": true
+    },
+    {
+      "text": "Return to A1",
+      "href": "#task-a1",
+      "source_locator": "P125",
+      "exact": true
+    },
+    {
+      "text": "Return to A2",
+      "href": "#task-a2",
+      "source_locator": "P128",
+      "exact": true
+    },
+    {
+      "text": "Return to A3",
+      "href": "#task-a3",
+      "source_locator": "P131",
+      "exact": true
+    },
+    {
+      "text": "Return to A4",
+      "href": "#task-a4",
+      "source_locator": "P134",
+      "exact": true
+    },
+    {
+      "text": "Return to A5",
+      "href": "#task-a5",
+      "source_locator": "P137",
+      "exact": true
+    },
+    {
+      "text": "Return to A6",
+      "href": "#task-a6",
+      "source_locator": "P140",
+      "exact": true
+    },
+    {
+      "text": "Return to A1",
+      "href": "#task-a1",
+      "source_locator": "P147",
+      "exact": true
+    },
+    {
+      "text": "Hint A1",
+      "href": "#hint-a1",
+      "source_locator": "P147",
+      "exact": true
+    },
+    {
+      "text": "Return to A2",
+      "href": "#task-a2",
+      "source_locator": "P155",
+      "exact": true
+    },
+    {
+      "text": "Hint A2",
+      "href": "#hint-a2",
+      "source_locator": "P155",
+      "exact": true
+    },
+    {
+      "text": "Return to A3",
+      "href": "#task-a3",
+      "source_locator": "P164",
+      "exact": true
+    },
+    {
+      "text": "Hint A3",
+      "href": "#hint-a3",
+      "source_locator": "P164",
+      "exact": true
+    },
+    {
+      "text": "Return to A4",
+      "href": "#task-a4",
+      "source_locator": "P173",
+      "exact": true
+    },
+    {
+      "text": "Hint A4",
+      "href": "#hint-a4",
+      "source_locator": "P173",
+      "exact": true
+    },
+    {
+      "text": "Return to A5",
+      "href": "#task-a5",
+      "source_locator": "P184",
+      "exact": true
+    },
+    {
+      "text": "Hint A5",
+      "href": "#hint-a5",
+      "source_locator": "P184",
+      "exact": true
+    },
+    {
+      "text": "Return to A6",
+      "href": "#task-a6",
+      "source_locator": "P191",
+      "exact": true
+    },
+    {
+      "text": "Hint A6",
+      "href": "#hint-a6",
+      "source_locator": "P191",
+      "exact": true
+    },
+    {
+      "text": "MIT OpenCourseWare 18.01 Fall 2006 Lecture 6 PDF",
+      "href": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/f9af0e98490296c99d330faf47389507_lec6.pdf",
+      "source_locator": "P193",
+      "exact": true
+    }
+  ],
+  "counts": {
+    "comment_locators": 194,
+    "anchors": 25,
+    "internal_links": 33,
+    "external_links": 1
+  },
+  "normalization": "Remove only invisible locator comments, source HTML anchor tags, Markdown link destinations and the two unordered-list markers; normalize whitespace. Preserve all TeX characters, dollars and source display delimiter-interior newlines. No additional entity decoding.",
+  "helper_scope": "Initial helper only recognizes protected-backtick inline and fenced math. This candidate uses ordinary dollar inline and double-dollar displays. Its zero source-math counts are unsupported-syntax diagnostics, not a valid payload inventory. Its visible-label scanner is not applicable to invisible Pnnn comments.",
+  "limits": [
+    "Ordinary lxml HTML parse of actual saved article; no browser, client pixels, MathJax execution or clicking.",
+    "An unchanged source-faithful PDF preview cannot establish that altered GitHub payloads render correctly."
+  ]
+}

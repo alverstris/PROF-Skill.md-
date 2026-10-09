@@ -1,0 +1,516 @@
+<article class="markdown-body entry-content container-lg" itemprop="text">
+<p dir="auto">Exponential and logarithmic differentiation</p>
+
+<p dir="auto">MIT 18.01, Fall 2006, Lecture 6</p>
+
+<p dir="auto">This lesson develops one useful connection: taking a logarithm turns a changing power into a product, and its derivative measures relative change. You will derive the exponential and logarithm derivative rules, use them when both a base and an exponent vary, and evaluate a limit by recognising a derivative.</p>
+
+<p dir="auto">Reading route: read Parts 1–5 in order and try A1–A5 where they occur. Keep any partial working; the <a href="#hints">hints</a> give a next step and the <a href="#solutions">solutions</a> give complete reasoning in a separate group. Use <a href="#task-a6">A6</a> on a later return. The source and its corrections are recorded at the end.</p>
+
+<p dir="auto">Starting tools: the derivative is a tangent slope or instantaneous rate, defined by a difference quotient; the product rule is <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(uv)'=u'v+uv'$</math-renderer>; and the chain rule is <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(F(u(x)))'=F'(u(x))u'(x)$</math-renderer>. We use ordinary algebra, limits, continuous functions, exponent laws, and the meaning of an inverse function. The needed connections to logarithms are developed below. All quantities in powers and logarithms are real, and logarithm inputs must be positive.</p>
+<p dir="auto"><a id="user-content-part-1"></a></p>
+
+<p dir="auto">Part 1: why an exponential's derivative is proportional to itself</p>
+
+<p dir="auto">Start with a fixed base <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a&amp;gt;1$</math-renderer>, as in the lecture. In <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a^x$</math-renderer>, <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a$</math-renderer> stays fixed while <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x$</math-renderer> changes. The exponent laws give</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+a^0=1,\qquad a^1=a,\qquad a^2=a\cdot a,
+$$</math-renderer></p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+a^{x_1+x_2}=a^{x_1}a^{x_2},\qquad (a^{x_1})^{x_2}=a^{x_1x_2}.
+$$</math-renderer></p>
+
+<p dir="auto">For integers <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$p$</math-renderer> and positive integers <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$q$</math-renderer>, <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a^{p/q}=\sqrt[q]{a^p}$</math-renderer>. Extending from rational exponents to real ones by continuity gives the real exponential family. We use its usual differentiability; constructing that family rigorously is not this lesson's task.</p>
+
+<p dir="auto">Write <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$h$</math-renderer> for a small nonzero change in <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x$</math-renderer>. The lecture writes <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\Delta x$</math-renderer> for the same change. At a fixed <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x$</math-renderer>, the difference quotient is</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\frac{a^{x+h}-a^x}{h}
+=a^x\frac{a^h-1}{h}.
+$$</math-renderer></p>
+
+<p dir="auto">The exponent law factors <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a^{x+h}$</math-renderer> as <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a^xa^h$</math-renderer>. While <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$h$</math-renderer> tends to zero, <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a^x$</math-renderer> is constant, so it can be taken outside the limit. Define</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+M(a)=\lim_{h\to0}\frac{a^h-1}{h}.
+$$</math-renderer></p>
+
+<p dir="auto"><math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$M$</math-renderer> is a function of the base: it assigns each base its slope at <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x=0$</math-renderer>. It is a constant with respect to <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x$</math-renderer> when that base is fixed. The definition now gives</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\frac{d}{dx}a^x=M(a)a^x.
+$$</math-renderer></p>
+
+<p dir="auto">To read this formula, multiply the current height <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a^x$</math-renderer> by the base's fixed factor <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$M(a)$</math-renderer> to get the slope there. To construct it from the graph, first take the tangent slope at <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(0,1)$</math-renderer>; that number is <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$M(a)$</math-renderer>, because <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a^0=1$</math-renderer>. Then the slope at any other <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x$</math-renderer> is that number times the height. This is the relationship shown by the lecture's first figure.</p>
+
+<p dir="auto">The special base <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e$</math-renderer></p>
+
+<p dir="auto">The natural exponential uses the unique base <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e$</math-renderer> for which <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$M(e)=1$</math-renderer>, equivalently</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\lim_{h\to0}\frac{e^h-1}{h}=1.
+$$</math-renderer></p>
+
+<p dir="auto">We take the existence of this special base as a foundational property of the real exponential family. The lecture's following geometric comparisons motivate where it lies; pictures alone do not prove existence or uniqueness.</p>
+
+<ul dir="auto">
+<li>For <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$y=2^x$</math-renderer>, the secant through <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(0,1)$</math-renderer> and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(1,2)$</math-renderer> has slope <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(2-1)/(1-0)=1$</math-renderer>. The upward-curving graph has a smaller tangent slope at the left endpoint, so <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$M(2)&amp;lt;1$</math-renderer>.</li>
+<li>For <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$y=4^x$</math-renderer>, the secant through <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(-1/2,1/2)$</math-renderer> and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(0,1)$</math-renderer> has slope <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(1-1/2)/(0-(-1/2))=1$</math-renderer>. At the right endpoint the tangent is steeper, so <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$M(4)&amp;gt;1$</math-renderer>.</li>
+</ul>
+
+<p dir="auto">These are the comparisons in Figures 2 and 3: a secant measures an average slope between its two points, while a tangent measures the slope at one point. For these strictly upward-curving exponentials, tangent slopes increase along the curve, placing the secant slope between the endpoint tangent slopes. The comparisons locate the slope-one base between 2 and 4 once continuity and increase of <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$M(a)$</math-renderer> are established. We will identify <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$M(a)$</math-renderer> explicitly in Part 2, which also verifies those properties. The printed source labels the second secant's right endpoint <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(1,0)$</math-renderer>; the correct coordinates are <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(0,1)$</math-renderer>.</p>
+
+<p dir="auto">Substituting <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$M(e)=1$</math-renderer> into the derivative formula yields</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\frac{d}{dx}e^x=e^x.
+$$</math-renderer></p>
+
+<p dir="auto">The chain rule extends this to a differentiable input <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$u(x)$</math-renderer>:</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\frac{d}{dx}e^{u(x)}=e^{u(x)}u'(x).
+$$</math-renderer></p>
+
+<p dir="auto">For example, to differentiate <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e^{3x}$</math-renderer>, the outer function is <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e^u$</math-renderer> and the inner input is <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$u=3x$</math-renderer>. The outer derivative is evaluated at that same input, giving <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e^{3x}$</math-renderer>, and the inner derivative is 3. Thus <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(e^{3x})'=3e^{3x}$</math-renderer>. Changing how quickly the exponent changes changes how quickly the whole expression changes.</p>
+<p dir="auto"><a id="user-content-task-a1"></a></p>
+
+<p dir="auto">Task A1 (generated)</p>
+
+<p dir="auto">Let <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$y=e^{2x-1}$</math-renderer>. Find <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$dy/dx$</math-renderer> and the tangent slope at <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x=1/2$</math-renderer>. Explain where the factor from the inner expression enters. A complete response connects the chain rule to the factor and evaluates the derivative at the stated point.</p>
+
+<p dir="auto"><a href="#hint-a1">Hint A1</a> · <a href="#solution-a1">Solution A1</a></p>
+<p dir="auto"><a id="user-content-part-2"></a></p>
+
+<p dir="auto">Part 2: logarithms reverse exponentials</p>
+
+<p dir="auto">The natural logarithm answers an inverse question: which exponent of <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e$</math-renderer> gives a specified positive number? Thus</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+y=e^x\quad\Longleftrightarrow\quad\ln y=x,
+$$</math-renderer></p>
+
+<p dir="auto">and, with different variable names,</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+w=\ln x\quad\Longleftrightarrow\quad e^w=x\qquad(x&gt;0).
+$$</math-renderer></p>
+
+<p dir="auto">For instance, <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln(e^3)=3$</math-renderer> and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e^{\ln 5}=5$</math-renderer>. The notation <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln x$</math-renderer> is a function value, not a product of symbols. Since <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e^0=1$</math-renderer> and the exponential is increasing, <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln1=0$</math-renderer>, <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln x&amp;lt;0$</math-renderer> for <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$0&amp;lt;x&amp;lt;1$</math-renderer>, and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln x&amp;gt;0$</math-renderer> for <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x&amp;gt;1$</math-renderer>. The logarithm has no real value at zero or at a negative input.</p>
+
+<p dir="auto">For positive <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$u,v$</math-renderer>, the exponent law gives the logarithm law</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\ln(uv)=\ln u+\ln v.
+$$</math-renderer></p>
+
+<p dir="auto">Indeed, put <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$u=e^r$</math-renderer> and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$v=e^s$</math-renderer>. Then <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$uv=e^{r+s}$</math-renderer>, so its logarithm is <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$r+s$</math-renderer>. Similarly, for <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$u&amp;gt;0$</math-renderer> and real <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$r$</math-renderer>, <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln(u^r)=r\ln u$</math-renderer>. Moving an exponent outside the logarithm will be our main simplifying step.</p>
+
+<p dir="auto">To obtain the logarithm's derivative, set <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$w(x)=\ln x$</math-renderer>, so <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e^{w(x)}=x$</math-renderer>. The positive exponential derivative means the inverse has a finite local derivative here. Differentiate this identity with respect to <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x$</math-renderer> using the chain rule:</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+e^{w(x)}w'(x)=1.
+$$</math-renderer></p>
+
+<p dir="auto">Since <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e^{w(x)}=x&amp;gt;0$</math-renderer>, division is permitted, giving</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\frac{d}{dx}\ln x=\frac1x\qquad(x&gt;0).
+$$</math-renderer></p>
+
+<p dir="auto">The derivative is positive, confirming that <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln x$</math-renderer> is increasing; differentiability also gives continuity on the positive inputs. For a positive differentiable function <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$u(x)$</math-renderer>, the same chain rule gives</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\frac{d}{dx}\ln(u(x))=\frac{u'(x)}{u(x)}.
+$$</math-renderer></p>
+
+<p dir="auto">The numerator is the derivative of the entire inner input; the denominator is that input itself. For example, <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln(1+x^2)$</math-renderer> is defined for every real <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x$</math-renderer>, and its derivative is <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$2x/(1+x^2)$</math-renderer>. A check at <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x=0$</math-renderer> gives zero slope, consistent with the expression being unchanged when <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x$</math-renderer> is replaced by <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$-x$</math-renderer> and with the displayed derivative.</p>
+
+<p dir="auto">Returning to a general constant base</p>
+
+<p dir="auto">For fixed <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a&amp;gt;0$</math-renderer>, write <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a=e^{\ln a}$</math-renderer>. The exponent laws then give</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+a^x=(e^{\ln a})^x=e^{x\ln a}.
+$$</math-renderer></p>
+
+<p dir="auto">This rewrites the same quantity in base <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e$</math-renderer>; it does not change its value or interchange the base and exponent. Since <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln a$</math-renderer> is constant with respect to <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x$</math-renderer>, the chain rule gives</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\frac{d}{dx}a^x=(\ln a)e^{x\ln a}=(\ln a)a^x.
+$$</math-renderer></p>
+
+<p dir="auto">Comparison with Part 1 identifies <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$M(a)=\ln a$</math-renderer>. In particular <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$M$</math-renderer> is continuous and strictly increasing for <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a&amp;gt;0$</math-renderer>, and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$M(a)=1$</math-renderer> has the unique solution <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a=e$</math-renderer>. The previous geometric bracket <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$2&amp;lt;e&amp;lt;4$</math-renderer> is consistent with this identification. This is a check of the slope-based characterisation, not a new construction of <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e$</math-renderer> from the pictures.</p>
+
+<p dir="auto">Even base 10 brings in the natural logarithm: <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(10^x)'=(\ln10)10^x$</math-renderer>. The same argument extends the lecture's initial <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a&amp;gt;1$</math-renderer> convention to <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$0&amp;lt;a&amp;lt;1$</math-renderer>: there <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln a&amp;lt;0$</math-renderer>, so <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a^x$</math-renderer> decreases. At <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a=1$</math-renderer> the function is constant and the derivative is zero. No corresponding general real-variable rule with a negative base is being claimed.</p>
+<p dir="auto"><a id="user-content-task-a2"></a></p>
+
+<p dir="auto">Task A2 (generated)</p>
+
+<p dir="auto">Find the derivatives of <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$f(x)=(1/2)^{3x}$</math-renderer> and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$g(x)=\ln(5-2x)$</math-renderer>. State the real domain of each function and explain why each derivative is negative throughout its domain. A complete response includes the inner derivative, the domain inequality for the logarithm, and a sign justification.</p>
+
+<p dir="auto"><a href="#hint-a2">Hint A2</a> · <a href="#solution-a2">Solution A2</a></p>
+<p dir="auto"><a id="user-content-part-3"></a></p>
+
+<p dir="auto">Part 3: logarithmic differentiation when a power changes</p>
+
+<p dir="auto">Let <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$f(x)&amp;gt;0$</math-renderer> be differentiable. The previous chain-rule result says</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+(\ln f(x))'=\frac{f'(x)}{f(x)},\qquad
+f'(x)=f(x)(\ln f(x))'.
+$$</math-renderer></p>
+
+<p dir="auto">A prime means differentiation with respect to the current variable, here <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x$</math-renderer>. In particular <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(\ln f)'$</math-renderer> is the derivative of the composite function <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x\mapsto\ln(f(x))$</math-renderer>. It is not <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln(f')$</math-renderer>. The first formula divides absolute change rate by the current value; the second recovers the absolute rate by multiplying back by that value.</p>
+
+<p dir="auto">This gives a procedure: take the logarithm of a positive expression, simplify using logarithm laws, differentiate the simplified expression, and multiply by the original function. Positivity is a condition for taking the real logarithm in this procedure, not a claim that every differentiable function is positive.</p>
+
+<p dir="auto">Applied to <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$f(x)=a^x$</math-renderer>, it provides the lecture's second method:</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\ln f=x\ln a,\qquad (\ln f)'=\ln a,
+$$</math-renderer></p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+f'=f\ln a=(\ln a)a^x.
+$$</math-renderer></p>
+
+<p dir="auto">Here <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln a$</math-renderer> is fixed. For this short expression, rewriting in base <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e$</math-renderer> is equally effective.</p>
+
+<p dir="auto">Now consider the lecture's worked example <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$f(x)=x^x$</math-renderer> on <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x&amp;gt;0$</math-renderer>. Both the base and exponent change. The ordinary power rule <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(x^n)'=nx^{n-1}$</math-renderer> treats <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$n$</math-renderer> as constant, while the exponential rule <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(a^x)'=(\ln a)a^x$</math-renderer> treats <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a$</math-renderer> as constant. Neither rule alone applies to the two changing occurrences of <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x$</math-renderer>.</p>
+
+<p dir="auto">Taking the logarithm exposes those two changes as a product:</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\ln f=x\ln x.
+$$</math-renderer></p>
+
+<p dir="auto">The product rule now gives</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+(\ln f)'=1\cdot\ln x+x\cdot\frac1x=\ln x+1.
+$$</math-renderer></p>
+
+<p dir="auto">Multiplying by the original function recovers</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+f'(x)=x^x(\ln x+1)\qquad(x&gt;0).
+$$</math-renderer></p>
+
+<p dir="auto">For example, at <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x=2$</math-renderer> the slope is <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$4(\ln2+1)$</math-renderer>, not 4 from treating the exponent as fixed at 2. Alternatively, <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x^x=e^{x\ln x}$</math-renderer>, and the chain rule gives precisely the same result. These two methods use the same simplification of the changing power.</p>
+
+<p dir="auto">More generally, if <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$u(x)&amp;gt;0$</math-renderer> and both <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$u,v$</math-renderer> are differentiable, construct the real power <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$y=u(x)^{v(x)}$</math-renderer> as <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e^{v(x)\ln u(x)}$</math-renderer>. Then</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\ln y=v\ln u,\qquad
+\frac{y'}{y}=v'\ln u+v\frac{u'}u.
+$$</math-renderer></p>
+
+<p dir="auto">The first term records the changing exponent; the second records the changing base. Setting <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$v$</math-renderer> constant removes the first term and recovers the ordinary power rule with the inner derivative. Setting <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$u$</math-renderer> constant removes the second and recovers the constant-base exponential rule. This connects the methods rather than creating an unrelated formula to memorise.</p>
+<p dir="auto"><a id="user-content-task-a3"></a></p>
+
+<p dir="auto">Task A3 (generated)</p>
+
+<p dir="auto">For <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$y=(1+x)^{x^2}$</math-renderer>, <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x&amp;gt;-1$</math-renderer>, find <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$y'$</math-renderer> and the tangent slope at <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x=0$</math-renderer>. Explain why treating the exponent <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x^2$</math-renderer> as constant throughout differentiation would miss a term. A complete response differentiates both changing parts after a justified rewrite and preserves the given domain.</p>
+
+<p dir="auto"><a href="#hint-a3">Hint A3</a> · <a href="#solution-a3">Solution A3</a></p>
+<p dir="auto"><a id="user-content-part-4"></a></p>
+
+<p dir="auto">Part 4: a limit hidden inside a logarithm</p>
+
+<p dir="auto">The lecture asks for the limit of</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+b_k=\left(1+\frac1k\right)^k\qquad(k=1,2,3,\ldots).
+$$</math-renderer></p>
+
+<p dir="auto">The subscript labels the term of a sequence; <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$k\to\infty$</math-renderer> means considering larger and larger positive integers. Although the base tends to 1, the exponent grows. Replacing the base by its limit too early loses the effect of many repeated factors. Nor can the competing factors <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$k$</math-renderer> and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln(1+1/k)$</math-renderer> be evaluated separately as an ordinary product of finite limits.</p>
+
+<p dir="auto">Each <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$b_k$</math-renderer> is positive, so define <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a_k=\ln b_k$</math-renderer>. These subscripted letters label sequences; they are not the fixed base <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a$</math-renderer> from Part 1. The logarithm law gives</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+a_k=k\ln\left(1+\frac1k\right)
+=\frac{\ln(1+1/k)}{1/k}.
+$$</math-renderer></p>
+
+<p dir="auto">The change of variable <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$h=1/k$</math-renderer> makes <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$h\to0$</math-renderer> from the positive side. Using <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln1=0$</math-renderer> gives the exact equality</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+a_k=\frac{\ln(1+h)-\ln1}{h}.
+$$</math-renderer></p>
+
+<p dir="auto">Compare this with the derivative definition <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$[F(x_0+h)-F(x_0)]/h$</math-renderer>: here <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F=\ln$</math-renderer> and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x_0=1$</math-renderer>. Thus Part 2 supplies the limit</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+a_k\longrightarrow (\ln x)'\big|_{x=1}=\frac11=1.
+$$</math-renderer></p>
+
+<p dir="auto">The vertical bar means evaluate the derivative at the stated input. We have found the logarithm's limit. To recover the original sequence, use the exact inverse relation <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$b_k=e^{a_k}$</math-renderer> and continuity of the exponential:</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+b_k=e^{a_k}\longrightarrow e^1=e.
+$$</math-renderer></p>
+
+<p dir="auto">Consequently,</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\lim_{k\to\infty}\left(1+\frac1k\right)^k=e.
+$$</math-renderer></p>
+
+<p dir="auto">We did not assume that <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$b_k$</math-renderer> already converges in order to take the logarithm of its proposed limit. Instead, we found a convergent sequence <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$a_k$</math-renderer> and then applied a continuous function to it.</p>
+
+<p dir="auto">The lecture's first closing remark uses this formula to approximate <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e$</math-renderer>. With <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$k=10$</math-renderer>, it gives <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(1.1)^{10}\approx2.59374$</math-renderer>, whereas <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e\approx2.71828$</math-renderer>: the estimate is about 4.58% low. It is useful as a rough approximation, and the limit guarantees convergence as <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$k$</math-renderer> increases; <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$k=10$</math-renderer> does not give several correct decimal places.</p>
+
+<p dir="auto">The same route works with a small negative increment as long as the logarithm's input stays positive: the derivative of <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln$</math-renderer> at 1 has the same limit from either side. More broadly, if logarithms tend to a finite <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$L$</math-renderer>, exponentiating yields a limit <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e^L$</math-renderer>. If logarithms instead tend to <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$+\infty$</math-renderer>, the original positive quantities grow without bound because the exponential is increasing and unbounded. If they tend to <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$-\infty$</math-renderer>, the original quantities tend to zero.</p>
+<p dir="auto"><a id="user-content-task-a4"></a></p>
+
+<p dir="auto">Task A4 (generated)</p>
+
+<p dir="auto">For positive integers <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$k&amp;gt;2$</math-renderer>, let <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$b_k=(1-2/k)^{3k}$</math-renderer>. Find the limit of <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln(b_k)$</math-renderer>, then the limit of <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$b_k$</math-renderer>. Show how <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$h=-2/k$</math-renderer> converts <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln(b_k)$</math-renderer> into a multiple of the derivative quotient for <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln$</math-renderer> at 1, and state the side from which <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$h$</math-renderer> approaches zero. A complete response distinguishes the logarithm's limit from the original sequence's limit and justifies returning by the exponential.</p>
+
+<p dir="auto"><a href="#hint-a4">Hint A4</a> · <a href="#solution-a4">Solution A4</a></p>
+<p dir="auto"><a id="user-content-part-5"></a></p>
+
+<p dir="auto">Part 5: relative change explains the usefulness of logarithms</p>
+
+<p dir="auto">A fall of 50 points has different significance from a starting level of 300 than from 10000. For positive initial and final levels <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F_0,F_1$</math-renderer>, the exact finite fractional change is</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\frac{F_1-F_0}{F_0},
+$$</math-renderer></p>
+
+<p dir="auto">and multiplying by 100 expresses it as a percentage. The denominator is the starting level, not the final level. This is the distinction behind the lecture's final market example; no actual market observation is needed.</p>
+
+<p dir="auto">For a positive differentiable level <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F(t)$</math-renderer>, its instantaneous relative rate is</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\frac{F'(t)}{F(t)}=\frac{d}{dt}\ln(F(t)).
+$$</math-renderer></p>
+
+<p dir="auto">The prime now denotes differentiation with respect to time <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$t$</math-renderer>. If <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F$</math-renderer> is measured in points and time in days, <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F'$</math-renderer> has units points per day and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F'/F$</math-renderer> has units per day. Multiplying by 100 gives an instantaneous percentage rate per day. For a physical measurement, read the logarithm as <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln(F/F_{\rm ref})$</math-renderer> with a fixed positive reference in the same units; its derivative is still <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F'/F$</math-renderer>, because the reference is constant. This avoids taking a logarithm of a dimensional quantity.</p>
+
+<p dir="auto">Why is that an instantaneous percentage rate? The derivative definition gives, for small time increments <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\Delta t$</math-renderer>,</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+F(t+\Delta t)-F(t)\approx F'(t)\Delta t,
+$$</math-renderer></p>
+
+<p dir="auto">and division by <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F(t)&amp;gt;0$</math-renderer> yields</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\frac{F(t+\Delta t)-F(t)}{F(t)}
+\approx\frac{F'(t)}{F(t)}\Delta t.
+$$</math-renderer></p>
+
+<p dir="auto">This is a local approximation, not an exact finite-change rule. The exact finite logarithmic change is <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln(F_1/F_0)$</math-renderer>, which also generally differs from <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(F_1-F_0)/F_0$</math-renderer>; the two are close for a small fractional change because <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(\ln x)'$</math-renderer> at 1 is 1.</p>
+
+<p dir="auto">For a worked model, let <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F(t)=80e^{0.03t}$</math-renderer>, where <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$t$</math-renderer> is the numerical time in days and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F$</math-renderer> is in points. Its absolute rate is <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F'=2.4e^{0.03t}$</math-renderer> points per day. Dividing by its current level gives <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F'/F=0.03$</math-renderer> per day, or 3% per day instantaneously. After one day, however, the exact percentage increase is <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$100(e^{0.03}-1)$</math-renderer>, about 3.045%. The level on which growth acts changes during the day. Calling both numbers exactly 3% would confuse a local rate with a finite change.</p>
+<p dir="auto"><a id="user-content-task-a5"></a></p>
+
+<p dir="auto">Task A5 (generated mathematical models, not market data)</p>
+
+<p dir="auto">Two positive index levels are modelled by <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F(t)=300e^{-0.02t}$</math-renderer> and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$G(t)=10000e^{-0.02t}$</math-renderer>, where <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$t$</math-renderer> is the numerical time in days. At <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$t=0$</math-renderer>, find each absolute rate in points per day and each instantaneous percentage rate per day. Separately compare the exact finite percentage changes caused by a fall of 50 points from 300 and from 10000. For the model <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F$</math-renderer>, express its exact percentage change from day 0 to day 1 and explain why it differs from the instantaneous percentage rate multiplied by one day. A complete response states which quantities agree, carries signs and units, and separates exact finite change from local approximation; a symbolic expression in <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e$</math-renderer> is sufficient.</p>
+
+<p dir="auto"><a href="#hint-a5">Hint A5</a> · <a href="#solution-a5">Solution A5</a></p>
+<p dir="auto"><a id="user-content-task-a6"></a></p>
+
+<p dir="auto">Later return: Task A6 (generated)</p>
+
+<p dir="auto">Return after a gap, perhaps the next day; adjust the gap to your needs. The first request below retrieves the main relationships. The later requests test using them to choose methods and handle a changed limit. Needing to reopen the lesson identifies a useful place to revisit; it is not evidence about your overall ability.</p>
+
+<p dir="auto">First, with the lesson closed, write what <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$M(a)$</math-renderer> means geometrically and give the relationship between <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(\ln f)'$</math-renderer> and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$f'$</math-renderer> for positive differentiable <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$f$</math-renderer>. Then reopen the lesson if needed and differentiate <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$p(x)=x^3$</math-renderer>, <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$q(x)=3^x$</math-renderer> and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$r(x)=x^x$</math-renderer> on <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x&amp;gt;0$</math-renderer>, giving a reason for the method chosen in each case. Finally decide whether <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$c_k=(1+1/k)^{k^2}$</math-renderer>, for positive integers <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$k$</math-renderer>, has a finite limit, and justify the conclusion through its logarithm rather than the misleading substitution 1 raised to an increasing power. A complete response separates recall from transfer, identifies what is constant in each derivative, and controls the growing factor in <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln(c_k)$</math-renderer>.</p>
+
+<p dir="auto"><a href="#hint-a6">Hint A6</a> · <a href="#solution-a6">Solution A6</a></p>
+<p dir="auto"><a id="user-content-hints"></a></p>
+
+<p dir="auto">Hints</p>
+
+<p dir="auto">These hints are grouped separately from the complete solutions. Stop at whichever hint lets you resume your working.</p>
+<p dir="auto"><a id="user-content-hint-a1"></a></p>
+
+<p dir="auto">Hint A1</p>
+
+<p dir="auto">Put <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$u=2x-1$</math-renderer>. Write the outer derivative as <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e^u$</math-renderer>, find <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$u'$</math-renderer>, and only then substitute <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x=1/2$</math-renderer> into their product.</p>
+
+<p dir="auto"><a href="#task-a1">Return to A1</a></p>
+<p dir="auto"><a id="user-content-hint-a2"></a></p>
+
+<p dir="auto">Hint A2</p>
+
+<p dir="auto">Write the first function as <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e^{3x\ln(1/2)}$</math-renderer>. For the second, solve <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$5-2x&amp;gt;0$</math-renderer> before differentiating. Its derivative has the inner derivative in the numerator and the positive input in the denominator.</p>
+
+<p dir="auto"><a href="#task-a2">Return to A2</a></p>
+<p dir="auto"><a id="user-content-hint-a3"></a></p>
+
+<p dir="auto">Hint A3</p>
+
+<p dir="auto">The given interval makes <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$1+x$</math-renderer> positive. Begin with <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln y=x^2\ln(1+x)$</math-renderer>. In the product rule, keep one contribution from <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(x^2)'$</math-renderer> and another from <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(\ln(1+x))'$</math-renderer>, then multiply by <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$y$</math-renderer>.</p>
+
+<p dir="auto"><a href="#task-a3">Return to A3</a></p>
+<p dir="auto"><a id="user-content-hint-a4"></a></p>
+
+<p dir="auto">Hint A4</p>
+
+<p dir="auto">After taking the logarithm, the expression is <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$3k\ln(1-2/k)$</math-renderer>. Since <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$h=-2/k$</math-renderer>, solve for <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$k$</math-renderer> as <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$-2/h$</math-renderer>. This exposes a constant multiplying <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$[\ln(1+h)-\ln1]/h$</math-renderer>.</p>
+
+<p dir="auto"><a href="#task-a4">Return to A4</a></p>
+<p dir="auto"><a id="user-content-hint-a5"></a></p>
+
+<p dir="auto">Hint A5</p>
+
+<p dir="auto">For either exponential model, first compute its derivative and then divide by the same model's current value. For the separate 50-point falls, use <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\Delta F/F_0$</math-renderer> with <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\Delta F=-50$</math-renderer>. For the one-day model change, find <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F(1)/F(0)$</math-renderer> before subtracting 1.</p>
+
+<p dir="auto"><a href="#task-a5">Return to A5</a></p>
+<p dir="auto"><a id="user-content-hint-a6"></a></p>
+
+<p dir="auto">Hint A6</p>
+
+<p dir="auto">The point used to define <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$M(a)$</math-renderer> is <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(0,1)$</math-renderer>. For the three derivatives, identify whether the base, exponent, or both change. For the last part write <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln c_k=k[k\ln(1+1/k)]$</math-renderer>; Part 4 already establishes the limit of the bracketed factor. A factor tending to 1 is eventually greater than <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$1/2$</math-renderer>.</p>
+
+<p dir="auto"><a href="#task-a6">Return to A6</a></p>
+<p dir="auto"><a id="user-content-solutions"></a></p>
+
+<p dir="auto">Complete solutions</p>
+
+<p dir="auto">Compare the first step where your working differs. A missing chain-rule factor, an invalid logarithm input, and confusing a logarithm's limit with the original limit are different problems. The explanations below describe possible errors, not errors you have been observed making.</p>
+<p dir="auto"><a id="user-content-solution-a1"></a></p>
+
+<p dir="auto">Solution A1</p>
+
+<p dir="auto">The outer function <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e^u$</math-renderer> has derivative <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e^u$</math-renderer>, evaluated at <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$u=2x-1$</math-renderer>. The inner derivative is 2, so</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\frac{dy}{dx}=2e^{2x-1}.
+$$</math-renderer></p>
+
+<p dir="auto">At <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x=1/2$</math-renderer> the exponent is zero and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e^0=1$</math-renderer>, giving slope 2. The extra factor records that a change in <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x$</math-renderer> changes the exponent at twice that rate. Substituting the point before differentiating would erase the varying function and leave only a number; differentiate first.</p>
+
+<p dir="auto"><a href="#task-a1">Return to A1</a> · <a href="#hint-a1">Hint A1</a></p>
+<p dir="auto"><a id="user-content-solution-a2"></a></p>
+
+<p dir="auto">Solution A2</p>
+
+<p dir="auto">The positive fixed base <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$1/2$</math-renderer> permits every real <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x$</math-renderer>. Rewriting <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$f=e^{3x\ln(1/2)}$</math-renderer> and applying the chain rule gives</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+f'(x)=3\ln(1/2)(1/2)^{3x}.
+$$</math-renderer></p>
+
+<p dir="auto">Here <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln(1/2)&amp;lt;0$</math-renderer>, while 3 and the exponential are positive. Hence <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$f'&amp;lt;0$</math-renderer> for all real <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x$</math-renderer>.</p>
+
+<p dir="auto">The second function requires <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$5-2x&amp;gt;0$</math-renderer>, or <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x&amp;lt;5/2$</math-renderer>. On that interval,</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+g'(x)=\frac{-2}{5-2x}&lt;0.
+$$</math-renderer></p>
+
+<p dir="auto">Its numerator is negative and its denominator positive. Merely writing <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$1/(5-2x)$</math-renderer> would omit the changing input's derivative and predict the wrong sign. The logarithm itself is undefined at <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x=5/2$</math-renderer> and beyond, so the derivative formula supplies no real-function derivative there.</p>
+
+<p dir="auto"><a href="#task-a2">Return to A2</a> · <a href="#hint-a2">Hint A2</a></p>
+<p dir="auto"><a id="user-content-solution-a3"></a></p>
+
+<p dir="auto">Solution A3</p>
+
+<p dir="auto">For <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x&amp;gt;-1$</math-renderer>, the base is positive and so is <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$y=e^{x^2\ln(1+x)}$</math-renderer>. Taking its logarithm is valid:</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\ln y=x^2\ln(1+x).
+$$</math-renderer></p>
+
+<p dir="auto">Use the product and chain rules:</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\frac{y'}y=2x\ln(1+x)+\frac{x^2}{1+x}.
+$$</math-renderer></p>
+
+<p dir="auto">Thus</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+y'=(1+x)^{x^2}\left(2x\ln(1+x)+\frac{x^2}{1+x}\right),\qquad x&gt;-1.
+$$</math-renderer></p>
+
+<p dir="auto">At <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x=0$</math-renderer>, <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$y=1$</math-renderer> and both terms in parentheses vanish, giving slope 0. The term <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$2x\ln(1+x)$</math-renderer> comes from the changing exponent. Treating <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x^2$</math-renderer> as constant would lose that term. Evaluating only at zero would hide that particular mistake because the missing term happens to vanish there; the full derivative must still include it.</p>
+
+<p dir="auto"><a href="#task-a3">Return to A3</a> · <a href="#hint-a3">Hint A3</a></p>
+<p dir="auto"><a id="user-content-solution-a4"></a></p>
+
+<p dir="auto">Solution A4</p>
+
+<p dir="auto">For <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$k&amp;gt;2$</math-renderer>, <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$1-2/k&amp;gt;0$</math-renderer>, so the real logarithm is allowed. Taking it gives</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\ln b_k=3k\ln(1-2/k).
+$$</math-renderer></p>
+
+<p dir="auto">With <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$h=-2/k$</math-renderer>, <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$h\to0$</math-renderer> from below and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$k=-2/h$</math-renderer>. Consequently</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\ln b_k=-6\frac{\ln(1+h)-\ln1}{h}\longrightarrow-6.
+$$</math-renderer></p>
+
+<p dir="auto">The quotient tends to <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(\ln x)'$</math-renderer> at 1, which is 1, just as in Part 4; approaching from below is permitted. Finally <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$b_k=e^{\ln b_k}$</math-renderer>, so continuity yields</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+b_k\longrightarrow e^{-6}.
+$$</math-renderer></p>
+
+<p dir="auto">A result of <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$-6$</math-renderer> for the original limit would miss this last inverse operation and would also conflict with positivity of every <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$b_k$</math-renderer>.</p>
+
+<p dir="auto"><a href="#task-a4">Return to A4</a> · <a href="#hint-a4">Hint A4</a></p>
+<p dir="auto"><a id="user-content-solution-a5"></a></p>
+
+<p dir="auto">Solution A5</p>
+
+<p dir="auto">By the chain rule,</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+F'(t)=-0.02F(t),\qquad G'(t)=-0.02G(t).
+$$</math-renderer></p>
+
+<p dir="auto">At zero, the absolute rates are <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$-0.02(300)=-6$</math-renderer> points per day and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$-0.02(10000)=-200$</math-renderer> points per day. They differ because the starting levels differ. Dividing by the respective levels gives the same relative rate <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$-0.02$</math-renderer> per day, or <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$-2%$</math-renderer> per day instantaneously.</p>
+
+<p dir="auto">For the separate finite falls, the exact percentages are</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\frac{-50}{300}\times100%=-\frac{50}{3}%\approx-16.67%,\qquad
+\frac{-50}{10000}\times100%=-0.5%.
+$$</math-renderer></p>
+
+<p dir="auto">These are changes, not rates, because no elapsed time is specified for those falls. They are comparisons separate from the two exponential models.</p>
+
+<p dir="auto">For <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F$</math-renderer> over one day, <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$F(1)/F(0)=e^{-0.02}$</math-renderer>, so its exact percentage change is</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+100(e^{-0.02}-1)%\approx-1.9801%.
+$$</math-renderer></p>
+
+<p dir="auto">The initial relative rate times one day gives <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$-2%$</math-renderer>, a local approximation. As the level falls, its absolute loss rate also becomes smaller in magnitude. The exact one-day fall is therefore slightly smaller than 2% of its starting level. Equal instantaneous percentage rates do not make finite percentages exactly equal to the rate times elapsed time.</p>
+
+<p dir="auto"><a href="#task-a5">Return to A5</a> · <a href="#hint-a5">Hint A5</a></p>
+<p dir="auto"><a id="user-content-solution-a6"></a></p>
+
+<p dir="auto">Solution A6</p>
+
+<p dir="auto">The recall targets are the tangent slope of <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$y=a^x$</math-renderer> at <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(0,1)$</math-renderer>, called <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$M(a)$</math-renderer>, and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(\ln f)'=f'/f$</math-renderer> for positive differentiable <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$f$</math-renderer>. Equivalently <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$f'=f(\ln f)'$</math-renderer>. Also <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$M(a)=\ln a$</math-renderer>.</p>
+
+<p dir="auto">For <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$p=x^3$</math-renderer>, the exponent is the fixed number 3, so the power rule gives <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$p'=3x^2$</math-renderer>. For <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$q=3^x$</math-renderer>, the base is fixed, so <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$q'=(\ln3)3^x$</math-renderer>. For <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$r=x^x$</math-renderer>, both parts change; logarithmic differentiation or rewriting as <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e^{x\ln x}$</math-renderer> gives <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$r'=x^x(\ln x+1)$</math-renderer>. Alternative correct methods are acceptable if they account for every changing part and preserve the domain <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x&amp;gt;0$</math-renderer>.</p>
+
+<p dir="auto">For the sequence, take a logarithm:</p>
+
+<p dir="auto"><math-renderer class="js-display-math" style="display: block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$$
+\ln c_k=k^2\ln(1+1/k)
+=k\left[k\ln(1+1/k)\right].
+$$</math-renderer></p>
+
+<p dir="auto">The bracketed factor tends to 1 by Part 4. To make the conclusion precise, it is greater than <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$1/2$</math-renderer> for all sufficiently large <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$k$</math-renderer>, so <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln c_k&amp;gt;k/2$</math-renderer> eventually. Thus <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$\ln c_k\to+\infty$</math-renderer>, and <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$c_k\to+\infty$</math-renderer> by the exponential's increase without bound. There is no finite limit. The additional factor <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$k$</math-renderer> in the exponent changes the conclusion from the lecture's <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$e$</math-renderer> limit; the base approaching 1 does not determine the answer by itself.</p>
+
+<p dir="auto"><a href="#task-a6">Return to A6</a> · <a href="#hint-a6">Hint A6</a></p>
+
+<p dir="auto">Source and scope</p>
+
+<p dir="auto">This lesson covers the complete supplied <a href="https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/f9af0e98490296c99d330faf47389507_lec6.pdf" rel="nofollow">MIT OpenCourseWare 18.01 Fall 2006 Lecture 6 PDF</a>, comprising a cover and printed pages 1–7. The printed title is “Exponential and Log, Logarithmic Differentiation, Hyperbolic Functions.” Hyperbolic functions appear in that title but are not developed anywhere in this PDF; no missing continuation is assumed here.</p>
+
+<p dir="auto">The source's worked <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$x^x$</math-renderer> derivative, exponential limit, three geometric figures and both final remarks are developed above. Tasks A1–A6 are generated applications, not quoted MIT assessment questions. Two source typos are corrected: the point labelled <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(1,0)$</math-renderer> in the discussion of <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$4^x$</math-renderer> and Figure 3 is <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$(0,1)$</math-renderer>, and the inverse box on printed page 4 must read <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$w=\ln x\Rightarrow e^w=x$</math-renderer>. The approximation at <math-renderer class="js-inline-math" style="display: inline-block" data-run-id="5f28c7d9c9ada77b708545c3c1f06a29">$k=10$</math-renderer> is quantified in Part 4, and finite percentage change is distinguished from instantaneous relative rate in Part 5.</p>
+</article>

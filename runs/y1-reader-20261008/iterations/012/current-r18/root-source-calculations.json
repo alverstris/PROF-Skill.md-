@@ -1,0 +1,24 @@
+{
+  "source_sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65",
+  "independent_exact_iterates": [
+    "1",
+    "2",
+    "7/4",
+    "97/56",
+    "18817/10864"
+  ],
+  "absolute_errors": [
+    "0.732050807568877293527446341506",
+    "0.267949192431122706472553658494",
+    "0.0179491924311227064725536584941",
+    "0.0000920495739798493296965156369848",
+    "0.00000000244585024697329003551916445191"
+  ],
+  "newton_error_identity": "N(x)-r=(x-r)^2/(2x), r\u00b2=3",
+  "positive_convergence_witness": "x1>=r by exact nonnegative error; for n>=1, 0<=e[n+1]=e[n]^2/(2x[n])<=e[n]/2, so geometric bound proves convergence without simply assuming a limit",
+  "two_cycle": "f=(5x-x\u00b3)/2: N(-1)=1,N(1)=-1; derivatives1 nonzero",
+  "ring_verification": "With S=sqrt(L\u00b2-a\u00b2)>|b|, x=a(S-b)/(2S),y=(b-S)/2; positive r1=L(S-b)/(2S),r2=L(S+b)/(2S) match both distance squares, sumL andstationarity",
+  "ring_global_bound": "Triangle inequality for (x,-y)+(a-x,b-y) gives L>=sqrt(a\u00b2+(b-2y)\u00b2); thus y>=(b-S)/2; candidateattainsequality. Need teach inequality/warrant if baseline does not supply it.",
+  "physical_limit": "static minimum/equilibrium model with light taut inextensible string, frictionless sliding ring and gravity; actual settling dynamics requires dissipation, not implied solely by force balance",
+  "no_authored_answers_read": true
+}

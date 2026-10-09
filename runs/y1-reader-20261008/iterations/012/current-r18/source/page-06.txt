@@ -1,0 +1,46 @@
+p 
+p 
+Ring on a String 
+Consider a ring on a string 1 held ﬁxed at two ends at (0, 0) and (a, b) (see Fig. 6). The ring is 
+free to slide to any point. Find the position (x, y) of the string. 
+(a, b)
+(0, 0)
+(x, y)
+a-x
+x
+α β
+√(x2 +y2)
+√[(a-x)2 +(b-y2)]
+α = β
+Figure 6: Illustration of the Ring on a String problem. 
+Physical Principle The ring settles at the lowest height (lowest potential energy), so the prob­
+lem is to minimize y subject to the constraint that (x, y) is on the string. 
+Constraint The length L of the string is ﬁxed: 
+x2 + y2 +
+(x − a)2 + (y − b)2 = L 
+The function y = y(x) is determined implicitly by the constraint equation above. We traced the 
+constraint curve (possible positions of the ring) on the blackboard. This curve is an ellipse with foci 
+at (0, 0) and (a, b), but knowing that the curve is an ellipse does not help us ﬁnd the lowest point. 
+Experiments with the hanging ring show that the lowest point is somewhere in the middle. Since 
+the ends of the constraint curve are higher than the middle, the lowest point is a critical point 
+(a point where y0(x) = 0). In class we also gave a physical demonstration of this by drawing the 
+horizontal tangent at the lowest point. 
+To ﬁnd the critical point, diﬀerentiate the constraint equation implicitly with respect to x, 
+p x + yy0 
++ p x − a + (y − b)y0 
+= 0 
+x2 + y2 
+(x − a)2 + (y − b)2 
+Since y0 = 0 a the critical point, the equation can be rewritten as 
+p x 
+= p 
+a − x 
+x2 + y2 
+(x − a)2 + (y − b)2 
+1c 1999 and c2007 David Jerison 
+5 
+Lecture 13
+ 
+ 
+ 
+18.01 Fall 2006 

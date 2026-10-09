@@ -1,0 +1,962 @@
+[
+  {
+    "file": "lesson.md",
+    "source_ordinal": 1,
+    "destination_ordinal": 1,
+    "source_line": 10,
+    "source_span": [
+      669,
+      688
+    ],
+    "section": "U1. From a rate to an accumulated change",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "\\int_a^b f(x)\\,dx",
+    "actual_payload": "\\int_a^b f(x),dx",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$\\int_a^b f(x),dx$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 13,
+    "destination_ordinal": 13,
+    "source_line": 10,
+    "source_span": [
+      1168,
+      1186
+    ],
+    "section": "U1. From a rate to an accumulated change",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "\\int_a^b x^2\\,dx",
+    "actual_payload": "\\int_a^b x^2,dx",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$\\int_a^b x^2,dx$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 15,
+    "destination_ordinal": 15,
+    "source_line": 10,
+    "source_span": [
+      1257,
+      1275
+    ],
+    "section": "U1. From a rate to an accumulated change",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "\\int_a^b t^2\\,dt",
+    "actual_payload": "\\int_a^b t^2,dt",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$\\int_a^b t^2,dt$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 23,
+    "destination_ordinal": 23,
+    "source_line": 14,
+    "source_span": [
+      1588,
+      1622
+    ],
+    "section": "U1. From a rate to an accumulated change",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\int_a^b f(x)\\,dx=F(b)-F(a).\n",
+    "actual_payload": "\n\\int_a^b f(x),dx=F(b)-F(a).\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$$\n\\int_a^b f(x),dx=F(b)-F(a).\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 25,
+    "destination_ordinal": null,
+    "source_line": 20,
+    "source_span": [
+      2202,
+      2213
+    ],
+    "section": "U1. From a rate to an accumulated change",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": null,
+    "source_payload": "F(x)|_a^b",
+    "actual_payload": null,
+    "exact": false,
+    "kind": "math_node_missing_underscore_emphasis_collision",
+    "raw_HTML": "<p dir=\"auto\">The course writes $F(x)|<em>a^b$ or $F(x)|</em>{x=a}^{x=b}$ for <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$F(b)-F(a)$</math-renderer>. We also use <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$[F(x)]_a^b$</math-renderer>. The top endpoint is substituted first and the entire value at the bottom endpoint is subtracted. These bars or brackets instruct endpoint evaluation; they are not absolute value.</p>",
+    "implication": "The endpoint evaluation expression is no longer a math node; its subscript underscore is consumed by Markdown emphasis spanning two expressions and the prose word or. Endpoint grouping/notation is not preserved."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 26,
+    "destination_ordinal": null,
+    "source_line": 20,
+    "source_span": [
+      2217,
+      2236
+    ],
+    "section": "U1. From a rate to an accumulated change",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": null,
+    "source_payload": "F(x)|_{x=a}^{x=b}",
+    "actual_payload": null,
+    "exact": false,
+    "kind": "math_node_missing_underscore_emphasis_collision",
+    "raw_HTML": "<p dir=\"auto\">The course writes $F(x)|<em>a^b$ or $F(x)|</em>{x=a}^{x=b}$ for <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$F(b)-F(a)$</math-renderer>. We also use <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$[F(x)]_a^b$</math-renderer>. The top endpoint is substituted first and the entire value at the bottom endpoint is subtracted. These bars or brackets instruct endpoint evaluation; they are not absolute value.</p>",
+    "implication": "The endpoint evaluation expression is no longer a math node; its subscript underscore is consumed by Markdown emphasis spanning two expressions and the prose word or. Endpoint grouping/notation is not preserved."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 31,
+    "destination_ordinal": 29,
+    "source_line": 24,
+    "source_span": [
+      2561,
+      2644
+    ],
+    "section": "U1. From a rate to an accumulated change",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\int_a^b x^2\\,dx=\\left[\\frac{x^3}{3}\\right]_a^b\n=\\frac{b^3}{3}-\\frac{a^3}{3}.\n",
+    "actual_payload": "\n\\int_a^b x^2,dx=\\left[\\frac{x^3}{3}\\right]_a^b\n=\\frac{b^3}{3}-\\frac{a^3}{3}.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$$\n\\int_a^b x^2,dx=\\left[\\frac{x^3}{3}\\right]_a^b\n=\\frac{b^3}{3}-\\frac{a^3}{3}.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 32,
+    "destination_ordinal": 30,
+    "source_line": 31,
+    "source_span": [
+      2700,
+      2762
+    ],
+    "section": "U1. From a rate to an accumulated change",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\int_0^1 x^5\\,dx=\\left[\\frac{x^6}{6}\\right]_0^1=\\frac16.\n",
+    "actual_payload": "\n\\int_0^1 x^5,dx=\\left[\\frac{x^6}{6}\\right]_0^1=\\frac16.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$$\n\\int_0^1 x^5,dx=\\left[\\frac{x^6}{6}\\right]_0^1=\\frac16.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 36,
+    "destination_ordinal": 34,
+    "source_line": 35,
+    "source_span": [
+      2911,
+      2933
+    ],
+    "section": "U1. From a rate to an accumulated change",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "\\int f(x)\\,dx=F(x)+C",
+    "actual_payload": "\\int f(x),dx=F(x)+C",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$\\int f(x),dx=F(x)+C$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 37,
+    "destination_ordinal": 35,
+    "source_line": 40,
+    "source_span": [
+      3174,
+      3192
+    ],
+    "section": "P1. Use the endpoint rule",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "\\int_1^2 x^5\\,dx",
+    "actual_payload": "\\int_1^2 x^5,dx",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$\\int_1^2 x^5,dx$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 41,
+    "destination_ordinal": 39,
+    "source_line": 49,
+    "source_span": [
+      3584,
+      3655
+    ],
+    "section": "U2. Signed area, velocity and distance",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\int_0^\\pi\\sin x\\,dx=[-\\cos x]_0^\\pi\n=-\\cos\\pi-(-\\cos0)=1-(-1)=2.\n",
+    "actual_payload": "\n\\int_0^\\pi\\sin x,dx=[-\\cos x]_0^\\pi\n=-\\cos\\pi-(-\\cos0)=1-(-1)=2.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$$\n\\int_0^\\pi\\sin x,dx=[-\\cos x]_0^\\pi\n=-\\cos\\pi-(-\\cos0)=1-(-1)=2.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 42,
+    "destination_ordinal": 40,
+    "source_line": 56,
+    "source_span": [
+      3776,
+      3836
+    ],
+    "section": "U2. Signed area, velocity and distance",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\int_0^{2\\pi}\\sin x\\,dx=[-\\cos x]_0^{2\\pi}\n=-1-(-1)=0.\n",
+    "actual_payload": "\n\\int_0^{2\\pi}\\sin x,dx=[-\\cos x]_0^{2\\pi}\n=-1-(-1)=0.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$$\n\\int_0^{2\\pi}\\sin x,dx=[-\\cos x]_0^{2\\pi}\n=-1-(-1)=0.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 43,
+    "destination_ordinal": 41,
+    "source_line": 61,
+    "source_span": [
+      3866,
+      3896
+    ],
+    "section": "U2. Signed area, velocity and distance",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "\\int_\\pi^{2\\pi}\\sin x\\,dx=-2",
+    "actual_payload": "\\int_\\pi^{2\\pi}\\sin x,dx=-2",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$\\int_\\pi^{2\\pi}\\sin x,dx=-2$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 56,
+    "destination_ordinal": 54,
+    "source_line": 69,
+    "source_span": [
+      4716,
+      4802
+    ],
+    "section": "U2. Signed area, velocity and distance",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\int_a^b v(t)\\,dt=x(b)-x(a),\\qquad\n\\text{distance travelled}=\\int_a^b|v(t)|\\,dt.\n",
+    "actual_payload": "\n\\int_a^b v(t),dt=x(b)-x(a),\\qquad\n\\text{distance travelled}=\\int_a^b|v(t)|,dt.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$$\n\\int_a^b v(t),dt=x(b)-x(a),\\qquad\n\\text{distance travelled}=\\int_a^b|v(t)|,dt.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 69,
+    "destination_ordinal": 67,
+    "source_line": 83,
+    "source_span": [
+      6284,
+      6344
+    ],
+    "section": "U3. Joining intervals and reversing endpoints",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\int_a^b f(x)\\,dx+\\int_b^c f(x)\\,dx=\\int_a^c f(x)\\,dx.\n",
+    "actual_payload": "\n\\int_a^b f(x),dx+\\int_b^c f(x),dx=\\int_a^c f(x),dx.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$$\n\\int_a^b f(x),dx+\\int_b^c f(x),dx=\\int_a^c f(x),dx.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 77,
+    "destination_ordinal": 75,
+    "source_line": 95,
+    "source_span": [
+      6927,
+      6998
+    ],
+    "section": "U3. Joining intervals and reversing endpoints",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\int_b^a f(x)\\,dx=-\\int_a^b f(x)\\,dx,\n\\qquad \\int_a^a f(x)\\,dx=0.\n",
+    "actual_payload": "\n\\int_b^a f(x),dx=-\\int_a^b f(x),dx,\n\\qquad \\int_a^a f(x),dx=0.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$$\n\\int_b^a f(x),dx=-\\int_a^b f(x),dx,\n\\qquad \\int_a^a f(x),dx=0.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 94,
+    "destination_ordinal": 92,
+    "source_line": 110,
+    "source_span": [
+      8037,
+      8110
+    ],
+    "section": "U3. Joining intervals and reversing endpoints",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n-\\int_0^1(t-1)\\,dt+\\int_1^2(t-1)\\,dt\n=-(-1/2)+(1/2)=1\\text{ metre}.\n",
+    "actual_payload": "\n-\\int_0^1(t-1),dt+\\int_1^2(t-1),dt\n=-(-1/2)+(1/2)=1\\text{ metre}.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$$\n-\\int_0^1(t-1),dt+\\int_1^2(t-1),dt\n=-(-1/2)+(1/2)=1\\text{ metre}.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 99,
+    "destination_ordinal": 97,
+    "source_line": 120,
+    "source_span": [
+      8564,
+      8582
+    ],
+    "section": "P2. Interpret the accumulation",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "\\int_3^0v(t)\\,dt",
+    "actual_payload": "\\int_3^0v(t),dt",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$\\int_3^0v(t),dt$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 106,
+    "destination_ordinal": 104,
+    "source_line": 129,
+    "source_span": [
+      9145,
+      9203
+    ],
+    "section": "U4. Use a simpler function to bound an integral",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n0\\le\\int_a^b(g-f)\\,dx=\\int_a^b g\\,dx-\\int_a^b f\\,dx,\n",
+    "actual_payload": "\n0\\le\\int_a^b(g-f),dx=\\int_a^b g,dx-\\int_a^b f,dx,\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$$\n0\\le\\int_a^b(g-f),dx=\\int_a^b g,dx-\\int_a^b f,dx,\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 107,
+    "destination_ordinal": 105,
+    "source_line": 133,
+    "source_span": [
+      9208,
+      9241
+    ],
+    "section": "U4. Use a simpler function to bound an integral",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "\\int_a^b f\\,dx\\le\\int_a^b g\\,dx",
+    "actual_payload": "\\int_a^b f,dx\\le\\int_a^b g,dx",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$\\int_a^b f,dx\\le\\int_a^b g,dx$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 113,
+    "destination_ordinal": 111,
+    "source_line": 137,
+    "source_span": [
+      9604,
+      9649
+    ],
+    "section": "U4. Use a simpler function to bound an integral",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n1=\\int_0^1 1\\,dx\\le\\int_0^1e^x\\,dx=e-1.\n",
+    "actual_payload": "\n1=\\int_0^1 1,dx\\le\\int_0^1e^x,dx=e-1.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$$\n1=\\int_0^1 1,dx\\le\\int_0^1e^x,dx=e-1.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 122,
+    "destination_ordinal": 120,
+    "source_line": 143,
+    "source_span": [
+      10003,
+      10076
+    ],
+    "section": "U4. Use a simpler function to bound an integral",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\frac32=\\left[x+\\frac{x^2}{2}\\right]_0^1\n=\\int_0^1(1+x)\\,dx\\le e-1.\n",
+    "actual_payload": "\n\\frac32=\\left[x+\\frac{x^2}{2}\\right]_0^1\n=\\int_0^1(1+x),dx\\le e-1.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$$\n\\frac32=\\left[x+\\frac{x^2}{2}\\right]_0^1\n=\\int_0^1(1+x),dx\\le e-1.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 128,
+    "destination_ordinal": 126,
+    "source_line": 153,
+    "source_span": [
+      10653,
+      10672
+    ],
+    "section": "P3. Change the interval and its orientation",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "\\int_2^0(1+t)\\,dt",
+    "actual_payload": "\\int_2^0(1+t),dt",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$\\int_2^0(1+t),dt$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 129,
+    "destination_ordinal": 127,
+    "source_line": 153,
+    "source_span": [
+      10677,
+      10694
+    ],
+    "section": "P3. Change the interval and its orientation",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "\\int_2^0e^t\\,dt",
+    "actual_payload": "\\int_2^0e^t,dt",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$\\int_2^0e^t,dt$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 134,
+    "destination_ordinal": 132,
+    "source_line": 166,
+    "source_span": [
+      11157,
+      11190
+    ],
+    "section": "U5. Change variables without changing the accumulation",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "\\int g(u(x))u'(x)\\,dx=G(u(x))+C",
+    "actual_payload": "\\int g(u(x))u'(x),dx=G(u(x))+C",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$\\int g(u(x))u'(x),dx=G(u(x))+C$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 135,
+    "destination_ordinal": 133,
+    "source_line": 166,
+    "source_span": [
+      11214,
+      11228
+    ],
+    "section": "U5. Change variables without changing the accumulation",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "du=u'(x)\\,dx",
+    "actual_payload": "du=u'(x),dx",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$du=u'(x),dx$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 145,
+    "destination_ordinal": 143,
+    "source_line": 170,
+    "source_span": [
+      11652,
+      11744
+    ],
+    "section": "U5. Change variables without changing the accumulation",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\int_{x_1}^{x_2}g(u(x))u'(x)\\,dx\n=G(u(x_2))-G(u(x_1))\n=\\int_{u(x_1)}^{u(x_2)}g(u)\\,du.\n",
+    "actual_payload": "\n\\int_{x_1}^{x_2}g(u(x))u'(x),dx\n=G(u(x_2))-G(u(x_1))\n=\\int_{u(x_1)}^{u(x_2)}g(u),du.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$$\n\\int_{x_1}^{x_2}g(u(x))u'(x),dx\n=G(u(x_2))-G(u(x_1))\n=\\int_{u(x_1)}^{u(x_2)}g(u),du.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 147,
+    "destination_ordinal": 145,
+    "source_line": 180,
+    "source_span": [
+      12135,
+      12168
+    ],
+    "section": "U5. Change variables without changing the accumulation",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\nI=\\int_1^2(x^3+2)^4x^2\\,dx.\n",
+    "actual_payload": "\nI=\\int_1^2(x^3+2)^4x^2,dx.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$$\nI=\\int_1^2(x^3+2)^4x^2,dx.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 151,
+    "destination_ordinal": 149,
+    "source_line": 184,
+    "source_span": [
+      12296,
+      12309
+    ],
+    "section": "U5. Change variables without changing the accumulation",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "du=3x^2\\,dx",
+    "actual_payload": "du=3x^2,dx",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$du=3x^2,dx$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 152,
+    "destination_ordinal": 150,
+    "source_line": 184,
+    "source_span": [
+      12314,
+      12328
+    ],
+    "section": "U5. Change variables without changing the accumulation",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "x^2\\,dx=du/3",
+    "actual_payload": "x^2,dx=du/3",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$x^2,dx=du/3$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 157,
+    "destination_ordinal": 155,
+    "source_line": 186,
+    "source_span": [
+      12447,
+      12538
+    ],
+    "section": "U5. Change variables without changing the accumulation",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\nI=\\frac13\\int_3^{10}u^4\\,du\n=\\left[\\frac{u^5}{15}\\right]_3^{10}\n=\\frac{10^5-3^5}{15}.\n",
+    "actual_payload": "\nI=\\frac13\\int_3^{10}u^4,du\n=\\left[\\frac{u^5}{15}\\right]_3^{10}\n=\\frac{10^5-3^5}{15}.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$$\nI=\\frac13\\int_3^{10}u^4,du\n=\\left[\\frac{u^5}{15}\\right]_3^{10}\n=\\frac{10^5-3^5}{15}.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "lesson.md",
+    "source_ordinal": 161,
+    "destination_ordinal": 159,
+    "source_line": 204,
+    "source_span": [
+      13273,
+      13297
+    ],
+    "section": "P4. Choose a consistent change of variable",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "\\int_0^1x(2-x^2)^4\\,dx",
+    "actual_payload": "\\int_0^1x(2-x^2)^4,dx",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"a90d11083fa26a72dfe1510346142ce9\">$\\int_0^1x(2-x^2)^4,dx$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "hints.md",
+    "source_ordinal": 14,
+    "destination_ordinal": 14,
+    "source_line": 29,
+    "source_span": [
+      1275,
+      1287
+    ],
+    "section": "Hint P4",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "du=-2x\\,dx",
+    "actual_payload": "du=-2x,dx",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"f2670abbfaf2c564d9c1a57751f72a04\">$du=-2x,dx$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "hints.md",
+    "source_ordinal": 15,
+    "destination_ordinal": 15,
+    "source_line": 29,
+    "source_span": [
+      1304,
+      1311
+    ],
+    "section": "Hint P4",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "x\\,dx",
+    "actual_payload": "x,dx",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"f2670abbfaf2c564d9c1a57751f72a04\">$x,dx$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "hints.md",
+    "source_ordinal": 20,
+    "destination_ordinal": 20,
+    "source_line": 36,
+    "source_span": [
+      1780,
+      1788
+    ],
+    "section": "Hint P5",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "2t\\,dt",
+    "actual_payload": "2t,dt",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"f2670abbfaf2c564d9c1a57751f72a04\">$2t,dt$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "solutions.md",
+    "source_ordinal": 4,
+    "destination_ordinal": 4,
+    "source_line": 10,
+    "source_span": [
+      387,
+      464
+    ],
+    "section": "Solution P1",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\int_1^2x^5\\,dx=\\frac{2^6}{6}-\\frac{1^6}{6}\n=\\frac{63}{6}=\\frac{21}{2}.\n",
+    "actual_payload": "\n\\int_1^2x^5,dx=\\frac{2^6}{6}-\\frac{1^6}{6}\n=\\frac{63}{6}=\\frac{21}{2}.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"04adf32b8ecbb4ecb4ef30dd5a5407b7\">$$\n\\int_1^2x^5,dx=\\frac{2^6}{6}-\\frac{1^6}{6}\n=\\frac{63}{6}=\\frac{21}{2}.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "solutions.md",
+    "source_ordinal": 12,
+    "destination_ordinal": 12,
+    "source_line": 24,
+    "source_span": [
+      954,
+      1003
+    ],
+    "section": "Solution P2",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\int_0^3v(t)\\,dt=V(3)-V(0)=3\\text{ metres}.\n",
+    "actual_payload": "\n\\int_0^3v(t),dt=V(3)-V(0)=3\\text{ metres}.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"04adf32b8ecbb4ecb4ef30dd5a5407b7\">$$\n\\int_0^3v(t),dt=V(3)-V(0)=3\\text{ metres}.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "solutions.md",
+    "source_ordinal": 15,
+    "destination_ordinal": 15,
+    "source_line": 30,
+    "source_span": [
+      1136,
+      1218
+    ],
+    "section": "Solution P2",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\int_0^3|v(t)|\\,dt\n=-\\int_0^1v(t)\\,dt+\\int_1^3v(t)\\,dt\n=1+4=5\\text{ metres}.\n",
+    "actual_payload": "\n\\int_0^3|v(t)|,dt\n=-\\int_0^1v(t),dt+\\int_1^3v(t),dt\n=1+4=5\\text{ metres}.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"04adf32b8ecbb4ecb4ef30dd5a5407b7\">$$\n\\int_0^3|v(t)|,dt\n=-\\int_0^1v(t),dt+\\int_1^3v(t),dt\n=1+4=5\\text{ metres}.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "solutions.md",
+    "source_ordinal": 16,
+    "destination_ordinal": 16,
+    "source_line": 36,
+    "source_span": [
+      1281,
+      1302
+    ],
+    "section": "Solution P2",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "\\int_3^0v(t)\\,dt=-3",
+    "actual_payload": "\\int_3^0v(t),dt=-3",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"04adf32b8ecbb4ecb4ef30dd5a5407b7\">$\\int_3^0v(t),dt=-3$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "solutions.md",
+    "source_ordinal": 20,
+    "destination_ordinal": 20,
+    "source_line": 52,
+    "source_span": [
+      1966,
+      2018
+    ],
+    "section": "Solution P3",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\int_2^0(1+t)\\,dt=-4\n\\ge\\int_2^0e^t\\,dt=1-e^2.\n",
+    "actual_payload": "\n\\int_2^0(1+t),dt=-4\n\\ge\\int_2^0e^t,dt=1-e^2.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"04adf32b8ecbb4ecb4ef30dd5a5407b7\">$$\n\\int_2^0(1+t),dt=-4\n\\ge\\int_2^0e^t,dt=1-e^2.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "solutions.md",
+    "source_ordinal": 24,
+    "destination_ordinal": 24,
+    "source_line": 64,
+    "source_span": [
+      2299,
+      2311
+    ],
+    "section": "Solution P4",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "du=-2x\\,dx",
+    "actual_payload": "du=-2x,dx",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"04adf32b8ecbb4ecb4ef30dd5a5407b7\">$du=-2x,dx$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "solutions.md",
+    "source_ordinal": 25,
+    "destination_ordinal": 25,
+    "source_line": 64,
+    "source_span": [
+      2316,
+      2329
+    ],
+    "section": "Solution P4",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "x\\,dx=-du/2",
+    "actual_payload": "x,dx=-du/2",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"04adf32b8ecbb4ecb4ef30dd5a5407b7\">$x,dx=-du/2$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "solutions.md",
+    "source_ordinal": 30,
+    "destination_ordinal": 30,
+    "source_line": 66,
+    "source_span": [
+      2406,
+      2532
+    ],
+    "section": "Solution P4",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\int_0^1x(2-x^2)^4\\,dx\n=-\\frac12\\int_2^1u^4\\,du\n=\\frac12\\int_1^2u^4\\,du\n=\\left[\\frac{u^5}{10}\\right]_1^2\n=\\frac{31}{10}.\n",
+    "actual_payload": "\n\\int_0^1x(2-x^2)^4,dx\n=-\\frac12\\int_2^1u^4,du\n=\\frac12\\int_1^2u^4,du\n=\\left[\\frac{u^5}{10}\\right]_1^2\n=\\frac{31}{10}.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"04adf32b8ecbb4ecb4ef30dd5a5407b7\">$$\n\\int_0^1x(2-x^2)^4,dx\n=-\\frac12\\int_2^1u^4,du\n=\\frac12\\int_1^2u^4,du\n=\\left[\\frac{u^5}{10}\\right]_1^2\n=\\frac{31}{10}.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "solutions.md",
+    "source_ordinal": 35,
+    "destination_ordinal": 35,
+    "source_line": 81,
+    "source_span": [
+      3121,
+      3150
+    ],
+    "section": "Solution P5",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "\\int_a^b f(x)\\,dx=F(b)-F(a)",
+    "actual_payload": "\\int_a^b f(x),dx=F(b)-F(a)",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"04adf32b8ecbb4ecb4ef30dd5a5407b7\">$\\int_a^b f(x),dx=F(b)-F(a)$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "solutions.md",
+    "source_ordinal": 40,
+    "destination_ordinal": 40,
+    "source_line": 83,
+    "source_span": [
+      3344,
+      3415
+    ],
+    "section": "Solution P5",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\int_{x_1}^{x_2}g(u(x))u'(x)\\,dx\n=\\int_{u(x_1)}^{u(x_2)}g(u)\\,du.\n",
+    "actual_payload": "\n\\int_{x_1}^{x_2}g(u(x))u'(x),dx\n=\\int_{u(x_1)}^{u(x_2)}g(u),du.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"04adf32b8ecbb4ecb4ef30dd5a5407b7\">$$\n\\int_{x_1}^{x_2}g(u(x))u'(x),dx\n=\\int_{u(x_1)}^{u(x_2)}g(u),du.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "solutions.md",
+    "source_ordinal": 46,
+    "destination_ordinal": 46,
+    "source_line": 92,
+    "source_span": [
+      3780,
+      3791
+    ],
+    "section": "Solution P5",
+    "format": "inline",
+    "source_type": "js-inline-math",
+    "actual_type": "js-inline-math",
+    "source_payload": "du=2t\\,dt",
+    "actual_payload": "du=2t,dt",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"04adf32b8ecbb4ecb4ef30dd5a5407b7\">$du=2t,dt$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "solutions.md",
+    "source_ordinal": 49,
+    "destination_ordinal": 49,
+    "source_line": 94,
+    "source_span": [
+      3884,
+      3988
+    ],
+    "section": "Solution P5",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n\\int_0^{\\sqrt2}2t(t^2-1)\\,dt\n=\\int_{-1}^1u\\,du\n=\\left[\\frac{u^2}{2}\\right]_{-1}^1=0\\text{ metres}.\n",
+    "actual_payload": "\n\\int_0^{\\sqrt2}2t(t^2-1),dt\n=\\int_{-1}^1u,du\n=\\left[\\frac{u^2}{2}\\right]_{-1}^1=0\\text{ metres}.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"04adf32b8ecbb4ecb4ef30dd5a5407b7\">$$\n\\int_0^{\\sqrt2}2t(t^2-1),dt\n=\\int_{-1}^1u,du\n=\\left[\\frac{u^2}{2}\\right]_{-1}^1=0\\text{ metres}.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  },
+  {
+    "file": "solutions.md",
+    "source_ordinal": 52,
+    "destination_ordinal": 52,
+    "source_line": 102,
+    "source_span": [
+      4056,
+      4181
+    ],
+    "section": "Solution P5",
+    "format": "display",
+    "source_type": "js-display-math",
+    "actual_type": "js-display-math",
+    "source_payload": "\n-\\int_0^1 2t(t^2-1)\\,dt\n+\\int_1^{\\sqrt2}2t(t^2-1)\\,dt\n=-\\int_{-1}^0u\\,du+\\int_0^1u\\,du\n=\\frac12+\\frac12=1\\text{ metre}.\n",
+    "actual_payload": "\n-\\int_0^1 2t(t^2-1),dt\n+\\int_1^{\\sqrt2}2t(t^2-1),dt\n=-\\int_{-1}^0u,du+\\int_0^1u,du\n=\\frac12+\\frac12=1\\text{ metre}.\n",
+    "exact": false,
+    "kind": "spacing_command_backslash_loss",
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"04adf32b8ecbb4ecb4ef30dd5a5407b7\">$$\n-\\int_0^1 2t(t^2-1),dt\n+\\int_1^{\\sqrt2}2t(t^2-1),dt\n=-\\int_{-1}^0u,du+\\int_0^1u,du\n=\\frac12+\\frac12=1\\text{ metre}.\n$$</math-renderer>",
+    "implication": "The intended TeX thin space becomes a literal comma token before the differential; expression punctuation is changed, not merely visual whitespace."
+  }
+]

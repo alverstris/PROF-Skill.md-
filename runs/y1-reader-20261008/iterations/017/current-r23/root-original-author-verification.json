@@ -1,0 +1,27 @@
+{
+  "manifest_listed_files": 31,
+  "all_exact": true,
+  "sources": 22,
+  "outputs": 5,
+  "all_bindings_exact": true,
+  "baseline_chunks_contiguous_exact": 9,
+  "helper_reruns": [
+    {
+      "args": [
+        "--topic",
+        "ftc1"
+      ],
+      "exit": 1,
+      "stdout": "NOT_READY \u2014 topic:ftc1\nThis checks declared records, file/locator existence and revision freshness only. Source reads, web reads, applicability, waivers and semantic reviews are self-reported. It does not certify teaching quality, learner mastery, authorization, or skill invocation/application.\nftc1: pass=10, unverified=2\nREADINESS ITEM ftc1.gap.destination: unresolved consequential gap\nREADINESS ITEM ftc1.T11: not ready: unverified\nREADINESS ITEM ftc1.T12: not ready: unverified\nAddress the listed readiness items: repair actual defects or await required student information. Recheck affected teaching and dependencies before updating recorded hashes; do not invent resolution to obtain a clean status.\n",
+      "stderr": ""
+    },
+    {
+      "args": [],
+      "exit": 1,
+      "stdout": "NOT_READY \u2014 full declared project\nThis checks declared records, file/locator existence and revision freshness only. Source reads, web reads, applicability, waivers and semantic reviews are self-reported. It does not certify teaching quality, learner mastery, authorization, or skill invocation/application.\nftc1: pass=10, unverified=2\nREADINESS ITEM ftc1.gap.destination: unresolved consequential gap\nREADINESS ITEM ftc1.T11: not ready: unverified\nREADINESS ITEM ftc1.T12: not ready: unverified\nREADINESS ITEM output_check.final_review: not ready: unverified\nREADINESS ITEM output_check.destination_math: not ready: unverified\nREADINESS ITEM output_check.destination_typography: not ready: unverified\nREADINESS ITEM output_check.sasis: not ready: pending\nREADINESS ITEM output_check.final_pdf: not ready: pending\nAddress the listed readiness items: repair actual defects or await required student information. Recheck affected teaching and dependencies before updating recorded hashes; do not invent resolution to obtain a clean status.\n",
+      "stderr": ""
+    }
+  ],
+  "semantic_review": "root-original-content-review.md plus full author A01\u2013A16/source/withdrawn lexical findings read in72dd98",
+  "status": "original author audit adequate and honestly NOT_READY; actual destination failure prevents acceptance"
+}

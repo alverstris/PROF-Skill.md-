@@ -1,0 +1,7 @@
+D017 / author_d017_r23 / frozen original v1
+Skill ../controls/SKILL.md r23, canonical root-pinned d71b2c7ce197baf47b25e11fda15e18135eb67e6. Exact request ../request.md; topic ftc1 covers entire source lecture.
+All control/source/baseline reads complete. Nine contiguous baseline ranges logged; original five source pages text and images inspected. All source examples and figure relationships mapped in audit/source-review.md and audit/author-audit.md.
+Current learner output: learner/lesson.md, hints.md, solutions.md and figures/sine.png, additivity.png. learner-manifest.json freezes original bytes/read order; no v2 and no post-freeze edits. Prompt-only packet given to root before solutions; root independently solved it before reading teaching.
+Author checks: full A01–A16 route/help reconstruction, source coverage,28 computational checks, local plots and navigation complete. Initial spacing-check failure preserved; A-LEX-01 withdrawn because checker over-applied dollar/backtick-specific clause to plain-dollar math. See mechanical-disposition.json and superseding author-audit disposition.
+Helper topic/full checks NOT_READY honestly: T11/T12, actual destination, external fresh SASIS and root final/PDF orchestration remain unverified/pending. Root reports separate actual destination math defect; author has not diagnosed it.
+No skill edits, no publication, no user PDF/ZIP. Next action: root consolidate complete original audits, then authorize/version any justified repair; do not silently modify original learner files or refresh old passes.

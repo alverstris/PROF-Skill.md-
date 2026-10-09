@@ -1,0 +1,104 @@
+{
+  "revision": "D017-original-r23-author-v1",
+  "files": [
+    {
+      "file": "hints.md",
+      "lines": 38,
+      "math_expressions": 20,
+      "unique_anchors": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5"
+      ],
+      "local_links_valid": 7,
+      "prose_source_emphasis_markers": 0
+    },
+    {
+      "file": "lesson.md",
+      "lines": 224,
+      "math_expressions": 164,
+      "unique_anchors": [
+        "u1",
+        "p1",
+        "u2",
+        "u3",
+        "p2",
+        "u4",
+        "p3",
+        "u5",
+        "p4",
+        "u6",
+        "p5"
+      ],
+      "local_links_valid": 16,
+      "prose_source_emphasis_markers": 0
+    },
+    {
+      "file": "solutions.md",
+      "lines": 111,
+      "math_expressions": 56,
+      "unique_anchors": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "local_links_valid": 12,
+      "prose_source_emphasis_markers": 0
+    }
+  ],
+  "defects": [
+    {
+      "kind": "missing_explicit_space_after_strict_comparison_command",
+      "file": "solutions.md",
+      "line": 22,
+      "payload": "$0\\le t\\lt1$",
+      "command": "\\lt"
+    },
+    {
+      "kind": "missing_explicit_space_after_strict_comparison_command",
+      "file": "solutions.md",
+      "line": 90,
+      "payload": "$0\\lt t\\lt1$",
+      "command": "\\lt"
+    },
+    {
+      "kind": "missing_explicit_space_after_strict_comparison_command",
+      "file": "solutions.md",
+      "line": 90,
+      "payload": "$2t\\gt0$",
+      "command": "\\gt"
+    },
+    {
+      "kind": "missing_explicit_space_after_strict_comparison_command",
+      "file": "solutions.md",
+      "line": 90,
+      "payload": "$t^2-1\\lt0$",
+      "command": "\\lt"
+    }
+  ],
+  "limits": [
+    "Static source check does not establish actual GitHub parsing, visual expression preservation, typography or live link behavior."
+  ],
+  "freeze_hashes_unchanged": true,
+  "images": [
+    {
+      "path": "additivity.png",
+      "size_px": [
+        1408,
+        608
+      ]
+    },
+    {
+      "path": "sine.png",
+      "size_px": [
+        1408,
+        608
+      ]
+    }
+  ],
+  "status": "fail"
+}

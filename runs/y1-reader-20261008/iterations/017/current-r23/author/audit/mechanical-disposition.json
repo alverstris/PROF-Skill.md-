@@ -1,0 +1,31 @@
+{
+  "original_check": "mechanical-original-v1.json",
+  "original_exit_code": 1,
+  "finding": "A-LEX-01",
+  "disposition": "withdrawn_as_established_instruction_violation",
+  "reason": "Checker wrongly applied dollar/backtick-specific terminating-space condition to plain-dollar inline mathematics.",
+  "actual_occurrences": [
+    {
+      "line": 22,
+      "payload": "$0\\le t\\lt1$",
+      "dollar_backtick_trigger": false
+    },
+    {
+      "line": 90,
+      "payload": "$0\\lt t\\lt1$",
+      "dollar_backtick_trigger": false
+    },
+    {
+      "line": 90,
+      "payload": "$2t\\gt0$",
+      "dollar_backtick_trigger": false
+    },
+    {
+      "line": 90,
+      "payload": "$t^2-1\\lt0$",
+      "dollar_backtick_trigger": false
+    }
+  ],
+  "learner_edits": false,
+  "actual_destination_math": "unverified_by_author"
+}

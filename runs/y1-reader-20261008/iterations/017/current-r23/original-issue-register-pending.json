@@ -1,0 +1,25 @@
+{
+  "revision": "D017-original-r23-author-v1",
+  "status": "complete source/root review; author/SASIS/destination final returns pending",
+  "issues": [
+    {
+      "id": "D017-D01",
+      "class": "actual destination mathematical loss",
+      "evidence": "root-original-parser-verification.json",
+      "finding": "Two endpoint-bar inline expressions at lesson line20 disappear into an emphasis span;46other expressions lose67thinspace backslashes.240intended math nodes,238actual.",
+      "root_independent_verification": "complete mapping, all remaining payloads/types aligned exactly after only observed thinspace loss",
+      "affected": "main route,hints,solutions; actual forced emphasis includes prose or",
+      "repair": "pending consolidated whole-original audit; safe syntax needed",
+      "skill_change": "not yet decided; repeated display loss plus newly demonstrated plain-inline Markdown collision may justify a narrow syntax instruction, with actual fresh generation and all affected earlier checks mandatory"
+    },
+    {
+      "id": "D017-A01",
+      "class": "author check over-application",
+      "finding": "Four commands in plain-dollar math lack following literal spaces. r23 clause is conditional on dollar/backtick protected inline math; its trigger is false here.",
+      "disposition": "withdrawn as established instruction violation; preserve author original finding and corrected check. No repair solely for this observation."
+    }
+  ],
+  "unchanged_correctness": "Root entire original source/learner/help/twofigures review found no established semantic or scientific defect. Fresh reader findings still pending.",
+  "publication": "Original six-file freeze ae08f92832c91a7a5652ca874ffe807afedf38a9; all fetched exact",
+  "next": "Finish full original author/reader/destination audits, preserve published evidence, then decide consolidated repair and any justified skill candidate."
+}

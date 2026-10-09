@@ -1,0 +1,2443 @@
+{
+  "condition": "Independent root implementation; source regex and embedded GitHub JSON extracted directly, stdlib HTMLParser exactly once. No second HTML unescape or reviewer parser imported. Same standard parser family is not an independent browser engine.",
+  "commit": "ae08f92832c91a7a5652ca874ffe807afedf38a9",
+  "total_source": 240,
+  "total_actual": 238,
+  "missing": 2,
+  "changed": 46,
+  "lost_thinspace_backslashes": 67,
+  "full_map": [
+    {
+      "file": "lesson.md",
+      "source_count": 164,
+      "actual_count": 162,
+      "source_inline": 146,
+      "source_display": 18,
+      "em_text": [
+        "a^b$ or $F(x)|"
+      ],
+      "mapping": [
+        {
+          "source_index": 1,
+          "type": "inline",
+          "payload": "\\int_a^b f(x)\\,dx",
+          "line": 10,
+          "actual_index": 1,
+          "actual_payload": "\\int_a^b f(x),dx",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 2,
+          "type": "inline",
+          "payload": "a,b",
+          "line": 10,
+          "actual_index": 2,
+          "actual_payload": "a,b",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 3,
+          "type": "inline",
+          "payload": "f",
+          "line": 10,
+          "actual_index": 3,
+          "actual_payload": "f",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 4,
+          "type": "inline",
+          "payload": "x",
+          "line": 10,
+          "actual_index": 4,
+          "actual_payload": "x",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 5,
+          "type": "inline",
+          "payload": "dx",
+          "line": 10,
+          "actual_index": 5,
+          "actual_payload": "dx",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 6,
+          "type": "inline",
+          "payload": "a\\lt b",
+          "line": 10,
+          "actual_index": 6,
+          "actual_payload": "a\\lt b",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 7,
+          "type": "inline",
+          "payload": "f(x_i)",
+          "line": 10,
+          "actual_index": 7,
+          "actual_payload": "f(x_i)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 8,
+          "type": "inline",
+          "payload": "\\Delta x",
+          "line": 10,
+          "actual_index": 8,
+          "actual_payload": "\\Delta x",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 9,
+          "type": "inline",
+          "payload": "f\\ge0",
+          "line": 10,
+          "actual_index": 9,
+          "actual_payload": "f\\ge0",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 10,
+          "type": "inline",
+          "payload": "x^2",
+          "line": 10,
+          "actual_index": 10,
+          "actual_payload": "x^2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 11,
+          "type": "inline",
+          "payload": "a",
+          "line": 10,
+          "actual_index": 11,
+          "actual_payload": "a",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 12,
+          "type": "inline",
+          "payload": "b",
+          "line": 10,
+          "actual_index": 12,
+          "actual_payload": "b",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 13,
+          "type": "inline",
+          "payload": "\\int_a^b x^2\\,dx",
+          "line": 10,
+          "actual_index": 13,
+          "actual_payload": "\\int_a^b x^2,dx",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 14,
+          "type": "inline",
+          "payload": "t",
+          "line": 10,
+          "actual_index": 14,
+          "actual_payload": "t",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 15,
+          "type": "inline",
+          "payload": "\\int_a^b t^2\\,dt",
+          "line": 10,
+          "actual_index": 15,
+          "actual_payload": "\\int_a^b t^2,dt",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 16,
+          "type": "inline",
+          "payload": "F",
+          "line": 12,
+          "actual_index": 16,
+          "actual_payload": "F",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 17,
+          "type": "inline",
+          "payload": "f",
+          "line": 12,
+          "actual_index": 17,
+          "actual_payload": "f",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 18,
+          "type": "inline",
+          "payload": "F'(x)=f(x)",
+          "line": 12,
+          "actual_index": 18,
+          "actual_payload": "F'(x)=f(x)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 19,
+          "type": "inline",
+          "payload": "f",
+          "line": 12,
+          "actual_index": 19,
+          "actual_payload": "f",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 20,
+          "type": "inline",
+          "payload": "a",
+          "line": 12,
+          "actual_index": 20,
+          "actual_payload": "a",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 21,
+          "type": "inline",
+          "payload": "b",
+          "line": 12,
+          "actual_index": 21,
+          "actual_payload": "b",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 22,
+          "type": "inline",
+          "payload": "F'=f",
+          "line": 12,
+          "actual_index": 22,
+          "actual_payload": "F'=f",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 23,
+          "type": "display",
+          "payload": "\n\\int_a^b f(x)\\,dx=F(b)-F(a).\n",
+          "line": 14,
+          "actual_index": 23,
+          "actual_payload": "\n\\int_a^b f(x),dx=F(b)-F(a).\n",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 24,
+          "type": "inline",
+          "payload": "1/x",
+          "line": 18,
+          "actual_index": 24,
+          "actual_payload": "1/x",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 25,
+          "type": "inline",
+          "payload": "F(x)|_a^b",
+          "line": 20,
+          "status": "missing_math_node",
+          "actual": null
+        },
+        {
+          "source_index": 26,
+          "type": "inline",
+          "payload": "F(x)|_{x=a}^{x=b}",
+          "line": 20,
+          "status": "missing_math_node",
+          "actual": null
+        },
+        {
+          "source_index": 27,
+          "type": "inline",
+          "payload": "F(b)-F(a)",
+          "line": 20,
+          "actual_index": 25,
+          "actual_payload": "F(b)-F(a)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 28,
+          "type": "inline",
+          "payload": "[F(x)]_a^b",
+          "line": 20,
+          "actual_index": 26,
+          "actual_payload": "[F(x)]_a^b",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 29,
+          "type": "inline",
+          "payload": "F(x)=x^3/3",
+          "line": 22,
+          "actual_index": 27,
+          "actual_payload": "F(x)=x^3/3",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 30,
+          "type": "inline",
+          "payload": "F'(x)=x^2",
+          "line": 22,
+          "actual_index": 28,
+          "actual_payload": "F'(x)=x^2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 31,
+          "type": "display",
+          "payload": "\n\\int_a^b x^2\\,dx=\\left[\\frac{x^3}{3}\\right]_a^b\n=\\frac{b^3}{3}-\\frac{a^3}{3}.\n",
+          "line": 24,
+          "actual_index": 29,
+          "actual_payload": "\n\\int_a^b x^2,dx=\\left[\\frac{x^3}{3}\\right]_a^b\n=\\frac{b^3}{3}-\\frac{a^3}{3}.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 32,
+          "type": "display",
+          "payload": "\n\\int_0^1 x^5\\,dx=\\left[\\frac{x^6}{6}\\right]_0^1=\\frac16.\n",
+          "line": 31,
+          "actual_index": 30,
+          "actual_payload": "\n\\int_0^1 x^5,dx=\\left[\\frac{x^6}{6}\\right]_0^1=\\frac16.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 33,
+          "type": "inline",
+          "payload": "F+C",
+          "line": 35,
+          "actual_index": 31,
+          "actual_payload": "F+C",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 34,
+          "type": "inline",
+          "payload": "(F(b)+C)-(F(a)+C)=F(b)-F(a)",
+          "line": 35,
+          "actual_index": 32,
+          "actual_payload": "(F(b)+C)-(F(a)+C)=F(b)-F(a)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 35,
+          "type": "inline",
+          "payload": "+C",
+          "line": 35,
+          "actual_index": 33,
+          "actual_payload": "+C",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 36,
+          "type": "inline",
+          "payload": "\\int f(x)\\,dx=F(x)+C",
+          "line": 35,
+          "actual_index": 34,
+          "actual_payload": "\\int f(x),dx=F(x)+C",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 37,
+          "type": "inline",
+          "payload": "\\int_1^2 x^5\\,dx",
+          "line": 40,
+          "actual_index": 35,
+          "actual_payload": "\\int_1^2 x^5,dx",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 38,
+          "type": "inline",
+          "payload": "F(x)=x^6/6",
+          "line": 40,
+          "actual_index": 36,
+          "actual_payload": "F(x)=x^6/6",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 39,
+          "type": "inline",
+          "payload": "F(x)+7",
+          "line": 40,
+          "actual_index": 37,
+          "actual_payload": "F(x)+7",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 40,
+          "type": "inline",
+          "payload": "(-\\cos x)'=\\sin x",
+          "line": 47,
+          "actual_index": 38,
+          "actual_payload": "(-\\cos x)'=\\sin x",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 41,
+          "type": "display",
+          "payload": "\n\\int_0^\\pi\\sin x\\,dx=[-\\cos x]_0^\\pi\n=-\\cos\\pi-(-\\cos0)=1-(-1)=2.\n",
+          "line": 49,
+          "actual_index": 39,
+          "actual_payload": "\n\\int_0^\\pi\\sin x,dx=[-\\cos x]_0^\\pi\n=-\\cos\\pi-(-\\cos0)=1-(-1)=2.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 42,
+          "type": "display",
+          "payload": "\n\\int_0^{2\\pi}\\sin x\\,dx=[-\\cos x]_0^{2\\pi}\n=-1-(-1)=0.\n",
+          "line": 56,
+          "actual_index": 40,
+          "actual_payload": "\n\\int_0^{2\\pi}\\sin x,dx=[-\\cos x]_0^{2\\pi}\n=-1-(-1)=0.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 43,
+          "type": "inline",
+          "payload": "\\int_\\pi^{2\\pi}\\sin x\\,dx=-2",
+          "line": 61,
+          "actual_index": 41,
+          "actual_payload": "\\int_\\pi^{2\\pi}\\sin x,dx=-2",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 44,
+          "type": "inline",
+          "payload": "2+2=4",
+          "line": 61,
+          "actual_index": 42,
+          "actual_payload": "2+2=4",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 45,
+          "type": "inline",
+          "payload": "y=\\sin x",
+          "line": 65,
+          "actual_index": 43,
+          "actual_payload": "y=\\sin x",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 46,
+          "type": "inline",
+          "payload": "x",
+          "line": 65,
+          "actual_index": 44,
+          "actual_payload": "x",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 47,
+          "type": "inline",
+          "payload": "\\pi",
+          "line": 65,
+          "actual_index": 45,
+          "actual_payload": "\\pi",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 48,
+          "type": "inline",
+          "payload": "+2",
+          "line": 65,
+          "actual_index": 46,
+          "actual_payload": "+2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 49,
+          "type": "inline",
+          "payload": "\\pi",
+          "line": 65,
+          "actual_index": 47,
+          "actual_payload": "\\pi",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 50,
+          "type": "inline",
+          "payload": "2\\pi",
+          "line": 65,
+          "actual_index": 48,
+          "actual_payload": "2\\pi",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 51,
+          "type": "inline",
+          "payload": "-2",
+          "line": 65,
+          "actual_index": 49,
+          "actual_payload": "-2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 52,
+          "type": "inline",
+          "payload": "x(t)",
+          "line": 67,
+          "actual_index": 50,
+          "actual_payload": "x(t)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 53,
+          "type": "inline",
+          "payload": "v(t)=x'(t)",
+          "line": 67,
+          "actual_index": 51,
+          "actual_payload": "v(t)=x'(t)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 54,
+          "type": "inline",
+          "payload": "|v(t)|",
+          "line": 67,
+          "actual_index": 52,
+          "actual_payload": "|v(t)|",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 55,
+          "type": "inline",
+          "payload": "a\\lt b",
+          "line": 67,
+          "actual_index": 53,
+          "actual_payload": "a\\lt b",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 56,
+          "type": "display",
+          "payload": "\n\\int_a^b v(t)\\,dt=x(b)-x(a),\\qquad\n\\text{distance travelled}=\\int_a^b|v(t)|\\,dt.\n",
+          "line": 69,
+          "actual_index": 54,
+          "actual_payload": "\n\\int_a^b v(t),dt=x(b)-x(a),\\qquad\n\\text{distance travelled}=\\int_a^b|v(t)|,dt.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 2
+        },
+        {
+          "source_index": 57,
+          "type": "inline",
+          "payload": "v(t)\\ge0",
+          "line": 74,
+          "actual_index": 55,
+          "actual_payload": "v(t)\\ge0",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 58,
+          "type": "inline",
+          "payload": "|v|",
+          "line": 74,
+          "actual_index": 56,
+          "actual_payload": "|v|",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 59,
+          "type": "inline",
+          "payload": "x'(t)",
+          "line": 74,
+          "actual_index": 57,
+          "actual_payload": "x'(t)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 60,
+          "type": "inline",
+          "payload": "[a,b]",
+          "line": 76,
+          "actual_index": 58,
+          "actual_payload": "[a,b]",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 61,
+          "type": "inline",
+          "payload": "n",
+          "line": 76,
+          "actual_index": 59,
+          "actual_payload": "n",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 62,
+          "type": "inline",
+          "payload": "\\Delta t=(b-a)/n",
+          "line": 76,
+          "actual_index": 60,
+          "actual_payload": "\\Delta t=(b-a)/n",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 63,
+          "type": "inline",
+          "payload": "t_i",
+          "line": 76,
+          "actual_index": 61,
+          "actual_payload": "t_i",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 64,
+          "type": "inline",
+          "payload": "\\sum_{i=1}^n v(t_i)\\Delta t",
+          "line": 76,
+          "actual_index": 62,
+          "actual_payload": "\\sum_{i=1}^n v(t_i)\\Delta t",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 65,
+          "type": "inline",
+          "payload": "v",
+          "line": 76,
+          "actual_index": 63,
+          "actual_payload": "v",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 66,
+          "type": "inline",
+          "payload": "|v|",
+          "line": 76,
+          "actual_index": 64,
+          "actual_payload": "|v|",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 67,
+          "type": "inline",
+          "payload": "-3",
+          "line": 76,
+          "actual_index": 65,
+          "actual_payload": "-3",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 68,
+          "type": "inline",
+          "payload": "-6",
+          "line": 76,
+          "actual_index": 66,
+          "actual_payload": "-6",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 69,
+          "type": "display",
+          "payload": "\n\\int_a^b f(x)\\,dx+\\int_b^c f(x)\\,dx=\\int_a^c f(x)\\,dx.\n",
+          "line": 83,
+          "actual_index": 67,
+          "actual_payload": "\n\\int_a^b f(x),dx+\\int_b^c f(x),dx=\\int_a^c f(x),dx.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 3
+        },
+        {
+          "source_index": 70,
+          "type": "inline",
+          "payload": "a\\lt b\\lt c",
+          "line": 87,
+          "actual_index": 68,
+          "actual_payload": "a\\lt b\\lt c",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 71,
+          "type": "inline",
+          "payload": "f(x)=1+x^2",
+          "line": 91,
+          "actual_index": 69,
+          "actual_payload": "f(x)=1+x^2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 72,
+          "type": "inline",
+          "payload": "a=0",
+          "line": 91,
+          "actual_index": 70,
+          "actual_payload": "a=0",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 73,
+          "type": "inline",
+          "payload": "b=1",
+          "line": 91,
+          "actual_index": 71,
+          "actual_payload": "b=1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 74,
+          "type": "inline",
+          "payload": "c=2",
+          "line": 91,
+          "actual_index": 72,
+          "actual_payload": "c=2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 75,
+          "type": "inline",
+          "payload": "a",
+          "line": 91,
+          "actual_index": 73,
+          "actual_payload": "a",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 76,
+          "type": "inline",
+          "payload": "c",
+          "line": 91,
+          "actual_index": 74,
+          "actual_payload": "c",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 77,
+          "type": "display",
+          "payload": "\n\\int_b^a f(x)\\,dx=-\\int_a^b f(x)\\,dx,\n\\qquad \\int_a^a f(x)\\,dx=0.\n",
+          "line": 95,
+          "actual_index": 75,
+          "actual_payload": "\n\\int_b^a f(x),dx=-\\int_a^b f(x),dx,\n\\qquad \\int_a^a f(x),dx=0.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 3
+        },
+        {
+          "source_index": 78,
+          "type": "inline",
+          "payload": "F(b)-F(a)",
+          "line": 100,
+          "actual_index": 76,
+          "actual_payload": "F(b)-F(a)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 79,
+          "type": "inline",
+          "payload": "F(a)-F(b)",
+          "line": 100,
+          "actual_index": 77,
+          "actual_payload": "F(a)-F(b)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 80,
+          "type": "inline",
+          "payload": "a,b,c",
+          "line": 100,
+          "actual_index": 78,
+          "actual_payload": "a,b,c",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 81,
+          "type": "inline",
+          "payload": "f",
+          "line": 100,
+          "actual_index": 79,
+          "actual_payload": "f",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 82,
+          "type": "display",
+          "payload": "\n(F(b)-F(a))+(F(c)-F(b))=F(c)-F(a).\n",
+          "line": 102,
+          "actual_index": 80,
+          "actual_payload": "\n(F(b)-F(a))+(F(c)-F(b))=F(c)-F(a).\n",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 83,
+          "type": "inline",
+          "payload": "F(b)",
+          "line": 106,
+          "actual_index": 81,
+          "actual_payload": "F(b)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 84,
+          "type": "inline",
+          "payload": "f(x)=1",
+          "line": 106,
+          "actual_index": 82,
+          "actual_payload": "f(x)=1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 85,
+          "type": "inline",
+          "payload": "a=0",
+          "line": 106,
+          "actual_index": 83,
+          "actual_payload": "a=0",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 86,
+          "type": "inline",
+          "payload": "b=3",
+          "line": 106,
+          "actual_index": 84,
+          "actual_payload": "b=3",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 87,
+          "type": "inline",
+          "payload": "c=1",
+          "line": 106,
+          "actual_index": 85,
+          "actual_payload": "c=1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 88,
+          "type": "inline",
+          "payload": "3+(-2)=1",
+          "line": 106,
+          "actual_index": 86,
+          "actual_payload": "3+(-2)=1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 89,
+          "type": "inline",
+          "payload": "c",
+          "line": 106,
+          "actual_index": 87,
+          "actual_payload": "c",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 90,
+          "type": "inline",
+          "payload": "v(t)=t-1",
+          "line": 108,
+          "actual_index": 88,
+          "actual_payload": "v(t)=t-1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 91,
+          "type": "inline",
+          "payload": "V(t)=t^2/2-t",
+          "line": 108,
+          "actual_index": 89,
+          "actual_payload": "V(t)=t^2/2-t",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 92,
+          "type": "inline",
+          "payload": "-1/2",
+          "line": 108,
+          "actual_index": 90,
+          "actual_payload": "-1/2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 93,
+          "type": "inline",
+          "payload": "V(2)-V(0)=0",
+          "line": 108,
+          "actual_index": 91,
+          "actual_payload": "V(2)-V(0)=0",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 94,
+          "type": "display",
+          "payload": "\n-\\int_0^1(t-1)\\,dt+\\int_1^2(t-1)\\,dt\n=-(-1/2)+(1/2)=1\\text{ metre}.\n",
+          "line": 110,
+          "actual_index": 92,
+          "actual_payload": "\n-\\int_0^1(t-1),dt+\\int_1^2(t-1),dt\n=-(-1/2)+(1/2)=1\\text{ metre}.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 2
+        },
+        {
+          "source_index": 95,
+          "type": "inline",
+          "payload": "v(t)=2t-2",
+          "line": 120,
+          "actual_index": 93,
+          "actual_payload": "v(t)=2t-2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 96,
+          "type": "inline",
+          "payload": "t",
+          "line": 120,
+          "actual_index": 94,
+          "actual_payload": "t",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 97,
+          "type": "inline",
+          "payload": "t=0",
+          "line": 120,
+          "actual_index": 95,
+          "actual_payload": "t=0",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 98,
+          "type": "inline",
+          "payload": "t=3",
+          "line": 120,
+          "actual_index": 96,
+          "actual_payload": "t=3",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 99,
+          "type": "inline",
+          "payload": "\\int_3^0v(t)\\,dt",
+          "line": 120,
+          "actual_index": 97,
+          "actual_payload": "\\int_3^0v(t),dt",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 100,
+          "type": "inline",
+          "payload": "f(x)\\le g(x)",
+          "line": 127,
+          "actual_index": 98,
+          "actual_payload": "f(x)\\le g(x)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 101,
+          "type": "inline",
+          "payload": "x",
+          "line": 127,
+          "actual_index": 99,
+          "actual_payload": "x",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 102,
+          "type": "inline",
+          "payload": "a",
+          "line": 127,
+          "actual_index": 100,
+          "actual_payload": "a",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 103,
+          "type": "inline",
+          "payload": "b",
+          "line": 127,
+          "actual_index": 101,
+          "actual_payload": "b",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 104,
+          "type": "inline",
+          "payload": "a\\lt b",
+          "line": 127,
+          "actual_index": 102,
+          "actual_payload": "a\\lt b",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 105,
+          "type": "inline",
+          "payload": "g-f",
+          "line": 127,
+          "actual_index": 103,
+          "actual_payload": "g-f",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 106,
+          "type": "display",
+          "payload": "\n0\\le\\int_a^b(g-f)\\,dx=\\int_a^b g\\,dx-\\int_a^b f\\,dx,\n",
+          "line": 129,
+          "actual_index": 104,
+          "actual_payload": "\n0\\le\\int_a^b(g-f),dx=\\int_a^b g,dx-\\int_a^b f,dx,\n",
+          "status": "changed_payload",
+          "lost_backslashes": 3
+        },
+        {
+          "source_index": 107,
+          "type": "inline",
+          "payload": "\\int_a^b f\\,dx\\le\\int_a^b g\\,dx",
+          "line": 133,
+          "actual_index": 105,
+          "actual_payload": "\\int_a^b f,dx\\le\\int_a^b g,dx",
+          "status": "changed_payload",
+          "lost_backslashes": 2
+        },
+        {
+          "source_index": 108,
+          "type": "inline",
+          "payload": "e",
+          "line": 135,
+          "actual_index": 106,
+          "actual_payload": "e",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 109,
+          "type": "inline",
+          "payload": "e^0=1",
+          "line": 135,
+          "actual_index": 107,
+          "actual_payload": "e^0=1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 110,
+          "type": "inline",
+          "payload": "1\\le e^x",
+          "line": 135,
+          "actual_index": 108,
+          "actual_payload": "1\\le e^x",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 111,
+          "type": "inline",
+          "payload": "x\\ge0",
+          "line": 135,
+          "actual_index": 109,
+          "actual_payload": "x\\ge0",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 112,
+          "type": "inline",
+          "payload": "[0,1]",
+          "line": 135,
+          "actual_index": 110,
+          "actual_payload": "[0,1]",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 113,
+          "type": "display",
+          "payload": "\n1=\\int_0^1 1\\,dx\\le\\int_0^1e^x\\,dx=e-1.\n",
+          "line": 137,
+          "actual_index": 111,
+          "actual_payload": "\n1=\\int_0^1 1,dx\\le\\int_0^1e^x,dx=e-1.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 2
+        },
+        {
+          "source_index": 114,
+          "type": "inline",
+          "payload": "e\\ge2",
+          "line": 141,
+          "actual_index": 112,
+          "actual_payload": "e\\ge2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 115,
+          "type": "inline",
+          "payload": "1+x\\le e^x",
+          "line": 141,
+          "actual_index": 113,
+          "actual_payload": "1+x\\le e^x",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 116,
+          "type": "inline",
+          "payload": "h(x)=e^x-1-x",
+          "line": 141,
+          "actual_index": 114,
+          "actual_payload": "h(x)=e^x-1-x",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 117,
+          "type": "inline",
+          "payload": "x\\ge0",
+          "line": 141,
+          "actual_index": 115,
+          "actual_payload": "x\\ge0",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 118,
+          "type": "inline",
+          "payload": "h'(x)=e^x-1\\ge0",
+          "line": 141,
+          "actual_index": 116,
+          "actual_payload": "h'(x)=e^x-1\\ge0",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 119,
+          "type": "inline",
+          "payload": "h",
+          "line": 141,
+          "actual_index": 117,
+          "actual_payload": "h",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 120,
+          "type": "inline",
+          "payload": "h(0)=0",
+          "line": 141,
+          "actual_index": 118,
+          "actual_payload": "h(0)=0",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 121,
+          "type": "inline",
+          "payload": "h(x)\\ge0",
+          "line": 141,
+          "actual_index": 119,
+          "actual_payload": "h(x)\\ge0",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 122,
+          "type": "display",
+          "payload": "\n\\frac32=\\left[x+\\frac{x^2}{2}\\right]_0^1\n=\\int_0^1(1+x)\\,dx\\le e-1.\n",
+          "line": 143,
+          "actual_index": 120,
+          "actual_payload": "\n\\frac32=\\left[x+\\frac{x^2}{2}\\right]_0^1\n=\\int_0^1(1+x),dx\\le e-1.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 123,
+          "type": "inline",
+          "payload": "e\\ge5/2",
+          "line": 148,
+          "actual_index": 121,
+          "actual_payload": "e\\ge5/2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 124,
+          "type": "inline",
+          "payload": "e",
+          "line": 148,
+          "actual_index": 122,
+          "actual_payload": "e",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 125,
+          "type": "inline",
+          "payload": "1+t\\le e^t",
+          "line": 153,
+          "actual_index": 123,
+          "actual_payload": "1+t\\le e^t",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 126,
+          "type": "inline",
+          "payload": "0\\le t\\le2",
+          "line": 153,
+          "actual_index": 124,
+          "actual_payload": "0\\le t\\le2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 127,
+          "type": "inline",
+          "payload": "e^2",
+          "line": 153,
+          "actual_index": 125,
+          "actual_payload": "e^2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 128,
+          "type": "inline",
+          "payload": "\\int_2^0(1+t)\\,dt",
+          "line": 153,
+          "actual_index": 126,
+          "actual_payload": "\\int_2^0(1+t),dt",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 129,
+          "type": "inline",
+          "payload": "\\int_2^0e^t\\,dt",
+          "line": 153,
+          "actual_index": 127,
+          "actual_payload": "\\int_2^0e^t,dt",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 130,
+          "type": "inline",
+          "payload": "u=u(x)",
+          "line": 160,
+          "actual_index": 128,
+          "actual_payload": "u=u(x)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 131,
+          "type": "inline",
+          "payload": "g(u)",
+          "line": 160,
+          "actual_index": 129,
+          "actual_payload": "g(u)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 132,
+          "type": "inline",
+          "payload": "G'(u)=g(u)",
+          "line": 160,
+          "actual_index": 130,
+          "actual_payload": "G'(u)=g(u)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 133,
+          "type": "display",
+          "payload": "\n\\frac{d}{dx}G(u(x))=g(u(x))u'(x).\n",
+          "line": 162,
+          "actual_index": 131,
+          "actual_payload": "\n\\frac{d}{dx}G(u(x))=g(u(x))u'(x).\n",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 134,
+          "type": "inline",
+          "payload": "\\int g(u(x))u'(x)\\,dx=G(u(x))+C",
+          "line": 166,
+          "actual_index": 132,
+          "actual_payload": "\\int g(u(x))u'(x),dx=G(u(x))+C",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 135,
+          "type": "inline",
+          "payload": "du=u'(x)\\,dx",
+          "line": 166,
+          "actual_index": 133,
+          "actual_payload": "du=u'(x),dx",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 136,
+          "type": "inline",
+          "payload": "g",
+          "line": 166,
+          "actual_index": 134,
+          "actual_payload": "g",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 137,
+          "type": "inline",
+          "payload": "f(x)=g(u(x))",
+          "line": 166,
+          "actual_index": 135,
+          "actual_payload": "f(x)=g(u(x))",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 138,
+          "type": "inline",
+          "payload": "f(x)u'(x)",
+          "line": 166,
+          "actual_index": 136,
+          "actual_payload": "f(x)u'(x)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 139,
+          "type": "inline",
+          "payload": "f(x)",
+          "line": 166,
+          "actual_index": 137,
+          "actual_payload": "f(x)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 140,
+          "type": "inline",
+          "payload": "u",
+          "line": 168,
+          "actual_index": 138,
+          "actual_payload": "u",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 141,
+          "type": "inline",
+          "payload": "x_1,x_2",
+          "line": 168,
+          "actual_index": 139,
+          "actual_payload": "x_1,x_2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 142,
+          "type": "inline",
+          "payload": "g",
+          "line": 168,
+          "actual_index": 140,
+          "actual_payload": "g",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 143,
+          "type": "inline",
+          "payload": "u",
+          "line": 168,
+          "actual_index": 141,
+          "actual_payload": "u",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 144,
+          "type": "inline",
+          "payload": "G(u(x))",
+          "line": 168,
+          "actual_index": 142,
+          "actual_payload": "G(u(x))",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 145,
+          "type": "display",
+          "payload": "\n\\int_{x_1}^{x_2}g(u(x))u'(x)\\,dx\n=G(u(x_2))-G(u(x_1))\n=\\int_{u(x_1)}^{u(x_2)}g(u)\\,du.\n",
+          "line": 170,
+          "actual_index": 143,
+          "actual_payload": "\n\\int_{x_1}^{x_2}g(u(x))u'(x),dx\n=G(u(x_2))-G(u(x_1))\n=\\int_{u(x_1)}^{u(x_2)}g(u),du.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 2
+        },
+        {
+          "source_index": 146,
+          "type": "inline",
+          "payload": "u",
+          "line": 176,
+          "actual_index": 144,
+          "actual_payload": "u",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 147,
+          "type": "display",
+          "payload": "\nI=\\int_1^2(x^3+2)^4x^2\\,dx.\n",
+          "line": 180,
+          "actual_index": 145,
+          "actual_payload": "\nI=\\int_1^2(x^3+2)^4x^2,dx.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 148,
+          "type": "inline",
+          "payload": "x^3+2",
+          "line": 184,
+          "actual_index": 146,
+          "actual_payload": "x^3+2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 149,
+          "type": "inline",
+          "payload": "3x^2",
+          "line": 184,
+          "actual_index": 147,
+          "actual_payload": "3x^2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 150,
+          "type": "inline",
+          "payload": "u=x^3+2",
+          "line": 184,
+          "actual_index": 148,
+          "actual_payload": "u=x^3+2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 151,
+          "type": "inline",
+          "payload": "du=3x^2\\,dx",
+          "line": 184,
+          "actual_index": 149,
+          "actual_payload": "du=3x^2,dx",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 152,
+          "type": "inline",
+          "payload": "x^2\\,dx=du/3",
+          "line": 184,
+          "actual_index": 150,
+          "actual_payload": "x^2,dx=du/3",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 153,
+          "type": "inline",
+          "payload": "x=1",
+          "line": 184,
+          "actual_index": 151,
+          "actual_payload": "x=1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 154,
+          "type": "inline",
+          "payload": "u=3",
+          "line": 184,
+          "actual_index": 152,
+          "actual_payload": "u=3",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 155,
+          "type": "inline",
+          "payload": "x=2",
+          "line": 184,
+          "actual_index": 153,
+          "actual_payload": "x=2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 156,
+          "type": "inline",
+          "payload": "u=10",
+          "line": 184,
+          "actual_index": 154,
+          "actual_payload": "u=10",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 157,
+          "type": "display",
+          "payload": "\nI=\\frac13\\int_3^{10}u^4\\,du\n=\\left[\\frac{u^5}{15}\\right]_3^{10}\n=\\frac{10^5-3^5}{15}.\n",
+          "line": 186,
+          "actual_index": 155,
+          "actual_payload": "\nI=\\frac13\\int_3^{10}u^4,du\n=\\left[\\frac{u^5}{15}\\right]_3^{10}\n=\\frac{10^5-3^5}{15}.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 158,
+          "type": "display",
+          "payload": "\n\\frac{d}{dx}\\left(\\frac{(x^3+2)^5}{15}\\right)\n=\\frac5{15}(x^3+2)^4(3x^2)=(x^3+2)^4x^2.\n",
+          "line": 194,
+          "actual_index": 156,
+          "actual_payload": "\n\\frac{d}{dx}\\left(\\frac{(x^3+2)^5}{15}\\right)\n=\\frac5{15}(x^3+2)^4(3x^2)=(x^3+2)^4x^2.\n",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 159,
+          "type": "inline",
+          "payload": "x",
+          "line": 199,
+          "actual_index": 157,
+          "actual_payload": "x",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 160,
+          "type": "inline",
+          "payload": "u^5/15",
+          "line": 199,
+          "actual_index": 158,
+          "actual_payload": "u^5/15",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 161,
+          "type": "inline",
+          "payload": "\\int_0^1x(2-x^2)^4\\,dx",
+          "line": 204,
+          "actual_index": 159,
+          "actual_payload": "\\int_0^1x(2-x^2)^4,dx",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 162,
+          "type": "inline",
+          "payload": "v(t)=2t(t^2-1)",
+          "line": 218,
+          "actual_index": 160,
+          "actual_payload": "v(t)=2t(t^2-1)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 163,
+          "type": "inline",
+          "payload": "t",
+          "line": 218,
+          "actual_index": 161,
+          "actual_payload": "t",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 164,
+          "type": "inline",
+          "payload": "0\\le t\\le\\sqrt2",
+          "line": 218,
+          "actual_index": 162,
+          "actual_payload": "0\\le t\\le\\sqrt2",
+          "status": "exact",
+          "lost_backslashes": 0
+        }
+      ],
+      "raw_html_sha256": "f98697a01a3ff5b0d9e96f6ab6d2c98658c092b6a19ef78eb2cf16a825c80128"
+    },
+    {
+      "file": "hints.md",
+      "source_count": 20,
+      "actual_count": 20,
+      "source_inline": 20,
+      "source_display": 0,
+      "em_text": [],
+      "mapping": [
+        {
+          "source_index": 1,
+          "type": "inline",
+          "payload": "F",
+          "line": 8,
+          "actual_index": 1,
+          "actual_payload": "F",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 2,
+          "type": "inline",
+          "payload": "(2^6/6)-(1^6/6)",
+          "line": 8,
+          "actual_index": 2,
+          "actual_payload": "(2^6/6)-(1^6/6)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 3,
+          "type": "inline",
+          "payload": "+7",
+          "line": 8,
+          "actual_index": 3,
+          "actual_payload": "+7",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 4,
+          "type": "inline",
+          "payload": "2t-2=0",
+          "line": 15,
+          "actual_index": 4,
+          "actual_payload": "2t-2=0",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 5,
+          "type": "inline",
+          "payload": "[0,3]",
+          "line": 15,
+          "actual_index": 5,
+          "actual_payload": "[0,3]",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 6,
+          "type": "inline",
+          "payload": "t^2-2t",
+          "line": 15,
+          "actual_index": 6,
+          "actual_payload": "t^2-2t",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 7,
+          "type": "inline",
+          "payload": "[0,2]",
+          "line": 22,
+          "actual_index": 7,
+          "actual_payload": "[0,2]",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 8,
+          "type": "inline",
+          "payload": "[t+t^2/2]_0^2",
+          "line": 22,
+          "actual_index": 8,
+          "actual_payload": "[t+t^2/2]_0^2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 9,
+          "type": "inline",
+          "payload": "[e^t]_0^2",
+          "line": 22,
+          "actual_index": 9,
+          "actual_payload": "[e^t]_0^2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 10,
+          "type": "inline",
+          "payload": "e^2",
+          "line": 22,
+          "actual_index": 10,
+          "actual_payload": "e^2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 11,
+          "type": "inline",
+          "payload": "-1",
+          "line": 22,
+          "actual_index": 11,
+          "actual_payload": "-1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 12,
+          "type": "inline",
+          "payload": "-2x",
+          "line": 29,
+          "actual_index": 12,
+          "actual_payload": "-2x",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 13,
+          "type": "inline",
+          "payload": "u=2-x^2",
+          "line": 29,
+          "actual_index": 13,
+          "actual_payload": "u=2-x^2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 14,
+          "type": "inline",
+          "payload": "du=-2x\\,dx",
+          "line": 29,
+          "actual_index": 14,
+          "actual_payload": "du=-2x,dx",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 15,
+          "type": "inline",
+          "payload": "x\\,dx",
+          "line": 29,
+          "actual_index": 15,
+          "actual_payload": "x,dx",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 16,
+          "type": "inline",
+          "payload": "u(0)",
+          "line": 29,
+          "actual_index": 16,
+          "actual_payload": "u(0)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 17,
+          "type": "inline",
+          "payload": "u(1)",
+          "line": 29,
+          "actual_index": 17,
+          "actual_payload": "u(1)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 18,
+          "type": "inline",
+          "payload": "2t",
+          "line": 36,
+          "actual_index": 18,
+          "actual_payload": "2t",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 19,
+          "type": "inline",
+          "payload": "t^2-1",
+          "line": 36,
+          "actual_index": 19,
+          "actual_payload": "t^2-1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 20,
+          "type": "inline",
+          "payload": "2t\\,dt",
+          "line": 36,
+          "actual_index": 20,
+          "actual_payload": "2t,dt",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        }
+      ],
+      "raw_html_sha256": "a19f38237d4091fe9d97850a48fb14e384e895c0e90ea5d4297460351fcb4be4"
+    },
+    {
+      "file": "solutions.md",
+      "source_count": 56,
+      "actual_count": 56,
+      "source_inline": 47,
+      "source_display": 9,
+      "em_text": [],
+      "mapping": [
+        {
+          "source_index": 1,
+          "type": "inline",
+          "payload": "(x^6/6)'=x^5",
+          "line": 8,
+          "actual_index": 1,
+          "actual_payload": "(x^6/6)'=x^5",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 2,
+          "type": "inline",
+          "payload": "x^5",
+          "line": 8,
+          "actual_index": 2,
+          "actual_payload": "x^5",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 3,
+          "type": "inline",
+          "payload": "[1,2]",
+          "line": 8,
+          "actual_index": 3,
+          "actual_payload": "[1,2]",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 4,
+          "type": "display",
+          "payload": "\n\\int_1^2x^5\\,dx=\\frac{2^6}{6}-\\frac{1^6}{6}\n=\\frac{63}{6}=\\frac{21}{2}.\n",
+          "line": 10,
+          "actual_index": 4,
+          "actual_payload": "\n\\int_1^2x^5,dx=\\frac{2^6}{6}-\\frac{1^6}{6}\n=\\frac{63}{6}=\\frac{21}{2}.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 5,
+          "type": "inline",
+          "payload": "F",
+          "line": 15,
+          "actual_index": 5,
+          "actual_payload": "F",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 6,
+          "type": "inline",
+          "payload": "(F(2)+7)-(F(1)+7)=F(2)-F(1)",
+          "line": 15,
+          "actual_index": 6,
+          "actual_payload": "(F(2)+7)-(F(1)+7)=F(2)-F(1)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 7,
+          "type": "inline",
+          "payload": "t=1",
+          "line": 22,
+          "actual_index": 7,
+          "actual_payload": "t=1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 8,
+          "type": "inline",
+          "payload": "0\\le t\\lt1",
+          "line": 22,
+          "actual_index": 8,
+          "actual_payload": "0\\le t\\lt1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 9,
+          "type": "inline",
+          "payload": "1\\lt t\\le3",
+          "line": 22,
+          "actual_index": 9,
+          "actual_payload": "1\\lt t\\le3",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 10,
+          "type": "inline",
+          "payload": "V(t)=t^2-2t",
+          "line": 22,
+          "actual_index": 10,
+          "actual_payload": "V(t)=t^2-2t",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 11,
+          "type": "inline",
+          "payload": "-1",
+          "line": 22,
+          "actual_index": 11,
+          "actual_payload": "-1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 12,
+          "type": "display",
+          "payload": "\n\\int_0^3v(t)\\,dt=V(3)-V(0)=3\\text{ metres}.\n",
+          "line": 24,
+          "actual_index": 12,
+          "actual_payload": "\n\\int_0^3v(t),dt=V(3)-V(0)=3\\text{ metres}.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 13,
+          "type": "inline",
+          "payload": "-1",
+          "line": 28,
+          "actual_index": 13,
+          "actual_payload": "-1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 14,
+          "type": "inline",
+          "payload": "3-(-1)=4",
+          "line": 28,
+          "actual_index": 14,
+          "actual_payload": "3-(-1)=4",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 15,
+          "type": "display",
+          "payload": "\n\\int_0^3|v(t)|\\,dt\n=-\\int_0^1v(t)\\,dt+\\int_1^3v(t)\\,dt\n=1+4=5\\text{ metres}.\n",
+          "line": 30,
+          "actual_index": 15,
+          "actual_payload": "\n\\int_0^3|v(t)|,dt\n=-\\int_0^1v(t),dt+\\int_1^3v(t),dt\n=1+4=5\\text{ metres}.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 3
+        },
+        {
+          "source_index": 16,
+          "type": "inline",
+          "payload": "\\int_3^0v(t)\\,dt=-3",
+          "line": 36,
+          "actual_index": 16,
+          "actual_payload": "\\int_3^0v(t),dt=-3",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 17,
+          "type": "inline",
+          "payload": "V(0)-V(3)",
+          "line": 36,
+          "actual_index": 17,
+          "actual_payload": "V(0)-V(3)",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 18,
+          "type": "display",
+          "payload": "\n4=\\left[t+\\frac{t^2}{2}\\right]_0^2\n\\le[e^t]_0^2=e^2-1.\n",
+          "line": 45,
+          "actual_index": 18,
+          "actual_payload": "\n4=\\left[t+\\frac{t^2}{2}\\right]_0^2\n\\le[e^t]_0^2=e^2-1.\n",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 19,
+          "type": "inline",
+          "payload": "e^2\\ge5",
+          "line": 50,
+          "actual_index": 19,
+          "actual_payload": "e^2\\ge5",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 20,
+          "type": "display",
+          "payload": "\n\\int_2^0(1+t)\\,dt=-4\n\\ge\\int_2^0e^t\\,dt=1-e^2.\n",
+          "line": 52,
+          "actual_index": 20,
+          "actual_payload": "\n\\int_2^0(1+t),dt=-4\n\\ge\\int_2^0e^t,dt=1-e^2.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 2
+        },
+        {
+          "source_index": 21,
+          "type": "inline",
+          "payload": "\\ge",
+          "line": 57,
+          "actual_index": 21,
+          "actual_payload": "\\ge",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 22,
+          "type": "inline",
+          "payload": "4\\le e^2-1",
+          "line": 57,
+          "actual_index": 22,
+          "actual_payload": "4\\le e^2-1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 23,
+          "type": "inline",
+          "payload": "u=2-x^2",
+          "line": 64,
+          "actual_index": 23,
+          "actual_payload": "u=2-x^2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 24,
+          "type": "inline",
+          "payload": "du=-2x\\,dx",
+          "line": 64,
+          "actual_index": 24,
+          "actual_payload": "du=-2x,dx",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 25,
+          "type": "inline",
+          "payload": "x\\,dx=-du/2",
+          "line": 64,
+          "actual_index": 25,
+          "actual_payload": "x,dx=-du/2",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 26,
+          "type": "inline",
+          "payload": "x=0",
+          "line": 64,
+          "actual_index": 26,
+          "actual_payload": "x=0",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 27,
+          "type": "inline",
+          "payload": "u=2",
+          "line": 64,
+          "actual_index": 27,
+          "actual_payload": "u=2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 28,
+          "type": "inline",
+          "payload": "x=1",
+          "line": 64,
+          "actual_index": 28,
+          "actual_payload": "x=1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 29,
+          "type": "inline",
+          "payload": "u=1",
+          "line": 64,
+          "actual_index": 29,
+          "actual_payload": "u=1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 30,
+          "type": "display",
+          "payload": "\n\\int_0^1x(2-x^2)^4\\,dx\n=-\\frac12\\int_2^1u^4\\,du\n=\\frac12\\int_1^2u^4\\,du\n=\\left[\\frac{u^5}{10}\\right]_1^2\n=\\frac{31}{10}.\n",
+          "line": 66,
+          "actual_index": 30,
+          "actual_payload": "\n\\int_0^1x(2-x^2)^4,dx\n=-\\frac12\\int_2^1u^4,du\n=\\frac12\\int_1^2u^4,du\n=\\left[\\frac{u^5}{10}\\right]_1^2\n=\\frac{31}{10}.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 3
+        },
+        {
+          "source_index": 31,
+          "type": "inline",
+          "payload": "[0,1]",
+          "line": 74,
+          "actual_index": 31,
+          "actual_payload": "[0,1]",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 32,
+          "type": "inline",
+          "payload": "-(2-x^2)^5/10",
+          "line": 74,
+          "actual_index": 32,
+          "actual_payload": "-(2-x^2)^5/10",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 33,
+          "type": "inline",
+          "payload": "-5(2-x^2)^4(-2x)/10=x(2-x^2)^4",
+          "line": 74,
+          "actual_index": 33,
+          "actual_payload": "-5(2-x^2)^4(-2x)/10=x(2-x^2)^4",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 34,
+          "type": "inline",
+          "payload": "(-1/10)-(-32/10)=31/10",
+          "line": 74,
+          "actual_index": 34,
+          "actual_payload": "(-1/10)-(-32/10)=31/10",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 35,
+          "type": "inline",
+          "payload": "\\int_a^b f(x)\\,dx=F(b)-F(a)",
+          "line": 81,
+          "actual_index": 35,
+          "actual_payload": "\\int_a^b f(x),dx=F(b)-F(a)",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 36,
+          "type": "inline",
+          "payload": "f",
+          "line": 81,
+          "actual_index": 36,
+          "actual_payload": "f",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 37,
+          "type": "inline",
+          "payload": "F'=f",
+          "line": 81,
+          "actual_index": 37,
+          "actual_payload": "F'=f",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 38,
+          "type": "inline",
+          "payload": "u",
+          "line": 81,
+          "actual_index": 38,
+          "actual_payload": "u",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 39,
+          "type": "inline",
+          "payload": "g",
+          "line": 81,
+          "actual_index": 39,
+          "actual_payload": "g",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 40,
+          "type": "display",
+          "payload": "\n\\int_{x_1}^{x_2}g(u(x))u'(x)\\,dx\n=\\int_{u(x_1)}^{u(x_2)}g(u)\\,du.\n",
+          "line": 83,
+          "actual_index": 40,
+          "actual_payload": "\n\\int_{x_1}^{x_2}g(u(x))u'(x),dx\n=\\int_{u(x_1)}^{u(x_2)}g(u),du.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 2
+        },
+        {
+          "source_index": 41,
+          "type": "inline",
+          "payload": "0\\lt t\\lt1",
+          "line": 90,
+          "actual_index": 41,
+          "actual_payload": "0\\lt t\\lt1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 42,
+          "type": "inline",
+          "payload": "2t\\gt0",
+          "line": 90,
+          "actual_index": 42,
+          "actual_payload": "2t\\gt0",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 43,
+          "type": "inline",
+          "payload": "t^2-1\\lt0",
+          "line": 90,
+          "actual_index": 43,
+          "actual_payload": "t^2-1\\lt0",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 44,
+          "type": "inline",
+          "payload": "1\\lt t\\le\\sqrt2",
+          "line": 90,
+          "actual_index": 44,
+          "actual_payload": "1\\lt t\\le\\sqrt2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 45,
+          "type": "inline",
+          "payload": "u=t^2-1",
+          "line": 92,
+          "actual_index": 45,
+          "actual_payload": "u=t^2-1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 46,
+          "type": "inline",
+          "payload": "du=2t\\,dt",
+          "line": 92,
+          "actual_index": 46,
+          "actual_payload": "du=2t,dt",
+          "status": "changed_payload",
+          "lost_backslashes": 1
+        },
+        {
+          "source_index": 47,
+          "type": "inline",
+          "payload": "u=-1",
+          "line": 92,
+          "actual_index": 47,
+          "actual_payload": "u=-1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 48,
+          "type": "inline",
+          "payload": "u=1",
+          "line": 92,
+          "actual_index": 48,
+          "actual_payload": "u=1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 49,
+          "type": "display",
+          "payload": "\n\\int_0^{\\sqrt2}2t(t^2-1)\\,dt\n=\\int_{-1}^1u\\,du\n=\\left[\\frac{u^2}{2}\\right]_{-1}^1=0\\text{ metres}.\n",
+          "line": 94,
+          "actual_index": 49,
+          "actual_payload": "\n\\int_0^{\\sqrt2}2t(t^2-1),dt\n=\\int_{-1}^1u,du\n=\\left[\\frac{u^2}{2}\\right]_{-1}^1=0\\text{ metres}.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 2
+        },
+        {
+          "source_index": 50,
+          "type": "inline",
+          "payload": "t=1",
+          "line": 100,
+          "actual_index": 50,
+          "actual_payload": "t=1",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 51,
+          "type": "inline",
+          "payload": "u=0",
+          "line": 100,
+          "actual_index": 51,
+          "actual_payload": "u=0",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 52,
+          "type": "display",
+          "payload": "\n-\\int_0^1 2t(t^2-1)\\,dt\n+\\int_1^{\\sqrt2}2t(t^2-1)\\,dt\n=-\\int_{-1}^0u\\,du+\\int_0^1u\\,du\n=\\frac12+\\frac12=1\\text{ metre}.\n",
+          "line": 102,
+          "actual_index": 52,
+          "actual_payload": "\n-\\int_0^1 2t(t^2-1),dt\n+\\int_1^{\\sqrt2}2t(t^2-1),dt\n=-\\int_{-1}^0u,du+\\int_0^1u,du\n=\\frac12+\\frac12=1\\text{ metre}.\n",
+          "status": "changed_payload",
+          "lost_backslashes": 4
+        },
+        {
+          "source_index": 53,
+          "type": "inline",
+          "payload": "2t^3-2t",
+          "line": 109,
+          "actual_index": 53,
+          "actual_payload": "2t^3-2t",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 54,
+          "type": "inline",
+          "payload": "t^4/2-t^2",
+          "line": 109,
+          "actual_index": 54,
+          "actual_payload": "t^4/2-t^2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 55,
+          "type": "inline",
+          "payload": "\\sqrt2",
+          "line": 109,
+          "actual_index": 55,
+          "actual_payload": "\\sqrt2",
+          "status": "exact",
+          "lost_backslashes": 0
+        },
+        {
+          "source_index": 56,
+          "type": "inline",
+          "payload": "-1/2",
+          "line": 109,
+          "actual_index": 56,
+          "actual_payload": "-1/2",
+          "status": "exact",
+          "lost_backslashes": 0
+        }
+      ],
+      "raw_html_sha256": "15a77e9cfe18a959ea682a884b82c0ca19a0cf556f66c8d1d364d55a4f76f466"
+    }
+  ],
+  "status": "FAIL actual destination preservation"
+}

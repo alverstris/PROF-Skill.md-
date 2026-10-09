@@ -1,0 +1,68 @@
+{
+  "case": "D017 original r23 v1",
+  "immutable_commit": "ae08f92832c91a7a5652ca874ffe807afedf38a9",
+  "manifest_sha256": "89406dd25d7d15fe9b9b937e22e6daf17a2da85a29f4a3e93eb07fae3469d985",
+  "status": "FAIL: complete original destination audit; preview intentionally held",
+  "source_math": 240,
+  "source_inline": 213,
+  "source_display": 27,
+  "actual_math": 238,
+  "exact_expressions": 192,
+  "altered_expressions": 46,
+  "missing_math_expressions": 2,
+  "lost_thinspace_backslashes": 67,
+  "lost_subscript_underscores": 2,
+  "findings": [
+    {
+      "id": "MATH-1",
+      "obligation": "Actual destination math preservation/T11",
+      "count": 46,
+      "description": "67 thin-space backslashes lost in23 inline and23 display expressions; commas become actual payload tokens.",
+      "record": "aligned-complete-math-failure-map.json"
+    },
+    {
+      "id": "MATH-2",
+      "obligation": "Actual destination math preservation/T11",
+      "count": 2,
+      "description": "lesson line20 two endpoint-bar forms are absent as math nodes; underscores become a cross-expression em span containing prose or.",
+      "record": "missing-math-underscore-positions.json"
+    },
+    {
+      "id": "STYLE-1",
+      "obligation": "T11",
+      "description": "Same line20 parser collision emits unintended em spanning prose; not a separate content root cause.",
+      "record": "emphasis-style-supplement.json"
+    }
+  ],
+  "full_nonmath_prose_preserved": true,
+  "full_prose_math_stream_preserved": false,
+  "all24_paragraph_start_labels_exact": true,
+  "all_retained_part_labels_exact": true,
+  "source_and_actual_lists_absent": true,
+  "all5_raw_constituents_exact": true,
+  "all3_page_commit_path_identities_exact": true,
+  "all2_actual_PNGs_full_viewed": true,
+  "all21_CSS_fetched": true,
+  "normal_surrounding_prose_weight": 400,
+  "all21_named_targets_correspond": true,
+  "all33_crossfile_refs_correspond": true,
+  "all5_positive_help_return_chains_complete": true,
+  "global_hint_to_solutions_entry": true,
+  "official_frozen_local_PDF_exact": true,
+  "source_PDF_sha256": "f3bccf9b801aebb3266932eb8a549f700e5a38f26d377c85f6fd96ed9e7fb3b7",
+  "source_PDF_pages": 5,
+  "specific_source_citation_correspondence_checked": true,
+  "nonspace_strict_command_count": 4,
+  "strict_rule_literal_trigger": false,
+  "all_strict_actual_payloads_exact": true,
+  "preview_status": "unperformed_due_confirmed_actual_destination_failure",
+  "limits": [
+    "No live GitHub browser pixels, client MathJax, computed-style inspection or clicks.",
+    "All21 sanitized id targets and33 immutable cross-file routes match server data; current official examples specify name anchors, so no undocumented id-prefix client implementation claim.",
+    "No PDF build/render/native link audit for this failing original; held pending root disposition and a later frozen repair.",
+    "No SASIS report read and no new source-wide technical review claimed.",
+    "Four non-space-terminated strict commands are outside the protected-inline conditional trigger and are actual-payload exact."
+  ],
+  "learner_edits": false,
+  "publication": false
+}

@@ -1,0 +1,18 @@
+{
+  "initial_outputs_preserved": [
+    "parser-summary.json",
+    "complete-math-failure-map.json",
+    "lesson/math-comparison.json"
+  ],
+  "initial_limitation": "Initial generic runner only creates its per-ordinal failure list when source/destination counts are equal. Thus lesson mismatch_count0 and top-level16-row original map are incomplete, not passes; lesson all_math_exact is already false and its aligned hunks show the defects.",
+  "authoritative_complete_outputs": [
+    "full-expression-correspondence.json",
+    "aligned-complete-math-failure-map.json",
+    "all-thinspace-character-failures.json",
+    "full-audit-summary.json"
+  ],
+  "alignment": "Full alignment keys remove only the known backslash-comma loss to associate nodes, then each original pair is compared exactly and fails if unequal. Only unmatched source indices25/26 are admitted, with raw malformed paragraph evidence. All240 expressions accounted for; no data rewritten or failed artifact replaced.",
+  "failed_build_attempts": 0,
+  "preview_not_started": true,
+  "stdout_overwrites": false
+}

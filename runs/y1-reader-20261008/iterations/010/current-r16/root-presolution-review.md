@@ -1,0 +1,15 @@
+D010 root independent application calculations before authored solutions
+
+Root read only author/prompts-only.md, after original lecture sources and baseline prerequisite passages; no D010 authored teaching or solutions have been opened. This is independent technical calculation, not SASIS or observed student performance.
+
+Q1. Domain is the included interval [1,sqrt(e)]. The known derivative (1-ln x)/x² is positive throughout: denominator positive, and ln x ranges from0 to1/2. Its stationary input e lies outside because 1<sqrt(e)<e. The function strictly increases across the feasible interval. Thus unique minimum f(1)=0 atx=1 and unique maximum f(sqrt(e))=1/(2sqrt(e)) atx=sqrt(e). These are attained endpoint values, distinct from inputs. No interior candidate is missing because derivative exists and never vanishes there.
+
+Q2. Closed cylinder includes two disks plus rectangular side: S=2πr²+2πrh; V=πr²h with V>0, r>0 and h>0. Eliminate h=V/(πr²); S=2πr²+2V/r. Derivative4πr-2V/r²=2(2πr³-V)/r². Unique stationary radius a=(V/(2π))^(1/3), negative derivative belowa and positive above. All allowed radii lie in those intervals or at a, proving absolute minimum. The boundary limits both tend+infinity, so no maximum. At a, h=2a, ratioh/r=2, and Smin=6πa²=3(2π)^(1/3)V^(2/3). A direct independent algebraic proof sets t=r/a>0: S/(2πa²)-3=t²+2/t-3=(t-1)²(t+2)/t>=0 with equality onlyt=1. Taking V=2π gives r=1,h=2,S=6π; this detects missing lid factors. Units r,h length; S area. Thickness/seam model is explicit in the prompt.
+
+Q3. Recall categories: allowed interior points with zero derivative; allowed interior points where derivative fails; included boundary points; separate branches and limits at excluded/remote boundaries for existence/unboundedness. Global values compare original function outputs, not derivative outputs. Existence must not be presumed from a candidate list. Continuity on a closed bounded interval is one sufficient attainment condition; no derivative needed at corners or endpoints.
+
+Each wirepiece at least1/4 gives x>=1/4 and1-x>=1/4, so[1/4,3/4]. Square sides x/4,(1-x)/4 give A=(x²+(1-x)²)/16=(x-1/2)²/8+1/32. A'=(2x-1)/8; minimum1/32 at unique cut1/2. On the included restricted interval, the largest squared distance from1/2 is1/16, attained atboth endpoints; maximum5/128 atx=1/4 or3/4. Both cuts are feasible and swap the squares.
+
+Removing that bound but retaining two positive pieces gives(0,1). Minimum1/32 still at1/2. For every interiorcut, |x-1/2|<1/2, so A<1/16, approached asx→0+ or1− and never attained. Thus there is no maximum; supremum1/16. The former maximum value5/128 still occurs at1/4 and3/4 but is no longer a maximum in the enlarged domain. Distinguish that from losing those feasible cuts. One full square plus zero-length second piece would attain1/16 only in an altered endpoint-admitting model.
+
+These source and prompt deductions will be compared with the actual teaching after their dated/hash-bound preservation. They do not establish that the document provides the same warrants.

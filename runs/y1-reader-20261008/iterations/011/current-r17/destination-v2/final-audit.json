@@ -1,0 +1,856 @@
+{
+  "status": "FAIL_actual_math_preservation; preview_held_by_root",
+  "source_sha256": "e9e73db91081e1e72b822f961f8cc39c0e605e6b80e15b1f9e13c8eaea60fb7c",
+  "commit": "10b17585e23bf2066ac77d5d291e3bfa47fdda8b",
+  "identity": {
+    "requested_commit": "10b17585e23bf2066ac77d5d291e3bfa47fdda8b",
+    "requested_path": "runs/y1-reader-20261008/iterations/011/current-r17/author/teaching-v2.md",
+    "source_sha256": "e9e73db91081e1e72b822f961f8cc39c0e605e6b80e15b1f9e13c8eaea60fb7c",
+    "source_hash_matches": true,
+    "layout_commit_matches": true,
+    "blob_commit_matches": true,
+    "layout_path_matches": true,
+    "blob_path_matches": true,
+    "rich_text_untruncated": true,
+    "embedded_raw_exact_without_added_newline": false,
+    "embedded_raw_exact_with_one_added_terminal_newline": true
+  },
+  "manifest": [
+    {
+      "path": "runs/y1-reader-20261008/iterations/011/current-r17/author/teaching-v2.md",
+      "size_exact": true,
+      "sha_exact": true
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/011/current-r17/author/figures/radar-v2.png",
+      "size_exact": true,
+      "sha_exact": true
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/011/current-r17/author/figures/cone.png",
+      "size_exact": true,
+      "sha_exact": true
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/011/current-r17/author/figures/satellite.png",
+      "size_exact": true,
+      "sha_exact": true
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/011/current-r17/author/figures/mirror.png",
+      "size_exact": true,
+      "sha_exact": true
+    }
+  ],
+  "source_counts": {
+    "js-inline-math": 185,
+    "js-display-math": 16
+  },
+  "destination_counts": {
+    "js-inline-math": 183,
+    "js-display-math": 16
+  },
+  "changed_inline_payload_count": 35,
+  "lost_thin_space_backslash_count": 38,
+  "unrecognized_inline_math_count": 2,
+  "spacing_changes": [
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "D=50\\,\\mathrm{ft}",
+        "format": "inline",
+        "span": [
+          2263,
+          2282
+        ],
+        "paragraph": "P006"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "D=50,\\mathrm{ft}",
+        "wrapper_valid": true,
+        "raw_text": "$D=50,\\mathrm{ft}$",
+        "element": 21
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "D'=-80\\,\\mathrm{ft/s}",
+        "format": "inline",
+        "span": [
+          2287,
+          2310
+        ],
+        "paragraph": "P006"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "D'=-80,\\mathrm{ft/s}",
+        "wrapper_valid": true,
+        "raw_text": "$D'=-80,\\mathrm{ft/s}$",
+        "element": 22
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "x=\\sqrt{50^2-30^2}=40\\,\\mathrm{ft}",
+        "format": "inline",
+        "span": [
+          3277,
+          3313
+        ],
+        "paragraph": "P009"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "x=\\sqrt{50^2-30^2}=40,\\mathrm{ft}",
+        "wrapper_valid": true,
+        "raw_text": "$x=\\sqrt{50^2-30^2}=40,\\mathrm{ft}$",
+        "element": 37
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "100\\,\\mathrm{ft/s}",
+        "format": "inline",
+        "span": [
+          3549,
+          3569
+        ],
+        "paragraph": "P010"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "100,\\mathrm{ft/s}",
+        "wrapper_valid": true,
+        "raw_text": "$100,\\mathrm{ft/s}$",
+        "element": 40
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "1\\,\\mathrm{mile}=5280\\,\\mathrm{ft}",
+        "format": "inline",
+        "span": [
+          3587,
+          3623
+        ],
+        "paragraph": "P010"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "1,\\mathrm{mile}=5280,\\mathrm{ft}",
+        "wrapper_valid": true,
+        "raw_text": "$1,\\mathrm{mile}=5280,\\mathrm{ft}$",
+        "element": 41
+      },
+      "lost_thin_space_escape_count": 2,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "1\\,\\mathrm{hour}=3600\\,\\mathrm{s}",
+        "format": "inline",
+        "span": [
+          3628,
+          3663
+        ],
+        "paragraph": "P010"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "1,\\mathrm{hour}=3600,\\mathrm{s}",
+        "wrapper_valid": true,
+        "raw_text": "$1,\\mathrm{hour}=3600,\\mathrm{s}$",
+        "element": 42
+      },
+      "lost_thin_space_escape_count": 2,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "95\\,\\mathrm{ft/s}",
+        "format": "inline",
+        "span": [
+          3863,
+          3882
+        ],
+        "paragraph": "P011"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "95,\\mathrm{ft/s}",
+        "wrapper_valid": true,
+        "raw_text": "$95,\\mathrm{ft/s}$",
+        "element": 45
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "D=50\\,\\mathrm{ft}",
+        "format": "inline",
+        "span": [
+          4846,
+          4865
+        ],
+        "paragraph": "P012"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "D=50,\\mathrm{ft}",
+        "wrapper_valid": true,
+        "raw_text": "$D=50,\\mathrm{ft}$",
+        "element": 60
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "80\\,\\mathrm{ft/s}",
+        "format": "inline",
+        "span": [
+          4906,
+          4925
+        ],
+        "paragraph": "P012"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "80,\\mathrm{ft/s}",
+        "wrapper_valid": true,
+        "raw_text": "$80,\\mathrm{ft/s}$",
+        "element": 61
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "x'=-100\\,\\mathrm{ft/s}",
+        "format": "inline",
+        "span": [
+          5566,
+          5590
+        ],
+        "paragraph": "P014"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "x'=-100,\\mathrm{ft/s}",
+        "wrapper_valid": true,
+        "raw_text": "$x'=-100,\\mathrm{ft/s}$",
+        "element": 71
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "2\\,\\mathrm{ft^3/min}",
+        "format": "inline",
+        "span": [
+          6134,
+          6156
+        ],
+        "paragraph": "P016"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "2,\\mathrm{ft^3/min}",
+        "wrapper_valid": true,
+        "raw_text": "$2,\\mathrm{ft^3/min}$",
+        "element": 77
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "h=5\\,\\mathrm{ft}",
+        "format": "inline",
+        "span": [
+          6496,
+          6514
+        ],
+        "paragraph": "P016"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "h=5,\\mathrm{ft}",
+        "wrapper_valid": true,
+        "raw_text": "$h=5,\\mathrm{ft}$",
+        "element": 83
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "h=5\\,\\mathrm{ft}",
+        "format": "inline",
+        "span": [
+          7576,
+          7594
+        ],
+        "paragraph": "P020"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "h=5,\\mathrm{ft}",
+        "wrapper_valid": true,
+        "raw_text": "$h=5,\\mathrm{ft}$",
+        "element": 100
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "V'=2\\,\\mathrm{ft^3/min}",
+        "format": "inline",
+        "span": [
+          7599,
+          7624
+        ],
+        "paragraph": "P020"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "V'=2,\\mathrm{ft^3/min}",
+        "wrapper_valid": true,
+        "raw_text": "$V'=2,\\mathrm{ft^3/min}$",
+        "element": 101
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "4\\pi\\,\\mathrm{ft^2}",
+        "format": "inline",
+        "span": [
+          7653,
+          7674
+        ],
+        "paragraph": "P020"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "4\\pi,\\mathrm{ft^2}",
+        "wrapper_valid": true,
+        "raw_text": "$4\\pi,\\mathrm{ft^2}$",
+        "element": 103
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "2\\,\\mathrm{ft^3/min}",
+        "format": "inline",
+        "span": [
+          9320,
+          9342
+        ],
+        "paragraph": "P024"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "2,\\mathrm{ft^3/min}",
+        "wrapper_valid": true,
+        "raw_text": "$2,\\mathrm{ft^3/min}$",
+        "element": 125
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "(h/5)\\,\\mathrm{ft^3/min}",
+        "format": "inline",
+        "span": [
+          9390,
+          9416
+        ],
+        "paragraph": "P024"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "(h/5),\\mathrm{ft^3/min}",
+        "wrapper_valid": true,
+        "raw_text": "$(h/5),\\mathrm{ft^3/min}$",
+        "element": 126
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "k=(1/5)\\,\\mathrm{ft^2/min}",
+        "format": "inline",
+        "span": [
+          9496,
+          9524
+        ],
+        "paragraph": "P024"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "k=(1/5),\\mathrm{ft^2/min}",
+        "wrapper_valid": true,
+        "raw_text": "$k=(1/5),\\mathrm{ft^2/min}$",
+        "element": 129
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "h=5\\,\\mathrm{ft}",
+        "format": "inline",
+        "span": [
+          9597,
+          9615
+        ],
+        "paragraph": "P024"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "h=5,\\mathrm{ft}",
+        "wrapper_valid": true,
+        "raw_text": "$h=5,\\mathrm{ft}$",
+        "element": 130
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "c=3\\,\\mathrm{km}",
+        "format": "inline",
+        "span": [
+          15151,
+          15169
+        ],
+        "paragraph": "P035"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "c=3,\\mathrm{km}",
+        "wrapper_valid": true,
+        "raw_text": "$c=3,\\mathrm{km}$",
+        "element": 205
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "h=5\\,\\mathrm{km}",
+        "format": "inline",
+        "span": [
+          15180,
+          15198
+        ],
+        "paragraph": "P035"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "h=5,\\mathrm{km}",
+        "wrapper_valid": true,
+        "raw_text": "$h=5,\\mathrm{km}$",
+        "element": 206
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "0.01\\,\\mathrm{km}",
+        "format": "inline",
+        "span": [
+          15227,
+          15246
+        ],
+        "paragraph": "P035"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "0.01,\\mathrm{km}",
+        "wrapper_valid": true,
+        "raw_text": "$0.01,\\mathrm{km}$",
+        "element": 208
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "dh/dt=0.2\\,\\mathrm{km/s}",
+        "format": "inline",
+        "span": [
+          15492,
+          15518
+        ],
+        "paragraph": "P035"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "dh/dt=0.2,\\mathrm{km/s}",
+        "wrapper_valid": true,
+        "raw_text": "$dh/dt=0.2,\\mathrm{km/s}$",
+        "element": 211
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "dc/dt=-0.1\\,\\mathrm{km/s}",
+        "format": "inline",
+        "span": [
+          15523,
+          15550
+        ],
+        "paragraph": "P035"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "dc/dt=-0.1,\\mathrm{km/s}",
+        "wrapper_valid": true,
+        "raw_text": "$dc/dt=-0.1,\\mathrm{km/s}$",
+        "element": 212
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "x=\\sqrt{50^2-30^2}=40\\,\\mathrm{ft}",
+        "format": "inline",
+        "span": [
+          18226,
+          18262
+        ],
+        "paragraph": "P042"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "x=\\sqrt{50^2-30^2}=40,\\mathrm{ft}",
+        "wrapper_valid": true,
+        "raw_text": "$x=\\sqrt{50^2-30^2}=40,\\mathrm{ft}$",
+        "element": 252
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "D'=+80\\,\\mathrm{ft/s}",
+        "format": "inline",
+        "span": [
+          18395,
+          18418
+        ],
+        "paragraph": "P042"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "D'=+80,\\mathrm{ft/s}",
+        "wrapper_valid": true,
+        "raw_text": "$D'=+80,\\mathrm{ft/s}$",
+        "element": 255
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "100\\,\\mathrm{ft/s}",
+        "format": "inline",
+        "span": [
+          18613,
+          18633
+        ],
+        "paragraph": "P043"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "100,\\mathrm{ft/s}",
+        "wrapper_valid": true,
+        "raw_text": "$100,\\mathrm{ft/s}$",
+        "element": 258
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "h=5\\,\\mathrm{ft}",
+        "format": "inline",
+        "span": [
+          18953,
+          18971
+        ],
+        "paragraph": "P044"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "h=5,\\mathrm{ft}",
+        "wrapper_valid": true,
+        "raw_text": "$h=5,\\mathrm{ft}$",
+        "element": 263
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "(1/5)(5)=1\\,\\mathrm{ft^3/min}",
+        "format": "inline",
+        "span": [
+          18990,
+          19021
+        ],
+        "paragraph": "P044"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "(1/5)(5)=1,\\mathrm{ft^3/min}",
+        "wrapper_valid": true,
+        "raw_text": "$(1/5)(5)=1,\\mathrm{ft^3/min}$",
+        "element": 264
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "V'=2-1=1\\,\\mathrm{ft^3/min}",
+        "format": "inline",
+        "span": [
+          19047,
+          19076
+        ],
+        "paragraph": "P044"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "V'=2-1=1,\\mathrm{ft^3/min}",
+        "wrapper_valid": true,
+        "raw_text": "$V'=2-1=1,\\mathrm{ft^3/min}$",
+        "element": 265
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "L=\\sqrt{5^2-3^2}=4\\,\\mathrm{km}",
+        "format": "inline",
+        "span": [
+          20010,
+          20043
+        ],
+        "paragraph": "P047"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "L=\\sqrt{5^2-3^2}=4,\\mathrm{km}",
+        "wrapper_valid": true,
+        "raw_text": "$L=\\sqrt{5^2-3^2}=4,\\mathrm{km}$",
+        "element": 281
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "0.00000701\\,\\mathrm{km}",
+        "format": "inline",
+        "span": [
+          20559,
+          20584
+        ],
+        "paragraph": "P049"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "0.00000701,\\mathrm{km}",
+        "wrapper_valid": true,
+        "raw_text": "$0.00000701,\\mathrm{km}$",
+        "element": 288
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "0.00701\\,\\mathrm m",
+        "format": "inline",
+        "span": [
+          20589,
+          20609
+        ],
+        "paragraph": "P049"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "0.00701,\\mathrm m",
+        "wrapper_valid": true,
+        "raw_text": "$0.00701,\\mathrm m$",
+        "element": 289
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "1\\,\\mathrm{km}=1000\\,\\mathrm m",
+        "format": "inline",
+        "span": [
+          20617,
+          20649
+        ],
+        "paragraph": "P049"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "1,\\mathrm{km}=1000,\\mathrm m",
+        "wrapper_valid": true,
+        "raw_text": "$1,\\mathrm{km}=1000,\\mathrm m$",
+        "element": 290
+      },
+      "lost_thin_space_escape_count": 2,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "0.25\\,\\mathrm{km/s}",
+        "format": "inline",
+        "span": [
+          21383,
+          21404
+        ],
+        "paragraph": "P051"
+      },
+      "destination": {
+        "type": "js-inline-math",
+        "payload": "0.25,\\mathrm{km/s}",
+        "wrapper_valid": true,
+        "raw_text": "$0.25,\\mathrm{km/s}$",
+        "element": 299
+      },
+      "lost_thin_space_escape_count": 1,
+      "semantic_render_implication": "The intended TeX thin-space command becomes a literal comma before units. Numeric operands, unit names and grouping remain present, but punctuation is changed; no claim about client pixels."
+    }
+  ],
+  "missing_math_nodes": [
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "c",
+        "format": "inline",
+        "span": [
+          15620,
+          15623
+        ],
+        "paragraph": "P035"
+      },
+      "literal_destination_context": [
+        " and explain which term would be lost if the fixed-$c$ shortcut were reused. Criterion: distinguish finite-error approximation from exact geometry and rec",
+        "t length is required vertically. Reusing the fixed-$c$ shortcut would omit <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id"
+      ]
+    },
+    {
+      "source": {
+        "type": "js-inline-math",
+        "payload": "c",
+        "format": "inline",
+        "span": [
+          21343,
+          21346
+        ],
+        "paragraph": "P051"
+      },
+      "literal_destination_context": [
+        " and explain which term would be lost if the fixed-$c$ shortcut were reused. Criterion: distinguish finite-error approximation from exact geometry and rec",
+        "t length is required vertically. Reusing the fixed-$c$ shortcut would omit <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id"
+      ]
+    }
+  ],
+  "all16_fenced_display_payloads_exact": true,
+  "all_whole_stream_differences_are_deleted_backslash_characters": true,
+  "whole_stream_difference_count": 38,
+  "prose_only_status": "No lost or changed ordinary prose observed. Complete stream differences are the listed 38 lost inline escape backslashes. The two unrecognized c expressions remain literal $c$ within ordinary paragraph text, so they do not change that text stream but fail mathematical-node recognition.",
+  "all51_P_labels_exact": true,
+  "all14_internal_links_unique": true,
+  "all_RR_task_hint_solution_return_maps": true,
+  "hint_group_precedes_solutions": true,
+  "source_link": {
+    "source_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/ba3498155dbaa90b2a82c88174a18ee1_lec12.pdf",
+    "actual_href_exact": true,
+    "fresh_official_immutable_and_local_source_bytes_all_equal": true,
+    "sha256": "a75f8a7d3ba981993e10afa511bbef42ec76d0d759b45c74e97d85b09f5a2ef8",
+    "page_count": 5
+  },
+  "all4_image_bytes_exact": true,
+  "all4_complete_PNGs_visually_opened": true,
+  "image_findings": [
+    "radar-v2: approach arrow points left from the right-side car toward nearest road point, consistent with x shrinking; fixed30ft, x(t), D(t) and right angle agree.",
+    "cone: top4ft and water r measure center-to-edge radii; fixed10ft and variableh from point; similar half-section correctly matches fullcone.",
+    "satellite: verticalc, horizontalL and slanth and right angle agree, distinct from previous depthh.",
+    "mirror: Delta theta shown between sloped rays, Delta a between their vertical continuations. Schematic label present; does not assert numeric calibration."
+  ],
+  "no_material_image_issue": true,
+  "all_actualCSS_fetched": true,
+  "no_emphasis_or_forced_heading_table_prose_elements": true,
+  "style_scope": "Fetched CSS body normal400; emphasis selectors absent from actual prose element inventory. Inline math styles are display:inline-block; image styles max-width100%. Live computed styles unobserved.",
+  "preview_status": "NOT_RUN; root explicitly directed skip internal preview for known parser-failingv2. No preview pass.",
+  "live_pixels_computed_styles_MathJax_clicks": "UNOBSERVED"
+}

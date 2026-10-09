@@ -1,0 +1,159 @@
+From the commutation relationships we have:
+a |n⟩= [a, N] |n⟩= an |n⟩−Na |n⟩→N(a |n⟩) = (n −1)(a |n⟩),
+that is, a |n⟩is also an eigenvector of the N operator, with eigenvalue (n
+1). Thus we conﬁrm that this is the
+lowering operator: a |n⟩= cn |n −1⟩. Similarly, a† |n⟩is an eigenvector of N
+−
+with eigenvalue n + 1:
+a† |n⟩=
+
+N, a†
+|n⟩= Na† |n⟩−a†n |n⟩→N(a† |n⟩) = (n + 1)(a |n⟩).
+We thus have a |n⟩= cn |n −1⟩and a† |n⟩= dn |n + 1
+S
+⟩. What are the coeﬃcients cn, dn?
+ince
+⟨n| N |n⟩= ⟨n| a†a |n⟩= n
+and
+⟨n| a†a |n⟩= (⟨an|)(a |n⟩) = ⟨n −1|n −1⟩c2
+n,
+we must have cn = √n. Analogously, since aa† = N + 1, as seen from the commutation relationship:
+d2
+n⟨n + 1|n + 1⟩= ⟨a†n|a†n⟩= ⟨n| aa† |n⟩⟨n| (N + 1) |n⟩= n + 1
+So in the end we have :
+a |n⟩= √n |n −1⟩;
+a† |n⟩=
+√
+n + 1 |n + 1⟩.
+All the n eigenvalues of N have to be non-negative since n = ⟨n| N |n⟩= ⟨ψn1|ψn1⟩≥0 (this follows from the
+properties of the inner product and the fact that ψn1
+= a n is just a regular state vector). However, if we apply
+over and over the a (lowering) operator, we could
+|
+arriv
+⟩
+e at n
+|
+e
+⟩
+gative numbers n: we therefore require that a 0 = 0
+to truncate this process. The action of the raising operator a† can then produce any eigenstate, starting from
+| ⟩
+the 0
+eigenstate:
+(a†)n
+|n⟩= √
+n!
+|0⟩.
+The matrix representatio√n of these operator in the |n⟩√basis (with inﬁnite-dimensional matrices) is particularly simple,
+since ⟨n| a |n′⟩= δn′,n
+1
+n and n a† n′ = δ
+n + 1:
+−
+⟨|
+|
+⟩
+n′,n+1
+0
+√
+1
+0
+. . .
+0
+0
+0
+. . .
+a =
+
+0
+0
+√
+2
+. . .
+a† =
+√
+1
+0
+0
+. . .
+0
+0
+0
+. . .
+
+
+0
+√
+2
+0
+. . .
+
+The Hamiltonian can be written in
+
+terms of these oper
+
+ators. W
+
+e substitute a, a
+
+† at the place of X and P, yielding
+H = ω(a†a + 1) = ω(N + 1) and the minimum energy ℏω/2 is called the zero point energy.
+2
+2
+9.1.3 Position representation
+We have now started from a (physical) description of the h.o. Hamiltonian and made a change of basis in order to
+arrive at a simple diagonal form of it. Now that we know its eigenkets, we would like to go back to a more intuitive
+picture of position and momentum. We thus want to express the eigenkets |n⟩in terms of the position representation
+(see also section 5.5.1).
+RThe position representation corresponds to expressing a state vector |ψ⟩in the position basis: |ψ⟩=
+dx x ψ
+x =
+dx ψ(x) |x⟩(where |x⟩is the eigenstate of the position operator that is a continuous variable, hence th
+⟨
+e in
+|
+t
+⟩
+eg
+|
+r
+⟩
+al).
+This deﬁnes the wavefunction ψ(x) = x ψ .
+R
+The wave function description in the x
+⟨
+re
+|
+pr
+⟩
+esentation of the quantum h.o. can be found by starting with the ground
+state wavefunction. Since a |0⟩= 0 we have
+i
+√1 (X + iP) |0⟩= √1 (√mωx +
+p
+√
+) |0⟩= 0. In the x representation,
+2
+2
+mω
+given ψ0(x) = ⟨x| 0⟩
+1
+√⟨x| (√
+ip
+d
+mωx + √
+2
+) |0⟩= 0
+→
+(mωx +
+)ψ0(x) = 0
+2
+ω
+dx
+→
+ψ (x) ∝e−mωx /2
+0
+m
+81

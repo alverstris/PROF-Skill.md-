@@ -1,0 +1,12 @@
+D015 complete original audit and consolidated repair decision
+
+The entire original source, author packet, teaching/hints/solutions, original fresh two-input SASIS report, mathematical checks and destination audit have been examined before repair. Original evidence is immutable; do not replace the original reader report with this diagnosis.
+
+1. MATH-1 / T11: 21 literal comparison characters in 20 inline expressions are corrupted by the actual GitHub parser. Supported by original failure map and independent root parse. Repair the exact mapped characters to TeX \lt or \gt, preserving intended operands, grouping and meaning. All display mathematics and all other expressions remain unchanged.
+2. SASIS A1 / T6: Q5 requests the first failed condition but specifies no check order; both equation and initial value fail. Supported by the complete original reader and root independent pre-solutions. Ask which conditions fail and require checking both, then align the answer's stale first-condition wording. Preserve the full mathematical argument.
+3. SASIS A2: the quantum aside is explicitly introduced physical context, not a baseline deduction. Root and author independently read the relevant primary pages; correct narrow scope and equations. No further repair justified.
+4. SASIS A3: source attribution is outside reader subject inputs; root and author read the original five pages/three figures and verified the narrow supplementary primary claim. No unresolved source defect.
+5. SASIS A4: qualitative diagrams and nonessential legend coverage do not remove a substantive connection; actual figures and generated geometry inspected. No repair justified.
+6. SASIS A5: the general separation template states its conditional domain/range and zero-solution restrictions; no unsupported universal existence/uniqueness claim. No repair justified.
+
+Use one consolidated v2 repair, with an exact edit/inverse ledger and unchanged six figure constituents. No substantive PROF instruction change is justified: the current skill already requires clear prompts and actual destination preservation. V2 requires a fresh fork-none reader with exactly the complete baseline and complete frozen revised teaching bundle, full author/source/mathematical review, actual destination and final-document checks. Original v1 remains not accepted. Corpus is still 14 of 76 eligible iterations closed; 62 remain, all 147 IDs and 71 exclusions preserved.

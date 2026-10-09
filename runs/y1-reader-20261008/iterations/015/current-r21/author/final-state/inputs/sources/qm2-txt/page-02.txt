@@ -1,0 +1,129 @@
+by this model is solid-state crystals, where the oscillations of nuclei in the lattice can be described as a systems of
+coupled oscillators (phonons).
+Notice that any potential with a local minimum can be locally described by an h.o.. Provided that the energy is low
+enough (or x close to x0), any potential can in fact be expanded in series, giving: V (x) ≈V (x0) + b(x
+2
+−x0)2 + . . .
+where b = d V
+dx2 |x0.
+9.1.2 Oscillator Hamiltonian: Position and momentum operators
+We can deﬁne the operators associated with position and momentum. They are two observables (p,x) with the
+commutation properties: [x, p] = iℏ. With these two operators, the Hamiltonian of the quanutm h.o. is written as:
+p2
+kx2
+p2
+1
+H =
++
+=
++
+mω2x2,
+2m
+2
+2m
+2
+where we deﬁned a parameter with units of frequency: ω =
+k/m.
+We use the dimensionless variables,
+p
+P =
+p
+√
+,
+X = x√mω
+mω
+ˆ
+ˆ
+and H = H/ω, to simplify the expression to H = ω(X2 + P 2)/2 or H = ω(X2 + P 2).
+2
+ˆ
+We have said initially that we expect the hamiltonian to have the form
+= (n + 1) n
+n , if expressed in an
+2
+appropriate basis. This simply corresponds to diagonalizing the Hamilton
+H
+ian (thus the
+|
+ba
+⟩
+s
+⟨
+is
+|
+n
+is the energy
+basis, or the basis formed by the eigenstates of the Hamiltonian). However the diagonalization is
+{|
+no
+⟩
+t
+}
+as intuitive as
+for simple TLS (or n TLS) because we are considering a system with inﬁnite dimensions.
+ˆ
+The operator H = (n + 1) |n⟩⟨n| is our guess for the diagonalized form of the Hamiltonian, which makes explicit the
+2
+presence of energy levels, labeled by n. Correspondingly, there must be operators that act on the ladder of energy
+levels. For example, the fundamental operations possible are the raising or lowering of 1 quantum of energy, as well
+as an operator giving the number of energy quanta: N |n⟩= n |n⟩. The raising and lowering operators act as the
+following: a |n⟩∝|n −1⟩and a† |n⟩∝|n + 1⟩. They are also called the annihilation and creation operators, as they
+destroy or create a quantum of energy.
+Instead of deriving rigorously these operators, we guess their form in terms of the X and P operators:
+a = √1
+x
+2
+√1
+ℏ(X + iP) =
+ω
+2ℏ(√m
++ √i
+p)
+mω
+a† = √1
+ℏ(X
+2
+−iP) = √1
+2ℏ(√mωx −√i
+p),
+mω
+and we will check a posteriori that indeed they act as annihilation and creation operators. Notice that a, a† are not
+hermitian, but they are one the hermitian conjugate of the other (a = (a†)† ). Also, we deﬁne the number operator
+as N = a†a. The commutation properties are: a, a† = 1 and [N, a] = −a,
+
+N, a†
+= a†.
+Also we have:
+x =
+q
+ℏ
+q
+(a + a)
+2mω
+†
+p = i
+mωℏ(a† −a)
+2
+? Question: Prove the commutation relationships of the raising and lowering operators.
+[a, a†
+1
+1
+i
+i
+] =
+[X + iP, X −iP] =
+([X,
+iP] + [iP, X]) =
+[X, P] =
+[x, p] = 1
+2ℏ
+2ℏ
+−
+−ℏ
+−ℏ
+So we also have aa† = [a, a†] + a†a = 1 + a†a = 1 + N.
+[N, a] = [a†a, a] = [a†, a]a = −a
+and
+[N, a†] = [a†a, a†] = a†[a, a†] = a†
+Notice that from now on we will take as usual ℏ= 1.
+80

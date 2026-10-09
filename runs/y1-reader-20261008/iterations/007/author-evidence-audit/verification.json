@@ -1,0 +1,853 @@
+{
+  "audited_at": "2026-10-09T01:34:20.604156+00:00",
+  "manifest_sha256": "0fedba374c05044a8a3e7b5df69b01a9fd666ebc0b20377e4117051bb79c6f26",
+  "manifest_detached_match": true,
+  "manifest_files": [
+    {
+      "path": ".prof-state/RUN.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": ".prof-state/manifest.json",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": ".prof-state/topics/l07-review.json",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "HANDOFF.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "access-record.json",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "author-evidence.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "author-math-check.py",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "check-history.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "controls/SKILL.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "controls/references/domain-patterns.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "controls/references/execution-protocol.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "controls/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "controls/references/sasis/profile-manifest.json",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "controls/references/sasis/rewrite-guide.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "controls/references/sasis/student-role.txt",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "controls/references/sasis/student-testing-contract.txt",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "controls/references/sasis.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "controls/references/state-tool.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "controls/runs/y1-reader-20261008/requests.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "controls/scripts/prof_state.py",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "delegated-task.txt",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "dependencies-full.json",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "dependencies-topic.json",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "helper-check-summary.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "helper-full-check.json",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "helper-full-check.stderr.txt",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "helper-topic-check.json",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "helper-topic-check.stderr.txt",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "math-numerical-checks.json",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "math-review.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "mechanical-check-v1.py",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "mechanical-check.py",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "mechanical-checks-v1.json",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "mechanical-checks.json",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "prepare-state.py",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "prerequisite-conventions.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "requirement-ledger.json",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "source-coverage.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "task-prompts-original.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "teaching-labelled-original.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "teaching-unlabelled-original.md",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "teaching.md",
+      "hash_match": true,
+      "bytes_match": true
+    }
+  ],
+  "unlisted_files": [],
+  "missing_files": [],
+  "controls": [
+    {
+      "path": "SKILL.md",
+      "sha256": "44610963ed675e6df95529e5a3e985669c9ce0077e6e885511cfd2fdfb9feff6",
+      "actual_pinned_git_match": true,
+      "bytes": 37443
+    },
+    {
+      "path": "references/domain-patterns.md",
+      "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+      "actual_pinned_git_match": true,
+      "bytes": 10301
+    },
+    {
+      "path": "references/execution-protocol.md",
+      "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7",
+      "actual_pinned_git_match": true,
+      "bytes": 26436
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "actual_pinned_git_match": true,
+      "bytes": 247840
+    },
+    {
+      "path": "references/sasis/profile-manifest.json",
+      "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788",
+      "actual_pinned_git_match": true,
+      "bytes": 8965
+    },
+    {
+      "path": "references/sasis/rewrite-guide.md",
+      "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1",
+      "actual_pinned_git_match": true,
+      "bytes": 8451
+    },
+    {
+      "path": "references/sasis/student-role.txt",
+      "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+      "actual_pinned_git_match": true,
+      "bytes": 5607
+    },
+    {
+      "path": "references/sasis/student-testing-contract.txt",
+      "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10",
+      "actual_pinned_git_match": true,
+      "bytes": 7295
+    },
+    {
+      "path": "references/sasis.md",
+      "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384",
+      "actual_pinned_git_match": true,
+      "bytes": 15777
+    },
+    {
+      "path": "references/state-tool.md",
+      "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+      "actual_pinned_git_match": true,
+      "bytes": 17130
+    },
+    {
+      "path": "runs/y1-reader-20261008/requests.md",
+      "sha256": "83827f13eae3f98ba89cbf0df6085b6d3430b1b8ac31db2e336c1ca83539d8da",
+      "actual_pinned_git_match": true,
+      "bytes": 3147
+    },
+    {
+      "path": "scripts/prof_state.py",
+      "sha256": "6949c44d3e9374cf1af522f69436fad71fca186317cd404ff1967985c92a3488",
+      "actual_pinned_git_match": true,
+      "bytes": 32999
+    }
+  ],
+  "source_files": [
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7.pdf",
+      "hash_match": true,
+      "bytes_match": true,
+      "page_count_match": true
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p01.txt",
+      "hash_match": true,
+      "bytes_match": true,
+      "full_declared_extent_matches_actual": true
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p02.txt",
+      "hash_match": true,
+      "bytes_match": true,
+      "full_declared_extent_matches_actual": true
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p03.txt",
+      "hash_match": true,
+      "bytes_match": true,
+      "full_declared_extent_matches_actual": true
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p04.txt",
+      "hash_match": true,
+      "bytes_match": true,
+      "full_declared_extent_matches_actual": true
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p05.txt",
+      "hash_match": true,
+      "bytes_match": true,
+      "full_declared_extent_matches_actual": true
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p01.png",
+      "hash_match": true,
+      "bytes_match": true,
+      "dimensions_match": true,
+      "decodes_completely": true
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p02.png",
+      "hash_match": true,
+      "bytes_match": true,
+      "dimensions_match": true,
+      "decodes_completely": true
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p03.png",
+      "hash_match": true,
+      "bytes_match": true,
+      "dimensions_match": true,
+      "decodes_completely": true
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p04.png",
+      "hash_match": true,
+      "bytes_match": true,
+      "dimensions_match": true,
+      "decodes_completely": true
+    },
+    {
+      "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L07/lec7-p05.png",
+      "hash_match": true,
+      "bytes_match": true,
+      "dimensions_match": true,
+      "decodes_completely": true
+    }
+  ],
+  "baseline": {
+    "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+    "bytes": 247840,
+    "raw_characters": 246945,
+    "LF": 1377,
+    "boundaries": [
+      0,
+      15000,
+      30000,
+      45000,
+      60000,
+      75000,
+      90000,
+      105000,
+      120000,
+      135000,
+      150000,
+      165000,
+      180000,
+      195000,
+      210000,
+      225000,
+      240000,
+      246945
+    ],
+    "contiguous_full": true,
+    "claims_complete_no_truncation": true,
+    "four_subject_names_present": true
+  },
+  "control_extents": [
+    {
+      "path": "905f6443a0e0198c1472c5e671e355b656d4f3bd:SKILL.md",
+      "extent_matches": true
+    },
+    {
+      "path": "905f6443a0e0198c1472c5e671e355b656d4f3bd:references/domain-patterns.md",
+      "extent_matches": true
+    },
+    {
+      "path": "905f6443a0e0198c1472c5e671e355b656d4f3bd:references/execution-protocol.md",
+      "extent_matches": true
+    },
+    {
+      "path": "905f6443a0e0198c1472c5e671e355b656d4f3bd:references/sasis/profile-manifest.json",
+      "extent_matches": true
+    },
+    {
+      "path": "905f6443a0e0198c1472c5e671e355b656d4f3bd:references/sasis/rewrite-guide.md",
+      "extent_matches": true
+    },
+    {
+      "path": "905f6443a0e0198c1472c5e671e355b656d4f3bd:references/sasis/student-role.txt",
+      "extent_matches": true
+    },
+    {
+      "path": "905f6443a0e0198c1472c5e671e355b656d4f3bd:references/sasis/student-testing-contract.txt",
+      "extent_matches": true
+    },
+    {
+      "path": "905f6443a0e0198c1472c5e671e355b656d4f3bd:references/sasis.md",
+      "extent_matches": true
+    },
+    {
+      "path": "905f6443a0e0198c1472c5e671e355b656d4f3bd:references/state-tool.md",
+      "extent_matches": true
+    },
+    {
+      "path": "905f6443a0e0198c1472c5e671e355b656d4f3bd:runs/y1-reader-20261008/requests.md",
+      "extent_matches": true
+    }
+  ],
+  "ledger_comparisons": [
+    {
+      "id": "T1",
+      "status": "pass",
+      "topic_reason_matches": true,
+      "evidence_matches": true,
+      "deps_match": true
+    },
+    {
+      "id": "T2",
+      "status": "pass",
+      "topic_reason_matches": true,
+      "evidence_matches": true,
+      "deps_match": true
+    },
+    {
+      "id": "T3",
+      "status": "pass",
+      "topic_reason_matches": true,
+      "evidence_matches": true,
+      "deps_match": true
+    },
+    {
+      "id": "T4",
+      "status": "pass",
+      "topic_reason_matches": true,
+      "evidence_matches": true,
+      "deps_match": true
+    },
+    {
+      "id": "T5",
+      "status": "pass",
+      "topic_reason_matches": true,
+      "evidence_matches": true,
+      "deps_match": true
+    },
+    {
+      "id": "T6",
+      "status": "pass",
+      "topic_reason_matches": true,
+      "evidence_matches": true,
+      "deps_match": true
+    },
+    {
+      "id": "T7",
+      "status": "pass",
+      "topic_reason_matches": true,
+      "evidence_matches": true,
+      "deps_match": true
+    },
+    {
+      "id": "T8",
+      "status": "pass",
+      "topic_reason_matches": true,
+      "evidence_matches": true,
+      "deps_match": true
+    },
+    {
+      "id": "T9",
+      "status": "pass",
+      "topic_reason_matches": true,
+      "evidence_matches": true,
+      "deps_match": true
+    },
+    {
+      "id": "T10",
+      "status": "pass",
+      "topic_reason_matches": true,
+      "evidence_matches": true,
+      "deps_match": true
+    },
+    {
+      "id": "T11",
+      "status": "pending",
+      "topic_reason_matches": true,
+      "evidence_matches": true,
+      "deps_match": true
+    },
+    {
+      "id": "T12",
+      "status": "pending",
+      "topic_reason_matches": true,
+      "evidence_matches": true,
+      "deps_match": true
+    }
+  ],
+  "output_dependencies": [
+    {
+      "id": "coverage",
+      "matches_expected": true
+    },
+    {
+      "id": "author_full_read",
+      "matches_expected": true
+    },
+    {
+      "id": "author_math",
+      "matches_expected": true
+    },
+    {
+      "id": "source_mechanics",
+      "matches_expected": true
+    },
+    {
+      "id": "parent_technical",
+      "matches_expected": true
+    },
+    {
+      "id": "destination",
+      "matches_expected": true
+    },
+    {
+      "id": "fresh_sasis",
+      "matches_expected": true
+    },
+    {
+      "id": "final_review",
+      "matches_expected": true
+    },
+    {
+      "id": "publication",
+      "matches_expected": true
+    }
+  ],
+  "all_evidence_bindings": [
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "check-history.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "source-coverage.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "author-evidence.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "math-review.md",
+      "sha_match": true,
+      "locator_exists": true
+    },
+    {
+      "path": "mechanical-checks.json",
+      "sha_match": true,
+      "locator_exists": true
+    }
+  ],
+  "helper_topic_rerun": {
+    "exit": 1,
+    "empty_stderr": true,
+    "byte_identical_original": true,
+    "result": {
+      "result": "NOT_READY",
+      "scope": "topic:l07-review",
+      "limits": "This checks declared records, file/locator existence and revision freshness only. Source reads, web reads, applicability, waivers and semantic reviews are self-reported. It does not certify teaching quality, learner mastery, authorization, or skill invocation/application.",
+      "requirements": {
+        "l07-review": {
+          "fail": 0,
+          "not_applicable": 0,
+          "pass": 10,
+          "pending": 2,
+          "unverified": 0,
+          "waived_by_user": 0
+        }
+      },
+      "defects": [
+        "l07-review.T11: not ready: pending",
+        "l07-review.T12: not ready: pending"
+      ],
+      "notes": [],
+      "next_action": "Address the listed readiness items: repair actual defects or await required student information. Recheck affected teaching and dependencies before updating recorded hashes; do not invent resolution to obtain a clean status."
+    }
+  },
+  "helper_full_rerun": {
+    "exit": 1,
+    "empty_stderr": true,
+    "byte_identical_original": true,
+    "result": {
+      "result": "NOT_READY",
+      "scope": "full declared project",
+      "limits": "This checks declared records, file/locator existence and revision freshness only. Source reads, web reads, applicability, waivers and semantic reviews are self-reported. It does not certify teaching quality, learner mastery, authorization, or skill invocation/application.",
+      "requirements": {
+        "l07-review": {
+          "fail": 0,
+          "not_applicable": 0,
+          "pass": 10,
+          "pending": 2,
+          "unverified": 0,
+          "waived_by_user": 0
+        }
+      },
+      "defects": [
+        "l07-review.T11: not ready: pending",
+        "l07-review.T12: not ready: pending",
+        "output_check.parent_technical: not ready: pending",
+        "output_check.destination: not ready: pending",
+        "output_check.fresh_sasis: not ready: pending",
+        "output_check.final_review: not ready: pending",
+        "output_check.publication: not ready: pending"
+      ],
+      "notes": [],
+      "next_action": "Address the listed readiness items: repair actual defects or await required student information. Recheck affected teaching and dependencies before updating recorded hashes; do not invent resolution to obtain a clean status."
+    }
+  },
+  "current_topic_dependencies_match": true,
+  "current_full_dependencies_match": true,
+  "teaching_delta": [
+    "--- \n",
+    "+++ \n",
+    "@@ -520,5 +520,5 @@\n",
+    " ",
+    " <!-- P135 -->",
+    "-Both functions have all real numbers as their domains because sine is defined everywhere and $x^2+1>0$. The factor $3$ belongs to the derivative of the inner input $3x$; it appears in the terms where $B$ is differentiated. Multiplying $F$ by a reciprocal to construct $G$ changes the differentiation structure as well as the value.",
+    "+Both functions have all real numbers as their domains because sine is defined everywhere and $x^2+1>0$. The factor $3$ belongs to the derivative of the inner input $3x$; it appears in the terms where $B$ is differentiated. Replacing the factor $x^2+1$ in $F$ by its reciprocal constructs $G$ and changes the differentiation structure as well as the value.",
+    " ",
+    " <!-- P136 -->"
+  ],
+  "label_only_first_draft": true,
+  "teaching": {
+    "sha256": "c57e0ce849af6865e8422a3a62672d337053a40a66c3eee8904e251f989990f7",
+    "chars": 30003,
+    "bytes": 30093,
+    "P_labels": 165
+  },
+  "prompt_chronology": {
+    "prompt_sha_match": true,
+    "lead_hash_match": true,
+    "recorded_created_at": "2026-10-09T01:18:32.275732+00:00",
+    "recorded_before_any_proposed_solutions_read": true,
+    "file_mtimes_utc": {
+      "task-prompts-original.md": "2026-10-09T01:17:04.060735+00:00",
+      "teaching-unlabelled-original.md": "2026-10-09T01:20:30.815401+00:00",
+      "teaching-labelled-original.md": "2026-10-09T01:21:31.454127+00:00",
+      "teaching.md": "2026-10-09T01:21:31.454400+00:00"
+    },
+    "limit": "Files and self-reports support recorded sequencing; this auditor has no independent agent execution transcript or tamper-proof chronology."
+  },
+  "source_pronunciation_aliases": "The notes use LaTeX \\cos h and \\sin h, distinct from \\cosh and \\sinh. Parent pre-solution sentence explicitly disambiguates compact cosh/sinh then repeats unambiguous cos(h)/sin(h); no unresolved alias.",
+  "after_manifest_files_unchanged": true,
+  "numerical_record_review": {
+    "derivative_count": 71,
+    "identity_count": 3,
+    "all_recorded_passes": true,
+    "each_error_and_tolerance_consistent": true,
+    "max_absolute_error": 3.112052837650481e-09,
+    "script_rerun": false,
+    "reason": "Exact derivations and complete saved numerical rows/script were inspected; executing the author script would overwrite its original output and was unnecessary."
+  },
+  "acceptance_conditions_exact_canonical_skill": true,
+  "auditor_complete_teaching_read": {
+    "ranges": [
+      [
+        0,
+        15500
+      ],
+      [
+        15000,
+        30003
+      ]
+    ],
+    "sha256": "c57e0ce849af6865e8422a3a62672d337053a40a66c3eee8904e251f989990f7",
+    "no_truncation": true,
+    "includes_hints_solutions_ending": true
+  },
+  "auditor_substantive_evidence_read": [
+    "HANDOFF.md",
+    "author-evidence.md",
+    "check-history.md",
+    "helper-check-summary.md",
+    "source-coverage.md",
+    "prerequisite-conventions.md",
+    "math-review.md",
+    "access-record.json",
+    "task-prompts-original.md",
+    "delegated-task.txt",
+    "requirement-ledger.json (all nondependency content; repeated arrays verified mechanically)",
+    ".prof-state/manifest.json (all nondependency content; repeated arrays verified mechanically)",
+    ".prof-state/topics/l07-review.json (unique activation, source-read and gap content read; all T1-T12 reasons/evidence verified identical to read ledger)",
+    "helper-topic-check.json",
+    "helper-full-check.json",
+    "dependencies-topic.json",
+    "dependencies-full.json",
+    "mechanical-check.py",
+    "mechanical-checks.json",
+    "author-math-check.py",
+    "math-numerical-checks.json",
+    ".prof-state/RUN.md",
+    "lead-pre-solution-v1-original.md",
+    "lead-pre-solution-v1-numerics.json",
+    "all five original source extractions"
+  ],
+  "auditor_output_clipping_recovery": "First compact ledger output clipped part of T8 acceptance/witness; complete T8 reread separately. No missing unique substantive ledger content remains. Repeated dependency arrays and duplicated requirement text were verified by exact comparisons rather than represented as repeated personal reading."
+}

@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-10-09T01:33:48.887213+00:00",
+  "original_path": "author-work-r13/teaching.md",
+  "original_sha256": "c57e0ce849af6865e8422a3a62672d337053a40a66c3eee8904e251f989990f7",
+  "new_path": "revised-v2/teaching-v2.md",
+  "sha256": "66493aa3d30f53467ee997d9ab372b605cd73e1c84daf21f1737c83761774d3b",
+  "bytes": 30967,
+  "raw_characters": 30877,
+  "math_expressions": 371,
+  "inline": 338,
+  "display": 33,
+  "operation": "Change only math delimiters to protected GitHub inline $`...`$ and fenced math blocks. All TeX payloads, prose, anchors, links and ordering remain identical.",
+  "inverse_transform_recovers_original_byte_exactly": true,
+  "reason": "Actual immutable GitHub v1 inspection found escaped angle symbols, lost thinspace backslashes and unwrapped fixed-$r$ math. Existing T11 already requires actual destination verification; no new skill rule is justified by this repair alone.",
+  "status": "Proposed serialization repair; actual v2 GitHub output and complete preview still pending; no SASIS reading of v1 dispatched."
+}

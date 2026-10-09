@@ -1,0 +1,6241 @@
+{
+  "checks": {
+    "complete_prose_and_math_stream_after_only_documented_markup_and_whitespace_normalization": false,
+    "every_math_payload_and_wrapper_exact_after_one_HTML_parse": false,
+    "all_inline_math_exact": false,
+    "all_display_math_exact_including_internal_newlines": false,
+    "all_source_link_texts_and_hrefs_in_order": true,
+    "all_source_anchor_ids_in_order": false,
+    "all_internal_destinations_once": false,
+    "all_tasks_before_all_hints_before_all_solutions": true,
+    "all_P001_P165_source_comments_in_order": true,
+    "no_heading_or_emphasis_or_table_or_caption_DOM": true,
+    "no_external_assets": true
+  },
+  "tags": {
+    "article": 1,
+    "p": 165,
+    "a": 86,
+    "math-renderer": 370
+  },
+  "math_counts": {
+    "js-inline-math": 337,
+    "js-display-math": 33
+  },
+  "source_math": [
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln$",
+      "payload": "\\ln"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'=dy/dx$",
+      "payload": "y'=dy/dx"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\arcsin x$",
+      "payload": "\\arcsin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\arctan x$",
+      "payload": "\\arctan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin^{-1}x$",
+      "payload": "\\sin^{-1}x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\tan^{-1}x$",
+      "payload": "\\tan^{-1}x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sec x=1/\\cos x$",
+      "payload": "\\sec x=1/\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sinh$",
+      "payload": "\\sinh"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cosh$",
+      "payload": "\\cosh"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\sinh x=\\frac{e^x-e^{-x}}2,\n\\qquad\n\\cosh x=\\frac{e^x+e^{-x}}2.\n$$",
+      "payload": "\n\\sinh x=\\frac{e^x-e^{-x}}2,\n\\qquad\n\\cosh x=\\frac{e^x+e^{-x}}2.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2$",
+      "payload": "2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{-x}$",
+      "payload": "e^{-x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(e^x)'=e^x$",
+      "payload": "(e^x)'=e^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(e^{-x})'=-e^{-x}$",
+      "payload": "(e^{-x})'=-e^{-x}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(\\sinh x)'=\\frac{e^x-(-e^{-x})}{2}=\\cosh x,\n\\qquad\n(\\cosh x)'=\\frac{e^x+(-e^{-x})}{2}=\\sinh x.\n$$",
+      "payload": "\n(\\sinh x)'=\\frac{e^x-(-e^{-x})}{2}=\\cosh x,\n\\qquad\n(\\cosh x)'=\\frac{e^x+(-e^{-x})}{2}=\\sinh x.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{-x}$",
+      "payload": "e^{-x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\cos x)'=-\\sin x$",
+      "payload": "(\\cos x)'=-\\sin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cosh x$",
+      "payload": "\\cosh x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=0$",
+      "payload": "x=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sinh0=0$",
+      "payload": "\\sinh0=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cosh0=1$",
+      "payload": "\\cosh0=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1$",
+      "payload": "1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$0$",
+      "payload": "0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cosh^2x$",
+      "payload": "\\cosh^2x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\cosh x)^2$",
+      "payload": "(\\cosh x)^2"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\cosh^2x-\\sinh^2x\n=\\frac{(e^x+e^{-x})^2-(e^x-e^{-x})^2}{4}\n=\\frac{4e^xe^{-x}}4=1.\n$$",
+      "payload": "\n\\cosh^2x-\\sinh^2x\n=\\frac{(e^x+e^{-x})^2-(e^x-e^{-x})^2}{4}\n=\\frac{4e^xe^{-x}}4=1.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(a+b)^2-(a-b)^2=4ab$",
+      "payload": "(a+b)^2-(a-b)^2=4ab"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^xe^{-x}=1$",
+      "payload": "e^xe^{-x}=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u=\\cosh x$",
+      "payload": "u=\\cosh x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$v=\\sinh x$",
+      "payload": "v=\\sinh x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u^2-v^2=1$",
+      "payload": "u^2-v^2=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u>0$",
+      "payload": "u>0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u^2=1+v^2$",
+      "payload": "u^2=1+v^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u\\ge1$",
+      "payload": "u\\ge1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u=\\cos x$",
+      "payload": "u=\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$v=\\sin x$",
+      "payload": "v=\\sin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u^2+v^2=1$",
+      "payload": "u^2+v^2=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H(x)=\\cosh(2x)-\\sinh(2x)$",
+      "payload": "H(x)=\\cosh(2x)-\\sinh(2x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sinh t=(e^t-e^{-t})/2$",
+      "payload": "\\sinh t=(e^t-e^{-t})/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cosh t=(e^t+e^{-t})/2$",
+      "payload": "\\cosh t=(e^t+e^{-t})/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H'(x)$",
+      "payload": "H'(x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H$",
+      "payload": "H"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2x$",
+      "payload": "2x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H$",
+      "payload": "H"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u=u(x)$",
+      "payload": "u=u(x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$v=v(x)$",
+      "payload": "v=v(x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$c$",
+      "payload": "c"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(u+v)'=u'+v',\\qquad(cu)'=cu',\\qquad(uv)'=u'v+uv',\n$$",
+      "payload": "\n(u+v)'=u'+v',\\qquad(cu)'=cu',\\qquad(uv)'=u'v+uv',\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\quad(v\\ne0),\n\\qquad\n\\frac d{dx}f(u(x))=f'(u(x))u'(x).\n$$",
+      "payload": "\n\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\quad(v\\ne0),\n\\qquad\n\\frac d{dx}f(u(x))=f'(u(x))u'(x).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f$",
+      "payload": "f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u(x)$",
+      "payload": "u(x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u$",
+      "payload": "u"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin(3x)$",
+      "payload": "\\sin(3x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$3x$",
+      "payload": "3x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos(3x)\\cdot3$",
+      "payload": "\\cos(3x)\\cdot3"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\sin x$",
+      "payload": "x\\sin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin(x^2)$",
+      "payload": "\\sin(x^2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin(x^2)$",
+      "payload": "\\sin(x^2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$[\\sin x]^2$",
+      "payload": "[\\sin x]^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2x\\cos(x^2)$",
+      "payload": "2x\\cos(x^2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2\\sin x\\cos x$",
+      "payload": "2\\sin x\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$v\\ne0$",
+      "payload": "v\\ne0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u/v=uv^{-1}$",
+      "payload": "u/v=uv^{-1}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$t^{-1}$",
+      "payload": "t^{-1}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(uv^{-1})'=u'v^{-1}+u(-v^{-2}v')\n=\\frac{u'}v-\\frac{uv'}{v^2}\n=\\frac{u'v-uv'}{v^2}.\n$$",
+      "payload": "\n(uv^{-1})'=u'v^{-1}+u(-v^{-2}v')\n=\\frac{u'}v-\\frac{uv'}{v^2}\n=\\frac{u'v-uv'}{v^2}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$R(x)=x/(1+x^2)$",
+      "payload": "R(x)=x/(1+x^2)"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nR'(x)=\\frac{1(1+x^2)-x(2x)}{(1+x^2)^2}\n=\\frac{1-x^2}{(1+x^2)^2}.\n$$",
+      "payload": "\nR'(x)=\\frac{1(1+x^2)-x(2x)}{(1+x^2)^2}\n=\\frac{1-x^2}{(1+x^2)^2}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=0$",
+      "payload": "x=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1$",
+      "payload": "1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$|x|<1$",
+      "payload": "|x|<1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$|x|>1$",
+      "payload": "|x|>1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F(x)=(x^2+1)\\sin(3x)$",
+      "payload": "F(x)=(x^2+1)\\sin(3x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$G(x)=\\sin(3x)/(x^2+1)$",
+      "payload": "G(x)=\\sin(3x)/(x^2+1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$3$",
+      "payload": "3"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y(x)$",
+      "payload": "y(x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(y^3)'=3y^2y'$",
+      "payload": "(y^3)'=3y^2y'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(x^3)'=3x^2$",
+      "payload": "(x^3)'=3x^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x'=1$",
+      "payload": "x'=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y^3+3xy^2=8$",
+      "payload": "y^3+3xy^2=8"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$3y^2+6xyy'$",
+      "payload": "3y^2+6xyy'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'$",
+      "payload": "y'"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n3y^2y'+3y^2+6xyy'=0,\n\\qquad\n(3y^2+6xy)y'=-3y^2,\n$$",
+      "payload": "\n3y^2y'+3y^2+6xyy'=0,\n\\qquad\n(3y^2+6xy)y'=-3y^2,\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\ny'=\\frac{-3y^2}{3y^2+6xy}\n\\quad\\text{where }3y^2+6xy\\ne0.\n$$",
+      "payload": "\ny'=\\frac{-3y^2}{3y^2+6xy}\n\\quad\\text{where }3y^2+6xy\\ne0.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(0,2)$",
+      "payload": "(0,2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2^3+0=8$",
+      "payload": "2^3+0=8"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'=-12/12=-1$",
+      "payload": "y'=-12/12=-1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y-2=-x$",
+      "payload": "y-2=-x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'$",
+      "payload": "y'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$dy/dx$",
+      "payload": "dy/dx"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^2+y^2=5$",
+      "payload": "x^2+y^2=5"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1,2)$",
+      "payload": "(1,2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1,-2)$",
+      "payload": "(1,-2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'$",
+      "payload": "y'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'$",
+      "payload": "y'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=\\arcsin x$",
+      "payload": "y=\\arcsin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$[-\\pi/2,\\pi/2]$",
+      "payload": "[-\\pi/2,\\pi/2]"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\in[-1,1]$",
+      "payload": "x\\in[-1,1]"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin y=x$",
+      "payload": "\\sin y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-1<x<1$",
+      "payload": "-1<x<1"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(\\cos y)y'=1,\\qquad y'=\\frac1{\\cos y}.\n$$",
+      "payload": "\n(\\cos y)y'=1,\\qquad y'=\\frac1{\\cos y}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos^2y=1-\\sin^2y=1-x^2$",
+      "payload": "\\cos^2y=1-\\sin^2y=1-x^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y$",
+      "payload": "\\cos y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y>0$",
+      "payload": "\\cos y>0"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(\\arcsin x)'=\\frac1{\\sqrt{1-x^2}},\\qquad -1<x<1.\n$$",
+      "payload": "\n(\\arcsin x)'=\\frac1{\\sqrt{1-x^2}},\\qquad -1<x<1.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=\\pm1$",
+      "payload": "x=\\pm1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=\\arctan x$",
+      "payload": "y=\\arctan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(-\\pi/2,\\pi/2)$",
+      "payload": "(-\\pi/2,\\pi/2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\tan y=x$",
+      "payload": "\\tan y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\tan y)'$",
+      "payload": "(\\tan y)'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sec^2y=1+\\tan^2y$",
+      "payload": "\\sec^2y=1+\\tan^2y"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\sec^2y\\,y'=1,\n\\qquad\n(\\arctan x)'=\\frac1{1+x^2},\\qquad x\\in\\mathbb R.\n$$",
+      "payload": "\n\\sec^2y\\,y'=1,\n\\qquad\n(\\arctan x)'=\\frac1{1+x^2},\\qquad x\\in\\mathbb R.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=\\arccos x$",
+      "payload": "y=\\arccos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y=x$",
+      "payload": "\\cos y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y\\in[0,\\pi]$",
+      "payload": "y\\in[0,\\pi]"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-1<x<1$",
+      "payload": "-1<x<1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'$",
+      "payload": "y'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^n$",
+      "payload": "x^n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin^{-1}x$",
+      "payload": "\\sin^{-1}x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\tan^{-1}x$",
+      "payload": "\\tan^{-1}x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin x$",
+      "payload": "\\sin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos x$",
+      "payload": "\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\tan x$",
+      "payload": "\\tan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sec x$",
+      "payload": "\\sec x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^x$",
+      "payload": "e^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln x$",
+      "payload": "\\ln x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\lim_{h\\to0}\\frac{\\sin h}{h}=1,\n\\qquad\n\\lim_{h\\to0}\\frac{\\cos h-1}{h}=0.\n$$",
+      "payload": "\n\\lim_{h\\to0}\\frac{\\sin h}{h}=1,\n\\qquad\n\\lim_{h\\to0}\\frac{\\cos h-1}{h}=0.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h$",
+      "payload": "h"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nf'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}h.\n$$",
+      "payload": "\nf'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}h.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h$",
+      "payload": "h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\Delta x$",
+      "payload": "\\Delta x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin(x+h)=\\sin x\\cos h+\\cos x\\sin h$",
+      "payload": "\\sin(x+h)=\\sin x\\cos h+\\cos x\\sin h"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{\\sin(x+h)-\\sin x}{h}\n=\\sin x\\frac{\\cos h-1}{h}+\\cos x\\frac{\\sin h}{h}.\n$$",
+      "payload": "\n\\frac{\\sin(x+h)-\\sin x}{h}\n=\\sin x\\frac{\\cos h-1}{h}+\\cos x\\frac{\\sin h}{h}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin x\\cdot0+\\cos x\\cdot1=\\cos x$",
+      "payload": "\\sin x\\cdot0+\\cos x\\cdot1=\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h$",
+      "payload": "h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$d(\\cos x)/dx$",
+      "payload": "d(\\cos x)/dx"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos(x+h)=\\cos x\\cos h-\\sin x\\sin h$",
+      "payload": "\\cos(x+h)=\\cos x\\cos h-\\sin x\\sin h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\lim_{h\\to0}(\\sin h)/h=1$",
+      "payload": "\\lim_{h\\to0}(\\sin h)/h=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\lim_{h\\to0}(\\cos h-1)/h=0$",
+      "payload": "\\lim_{h\\to0}(\\cos h-1)/h=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h$",
+      "payload": "h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\sin x)'=\\cos x$",
+      "payload": "(\\sin x)'=\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\cos x)'=-\\sin x$",
+      "payload": "(\\cos x)'=-\\sin x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(\\tan x)'=\\left(\\frac{\\sin x}{\\cos x}\\right)'\n=\\frac{\\cos^2x+\\sin^2x}{\\cos^2x}=\\sec^2x,\n$$",
+      "payload": "\n(\\tan x)'=\\left(\\frac{\\sin x}{\\cos x}\\right)'\n=\\frac{\\cos^2x+\\sin^2x}{\\cos^2x}=\\sec^2x,\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(\\sec x)'=((\\cos x)^{-1})'\n=-(\\cos x)^{-2}(-\\sin x)\n=\\frac{\\sin x}{\\cos^2x}=\\tan x\\sec x.\n$$",
+      "payload": "\n(\\sec x)'=((\\cos x)^{-1})'\n=-(\\cos x)^{-2}(-\\sin x)\n=\\frac{\\sin x}{\\cos^2x}=\\tan x\\sec x.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos x\\ne0$",
+      "payload": "\\cos x\\ne0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\tan x=\\sin x/\\cos x$",
+      "payload": "\\tan x=\\sin x/\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sec x=1/\\cos x$",
+      "payload": "\\sec x=1/\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\lim_{h\\to0}(e^h-1)/h=1$",
+      "payload": "\\lim_{h\\to0}(e^h-1)/h=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{x+h}=e^xe^h$",
+      "payload": "e^{x+h}=e^xe^h"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{e^{x+h}-e^x}{h}=e^x\\frac{e^h-1}{h}\n\\quad\\Longrightarrow\\quad\n(e^x)'=e^x,\\qquad x\\in\\mathbb R.\n$$",
+      "payload": "\n\\frac{e^{x+h}-e^x}{h}=e^x\\frac{e^h-1}{h}\n\\quad\\Longrightarrow\\quad\n(e^x)'=e^x,\\qquad x\\in\\mathbb R.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1$",
+      "payload": "1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$0$",
+      "payload": "0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=\\ln x$",
+      "payload": "y=\\ln x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x>0$",
+      "payload": "x>0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^y=x$",
+      "payload": "e^y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^yy'=1$",
+      "payload": "e^yy'=1"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(\\ln x)'=\\frac1{e^y}=\\frac1x,\\qquad x>0.\n$$",
+      "payload": "\n(\\ln x)'=\\frac1{e^y}=\\frac1x,\\qquad x>0.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$n$",
+      "payload": "n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$n$",
+      "payload": "n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^n$",
+      "payload": "x^n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^{n-1}$",
+      "payload": "x^{n-1}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$nx^{n-1}$",
+      "payload": "nx^{n-1}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$n=0$",
+      "payload": "n=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^0=1$",
+      "payload": "x^0=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\ne0$",
+      "payload": "x\\ne0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$0$",
+      "payload": "0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r=p/q$",
+      "payload": "r=p/q"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$p$",
+      "payload": "p"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$q>0$",
+      "payload": "q>0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x>0$",
+      "payload": "x>0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=x^{p/q}$",
+      "payload": "y=x^{p/q}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y^q=x^p$",
+      "payload": "y^q=x^p"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nqy^{q-1}y'=px^{p-1},\n\\qquad\ny'=\\frac pq\\frac{x^{p-1}}{x^{p(q-1)/q}}\n=\\frac pqx^{p/q-1}.\n$$",
+      "payload": "\nqy^{q-1}y'=px^{p-1},\n\\qquad\ny'=\\frac pq\\frac{x^{p-1}}{x^{p(q-1)/q}}\n=\\frac pqx^{p/q-1}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$0$",
+      "payload": "0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln x$",
+      "payload": "\\ln x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r$",
+      "payload": "r"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x>0$",
+      "payload": "x>0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^r=e^{r\\ln x}$",
+      "payload": "x^r=e^{r\\ln x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r$",
+      "payload": "r"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{r\\ln x}$",
+      "payload": "e^{r\\ln x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^r$",
+      "payload": "x^r"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac d{dx}x^r\n=\\frac d{dx}e^{r\\ln x}\n=e^{r\\ln x}\\frac r x\n=x^r\\frac r x\n=rx^{r-1},\\qquad x>0.\n$$",
+      "payload": "\n\\frac d{dx}x^r\n=\\frac d{dx}e^{r\\ln x}\n=e^{r\\ln x}\\frac r x\n=x^r\\frac r x\n=rx^{r-1},\\qquad x>0.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\ln f)'=f'/f$",
+      "payload": "(\\ln f)'=f'/f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f>0$",
+      "payload": "f>0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f=x^r>0$",
+      "payload": "f=x^r>0"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln f=r\\ln x,\n\\qquad\n\\frac{f'}f=\\frac r x,\n\\qquad\nf'=f\\frac r x=x^r\\frac r x=rx^{r-1}.\n$$",
+      "payload": "\n\\ln f=r\\ln x,\n\\qquad\n\\frac{f'}f=\\frac r x,\n\\qquad\nf'=f\\frac r x=x^r\\frac r x=rx^{r-1}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f'/f$",
+      "payload": "f'/f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f$",
+      "payload": "f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f=x^\\pi$",
+      "payload": "f=x^\\pi"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x>0$",
+      "payload": "x>0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f'=\\pi x^{\\pi-1}$",
+      "payload": "f'=\\pi x^{\\pi-1}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\pi$",
+      "payload": "\\pi"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r$",
+      "payload": "r"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x>0$",
+      "payload": "x>0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f(x)=x^{\\sqrt2}$",
+      "payload": "f(x)=x^{\\sqrt2}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$g(x)=(\\sqrt2)^x$",
+      "payload": "g(x)=(\\sqrt2)^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sqrt2$",
+      "payload": "\\sqrt2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2$",
+      "payload": "2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$E(x)=e^{x\\tan^{-1}x}$",
+      "payload": "E(x)=e^{x\\tan^{-1}x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$E(x)=\\exp(x\\arctan x)$",
+      "payload": "E(x)=\\exp(x\\arctan x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\exp(t)=e^t$",
+      "payload": "\\exp(t)=e^t"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\arctan x$",
+      "payload": "x\\arctan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^x\\arctan x$",
+      "payload": "e^x\\arctan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$w(x)=x\\arctan x$",
+      "payload": "w(x)=x\\arctan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$E'=e^ww'$",
+      "payload": "E'=e^ww'"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nw'=1\\cdot\\arctan x+x\\frac1{1+x^2}.\n$$",
+      "payload": "\nw'=1\\cdot\\arctan x+x\\frac1{1+x^2}.\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nE'(x)=e^{x\\arctan x}\n\\left(\\arctan x+\\frac{x}{1+x^2}\\right),\n\\qquad x\\in\\mathbb R.\n$$",
+      "payload": "\nE'(x)=e^{x\\arctan x}\n\\left(\\arctan x+\\frac{x}{1+x^2}\\right),\n\\qquad x\\in\\mathbb R.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=0$",
+      "payload": "x=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$E(0)=1$",
+      "payload": "E(0)=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=\\arcsin x$",
+      "payload": "y=\\arcsin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin y=x$",
+      "payload": "\\sin y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$J(x)=\\exp(x\\arctan x)/(1+x^2)$",
+      "payload": "J(x)=\\exp(x\\arctan x)/(1+x^2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\arctan x$",
+      "payload": "x\\arctan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2x$",
+      "payload": "2x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\cosh u)'=\\sinh u\\,u'$",
+      "payload": "(\\cosh u)'=\\sinh u\\,u'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\sinh u)'=\\cosh u\\,u'$",
+      "payload": "(\\sinh u)'=\\cosh u\\,u'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u=2x$",
+      "payload": "u=2x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H$",
+      "payload": "H"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$A=x^2+1$",
+      "payload": "A=x^2+1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$B=\\sin(3x)$",
+      "payload": "B=\\sin(3x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$AB$",
+      "payload": "AB"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$B/A$",
+      "payload": "B/A"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$A'$",
+      "payload": "A'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$B'$",
+      "payload": "B'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2x+2yy'=0$",
+      "payload": "2x+2yy'=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2y$",
+      "payload": "2y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=1$",
+      "payload": "x=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=0$",
+      "payload": "y=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y=x$",
+      "payload": "\\cos y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-\\sin y$",
+      "payload": "-\\sin y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'$",
+      "payload": "y'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin^2y$",
+      "payload": "\\sin^2y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y=x$",
+      "payload": "\\cos y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$0<y<\\pi$",
+      "payload": "0<y<\\pi"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$[\\cos(x+h)-\\cos x]/h$",
+      "payload": "[\\cos(x+h)-\\cos x]/h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos x$",
+      "payload": "\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\cos h-1)/h$",
+      "payload": "(\\cos h-1)/h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin h/h$",
+      "payload": "\\sin h/h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f$",
+      "payload": "f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{\\sqrt2\\ln x}$",
+      "payload": "e^{\\sqrt2\\ln x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$g$",
+      "payload": "g"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{x\\ln\\sqrt2}$",
+      "payload": "e^{x\\ln\\sqrt2}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sqrt2$",
+      "payload": "\\sqrt2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln\\sqrt2$",
+      "payload": "\\ln\\sqrt2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln x$",
+      "payload": "\\ln x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y\\,y'=1$",
+      "payload": "\\cos y\\,y'=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$N=e^w$",
+      "payload": "N=e^w"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$w=x\\arctan x$",
+      "payload": "w=x\\arctan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$D=1+x^2$",
+      "payload": "D=1+x^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$w'$",
+      "payload": "w'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$N'$",
+      "payload": "N'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(N'D-ND')/D^2$",
+      "payload": "(N'D-ND')/D^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{2x}$",
+      "payload": "e^{2x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{-2x}$",
+      "payload": "e^{-2x}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nH(x)=\\frac{e^{2x}+e^{-2x}-(e^{2x}-e^{-2x})}{2}=e^{-2x}.\n$$",
+      "payload": "\nH(x)=\\frac{e^{2x}+e^{-2x}-(e^{2x}-e^{-2x})}{2}=e^{-2x}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H'=-2e^{-2x}$",
+      "payload": "H'=-2e^{-2x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H'=2\\sinh(2x)-2\\cosh(2x)=-2H(x)$",
+      "payload": "H'=2\\sinh(2x)-2\\cosh(2x)=-2H(x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H=e^{-2x}$",
+      "payload": "H=e^{-2x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H$",
+      "payload": "H"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2$",
+      "payload": "2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F$",
+      "payload": "F"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$G$",
+      "payload": "G"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$A=x^2+1$",
+      "payload": "A=x^2+1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$B=\\sin(3x)$",
+      "payload": "B=\\sin(3x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$A'=2x$",
+      "payload": "A'=2x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$B'=3\\cos(3x)$",
+      "payload": "B'=3\\cos(3x)"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nF'=2x\\sin(3x)+3(x^2+1)\\cos(3x),\n$$",
+      "payload": "\nF'=2x\\sin(3x)+3(x^2+1)\\cos(3x),\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nG'=\\frac{3(x^2+1)\\cos(3x)-2x\\sin(3x)}{(x^2+1)^2}.\n$$",
+      "payload": "\nG'=\\frac{3(x^2+1)\\cos(3x)-2x\\sin(3x)}{(x^2+1)^2}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^2+1>0$",
+      "payload": "x^2+1>0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$3$",
+      "payload": "3"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$3x$",
+      "payload": "3x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$B$",
+      "payload": "B"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^2+1$",
+      "payload": "x^2+1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F$",
+      "payload": "F"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$G$",
+      "payload": "G"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2x+2yy'=0$",
+      "payload": "2x+2yy'=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y\\ne0$",
+      "payload": "y\\ne0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'=-x/y$",
+      "payload": "y'=-x/y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1,2)$",
+      "payload": "(1,2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-1/2$",
+      "payload": "-1/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1,-2)$",
+      "payload": "(1,-2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1/2$",
+      "payload": "1/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=0$",
+      "payload": "y=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=\\pm\\sqrt5$",
+      "payload": "x=\\pm\\sqrt5"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\sqrt5,0)$",
+      "payload": "(\\sqrt5,0)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(-\\sqrt5,0)$",
+      "payload": "(-\\sqrt5,0)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2x=0$",
+      "payload": "2x=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'$",
+      "payload": "y'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-\\sin y\\,y'=1$",
+      "payload": "-\\sin y\\,y'=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-1<x<1$",
+      "payload": "-1<x<1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$0<y<\\pi$",
+      "payload": "0<y<\\pi"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin y>0$",
+      "payload": "\\sin y>0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin^2y=1-\\cos^2y=1-x^2$",
+      "payload": "\\sin^2y=1-\\cos^2y=1-x^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin y=\\sqrt{1-x^2}$",
+      "payload": "\\sin y=\\sqrt{1-x^2}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\ny'=-\\frac1{\\sqrt{1-x^2}},\\qquad -1<x<1.\n$$",
+      "payload": "\ny'=-\\frac1{\\sqrt{1-x^2}},\\qquad -1<x<1.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y=x$",
+      "payload": "\\cos y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin y=x$",
+      "payload": "\\sin y=x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{\\cos(x+h)-\\cos x}{h}\n=\\cos x\\frac{\\cos h-1}{h}-\\sin x\\frac{\\sin h}{h}.\n$$",
+      "payload": "\n\\frac{\\cos(x+h)-\\cos x}{h}\n=\\cos x\\frac{\\cos h-1}{h}-\\sin x\\frac{\\sin h}{h}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos x$",
+      "payload": "\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin x$",
+      "payload": "\\sin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos x\\cdot0-\\sin x\\cdot1=-\\sin x$",
+      "payload": "\\cos x\\cdot0-\\sin x\\cdot1=-\\sin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\cos x)'=-\\sin x$",
+      "payload": "(\\cos x)'=-\\sin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f$",
+      "payload": "f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sqrt2$",
+      "payload": "\\sqrt2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x>0$",
+      "payload": "x>0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f=e^{\\sqrt2\\ln x}$",
+      "payload": "f=e^{\\sqrt2\\ln x}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nf'=e^{\\sqrt2\\ln x}\\frac{\\sqrt2}{x}=\\sqrt2\\,x^{\\sqrt2-1}.\n$$",
+      "payload": "\nf'=e^{\\sqrt2\\ln x}\\frac{\\sqrt2}{x}=\\sqrt2\\,x^{\\sqrt2-1}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$g$",
+      "payload": "g"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sqrt2$",
+      "payload": "\\sqrt2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$g=e^{x\\ln\\sqrt2}$",
+      "payload": "g=e^{x\\ln\\sqrt2}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\ng'=e^{x\\ln\\sqrt2}\\ln\\sqrt2=(\\sqrt2)^x\\ln\\sqrt2.\n$$",
+      "payload": "\ng'=e^{x\\ln\\sqrt2}\\ln\\sqrt2=(\\sqrt2)^x\\ln\\sqrt2.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f'$",
+      "payload": "f'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$g'$",
+      "payload": "g'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y\\in[-\\pi/2,\\pi/2]$",
+      "payload": "y\\in[-\\pi/2,\\pi/2]"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin y=x$",
+      "payload": "\\sin y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y\\,y'=1$",
+      "payload": "\\cos y\\,y'=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-1<x<1$",
+      "payload": "-1<x<1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y>0$",
+      "payload": "\\cos y>0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos^2y=1-x^2$",
+      "payload": "\\cos^2y=1-x^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'=1/\\sqrt{1-x^2}$",
+      "payload": "y'=1/\\sqrt{1-x^2}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(-1,1)$",
+      "payload": "(-1,1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$J$",
+      "payload": "J"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$N=e^w$",
+      "payload": "N=e^w"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$w=x\\arctan x$",
+      "payload": "w=x\\arctan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$D=1+x^2$",
+      "payload": "D=1+x^2"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nw'=\\arctan x+\\frac{x}{1+x^2},\n\\qquad N'=e^ww',\\qquad D'=2x.\n$$",
+      "payload": "\nw'=\\arctan x+\\frac{x}{1+x^2},\n\\qquad N'=e^ww',\\qquad D'=2x.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nJ'=\\frac{e^w\\left(\\arctan x+\\frac{x}{1+x^2}\\right)(1+x^2)-e^w(2x)}{(1+x^2)^2}\n=\\frac{e^{x\\arctan x}\\big((1+x^2)\\arctan x-x\\big)}{(1+x^2)^2}.\n$$",
+      "payload": "\nJ'=\\frac{e^w\\left(\\arctan x+\\frac{x}{1+x^2}\\right)(1+x^2)-e^w(2x)}{(1+x^2)^2}\n=\\frac{e^{x\\arctan x}\\big((1+x^2)\\arctan x-x\\big)}{(1+x^2)^2}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1+x^2)^{-1}$",
+      "payload": "(1+x^2)^{-1}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=0$",
+      "payload": "x=0"
+    }
+  ],
+  "github_math": [
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln$",
+      "payload": "\\ln"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'=dy/dx$",
+      "payload": "y'=dy/dx"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\arcsin x$",
+      "payload": "\\arcsin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\arctan x$",
+      "payload": "\\arctan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin^{-1}x$",
+      "payload": "\\sin^{-1}x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\tan^{-1}x$",
+      "payload": "\\tan^{-1}x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sec x=1/\\cos x$",
+      "payload": "\\sec x=1/\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sinh$",
+      "payload": "\\sinh"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cosh$",
+      "payload": "\\cosh"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\sinh x=\\frac{e^x-e^{-x}}2,\n\\qquad\n\\cosh x=\\frac{e^x+e^{-x}}2.\n$$",
+      "payload": "\n\\sinh x=\\frac{e^x-e^{-x}}2,\n\\qquad\n\\cosh x=\\frac{e^x+e^{-x}}2.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2$",
+      "payload": "2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{-x}$",
+      "payload": "e^{-x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(e^x)'=e^x$",
+      "payload": "(e^x)'=e^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(e^{-x})'=-e^{-x}$",
+      "payload": "(e^{-x})'=-e^{-x}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(\\sinh x)'=\\frac{e^x-(-e^{-x})}{2}=\\cosh x,\n\\qquad\n(\\cosh x)'=\\frac{e^x+(-e^{-x})}{2}=\\sinh x.\n$$",
+      "payload": "\n(\\sinh x)'=\\frac{e^x-(-e^{-x})}{2}=\\cosh x,\n\\qquad\n(\\cosh x)'=\\frac{e^x+(-e^{-x})}{2}=\\sinh x.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{-x}$",
+      "payload": "e^{-x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\cos x)'=-\\sin x$",
+      "payload": "(\\cos x)'=-\\sin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cosh x$",
+      "payload": "\\cosh x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=0$",
+      "payload": "x=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sinh0=0$",
+      "payload": "\\sinh0=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cosh0=1$",
+      "payload": "\\cosh0=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1$",
+      "payload": "1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$0$",
+      "payload": "0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cosh^2x$",
+      "payload": "\\cosh^2x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\cosh x)^2$",
+      "payload": "(\\cosh x)^2"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\cosh^2x-\\sinh^2x\n=\\frac{(e^x+e^{-x})^2-(e^x-e^{-x})^2}{4}\n=\\frac{4e^xe^{-x}}4=1.\n$$",
+      "payload": "\n\\cosh^2x-\\sinh^2x\n=\\frac{(e^x+e^{-x})^2-(e^x-e^{-x})^2}{4}\n=\\frac{4e^xe^{-x}}4=1.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(a+b)^2-(a-b)^2=4ab$",
+      "payload": "(a+b)^2-(a-b)^2=4ab"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^xe^{-x}=1$",
+      "payload": "e^xe^{-x}=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u=\\cosh x$",
+      "payload": "u=\\cosh x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$v=\\sinh x$",
+      "payload": "v=\\sinh x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u^2-v^2=1$",
+      "payload": "u^2-v^2=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u&gt;0$",
+      "payload": "u&gt;0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u^2=1+v^2$",
+      "payload": "u^2=1+v^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u\\ge1$",
+      "payload": "u\\ge1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u=\\cos x$",
+      "payload": "u=\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$v=\\sin x$",
+      "payload": "v=\\sin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u^2+v^2=1$",
+      "payload": "u^2+v^2=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H(x)=\\cosh(2x)-\\sinh(2x)$",
+      "payload": "H(x)=\\cosh(2x)-\\sinh(2x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sinh t=(e^t-e^{-t})/2$",
+      "payload": "\\sinh t=(e^t-e^{-t})/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cosh t=(e^t+e^{-t})/2$",
+      "payload": "\\cosh t=(e^t+e^{-t})/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H'(x)$",
+      "payload": "H'(x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H$",
+      "payload": "H"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2x$",
+      "payload": "2x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H$",
+      "payload": "H"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u=u(x)$",
+      "payload": "u=u(x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$v=v(x)$",
+      "payload": "v=v(x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$c$",
+      "payload": "c"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(u+v)'=u'+v',\\qquad(cu)'=cu',\\qquad(uv)'=u'v+uv',\n$$",
+      "payload": "\n(u+v)'=u'+v',\\qquad(cu)'=cu',\\qquad(uv)'=u'v+uv',\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\quad(v\\ne0),\n\\qquad\n\\frac d{dx}f(u(x))=f'(u(x))u'(x).\n$$",
+      "payload": "\n\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\quad(v\\ne0),\n\\qquad\n\\frac d{dx}f(u(x))=f'(u(x))u'(x).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f$",
+      "payload": "f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u(x)$",
+      "payload": "u(x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u$",
+      "payload": "u"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin(3x)$",
+      "payload": "\\sin(3x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$3x$",
+      "payload": "3x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos(3x)\\cdot3$",
+      "payload": "\\cos(3x)\\cdot3"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\sin x$",
+      "payload": "x\\sin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin(x^2)$",
+      "payload": "\\sin(x^2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin(x^2)$",
+      "payload": "\\sin(x^2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$[\\sin x]^2$",
+      "payload": "[\\sin x]^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2x\\cos(x^2)$",
+      "payload": "2x\\cos(x^2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2\\sin x\\cos x$",
+      "payload": "2\\sin x\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$v\\ne0$",
+      "payload": "v\\ne0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u/v=uv^{-1}$",
+      "payload": "u/v=uv^{-1}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$t^{-1}$",
+      "payload": "t^{-1}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(uv^{-1})'=u'v^{-1}+u(-v^{-2}v')\n=\\frac{u'}v-\\frac{uv'}{v^2}\n=\\frac{u'v-uv'}{v^2}.\n$$",
+      "payload": "\n(uv^{-1})'=u'v^{-1}+u(-v^{-2}v')\n=\\frac{u'}v-\\frac{uv'}{v^2}\n=\\frac{u'v-uv'}{v^2}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$R(x)=x/(1+x^2)$",
+      "payload": "R(x)=x/(1+x^2)"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nR'(x)=\\frac{1(1+x^2)-x(2x)}{(1+x^2)^2}\n=\\frac{1-x^2}{(1+x^2)^2}.\n$$",
+      "payload": "\nR'(x)=\\frac{1(1+x^2)-x(2x)}{(1+x^2)^2}\n=\\frac{1-x^2}{(1+x^2)^2}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=0$",
+      "payload": "x=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1$",
+      "payload": "1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$|x|&lt;1$",
+      "payload": "|x|&lt;1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$|x|&gt;1$",
+      "payload": "|x|&gt;1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F(x)=(x^2+1)\\sin(3x)$",
+      "payload": "F(x)=(x^2+1)\\sin(3x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$G(x)=\\sin(3x)/(x^2+1)$",
+      "payload": "G(x)=\\sin(3x)/(x^2+1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$3$",
+      "payload": "3"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y(x)$",
+      "payload": "y(x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(y^3)'=3y^2y'$",
+      "payload": "(y^3)'=3y^2y'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(x^3)'=3x^2$",
+      "payload": "(x^3)'=3x^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x'=1$",
+      "payload": "x'=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y^3+3xy^2=8$",
+      "payload": "y^3+3xy^2=8"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$3y^2+6xyy'$",
+      "payload": "3y^2+6xyy'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'$",
+      "payload": "y'"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n3y^2y'+3y^2+6xyy'=0,\n\\qquad\n(3y^2+6xy)y'=-3y^2,\n$$",
+      "payload": "\n3y^2y'+3y^2+6xyy'=0,\n\\qquad\n(3y^2+6xy)y'=-3y^2,\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\ny'=\\frac{-3y^2}{3y^2+6xy}\n\\quad\\text{where }3y^2+6xy\\ne0.\n$$",
+      "payload": "\ny'=\\frac{-3y^2}{3y^2+6xy}\n\\quad\\text{where }3y^2+6xy\\ne0.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(0,2)$",
+      "payload": "(0,2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2^3+0=8$",
+      "payload": "2^3+0=8"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'=-12/12=-1$",
+      "payload": "y'=-12/12=-1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y-2=-x$",
+      "payload": "y-2=-x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'$",
+      "payload": "y'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$dy/dx$",
+      "payload": "dy/dx"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^2+y^2=5$",
+      "payload": "x^2+y^2=5"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1,2)$",
+      "payload": "(1,2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1,-2)$",
+      "payload": "(1,-2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'$",
+      "payload": "y'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'$",
+      "payload": "y'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=\\arcsin x$",
+      "payload": "y=\\arcsin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$[-\\pi/2,\\pi/2]$",
+      "payload": "[-\\pi/2,\\pi/2]"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\in[-1,1]$",
+      "payload": "x\\in[-1,1]"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin y=x$",
+      "payload": "\\sin y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-1&lt;x&lt;1$",
+      "payload": "-1&lt;x&lt;1"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(\\cos y)y'=1,\\qquad y'=\\frac1{\\cos y}.\n$$",
+      "payload": "\n(\\cos y)y'=1,\\qquad y'=\\frac1{\\cos y}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos^2y=1-\\sin^2y=1-x^2$",
+      "payload": "\\cos^2y=1-\\sin^2y=1-x^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y$",
+      "payload": "\\cos y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y&gt;0$",
+      "payload": "\\cos y&gt;0"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(\\arcsin x)'=\\frac1{\\sqrt{1-x^2}},\\qquad -1<x<1.\n$$",
+      "payload": "\n(\\arcsin x)'=\\frac1{\\sqrt{1-x^2}},\\qquad -1<x<1.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=\\pm1$",
+      "payload": "x=\\pm1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=\\arctan x$",
+      "payload": "y=\\arctan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(-\\pi/2,\\pi/2)$",
+      "payload": "(-\\pi/2,\\pi/2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\tan y=x$",
+      "payload": "\\tan y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\tan y)'$",
+      "payload": "(\\tan y)'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sec^2y=1+\\tan^2y$",
+      "payload": "\\sec^2y=1+\\tan^2y"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\sec^2y,y'=1,\n\\qquad\n(\\arctan x)'=\\frac1{1+x^2},\\qquad x\\in\\mathbb R.\n$$",
+      "payload": "\n\\sec^2y,y'=1,\n\\qquad\n(\\arctan x)'=\\frac1{1+x^2},\\qquad x\\in\\mathbb R.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=\\arccos x$",
+      "payload": "y=\\arccos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y=x$",
+      "payload": "\\cos y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y\\in[0,\\pi]$",
+      "payload": "y\\in[0,\\pi]"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-1&lt;x&lt;1$",
+      "payload": "-1&lt;x&lt;1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'$",
+      "payload": "y'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^n$",
+      "payload": "x^n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin^{-1}x$",
+      "payload": "\\sin^{-1}x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\tan^{-1}x$",
+      "payload": "\\tan^{-1}x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin x$",
+      "payload": "\\sin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos x$",
+      "payload": "\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\tan x$",
+      "payload": "\\tan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sec x$",
+      "payload": "\\sec x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^x$",
+      "payload": "e^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln x$",
+      "payload": "\\ln x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\lim_{h\\to0}\\frac{\\sin h}{h}=1,\n\\qquad\n\\lim_{h\\to0}\\frac{\\cos h-1}{h}=0.\n$$",
+      "payload": "\n\\lim_{h\\to0}\\frac{\\sin h}{h}=1,\n\\qquad\n\\lim_{h\\to0}\\frac{\\cos h-1}{h}=0.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h$",
+      "payload": "h"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nf'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}h.\n$$",
+      "payload": "\nf'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}h.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h$",
+      "payload": "h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\Delta x$",
+      "payload": "\\Delta x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin(x+h)=\\sin x\\cos h+\\cos x\\sin h$",
+      "payload": "\\sin(x+h)=\\sin x\\cos h+\\cos x\\sin h"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{\\sin(x+h)-\\sin x}{h}\n=\\sin x\\frac{\\cos h-1}{h}+\\cos x\\frac{\\sin h}{h}.\n$$",
+      "payload": "\n\\frac{\\sin(x+h)-\\sin x}{h}\n=\\sin x\\frac{\\cos h-1}{h}+\\cos x\\frac{\\sin h}{h}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin x\\cdot0+\\cos x\\cdot1=\\cos x$",
+      "payload": "\\sin x\\cdot0+\\cos x\\cdot1=\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h$",
+      "payload": "h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$d(\\cos x)/dx$",
+      "payload": "d(\\cos x)/dx"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos(x+h)=\\cos x\\cos h-\\sin x\\sin h$",
+      "payload": "\\cos(x+h)=\\cos x\\cos h-\\sin x\\sin h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\lim_{h\\to0}(\\sin h)/h=1$",
+      "payload": "\\lim_{h\\to0}(\\sin h)/h=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\lim_{h\\to0}(\\cos h-1)/h=0$",
+      "payload": "\\lim_{h\\to0}(\\cos h-1)/h=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h$",
+      "payload": "h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\sin x)'=\\cos x$",
+      "payload": "(\\sin x)'=\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\cos x)'=-\\sin x$",
+      "payload": "(\\cos x)'=-\\sin x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(\\tan x)'=\\left(\\frac{\\sin x}{\\cos x}\\right)'\n=\\frac{\\cos^2x+\\sin^2x}{\\cos^2x}=\\sec^2x,\n$$",
+      "payload": "\n(\\tan x)'=\\left(\\frac{\\sin x}{\\cos x}\\right)'\n=\\frac{\\cos^2x+\\sin^2x}{\\cos^2x}=\\sec^2x,\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(\\sec x)'=((\\cos x)^{-1})'\n=-(\\cos x)^{-2}(-\\sin x)\n=\\frac{\\sin x}{\\cos^2x}=\\tan x\\sec x.\n$$",
+      "payload": "\n(\\sec x)'=((\\cos x)^{-1})'\n=-(\\cos x)^{-2}(-\\sin x)\n=\\frac{\\sin x}{\\cos^2x}=\\tan x\\sec x.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos x\\ne0$",
+      "payload": "\\cos x\\ne0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\tan x=\\sin x/\\cos x$",
+      "payload": "\\tan x=\\sin x/\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sec x=1/\\cos x$",
+      "payload": "\\sec x=1/\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\lim_{h\\to0}(e^h-1)/h=1$",
+      "payload": "\\lim_{h\\to0}(e^h-1)/h=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{x+h}=e^xe^h$",
+      "payload": "e^{x+h}=e^xe^h"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{e^{x+h}-e^x}{h}=e^x\\frac{e^h-1}{h}\n\\quad\\Longrightarrow\\quad\n(e^x)'=e^x,\\qquad x\\in\\mathbb R.\n$$",
+      "payload": "\n\\frac{e^{x+h}-e^x}{h}=e^x\\frac{e^h-1}{h}\n\\quad\\Longrightarrow\\quad\n(e^x)'=e^x,\\qquad x\\in\\mathbb R.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1$",
+      "payload": "1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$0$",
+      "payload": "0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=\\ln x$",
+      "payload": "y=\\ln x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x&gt;0$",
+      "payload": "x&gt;0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^y=x$",
+      "payload": "e^y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^yy'=1$",
+      "payload": "e^yy'=1"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(\\ln x)'=\\frac1{e^y}=\\frac1x,\\qquad x>0.\n$$",
+      "payload": "\n(\\ln x)'=\\frac1{e^y}=\\frac1x,\\qquad x>0.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$n$",
+      "payload": "n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$n$",
+      "payload": "n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^n$",
+      "payload": "x^n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^{n-1}$",
+      "payload": "x^{n-1}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$nx^{n-1}$",
+      "payload": "nx^{n-1}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$n=0$",
+      "payload": "n=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^0=1$",
+      "payload": "x^0=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\ne0$",
+      "payload": "x\\ne0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$0$",
+      "payload": "0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r=p/q$",
+      "payload": "r=p/q"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$p$",
+      "payload": "p"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$q&gt;0$",
+      "payload": "q&gt;0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x&gt;0$",
+      "payload": "x&gt;0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=x^{p/q}$",
+      "payload": "y=x^{p/q}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y^q=x^p$",
+      "payload": "y^q=x^p"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nqy^{q-1}y'=px^{p-1},\n\\qquad\ny'=\\frac pq\\frac{x^{p-1}}{x^{p(q-1)/q}}\n=\\frac pqx^{p/q-1}.\n$$",
+      "payload": "\nqy^{q-1}y'=px^{p-1},\n\\qquad\ny'=\\frac pq\\frac{x^{p-1}}{x^{p(q-1)/q}}\n=\\frac pqx^{p/q-1}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$0$",
+      "payload": "0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln x$",
+      "payload": "\\ln x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r$",
+      "payload": "r"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x&gt;0$",
+      "payload": "x&gt;0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^r=e^{r\\ln x}$",
+      "payload": "x^r=e^{r\\ln x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r$",
+      "payload": "r"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{r\\ln x}$",
+      "payload": "e^{r\\ln x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^r$",
+      "payload": "x^r"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac d{dx}x^r\n=\\frac d{dx}e^{r\\ln x}\n=e^{r\\ln x}\\frac r x\n=x^r\\frac r x\n=rx^{r-1},\\qquad x>0.\n$$",
+      "payload": "\n\\frac d{dx}x^r\n=\\frac d{dx}e^{r\\ln x}\n=e^{r\\ln x}\\frac r x\n=x^r\\frac r x\n=rx^{r-1},\\qquad x>0.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\ln f)'=f'/f$",
+      "payload": "(\\ln f)'=f'/f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f&gt;0$",
+      "payload": "f&gt;0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f=x^r&gt;0$",
+      "payload": "f=x^r&gt;0"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln f=r\\ln x,\n\\qquad\n\\frac{f'}f=\\frac r x,\n\\qquad\nf'=f\\frac r x=x^r\\frac r x=rx^{r-1}.\n$$",
+      "payload": "\n\\ln f=r\\ln x,\n\\qquad\n\\frac{f'}f=\\frac r x,\n\\qquad\nf'=f\\frac r x=x^r\\frac r x=rx^{r-1}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f'/f$",
+      "payload": "f'/f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f$",
+      "payload": "f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f=x^\\pi$",
+      "payload": "f=x^\\pi"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x&gt;0$",
+      "payload": "x&gt;0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f'=\\pi x^{\\pi-1}$",
+      "payload": "f'=\\pi x^{\\pi-1}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\pi$",
+      "payload": "\\pi"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x&gt;0$",
+      "payload": "x&gt;0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f(x)=x^{\\sqrt2}$",
+      "payload": "f(x)=x^{\\sqrt2}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$g(x)=(\\sqrt2)^x$",
+      "payload": "g(x)=(\\sqrt2)^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sqrt2$",
+      "payload": "\\sqrt2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2$",
+      "payload": "2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$E(x)=e^{x\\tan^{-1}x}$",
+      "payload": "E(x)=e^{x\\tan^{-1}x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$E(x)=\\exp(x\\arctan x)$",
+      "payload": "E(x)=\\exp(x\\arctan x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\exp(t)=e^t$",
+      "payload": "\\exp(t)=e^t"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\arctan x$",
+      "payload": "x\\arctan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^x\\arctan x$",
+      "payload": "e^x\\arctan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$w(x)=x\\arctan x$",
+      "payload": "w(x)=x\\arctan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$E'=e^ww'$",
+      "payload": "E'=e^ww'"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nw'=1\\cdot\\arctan x+x\\frac1{1+x^2}.\n$$",
+      "payload": "\nw'=1\\cdot\\arctan x+x\\frac1{1+x^2}.\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nE'(x)=e^{x\\arctan x}\n\\left(\\arctan x+\\frac{x}{1+x^2}\\right),\n\\qquad x\\in\\mathbb R.\n$$",
+      "payload": "\nE'(x)=e^{x\\arctan x}\n\\left(\\arctan x+\\frac{x}{1+x^2}\\right),\n\\qquad x\\in\\mathbb R.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=0$",
+      "payload": "x=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$E(0)=1$",
+      "payload": "E(0)=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=\\arcsin x$",
+      "payload": "y=\\arcsin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin y=x$",
+      "payload": "\\sin y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$J(x)=\\exp(x\\arctan x)/(1+x^2)$",
+      "payload": "J(x)=\\exp(x\\arctan x)/(1+x^2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\arctan x$",
+      "payload": "x\\arctan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2x$",
+      "payload": "2x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\cosh u)'=\\sinh u,u'$",
+      "payload": "(\\cosh u)'=\\sinh u,u'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\sinh u)'=\\cosh u,u'$",
+      "payload": "(\\sinh u)'=\\cosh u,u'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u=2x$",
+      "payload": "u=2x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H$",
+      "payload": "H"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$A=x^2+1$",
+      "payload": "A=x^2+1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$B=\\sin(3x)$",
+      "payload": "B=\\sin(3x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$AB$",
+      "payload": "AB"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$B/A$",
+      "payload": "B/A"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$A'$",
+      "payload": "A'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$B'$",
+      "payload": "B'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2x+2yy'=0$",
+      "payload": "2x+2yy'=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2y$",
+      "payload": "2y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=1$",
+      "payload": "x=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=0$",
+      "payload": "y=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y=x$",
+      "payload": "\\cos y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-\\sin y$",
+      "payload": "-\\sin y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'$",
+      "payload": "y'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin^2y$",
+      "payload": "\\sin^2y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y=x$",
+      "payload": "\\cos y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$0&lt;y&lt;\\pi$",
+      "payload": "0&lt;y&lt;\\pi"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$[\\cos(x+h)-\\cos x]/h$",
+      "payload": "[\\cos(x+h)-\\cos x]/h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos x$",
+      "payload": "\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\cos h-1)/h$",
+      "payload": "(\\cos h-1)/h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin h/h$",
+      "payload": "\\sin h/h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f$",
+      "payload": "f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{\\sqrt2\\ln x}$",
+      "payload": "e^{\\sqrt2\\ln x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$g$",
+      "payload": "g"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{x\\ln\\sqrt2}$",
+      "payload": "e^{x\\ln\\sqrt2}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sqrt2$",
+      "payload": "\\sqrt2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln\\sqrt2$",
+      "payload": "\\ln\\sqrt2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln x$",
+      "payload": "\\ln x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y,y'=1$",
+      "payload": "\\cos y,y'=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$N=e^w$",
+      "payload": "N=e^w"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$w=x\\arctan x$",
+      "payload": "w=x\\arctan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$D=1+x^2$",
+      "payload": "D=1+x^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$w'$",
+      "payload": "w'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$N'$",
+      "payload": "N'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(N'D-ND')/D^2$",
+      "payload": "(N'D-ND')/D^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{2x}$",
+      "payload": "e^{2x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{-2x}$",
+      "payload": "e^{-2x}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nH(x)=\\frac{e^{2x}+e^{-2x}-(e^{2x}-e^{-2x})}{2}=e^{-2x}.\n$$",
+      "payload": "\nH(x)=\\frac{e^{2x}+e^{-2x}-(e^{2x}-e^{-2x})}{2}=e^{-2x}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H'=-2e^{-2x}$",
+      "payload": "H'=-2e^{-2x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H'=2\\sinh(2x)-2\\cosh(2x)=-2H(x)$",
+      "payload": "H'=2\\sinh(2x)-2\\cosh(2x)=-2H(x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H=e^{-2x}$",
+      "payload": "H=e^{-2x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$H$",
+      "payload": "H"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2$",
+      "payload": "2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F$",
+      "payload": "F"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$G$",
+      "payload": "G"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$A=x^2+1$",
+      "payload": "A=x^2+1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$B=\\sin(3x)$",
+      "payload": "B=\\sin(3x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$A'=2x$",
+      "payload": "A'=2x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$B'=3\\cos(3x)$",
+      "payload": "B'=3\\cos(3x)"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nF'=2x\\sin(3x)+3(x^2+1)\\cos(3x),\n$$",
+      "payload": "\nF'=2x\\sin(3x)+3(x^2+1)\\cos(3x),\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nG'=\\frac{3(x^2+1)\\cos(3x)-2x\\sin(3x)}{(x^2+1)^2}.\n$$",
+      "payload": "\nG'=\\frac{3(x^2+1)\\cos(3x)-2x\\sin(3x)}{(x^2+1)^2}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^2+1&gt;0$",
+      "payload": "x^2+1&gt;0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$3$",
+      "payload": "3"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$3x$",
+      "payload": "3x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$B$",
+      "payload": "B"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^2+1$",
+      "payload": "x^2+1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F$",
+      "payload": "F"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$G$",
+      "payload": "G"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2x+2yy'=0$",
+      "payload": "2x+2yy'=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y\\ne0$",
+      "payload": "y\\ne0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'=-x/y$",
+      "payload": "y'=-x/y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1,2)$",
+      "payload": "(1,2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-1/2$",
+      "payload": "-1/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1,-2)$",
+      "payload": "(1,-2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1/2$",
+      "payload": "1/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=0$",
+      "payload": "y=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=\\pm\\sqrt5$",
+      "payload": "x=\\pm\\sqrt5"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\sqrt5,0)$",
+      "payload": "(\\sqrt5,0)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(-\\sqrt5,0)$",
+      "payload": "(-\\sqrt5,0)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2x=0$",
+      "payload": "2x=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'$",
+      "payload": "y'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-\\sin y,y'=1$",
+      "payload": "-\\sin y,y'=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-1&lt;x&lt;1$",
+      "payload": "-1&lt;x&lt;1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$0&lt;y&lt;\\pi$",
+      "payload": "0&lt;y&lt;\\pi"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin y&gt;0$",
+      "payload": "\\sin y&gt;0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin^2y=1-\\cos^2y=1-x^2$",
+      "payload": "\\sin^2y=1-\\cos^2y=1-x^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin y=\\sqrt{1-x^2}$",
+      "payload": "\\sin y=\\sqrt{1-x^2}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\ny'=-\\frac1{\\sqrt{1-x^2}},\\qquad -1<x<1.\n$$",
+      "payload": "\ny'=-\\frac1{\\sqrt{1-x^2}},\\qquad -1<x<1.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y=x$",
+      "payload": "\\cos y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin y=x$",
+      "payload": "\\sin y=x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{\\cos(x+h)-\\cos x}{h}\n=\\cos x\\frac{\\cos h-1}{h}-\\sin x\\frac{\\sin h}{h}.\n$$",
+      "payload": "\n\\frac{\\cos(x+h)-\\cos x}{h}\n=\\cos x\\frac{\\cos h-1}{h}-\\sin x\\frac{\\sin h}{h}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos x$",
+      "payload": "\\cos x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin x$",
+      "payload": "\\sin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos x\\cdot0-\\sin x\\cdot1=-\\sin x$",
+      "payload": "\\cos x\\cdot0-\\sin x\\cdot1=-\\sin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\cos x)'=-\\sin x$",
+      "payload": "(\\cos x)'=-\\sin x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f$",
+      "payload": "f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sqrt2$",
+      "payload": "\\sqrt2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x&gt;0$",
+      "payload": "x&gt;0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f=e^{\\sqrt2\\ln x}$",
+      "payload": "f=e^{\\sqrt2\\ln x}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nf'=e^{\\sqrt2\\ln x}\\frac{\\sqrt2}{x}=\\sqrt2,x^{\\sqrt2-1}.\n$$",
+      "payload": "\nf'=e^{\\sqrt2\\ln x}\\frac{\\sqrt2}{x}=\\sqrt2,x^{\\sqrt2-1}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$g$",
+      "payload": "g"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sqrt2$",
+      "payload": "\\sqrt2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$g=e^{x\\ln\\sqrt2}$",
+      "payload": "g=e^{x\\ln\\sqrt2}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\ng'=e^{x\\ln\\sqrt2}\\ln\\sqrt2=(\\sqrt2)^x\\ln\\sqrt2.\n$$",
+      "payload": "\ng'=e^{x\\ln\\sqrt2}\\ln\\sqrt2=(\\sqrt2)^x\\ln\\sqrt2.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f'$",
+      "payload": "f'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$g'$",
+      "payload": "g'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y\\in[-\\pi/2,\\pi/2]$",
+      "payload": "y\\in[-\\pi/2,\\pi/2]"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\sin y=x$",
+      "payload": "\\sin y=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y,y'=1$",
+      "payload": "\\cos y,y'=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-1&lt;x&lt;1$",
+      "payload": "-1&lt;x&lt;1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos y&gt;0$",
+      "payload": "\\cos y&gt;0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\cos^2y=1-x^2$",
+      "payload": "\\cos^2y=1-x^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'=1/\\sqrt{1-x^2}$",
+      "payload": "y'=1/\\sqrt{1-x^2}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(-1,1)$",
+      "payload": "(-1,1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$J$",
+      "payload": "J"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$N=e^w$",
+      "payload": "N=e^w"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$w=x\\arctan x$",
+      "payload": "w=x\\arctan x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$D=1+x^2$",
+      "payload": "D=1+x^2"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nw'=\\arctan x+\\frac{x}{1+x^2},\n\\qquad N'=e^ww',\\qquad D'=2x.\n$$",
+      "payload": "\nw'=\\arctan x+\\frac{x}{1+x^2},\n\\qquad N'=e^ww',\\qquad D'=2x.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nJ'=\\frac{e^w\\left(\\arctan x+\\frac{x}{1+x^2}\\right)(1+x^2)-e^w(2x)}{(1+x^2)^2}\n=\\frac{e^{x\\arctan x}\\big((1+x^2)\\arctan x-x\\big)}{(1+x^2)^2}.\n$$",
+      "payload": "\nJ'=\\frac{e^w\\left(\\arctan x+\\frac{x}{1+x^2}\\right)(1+x^2)-e^w(2x)}{(1+x^2)^2}\n=\\frac{e^{x\\arctan x}\\big((1+x^2)\\arctan x-x\\big)}{(1+x^2)^2}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1+x^2)^{-1}$",
+      "payload": "(1+x^2)^{-1}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=0$",
+      "payload": "x=0"
+    }
+  ],
+  "math_mismatches": [
+    {
+      "index": 34,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$u>0$",
+        "payload": "u>0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$u&gt;0$",
+        "payload": "u&gt;0"
+      }
+    },
+    {
+      "index": 75,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$|x|<1$",
+        "payload": "|x|<1"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$|x|&lt;1$",
+        "payload": "|x|&lt;1"
+      }
+    },
+    {
+      "index": 76,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$|x|>1$",
+        "payload": "|x|>1"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$|x|&gt;1$",
+        "payload": "|x|&gt;1"
+      }
+    },
+    {
+      "index": 116,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$-1<x<1$",
+        "payload": "-1<x<1"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$-1&lt;x&lt;1$",
+        "payload": "-1&lt;x&lt;1"
+      }
+    },
+    {
+      "index": 121,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\cos y>0$",
+        "payload": "\\cos y>0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\cos y&gt;0$",
+        "payload": "\\cos y&gt;0"
+      }
+    },
+    {
+      "index": 129,
+      "source": {
+        "type": "js-display-math",
+        "text": "$$\n\\sec^2y\\,y'=1,\n\\qquad\n(\\arctan x)'=\\frac1{1+x^2},\\qquad x\\in\\mathbb R.\n$$",
+        "payload": "\n\\sec^2y\\,y'=1,\n\\qquad\n(\\arctan x)'=\\frac1{1+x^2},\\qquad x\\in\\mathbb R.\n"
+      },
+      "github": {
+        "type": "js-display-math",
+        "text": "$$\n\\sec^2y,y'=1,\n\\qquad\n(\\arctan x)'=\\frac1{1+x^2},\\qquad x\\in\\mathbb R.\n$$",
+        "payload": "\n\\sec^2y,y'=1,\n\\qquad\n(\\arctan x)'=\\frac1{1+x^2},\\qquad x\\in\\mathbb R.\n"
+      }
+    },
+    {
+      "index": 137,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$-1<x<1$",
+        "payload": "-1<x<1"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$-1&lt;x&lt;1$",
+        "payload": "-1&lt;x&lt;1"
+      }
+    },
+    {
+      "index": 181,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x>0$",
+        "payload": "x>0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x&gt;0$",
+        "payload": "x&gt;0"
+      }
+    },
+    {
+      "index": 196,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$q>0$",
+        "payload": "q>0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$q&gt;0$",
+        "payload": "q&gt;0"
+      }
+    },
+    {
+      "index": 197,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x>0$",
+        "payload": "x>0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x&gt;0$",
+        "payload": "x&gt;0"
+      }
+    },
+    {
+      "index": 204,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x>0$",
+        "payload": "x>0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x&gt;0$",
+        "payload": "x&gt;0"
+      }
+    },
+    {
+      "index": 211,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$f>0$",
+        "payload": "f>0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$f&gt;0$",
+        "payload": "f&gt;0"
+      }
+    },
+    {
+      "index": 212,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$f=x^r>0$",
+        "payload": "f=x^r>0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$f=x^r&gt;0$",
+        "payload": "f=x^r&gt;0"
+      }
+    },
+    {
+      "index": 217,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x>0$",
+        "payload": "x>0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x&gt;0$",
+        "payload": "x&gt;0"
+      }
+    },
+    {
+      "index": 221,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$r$",
+        "payload": "r"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x&gt;0$",
+        "payload": "x&gt;0"
+      }
+    },
+    {
+      "index": 222,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x>0$",
+        "payload": "x>0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$f(x)=x^{\\sqrt2}$",
+        "payload": "f(x)=x^{\\sqrt2}"
+      }
+    },
+    {
+      "index": 223,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$f(x)=x^{\\sqrt2}$",
+        "payload": "f(x)=x^{\\sqrt2}"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$g(x)=(\\sqrt2)^x$",
+        "payload": "g(x)=(\\sqrt2)^x"
+      }
+    },
+    {
+      "index": 224,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$g(x)=(\\sqrt2)^x$",
+        "payload": "g(x)=(\\sqrt2)^x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\sqrt2$",
+        "payload": "\\sqrt2"
+      }
+    },
+    {
+      "index": 225,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\sqrt2$",
+        "payload": "\\sqrt2"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$2$",
+        "payload": "2"
+      }
+    },
+    {
+      "index": 226,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$2$",
+        "payload": "2"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$E(x)=e^{x\\tan^{-1}x}$",
+        "payload": "E(x)=e^{x\\tan^{-1}x}"
+      }
+    },
+    {
+      "index": 227,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$E(x)=e^{x\\tan^{-1}x}$",
+        "payload": "E(x)=e^{x\\tan^{-1}x}"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$E(x)=\\exp(x\\arctan x)$",
+        "payload": "E(x)=\\exp(x\\arctan x)"
+      }
+    },
+    {
+      "index": 228,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$E(x)=\\exp(x\\arctan x)$",
+        "payload": "E(x)=\\exp(x\\arctan x)"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\exp(t)=e^t$",
+        "payload": "\\exp(t)=e^t"
+      }
+    },
+    {
+      "index": 229,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\exp(t)=e^t$",
+        "payload": "\\exp(t)=e^t"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x\\arctan x$",
+        "payload": "x\\arctan x"
+      }
+    },
+    {
+      "index": 230,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x\\arctan x$",
+        "payload": "x\\arctan x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      }
+    },
+    {
+      "index": 231,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$e^x\\arctan x$",
+        "payload": "e^x\\arctan x"
+      }
+    },
+    {
+      "index": 232,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$e^x\\arctan x$",
+        "payload": "e^x\\arctan x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$w(x)=x\\arctan x$",
+        "payload": "w(x)=x\\arctan x"
+      }
+    },
+    {
+      "index": 233,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$w(x)=x\\arctan x$",
+        "payload": "w(x)=x\\arctan x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$E'=e^ww'$",
+        "payload": "E'=e^ww'"
+      }
+    },
+    {
+      "index": 234,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$E'=e^ww'$",
+        "payload": "E'=e^ww'"
+      },
+      "github": {
+        "type": "js-display-math",
+        "text": "$$\nw'=1\\cdot\\arctan x+x\\frac1{1+x^2}.\n$$",
+        "payload": "\nw'=1\\cdot\\arctan x+x\\frac1{1+x^2}.\n"
+      }
+    },
+    {
+      "index": 235,
+      "source": {
+        "type": "js-display-math",
+        "text": "$$\nw'=1\\cdot\\arctan x+x\\frac1{1+x^2}.\n$$",
+        "payload": "\nw'=1\\cdot\\arctan x+x\\frac1{1+x^2}.\n"
+      },
+      "github": {
+        "type": "js-display-math",
+        "text": "$$\nE'(x)=e^{x\\arctan x}\n\\left(\\arctan x+\\frac{x}{1+x^2}\\right),\n\\qquad x\\in\\mathbb R.\n$$",
+        "payload": "\nE'(x)=e^{x\\arctan x}\n\\left(\\arctan x+\\frac{x}{1+x^2}\\right),\n\\qquad x\\in\\mathbb R.\n"
+      }
+    },
+    {
+      "index": 236,
+      "source": {
+        "type": "js-display-math",
+        "text": "$$\nE'(x)=e^{x\\arctan x}\n\\left(\\arctan x+\\frac{x}{1+x^2}\\right),\n\\qquad x\\in\\mathbb R.\n$$",
+        "payload": "\nE'(x)=e^{x\\arctan x}\n\\left(\\arctan x+\\frac{x}{1+x^2}\\right),\n\\qquad x\\in\\mathbb R.\n"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x=0$",
+        "payload": "x=0"
+      }
+    },
+    {
+      "index": 237,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x=0$",
+        "payload": "x=0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$E(0)=1$",
+        "payload": "E(0)=1"
+      }
+    },
+    {
+      "index": 238,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$E(0)=1$",
+        "payload": "E(0)=1"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      }
+    },
+    {
+      "index": 239,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$y=\\arcsin x$",
+        "payload": "y=\\arcsin x"
+      }
+    },
+    {
+      "index": 240,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$y=\\arcsin x$",
+        "payload": "y=\\arcsin x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\sin y=x$",
+        "payload": "\\sin y=x"
+      }
+    },
+    {
+      "index": 241,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\sin y=x$",
+        "payload": "\\sin y=x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      }
+    },
+    {
+      "index": 242,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$J(x)=\\exp(x\\arctan x)/(1+x^2)$",
+        "payload": "J(x)=\\exp(x\\arctan x)/(1+x^2)"
+      }
+    },
+    {
+      "index": 243,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$J(x)=\\exp(x\\arctan x)/(1+x^2)$",
+        "payload": "J(x)=\\exp(x\\arctan x)/(1+x^2)"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x\\arctan x$",
+        "payload": "x\\arctan x"
+      }
+    },
+    {
+      "index": 244,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x\\arctan x$",
+        "payload": "x\\arctan x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$2x$",
+        "payload": "2x"
+      }
+    },
+    {
+      "index": 245,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$2x$",
+        "payload": "2x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$(\\cosh u)'=\\sinh u,u'$",
+        "payload": "(\\cosh u)'=\\sinh u,u'"
+      }
+    },
+    {
+      "index": 246,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$(\\cosh u)'=\\sinh u\\,u'$",
+        "payload": "(\\cosh u)'=\\sinh u\\,u'"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$(\\sinh u)'=\\cosh u,u'$",
+        "payload": "(\\sinh u)'=\\cosh u,u'"
+      }
+    },
+    {
+      "index": 247,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$(\\sinh u)'=\\cosh u\\,u'$",
+        "payload": "(\\sinh u)'=\\cosh u\\,u'"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$u=2x$",
+        "payload": "u=2x"
+      }
+    },
+    {
+      "index": 248,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$u=2x$",
+        "payload": "u=2x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$H$",
+        "payload": "H"
+      }
+    },
+    {
+      "index": 249,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$H$",
+        "payload": "H"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$A=x^2+1$",
+        "payload": "A=x^2+1"
+      }
+    },
+    {
+      "index": 250,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$A=x^2+1$",
+        "payload": "A=x^2+1"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$B=\\sin(3x)$",
+        "payload": "B=\\sin(3x)"
+      }
+    },
+    {
+      "index": 251,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$B=\\sin(3x)$",
+        "payload": "B=\\sin(3x)"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$AB$",
+        "payload": "AB"
+      }
+    },
+    {
+      "index": 252,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$AB$",
+        "payload": "AB"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$B/A$",
+        "payload": "B/A"
+      }
+    },
+    {
+      "index": 253,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$B/A$",
+        "payload": "B/A"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$A'$",
+        "payload": "A'"
+      }
+    },
+    {
+      "index": 254,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$A'$",
+        "payload": "A'"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$B'$",
+        "payload": "B'"
+      }
+    },
+    {
+      "index": 255,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$B'$",
+        "payload": "B'"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$2x+2yy'=0$",
+        "payload": "2x+2yy'=0"
+      }
+    },
+    {
+      "index": 256,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$2x+2yy'=0$",
+        "payload": "2x+2yy'=0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$2y$",
+        "payload": "2y"
+      }
+    },
+    {
+      "index": 257,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$2y$",
+        "payload": "2y"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x=1$",
+        "payload": "x=1"
+      }
+    },
+    {
+      "index": 258,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x=1$",
+        "payload": "x=1"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$y=0$",
+        "payload": "y=0"
+      }
+    },
+    {
+      "index": 259,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$y=0$",
+        "payload": "y=0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\cos y=x$",
+        "payload": "\\cos y=x"
+      }
+    },
+    {
+      "index": 260,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\cos y=x$",
+        "payload": "\\cos y=x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$-\\sin y$",
+        "payload": "-\\sin y"
+      }
+    },
+    {
+      "index": 261,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$-\\sin y$",
+        "payload": "-\\sin y"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$y'$",
+        "payload": "y'"
+      }
+    },
+    {
+      "index": 262,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$y'$",
+        "payload": "y'"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\sin^2y$",
+        "payload": "\\sin^2y"
+      }
+    },
+    {
+      "index": 263,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\sin^2y$",
+        "payload": "\\sin^2y"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\cos y=x$",
+        "payload": "\\cos y=x"
+      }
+    },
+    {
+      "index": 264,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\cos y=x$",
+        "payload": "\\cos y=x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$0&lt;y&lt;\\pi$",
+        "payload": "0&lt;y&lt;\\pi"
+      }
+    },
+    {
+      "index": 265,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$0<y<\\pi$",
+        "payload": "0<y<\\pi"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$[\\cos(x+h)-\\cos x]/h$",
+        "payload": "[\\cos(x+h)-\\cos x]/h"
+      }
+    },
+    {
+      "index": 266,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$[\\cos(x+h)-\\cos x]/h$",
+        "payload": "[\\cos(x+h)-\\cos x]/h"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\cos x$",
+        "payload": "\\cos x"
+      }
+    },
+    {
+      "index": 267,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\cos x$",
+        "payload": "\\cos x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$(\\cos h-1)/h$",
+        "payload": "(\\cos h-1)/h"
+      }
+    },
+    {
+      "index": 268,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$(\\cos h-1)/h$",
+        "payload": "(\\cos h-1)/h"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\sin h/h$",
+        "payload": "\\sin h/h"
+      }
+    },
+    {
+      "index": 269,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\sin h/h$",
+        "payload": "\\sin h/h"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      }
+    },
+    {
+      "index": 270,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$f$",
+        "payload": "f"
+      }
+    },
+    {
+      "index": 271,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$f$",
+        "payload": "f"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$e^{\\sqrt2\\ln x}$",
+        "payload": "e^{\\sqrt2\\ln x}"
+      }
+    },
+    {
+      "index": 272,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$e^{\\sqrt2\\ln x}$",
+        "payload": "e^{\\sqrt2\\ln x}"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$g$",
+        "payload": "g"
+      }
+    },
+    {
+      "index": 273,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$g$",
+        "payload": "g"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$e^{x\\ln\\sqrt2}$",
+        "payload": "e^{x\\ln\\sqrt2}"
+      }
+    },
+    {
+      "index": 274,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$e^{x\\ln\\sqrt2}$",
+        "payload": "e^{x\\ln\\sqrt2}"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\sqrt2$",
+        "payload": "\\sqrt2"
+      }
+    },
+    {
+      "index": 275,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\sqrt2$",
+        "payload": "\\sqrt2"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\ln\\sqrt2$",
+        "payload": "\\ln\\sqrt2"
+      }
+    },
+    {
+      "index": 276,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\ln\\sqrt2$",
+        "payload": "\\ln\\sqrt2"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      }
+    },
+    {
+      "index": 277,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\ln x$",
+        "payload": "\\ln x"
+      }
+    },
+    {
+      "index": 278,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\ln x$",
+        "payload": "\\ln x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\cos y,y'=1$",
+        "payload": "\\cos y,y'=1"
+      }
+    },
+    {
+      "index": 279,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\cos y\\,y'=1$",
+        "payload": "\\cos y\\,y'=1"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$y$",
+        "payload": "y"
+      }
+    },
+    {
+      "index": 280,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$y$",
+        "payload": "y"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$N=e^w$",
+        "payload": "N=e^w"
+      }
+    },
+    {
+      "index": 281,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$N=e^w$",
+        "payload": "N=e^w"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$w=x\\arctan x$",
+        "payload": "w=x\\arctan x"
+      }
+    },
+    {
+      "index": 282,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$w=x\\arctan x$",
+        "payload": "w=x\\arctan x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$D=1+x^2$",
+        "payload": "D=1+x^2"
+      }
+    },
+    {
+      "index": 283,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$D=1+x^2$",
+        "payload": "D=1+x^2"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$w'$",
+        "payload": "w'"
+      }
+    },
+    {
+      "index": 284,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$w'$",
+        "payload": "w'"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$N'$",
+        "payload": "N'"
+      }
+    },
+    {
+      "index": 285,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$N'$",
+        "payload": "N'"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$(N'D-ND')/D^2$",
+        "payload": "(N'D-ND')/D^2"
+      }
+    },
+    {
+      "index": 286,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$(N'D-ND')/D^2$",
+        "payload": "(N'D-ND')/D^2"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$e^{2x}$",
+        "payload": "e^{2x}"
+      }
+    },
+    {
+      "index": 287,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$e^{2x}$",
+        "payload": "e^{2x}"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$e^{-2x}$",
+        "payload": "e^{-2x}"
+      }
+    },
+    {
+      "index": 288,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$e^{-2x}$",
+        "payload": "e^{-2x}"
+      },
+      "github": {
+        "type": "js-display-math",
+        "text": "$$\nH(x)=\\frac{e^{2x}+e^{-2x}-(e^{2x}-e^{-2x})}{2}=e^{-2x}.\n$$",
+        "payload": "\nH(x)=\\frac{e^{2x}+e^{-2x}-(e^{2x}-e^{-2x})}{2}=e^{-2x}.\n"
+      }
+    },
+    {
+      "index": 289,
+      "source": {
+        "type": "js-display-math",
+        "text": "$$\nH(x)=\\frac{e^{2x}+e^{-2x}-(e^{2x}-e^{-2x})}{2}=e^{-2x}.\n$$",
+        "payload": "\nH(x)=\\frac{e^{2x}+e^{-2x}-(e^{2x}-e^{-2x})}{2}=e^{-2x}.\n"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$H'=-2e^{-2x}$",
+        "payload": "H'=-2e^{-2x}"
+      }
+    },
+    {
+      "index": 290,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$H'=-2e^{-2x}$",
+        "payload": "H'=-2e^{-2x}"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$H'=2\\sinh(2x)-2\\cosh(2x)=-2H(x)$",
+        "payload": "H'=2\\sinh(2x)-2\\cosh(2x)=-2H(x)"
+      }
+    },
+    {
+      "index": 291,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$H'=2\\sinh(2x)-2\\cosh(2x)=-2H(x)$",
+        "payload": "H'=2\\sinh(2x)-2\\cosh(2x)=-2H(x)"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$H=e^{-2x}$",
+        "payload": "H=e^{-2x}"
+      }
+    },
+    {
+      "index": 292,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$H=e^{-2x}$",
+        "payload": "H=e^{-2x}"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      }
+    },
+    {
+      "index": 293,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$H$",
+        "payload": "H"
+      }
+    },
+    {
+      "index": 294,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$H$",
+        "payload": "H"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$2$",
+        "payload": "2"
+      }
+    },
+    {
+      "index": 295,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$2$",
+        "payload": "2"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$F$",
+        "payload": "F"
+      }
+    },
+    {
+      "index": 296,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$F$",
+        "payload": "F"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$G$",
+        "payload": "G"
+      }
+    },
+    {
+      "index": 297,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$G$",
+        "payload": "G"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$A=x^2+1$",
+        "payload": "A=x^2+1"
+      }
+    },
+    {
+      "index": 298,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$A=x^2+1$",
+        "payload": "A=x^2+1"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$B=\\sin(3x)$",
+        "payload": "B=\\sin(3x)"
+      }
+    },
+    {
+      "index": 299,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$B=\\sin(3x)$",
+        "payload": "B=\\sin(3x)"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$A'=2x$",
+        "payload": "A'=2x"
+      }
+    },
+    {
+      "index": 300,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$A'=2x$",
+        "payload": "A'=2x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$B'=3\\cos(3x)$",
+        "payload": "B'=3\\cos(3x)"
+      }
+    },
+    {
+      "index": 301,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$B'=3\\cos(3x)$",
+        "payload": "B'=3\\cos(3x)"
+      },
+      "github": {
+        "type": "js-display-math",
+        "text": "$$\nF'=2x\\sin(3x)+3(x^2+1)\\cos(3x),\n$$",
+        "payload": "\nF'=2x\\sin(3x)+3(x^2+1)\\cos(3x),\n"
+      }
+    },
+    {
+      "index": 302,
+      "source": {
+        "type": "js-display-math",
+        "text": "$$\nF'=2x\\sin(3x)+3(x^2+1)\\cos(3x),\n$$",
+        "payload": "\nF'=2x\\sin(3x)+3(x^2+1)\\cos(3x),\n"
+      },
+      "github": {
+        "type": "js-display-math",
+        "text": "$$\nG'=\\frac{3(x^2+1)\\cos(3x)-2x\\sin(3x)}{(x^2+1)^2}.\n$$",
+        "payload": "\nG'=\\frac{3(x^2+1)\\cos(3x)-2x\\sin(3x)}{(x^2+1)^2}.\n"
+      }
+    },
+    {
+      "index": 303,
+      "source": {
+        "type": "js-display-math",
+        "text": "$$\nG'=\\frac{3(x^2+1)\\cos(3x)-2x\\sin(3x)}{(x^2+1)^2}.\n$$",
+        "payload": "\nG'=\\frac{3(x^2+1)\\cos(3x)-2x\\sin(3x)}{(x^2+1)^2}.\n"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x^2+1&gt;0$",
+        "payload": "x^2+1&gt;0"
+      }
+    },
+    {
+      "index": 304,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x^2+1>0$",
+        "payload": "x^2+1>0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$3$",
+        "payload": "3"
+      }
+    },
+    {
+      "index": 305,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$3$",
+        "payload": "3"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$3x$",
+        "payload": "3x"
+      }
+    },
+    {
+      "index": 306,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$3x$",
+        "payload": "3x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$B$",
+        "payload": "B"
+      }
+    },
+    {
+      "index": 307,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$B$",
+        "payload": "B"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x^2+1$",
+        "payload": "x^2+1"
+      }
+    },
+    {
+      "index": 308,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x^2+1$",
+        "payload": "x^2+1"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$F$",
+        "payload": "F"
+      }
+    },
+    {
+      "index": 309,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$F$",
+        "payload": "F"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$G$",
+        "payload": "G"
+      }
+    },
+    {
+      "index": 310,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$G$",
+        "payload": "G"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$2x+2yy'=0$",
+        "payload": "2x+2yy'=0"
+      }
+    },
+    {
+      "index": 311,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$2x+2yy'=0$",
+        "payload": "2x+2yy'=0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$y\\ne0$",
+        "payload": "y\\ne0"
+      }
+    },
+    {
+      "index": 312,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$y\\ne0$",
+        "payload": "y\\ne0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$y'=-x/y$",
+        "payload": "y'=-x/y"
+      }
+    },
+    {
+      "index": 313,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$y'=-x/y$",
+        "payload": "y'=-x/y"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$(1,2)$",
+        "payload": "(1,2)"
+      }
+    },
+    {
+      "index": 314,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$(1,2)$",
+        "payload": "(1,2)"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$-1/2$",
+        "payload": "-1/2"
+      }
+    },
+    {
+      "index": 315,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$-1/2$",
+        "payload": "-1/2"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$(1,-2)$",
+        "payload": "(1,-2)"
+      }
+    },
+    {
+      "index": 316,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$(1,-2)$",
+        "payload": "(1,-2)"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$1/2$",
+        "payload": "1/2"
+      }
+    },
+    {
+      "index": 317,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$1/2$",
+        "payload": "1/2"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      }
+    },
+    {
+      "index": 318,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$y=0$",
+        "payload": "y=0"
+      }
+    },
+    {
+      "index": 319,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$y=0$",
+        "payload": "y=0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x=\\pm\\sqrt5$",
+        "payload": "x=\\pm\\sqrt5"
+      }
+    },
+    {
+      "index": 320,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x=\\pm\\sqrt5$",
+        "payload": "x=\\pm\\sqrt5"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$(\\sqrt5,0)$",
+        "payload": "(\\sqrt5,0)"
+      }
+    },
+    {
+      "index": 321,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$(\\sqrt5,0)$",
+        "payload": "(\\sqrt5,0)"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$(-\\sqrt5,0)$",
+        "payload": "(-\\sqrt5,0)"
+      }
+    },
+    {
+      "index": 322,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$(-\\sqrt5,0)$",
+        "payload": "(-\\sqrt5,0)"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$2x=0$",
+        "payload": "2x=0"
+      }
+    },
+    {
+      "index": 323,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$2x=0$",
+        "payload": "2x=0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$y'$",
+        "payload": "y'"
+      }
+    },
+    {
+      "index": 324,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$y'$",
+        "payload": "y'"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$-\\sin y,y'=1$",
+        "payload": "-\\sin y,y'=1"
+      }
+    },
+    {
+      "index": 325,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$-\\sin y\\,y'=1$",
+        "payload": "-\\sin y\\,y'=1"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$-1&lt;x&lt;1$",
+        "payload": "-1&lt;x&lt;1"
+      }
+    },
+    {
+      "index": 326,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$-1<x<1$",
+        "payload": "-1<x<1"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$0&lt;y&lt;\\pi$",
+        "payload": "0&lt;y&lt;\\pi"
+      }
+    },
+    {
+      "index": 327,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$0<y<\\pi$",
+        "payload": "0<y<\\pi"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\sin y&gt;0$",
+        "payload": "\\sin y&gt;0"
+      }
+    },
+    {
+      "index": 328,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\sin y>0$",
+        "payload": "\\sin y>0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\sin^2y=1-\\cos^2y=1-x^2$",
+        "payload": "\\sin^2y=1-\\cos^2y=1-x^2"
+      }
+    },
+    {
+      "index": 329,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\sin^2y=1-\\cos^2y=1-x^2$",
+        "payload": "\\sin^2y=1-\\cos^2y=1-x^2"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\sin y=\\sqrt{1-x^2}$",
+        "payload": "\\sin y=\\sqrt{1-x^2}"
+      }
+    },
+    {
+      "index": 330,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\sin y=\\sqrt{1-x^2}$",
+        "payload": "\\sin y=\\sqrt{1-x^2}"
+      },
+      "github": {
+        "type": "js-display-math",
+        "text": "$$\ny'=-\\frac1{\\sqrt{1-x^2}},\\qquad -1<x<1.\n$$",
+        "payload": "\ny'=-\\frac1{\\sqrt{1-x^2}},\\qquad -1<x<1.\n"
+      }
+    },
+    {
+      "index": 331,
+      "source": {
+        "type": "js-display-math",
+        "text": "$$\ny'=-\\frac1{\\sqrt{1-x^2}},\\qquad -1<x<1.\n$$",
+        "payload": "\ny'=-\\frac1{\\sqrt{1-x^2}},\\qquad -1<x<1.\n"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\cos y=x$",
+        "payload": "\\cos y=x"
+      }
+    },
+    {
+      "index": 332,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\cos y=x$",
+        "payload": "\\cos y=x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\sin y=x$",
+        "payload": "\\sin y=x"
+      }
+    },
+    {
+      "index": 333,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\sin y=x$",
+        "payload": "\\sin y=x"
+      },
+      "github": {
+        "type": "js-display-math",
+        "text": "$$\n\\frac{\\cos(x+h)-\\cos x}{h}\n=\\cos x\\frac{\\cos h-1}{h}-\\sin x\\frac{\\sin h}{h}.\n$$",
+        "payload": "\n\\frac{\\cos(x+h)-\\cos x}{h}\n=\\cos x\\frac{\\cos h-1}{h}-\\sin x\\frac{\\sin h}{h}.\n"
+      }
+    },
+    {
+      "index": 334,
+      "source": {
+        "type": "js-display-math",
+        "text": "$$\n\\frac{\\cos(x+h)-\\cos x}{h}\n=\\cos x\\frac{\\cos h-1}{h}-\\sin x\\frac{\\sin h}{h}.\n$$",
+        "payload": "\n\\frac{\\cos(x+h)-\\cos x}{h}\n=\\cos x\\frac{\\cos h-1}{h}-\\sin x\\frac{\\sin h}{h}.\n"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      }
+    },
+    {
+      "index": 335,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\cos x$",
+        "payload": "\\cos x"
+      }
+    },
+    {
+      "index": 336,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\cos x$",
+        "payload": "\\cos x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\sin x$",
+        "payload": "\\sin x"
+      }
+    },
+    {
+      "index": 337,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\sin x$",
+        "payload": "\\sin x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\cos x\\cdot0-\\sin x\\cdot1=-\\sin x$",
+        "payload": "\\cos x\\cdot0-\\sin x\\cdot1=-\\sin x"
+      }
+    },
+    {
+      "index": 338,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\cos x\\cdot0-\\sin x\\cdot1=-\\sin x$",
+        "payload": "\\cos x\\cdot0-\\sin x\\cdot1=-\\sin x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$(\\cos x)'=-\\sin x$",
+        "payload": "(\\cos x)'=-\\sin x"
+      }
+    },
+    {
+      "index": 339,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$(\\cos x)'=-\\sin x$",
+        "payload": "(\\cos x)'=-\\sin x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      }
+    },
+    {
+      "index": 340,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$f$",
+        "payload": "f"
+      }
+    },
+    {
+      "index": 341,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$f$",
+        "payload": "f"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\sqrt2$",
+        "payload": "\\sqrt2"
+      }
+    },
+    {
+      "index": 342,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\sqrt2$",
+        "payload": "\\sqrt2"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      }
+    },
+    {
+      "index": 343,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x&gt;0$",
+        "payload": "x&gt;0"
+      }
+    },
+    {
+      "index": 344,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x>0$",
+        "payload": "x>0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$f=e^{\\sqrt2\\ln x}$",
+        "payload": "f=e^{\\sqrt2\\ln x}"
+      }
+    },
+    {
+      "index": 345,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$f=e^{\\sqrt2\\ln x}$",
+        "payload": "f=e^{\\sqrt2\\ln x}"
+      },
+      "github": {
+        "type": "js-display-math",
+        "text": "$$\nf'=e^{\\sqrt2\\ln x}\\frac{\\sqrt2}{x}=\\sqrt2,x^{\\sqrt2-1}.\n$$",
+        "payload": "\nf'=e^{\\sqrt2\\ln x}\\frac{\\sqrt2}{x}=\\sqrt2,x^{\\sqrt2-1}.\n"
+      }
+    },
+    {
+      "index": 346,
+      "source": {
+        "type": "js-display-math",
+        "text": "$$\nf'=e^{\\sqrt2\\ln x}\\frac{\\sqrt2}{x}=\\sqrt2\\,x^{\\sqrt2-1}.\n$$",
+        "payload": "\nf'=e^{\\sqrt2\\ln x}\\frac{\\sqrt2}{x}=\\sqrt2\\,x^{\\sqrt2-1}.\n"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$g$",
+        "payload": "g"
+      }
+    },
+    {
+      "index": 347,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$g$",
+        "payload": "g"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\sqrt2$",
+        "payload": "\\sqrt2"
+      }
+    },
+    {
+      "index": 348,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\sqrt2$",
+        "payload": "\\sqrt2"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      }
+    },
+    {
+      "index": 349,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$g=e^{x\\ln\\sqrt2}$",
+        "payload": "g=e^{x\\ln\\sqrt2}"
+      }
+    },
+    {
+      "index": 350,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$g=e^{x\\ln\\sqrt2}$",
+        "payload": "g=e^{x\\ln\\sqrt2}"
+      },
+      "github": {
+        "type": "js-display-math",
+        "text": "$$\ng'=e^{x\\ln\\sqrt2}\\ln\\sqrt2=(\\sqrt2)^x\\ln\\sqrt2.\n$$",
+        "payload": "\ng'=e^{x\\ln\\sqrt2}\\ln\\sqrt2=(\\sqrt2)^x\\ln\\sqrt2.\n"
+      }
+    },
+    {
+      "index": 351,
+      "source": {
+        "type": "js-display-math",
+        "text": "$$\ng'=e^{x\\ln\\sqrt2}\\ln\\sqrt2=(\\sqrt2)^x\\ln\\sqrt2.\n$$",
+        "payload": "\ng'=e^{x\\ln\\sqrt2}\\ln\\sqrt2=(\\sqrt2)^x\\ln\\sqrt2.\n"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      }
+    },
+    {
+      "index": 352,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$f'$",
+        "payload": "f'"
+      }
+    },
+    {
+      "index": 353,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$f'$",
+        "payload": "f'"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$g'$",
+        "payload": "g'"
+      }
+    },
+    {
+      "index": 354,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$g'$",
+        "payload": "g'"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$y\\in[-\\pi/2,\\pi/2]$",
+        "payload": "y\\in[-\\pi/2,\\pi/2]"
+      }
+    },
+    {
+      "index": 355,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$y\\in[-\\pi/2,\\pi/2]$",
+        "payload": "y\\in[-\\pi/2,\\pi/2]"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\sin y=x$",
+        "payload": "\\sin y=x"
+      }
+    },
+    {
+      "index": 356,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\sin y=x$",
+        "payload": "\\sin y=x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\cos y,y'=1$",
+        "payload": "\\cos y,y'=1"
+      }
+    },
+    {
+      "index": 357,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\cos y\\,y'=1$",
+        "payload": "\\cos y\\,y'=1"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$-1&lt;x&lt;1$",
+        "payload": "-1&lt;x&lt;1"
+      }
+    },
+    {
+      "index": 358,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$-1<x<1$",
+        "payload": "-1<x<1"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\cos y&gt;0$",
+        "payload": "\\cos y&gt;0"
+      }
+    },
+    {
+      "index": 359,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\cos y>0$",
+        "payload": "\\cos y>0"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$\\cos^2y=1-x^2$",
+        "payload": "\\cos^2y=1-x^2"
+      }
+    },
+    {
+      "index": 360,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$\\cos^2y=1-x^2$",
+        "payload": "\\cos^2y=1-x^2"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$y'=1/\\sqrt{1-x^2}$",
+        "payload": "y'=1/\\sqrt{1-x^2}"
+      }
+    },
+    {
+      "index": 361,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$y'=1/\\sqrt{1-x^2}$",
+        "payload": "y'=1/\\sqrt{1-x^2}"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$(-1,1)$",
+        "payload": "(-1,1)"
+      }
+    },
+    {
+      "index": 362,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$(-1,1)$",
+        "payload": "(-1,1)"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$J$",
+        "payload": "J"
+      }
+    },
+    {
+      "index": 363,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$J$",
+        "payload": "J"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$N=e^w$",
+        "payload": "N=e^w"
+      }
+    },
+    {
+      "index": 364,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$N=e^w$",
+        "payload": "N=e^w"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$w=x\\arctan x$",
+        "payload": "w=x\\arctan x"
+      }
+    },
+    {
+      "index": 365,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$w=x\\arctan x$",
+        "payload": "w=x\\arctan x"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$D=1+x^2$",
+        "payload": "D=1+x^2"
+      }
+    },
+    {
+      "index": 366,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$D=1+x^2$",
+        "payload": "D=1+x^2"
+      },
+      "github": {
+        "type": "js-display-math",
+        "text": "$$\nw'=\\arctan x+\\frac{x}{1+x^2},\n\\qquad N'=e^ww',\\qquad D'=2x.\n$$",
+        "payload": "\nw'=\\arctan x+\\frac{x}{1+x^2},\n\\qquad N'=e^ww',\\qquad D'=2x.\n"
+      }
+    },
+    {
+      "index": 367,
+      "source": {
+        "type": "js-display-math",
+        "text": "$$\nw'=\\arctan x+\\frac{x}{1+x^2},\n\\qquad N'=e^ww',\\qquad D'=2x.\n$$",
+        "payload": "\nw'=\\arctan x+\\frac{x}{1+x^2},\n\\qquad N'=e^ww',\\qquad D'=2x.\n"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      }
+    },
+    {
+      "index": 368,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$x$",
+        "payload": "x"
+      },
+      "github": {
+        "type": "js-display-math",
+        "text": "$$\nJ'=\\frac{e^w\\left(\\arctan x+\\frac{x}{1+x^2}\\right)(1+x^2)-e^w(2x)}{(1+x^2)^2}\n=\\frac{e^{x\\arctan x}\\big((1+x^2)\\arctan x-x\\big)}{(1+x^2)^2}.\n$$",
+        "payload": "\nJ'=\\frac{e^w\\left(\\arctan x+\\frac{x}{1+x^2}\\right)(1+x^2)-e^w(2x)}{(1+x^2)^2}\n=\\frac{e^{x\\arctan x}\\big((1+x^2)\\arctan x-x\\big)}{(1+x^2)^2}.\n"
+      }
+    },
+    {
+      "index": 369,
+      "source": {
+        "type": "js-display-math",
+        "text": "$$\nJ'=\\frac{e^w\\left(\\arctan x+\\frac{x}{1+x^2}\\right)(1+x^2)-e^w(2x)}{(1+x^2)^2}\n=\\frac{e^{x\\arctan x}\\big((1+x^2)\\arctan x-x\\big)}{(1+x^2)^2}.\n$$",
+        "payload": "\nJ'=\\frac{e^w\\left(\\arctan x+\\frac{x}{1+x^2}\\right)(1+x^2)-e^w(2x)}{(1+x^2)^2}\n=\\frac{e^{x\\arctan x}\\big((1+x^2)\\arctan x-x\\big)}{(1+x^2)^2}.\n"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$(1+x^2)^{-1}$",
+        "payload": "(1+x^2)^{-1}"
+      }
+    },
+    {
+      "index": 370,
+      "source": {
+        "type": "js-inline-math",
+        "text": "$(1+x^2)^{-1}$",
+        "payload": "(1+x^2)^{-1}"
+      },
+      "github": {
+        "type": "js-inline-math",
+        "text": "$x=0$",
+        "payload": "x=0"
+      }
+    }
+  ],
+  "source_anchor_ids": [
+    "route",
+    "core",
+    "task-q1",
+    "rules",
+    "task-q2",
+    "implicit",
+    "task-q3",
+    "inverses",
+    "task-q4",
+    "reconstruct",
+    "task-q5",
+    "other-formulas",
+    "real-powers",
+    "task-q6",
+    "integration",
+    "task-q7",
+    "hints",
+    "hint-q1",
+    "hint-q2",
+    "hint-q3",
+    "hint-q4",
+    "hint-q5",
+    "hint-q6",
+    "hint-q7",
+    "solutions",
+    "solution-q1",
+    "solution-q2",
+    "solution-q3",
+    "solution-q4",
+    "solution-q5",
+    "solution-q6",
+    "solution-q7"
+  ],
+  "github_anchor_ids": [],
+  "anchors_to_visible_paragraphs": {},
+  "links": [
+    {
+      "href": "#hint-q1",
+      "text": "Hint Q1"
+    },
+    {
+      "href": "#solution-q1",
+      "text": "Solution Q1"
+    },
+    {
+      "href": "#rules",
+      "text": "Continue with differentiation rules"
+    },
+    {
+      "href": "#hint-q2",
+      "text": "Hint Q2"
+    },
+    {
+      "href": "#solution-q2",
+      "text": "Solution Q2"
+    },
+    {
+      "href": "#implicit",
+      "text": "Continue with implicit relations"
+    },
+    {
+      "href": "#hint-q3",
+      "text": "Hint Q3"
+    },
+    {
+      "href": "#solution-q3",
+      "text": "Solution Q3"
+    },
+    {
+      "href": "#inverses",
+      "text": "Continue with inverse functions"
+    },
+    {
+      "href": "#hint-q4",
+      "text": "Hint Q4"
+    },
+    {
+      "href": "#solution-q4",
+      "text": "Solution Q4"
+    },
+    {
+      "href": "#reconstruct",
+      "text": "Continue with formula reconstruction"
+    },
+    {
+      "href": "#hint-q5",
+      "text": "Hint Q5"
+    },
+    {
+      "href": "#solution-q5",
+      "text": "Solution Q5"
+    },
+    {
+      "href": "#other-formulas",
+      "text": "Continue with the other formulas"
+    },
+    {
+      "href": "#hint-q6",
+      "text": "Hint Q6"
+    },
+    {
+      "href": "#solution-q6",
+      "text": "Solution Q6"
+    },
+    {
+      "href": "#integration",
+      "text": "Continue with the final source example"
+    },
+    {
+      "href": "#hint-q7",
+      "text": "Hint Q7"
+    },
+    {
+      "href": "#solution-q7",
+      "text": "Solution Q7"
+    },
+    {
+      "href": "#route",
+      "text": "Return to reading route"
+    },
+    {
+      "href": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/a30756fe9d577184f205b09bc6d6d005_lec7.pdf",
+      "text": "original lecture PDF"
+    },
+    {
+      "href": "#core",
+      "text": "Return to core"
+    },
+    {
+      "href": "#solutions",
+      "text": "Go to full solutions"
+    },
+    {
+      "href": "#task-q1",
+      "text": "Return to Q1"
+    },
+    {
+      "href": "#solution-q1",
+      "text": "Solution Q1"
+    },
+    {
+      "href": "#task-q2",
+      "text": "Return to Q2"
+    },
+    {
+      "href": "#solution-q2",
+      "text": "Solution Q2"
+    },
+    {
+      "href": "#task-q3",
+      "text": "Return to Q3"
+    },
+    {
+      "href": "#solution-q3",
+      "text": "Solution Q3"
+    },
+    {
+      "href": "#task-q4",
+      "text": "Return to Q4"
+    },
+    {
+      "href": "#solution-q4",
+      "text": "Solution Q4"
+    },
+    {
+      "href": "#task-q5",
+      "text": "Return to Q5"
+    },
+    {
+      "href": "#solution-q5",
+      "text": "Solution Q5"
+    },
+    {
+      "href": "#task-q6",
+      "text": "Return to Q6"
+    },
+    {
+      "href": "#solution-q6",
+      "text": "Solution Q6"
+    },
+    {
+      "href": "#task-q7",
+      "text": "Return to Q7"
+    },
+    {
+      "href": "#solution-q7",
+      "text": "Solution Q7"
+    },
+    {
+      "href": "#hints",
+      "text": "the hint group"
+    },
+    {
+      "href": "#task-q1",
+      "text": "Return to Q1"
+    },
+    {
+      "href": "#hint-q1",
+      "text": "Hint Q1"
+    },
+    {
+      "href": "#task-q2",
+      "text": "Return to Q2"
+    },
+    {
+      "href": "#hint-q2",
+      "text": "Hint Q2"
+    },
+    {
+      "href": "#task-q3",
+      "text": "Return to Q3"
+    },
+    {
+      "href": "#hint-q3",
+      "text": "Hint Q3"
+    },
+    {
+      "href": "#task-q4",
+      "text": "Return to Q4"
+    },
+    {
+      "href": "#hint-q4",
+      "text": "Hint Q4"
+    },
+    {
+      "href": "#task-q5",
+      "text": "Return to Q5"
+    },
+    {
+      "href": "#hint-q5",
+      "text": "Hint Q5"
+    },
+    {
+      "href": "#task-q6",
+      "text": "Return to Q6"
+    },
+    {
+      "href": "#hint-q6",
+      "text": "Hint Q6"
+    },
+    {
+      "href": "#task-q7",
+      "text": "Return to Q7"
+    },
+    {
+      "href": "#hint-q7",
+      "text": "Hint Q7"
+    },
+    {
+      "href": "#route",
+      "text": "Return to reading route"
+    }
+  ],
+  "external_links": [
+    {
+      "href": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/a30756fe9d577184f205b09bc6d6d005_lec7.pdf",
+      "text": "original lecture PDF"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Q1",
+      "task_target_text": null,
+      "hint_target_text": null,
+      "solution_target_text": null,
+      "all_targets_once": false,
+      "task_to_hint": true,
+      "task_to_solution_and_hint_to_solution_combined": true,
+      "return_links": 2,
+      "target_order": [
+        2,
+        17,
+        25
+      ]
+    },
+    {
+      "task": "Q2",
+      "task_target_text": null,
+      "hint_target_text": null,
+      "solution_target_text": null,
+      "all_targets_once": false,
+      "task_to_hint": true,
+      "task_to_solution_and_hint_to_solution_combined": true,
+      "return_links": 2,
+      "target_order": [
+        4,
+        18,
+        26
+      ]
+    },
+    {
+      "task": "Q3",
+      "task_target_text": null,
+      "hint_target_text": null,
+      "solution_target_text": null,
+      "all_targets_once": false,
+      "task_to_hint": true,
+      "task_to_solution_and_hint_to_solution_combined": true,
+      "return_links": 2,
+      "target_order": [
+        6,
+        19,
+        27
+      ]
+    },
+    {
+      "task": "Q4",
+      "task_target_text": null,
+      "hint_target_text": null,
+      "solution_target_text": null,
+      "all_targets_once": false,
+      "task_to_hint": true,
+      "task_to_solution_and_hint_to_solution_combined": true,
+      "return_links": 2,
+      "target_order": [
+        8,
+        20,
+        28
+      ]
+    },
+    {
+      "task": "Q5",
+      "task_target_text": null,
+      "hint_target_text": null,
+      "solution_target_text": null,
+      "all_targets_once": false,
+      "task_to_hint": true,
+      "task_to_solution_and_hint_to_solution_combined": true,
+      "return_links": 2,
+      "target_order": [
+        10,
+        21,
+        29
+      ]
+    },
+    {
+      "task": "Q6",
+      "task_target_text": null,
+      "hint_target_text": null,
+      "solution_target_text": null,
+      "all_targets_once": false,
+      "task_to_hint": true,
+      "task_to_solution_and_hint_to_solution_combined": true,
+      "return_links": 2,
+      "target_order": [
+        13,
+        22,
+        30
+      ]
+    },
+    {
+      "task": "Q7",
+      "task_target_text": null,
+      "hint_target_text": null,
+      "solution_target_text": null,
+      "all_targets_once": false,
+      "task_to_hint": true,
+      "task_to_solution_and_hint_to_solution_combined": true,
+      "return_links": 2,
+      "target_order": [
+        15,
+        23,
+        31
+      ]
+    }
+  ],
+  "fragment_semantics": "GitHub sanitizes id to user-content-* while href stays #*. All literal prefixed targets exist exactly once. Client click/scroll translation is not observed.",
+  "normalization": "One ordinary HTMLParser parse with convert_charrefs=True. No html.unescape or recursive entity decoding. Complete source stream strips only invisible comments, exact anchor markup, Markdown link wrappers and list marker prefix; then folds whitespace. Per-math equality is exact including display newlines.",
+  "limitations": [
+    "No live pixels, MathJax execution, computed styles, browser clicks or client JavaScript observed.",
+    "This is a representation/navigation/typography review, not SASIS or global teaching acceptance."
+  ]
+}

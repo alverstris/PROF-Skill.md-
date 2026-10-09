@@ -1,0 +1,17 @@
+D007 learner task prompts, frozen before solution drafting
+
+Global conventions: all variables and function values are real. Trigonometric arguments are in radians. ln is the natural logarithm, exp(t)=e^t. Primes mean differentiation with respect to x. arcsin selects values in [-pi/2,pi/2]; arctan selects values in (-pi/2,pi/2). The notation sqrt(a) denotes the nonnegative square root when a>=0. Tasks Q1–Q4 and Q6–Q7 are generated applications. Q5 restates the original Lecture 7 request to derive the cosine derivative from the derivative definition and supplied trigonometric limits, with an explicit response criterion. No task presupposes a previous lesson.
+
+Q1. For every real x, let H(x)=cosh(2x)-sinh(2x), with sinh(t)=(e^t-e^(-t))/2 and cosh(t)=(e^t+e^(-t))/2. Find H'(x) in two ways: first simplify H using these definitions, then differentiate the hyperbolic expression directly. Explain why the two derivatives agree. Your response should retain the derivative factor coming from 2x and identify whether H is increasing or decreasing.
+
+Q2. For real x, let F(x)=(x^2+1)sin(3x) and G(x)=sin(3x)/(x^2+1). Differentiate both. Before calculating, state the outermost operation in each expression and the corresponding first differentiation rule. State their real domains and identify where the inner factor 3 enters each derivative. A correct final formula without these decisions is not a complete response.
+
+Q3. The real curve x^2+y^2=5 contains (1,2) and (1,-2). Regard y as a differentiable function of x locally near each of those points. Obtain one implicit expression for y' and use it to find both slopes. Explain why the two points need not have the same slope despite their common x-coordinate. Identify the points on this curve where your division for y' fails, and say what that failure alone allows you to conclude.
+
+Q4. Define y=arccos(x) by cos(y)=x with y in [0,pi]. For -1<x<1, derive y' by implicit differentiation and express it solely in x. Justify the square-root sign using the specified interval for y. State the interval on which your derivative formula is finite and explain why its sign differs from that of the principal arcsine derivative.
+
+Q5. Starting from the derivative definition, derive d(cos x)/dx for real x without invoking the cosine derivative as a known rule. Use radians and the supplied facts cos(x+h)=cos x cos h-sin x sin h, lim_(h->0)(sin h)/h=1, and lim_(h->0)(cos h-1)/h=0. Your response should display the difference quotient reorganised into those two limits and explain which factors stay fixed as h tends to zero.
+
+Q6. On x>0, compare f(x)=x^(sqrt(2)) and g(x)=(sqrt(2))^x, where sqrt(2) is the positive square root of 2 and is a constant. Differentiate both, using an exponential or logarithmic rewriting to justify each answer. State what stays fixed and what varies in each function. A response that applies the same power-rule template to both without a justification is incomplete.
+
+Q7. Later review, to be attempted after leaving the main explanation for a while. With the core closed initially, (a) reconstruct the derivative of y=arcsin(x) from sin(y)=x, giving its finite-derivative domain and the reason for the square-root sign; (b) for real x, differentiate J(x)=exp(x arctan(x))/(1+x^2). In (b), explain your choice of outermost rule and show the needed derivative of the exponent. An unsimplified but correct expression with justified decisions is acceptable. Part (a) is retrieval of an earlier derivation; part (b) combines earlier methods in a changed expression.

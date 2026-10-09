@@ -1,0 +1,27 @@
+D007 complete source coverage
+
+Source S-L07: MIT OpenCourseWare, 18.01 Single Variable Calculus, Fall 2006, Lecture 7: Continuation and Exam Review. Original PDF SHA256 47316203594d35c47220c7049238045ff0a2ac73ba3292d17107f13d575f3602, 113363 bytes, five physical pages. Physical page 1 is a cover; physical pages 2–5 are printed pages 1–4. Each extracted page was read completely and personally checked against its complete PNG. Exact extraction/raster hashes and read extents are in access-record.json. The extraction's mangled primes and fragmented exponents were resolved from the original page images.
+
+| ID | Required source portion and actual insight | Teaching/use location | Application/help |
+| --- | --- | --- | --- |
+| S01 | Physical page 1: MIT OCW organisation, 18.01 course and Fall 2006 provenance; citation/terms pointer; no teaching formula | P100 identifies organisation/course/term and links original PDF; no invented individual author | Not a mathematical capability |
+| S02 | Physical page 2/printed 1: sinh/cosh definitions, pronunciation, derivatives with signs | P007–P011 restate definitions and show exponent chain-rule cancellation | Q1 P016; H1 P104; S1 P127–P129 |
+| S03 | Same page: difference-of-squares identity; hyperbola versus circle using u,v | P012–P014 algebra and coordinate construction; positive cosh restricts right branch | Q1 changes input and representation; identity reconstruction itself is fully worked |
+| S04 | Physical page 3/printed 2: sum/constant/product/quotient/chain rules; quotient recovered through uv^-1 | P019–P028, including all five formulas and a concrete quotient case with sign interpretation | Q2 P030; H2 P107; S2 P132–P135 |
+| S05 | Same page: implicit y^3+3xy^2=8, full derivative and collecting y' | P033–P038 reproduces source equation, each consequential term, nonzero coefficient condition and generated tangent at (0,2) | Q3 P040; H3 P110; S3 P138–P139 |
+| S06 | Same page: sin^-1 interpreted as inverse, sin y=x, implicit derivative and eliminating y | P043–P047 preserves source result and supplies principal-branch sign and interior domain | Q4 changed inverse P052; H4 P113; S4 P142–P144; later retrieval Q7(a) |
+| S07 | Physical page 4/printed 3: nine specific derivative families x^n, sin^-1, tan^-1, sin, cos, tan, sec, e^x, ln x, and deduction expectation | P055 records exact list. Arcsin P043–P047; arctan P048–P050; sine P056–P062; cosine Q5/S5; tangent/secant P067–P070; exponential/logarithm P071–P074; integer/rational powers P075–P077 and arbitrary real powers P079–P084 | Q5 P064, H5 P116, S5 P147–P149; Q6 P086, H6 P119, S6 P152–P156 |
+| S08 | Same page: secant worked derivative, reciprocal formula and factorisation | P069–P070 includes two minus signs and mapping sin/cos^2 to tan sec; cos nonzero domain | Q2 quotient/chain discrimination plus later integrated Q7 |
+| S09 | Same page: sine/cosine derivative task, two supplied limits, derivative definition with Delta x | P056–P062 reconstructs sine; Q5 P064 reconstructs cosine from same limits; P060 maps h/Delta x | H5 P116; S5 P147–P149 |
+| S10 | Same page: arbitrary fixed real exponent, base-e rewriting and logarithmic differentiation | P079–P084 keeps both methods, all substitutions, f'/f recovery, positive-x condition | Q6 structural changed application and explanation criterion |
+| S11 | Physical page 5/printed 4: differentiate exp(x tan^-1 x), generic exp(uv) product/chain structure and substituted answer | P089–P094 reads/builds whole exponent, uses w as interim name, supplies product derivative, maps back to exact original; P094 bounds motivational 'anything' claim | Q7(b) P097, H7 P122, S7 P160–P164 |
+
+All five physical pages and all consequential equations are accounted for; no required portion is excluded or inaccessible. The lesson reorganises the review into a coherent route rather than selecting only the hyperbolic topic from the lecture title. The source's historical examination language is attributed at P100, not adopted as a current assessment promise. The supplied source has no additional diagrams/assets requiring learner reproduction.
+
+Task provenance and exact prompt preservation
+
+The original stable prompts were saved in task-prompts-original.md, SHA256 93bed04239828e9206d1e77722ad6c0c28d6644288f3a39a8f6270afafac5978, and sent to the parent before any solution drafting. Parent subsequently reported completion of independent calculations before opening author teaching/hints/answers. No parent answers or diagnosis were supplied to this author. Learner rendering changes ASCII formula notation to conventional Markdown math, and Q7's scheduling sentence is expanded into the adjustable heuristic P096; all mathematical data/domains/criteria are unchanged. Q5 adapts an original source review demand; the six other task IDs are generated. No task is attributed to a historical exam paper.
+
+Draft history
+
+teaching-unlabelled-original.md preserves the first full draft. teaching-labelled-original.md preserves its labelled first version, including the author-found wording issue in P135. Current teaching.md corrects 'Multiplying F by a reciprocal to construct G' to 'Replacing the factor x^2+1 in F by its reciprocal constructs G'; the former was under-specified about which reciprocal. This changes no task, formula, solution result, ID or dependency ordering. All subsequent checks bind current teaching.md. No prior draft or tool failure evidence was overwritten.

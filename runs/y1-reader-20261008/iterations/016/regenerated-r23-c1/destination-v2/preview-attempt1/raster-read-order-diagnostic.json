@@ -1,0 +1,24 @@
+{
+  "canonical_sha256": "dd4bf22a876dddc8627578285f876fbbf039153bf179bc2de66535e35d7eb2d3",
+  "diagnostic_order": "Fresh PDF opened, all page get_text(dict) calls performed BEFORE any rendering, then image pages rasterized. Compare unchanged saved original rasters, which match fresh-first-render.",
+  "results": [
+    {
+      "page": 2,
+      "after_text_extraction_before_first_render_exact": false,
+      "changed_RGB_bytes": 41004
+    },
+    {
+      "page": 3,
+      "after_text_extraction_before_first_render_exact": false,
+      "changed_RGB_bytes": 62504
+    },
+    {
+      "page": 5,
+      "after_text_extraction_before_first_render_exact": false,
+      "changed_RGB_bytes": 29130
+    }
+  ],
+  "reproduces_prior_difference": true,
+  "prior_diagnostic_correction": "The earlier before/after diagnostic rendered page2 before extraction and observed zero difference; that alone did not demonstrate the interaction. This supplement tests the actual differing ordering. Do not infer a PDF modification or unknown truncation.",
+  "scope": "PDF bytes unchanged; only in-memory read/render ordering tested. Internal implementation cause beyond the observed ordering is not established."
+}

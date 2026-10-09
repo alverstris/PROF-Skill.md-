@@ -1,0 +1,90 @@
+{
+  "canonical_sha256": "dd4bf22a876dddc8627578285f876fbbf039153bf179bc2de66535e35d7eb2d3",
+  "canonical_still_exact": true,
+  "all_fresh_doc_rasters_exact": true,
+  "rasters": [
+    {
+      "page": 1,
+      "all_RGB_pixels_exact": true,
+      "dimensions_equal": true
+    },
+    {
+      "page": 2,
+      "all_RGB_pixels_exact": true,
+      "dimensions_equal": true
+    },
+    {
+      "page": 3,
+      "all_RGB_pixels_exact": true,
+      "dimensions_equal": true
+    },
+    {
+      "page": 4,
+      "all_RGB_pixels_exact": true,
+      "dimensions_equal": true
+    },
+    {
+      "page": 5,
+      "all_RGB_pixels_exact": true,
+      "dimensions_equal": true
+    },
+    {
+      "page": 6,
+      "all_RGB_pixels_exact": true,
+      "dimensions_equal": true
+    },
+    {
+      "page": 7,
+      "all_RGB_pixels_exact": true,
+      "dimensions_equal": true
+    },
+    {
+      "page": 8,
+      "all_RGB_pixels_exact": true,
+      "dimensions_equal": true
+    },
+    {
+      "page": 9,
+      "all_RGB_pixels_exact": true,
+      "dimensions_equal": true
+    },
+    {
+      "page": 10,
+      "all_RGB_pixels_exact": true,
+      "dimensions_equal": true
+    },
+    {
+      "page": 11,
+      "all_RGB_pixels_exact": true,
+      "dimensions_equal": true
+    },
+    {
+      "page": 12,
+      "all_RGB_pixels_exact": true,
+      "dimensions_equal": true
+    },
+    {
+      "page": 13,
+      "all_RGB_pixels_exact": true,
+      "dimensions_equal": true
+    },
+    {
+      "page": 14,
+      "all_RGB_pixels_exact": true,
+      "dimensions_equal": true
+    },
+    {
+      "page": 15,
+      "all_RGB_pixels_exact": true,
+      "dimensions_equal": true
+    }
+  ],
+  "earlier_record": "exact-PDF-raster-correspondence.json retained unchanged; after get_text(dict) on its open document image pages2,3,5 differed, other12matched.",
+  "diagnostic": {
+    "page": 2,
+    "before_and_after_get_text_dict_same": true,
+    "changed_RGB_bytes": 0
+  },
+  "interpretation": "Freshly opened canonical PDF gives pixel-exact saved PNGs. The earlier comparison used the document after image-containing get_text(dict) extraction; this reproducible in-memory extraction/raster interaction is a review-tool limitation, not a PDF byte change. No PDF rebuild or replacement of original rasters.",
+  "root_independent_confirmation": "Root separately rerendered all15pages pixel-exact; root-v2-preview-review.json is outside reviewer ownership."
+}

@@ -1,6 +1,8 @@
 PROF Y1 run change log
 
-Current closure state: D001–D013 closed, 13 of 76 eligible; 63 remaining. PROF r20 is metadata-only progression. Complete D013 evidence and skill publication bce9b1117bb377e65c1dbbeb5d0b253be3eb3bdb verified. All 147 original IDs and 71 exclusions retained.
+Current closure state: D001–D014 closed, 14 of 76 eligible; 62 remaining. PROF r21 is metadata-only progression. Final D014 evidence 2cc47f1a2a17f4062f98824f1c6040611311b59b verified; 147 IDs and 71 exclusions preserved.
+
+Earlier header, superseded at D014 closure: Current closure state: D001–D013 closed, 13 of 76 eligible; 63 remaining. PROF r20 is metadata-only progression. Complete D013 evidence and skill publication bce9b1117bb377e65c1dbbeb5d0b253be3eb3bdb verified. All 147 original IDs and 71 exclusions retained.
 
 Earlier header, superseded at D013 closure: Current closure state: D001–D012 closed, 12 of 76 eligible; 64 remaining. PROF r19 is metadata-only progression. Complete D012 evidence and skill publication ef9dea1525802ed7f6ba52718f94a558c484e32c verified. All 147 original IDs and 71 exclusions retained.
 
@@ -44,3 +46,5 @@ Scope:0closed;D001open;146later sessionspending. No claim of human mastery, rete
 - Closed D012, MIT 18.01 Fall 2006 Lecture 13: r18→r19 metadata only. Complete seven-page source/all figures/table and frozen baseline; independent prompt-only calculations and full source/math/author audit; equivalent comparison-markup repair; fresh strict-order complete-input SASIS v2; actual 309 expressions and all 13 internal preview pages checked. Original failures and final helper states preserved. Complete evidence/r19 publication ef9dea1525802ed7f6ba52718f94a558c484e32c verified against local identities and fetched bytes. See iterations/012/closure.md. Count 12/76,64 remaining. Derived queue count and stale log header reconciled from actual session statuses.
 
 - Closed D013, MIT18.01Fall2006L14: r19→r20 metadata only. Complete five-page source/three-figure review, independent six presolutions/full route audit, fresh complete two-input v2 SASIS, all214actual GitHub expressions and thirteen internal preview pages verified. Repaired58comparison characters and three precision phrases; preserved all original reports and171final destination files including rejected corrupt previews. Canonical intact PDF verified independently. All final helper gates current; no substantive rule change. Evidence: iterations/013/closure.md. Current total13of76closed,63remaining; all147IDs/71exclusions unchanged.
+
+- D014/Lecture15 closed: all five source pages, two full fresh readers, independent mathematics and full original/final destination audits accepted. Native help navigation and thirteen display-spacing commands repaired; original evidence retained. r20 → r21 metadata only. No earlier check dependency affected. See iterations/014/closure.md.

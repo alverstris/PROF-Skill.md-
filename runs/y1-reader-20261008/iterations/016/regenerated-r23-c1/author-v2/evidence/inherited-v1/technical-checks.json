@@ -1,0 +1,160 @@
+{
+  "worked_R4": {
+    "actual": "15/32",
+    "expected": "15/32",
+    "pass": true
+  },
+  "Q1_right": {
+    "actual": "15/4",
+    "expected": "15/4",
+    "pass": true
+  },
+  "Q1_left": {
+    "actual": "7/4",
+    "expected": "7/4",
+    "pass": true
+  },
+  "square_sum": {
+    "actual": "n**3/3 + n**2/2 + n/6",
+    "expected": "n*(n + 1)*(2*n + 1)/6",
+    "pass": true
+  },
+  "square_sum_limit": {
+    "actual": "1/3",
+    "expected": "1/3",
+    "pass": true
+  },
+  "scaled_staircase_limit": {
+    "actual": "2/3",
+    "expected": "2/3",
+    "pass": true
+  },
+  "pyramid_containment": {
+    "pass": true,
+    "scope": "n=1..40; every layer at both boundaries and three interior fractions; symbolic inequality independently follows from j<=z<=j+1; doubling z gives Q2."
+  },
+  "squeeze_width": {
+    "actual": "(1 + 1/n)**3/3 - 1/3",
+    "expected": "1/n + n**(-2) + 1/(3*n**3)",
+    "pass": true
+  },
+  "square_area": {
+    "actual": "b**3/3",
+    "expected": "b**3/3",
+    "pass": true
+  },
+  "line_sum": {
+    "actual": "b**2*(n**2/2 + n/2)/n**2",
+    "expected": "b**2*(1 + 1/n)/2",
+    "pass": true
+  },
+  "line_area": {
+    "actual": "b**2/2",
+    "expected": "b**2/2",
+    "pass": true
+  },
+  "midpoint_worked": {
+    "actual": "7/2",
+    "expected": "7/2",
+    "pass": true
+  },
+  "Q3_sum": {
+    "actual": "6 - 4*(n**2/2 + n/2)/n**2",
+    "expected": "4 - 2/n",
+    "pass": true
+  },
+  "Q3_integral": {
+    "actual": "4",
+    "expected": "4",
+    "pass": true
+  },
+  "Q4_area": {
+    "actual": "b**2 + b - 2",
+    "expected": "b**2 + b - 2",
+    "pass": true
+  },
+  "Q4_derivative": {
+    "actual": "2*b + 1",
+    "expected": "2*b + 1",
+    "pass": true
+  },
+  "Q4_difference_quotient": {
+    "actual": "2*b + h + 1",
+    "expected": "2*b + h + 1",
+    "pass": true
+  },
+  "worked_square_interval": {
+    "actual": "7/3",
+    "expected": "7/3",
+    "pass": true
+  },
+  "average_square": {
+    "actual": "b**2/3",
+    "expected": "b**2/3",
+    "pass": true
+  },
+  "nine_month_loan": {
+    "actual": "1015",
+    "expected": "1015",
+    "pass": true
+  },
+  "constant_principal": {
+    "actual": "12000",
+    "expected": "12000",
+    "pass": true
+  },
+  "constant_debt": {
+    "actual": "12360",
+    "expected": "12360",
+    "pass": true
+  },
+  "monthly_debt": {
+    "actual": "12330",
+    "expected": "12330",
+    "pass": true
+  },
+  "Q5_principal": {
+    "actual": "12000",
+    "expected": "12000",
+    "pass": true
+  },
+  "Q5_debt": {
+    "actual": "12240",
+    "expected": "12240",
+    "pass": true
+  },
+  "Q5_duration": {
+    "actual": "1/3",
+    "expected": "1/3",
+    "pass": true
+  },
+  "Q6_displacement": {
+    "actual": "3/2",
+    "expected": "3/2",
+    "pass": true
+  },
+  "Q6_distance": {
+    "actual": "5/2",
+    "expected": "5/2",
+    "pass": true
+  },
+  "Q6_avg_velocity": {
+    "actual": "1/2",
+    "expected": "1/2",
+    "pass": true
+  },
+  "Q6_avg_speed": {
+    "actual": "5/6",
+    "expected": "5/6",
+    "pass": true
+  },
+  "Q6_sum_limit": {
+    "actual": "3/2",
+    "expected": "3/2",
+    "pass": true
+  },
+  "unit_and_model_check": {
+    "pass": true,
+    "reason": "rate [dollars/year] times dt [year] is [dollars]; r [1/year] times remaining duration [year] is dimensionless; velocity [m/s] times dt [s] is [m]. r=0 reduces debt to principal; t=T gives zero interest; t=a gives maximal simple-interest duration. No actual contract claim."
+  }
+}

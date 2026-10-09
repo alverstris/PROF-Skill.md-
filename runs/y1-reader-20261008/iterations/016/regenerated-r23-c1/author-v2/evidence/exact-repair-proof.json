@@ -1,0 +1,277 @@
+{
+  "repair_type": "local representation repair, not fresh generation",
+  "skill_unchanged": "r23-candidate1",
+  "exact_change_count": 14,
+  "changed_delimiter_lines": 28,
+  "all_tex_payloads_unchanged": true,
+  "all_other_learner_bytes_unchanged": true,
+  "inverse": "For every recorded block replace opening ```math line with $$ and closing ``` line with $$. Reconstructed full files are byte-identical to all six original learner constituents. Assertions executed on raw bytes.",
+  "changes": [
+    {
+      "file": "notes.md",
+      "opening_line": 146,
+      "closing_line": 148,
+      "old_delimiters": [
+        "$$",
+        "$$"
+      ],
+      "new_delimiters": [
+        "```math",
+        "```"
+      ],
+      "payload_bytes_between_delimiter_tokens": 65,
+      "payload_sha256": "c58723aa09176bca1e71630b562d62ccc961d6795a31df9b1649c81622ff6b7e",
+      "verbatim_payload_equal": true,
+      "boundary_rule": "The LF after the opening token and LF before closing token remain exactly as in v1; they are syntax boundaries for a fenced block, not inserted/deleted TeX content. The source comparison includes the leading LF; a parser may exclude that fence-boundary LF, so destination comparison must normalize only this documented syntactic boundary.",
+      "interior_bytes_sha256": "96738f37a093602a40af7794447af7d01b6360b963237e8993b5ca74ad277cf3",
+      "v1_source_line_map_agrees": true
+    },
+    {
+      "file": "notes.md",
+      "opening_line": 177,
+      "closing_line": 179,
+      "old_delimiters": [
+        "$$",
+        "$$"
+      ],
+      "new_delimiters": [
+        "```math",
+        "```"
+      ],
+      "payload_bytes_between_delimiter_tokens": 25,
+      "payload_sha256": "ddce422b8394e8e4d9ee6ff1aa79570fc7ee82376fad8f98e6cdc9ce28480c31",
+      "verbatim_payload_equal": true,
+      "boundary_rule": "The LF after the opening token and LF before closing token remain exactly as in v1; they are syntax boundaries for a fenced block, not inserted/deleted TeX content. The source comparison includes the leading LF; a parser may exclude that fence-boundary LF, so destination comparison must normalize only this documented syntactic boundary.",
+      "interior_bytes_sha256": "abf646dbf5f4ae2bc59effb298bceb882c80f472040b818ba46d281e6df2f76c",
+      "v1_source_line_map_agrees": true
+    },
+    {
+      "file": "notes.md",
+      "opening_line": 209,
+      "closing_line": 211,
+      "old_delimiters": [
+        "$$",
+        "$$"
+      ],
+      "new_delimiters": [
+        "```math",
+        "```"
+      ],
+      "payload_bytes_between_delimiter_tokens": 52,
+      "payload_sha256": "3091e09bc00e6a36258dc406c2012bdd5169e38e29d04254089eba978e08fdf2",
+      "verbatim_payload_equal": true,
+      "boundary_rule": "The LF after the opening token and LF before closing token remain exactly as in v1; they are syntax boundaries for a fenced block, not inserted/deleted TeX content. The source comparison includes the leading LF; a parser may exclude that fence-boundary LF, so destination comparison must normalize only this documented syntactic boundary.",
+      "interior_bytes_sha256": "2399083ad281eb00b7f2ef3d224f605bfd58ea02d7502041f1e257731402892c",
+      "v1_source_line_map_agrees": true
+    },
+    {
+      "file": "notes.md",
+      "opening_line": 227,
+      "closing_line": 229,
+      "old_delimiters": [
+        "$$",
+        "$$"
+      ],
+      "new_delimiters": [
+        "```math",
+        "```"
+      ],
+      "payload_bytes_between_delimiter_tokens": 22,
+      "payload_sha256": "46ba076b4596f1d3626b423a2bb0544eec61f227476a59f4b93f6db632b0d6fd",
+      "verbatim_payload_equal": true,
+      "boundary_rule": "The LF after the opening token and LF before closing token remain exactly as in v1; they are syntax boundaries for a fenced block, not inserted/deleted TeX content. The source comparison includes the leading LF; a parser may exclude that fence-boundary LF, so destination comparison must normalize only this documented syntactic boundary.",
+      "interior_bytes_sha256": "da65fb5554fdc647884251c62d345fe24c9adf1eda63ec567edbbdf1755d7e8f",
+      "v1_source_line_map_agrees": true
+    },
+    {
+      "file": "notes.md",
+      "opening_line": 252,
+      "closing_line": 254,
+      "old_delimiters": [
+        "$$",
+        "$$"
+      ],
+      "new_delimiters": [
+        "```math",
+        "```"
+      ],
+      "payload_bytes_between_delimiter_tokens": 42,
+      "payload_sha256": "587305c104d83167886b9c534b261f9c02f94a59e35901c96e1edcfc76c5758a",
+      "verbatim_payload_equal": true,
+      "boundary_rule": "The LF after the opening token and LF before closing token remain exactly as in v1; they are syntax boundaries for a fenced block, not inserted/deleted TeX content. The source comparison includes the leading LF; a parser may exclude that fence-boundary LF, so destination comparison must normalize only this documented syntactic boundary.",
+      "interior_bytes_sha256": "2b788fbf09c436285c9df9ba88bafb837b6e7b2ccccbd8d6c3c68b5cc1e72808",
+      "v1_source_line_map_agrees": true
+    },
+    {
+      "file": "notes.md",
+      "opening_line": 260,
+      "closing_line": 262,
+      "old_delimiters": [
+        "$$",
+        "$$"
+      ],
+      "new_delimiters": [
+        "```math",
+        "```"
+      ],
+      "payload_bytes_between_delimiter_tokens": 44,
+      "payload_sha256": "83e287d7f706788686c9b7ae07707c6315fc66b3abc0670d4ec5c3cb4da2577f",
+      "verbatim_payload_equal": true,
+      "boundary_rule": "The LF after the opening token and LF before closing token remain exactly as in v1; they are syntax boundaries for a fenced block, not inserted/deleted TeX content. The source comparison includes the leading LF; a parser may exclude that fence-boundary LF, so destination comparison must normalize only this documented syntactic boundary.",
+      "interior_bytes_sha256": "b2a8d11083cef2cffb528974fca44bbc14a1b2d471c8f25e7e8f3e731aa8f05e",
+      "v1_source_line_map_agrees": true
+    },
+    {
+      "file": "notes.md",
+      "opening_line": 264,
+      "closing_line": 268,
+      "old_delimiters": [
+        "$$",
+        "$$"
+      ],
+      "new_delimiters": [
+        "```math",
+        "```"
+      ],
+      "payload_bytes_between_delimiter_tokens": 103,
+      "payload_sha256": "4e82e3d9a7139b7a06d5ef5030f44320b3c6462e09d695a5d217278fed4e537d",
+      "verbatim_payload_equal": true,
+      "boundary_rule": "The LF after the opening token and LF before closing token remain exactly as in v1; they are syntax boundaries for a fenced block, not inserted/deleted TeX content. The source comparison includes the leading LF; a parser may exclude that fence-boundary LF, so destination comparison must normalize only this documented syntactic boundary.",
+      "interior_bytes_sha256": "0ab4be725d4cc9a55529a487748c56341b0b5e9aab5493a3181f5d40047b51a8",
+      "v1_source_line_map_agrees": true
+    },
+    {
+      "file": "notes.md",
+      "opening_line": 284,
+      "closing_line": 286,
+      "old_delimiters": [
+        "$$",
+        "$$"
+      ],
+      "new_delimiters": [
+        "```math",
+        "```"
+      ],
+      "payload_bytes_between_delimiter_tokens": 45,
+      "payload_sha256": "c3a7055bca4228919f57dab493a6006729928bb5c68103dc08f09bd153244126",
+      "verbatim_payload_equal": true,
+      "boundary_rule": "The LF after the opening token and LF before closing token remain exactly as in v1; they are syntax boundaries for a fenced block, not inserted/deleted TeX content. The source comparison includes the leading LF; a parser may exclude that fence-boundary LF, so destination comparison must normalize only this documented syntactic boundary.",
+      "interior_bytes_sha256": "3d38e367e94c67e9ab6616afffd8dd33dece7cdf6be1576ede802403d9aabe41",
+      "v1_source_line_map_agrees": true
+    },
+    {
+      "file": "solutions.md",
+      "opening_line": 87,
+      "closing_line": 90,
+      "old_delimiters": [
+        "$$",
+        "$$"
+      ],
+      "new_delimiters": [
+        "```math",
+        "```"
+      ],
+      "payload_bytes_between_delimiter_tokens": 70,
+      "payload_sha256": "13dcce184ab677e011ed82255ba713c34c5dee5e0ec9df0bad2436fa3447f81f",
+      "verbatim_payload_equal": true,
+      "boundary_rule": "The LF after the opening token and LF before closing token remain exactly as in v1; they are syntax boundaries for a fenced block, not inserted/deleted TeX content. The source comparison includes the leading LF; a parser may exclude that fence-boundary LF, so destination comparison must normalize only this documented syntactic boundary.",
+      "interior_bytes_sha256": "621d04792fb6c6e968041e5ee883dd696386119e1c4791730eea6f43cda7c569",
+      "v1_source_line_map_agrees": true
+    },
+    {
+      "file": "solutions.md",
+      "opening_line": 128,
+      "closing_line": 132,
+      "old_delimiters": [
+        "$$",
+        "$$"
+      ],
+      "new_delimiters": [
+        "```math",
+        "```"
+      ],
+      "payload_bytes_between_delimiter_tokens": 83,
+      "payload_sha256": "0681e7cbf34d468b951ad9ac3d585d0977624ffc61c5d623bcdc810e34fc6c97",
+      "verbatim_payload_equal": true,
+      "boundary_rule": "The LF after the opening token and LF before closing token remain exactly as in v1; they are syntax boundaries for a fenced block, not inserted/deleted TeX content. The source comparison includes the leading LF; a parser may exclude that fence-boundary LF, so destination comparison must normalize only this documented syntactic boundary.",
+      "interior_bytes_sha256": "1a91a6a3d08b0bd507f4ed2696350960e15d9937a90a5428746f51c27ecace35",
+      "v1_source_line_map_agrees": true
+    },
+    {
+      "file": "solutions.md",
+      "opening_line": 136,
+      "closing_line": 139,
+      "old_delimiters": [
+        "$$",
+        "$$"
+      ],
+      "new_delimiters": [
+        "```math",
+        "```"
+      ],
+      "payload_bytes_between_delimiter_tokens": 74,
+      "payload_sha256": "d51439fcbabb1ac4f10e598a941d207ce2cd9622c8cdaeb3de8b5fadbcb80986",
+      "verbatim_payload_equal": true,
+      "boundary_rule": "The LF after the opening token and LF before closing token remain exactly as in v1; they are syntax boundaries for a fenced block, not inserted/deleted TeX content. The source comparison includes the leading LF; a parser may exclude that fence-boundary LF, so destination comparison must normalize only this documented syntactic boundary.",
+      "interior_bytes_sha256": "f51d29d48cfb9c5fc28bdfb7075019554ab312009a3e39afaedb8c43109bbe0d",
+      "v1_source_line_map_agrees": true
+    },
+    {
+      "file": "solutions.md",
+      "opening_line": 143,
+      "closing_line": 145,
+      "old_delimiters": [
+        "$$",
+        "$$"
+      ],
+      "new_delimiters": [
+        "```math",
+        "```"
+      ],
+      "payload_bytes_between_delimiter_tokens": 46,
+      "payload_sha256": "51ae95f8f7bc4ceadd93bc317077e25879eacdb63889f8fcb5b47e72a0d67037",
+      "verbatim_payload_equal": true,
+      "boundary_rule": "The LF after the opening token and LF before closing token remain exactly as in v1; they are syntax boundaries for a fenced block, not inserted/deleted TeX content. The source comparison includes the leading LF; a parser may exclude that fence-boundary LF, so destination comparison must normalize only this documented syntactic boundary.",
+      "interior_bytes_sha256": "f5d5ddc811b478fbd012feca40fb45fd5499323db232723c2797ba1d0b6c5203",
+      "v1_source_line_map_agrees": true
+    },
+    {
+      "file": "solutions.md",
+      "opening_line": 161,
+      "closing_line": 165,
+      "old_delimiters": [
+        "$$",
+        "$$"
+      ],
+      "new_delimiters": [
+        "```math",
+        "```"
+      ],
+      "payload_bytes_between_delimiter_tokens": 103,
+      "payload_sha256": "6850d3cfceb69f58919e22fa1ba60ca1833d7b2d3570ef04dd62c797ce30212a",
+      "verbatim_payload_equal": true,
+      "boundary_rule": "The LF after the opening token and LF before closing token remain exactly as in v1; they are syntax boundaries for a fenced block, not inserted/deleted TeX content. The source comparison includes the leading LF; a parser may exclude that fence-boundary LF, so destination comparison must normalize only this documented syntactic boundary.",
+      "interior_bytes_sha256": "f9abc0797b2ed52cb00d184eba5b3e249a3e1f515648b447161bdb64eb0edf5e",
+      "v1_source_line_map_agrees": true
+    },
+    {
+      "file": "solutions.md",
+      "opening_line": 169,
+      "closing_line": 172,
+      "old_delimiters": [
+        "$$",
+        "$$"
+      ],
+      "new_delimiters": [
+        "```math",
+        "```"
+      ],
+      "payload_bytes_between_delimiter_tokens": 82,
+      "payload_sha256": "f2693110c5a77a1211d8be4605587bd630a21328d957be711b5220a65afef5e3",
+      "verbatim_payload_equal": true,
+      "boundary_rule": "The LF after the opening token and LF before closing token remain exactly as in v1; they are syntax boundaries for a fenced block, not inserted/deleted TeX content. The source comparison includes the leading LF; a parser may exclude that fence-boundary LF, so destination comparison must normalize only this documented syntactic boundary.",
+      "interior_bytes_sha256": "5fa284aaea77e4473e92e84b14d6e4caba548e8dbb52454c830ae254a07f8b1f",
+      "v1_source_line_map_agrees": true
+    }
+  ]
+}

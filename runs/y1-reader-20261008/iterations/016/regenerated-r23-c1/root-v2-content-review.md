@@ -1,0 +1,9 @@
+Root complete v2 content and figure readback
+
+Root read all 308 notes lines in order, viewing the exact three PNGs at insertions 34/36, 66/68 and 125/127 before later notes, then all 51 hint lines and all 186 solution lines. Tool witnesses: f4b655, 1f8e76, 88df99, 3be1ac, 29bb94, 322ae5, with the three associated full-frame image outputs. All six inputs match the frozen v2 manifest.
+
+The fourteen repaired displays retain every mathematical symbol and line of TeX; root independently inverted all changed delimiters and recovered the complete original six files byte for byte. Thus the original complete source/science audit and six prompt-first independent calculations retain their unchanged-content scope. This is a local destination representation repair following the actual fresh candidate generation, not a second generation or a new skill change.
+
+The whole reread confirms the connected route: right/left rectangle bounds; aligned square cross-sections and positive volume squeeze; sample-point roles and existence conditions; signed contributions and moving-endpoint continuity argument; averages; explicitly simple interest weighted by remaining duration; six supported tasks and separate matched help. Every proposed answer still agrees with the independently preserved results. Figure 1 matches the increasing right-endpoint excess, Figure 2 preserves centred parallel square sections and pyramid containment, and Figure 3 distinguishes width from sample position. All labels are legible. No newly supported content or scientific defect was found.
+
+The fourteen new fenced displays still require actual GitHub parser evidence, and all final destination/PDF/navigation checks remain pending. A new fresh two-input reader is active; this root content check cannot substitute for that report or final acceptance.

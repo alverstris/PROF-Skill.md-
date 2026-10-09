@@ -1,0 +1,336 @@
+[
+  {
+    "ordinal": 12,
+    "label": "L1",
+    "source_block_line": 23,
+    "source_span": [
+      1321,
+      1352
+    ],
+    "source": "\ndx=h,\\qquad dy=f'(a)\\,dx.\n",
+    "actual": "\ndx=h,\\qquad dy=f'(a),dx.\n",
+    "destination_element": 23,
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"242cd632d89e42e07d43f300f4578da0\">$$\ndx=h,\\qquad dy=f'(a),dx.\n$$</math-renderer>",
+    "lost_backslashes": [
+      {
+        "math_ordinal": 12,
+        "label": "L1",
+        "character_offset_zero_based": 1344,
+        "UTF8_byte_offset_zero_based": 1350,
+        "line_one_based": 24,
+        "column_one_based": 21,
+        "source_two_characters": "\\,",
+        "destination_character": ","
+      }
+    ],
+    "only_thinspace_command_backslash_loss": true,
+    "effect": "A TeX thin-space command becomes a literal mathematical comma. This inserts punctuation before dx/du and in L1 separates the coefficient from dx; operands/grouping remain, but spacing/product notation is not preserved. Client-rendered pixels are not observed."
+  },
+  {
+    "ordinal": 76,
+    "label": "L4",
+    "source_block_line": 83,
+    "source_span": [
+      5391,
+      5417
+    ],
+    "source": "\n\\int f(x)\\,dx=F(x)+C\n",
+    "actual": "\n\\int f(x),dx=F(x)+C\n",
+    "destination_element": 110,
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"242cd632d89e42e07d43f300f4578da0\">$$\n\\int f(x),dx=F(x)+C\n$$</math-renderer>",
+    "lost_backslashes": [
+      {
+        "math_ordinal": 76,
+        "label": "L4",
+        "character_offset_zero_based": 5403,
+        "UTF8_byte_offset_zero_based": 5409,
+        "line_one_based": 84,
+        "column_one_based": 10,
+        "source_two_characters": "\\,",
+        "destination_character": ","
+      }
+    ],
+    "only_thinspace_command_backslash_loss": true,
+    "effect": "A TeX thin-space command becomes a literal mathematical comma. This inserts punctuation before dx/du and in L1 separates the coefficient from dx; operands/grouping remain, but spacing/product notation is not preserved. Client-rendered pixels are not observed."
+  },
+  {
+    "ordinal": 85,
+    "label": "L4",
+    "source_block_line": 89,
+    "source_span": [
+      5928,
+      5959
+    ],
+    "source": "\n\\int\\sin x\\,dx=-\\cos x+C.\n",
+    "actual": "\n\\int\\sin x,dx=-\\cos x+C.\n",
+    "destination_element": 121,
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"242cd632d89e42e07d43f300f4578da0\">$$\n\\int\\sin x,dx=-\\cos x+C.\n$$</math-renderer>",
+    "lost_backslashes": [
+      {
+        "math_ordinal": 85,
+        "label": "L4",
+        "character_offset_zero_based": 5941,
+        "UTF8_byte_offset_zero_based": 5947,
+        "line_one_based": 90,
+        "column_one_based": 11,
+        "source_two_characters": "\\,",
+        "destination_character": ","
+      }
+    ],
+    "only_thinspace_command_backslash_loss": true,
+    "effect": "A TeX thin-space command becomes a literal mathematical comma. This inserts punctuation before dx/du and in L1 separates the coefficient from dx; operands/grouping remain, but spacing/product notation is not preserved. Client-rendered pixels are not observed."
+  },
+  {
+    "ordinal": 88,
+    "label": "L4",
+    "source_block_line": 97,
+    "source_span": [
+      6138,
+      6192
+    ],
+    "source": "\n\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C\\quad(n\\ne-1),\n",
+    "actual": "\n\\int x^n,dx=\\frac{x^{n+1}}{n+1}+C\\quad(n\\ne-1),\n",
+    "destination_element": 127,
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"242cd632d89e42e07d43f300f4578da0\">$$\n\\int x^n,dx=\\frac{x^{n+1}}{n+1}+C\\quad(n\\ne-1),\n$$</math-renderer>",
+    "lost_backslashes": [
+      {
+        "math_ordinal": 88,
+        "label": "L4",
+        "character_offset_zero_based": 6149,
+        "UTF8_byte_offset_zero_based": 6155,
+        "line_one_based": 98,
+        "column_one_based": 9,
+        "source_two_characters": "\\,",
+        "destination_character": ","
+      }
+    ],
+    "only_thinspace_command_backslash_loss": true,
+    "effect": "A TeX thin-space command becomes a literal mathematical comma. This inserts punctuation before dx/du and in L1 separates the coefficient from dx; operands/grouping remain, but spacing/product notation is not preserved. Client-rendered pixels are not observed."
+  },
+  {
+    "ordinal": 89,
+    "label": "L4",
+    "source_block_line": 101,
+    "source_span": [
+      6194,
+      6258
+    ],
+    "source": "\n\\int\\frac{dx}{x}=\\ln|x|+C,\\qquad\n\\int\\sec^2x\\,dx=\\tan x+C,\n",
+    "actual": "\n\\int\\frac{dx}{x}=\\ln|x|+C,\\qquad\n\\int\\sec^2x,dx=\\tan x+C,\n",
+    "destination_element": 129,
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"242cd632d89e42e07d43f300f4578da0\">$$\n\\int\\frac{dx}{x}=\\ln|x|+C,\\qquad\n\\int\\sec^2x,dx=\\tan x+C,\n$$</math-renderer>",
+    "lost_backslashes": [
+      {
+        "math_ordinal": 89,
+        "label": "L4",
+        "character_offset_zero_based": 6241,
+        "UTF8_byte_offset_zero_based": 6247,
+        "line_one_based": 103,
+        "column_one_based": 12,
+        "source_two_characters": "\\,",
+        "destination_character": ","
+      }
+    ],
+    "only_thinspace_command_backslash_loss": true,
+    "effect": "A TeX thin-space command becomes a literal mathematical comma. This inserts punctuation before dx/du and in L1 separates the coefficient from dx; operands/grouping remain, but spacing/product notation is not preserved. Client-rendered pixels are not observed."
+  },
+  {
+    "ordinal": 142,
+    "label": "L6",
+    "source_block_line": 164,
+    "source_span": [
+      10271,
+      10348
+    ],
+    "source": "\n\\frac d{dx}A(g(x))=q(g(x))g'(x),\\qquad\n\\int q(g(x))g'(x)\\,dx=A(g(x))+C.\n",
+    "actual": "\n\\frac d{dx}A(g(x))=q(g(x))g'(x),\\qquad\n\\int q(g(x))g'(x),dx=A(g(x))+C.\n",
+    "destination_element": 206,
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"242cd632d89e42e07d43f300f4578da0\">$$\n\\frac d{dx}A(g(x))=q(g(x))g'(x),\\qquad\n\\int q(g(x))g'(x),dx=A(g(x))+C.\n$$</math-renderer>",
+    "lost_backslashes": [
+      {
+        "math_ordinal": 142,
+        "label": "L6",
+        "character_offset_zero_based": 10330,
+        "UTF8_byte_offset_zero_based": 10340,
+        "line_one_based": 166,
+        "column_one_based": 18,
+        "source_two_characters": "\\,",
+        "destination_character": ","
+      }
+    ],
+    "only_thinspace_command_backslash_loss": true,
+    "effect": "A TeX thin-space command becomes a literal mathematical comma. This inserts punctuation before dx/du and in L1 separates the coefficient from dx; operands/grouping remain, but spacing/product notation is not preserved. Client-rendered pixels are not observed."
+  },
+  {
+    "ordinal": 145,
+    "label": "L6",
+    "source_block_line": 173,
+    "source_span": [
+      10758,
+      10786
+    ],
+    "source": "\n\\int x^3(x^4+2)^5\\,dx,\n",
+    "actual": "\n\\int x^3(x^4+2)^5,dx,\n",
+    "destination_element": 212,
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"242cd632d89e42e07d43f300f4578da0\">$$\n\\int x^3(x^4+2)^5,dx,\n$$</math-renderer>",
+    "lost_backslashes": [
+      {
+        "math_ordinal": 145,
+        "label": "L6",
+        "character_offset_zero_based": 10778,
+        "UTF8_byte_offset_zero_based": 10788,
+        "line_one_based": 174,
+        "column_one_based": 18,
+        "source_two_characters": "\\,",
+        "destination_character": ","
+      }
+    ],
+    "only_thinspace_command_backslash_loss": true,
+    "effect": "A TeX thin-space command becomes a literal mathematical comma. This inserts punctuation before dx/du and in L1 separates the coefficient from dx; operands/grouping remain, but spacing/product notation is not preserved. Client-rendered pixels are not observed."
+  },
+  {
+    "ordinal": 151,
+    "label": "L6",
+    "source_block_line": 179,
+    "source_span": [
+      10990,
+      11081
+    ],
+    "source": "\n\\int x^3(x^4+2)^5\\,dx\n=\\frac14\\int u^5\\,du\n=\\frac{u^6}{24}+C\n=\\frac{(x^4+2)^6}{24}+C.\n",
+    "actual": "\n\\int x^3(x^4+2)^5,dx\n=\\frac14\\int u^5,du\n=\\frac{u^6}{24}+C\n=\\frac{(x^4+2)^6}{24}+C.\n",
+    "destination_element": 220,
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"242cd632d89e42e07d43f300f4578da0\">$$\n\\int x^3(x^4+2)^5,dx\n=\\frac14\\int u^5,du\n=\\frac{u^6}{24}+C\n=\\frac{(x^4+2)^6}{24}+C.\n$$</math-renderer>",
+    "lost_backslashes": [
+      {
+        "math_ordinal": 151,
+        "label": "L6",
+        "character_offset_zero_based": 11010,
+        "UTF8_byte_offset_zero_based": 11020,
+        "line_one_based": 180,
+        "column_one_based": 18,
+        "source_two_characters": "\\,",
+        "destination_character": ","
+      },
+      {
+        "math_ordinal": 151,
+        "label": "L6",
+        "character_offset_zero_based": 11031,
+        "UTF8_byte_offset_zero_based": 11041,
+        "line_one_based": 181,
+        "column_one_based": 17,
+        "source_two_characters": "\\,",
+        "destination_character": ","
+      }
+    ],
+    "only_thinspace_command_backslash_loss": true,
+    "effect": "A TeX thin-space command becomes a literal mathematical comma. This inserts punctuation before dx/du and in L1 separates the coefficient from dx; operands/grouping remain, but spacing/product notation is not preserved. Client-rendered pixels are not observed."
+  },
+  {
+    "ordinal": 171,
+    "label": "L7",
+    "source_block_line": 209,
+    "source_span": [
+      12203,
+      12241
+    ],
+    "source": "\n\\int e^{6x}\\,dx=\\frac16e^{6x}+C.\n",
+    "actual": "\n\\int e^{6x},dx=\\frac16e^{6x}+C.\n",
+    "destination_element": 250,
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"242cd632d89e42e07d43f300f4578da0\">$$\n\\int e^{6x},dx=\\frac16e^{6x}+C.\n$$</math-renderer>",
+    "lost_backslashes": [
+      {
+        "math_ordinal": 171,
+        "label": "L7",
+        "character_offset_zero_based": 12217,
+        "UTF8_byte_offset_zero_based": 12231,
+        "line_one_based": 210,
+        "column_one_based": 12,
+        "source_two_characters": "\\,",
+        "destination_character": ","
+      }
+    ],
+    "only_thinspace_command_backslash_loss": true,
+    "effect": "A TeX thin-space command becomes a literal mathematical comma. This inserts punctuation before dx/du and in L1 separates the coefficient from dx; operands/grouping remain, but spacing/product notation is not preserved. Client-rendered pixels are not observed."
+  },
+  {
+    "ordinal": 176,
+    "label": "L7",
+    "source_block_line": 215,
+    "source_span": [
+      12375,
+      12419
+    ],
+    "source": "\n\\int xe^{-x^2}\\,dx=-\\frac12e^{-x^2}+C.\n",
+    "actual": "\n\\int xe^{-x^2},dx=-\\frac12e^{-x^2}+C.\n",
+    "destination_element": 257,
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"242cd632d89e42e07d43f300f4578da0\">$$\n\\int xe^{-x^2},dx=-\\frac12e^{-x^2}+C.\n$$</math-renderer>",
+    "lost_backslashes": [
+      {
+        "math_ordinal": 176,
+        "label": "L7",
+        "character_offset_zero_based": 12392,
+        "UTF8_byte_offset_zero_based": 12406,
+        "line_one_based": 216,
+        "column_one_based": 15,
+        "source_two_characters": "\\,",
+        "destination_character": ","
+      }
+    ],
+    "only_thinspace_command_backslash_loss": true,
+    "effect": "A TeX thin-space command becomes a literal mathematical comma. This inserts punctuation before dx/du and in L1 separates the coefficient from dx; operands/grouping remain, but spacing/product notation is not preserved. Client-rendered pixels are not observed."
+  },
+  {
+    "ordinal": 284,
+    "label": "S4",
+    "source_block_line": 293,
+    "source_span": [
+      19716,
+      19771
+    ],
+    "source": "\nF(x)=\\frac13\\int u^5\\,du\n=\\frac{(x^3+2)^6}{18}+C.\n",
+    "actual": "\nF(x)=\\frac13\\int u^5,du\n=\\frac{(x^3+2)^6}{18}+C.\n",
+    "destination_element": 398,
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"242cd632d89e42e07d43f300f4578da0\">$$\nF(x)=\\frac13\\int u^5,du\n=\\frac{(x^3+2)^6}{18}+C.\n$$</math-renderer>",
+    "lost_backslashes": [
+      {
+        "math_ordinal": 284,
+        "label": "S4",
+        "character_offset_zero_based": 19739,
+        "UTF8_byte_offset_zero_based": 19755,
+        "line_one_based": 294,
+        "column_one_based": 21,
+        "source_two_characters": "\\,",
+        "destination_character": ","
+      }
+    ],
+    "only_thinspace_command_backslash_loss": true,
+    "effect": "A TeX thin-space command becomes a literal mathematical comma. This inserts punctuation before dx/du and in L1 separates the coefficient from dx; operands/grouping remain, but spacing/product notation is not preserved. Client-rendered pixels are not observed."
+  },
+  {
+    "ordinal": 297,
+    "label": "S5",
+    "source_block_line": 317,
+    "source_span": [
+      20591,
+      20645
+    ],
+    "source": "\nF(x)=\\int u^{-2}\\,du=-u^{-1}+C=-\\frac1{\\ln x}+C.\n",
+    "actual": "\nF(x)=\\int u^{-2},du=-u^{-1}+C=-\\frac1{\\ln x}+C.\n",
+    "destination_element": 419,
+    "raw_HTML": "<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"242cd632d89e42e07d43f300f4578da0\">$$\nF(x)=\\int u^{-2},du=-u^{-1}+C=-\\frac1{\\ln x}+C.\n$$</math-renderer>",
+    "lost_backslashes": [
+      {
+        "math_ordinal": 297,
+        "label": "S5",
+        "character_offset_zero_based": 20610,
+        "UTF8_byte_offset_zero_based": 20626,
+        "line_one_based": 318,
+        "column_one_based": 17,
+        "source_two_characters": "\\,",
+        "destination_character": ","
+      }
+    ],
+    "only_thinspace_command_backslash_loss": true,
+    "effect": "A TeX thin-space command becomes a literal mathematical comma. This inserts punctuation before dx/du and in L1 separates the coefficient from dx; operands/grouping remain, but spacing/product notation is not preserved. Client-rendered pixels are not observed."
+  }
+]

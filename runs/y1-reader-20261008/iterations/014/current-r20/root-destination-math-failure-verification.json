@@ -1,0 +1,93 @@
+{
+  "teaching_sha256": "60f908bb588e6dea64725b321f6eb753a33f8293bd452105f9fd48cefe68adbb",
+  "independent_all_hunk_comparison": true,
+  "defective_displays": 12,
+  "spacing_commands_changed_to_literal_comma": 13,
+  "unchanged_expressions": 334,
+  "rows": [
+    {
+      "source_line": 23,
+      "section": "L1",
+      "source": "\ndx=h,\\qquad dy=f'(a)\\,dx.\n",
+      "actual": "\ndx=h,\\qquad dy=f'(a),dx.\n",
+      "lost_slashes": 1
+    },
+    {
+      "source_line": 83,
+      "section": "L4",
+      "source": "\n\\int f(x)\\,dx=F(x)+C\n",
+      "actual": "\n\\int f(x),dx=F(x)+C\n",
+      "lost_slashes": 1
+    },
+    {
+      "source_line": 89,
+      "section": "L4",
+      "source": "\n\\int\\sin x\\,dx=-\\cos x+C.\n",
+      "actual": "\n\\int\\sin x,dx=-\\cos x+C.\n",
+      "lost_slashes": 1
+    },
+    {
+      "source_line": 97,
+      "section": "L4",
+      "source": "\n\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C\\quad(n\\ne-1),\n",
+      "actual": "\n\\int x^n,dx=\\frac{x^{n+1}}{n+1}+C\\quad(n\\ne-1),\n",
+      "lost_slashes": 1
+    },
+    {
+      "source_line": 101,
+      "section": "L4",
+      "source": "\n\\int\\frac{dx}{x}=\\ln|x|+C,\\qquad\n\\int\\sec^2x\\,dx=\\tan x+C,\n",
+      "actual": "\n\\int\\frac{dx}{x}=\\ln|x|+C,\\qquad\n\\int\\sec^2x,dx=\\tan x+C,\n",
+      "lost_slashes": 1
+    },
+    {
+      "source_line": 164,
+      "section": "L6",
+      "source": "\n\\frac d{dx}A(g(x))=q(g(x))g'(x),\\qquad\n\\int q(g(x))g'(x)\\,dx=A(g(x))+C.\n",
+      "actual": "\n\\frac d{dx}A(g(x))=q(g(x))g'(x),\\qquad\n\\int q(g(x))g'(x),dx=A(g(x))+C.\n",
+      "lost_slashes": 1
+    },
+    {
+      "source_line": 173,
+      "section": "L6",
+      "source": "\n\\int x^3(x^4+2)^5\\,dx,\n",
+      "actual": "\n\\int x^3(x^4+2)^5,dx,\n",
+      "lost_slashes": 1
+    },
+    {
+      "source_line": 179,
+      "section": "L6",
+      "source": "\n\\int x^3(x^4+2)^5\\,dx\n=\\frac14\\int u^5\\,du\n=\\frac{u^6}{24}+C\n=\\frac{(x^4+2)^6}{24}+C.\n",
+      "actual": "\n\\int x^3(x^4+2)^5,dx\n=\\frac14\\int u^5,du\n=\\frac{u^6}{24}+C\n=\\frac{(x^4+2)^6}{24}+C.\n",
+      "lost_slashes": 2
+    },
+    {
+      "source_line": 209,
+      "section": "L7",
+      "source": "\n\\int e^{6x}\\,dx=\\frac16e^{6x}+C.\n",
+      "actual": "\n\\int e^{6x},dx=\\frac16e^{6x}+C.\n",
+      "lost_slashes": 1
+    },
+    {
+      "source_line": 215,
+      "section": "L7",
+      "source": "\n\\int xe^{-x^2}\\,dx=-\\frac12e^{-x^2}+C.\n",
+      "actual": "\n\\int xe^{-x^2},dx=-\\frac12e^{-x^2}+C.\n",
+      "lost_slashes": 1
+    },
+    {
+      "source_line": 293,
+      "section": "S4",
+      "source": "\nF(x)=\\frac13\\int u^5\\,du\n=\\frac{(x^3+2)^6}{18}+C.\n",
+      "actual": "\nF(x)=\\frac13\\int u^5,du\n=\\frac{(x^3+2)^6}{18}+C.\n",
+      "lost_slashes": 1
+    },
+    {
+      "source_line": 317,
+      "section": "S5",
+      "source": "\nF(x)=\\int u^{-2}\\,du=-u^{-1}+C=-\\frac1{\\ln x}+C.\n",
+      "actual": "\nF(x)=\\int u^{-2},du=-u^{-1}+C=-\\frac1{\\ln x}+C.\n",
+      "lost_slashes": 1
+    }
+  ]
+}

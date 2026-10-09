@@ -1,0 +1,11 @@
+Whole original v1 audit and consolidated repair
+
+All original audits complete: root full originalsource/text/images/independent calculations and sevenprompt-first solutions, fullteaching/help, author completebaseline/source/reconstruction/evidence, fresh fulltwoinputSASIS original/report/access, actualGitHub full346expression/prose/29labels/21CSS/sourceidentity/navigation. Full destination-v1/review.md and final-audit.json read. No original audit is stopped at first issue. Known-failingv1 has no internalpreview pass.
+
+NAV-1: all7tasks have matchedtext H/S labels but no native target or internal link. This violates existing T11 supportednavigation duty; positive7relationship checks each fail. Required repair21stableP/H/S targets, all28task-help/returnlinks, appropriategroup/route navigation preserving distinct hint/solution groups.
+
+MATH-1: exactly13 thin-space-command backslashes are dropped from12displaypayloads in actualGitHub parser. Root reproduced eachfull source/actual difference; see root-destination-math-failure-verification.json. All310inline and24otherdisplay payloads exact; fullnonmathprose exact,29labels exact, sourcebytes/linkidentities match; no additional materialdestinationdefect found. Replace exactlythese13displaycommands with ordinaryTeX whitespace, preserving alloperators/operands/grouping andotherexpressions.
+
+Sourceerrors S1–S5 from preparation are corrected in v1 and independentlyverified, not outstandingteachingdefects. Freshreader reports no subjectconnectiongap; its externalprovenancelimits resolvedseparatelybyroot evidence. Initialauthor structuralchecker label-index failure is preserved as a checkererror; wholefinal localcheck correct. No newscientificorlearning claim.
+
+Existingauthor /root/author_d014_r20 authorized to create separatev2 with onlytheseconsolidatedrepairs and necessaryroutewording, preserveallv1/evidence, supplyexactdiff and fullorderedauthorread. No substantivePROFchange justified: existingT11/destinationpreservation requirements already mandate bothchecks; the executionloop caught them beforeacceptance. Outgoingmetadata mayincrement onlyaftervalidclosure. Freshv2wholebaseline/documentreader and freshactualdestination/fullinternalpreview/finalhelperchecks remainrequired. No earlierteachingdependencieschangefromtheseformat-onlyrepairs.

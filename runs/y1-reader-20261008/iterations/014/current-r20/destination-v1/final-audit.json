@@ -1,0 +1,90 @@
+{
+  "observed_scope_result": "FAIL — MATH-1 display-parser command loss and NAV-1 absent native task-help navigation",
+  "immutable_commit": "c222a4fbf9c51cb72141e352dfe909278febb37a",
+  "source_sha256": "60f908bb588e6dea64725b321f6eb753a33f8293bd452105f9fd48cefe68adbb",
+  "source_bytes": 23136,
+  "actual_raw_exact": true,
+  "identity": {
+    "requested_commit": "c222a4fbf9c51cb72141e352dfe909278febb37a",
+    "requested_path": "runs/y1-reader-20261008/iterations/014/current-r20/author/teaching-v1.md",
+    "source_sha256": "60f908bb588e6dea64725b321f6eb753a33f8293bd452105f9fd48cefe68adbb",
+    "source_hash_matches": true,
+    "layout_commit_matches": true,
+    "blob_commit_matches": true,
+    "layout_path_matches": true,
+    "blob_path_matches": true,
+    "rich_text_untruncated": true,
+    "embedded_raw_exact_without_added_newline": false,
+    "embedded_raw_exact_with_one_added_terminal_newline": true
+  },
+  "source_math_count": 346,
+  "actual_math_count": 346,
+  "inline_count": 310,
+  "display_count": 36,
+  "all310_inline_payloads_exact": true,
+  "exact_payload_count": 334,
+  "display_payload_mismatches": 12,
+  "lost_thinspace_command_backslashes": 13,
+  "all_differences_fully_classified": true,
+  "ordered_types_equal": true,
+  "all_wrappers_valid": true,
+  "missing_math_spans": [],
+  "all_nonmath_prose_exact_after_whitespace_folding": true,
+  "whole_prose_math_stream_exact": false,
+  "all29_paragraph_start_labels_exact": true,
+  "all21_P_H_S_labels_present": true,
+  "positive_required_navigation_pass": false,
+  "positive_navigation_evidence": "positive-navigation-audit.json",
+  "hints_group_separate_from_solutions": true,
+  "no_figures_in_single_constituent": true,
+  "figure_visual_review": "not_applicable — no figure files or image markup in this single-constituent packet",
+  "all_CSS_fetched": true,
+  "CSS_count": 21,
+  "no_forced_emphasis_prose_elements": true,
+  "actual_tags": {
+    "article": 1,
+    "p": 130,
+    "math-renderer": 346,
+    "a": 2
+  },
+  "inline_style_summary": {
+    "math-renderer: display: inline-block": 310,
+    "math-renderer: display: block": 36
+  },
+  "style_scope": "Actual fetched body default weight400; no applicable heading/table/emphasis/definition-term prose nodes or inline font-emphasis declarations. Live computed styles/pixels unobserved.",
+  "source_PDFs": {
+    "main_href": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/c07ab6e13cf8684dd98b2650b64672fb_lec15.pdf",
+    "actual_links": [
+      {
+        "element": 165,
+        "href": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/e880603ec136cc8ebaa68c7d72c22024_MIT18_01SCF10_Ses34a.pdf",
+        "text": "MIT's introduction to the theorem"
+      },
+      {
+        "element": 332,
+        "href": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/c07ab6e13cf8684dd98b2650b64672fb_lec15.pdf",
+        "text": "Lecture 15: Differentials and Antiderivatives"
+      }
+    ],
+    "all2_external_hrefs_preserved": true,
+    "main_official_immutable_local_bytes_equal": true,
+    "main_sha256": "10c3dc97fa877d3ed97c5561b5082dca3006c632d85e58e01d059484ae455323",
+    "main_bytes": 130496,
+    "main_page_count": 5,
+    "supplement_sha256": "9428a339cbc094840fdd85c58f4116d71fedbe29107d3d346d6a35fc7c1bba6f",
+    "supplement_bytes": 472962,
+    "supplement_page_count": 4,
+    "supplement_page1_text_record": "supplement-page1-extracted.txt",
+    "scope": "Official PDFs fetched successfully; main lecture provenance verified against immutable/local copy. Supplemental page1 extracted to verify target identity. No full source-PDF visual or substantive content audit claimed here."
+  },
+  "internal_preview": "NOT PERFORMED — root held full preview for known-failing v1; no PDF/AST/native-PDF-navigation/page inspection claimed. A preview could not repair actual destination failures.",
+  "material_findings": [
+    "MATH-1",
+    "NAV-1"
+  ],
+  "limits": [
+    "Live GitHub pixels, computed styles, client MathJax, responsive layout and browser clicks unobserved.",
+    "Actual server parser payloads, CSS and href/target data checked; no claims of native visual rendering.",
+    "No source-PDF full visual audit or learner technical/semantic acceptance claim; those are separate review roles."
+  ]
+}

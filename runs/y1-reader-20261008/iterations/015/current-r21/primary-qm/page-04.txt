@@ -1,0 +1,73 @@
+(a†)n
+The other eigenstates are built using Hermite Polynomials H
+31
+n(x), using the formula
+|n⟩=
+√
+n! |0⟩to derive
+diﬀerential equations:
+n
+1
+√
+1
+d
+ψn(x) = ⟨x| n⟩= √
+mωx
+n!2n
+−√mω dx
+
+ψ0(x)
+with solutions ψn(x) = ⟨x| n⟩= √1
+n
+Hn(x)ψ0(x).
+2 n!
+The n = 2 and n = 3 wavefunctions are plotted in the following ﬁgure, while the second ﬁgure displays the probability
+distribution function. Notice the diﬀerent parity for even and odd number and the number of zeros of these functions.
+-4
+-2
+2
+4
+-0.5
+0.5
+-4
+-2
+2
+4
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+Fig. 12: Left: Harmonic oscillator wavefunction. Right: corresponding probability distribution function for n = 2 (blue) and
+n = 3 (Red, dotted).
+Classically, the probability that the oscillating particle is at a given value of x is simply the fraction of time that it
+spends there, which is inversely proportional to its velocity v(x) = x0ω
+1 −x2 at that position. For large n, the
+x2
+0
+probability distribution becomes close to the classical one:
+q
+-10
+-5
+5
+10
+-0.4
+-0.2
+0.2
+0.4
+0.6
+-10
+-5
+0
+5
+10
+0.1
+0.2
+0.3
+0.4
+Fig. 13: Left: Harmonic oscillator wavefunction. Right: corresponding probability distribution function for n = 40. In Red, the
+classical probability.
+31 For more details on Hermite Polynomials and their generator function, look on Cohen-Tannoudji. Online information from:
+Eric W. Weisstein. Hermite Polynomial. From MathWorld–A Wolfram Web Resource.
+82

@@ -1,3 +1,5 @@
+D015/Lecture16 active under verified published PROF r21 at c37f685671fb6ca6b1db1aeb6a2d55eee77a53a5. Root full skill reload and all five original source texts/images/three figures read. Fresh author /root/author_d015_r21 reading complete baseline/source and preparing prompt-first draft. See iterations/015/current-r21/RECOVERY.md.14/76closed62remain;147IDs/76eligible71excluded preserved. Next frozen prompt checks before answers, complete packet/fresh SASIS and full independent/destination/final review. No competing author/publisher; continuation enabled.
+
 Current accepted closure D001–D014: 14/76 eligible closed, 62 remaining; all 147 original IDs and 76-eligible/71-excluded scope preserved. D014 final full checks accepted; r21 metadata-only and final evidence 2cc47f1a2a17f4062f98824f1c6040611311b59b verified against all 62 files. See iterations/014/closure.md. Next verify closure publication, fully reload actual r21 and begin D015/Lecture16 afresh. Managed cloud works; no competing author/publisher. Historical unknown pending writes remain unknown. Continuation enabled.
 
 Earlier checkpoints (preserved; current state above supersedes their pending counts):

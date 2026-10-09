@@ -1,0 +1,61 @@
+{
+  "case": "D012",
+  "revision": "r18-v1",
+  "agent": "/root/sasis_d012_v1",
+  "fork_turns": "none",
+  "status": "provisional pending complete actual access evidence and originalreport",
+  "subject_content_inputs": 2,
+  "baseline": {
+    "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+    "bytes": 247840,
+    "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+  },
+  "document_constituents": [
+    {
+      "path": "teaching-v1.md",
+      "absolute_path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/author/teaching-v1.md",
+      "bytes": 32566,
+      "sha256": "8a9845299b276ba13c3f2c18862bdde3ed9b0227451e89fb57f9fe2719e573f0"
+    },
+    {
+      "path": "figures/newton-steps.png",
+      "absolute_path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/author/figures/newton-steps.png",
+      "bytes": 112466,
+      "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+    },
+    {
+      "path": "figures/newton-cycle.png",
+      "absolute_path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/author/figures/newton-cycle.png",
+      "bytes": 84271,
+      "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+    },
+    {
+      "path": "figures/ring-geometry.png",
+      "absolute_path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/author/figures/ring-geometry.png",
+      "bytes": 100646,
+      "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+    },
+    {
+      "path": "figures/ellipse-reflection.png",
+      "absolute_path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/author/figures/ellipse-reflection.png",
+      "bytes": 90111,
+      "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+    }
+  ],
+  "delivery": "instruction-confined read-only exactpaths; sharedtools technically available; no erasure ofpretraining claimed",
+  "operating_instruction": "current student-role equivalent supplied, no thirdsubjectinput",
+  "required_order": [
+    "completebaseline LF1\u20131377",
+    "teaching1\u201363",
+    "fullnewton-stepsPNG",
+    "teaching64\u2013129",
+    "fullnewton-cyclePNG",
+    "teaching130\u2013161",
+    "fullring-geometryPNG",
+    "teaching162\u2013240",
+    "teaching241\u2013316",
+    "fullellipse-reflectionPNG",
+    "teaching317\u2013426ending"
+  ],
+  "access_limit": "Everytruncation must be corrected; hashes establishidentity, notreading or simultaneouscontext"
+}

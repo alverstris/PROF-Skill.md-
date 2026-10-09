@@ -1,0 +1,99 @@
+{
+  "sqrt3_iterates": [
+    "1",
+    "2",
+    "7/4",
+    "97/56",
+    "18817/10864"
+  ],
+  "sqrt3_errors": [
+    "0.7320508075688773",
+    "0.2679491924311227",
+    "0.01794919243112271",
+    "9.204957397984933e-5",
+    "2.445850246973290e-9"
+  ],
+  "error_identity": "symbolically equal; positive x denominator",
+  "square_bracket": [
+    "2.9999999737806400",
+    "3.0000000084216561"
+  ],
+  "cycle_h": "both +/-1/sqrt(5) map exactly to opposite input; derivatives2/5",
+  "Q1": [
+    "9/4",
+    "1/16"
+  ],
+  "Q2": {
+    "iterates": [
+      "0",
+      "1",
+      "0",
+      "1"
+    ],
+    "residuals": [
+      "2",
+      "1",
+      "2",
+      "1"
+    ],
+    "midpoint_value": "13/8",
+    "interval": [
+      "-2",
+      "-3/2"
+    ]
+  },
+  "worked": {
+    "D": "6",
+    "x": "2",
+    "y": "-3/2",
+    "r1": "5/2",
+    "r2": "15/2",
+    "angle_deg": "53.1301023542"
+  },
+  "Q3": {
+    "D": "8",
+    "x": "9/4",
+    "y": "-3",
+    "r1": "15/4",
+    "r2": "25/4",
+    "angle_deg": "36.8698976458"
+  },
+  "Q4": {
+    "D": "6",
+    "x": "4",
+    "y": "-3",
+    "r1": "5",
+    "r2": "5",
+    "angle_deg": "53.1301023542"
+  },
+  "negative_b_check": {
+    "D": "8",
+    "x": "15/4",
+    "y": "-5",
+    "r1": "25/4",
+    "r2": "15/4",
+    "angle_deg": "36.8698976458"
+  },
+  "Q4_newton": {
+    "estimate": "8/3",
+    "residual": "1/9"
+  },
+  "ring_length_identity": "squared left distance equals [L(D-b)/(2D)]^2 when L^2=a^2+D^2; right via b -> -b; positive lengths licensed by D>|b|",
+  "force_check": "equal angles with sin>0 gives T1=T2; vertical T=mg/(2cos alpha)>0; consistent dimensions and signs",
+  "reflection_check": "n=u1+u2 perpendicular to tangent from differentiated distance sum; n dot u1=n dot u2=1+u1 dot u2; n nonzero if L>AB. Reflection of incoming u1 across tangent is u1-2(u1 dot n)n/(n dot n)=-u2 since n dot n=2(1+u1 dot u2).",
+  "source_markup_checks": {
+    "paragraphs": 46,
+    "anchors": 17,
+    "internal_links": 28,
+    "inline_math": 281,
+    "display_math": 28,
+    "images": [
+      "figures/newton-steps.png",
+      "figures/newton-cycle.png",
+      "figures/ring-geometry.png",
+      "figures/ellipse-reflection.png"
+    ],
+    "destination_preservation": "pending; markup check is not destination evidence"
+  },
+  "scope": "author technical checks, not independent root/SASIS or learning evidence"
+}

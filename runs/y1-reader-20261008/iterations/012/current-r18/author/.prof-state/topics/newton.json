@@ -1,0 +1,1927 @@
+{
+  "id": "newton",
+  "activation": {
+    "skill_path": "/workspace/scratch/6a5c7131498d/prof-r18/SKILL.md",
+    "skill_sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394",
+    "activated_at": "2026-10-09T13:12:10.597135+00:00"
+  },
+  "source_reads": [
+    {
+      "source_id": "lecture",
+      "portion_id": "p1",
+      "status": "read",
+      "reviewed_sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65",
+      "note": "Cover identity/term notice verified."
+    },
+    {
+      "source_id": "lecture",
+      "portion_id": "p2",
+      "status": "read",
+      "reviewed_sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65",
+      "note": "Root example and tangent construction; Fig1 input/curve/intercept distinction."
+    },
+    {
+      "source_id": "lecture",
+      "portion_id": "p3",
+      "status": "read",
+      "reviewed_sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65",
+      "note": "Derivative substitution and recurrence plus Fig2 repeated tangent; denominator source slip located."
+    },
+    {
+      "source_id": "lecture",
+      "portion_id": "p4",
+      "status": "read",
+      "reviewed_sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65",
+      "note": "All table rows/errors and Fig3 generic tangent; limit existence not established by substitution alone."
+    },
+    {
+      "source_id": "lecture",
+      "portion_id": "p5",
+      "status": "read",
+      "reviewed_sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65",
+      "note": "Both root-sign warning and two-cycle figure checked; misleading Fig5 caption identified."
+    },
+    {
+      "source_id": "baseline",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "note": "Full physical LF1\u20131377 read; relevant operational Newton, algebra, derivatives, trig, vectors and mechanics recorded in source-coverage and author audit."
+    },
+    {
+      "source_id": "execution",
+      "portion_id": "applied",
+      "status": "read",
+      "reviewed_sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7",
+      "note": "Read full protocol; applied bounded source packets, gap resolution, reconstruction, checkpoint and revision-bound gates."
+    },
+    {
+      "source_id": "sasis",
+      "portion_id": "applied",
+      "status": "read",
+      "reviewed_sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384",
+      "note": "Read full role separation and complete-input/fresh-reader requirements; author leaves external reader pending."
+    },
+    {
+      "source_id": "profile",
+      "portion_id": "applied",
+      "status": "read",
+      "reviewed_sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788",
+      "note": "Read full frozen baseline identity/provenance and input rules."
+    },
+    {
+      "source_id": "reader-contract",
+      "portion_id": "applied",
+      "status": "read",
+      "reviewed_sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10",
+      "note": "Read full admission/reader separation and whole-document contract."
+    },
+    {
+      "source_id": "reader-role",
+      "portion_id": "applied",
+      "status": "read",
+      "reviewed_sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+      "note": "Read exact short reader operating instructions; not applied as author isolation."
+    },
+    {
+      "source_id": "rewrite",
+      "portion_id": "applied",
+      "status": "read",
+      "reviewed_sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1",
+      "note": "Read whole supported-issue diagnosis/repair procedure; preserve failed drafts, no skill edits."
+    },
+    {
+      "source_id": "domain",
+      "portion_id": "applied",
+      "status": "read",
+      "reviewed_sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+      "note": "Read mathematics guidance; preserve course conventions, construct/read representations, nonsymmetric checks."
+    },
+    {
+      "source_id": "state-guide",
+      "portion_id": "applied",
+      "status": "read",
+      "reviewed_sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+      "note": "Read complete helper schema/workflow; bind current actual dependencies, keep external gates pending."
+    },
+    {
+      "source_id": "source-record",
+      "portion_id": "coverage",
+      "status": "read",
+      "reviewed_sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4",
+      "note": "Source read/coverage/conventions/gap checkpoint actually saved before drafting."
+    },
+    {
+      "source_id": "baseline-record",
+      "portion_id": "access",
+      "status": "read",
+      "reviewed_sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c",
+      "note": "Full physical-LF access and actual middle truncation recovery logged."
+    }
+  ],
+  "gaps": [],
+  "requirements": {
+    "T1": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T1 pass in author scope: P003/P004 root/input/tangent purpose precedes Q1; P016/P017 model/locus precede differentiation; P029/P030 normal/reflection premise precede deduction.",
+      "evidence": [
+        {
+          "path": "author-audit-v1.md",
+          "sha256": "c80d5fe0ce8d8eb267e34d59762f7944f23a74134736ab8746adc4a3c0f1cba6",
+          "locator": {
+            "kind": "text",
+            "value": "T1 pass in author scope: P003/P004 root/input/tangent purpose precedes Q1; P016/P017 model/locus precede differentiation; P029/P030 normal/reflection premise precede deduction."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "figure1",
+          "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+        },
+        {
+          "kind": "output",
+          "id": "figure2",
+          "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+        },
+        {
+          "kind": "output",
+          "id": "figure3",
+          "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+        },
+        {
+          "kind": "output",
+          "id": "figure4",
+          "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "8a9845299b276ba13c3f2c18862bdde3ed9b0227451e89fb57f9fe2719e573f0"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "baseline-record",
+          "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-record",
+          "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "4f80c899eb871aef95420d8fa2da036e79acfca2a248f63aecf8f922e27c1c99"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline-record",
+          "sha256": "7771422009b7c4e15ec21fc206b10d59862a6cf598dbb6aeb30496d47a57f039"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "2274b37dc84ce5b437c38946b09a1ddfe7c72f14935e28275decb1db6373f999"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "15f3f6700afb1b915d0331df469ba63ca989ea30624b7f5c48fa2bded4dfe79c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "71c52899d26cee8fb0047a7c6d4dbe14014c9227cf48f3ce3089a174abfb43ed"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "e18c48606c6df8389a59deddc0a23d0f7fee4b57f5aa57bd64de6739569dfcbd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "bf67a6b08909ef3d10af5a48c92ae33c8683bb04c309f572d7d3414bfbb3912a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "1c8025b683bc1c4a7804bcc7e0f525112814b8fb6647341e971bbc8f8d15b5b5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "f0b504431c6bfa415ca673149fe990d9ccaabb9472d323a049f2d72f4b5389b1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "772727a0b45b983822dc759f8aaf33c69ea951a717589f50585bdc8314c7f072"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-record",
+          "sha256": "899fb527528f8f83cd5b17c2dfe4443e222b8f4e8de7d273bc73e8361c111f42"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "4041389a533de3d504dafc8ff78050545839a98aa50892c499d0e04a1ef38b04"
+        },
+        {
+          "kind": "topic",
+          "id": "newton",
+          "sha256": "180538b33d605e81b1c7f1d9573e859ba073ab95546242a0aed2c34f2b9662f1"
+        }
+      ]
+    },
+    "T2": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T2 pass in author scope: P003/P007 recurrence input/output roles; P017/P019 complete squared differences and chain-rule expansion; P018 angle map and P022\u2013P025 build/read geometry; P030 parameter/vector direction/radial derivative. Radical-token repairs retried.",
+      "evidence": [
+        {
+          "path": "author-audit-v1.md",
+          "sha256": "c80d5fe0ce8d8eb267e34d59762f7944f23a74134736ab8746adc4a3c0f1cba6",
+          "locator": {
+            "kind": "text",
+            "value": "T2 pass in author scope: P003/P007 recurrence input/output roles; P017/P019 complete squared differences and chain-rule expansion; P018 angle map and P022\u2013P025 build/read geometry; P030 parameter/vector direction/radial derivative. Radical-token repairs retried."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "figure1",
+          "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+        },
+        {
+          "kind": "output",
+          "id": "figure2",
+          "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+        },
+        {
+          "kind": "output",
+          "id": "figure3",
+          "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+        },
+        {
+          "kind": "output",
+          "id": "figure4",
+          "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "8a9845299b276ba13c3f2c18862bdde3ed9b0227451e89fb57f9fe2719e573f0"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "baseline-record",
+          "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-record",
+          "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "4f80c899eb871aef95420d8fa2da036e79acfca2a248f63aecf8f922e27c1c99"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline-record",
+          "sha256": "7771422009b7c4e15ec21fc206b10d59862a6cf598dbb6aeb30496d47a57f039"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "2274b37dc84ce5b437c38946b09a1ddfe7c72f14935e28275decb1db6373f999"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "15f3f6700afb1b915d0331df469ba63ca989ea30624b7f5c48fa2bded4dfe79c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "71c52899d26cee8fb0047a7c6d4dbe14014c9227cf48f3ce3089a174abfb43ed"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "e18c48606c6df8389a59deddc0a23d0f7fee4b57f5aa57bd64de6739569dfcbd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "bf67a6b08909ef3d10af5a48c92ae33c8683bb04c309f572d7d3414bfbb3912a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "1c8025b683bc1c4a7804bcc7e0f525112814b8fb6647341e971bbc8f8d15b5b5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "f0b504431c6bfa415ca673149fe990d9ccaabb9472d323a049f2d72f4b5389b1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "772727a0b45b983822dc759f8aaf33c69ea951a717589f50585bdc8314c7f072"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-record",
+          "sha256": "899fb527528f8f83cd5b17c2dfe4443e222b8f4e8de7d273bc73e8361c111f42"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "4041389a533de3d504dafc8ff78050545839a98aa50892c499d0e04a1ef38b04"
+        },
+        {
+          "kind": "topic",
+          "id": "newton",
+          "sha256": "180538b33d605e81b1c7f1d9573e859ba073ab95546242a0aed2c34f2b9662f1"
+        }
+      ]
+    },
+    "T3": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T3 pass in author scope: nonzero slope P004; exact error/convergence P010; conditional limit P011; acute sine P020; positive D/length feasibility P023/P024; all-position lower bound P025; local normal proof P030. Technical symbolic/numeric checks agree.",
+      "evidence": [
+        {
+          "path": "author-audit-v1.md",
+          "sha256": "c80d5fe0ce8d8eb267e34d59762f7944f23a74134736ab8746adc4a3c0f1cba6",
+          "locator": {
+            "kind": "text",
+            "value": "T3 pass in author scope: nonzero slope P004; exact error/convergence P010; conditional limit P011; acute sine P020; positive D/length feasibility P023/P024; all-position lower bound P025; local normal proof P030. Technical symbolic/numeric checks agree."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "figure1",
+          "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+        },
+        {
+          "kind": "output",
+          "id": "figure2",
+          "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+        },
+        {
+          "kind": "output",
+          "id": "figure3",
+          "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+        },
+        {
+          "kind": "output",
+          "id": "figure4",
+          "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "8a9845299b276ba13c3f2c18862bdde3ed9b0227451e89fb57f9fe2719e573f0"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "baseline-record",
+          "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-record",
+          "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "4f80c899eb871aef95420d8fa2da036e79acfca2a248f63aecf8f922e27c1c99"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline-record",
+          "sha256": "7771422009b7c4e15ec21fc206b10d59862a6cf598dbb6aeb30496d47a57f039"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "2274b37dc84ce5b437c38946b09a1ddfe7c72f14935e28275decb1db6373f999"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "15f3f6700afb1b915d0331df469ba63ca989ea30624b7f5c48fa2bded4dfe79c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "71c52899d26cee8fb0047a7c6d4dbe14014c9227cf48f3ce3089a174abfb43ed"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "e18c48606c6df8389a59deddc0a23d0f7fee4b57f5aa57bd64de6739569dfcbd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "bf67a6b08909ef3d10af5a48c92ae33c8683bb04c309f572d7d3414bfbb3912a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "1c8025b683bc1c4a7804bcc7e0f525112814b8fb6647341e971bbc8f8d15b5b5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "f0b504431c6bfa415ca673149fe990d9ccaabb9472d323a049f2d72f4b5389b1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "772727a0b45b983822dc759f8aaf33c69ea951a717589f50585bdc8314c7f072"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-record",
+          "sha256": "899fb527528f8f83cd5b17c2dfe4443e222b8f4e8de7d273bc73e8361c111f42"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "4041389a533de3d504dafc8ff78050545839a98aa50892c499d0e04a1ef38b04"
+        },
+        {
+          "kind": "topic",
+          "id": "newton",
+          "sha256": "180538b33d605e81b1c7f1d9573e859ba073ab95546242a0aed2c34f2b9662f1"
+        }
+      ]
+    },
+    "T4": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T4 pass in author scope: connected Newton P004\u2013P010 plus concrete failure P012; connected ring P017\u2013P026 including stationary candidate, feasible coordinates and global conclusion. Help repeats the relevant decisions rather than only answers.",
+      "evidence": [
+        {
+          "path": "author-audit-v1.md",
+          "sha256": "c80d5fe0ce8d8eb267e34d59762f7944f23a74134736ab8746adc4a3c0f1cba6",
+          "locator": {
+            "kind": "text",
+            "value": "T4 pass in author scope: connected Newton P004\u2013P010 plus concrete failure P012; connected ring P017\u2013P026 including stationary candidate, feasible coordinates and global conclusion. Help repeats the relevant decisions rather than only answers."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "figure1",
+          "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+        },
+        {
+          "kind": "output",
+          "id": "figure2",
+          "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+        },
+        {
+          "kind": "output",
+          "id": "figure3",
+          "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+        },
+        {
+          "kind": "output",
+          "id": "figure4",
+          "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "8a9845299b276ba13c3f2c18862bdde3ed9b0227451e89fb57f9fe2719e573f0"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "baseline-record",
+          "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-record",
+          "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "4f80c899eb871aef95420d8fa2da036e79acfca2a248f63aecf8f922e27c1c99"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline-record",
+          "sha256": "7771422009b7c4e15ec21fc206b10d59862a6cf598dbb6aeb30496d47a57f039"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "2274b37dc84ce5b437c38946b09a1ddfe7c72f14935e28275decb1db6373f999"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "15f3f6700afb1b915d0331df469ba63ca989ea30624b7f5c48fa2bded4dfe79c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "71c52899d26cee8fb0047a7c6d4dbe14014c9227cf48f3ce3089a174abfb43ed"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "e18c48606c6df8389a59deddc0a23d0f7fee4b57f5aa57bd64de6739569dfcbd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "bf67a6b08909ef3d10af5a48c92ae33c8683bb04c309f572d7d3414bfbb3912a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "1c8025b683bc1c4a7804bcc7e0f525112814b8fb6647341e971bbc8f8d15b5b5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "f0b504431c6bfa415ca673149fe990d9ccaabb9472d323a049f2d72f4b5389b1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "772727a0b45b983822dc759f8aaf33c69ea951a717589f50585bdc8314c7f072"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-record",
+          "sha256": "899fb527528f8f83cd5b17c2dfe4443e222b8f4e8de7d273bc73e8361c111f42"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "4041389a533de3d504dafc8ff78050545839a98aa50892c499d0e04a1ef38b04"
+        },
+        {
+          "kind": "topic",
+          "id": "newton",
+          "sha256": "180538b33d605e81b1c7f1d9573e859ba073ab95546242a0aed2c34f2b9662f1"
+        }
+      ]
+    },
+    "T5": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T5 pass: lesson practice applies to both capabilities; Q1 early supported after first usable result, Q2 changes convergence/method, Q3 changes nondegenerate feasibility, Q4 integrates method discrimination. No quota or exam provenance invented.",
+      "evidence": [
+        {
+          "path": "author-audit-v1.md",
+          "sha256": "c80d5fe0ce8d8eb267e34d59762f7944f23a74134736ab8746adc4a3c0f1cba6",
+          "locator": {
+            "kind": "text",
+            "value": "T5 pass: lesson practice applies to both capabilities; Q1 early supported after first usable result, Q2 changes convergence/method, Q3 changes nondegenerate feasibility, Q4 integrates method discrimination. No quota or exam provenance invented."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "figure1",
+          "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+        },
+        {
+          "kind": "output",
+          "id": "figure2",
+          "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+        },
+        {
+          "kind": "output",
+          "id": "figure3",
+          "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+        },
+        {
+          "kind": "output",
+          "id": "figure4",
+          "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "8a9845299b276ba13c3f2c18862bdde3ed9b0227451e89fb57f9fe2719e573f0"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "baseline-record",
+          "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-record",
+          "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "4f80c899eb871aef95420d8fa2da036e79acfca2a248f63aecf8f922e27c1c99"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline-record",
+          "sha256": "7771422009b7c4e15ec21fc206b10d59862a6cf598dbb6aeb30496d47a57f039"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "2274b37dc84ce5b437c38946b09a1ddfe7c72f14935e28275decb1db6373f999"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "15f3f6700afb1b915d0331df469ba63ca989ea30624b7f5c48fa2bded4dfe79c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "71c52899d26cee8fb0047a7c6d4dbe14014c9227cf48f3ce3089a174abfb43ed"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "e18c48606c6df8389a59deddc0a23d0f7fee4b57f5aa57bd64de6739569dfcbd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "bf67a6b08909ef3d10af5a48c92ae33c8683bb04c309f572d7d3414bfbb3912a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "1c8025b683bc1c4a7804bcc7e0f525112814b8fb6647341e971bbc8f8d15b5b5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "f0b504431c6bfa415ca673149fe990d9ccaabb9472d323a049f2d72f4b5389b1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "772727a0b45b983822dc759f8aaf33c69ea951a717589f50585bdc8314c7f072"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-record",
+          "sha256": "899fb527528f8f83cd5b17c2dfe4443e222b8f4e8de7d273bc73e8361c111f42"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "4041389a533de3d504dafc8ff78050545839a98aa50892c499d0e04a1ef38b04"
+        },
+        {
+          "kind": "topic",
+          "id": "newton",
+          "sha256": "180538b33d605e81b1c7f1d9573e859ba073ab95546242a0aed2c34f2b9662f1"
+        }
+      ]
+    },
+    "T6": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T6 pass: allfour retained tasks have target and response criterion; residual/global reasoning and distinct zero conditions prevent a copied number constituting the whole response. Headings do not disclose bisection choice.",
+      "evidence": [
+        {
+          "path": "author-audit-v1.md",
+          "sha256": "c80d5fe0ce8d8eb267e34d59762f7944f23a74134736ab8746adc4a3c0f1cba6",
+          "locator": {
+            "kind": "text",
+            "value": "T6 pass: allfour retained tasks have target and response criterion; residual/global reasoning and distinct zero conditions prevent a copied number constituting the whole response. Headings do not disclose bisection choice."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "figure1",
+          "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+        },
+        {
+          "kind": "output",
+          "id": "figure2",
+          "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+        },
+        {
+          "kind": "output",
+          "id": "figure3",
+          "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+        },
+        {
+          "kind": "output",
+          "id": "figure4",
+          "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "8a9845299b276ba13c3f2c18862bdde3ed9b0227451e89fb57f9fe2719e573f0"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "baseline-record",
+          "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-record",
+          "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "4f80c899eb871aef95420d8fa2da036e79acfca2a248f63aecf8f922e27c1c99"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline-record",
+          "sha256": "7771422009b7c4e15ec21fc206b10d59862a6cf598dbb6aeb30496d47a57f039"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "2274b37dc84ce5b437c38946b09a1ddfe7c72f14935e28275decb1db6373f999"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "15f3f6700afb1b915d0331df469ba63ca989ea30624b7f5c48fa2bded4dfe79c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "71c52899d26cee8fb0047a7c6d4dbe14014c9227cf48f3ce3089a174abfb43ed"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "e18c48606c6df8389a59deddc0a23d0f7fee4b57f5aa57bd64de6739569dfcbd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "bf67a6b08909ef3d10af5a48c92ae33c8683bb04c309f572d7d3414bfbb3912a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "1c8025b683bc1c4a7804bcc7e0f525112814b8fb6647341e971bbc8f8d15b5b5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "f0b504431c6bfa415ca673149fe990d9ccaabb9472d323a049f2d72f4b5389b1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "772727a0b45b983822dc759f8aaf33c69ea951a717589f50585bdc8314c7f072"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-record",
+          "sha256": "899fb527528f8f83cd5b17c2dfe4443e222b8f4e8de7d273bc73e8361c111f42"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "4041389a533de3d504dafc8ff78050545839a98aa50892c499d0e04a1ef38b04"
+        },
+        {
+          "kind": "topic",
+          "id": "newton",
+          "sha256": "180538b33d605e81b1c7f1d9573e859ba073ab95546242a0aed2c34f2b9662f1"
+        }
+      ]
+    },
+    "T7": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T7 pass: Q1\u2013Q4 each has one separate advancing hint and complete reasoned solution, exact matching/return links. No student attempt was received; S1 repair examples honestly anticipated.",
+      "evidence": [
+        {
+          "path": "author-audit-v1.md",
+          "sha256": "c80d5fe0ce8d8eb267e34d59762f7944f23a74134736ab8746adc4a3c0f1cba6",
+          "locator": {
+            "kind": "text",
+            "value": "T7 pass: Q1\u2013Q4 each has one separate advancing hint and complete reasoned solution, exact matching/return links. No student attempt was received; S1 repair examples honestly anticipated."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "figure1",
+          "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+        },
+        {
+          "kind": "output",
+          "id": "figure2",
+          "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+        },
+        {
+          "kind": "output",
+          "id": "figure3",
+          "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+        },
+        {
+          "kind": "output",
+          "id": "figure4",
+          "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "8a9845299b276ba13c3f2c18862bdde3ed9b0227451e89fb57f9fe2719e573f0"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "baseline-record",
+          "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-record",
+          "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "4f80c899eb871aef95420d8fa2da036e79acfca2a248f63aecf8f922e27c1c99"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline-record",
+          "sha256": "7771422009b7c4e15ec21fc206b10d59862a6cf598dbb6aeb30496d47a57f039"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "2274b37dc84ce5b437c38946b09a1ddfe7c72f14935e28275decb1db6373f999"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "15f3f6700afb1b915d0331df469ba63ca989ea30624b7f5c48fa2bded4dfe79c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "71c52899d26cee8fb0047a7c6d4dbe14014c9227cf48f3ce3089a174abfb43ed"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "e18c48606c6df8389a59deddc0a23d0f7fee4b57f5aa57bd64de6739569dfcbd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "bf67a6b08909ef3d10af5a48c92ae33c8683bb04c309f572d7d3414bfbb3912a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "1c8025b683bc1c4a7804bcc7e0f525112814b8fb6647341e971bbc8f8d15b5b5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "f0b504431c6bfa415ca673149fe990d9ccaabb9472d323a049f2d72f4b5389b1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "772727a0b45b983822dc759f8aaf33c69ea951a717589f50585bdc8314c7f072"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-record",
+          "sha256": "899fb527528f8f83cd5b17c2dfe4443e222b8f4e8de7d273bc73e8361c111f42"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "4041389a533de3d504dafc8ff78050545839a98aa50892c499d0e04a1ef38b04"
+        },
+        {
+          "kind": "topic",
+          "id": "newton",
+          "sha256": "180538b33d605e81b1c7f1d9573e859ba073ab95546242a0aed2c34f2b9662f1"
+        }
+      ]
+    },
+    "T8": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T8 pass: P033/Q4 offers later recall and mixed application after both taught routes; P034 distinguishes them, spacing adjustable. No unrequested reminder created by author.",
+      "evidence": [
+        {
+          "path": "author-audit-v1.md",
+          "sha256": "c80d5fe0ce8d8eb267e34d59762f7944f23a74134736ab8746adc4a3c0f1cba6",
+          "locator": {
+            "kind": "text",
+            "value": "T8 pass: P033/Q4 offers later recall and mixed application after both taught routes; P034 distinguishes them, spacing adjustable. No unrequested reminder created by author."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "figure1",
+          "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+        },
+        {
+          "kind": "output",
+          "id": "figure2",
+          "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+        },
+        {
+          "kind": "output",
+          "id": "figure3",
+          "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+        },
+        {
+          "kind": "output",
+          "id": "figure4",
+          "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "8a9845299b276ba13c3f2c18862bdde3ed9b0227451e89fb57f9fe2719e573f0"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "baseline-record",
+          "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-record",
+          "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "4f80c899eb871aef95420d8fa2da036e79acfca2a248f63aecf8f922e27c1c99"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline-record",
+          "sha256": "7771422009b7c4e15ec21fc206b10d59862a6cf598dbb6aeb30496d47a57f039"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "2274b37dc84ce5b437c38946b09a1ddfe7c72f14935e28275decb1db6373f999"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "15f3f6700afb1b915d0331df469ba63ca989ea30624b7f5c48fa2bded4dfe79c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "71c52899d26cee8fb0047a7c6d4dbe14014c9227cf48f3ce3089a174abfb43ed"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "e18c48606c6df8389a59deddc0a23d0f7fee4b57f5aa57bd64de6739569dfcbd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "bf67a6b08909ef3d10af5a48c92ae33c8683bb04c309f572d7d3414bfbb3912a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "1c8025b683bc1c4a7804bcc7e0f525112814b8fb6647341e971bbc8f8d15b5b5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "f0b504431c6bfa415ca673149fe990d9ccaabb9472d323a049f2d72f4b5389b1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "772727a0b45b983822dc759f8aaf33c69ea951a717589f50585bdc8314c7f072"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-record",
+          "sha256": "899fb527528f8f83cd5b17c2dfe4443e222b8f4e8de7d273bc73e8361c111f42"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "4041389a533de3d504dafc8ff78050545839a98aa50892c499d0e04a1ef38b04"
+        },
+        {
+          "kind": "topic",
+          "id": "newton",
+          "sha256": "180538b33d605e81b1c7f1d9573e859ba073ab95546242a0aed2c34f2b9662f1"
+        }
+      ]
+    },
+    "T9": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T9 pass in author scope: baseline calculus/algebra/vectors compressed; unfamiliar convergence/global/normal bridges provided locally. Four figures map to specific source visual inferences; no decorative imagery.",
+      "evidence": [
+        {
+          "path": "author-audit-v1.md",
+          "sha256": "c80d5fe0ce8d8eb267e34d59762f7944f23a74134736ab8746adc4a3c0f1cba6",
+          "locator": {
+            "kind": "text",
+            "value": "T9 pass in author scope: baseline calculus/algebra/vectors compressed; unfamiliar convergence/global/normal bridges provided locally. Four figures map to specific source visual inferences; no decorative imagery."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "figure1",
+          "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+        },
+        {
+          "kind": "output",
+          "id": "figure2",
+          "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+        },
+        {
+          "kind": "output",
+          "id": "figure3",
+          "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+        },
+        {
+          "kind": "output",
+          "id": "figure4",
+          "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "8a9845299b276ba13c3f2c18862bdde3ed9b0227451e89fb57f9fe2719e573f0"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "baseline-record",
+          "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-record",
+          "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "4f80c899eb871aef95420d8fa2da036e79acfca2a248f63aecf8f922e27c1c99"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline-record",
+          "sha256": "7771422009b7c4e15ec21fc206b10d59862a6cf598dbb6aeb30496d47a57f039"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "2274b37dc84ce5b437c38946b09a1ddfe7c72f14935e28275decb1db6373f999"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "15f3f6700afb1b915d0331df469ba63ca989ea30624b7f5c48fa2bded4dfe79c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "71c52899d26cee8fb0047a7c6d4dbe14014c9227cf48f3ce3089a174abfb43ed"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "e18c48606c6df8389a59deddc0a23d0f7fee4b57f5aa57bd64de6739569dfcbd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "bf67a6b08909ef3d10af5a48c92ae33c8683bb04c309f572d7d3414bfbb3912a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "1c8025b683bc1c4a7804bcc7e0f525112814b8fb6647341e971bbc8f8d15b5b5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "f0b504431c6bfa415ca673149fe990d9ccaabb9472d323a049f2d72f4b5389b1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "772727a0b45b983822dc759f8aaf33c69ea951a717589f50585bdc8314c7f072"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-record",
+          "sha256": "899fb527528f8f83cd5b17c2dfe4443e222b8f4e8de7d273bc73e8361c111f42"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "4041389a533de3d504dafc8ff78050545839a98aa50892c499d0e04a1ef38b04"
+        },
+        {
+          "kind": "topic",
+          "id": "newton",
+          "sha256": "180538b33d605e81b1c7f1d9573e859ba073ab95546242a0aed2c34f2b9662f1"
+        }
+      ]
+    },
+    "T10": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T10 pass for performed author technical verification only: technical-checks-v1.json and script exact rationals, decimal brackets, symbolic error/length identities, nonsymmetric and negative-b ring checks, cycle/force/reflection checks. Independent root/SASIS remain separate pending gates.",
+      "evidence": [
+        {
+          "path": "author-audit-v1.md",
+          "sha256": "c80d5fe0ce8d8eb267e34d59762f7944f23a74134736ab8746adc4a3c0f1cba6",
+          "locator": {
+            "kind": "text",
+            "value": "T10 pass for performed author technical verification only: technical-checks-v1.json and script exact rationals, decimal brackets, symbolic error/length identities, nonsymmetric and negative-b ring checks, cycle/force/reflection checks. Independent root/SASIS remain separate pending gates."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "figure1",
+          "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+        },
+        {
+          "kind": "output",
+          "id": "figure2",
+          "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+        },
+        {
+          "kind": "output",
+          "id": "figure3",
+          "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+        },
+        {
+          "kind": "output",
+          "id": "figure4",
+          "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "8a9845299b276ba13c3f2c18862bdde3ed9b0227451e89fb57f9fe2719e573f0"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "baseline-record",
+          "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-record",
+          "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "4f80c899eb871aef95420d8fa2da036e79acfca2a248f63aecf8f922e27c1c99"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline-record",
+          "sha256": "7771422009b7c4e15ec21fc206b10d59862a6cf598dbb6aeb30496d47a57f039"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "2274b37dc84ce5b437c38946b09a1ddfe7c72f14935e28275decb1db6373f999"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "15f3f6700afb1b915d0331df469ba63ca989ea30624b7f5c48fa2bded4dfe79c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "71c52899d26cee8fb0047a7c6d4dbe14014c9227cf48f3ce3089a174abfb43ed"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "e18c48606c6df8389a59deddc0a23d0f7fee4b57f5aa57bd64de6739569dfcbd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "bf67a6b08909ef3d10af5a48c92ae33c8683bb04c309f572d7d3414bfbb3912a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "1c8025b683bc1c4a7804bcc7e0f525112814b8fb6647341e971bbc8f8d15b5b5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "f0b504431c6bfa415ca673149fe990d9ccaabb9472d323a049f2d72f4b5389b1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "772727a0b45b983822dc759f8aaf33c69ea951a717589f50585bdc8314c7f072"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-record",
+          "sha256": "899fb527528f8f83cd5b17c2dfe4443e222b8f4e8de7d273bc73e8361c111f42"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "4041389a533de3d504dafc8ff78050545839a98aa50892c499d0e04a1ef38b04"
+        },
+        {
+          "kind": "topic",
+          "id": "newton",
+          "sha256": "180538b33d605e81b1c7f1d9573e859ba073ab95546242a0aed2c34f2b9662f1"
+        }
+      ]
+    },
+    "T11": {
+      "applicable": true,
+      "status": "pending",
+      "reason": "T11 pending: plain paragraph labels, protected GitHub inline syntax, display math, four fully inspected PNGs and source anchors checked. Actual GitHub parser operands/operators/grouping, destination styling and rendered full-document navigation/appearance are not yet checked by author; no destination pass inferred.",
+      "evidence": [
+        {
+          "path": "author-audit-v1.md",
+          "sha256": "c80d5fe0ce8d8eb267e34d59762f7944f23a74134736ab8746adc4a3c0f1cba6",
+          "locator": {
+            "kind": "text",
+            "value": "T11 pending: plain paragraph labels, protected GitHub inline syntax, display math, four fully inspected PNGs and source anchors checked. Actual GitHub parser operands/operators/grouping, destination styling and rendered full-document navigation/appearance are not yet checked by author; no destination pass inferred."
+          }
+        }
+      ],
+      "dependencies": []
+    },
+    "T12": {
+      "applicable": true,
+      "status": "pending",
+      "reason": "T12 pending: this full author reconstruction and required source coverage complete; fresh two-input SASIS, root independent integration/technical comparison, destination and final acceptance remain pending. No global pass or human learning claim.",
+      "evidence": [
+        {
+          "path": "author-audit-v1.md",
+          "sha256": "c80d5fe0ce8d8eb267e34d59762f7944f23a74134736ab8746adc4a3c0f1cba6",
+          "locator": {
+            "kind": "text",
+            "value": "T12 pending: this full author reconstruction and required source coverage complete; fresh two-input SASIS, root independent integration/technical comparison, destination and final acceptance remain pending. No global pass or human learning claim."
+          }
+        }
+      ],
+      "dependencies": []
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "frozen_at": "2026-10-09T14:55:25.321954+00:00",
+  "reader": "/root/sasis_d014_v1",
+  "fork_turns": "none",
+  "subject_content_inputs": [
+    {
+      "role": "complete operational four-subject baseline",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r20/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "bytes": 247840,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    {
+      "role": "complete teaching inclalltasks/help/ending",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r20/runs/y1-reader-20261008/iterations/014/current-r20/author/teaching-v1.md",
+      "bytes": 23136,
+      "sha256": "60f908bb588e6dea64725b321f6eb753a33f8293bd452105f9fd48cefe68adbb",
+      "constituents": [
+        "/workspace/scratch/6a5c7131498d/prof-r20/runs/y1-reader-20261008/iterations/014/current-r20/author/teaching-v1.md"
+      ],
+      "figures_or_companions": 0
+    }
+  ],
+  "operating_instruction_revision": "2026-10-08-r7",
+  "operating_instruction_sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+  "condition": "instruction-confined read-only retrieval of exactly2complete subjectinputs; actualrange/accesslog required",
+  "allowed_subject_access": "Onlythe2exactpaths, fullread baseline thenfullteaching inorder. Noothersubjectfiles/research/history/authorreports. Ownreport writes allowed.",
+  "tools_boundary": "Instruction whitelist only; sharedtoolsnottechnicallyisolated, no erasedpretraining claim",
+  "admission": "provisional until actual complete input reading established",
+  "no_whole_input_simultaneous_context_claim": true
+}

@@ -1,0 +1,31 @@
+The Mean Value Theorem 
+The mean value theorem is a little theoretical, and will allow us to introduce 
+the idea of integration in a few lectures. Integration is the subject of the second 
+half of this course. We’ll use the abbreviation “MVT” when discussing it. 
+Colloquially, the MVT theorem tells you that if you ﬂy 3,000 kilometers in 
+6 hours, at some time during the ﬂight you will be traveling at a speed of 500 
+kilometers per hour. (Because your average speed is 500 km/hr.) 
+The reason it’s called the “mean value theorem” is because the word “mean” 
+is the same as the word “average”. 
+In math symbols, it says: 
+f(b) − f(a) = f 0(c) 
+(for some c, a < c < b)
+b − a 
+Provided that f is diﬀerentiable on a < x < b, and continuous on a ≤ x ≤ b. 
+f(b) − f(a)
+Geometric Proof of MVT: Consider the graph of f(x). Here, 
+b − a 
+is the slope of a secant line joining the points (a, f(a)) and (b, f(b)), and f 0(c) 
+is the slope of a tangent line. We need to show that somewhere between a and 
+b there’s a point on the graph (c, f(c)) whose tangent line has the same slope 
+as that secant line. 
+secant line
+slope 
+f’(c)
+a
+b
+c
+Figure 1: Illustration of the Mean Value Theorem. 
+Take (dotted) lines parallel to the secant line, as in Fig. 1 and shift them 
+up from below the graph until one of them ﬁrst touches the portion of the graph 
+1 

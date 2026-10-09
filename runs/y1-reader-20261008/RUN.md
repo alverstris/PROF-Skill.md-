@@ -1,5 +1,9 @@
 PROF Y1 reader run — recovery checkpoint
 
+Continuation on 2026-10-09: the hourly “Resume PROF in cloud” automation is enabled; see automation.json for its exact prompt and completion-only disabling condition. It must verify the managed cloud runtime before any filesystem work and must never use the Windows computer. The current session still exposes no usable cloud executor or cloud attach/reconnect control. Recurrence cannot itself restore an unavailable runtime.
+
+GitHub-only continuation has fully reviewed the recovered D009 Markdown and independently checked its mathematics. See iterations/009/runtime-recovery/continuation-20261009.json, root-text-math-review-20261009.md, independent-text-math-review-20261009.md and text-source-checks-20261009.json. No consequential mathematical error was established. A minor P018 definition-precision question is retained for author disposition. Four figures, actual destination preservation, completed author evidence and fresh complete-input SASIS remain pending. This does not close D009 or change PROF r15: 8/76 closed, 68 remain.
+
 Cloud runtime interruption: see iterations/009/runtime-recovery/interruption.json. Eight of76 eligible iterations remain closed; D009 is active and blocked on workspace recovery. This checkpoint changes no skill rule or closure count.
 
 Iterate PROF THROUGH readable lecture inputs, never edit original lectures or Jonathan's installed Windows skill or operate his computer. GitHub alverstris/PROF-Skill.md- is canonical. Exact instructions in requests.md. Original147IDs/order preserved;76eligible,71excluded (70recordings lack established complete semantic visual reading; D105illegible contours). D001–D008closed:8/76,68remain. Original source eligibility is separate from technical correctness and teaching acceptance.

@@ -30,3 +30,11 @@ Latest scope instruction and clarification, 2026-10-08
 These instructions authorise auditing the complete original queue and iterating PROF through only source packets whose complete faithful reading is established. The lecture sources are inputs, not the objects being edited. Retain every original ID, ordering and provenance; preserve excluded packets and precise reasons rather than deleting them. This supersedes the earlier obligation to complete an iteration for every one of the 147 original sessions. Exclusion does not establish intrinsic unreadability or missing access.
 
 The work takes place in the cloud Linux workspace. The prohibition on operating Jonathan's computer and editing the installed Windows skill continues. GitHub remains canonical.
+
+Continuation and recurring task, 2026-10-09
+
+“okay. can you set up a recurring task that enforces that you connect to the cloud runtime? this task should be called off once the overall task is finished.
+
+then, please continue iterating @PROF.”
+
+This authorizes recurring cloud-access checks and actual continuation of the existing76-eligible-input run. It does not authorize using the Windows computer, skipping the current incomplete iteration, or waiving verification. The active automation and its disabling condition are recorded in automation.json. A scheduled retry is not proof of runtime access.

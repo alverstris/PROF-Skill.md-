@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-09",
+  "status": "bounded GitHub-only continuation; D009 incomplete; no full-document acceptance",
+  "canonical_base_commit": "5f27860bcffb433d26ef125792944b34ac83bf38",
+  "skill_version": "2026-10-09-r15",
+  "skill_changed": false,
+  "closed_iterations": 8,
+  "eligible_iterations": 76,
+  "remaining_iterations": 68,
+  "runtime": {
+    "managed_cloud_available": false,
+    "attachment_control_exposed": false,
+    "available_local_executor": "Windows; prohibited by user and not used",
+    "command_or_computer_actions_performed": false,
+    "limit": "Scheduled retries cannot force runtime provisioning or restoration."
+  },
+  "automation_record": "runs/y1-reader-20261008/automation.json",
+  "draft": {
+    "path": "runs/y1-reader-20261008/iterations/009/runtime-recovery/teaching-pending-write-recovery.md",
+    "git_blob_sha": "92ee517ba0c5c7ddceeacf36ca21e0d135b8bae6",
+    "utf8_bytes": 29022,
+    "characters": 28975,
+    "paragraphs": 62,
+    "edited": false
+  },
+  "root_review": {
+    "path": "runs/y1-reader-20261008/iterations/009/runtime-recovery/root-text-math-review-20261009.md",
+    "access_ranges": [
+      [
+        0,
+        13967
+      ],
+      [
+        13967,
+        24751
+      ],
+      [
+        24751,
+        28975
+      ]
+    ],
+    "scope": "Entire available Markdown; earlier independent task calculations compared with all solutions; no current image/render access"
+  },
+  "independent_review": {
+    "path": "runs/y1-reader-20261008/iterations/009/runtime-recovery/independent-text-math-review-20261009.md",
+    "agent": "/root/d009_recovery_technical",
+    "git_blob_sha": "bb7394385a697c914b83e76ab3dc8cdba02f2c6d",
+    "characters": 12342,
+    "utf8_bytes": 12539,
+    "admission": "Accepted only as a complete textual mathematical review. The original report is preserved unchanged. It is not SASIS, fresh full visual-source review, or final-document acceptance.",
+    "task_order_limit": "A/B computed before hints and solutions. C computed before full solution but its hint was present in a prior shared chunk; no hint-blind claim."
+  },
+  "parent_disposition": {
+    "consequential_mathematical_errors_established": 0,
+    "P018": {
+      "finding": "Potential ambiguity between one-sided infinite limit and merely unbounded values along a sequence in the phrase about at least one approach.",
+      "context": "P017 explicitly supplies one-sided limits; P037/P058 supply pointwise bounds. No incorrect worked conclusion was found.",
+      "status": "Retain for author/final-document precision review. No silent rewrite of the original draft and no skill change justified by this observation alone."
+    }
+  },
+  "source_checks": "runs/y1-reader-20261008/iterations/009/runtime-recovery/text-source-checks-20261009.json",
+  "pending": [
+    "Recover managed cloud runtime and reconcile unknown pending local write outcome, preserving differences",
+    "Recover and inspect all four scientific PNG constituents",
+    "Complete and inspect author evidence, state and manifests, including actual 32-versus-33 numerical-check record",
+    "Freeze the complete teaching document and every constituent",
+    "Verify actual destination mathematics preservation and all visual content",
+    "Launch a separate fresh SASIS reader with exactly the complete frozen baseline and complete document",
+    "Adjudicate reader, technical and coverage findings; revise skill only when evidence warrants it and perform all required regeneration/regression",
+    "Close only after all required gates; publish, verify actual commit, fully reload and start the next eligible source"
+  ],
+  "closure_asserted": false,
+  "full_sasis_run": false,
+  "original_lecture_or_installed_skill_modified": false
+}

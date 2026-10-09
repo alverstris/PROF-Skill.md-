@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/ac36b9c5ff31/prof-readability/d006-render-review/candidate1-v3/build_preview.py", line 36, in <module>
+    with Image.open(p) as im: im.verify()
+                              ^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/PIL/PngImagePlugin.py", line 860, in verify
+    self.png.verify()
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/PIL/PngImagePlugin.py", line 250, in verify
+    self.crc(cid, ImageFile._safe_read(self.fp, length))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/PIL/ImageFile.py", line 726, in _safe_read
+    raise OSError(msg)
+OSError: Truncated File Read

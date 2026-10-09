@@ -1,0 +1,48 @@
+{
+  "agent": "/root/sasis_d006_candidate1_v3_fresh",
+  "fork_turns": "none",
+  "condition": "Instruction-confined retrieval of exactly two immutable git objects; broad shared tools remain available. No technical isolation or erased pretraining.",
+  "admission": "ADMITTED_COMPLETE_REPORTED_ACCESS_VERIFIED",
+  "operating_instruction": "Complete reader procedure delivered inline, matching reader-role/contract; no author history, suspected issues, raw sources or skill content supplied.",
+  "content_inputs": [
+    {
+      "commit": "28825d27b93baef43a5751eacecac81fa46841bc",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "bytes": 247840,
+      "raw_characters": 246945
+    },
+    {
+      "commit": "28825d27b93baef43a5751eacecac81fa46841bc",
+      "path": "runs/y1-reader-20261008/iterations/006/regenerated-r13-candidate1/teaching-v3.md",
+      "sha256": "311afdef083a4468f18bcdd11a68975d2e6622661e0be3405a5c9f58b3f3a813",
+      "bytes": 28777,
+      "raw_characters": 28753
+    }
+  ],
+  "permitted_retrieval": "exec_command read-only exact git show objects, coherent bounded raw UTF-8 ranges; own report/access output only",
+  "complete_delivery_not_yet_established": false,
+  "expected_outputs": [
+    "reader-report-candidate1-v3-original.md",
+    "reader-access-candidate1-v3-original.json"
+  ],
+  "pre_dispatch_gate": "Independent recovery renderer established exact immutable source, all337math/prose/25anchors/33internal routes and staticCSS; full secondary preview remains a separate acceptance gate.",
+  "reported_access_verification": [
+    {
+      "id": "baseline",
+      "chunks": 16,
+      "last": 246945,
+      "identity_and_contiguous_reported_access_verified": true
+    },
+    {
+      "id": "teaching",
+      "chunks": 3,
+      "last": 28753,
+      "identity_and_contiguous_reported_access_verified": true
+    }
+  ],
+  "report_sha256": "1c0e29025628547d1b0d4a99f0e0f08131534656030e808d5d2050e001c601ef",
+  "access_sha256": "157a24888e79ff3ab0547bdd273c80fcdc796d1ad73311c18760823691a6b1ec",
+  "parent_report_reading": "Complete raw characters [0,16500), [16000,20345); complete access record [0,16500), [16000,18033).",
+  "limits": "Instruction-confined shared tools and agent-reported activity; not technical isolation or erased pretraining. No outside content reported. Root checked exact permitted object identities and all access intervals/tool-limit records."
+}

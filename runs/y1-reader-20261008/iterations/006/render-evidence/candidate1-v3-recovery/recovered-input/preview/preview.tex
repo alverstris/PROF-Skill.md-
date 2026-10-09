@@ -1,0 +1,828 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  11pt,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=25mm]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\providecommand{\gt}{>}
+\providecommand{\lt}{<}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+Exponential and logarithmic differentiation
+
+MIT 18.01, Fall 2006, Lecture 6
+
+This lesson develops one useful connection: taking a logarithm turns a
+changing power into a product, and its derivative measures relative
+change. You will derive the exponential and logarithm derivative rules,
+use them when both a base and an exponent vary, and evaluate a limit by
+recognising a derivative.
+
+Reading route: read Parts 1--5 in order and try A1--A5 where they occur.
+Keep any partial working; the \protect\hyperlink{hints}{hints} give a
+next step and the \protect\hyperlink{solutions}{solutions} give complete
+reasoning in a separate group. Use \protect\hyperlink{task-a6}{A6} on a
+later return. The source and its corrections are recorded at the end.
+
+Starting tools: the derivative is a tangent slope or instantaneous rate,
+defined by a difference quotient; the product rule is \((uv)'=u'v+uv'\);
+and the chain rule is \((F(u(x)))'=F'(u(x))u'(x)\). We use ordinary
+algebra, limits, continuous functions, exponent laws, and the meaning of
+an inverse function. The needed connections to logarithms are developed
+below. All quantities in powers and logarithms are real, and logarithm
+inputs must be positive.
+
+Part 1: why an exponential's derivative is proportional to itself
+
+Start with a fixed base \(a\gt 1\), as in the lecture. In \(a^x\), \(a\)
+stays fixed while \(x\) changes. The exponent laws give
+
+\[
+a^0=1,\qquad a^1=a,\qquad a^2=a\cdot a,
+\]
+
+\[
+a^{x_1+x_2}=a^{x_1}a^{x_2},\qquad (a^{x_1})^{x_2}=a^{x_1x_2}.
+\]
+
+For integers \(p\) and positive integers \(q\),
+\(a^{p/q}=\sqrt[q]{a^p}\). Extending from rational exponents to real
+ones by continuity gives the real exponential family. We use its usual
+differentiability; constructing that family rigorously is not this
+lesson's task.
+
+Write \(h\) for a small nonzero change in \(x\). The lecture writes
+\(\Delta x\) for the same change. At a fixed \(x\), the difference
+quotient is
+
+\[
+\frac{a^{x+h}-a^x}{h}
+=a^x\frac{a^h-1}{h}.
+\]
+
+The exponent law factors \(a^{x+h}\) as \(a^xa^h\). While \(h\) tends to
+zero, \(a^x\) is constant, so it can be taken outside the limit. Define
+
+\[
+M(a)=\lim_{h\to0}\frac{a^h-1}{h}.
+\]
+
+\(M\) is a function of the base: it assigns each base its slope at
+\(x=0\). It is a constant with respect to \(x\) when that base is fixed.
+The definition now gives
+
+\[
+\frac{d}{dx}a^x=M(a)a^x.
+\]
+
+To read this formula, multiply the current height \(a^x\) by the base's
+fixed factor \(M(a)\) to get the slope there. To construct it from the
+graph, first take the tangent slope at \((0,1)\); that number is
+\(M(a)\), because \(a^0=1\). Then the slope at any other \(x\) is that
+number times the height. This is the relationship shown by the lecture's
+first figure.
+
+The special base \(e\)
+
+The natural exponential uses the unique base \(e\) for which \(M(e)=1\),
+equivalently
+
+\[
+\lim_{h\to0}\frac{e^h-1}{h}=1.
+\]
+
+We take the existence of this special base as a foundational property of
+the real exponential family. The lecture's following geometric
+comparisons motivate where it lies; pictures alone do not prove
+existence or uniqueness.
+
+\begin{itemize}
+\tightlist
+\item
+  For \(y=2^x\), the secant through \((0,1)\) and \((1,2)\) has slope
+  \((2-1)/(1-0)=1\). The upward-curving graph has a smaller tangent
+  slope at the left endpoint, so \(M(2)\lt 1\).
+\item
+  For \(y=4^x\), the secant through \((-1/2,1/2)\) and \((0,1)\) has
+  slope \((1-1/2)/(0-(-1/2))=1\). At the right endpoint the tangent is
+  steeper, so \(M(4)\gt 1\).
+\end{itemize}
+
+These are the comparisons in Figures 2 and 3: a secant measures an
+average slope between its two points, while a tangent measures the slope
+at one point. For these strictly upward-curving exponentials, tangent
+slopes increase along the curve, placing the secant slope between the
+endpoint tangent slopes. The comparisons locate the slope-one base
+between 2 and 4 once continuity and increase of \(M(a)\) are
+established. We will identify \(M(a)\) explicitly in Part 2, which also
+verifies those properties. The printed source labels the second secant's
+right endpoint \((1,0)\); the correct coordinates are \((0,1)\).
+
+Substituting \(M(e)=1\) into the derivative formula yields
+
+\[
+\frac{d}{dx}e^x=e^x.
+\]
+
+The chain rule extends this to a differentiable input \(u(x)\):
+
+\[
+\frac{d}{dx}e^{u(x)}=e^{u(x)}u'(x).
+\]
+
+For example, to differentiate \(e^{3x}\), the outer function is \(e^u\)
+and the inner input is \(u=3x\). The outer derivative is evaluated at
+that same input, giving \(e^{3x}\), and the inner derivative is 3. Thus
+\((e^{3x})'=3e^{3x}\). Changing how quickly the exponent changes changes
+how quickly the whole expression changes.
+
+Task A1 (generated)
+
+Let \(y=e^{2x-1}\). Find \(dy/dx\) and the tangent slope at \(x=1/2\).
+Explain where the factor from the inner expression enters. A complete
+response connects the chain rule to the factor and evaluates the
+derivative at the stated point.
+
+\protect\hyperlink{hint-a1}{Hint A1} ·
+\protect\hyperlink{solution-a1}{Solution A1}
+
+Part 2: logarithms reverse exponentials
+
+The natural logarithm answers an inverse question: which exponent of
+\(e\) gives a specified positive number? Thus
+
+\[
+y=e^x\quad\Longleftrightarrow\quad\ln y=x,
+\]
+
+and, with different variable names,
+
+\[
+w=\ln x\quad\Longleftrightarrow\quad e^w=x\qquad(x\gt 0).
+\]
+
+For instance, \(\ln(e^3)=3\) and \(e^{\ln 5}=5\). The notation \(\ln x\)
+is a function value, not a product of symbols. Since \(e^0=1\) and the
+exponential is increasing, \(\ln1=0\), \(\ln x\lt 0\) for
+\(0\lt x\lt 1\), and \(\ln x\gt 0\) for \(x\gt 1\). The logarithm has no
+real value at zero or at a negative input.
+
+For positive \(u,v\), the exponent law gives the logarithm law
+
+\[
+\ln(uv)=\ln u+\ln v.
+\]
+
+Indeed, put \(u=e^r\) and \(v=e^s\). Then \(uv=e^{r+s}\), so its
+logarithm is \(r+s\). Similarly, for \(u\gt 0\) and real \(r\),
+\(\ln(u^r)=r\ln u\). Moving an exponent outside the logarithm will be
+our main simplifying step.
+
+To obtain the logarithm's derivative, set \(w(x)=\ln x\), so
+\(e^{w(x)}=x\). The positive exponential derivative means the inverse
+has a finite local derivative here. Differentiate this identity with
+respect to \(x\) using the chain rule:
+
+\[
+e^{w(x)}w'(x)=1.
+\]
+
+Since \(e^{w(x)}=x\gt 0\), division is permitted, giving
+
+\[
+\frac{d}{dx}\ln x=\frac1x\qquad(x\gt 0).
+\]
+
+The derivative is positive, confirming that \(\ln x\) is increasing;
+differentiability also gives continuity on the positive inputs. For a
+positive differentiable function \(u(x)\), the same chain rule gives
+
+\[
+\frac{d}{dx}\ln(u(x))=\frac{u'(x)}{u(x)}.
+\]
+
+The numerator is the derivative of the entire inner input; the
+denominator is that input itself. For example, \(\ln(1+x^2)\) is defined
+for every real \(x\), and its derivative is \(2x/(1+x^2)\). A check at
+\(x=0\) gives zero slope, consistent with the expression being unchanged
+when \(x\) is replaced by \(-x\) and with the displayed derivative.
+
+Returning to a general constant base
+
+For fixed \(a\gt 0\), write \(a=e^{\ln a}\). The exponent laws then give
+
+\[
+a^x=(e^{\ln a})^x=e^{x\ln a}.
+\]
+
+This rewrites the same quantity in base \(e\); it does not change its
+value or interchange the base and exponent. Since \(\ln a\) is constant
+with respect to \(x\), the chain rule gives
+
+\[
+\frac{d}{dx}a^x=(\ln a)e^{x\ln a}=(\ln a)a^x.
+\]
+
+Comparison with Part 1 identifies \(M(a)=\ln a\). In particular \(M\) is
+continuous and strictly increasing for \(a\gt 0\), and \(M(a)=1\) has
+the unique solution \(a=e\). The previous geometric bracket
+\(2\lt e\lt 4\) is consistent with this identification. This is a check
+of the slope-based characterisation, not a new construction of \(e\)
+from the pictures.
+
+Even base 10 brings in the natural logarithm: \((10^x)'=(\ln10)10^x\).
+The same argument extends the lecture's initial \(a\gt 1\) convention to
+\(0\lt a\lt 1\): there \(\ln a\lt 0\), so \(a^x\) decreases. At \(a=1\)
+the function is constant and the derivative is zero. No corresponding
+general real-variable rule with a negative base is being claimed.
+
+Task A2 (generated)
+
+Find the derivatives of \(f(x)=(1/2)^{3x}\) and \(g(x)=\ln(5-2x)\).
+State the real domain of each function and explain why each derivative
+is negative throughout its domain. A complete response includes the
+inner derivative, the domain inequality for the logarithm, and a sign
+justification.
+
+\protect\hyperlink{hint-a2}{Hint A2} ·
+\protect\hyperlink{solution-a2}{Solution A2}
+
+Part 3: logarithmic differentiation when a power changes
+
+Let \(f(x)\gt 0\) be differentiable. The previous chain-rule result says
+
+\[
+(\ln f(x))'=\frac{f'(x)}{f(x)},\qquad
+f'(x)=f(x)(\ln f(x))'.
+\]
+
+A prime means differentiation with respect to the current variable, here
+\(x\). In particular \((\ln f)'\) is the derivative of the composite
+function \(x\mapsto\ln(f(x))\). It is not \(\ln(f')\). The first formula
+divides absolute change rate by the current value; the second recovers
+the absolute rate by multiplying back by that value.
+
+This gives a procedure: take the logarithm of a positive expression,
+simplify using logarithm laws, differentiate the simplified expression,
+and multiply by the original function. Positivity is a condition for
+taking the real logarithm in this procedure, not a claim that every
+differentiable function is positive.
+
+Applied to \(f(x)=a^x\), it provides the lecture's second method:
+
+\[
+\ln f=x\ln a,\qquad (\ln f)'=\ln a,
+\]
+
+\[
+f'=f\ln a=(\ln a)a^x.
+\]
+
+Here \(\ln a\) is fixed. For this short expression, rewriting in base
+\(e\) is equally effective.
+
+Now consider the lecture's worked example \(f(x)=x^x\) on \(x\gt 0\).
+Both the base and exponent change. The ordinary power rule
+\((x^n)'=nx^{n-1}\) treats \(n\) as constant, while the exponential rule
+\((a^x)'=(\ln a)a^x\) treats \(a\) as constant. Neither rule alone
+applies to the two changing occurrences of \(x\).
+
+Taking the logarithm exposes those two changes as a product:
+
+\[
+\ln f=x\ln x.
+\]
+
+The product rule now gives
+
+\[
+(\ln f)'=1\cdot\ln x+x\cdot\frac1x=\ln x+1.
+\]
+
+Multiplying by the original function recovers
+
+\[
+f'(x)=x^x(\ln x+1)\qquad(x\gt 0).
+\]
+
+For example, at \(x=2\) the slope is \(4(\ln2+1)\), not 4 from treating
+the exponent as fixed at 2. Alternatively, \(x^x=e^{x\ln x}\), and the
+chain rule gives precisely the same result. These two methods use the
+same simplification of the changing power.
+
+More generally, if \(u(x)\gt 0\) and both \(u,v\) are differentiable,
+construct the real power \(y=u(x)^{v(x)}\) as \(e^{v(x)\ln u(x)}\). Then
+
+\[
+\ln y=v\ln u,\qquad
+\frac{y'}{y}=v'\ln u+v\frac{u'}u.
+\]
+
+The first term records the changing exponent; the second records the
+changing base. Setting \(v\) constant removes the first term and
+recovers the ordinary power rule with the inner derivative. Setting
+\(u\) constant removes the second and recovers the constant-base
+exponential rule. This connects the methods rather than creating an
+unrelated formula to memorise.
+
+Task A3 (generated)
+
+For \(y=(1+x)^{x^2}\), \(x\gt -1\), find \(y'\) and the tangent slope at
+\(x=0\). Explain why treating the exponent \(x^2\) as constant
+throughout differentiation would miss a term. A complete response
+differentiates both changing parts after a justified rewrite and
+preserves the given domain.
+
+\protect\hyperlink{hint-a3}{Hint A3} ·
+\protect\hyperlink{solution-a3}{Solution A3}
+
+Part 4: a limit hidden inside a logarithm
+
+The lecture asks for the limit of
+
+\[
+b_k=\left(1+\frac1k\right)^k\qquad(k=1,2,3,\ldots).
+\]
+
+The subscript labels the term of a sequence; \(k\to\infty\) means
+considering larger and larger positive integers. Although the base tends
+to 1, the exponent grows. Replacing the base by its limit too early
+loses the effect of many repeated factors. Nor can the competing factors
+\(k\) and \(\ln(1+1/k)\) be evaluated separately as an ordinary product
+of finite limits.
+
+Each \(b_k\) is positive, so define \(a_k=\ln b_k\). These subscripted
+letters label sequences; they are not the fixed base \(a\) from Part 1.
+The logarithm law gives
+
+\[
+a_k=k\ln\left(1+\frac1k\right)
+=\frac{\ln(1+1/k)}{1/k}.
+\]
+
+The change of variable \(h=1/k\) makes \(h\to0\) from the positive side.
+Using \(\ln1=0\) gives the exact equality
+
+\[
+a_k=\frac{\ln(1+h)-\ln1}{h}.
+\]
+
+Compare this with the derivative definition \([F(x_0+h)-F(x_0)]/h\):
+here \(F=\ln\) and \(x_0=1\). Thus Part 2 supplies the limit
+
+\[
+a_k\longrightarrow (\ln x)'\big|_{x=1}=\frac11=1.
+\]
+
+The vertical bar means evaluate the derivative at the stated input. We
+have found the logarithm's limit. To recover the original sequence, use
+the exact inverse relation \(b_k=e^{a_k}\) and continuity of the
+exponential:
+
+\[
+b_k=e^{a_k}\longrightarrow e^1=e.
+\]
+
+Consequently,
+
+\[
+\lim_{k\to\infty}\left(1+\frac1k\right)^k=e.
+\]
+
+We did not assume that \(b_k\) already converges in order to take the
+logarithm of its proposed limit. Instead, we found a convergent sequence
+\(a_k\) and then applied a continuous function to it.
+
+The lecture's first closing remark uses this formula to approximate
+\(e\). With \(k=10\), it gives \((1.1)^{10}\approx2.59374\), whereas
+\(e\approx2.71828\): the estimate is about 4.58\% low. It is useful as a
+rough approximation, and the limit guarantees convergence as \(k\)
+increases; \(k=10\) does not give several correct decimal places.
+
+The same route works with a small negative increment as long as the
+logarithm's input stays positive: the derivative of \(\ln\) at 1 has the
+same limit from either side. More broadly, if logarithms tend to a
+finite \(L\), exponentiating yields a limit \(e^L\). If logarithms
+instead tend to \(+\infty\), the original positive quantities grow
+without bound because the exponential is increasing and unbounded. If
+they tend to \(-\infty\), the original quantities tend to zero.
+
+Task A4 (generated)
+
+For positive integers \(k\gt 2\), let \(b_k=(1-2/k)^{3k}\). Find the
+limit of \(\ln(b_k)\), then the limit of \(b_k\). Show how \(h=-2/k\)
+converts \(\ln(b_k)\) into a multiple of the derivative quotient for
+\(\ln\) at 1, and state the side from which \(h\) approaches zero. A
+complete response distinguishes the logarithm's limit from the original
+sequence's limit and justifies returning by the exponential.
+
+\protect\hyperlink{hint-a4}{Hint A4} ·
+\protect\hyperlink{solution-a4}{Solution A4}
+
+Part 5: relative change explains the usefulness of logarithms
+
+A fall of 50 points has different significance from a starting level of
+300 than from 10000. For positive initial and final levels \(F_0,F_1\),
+the exact finite fractional change is
+
+\[
+\frac{F_1-F_0}{F_0},
+\]
+
+and multiplying by 100 expresses it as a percentage. The denominator is
+the starting level, not the final level. This is the distinction behind
+the lecture's final market example; no actual market observation is
+needed.
+
+For a positive differentiable level \(F(t)\), its instantaneous relative
+rate is
+
+\[
+\frac{F'(t)}{F(t)}=\frac{d}{dt}\ln(F(t)).
+\]
+
+The prime now denotes differentiation with respect to time \(t\). If
+\(F\) is measured in points and time in days, \(F'\) has units points
+per day and \(F'/F\) has units per day. Multiplying by 100 gives an
+instantaneous percentage rate per day. For a physical measurement, read
+the logarithm as \(\ln(F/F_{\rm ref})\) with a fixed positive reference
+in the same units; its derivative is still \(F'/F\), because the
+reference is constant. This avoids taking a logarithm of a dimensional
+quantity.
+
+Why is that an instantaneous percentage rate? The derivative definition
+gives, for small time increments \(\Delta t\),
+
+\[
+F(t+\Delta t)-F(t)\approx F'(t)\Delta t,
+\]
+
+and division by \(F(t)\gt 0\) yields
+
+\[
+\frac{F(t+\Delta t)-F(t)}{F(t)}
+\approx\frac{F'(t)}{F(t)}\Delta t.
+\]
+
+This is a local approximation, not an exact finite-change rule. The
+exact finite logarithmic change is \(\ln(F_1/F_0)\), which also
+generally differs from \((F_1-F_0)/F_0\); the two are close for a small
+fractional change because \((\ln x)'\) at 1 is 1.
+
+For a worked model, let \(F(t)=80e^{0.03t}\), where \(t\) is the
+numerical time in days and \(F\) is in points. Its absolute rate is
+\(F'=2.4e^{0.03t}\) points per day. Dividing by its current level gives
+\(F'/F=0.03\) per day, or 3\% per day instantaneously. After one day,
+however, the exact percentage increase is \(100(e^{0.03}-1)\), about
+3.045\%. The level on which growth acts changes during the day. Calling
+both numbers exactly 3\% would confuse a local rate with a finite
+change.
+
+Task A5 (generated mathematical models, not market data)
+
+Two positive index levels are modelled by \(F(t)=300e^{-0.02t}\) and
+\(G(t)=10000e^{-0.02t}\), where \(t\) is the numerical time in days. At
+\(t=0\), find each absolute rate in points per day and each
+instantaneous percentage rate per day. Separately compare the exact
+finite percentage changes caused by a fall of 50 points from 300 and
+from 10000. For the model \(F\), express its exact percentage change
+from day 0 to day 1 and explain why it differs from the instantaneous
+percentage rate multiplied by one day. A complete response states which
+quantities agree, carries signs and units, and separates exact finite
+change from local approximation; a symbolic expression in \(e\) is
+sufficient.
+
+\protect\hyperlink{hint-a5}{Hint A5} ·
+\protect\hyperlink{solution-a5}{Solution A5}
+
+Later return: Task A6 (generated)
+
+Return after a gap, perhaps the next day; adjust the gap to your needs.
+The first request below retrieves the main relationships. The later
+requests test using them to choose methods and handle a changed limit.
+Needing to reopen the lesson identifies a useful place to revisit; it is
+not evidence about your overall ability.
+
+First, with the lesson closed, write what \(M(a)\) means geometrically
+and give the relationship between \((\ln f)'\) and \(f'\) for positive
+differentiable \(f\). Then reopen the lesson if needed and differentiate
+\(p(x)=x^3\), \(q(x)=3^x\) and \(r(x)=x^x\) on \(x\gt 0\), giving a
+reason for the method chosen in each case. Finally decide whether
+\(c_k=(1+1/k)^{k^2}\), for positive integers \(k\), has a finite limit,
+and justify the conclusion through its logarithm rather than the
+misleading substitution 1 raised to an increasing power. A complete
+response separates recall from transfer, identifies what is constant in
+each derivative, and controls the growing factor in \(\ln(c_k)\).
+
+\protect\hyperlink{hint-a6}{Hint A6} ·
+\protect\hyperlink{solution-a6}{Solution A6}
+
+Hints
+
+These hints are grouped separately from the complete solutions. Stop at
+whichever hint lets you resume your working.
+
+Hint A1
+
+Put \(u=2x-1\). Write the outer derivative as \(e^u\), find \(u'\), and
+only then substitute \(x=1/2\) into their product.
+
+\protect\hyperlink{task-a1}{Return to A1}
+
+Hint A2
+
+Write the first function as \(e^{3x\ln(1/2)}\). For the second, solve
+\(5-2x\gt 0\) before differentiating. Its derivative has the inner
+derivative in the numerator and the positive input in the denominator.
+
+\protect\hyperlink{task-a2}{Return to A2}
+
+Hint A3
+
+The given interval makes \(1+x\) positive. Begin with
+\(\ln y=x^2\ln(1+x)\). In the product rule, keep one contribution from
+\((x^2)'\) and another from \((\ln(1+x))'\), then multiply by \(y\).
+
+\protect\hyperlink{task-a3}{Return to A3}
+
+Hint A4
+
+After taking the logarithm, the expression is \(3k\ln(1-2/k)\). Since
+\(h=-2/k\), solve for \(k\) as \(-2/h\). This exposes a constant
+multiplying \([\ln(1+h)-\ln1]/h\).
+
+\protect\hyperlink{task-a4}{Return to A4}
+
+Hint A5
+
+For either exponential model, first compute its derivative and then
+divide by the same model's current value. For the separate 50-point
+falls, use \(\Delta F/F_0\) with \(\Delta F=-50\). For the one-day model
+change, find \(F(1)/F(0)\) before subtracting 1.
+
+\protect\hyperlink{task-a5}{Return to A5}
+
+Hint A6
+
+The point used to define \(M(a)\) is \((0,1)\). For the three
+derivatives, identify whether the base, exponent, or both change. For
+the last part write \(\ln c_k=k[k\ln(1+1/k)]\); Part 4 already
+establishes the limit of the bracketed factor. A factor tending to 1 is
+eventually greater than \(1/2\).
+
+\protect\hyperlink{task-a6}{Return to A6}
+
+Complete solutions
+
+Compare the first step where your working differs. A missing chain-rule
+factor, an invalid logarithm input, and confusing a logarithm's limit
+with the original limit are different problems. The explanations below
+describe possible errors, not errors you have been observed making.
+
+Solution A1
+
+The outer function \(e^u\) has derivative \(e^u\), evaluated at
+\(u=2x-1\). The inner derivative is 2, so
+
+\[
+\frac{dy}{dx}=2e^{2x-1}.
+\]
+
+At \(x=1/2\) the exponent is zero and \(e^0=1\), giving slope 2. The
+extra factor records that a change in \(x\) changes the exponent at
+twice that rate. Substituting the point before differentiating would
+erase the varying function and leave only a number; differentiate first.
+
+\protect\hyperlink{task-a1}{Return to A1} ·
+\protect\hyperlink{hint-a1}{Hint A1}
+
+Solution A2
+
+The positive fixed base \(1/2\) permits every real \(x\). Rewriting
+\(f=e^{3x\ln(1/2)}\) and applying the chain rule gives
+
+\[
+f'(x)=3\ln(1/2)(1/2)^{3x}.
+\]
+
+Here \(\ln(1/2)\lt 0\), while 3 and the exponential are positive. Hence
+\(f'\lt 0\) for all real \(x\).
+
+The second function requires \(5-2x\gt 0\), or \(x\lt 5/2\). On that
+interval,
+
+\[
+g'(x)=\frac{-2}{5-2x}\lt 0.
+\]
+
+Its numerator is negative and its denominator positive. Merely writing
+\(1/(5-2x)\) would omit the changing input's derivative and predict the
+wrong sign. The logarithm itself is undefined at \(x=5/2\) and beyond,
+so the derivative formula supplies no real-function derivative there.
+
+\protect\hyperlink{task-a2}{Return to A2} ·
+\protect\hyperlink{hint-a2}{Hint A2}
+
+Solution A3
+
+For \(x\gt -1\), the base is positive and so is \(y=e^{x^2\ln(1+x)}\).
+Taking its logarithm is valid:
+
+\[
+\ln y=x^2\ln(1+x).
+\]
+
+Use the product and chain rules:
+
+\[
+\frac{y'}y=2x\ln(1+x)+\frac{x^2}{1+x}.
+\]
+
+Thus
+
+\[
+y'=(1+x)^{x^2}\left(2x\ln(1+x)+\frac{x^2}{1+x}\right),\qquad x\gt -1.
+\]
+
+At \(x=0\), \(y=1\) and both terms in parentheses vanish, giving slope
+0. The term \(2x\ln(1+x)\) comes from the changing exponent. Treating
+\(x^2\) as constant would lose that term. Evaluating only at zero would
+hide that particular mistake because the missing term happens to vanish
+there; the full derivative must still include it.
+
+\protect\hyperlink{task-a3}{Return to A3} ·
+\protect\hyperlink{hint-a3}{Hint A3}
+
+Solution A4
+
+For \(k\gt 2\), \(1-2/k\gt 0\), so the real logarithm is allowed. Taking
+it gives
+
+\[
+\ln b_k=3k\ln(1-2/k).
+\]
+
+With \(h=-2/k\), \(h\to0\) from below and \(k=-2/h\). Consequently
+
+\[
+\ln b_k=-6\frac{\ln(1+h)-\ln1}{h}\longrightarrow-6.
+\]
+
+The quotient tends to \((\ln x)'\) at 1, which is 1, just as in Part 4;
+approaching from below is permitted. Finally \(b_k=e^{\ln b_k}\), so
+continuity yields
+
+\[
+b_k\longrightarrow e^{-6}.
+\]
+
+A result of \(-6\) for the original limit would miss this last inverse
+operation and would also conflict with positivity of every \(b_k\).
+
+\protect\hyperlink{task-a4}{Return to A4} ·
+\protect\hyperlink{hint-a4}{Hint A4}
+
+Solution A5
+
+By the chain rule,
+
+\[
+F'(t)=-0.02F(t),\qquad G'(t)=-0.02G(t).
+\]
+
+At zero, the absolute rates are \(-0.02(300)=-6\) points per day and
+\(-0.02(10000)=-200\) points per day. They differ because the starting
+levels differ. Dividing by the respective levels gives the same relative
+rate \(-0.02\) per day, or \(-2\text{ percent}\) per day
+instantaneously.
+
+For the separate finite falls, the exact percentages are
+
+\[
+\frac{-50}{300}\times100\text{ percent}=-\frac{50}{3}\text{ percent}\approx-16.67\text{ percent},\qquad
+\frac{-50}{10000}\times100\text{ percent}=-0.5\text{ percent}.
+\]
+
+These are changes, not rates, because no elapsed time is specified for
+those falls. They are comparisons separate from the two exponential
+models.
+
+For \(F\) over one day, \(F(1)/F(0)=e^{-0.02}\), so its exact percentage
+change is
+
+\[
+100(e^{-0.02}-1)\text{ percent}\approx-1.9801\text{ percent}.
+\]
+
+The initial relative rate times one day gives \(-2\text{ percent}\), a
+local approximation. As the level falls, its absolute loss rate also
+becomes smaller in magnitude. The exact one-day fall is therefore
+slightly smaller than 2\% of its starting level. Equal instantaneous
+percentage rates do not make finite percentages exactly equal to the
+rate times elapsed time.
+
+\protect\hyperlink{task-a5}{Return to A5} ·
+\protect\hyperlink{hint-a5}{Hint A5}
+
+Solution A6
+
+The recall targets are the tangent slope of \(y=a^x\) at \((0,1)\),
+called \(M(a)\), and \((\ln f)'=f'/f\) for positive differentiable
+\(f\). Equivalently \(f'=f(\ln f)'\). Also \(M(a)=\ln a\).
+
+For \(p=x^3\), the exponent is the fixed number 3, so the power rule
+gives \(p'=3x^2\). For \(q=3^x\), the base is fixed, so
+\(q'=(\ln3)3^x\). For \(r=x^x\), both parts change; logarithmic
+differentiation or rewriting as \(e^{x\ln x}\) gives
+\(r'=x^x(\ln x+1)\). Alternative correct methods are acceptable if they
+account for every changing part and preserve the domain \(x\gt 0\).
+
+For the sequence, take a logarithm:
+
+\[
+\ln c_k=k^2\ln(1+1/k)
+=k\left[k\ln(1+1/k)\right].
+\]
+
+The bracketed factor tends to 1 by Part 4. To make the conclusion
+precise, it is greater than \(1/2\) for all sufficiently large \(k\), so
+\(\ln c_k\gt k/2\) eventually. Thus \(\ln c_k\to+\infty\), and
+\(c_k\to+\infty\) by the exponential's increase without bound. There is
+no finite limit. The additional factor \(k\) in the exponent changes the
+conclusion from the lecture's \(e\) limit; the base approaching 1 does
+not determine the answer by itself.
+
+\protect\hyperlink{task-a6}{Return to A6} ·
+\protect\hyperlink{hint-a6}{Hint A6}
+
+Source and scope
+
+This lesson covers the complete supplied
+\href{https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/f9af0e98490296c99d330faf47389507_lec6.pdf}{MIT
+OpenCourseWare 18.01 Fall 2006 Lecture 6 PDF}, comprising a cover and
+printed pages 1--7. The printed title is ``Exponential and Log,
+Logarithmic Differentiation, Hyperbolic Functions.'' Hyperbolic
+functions appear in that title but are not developed anywhere in this
+PDF; no missing continuation is assumed here.
+
+The source's worked \(x^x\) derivative, exponential limit, three
+geometric figures and both final remarks are developed above. Tasks
+A1--A6 are generated applications, not quoted MIT assessment questions.
+Two source typos are corrected: the point labelled \((1,0)\) in the
+discussion of \(4^x\) and Figure 3 is \((0,1)\), and the inverse box on
+printed page 4 must read \(w=\ln x\Rightarrow e^w=x\). The approximation
+at \(k=10\) is quantified in Part 4, and finite percentage change is
+distinguished from instantaneous relative rate in Part 5.
+
+\end{document}

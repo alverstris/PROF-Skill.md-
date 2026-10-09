@@ -1,0 +1,400 @@
+{
+  "source_sha256": "311afdef083a4468f18bcdd11a68975d2e6622661e0be3405a5c9f58b3f3a813",
+  "source_byte_identical_to_preview_input": true,
+  "fresh_AST_equals_recovered_AST": true,
+  "math_count": 337,
+  "all_337_source_math_payloads_exact_in_AST": true,
+  "fresh_TeX_byte_identical_to_recovered_compiled_TeX": true,
+  "header_exact_conventional_gt_lt_definitions": true,
+  "recovered_compile_files": [
+    {
+      "file": "preview.pdf",
+      "sha256": "7afdb856907475961f7372cefa5ede95ab530422b71bf874a00a1795d10ade6b",
+      "bytes": 157889
+    },
+    {
+      "file": "preview.tex",
+      "sha256": "4198bf7a16c921ca9ecbaf0ead1d395ceec9fe762c8f8079f60f51c7d2f71796",
+      "bytes": 28509
+    },
+    {
+      "file": "preview.md",
+      "sha256": "311afdef083a4468f18bcdd11a68975d2e6622661e0be3405a5c9f58b3f3a813",
+      "bytes": 28777
+    },
+    {
+      "file": "preview-header.tex",
+      "sha256": "f5c9e3f54fbf3cb055b0dfceede9ed63ad1dbaab9319dcd2a81c05055fc95107",
+      "bytes": 48
+    },
+    {
+      "file": "pdflatex-pass1.txt",
+      "sha256": "76865b96b244e0bb4cafc8119d88a9a794694ea9890a9121b8eb725c93fa180a",
+      "bytes": 7723
+    },
+    {
+      "file": "pdflatex-pass2.txt",
+      "sha256": "aa7684053ed07817930e16af6f98b492e87fc118d6c90fa1f467e55db24cd0c4",
+      "bytes": 7718
+    },
+    {
+      "file": "preview.log",
+      "sha256": "0e0419514bb8d69041ae4ba4cdf1832a7f4d9d48b923000fff2361dbe854235b",
+      "bytes": 25144
+    }
+  ],
+  "compile_passes": [
+    {
+      "file": "pdflatex-pass1.txt",
+      "output_written": [
+        "Output written on preview.pdf (12 pages, 157889 bytes)."
+      ],
+      "diagnostics": [
+        "pdfTeX warning (dest): name{task-a5} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{task-a4} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{task-a3} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{task-a2} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{task-a1} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{solution-a6} has been referenced but does not exist",
+        "pdfTeX warning (dest): name{hint-a6} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{solution-a5} has been referenced but does not exist",
+        "pdfTeX warning (dest): name{hint-a5} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{solution-a4} has been referenced but does not exist",
+        "pdfTeX warning (dest): name{hint-a4} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{solution-a3} has been referenced but does not exist",
+        "pdfTeX warning (dest): name{hint-a3} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{solution-a2} has been referenced but does not exist",
+        "pdfTeX warning (dest): name{hint-a2} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{solution-a1} has been referenced but does not exist",
+        "pdfTeX warning (dest): name{hint-a1} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{task-a6} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{solutions} has been referenced but does not exist, ",
+        "pdfTeX warning (dest): name{hints} has been referenced but does not exist, repl"
+      ],
+      "missing_destinations": [
+        "task-a5",
+        "task-a4",
+        "task-a3",
+        "task-a2",
+        "task-a1",
+        "solution-a6",
+        "hint-a6",
+        "solution-a5",
+        "hint-a5",
+        "solution-a4",
+        "hint-a4",
+        "solution-a3",
+        "hint-a3",
+        "solution-a2",
+        "hint-a2",
+        "solution-a1",
+        "hint-a1",
+        "task-a6",
+        "solutions",
+        "hints"
+      ]
+    },
+    {
+      "file": "pdflatex-pass2.txt",
+      "output_written": [
+        "Output written on preview.pdf (12 pages, 157889 bytes)."
+      ],
+      "diagnostics": [
+        "pdfTeX warning (dest): name{task-a5} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{task-a4} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{task-a3} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{task-a2} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{task-a1} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{solution-a6} has been referenced but does not exist",
+        "pdfTeX warning (dest): name{hint-a6} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{solution-a5} has been referenced but does not exist",
+        "pdfTeX warning (dest): name{hint-a5} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{solution-a4} has been referenced but does not exist",
+        "pdfTeX warning (dest): name{hint-a4} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{solution-a3} has been referenced but does not exist",
+        "pdfTeX warning (dest): name{hint-a3} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{solution-a2} has been referenced but does not exist",
+        "pdfTeX warning (dest): name{hint-a2} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{solution-a1} has been referenced but does not exist",
+        "pdfTeX warning (dest): name{hint-a1} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{task-a6} has been referenced but does not exist, re",
+        "pdfTeX warning (dest): name{solutions} has been referenced but does not exist, ",
+        "pdfTeX warning (dest): name{hints} has been referenced but does not exist, repl"
+      ],
+      "missing_destinations": [
+        "task-a5",
+        "task-a4",
+        "task-a3",
+        "task-a2",
+        "task-a1",
+        "solution-a6",
+        "hint-a6",
+        "solution-a5",
+        "hint-a5",
+        "solution-a4",
+        "hint-a4",
+        "solution-a3",
+        "hint-a3",
+        "solution-a2",
+        "hint-a2",
+        "solution-a1",
+        "hint-a1",
+        "task-a6",
+        "solutions",
+        "hints"
+      ]
+    }
+  ],
+  "actual_pdf_pages": 12,
+  "pages": [
+    {
+      "page": 1,
+      "content_bytes": 12332,
+      "text_chars": 2052,
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "page": 2,
+      "content_bytes": 15087,
+      "text_chars": 2344,
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "page": 3,
+      "content_bytes": 13370,
+      "text_chars": 1733,
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "page": 4,
+      "content_bytes": 13323,
+      "text_chars": 2190,
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "page": 5,
+      "content_bytes": 13141,
+      "text_chars": 2039,
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "page": 6,
+      "content_bytes": 13629,
+      "text_chars": 2056,
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "page": 7,
+      "content_bytes": 14499,
+      "text_chars": 2403,
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "page": 8,
+      "content_bytes": 11829,
+      "text_chars": 2159,
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "page": 9,
+      "content_bytes": 11080,
+      "text_chars": 1896,
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "page": 10,
+      "content_bytes": 9842,
+      "text_chars": 1142,
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "page": 11,
+      "content_bytes": 15009,
+      "text_chars": 2449,
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "page": 12,
+      "content_bytes": 2538,
+      "text_chars": 507,
+      "mediabox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    }
+  ],
+  "prior_PNGs": [
+    {
+      "file": "page-01.png",
+      "sha256": "8daaaa6522d117833631af83e1dd9ed42e1a488dc34b44f3da4e093ef7eec855",
+      "bytes": 190933,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "full_decode": true
+    },
+    {
+      "file": "page-02.png",
+      "sha256": "c54c51fe67316a17c0f185f33bf1e3e1bc8e4f467cbd2dfff68e53f2ea51deac",
+      "bytes": 196608,
+      "full_decode": false,
+      "error": "OSError('Truncated File Read')"
+    },
+    {
+      "file": "page-03.png",
+      "sha256": "0884466658489d76414de641231e3c55574da0cc1b4ea6bf8c69bb05c81ff643",
+      "bytes": 166213,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "full_decode": true
+    },
+    {
+      "file": "page-04.png",
+      "sha256": "34762103dcfeacc086216bf71635bf7e6da5bc7dc04bb1ea1e550a5c3589ae95",
+      "bytes": 203283,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "full_decode": true
+    },
+    {
+      "file": "page-05.png",
+      "sha256": "1ef8bc0dae98a3c35b1a572faf645c183ecdb1880acd822f8294c2cbc2b29b0e",
+      "bytes": 196813,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "full_decode": true
+    },
+    {
+      "file": "page-06.png",
+      "sha256": "1237d40347c4761886b1caf16569f7ab29a5028fb2c7efd562049ea99b75147a",
+      "bytes": 194979,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "full_decode": true
+    },
+    {
+      "file": "page-07.png",
+      "sha256": "c20da9f42b90309e790a1a42e90add66f737704c33debbbff79f734911375d0e",
+      "bytes": 225987,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "full_decode": true
+    },
+    {
+      "file": "page-08.png",
+      "sha256": "b6b0e86756394a47f85b815299e6652b7faf3e79941fb99ada4c298071bd4194",
+      "bytes": 206104,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "full_decode": true
+    },
+    {
+      "file": "page-09.png",
+      "sha256": "e7e118aba635029f5e28f4ea80fb1e2a0cae5667f130aa0eb249b435ce976003",
+      "bytes": 187800,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "full_decode": true
+    },
+    {
+      "file": "page-10.png",
+      "sha256": "2d83acffce684ad553594aa1f24e513861d1c255b34b08050aec3a927f614a3f",
+      "bytes": 122169,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "full_decode": true
+    },
+    {
+      "file": "page-11.png",
+      "sha256": "c5f0c6c8f8fcd3b27009d4dbcd1915debf1361dcdabd2c9acccbd3ce86dd8d5d",
+      "bytes": 155648,
+      "full_decode": false,
+      "error": "OSError('Truncated File Read')"
+    },
+    {
+      "file": "page-12.png",
+      "sha256": "8bcb9ea4edd7d32f165c4650544095c93ae998b9e09c9b46f02840cb366ceeb2",
+      "bytes": 51718,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "full_decode": true
+    }
+  ],
+  "reuse_verified": true
+}

@@ -1,0 +1,1 @@
+Parent-owned D006 final-v3 acceptance at immutable candidate controls. Teaching reviews complete; main publication remains pending. Publish phase A with D006 still open and counts 5/76; verify actual main and bytes before phase B. Original author states and evidence preserved.

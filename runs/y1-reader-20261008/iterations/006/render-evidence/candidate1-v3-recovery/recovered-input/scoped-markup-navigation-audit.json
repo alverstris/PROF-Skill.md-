@@ -1,0 +1,3725 @@
+{
+  "checks": {
+    "complete_prose_and_math_stream_after_only_documented_markup_and_whitespace_normalization": true,
+    "every_math_payload_and_wrapper_exact_after_one_HTML_parse": true,
+    "all_inline_math_exact": true,
+    "all_display_math_exact_including_internal_newlines": true,
+    "all_source_link_texts_and_hrefs_in_order": true,
+    "all_source_anchor_ids_in_order": true,
+    "all_internal_destinations_once": true,
+    "all_tasks_before_all_hints_before_all_solutions": true,
+    "all_P001_P194_source_comments_in_order": true,
+    "no_heading_or_emphasis_or_table_or_caption_DOM": true,
+    "no_external_assets": true
+  },
+  "tags": {
+    "article": 1,
+    "p": 218,
+    "a": 59,
+    "math-renderer": 337,
+    "ul": 1,
+    "li": 2
+  },
+  "math_counts": {
+    "js-inline-math": 291,
+    "js-display-math": 46
+  },
+  "source_math": [
+    {
+      "type": "js-inline-math",
+      "text": "$(uv)'=u'v+uv'$",
+      "payload": "(uv)'=u'v+uv'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(F(u(x)))'=F'(u(x))u'(x)$",
+      "payload": "(F(u(x)))'=F'(u(x))u'(x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a\\gt 1$",
+      "payload": "a\\gt 1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a^x$",
+      "payload": "a^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a$",
+      "payload": "a"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\na^0=1,\\qquad a^1=a,\\qquad a^2=a\\cdot a,\n$$",
+      "payload": "\na^0=1,\\qquad a^1=a,\\qquad a^2=a\\cdot a,\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\na^{x_1+x_2}=a^{x_1}a^{x_2},\\qquad (a^{x_1})^{x_2}=a^{x_1x_2}.\n$$",
+      "payload": "\na^{x_1+x_2}=a^{x_1}a^{x_2},\\qquad (a^{x_1})^{x_2}=a^{x_1x_2}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$p$",
+      "payload": "p"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$q$",
+      "payload": "q"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a^{p/q}=\\sqrt[q]{a^p}$",
+      "payload": "a^{p/q}=\\sqrt[q]{a^p}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h$",
+      "payload": "h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\Delta x$",
+      "payload": "\\Delta x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{a^{x+h}-a^x}{h}\n=a^x\\frac{a^h-1}{h}.\n$$",
+      "payload": "\n\\frac{a^{x+h}-a^x}{h}\n=a^x\\frac{a^h-1}{h}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a^{x+h}$",
+      "payload": "a^{x+h}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a^xa^h$",
+      "payload": "a^xa^h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h$",
+      "payload": "h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a^x$",
+      "payload": "a^x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nM(a)=\\lim_{h\\to0}\\frac{a^h-1}{h}.\n$$",
+      "payload": "\nM(a)=\\lim_{h\\to0}\\frac{a^h-1}{h}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M$",
+      "payload": "M"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=0$",
+      "payload": "x=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{d}{dx}a^x=M(a)a^x.\n$$",
+      "payload": "\n\\frac{d}{dx}a^x=M(a)a^x.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a^x$",
+      "payload": "a^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)$",
+      "payload": "M(a)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(0,1)$",
+      "payload": "(0,1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)$",
+      "payload": "M(a)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a^0=1$",
+      "payload": "a^0=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(e)=1$",
+      "payload": "M(e)=1"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\lim_{h\\to0}\\frac{e^h-1}{h}=1.\n$$",
+      "payload": "\n\\lim_{h\\to0}\\frac{e^h-1}{h}=1.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=2^x$",
+      "payload": "y=2^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(0,1)$",
+      "payload": "(0,1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1,2)$",
+      "payload": "(1,2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(2-1)/(1-0)=1$",
+      "payload": "(2-1)/(1-0)=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(2)\\lt 1$",
+      "payload": "M(2)\\lt 1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=4^x$",
+      "payload": "y=4^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(-1/2,1/2)$",
+      "payload": "(-1/2,1/2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(0,1)$",
+      "payload": "(0,1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1-1/2)/(0-(-1/2))=1$",
+      "payload": "(1-1/2)/(0-(-1/2))=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(4)\\gt 1$",
+      "payload": "M(4)\\gt 1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)$",
+      "payload": "M(a)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)$",
+      "payload": "M(a)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1,0)$",
+      "payload": "(1,0)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(0,1)$",
+      "payload": "(0,1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(e)=1$",
+      "payload": "M(e)=1"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{d}{dx}e^x=e^x.\n$$",
+      "payload": "\n\\frac{d}{dx}e^x=e^x.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u(x)$",
+      "payload": "u(x)"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{d}{dx}e^{u(x)}=e^{u(x)}u'(x).\n$$",
+      "payload": "\n\\frac{d}{dx}e^{u(x)}=e^{u(x)}u'(x).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{3x}$",
+      "payload": "e^{3x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^u$",
+      "payload": "e^u"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u=3x$",
+      "payload": "u=3x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{3x}$",
+      "payload": "e^{3x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(e^{3x})'=3e^{3x}$",
+      "payload": "(e^{3x})'=3e^{3x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=e^{2x-1}$",
+      "payload": "y=e^{2x-1}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$dy/dx$",
+      "payload": "dy/dx"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=1/2$",
+      "payload": "x=1/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\ny=e^x\\quad\\Longleftrightarrow\\quad\\ln y=x,\n$$",
+      "payload": "\ny=e^x\\quad\\Longleftrightarrow\\quad\\ln y=x,\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nw=\\ln x\\quad\\Longleftrightarrow\\quad e^w=x\\qquad(x\\gt 0).\n$$",
+      "payload": "\nw=\\ln x\\quad\\Longleftrightarrow\\quad e^w=x\\qquad(x\\gt 0).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(e^3)=3$",
+      "payload": "\\ln(e^3)=3"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{\\ln 5}=5$",
+      "payload": "e^{\\ln 5}=5"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln x$",
+      "payload": "\\ln x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^0=1$",
+      "payload": "e^0=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln1=0$",
+      "payload": "\\ln1=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln x\\lt 0$",
+      "payload": "\\ln x\\lt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$0\\lt x\\lt 1$",
+      "payload": "0\\lt x\\lt 1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln x\\gt 0$",
+      "payload": "\\ln x\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\gt 1$",
+      "payload": "x\\gt 1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u,v$",
+      "payload": "u,v"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln(uv)=\\ln u+\\ln v.\n$$",
+      "payload": "\n\\ln(uv)=\\ln u+\\ln v.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u=e^r$",
+      "payload": "u=e^r"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$v=e^s$",
+      "payload": "v=e^s"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$uv=e^{r+s}$",
+      "payload": "uv=e^{r+s}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r+s$",
+      "payload": "r+s"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u\\gt 0$",
+      "payload": "u\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r$",
+      "payload": "r"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(u^r)=r\\ln u$",
+      "payload": "\\ln(u^r)=r\\ln u"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$w(x)=\\ln x$",
+      "payload": "w(x)=\\ln x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{w(x)}=x$",
+      "payload": "e^{w(x)}=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\ne^{w(x)}w'(x)=1.\n$$",
+      "payload": "\ne^{w(x)}w'(x)=1.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{w(x)}=x\\gt 0$",
+      "payload": "e^{w(x)}=x\\gt 0"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{d}{dx}\\ln x=\\frac1x\\qquad(x\\gt 0).\n$$",
+      "payload": "\n\\frac{d}{dx}\\ln x=\\frac1x\\qquad(x\\gt 0).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln x$",
+      "payload": "\\ln x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u(x)$",
+      "payload": "u(x)"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{d}{dx}\\ln(u(x))=\\frac{u'(x)}{u(x)}.\n$$",
+      "payload": "\n\\frac{d}{dx}\\ln(u(x))=\\frac{u'(x)}{u(x)}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(1+x^2)$",
+      "payload": "\\ln(1+x^2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2x/(1+x^2)$",
+      "payload": "2x/(1+x^2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=0$",
+      "payload": "x=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-x$",
+      "payload": "-x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a\\gt 0$",
+      "payload": "a\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a=e^{\\ln a}$",
+      "payload": "a=e^{\\ln a}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\na^x=(e^{\\ln a})^x=e^{x\\ln a}.\n$$",
+      "payload": "\na^x=(e^{\\ln a})^x=e^{x\\ln a}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln a$",
+      "payload": "\\ln a"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{d}{dx}a^x=(\\ln a)e^{x\\ln a}=(\\ln a)a^x.\n$$",
+      "payload": "\n\\frac{d}{dx}a^x=(\\ln a)e^{x\\ln a}=(\\ln a)a^x.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)=\\ln a$",
+      "payload": "M(a)=\\ln a"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M$",
+      "payload": "M"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a\\gt 0$",
+      "payload": "a\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)=1$",
+      "payload": "M(a)=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a=e$",
+      "payload": "a=e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2\\lt e\\lt 4$",
+      "payload": "2\\lt e\\lt 4"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(10^x)'=(\\ln10)10^x$",
+      "payload": "(10^x)'=(\\ln10)10^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a\\gt 1$",
+      "payload": "a\\gt 1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$0\\lt a\\lt 1$",
+      "payload": "0\\lt a\\lt 1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln a\\lt 0$",
+      "payload": "\\ln a\\lt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a^x$",
+      "payload": "a^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a=1$",
+      "payload": "a=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f(x)=(1/2)^{3x}$",
+      "payload": "f(x)=(1/2)^{3x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$g(x)=\\ln(5-2x)$",
+      "payload": "g(x)=\\ln(5-2x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f(x)\\gt 0$",
+      "payload": "f(x)\\gt 0"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(\\ln f(x))'=\\frac{f'(x)}{f(x)},\\qquad\nf'(x)=f(x)(\\ln f(x))'.\n$$",
+      "payload": "\n(\\ln f(x))'=\\frac{f'(x)}{f(x)},\\qquad\nf'(x)=f(x)(\\ln f(x))'.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\ln f)'$",
+      "payload": "(\\ln f)'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\mapsto\\ln(f(x))$",
+      "payload": "x\\mapsto\\ln(f(x))"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(f')$",
+      "payload": "\\ln(f')"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f(x)=a^x$",
+      "payload": "f(x)=a^x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln f=x\\ln a,\\qquad (\\ln f)'=\\ln a,\n$$",
+      "payload": "\n\\ln f=x\\ln a,\\qquad (\\ln f)'=\\ln a,\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nf'=f\\ln a=(\\ln a)a^x.\n$$",
+      "payload": "\nf'=f\\ln a=(\\ln a)a^x.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln a$",
+      "payload": "\\ln a"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f(x)=x^x$",
+      "payload": "f(x)=x^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\gt 0$",
+      "payload": "x\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(x^n)'=nx^{n-1}$",
+      "payload": "(x^n)'=nx^{n-1}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$n$",
+      "payload": "n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(a^x)'=(\\ln a)a^x$",
+      "payload": "(a^x)'=(\\ln a)a^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a$",
+      "payload": "a"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln f=x\\ln x.\n$$",
+      "payload": "\n\\ln f=x\\ln x.\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(\\ln f)'=1\\cdot\\ln x+x\\cdot\\frac1x=\\ln x+1.\n$$",
+      "payload": "\n(\\ln f)'=1\\cdot\\ln x+x\\cdot\\frac1x=\\ln x+1.\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nf'(x)=x^x(\\ln x+1)\\qquad(x\\gt 0).\n$$",
+      "payload": "\nf'(x)=x^x(\\ln x+1)\\qquad(x\\gt 0).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=2$",
+      "payload": "x=2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$4(\\ln2+1)$",
+      "payload": "4(\\ln2+1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^x=e^{x\\ln x}$",
+      "payload": "x^x=e^{x\\ln x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u(x)\\gt 0$",
+      "payload": "u(x)\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u,v$",
+      "payload": "u,v"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=u(x)^{v(x)}$",
+      "payload": "y=u(x)^{v(x)}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{v(x)\\ln u(x)}$",
+      "payload": "e^{v(x)\\ln u(x)}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln y=v\\ln u,\\qquad\n\\frac{y'}{y}=v'\\ln u+v\\frac{u'}u.\n$$",
+      "payload": "\n\\ln y=v\\ln u,\\qquad\n\\frac{y'}{y}=v'\\ln u+v\\frac{u'}u.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$v$",
+      "payload": "v"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u$",
+      "payload": "u"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=(1+x)^{x^2}$",
+      "payload": "y=(1+x)^{x^2}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\gt -1$",
+      "payload": "x\\gt -1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'$",
+      "payload": "y'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=0$",
+      "payload": "x=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^2$",
+      "payload": "x^2"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nb_k=\\left(1+\\frac1k\\right)^k\\qquad(k=1,2,3,\\ldots).\n$$",
+      "payload": "\nb_k=\\left(1+\\frac1k\\right)^k\\qquad(k=1,2,3,\\ldots).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k\\to\\infty$",
+      "payload": "k\\to\\infty"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k$",
+      "payload": "k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(1+1/k)$",
+      "payload": "\\ln(1+1/k)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$b_k$",
+      "payload": "b_k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a_k=\\ln b_k$",
+      "payload": "a_k=\\ln b_k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a$",
+      "payload": "a"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\na_k=k\\ln\\left(1+\\frac1k\\right)\n=\\frac{\\ln(1+1/k)}{1/k}.\n$$",
+      "payload": "\na_k=k\\ln\\left(1+\\frac1k\\right)\n=\\frac{\\ln(1+1/k)}{1/k}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h=1/k$",
+      "payload": "h=1/k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h\\to0$",
+      "payload": "h\\to0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln1=0$",
+      "payload": "\\ln1=0"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\na_k=\\frac{\\ln(1+h)-\\ln1}{h}.\n$$",
+      "payload": "\na_k=\\frac{\\ln(1+h)-\\ln1}{h}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$[F(x_0+h)-F(x_0)]/h$",
+      "payload": "[F(x_0+h)-F(x_0)]/h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F=\\ln$",
+      "payload": "F=\\ln"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x_0=1$",
+      "payload": "x_0=1"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\na_k\\longrightarrow (\\ln x)'\\big|_{x=1}=\\frac11=1.\n$$",
+      "payload": "\na_k\\longrightarrow (\\ln x)'\\big|_{x=1}=\\frac11=1.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$b_k=e^{a_k}$",
+      "payload": "b_k=e^{a_k}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nb_k=e^{a_k}\\longrightarrow e^1=e.\n$$",
+      "payload": "\nb_k=e^{a_k}\\longrightarrow e^1=e.\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\lim_{k\\to\\infty}\\left(1+\\frac1k\\right)^k=e.\n$$",
+      "payload": "\n\\lim_{k\\to\\infty}\\left(1+\\frac1k\\right)^k=e.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$b_k$",
+      "payload": "b_k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a_k$",
+      "payload": "a_k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k=10$",
+      "payload": "k=10"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1.1)^{10}\\approx2.59374$",
+      "payload": "(1.1)^{10}\\approx2.59374"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e\\approx2.71828$",
+      "payload": "e\\approx2.71828"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k$",
+      "payload": "k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k=10$",
+      "payload": "k=10"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln$",
+      "payload": "\\ln"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$L$",
+      "payload": "L"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^L$",
+      "payload": "e^L"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$+\\infty$",
+      "payload": "+\\infty"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-\\infty$",
+      "payload": "-\\infty"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k\\gt 2$",
+      "payload": "k\\gt 2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$b_k=(1-2/k)^{3k}$",
+      "payload": "b_k=(1-2/k)^{3k}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(b_k)$",
+      "payload": "\\ln(b_k)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$b_k$",
+      "payload": "b_k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h=-2/k$",
+      "payload": "h=-2/k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(b_k)$",
+      "payload": "\\ln(b_k)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln$",
+      "payload": "\\ln"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h$",
+      "payload": "h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F_0,F_1$",
+      "payload": "F_0,F_1"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{F_1-F_0}{F_0},\n$$",
+      "payload": "\n\\frac{F_1-F_0}{F_0},\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F(t)$",
+      "payload": "F(t)"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{F'(t)}{F(t)}=\\frac{d}{dt}\\ln(F(t)).\n$$",
+      "payload": "\n\\frac{F'(t)}{F(t)}=\\frac{d}{dt}\\ln(F(t)).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$t$",
+      "payload": "t"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F$",
+      "payload": "F"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F'$",
+      "payload": "F'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F'/F$",
+      "payload": "F'/F"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(F/F_{\\rm ref})$",
+      "payload": "\\ln(F/F_{\\rm ref})"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F'/F$",
+      "payload": "F'/F"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\Delta t$",
+      "payload": "\\Delta t"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nF(t+\\Delta t)-F(t)\\approx F'(t)\\Delta t,\n$$",
+      "payload": "\nF(t+\\Delta t)-F(t)\\approx F'(t)\\Delta t,\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F(t)\\gt 0$",
+      "payload": "F(t)\\gt 0"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{F(t+\\Delta t)-F(t)}{F(t)}\n\\approx\\frac{F'(t)}{F(t)}\\Delta t.\n$$",
+      "payload": "\n\\frac{F(t+\\Delta t)-F(t)}{F(t)}\n\\approx\\frac{F'(t)}{F(t)}\\Delta t.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(F_1/F_0)$",
+      "payload": "\\ln(F_1/F_0)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(F_1-F_0)/F_0$",
+      "payload": "(F_1-F_0)/F_0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\ln x)'$",
+      "payload": "(\\ln x)'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F(t)=80e^{0.03t}$",
+      "payload": "F(t)=80e^{0.03t}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$t$",
+      "payload": "t"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F$",
+      "payload": "F"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F'=2.4e^{0.03t}$",
+      "payload": "F'=2.4e^{0.03t}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F'/F=0.03$",
+      "payload": "F'/F=0.03"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$100(e^{0.03}-1)$",
+      "payload": "100(e^{0.03}-1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F(t)=300e^{-0.02t}$",
+      "payload": "F(t)=300e^{-0.02t}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$G(t)=10000e^{-0.02t}$",
+      "payload": "G(t)=10000e^{-0.02t}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$t$",
+      "payload": "t"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$t=0$",
+      "payload": "t=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F$",
+      "payload": "F"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)$",
+      "payload": "M(a)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\ln f)'$",
+      "payload": "(\\ln f)'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f'$",
+      "payload": "f'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f$",
+      "payload": "f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$p(x)=x^3$",
+      "payload": "p(x)=x^3"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$q(x)=3^x$",
+      "payload": "q(x)=3^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r(x)=x^x$",
+      "payload": "r(x)=x^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\gt 0$",
+      "payload": "x\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$c_k=(1+1/k)^{k^2}$",
+      "payload": "c_k=(1+1/k)^{k^2}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k$",
+      "payload": "k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(c_k)$",
+      "payload": "\\ln(c_k)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u=2x-1$",
+      "payload": "u=2x-1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^u$",
+      "payload": "e^u"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u'$",
+      "payload": "u'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=1/2$",
+      "payload": "x=1/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{3x\\ln(1/2)}$",
+      "payload": "e^{3x\\ln(1/2)}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$5-2x\\gt 0$",
+      "payload": "5-2x\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1+x$",
+      "payload": "1+x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln y=x^2\\ln(1+x)$",
+      "payload": "\\ln y=x^2\\ln(1+x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(x^2)'$",
+      "payload": "(x^2)'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\ln(1+x))'$",
+      "payload": "(\\ln(1+x))'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$3k\\ln(1-2/k)$",
+      "payload": "3k\\ln(1-2/k)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h=-2/k$",
+      "payload": "h=-2/k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k$",
+      "payload": "k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-2/h$",
+      "payload": "-2/h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$[\\ln(1+h)-\\ln1]/h$",
+      "payload": "[\\ln(1+h)-\\ln1]/h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\Delta F/F_0$",
+      "payload": "\\Delta F/F_0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\Delta F=-50$",
+      "payload": "\\Delta F=-50"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F(1)/F(0)$",
+      "payload": "F(1)/F(0)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)$",
+      "payload": "M(a)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(0,1)$",
+      "payload": "(0,1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln c_k=k[k\\ln(1+1/k)]$",
+      "payload": "\\ln c_k=k[k\\ln(1+1/k)]"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1/2$",
+      "payload": "1/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^u$",
+      "payload": "e^u"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^u$",
+      "payload": "e^u"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u=2x-1$",
+      "payload": "u=2x-1"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{dy}{dx}=2e^{2x-1}.\n$$",
+      "payload": "\n\\frac{dy}{dx}=2e^{2x-1}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=1/2$",
+      "payload": "x=1/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^0=1$",
+      "payload": "e^0=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1/2$",
+      "payload": "1/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f=e^{3x\\ln(1/2)}$",
+      "payload": "f=e^{3x\\ln(1/2)}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nf'(x)=3\\ln(1/2)(1/2)^{3x}.\n$$",
+      "payload": "\nf'(x)=3\\ln(1/2)(1/2)^{3x}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(1/2)\\lt 0$",
+      "payload": "\\ln(1/2)\\lt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f'\\lt 0$",
+      "payload": "f'\\lt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$5-2x\\gt 0$",
+      "payload": "5-2x\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\lt 5/2$",
+      "payload": "x\\lt 5/2"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\ng'(x)=\\frac{-2}{5-2x}\\lt 0.\n$$",
+      "payload": "\ng'(x)=\\frac{-2}{5-2x}\\lt 0.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1/(5-2x)$",
+      "payload": "1/(5-2x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=5/2$",
+      "payload": "x=5/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\gt -1$",
+      "payload": "x\\gt -1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=e^{x^2\\ln(1+x)}$",
+      "payload": "y=e^{x^2\\ln(1+x)}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln y=x^2\\ln(1+x).\n$$",
+      "payload": "\n\\ln y=x^2\\ln(1+x).\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{y'}y=2x\\ln(1+x)+\\frac{x^2}{1+x}.\n$$",
+      "payload": "\n\\frac{y'}y=2x\\ln(1+x)+\\frac{x^2}{1+x}.\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\ny'=(1+x)^{x^2}\\left(2x\\ln(1+x)+\\frac{x^2}{1+x}\\right),\\qquad x\\gt -1.\n$$",
+      "payload": "\ny'=(1+x)^{x^2}\\left(2x\\ln(1+x)+\\frac{x^2}{1+x}\\right),\\qquad x\\gt -1.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=0$",
+      "payload": "x=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=1$",
+      "payload": "y=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2x\\ln(1+x)$",
+      "payload": "2x\\ln(1+x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^2$",
+      "payload": "x^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k\\gt 2$",
+      "payload": "k\\gt 2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1-2/k\\gt 0$",
+      "payload": "1-2/k\\gt 0"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln b_k=3k\\ln(1-2/k).\n$$",
+      "payload": "\n\\ln b_k=3k\\ln(1-2/k).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h=-2/k$",
+      "payload": "h=-2/k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h\\to0$",
+      "payload": "h\\to0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k=-2/h$",
+      "payload": "k=-2/h"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln b_k=-6\\frac{\\ln(1+h)-\\ln1}{h}\\longrightarrow-6.\n$$",
+      "payload": "\n\\ln b_k=-6\\frac{\\ln(1+h)-\\ln1}{h}\\longrightarrow-6.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\ln x)'$",
+      "payload": "(\\ln x)'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$b_k=e^{\\ln b_k}$",
+      "payload": "b_k=e^{\\ln b_k}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nb_k\\longrightarrow e^{-6}.\n$$",
+      "payload": "\nb_k\\longrightarrow e^{-6}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-6$",
+      "payload": "-6"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$b_k$",
+      "payload": "b_k"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nF'(t)=-0.02F(t),\\qquad G'(t)=-0.02G(t).\n$$",
+      "payload": "\nF'(t)=-0.02F(t),\\qquad G'(t)=-0.02G(t).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-0.02(300)=-6$",
+      "payload": "-0.02(300)=-6"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-0.02(10000)=-200$",
+      "payload": "-0.02(10000)=-200"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-0.02$",
+      "payload": "-0.02"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-2\\text{ percent}$",
+      "payload": "-2\\text{ percent}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{-50}{300}\\times100\\text{ percent}=-\\frac{50}{3}\\text{ percent}\\approx-16.67\\text{ percent},\\qquad\n\\frac{-50}{10000}\\times100\\text{ percent}=-0.5\\text{ percent}.\n$$",
+      "payload": "\n\\frac{-50}{300}\\times100\\text{ percent}=-\\frac{50}{3}\\text{ percent}\\approx-16.67\\text{ percent},\\qquad\n\\frac{-50}{10000}\\times100\\text{ percent}=-0.5\\text{ percent}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F$",
+      "payload": "F"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F(1)/F(0)=e^{-0.02}$",
+      "payload": "F(1)/F(0)=e^{-0.02}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n100(e^{-0.02}-1)\\text{ percent}\\approx-1.9801\\text{ percent}.\n$$",
+      "payload": "\n100(e^{-0.02}-1)\\text{ percent}\\approx-1.9801\\text{ percent}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-2\\text{ percent}$",
+      "payload": "-2\\text{ percent}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=a^x$",
+      "payload": "y=a^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(0,1)$",
+      "payload": "(0,1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)$",
+      "payload": "M(a)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\ln f)'=f'/f$",
+      "payload": "(\\ln f)'=f'/f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f$",
+      "payload": "f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f'=f(\\ln f)'$",
+      "payload": "f'=f(\\ln f)'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)=\\ln a$",
+      "payload": "M(a)=\\ln a"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$p=x^3$",
+      "payload": "p=x^3"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$p'=3x^2$",
+      "payload": "p'=3x^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$q=3^x$",
+      "payload": "q=3^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$q'=(\\ln3)3^x$",
+      "payload": "q'=(\\ln3)3^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r=x^x$",
+      "payload": "r=x^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{x\\ln x}$",
+      "payload": "e^{x\\ln x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r'=x^x(\\ln x+1)$",
+      "payload": "r'=x^x(\\ln x+1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\gt 0$",
+      "payload": "x\\gt 0"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln c_k=k^2\\ln(1+1/k)\n=k\\left[k\\ln(1+1/k)\\right].\n$$",
+      "payload": "\n\\ln c_k=k^2\\ln(1+1/k)\n=k\\left[k\\ln(1+1/k)\\right].\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1/2$",
+      "payload": "1/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k$",
+      "payload": "k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln c_k\\gt k/2$",
+      "payload": "\\ln c_k\\gt k/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln c_k\\to+\\infty$",
+      "payload": "\\ln c_k\\to+\\infty"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$c_k\\to+\\infty$",
+      "payload": "c_k\\to+\\infty"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k$",
+      "payload": "k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^x$",
+      "payload": "x^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1,0)$",
+      "payload": "(1,0)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$4^x$",
+      "payload": "4^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(0,1)$",
+      "payload": "(0,1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$w=\\ln x\\Rightarrow e^w=x$",
+      "payload": "w=\\ln x\\Rightarrow e^w=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k=10$",
+      "payload": "k=10"
+    }
+  ],
+  "github_math": [
+    {
+      "type": "js-inline-math",
+      "text": "$(uv)'=u'v+uv'$",
+      "payload": "(uv)'=u'v+uv'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(F(u(x)))'=F'(u(x))u'(x)$",
+      "payload": "(F(u(x)))'=F'(u(x))u'(x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a\\gt 1$",
+      "payload": "a\\gt 1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a^x$",
+      "payload": "a^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a$",
+      "payload": "a"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\na^0=1,\\qquad a^1=a,\\qquad a^2=a\\cdot a,\n$$",
+      "payload": "\na^0=1,\\qquad a^1=a,\\qquad a^2=a\\cdot a,\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\na^{x_1+x_2}=a^{x_1}a^{x_2},\\qquad (a^{x_1})^{x_2}=a^{x_1x_2}.\n$$",
+      "payload": "\na^{x_1+x_2}=a^{x_1}a^{x_2},\\qquad (a^{x_1})^{x_2}=a^{x_1x_2}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$p$",
+      "payload": "p"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$q$",
+      "payload": "q"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a^{p/q}=\\sqrt[q]{a^p}$",
+      "payload": "a^{p/q}=\\sqrt[q]{a^p}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h$",
+      "payload": "h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\Delta x$",
+      "payload": "\\Delta x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{a^{x+h}-a^x}{h}\n=a^x\\frac{a^h-1}{h}.\n$$",
+      "payload": "\n\\frac{a^{x+h}-a^x}{h}\n=a^x\\frac{a^h-1}{h}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a^{x+h}$",
+      "payload": "a^{x+h}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a^xa^h$",
+      "payload": "a^xa^h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h$",
+      "payload": "h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a^x$",
+      "payload": "a^x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nM(a)=\\lim_{h\\to0}\\frac{a^h-1}{h}.\n$$",
+      "payload": "\nM(a)=\\lim_{h\\to0}\\frac{a^h-1}{h}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M$",
+      "payload": "M"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=0$",
+      "payload": "x=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{d}{dx}a^x=M(a)a^x.\n$$",
+      "payload": "\n\\frac{d}{dx}a^x=M(a)a^x.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a^x$",
+      "payload": "a^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)$",
+      "payload": "M(a)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(0,1)$",
+      "payload": "(0,1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)$",
+      "payload": "M(a)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a^0=1$",
+      "payload": "a^0=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(e)=1$",
+      "payload": "M(e)=1"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\lim_{h\\to0}\\frac{e^h-1}{h}=1.\n$$",
+      "payload": "\n\\lim_{h\\to0}\\frac{e^h-1}{h}=1.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=2^x$",
+      "payload": "y=2^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(0,1)$",
+      "payload": "(0,1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1,2)$",
+      "payload": "(1,2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(2-1)/(1-0)=1$",
+      "payload": "(2-1)/(1-0)=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(2)\\lt 1$",
+      "payload": "M(2)\\lt 1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=4^x$",
+      "payload": "y=4^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(-1/2,1/2)$",
+      "payload": "(-1/2,1/2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(0,1)$",
+      "payload": "(0,1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1-1/2)/(0-(-1/2))=1$",
+      "payload": "(1-1/2)/(0-(-1/2))=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(4)\\gt 1$",
+      "payload": "M(4)\\gt 1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)$",
+      "payload": "M(a)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)$",
+      "payload": "M(a)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1,0)$",
+      "payload": "(1,0)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(0,1)$",
+      "payload": "(0,1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(e)=1$",
+      "payload": "M(e)=1"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{d}{dx}e^x=e^x.\n$$",
+      "payload": "\n\\frac{d}{dx}e^x=e^x.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u(x)$",
+      "payload": "u(x)"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{d}{dx}e^{u(x)}=e^{u(x)}u'(x).\n$$",
+      "payload": "\n\\frac{d}{dx}e^{u(x)}=e^{u(x)}u'(x).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{3x}$",
+      "payload": "e^{3x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^u$",
+      "payload": "e^u"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u=3x$",
+      "payload": "u=3x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{3x}$",
+      "payload": "e^{3x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(e^{3x})'=3e^{3x}$",
+      "payload": "(e^{3x})'=3e^{3x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=e^{2x-1}$",
+      "payload": "y=e^{2x-1}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$dy/dx$",
+      "payload": "dy/dx"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=1/2$",
+      "payload": "x=1/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\ny=e^x\\quad\\Longleftrightarrow\\quad\\ln y=x,\n$$",
+      "payload": "\ny=e^x\\quad\\Longleftrightarrow\\quad\\ln y=x,\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nw=\\ln x\\quad\\Longleftrightarrow\\quad e^w=x\\qquad(x\\gt 0).\n$$",
+      "payload": "\nw=\\ln x\\quad\\Longleftrightarrow\\quad e^w=x\\qquad(x\\gt 0).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(e^3)=3$",
+      "payload": "\\ln(e^3)=3"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{\\ln 5}=5$",
+      "payload": "e^{\\ln 5}=5"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln x$",
+      "payload": "\\ln x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^0=1$",
+      "payload": "e^0=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln1=0$",
+      "payload": "\\ln1=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln x\\lt 0$",
+      "payload": "\\ln x\\lt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$0\\lt x\\lt 1$",
+      "payload": "0\\lt x\\lt 1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln x\\gt 0$",
+      "payload": "\\ln x\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\gt 1$",
+      "payload": "x\\gt 1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u,v$",
+      "payload": "u,v"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln(uv)=\\ln u+\\ln v.\n$$",
+      "payload": "\n\\ln(uv)=\\ln u+\\ln v.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u=e^r$",
+      "payload": "u=e^r"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$v=e^s$",
+      "payload": "v=e^s"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$uv=e^{r+s}$",
+      "payload": "uv=e^{r+s}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r+s$",
+      "payload": "r+s"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u\\gt 0$",
+      "payload": "u\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r$",
+      "payload": "r"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(u^r)=r\\ln u$",
+      "payload": "\\ln(u^r)=r\\ln u"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$w(x)=\\ln x$",
+      "payload": "w(x)=\\ln x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{w(x)}=x$",
+      "payload": "e^{w(x)}=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\ne^{w(x)}w'(x)=1.\n$$",
+      "payload": "\ne^{w(x)}w'(x)=1.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{w(x)}=x\\gt 0$",
+      "payload": "e^{w(x)}=x\\gt 0"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{d}{dx}\\ln x=\\frac1x\\qquad(x\\gt 0).\n$$",
+      "payload": "\n\\frac{d}{dx}\\ln x=\\frac1x\\qquad(x\\gt 0).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln x$",
+      "payload": "\\ln x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u(x)$",
+      "payload": "u(x)"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{d}{dx}\\ln(u(x))=\\frac{u'(x)}{u(x)}.\n$$",
+      "payload": "\n\\frac{d}{dx}\\ln(u(x))=\\frac{u'(x)}{u(x)}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(1+x^2)$",
+      "payload": "\\ln(1+x^2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2x/(1+x^2)$",
+      "payload": "2x/(1+x^2)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=0$",
+      "payload": "x=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-x$",
+      "payload": "-x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a\\gt 0$",
+      "payload": "a\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a=e^{\\ln a}$",
+      "payload": "a=e^{\\ln a}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\na^x=(e^{\\ln a})^x=e^{x\\ln a}.\n$$",
+      "payload": "\na^x=(e^{\\ln a})^x=e^{x\\ln a}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln a$",
+      "payload": "\\ln a"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{d}{dx}a^x=(\\ln a)e^{x\\ln a}=(\\ln a)a^x.\n$$",
+      "payload": "\n\\frac{d}{dx}a^x=(\\ln a)e^{x\\ln a}=(\\ln a)a^x.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)=\\ln a$",
+      "payload": "M(a)=\\ln a"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M$",
+      "payload": "M"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a\\gt 0$",
+      "payload": "a\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)=1$",
+      "payload": "M(a)=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a=e$",
+      "payload": "a=e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2\\lt e\\lt 4$",
+      "payload": "2\\lt e\\lt 4"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(10^x)'=(\\ln10)10^x$",
+      "payload": "(10^x)'=(\\ln10)10^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a\\gt 1$",
+      "payload": "a\\gt 1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$0\\lt a\\lt 1$",
+      "payload": "0\\lt a\\lt 1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln a\\lt 0$",
+      "payload": "\\ln a\\lt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a^x$",
+      "payload": "a^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a=1$",
+      "payload": "a=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f(x)=(1/2)^{3x}$",
+      "payload": "f(x)=(1/2)^{3x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$g(x)=\\ln(5-2x)$",
+      "payload": "g(x)=\\ln(5-2x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f(x)\\gt 0$",
+      "payload": "f(x)\\gt 0"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(\\ln f(x))'=\\frac{f'(x)}{f(x)},\\qquad\nf'(x)=f(x)(\\ln f(x))'.\n$$",
+      "payload": "\n(\\ln f(x))'=\\frac{f'(x)}{f(x)},\\qquad\nf'(x)=f(x)(\\ln f(x))'.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\ln f)'$",
+      "payload": "(\\ln f)'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\mapsto\\ln(f(x))$",
+      "payload": "x\\mapsto\\ln(f(x))"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(f')$",
+      "payload": "\\ln(f')"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f(x)=a^x$",
+      "payload": "f(x)=a^x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln f=x\\ln a,\\qquad (\\ln f)'=\\ln a,\n$$",
+      "payload": "\n\\ln f=x\\ln a,\\qquad (\\ln f)'=\\ln a,\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nf'=f\\ln a=(\\ln a)a^x.\n$$",
+      "payload": "\nf'=f\\ln a=(\\ln a)a^x.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln a$",
+      "payload": "\\ln a"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f(x)=x^x$",
+      "payload": "f(x)=x^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\gt 0$",
+      "payload": "x\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(x^n)'=nx^{n-1}$",
+      "payload": "(x^n)'=nx^{n-1}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$n$",
+      "payload": "n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(a^x)'=(\\ln a)a^x$",
+      "payload": "(a^x)'=(\\ln a)a^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a$",
+      "payload": "a"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln f=x\\ln x.\n$$",
+      "payload": "\n\\ln f=x\\ln x.\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n(\\ln f)'=1\\cdot\\ln x+x\\cdot\\frac1x=\\ln x+1.\n$$",
+      "payload": "\n(\\ln f)'=1\\cdot\\ln x+x\\cdot\\frac1x=\\ln x+1.\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nf'(x)=x^x(\\ln x+1)\\qquad(x\\gt 0).\n$$",
+      "payload": "\nf'(x)=x^x(\\ln x+1)\\qquad(x\\gt 0).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=2$",
+      "payload": "x=2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$4(\\ln2+1)$",
+      "payload": "4(\\ln2+1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^x=e^{x\\ln x}$",
+      "payload": "x^x=e^{x\\ln x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u(x)\\gt 0$",
+      "payload": "u(x)\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u,v$",
+      "payload": "u,v"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=u(x)^{v(x)}$",
+      "payload": "y=u(x)^{v(x)}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{v(x)\\ln u(x)}$",
+      "payload": "e^{v(x)\\ln u(x)}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln y=v\\ln u,\\qquad\n\\frac{y'}{y}=v'\\ln u+v\\frac{u'}u.\n$$",
+      "payload": "\n\\ln y=v\\ln u,\\qquad\n\\frac{y'}{y}=v'\\ln u+v\\frac{u'}u.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$v$",
+      "payload": "v"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u$",
+      "payload": "u"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=(1+x)^{x^2}$",
+      "payload": "y=(1+x)^{x^2}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\gt -1$",
+      "payload": "x\\gt -1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y'$",
+      "payload": "y'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=0$",
+      "payload": "x=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^2$",
+      "payload": "x^2"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nb_k=\\left(1+\\frac1k\\right)^k\\qquad(k=1,2,3,\\ldots).\n$$",
+      "payload": "\nb_k=\\left(1+\\frac1k\\right)^k\\qquad(k=1,2,3,\\ldots).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k\\to\\infty$",
+      "payload": "k\\to\\infty"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k$",
+      "payload": "k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(1+1/k)$",
+      "payload": "\\ln(1+1/k)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$b_k$",
+      "payload": "b_k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a_k=\\ln b_k$",
+      "payload": "a_k=\\ln b_k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a$",
+      "payload": "a"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\na_k=k\\ln\\left(1+\\frac1k\\right)\n=\\frac{\\ln(1+1/k)}{1/k}.\n$$",
+      "payload": "\na_k=k\\ln\\left(1+\\frac1k\\right)\n=\\frac{\\ln(1+1/k)}{1/k}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h=1/k$",
+      "payload": "h=1/k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h\\to0$",
+      "payload": "h\\to0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln1=0$",
+      "payload": "\\ln1=0"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\na_k=\\frac{\\ln(1+h)-\\ln1}{h}.\n$$",
+      "payload": "\na_k=\\frac{\\ln(1+h)-\\ln1}{h}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$[F(x_0+h)-F(x_0)]/h$",
+      "payload": "[F(x_0+h)-F(x_0)]/h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F=\\ln$",
+      "payload": "F=\\ln"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x_0=1$",
+      "payload": "x_0=1"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\na_k\\longrightarrow (\\ln x)'\\big|_{x=1}=\\frac11=1.\n$$",
+      "payload": "\na_k\\longrightarrow (\\ln x)'\\big|_{x=1}=\\frac11=1.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$b_k=e^{a_k}$",
+      "payload": "b_k=e^{a_k}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nb_k=e^{a_k}\\longrightarrow e^1=e.\n$$",
+      "payload": "\nb_k=e^{a_k}\\longrightarrow e^1=e.\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\lim_{k\\to\\infty}\\left(1+\\frac1k\\right)^k=e.\n$$",
+      "payload": "\n\\lim_{k\\to\\infty}\\left(1+\\frac1k\\right)^k=e.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$b_k$",
+      "payload": "b_k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$a_k$",
+      "payload": "a_k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k=10$",
+      "payload": "k=10"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1.1)^{10}\\approx2.59374$",
+      "payload": "(1.1)^{10}\\approx2.59374"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e\\approx2.71828$",
+      "payload": "e\\approx2.71828"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k$",
+      "payload": "k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k=10$",
+      "payload": "k=10"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln$",
+      "payload": "\\ln"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$L$",
+      "payload": "L"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^L$",
+      "payload": "e^L"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$+\\infty$",
+      "payload": "+\\infty"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-\\infty$",
+      "payload": "-\\infty"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k\\gt 2$",
+      "payload": "k\\gt 2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$b_k=(1-2/k)^{3k}$",
+      "payload": "b_k=(1-2/k)^{3k}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(b_k)$",
+      "payload": "\\ln(b_k)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$b_k$",
+      "payload": "b_k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h=-2/k$",
+      "payload": "h=-2/k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(b_k)$",
+      "payload": "\\ln(b_k)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln$",
+      "payload": "\\ln"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h$",
+      "payload": "h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F_0,F_1$",
+      "payload": "F_0,F_1"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{F_1-F_0}{F_0},\n$$",
+      "payload": "\n\\frac{F_1-F_0}{F_0},\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F(t)$",
+      "payload": "F(t)"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{F'(t)}{F(t)}=\\frac{d}{dt}\\ln(F(t)).\n$$",
+      "payload": "\n\\frac{F'(t)}{F(t)}=\\frac{d}{dt}\\ln(F(t)).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$t$",
+      "payload": "t"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F$",
+      "payload": "F"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F'$",
+      "payload": "F'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F'/F$",
+      "payload": "F'/F"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(F/F_{\\rm ref})$",
+      "payload": "\\ln(F/F_{\\rm ref})"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F'/F$",
+      "payload": "F'/F"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\Delta t$",
+      "payload": "\\Delta t"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nF(t+\\Delta t)-F(t)\\approx F'(t)\\Delta t,\n$$",
+      "payload": "\nF(t+\\Delta t)-F(t)\\approx F'(t)\\Delta t,\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F(t)\\gt 0$",
+      "payload": "F(t)\\gt 0"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{F(t+\\Delta t)-F(t)}{F(t)}\n\\approx\\frac{F'(t)}{F(t)}\\Delta t.\n$$",
+      "payload": "\n\\frac{F(t+\\Delta t)-F(t)}{F(t)}\n\\approx\\frac{F'(t)}{F(t)}\\Delta t.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(F_1/F_0)$",
+      "payload": "\\ln(F_1/F_0)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(F_1-F_0)/F_0$",
+      "payload": "(F_1-F_0)/F_0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\ln x)'$",
+      "payload": "(\\ln x)'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F(t)=80e^{0.03t}$",
+      "payload": "F(t)=80e^{0.03t}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$t$",
+      "payload": "t"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F$",
+      "payload": "F"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F'=2.4e^{0.03t}$",
+      "payload": "F'=2.4e^{0.03t}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F'/F=0.03$",
+      "payload": "F'/F=0.03"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$100(e^{0.03}-1)$",
+      "payload": "100(e^{0.03}-1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F(t)=300e^{-0.02t}$",
+      "payload": "F(t)=300e^{-0.02t}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$G(t)=10000e^{-0.02t}$",
+      "payload": "G(t)=10000e^{-0.02t}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$t$",
+      "payload": "t"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$t=0$",
+      "payload": "t=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F$",
+      "payload": "F"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)$",
+      "payload": "M(a)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\ln f)'$",
+      "payload": "(\\ln f)'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f'$",
+      "payload": "f'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f$",
+      "payload": "f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$p(x)=x^3$",
+      "payload": "p(x)=x^3"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$q(x)=3^x$",
+      "payload": "q(x)=3^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r(x)=x^x$",
+      "payload": "r(x)=x^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\gt 0$",
+      "payload": "x\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$c_k=(1+1/k)^{k^2}$",
+      "payload": "c_k=(1+1/k)^{k^2}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k$",
+      "payload": "k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(c_k)$",
+      "payload": "\\ln(c_k)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u=2x-1$",
+      "payload": "u=2x-1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^u$",
+      "payload": "e^u"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u'$",
+      "payload": "u'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=1/2$",
+      "payload": "x=1/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{3x\\ln(1/2)}$",
+      "payload": "e^{3x\\ln(1/2)}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$5-2x\\gt 0$",
+      "payload": "5-2x\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1+x$",
+      "payload": "1+x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln y=x^2\\ln(1+x)$",
+      "payload": "\\ln y=x^2\\ln(1+x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(x^2)'$",
+      "payload": "(x^2)'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\ln(1+x))'$",
+      "payload": "(\\ln(1+x))'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y$",
+      "payload": "y"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$3k\\ln(1-2/k)$",
+      "payload": "3k\\ln(1-2/k)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h=-2/k$",
+      "payload": "h=-2/k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k$",
+      "payload": "k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-2/h$",
+      "payload": "-2/h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$[\\ln(1+h)-\\ln1]/h$",
+      "payload": "[\\ln(1+h)-\\ln1]/h"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\Delta F/F_0$",
+      "payload": "\\Delta F/F_0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\Delta F=-50$",
+      "payload": "\\Delta F=-50"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F(1)/F(0)$",
+      "payload": "F(1)/F(0)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)$",
+      "payload": "M(a)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(0,1)$",
+      "payload": "(0,1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln c_k=k[k\\ln(1+1/k)]$",
+      "payload": "\\ln c_k=k[k\\ln(1+1/k)]"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1/2$",
+      "payload": "1/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^u$",
+      "payload": "e^u"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^u$",
+      "payload": "e^u"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$u=2x-1$",
+      "payload": "u=2x-1"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{dy}{dx}=2e^{2x-1}.\n$$",
+      "payload": "\n\\frac{dy}{dx}=2e^{2x-1}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=1/2$",
+      "payload": "x=1/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^0=1$",
+      "payload": "e^0=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1/2$",
+      "payload": "1/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f=e^{3x\\ln(1/2)}$",
+      "payload": "f=e^{3x\\ln(1/2)}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nf'(x)=3\\ln(1/2)(1/2)^{3x}.\n$$",
+      "payload": "\nf'(x)=3\\ln(1/2)(1/2)^{3x}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln(1/2)\\lt 0$",
+      "payload": "\\ln(1/2)\\lt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f'\\lt 0$",
+      "payload": "f'\\lt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x$",
+      "payload": "x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$5-2x\\gt 0$",
+      "payload": "5-2x\\gt 0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\lt 5/2$",
+      "payload": "x\\lt 5/2"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\ng'(x)=\\frac{-2}{5-2x}\\lt 0.\n$$",
+      "payload": "\ng'(x)=\\frac{-2}{5-2x}\\lt 0.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1/(5-2x)$",
+      "payload": "1/(5-2x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=5/2$",
+      "payload": "x=5/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\gt -1$",
+      "payload": "x\\gt -1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=e^{x^2\\ln(1+x)}$",
+      "payload": "y=e^{x^2\\ln(1+x)}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln y=x^2\\ln(1+x).\n$$",
+      "payload": "\n\\ln y=x^2\\ln(1+x).\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{y'}y=2x\\ln(1+x)+\\frac{x^2}{1+x}.\n$$",
+      "payload": "\n\\frac{y'}y=2x\\ln(1+x)+\\frac{x^2}{1+x}.\n"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\ny'=(1+x)^{x^2}\\left(2x\\ln(1+x)+\\frac{x^2}{1+x}\\right),\\qquad x\\gt -1.\n$$",
+      "payload": "\ny'=(1+x)^{x^2}\\left(2x\\ln(1+x)+\\frac{x^2}{1+x}\\right),\\qquad x\\gt -1.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x=0$",
+      "payload": "x=0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=1$",
+      "payload": "y=1"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$2x\\ln(1+x)$",
+      "payload": "2x\\ln(1+x)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^2$",
+      "payload": "x^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k\\gt 2$",
+      "payload": "k\\gt 2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1-2/k\\gt 0$",
+      "payload": "1-2/k\\gt 0"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln b_k=3k\\ln(1-2/k).\n$$",
+      "payload": "\n\\ln b_k=3k\\ln(1-2/k).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h=-2/k$",
+      "payload": "h=-2/k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$h\\to0$",
+      "payload": "h\\to0"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k=-2/h$",
+      "payload": "k=-2/h"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln b_k=-6\\frac{\\ln(1+h)-\\ln1}{h}\\longrightarrow-6.\n$$",
+      "payload": "\n\\ln b_k=-6\\frac{\\ln(1+h)-\\ln1}{h}\\longrightarrow-6.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\ln x)'$",
+      "payload": "(\\ln x)'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$b_k=e^{\\ln b_k}$",
+      "payload": "b_k=e^{\\ln b_k}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nb_k\\longrightarrow e^{-6}.\n$$",
+      "payload": "\nb_k\\longrightarrow e^{-6}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-6$",
+      "payload": "-6"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$b_k$",
+      "payload": "b_k"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\nF'(t)=-0.02F(t),\\qquad G'(t)=-0.02G(t).\n$$",
+      "payload": "\nF'(t)=-0.02F(t),\\qquad G'(t)=-0.02G(t).\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-0.02(300)=-6$",
+      "payload": "-0.02(300)=-6"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-0.02(10000)=-200$",
+      "payload": "-0.02(10000)=-200"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-0.02$",
+      "payload": "-0.02"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-2\\text{ percent}$",
+      "payload": "-2\\text{ percent}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\frac{-50}{300}\\times100\\text{ percent}=-\\frac{50}{3}\\text{ percent}\\approx-16.67\\text{ percent},\\qquad\n\\frac{-50}{10000}\\times100\\text{ percent}=-0.5\\text{ percent}.\n$$",
+      "payload": "\n\\frac{-50}{300}\\times100\\text{ percent}=-\\frac{50}{3}\\text{ percent}\\approx-16.67\\text{ percent},\\qquad\n\\frac{-50}{10000}\\times100\\text{ percent}=-0.5\\text{ percent}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F$",
+      "payload": "F"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$F(1)/F(0)=e^{-0.02}$",
+      "payload": "F(1)/F(0)=e^{-0.02}"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n100(e^{-0.02}-1)\\text{ percent}\\approx-1.9801\\text{ percent}.\n$$",
+      "payload": "\n100(e^{-0.02}-1)\\text{ percent}\\approx-1.9801\\text{ percent}.\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$-2\\text{ percent}$",
+      "payload": "-2\\text{ percent}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$y=a^x$",
+      "payload": "y=a^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(0,1)$",
+      "payload": "(0,1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)$",
+      "payload": "M(a)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(\\ln f)'=f'/f$",
+      "payload": "(\\ln f)'=f'/f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f$",
+      "payload": "f"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$f'=f(\\ln f)'$",
+      "payload": "f'=f(\\ln f)'"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$M(a)=\\ln a$",
+      "payload": "M(a)=\\ln a"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$p=x^3$",
+      "payload": "p=x^3"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$p'=3x^2$",
+      "payload": "p'=3x^2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$q=3^x$",
+      "payload": "q=3^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$q'=(\\ln3)3^x$",
+      "payload": "q'=(\\ln3)3^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r=x^x$",
+      "payload": "r=x^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e^{x\\ln x}$",
+      "payload": "e^{x\\ln x}"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$r'=x^x(\\ln x+1)$",
+      "payload": "r'=x^x(\\ln x+1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x\\gt 0$",
+      "payload": "x\\gt 0"
+    },
+    {
+      "type": "js-display-math",
+      "text": "$$\n\\ln c_k=k^2\\ln(1+1/k)\n=k\\left[k\\ln(1+1/k)\\right].\n$$",
+      "payload": "\n\\ln c_k=k^2\\ln(1+1/k)\n=k\\left[k\\ln(1+1/k)\\right].\n"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$1/2$",
+      "payload": "1/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k$",
+      "payload": "k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln c_k\\gt k/2$",
+      "payload": "\\ln c_k\\gt k/2"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$\\ln c_k\\to+\\infty$",
+      "payload": "\\ln c_k\\to+\\infty"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$c_k\\to+\\infty$",
+      "payload": "c_k\\to+\\infty"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k$",
+      "payload": "k"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$e$",
+      "payload": "e"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$x^x$",
+      "payload": "x^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(1,0)$",
+      "payload": "(1,0)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$4^x$",
+      "payload": "4^x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$(0,1)$",
+      "payload": "(0,1)"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$w=\\ln x\\Rightarrow e^w=x$",
+      "payload": "w=\\ln x\\Rightarrow e^w=x"
+    },
+    {
+      "type": "js-inline-math",
+      "text": "$k=10$",
+      "payload": "k=10"
+    }
+  ],
+  "math_mismatches": [],
+  "source_anchor_ids": [
+    "part-1",
+    "task-a1",
+    "part-2",
+    "task-a2",
+    "part-3",
+    "task-a3",
+    "part-4",
+    "task-a4",
+    "part-5",
+    "task-a5",
+    "task-a6",
+    "hints",
+    "hint-a1",
+    "hint-a2",
+    "hint-a3",
+    "hint-a4",
+    "hint-a5",
+    "hint-a6",
+    "solutions",
+    "solution-a1",
+    "solution-a2",
+    "solution-a3",
+    "solution-a4",
+    "solution-a5",
+    "solution-a6"
+  ],
+  "github_anchor_ids": [
+    "user-content-part-1",
+    "user-content-task-a1",
+    "user-content-part-2",
+    "user-content-task-a2",
+    "user-content-part-3",
+    "user-content-task-a3",
+    "user-content-part-4",
+    "user-content-task-a4",
+    "user-content-part-5",
+    "user-content-task-a5",
+    "user-content-task-a6",
+    "user-content-hints",
+    "user-content-hint-a1",
+    "user-content-hint-a2",
+    "user-content-hint-a3",
+    "user-content-hint-a4",
+    "user-content-hint-a5",
+    "user-content-hint-a6",
+    "user-content-solutions",
+    "user-content-solution-a1",
+    "user-content-solution-a2",
+    "user-content-solution-a3",
+    "user-content-solution-a4",
+    "user-content-solution-a5",
+    "user-content-solution-a6"
+  ],
+  "anchors_to_visible_paragraphs": {
+    "user-content-part-1": "Part 1: why an exponential's derivative is proportional to itself",
+    "user-content-task-a1": "Task A1 (generated)",
+    "user-content-part-2": "Part 2: logarithms reverse exponentials",
+    "user-content-task-a2": "Task A2 (generated)",
+    "user-content-part-3": "Part 3: logarithmic differentiation when a power changes",
+    "user-content-task-a3": "Task A3 (generated)",
+    "user-content-part-4": "Part 4: a limit hidden inside a logarithm",
+    "user-content-task-a4": "Task A4 (generated)",
+    "user-content-part-5": "Part 5: relative change explains the usefulness of logarithms",
+    "user-content-task-a5": "Task A5 (generated mathematical models, not market data)",
+    "user-content-task-a6": "Later return: Task A6 (generated)",
+    "user-content-hints": "Hints",
+    "user-content-hint-a1": "Hint A1",
+    "user-content-hint-a2": "Hint A2",
+    "user-content-hint-a3": "Hint A3",
+    "user-content-hint-a4": "Hint A4",
+    "user-content-hint-a5": "Hint A5",
+    "user-content-hint-a6": "Hint A6",
+    "user-content-solutions": "Complete solutions",
+    "user-content-solution-a1": "Solution A1",
+    "user-content-solution-a2": "Solution A2",
+    "user-content-solution-a3": "Solution A3",
+    "user-content-solution-a4": "Solution A4",
+    "user-content-solution-a5": "Solution A5",
+    "user-content-solution-a6": "Solution A6"
+  },
+  "links": [
+    {
+      "href": "#hints",
+      "text": "hints"
+    },
+    {
+      "href": "#solutions",
+      "text": "solutions"
+    },
+    {
+      "href": "#task-a6",
+      "text": "A6"
+    },
+    {
+      "href": "#hint-a1",
+      "text": "Hint A1"
+    },
+    {
+      "href": "#solution-a1",
+      "text": "Solution A1"
+    },
+    {
+      "href": "#hint-a2",
+      "text": "Hint A2"
+    },
+    {
+      "href": "#solution-a2",
+      "text": "Solution A2"
+    },
+    {
+      "href": "#hint-a3",
+      "text": "Hint A3"
+    },
+    {
+      "href": "#solution-a3",
+      "text": "Solution A3"
+    },
+    {
+      "href": "#hint-a4",
+      "text": "Hint A4"
+    },
+    {
+      "href": "#solution-a4",
+      "text": "Solution A4"
+    },
+    {
+      "href": "#hint-a5",
+      "text": "Hint A5"
+    },
+    {
+      "href": "#solution-a5",
+      "text": "Solution A5"
+    },
+    {
+      "href": "#hint-a6",
+      "text": "Hint A6"
+    },
+    {
+      "href": "#solution-a6",
+      "text": "Solution A6"
+    },
+    {
+      "href": "#task-a1",
+      "text": "Return to A1"
+    },
+    {
+      "href": "#task-a2",
+      "text": "Return to A2"
+    },
+    {
+      "href": "#task-a3",
+      "text": "Return to A3"
+    },
+    {
+      "href": "#task-a4",
+      "text": "Return to A4"
+    },
+    {
+      "href": "#task-a5",
+      "text": "Return to A5"
+    },
+    {
+      "href": "#task-a6",
+      "text": "Return to A6"
+    },
+    {
+      "href": "#task-a1",
+      "text": "Return to A1"
+    },
+    {
+      "href": "#hint-a1",
+      "text": "Hint A1"
+    },
+    {
+      "href": "#task-a2",
+      "text": "Return to A2"
+    },
+    {
+      "href": "#hint-a2",
+      "text": "Hint A2"
+    },
+    {
+      "href": "#task-a3",
+      "text": "Return to A3"
+    },
+    {
+      "href": "#hint-a3",
+      "text": "Hint A3"
+    },
+    {
+      "href": "#task-a4",
+      "text": "Return to A4"
+    },
+    {
+      "href": "#hint-a4",
+      "text": "Hint A4"
+    },
+    {
+      "href": "#task-a5",
+      "text": "Return to A5"
+    },
+    {
+      "href": "#hint-a5",
+      "text": "Hint A5"
+    },
+    {
+      "href": "#task-a6",
+      "text": "Return to A6"
+    },
+    {
+      "href": "#hint-a6",
+      "text": "Hint A6"
+    },
+    {
+      "href": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/f9af0e98490296c99d330faf47389507_lec6.pdf",
+      "text": "MIT OpenCourseWare 18.01 Fall 2006 Lecture 6 PDF"
+    }
+  ],
+  "external_links": [
+    {
+      "href": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/f9af0e98490296c99d330faf47389507_lec6.pdf",
+      "text": "MIT OpenCourseWare 18.01 Fall 2006 Lecture 6 PDF"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "A1",
+      "task_target_text": "Task A1 (generated)",
+      "hint_target_text": "Hint A1",
+      "solution_target_text": "Solution A1",
+      "all_targets_once": true,
+      "task_to_hint": true,
+      "task_to_solution": true,
+      "return_links": 2,
+      "target_order": [
+        1,
+        12,
+        19
+      ]
+    },
+    {
+      "task": "A2",
+      "task_target_text": "Task A2 (generated)",
+      "hint_target_text": "Hint A2",
+      "solution_target_text": "Solution A2",
+      "all_targets_once": true,
+      "task_to_hint": true,
+      "task_to_solution": true,
+      "return_links": 2,
+      "target_order": [
+        3,
+        13,
+        20
+      ]
+    },
+    {
+      "task": "A3",
+      "task_target_text": "Task A3 (generated)",
+      "hint_target_text": "Hint A3",
+      "solution_target_text": "Solution A3",
+      "all_targets_once": true,
+      "task_to_hint": true,
+      "task_to_solution": true,
+      "return_links": 2,
+      "target_order": [
+        5,
+        14,
+        21
+      ]
+    },
+    {
+      "task": "A4",
+      "task_target_text": "Task A4 (generated)",
+      "hint_target_text": "Hint A4",
+      "solution_target_text": "Solution A4",
+      "all_targets_once": true,
+      "task_to_hint": true,
+      "task_to_solution": true,
+      "return_links": 2,
+      "target_order": [
+        7,
+        15,
+        22
+      ]
+    },
+    {
+      "task": "A5",
+      "task_target_text": "Task A5 (generated mathematical models, not market data)",
+      "hint_target_text": "Hint A5",
+      "solution_target_text": "Solution A5",
+      "all_targets_once": true,
+      "task_to_hint": true,
+      "task_to_solution": true,
+      "return_links": 2,
+      "target_order": [
+        9,
+        16,
+        23
+      ]
+    },
+    {
+      "task": "A6",
+      "task_target_text": "Later return: Task A6 (generated)",
+      "hint_target_text": "Hint A6",
+      "solution_target_text": "Solution A6",
+      "all_targets_once": true,
+      "task_to_hint": true,
+      "task_to_solution": true,
+      "return_links": 2,
+      "target_order": [
+        10,
+        17,
+        24
+      ]
+    }
+  ],
+  "fragment_semantics": "GitHub sanitizes id to user-content-* while href stays #*. All literal prefixed targets exist exactly once. Client click/scroll translation is not observed.",
+  "normalization": "One ordinary HTMLParser parse with convert_charrefs=True. No html.unescape or recursive entity decoding. Complete source stream strips only invisible comments, exact anchor markup, Markdown link wrappers and list marker prefix; then folds whitespace. Per-math equality is exact including display newlines.",
+  "limitations": [
+    "No live pixels, MathJax execution, computed styles, browser clicks or client JavaScript observed.",
+    "This is a representation/navigation/typography review, not SASIS or global teaching acceptance."
+  ]
+}

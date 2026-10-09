@@ -1,1 +1,1 @@
-Parent-owned D006 final-v3 acceptance at immutable candidate controls. Teaching reviews complete; main publication remains pending. Publish phase A with D006 still open and counts 5/76; verify actual main and bytes before phase B. Original author states and evidence preserved.
+Parent-owned D006 final-v3 acceptance: completed teaching reviews and verified phase-A main publication. State stays bound to the actual candidate controls used by the author. Publish phase-B closure/counts, verify main, fully reload actual published PROF, then fresh D007.

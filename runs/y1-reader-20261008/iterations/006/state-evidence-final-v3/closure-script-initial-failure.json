@@ -1,0 +1,6 @@
+{
+  "failure": "Initial closure-preparation script wrongly demanded uniform source_preparation field for every earlier closed record. D001 and D002 use earlier coverage evidence schemas.",
+  "effect": "Assertion stopped before queue write; source/closure/issue records prepared, but no GitHub phaseB publication occurred. Partial local stage was subsequently rebuilt.",
+  "repair": "Require source_preparation for every future nonclosed eligible input; keep existing earlier accepted evidence schemas intact. Original147IDs/order/count checks unchanged.",
+  "scope": "Bookkeeping script assumption, not a teaching/source failure."
+}

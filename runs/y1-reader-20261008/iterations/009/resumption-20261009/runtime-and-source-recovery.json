@@ -1,0 +1,38 @@
+{
+  "observed_utc": "2026-10-09T11:12:32.414424+00:00",
+  "status": "Managed session Linux executor runs commands; fresh cloud checkout recovered. D009 recovery in progress, not closed.",
+  "incoming_main": "5f27860bcffb433d26ef125792944b34ac83bf38",
+  "workspace": "/workspace/scratch/6a5c7131498d/prof-recovery",
+  "runtime_evidence": {
+    "session_environment": "Managed filesystem /workspace/scratch/6a5c7131498d, bash; exec_command uname -s returned Linux exit 0; pwd returned expected session workspace",
+    "attach_inventory": "No explicit inventory, attach, reconnect or runtime-selection tool in current callable registry. The session-provided managed executor itself successfully executed commands.",
+    "old_workspace": "/workspace/scratch/ac36b9c5ff31 absent from mounted scratch inventory; no old pending-write outcome inferred",
+    "old_unknowns_preserved": true
+  },
+  "repository_readback": "Connector branch and successful git ls-remote agreed; fresh clone HEAD verified",
+  "scope": {
+    "all_original_sessions": 147,
+    "eligible": 76,
+    "excluded": 71,
+    "closed": 8
+  },
+  "active_author": "/root/d009_recovery_author",
+  "author_work": "New recovery revision and newly regenerated figure replacements. Not byte recovery of original figures.",
+  "concurrency": "No newer published checkpoint observed at entry; sole publisher root; author explicitly forbidden to publish or change canonical skill/queue.",
+  "source": {
+    "url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/d41418f410d1e11d0e606a0fc8441b82_lec10.pdf",
+    "sha256": "0f6fd33b13a6a13444e23db72f4445d7d5eab49b6538e266fcf96813ff431da0",
+    "matches_original": true,
+    "root_full_text_read": "pdftotext -layout complete pages1-8; extraction substitutions checked against renders",
+    "root_visual_read": "Individually opened pages1-8 with view_image in two batches, figures1-10 inspected",
+    "technical_observations": [
+      "p3 hollow markers in source polynomial graph mark included points, not holes",
+      "p4 negative derivative only licenses decrease on each interval of domain; never connect across x=0",
+      "p5 stationary point of shifted cubic is not extremum",
+      "p5-6 sequence-based logarithmic tail argument needs complete real-input bridge",
+      "p8 f double prime zero insufficient for inflection: x^4 counterexample; verify concavity change"
+    ]
+  },
+  "acceptance": "No closure, no new SASIS, no skill change; 8/76 remains",
+  "next": "Finish recovered author package and regenerated visuals; freeze complete teaching plus baseline; launch fresh two-input SASIS; independent technical and actual GitHub destination checks."
+}

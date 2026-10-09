@@ -1,3 +1,5 @@
+Current resumption, 2026-10-09: managed cloud commands work in a fresh session workspace. Source PDF recovered with exact original hash; its eight text pages and eight rendered pages read again. Old workspace is absent; historical pending writes and original four figures remain unrecovered. New recovery author is rebuilding a separately labelled complete revision. See iterations/009/resumption-20261009/runtime-and-source-recovery.json. D009 remains incomplete; PROF r15 and 8/76 closed unchanged.
+
 PROF Y1 reader run — recovery checkpoint
 
 Continuation on 2026-10-09: the hourly “Resume PROF in cloud” automation is enabled; see automation.json for its exact prompt and completion-only disabling condition. It must verify the managed cloud runtime before any filesystem work and must never use the Windows computer. The current session still exposes no usable cloud executor or cloud attach/reconnect control. Recurrence cannot itself restore an unavailable runtime.

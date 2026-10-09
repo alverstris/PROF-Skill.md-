@@ -1,0 +1,13 @@
+D010 — MIT 18.01 Fall2006 Lecture11, Max-min problems — closed
+
+Incoming PROF r16; outgoing r17 is metadata progression only. Final teaching-v2.md SHA192609d9d62cc50be534df77b5e5700c6eb7c4a9c32e37c832be6b1ab133742c plus all five actual figures was frozen at629feb501ffd69447b70011d852ece5bf8a04641. Original v1 and both fresh original reader reports remain preserved.
+
+Complete final evidence and actual r17 were published and read back at fcc989c6bdbbb495bbaf60bca761b04780fb8e45, tree7b6d779eac71912f563440e3383f7e51ec90ed06. All76planned blob identities verified against the untruncated canonical tree. Metadata-only inverse byte comparison passes; the instruction body and controls are unchanged, so no revised-instruction generation or new earlier-case regression is claimed.
+
+Root and author independently inspected every original six-page text/image and all six visual relationships. The two local definition defects—interior input and least upper bound—were repaired at P007/P011, independently counterexample-tested and retried through dependent reasoning. Fresh v2 SASIS read the full frozen baseline, entire49passage document and all five figures under exactly two subject inputs; root read and adjudicated its complete original report. All important mathematics and all3prompt answers were independently checked, with the answers calculated before the authored solutions were read. Source mistakes and a false historical reviewer allegation are explicitly resolved without rewriting original evidence.
+
+All156actual GitHub mathematical payloads, full prose,49labels,15links,5image constituents, sourcePDF and scoped CSS checks pass. All8complete final internal-preview pages were visually inspected; named help links and hint/solution separation pass. Live browser pixels/computedstyles/clientMathJax/clicks remain unobserved. The internalPDF is review evidence, not a requested user deliverable. Both final topic/full helper checks are mechanically ready with substantive witnesses in current-r16/final-acceptance.md, root-sasis-disposition-v2.md and final-state/.
+
+No supported material issue remains in the declared acceptance scope. All original states, findings and destination evidence remain preserved; full destination directories are byte-exact archives with per-file manifests and core directly browsable reports. Historical D009 unknown pending-write outcomes remain unknown. No human learning outcome is claimed.
+
+Current total:10of76eligible closed,66remain; all147original IDs and71exclusions retained. Next D011/Lecture12 Related rates begins afresh after canonical closure readback and full published-skill reload. Overall task remains incomplete and continuing.

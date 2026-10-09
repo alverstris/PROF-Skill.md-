@@ -1,0 +1,1 @@
+An initial local v2 publication readback check looked for the v1 key verified_local_blob_ids and raised KeyError before writing any result. Inspecting the actual v2 schema showed verified_local_blobs. Retried using that actual key and verified all33 local entries. No failed check is represented as success.

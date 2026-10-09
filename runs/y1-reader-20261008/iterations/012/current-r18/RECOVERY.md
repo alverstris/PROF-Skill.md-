@@ -1,5 +1,9 @@
 # D012 recovery index
 
+Final content acceptance is now recorded in final-acceptance.md. Fresh v2 SASIS, actual destination, all 13 internal preview pages and root integration pass their stated scopes. The author is reconciling separate final-state/v2-final with frozen incoming r18. Original v2 preparation and all pending/failure records stay unchanged. Outgoing r19 is prepared locally as metadata-only; no closure is implied before helper readiness and actual publication/readback.
+
+destination-v2-final.zip contains all 99 frozen final destination files. destination-v2-archive-manifest.json records every member and the successful complete roundtrip. Extract it into current-r18 to restore destination-v2. Its 13-page PDF is internal evidence only. Original v1 archive remains separate. Core final reports and verification JSON are also published directly at final evidence publication.
+
 GitHub main is authoritative. Inspect its fresh head, RUN.md, complete queue, exact requests and actual published skill before continuing. Managed Linux command execution was verified in this run; do not use the Windows computer or installed skill. Preserve all147 IDs and the audited76eligible/71excluded scope.
 
 Current candidate is author/packet-v2.json (complete teaching-v2.md plus four PNGs). Fresh reader /root/sasis_d012_v2 uses exactly complete frozen baseline plus this whole packet, fork_turns:none. Root owns publication; author_d012_r18 owns author/final-state work; d009_destination_review owns destination checks. Do not start a competing author or publisher while they progress. Check fresh saved evidence instead of treating this index as completion.

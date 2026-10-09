@@ -1,0 +1,19 @@
+# D012 v2 fresh reader admission and complete disposition
+
+Lead read the entire unchanged 142-line original sasis-reader-v2-original.md in ranges1–110 and111–142, including access, all chronological witnesses and all seven final limits. The report belongs to /root/sasis_d012_v2, a separate reader launched fork_turns:none. It was supplied exactly the complete frozen baseline and the complete frozen v2 Markdown/four PNGs, with the operating instruction and identity/access rules but no author/history/source/previous-report/expected-issue content.
+
+Substantive admission established: all six identities match; baseline247840bytes/1377physicalLFcontentlines plus terminalemptyentry was read in14bounded consecutive packets before any teaching. InternalCR were preserved. Teaching32634bytes/426physicalLFlines plus terminalemptyentry was read in strict first-display order1–63/fullimage1,64–129/fullimage2,130–161/fullimage3,162–240,241–316/fullimage4,317–427. No truncation/access repair or unauthorized subject access reported. Whole images were inspected with all axes/labels/legends. This is instruction-confined retrieval with sharedtools technicallyavailable, not erasedpretraining, technicalsandbox or simultaneousfullcontextretention.
+
+The complete report identifies no established blocking substantive connection. Lead independently checked every source portion, mathematical result, full teaching/help and original prompt-only answers, and verified v2's complete inverse equivalence/whole reread (root-technical-review-v1.md, root-v2-repair-verification.json). Reader agreement alone is not acceptance. Current actual GitHub parser also preserves all309orderedmathpayloads exactly by a separate lead check; that is distinct evidence from SASIS.
+
+Full seven-limit disposition:
+
+1. External MIT history/provenance is correctly unverified by SASIS. Lead full original seven-page source/text/figure/table review independently establishes the source title/page mapping, attribution and corrected expressions/caption; reviewer also fetched official/frozen/local identical PDF. No source was given to this reader.
+2. Light taut inextensible string, frictionless sliding, gravity and ideal reflection are explicit model premises. Physical force components and energy ordering were independently checked, and actual settling or nonideal optics is not claimed. No new technical defect.
+3. Local smooth lower-branch differentiation is conditional. P024 proves actual feasibility and P025 a global bound attained by the candidate, avoiding an untaught general existence/implicit-function theorem. General smooth-point reflection uses componentwise single-variable differentiation. No missing dependency.
+4. Newton convergence remains example-specific with a real geometric error bound. Conditional limit, negative target, illegal zero derivative and legal nonconvergent cycle remain distinguished.
+5. Oriented normal and incoming/outgoing directions are explicitly separated. Independent vector reflection identity confirms the teaching; no universal vertical normal is assumed.
+6. Acute angles/below-and-between region are checked for the candidate through D>|b|; the global vector bound applies beyond that region. No overextended sine inversion.
+7. L=AB is degenerate geometry, not an unsupported freely suspended equilibrium; the zero-segment denominator caveat survives even when the final coordinate formula has a limit.
+
+No content repair is warranted by this complete original report. Original v1 and its failed destination evidence remain unchanged. V2 source/SASIS/technical checks are accepted within their stated scopes. Whole final destination/preview and separate final-state reconciliation remain required before closure; no human learning, native livepixels/clicks or corpuscompletion inferred.

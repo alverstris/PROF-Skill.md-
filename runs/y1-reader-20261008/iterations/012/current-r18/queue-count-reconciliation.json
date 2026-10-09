@@ -1,0 +1,27 @@
+{
+  "discovered_before_D012_closure": true,
+  "canonical_checked_head": "12f468d985cbc1cb462e41948f0f017a161a2099",
+  "queue_sha256": "d37227c91a400ece5bf32b876ae85daad6ab57ee66ca1aa817b8bc734172c913",
+  "all_session_ids": 147,
+  "unique_session_ids": 147,
+  "eligible": 76,
+  "excluded": 71,
+  "actual_closed_ids": [
+    "D001",
+    "D002",
+    "D003",
+    "D004",
+    "D005",
+    "D006",
+    "D007",
+    "D008",
+    "D009",
+    "D010",
+    "D011"
+  ],
+  "recorded_closed": 11,
+  "recorded_remaining": 66,
+  "derived_remaining_before_D012_closure": 65,
+  "finding": "The derived remaining field is stale at66 while11closed implies65. Session status/closed count and all147IDs/76eligible/71excluded are correct. This is a bookkeeping defect, not a teaching closure defect.",
+  "planned_repair": "At verified D012 closure, derive both closed and remaining from actual session statuses, require remaining=eligible-closed, preserve all identifiers/order/selection. Do not silently relabel historical readback as full derived-count validation."
+}

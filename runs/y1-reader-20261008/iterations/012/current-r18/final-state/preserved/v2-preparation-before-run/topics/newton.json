@@ -1,0 +1,612 @@
+{
+  "id": "newton",
+  "activation": {
+    "skill_path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/final-state/inputs/SKILL.md",
+    "skill_sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394",
+    "activated_at": "2026-10-09T13:33:29.059593+00:00"
+  },
+  "source_reads": [
+    {
+      "source_id": "lecture",
+      "portion_id": "p1",
+      "status": "read",
+      "reviewed_sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65",
+      "note": "Cover identity/term notice verified."
+    },
+    {
+      "source_id": "lecture",
+      "portion_id": "p2",
+      "status": "read",
+      "reviewed_sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65",
+      "note": "Root example and tangent construction; Fig1 input/curve/intercept distinction."
+    },
+    {
+      "source_id": "lecture",
+      "portion_id": "p3",
+      "status": "read",
+      "reviewed_sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65",
+      "note": "Derivative substitution and recurrence plus Fig2 repeated tangent; denominator source slip located."
+    },
+    {
+      "source_id": "lecture",
+      "portion_id": "p4",
+      "status": "read",
+      "reviewed_sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65",
+      "note": "All table rows/errors and Fig3 generic tangent; limit existence not established by substitution alone."
+    },
+    {
+      "source_id": "lecture",
+      "portion_id": "p5",
+      "status": "read",
+      "reviewed_sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65",
+      "note": "Both root-sign warning and two-cycle figure checked; misleading Fig5 caption identified."
+    },
+    {
+      "source_id": "baseline",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "note": "Full physical LF1–1377 read; relevant operational Newton, algebra, derivatives, trig, vectors and mechanics recorded in source-coverage and author audit."
+    },
+    {
+      "source_id": "execution",
+      "portion_id": "applied",
+      "status": "read",
+      "reviewed_sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7",
+      "note": "Read full protocol; applied bounded source packets, gap resolution, reconstruction, checkpoint and revision-bound gates."
+    },
+    {
+      "source_id": "sasis",
+      "portion_id": "applied",
+      "status": "read",
+      "reviewed_sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384",
+      "note": "Read full role separation and complete-input/fresh-reader requirements; author leaves external reader pending."
+    },
+    {
+      "source_id": "profile",
+      "portion_id": "applied",
+      "status": "read",
+      "reviewed_sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788",
+      "note": "Read full frozen baseline identity/provenance and input rules."
+    },
+    {
+      "source_id": "reader-contract",
+      "portion_id": "applied",
+      "status": "read",
+      "reviewed_sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10",
+      "note": "Read full admission/reader separation and whole-document contract."
+    },
+    {
+      "source_id": "reader-role",
+      "portion_id": "applied",
+      "status": "read",
+      "reviewed_sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+      "note": "Read exact short reader operating instructions; not applied as author isolation."
+    },
+    {
+      "source_id": "rewrite",
+      "portion_id": "applied",
+      "status": "read",
+      "reviewed_sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1",
+      "note": "Read whole supported-issue diagnosis/repair procedure; preserve failed drafts, no skill edits."
+    },
+    {
+      "source_id": "domain",
+      "portion_id": "applied",
+      "status": "read",
+      "reviewed_sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+      "note": "Read mathematics guidance; preserve course conventions, construct/read representations, nonsymmetric checks."
+    },
+    {
+      "source_id": "state-guide",
+      "portion_id": "applied",
+      "status": "read",
+      "reviewed_sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+      "note": "Read complete helper schema/workflow; bind current actual dependencies, keep external gates pending."
+    },
+    {
+      "source_id": "source-record",
+      "portion_id": "coverage",
+      "status": "read",
+      "reviewed_sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4",
+      "note": "Source read/coverage/conventions/gap checkpoint actually saved before drafting."
+    },
+    {
+      "source_id": "baseline-record",
+      "portion_id": "access",
+      "status": "read",
+      "reviewed_sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c",
+      "note": "Full physical-LF access and actual middle truncation recovery logged."
+    },
+    {
+      "source_id": "current-audit",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "current-math",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "3904769a847b205766612a2d2126e7ffcaa74dd2d62d3f37da323bc220bdcd97",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "current-math-code",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "4ab53e120557ef30ae125aa3192ff2b4980a7140c8692caaf2898b30e767da94",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "repair-proof",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "5c6de37940c2888d579828db88fc22458645c839e2bed780d61459be5aa70484",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "repair-code",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "d5c0622c4aac3cf3f3e95dccd2955b57a5d36baab53d3b56f9be36b7a81fffb0",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "repair-diff",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "fb7fca52a0f7309913e1eef088b6905eae1240c1ab9797ac20971ba0026bb40d",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "packet",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "9b34233aeea21ddb0151057ba72197adf8578d98fada842fb37630eb76beba08",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "root-math-review",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "9481c9349c6ca53d365043f56010ad041c3289d08adb4cff151aec47ad5a8da1",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "root-original-source",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "08754910edd4c45ae8b856f3547e4c2f74c31d82aed5a7fa084928c275bd5494",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "root-source-math",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "c504a10462bfd0b539d85f411e9fd5981c1a97521aa63637cab09277815542af",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "root-final-math",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "19c0e00cfc982ca3bf8af786fd576e7a1dfea9dbcad323a14b38957322041ae3",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "root-optics",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "086ccf2e4edc4e2c16483b336d7cc0942fdd9ba2eb66183d8e208003741858ff",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "root-presolution",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "f721c385dad0c03018d49e669228a5df5b06501e9e9debc0c29e07f64138158b",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "root-presolution-review",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "6c58810642820c85f8aab2cfdcc1c32690de3d61138033c9d45480e715fd4231",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "root-current-review",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "7a5e509c99a2a79ec7ae39195f9797bcb737be195927bccb7f1c8dd7103866c0",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "original-destination-review",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "742e24e54c0dc620a46ba566098d982ddddb6c1ad9d268996358d57710afc378",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "original-destination-result",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "07aa7d00c8c3ab2b51efdc770d78d43b606e43c89f3e0285b66bebb8ea2551cd",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "original-destination-map",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "a8a0f0ea4c8c6b4ca1e7953e3a5bbc00bb4749e9ed49e5749b782b289ed61cc1",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    },
+    {
+      "source_id": "root-destination-disposition",
+      "portion_id": "full",
+      "status": "read",
+      "reviewed_sha256": "1ef68622b44bb4a334a8d4803152d1fd87b51a2342fecb21664a070a55dabc28",
+      "note": "Complete actual evidence read/generated/checked at v2 preparation; original source/math evidence remains unchanged and current equivalence independently checked. Fresh external gates are not represented by these historical records."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "destination-recheck",
+      "question": "Does the actual v2 destination preserve all 309 expressions, prose/style/help links and complete usable preview?",
+      "consequential": true,
+      "status": "unverified",
+      "reason": "V1 parser failed at23comparison signs/20inline payloads plus1insignificant leading-space mismatch. Local v2 is inverse-equivalent but source alone cannot prove destination preservation.",
+      "next_action": "Read the fresh full v2 destination report and final preview evidence, reconcile every finding, then bind current evidence.",
+      "evidence": [
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Supported defect and repair. I read the complete original destination-v1/review.md, final-audit.json and complete-math-failure-map.json plus the complete rewrite guide before editing. The destination's one standards-based HTML parse leaves literal entity spellings in 20 inline math payloads; all 23 comparisons are consequential relations, despite intact operands. A second unescape cannot establish actual preservation. The additional P024 ordinary-space mismatch is semantically insignificant but still not byte exact. The entire source/math/author/SASIS/destination audit yielded this consolidated local repair, not a reason to change the teaching structure or existing skill. T11 already required and detected actual destination comparison."
+          }
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "requirements": {
+    "T1": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T1 pass in author scope: P003/P004 root/input/tangent purpose precedes Q1; P016/P017 model/locus precede differentiation; P029/P030 normal/reflection premise precede deduction.",
+      "evidence": [
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current reconstruction, Newton route. P001–P002 identify the two mathematical purposes and route/help structure. P003–P008 define root, input/height, current/next index and tangent at the current point before Q1; setting tangent height zero and dividing by nonzero current slope produces the next input, and the residual checks the curve. The exact first two iterates and Figure 1 agree in both sign panels. P009 distinguishes residual from root error and independently certifies the decimal bracket. P010's repaired inequalities still express x1 greater than the positive root, positive error less than x, and next error less than half the current error; the squared-error identity therefore proves convergence for this start and explains local digit doubling. P011 preserves the conditional limit premise, negative substitution and undefined zero-start division. P012–P013 preserve the exact two-cycle of h=x-x^3, with derivative2/5 and nonzero residuals; Figure 2's tangent crossings agree. Q2 at P014 is supported by earlier update and actual baseline bisection before P015's recap. Its changed start leads to0,1,0,1 and a justified alternative root bracket, not a promise about arbitrary restarts."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Current T witnesses. T1–T4 retain the actual earlier meaning/purpose/conditions, representation bridges, warranted reasoning and connected Newton/ring examples just reconstructed; no meaning, condition or dependency changed. T5–T6 retain proportionate Q1–Q4 practice, changed convergence/feasibility conditions, explicit targets and success criteria requiring reasoning beyond numbers. T7 retains all matched hints/full solutions and honest anticipated-error language. T8 retains the later recall/transfer task and flexible revisit. T9 retains compressed baseline operations with locally taught convergence/globality/normal bridges and four informative figures. T10 author verification is current: technical_checks_v2.py reads v2 and reruns exact rational, decimal, symbolic, numerical, markup and anchor checks; technical-checks-v2.json records the results. Full v1 independent calculations remain historical corroboration of unchanged mathematics, not a newly completed v2 external gate. T11 remains pending for v2: the source repair directly addresses the failed representation, but only a fresh actual destination audit/full preview can establish its success. T12 remains pending for v2: full author reconstruction and source coverage are complete, while a fresh whole-input SASIS reader, destination and final independent integration must bind the frozen v2 packet."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current help/seam reconstruction. P035–P040 group advancing hints before complete solutions and preserve all exact task/return targets. H1 cues point/slope; H2 cues repeated update and midpoint; H3 separates D from segment lengths and prioritises feasibility; H4 cues distinct zero conditions and level supports. P041 gives Q1 tangent/intercept9/4 and residual1/16. P042 gives all Q2 iterates/residuals and midpoint13/8 with retained interval[-2,-3/2]. P043's repaired 10>sqrt40 and6<AB comparisons preserve Q3's nondegenerate versus impossible decisions; coordinates(9/4,-3), lengths15/4,25/4, anglearcsin(3/5), globality and degenerate endpoint caveats remain complete. P044's repaired L>AB keeps Q4 admissibility; Newton8/3 residual1/9 and ring(4,-3),5+5 with attained bound meet every prompt demand. P045–P046 preserve source provenance, page/figure/table coverage, course conventions and precise corrections through the ending. No later solution supplies a missing premise retroactively."
+          }
+        }
+      ],
+      "dependencies": []
+    },
+    "T2": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T2 pass in author scope: P003/P007 recurrence input/output roles; P017/P019 complete squared differences and chain-rule expansion; P018 angle map and P022–P025 build/read geometry; P030 parameter/vector direction/radial derivative. Radical-token repairs retried.",
+      "evidence": [
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current reconstruction, Newton route. P001–P002 identify the two mathematical purposes and route/help structure. P003–P008 define root, input/height, current/next index and tangent at the current point before Q1; setting tangent height zero and dividing by nonzero current slope produces the next input, and the residual checks the curve. The exact first two iterates and Figure 1 agree in both sign panels. P009 distinguishes residual from root error and independently certifies the decimal bracket. P010's repaired inequalities still express x1 greater than the positive root, positive error less than x, and next error less than half the current error; the squared-error identity therefore proves convergence for this start and explains local digit doubling. P011 preserves the conditional limit premise, negative substitution and undefined zero-start division. P012–P013 preserve the exact two-cycle of h=x-x^3, with derivative2/5 and nonzero residuals; Figure 2's tangent crossings agree. Q2 at P014 is supported by earlier update and actual baseline bisection before P015's recap. Its changed start leads to0,1,0,1 and a justified alternative root bracket, not a promise about arbitrary restarts."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Current T witnesses. T1–T4 retain the actual earlier meaning/purpose/conditions, representation bridges, warranted reasoning and connected Newton/ring examples just reconstructed; no meaning, condition or dependency changed. T5–T6 retain proportionate Q1–Q4 practice, changed convergence/feasibility conditions, explicit targets and success criteria requiring reasoning beyond numbers. T7 retains all matched hints/full solutions and honest anticipated-error language. T8 retains the later recall/transfer task and flexible revisit. T9 retains compressed baseline operations with locally taught convergence/globality/normal bridges and four informative figures. T10 author verification is current: technical_checks_v2.py reads v2 and reruns exact rational, decimal, symbolic, numerical, markup and anchor checks; technical-checks-v2.json records the results. Full v1 independent calculations remain historical corroboration of unchanged mathematics, not a newly completed v2 external gate. T11 remains pending for v2: the source repair directly addresses the failed representation, but only a fresh actual destination audit/full preview can establish its success. T12 remains pending for v2: full author reconstruction and source coverage are complete, while a fresh whole-input SASIS reader, destination and final independent integration must bind the frozen v2 packet."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current help/seam reconstruction. P035–P040 group advancing hints before complete solutions and preserve all exact task/return targets. H1 cues point/slope; H2 cues repeated update and midpoint; H3 separates D from segment lengths and prioritises feasibility; H4 cues distinct zero conditions and level supports. P041 gives Q1 tangent/intercept9/4 and residual1/16. P042 gives all Q2 iterates/residuals and midpoint13/8 with retained interval[-2,-3/2]. P043's repaired 10>sqrt40 and6<AB comparisons preserve Q3's nondegenerate versus impossible decisions; coordinates(9/4,-3), lengths15/4,25/4, anglearcsin(3/5), globality and degenerate endpoint caveats remain complete. P044's repaired L>AB keeps Q4 admissibility; Newton8/3 residual1/9 and ring(4,-3),5+5 with attained bound meet every prompt demand. P045–P046 preserve source provenance, page/figure/table coverage, course conventions and precise corrections through the ending. No later solution supplies a missing premise retroactively."
+          }
+        }
+      ],
+      "dependencies": []
+    },
+    "T3": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T3 pass in author scope: nonzero slope P004; exact error/convergence P010; conditional limit P011; acute sine P020; positive D/length feasibility P023/P024; all-position lower bound P025; local normal proof P030. Technical symbolic/numeric checks agree.",
+      "evidence": [
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current reconstruction, Newton route. P001–P002 identify the two mathematical purposes and route/help structure. P003–P008 define root, input/height, current/next index and tangent at the current point before Q1; setting tangent height zero and dividing by nonzero current slope produces the next input, and the residual checks the curve. The exact first two iterates and Figure 1 agree in both sign panels. P009 distinguishes residual from root error and independently certifies the decimal bracket. P010's repaired inequalities still express x1 greater than the positive root, positive error less than x, and next error less than half the current error; the squared-error identity therefore proves convergence for this start and explains local digit doubling. P011 preserves the conditional limit premise, negative substitution and undefined zero-start division. P012–P013 preserve the exact two-cycle of h=x-x^3, with derivative2/5 and nonzero residuals; Figure 2's tangent crossings agree. Q2 at P014 is supported by earlier update and actual baseline bisection before P015's recap. Its changed start leads to0,1,0,1 and a justified alternative root bracket, not a promise about arbitrary restarts."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Current T witnesses. T1–T4 retain the actual earlier meaning/purpose/conditions, representation bridges, warranted reasoning and connected Newton/ring examples just reconstructed; no meaning, condition or dependency changed. T5–T6 retain proportionate Q1–Q4 practice, changed convergence/feasibility conditions, explicit targets and success criteria requiring reasoning beyond numbers. T7 retains all matched hints/full solutions and honest anticipated-error language. T8 retains the later recall/transfer task and flexible revisit. T9 retains compressed baseline operations with locally taught convergence/globality/normal bridges and four informative figures. T10 author verification is current: technical_checks_v2.py reads v2 and reruns exact rational, decimal, symbolic, numerical, markup and anchor checks; technical-checks-v2.json records the results. Full v1 independent calculations remain historical corroboration of unchanged mathematics, not a newly completed v2 external gate. T11 remains pending for v2: the source repair directly addresses the failed representation, but only a fresh actual destination audit/full preview can establish its success. T12 remains pending for v2: full author reconstruction and source coverage are complete, while a fresh whole-input SASIS reader, destination and final independent integration must bind the frozen v2 packet."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current help/seam reconstruction. P035–P040 group advancing hints before complete solutions and preserve all exact task/return targets. H1 cues point/slope; H2 cues repeated update and midpoint; H3 separates D from segment lengths and prioritises feasibility; H4 cues distinct zero conditions and level supports. P041 gives Q1 tangent/intercept9/4 and residual1/16. P042 gives all Q2 iterates/residuals and midpoint13/8 with retained interval[-2,-3/2]. P043's repaired 10>sqrt40 and6<AB comparisons preserve Q3's nondegenerate versus impossible decisions; coordinates(9/4,-3), lengths15/4,25/4, anglearcsin(3/5), globality and degenerate endpoint caveats remain complete. P044's repaired L>AB keeps Q4 admissibility; Newton8/3 residual1/9 and ring(4,-3),5+5 with attained bound meet every prompt demand. P045–P046 preserve source provenance, page/figure/table coverage, course conventions and precise corrections through the ending. No later solution supplies a missing premise retroactively."
+          }
+        }
+      ],
+      "dependencies": []
+    },
+    "T4": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T4 pass in author scope: connected Newton P004–P010 plus concrete failure P012; connected ring P017–P026 including stationary candidate, feasible coordinates and global conclusion. Help repeats the relevant decisions rather than only answers.",
+      "evidence": [
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current reconstruction, Newton route. P001–P002 identify the two mathematical purposes and route/help structure. P003–P008 define root, input/height, current/next index and tangent at the current point before Q1; setting tangent height zero and dividing by nonzero current slope produces the next input, and the residual checks the curve. The exact first two iterates and Figure 1 agree in both sign panels. P009 distinguishes residual from root error and independently certifies the decimal bracket. P010's repaired inequalities still express x1 greater than the positive root, positive error less than x, and next error less than half the current error; the squared-error identity therefore proves convergence for this start and explains local digit doubling. P011 preserves the conditional limit premise, negative substitution and undefined zero-start division. P012–P013 preserve the exact two-cycle of h=x-x^3, with derivative2/5 and nonzero residuals; Figure 2's tangent crossings agree. Q2 at P014 is supported by earlier update and actual baseline bisection before P015's recap. Its changed start leads to0,1,0,1 and a justified alternative root bracket, not a promise about arbitrary restarts."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Current T witnesses. T1–T4 retain the actual earlier meaning/purpose/conditions, representation bridges, warranted reasoning and connected Newton/ring examples just reconstructed; no meaning, condition or dependency changed. T5–T6 retain proportionate Q1–Q4 practice, changed convergence/feasibility conditions, explicit targets and success criteria requiring reasoning beyond numbers. T7 retains all matched hints/full solutions and honest anticipated-error language. T8 retains the later recall/transfer task and flexible revisit. T9 retains compressed baseline operations with locally taught convergence/globality/normal bridges and four informative figures. T10 author verification is current: technical_checks_v2.py reads v2 and reruns exact rational, decimal, symbolic, numerical, markup and anchor checks; technical-checks-v2.json records the results. Full v1 independent calculations remain historical corroboration of unchanged mathematics, not a newly completed v2 external gate. T11 remains pending for v2: the source repair directly addresses the failed representation, but only a fresh actual destination audit/full preview can establish its success. T12 remains pending for v2: full author reconstruction and source coverage are complete, while a fresh whole-input SASIS reader, destination and final independent integration must bind the frozen v2 packet."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current help/seam reconstruction. P035–P040 group advancing hints before complete solutions and preserve all exact task/return targets. H1 cues point/slope; H2 cues repeated update and midpoint; H3 separates D from segment lengths and prioritises feasibility; H4 cues distinct zero conditions and level supports. P041 gives Q1 tangent/intercept9/4 and residual1/16. P042 gives all Q2 iterates/residuals and midpoint13/8 with retained interval[-2,-3/2]. P043's repaired 10>sqrt40 and6<AB comparisons preserve Q3's nondegenerate versus impossible decisions; coordinates(9/4,-3), lengths15/4,25/4, anglearcsin(3/5), globality and degenerate endpoint caveats remain complete. P044's repaired L>AB keeps Q4 admissibility; Newton8/3 residual1/9 and ring(4,-3),5+5 with attained bound meet every prompt demand. P045–P046 preserve source provenance, page/figure/table coverage, course conventions and precise corrections through the ending. No later solution supplies a missing premise retroactively."
+          }
+        }
+      ],
+      "dependencies": []
+    },
+    "T5": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T5 pass: lesson practice applies to both capabilities; Q1 early supported after first usable result, Q2 changes convergence/method, Q3 changes nondegenerate feasibility, Q4 integrates method discrimination. No quota or exam provenance invented.",
+      "evidence": [
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current reconstruction, Newton route. P001–P002 identify the two mathematical purposes and route/help structure. P003–P008 define root, input/height, current/next index and tangent at the current point before Q1; setting tangent height zero and dividing by nonzero current slope produces the next input, and the residual checks the curve. The exact first two iterates and Figure 1 agree in both sign panels. P009 distinguishes residual from root error and independently certifies the decimal bracket. P010's repaired inequalities still express x1 greater than the positive root, positive error less than x, and next error less than half the current error; the squared-error identity therefore proves convergence for this start and explains local digit doubling. P011 preserves the conditional limit premise, negative substitution and undefined zero-start division. P012–P013 preserve the exact two-cycle of h=x-x^3, with derivative2/5 and nonzero residuals; Figure 2's tangent crossings agree. Q2 at P014 is supported by earlier update and actual baseline bisection before P015's recap. Its changed start leads to0,1,0,1 and a justified alternative root bracket, not a promise about arbitrary restarts."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Current T witnesses. T1–T4 retain the actual earlier meaning/purpose/conditions, representation bridges, warranted reasoning and connected Newton/ring examples just reconstructed; no meaning, condition or dependency changed. T5–T6 retain proportionate Q1–Q4 practice, changed convergence/feasibility conditions, explicit targets and success criteria requiring reasoning beyond numbers. T7 retains all matched hints/full solutions and honest anticipated-error language. T8 retains the later recall/transfer task and flexible revisit. T9 retains compressed baseline operations with locally taught convergence/globality/normal bridges and four informative figures. T10 author verification is current: technical_checks_v2.py reads v2 and reruns exact rational, decimal, symbolic, numerical, markup and anchor checks; technical-checks-v2.json records the results. Full v1 independent calculations remain historical corroboration of unchanged mathematics, not a newly completed v2 external gate. T11 remains pending for v2: the source repair directly addresses the failed representation, but only a fresh actual destination audit/full preview can establish its success. T12 remains pending for v2: full author reconstruction and source coverage are complete, while a fresh whole-input SASIS reader, destination and final independent integration must bind the frozen v2 packet."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current help/seam reconstruction. P035–P040 group advancing hints before complete solutions and preserve all exact task/return targets. H1 cues point/slope; H2 cues repeated update and midpoint; H3 separates D from segment lengths and prioritises feasibility; H4 cues distinct zero conditions and level supports. P041 gives Q1 tangent/intercept9/4 and residual1/16. P042 gives all Q2 iterates/residuals and midpoint13/8 with retained interval[-2,-3/2]. P043's repaired 10>sqrt40 and6<AB comparisons preserve Q3's nondegenerate versus impossible decisions; coordinates(9/4,-3), lengths15/4,25/4, anglearcsin(3/5), globality and degenerate endpoint caveats remain complete. P044's repaired L>AB keeps Q4 admissibility; Newton8/3 residual1/9 and ring(4,-3),5+5 with attained bound meet every prompt demand. P045–P046 preserve source provenance, page/figure/table coverage, course conventions and precise corrections through the ending. No later solution supplies a missing premise retroactively."
+          }
+        }
+      ],
+      "dependencies": []
+    },
+    "T6": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T6 pass: allfour retained tasks have target and response criterion; residual/global reasoning and distinct zero conditions prevent a copied number constituting the whole response. Headings do not disclose bisection choice.",
+      "evidence": [
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current reconstruction, Newton route. P001–P002 identify the two mathematical purposes and route/help structure. P003–P008 define root, input/height, current/next index and tangent at the current point before Q1; setting tangent height zero and dividing by nonzero current slope produces the next input, and the residual checks the curve. The exact first two iterates and Figure 1 agree in both sign panels. P009 distinguishes residual from root error and independently certifies the decimal bracket. P010's repaired inequalities still express x1 greater than the positive root, positive error less than x, and next error less than half the current error; the squared-error identity therefore proves convergence for this start and explains local digit doubling. P011 preserves the conditional limit premise, negative substitution and undefined zero-start division. P012–P013 preserve the exact two-cycle of h=x-x^3, with derivative2/5 and nonzero residuals; Figure 2's tangent crossings agree. Q2 at P014 is supported by earlier update and actual baseline bisection before P015's recap. Its changed start leads to0,1,0,1 and a justified alternative root bracket, not a promise about arbitrary restarts."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Current T witnesses. T1–T4 retain the actual earlier meaning/purpose/conditions, representation bridges, warranted reasoning and connected Newton/ring examples just reconstructed; no meaning, condition or dependency changed. T5–T6 retain proportionate Q1–Q4 practice, changed convergence/feasibility conditions, explicit targets and success criteria requiring reasoning beyond numbers. T7 retains all matched hints/full solutions and honest anticipated-error language. T8 retains the later recall/transfer task and flexible revisit. T9 retains compressed baseline operations with locally taught convergence/globality/normal bridges and four informative figures. T10 author verification is current: technical_checks_v2.py reads v2 and reruns exact rational, decimal, symbolic, numerical, markup and anchor checks; technical-checks-v2.json records the results. Full v1 independent calculations remain historical corroboration of unchanged mathematics, not a newly completed v2 external gate. T11 remains pending for v2: the source repair directly addresses the failed representation, but only a fresh actual destination audit/full preview can establish its success. T12 remains pending for v2: full author reconstruction and source coverage are complete, while a fresh whole-input SASIS reader, destination and final independent integration must bind the frozen v2 packet."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current help/seam reconstruction. P035–P040 group advancing hints before complete solutions and preserve all exact task/return targets. H1 cues point/slope; H2 cues repeated update and midpoint; H3 separates D from segment lengths and prioritises feasibility; H4 cues distinct zero conditions and level supports. P041 gives Q1 tangent/intercept9/4 and residual1/16. P042 gives all Q2 iterates/residuals and midpoint13/8 with retained interval[-2,-3/2]. P043's repaired 10>sqrt40 and6<AB comparisons preserve Q3's nondegenerate versus impossible decisions; coordinates(9/4,-3), lengths15/4,25/4, anglearcsin(3/5), globality and degenerate endpoint caveats remain complete. P044's repaired L>AB keeps Q4 admissibility; Newton8/3 residual1/9 and ring(4,-3),5+5 with attained bound meet every prompt demand. P045–P046 preserve source provenance, page/figure/table coverage, course conventions and precise corrections through the ending. No later solution supplies a missing premise retroactively."
+          }
+        }
+      ],
+      "dependencies": []
+    },
+    "T7": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T7 pass: Q1–Q4 each has one separate advancing hint and complete reasoned solution, exact matching/return links. No student attempt was received; S1 repair examples honestly anticipated.",
+      "evidence": [
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current reconstruction, Newton route. P001–P002 identify the two mathematical purposes and route/help structure. P003–P008 define root, input/height, current/next index and tangent at the current point before Q1; setting tangent height zero and dividing by nonzero current slope produces the next input, and the residual checks the curve. The exact first two iterates and Figure 1 agree in both sign panels. P009 distinguishes residual from root error and independently certifies the decimal bracket. P010's repaired inequalities still express x1 greater than the positive root, positive error less than x, and next error less than half the current error; the squared-error identity therefore proves convergence for this start and explains local digit doubling. P011 preserves the conditional limit premise, negative substitution and undefined zero-start division. P012–P013 preserve the exact two-cycle of h=x-x^3, with derivative2/5 and nonzero residuals; Figure 2's tangent crossings agree. Q2 at P014 is supported by earlier update and actual baseline bisection before P015's recap. Its changed start leads to0,1,0,1 and a justified alternative root bracket, not a promise about arbitrary restarts."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Current T witnesses. T1–T4 retain the actual earlier meaning/purpose/conditions, representation bridges, warranted reasoning and connected Newton/ring examples just reconstructed; no meaning, condition or dependency changed. T5–T6 retain proportionate Q1–Q4 practice, changed convergence/feasibility conditions, explicit targets and success criteria requiring reasoning beyond numbers. T7 retains all matched hints/full solutions and honest anticipated-error language. T8 retains the later recall/transfer task and flexible revisit. T9 retains compressed baseline operations with locally taught convergence/globality/normal bridges and four informative figures. T10 author verification is current: technical_checks_v2.py reads v2 and reruns exact rational, decimal, symbolic, numerical, markup and anchor checks; technical-checks-v2.json records the results. Full v1 independent calculations remain historical corroboration of unchanged mathematics, not a newly completed v2 external gate. T11 remains pending for v2: the source repair directly addresses the failed representation, but only a fresh actual destination audit/full preview can establish its success. T12 remains pending for v2: full author reconstruction and source coverage are complete, while a fresh whole-input SASIS reader, destination and final independent integration must bind the frozen v2 packet."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current help/seam reconstruction. P035–P040 group advancing hints before complete solutions and preserve all exact task/return targets. H1 cues point/slope; H2 cues repeated update and midpoint; H3 separates D from segment lengths and prioritises feasibility; H4 cues distinct zero conditions and level supports. P041 gives Q1 tangent/intercept9/4 and residual1/16. P042 gives all Q2 iterates/residuals and midpoint13/8 with retained interval[-2,-3/2]. P043's repaired 10>sqrt40 and6<AB comparisons preserve Q3's nondegenerate versus impossible decisions; coordinates(9/4,-3), lengths15/4,25/4, anglearcsin(3/5), globality and degenerate endpoint caveats remain complete. P044's repaired L>AB keeps Q4 admissibility; Newton8/3 residual1/9 and ring(4,-3),5+5 with attained bound meet every prompt demand. P045–P046 preserve source provenance, page/figure/table coverage, course conventions and precise corrections through the ending. No later solution supplies a missing premise retroactively."
+          }
+        }
+      ],
+      "dependencies": []
+    },
+    "T8": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T8 pass: P033/Q4 offers later recall and mixed application after both taught routes; P034 distinguishes them, spacing adjustable. No unrequested reminder created by author.",
+      "evidence": [
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current reconstruction, Newton route. P001–P002 identify the two mathematical purposes and route/help structure. P003–P008 define root, input/height, current/next index and tangent at the current point before Q1; setting tangent height zero and dividing by nonzero current slope produces the next input, and the residual checks the curve. The exact first two iterates and Figure 1 agree in both sign panels. P009 distinguishes residual from root error and independently certifies the decimal bracket. P010's repaired inequalities still express x1 greater than the positive root, positive error less than x, and next error less than half the current error; the squared-error identity therefore proves convergence for this start and explains local digit doubling. P011 preserves the conditional limit premise, negative substitution and undefined zero-start division. P012–P013 preserve the exact two-cycle of h=x-x^3, with derivative2/5 and nonzero residuals; Figure 2's tangent crossings agree. Q2 at P014 is supported by earlier update and actual baseline bisection before P015's recap. Its changed start leads to0,1,0,1 and a justified alternative root bracket, not a promise about arbitrary restarts."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Current T witnesses. T1–T4 retain the actual earlier meaning/purpose/conditions, representation bridges, warranted reasoning and connected Newton/ring examples just reconstructed; no meaning, condition or dependency changed. T5–T6 retain proportionate Q1–Q4 practice, changed convergence/feasibility conditions, explicit targets and success criteria requiring reasoning beyond numbers. T7 retains all matched hints/full solutions and honest anticipated-error language. T8 retains the later recall/transfer task and flexible revisit. T9 retains compressed baseline operations with locally taught convergence/globality/normal bridges and four informative figures. T10 author verification is current: technical_checks_v2.py reads v2 and reruns exact rational, decimal, symbolic, numerical, markup and anchor checks; technical-checks-v2.json records the results. Full v1 independent calculations remain historical corroboration of unchanged mathematics, not a newly completed v2 external gate. T11 remains pending for v2: the source repair directly addresses the failed representation, but only a fresh actual destination audit/full preview can establish its success. T12 remains pending for v2: full author reconstruction and source coverage are complete, while a fresh whole-input SASIS reader, destination and final independent integration must bind the frozen v2 packet."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current help/seam reconstruction. P035–P040 group advancing hints before complete solutions and preserve all exact task/return targets. H1 cues point/slope; H2 cues repeated update and midpoint; H3 separates D from segment lengths and prioritises feasibility; H4 cues distinct zero conditions and level supports. P041 gives Q1 tangent/intercept9/4 and residual1/16. P042 gives all Q2 iterates/residuals and midpoint13/8 with retained interval[-2,-3/2]. P043's repaired 10>sqrt40 and6<AB comparisons preserve Q3's nondegenerate versus impossible decisions; coordinates(9/4,-3), lengths15/4,25/4, anglearcsin(3/5), globality and degenerate endpoint caveats remain complete. P044's repaired L>AB keeps Q4 admissibility; Newton8/3 residual1/9 and ring(4,-3),5+5 with attained bound meet every prompt demand. P045–P046 preserve source provenance, page/figure/table coverage, course conventions and precise corrections through the ending. No later solution supplies a missing premise retroactively."
+          }
+        }
+      ],
+      "dependencies": []
+    },
+    "T9": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T9 pass in author scope: baseline calculus/algebra/vectors compressed; unfamiliar convergence/global/normal bridges provided locally. Four figures map to specific source visual inferences; no decorative imagery.",
+      "evidence": [
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current reconstruction, Newton route. P001–P002 identify the two mathematical purposes and route/help structure. P003–P008 define root, input/height, current/next index and tangent at the current point before Q1; setting tangent height zero and dividing by nonzero current slope produces the next input, and the residual checks the curve. The exact first two iterates and Figure 1 agree in both sign panels. P009 distinguishes residual from root error and independently certifies the decimal bracket. P010's repaired inequalities still express x1 greater than the positive root, positive error less than x, and next error less than half the current error; the squared-error identity therefore proves convergence for this start and explains local digit doubling. P011 preserves the conditional limit premise, negative substitution and undefined zero-start division. P012–P013 preserve the exact two-cycle of h=x-x^3, with derivative2/5 and nonzero residuals; Figure 2's tangent crossings agree. Q2 at P014 is supported by earlier update and actual baseline bisection before P015's recap. Its changed start leads to0,1,0,1 and a justified alternative root bracket, not a promise about arbitrary restarts."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Current T witnesses. T1–T4 retain the actual earlier meaning/purpose/conditions, representation bridges, warranted reasoning and connected Newton/ring examples just reconstructed; no meaning, condition or dependency changed. T5–T6 retain proportionate Q1–Q4 practice, changed convergence/feasibility conditions, explicit targets and success criteria requiring reasoning beyond numbers. T7 retains all matched hints/full solutions and honest anticipated-error language. T8 retains the later recall/transfer task and flexible revisit. T9 retains compressed baseline operations with locally taught convergence/globality/normal bridges and four informative figures. T10 author verification is current: technical_checks_v2.py reads v2 and reruns exact rational, decimal, symbolic, numerical, markup and anchor checks; technical-checks-v2.json records the results. Full v1 independent calculations remain historical corroboration of unchanged mathematics, not a newly completed v2 external gate. T11 remains pending for v2: the source repair directly addresses the failed representation, but only a fresh actual destination audit/full preview can establish its success. T12 remains pending for v2: full author reconstruction and source coverage are complete, while a fresh whole-input SASIS reader, destination and final independent integration must bind the frozen v2 packet."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current help/seam reconstruction. P035–P040 group advancing hints before complete solutions and preserve all exact task/return targets. H1 cues point/slope; H2 cues repeated update and midpoint; H3 separates D from segment lengths and prioritises feasibility; H4 cues distinct zero conditions and level supports. P041 gives Q1 tangent/intercept9/4 and residual1/16. P042 gives all Q2 iterates/residuals and midpoint13/8 with retained interval[-2,-3/2]. P043's repaired 10>sqrt40 and6<AB comparisons preserve Q3's nondegenerate versus impossible decisions; coordinates(9/4,-3), lengths15/4,25/4, anglearcsin(3/5), globality and degenerate endpoint caveats remain complete. P044's repaired L>AB keeps Q4 admissibility; Newton8/3 residual1/9 and ring(4,-3),5+5 with attained bound meet every prompt demand. P045–P046 preserve source provenance, page/figure/table coverage, course conventions and precise corrections through the ending. No later solution supplies a missing premise retroactively."
+          }
+        }
+      ],
+      "dependencies": []
+    },
+    "T10": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "T10 pass for performed author technical verification only: technical-checks-v2.json and script exact rationals, decimal brackets, symbolic error/length identities, nonsymmetric and negative-b ring checks, cycle/force/reflection checks. Root independent v2 inverse/full reading is complete; fresh SASIS/destination/final remain pending.",
+      "evidence": [
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current reconstruction, Newton route. P001–P002 identify the two mathematical purposes and route/help structure. P003–P008 define root, input/height, current/next index and tangent at the current point before Q1; setting tangent height zero and dividing by nonzero current slope produces the next input, and the residual checks the curve. The exact first two iterates and Figure 1 agree in both sign panels. P009 distinguishes residual from root error and independently certifies the decimal bracket. P010's repaired inequalities still express x1 greater than the positive root, positive error less than x, and next error less than half the current error; the squared-error identity therefore proves convergence for this start and explains local digit doubling. P011 preserves the conditional limit premise, negative substitution and undefined zero-start division. P012–P013 preserve the exact two-cycle of h=x-x^3, with derivative2/5 and nonzero residuals; Figure 2's tangent crossings agree. Q2 at P014 is supported by earlier update and actual baseline bisection before P015's recap. Its changed start leads to0,1,0,1 and a justified alternative root bracket, not a promise about arbitrary restarts."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Current T witnesses. T1–T4 retain the actual earlier meaning/purpose/conditions, representation bridges, warranted reasoning and connected Newton/ring examples just reconstructed; no meaning, condition or dependency changed. T5–T6 retain proportionate Q1–Q4 practice, changed convergence/feasibility conditions, explicit targets and success criteria requiring reasoning beyond numbers. T7 retains all matched hints/full solutions and honest anticipated-error language. T8 retains the later recall/transfer task and flexible revisit. T9 retains compressed baseline operations with locally taught convergence/globality/normal bridges and four informative figures. T10 author verification is current: technical_checks_v2.py reads v2 and reruns exact rational, decimal, symbolic, numerical, markup and anchor checks; technical-checks-v2.json records the results. Full v1 independent calculations remain historical corroboration of unchanged mathematics, not a newly completed v2 external gate. T11 remains pending for v2: the source repair directly addresses the failed representation, but only a fresh actual destination audit/full preview can establish its success. T12 remains pending for v2: full author reconstruction and source coverage are complete, while a fresh whole-input SASIS reader, destination and final independent integration must bind the frozen v2 packet."
+          }
+        },
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current help/seam reconstruction. P035–P040 group advancing hints before complete solutions and preserve all exact task/return targets. H1 cues point/slope; H2 cues repeated update and midpoint; H3 separates D from segment lengths and prioritises feasibility; H4 cues distinct zero conditions and level supports. P041 gives Q1 tangent/intercept9/4 and residual1/16. P042 gives all Q2 iterates/residuals and midpoint13/8 with retained interval[-2,-3/2]. P043's repaired 10>sqrt40 and6<AB comparisons preserve Q3's nondegenerate versus impossible decisions; coordinates(9/4,-3), lengths15/4,25/4, anglearcsin(3/5), globality and degenerate endpoint caveats remain complete. P044's repaired L>AB keeps Q4 admissibility; Newton8/3 residual1/9 and ring(4,-3),5+5 with attained bound meet every prompt demand. P045–P046 preserve source provenance, page/figure/table coverage, course conventions and precise corrections through the ending. No later solution supplies a missing premise retroactively."
+          }
+        }
+      ],
+      "dependencies": []
+    },
+    "T11": {
+      "applicable": true,
+      "status": "pending",
+      "reason": "V1 actual parser failed; v2 source repair has no fresh actual destination preservation/style/navigation result yet.",
+      "evidence": [],
+      "dependencies": []
+    },
+    "T12": {
+      "applicable": true,
+      "status": "pending",
+      "reason": "Final integration and acceptance await fresh SASIS, actual destination/full preview and complete current evidence reconciliation.",
+      "evidence": [],
+      "dependencies": []
+    }
+  }
+}

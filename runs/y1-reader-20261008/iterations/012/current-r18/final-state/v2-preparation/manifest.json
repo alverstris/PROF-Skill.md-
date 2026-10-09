@@ -1,0 +1,3129 @@
+{
+  "schema_version": 1,
+  "project_root": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18",
+  "skill": {
+    "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/final-state/inputs/SKILL.md",
+    "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+  },
+  "request": {
+    "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/final-state/inputs/runs/y1-reader-20261008/requests.md",
+    "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+  },
+  "required_topics": [
+    {
+      "id": "newton",
+      "title": "Newton tangent iteration and failure diagnosis",
+      "source_portions": [
+        {
+          "source_id": "lecture",
+          "portion_id": "p1"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p2"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p3"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p4"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p5"
+        },
+        {
+          "source_id": "baseline",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "execution",
+          "portion_id": "applied"
+        },
+        {
+          "source_id": "sasis",
+          "portion_id": "applied"
+        },
+        {
+          "source_id": "profile",
+          "portion_id": "applied"
+        },
+        {
+          "source_id": "reader-contract",
+          "portion_id": "applied"
+        },
+        {
+          "source_id": "reader-role",
+          "portion_id": "applied"
+        },
+        {
+          "source_id": "rewrite",
+          "portion_id": "applied"
+        },
+        {
+          "source_id": "domain",
+          "portion_id": "applied"
+        },
+        {
+          "source_id": "state-guide",
+          "portion_id": "applied"
+        },
+        {
+          "source_id": "source-record",
+          "portion_id": "coverage"
+        },
+        {
+          "source_id": "baseline-record",
+          "portion_id": "access"
+        },
+        {
+          "source_id": "current-audit",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "current-math",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "current-math-code",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "repair-proof",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "repair-code",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "repair-diff",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "packet",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-math-review",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-original-source",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-source-math",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-final-math",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-optics",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-presolution",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-presolution-review",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-current-review",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "original-destination-review",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "original-destination-result",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "original-destination-map",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-destination-disposition",
+          "portion_id": "full"
+        }
+      ],
+      "outputs": [
+        "teaching",
+        "figure1",
+        "figure2",
+        "figure3",
+        "figure4"
+      ]
+    },
+    {
+      "id": "ring",
+      "title": "Constrained ring minimum, feasibility and ellipse geometry",
+      "source_portions": [
+        {
+          "source_id": "lecture",
+          "portion_id": "p1"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p6"
+        },
+        {
+          "source_id": "lecture",
+          "portion_id": "p7"
+        },
+        {
+          "source_id": "baseline",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "execution",
+          "portion_id": "applied"
+        },
+        {
+          "source_id": "sasis",
+          "portion_id": "applied"
+        },
+        {
+          "source_id": "profile",
+          "portion_id": "applied"
+        },
+        {
+          "source_id": "reader-contract",
+          "portion_id": "applied"
+        },
+        {
+          "source_id": "reader-role",
+          "portion_id": "applied"
+        },
+        {
+          "source_id": "rewrite",
+          "portion_id": "applied"
+        },
+        {
+          "source_id": "domain",
+          "portion_id": "applied"
+        },
+        {
+          "source_id": "state-guide",
+          "portion_id": "applied"
+        },
+        {
+          "source_id": "source-record",
+          "portion_id": "coverage"
+        },
+        {
+          "source_id": "baseline-record",
+          "portion_id": "access"
+        },
+        {
+          "source_id": "current-audit",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "current-math",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "current-math-code",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "repair-proof",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "repair-code",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "repair-diff",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "packet",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-math-review",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-original-source",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-source-math",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-final-math",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-optics",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-presolution",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-presolution-review",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-current-review",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "original-destination-review",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "original-destination-result",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "original-destination-map",
+          "portion_id": "full"
+        },
+        {
+          "source_id": "root-destination-disposition",
+          "portion_id": "full"
+        }
+      ],
+      "outputs": [
+        "teaching",
+        "figure1",
+        "figure2",
+        "figure3",
+        "figure4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "lecture",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/source/lec13.pdf",
+      "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65",
+      "portions": [
+        {
+          "id": "p1",
+          "locator": "PDF page 1; whole original text and full PNG inspected",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        },
+        {
+          "id": "p2",
+          "locator": "PDF page 2; whole original text and full PNG inspected",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        },
+        {
+          "id": "p3",
+          "locator": "PDF page 3; whole original text and full PNG inspected",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        },
+        {
+          "id": "p4",
+          "locator": "PDF page 4; whole original text and full PNG inspected",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        },
+        {
+          "id": "p5",
+          "locator": "PDF page 5; whole original text and full PNG inspected",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        },
+        {
+          "id": "p6",
+          "locator": "PDF page 6; whole original text and full PNG inspected",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        },
+        {
+          "id": "p7",
+          "locator": "PDF page 7; whole original text and full PNG inspected",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "baseline",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/final-state/inputs/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Physical LF1\u20131377 inclusive, internal CR retained; final empty split item1378",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "execution",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/final-state/inputs/references/execution-protocol.md",
+      "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7",
+      "portions": [
+        {
+          "id": "applied",
+          "locator": "Complete file read",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "sasis",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/final-state/inputs/references/sasis.md",
+      "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384",
+      "portions": [
+        {
+          "id": "applied",
+          "locator": "Complete file read",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/final-state/inputs/references/sasis/profile-manifest.json",
+      "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788",
+      "portions": [
+        {
+          "id": "applied",
+          "locator": "Complete file read",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "reader-contract",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/final-state/inputs/references/sasis/student-testing-contract.txt",
+      "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10",
+      "portions": [
+        {
+          "id": "applied",
+          "locator": "Complete file read",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "reader-role",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/final-state/inputs/references/sasis/student-role.txt",
+      "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+      "portions": [
+        {
+          "id": "applied",
+          "locator": "Complete file read",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "rewrite",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/final-state/inputs/references/sasis/rewrite-guide.md",
+      "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1",
+      "portions": [
+        {
+          "id": "applied",
+          "locator": "Complete file read",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "domain",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/final-state/inputs/references/domain-patterns.md",
+      "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+      "portions": [
+        {
+          "id": "applied",
+          "locator": "Complete file read; domain mathematics portion applied",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "state-guide",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/final-state/inputs/references/state-tool.md",
+      "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+      "portions": [
+        {
+          "id": "applied",
+          "locator": "Complete file read",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "source-record",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/author/source-coverage-v1.md",
+      "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4",
+      "portions": [
+        {
+          "id": "coverage",
+          "locator": "Full source coverage, constraints, prerequisites and conventions",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "baseline-record",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/author/baseline-access.json",
+      "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c",
+      "portions": [
+        {
+          "id": "access",
+          "locator": "All actual range accesses and clipping recovery",
+          "disposition": "required",
+          "reason": "Within assigned D012 scope or applied author control.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "current-audit",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/author/author-audit-v2.md",
+      "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "current-math",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/author/technical-checks-v2.json",
+      "sha256": "3904769a847b205766612a2d2126e7ffcaa74dd2d62d3f37da323bc220bdcd97",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "current-math-code",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/author/technical_checks_v2.py",
+      "sha256": "4ab53e120557ef30ae125aa3192ff2b4980a7140c8692caaf2898b30e767da94",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "repair-proof",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/author/v2-repair-equivalence.json",
+      "sha256": "5c6de37940c2888d579828db88fc22458645c839e2bed780d61459be5aa70484",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "repair-code",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/author/repair_v2.py",
+      "sha256": "d5c0622c4aac3cf3f3e95dccd2955b57a5d36baab53d3b56f9be36b7a81fffb0",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "repair-diff",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/author/v1-to-v2.diff",
+      "sha256": "fb7fca52a0f7309913e1eef088b6905eae1240c1ab9797ac20971ba0026bb40d",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "packet",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/author/packet-v2.json",
+      "sha256": "9b34233aeea21ddb0151057ba72197adf8578d98fada842fb37630eb76beba08",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "root-math-review",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/root-technical-review-v1.md",
+      "sha256": "9481c9349c6ca53d365043f56010ad041c3289d08adb4cff151aec47ad5a8da1",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "root-original-source",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/root-source-review.md",
+      "sha256": "08754910edd4c45ae8b856f3547e4c2f74c31d82aed5a7fa084928c275bd5494",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "root-source-math",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/root-source-calculations.json",
+      "sha256": "c504a10462bfd0b539d85f411e9fd5981c1a97521aa63637cab09277815542af",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "root-final-math",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/root-v1-extra-calculations.json",
+      "sha256": "19c0e00cfc982ca3bf8af786fd576e7a1dfea9dbcad323a14b38957322041ae3",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "root-optics",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/root-ellipse-optics-verification.md",
+      "sha256": "086ccf2e4edc4e2c16483b336d7cc0942fdd9ba2eb66183d8e208003741858ff",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "root-presolution",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/root-presolution-record.json",
+      "sha256": "f721c385dad0c03018d49e669228a5df5b06501e9e9debc0c29e07f64138158b",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "root-presolution-review",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/root-presolution-review.md",
+      "sha256": "6c58810642820c85f8aab2cfdcc1c32690de3d61138033c9d45480e715fd4231",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "root-current-review",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/root-v2-repair-verification.json",
+      "sha256": "7a5e509c99a2a79ec7ae39195f9797bcb737be195927bccb7f1c8dd7103866c0",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "original-destination-review",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/destination-v1/review.md",
+      "sha256": "742e24e54c0dc620a46ba566098d982ddddb6c1ad9d268996358d57710afc378",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "original-destination-result",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/destination-v1/final-audit.json",
+      "sha256": "07aa7d00c8c3ab2b51efdc770d78d43b606e43c89f3e0285b66bebb8ea2551cd",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "original-destination-map",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/destination-v1/complete-math-failure-map.json",
+      "sha256": "a8a0f0ea4c8c6b4ca1e7953e3a5bbc00bb4749e9ed49e5749b782b289ed61cc1",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "root-destination-disposition",
+      "path": "/workspace/scratch/6a5c7131498d/prof-r18/runs/y1-reader-20261008/iterations/012/current-r18/root-destination-v1-disposition.md",
+      "sha256": "1ef68622b44bb4a334a8d4803152d1fd87b51a2342fecb21664a070a55dabc28",
+      "portions": [
+        {
+          "id": "full",
+          "locator": "Complete file; actual scope and chronology in author-audit-v2.md and final-state/v2-preparation/RUN.md",
+          "disposition": "required",
+          "reason": "Current content review, independent verification, exact representation repair or preserved defect evidence; not a substitute for pending fresh external gates.",
+          "evidence": []
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "id": "teaching",
+      "path": "author/teaching-v2.md",
+      "sha256": "04355b5ac132bfdaecf6a165cf332d0e04a0ff29bd59b53e03d6c801c9838d59"
+    },
+    {
+      "id": "figure1",
+      "path": "author/figures/newton-steps.png",
+      "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+    },
+    {
+      "id": "figure2",
+      "path": "author/figures/newton-cycle.png",
+      "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+    },
+    {
+      "id": "figure3",
+      "path": "author/figures/ring-geometry.png",
+      "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+    },
+    {
+      "id": "figure4",
+      "path": "author/figures/ellipse-reflection.png",
+      "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+    }
+  ],
+  "output_checks": [
+    {
+      "id": "coverage",
+      "description": "Coverage and preservation. C01=>P001/P045; C02=>P003\u2013P005/Figure1; C03=>P007\u2013P008; C04=>P009\u2013P011; C05=>P011\u2013P015/Figures1\u20132; C06=>P016\u2013P021/Figure3; C07=>P022\u2013P032/Figure4/P045. Original source errors and boundaries remain P046. No source portion or help is dropped. Original v1 packet, original author helper state, original failed destination report and original reader are preserved. Incoming r18 controls remain separately frozen in final-state/inputs. No skill edit or publication performed by this author. No destination, fresh SASIS, final acceptance or human-learning pass is claimed.\n",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Coverage and preservation. C01=>P001/P045; C02=>P003\u2013P005/Figure1; C03=>P007\u2013P008; C04=>P009\u2013P011; C05=>P011\u2013P015/Figures1\u20132; C06=>P016\u2013P021/Figure3; C07=>P022\u2013P032/Figure4/P045. Original source errors and boundaries remain P046. No source portion or help is dropped. Original v1 packet, original author helper state, original failed destination report and original reader are preserved. Incoming r18 controls remain separately frozen in final-state/inputs. No skill edit or publication performed by this author. No destination, fresh SASIS, final acceptance or human-learning pass is claimed.\n",
+      "evidence": [
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Coverage and preservation. C01=>P001/P045; C02=>P003\u2013P005/Figure1; C03=>P007\u2013P008; C04=>P009\u2013P011; C05=>P011\u2013P015/Figures1\u20132; C06=>P016\u2013P021/Figure3; C07=>P022\u2013P032/Figure4/P045. Original source errors and boundaries remain P046. No source portion or help is dropped. Original v1 packet, original author helper state, original failed destination report and original reader are preserved. Incoming r18 controls remain separately frozen in final-state/inputs. No skill edit or publication performed by this author. No destination, fresh SASIS, final acceptance or human-learning pass is claimed.\n"
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "8f75eecd139cfa80e241a0c4a1233d09cc37edcee01399e980e0ca662badecb6"
+        },
+        {
+          "kind": "output",
+          "id": "figure1",
+          "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+        },
+        {
+          "kind": "output",
+          "id": "figure2",
+          "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+        },
+        {
+          "kind": "output",
+          "id": "figure3",
+          "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+        },
+        {
+          "kind": "output",
+          "id": "figure4",
+          "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "04355b5ac132bfdaecf6a165cf332d0e04a0ff29bd59b53e03d6c801c9838d59"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "baseline-record",
+          "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c"
+        },
+        {
+          "kind": "source",
+          "id": "current-audit",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc"
+        },
+        {
+          "kind": "source",
+          "id": "current-math",
+          "sha256": "3904769a847b205766612a2d2126e7ffcaa74dd2d62d3f37da323bc220bdcd97"
+        },
+        {
+          "kind": "source",
+          "id": "current-math-code",
+          "sha256": "4ab53e120557ef30ae125aa3192ff2b4980a7140c8692caaf2898b30e767da94"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-map",
+          "sha256": "a8a0f0ea4c8c6b4ca1e7953e3a5bbc00bb4749e9ed49e5749b782b289ed61cc1"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-result",
+          "sha256": "07aa7d00c8c3ab2b51efdc770d78d43b606e43c89f3e0285b66bebb8ea2551cd"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-review",
+          "sha256": "742e24e54c0dc620a46ba566098d982ddddb6c1ad9d268996358d57710afc378"
+        },
+        {
+          "kind": "source",
+          "id": "packet",
+          "sha256": "9b34233aeea21ddb0151057ba72197adf8578d98fada842fb37630eb76beba08"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "repair-code",
+          "sha256": "d5c0622c4aac3cf3f3e95dccd2955b57a5d36baab53d3b56f9be36b7a81fffb0"
+        },
+        {
+          "kind": "source",
+          "id": "repair-diff",
+          "sha256": "fb7fca52a0f7309913e1eef088b6905eae1240c1ab9797ac20971ba0026bb40d"
+        },
+        {
+          "kind": "source",
+          "id": "repair-proof",
+          "sha256": "5c6de37940c2888d579828db88fc22458645c839e2bed780d61459be5aa70484"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "root-current-review",
+          "sha256": "7a5e509c99a2a79ec7ae39195f9797bcb737be195927bccb7f1c8dd7103866c0"
+        },
+        {
+          "kind": "source",
+          "id": "root-destination-disposition",
+          "sha256": "1ef68622b44bb4a334a8d4803152d1fd87b51a2342fecb21664a070a55dabc28"
+        },
+        {
+          "kind": "source",
+          "id": "root-final-math",
+          "sha256": "19c0e00cfc982ca3bf8af786fd576e7a1dfea9dbcad323a14b38957322041ae3"
+        },
+        {
+          "kind": "source",
+          "id": "root-math-review",
+          "sha256": "9481c9349c6ca53d365043f56010ad041c3289d08adb4cff151aec47ad5a8da1"
+        },
+        {
+          "kind": "source",
+          "id": "root-optics",
+          "sha256": "086ccf2e4edc4e2c16483b336d7cc0942fdd9ba2eb66183d8e208003741858ff"
+        },
+        {
+          "kind": "source",
+          "id": "root-original-source",
+          "sha256": "08754910edd4c45ae8b856f3547e4c2f74c31d82aed5a7fa084928c275bd5494"
+        },
+        {
+          "kind": "source",
+          "id": "root-presolution",
+          "sha256": "f721c385dad0c03018d49e669228a5df5b06501e9e9debc0c29e07f64138158b"
+        },
+        {
+          "kind": "source",
+          "id": "root-presolution-review",
+          "sha256": "6c58810642820c85f8aab2cfdcc1c32690de3d61138033c9d45480e715fd4231"
+        },
+        {
+          "kind": "source",
+          "id": "root-source-math",
+          "sha256": "c504a10462bfd0b539d85f411e9fd5981c1a97521aa63637cab09277815542af"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-record",
+          "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "9fe900ed16420973a2b8e6de80fda47f21dde2910f4ea4e13ac31267bfe1cf59"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline-record",
+          "sha256": "7771422009b7c4e15ec21fc206b10d59862a6cf598dbb6aeb30496d47a57f039"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-audit",
+          "sha256": "47414b1c47a3e1415083f038f51d626bc723b21f6b35dba04f42e5d656a8c11b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-math",
+          "sha256": "b836c69fc605426626e088a28bbf866ad2cae400de6572c864dfeb1d187ecee2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-math-code",
+          "sha256": "be03300731661d40e066878d96a371b8ba6e46a803b9c99948b1e8d5b5bb3f63"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "96871bf19d65e39446f2b71d07ac29e97df09b5216dd9aab80e7b0ca10ad6490"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "7e260d4d7ec85448c05c16a0fdac4fcbb583c1767b1e6946d2d0d0f8583ecfbb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "71c52899d26cee8fb0047a7c6d4dbe14014c9227cf48f3ce3089a174abfb43ed"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-map",
+          "sha256": "d4eaf8b48fee3cde5284d95764939c87ded4e1213e83e8f04377a04216a9b9f7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-result",
+          "sha256": "95695fc2fcbabc4b47fc7ce19550b9d42c3a109d69aeac11d96c7711c6eff545"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-review",
+          "sha256": "17d5ebf91274ba13a1a38c82551b989b4fafae95368074d6d91b0b32f38c2161"
+        },
+        {
+          "kind": "source_scope",
+          "id": "packet",
+          "sha256": "c0f3c8170915872800340d07109d83895f94c09d7969c14d5cc6a9c806e5e770"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "2475b93aad2dbe08d0b3e8e9c58b5bc75e34c5399588b4fd02cdfa1a2d946871"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "aea8a63112455e0fba2060e4e2a3e6a185380f7a1906a98d8541f1d1c27d5782"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "2e3624d5110939efafb40e7b89bf1eade545d5f24ee73facddfc36378f09d73c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-code",
+          "sha256": "5a9a67a488144407b08e317d8fc4d319cdfe9be57030da4809338c513c21bada"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-diff",
+          "sha256": "46b37601e1847a1612e2553e742b9f4d0c5de9501f09e77f55157329dc7e4d7b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-proof",
+          "sha256": "99c59ffe3a223cbd650b30286b053d13a6c393ae6c722c6b5f4bcc37a9ae6446"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "2566fd4ee8984692a681b2dfded93e7270d0c08f3bb5fd6e48f221bb49ff9b99"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-current-review",
+          "sha256": "a33eacee5a2795d0a461df4a9d385048a50bb255bfdcf4371e411f515b6c0555"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-destination-disposition",
+          "sha256": "9cd3869ab37536b0b5f4dcb9592677c51d9bafd61ce3e336fbbe6332db294283"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-final-math",
+          "sha256": "6761884d246273b5601deb07095d09999b74c3debad73174e78f7c9d15072fb3"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-math-review",
+          "sha256": "e66d4266668a0a73859454ea39a457145c35f577640633f528033d41760781f0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-optics",
+          "sha256": "cd816982a4436c93e68dfb5d16f03e28b47514050acec7ea8fd685e20cf7dfb6"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-original-source",
+          "sha256": "23c3f86558a014da87f6f4b1f89a799662292e4af70fde8666bbc108a83462d7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-presolution",
+          "sha256": "8f8251655caa45c380fde54adbc7d0b10b7b9341d8aaeae5db99d6eb2e26ad27"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-presolution-review",
+          "sha256": "6926fe3fa21efa002e6179817015c1c2f867bac2f172bee8d4e4884608f5586c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-source-math",
+          "sha256": "dd39a036303b2e088fa8b681966776176550f6c55e759d024e08e35f045fc36e"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "70a4b32f242b7d859454e9ad5ce0342b874a1a4d48375e796f5e1e533efb6d30"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-record",
+          "sha256": "899fb527528f8f83cd5b17c2dfe4443e222b8f4e8de7d273bc73e8361c111f42"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "6776cf069407fdc4e8f66f9c4cd97dc78ba5a9ba0748b2a0c977454c0fc67160"
+        },
+        {
+          "kind": "topic",
+          "id": "newton",
+          "sha256": "613727e459229cb2887d7c725aa40308285d34b8a96a19fd5ea278a659fb1beb"
+        },
+        {
+          "kind": "topic",
+          "id": "ring",
+          "sha256": "5ebd503eb44e8015cfb4d299adabbce2ce4f7c42574504acf0e1a90fd866873a"
+        }
+      ]
+    },
+    {
+      "id": "author_reconstruction",
+      "description": "Full current reconstruction, Newton route. P001\u2013P002 identify the two mathematical purposes and route/help structure. P003\u2013P008 define root, input/height, current/next index and tangent at the current point before Q1; setting tangent height zero and dividing by nonzero current slope produces the next input, and the residual checks the curve. The exact first two iterates and Figure 1 agree in both sign panels. P009 distinguishes residual from root error and independently certifies the decimal bracket. P010's repaired inequalities still express x1 greater than the positive root, positive error less than x, and next error less than half the current error; the squared-error identity therefore proves convergence for this start and explains local digit doubling. P011 preserves the conditional limit premise, negative substitution and undefined zero-start division. P012\u2013P013 preserve the exact two-cycle of h=x-x^3, with derivative2/5 and nonzero residuals; Figure 2's tangent crossings agree. Q2 at P014 is supported by earlier update and actual baseline bisection before P015's recap. Its changed start leads to0,1,0,1 and a justified alternative root bracket, not a promise about arbitrary restarts.\n\nFull current reconstruction, ring route. P016's repaired a and m,g positivity conditions preserve the coordinate convention and energy objective; the introduced physical model distinguishes equilibrium minimum from lossless dynamic settling. P017's repaired length inequality preserves the nondegenerate ellipse premise. P018's Figure 3 has the stated (8,3,10) dimensions and separates the allowed locus from actual string. P019\u2013P021 differentiate the constraint using the local branch and fixed supports, obtain a stationary candidate, restrict sine comparison to acute angles, and correctly balance signed ring-force components. P022\u2013P024 add triangle legs/rises, choose positive D, derive x by tangent ratios, and use repaired D>|b|, interior x, below-support y and positive D\u00b1b to verify the candidate region and both actual lengths. Removing the ordinary leading display space leaves the full a-x fraction and explicit spacing command unchanged. P025's universal vector broken-path inequality still proves a lower bound attained by the feasible candidate; it is not merely local stationarity. P026's repaired numerical comparison verifies the worked example's admissibility. P027's repaired less/greater comparisons still distinguish impossible length, degenerate segment and nondegenerate ellipse; the zero-segment caveat remains explicit. Q3 at P028 has all necessary setup and earlier derivation, including its meaningful changed feasibility condition.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Full current reconstruction, Newton route. P001\u2013P002 identify the two mathematical purposes and route/help structure. P003\u2013P008 define root, input/height, current/next index and tangent at the current point before Q1; setting tangent height zero and dividing by nonzero current slope produces the next input, and the residual checks the curve. The exact first two iterates and Figure 1 agree in both sign panels. P009 distinguishes residual from root error and independently certifies the decimal bracket. P010's repaired inequalities still express x1 greater than the positive root, positive error less than x, and next error less than half the current error; the squared-error identity therefore proves convergence for this start and explains local digit doubling. P011 preserves the conditional limit premise, negative substitution and undefined zero-start division. P012\u2013P013 preserve the exact two-cycle of h=x-x^3, with derivative2/5 and nonzero residuals; Figure 2's tangent crossings agree. Q2 at P014 is supported by earlier update and actual baseline bisection before P015's recap. Its changed start leads to0,1,0,1 and a justified alternative root bracket, not a promise about arbitrary restarts.\n\nFull current reconstruction, ring route. P016's repaired a and m,g positivity conditions preserve the coordinate convention and energy objective; the introduced physical model distinguishes equilibrium minimum from lossless dynamic settling. P017's repaired length inequality preserves the nondegenerate ellipse premise. P018's Figure 3 has the stated (8,3,10) dimensions and separates the allowed locus from actual string. P019\u2013P021 differentiate the constraint using the local branch and fixed supports, obtain a stationary candidate, restrict sine comparison to acute angles, and correctly balance signed ring-force components. P022\u2013P024 add triangle legs/rises, choose positive D, derive x by tangent ratios, and use repaired D>|b|, interior x, below-support y and positive D\u00b1b to verify the candidate region and both actual lengths. Removing the ordinary leading display space leaves the full a-x fraction and explicit spacing command unchanged. P025's universal vector broken-path inequality still proves a lower bound attained by the feasible candidate; it is not merely local stationarity. P026's repaired numerical comparison verifies the worked example's admissibility. P027's repaired less/greater comparisons still distinguish impossible length, degenerate segment and nondegenerate ellipse; the zero-segment caveat remains explicit. Q3 at P028 has all necessary setup and earlier derivation, including its meaningful changed feasibility condition.",
+      "evidence": [
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Full current reconstruction, Newton route. P001\u2013P002 identify the two mathematical purposes and route/help structure. P003\u2013P008 define root, input/height, current/next index and tangent at the current point before Q1; setting tangent height zero and dividing by nonzero current slope produces the next input, and the residual checks the curve. The exact first two iterates and Figure 1 agree in both sign panels. P009 distinguishes residual from root error and independently certifies the decimal bracket. P010's repaired inequalities still express x1 greater than the positive root, positive error less than x, and next error less than half the current error; the squared-error identity therefore proves convergence for this start and explains local digit doubling. P011 preserves the conditional limit premise, negative substitution and undefined zero-start division. P012\u2013P013 preserve the exact two-cycle of h=x-x^3, with derivative2/5 and nonzero residuals; Figure 2's tangent crossings agree. Q2 at P014 is supported by earlier update and actual baseline bisection before P015's recap. Its changed start leads to0,1,0,1 and a justified alternative root bracket, not a promise about arbitrary restarts.\n\nFull current reconstruction, ring route. P016's repaired a and m,g positivity conditions preserve the coordinate convention and energy objective; the introduced physical model distinguishes equilibrium minimum from lossless dynamic settling. P017's repaired length inequality preserves the nondegenerate ellipse premise. P018's Figure 3 has the stated (8,3,10) dimensions and separates the allowed locus from actual string. P019\u2013P021 differentiate the constraint using the local branch and fixed supports, obtain a stationary candidate, restrict sine comparison to acute angles, and correctly balance signed ring-force components. P022\u2013P024 add triangle legs/rises, choose positive D, derive x by tangent ratios, and use repaired D>|b|, interior x, below-support y and positive D\u00b1b to verify the candidate region and both actual lengths. Removing the ordinary leading display space leaves the full a-x fraction and explicit spacing command unchanged. P025's universal vector broken-path inequality still proves a lower bound attained by the feasible candidate; it is not merely local stationarity. P026's repaired numerical comparison verifies the worked example's admissibility. P027's repaired less/greater comparisons still distinguish impossible length, degenerate segment and nondegenerate ellipse; the zero-segment caveat remains explicit. Q3 at P028 has all necessary setup and earlier derivation, including its meaningful changed feasibility condition."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "8f75eecd139cfa80e241a0c4a1233d09cc37edcee01399e980e0ca662badecb6"
+        },
+        {
+          "kind": "output",
+          "id": "figure1",
+          "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+        },
+        {
+          "kind": "output",
+          "id": "figure2",
+          "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+        },
+        {
+          "kind": "output",
+          "id": "figure3",
+          "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+        },
+        {
+          "kind": "output",
+          "id": "figure4",
+          "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "04355b5ac132bfdaecf6a165cf332d0e04a0ff29bd59b53e03d6c801c9838d59"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "baseline-record",
+          "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c"
+        },
+        {
+          "kind": "source",
+          "id": "current-audit",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc"
+        },
+        {
+          "kind": "source",
+          "id": "current-math",
+          "sha256": "3904769a847b205766612a2d2126e7ffcaa74dd2d62d3f37da323bc220bdcd97"
+        },
+        {
+          "kind": "source",
+          "id": "current-math-code",
+          "sha256": "4ab53e120557ef30ae125aa3192ff2b4980a7140c8692caaf2898b30e767da94"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-map",
+          "sha256": "a8a0f0ea4c8c6b4ca1e7953e3a5bbc00bb4749e9ed49e5749b782b289ed61cc1"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-result",
+          "sha256": "07aa7d00c8c3ab2b51efdc770d78d43b606e43c89f3e0285b66bebb8ea2551cd"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-review",
+          "sha256": "742e24e54c0dc620a46ba566098d982ddddb6c1ad9d268996358d57710afc378"
+        },
+        {
+          "kind": "source",
+          "id": "packet",
+          "sha256": "9b34233aeea21ddb0151057ba72197adf8578d98fada842fb37630eb76beba08"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "repair-code",
+          "sha256": "d5c0622c4aac3cf3f3e95dccd2955b57a5d36baab53d3b56f9be36b7a81fffb0"
+        },
+        {
+          "kind": "source",
+          "id": "repair-diff",
+          "sha256": "fb7fca52a0f7309913e1eef088b6905eae1240c1ab9797ac20971ba0026bb40d"
+        },
+        {
+          "kind": "source",
+          "id": "repair-proof",
+          "sha256": "5c6de37940c2888d579828db88fc22458645c839e2bed780d61459be5aa70484"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "root-current-review",
+          "sha256": "7a5e509c99a2a79ec7ae39195f9797bcb737be195927bccb7f1c8dd7103866c0"
+        },
+        {
+          "kind": "source",
+          "id": "root-destination-disposition",
+          "sha256": "1ef68622b44bb4a334a8d4803152d1fd87b51a2342fecb21664a070a55dabc28"
+        },
+        {
+          "kind": "source",
+          "id": "root-final-math",
+          "sha256": "19c0e00cfc982ca3bf8af786fd576e7a1dfea9dbcad323a14b38957322041ae3"
+        },
+        {
+          "kind": "source",
+          "id": "root-math-review",
+          "sha256": "9481c9349c6ca53d365043f56010ad041c3289d08adb4cff151aec47ad5a8da1"
+        },
+        {
+          "kind": "source",
+          "id": "root-optics",
+          "sha256": "086ccf2e4edc4e2c16483b336d7cc0942fdd9ba2eb66183d8e208003741858ff"
+        },
+        {
+          "kind": "source",
+          "id": "root-original-source",
+          "sha256": "08754910edd4c45ae8b856f3547e4c2f74c31d82aed5a7fa084928c275bd5494"
+        },
+        {
+          "kind": "source",
+          "id": "root-presolution",
+          "sha256": "f721c385dad0c03018d49e669228a5df5b06501e9e9debc0c29e07f64138158b"
+        },
+        {
+          "kind": "source",
+          "id": "root-presolution-review",
+          "sha256": "6c58810642820c85f8aab2cfdcc1c32690de3d61138033c9d45480e715fd4231"
+        },
+        {
+          "kind": "source",
+          "id": "root-source-math",
+          "sha256": "c504a10462bfd0b539d85f411e9fd5981c1a97521aa63637cab09277815542af"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-record",
+          "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "9fe900ed16420973a2b8e6de80fda47f21dde2910f4ea4e13ac31267bfe1cf59"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline-record",
+          "sha256": "7771422009b7c4e15ec21fc206b10d59862a6cf598dbb6aeb30496d47a57f039"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-audit",
+          "sha256": "47414b1c47a3e1415083f038f51d626bc723b21f6b35dba04f42e5d656a8c11b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-math",
+          "sha256": "b836c69fc605426626e088a28bbf866ad2cae400de6572c864dfeb1d187ecee2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-math-code",
+          "sha256": "be03300731661d40e066878d96a371b8ba6e46a803b9c99948b1e8d5b5bb3f63"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "96871bf19d65e39446f2b71d07ac29e97df09b5216dd9aab80e7b0ca10ad6490"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "7e260d4d7ec85448c05c16a0fdac4fcbb583c1767b1e6946d2d0d0f8583ecfbb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "71c52899d26cee8fb0047a7c6d4dbe14014c9227cf48f3ce3089a174abfb43ed"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-map",
+          "sha256": "d4eaf8b48fee3cde5284d95764939c87ded4e1213e83e8f04377a04216a9b9f7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-result",
+          "sha256": "95695fc2fcbabc4b47fc7ce19550b9d42c3a109d69aeac11d96c7711c6eff545"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-review",
+          "sha256": "17d5ebf91274ba13a1a38c82551b989b4fafae95368074d6d91b0b32f38c2161"
+        },
+        {
+          "kind": "source_scope",
+          "id": "packet",
+          "sha256": "c0f3c8170915872800340d07109d83895f94c09d7969c14d5cc6a9c806e5e770"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "2475b93aad2dbe08d0b3e8e9c58b5bc75e34c5399588b4fd02cdfa1a2d946871"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "aea8a63112455e0fba2060e4e2a3e6a185380f7a1906a98d8541f1d1c27d5782"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "2e3624d5110939efafb40e7b89bf1eade545d5f24ee73facddfc36378f09d73c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-code",
+          "sha256": "5a9a67a488144407b08e317d8fc4d319cdfe9be57030da4809338c513c21bada"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-diff",
+          "sha256": "46b37601e1847a1612e2553e742b9f4d0c5de9501f09e77f55157329dc7e4d7b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-proof",
+          "sha256": "99c59ffe3a223cbd650b30286b053d13a6c393ae6c722c6b5f4bcc37a9ae6446"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "2566fd4ee8984692a681b2dfded93e7270d0c08f3bb5fd6e48f221bb49ff9b99"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-current-review",
+          "sha256": "a33eacee5a2795d0a461df4a9d385048a50bb255bfdcf4371e411f515b6c0555"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-destination-disposition",
+          "sha256": "9cd3869ab37536b0b5f4dcb9592677c51d9bafd61ce3e336fbbe6332db294283"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-final-math",
+          "sha256": "6761884d246273b5601deb07095d09999b74c3debad73174e78f7c9d15072fb3"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-math-review",
+          "sha256": "e66d4266668a0a73859454ea39a457145c35f577640633f528033d41760781f0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-optics",
+          "sha256": "cd816982a4436c93e68dfb5d16f03e28b47514050acec7ea8fd685e20cf7dfb6"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-original-source",
+          "sha256": "23c3f86558a014da87f6f4b1f89a799662292e4af70fde8666bbc108a83462d7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-presolution",
+          "sha256": "8f8251655caa45c380fde54adbc7d0b10b7b9341d8aaeae5db99d6eb2e26ad27"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-presolution-review",
+          "sha256": "6926fe3fa21efa002e6179817015c1c2f867bac2f172bee8d4e4884608f5586c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-source-math",
+          "sha256": "dd39a036303b2e088fa8b681966776176550f6c55e759d024e08e35f045fc36e"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "70a4b32f242b7d859454e9ad5ce0342b874a1a4d48375e796f5e1e533efb6d30"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-record",
+          "sha256": "899fb527528f8f83cd5b17c2dfe4443e222b8f4e8de7d273bc73e8361c111f42"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "6776cf069407fdc4e8f66f9c4cd97dc78ba5a9ba0748b2a0c977454c0fc67160"
+        },
+        {
+          "kind": "topic",
+          "id": "newton",
+          "sha256": "613727e459229cb2887d7c725aa40308285d34b8a96a19fd5ea278a659fb1beb"
+        },
+        {
+          "kind": "topic",
+          "id": "ring",
+          "sha256": "5ebd503eb44e8015cfb4d299adabbce2ce4f7c42574504acf0e1a90fd866873a"
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "description": "Current T witnesses. T1\u2013T4 retain the actual earlier meaning/purpose/conditions, representation bridges, warranted reasoning and connected Newton/ring examples just reconstructed; no meaning, condition or dependency changed. T5\u2013T6 retain proportionate Q1\u2013Q4 practice, changed convergence/feasibility conditions, explicit targets and success criteria requiring reasoning beyond numbers. T7 retains all matched hints/full solutions and honest anticipated-error language. T8 retains the later recall/transfer task and flexible revisit. T9 retains compressed baseline operations with locally taught convergence/globality/normal bridges and four informative figures. T10 author verification is current: technical_checks_v2.py reads v2 and reruns exact rational, decimal, symbolic, numerical, markup and anchor checks; technical-checks-v2.json records the results. Full v1 independent calculations remain historical corroboration of unchanged mathematics, not a newly completed v2 external gate. T11 remains pending for v2: the source repair directly addresses the failed representation, but only a fresh actual destination audit/full preview can establish its success. T12 remains pending for v2: full author reconstruction and source coverage are complete, while a fresh whole-input SASIS reader, destination and final independent integration must bind the frozen v2 packet.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Current T witnesses. T1\u2013T4 retain the actual earlier meaning/purpose/conditions, representation bridges, warranted reasoning and connected Newton/ring examples just reconstructed; no meaning, condition or dependency changed. T5\u2013T6 retain proportionate Q1\u2013Q4 practice, changed convergence/feasibility conditions, explicit targets and success criteria requiring reasoning beyond numbers. T7 retains all matched hints/full solutions and honest anticipated-error language. T8 retains the later recall/transfer task and flexible revisit. T9 retains compressed baseline operations with locally taught convergence/globality/normal bridges and four informative figures. T10 author verification is current: technical_checks_v2.py reads v2 and reruns exact rational, decimal, symbolic, numerical, markup and anchor checks; technical-checks-v2.json records the results. Full v1 independent calculations remain historical corroboration of unchanged mathematics, not a newly completed v2 external gate. T11 remains pending for v2: the source repair directly addresses the failed representation, but only a fresh actual destination audit/full preview can establish its success. T12 remains pending for v2: full author reconstruction and source coverage are complete, while a fresh whole-input SASIS reader, destination and final independent integration must bind the frozen v2 packet.",
+      "evidence": [
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Current T witnesses. T1\u2013T4 retain the actual earlier meaning/purpose/conditions, representation bridges, warranted reasoning and connected Newton/ring examples just reconstructed; no meaning, condition or dependency changed. T5\u2013T6 retain proportionate Q1\u2013Q4 practice, changed convergence/feasibility conditions, explicit targets and success criteria requiring reasoning beyond numbers. T7 retains all matched hints/full solutions and honest anticipated-error language. T8 retains the later recall/transfer task and flexible revisit. T9 retains compressed baseline operations with locally taught convergence/globality/normal bridges and four informative figures. T10 author verification is current: technical_checks_v2.py reads v2 and reruns exact rational, decimal, symbolic, numerical, markup and anchor checks; technical-checks-v2.json records the results. Full v1 independent calculations remain historical corroboration of unchanged mathematics, not a newly completed v2 external gate. T11 remains pending for v2: the source repair directly addresses the failed representation, but only a fresh actual destination audit/full preview can establish its success. T12 remains pending for v2: full author reconstruction and source coverage are complete, while a fresh whole-input SASIS reader, destination and final independent integration must bind the frozen v2 packet."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "8f75eecd139cfa80e241a0c4a1233d09cc37edcee01399e980e0ca662badecb6"
+        },
+        {
+          "kind": "output",
+          "id": "figure1",
+          "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+        },
+        {
+          "kind": "output",
+          "id": "figure2",
+          "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+        },
+        {
+          "kind": "output",
+          "id": "figure3",
+          "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+        },
+        {
+          "kind": "output",
+          "id": "figure4",
+          "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "04355b5ac132bfdaecf6a165cf332d0e04a0ff29bd59b53e03d6c801c9838d59"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "baseline-record",
+          "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c"
+        },
+        {
+          "kind": "source",
+          "id": "current-audit",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc"
+        },
+        {
+          "kind": "source",
+          "id": "current-math",
+          "sha256": "3904769a847b205766612a2d2126e7ffcaa74dd2d62d3f37da323bc220bdcd97"
+        },
+        {
+          "kind": "source",
+          "id": "current-math-code",
+          "sha256": "4ab53e120557ef30ae125aa3192ff2b4980a7140c8692caaf2898b30e767da94"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-map",
+          "sha256": "a8a0f0ea4c8c6b4ca1e7953e3a5bbc00bb4749e9ed49e5749b782b289ed61cc1"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-result",
+          "sha256": "07aa7d00c8c3ab2b51efdc770d78d43b606e43c89f3e0285b66bebb8ea2551cd"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-review",
+          "sha256": "742e24e54c0dc620a46ba566098d982ddddb6c1ad9d268996358d57710afc378"
+        },
+        {
+          "kind": "source",
+          "id": "packet",
+          "sha256": "9b34233aeea21ddb0151057ba72197adf8578d98fada842fb37630eb76beba08"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "repair-code",
+          "sha256": "d5c0622c4aac3cf3f3e95dccd2955b57a5d36baab53d3b56f9be36b7a81fffb0"
+        },
+        {
+          "kind": "source",
+          "id": "repair-diff",
+          "sha256": "fb7fca52a0f7309913e1eef088b6905eae1240c1ab9797ac20971ba0026bb40d"
+        },
+        {
+          "kind": "source",
+          "id": "repair-proof",
+          "sha256": "5c6de37940c2888d579828db88fc22458645c839e2bed780d61459be5aa70484"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "root-current-review",
+          "sha256": "7a5e509c99a2a79ec7ae39195f9797bcb737be195927bccb7f1c8dd7103866c0"
+        },
+        {
+          "kind": "source",
+          "id": "root-destination-disposition",
+          "sha256": "1ef68622b44bb4a334a8d4803152d1fd87b51a2342fecb21664a070a55dabc28"
+        },
+        {
+          "kind": "source",
+          "id": "root-final-math",
+          "sha256": "19c0e00cfc982ca3bf8af786fd576e7a1dfea9dbcad323a14b38957322041ae3"
+        },
+        {
+          "kind": "source",
+          "id": "root-math-review",
+          "sha256": "9481c9349c6ca53d365043f56010ad041c3289d08adb4cff151aec47ad5a8da1"
+        },
+        {
+          "kind": "source",
+          "id": "root-optics",
+          "sha256": "086ccf2e4edc4e2c16483b336d7cc0942fdd9ba2eb66183d8e208003741858ff"
+        },
+        {
+          "kind": "source",
+          "id": "root-original-source",
+          "sha256": "08754910edd4c45ae8b856f3547e4c2f74c31d82aed5a7fa084928c275bd5494"
+        },
+        {
+          "kind": "source",
+          "id": "root-presolution",
+          "sha256": "f721c385dad0c03018d49e669228a5df5b06501e9e9debc0c29e07f64138158b"
+        },
+        {
+          "kind": "source",
+          "id": "root-presolution-review",
+          "sha256": "6c58810642820c85f8aab2cfdcc1c32690de3d61138033c9d45480e715fd4231"
+        },
+        {
+          "kind": "source",
+          "id": "root-source-math",
+          "sha256": "c504a10462bfd0b539d85f411e9fd5981c1a97521aa63637cab09277815542af"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-record",
+          "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "9fe900ed16420973a2b8e6de80fda47f21dde2910f4ea4e13ac31267bfe1cf59"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline-record",
+          "sha256": "7771422009b7c4e15ec21fc206b10d59862a6cf598dbb6aeb30496d47a57f039"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-audit",
+          "sha256": "47414b1c47a3e1415083f038f51d626bc723b21f6b35dba04f42e5d656a8c11b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-math",
+          "sha256": "b836c69fc605426626e088a28bbf866ad2cae400de6572c864dfeb1d187ecee2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-math-code",
+          "sha256": "be03300731661d40e066878d96a371b8ba6e46a803b9c99948b1e8d5b5bb3f63"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "96871bf19d65e39446f2b71d07ac29e97df09b5216dd9aab80e7b0ca10ad6490"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "7e260d4d7ec85448c05c16a0fdac4fcbb583c1767b1e6946d2d0d0f8583ecfbb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "71c52899d26cee8fb0047a7c6d4dbe14014c9227cf48f3ce3089a174abfb43ed"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-map",
+          "sha256": "d4eaf8b48fee3cde5284d95764939c87ded4e1213e83e8f04377a04216a9b9f7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-result",
+          "sha256": "95695fc2fcbabc4b47fc7ce19550b9d42c3a109d69aeac11d96c7711c6eff545"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-review",
+          "sha256": "17d5ebf91274ba13a1a38c82551b989b4fafae95368074d6d91b0b32f38c2161"
+        },
+        {
+          "kind": "source_scope",
+          "id": "packet",
+          "sha256": "c0f3c8170915872800340d07109d83895f94c09d7969c14d5cc6a9c806e5e770"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "2475b93aad2dbe08d0b3e8e9c58b5bc75e34c5399588b4fd02cdfa1a2d946871"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "aea8a63112455e0fba2060e4e2a3e6a185380f7a1906a98d8541f1d1c27d5782"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "2e3624d5110939efafb40e7b89bf1eade545d5f24ee73facddfc36378f09d73c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-code",
+          "sha256": "5a9a67a488144407b08e317d8fc4d319cdfe9be57030da4809338c513c21bada"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-diff",
+          "sha256": "46b37601e1847a1612e2553e742b9f4d0c5de9501f09e77f55157329dc7e4d7b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-proof",
+          "sha256": "99c59ffe3a223cbd650b30286b053d13a6c393ae6c722c6b5f4bcc37a9ae6446"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "2566fd4ee8984692a681b2dfded93e7270d0c08f3bb5fd6e48f221bb49ff9b99"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-current-review",
+          "sha256": "a33eacee5a2795d0a461df4a9d385048a50bb255bfdcf4371e411f515b6c0555"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-destination-disposition",
+          "sha256": "9cd3869ab37536b0b5f4dcb9592677c51d9bafd61ce3e336fbbe6332db294283"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-final-math",
+          "sha256": "6761884d246273b5601deb07095d09999b74c3debad73174e78f7c9d15072fb3"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-math-review",
+          "sha256": "e66d4266668a0a73859454ea39a457145c35f577640633f528033d41760781f0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-optics",
+          "sha256": "cd816982a4436c93e68dfb5d16f03e28b47514050acec7ea8fd685e20cf7dfb6"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-original-source",
+          "sha256": "23c3f86558a014da87f6f4b1f89a799662292e4af70fde8666bbc108a83462d7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-presolution",
+          "sha256": "8f8251655caa45c380fde54adbc7d0b10b7b9341d8aaeae5db99d6eb2e26ad27"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-presolution-review",
+          "sha256": "6926fe3fa21efa002e6179817015c1c2f867bac2f172bee8d4e4884608f5586c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-source-math",
+          "sha256": "dd39a036303b2e088fa8b681966776176550f6c55e759d024e08e35f045fc36e"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "70a4b32f242b7d859454e9ad5ce0342b874a1a4d48375e796f5e1e533efb6d30"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-record",
+          "sha256": "899fb527528f8f83cd5b17c2dfe4443e222b8f4e8de7d273bc73e8361c111f42"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "6776cf069407fdc4e8f66f9c4cd97dc78ba5a9ba0748b2a0c977454c0fc67160"
+        },
+        {
+          "kind": "topic",
+          "id": "newton",
+          "sha256": "613727e459229cb2887d7c725aa40308285d34b8a96a19fd5ea278a659fb1beb"
+        },
+        {
+          "kind": "topic",
+          "id": "ring",
+          "sha256": "5ebd503eb44e8015cfb4d299adabbce2ce4f7c42574504acf0e1a90fd866873a"
+        }
+      ]
+    },
+    {
+      "id": "figure_visual",
+      "description": "Scope and actual access. The complete v2 teaching file was freshly read in physical LF packets 1\u2013140, 141\u2013260, 261\u2013350, 351\u2013427 (terminal empty entry); no packet was clipped. This includes P001\u2013P046, all four prompts, all four hints, all complete solutions and the source/correction ending. All four complete unchanged PNGs were displayed again after this read and inspected. The earlier original-source and baseline reads remain the actual source access: all seven original texts/full PNG pages and complete baseline LF1\u20131377, as recorded in source-coverage-v1.md and baseline-access.json. No new original-source reread is claimed for this representation-only repair.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Scope and actual access. The complete v2 teaching file was freshly read in physical LF packets 1\u2013140, 141\u2013260, 261\u2013350, 351\u2013427 (terminal empty entry); no packet was clipped. This includes P001\u2013P046, all four prompts, all four hints, all complete solutions and the source/correction ending. All four complete unchanged PNGs were displayed again after this read and inspected. The earlier original-source and baseline reads remain the actual source access: all seven original texts/full PNG pages and complete baseline LF1\u20131377, as recorded in source-coverage-v1.md and baseline-access.json. No new original-source reread is claimed for this representation-only repair.",
+      "evidence": [
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Scope and actual access. The complete v2 teaching file was freshly read in physical LF packets 1\u2013140, 141\u2013260, 261\u2013350, 351\u2013427 (terminal empty entry); no packet was clipped. This includes P001\u2013P046, all four prompts, all four hints, all complete solutions and the source/correction ending. All four complete unchanged PNGs were displayed again after this read and inspected. The earlier original-source and baseline reads remain the actual source access: all seven original texts/full PNG pages and complete baseline LF1\u20131377, as recorded in source-coverage-v1.md and baseline-access.json. No new original-source reread is claimed for this representation-only repair."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "8f75eecd139cfa80e241a0c4a1233d09cc37edcee01399e980e0ca662badecb6"
+        },
+        {
+          "kind": "output",
+          "id": "figure1",
+          "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+        },
+        {
+          "kind": "output",
+          "id": "figure2",
+          "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+        },
+        {
+          "kind": "output",
+          "id": "figure3",
+          "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+        },
+        {
+          "kind": "output",
+          "id": "figure4",
+          "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "04355b5ac132bfdaecf6a165cf332d0e04a0ff29bd59b53e03d6c801c9838d59"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "baseline-record",
+          "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c"
+        },
+        {
+          "kind": "source",
+          "id": "current-audit",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc"
+        },
+        {
+          "kind": "source",
+          "id": "current-math",
+          "sha256": "3904769a847b205766612a2d2126e7ffcaa74dd2d62d3f37da323bc220bdcd97"
+        },
+        {
+          "kind": "source",
+          "id": "current-math-code",
+          "sha256": "4ab53e120557ef30ae125aa3192ff2b4980a7140c8692caaf2898b30e767da94"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-map",
+          "sha256": "a8a0f0ea4c8c6b4ca1e7953e3a5bbc00bb4749e9ed49e5749b782b289ed61cc1"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-result",
+          "sha256": "07aa7d00c8c3ab2b51efdc770d78d43b606e43c89f3e0285b66bebb8ea2551cd"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-review",
+          "sha256": "742e24e54c0dc620a46ba566098d982ddddb6c1ad9d268996358d57710afc378"
+        },
+        {
+          "kind": "source",
+          "id": "packet",
+          "sha256": "9b34233aeea21ddb0151057ba72197adf8578d98fada842fb37630eb76beba08"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "repair-code",
+          "sha256": "d5c0622c4aac3cf3f3e95dccd2955b57a5d36baab53d3b56f9be36b7a81fffb0"
+        },
+        {
+          "kind": "source",
+          "id": "repair-diff",
+          "sha256": "fb7fca52a0f7309913e1eef088b6905eae1240c1ab9797ac20971ba0026bb40d"
+        },
+        {
+          "kind": "source",
+          "id": "repair-proof",
+          "sha256": "5c6de37940c2888d579828db88fc22458645c839e2bed780d61459be5aa70484"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "root-current-review",
+          "sha256": "7a5e509c99a2a79ec7ae39195f9797bcb737be195927bccb7f1c8dd7103866c0"
+        },
+        {
+          "kind": "source",
+          "id": "root-destination-disposition",
+          "sha256": "1ef68622b44bb4a334a8d4803152d1fd87b51a2342fecb21664a070a55dabc28"
+        },
+        {
+          "kind": "source",
+          "id": "root-final-math",
+          "sha256": "19c0e00cfc982ca3bf8af786fd576e7a1dfea9dbcad323a14b38957322041ae3"
+        },
+        {
+          "kind": "source",
+          "id": "root-math-review",
+          "sha256": "9481c9349c6ca53d365043f56010ad041c3289d08adb4cff151aec47ad5a8da1"
+        },
+        {
+          "kind": "source",
+          "id": "root-optics",
+          "sha256": "086ccf2e4edc4e2c16483b336d7cc0942fdd9ba2eb66183d8e208003741858ff"
+        },
+        {
+          "kind": "source",
+          "id": "root-original-source",
+          "sha256": "08754910edd4c45ae8b856f3547e4c2f74c31d82aed5a7fa084928c275bd5494"
+        },
+        {
+          "kind": "source",
+          "id": "root-presolution",
+          "sha256": "f721c385dad0c03018d49e669228a5df5b06501e9e9debc0c29e07f64138158b"
+        },
+        {
+          "kind": "source",
+          "id": "root-presolution-review",
+          "sha256": "6c58810642820c85f8aab2cfdcc1c32690de3d61138033c9d45480e715fd4231"
+        },
+        {
+          "kind": "source",
+          "id": "root-source-math",
+          "sha256": "c504a10462bfd0b539d85f411e9fd5981c1a97521aa63637cab09277815542af"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-record",
+          "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "9fe900ed16420973a2b8e6de80fda47f21dde2910f4ea4e13ac31267bfe1cf59"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline-record",
+          "sha256": "7771422009b7c4e15ec21fc206b10d59862a6cf598dbb6aeb30496d47a57f039"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-audit",
+          "sha256": "47414b1c47a3e1415083f038f51d626bc723b21f6b35dba04f42e5d656a8c11b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-math",
+          "sha256": "b836c69fc605426626e088a28bbf866ad2cae400de6572c864dfeb1d187ecee2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-math-code",
+          "sha256": "be03300731661d40e066878d96a371b8ba6e46a803b9c99948b1e8d5b5bb3f63"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "96871bf19d65e39446f2b71d07ac29e97df09b5216dd9aab80e7b0ca10ad6490"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "7e260d4d7ec85448c05c16a0fdac4fcbb583c1767b1e6946d2d0d0f8583ecfbb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "71c52899d26cee8fb0047a7c6d4dbe14014c9227cf48f3ce3089a174abfb43ed"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-map",
+          "sha256": "d4eaf8b48fee3cde5284d95764939c87ded4e1213e83e8f04377a04216a9b9f7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-result",
+          "sha256": "95695fc2fcbabc4b47fc7ce19550b9d42c3a109d69aeac11d96c7711c6eff545"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-review",
+          "sha256": "17d5ebf91274ba13a1a38c82551b989b4fafae95368074d6d91b0b32f38c2161"
+        },
+        {
+          "kind": "source_scope",
+          "id": "packet",
+          "sha256": "c0f3c8170915872800340d07109d83895f94c09d7969c14d5cc6a9c806e5e770"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "2475b93aad2dbe08d0b3e8e9c58b5bc75e34c5399588b4fd02cdfa1a2d946871"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "aea8a63112455e0fba2060e4e2a3e6a185380f7a1906a98d8541f1d1c27d5782"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "2e3624d5110939efafb40e7b89bf1eade545d5f24ee73facddfc36378f09d73c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-code",
+          "sha256": "5a9a67a488144407b08e317d8fc4d319cdfe9be57030da4809338c513c21bada"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-diff",
+          "sha256": "46b37601e1847a1612e2553e742b9f4d0c5de9501f09e77f55157329dc7e4d7b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-proof",
+          "sha256": "99c59ffe3a223cbd650b30286b053d13a6c393ae6c722c6b5f4bcc37a9ae6446"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "2566fd4ee8984692a681b2dfded93e7270d0c08f3bb5fd6e48f221bb49ff9b99"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-current-review",
+          "sha256": "a33eacee5a2795d0a461df4a9d385048a50bb255bfdcf4371e411f515b6c0555"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-destination-disposition",
+          "sha256": "9cd3869ab37536b0b5f4dcb9592677c51d9bafd61ce3e336fbbe6332db294283"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-final-math",
+          "sha256": "6761884d246273b5601deb07095d09999b74c3debad73174e78f7c9d15072fb3"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-math-review",
+          "sha256": "e66d4266668a0a73859454ea39a457145c35f577640633f528033d41760781f0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-optics",
+          "sha256": "cd816982a4436c93e68dfb5d16f03e28b47514050acec7ea8fd685e20cf7dfb6"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-original-source",
+          "sha256": "23c3f86558a014da87f6f4b1f89a799662292e4af70fde8666bbc108a83462d7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-presolution",
+          "sha256": "8f8251655caa45c380fde54adbc7d0b10b7b9341d8aaeae5db99d6eb2e26ad27"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-presolution-review",
+          "sha256": "6926fe3fa21efa002e6179817015c1c2f867bac2f172bee8d4e4884608f5586c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-source-math",
+          "sha256": "dd39a036303b2e088fa8b681966776176550f6c55e759d024e08e35f045fc36e"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "70a4b32f242b7d859454e9ad5ce0342b874a1a4d48375e796f5e1e533efb6d30"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-record",
+          "sha256": "899fb527528f8f83cd5b17c2dfe4443e222b8f4e8de7d273bc73e8361c111f42"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "6776cf069407fdc4e8f66f9c4cd97dc78ba5a9ba0748b2a0c977454c0fc67160"
+        },
+        {
+          "kind": "topic",
+          "id": "newton",
+          "sha256": "613727e459229cb2887d7c725aa40308285d34b8a96a19fd5ea278a659fb1beb"
+        },
+        {
+          "kind": "topic",
+          "id": "ring",
+          "sha256": "5ebd503eb44e8015cfb4d299adabbce2ce4f7c42574504acf0e1a90fd866873a"
+        }
+      ]
+    },
+    {
+      "id": "source_navigation",
+      "description": "Exact repair map and proof. v2-repair-equivalence.json records every original ordinal/paragraph/span and complete before/after payload. repair_v2.py changes only the 23 literal comparison characters in those 20 protected inline payloads to equivalent TeX relation commands followed by ordinary control-word delimiter spaces; it removes only the one leading ordinary space on P024's a-x display line. The full unified diff is v1-to-v2.diff. The inverse restores the complete original v1 byte string. All 309 math nodes retain type/order; all 288 other math payloads, all prose, anchors, links, image markup and existing commands are byte exact. The four PNGs retain their original hashes. This is source equivalence, not destination verification.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Exact repair map and proof. v2-repair-equivalence.json records every original ordinal/paragraph/span and complete before/after payload. repair_v2.py changes only the 23 literal comparison characters in those 20 protected inline payloads to equivalent TeX relation commands followed by ordinary control-word delimiter spaces; it removes only the one leading ordinary space on P024's a-x display line. The full unified diff is v1-to-v2.diff. The inverse restores the complete original v1 byte string. All 309 math nodes retain type/order; all 288 other math payloads, all prose, anchors, links, image markup and existing commands are byte exact. The four PNGs retain their original hashes. This is source equivalence, not destination verification.",
+      "evidence": [
+        {
+          "path": "author/author-audit-v2.md",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc",
+          "locator": {
+            "kind": "text",
+            "value": "Exact repair map and proof. v2-repair-equivalence.json records every original ordinal/paragraph/span and complete before/after payload. repair_v2.py changes only the 23 literal comparison characters in those 20 protected inline payloads to equivalent TeX relation commands followed by ordinary control-word delimiter spaces; it removes only the one leading ordinary space on P024's a-x display line. The full unified diff is v1-to-v2.diff. The inverse restores the complete original v1 byte string. All 309 math nodes retain type/order; all 288 other math payloads, all prose, anchors, links, image markup and existing commands are byte exact. The four PNGs retain their original hashes. This is source equivalence, not destination verification."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "8f75eecd139cfa80e241a0c4a1233d09cc37edcee01399e980e0ca662badecb6"
+        },
+        {
+          "kind": "output",
+          "id": "figure1",
+          "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+        },
+        {
+          "kind": "output",
+          "id": "figure2",
+          "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+        },
+        {
+          "kind": "output",
+          "id": "figure3",
+          "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+        },
+        {
+          "kind": "output",
+          "id": "figure4",
+          "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "04355b5ac132bfdaecf6a165cf332d0e04a0ff29bd59b53e03d6c801c9838d59"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "baseline-record",
+          "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c"
+        },
+        {
+          "kind": "source",
+          "id": "current-audit",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc"
+        },
+        {
+          "kind": "source",
+          "id": "current-math",
+          "sha256": "3904769a847b205766612a2d2126e7ffcaa74dd2d62d3f37da323bc220bdcd97"
+        },
+        {
+          "kind": "source",
+          "id": "current-math-code",
+          "sha256": "4ab53e120557ef30ae125aa3192ff2b4980a7140c8692caaf2898b30e767da94"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-map",
+          "sha256": "a8a0f0ea4c8c6b4ca1e7953e3a5bbc00bb4749e9ed49e5749b782b289ed61cc1"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-result",
+          "sha256": "07aa7d00c8c3ab2b51efdc770d78d43b606e43c89f3e0285b66bebb8ea2551cd"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-review",
+          "sha256": "742e24e54c0dc620a46ba566098d982ddddb6c1ad9d268996358d57710afc378"
+        },
+        {
+          "kind": "source",
+          "id": "packet",
+          "sha256": "9b34233aeea21ddb0151057ba72197adf8578d98fada842fb37630eb76beba08"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "repair-code",
+          "sha256": "d5c0622c4aac3cf3f3e95dccd2955b57a5d36baab53d3b56f9be36b7a81fffb0"
+        },
+        {
+          "kind": "source",
+          "id": "repair-diff",
+          "sha256": "fb7fca52a0f7309913e1eef088b6905eae1240c1ab9797ac20971ba0026bb40d"
+        },
+        {
+          "kind": "source",
+          "id": "repair-proof",
+          "sha256": "5c6de37940c2888d579828db88fc22458645c839e2bed780d61459be5aa70484"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "root-current-review",
+          "sha256": "7a5e509c99a2a79ec7ae39195f9797bcb737be195927bccb7f1c8dd7103866c0"
+        },
+        {
+          "kind": "source",
+          "id": "root-destination-disposition",
+          "sha256": "1ef68622b44bb4a334a8d4803152d1fd87b51a2342fecb21664a070a55dabc28"
+        },
+        {
+          "kind": "source",
+          "id": "root-final-math",
+          "sha256": "19c0e00cfc982ca3bf8af786fd576e7a1dfea9dbcad323a14b38957322041ae3"
+        },
+        {
+          "kind": "source",
+          "id": "root-math-review",
+          "sha256": "9481c9349c6ca53d365043f56010ad041c3289d08adb4cff151aec47ad5a8da1"
+        },
+        {
+          "kind": "source",
+          "id": "root-optics",
+          "sha256": "086ccf2e4edc4e2c16483b336d7cc0942fdd9ba2eb66183d8e208003741858ff"
+        },
+        {
+          "kind": "source",
+          "id": "root-original-source",
+          "sha256": "08754910edd4c45ae8b856f3547e4c2f74c31d82aed5a7fa084928c275bd5494"
+        },
+        {
+          "kind": "source",
+          "id": "root-presolution",
+          "sha256": "f721c385dad0c03018d49e669228a5df5b06501e9e9debc0c29e07f64138158b"
+        },
+        {
+          "kind": "source",
+          "id": "root-presolution-review",
+          "sha256": "6c58810642820c85f8aab2cfdcc1c32690de3d61138033c9d45480e715fd4231"
+        },
+        {
+          "kind": "source",
+          "id": "root-source-math",
+          "sha256": "c504a10462bfd0b539d85f411e9fd5981c1a97521aa63637cab09277815542af"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-record",
+          "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "9fe900ed16420973a2b8e6de80fda47f21dde2910f4ea4e13ac31267bfe1cf59"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline-record",
+          "sha256": "7771422009b7c4e15ec21fc206b10d59862a6cf598dbb6aeb30496d47a57f039"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-audit",
+          "sha256": "47414b1c47a3e1415083f038f51d626bc723b21f6b35dba04f42e5d656a8c11b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-math",
+          "sha256": "b836c69fc605426626e088a28bbf866ad2cae400de6572c864dfeb1d187ecee2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-math-code",
+          "sha256": "be03300731661d40e066878d96a371b8ba6e46a803b9c99948b1e8d5b5bb3f63"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "96871bf19d65e39446f2b71d07ac29e97df09b5216dd9aab80e7b0ca10ad6490"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "7e260d4d7ec85448c05c16a0fdac4fcbb583c1767b1e6946d2d0d0f8583ecfbb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "71c52899d26cee8fb0047a7c6d4dbe14014c9227cf48f3ce3089a174abfb43ed"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-map",
+          "sha256": "d4eaf8b48fee3cde5284d95764939c87ded4e1213e83e8f04377a04216a9b9f7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-result",
+          "sha256": "95695fc2fcbabc4b47fc7ce19550b9d42c3a109d69aeac11d96c7711c6eff545"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-review",
+          "sha256": "17d5ebf91274ba13a1a38c82551b989b4fafae95368074d6d91b0b32f38c2161"
+        },
+        {
+          "kind": "source_scope",
+          "id": "packet",
+          "sha256": "c0f3c8170915872800340d07109d83895f94c09d7969c14d5cc6a9c806e5e770"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "2475b93aad2dbe08d0b3e8e9c58b5bc75e34c5399588b4fd02cdfa1a2d946871"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "aea8a63112455e0fba2060e4e2a3e6a185380f7a1906a98d8541f1d1c27d5782"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "2e3624d5110939efafb40e7b89bf1eade545d5f24ee73facddfc36378f09d73c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-code",
+          "sha256": "5a9a67a488144407b08e317d8fc4d319cdfe9be57030da4809338c513c21bada"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-diff",
+          "sha256": "46b37601e1847a1612e2553e742b9f4d0c5de9501f09e77f55157329dc7e4d7b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-proof",
+          "sha256": "99c59ffe3a223cbd650b30286b053d13a6c393ae6c722c6b5f4bcc37a9ae6446"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "2566fd4ee8984692a681b2dfded93e7270d0c08f3bb5fd6e48f221bb49ff9b99"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-current-review",
+          "sha256": "a33eacee5a2795d0a461df4a9d385048a50bb255bfdcf4371e411f515b6c0555"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-destination-disposition",
+          "sha256": "9cd3869ab37536b0b5f4dcb9592677c51d9bafd61ce3e336fbbe6332db294283"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-final-math",
+          "sha256": "6761884d246273b5601deb07095d09999b74c3debad73174e78f7c9d15072fb3"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-math-review",
+          "sha256": "e66d4266668a0a73859454ea39a457145c35f577640633f528033d41760781f0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-optics",
+          "sha256": "cd816982a4436c93e68dfb5d16f03e28b47514050acec7ea8fd685e20cf7dfb6"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-original-source",
+          "sha256": "23c3f86558a014da87f6f4b1f89a799662292e4af70fde8666bbc108a83462d7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-presolution",
+          "sha256": "8f8251655caa45c380fde54adbc7d0b10b7b9341d8aaeae5db99d6eb2e26ad27"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-presolution-review",
+          "sha256": "6926fe3fa21efa002e6179817015c1c2f867bac2f172bee8d4e4884608f5586c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-source-math",
+          "sha256": "dd39a036303b2e088fa8b681966776176550f6c55e759d024e08e35f045fc36e"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "70a4b32f242b7d859454e9ad5ce0342b874a1a4d48375e796f5e1e533efb6d30"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-record",
+          "sha256": "899fb527528f8f83cd5b17c2dfe4443e222b8f4e8de7d273bc73e8361c111f42"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "6776cf069407fdc4e8f66f9c4cd97dc78ba5a9ba0748b2a0c977454c0fc67160"
+        },
+        {
+          "kind": "topic",
+          "id": "newton",
+          "sha256": "613727e459229cb2887d7c725aa40308285d34b8a96a19fd5ea278a659fb1beb"
+        },
+        {
+          "kind": "topic",
+          "id": "ring",
+          "sha256": "5ebd503eb44e8015cfb4d299adabbce2ce4f7c42574504acf0e1a90fd866873a"
+        }
+      ]
+    },
+    {
+      "id": "independent_review",
+      "description": "Representation-only equivalence is independently verified in root-v2-repair-verification.json; root full current read and original source/math/presolution review corroborate unchanged semantics. This is not fresh reader/destination/final acceptance.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Representation-only equivalence is independently verified in root-v2-repair-verification.json; root full current read and original source/math/presolution review corroborate unchanged semantics. This is not fresh reader/destination/final acceptance.",
+      "evidence": [
+        {
+          "path": "root-v2-repair-verification.json",
+          "sha256": "7a5e509c99a2a79ec7ae39195f9797bcb737be195927bccb7f1c8dd7103866c0",
+          "locator": {
+            "kind": "text",
+            "value": "{\n  \"v2_sha256\": \"04355b5ac132bfdaecf6a165cf332d0e04a0ff29bd59b53e03d6c801c9838d59\",\n  \"independent_inverse_restores_entire_v1_bytes\": true,\n  \"new_comparison_commands\": 23,\n  \"figures\": [\n    {\n      \"path\": \"figures/newton-steps.png\",\n      \"unchanged\": true,\n      \"sha256\": \"88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350\"\n    },\n    {\n      \"path\": \"figures/newton-cycle.png\",\n      \"unchanged\": true,\n      \"sha256\": \"61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026\"\n    },\n    {\n      \"path\": \"figures/ring-geometry.png\",\n      \"unchanged\": true,\n      \"sha256\": \"1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9\"\n    },\n    {\n      \"path\": \"figures/ellipse-reflection.png\",\n      \"unchanged\": true,\n      \"sha256\": \"9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14\"\n    }\n  ],\n  \"full_v2_lead_read\": \"LF1\\u2013150,151\\u2013316,317\\u2013426+ending; all46paragraphs/all4prompts/allhints/solutions/sourceending\",\n  \"full_diff_and_author_audit_read\": true,\n  \"review\": \"representation-only equivalence; unchanged independent mathematics/source/figure evidence inspected; native destination/freshreader/finalgates separate\"\n}\n"
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "8f75eecd139cfa80e241a0c4a1233d09cc37edcee01399e980e0ca662badecb6"
+        },
+        {
+          "kind": "output",
+          "id": "figure1",
+          "sha256": "88d541b978cad12bf7497180000fa6be42be48994af3be95d3c723dcea38b350"
+        },
+        {
+          "kind": "output",
+          "id": "figure2",
+          "sha256": "61858d57c8f625bb76c72fc1654618ee953a6c7d54f2fb007a8e132bf90a8026"
+        },
+        {
+          "kind": "output",
+          "id": "figure3",
+          "sha256": "1d0976235c83ff6819d2d43f50618d3535803b198ac7f05d87fb2fb8099323b9"
+        },
+        {
+          "kind": "output",
+          "id": "figure4",
+          "sha256": "9ba51014ebd409feb4d78ed64662e2b80ae963fbad6b7a6ae6eecc96248d8c14"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "04355b5ac132bfdaecf6a165cf332d0e04a0ff29bd59b53e03d6c801c9838d59"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "3b278e2738bbc5197dd0aa9553f699326cb5b1ebc29e6969c56b3f016f7fb22f"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "ffc6366348e1a9aa97f85adb0a6402b43c2a2c9532e994b3c947e086e0039394"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "baseline-record",
+          "sha256": "eec9635378da027854a1526b0af8ef05d2740db2b89da0af17b1e68e81ed107c"
+        },
+        {
+          "kind": "source",
+          "id": "current-audit",
+          "sha256": "f1627e56bca0ff6cf400d040d28d1b5fc704560922ceb26b7c16d5ae015428fc"
+        },
+        {
+          "kind": "source",
+          "id": "current-math",
+          "sha256": "3904769a847b205766612a2d2126e7ffcaa74dd2d62d3f37da323bc220bdcd97"
+        },
+        {
+          "kind": "source",
+          "id": "current-math-code",
+          "sha256": "4ab53e120557ef30ae125aa3192ff2b4980a7140c8692caaf2898b30e767da94"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "lecture",
+          "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-map",
+          "sha256": "a8a0f0ea4c8c6b4ca1e7953e3a5bbc00bb4749e9ed49e5749b782b289ed61cc1"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-result",
+          "sha256": "07aa7d00c8c3ab2b51efdc770d78d43b606e43c89f3e0285b66bebb8ea2551cd"
+        },
+        {
+          "kind": "source",
+          "id": "original-destination-review",
+          "sha256": "742e24e54c0dc620a46ba566098d982ddddb6c1ad9d268996358d57710afc378"
+        },
+        {
+          "kind": "source",
+          "id": "packet",
+          "sha256": "9b34233aeea21ddb0151057ba72197adf8578d98fada842fb37630eb76beba08"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "repair-code",
+          "sha256": "d5c0622c4aac3cf3f3e95dccd2955b57a5d36baab53d3b56f9be36b7a81fffb0"
+        },
+        {
+          "kind": "source",
+          "id": "repair-diff",
+          "sha256": "fb7fca52a0f7309913e1eef088b6905eae1240c1ab9797ac20971ba0026bb40d"
+        },
+        {
+          "kind": "source",
+          "id": "repair-proof",
+          "sha256": "5c6de37940c2888d579828db88fc22458645c839e2bed780d61459be5aa70484"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+        },
+        {
+          "kind": "source",
+          "id": "root-current-review",
+          "sha256": "7a5e509c99a2a79ec7ae39195f9797bcb737be195927bccb7f1c8dd7103866c0"
+        },
+        {
+          "kind": "source",
+          "id": "root-destination-disposition",
+          "sha256": "1ef68622b44bb4a334a8d4803152d1fd87b51a2342fecb21664a070a55dabc28"
+        },
+        {
+          "kind": "source",
+          "id": "root-final-math",
+          "sha256": "19c0e00cfc982ca3bf8af786fd576e7a1dfea9dbcad323a14b38957322041ae3"
+        },
+        {
+          "kind": "source",
+          "id": "root-math-review",
+          "sha256": "9481c9349c6ca53d365043f56010ad041c3289d08adb4cff151aec47ad5a8da1"
+        },
+        {
+          "kind": "source",
+          "id": "root-optics",
+          "sha256": "086ccf2e4edc4e2c16483b336d7cc0942fdd9ba2eb66183d8e208003741858ff"
+        },
+        {
+          "kind": "source",
+          "id": "root-original-source",
+          "sha256": "08754910edd4c45ae8b856f3547e4c2f74c31d82aed5a7fa084928c275bd5494"
+        },
+        {
+          "kind": "source",
+          "id": "root-presolution",
+          "sha256": "f721c385dad0c03018d49e669228a5df5b06501e9e9debc0c29e07f64138158b"
+        },
+        {
+          "kind": "source",
+          "id": "root-presolution-review",
+          "sha256": "6c58810642820c85f8aab2cfdcc1c32690de3d61138033c9d45480e715fd4231"
+        },
+        {
+          "kind": "source",
+          "id": "root-source-math",
+          "sha256": "c504a10462bfd0b539d85f411e9fd5981c1a97521aa63637cab09277815542af"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+        },
+        {
+          "kind": "source",
+          "id": "source-record",
+          "sha256": "421f189de71dc3b383ea2d67005eb1b24fc6cb7cc74a2e288f11e61586c46cf4"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "9fe900ed16420973a2b8e6de80fda47f21dde2910f4ea4e13ac31267bfe1cf59"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline-record",
+          "sha256": "7771422009b7c4e15ec21fc206b10d59862a6cf598dbb6aeb30496d47a57f039"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-audit",
+          "sha256": "47414b1c47a3e1415083f038f51d626bc723b21f6b35dba04f42e5d656a8c11b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-math",
+          "sha256": "b836c69fc605426626e088a28bbf866ad2cae400de6572c864dfeb1d187ecee2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "current-math-code",
+          "sha256": "be03300731661d40e066878d96a371b8ba6e46a803b9c99948b1e8d5b5bb3f63"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "96871bf19d65e39446f2b71d07ac29e97df09b5216dd9aab80e7b0ca10ad6490"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "7e260d4d7ec85448c05c16a0fdac4fcbb583c1767b1e6946d2d0d0f8583ecfbb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture",
+          "sha256": "71c52899d26cee8fb0047a7c6d4dbe14014c9227cf48f3ce3089a174abfb43ed"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-map",
+          "sha256": "d4eaf8b48fee3cde5284d95764939c87ded4e1213e83e8f04377a04216a9b9f7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-result",
+          "sha256": "95695fc2fcbabc4b47fc7ce19550b9d42c3a109d69aeac11d96c7711c6eff545"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-destination-review",
+          "sha256": "17d5ebf91274ba13a1a38c82551b989b4fafae95368074d6d91b0b32f38c2161"
+        },
+        {
+          "kind": "source_scope",
+          "id": "packet",
+          "sha256": "c0f3c8170915872800340d07109d83895f94c09d7969c14d5cc6a9c806e5e770"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "2475b93aad2dbe08d0b3e8e9c58b5bc75e34c5399588b4fd02cdfa1a2d946871"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "aea8a63112455e0fba2060e4e2a3e6a185380f7a1906a98d8541f1d1c27d5782"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "2e3624d5110939efafb40e7b89bf1eade545d5f24ee73facddfc36378f09d73c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-code",
+          "sha256": "5a9a67a488144407b08e317d8fc4d319cdfe9be57030da4809338c513c21bada"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-diff",
+          "sha256": "46b37601e1847a1612e2553e742b9f4d0c5de9501f09e77f55157329dc7e4d7b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "repair-proof",
+          "sha256": "99c59ffe3a223cbd650b30286b053d13a6c393ae6c722c6b5f4bcc37a9ae6446"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "2566fd4ee8984692a681b2dfded93e7270d0c08f3bb5fd6e48f221bb49ff9b99"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-current-review",
+          "sha256": "a33eacee5a2795d0a461df4a9d385048a50bb255bfdcf4371e411f515b6c0555"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-destination-disposition",
+          "sha256": "9cd3869ab37536b0b5f4dcb9592677c51d9bafd61ce3e336fbbe6332db294283"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-final-math",
+          "sha256": "6761884d246273b5601deb07095d09999b74c3debad73174e78f7c9d15072fb3"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-math-review",
+          "sha256": "e66d4266668a0a73859454ea39a457145c35f577640633f528033d41760781f0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-optics",
+          "sha256": "cd816982a4436c93e68dfb5d16f03e28b47514050acec7ea8fd685e20cf7dfb6"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-original-source",
+          "sha256": "23c3f86558a014da87f6f4b1f89a799662292e4af70fde8666bbc108a83462d7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-presolution",
+          "sha256": "8f8251655caa45c380fde54adbc7d0b10b7b9341d8aaeae5db99d6eb2e26ad27"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-presolution-review",
+          "sha256": "6926fe3fa21efa002e6179817015c1c2f867bac2f172bee8d4e4884608f5586c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "root-source-math",
+          "sha256": "dd39a036303b2e088fa8b681966776176550f6c55e759d024e08e35f045fc36e"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "70a4b32f242b7d859454e9ad5ce0342b874a1a4d48375e796f5e1e533efb6d30"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-record",
+          "sha256": "899fb527528f8f83cd5b17c2dfe4443e222b8f4e8de7d273bc73e8361c111f42"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "6776cf069407fdc4e8f66f9c4cd97dc78ba5a9ba0748b2a0c977454c0fc67160"
+        },
+        {
+          "kind": "topic",
+          "id": "newton",
+          "sha256": "613727e459229cb2887d7c725aa40308285d34b8a96a19fd5ea278a659fb1beb"
+        },
+        {
+          "kind": "topic",
+          "id": "ring",
+          "sha256": "5ebd503eb44e8015cfb4d299adabbce2ce4f7c42574504acf0e1a90fd866873a"
+        }
+      ]
+    },
+    {
+      "id": "sasis",
+      "description": "Fresh separate whole-baseline/full-v2 reader is active; completed original report and lead admission/disposition not yet supplied.",
+      "applicable": true,
+      "status": "pending",
+      "reason": "Fresh separate whole-baseline/full-v2 reader is active; completed original report and lead admission/disposition not yet supplied.",
+      "evidence": [],
+      "dependencies": []
+    },
+    {
+      "id": "destination",
+      "description": "V1 actual parser failed; v2 source repair has no fresh actual destination preservation/style/navigation result yet.",
+      "applicable": true,
+      "status": "pending",
+      "reason": "V1 actual parser failed; v2 source repair has no fresh actual destination preservation/style/navigation result yet.",
+      "evidence": [],
+      "dependencies": []
+    },
+    {
+      "id": "full_preview",
+      "description": "Fresh complete final preview, every page and help destination audit pending; v1 preview was explicitly held.",
+      "applicable": true,
+      "status": "pending",
+      "reason": "Fresh complete final preview, every page and help destination audit pending; v1 preview was explicitly held.",
+      "evidence": [],
+      "dependencies": []
+    },
+    {
+      "id": "final_review",
+      "description": "Final integration and acceptance await fresh SASIS, actual destination/full preview and complete current evidence reconciliation.",
+      "applicable": true,
+      "status": "pending",
+      "reason": "Final integration and acceptance await fresh SASIS, actual destination/full preview and complete current evidence reconciliation.",
+      "evidence": [],
+      "dependencies": []
+    }
+  ]
+}

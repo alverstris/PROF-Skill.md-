@@ -1,0 +1,1 @@
+First v2 preparation dependency call rejected the scaffold because RUN.md had not yet been written. No readiness pass resulted. Original script and incomplete state preserved. Repair: create the required recovery record before asking the helper for dependency snapshots. This is a bookkeeping-order fault, not a learner change.

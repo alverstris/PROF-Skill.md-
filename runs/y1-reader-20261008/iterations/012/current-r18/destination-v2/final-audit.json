@@ -1,0 +1,150 @@
+{
+  "observed_scope_result": "PASS — observed server parser and separately inspected internal preview scope",
+  "immutable_commit": "12f468d985cbc1cb462e41948f0f017a161a2099",
+  "source_sha256": "04355b5ac132bfdaecf6a165cf332d0e04a0ff29bd59b53e03d6c801c9838d59",
+  "actual_raw_bytes_equal_local": true,
+  "identity": {
+    "requested_commit": "12f468d985cbc1cb462e41948f0f017a161a2099",
+    "requested_path": "runs/y1-reader-20261008/iterations/012/current-r18/author/teaching-v2.md",
+    "source_sha256": "04355b5ac132bfdaecf6a165cf332d0e04a0ff29bd59b53e03d6c801c9838d59",
+    "source_hash_matches": true,
+    "layout_commit_matches": true,
+    "blob_commit_matches": true,
+    "layout_path_matches": true,
+    "blob_path_matches": true,
+    "rich_text_untruncated": true,
+    "embedded_raw_exact_without_added_newline": false,
+    "embedded_raw_exact_with_one_added_terminal_newline": true
+  },
+  "manifest": [
+    {
+      "path": "teaching-v2.md",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "figures/newton-steps.png",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "figures/newton-cycle.png",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "figures/ring-geometry.png",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "figures/ellipse-reflection.png",
+      "hash_matches": true,
+      "bytes_match": true
+    }
+  ],
+  "source_math_count": 309,
+  "actual_math_count": 309,
+  "source_inline": 281,
+  "source_display": 28,
+  "math_wrappers_valid": true,
+  "ordered_math_types_equal": true,
+  "exact_math_payload_count": 309,
+  "comparison_payload_failures": 0,
+  "comparison_operator_occurrences": 0,
+  "ordinary_whitespace_only_payload_mismatches": 0,
+  "all_nonmath_prose_exact_after_whitespace_folding": true,
+  "whole_prose_plus_math_exact_after_whitespace_folding": true,
+  "all46_paragraph_start_labels_exact": true,
+  "raw_label_like_occurrence_count": 47,
+  "paragraph_label_scope_note": "47 raw label-like mentions include the P025. cross-reference inside P019; exactly 46 paragraph-start labels P001 through P046 match.",
+  "all17_name_anchors_in_order": true,
+  "all28_internal_refs_in_source_order": true,
+  "all28_internal_refs_resolve_uniquely": true,
+  "all_Q1_Q2_Q3_Q4_task_hint_solution_returns": true,
+  "hints_group_precedes_solutions": true,
+  "all4_image_markup_paths_exact": true,
+  "all4_fresh_image_bytes_match": true,
+  "all_CSS_downloads_succeeded": true,
+  "CSS_count": 21,
+  "no_bold_italic_heading_or_table_prose_elements": true,
+  "style_scope": "Fetched body CSS default font weight 400. Heading/table/definition-term emphasis rules do not match this article, whose tags are article,p,a,math-renderer,img. No live computed style assertion.",
+  "source_PDF": {
+    "href": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/fb8c24f09aba8413984f8ce5961586bd_lec13.pdf",
+    "actual_exact_links": [
+      {
+        "element": 528,
+        "href": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/fb8c24f09aba8413984f8ce5961586bd_lec13.pdf",
+        "text": "MIT OpenCourseWare, 18.01 Single Variable Calculus, Fall 2006, Lecture 13: Newton’s Method and Other Applications"
+      }
+    ],
+    "official_frozen_local_bytes_equal": true,
+    "sha256": "bf5673e95549bb93b6383c6be924baf315d4e0761d4f7e653744b1b87c8c8f65",
+    "page_count": 7
+  },
+  "all4_actual_figures_visually_inspected": true,
+  "internal_preview": "Complete faithful internal preview; separate from native GitHub rendering.",
+  "limitations": [
+    "Live GitHub pixels, computed styles, client MathJax, responsive layout and browser clicks unobserved.",
+    "Parser/HTML/CSS data and raw/asset/source identity checks do not prove native visual rendering.",
+    "Internal preview does not prove live GitHub rendering or browser navigation; it is not a user PDF deliverable."
+  ],
+  "all309_math_payloads_exact": true,
+  "final_AST": {
+    "complete_prose_math_stream_exact_after_whitespace_folding": true,
+    "all309_math_payloads_exact": true,
+    "all17_source_anchors_preserved": true,
+    "all28_internal_link_targets_in_order": true,
+    "all4_source_images_in_order": true,
+    "all4_preview_image_bytes_exact": true,
+    "prof_style_exact": true,
+    "pdf_only_changes": [
+      "Protected inline delimiters converted to Pandoc input delimiters; exact original math payloads restored and compared in final AST.",
+      "Named source anchors mapped to native Span IDs.",
+      "Image width limited to 0.85 linewidth without changing bytes.",
+      "A clearpage before complete solutions separates all hints and solutions.",
+      "Current prof.sty A4/11pt template, header/footer and pagination applied. No learner prose added or removed."
+    ]
+  },
+  "final_preview": {
+    "page_count": 13,
+    "source_sha256": "04355b5ac132bfdaecf6a165cf332d0e04a0ff29bd59b53e03d6c801c9838d59",
+    "pdf_sha256": "6b24ce36ff5e27088fb3c1a26f4f3f9081c7577b6fa48526bd73bd47187103f0",
+    "math_count": 309,
+    "payloads_exact": true,
+    "diagnostics": [],
+    "role": "Internal source-faithful PDF review derivative, not GitHub pixels or user deliverable. Adapter changes delimiters, maps anchors, constrains figure width, begins complete solutions on separate page."
+  },
+  "PDF_native_navigation_checks": {
+    "all17_source_named_targets_exist": true,
+    "all_named_link_rectangles_resolve": true,
+    "all28_logical_internal_links_in_order": true,
+    "hint_pages": {
+      "h1": 11,
+      "h2": 11,
+      "h3": 11,
+      "h4": 11
+    },
+    "solution_pages": {
+      "s1": 12,
+      "s2": 12,
+      "s3": 12,
+      "s4": 13
+    },
+    "all_hints_on_page11": true,
+    "all_solution_targets_on_later_pages": true,
+    "source_external_URL_preserved": true
+  },
+  "final_pdf_sha256": "6b24ce36ff5e27088fb3c1a26f4f3f9081c7577b6fa48526bd73bd47187103f0",
+  "PDF_digest_matches_compilation_record": true,
+  "all13_final_pages_visually_inspected": true,
+  "build_attempts": 1,
+  "pdflatex_passes": 2,
+  "compilation_diagnostics": [],
+  "material_issues_in_observed_scope": [],
+  "secondary_preview_pagination_notes": [
+    "P031 figure label falls on page9 while the full figure and caption start page10.",
+    "P034 label at page10 bottom precedes its body on page11; several long prose units flow across pages.",
+    "These are disclosed internal derivative pagination limitations, not findings about GitHub layout or losses of content."
+  ]
+}

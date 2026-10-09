@@ -1,0 +1,107 @@
+{
+  "material_id": "D013",
+  "lecture_number": 14,
+  "reviewer": "/root",
+  "status": "future_source_preparation_only",
+  "source_pdf_sha256": "67d74be87119ab367516c8a80cc710664e48059bc1184c7042846556b3c0a609",
+  "coverage": [
+    {
+      "pdf_page": 1,
+      "entire_text_personally_read": true,
+      "full_original_page_image_personally_opened": true,
+      "artifacts": {
+        "text": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p01.txt",
+          "sha256": "11c690867bfc86462780321c0a2f505caa77a5b25de25f251a48516b67b1cd34",
+          "bytes": 183
+        },
+        "image": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p01.png",
+          "sha256": "cf38e5a69e5dd2300bf90b52b69cd6ecdaf2d083412ded9643cdcf08cf025ccf",
+          "bytes": 30822
+        }
+      }
+    },
+    {
+      "pdf_page": 2,
+      "entire_text_personally_read": true,
+      "full_original_page_image_personally_opened": true,
+      "artifacts": {
+        "text": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p02.txt",
+          "sha256": "eda1d18b74c48fa35b8b728bb2ac18236cb8981acc1c5934ffb22a6de9ebdc0b",
+          "bytes": 1024
+        },
+        "image": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p02.png",
+          "sha256": "7f1ec2922384395c0f0bc5256d023444ffe869faa674f196a1856d1de090f11c",
+          "bytes": 121850
+        }
+      }
+    },
+    {
+      "pdf_page": 3,
+      "entire_text_personally_read": true,
+      "full_original_page_image_personally_opened": true,
+      "artifacts": {
+        "text": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p03.txt",
+          "sha256": "0e8262b2ab49f8b4696dad678b64719a0fc1a89b77125400f46bf1dbd030408f",
+          "bytes": 990
+        },
+        "image": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p03.png",
+          "sha256": "c24af18962059f68987196d6cd16436005c0b3f475af562f37d5e5af2acbee08",
+          "bytes": 121778
+        }
+      }
+    },
+    {
+      "pdf_page": 4,
+      "entire_text_personally_read": true,
+      "full_original_page_image_personally_opened": true,
+      "artifacts": {
+        "text": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p04.txt",
+          "sha256": "0285ce004ea06fcaf8a13858daf07cb2e1eedc83896740a26017e7b516a9943c",
+          "bytes": 1278
+        },
+        "image": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p04.png",
+          "sha256": "4091b2fe7815c9fe061eb46e6d925e3590a3cabad321f3b3af9009b706d26006",
+          "bytes": 136593
+        }
+      }
+    },
+    {
+      "pdf_page": 5,
+      "entire_text_personally_read": true,
+      "full_original_page_image_personally_opened": true,
+      "artifacts": {
+        "text": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p05.txt",
+          "sha256": "7ae9728512f6daec63561b587a3775e81069a12b0f8e16aa1cd563816e865d43",
+          "bytes": 1002
+        },
+        "image": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L14/lec14-p05.png",
+          "sha256": "5c0ce9eb35ecb2430aa8ed85072ec624af77d271d6a7fa08c1db4f684a36309f",
+          "bytes": 96227
+        }
+      }
+    }
+  ],
+  "scope": "Root read complete source-review and source-map, all five original text pages and personally opened all five entire original page PNGs including cover. All three figures and all equations read. No source changes, teaching, SASIS, skill change or closure are claimed.",
+  "independent_deductions": [
+    "For a<b with f continuous on [a,b] and differentiable on (a,b), MVT asserts existence of at least one c strictly between a,b such that fprime(c)=[f(b)-f(a)]/(b-a). It does not require derivatives at endpoints or a continuous derivative, give uniqueness, or permit choosing an arbitrary c. If x<a in the renamed-endpoint form, c lies between x and a; for x=a there is no strictly interior point, though the zero-displacement identity itself is trivial.",
+    "To justify the shifted-parallel-line proof, let m=[f(b)-f(a)]/(b-a) and g(t)=f(t)-f(a)-m(t-a). Then g is continuous on the compact interval, differentiable inside, and g(a)=g(b)=0. If g is identically zero every interior c works. Otherwise g has a positive maximum or negative minimum at an interior point; Fermat gives gprime(c)=0 and hence fprime(c)=m. Existence of the extremum and its interior location are required steps, not consequences of an informal drawing alone. Figure 1 shows the intended parallel tangent and secant.",
+    "For absolute value with a<0<b, the secant slope (a+b)/(b-a) is strictly between -1 and 1; existing derivatives away from zero are only -1 and 1. No interior derivative equals this slope and the cusp lacks a derivative. Figure 2 thus illustrates failure of the differentiability hypothesis. The source assertion that the first contact is at zero no matter the slope is limited to its straddling-zero secant setting: slopes ±1 can coincide with a whole branch, and more extreme slopes do not have that property.",
+    "MVT makes f(x)=f(a)+fprime(c)(x-a) exact for an unspecified suitable c. Linearization instead uses the known derivative at a and is approximate; differentiability gives f(a+h)=f(a)+fprime(a)h+o(|h|). Figure 3 shows a convex example with positive signed error; no universal error sign or quantitative bound follows from that drawing. One cannot replace fprime(c) by fprime(a) as an exact equality.",
+    "On a common interval, for any a<b the equality f(b)-f(a)=fprime(c)(b-a) proves strict increasing behaviour from fprime>0, strict decreasing behaviour from fprime<0, and constancy from fprime=0. Source p4 incorrectly defines decreasing using the same inequality as increasing: the correct relation is f(a)>f(b). Across disconnected domains none of these global comparisons follows solely from the derivative: -1/x has positive derivative but its values at -1 and 1 are 1 and -1; a function equal to 0 for negative x and 1 for positive x has zero derivative throughout its domain but is not globally constant.",
+    "The stipulated trip has average scalar rate 1000/3 miles per hour. To identify the derivative with speed, f should be accumulated path distance or a monotone coordinate along the stated route, with continuity and differentiability as required. Literal distance from Boston along an arbitrary curved trajectory gives a radial rate instead. The source stipulates the 1000-mile model; it is not a current factual route-length claim.",
+    "For Rn(x)=exp(x)-sum(k=0..n)x^k/k!, Rn(0)=0 and Rnprime=R(n-1) for n>=1. Starting with R0prime=exp(x)>0, induction and the derivative-sign result establish Rn(x)>0 for x>0. This justifies the displayed positive-x finite truncation inequalities. At zero each comparison with a Taylor polynomial is equality; exp(x)>1+x is strict also for negative x, but the quadratic lower bound is not: exp(-1)<1/2. Source p5 switches f1 to undefined f in one intermediate proof comparison; it should remain f1.",
+    "The infinite-series equality needs a separate convergence argument and does not follow merely because every finite truncation is below exp(x) for positive x. For fixed real x, Taylor remainder magnitude is at most exp(|x|)|x|^(n+1)/(n+1)!, which tends to zero (successive magnitude ratio |x|/(n+2) eventually <=1/2). This proves the announced limit when the theorem and remainder are supplied; the source explicitly postpones the series topic.",
+    "All checks are direct mathematics applied to the complete provided packet. No external current factual lookup was required."
+  ],
+  "reader_boundary": "Future SASIS gets only the full frozen baseline and complete future teaching packet, not this source audit."
+}

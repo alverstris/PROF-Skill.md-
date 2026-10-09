@@ -1,0 +1,33 @@
+{
+  "condition": "D008 v2 fresh reader",
+  "admission_status": "provisional_dispatch_inputs_verified; actual_reader_access_pending",
+  "commit": "4b4bcc9b8ff15772031e67282e73f624fe41eed2",
+  "baseline": {
+    "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+    "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+    "bytes": 247840,
+    "raw_characters": 246945,
+    "required_subjects": [
+      "Mathematics H240",
+      "Further Mathematics H245 Pure Y540/Y541 and Statistics Y542 and Mechanics Y543",
+      "Physics H556",
+      "Chemistry H432"
+    ]
+  },
+  "teaching": {
+    "path": "runs/y1-reader-20261008/iterations/008/revised-v2/teaching-v2.md",
+    "sha256": "7848e012a83c08cdeedf25c91d1800e646f30a3db77cac034bb9d07802f53b72",
+    "bytes": 27847,
+    "raw_characters": 27788,
+    "locators": "P001-P145",
+    "constituents": []
+  },
+  "instruction_sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+  "fresh_fork_required": true,
+  "content_inputs_exactly_two": true,
+  "complete_baseline_required_before_teaching": true,
+  "actual_destination_math_prose_navigation_gate": "independent renderer reported all285expressions and complete prose/numeric/prompt/link streams passed at this exact freeze; current CSS and whole-preview inspection still in progress",
+  "boundary": "Instruction-only read whitelist; no claim of technical runtime isolation, erased pretraining, or inaccessible other files.",
+  "excluded_content": "Raw lectures, skill, prior reports/diagnoses, parent calculations, author evidence, other teaching/revisions and outside subject sources.",
+  "recorded_at": "2026-10-09T02:21:45.026673+00:00"
+}

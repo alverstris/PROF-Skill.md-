@@ -1,0 +1,22 @@
+{
+  "incoming_commit": "e35a59a64ed1b01f7ae43e4ef46042f23cc7e2d6",
+  "incoming_version": "2026-10-08-r14",
+  "candidate_version": "2026-10-09-r15",
+  "change_kind": "substantive production clarification",
+  "inserted_paragraph": "For mathematics delivered through markup, check that the actual destination preserves every intended expression\u2019s operands, operators and grouping, including inline mathematics and help. Use destination-supported syntax to prevent parser collisions; correct source, protected delimiters or another renderer\u2019s preview alone cannot establish preservation. Distinguish parsed-content checks from live visual inspection.",
+  "skill_sha256": "24b8c2e2d1898384f85eca608f34074d91a78268efcec69d7ceb81052a87659e",
+  "skill_bytes": 37867,
+  "raw_characters": 37809,
+  "byte_inverse_verified": true,
+  "reason": "Observed D008 destination parser removed a mathematical operand and changed eleven other payloads; D007 protected delimiters alone had not guaranteed comparison preservation. Existing correctness gates caught these failures; added paragraph makes the actual parsing boundary explicit. No student-outcome or causal generation-improvement claim.",
+  "reader_v2_disposition": "Admitted; no established consequential teaching defect.",
+  "validation_pending": [
+    "actual GitHub candidate freeze/readback",
+    "fresh author from original inputs under candidate",
+    "independent prompt calculations",
+    "new destination/preview checks",
+    "fresh SASIS",
+    "affected earlier-output review",
+    "closure/publication"
+  ]
+}

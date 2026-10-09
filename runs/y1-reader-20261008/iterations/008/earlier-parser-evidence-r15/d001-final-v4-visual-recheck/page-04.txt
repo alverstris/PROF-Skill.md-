@@ -1,0 +1,66 @@
+[P17] Selecting x from every factor gives xn . Selecting h from exactly one factor gives hxn−1 , and
+there are n choices of that factor, giving nxn−1 h. Selecting h from two or more factors gives the
+remaining terms. The full binomial expansion is
+                                                                                    n
+                                                                                           !
+                       n     n      n−1
+                                                                                    X     n n−k k
+               (x + h) = x + nx           h + Rn (x, h),              Rn (x, h) =           x  h .
+                                                                                    k=2
+                                                                                          k
+                                              n
+The index k counts factors supplying h; k = n!/[k!(n − k)!] counts their possible selections. The
+summation adds one term for each k = 2, . . . , n. A zero exponent on x here denotes the constant
+polynomial 1, including at x = 0: selecting no x factors leaves that factor 1. Thus Rn is an exact
+name for the terms left over, not an approximation or an extra unspecified term.
+[P18] The source compresses this remainder as O(h2 ). Here the notation means that, for this fixed
+x and n, the magnitude of the remainder is at most C|h|2 for sufficiently small |h|, for some finite
+constant C independent of h. To see why, factor h2 from every remaining term:
+                                                        n
+                                                                  !
+                                                    2
+                                                        X     n n−k k−2
+                                  Rn (x, h) = h                 x  h .
+                                                        k=2
+                                                              k
+
+The absolute value of a sum is no greater than the sum of its terms’ absolute values. Thus, for
+|h| ≤ 1, the absolute value of the finite sum is no larger than
+                                                   n
+                                                              !
+                                                   X      n
+                                           C=               |x|n−k .
+                                                   k=2
+                                                          k
+
+All its coefficients are fixed, and |h|k−2 ≤ 1. Consequently |Rn (x, h)| ≤ C|h|2 . This is the concrete
+content of the O(h2 ) shorthand in this calculation.
+[P19] Subtract xn , divide by nonzero h, and then take the limit:
+
+                                 (x + h)n − xn           Rn (x, h)
+                                               = nxn−1 +           .
+                                       h                     h
+The remainder now obeys
+                                          Rn (x, h)
+                                                    ≤ C|h| −→ 0,
+                                              h
+so
+                                    d n
+                                      x = nxn−1      (n = 1, 2, 3, . . .).
+                                   dx
+For n = 1, interpret the result as the constant 1, as directly checked in P16. The argument proves
+this rule for positive integers. Other exponents require their own justification and domain conditions;
+they do not follow just by replacing the integer n in this finite-product proof.
+[P20] For example, when n = 3,
+
+                                 (x + h)3 = x3 + 3x2 h + 3xh2 + h3 ,
+
+                            (x + h)3 − x3
+                                             = 3x2 + 3xh + h2 −→ 3x2 .
+                                  h
+The exact remainder 3xh2 + h3 is O(h2 ) for fixed x, and after division it is 3xh + h2 = O(h), meaning
+bounded in magnitude by a constant times |h| near zero. The bound matters: knowing merely that
+a remainder tends to zero would not suffice, since the remainder h tends to zero but h/h = 1. We
+
+                                                         4
+

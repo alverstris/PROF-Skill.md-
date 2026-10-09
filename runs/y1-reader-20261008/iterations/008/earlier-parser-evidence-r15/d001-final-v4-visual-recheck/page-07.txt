@@ -1,0 +1,51 @@
+[P33] Hint B. First obtain q(1) = −2. Expand
+
+                                   q(1 + h) = (1 + h)3 − 3(1 + h)
+
+before subtracting q(1). After finding the slope, put it and the point (1, −2) into the line equation.
+Check whether that line meets the x-axis.
+[P34] Hint C. The three positions at times 0, 1 and 2 are 1, 0, 1 metres. Add the lengths of the two
+separate legs for distance, but subtract final minus initial position for displacement. For the instant
+t = 1.5, differentiating z = t2 − 2t + 1 supplies a rate at one time.
+[P35] Hint D. Use the constant-multiple rule with the reciprocal derivative; keep the two minus signs.
+For the line, the contact point has height −2/x0 . Set y = 0 and x = 0 separately for its intercepts.
+Geometric side lengths are the absolute values of intercept coordinates, even when the coordinates
+have opposite signs.
+[P36] Complete solutions. The following answers correspond to A–D in order. The preceding hint
+group is separate so that you can use a hint before reading a full answer.
+[P37] Solution A. With h = 0.1, the secant slope is −1/4.2 = −5/21 ≈ −0.2381. With h = −0.1, it
+is −1/3.8 = −5/19 ≈ −0.2632. The tangent slope is f ′ (2) = −1/4 = −0.25. Both secants compare
+two distinct points, while the tangent uses the limiting slopes at the fixed point. Nonzero interval
+slopes therefore need not equal their limit. At x0 = 0, f (0) is undefined, so neither the starting
+graph point nor a derivative there exists for this function. This is a domain failure, not a rule that
+every undefined quotient should be assigned zero. Return to P10.
+[P38] Solution B. Since q(1) = −2 and
+
+                      q(1 + h) = 1 + 3h + 3h2 + h3 − 3 − 3h = −2 + 3h2 + h3 ,
+
+the quotient is
+                                  q(1 + h) − q(1)
+                                                  = 3h + h2 −→ 0.
+                                         h
+Thus q ′ (1) = 0, agreeing with q ′ (x) = 3x2 − 3. The tangent through (1, −2) is y + 2 = 0(x − 1), or
+y = −2. It meets the y-axis at (0, −2) and is parallel to, and distinct from, the x-axis. There is no
+x-intercept and no bounded triangle formed by these three lines. The reciprocal area calculation
+depended on having both nonzero finite intercepts. Return to P23.
+[P39] Solution C. The net displacement is z(2) − z(0) = 1 − 1 = 0 metres, so average velocity is
+0/2 = 0 m/s. The object travels 1 metre down and 1 metre up, for total distance 2 metres and
+average speed 2/2 = 1 m/s. At a single instant use
+
+                                 z ′ (t) = 2t − 2,       z ′ (1.5) = 1 m/s.
+
+The velocity is upward and its magnitude, the speed, is 1 m/s. Oppositely signed displacements
+cancel in the whole-interval velocity; positive leg lengths add in distance. This is why taking the
+magnitude of average velocity would fail to give average speed for this journey. Return to P30.
+[P40] Solution D. The recalled definition is
+
+                                                 f (x0 + h) − f (x0 )
+                                  f ′ (x0 ) = lim                     .
+                                             h→0          h
+
+
+                                                     7
+

@@ -1,0 +1,49 @@
+Basic list of linear approximations 
+In this list, we always use base point x0 = 0 and assume that |x| << 1. 
+1. sin x ≈ x (if x ≈ 0) 
+(see part a of Fig. 2) 
+2. cos x ≈ 1 (if x ≈ 0) 
+(see part b of Fig. 2) 
+x
+3. e ≈ 1 + x (if x ≈ 0) 
+4. ln(1 + x) ≈ x (if x ≈ 0) 
+5. (1 + x)r ≈ 1 + rx (if x ≈ 0) 
+Proofs 
+Proof of 1: Take f(x) = sin x, then f 0(x) = cos x and f(0) = 0 
+f 0(0) = 1, f(x) ≈ f(0) + f 0(0)(x − 0) = 0 + 1.x 
+So using basepoint x0 = 0, f(x) = x. (The proofs of 2, 3 are similar. We already proved 4 above.) 
+Proof of 5: 
+f(x) = (1 + x)r; 
+f(0) = 1 
+f 0(0) = 
+d (1 + x)r
+x=0 = r(1 + x)r−1
+x=0 = r 
+dx
+|
+|
+f(x)
+= f(0) + f 0(0)x = 1 + rx 
+y = x
+sin(x)
+y=1
+cos(x)
+(a)
+(b)
+Figure 2: Linear approximation to (a) sin x (on left) and (b) cos x (on right). To ﬁnd them, apply f (x) ≈ f (x0) + 
+f0(x0)(x − x0)
+(x0 = 0) 
+e−2x 
+Example 2. Find the linear approximation of f(x) = 
+near x = 0. 
+√1 + x 
+We could calculate f 0(x) and ﬁnd f 0(0). But instead, we will do this by combining basic approxi­
+mations algebraically. 
+u 
+e−2x ≈ 1 + (−2x)
+(e ≈ 1 + u, where u = −2x) 
+2 
+Lecture 9  
+ 
+ 
+18.01 Fall 2006 

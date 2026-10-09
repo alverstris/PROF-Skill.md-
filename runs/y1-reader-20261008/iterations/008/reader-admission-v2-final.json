@@ -1,0 +1,65 @@
+{
+  "created_utc": "2026-10-09T02:32:14.928693+00:00",
+  "frozen_revision": "4b4bcc9b8ff15772031e67282e73f624fe41eed2",
+  "reader": "/root/sasis_d008_v2_fresh",
+  "admitted": true,
+  "actual_artifact_checks": [
+    {
+      "artifact": "baseline",
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "range": [
+        0,
+        246945
+      ],
+      "read_events": 17
+    },
+    {
+      "artifact": "teaching",
+      "sha256": "7848e012a83c08cdeedf25c91d1800e646f30a3db77cac034bb9d07802f53b72",
+      "range": [
+        0,
+        27788
+      ],
+      "read_events": 2
+    }
+  ],
+  "report_sha256": "11dc81dce9c122e8ae46bba71f47d8bbada6a3b8d0c6bca13a5d542f7d11b518",
+  "access_sha256": "e47674f8f59fa4db69672dbd66349878e231d71ea34a2247aa365c6a6798bc68",
+  "parent_full_read": {
+    "report_ranges": [
+      [
+        0,
+        15000
+      ],
+      [
+        14500,
+        25143
+      ]
+    ],
+    "report_chunks": [
+      "486d6b",
+      "e19498"
+    ],
+    "access_ranges": [
+      [
+        0,
+        15000
+      ],
+      [
+        14500,
+        19774
+      ]
+    ],
+    "access_chunks": [
+      "5c976d",
+      "6c327b"
+    ],
+    "earlier_combined_output_truncated": "83cd72; recovered fully by the four named reads"
+  },
+  "reader_findings": {
+    "established_defects": [],
+    "provisional_concerns": [],
+    "scope": "Document reconstruction from complete operational baseline and complete frozen teaching. No human learning, pretraining erasure, technical isolation, external science or live rendering claim."
+  },
+  "parent_disposition": "Accept the report within its stated scope. Source and external-science verification are covered separately in parent-technical-v2.md; actual-destination and preview verification have separate evidence. This v2 result does not validate a changed skill: substantive r15 requires a fresh author and reader."
+}

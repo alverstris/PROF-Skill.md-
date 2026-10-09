@@ -1,0 +1,14 @@
+Author checks before prose solutions; root calculations remain unread.
+Root acknowledgement: frozen calculation SHA256 a25658795c1efdbf276bc164af32c499afd7ce952dcac2da1be047d6ad093b88; numeric record 69fea3378178401c01922686ef858bbe0c340505ea799f384b43baad8ccbb07e. Receipt identifiers only, not author-verified mathematics.
+For h=e^(kx)*(1+b*x)^r, differentiating product twice gives h(0)=1, hprime(0)=k+rb, hsecond(0)=k^2+2krb+r(r-1)b^2. This checks coefficients independently of truncation multiplication.
+source: first derivative -5/2, second derivative 27/4, quadratic coefficient 27/8
+A2: first derivative 4, second derivative 18, quadratic coefficient 9
+A1: derivative 1/(2sqrt(x)) gives L=2+(x-4)/4. L(4.08)=101/50=2.02. Squaring confirms the approximate value is not exact: (101/50)^2=10201/2500 but 4.08=10200/2500.
+A2: quadratic contributions 9/2+3+3/2=9. Limit9 follows residual divided x^2 ->0, not just approximate equality.
+A4: cosine first derivatives at0=(1,0,-1), so limit=-1/2; sine values=(0,1,0), so both polynomials are x.
+A3 z=0.0004, leading=0.2000 s, quartic=0.00006000 s, sum=0.20006000 s
+Independent high-precision exact model excess=0.20006002000700252092434332874863848265702519646132117765000 s; first-order error=0.00006002000700252092434332874863848265702519646132117765000 s
+One correction alone cannot prove a total error bound; exact optional numerical check confirms this particular case but is not that logical warrant.
+Source clock z=1.77777777777777777777777777777777777777777777777777777777777E-10; z/2=8.88888888888888888888888888888888888888888888888888888888885E-11; 3z^2/8=1.18518518518518518518518518518518518518518518518518518518518E-20.
+Source polynomial derivative: d/dx(1+2x)^10=20(1+2x)^9; value at0=20. Independent binomial linear coefficient=10*2=20.
+Boundary checks: source product x>-1; A2 product x<1/2. Time ratio is1 at v=0, above1 for0<v<c, even in signed velocity. Missing T fails dimensions; missing mixed product changes A2 coefficient9 to6.

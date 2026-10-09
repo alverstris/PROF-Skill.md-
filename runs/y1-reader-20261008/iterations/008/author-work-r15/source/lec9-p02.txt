@@ -1,0 +1,40 @@
+ 
+Lecture 9  
+ 
+ 
+18.01 Fall 2006 
+Lecture 9: Linear and Quadratic Approximations 
+Unit 2: Applications of Diﬀerentiation 
+Today, we’ll be using diﬀerentiation to make approximations. 
+Linear Approximation 
+y=f(x)
+y = b+a(x-x0)
+y 
+x 
+b = f(x0) ;
+x0 ,f(x0)
+(
+)
+a = f’(x0)
+Figure 1: Tangent as a linear approximation to a curve 
+The tangent line approximates f(x). It gives a good approximation near the tangent point x0. 
+As you move away from x0, however, the approximation grows less accurate. 
+f(x) ≈ f(x0) + f 0(x0)(x − x0) 
+Example 1. f(x) = ln x, 
+x0 = 1 (basepoint) 
+1 
+f(1) = ln 1 = 0; 
+f 0(1) = 
+= 1 
+x x=1 
+ln x 
+Change the basepoint: 
+Basepoint u0 = x0 − 1 = 0. 
+≈ f(1) + f 0(1)(x − 1) = 0 + 1 · (x − 1) = x − 1 
+x = 1 + u 
+= ⇒ 
+u = x − 1 
+ln(1 + u) 
+≈ 
+u 
+1 

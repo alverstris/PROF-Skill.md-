@@ -1,0 +1,2307 @@
+{
+  "version": "parent_revised_v2",
+  "source_commit": "e0f87210f8085487a1fb6e29bb4ca821cadca5e5",
+  "source_sha256": "006fe68f52c3a4c9177f2da4fbddc5a06823314b49e4e1ac482f23a5cc169ae9",
+  "final_sha256": "7848e012a83c08cdeedf25c91d1800e646f30a3db77cac034bb9d07802f53b72",
+  "bytes": 27847,
+  "characters": 27788,
+  "counts": {
+    "inline": 258,
+    "display": 27,
+    "inline_expressions_with_literal_comparisons": 9,
+    "literal_lt": 2,
+    "literal_gt": 7
+  },
+  "wording_change": {
+    "paragraph": "P012",
+    "before": "It is not zero, and it is not a stated error bound at a particular nonzero input.",
+    "after": "It need not be zero, and it is not a stated error bound at a particular nonzero input.",
+    "reason": "A little-o remainder may be identically zero; its definition does not assert nonzero error."
+  },
+  "representation_changes": "Protect all inline math from Markdown parsing; use fenced display math; replace literal inline comparison operators with equivalent TeX operators to preserve one-parse destination payload. No prompt body change.",
+  "exact_inverse_to_original_verified": true,
+  "changes": [
+    {
+      "paragraph": "P007",
+      "kind": "inline",
+      "original_payload": "x_0",
+      "final_payload": "x_0",
+      "original_start": 1138,
+      "original_end": 1143
+    },
+    {
+      "paragraph": "P007",
+      "kind": "inline",
+      "original_payload": "h=x-x_0",
+      "final_payload": "h=x-x_0",
+      "original_start": 1152,
+      "original_end": 1161
+    },
+    {
+      "paragraph": "P007",
+      "kind": "inline",
+      "original_payload": "x=x_0+h",
+      "final_payload": "x=x_0+h",
+      "original_start": 1168,
+      "original_end": 1177
+    },
+    {
+      "paragraph": "P007",
+      "kind": "inline",
+      "original_payload": "h",
+      "final_payload": "h",
+      "original_start": 1201,
+      "original_end": 1204
+    },
+    {
+      "paragraph": "P007",
+      "kind": "inline",
+      "original_payload": "x_0",
+      "final_payload": "x_0",
+      "original_start": 1214,
+      "original_end": 1219
+    },
+    {
+      "paragraph": "P007",
+      "kind": "inline",
+      "original_payload": "f",
+      "final_payload": "f",
+      "original_start": 1233,
+      "original_end": 1236
+    },
+    {
+      "paragraph": "P007",
+      "kind": "inline",
+      "original_payload": "x_0",
+      "final_payload": "x_0",
+      "original_start": 1258,
+      "original_end": 1263
+    },
+    {
+      "paragraph": "P008",
+      "kind": "display",
+      "original_payload": "L(x)=f(x_0)+f'(x_0)(x-x_0).",
+      "final_payload": "L(x)=f(x_0)+f'(x_0)(x-x_0).",
+      "original_start": 1306,
+      "original_end": 1337
+    },
+    {
+      "paragraph": "P009",
+      "kind": "inline",
+      "original_payload": "f(x_0)",
+      "final_payload": "f(x_0)",
+      "original_start": 1358,
+      "original_end": 1366
+    },
+    {
+      "paragraph": "P009",
+      "kind": "inline",
+      "original_payload": "f'(x_0)",
+      "final_payload": "f'(x_0)",
+      "original_start": 1397,
+      "original_end": 1406
+    },
+    {
+      "paragraph": "P009",
+      "kind": "inline",
+      "original_payload": "h",
+      "final_payload": "h",
+      "original_start": 1484,
+      "original_end": 1487
+    },
+    {
+      "paragraph": "P009",
+      "kind": "inline",
+      "original_payload": "f'(x_0)h",
+      "final_payload": "f'(x_0)h",
+      "original_start": 1517,
+      "original_end": 1527
+    },
+    {
+      "paragraph": "P009",
+      "kind": "inline",
+      "original_payload": "y=b+a(x-x_0)",
+      "final_payload": "y=b+a(x-x_0)",
+      "original_start": 1652,
+      "original_end": 1666
+    },
+    {
+      "paragraph": "P009",
+      "kind": "inline",
+      "original_payload": "b=f(x_0)",
+      "final_payload": "b=f(x_0)",
+      "original_start": 1668,
+      "original_end": 1678
+    },
+    {
+      "paragraph": "P009",
+      "kind": "inline",
+      "original_payload": "a=f'(x_0)",
+      "final_payload": "a=f'(x_0)",
+      "original_start": 1683,
+      "original_end": 1694
+    },
+    {
+      "paragraph": "P010",
+      "kind": "inline",
+      "original_payload": "R_1(h)=f(x_0+h)-f(x_0)-f'(x_0)h",
+      "final_payload": "R_1(h)=f(x_0+h)-f(x_0)-f'(x_0)h",
+      "original_start": 1873,
+      "original_end": 1906
+    },
+    {
+      "paragraph": "P010",
+      "kind": "inline",
+      "original_payload": "h",
+      "final_payload": "h",
+      "original_start": 1920,
+      "original_end": 1923
+    },
+    {
+      "paragraph": "P011",
+      "kind": "display",
+      "original_payload": "\\frac{R_1(h)}h=\\frac{f(x_0+h)-f(x_0)}h-f'(x_0)\\longrightarrow0\\quad(h\\to0).",
+      "final_payload": "\\frac{R_1(h)}h=\\frac{f(x_0+h)-f(x_0)}h-f'(x_0)\\longrightarrow0\\quad(h\\to0).",
+      "original_start": 1940,
+      "original_end": 2019
+    },
+    {
+      "paragraph": "P012",
+      "kind": "inline",
+      "original_payload": "R_1(h)=o(h)",
+      "final_payload": "R_1(h)=o(h)",
+      "original_start": 2125,
+      "original_end": 2138
+    },
+    {
+      "paragraph": "P012",
+      "kind": "inline",
+      "original_payload": "o(h)",
+      "final_payload": "o(h)",
+      "original_start": 2151,
+      "original_end": 2157
+    },
+    {
+      "paragraph": "P012",
+      "kind": "inline",
+      "original_payload": "h",
+      "final_payload": "h",
+      "original_start": 2206,
+      "original_end": 2209
+    },
+    {
+      "paragraph": "P012",
+      "kind": "inline",
+      "original_payload": "f(x)\\approx L(x)",
+      "final_payload": "f(x)\\approx L(x)",
+      "original_start": 2315,
+      "original_end": 2333
+    },
+    {
+      "paragraph": "P012",
+      "kind": "inline",
+      "original_payload": "x_0",
+      "final_payload": "x_0",
+      "original_start": 2399,
+      "original_end": 2404
+    },
+    {
+      "paragraph": "P012",
+      "kind": "inline",
+      "original_payload": "x_0",
+      "final_payload": "x_0",
+      "original_start": 2484,
+      "original_end": 2489
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "f(x)=\\ln x",
+      "final_payload": "f(x)=\\ln x",
+      "original_start": 2510,
+      "original_end": 2522
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "x>0",
+      "final_payload": "x\\gt 0",
+      "original_start": 2526,
+      "original_end": 2531
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "x_0=1",
+      "final_payload": "x_0=1",
+      "original_start": 2540,
+      "original_end": 2547
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "f(1)=0",
+      "final_payload": "f(1)=0",
+      "original_start": 2555,
+      "original_end": 2563
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "f'(1)=1",
+      "final_payload": "f'(1)=1",
+      "original_start": 2568,
+      "original_end": 2577
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "L(x)=x-1",
+      "final_payload": "L(x)=x-1",
+      "original_start": 2611,
+      "original_end": 2621
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "\\ln x\\approx x-1",
+      "final_payload": "\\ln x\\approx x-1",
+      "original_start": 2633,
+      "original_end": 2651
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "1",
+      "final_payload": "1",
+      "original_start": 2657,
+      "original_end": 2660
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "\\ln(1.03)\\approx0.03",
+      "final_payload": "\\ln(1.03)\\approx0.03",
+      "original_start": 2675,
+      "original_end": 2697
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "u=x-1",
+      "final_payload": "u=x-1",
+      "original_start": 2759,
+      "original_end": 2766
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "x=1+u",
+      "final_payload": "x=1+u",
+      "original_start": 2773,
+      "original_end": 2780
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "u",
+      "final_payload": "u",
+      "original_start": 2782,
+      "original_end": 2785
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "\\ln(1+u)\\approx u",
+      "final_payload": "\\ln(1+u)\\approx u",
+      "original_start": 2804,
+      "original_end": 2823
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "u>-1",
+      "final_payload": "u\\gt -1",
+      "original_start": 2830,
+      "original_end": 2836
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "u",
+      "final_payload": "u",
+      "original_start": 2889,
+      "original_end": 2892
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "x",
+      "final_payload": "x",
+      "original_start": 2917,
+      "original_end": 2920
+    },
+    {
+      "paragraph": "P013",
+      "kind": "inline",
+      "original_payload": "1",
+      "final_payload": "1",
+      "original_start": 2926,
+      "original_end": 2929
+    },
+    {
+      "paragraph": "P020",
+      "kind": "inline",
+      "original_payload": "x",
+      "final_payload": "x",
+      "original_start": 3582,
+      "original_end": 3585
+    },
+    {
+      "paragraph": "P020",
+      "kind": "inline",
+      "original_payload": "r",
+      "final_payload": "r",
+      "original_start": 3720,
+      "original_end": 3723
+    },
+    {
+      "paragraph": "P020",
+      "kind": "inline",
+      "original_payload": "r",
+      "final_payload": "r",
+      "original_start": 3771,
+      "original_end": 3774
+    },
+    {
+      "paragraph": "P020",
+      "kind": "inline",
+      "original_payload": "1+x>0",
+      "final_payload": "1+x\\gt 0",
+      "original_start": 3798,
+      "original_end": 3805
+    },
+    {
+      "paragraph": "P021",
+      "kind": "inline",
+      "original_payload": "f(0)=0",
+      "final_payload": "f(0)=0",
+      "original_start": 3832,
+      "original_end": 3840
+    },
+    {
+      "paragraph": "P021",
+      "kind": "inline",
+      "original_payload": "f'(0)=\\cos0=1",
+      "final_payload": "f'(0)=\\cos0=1",
+      "original_start": 3845,
+      "original_end": 3860
+    },
+    {
+      "paragraph": "P021",
+      "kind": "inline",
+      "original_payload": "\\sin x\\approx x",
+      "final_payload": "\\sin x\\approx x",
+      "original_start": 3869,
+      "original_end": 3886
+    },
+    {
+      "paragraph": "P021",
+      "kind": "inline",
+      "original_payload": "f(0)=1",
+      "final_payload": "f(0)=1",
+      "original_start": 3900,
+      "original_end": 3908
+    },
+    {
+      "paragraph": "P021",
+      "kind": "inline",
+      "original_payload": "f'(0)=-\\sin0=0",
+      "final_payload": "f'(0)=-\\sin0=0",
+      "original_start": 3913,
+      "original_end": 3929
+    },
+    {
+      "paragraph": "P021",
+      "kind": "inline",
+      "original_payload": "\\cos x\\approx1",
+      "final_payload": "\\cos x\\approx1",
+      "original_start": 3938,
+      "original_end": 3954
+    },
+    {
+      "paragraph": "P021",
+      "kind": "inline",
+      "original_payload": "1",
+      "final_payload": "1",
+      "original_start": 4104,
+      "original_end": 4107
+    },
+    {
+      "paragraph": "P022",
+      "kind": "inline",
+      "original_payload": "e^x",
+      "final_payload": "e^x",
+      "original_start": 4208,
+      "original_end": 4213
+    },
+    {
+      "paragraph": "P022",
+      "kind": "inline",
+      "original_payload": "1",
+      "final_payload": "1",
+      "original_start": 4248,
+      "original_end": 4251
+    },
+    {
+      "paragraph": "P022",
+      "kind": "inline",
+      "original_payload": "e^x\\approx1+x",
+      "final_payload": "e^x\\approx1+x",
+      "original_start": 4256,
+      "original_end": 4271
+    },
+    {
+      "paragraph": "P022",
+      "kind": "inline",
+      "original_payload": "\\ln(1+x)",
+      "final_payload": "\\ln(1+x)",
+      "original_start": 4277,
+      "original_end": 4287
+    },
+    {
+      "paragraph": "P022",
+      "kind": "inline",
+      "original_payload": "1/(1+x)",
+      "final_payload": "1/(1+x)",
+      "original_start": 4315,
+      "original_end": 4324
+    },
+    {
+      "paragraph": "P022",
+      "kind": "inline",
+      "original_payload": "\\ln(1+x)\\approx x",
+      "final_payload": "\\ln(1+x)\\approx x",
+      "original_start": 4330,
+      "original_end": 4349
+    },
+    {
+      "paragraph": "P022",
+      "kind": "inline",
+      "original_payload": "(1+x)^r",
+      "final_payload": "(1+x)^r",
+      "original_start": 4355,
+      "original_end": 4364
+    },
+    {
+      "paragraph": "P022",
+      "kind": "inline",
+      "original_payload": "1",
+      "final_payload": "1",
+      "original_start": 4372,
+      "original_end": 4375
+    },
+    {
+      "paragraph": "P022",
+      "kind": "inline",
+      "original_payload": "r(1+x)^{r-1}",
+      "final_payload": "r(1+x)^{r-1}",
+      "original_start": 4391,
+      "original_end": 4405
+    },
+    {
+      "paragraph": "P022",
+      "kind": "inline",
+      "original_payload": "(1+x)^r\\approx1+rx",
+      "final_payload": "(1+x)^r\\approx1+rx",
+      "original_start": 4411,
+      "original_end": 4431
+    },
+    {
+      "paragraph": "P022",
+      "kind": "inline",
+      "original_payload": "o(x)",
+      "final_payload": "o(x)",
+      "original_start": 4527,
+      "original_end": 4533
+    },
+    {
+      "paragraph": "P023",
+      "kind": "inline",
+      "original_payload": "e^u\\approx1+u",
+      "final_payload": "e^u\\approx1+u",
+      "original_start": 4640,
+      "original_end": 4655
+    },
+    {
+      "paragraph": "P023",
+      "kind": "inline",
+      "original_payload": "u=-2x",
+      "final_payload": "u=-2x",
+      "original_start": 4661,
+      "original_end": 4668
+    },
+    {
+      "paragraph": "P023",
+      "kind": "inline",
+      "original_payload": "e^{-2x}\\approx1-2x",
+      "final_payload": "e^{-2x}\\approx1-2x",
+      "original_start": 4675,
+      "original_end": 4695
+    },
+    {
+      "paragraph": "P023",
+      "kind": "inline",
+      "original_payload": "|-2x|",
+      "final_payload": "|-2x|",
+      "original_start": 4707,
+      "original_end": 4714
+    },
+    {
+      "paragraph": "P023",
+      "kind": "inline",
+      "original_payload": "(1+x)^{-1/2}\\approx1-x/2",
+      "final_payload": "(1+x)^{-1/2}\\approx1-x/2",
+      "original_start": 4732,
+      "original_end": 4758
+    },
+    {
+      "paragraph": "P023",
+      "kind": "inline",
+      "original_payload": "1/\\sqrt{1+x}=(1+x)^{-1/2}",
+      "final_payload": "1/\\sqrt{1+x}=(1+x)^{-1/2}",
+      "original_start": 4773,
+      "original_end": 4800
+    },
+    {
+      "paragraph": "P023",
+      "kind": "inline",
+      "original_payload": "x>-1",
+      "final_payload": "x\\gt -1",
+      "original_start": 4810,
+      "original_end": 4816
+    },
+    {
+      "paragraph": "P023",
+      "kind": "inline",
+      "original_payload": "\\sqrt{1+x}",
+      "final_payload": "\\sqrt{1+x}",
+      "original_start": 4916,
+      "original_end": 4928
+    },
+    {
+      "paragraph": "P023",
+      "kind": "inline",
+      "original_payload": "1+x/2",
+      "final_payload": "1+x/2",
+      "original_start": 4932,
+      "original_end": 4939
+    },
+    {
+      "paragraph": "P023",
+      "kind": "inline",
+      "original_payload": "(1+u)^{-1}\\approx1-u",
+      "final_payload": "(1+u)^{-1}\\approx1-u",
+      "original_start": 4950,
+      "original_end": 4972
+    },
+    {
+      "paragraph": "P023",
+      "kind": "inline",
+      "original_payload": "u=x/2",
+      "final_payload": "u=x/2",
+      "original_start": 4978,
+      "original_end": 4985
+    },
+    {
+      "paragraph": "P025",
+      "kind": "inline",
+      "original_payload": "f(x)=e^{-2x}/\\sqrt{1+x}",
+      "final_payload": "f(x)=e^{-2x}/\\sqrt{1+x}",
+      "original_start": 5179,
+      "original_end": 5204
+    },
+    {
+      "paragraph": "P025",
+      "kind": "inline",
+      "original_payload": "x>-1",
+      "final_payload": "x\\gt -1",
+      "original_start": 5209,
+      "original_end": 5215
+    },
+    {
+      "paragraph": "P025",
+      "kind": "inline",
+      "original_payload": "e^{-2x}(1+x)^{-1/2}",
+      "final_payload": "e^{-2x}(1+x)^{-1/2}",
+      "original_start": 5237,
+      "original_end": 5258
+    },
+    {
+      "paragraph": "P026",
+      "kind": "display",
+      "original_payload": "f(x)\\approx(1-2x)(1-x/2)=1-\\frac52x+x^2.",
+      "final_payload": "f(x)\\approx(1-2x)(1-x/2)=1-\\frac52x+x^2.",
+      "original_start": 5305,
+      "original_end": 5349
+    },
+    {
+      "paragraph": "P027",
+      "kind": "inline",
+      "original_payload": "x^2",
+      "final_payload": "x^2",
+      "original_start": 5436,
+      "original_end": 5441
+    },
+    {
+      "paragraph": "P028",
+      "kind": "display",
+      "original_payload": "L(x)=1-\\frac52x,\\qquad f(x)=1-\\frac52x+o(x).",
+      "final_payload": "L(x)=1-\\frac52x,\\qquad f(x)=1-\\frac52x+o(x).",
+      "original_start": 5633,
+      "original_end": 5681
+    },
+    {
+      "paragraph": "P029",
+      "kind": "inline",
+      "original_payload": "1-2x+r(x)",
+      "final_payload": "1-2x+r(x)",
+      "original_start": 5755,
+      "original_end": 5766
+    },
+    {
+      "paragraph": "P029",
+      "kind": "inline",
+      "original_payload": "1-x/2+s(x)",
+      "final_payload": "1-x/2+s(x)",
+      "original_start": 5771,
+      "original_end": 5783
+    },
+    {
+      "paragraph": "P029",
+      "kind": "inline",
+      "original_payload": "r(x)/x\\to0",
+      "final_payload": "r(x)/x\\to0",
+      "original_start": 5791,
+      "original_end": 5803
+    },
+    {
+      "paragraph": "P029",
+      "kind": "inline",
+      "original_payload": "s(x)/x\\to0",
+      "final_payload": "s(x)/x\\to0",
+      "original_start": 5808,
+      "original_end": 5820
+    },
+    {
+      "paragraph": "P029",
+      "kind": "inline",
+      "original_payload": "x^2",
+      "final_payload": "x^2",
+      "original_start": 5864,
+      "original_end": 5869
+    },
+    {
+      "paragraph": "P029",
+      "kind": "inline",
+      "original_payload": "(1-2x)s(x)",
+      "final_payload": "(1-2x)s(x)",
+      "original_start": 5871,
+      "original_end": 5883
+    },
+    {
+      "paragraph": "P029",
+      "kind": "inline",
+      "original_payload": "(1-x/2)r(x)",
+      "final_payload": "(1-x/2)r(x)",
+      "original_start": 5885,
+      "original_end": 5898
+    },
+    {
+      "paragraph": "P029",
+      "kind": "inline",
+      "original_payload": "r(x)s(x)",
+      "final_payload": "r(x)s(x)",
+      "original_start": 5903,
+      "original_end": 5913
+    },
+    {
+      "paragraph": "P029",
+      "kind": "inline",
+      "original_payload": "x",
+      "final_payload": "x",
+      "original_start": 5933,
+      "original_end": 5936
+    },
+    {
+      "paragraph": "P029",
+      "kind": "inline",
+      "original_payload": "x^2/x=x\\to0",
+      "final_payload": "x^2/x=x\\to0",
+      "original_start": 5969,
+      "original_end": 5982
+    },
+    {
+      "paragraph": "P029",
+      "kind": "inline",
+      "original_payload": "r(x)s(x)/x=(r(x)/x)s(x)\\to0",
+      "final_payload": "r(x)s(x)/x=(r(x)/x)s(x)\\to0",
+      "original_start": 5987,
+      "original_end": 6016
+    },
+    {
+      "paragraph": "P029",
+      "kind": "inline",
+      "original_payload": "f(0)=1",
+      "final_payload": "f(0)=1",
+      "original_start": 6099,
+      "original_end": 6107
+    },
+    {
+      "paragraph": "P029",
+      "kind": "inline",
+      "original_payload": "f'(0)=-5/2",
+      "final_payload": "f'(0)=-5/2",
+      "original_start": 6112,
+      "original_end": 6124
+    },
+    {
+      "paragraph": "P031",
+      "kind": "inline",
+      "original_payload": "F(x)=(1+2x)^{10}",
+      "final_payload": "F(x)=(1+2x)^{10}",
+      "original_start": 6351,
+      "original_end": 6369
+    },
+    {
+      "paragraph": "P032",
+      "kind": "display",
+      "original_payload": "\\lim_{x\\to0}\\frac{(1+2x)^{10}-1}{x}=F'(0)=20.",
+      "final_payload": "\\lim_{x\\to0}\\frac{(1+2x)^{10}-1}{x}=F'(0)=20.",
+      "original_start": 6430,
+      "original_end": 6479
+    },
+    {
+      "paragraph": "P033",
+      "kind": "inline",
+      "original_payload": "F(0)=1",
+      "final_payload": "F(0)=1",
+      "original_start": 6502,
+      "original_end": 6510
+    },
+    {
+      "paragraph": "P033",
+      "kind": "inline",
+      "original_payload": "F'(x)=20(1+2x)^9",
+      "final_payload": "F'(x)=20(1+2x)^9",
+      "original_start": 6515,
+      "original_end": 6533
+    },
+    {
+      "paragraph": "P033",
+      "kind": "inline",
+      "original_payload": "u=2x",
+      "final_payload": "u=2x",
+      "original_start": 6588,
+      "original_end": 6594
+    },
+    {
+      "paragraph": "P033",
+      "kind": "inline",
+      "original_payload": "r=10",
+      "final_payload": "r=10",
+      "original_start": 6596,
+      "original_end": 6602
+    },
+    {
+      "paragraph": "P033",
+      "kind": "inline",
+      "original_payload": "F(x)=1+20x+o(x)",
+      "final_payload": "F(x)=1+20x+o(x)",
+      "original_start": 6635,
+      "original_end": 6652
+    },
+    {
+      "paragraph": "P033",
+      "kind": "inline",
+      "original_payload": "1",
+      "final_payload": "1",
+      "original_start": 6666,
+      "original_end": 6669
+    },
+    {
+      "paragraph": "P033",
+      "kind": "inline",
+      "original_payload": "x",
+      "final_payload": "x",
+      "original_start": 6694,
+      "original_end": 6697
+    },
+    {
+      "paragraph": "P033",
+      "kind": "inline",
+      "original_payload": "20+o(x)/x\\to20",
+      "final_payload": "20+o(x)/x\\to20",
+      "original_start": 6705,
+      "original_end": 6721
+    },
+    {
+      "paragraph": "P033",
+      "kind": "inline",
+      "original_payload": "\\approx",
+      "final_payload": "\\approx",
+      "original_start": 6804,
+      "original_end": 6813
+    },
+    {
+      "paragraph": "P036",
+      "kind": "inline",
+      "original_payload": "h=x-x_0",
+      "final_payload": "h=x-x_0",
+      "original_start": 7097,
+      "original_end": 7106
+    },
+    {
+      "paragraph": "P036",
+      "kind": "inline",
+      "original_payload": "A+Bh+Ch^2",
+      "final_payload": "A+Bh+Ch^2",
+      "original_start": 7110,
+      "original_end": 7121
+    },
+    {
+      "paragraph": "P036",
+      "kind": "inline",
+      "original_payload": "h=0",
+      "final_payload": "h=0",
+      "original_start": 7176,
+      "original_end": 7181
+    },
+    {
+      "paragraph": "P036",
+      "kind": "inline",
+      "original_payload": "A,B,2C",
+      "final_payload": "A,B,2C",
+      "original_start": 7186,
+      "original_end": 7194
+    },
+    {
+      "paragraph": "P036",
+      "kind": "inline",
+      "original_payload": "f(x_0),f'(x_0),f''(x_0)",
+      "final_payload": "f(x_0),f'(x_0),f''(x_0)",
+      "original_start": 7214,
+      "original_end": 7239
+    },
+    {
+      "paragraph": "P037",
+      "kind": "display",
+      "original_payload": "Q(x)=f(x_0)+f'(x_0)(x-x_0)+\\frac{f''(x_0)}2(x-x_0)^2.",
+      "final_payload": "Q(x)=f(x_0)+f'(x_0)(x-x_0)+\\frac{f''(x_0)}2(x-x_0)^2.",
+      "original_start": 7271,
+      "original_end": 7328
+    },
+    {
+      "paragraph": "P038",
+      "kind": "inline",
+      "original_payload": "f''(x_0)/2",
+      "final_payload": "f''(x_0)/2",
+      "original_start": 7363,
+      "original_end": 7375
+    },
+    {
+      "paragraph": "P038",
+      "kind": "inline",
+      "original_payload": "Ch^2",
+      "final_payload": "Ch^2",
+      "original_start": 7401,
+      "original_end": 7407
+    },
+    {
+      "paragraph": "P038",
+      "kind": "inline",
+      "original_payload": "2C",
+      "final_payload": "2C",
+      "original_start": 7420,
+      "original_end": 7424
+    },
+    {
+      "paragraph": "P038",
+      "kind": "inline",
+      "original_payload": "f(x)=a+bx+cx^2",
+      "final_payload": "f(x)=a+bx+cx^2",
+      "original_start": 7479,
+      "original_end": 7495
+    },
+    {
+      "paragraph": "P038",
+      "kind": "inline",
+      "original_payload": "x_0=0",
+      "final_payload": "x_0=0",
+      "original_start": 7500,
+      "original_end": 7507
+    },
+    {
+      "paragraph": "P038",
+      "kind": "inline",
+      "original_payload": "a+bx+cx^2",
+      "final_payload": "a+bx+cx^2",
+      "original_start": 7533,
+      "original_end": 7544
+    },
+    {
+      "paragraph": "P038",
+      "kind": "inline",
+      "original_payload": "h",
+      "final_payload": "h",
+      "original_start": 7704,
+      "original_end": 7707
+    },
+    {
+      "paragraph": "P039",
+      "kind": "inline",
+      "original_payload": "x_0",
+      "final_payload": "x_0",
+      "original_start": 7787,
+      "original_end": 7792
+    },
+    {
+      "paragraph": "P039",
+      "kind": "inline",
+      "original_payload": "R_2(h)=f(x_0+h)-Q(x_0+h)",
+      "final_payload": "R_2(h)=f(x_0+h)-Q(x_0+h)",
+      "original_start": 7804,
+      "original_end": 7830
+    },
+    {
+      "paragraph": "P039",
+      "kind": "inline",
+      "original_payload": "R_2(h)/h^2\\to0",
+      "final_payload": "R_2(h)/h^2\\to0",
+      "original_start": 7841,
+      "original_end": 7857
+    },
+    {
+      "paragraph": "P039",
+      "kind": "inline",
+      "original_payload": "R_2(h)=o(h^2)",
+      "final_payload": "R_2(h)=o(h^2)",
+      "original_start": 7876,
+      "original_end": 7891
+    },
+    {
+      "paragraph": "P040",
+      "kind": "display",
+      "original_payload": "f(x_0+h)-f(x_0)=\\int_0^h f'(x_0+t)\\,dt,",
+      "final_payload": "f(x_0+h)-f(x_0)=\\int_0^h f'(x_0+t)\\,dt,",
+      "original_start": 8035,
+      "original_end": 8078
+    },
+    {
+      "paragraph": "P041",
+      "kind": "display",
+      "original_payload": "f'(x_0+t)=f'(x_0)+f''(x_0)t+\\int_0^t\\bigl[f''(x_0+s)-f''(x_0)\\bigr]\\,ds.",
+      "final_payload": "f'(x_0+t)=f'(x_0)+f''(x_0)t+\\int_0^t\\bigl[f''(x_0+s)-f''(x_0)\\bigr]\\,ds.",
+      "original_start": 8094,
+      "original_end": 8170
+    },
+    {
+      "paragraph": "P042",
+      "kind": "inline",
+      "original_payload": "f'(x_0)h+f''(x_0)h^2/2",
+      "final_payload": "f'(x_0)h+f''(x_0)h^2/2",
+      "original_start": 8267,
+      "original_end": 8291
+    },
+    {
+      "paragraph": "P042",
+      "kind": "inline",
+      "original_payload": "Q",
+      "final_payload": "Q",
+      "original_start": 8326,
+      "original_end": 8329
+    },
+    {
+      "paragraph": "P042",
+      "kind": "inline",
+      "original_payload": "|h|",
+      "final_payload": "|h|",
+      "original_start": 8435,
+      "original_end": 8440
+    },
+    {
+      "paragraph": "P042",
+      "kind": "inline",
+      "original_payload": "\\varepsilon",
+      "final_payload": "\\varepsilon",
+      "original_start": 8515,
+      "original_end": 8528
+    },
+    {
+      "paragraph": "P042",
+      "kind": "inline",
+      "original_payload": "0",
+      "final_payload": "0",
+      "original_start": 8561,
+      "original_end": 8564
+    },
+    {
+      "paragraph": "P042",
+      "kind": "inline",
+      "original_payload": "h",
+      "final_payload": "h",
+      "original_start": 8569,
+      "original_end": 8572
+    },
+    {
+      "paragraph": "P042",
+      "kind": "inline",
+      "original_payload": "\\varepsilon|t|",
+      "final_payload": "\\varepsilon|t|",
+      "original_start": 8620,
+      "original_end": 8636
+    },
+    {
+      "paragraph": "P042",
+      "kind": "inline",
+      "original_payload": "\\varepsilon h^2/2",
+      "final_payload": "\\varepsilon h^2/2",
+      "original_start": 8664,
+      "original_end": 8683
+    },
+    {
+      "paragraph": "P042",
+      "kind": "inline",
+      "original_payload": "h",
+      "final_payload": "h",
+      "original_start": 8704,
+      "original_end": 8707
+    },
+    {
+      "paragraph": "P042",
+      "kind": "inline",
+      "original_payload": "|R_2(h)/h^2|\\le\\varepsilon/2",
+      "final_payload": "|R_2(h)/h^2|\\le\\varepsilon/2",
+      "original_start": 8714,
+      "original_end": 8744
+    },
+    {
+      "paragraph": "P043",
+      "kind": "inline",
+      "original_payload": "f(0)=1",
+      "final_payload": "f(0)=1",
+      "original_start": 8932,
+      "original_end": 8940
+    },
+    {
+      "paragraph": "P043",
+      "kind": "inline",
+      "original_payload": "f'(0)=0",
+      "final_payload": "f'(0)=0",
+      "original_start": 8942,
+      "original_end": 8951
+    },
+    {
+      "paragraph": "P043",
+      "kind": "inline",
+      "original_payload": "f''(0)=-1",
+      "final_payload": "f''(0)=-1",
+      "original_start": 8956,
+      "original_end": 8967
+    },
+    {
+      "paragraph": "P043",
+      "kind": "inline",
+      "original_payload": "Q(x)=1-x^2/2",
+      "final_payload": "Q(x)=1-x^2/2",
+      "original_start": 8975,
+      "original_end": 8989
+    },
+    {
+      "paragraph": "P043",
+      "kind": "inline",
+      "original_payload": "\\cos x\\approx1-x^2/2",
+      "final_payload": "\\cos x\\approx1-x^2/2",
+      "original_start": 8994,
+      "original_end": 9016
+    },
+    {
+      "paragraph": "P045",
+      "kind": "inline",
+      "original_payload": "-\\sin0=0",
+      "final_payload": "-\\sin0=0",
+      "original_start": 9621,
+      "original_end": 9631
+    },
+    {
+      "paragraph": "P045",
+      "kind": "inline",
+      "original_payload": "-\\cos0=-1",
+      "final_payload": "-\\cos0=-1",
+      "original_start": 9662,
+      "original_end": 9673
+    },
+    {
+      "paragraph": "P045",
+      "kind": "inline",
+      "original_payload": "e^0=1",
+      "final_payload": "e^0=1",
+      "original_start": 9717,
+      "original_end": 9724
+    },
+    {
+      "paragraph": "P046",
+      "kind": "display",
+      "original_payload": "\\sin x\\approx x,\\qquad \\cos x\\approx1-\\frac{x^2}{2},\\qquad e^x\\approx1+x+\\frac{x^2}{2}.",
+      "final_payload": "\\sin x\\approx x,\\qquad \\cos x\\approx1-\\frac{x^2}{2},\\qquad e^x\\approx1+x+\\frac{x^2}{2}.",
+      "original_start": 9768,
+      "original_end": 9859
+    },
+    {
+      "paragraph": "P047",
+      "kind": "inline",
+      "original_payload": "\\ln(1+x)",
+      "final_payload": "\\ln(1+x)",
+      "original_start": 9996,
+      "original_end": 10006
+    },
+    {
+      "paragraph": "P047",
+      "kind": "inline",
+      "original_payload": "f'(x)=(1+x)^{-1}",
+      "final_payload": "f'(x)=(1+x)^{-1}",
+      "original_start": 10024,
+      "original_end": 10042
+    },
+    {
+      "paragraph": "P047",
+      "kind": "inline",
+      "original_payload": "f''(x)=-(1+x)^{-2}",
+      "final_payload": "f''(x)=-(1+x)^{-2}",
+      "original_start": 10049,
+      "original_end": 10069
+    },
+    {
+      "paragraph": "P047",
+      "kind": "inline",
+      "original_payload": "(f(0),f'(0),f''(0))=(0,1,-1)",
+      "final_payload": "(f(0),f'(0),f''(0))=(0,1,-1)",
+      "original_start": 10074,
+      "original_end": 10104
+    },
+    {
+      "paragraph": "P048",
+      "kind": "display",
+      "original_payload": "\\ln(1+x)\\approx x-\\frac{x^2}{2}.",
+      "final_payload": "\\ln(1+x)\\approx x-\\frac{x^2}{2}.",
+      "original_start": 10124,
+      "original_end": 10160
+    },
+    {
+      "paragraph": "P049",
+      "kind": "inline",
+      "original_payload": "r",
+      "final_payload": "r",
+      "original_start": 10186,
+      "original_end": 10189
+    },
+    {
+      "paragraph": "P049",
+      "kind": "inline",
+      "original_payload": "r(1+x)^{r-1}",
+      "final_payload": "r(1+x)^{r-1}",
+      "original_start": 10207,
+      "original_end": 10221
+    },
+    {
+      "paragraph": "P049",
+      "kind": "inline",
+      "original_payload": "r(r-1)(1+x)^{r-2}",
+      "final_payload": "r(r-1)(1+x)^{r-2}",
+      "original_start": 10228,
+      "original_end": 10247
+    },
+    {
+      "paragraph": "P050",
+      "kind": "display",
+      "original_payload": "(1+x)^r\\approx1+rx+\\frac{r(r-1)}2x^2.",
+      "final_payload": "(1+x)^r\\approx1+rx+\\frac{r(r-1)}2x^2.",
+      "original_start": 10274,
+      "original_end": 10315
+    },
+    {
+      "paragraph": "P051",
+      "kind": "inline",
+      "original_payload": "o(x^2)",
+      "final_payload": "o(x^2)",
+      "original_start": 10434,
+      "original_end": 10442
+    },
+    {
+      "paragraph": "P051",
+      "kind": "inline",
+      "original_payload": "|x|<1",
+      "final_payload": "|x|\\lt 1",
+      "original_start": 10605,
+      "original_end": 10612
+    },
+    {
+      "paragraph": "P053",
+      "kind": "inline",
+      "original_payload": "f(x)=e^{-2x}(1+x)^{-1/2}",
+      "final_payload": "f(x)=e^{-2x}(1+x)^{-1/2}",
+      "original_start": 10892,
+      "original_end": 10918
+    },
+    {
+      "paragraph": "P054",
+      "kind": "display",
+      "original_payload": "e^{-2x}=1-2x+2x^2+o(x^2),",
+      "final_payload": "e^{-2x}=1-2x+2x^2+o(x^2),",
+      "original_start": 11052,
+      "original_end": 11081
+    },
+    {
+      "paragraph": "P055",
+      "kind": "display",
+      "original_payload": "(1+x)^{-1/2}=1-\\frac{x}{2}+\\frac38x^2+o(x^2).",
+      "final_payload": "(1+x)^{-1/2}=1-\\frac{x}{2}+\\frac38x^2+o(x^2).",
+      "original_start": 11097,
+      "original_end": 11146
+    },
+    {
+      "paragraph": "P056",
+      "kind": "inline",
+      "original_payload": "3/8",
+      "final_payload": "3/8",
+      "original_start": 11188,
+      "original_end": 11193
+    },
+    {
+      "paragraph": "P056",
+      "kind": "inline",
+      "original_payload": "(-1/2)(-3/2)/2",
+      "final_payload": "(-1/2)(-3/2)/2",
+      "original_start": 11205,
+      "original_end": 11221
+    },
+    {
+      "paragraph": "P057",
+      "kind": "display",
+      "original_payload": "Q(x)=1+\\left(-2-\\frac12\\right)x+\\left(2+(-2)(-1/2)+\\frac38\\right)x^2\n=1-\\frac52x+\\frac{27}{8}x^2.",
+      "final_payload": "Q(x)=1+\\left(-2-\\frac12\\right)x+\\left(2+(-2)(-1/2)+\\frac38\\right)x^2\n=1-\\frac52x+\\frac{27}{8}x^2.",
+      "original_start": 11371,
+      "original_end": 11472
+    },
+    {
+      "paragraph": "P058",
+      "kind": "inline",
+      "original_payload": "x^2",
+      "final_payload": "x^2",
+      "original_start": 11532,
+      "original_end": 11537
+    },
+    {
+      "paragraph": "P058",
+      "kind": "inline",
+      "original_payload": "o(x^2)",
+      "final_payload": "o(x^2)",
+      "original_start": 11572,
+      "original_end": 11580
+    },
+    {
+      "paragraph": "P058",
+      "kind": "inline",
+      "original_payload": "x^2",
+      "final_payload": "x^2",
+      "original_start": 11656,
+      "original_end": 11661
+    },
+    {
+      "paragraph": "P058",
+      "kind": "inline",
+      "original_payload": "f(x)=Q(x)+o(x^2)",
+      "final_payload": "f(x)=Q(x)+o(x^2)",
+      "original_start": 11749,
+      "original_end": 11767
+    },
+    {
+      "paragraph": "P058",
+      "kind": "inline",
+      "original_payload": "27/8",
+      "final_payload": "27/8",
+      "original_start": 11789,
+      "original_end": 11795
+    },
+    {
+      "paragraph": "P058",
+      "kind": "inline",
+      "original_payload": "x^2",
+      "final_payload": "x^2",
+      "original_start": 11831,
+      "original_end": 11836
+    },
+    {
+      "paragraph": "P058",
+      "kind": "inline",
+      "original_payload": "1",
+      "final_payload": "1",
+      "original_start": 11879,
+      "original_end": 11882
+    },
+    {
+      "paragraph": "P058",
+      "kind": "inline",
+      "original_payload": "2+3/8",
+      "final_payload": "2+3/8",
+      "original_start": 11895,
+      "original_end": 11902
+    },
+    {
+      "paragraph": "P065",
+      "kind": "inline",
+      "original_payload": "T>0",
+      "final_payload": "T\\gt 0",
+      "original_start": 13111,
+      "original_end": 13116
+    },
+    {
+      "paragraph": "P065",
+      "kind": "inline",
+      "original_payload": "T'",
+      "final_payload": "T'",
+      "original_start": 13196,
+      "original_end": 13200
+    },
+    {
+      "paragraph": "P066",
+      "kind": "display",
+      "original_payload": "T'=\\frac{T}{\\sqrt{1-v^2/c^2}},\\qquad c>0,\\quad0\\le v<c.",
+      "final_payload": "T'=\\frac{T}{\\sqrt{1-v^2/c^2}},\\qquad c>0,\\quad0\\le v<c.",
+      "original_start": 13452,
+      "original_end": 13511
+    },
+    {
+      "paragraph": "P067",
+      "kind": "inline",
+      "original_payload": "v",
+      "final_payload": "v",
+      "original_start": 13532,
+      "original_end": 13535
+    },
+    {
+      "paragraph": "P067",
+      "kind": "inline",
+      "original_payload": "c",
+      "final_payload": "c",
+      "original_start": 13576,
+      "original_end": 13579
+    },
+    {
+      "paragraph": "P068",
+      "kind": "inline",
+      "original_payload": "z=v^2/c^2",
+      "final_payload": "z=v^2/c^2",
+      "original_start": 14008,
+      "original_end": 14019
+    },
+    {
+      "paragraph": "P068",
+      "kind": "inline",
+      "original_payload": "z",
+      "final_payload": "z",
+      "original_start": 14059,
+      "original_end": 14062
+    },
+    {
+      "paragraph": "P068",
+      "kind": "inline",
+      "original_payload": "T'/T",
+      "final_payload": "T'/T",
+      "original_start": 14067,
+      "original_end": 14073
+    },
+    {
+      "paragraph": "P068",
+      "kind": "inline",
+      "original_payload": "v\\ll c",
+      "final_payload": "v\\ll c",
+      "original_start": 14097,
+      "original_end": 14105
+    },
+    {
+      "paragraph": "P068",
+      "kind": "inline",
+      "original_payload": "z\\ll1",
+      "final_payload": "z\\ll1",
+      "original_start": 14107,
+      "original_end": 14114
+    },
+    {
+      "paragraph": "P068",
+      "kind": "inline",
+      "original_payload": "u=-z",
+      "final_payload": "u=-z",
+      "original_start": 14159,
+      "original_end": 14165
+    },
+    {
+      "paragraph": "P068",
+      "kind": "inline",
+      "original_payload": "r=-1/2",
+      "final_payload": "r=-1/2",
+      "original_start": 14181,
+      "original_end": 14189
+    },
+    {
+      "paragraph": "P068",
+      "kind": "inline",
+      "original_payload": "z",
+      "final_payload": "z",
+      "original_start": 14221,
+      "original_end": 14224
+    },
+    {
+      "paragraph": "P069",
+      "kind": "display",
+      "original_payload": "\\frac{T'}T=(1-z)^{-1/2}\\approx1+\\frac z2+\\frac38z^2,",
+      "final_payload": "\\frac{T'}T=(1-z)^{-1/2}\\approx1+\\frac z2+\\frac38z^2,",
+      "original_start": 14246,
+      "original_end": 14302
+    },
+    {
+      "paragraph": "P070",
+      "kind": "display",
+      "original_payload": "T'-T\\approx T\\left(\\frac{v^2}{2c^2}+\\frac{3v^4}{8c^4}\\right).",
+      "final_payload": "T'-T\\approx T\\left(\\frac{v^2}{2c^2}+\\frac{3v^4}{8c^4}\\right).",
+      "original_start": 14318,
+      "original_end": 14383
+    },
+    {
+      "paragraph": "P071",
+      "kind": "inline",
+      "original_payload": "v=0",
+      "final_payload": "v=0",
+      "original_start": 14537,
+      "original_end": 14542
+    },
+    {
+      "paragraph": "P071",
+      "kind": "inline",
+      "original_payload": "z",
+      "final_payload": "z",
+      "original_start": 14580,
+      "original_end": 14583
+    },
+    {
+      "paragraph": "P071",
+      "kind": "inline",
+      "original_payload": "v/c",
+      "final_payload": "v/c",
+      "original_start": 14616,
+      "original_end": 14621
+    },
+    {
+      "paragraph": "P071",
+      "kind": "inline",
+      "original_payload": "z",
+      "final_payload": "z",
+      "original_start": 14638,
+      "original_end": 14641
+    },
+    {
+      "paragraph": "P071",
+      "kind": "inline",
+      "original_payload": "v/c",
+      "final_payload": "v/c",
+      "original_start": 14659,
+      "original_end": 14664
+    },
+    {
+      "paragraph": "P071",
+      "kind": "inline",
+      "original_payload": "v",
+      "final_payload": "v",
+      "original_start": 14758,
+      "original_end": 14761
+    },
+    {
+      "paragraph": "P072",
+      "kind": "inline",
+      "original_payload": "v=4\\ \\mathrm{km/s}",
+      "final_payload": "v=4\\ \\mathrm{km/s}",
+      "original_start": 14812,
+      "original_end": 14832
+    },
+    {
+      "paragraph": "P072",
+      "kind": "inline",
+      "original_payload": "c=3\\times10^5\\ \\mathrm{km/s}",
+      "final_payload": "c=3\\times10^5\\ \\mathrm{km/s}",
+      "original_start": 14837,
+      "original_end": 14867
+    },
+    {
+      "paragraph": "P073",
+      "kind": "display",
+      "original_payload": "z=\\left(\\frac4{300000}\\right)^2\\approx1.78\\times10^{-10},\\qquad \\frac z2\\approx8.89\\times10^{-11},\\qquad \\frac38z^2\\approx1.19\\times10^{-20}.",
+      "final_payload": "z=\\left(\\frac4{300000}\\right)^2\\approx1.78\\times10^{-10},\\qquad \\frac z2\\approx8.89\\times10^{-11},\\qquad \\frac38z^2\\approx1.19\\times10^{-20}.",
+      "original_start": 14884,
+      "original_end": 15029
+    },
+    {
+      "paragraph": "P074",
+      "kind": "inline",
+      "original_payload": "T'/T",
+      "final_payload": "T'/T",
+      "original_start": 15097,
+      "original_end": 15103
+    },
+    {
+      "paragraph": "P074",
+      "kind": "inline",
+      "original_payload": "T",
+      "final_payload": "T",
+      "original_start": 15140,
+      "original_end": 15143
+    },
+    {
+      "paragraph": "P074",
+      "kind": "inline",
+      "original_payload": "T=1\\ \\mathrm{s}",
+      "final_payload": "T=1\\ \\mathrm{s}",
+      "original_start": 15211,
+      "original_end": 15228
+    },
+    {
+      "paragraph": "P074",
+      "kind": "inline",
+      "original_payload": "8.89\\times10^{-11}\\ \\mathrm{s}",
+      "final_payload": "8.89\\times10^{-11}\\ \\mathrm{s}",
+      "original_start": 15238,
+      "original_end": 15270
+    },
+    {
+      "paragraph": "P074",
+      "kind": "inline",
+      "original_payload": "1",
+      "final_payload": "1",
+      "original_start": 15298,
+      "original_end": 15301
+    },
+    {
+      "paragraph": "P090",
+      "kind": "inline",
+      "original_payload": "T",
+      "final_payload": "T",
+      "original_start": 19737,
+      "original_end": 19740
+    },
+    {
+      "paragraph": "P090",
+      "kind": "inline",
+      "original_payload": "T'/T",
+      "final_payload": "T'/T",
+      "original_start": 19887,
+      "original_end": 19893
+    },
+    {
+      "paragraph": "P090",
+      "kind": "inline",
+      "original_payload": "4",
+      "final_payload": "4",
+      "original_start": 19925,
+      "original_end": 19928
+    },
+    {
+      "paragraph": "P090",
+      "kind": "inline",
+      "original_payload": "r=-1/2",
+      "final_payload": "r=-1/2",
+      "original_start": 20047,
+      "original_end": 20055
+    },
+    {
+      "paragraph": "P096",
+      "kind": "inline",
+      "original_payload": "h=4.08-4",
+      "final_payload": "h=4.08-4",
+      "original_start": 20411,
+      "original_end": 20421
+    },
+    {
+      "paragraph": "P096",
+      "kind": "inline",
+      "original_payload": "f(4)=2",
+      "final_payload": "f(4)=2",
+      "original_start": 20437,
+      "original_end": 20445
+    },
+    {
+      "paragraph": "P096",
+      "kind": "inline",
+      "original_payload": "f'(4)=1/(2\\sqrt4)",
+      "final_payload": "f'(4)=1/(2\\sqrt4)",
+      "original_start": 20447,
+      "original_end": 20466
+    },
+    {
+      "paragraph": "P096",
+      "kind": "inline",
+      "original_payload": "2",
+      "final_payload": "2",
+      "original_start": 20494,
+      "original_end": 20497
+    },
+    {
+      "paragraph": "P096",
+      "kind": "inline",
+      "original_payload": "h",
+      "final_payload": "h",
+      "original_start": 20529,
+      "original_end": 20532
+    },
+    {
+      "paragraph": "P100",
+      "kind": "inline",
+      "original_payload": "(1-2x)^{-1/2}",
+      "final_payload": "(1-2x)^{-1/2}",
+      "original_start": 20798,
+      "original_end": 20813
+    },
+    {
+      "paragraph": "P100",
+      "kind": "inline",
+      "original_payload": "u=-2x",
+      "final_payload": "u=-2x",
+      "original_start": 20842,
+      "original_end": 20849
+    },
+    {
+      "paragraph": "P100",
+      "kind": "inline",
+      "original_payload": "u=3x",
+      "final_payload": "u=3x",
+      "original_start": 20884,
+      "original_end": 20890
+    },
+    {
+      "paragraph": "P100",
+      "kind": "inline",
+      "original_payload": "x^2",
+      "final_payload": "x^2",
+      "original_start": 21173,
+      "original_end": 21178
+    },
+    {
+      "paragraph": "P104",
+      "kind": "inline",
+      "original_payload": "z=(0.02)^2",
+      "final_payload": "z=(0.02)^2",
+      "original_start": 21321,
+      "original_end": 21333
+    },
+    {
+      "paragraph": "P104",
+      "kind": "inline",
+      "original_payload": "T'/T-1\\approx z/2+3z^2/8",
+      "final_payload": "T'/T-1\\approx z/2+3z^2/8",
+      "original_start": 21355,
+      "original_end": 21381
+    },
+    {
+      "paragraph": "P104",
+      "kind": "inline",
+      "original_payload": "1000\\ \\mathrm{s}",
+      "final_payload": "1000\\ \\mathrm{s}",
+      "original_start": 21413,
+      "original_end": 21431
+    },
+    {
+      "paragraph": "P108",
+      "kind": "inline",
+      "original_payload": "h=x-a",
+      "final_payload": "h=x-a",
+      "original_start": 21663,
+      "original_end": 21670
+    },
+    {
+      "paragraph": "P108",
+      "kind": "inline",
+      "original_payload": "A+Bh+Ch^2",
+      "final_payload": "A+Bh+Ch^2",
+      "original_start": 21686,
+      "original_end": 21697
+    },
+    {
+      "paragraph": "P108",
+      "kind": "inline",
+      "original_payload": "h=0",
+      "final_payload": "h=0",
+      "original_start": 21744,
+      "original_end": 21749
+    },
+    {
+      "paragraph": "P115",
+      "kind": "inline",
+      "original_payload": "x_0=4",
+      "final_payload": "x_0=4",
+      "original_start": 22279,
+      "original_end": 22286
+    },
+    {
+      "paragraph": "P115",
+      "kind": "inline",
+      "original_payload": "f(4)=2",
+      "final_payload": "f(4)=2",
+      "original_start": 22288,
+      "original_end": 22296
+    },
+    {
+      "paragraph": "P115",
+      "kind": "inline",
+      "original_payload": "f'(4)=1/4",
+      "final_payload": "f'(4)=1/4",
+      "original_start": 22301,
+      "original_end": 22312
+    },
+    {
+      "paragraph": "P115",
+      "kind": "inline",
+      "original_payload": "f'(x)=1/(2\\sqrt{x})",
+      "final_payload": "f'(x)=1/(2\\sqrt{x})",
+      "original_start": 22319,
+      "original_end": 22340
+    },
+    {
+      "paragraph": "P115",
+      "kind": "inline",
+      "original_payload": "x>0",
+      "final_payload": "x\\gt 0",
+      "original_start": 22344,
+      "original_end": 22349
+    },
+    {
+      "paragraph": "P116",
+      "kind": "display",
+      "original_payload": "L(x)=2+\\frac14(x-4).",
+      "final_payload": "L(x)=2+\\frac14(x-4).",
+      "original_start": 22408,
+      "original_end": 22432
+    },
+    {
+      "paragraph": "P117",
+      "kind": "inline",
+      "original_payload": "h=0.08",
+      "final_payload": "h=0.08",
+      "original_start": 22492,
+      "original_end": 22500
+    },
+    {
+      "paragraph": "P117",
+      "kind": "inline",
+      "original_payload": "L(4.08)=2+0.08/4=2.02",
+      "final_payload": "L(4.08)=2+0.08/4=2.02",
+      "original_start": 22507,
+      "original_end": 22530
+    },
+    {
+      "paragraph": "P117",
+      "kind": "inline",
+      "original_payload": "\\sqrt{4.08}\\approx2.02",
+      "final_payload": "\\sqrt{4.08}\\approx2.02",
+      "original_start": 22544,
+      "original_end": 22568
+    },
+    {
+      "paragraph": "P117",
+      "kind": "inline",
+      "original_payload": "2.02^2=4.0804",
+      "final_payload": "2.02^2=4.0804",
+      "original_start": 22728,
+      "original_end": 22743
+    },
+    {
+      "paragraph": "P117",
+      "kind": "inline",
+      "original_payload": "4.08",
+      "final_payload": "4.08",
+      "original_start": 22757,
+      "original_end": 22763
+    },
+    {
+      "paragraph": "P121",
+      "kind": "inline",
+      "original_payload": "x<1/2",
+      "final_payload": "x\\lt 1/2",
+      "original_start": 23002,
+      "original_end": 23009
+    },
+    {
+      "paragraph": "P121",
+      "kind": "inline",
+      "original_payload": "g(x)=e^{3x}(1-2x)^{-1/2}",
+      "final_payload": "g(x)=e^{3x}(1-2x)^{-1/2}",
+      "original_start": 23047,
+      "original_end": 23073
+    },
+    {
+      "paragraph": "P121",
+      "kind": "inline",
+      "original_payload": "|3x|",
+      "final_payload": "|3x|",
+      "original_start": 23091,
+      "original_end": 23097
+    },
+    {
+      "paragraph": "P121",
+      "kind": "inline",
+      "original_payload": "|-2x|",
+      "final_payload": "|-2x|",
+      "original_start": 23102,
+      "original_end": 23109
+    },
+    {
+      "paragraph": "P122",
+      "kind": "display",
+      "original_payload": "e^{3x}=1+3x+\\frac92x^2+o(x^2),",
+      "final_payload": "e^{3x}=1+3x+\\frac92x^2+o(x^2),",
+      "original_start": 23199,
+      "original_end": 23233
+    },
+    {
+      "paragraph": "P123",
+      "kind": "display",
+      "original_payload": "(1-2x)^{-1/2}=1+x+\\frac32x^2+o(x^2).",
+      "final_payload": "(1-2x)^{-1/2}=1+x+\\frac32x^2+o(x^2).",
+      "original_start": 23249,
+      "original_end": 23289
+    },
+    {
+      "paragraph": "P124",
+      "kind": "inline",
+      "original_payload": "(-1/2)(-2)=1",
+      "final_payload": "(-1/2)(-2)=1",
+      "original_start": 23354,
+      "original_end": 23368
+    },
+    {
+      "paragraph": "P124",
+      "kind": "inline",
+      "original_payload": "[(-1/2)(-3/2)/2](-2)^2=3/2",
+      "final_payload": "[(-1/2)(-3/2)/2](-2)^2=3/2",
+      "original_start": 23402,
+      "original_end": 23430
+    },
+    {
+      "paragraph": "P124",
+      "kind": "inline",
+      "original_payload": "3+1=4",
+      "final_payload": "3+1=4",
+      "original_start": 23479,
+      "original_end": 23486
+    },
+    {
+      "paragraph": "P125",
+      "kind": "display",
+      "original_payload": "\\frac92+(3)(1)+\\frac32=9.",
+      "final_payload": "\\frac92+(3)(1)+\\frac32=9.",
+      "original_start": 23538,
+      "original_end": 23567
+    },
+    {
+      "paragraph": "P126",
+      "kind": "inline",
+      "original_payload": "L(x)=1+4x",
+      "final_payload": "L(x)=1+4x",
+      "original_start": 23596,
+      "original_end": 23607
+    },
+    {
+      "paragraph": "P126",
+      "kind": "inline",
+      "original_payload": "Q(x)=1+4x+9x^2",
+      "final_payload": "Q(x)=1+4x+9x^2",
+      "original_start": 23612,
+      "original_end": 23628
+    },
+    {
+      "paragraph": "P126",
+      "kind": "inline",
+      "original_payload": "g(x)=1+4x+9x^2+o(x^2)",
+      "final_payload": "g(x)=1+4x+9x^2+o(x^2)",
+      "original_start": 23675,
+      "original_end": 23698
+    },
+    {
+      "paragraph": "P126",
+      "kind": "inline",
+      "original_payload": "g(0)=1",
+      "final_payload": "g(0)=1",
+      "original_start": 23714,
+      "original_end": 23722
+    },
+    {
+      "paragraph": "P126",
+      "kind": "inline",
+      "original_payload": "g'(0)=4",
+      "final_payload": "g'(0)=4",
+      "original_start": 23727,
+      "original_end": 23736
+    },
+    {
+      "paragraph": "P126",
+      "kind": "inline",
+      "original_payload": "g(0)",
+      "final_payload": "g(0)",
+      "original_start": 23810,
+      "original_end": 23816
+    },
+    {
+      "paragraph": "P126",
+      "kind": "inline",
+      "original_payload": "x",
+      "final_payload": "x",
+      "original_start": 23830,
+      "original_end": 23833
+    },
+    {
+      "paragraph": "P127",
+      "kind": "display",
+      "original_payload": "\\lim_{x\\to0}\\frac{g(x)-g(0)-g'(0)x}{x^2}\n=\\lim_{x\\to0}\\left(9+\\frac{o(x^2)}{x^2}\\right)=9.",
+      "final_payload": "\\lim_{x\\to0}\\frac{g(x)-g(0)-g'(0)x}{x^2}\n=\\lim_{x\\to0}\\left(9+\\frac{o(x^2)}{x^2}\\right)=9.",
+      "original_start": 23915,
+      "original_end": 24009
+    },
+    {
+      "paragraph": "P128",
+      "kind": "inline",
+      "original_payload": "g(x)=1+4x+o(x)",
+      "final_payload": "g(x)=1+4x+o(x)",
+      "original_start": 24060,
+      "original_end": 24076
+    },
+    {
+      "paragraph": "P128",
+      "kind": "inline",
+      "original_payload": "x^2",
+      "final_payload": "x^2",
+      "original_start": 24112,
+      "original_end": 24117
+    },
+    {
+      "paragraph": "P128",
+      "kind": "inline",
+      "original_payload": "kx^2",
+      "final_payload": "kx^2",
+      "original_start": 24190,
+      "original_end": 24196
+    },
+    {
+      "paragraph": "P128",
+      "kind": "inline",
+      "original_payload": "o(x)",
+      "final_payload": "o(x)",
+      "original_start": 24200,
+      "original_end": 24206
+    },
+    {
+      "paragraph": "P128",
+      "kind": "inline",
+      "original_payload": "k",
+      "final_payload": "k",
+      "original_start": 24219,
+      "original_end": 24222
+    },
+    {
+      "paragraph": "P128",
+      "kind": "inline",
+      "original_payload": "x^2",
+      "final_payload": "x^2",
+      "original_start": 24241,
+      "original_end": 24246
+    },
+    {
+      "paragraph": "P128",
+      "kind": "inline",
+      "original_payload": "g''(0)=18",
+      "final_payload": "g''(0)=18",
+      "original_start": 24370,
+      "original_end": 24381
+    },
+    {
+      "paragraph": "P128",
+      "kind": "inline",
+      "original_payload": "18/2=9",
+      "final_payload": "18/2=9",
+      "original_start": 24411,
+      "original_end": 24419
+    },
+    {
+      "paragraph": "P132",
+      "kind": "inline",
+      "original_payload": "z=(v/c)^2=(0.02)^2=0.0004",
+      "final_payload": "z=(v/c)^2=(0.02)^2=0.0004",
+      "original_start": 24611,
+      "original_end": 24638
+    },
+    {
+      "paragraph": "P132",
+      "kind": "inline",
+      "original_payload": "z",
+      "final_payload": "z",
+      "original_start": 24662,
+      "original_end": 24665
+    },
+    {
+      "paragraph": "P132",
+      "kind": "inline",
+      "original_payload": "v/c",
+      "final_payload": "v/c",
+      "original_start": 24685,
+      "original_end": 24690
+    },
+    {
+      "paragraph": "P133",
+      "kind": "display",
+      "original_payload": "T'-T\\approx1000\\left(\\frac{0.0004}{2}+\\frac38(0.0004)^2\\right)\\mathrm{s}\n=0.20006000\\ \\mathrm{s}.",
+      "final_payload": "T'-T\\approx1000\\left(\\frac{0.0004}{2}+\\frac38(0.0004)^2\\right)\\mathrm{s}\n=0.20006000\\ \\mathrm{s}.",
+      "original_start": 24707,
+      "original_end": 24808
+    },
+    {
+      "paragraph": "P134",
+      "kind": "inline",
+      "original_payload": "0.2000\\ \\mathrm{s}",
+      "final_payload": "0.2000\\ \\mathrm{s}",
+      "original_start": 24844,
+      "original_end": 24864
+    },
+    {
+      "paragraph": "P134",
+      "kind": "inline",
+      "original_payload": "0.00006000\\ \\mathrm{s}=6.0\\times10^{-5}\\ \\mathrm{s}",
+      "final_payload": "0.00006000\\ \\mathrm{s}=6.0\\times10^{-5}\\ \\mathrm{s}",
+      "original_start": 24928,
+      "original_end": 24981
+    },
+    {
+      "paragraph": "P134",
+      "kind": "inline",
+      "original_payload": "10^{-4}\\ \\mathrm{s}",
+      "final_payload": "10^{-4}\\ \\mathrm{s}",
+      "original_start": 25019,
+      "original_end": 25040
+    },
+    {
+      "paragraph": "P134",
+      "kind": "inline",
+      "original_payload": "o(z^2)",
+      "final_payload": "o(z^2)",
+      "original_start": 25219,
+      "original_end": 25227
+    },
+    {
+      "paragraph": "P134",
+      "kind": "inline",
+      "original_payload": "z\\to0",
+      "final_payload": "z\\to0",
+      "original_start": 25272,
+      "original_end": 25279
+    },
+    {
+      "paragraph": "P134",
+      "kind": "inline",
+      "original_payload": "z=0.0004",
+      "final_payload": "z=0.0004",
+      "original_start": 25306,
+      "original_end": 25316
+    },
+    {
+      "paragraph": "P138",
+      "kind": "inline",
+      "original_payload": "h=x-a",
+      "final_payload": "h=x-a",
+      "original_start": 25708,
+      "original_end": 25715
+    },
+    {
+      "paragraph": "P139",
+      "kind": "display",
+      "original_payload": "L(x)=f(a)+f'(a)(x-a),",
+      "final_payload": "L(x)=f(a)+f'(a)(x-a),",
+      "original_start": 25761,
+      "original_end": 25786
+    },
+    {
+      "paragraph": "P140",
+      "kind": "display",
+      "original_payload": "Q(x)=f(a)+f'(a)(x-a)+\\frac{f''(a)}2(x-a)^2.",
+      "final_payload": "Q(x)=f(a)+f'(a)(x-a)+\\frac{f''(a)}2(x-a)^2.",
+      "original_start": 25802,
+      "original_end": 25849
+    },
+    {
+      "paragraph": "P141",
+      "kind": "inline",
+      "original_payload": "A+Bh+Ch^2",
+      "final_payload": "A+Bh+Ch^2",
+      "original_start": 25869,
+      "original_end": 25880
+    },
+    {
+      "paragraph": "P141",
+      "kind": "inline",
+      "original_payload": "B+2Ch",
+      "final_payload": "B+2Ch",
+      "original_start": 25898,
+      "original_end": 25905
+    },
+    {
+      "paragraph": "P141",
+      "kind": "inline",
+      "original_payload": "2C",
+      "final_payload": "2C",
+      "original_start": 25910,
+      "original_end": 25914
+    },
+    {
+      "paragraph": "P141",
+      "kind": "inline",
+      "original_payload": "h=0",
+      "final_payload": "h=0",
+      "original_start": 25919,
+      "original_end": 25924
+    },
+    {
+      "paragraph": "P141",
+      "kind": "inline",
+      "original_payload": "A=f(a)",
+      "final_payload": "A=f(a)",
+      "original_start": 25982,
+      "original_end": 25990
+    },
+    {
+      "paragraph": "P141",
+      "kind": "inline",
+      "original_payload": "B=f'(a)",
+      "final_payload": "B=f'(a)",
+      "original_start": 25992,
+      "original_end": 26001
+    },
+    {
+      "paragraph": "P141",
+      "kind": "inline",
+      "original_payload": "2C=f''(a)",
+      "final_payload": "2C=f''(a)",
+      "original_start": 26006,
+      "original_end": 26017
+    },
+    {
+      "paragraph": "P141",
+      "kind": "inline",
+      "original_payload": "1/2",
+      "final_payload": "1/2",
+      "original_start": 26044,
+      "original_end": 26049
+    },
+    {
+      "paragraph": "P141",
+      "kind": "inline",
+      "original_payload": "o(h^2)",
+      "final_payload": "o(h^2)",
+      "original_start": 26136,
+      "original_end": 26144
+    },
+    {
+      "paragraph": "P142",
+      "kind": "inline",
+      "original_payload": "1,0,-1",
+      "final_payload": "1,0,-1",
+      "original_start": 26231,
+      "original_end": 26239
+    },
+    {
+      "paragraph": "P142",
+      "kind": "inline",
+      "original_payload": "\\cos x=1-x^2/2+o(x^2)",
+      "final_payload": "\\cos x=1-x^2/2+o(x^2)",
+      "original_start": 26246,
+      "original_end": 26269
+    },
+    {
+      "paragraph": "P142",
+      "kind": "inline",
+      "original_payload": "1",
+      "final_payload": "1",
+      "original_start": 26280,
+      "original_end": 26283
+    },
+    {
+      "paragraph": "P142",
+      "kind": "inline",
+      "original_payload": "x^2",
+      "final_payload": "x^2",
+      "original_start": 26298,
+      "original_end": 26303
+    },
+    {
+      "paragraph": "P143",
+      "kind": "display",
+      "original_payload": "\\lim_{x\\to0}\\frac{\\cos x-1}{x^2}=-\\frac12.",
+      "final_payload": "\\lim_{x\\to0}\\frac{\\cos x-1}{x^2}=-\\frac12.",
+      "original_start": 26329,
+      "original_end": 26375
+    },
+    {
+      "paragraph": "P144",
+      "kind": "inline",
+      "original_payload": "1",
+      "final_payload": "1",
+      "original_start": 26424,
+      "original_end": 26427
+    },
+    {
+      "paragraph": "P144",
+      "kind": "inline",
+      "original_payload": "o(x)",
+      "final_payload": "o(x)",
+      "original_start": 26533,
+      "original_end": 26539
+    },
+    {
+      "paragraph": "P144",
+      "kind": "inline",
+      "original_payload": "x^2",
+      "final_payload": "x^2",
+      "original_start": 26587,
+      "original_end": 26592
+    },
+    {
+      "paragraph": "P144",
+      "kind": "inline",
+      "original_payload": "0,1,0",
+      "final_payload": "0,1,0",
+      "original_start": 26703,
+      "original_end": 26710
+    },
+    {
+      "paragraph": "P144",
+      "kind": "inline",
+      "original_payload": "x",
+      "final_payload": "x",
+      "original_start": 26768,
+      "original_end": 26771
+    },
+    {
+      "paragraph": "P144",
+      "kind": "inline",
+      "original_payload": "\\sin x=x",
+      "final_payload": "\\sin x=x",
+      "original_start": 26829,
+      "original_end": 26839
+    }
+  ],
+  "status": "Local revision only; full root read and actual destination/fresh SASIS pending.",
+  "created_at": "2026-10-09T02:17:07.698351+00:00"
+}

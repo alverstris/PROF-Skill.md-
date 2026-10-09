@@ -1,0 +1,17 @@
+{
+  "reviewed_utc": "2026-10-09T02:54:27.394962+00:00",
+  "scope": "Fresh immutable server DOM, ancestor attributes, all 21 unique actual href stylesheet bytes, 590 font declarations and all 38 conservatively retained font selector candidates; additional layout selector inventory. No live style engine.",
+  "manual_findings": [
+    "The actual article contains p, a and math-renderer elements; no bold/italic/headings/tables, and all 68 P labels remain visible plain paragraph text.",
+    "Body font-weight uses --base-text-weight-normal with 400 fallback; current root definitions set 400. The .markdown-body scope sets sans-serif stack, font-size 16px and line-height 1.5. Paragraph margin-bottom is --base-size-16.",
+    "All 38 candidate font rules inspected against actual elements and full ancestor classes. Bold/italic rules for b/strong/dfn/headings/dt/table headers and UI or brand scopes have absent required tags/classes. No matching rule or inline style was found that forces bold or italic prose.",
+    "Inline math wrappers are inline-block, display math block. math-renderer has max-width:100% and overflow:auto; inline wrappers have bottom alignment and overflow:auto hidden. These are declarations only; glyphs, clipping and client-produced inner math were not observed.",
+    "Current HTML data-a11y-link-underlines=true matches the .markdown-body link underline selector; actual links remain inline text links. No source links carry the theme-only hide fragments.",
+    "PageLayout flex scopes match ancestors; their data-is-hidden selectors do not match present attributes. No actual article/ancestor inline font-weight or font-style override exists.",
+    "Inactive data-href theme inventory is retained separately; only actual href stylesheets were fetched. No claim about alternate user theme activation or computed cascade."
+  ],
+  "limits": [
+    "CSS extraction is a conservative leaf-declaration inventory, not a complete CSS parser/cascade/selector implementation. Candidate conclusions are manual static inspection.",
+    "MathJax execution, screenshots, responsive pixels, actual click/scroll landing and live font rasterization were not observed."
+  ]
+}

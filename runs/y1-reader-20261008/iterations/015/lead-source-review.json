@@ -1,0 +1,47 @@
+{
+  "material_id": "D015",
+  "status": "full root source preparation only; no authoring or iteration closure",
+  "created_utc": "2026-10-09T02:36:39.871255+00:00",
+  "source_pdf": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L16/lec16.pdf",
+  "source_sha256": "cdf0e899a0f0dd5a57ca1069a5c039c08b9efb84ef6d416f3dce038939564d23",
+  "full_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "full_image_pages_personally_opened": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "prior_source_review_and_map_fully_read": true,
+  "read_tools": {
+    "review_and_map": "880ed1",
+    "all_text": "af483e",
+    "images": "complete images emitted by view_image in two functions calls: 1\u20132 then3\u20135"
+  },
+  "visual_observations": [
+    "Cover and course identity legible.",
+    "P2 operator acts on y; Gaussian logarithm/exponent and separately restored a=0 are legible.",
+    "P3 Gaussian maximum1 at0, symmetric tails and the inconsistent positive f(x)=x are confirmed.",
+    "P4 ray/tangent geometry and mistaken -2y\u00b2 member are visible.",
+    "P5 full ellipse/parabola figure, square-root parentheses and all six exam-review topics/end note read."
+  ],
+  "independent_deductions": [
+    "For y-prime+xy=0, derivative of exp(x\u00b2/2)y is zero, so every differentiable solution on a connected interval is a exp(-x\u00b2/2), including zero. Initial y(0)=a. Separation divides by y, so zero must be checked separately.",
+    "General H-prime=1/g yields derivative H(y(x))=y-prime/g(y)=f(x). This uses chain rule on nonzero-g range. Roots of g yield constant solutions, but without uniqueness assumptions this does not classify every possible piecewise solution that reaches a root.",
+    "Choose a connected y-interval with continuous nonzero g; H-prime has fixed sign and H is invertible there. Domain must keep F(x)+C inside H range. H=ln|y| needs a sign branch.",
+    "Correct source identification f=-x,F=-x\u00b2/2,g=y. Correct a=-2 member to y=-2x\u00b2.",
+    "For y-prime=2y/x on x nonzero, derivative of y/x\u00b2 is (xy-prime-2y)/x\u00b3=0. Hence y=ax\u00b2 separately on each connected half-line. ODE does not hold at x=0. Different constants either side can still give a C1 extension at0; C2 extension forces the same constant. Do not claim mere smoothness loosely establishes one global ODE solution.",
+    "Orthogonal slopes multiply to -1 where x and y are nonzero. Integrating y dy=-x dx/2 yields x\u00b2/4+y\u00b2/2=C. For C>0 semiaxes2sqrt(C),sqrt(2C), ratio sqrt2. C=0 is a point,C<0 empty. Explicit graph branches require |x|<2sqrt(C) for finite derivative; endpoints y=0 have vertical tangents, perpendicular to a=0 x-axis. At x=0,y!=0 no finite-a parabola passes through the ellipse point."
+  ],
+  "source_context_limits": [
+    "Quantum annihilation naming is an incidental historical/scientific aside requiring normalization/context verification if retained as a substantive scientific claim; only algebraic annihilation of Gaussian checked here.",
+    "Exam2 topic list retained as historical source scope, not current assessment requirements. No external review-sheet/video reading claimed."
+  ],
+  "unread_original_portions": []
+}

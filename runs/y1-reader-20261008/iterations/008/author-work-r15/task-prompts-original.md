@@ -1,0 +1,11 @@
+Frozen task prompts for D008 author r15
+
+These are generated teaching tasks, not source examination questions. Frozen before author solution writing. The intended lesson supplies linear approximation f(a+h) approximately f(a)+f'(a)h; quadratic approximation adds f''(a)h^2/2; near-zero expansions for sine, cosine, exponential, logarithm and powers; consistent multiplication/truncation; and the time-dilation model described below. Ordinary calculus and algebra come from the frozen four-subject baseline.
+
+A1. After the first linear worked example, construct the tangent approximation to f(x)=sqrt(x) at a=4 and use it to estimate sqrt(4.04). State the displacement h, the derivative at the base point, the resulting approximation and why 4 is a useful base point. Your answer should distinguish an approximate value from an exact equality.
+
+A2. Near x=0, consider [ln(1+2x)-2x]/x^2 for x nonzero. Find its limit. Show which terms survive subtraction and division, and explain why merely replacing ln(1+2x) by its linear approximation cannot settle this limit. The logarithm has real domain x>-1/2.
+
+A3. In the ideal constant-speed, gravity-free time-dilation model T'=T/sqrt(1-(v/c)^2), T is the interval on the moving clock and T' is the interval assigned to the same two clock events in the observer's inertial frame. Take T=100 s and v/c=0.01. Estimate T' using first a linear and then a quadratic approximation in q=(v/c)^2. The reference value of the dimensionless ratio T'/T is 1.0000500037503125, rounded to 16 decimal places. An estimate is acceptable here if its absolute error in T' is below 10^(-7) s. Decide which estimate meets that criterion, using the reference value, and explain why a term quadratic in q is fourth degree in v/c. No statement about an actual instrument's capabilities is requested.
+
+A4. At a later study session, first write the quadratic approximation formula about a general base point a and explain the factor 1/2 without looking it up. Then obtain a quadratic approximation near x=0 for g(x)=e^(2x)sqrt(1-x), where x<1. Show how you obtain every coefficient through x^2 and use your result to state g'(0), g''(0), and the limit of [g(x)-1-(3/2)x]/x^2 as x tends to zero through nonzero values. Distinguish what you recalled from how you combined it in this new expression; correct either part using the lesson if needed.

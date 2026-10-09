@@ -1,0 +1,27 @@
+D008 fresh r15 original — parent content and technical review
+
+Frozen commit2d144338ec647166e6fd2a6527fbc96b766e7d5e, author-work-r15/teaching-original.md, SHA86b6338315866e711ddfcefd52e4a84b2bb99093c321ff6b7a8124c66c739718. Root read complete raw character ranges[0,14500) and[14000,27792), outputs f0f6c1/bc88d3. All P001–P068, sources, all four tasks, all hints and all complete solutions read. No other teaching constituent. Root had completed the four frozen prompt calculations before opening this teaching; those original records are separate.
+
+Disposition: no established content or arithmetic defect found in this complete parent review. Destination review, fresh SASIS and final author-package admission remain pending, so this is not global acceptance or closure.
+
+Reconstruction and coverage
+
+P005–P008 construct the shifted-base tangent from height/slope and derive an exact first-order remainder through the derivative quotient. Both signs of displacement and exact versus approximate equality are distinguished. P007 explicitly maps the source figure's slope-letter a to the different chosen basepoint a=x0. P010/P011 supply logarithm and shifted-root use before the early attempt.
+
+P013–P015 derive all five linear models from value/slope, with radians, logarithmic/real-power domains, fixed exponent and limited meaning of much-less-than1. P017–P020 preserve both source reciprocal routes, require a nonvanishing denominator, collect first-order product terms and independently recover f(0)=1,f-prime(0)=-5/2 by differentiation. The spurious isolated quadratic cross-term is correctly rejected. P022/P023 give both direct derivative and controlled-error reasons for the power limit20.
+
+P025 constructs quadratic coefficients by matching A,B,2C, including the whole shifted displacement. P026 supplies the needed remainder proof instead of silently assuming a general Taylor remainder theorem: E(0)=E-prime(0)=0, continuity bounds E-double-prime, and two applications of the one-variable FTC yield eta*h²/2 for either sign. P027 limits numerical accuracy claims. P029–P033 derive all five quadratic models and the substituted square k²x². Independent point-value checks confirm the cosine/logarithm examples.
+
+A2's required second-order information and domain are available before its first positionP034. The later solution explicitly maps the scaled remainder to4epsilon(2x) and demonstrates the arbitrary-k first-order insufficiency. No later hint is needed to invent that premise. P036–P038 include every quadratic product contribution, resulting27/8, bounded product remainders and independent twice-product differentiation27/4.
+
+P040 introduces the relativistic law as a scoped physical premise with same two clock events and distinguished proper/frame intervals, not something deduced from the school baseline. The source schematic is interpreted as relative motion, with no orbital geometry invented. P041–P044 preserve T, units, sign, order in q versus v/c and duration scaling; GPS/gravity and historical clock claims remain bounded. Independent arithmetic confirms all stated source-speed and86400-second numbers. P048 separates asymptotic reasoning from finite numerical error. A3 supplies a reliable rounded reference and numerical allowance; all answers and rounding uncertainty match the independent parent calculations.
+
+P050/P051 provide later retrieval plus genuinely changed product/derivative/limit application. A4 has coefficients1,3/2,7/8, g-double-prime7/4 and quotient limit7/8, agreeing with independent product/logarithmic differentiation. The general-base coefficient construction and scaled product remainder were already taught. P055–P060 group all useful hints apart from P061–P068 complete solutions. Every complete solution was checked through its ending; all four source visual relationships and five examples survive in the prose.
+
+Scientific/source checks and limits
+
+Root previously read all seven original lecture text pages and full original images; the exact original source hash and detailed findings remain in lead-source-review.json. Source approximate-equality, exponent and missing-time-factor issues are corrected in the present formulas without altering the original lecture. Historical precision is not promoted into a current empirical claim.
+
+OpenStax University Physics Volume3 section5.3 was opened directly in this review: https://openstax.org/books/university-physics-volume-3/pages/5-3-time-dilation . Returned source turn224view0, lines32–85, supplies same-event proper/frame time distinction and Eq5.1/5.2. The combined output was truncated later around the unrelated muon examples; this record does not claim a full-section read. Parent's earlier Einstein Online same-event/frame check supplies complementary interpretation. NIST Putting Einstein to the Test was already opened/read by root in this iteration (turn214view0, relevant lines155–157), supporting the bounded GPS motion/gravity statement; no modern clock-performance number is borrowed. These primary checks verify introduced premises separately from SASIS.
+
+This review does not infer human retention, live GitHub pixels/MathJax, source-bundle portability or successful publication from correct arithmetic or complete prose. The actual destination and fresh two-input reader still need their own evidence. No defect is invented merely to justify another skill edit.

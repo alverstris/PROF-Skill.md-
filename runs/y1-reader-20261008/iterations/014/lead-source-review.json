@@ -1,0 +1,114 @@
+{
+  "material_id": "D014",
+  "lecture_number": 15,
+  "reviewer": "/root",
+  "status": "future_source_preparation_only",
+  "source_pdf_sha256": "10c3dc97fa877d3ed97c5561b5082dca3006c632d85e58e01d059484ae455323",
+  "coverage": [
+    {
+      "pdf_page": 1,
+      "entire_text_personally_read": true,
+      "full_original_page_image_personally_opened": true,
+      "artifacts": {
+        "text": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p01.txt",
+          "sha256": "11c690867bfc86462780321c0a2f505caa77a5b25de25f251a48516b67b1cd34",
+          "bytes": 183
+        },
+        "image": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p01.png",
+          "sha256": "cf38e5a69e5dd2300bf90b52b69cd6ecdaf2d083412ded9643cdcf08cf025ccf",
+          "bytes": 30822
+        }
+      }
+    },
+    {
+      "pdf_page": 2,
+      "entire_text_personally_read": true,
+      "full_original_page_image_personally_opened": true,
+      "artifacts": {
+        "text": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p02.txt",
+          "sha256": "240f9b17b71066c3d74732e9ce305224769716bf95c4e906ce9f01d052704409",
+          "bytes": 993
+        },
+        "image": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p02.png",
+          "sha256": "76b50d8aaea13818be2adbb734285f1aa6ea015e62161cee7ee2445c57a5c72d",
+          "bytes": 109894
+        }
+      }
+    },
+    {
+      "pdf_page": 3,
+      "entire_text_personally_read": true,
+      "full_original_page_image_personally_opened": true,
+      "artifacts": {
+        "text": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p03.txt",
+          "sha256": "806fba4aace46f426c3212efed4fbefeb4df90376de20ebbe6361f996eb010e8",
+          "bytes": 1129
+        },
+        "image": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p03.png",
+          "sha256": "077e84a2abbbfadb303c5e71902ef80e926683f7dae9843185c41508272b67c3",
+          "bytes": 118599
+        }
+      }
+    },
+    {
+      "pdf_page": 4,
+      "entire_text_personally_read": true,
+      "full_original_page_image_personally_opened": true,
+      "artifacts": {
+        "text": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p04.txt",
+          "sha256": "9c44432fb4d69df447dfe10476e443d9e9af427908f41397316ddb8bc557590f",
+          "bytes": 1075
+        },
+        "image": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p04.png",
+          "sha256": "51af60d4410bfa05be47a6d91cfd9b971f64a86eb1af63529266fa34e4a82950",
+          "bytes": 110223
+        }
+      }
+    },
+    {
+      "pdf_page": 5,
+      "entire_text_personally_read": true,
+      "full_original_page_image_personally_opened": true,
+      "artifacts": {
+        "text": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p05.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "image": {
+          "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/audit-1801-notes/L15/lec15-p05.png",
+          "sha256": "67bd676cf3f8177dfdbcdf04fc97373b68e4a27a7ba87ac449573a84f3799ec6",
+          "bytes": 104754
+        },
+        "recovered_text": {
+          "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/014/lec15-p05-reextracted.txt",
+          "sha256": "c36c36327c8e661b07e556bb48b6805fd20568a6f355a30651daf3e88ddab77b",
+          "bytes": 1054,
+          "raw_characters": 1016,
+          "method": "Complete PyMuPDF extraction directly from verified source PDF page 5; original empty cache unchanged."
+        }
+      }
+    }
+  ],
+  "scope": "Full original source-review/map read, all original text files checked and full p5 directly re-extracted/read after confirming the cache is empty. All five complete original page images personally opened, including cover and all equations. No figures occur. Source and original cache unchanged; future preparation only.",
+  "independent_deductions": [
+    "At a fixed basepoint a, dy=fprime(a)dx is an exact linear function of the displacement dx. The finite change is Δy=f(a+dx)-f(a)=dy+o(|dx|). Treating dy as the exact finite change is generally false. The finite-difference quotient requires nonzero displacement; differential notation does not turn the approximate finite-increment relation into equality.",
+    "For cube root at a=64, f(a)=4 and fprime(a)=1/48, so at h=1 the tangent estimate is 4+1/48=193/48, approximately 4.02. At h=0.1 it is 4+1/480. The rescaling method is 4(1+h/64)^(1/3), with small variable h/64. Source methods 1 and 3 incorrectly use exact equality between cube root of 65 and the linear estimate. The exact rational cube discrepancy is (193/48)^3-65=577/110592>0.",
+    "For x>=64, fdoubleprime(x)=-2/(9x^(5/3))<0, so the tangent overestimates. Its magnitude is at most 1/4608 on that interval; Taylor gives absolute error at most h²/9216 for h>=0. This verifies the size and sign of the approximation without falsely treating it as exact. The cube-root derivative is evaluated at a positive basepoint; the finite derivative formula does not apply at x=0.",
+    "The listed six primitives differentiate correctly: -cos x for sin x; x^(n+1)/(n+1) for x^n when n≠-1 on an appropriate real-power interval; ln|x| for 1/x on each nonzero component; tan x for sec²x between poles; arcsin x for 1/sqrt(1-x²) on (-1,1); arctan x for 1/(1+x²) on all real x. Arbitrary real powers may uniformly be treated on x>0, though special integer/rational powers allow larger intervals. On x<0, derivative of ln(-x) is (-1)/(-x)=1/x. The proof labelled property 2 actually establishes property 3.",
+    "If Fprime=Gprime=f on a common interval, (G-F)prime=0 and MVT implies a single additive constant. A disconnected domain permits independent constants on its components: ln|x| plus a step of 1 only for x>0 has the same derivative as ln|x| on R without zero. Source wording constant factor is wrong for the additive difference. An indefinite integral represents an antiderivative family unless a representative/initial value is selected.",
+    "All substitution examples checked directly: derivative of (x^4+2)^6/24 is x³(x^4+2)^5; derivative of sqrt(1+x²) is x/sqrt(1+x²); derivative of exp(6x)/6 is exp(6x); derivative of -exp(-x²)/2 is x exp(-x²). These four identities hold for all real x. Global invertibility of u=x^4+2 is unnecessary to this indefinite primitive identity because the chain rule itself verifies it, including at x=0. The first source calculation adds +C only after an equality to a representative without +C; the family/representative convention should be consistent.",
+    "The derivatives of sin²x/2 and -cos²x/2 both equal sin x cos x, while their difference is exactly 1/2 by sin²x+cos²x=1. The antiderivative families agree after shifting their constants; using equal numerical constants does not make the two selected functions identical.",
+    "For 1/(x ln x), the real domain is (0,1) union (1,infinity). The substitution u=ln x gives primitive ln|u|, hence ln|ln x|+C on each interval with potentially separate constants. Source ln(ln x) is only real for x>1 despite stating merely x>0. At x=1/2 the integrand is the finite value -2/ln 2 but the supplied primitive is not real. x=1 must be excluded as a singularity. This is a source formula/domain error, not simply a missing derivation.",
+    "No external current claim or numerical lookup is needed; exact differentiation, rational arithmetic, and direct source-page comparison supply the witnesses."
+  ],
+  "reader_boundary": "Future fresh SASIS receives the full baseline and complete teaching packet only, never this source preparation."
+}

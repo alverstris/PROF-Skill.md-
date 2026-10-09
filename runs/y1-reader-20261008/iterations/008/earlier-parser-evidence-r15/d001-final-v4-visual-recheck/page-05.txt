@@ -1,0 +1,50 @@
+need the remainder after division by h to disappear. At x = 0, the cubic quotient is h2 , agreeing
+with P06.
+[P21] Polynomials follow by combining derivatives. For differentiable functions u, v and a constant c,
+the quotient for u + cv splits into the quotient for u plus c times the quotient for v. Taking their
+finite limits gives
+                                         (u + cv)′ = u′ + cv ′ .
+A constant function has zero numerator in its quotient and hence derivative zero. Applying these
+rules to the source’s example,
+                             d 2
+                               (x + 3x10 ) = 2x + 3(10x9 ) = 2x + 30x9 .
+                            dx
+The factor 3 multiplies the derivative, while the power 10 contributes the factor 10 and changes its
+power to 9.
+[P22] Attempt B — connect calculation to geometry. Let q(x) = x3 − 3x. Construct and simplify
+[q(1 + h) − q(1)]/h for h =
+                          ̸ 0, then find the tangent at x = 1. Does this tangent and the two
+coordinate axes enclose a bounded triangle? Justify the answer from the resulting line, rather than
+carrying over the reciprocal graph’s area result. Your work should show which terms survive the
+limit and how the slope determines the geometry. Hint B: P33. Solution B: P38.
+[P23] From a graph to a falling object. Consider the lecture’s idealised pumpkin released from
+rest 400 feet above the ground. Take upward height y as positive, set t = 0 at release, ignore air
+resistance, and use constant downward acceleration of magnitude 32 ft/s2 . The constant-acceleration
+position rule gives                                       
+                                   y(t) = 400 ft − 16 ft/s2 t2 .
+
+Equivalently, with numerical height measured in feet and numerical time in seconds, y = 400 − 16t2 .
+These are model assumptions, not a prediction that the same formula describes the collision or the
+later motion. The factor 16 is half the acceleration magnitude, and its units make the quadratic
+term a length.
+[P24] The ground is at y = 0, so the model reaches it when 400 − 16t2 = 0, giving t2 = 25. We
+select t = 5 seconds because elapsed time after release is nonnegative. The negative algebraic root is
+outside this physical interval. The model is used from release up to first contact at 5 seconds.
+[P25] An average velocity is displacement divided by elapsed time. An average speed is total distance
+travelled divided by elapsed time. For the entire downward fall,
+                         0 − 400                                    400
+                    v=           = −80 ft/s,      average speed =       = 80 ft/s.
+                          5−0                                        5
+The displacement is negative because height decreases; the distance is positive. They have the same
+magnitude here because there is no reversal. With a reversal, distance accumulates on both parts
+while signed displacements can cancel. This distinction corrects the source’s use of “average speed”
+for the signed height quotient; see MIT’s one-dimensional velocity definition, section 4.3.1 and MIT’s
+velocity and speed notes.
+[P26] Instantaneous velocity is the derivative of height with respect to time, so the power and
+constant-multiple rules give
+                                          dy             
+                                   v(t) =     = − 32 ft/s2 t.
+                                          dt
+
+                                                  5
+

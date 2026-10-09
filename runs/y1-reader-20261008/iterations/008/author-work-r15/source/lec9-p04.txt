@@ -1,0 +1,85 @@
+√
+1 + x = (1 + x)1/2 ≈ 1 + 1 x
+2 
+Put these two approximations together to get 
+e−2x 
+1 − 2x
+x ≈ (1 − 2x)(1 + 1 x)−1
+√1 + x ≈ 1 + 1 
+2
+2 
+Moreover (1 + 1 x)−1 ≈ 1 − 1 x (using (1 + u)−1 ≈ 1 − u with u = x/2). Thus 1 
+2
+2 
+e−2x 
+1 
+1
+1 
+2
+√1 + x ≈ (1 − 2x)(1 − 2 x) = 1 − 2x − 2 x + 2(2)x 
+Now, we discard that last x2 term, because we’ve already thrown out a number of other x2 (and 
+higher order) terms in making these approximations. Remember, we’re assuming that 
+x << 1. 
+2
+3 
+|
+|
+This means that x
+is very small, x
+is even smaller, etc. We can ignore these higher-order terms, 
+because they are very, very small. This yields 
+e−2x 
+1
+5 
+√1 + x ≈ 1 − 2x − 2 x = 1 − 2 x 
+Because f(x) ≈ 1 − 5 x, we can deduce f(0) = 1 and f 0(0) = −5 directly from our linear approxi­
+2
+2 
+mation, which is quicker in this case than calculating f 0(x). 
+Example 3. f(x) = (1 + 2x)10 . 
+On the ﬁrst exam, you were asked to calculate lim (1 + 2x)10 − 1. The quickest way to do this with 
+x→0 
+x 
+the tools of Unit 1 is as follows. 
+lim (1 + 2x)10 − 1 = lim f(x) − f(0) = f 0(0) = 20 
+x
+0 
+x 
+x
+0 
+x
+→
+→
+(since f 0(x) = 10(1 + 2x)9 2 = 20 at x = 0) 
+· 
+Now we can do the same problem a diﬀerent way, namely, using linear approximation. 
+(1 + 2x)10 ≈ 1 + 10(2x) (Use (1 + u)r ≈ 1 + ru where u = 2x and r = 10.) 
+Hence, 
+(1 + 2x)10 − 1 
+1 + 20x − 1 = 20 
+x 
+≈ 
+x 
+Example 4: Planet Quirk Let’s say I am on Planet Quirk, and that a satellite is whizzing 
+overhead with a velocity v. We want to ﬁnd the time dilation (a concept from special relativity) 
+that the clock onboard the satellite experiences relative to my wristwatch. We borrow the following 
+equation from special relativity: 
+T 
+T 0 = q 
+1 − v
+c
+2 
+2 
+1
+1 
+1
+1A shortcut to the two-step process √1 + x ≈ 1 + x ≈ 1 − 2 x is to write 
+2 
+1
+1 
+√1 + x = (1 + x)−1/2 ≈ 1 − 2 x 
+3 
+Lecture 9  
+ 
+ 
+18.01 Fall 2006 

@@ -1,0 +1,53 @@
+{
+  "reviewed_utc": "2026-10-09T03:01:22.018151+00:00",
+  "scope": "Fresh immutable server DOM, ancestor attributes, all 21 unique actual href stylesheet bytes, 590 font declarations and all 38 conservatively retained font selector candidates; additional layout selector inventory. No live style engine.",
+  "manual_findings": [
+    "The actual article contains p, a and math-renderer elements; no bold/italic/headings/tables, and all 68 P labels remain visible plain paragraph text.",
+    "Body font-weight uses --base-text-weight-normal with 400 fallback; current root definitions set 400. The .markdown-body scope sets sans-serif stack, font-size 16px and line-height 1.5. Paragraph margin-bottom is --base-size-16.",
+    "All 38 candidate font rules inspected against actual elements and full ancestor classes. Bold/italic rules for b/strong/dfn/headings/dt/table headers and UI or brand scopes have absent required tags/classes. No matching rule or inline style was found that forces bold or italic prose.",
+    "Inline math wrappers are inline-block, display math block. math-renderer has max-width:100% and overflow:auto; inline wrappers have bottom alignment and overflow:auto hidden. These are declarations only; glyphs, clipping and client-produced inner math were not observed.",
+    "Current HTML data-a11y-link-underlines=true matches the .markdown-body link underline selector; actual links remain inline text links. No source links carry the theme-only hide fragments.",
+    "PageLayout flex scopes match ancestors; their data-is-hidden selectors do not match present attributes. No actual article/ancestor inline font-weight or font-style override exists.",
+    "Inactive data-href theme inventory is retained separately; only actual href stylesheets were fetched. No claim about alternate user theme activation or computed cascade."
+  ],
+  "limits": [
+    "CSS extraction is a conservative leaf-declaration inventory, not a complete CSS parser/cascade/selector implementation. Candidate conclusions are manual static inspection.",
+    "MathJax execution, screenshots, responsive pixels, actual click/scroll landing and live font rasterization were not observed."
+  ],
+  "fresh_revision_evidence": {
+    "fresh_HTTP_CSS_fetches": 21,
+    "all_bytes_hash_verified": true,
+    "four_changed_assets": [
+      {
+        "stem": "code-view.",
+        "old_sha256": "22d706c6d45790057dfd4b435a8e23e3e77d6e5e60c450b01d1d5335085a563b",
+        "new_sha256": "3f92183a770878ee74b48b7b764de13a2960366c923c781962e880eafd513825",
+        "only_sourceMappingURL_comment_changed": true
+      },
+      {
+        "stem": "keyboard-shortcuts-dialog.",
+        "old_sha256": "5814a0e012ee75c81ad6cb26a3e385b42035e6b16f0c8d237c65bb311386c616",
+        "new_sha256": "7ab6d35f8066b3a8714ec04e9790175a16ea793bd91aa631ad358f0a05107233",
+        "only_sourceMappingURL_comment_changed": true
+      },
+      {
+        "stem": "app-install-banner-partial.",
+        "old_sha256": "325cdfcbd3a37ba662a87464c7112acba5ea99080f0c6cd8bac437dae51a7052",
+        "new_sha256": "5a207f8931cb683421ccdea9088bd353f7a82a919127a2fac24437e3b88b0238",
+        "only_sourceMappingURL_comment_changed": true
+      },
+      {
+        "stem": "global-nav-bar.",
+        "old_sha256": "4f44974d2ae3513b59fa9bd6a934c41834faade44871362c510f5370f83c34ef",
+        "new_sha256": "ed2ced05935e9a9952111e34eccc0bbdce74cbc6dabc387ed1411f9530d39f3c",
+        "only_sourceMappingURL_comment_changed": true
+      }
+    ],
+    "all_38_font_candidates_exactly_equal": true,
+    "actual_ancestor_scopes_equal_except_route": true,
+    "actual_article_tags_classes_ids_and_inline_styles_equal": true,
+    "original_manual_review_path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d008-render-review/r15-original/manual-style-review.json",
+    "original_manual_review_sha256": "b7baf5525544ca7e8b61792ee88acf3f084f0b9fb5f08e28ff190c7468bf7ec7",
+    "claim": "Fresh CSS/DOM inspected. Four newly named assets differ only in sourceMappingURL comments, proved by full comparison after removing only those comments. No old fetch substituted. Initial shortcut expecting full URL/hash identity failed and is preserved."
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "source_formats": {
+    "protected": 276,
+    "display": 29
+  },
+  "all_source_dollars_and_backticks_accounted_for": true,
+  "prompts": [
+    {
+      "task": "A1",
+      "paragraph": "P011",
+      "full_block_exact": true,
+      "math_indices": [
+        45,
+        46,
+        47
+      ],
+      "failing_math_indices": [],
+      "numeric_tokens_exact": true,
+      "prose_note": "Whole-document outside-math prose equality is checked in markup-navigation-audit.json. Full prompt blocks retained in paragraph-block-comparison.json."
+    },
+    {
+      "task": "A2",
+      "paragraph": "P034",
+      "full_block_exact": false,
+      "math_indices": [
+        168,
+        169,
+        170
+      ],
+      "failing_math_indices": [
+        170
+      ],
+      "numeric_tokens_exact": true,
+      "prose_note": "Whole-document outside-math prose equality is checked in markup-navigation-audit.json. Full prompt blocks retained in paragraph-block-comparison.json."
+    },
+    {
+      "task": "A3",
+      "paragraph": "P045",
+      "full_block_exact": true,
+      "math_indices": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229
+      ],
+      "failing_math_indices": [],
+      "numeric_tokens_exact": true,
+      "prose_note": "Whole-document outside-math prose equality is checked in markup-navigation-audit.json. Full prompt blocks retained in paragraph-block-comparison.json."
+    },
+    {
+      "task": "A4",
+      "paragraph": "P051",
+      "full_block_exact": false,
+      "math_indices": [
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238
+      ],
+      "failing_math_indices": [
+        233
+      ],
+      "numeric_tokens_exact": true,
+      "prose_note": "Whole-document outside-math prose equality is checked in markup-navigation-audit.json. Full prompt blocks retained in paragraph-block-comparison.json."
+    }
+  ],
+  "explicit_navigation": [
+    {
+      "paragraph": "P002",
+      "expected_hrefs": [
+        "#hints",
+        "#solutions"
+      ],
+      "actual_hrefs": [
+        "#hints",
+        "#solutions"
+      ],
+      "exact": true
+    },
+    {
+      "paragraph": "P011",
+      "expected_hrefs": [
+        "#h1",
+        "#s1",
+        "#after-a1"
+      ],
+      "actual_hrefs": [
+        "#h1",
+        "#s1",
+        "#after-a1"
+      ],
+      "exact": true
+    },
+    {
+      "paragraph": "P034",
+      "expected_hrefs": [
+        "#h2",
+        "#s2",
+        "#after-a2"
+      ],
+      "actual_hrefs": [
+        "#h2",
+        "#s2",
+        "#after-a2"
+      ],
+      "exact": true
+    },
+    {
+      "paragraph": "P045",
+      "expected_hrefs": [
+        "#h3",
+        "#s3",
+        "#after-a3"
+      ],
+      "actual_hrefs": [
+        "#h3",
+        "#s3",
+        "#after-a3"
+      ],
+      "exact": true
+    },
+    {
+      "paragraph": "P051",
+      "expected_hrefs": [
+        "#h4",
+        "#s4"
+      ],
+      "actual_hrefs": [
+        "#h4",
+        "#s4"
+      ],
+      "exact": true
+    },
+    {
+      "paragraph": "P054",
+      "expected_hrefs": [
+        "#a1",
+        "#a2",
+        "#a3",
+        "#a4"
+      ],
+      "actual_hrefs": [
+        "#a1",
+        "#a2",
+        "#a3",
+        "#a4"
+      ],
+      "exact": true
+    },
+    {
+      "paragraph": "P056",
+      "expected_hrefs": [
+        "#a1"
+      ],
+      "actual_hrefs": [
+        "#a1"
+      ],
+      "exact": true
+    },
+    {
+      "paragraph": "P057",
+      "expected_hrefs": [
+        "#a2"
+      ],
+      "actual_hrefs": [
+        "#a2"
+      ],
+      "exact": true
+    },
+    {
+      "paragraph": "P058",
+      "expected_hrefs": [
+        "#a3"
+      ],
+      "actual_hrefs": [
+        "#a3"
+      ],
+      "exact": true
+    },
+    {
+      "paragraph": "P059",
+      "expected_hrefs": [
+        "#a4"
+      ],
+      "actual_hrefs": [
+        "#a4"
+      ],
+      "exact": true
+    },
+    {
+      "paragraph": "P060",
+      "expected_hrefs": [
+        "#start",
+        "#a1",
+        "#a2",
+        "#a3",
+        "#a4"
+      ],
+      "actual_hrefs": [
+        "#start",
+        "#a1",
+        "#a2",
+        "#a3",
+        "#a4"
+      ],
+      "exact": true
+    },
+    {
+      "paragraph": "P062",
+      "expected_hrefs": [
+        "#a1",
+        "#after-a1"
+      ],
+      "actual_hrefs": [
+        "#a1",
+        "#after-a1"
+      ],
+      "exact": true
+    },
+    {
+      "paragraph": "P064",
+      "expected_hrefs": [
+        "#a2",
+        "#after-a2"
+      ],
+      "actual_hrefs": [
+        "#a2",
+        "#after-a2"
+      ],
+      "exact": true
+    },
+    {
+      "paragraph": "P066",
+      "expected_hrefs": [
+        "#a3",
+        "#after-a3"
+      ],
+      "actual_hrefs": [
+        "#a3",
+        "#after-a3"
+      ],
+      "exact": true
+    },
+    {
+      "paragraph": "P068",
+      "expected_hrefs": [
+        "#a4",
+        "#start"
+      ],
+      "actual_hrefs": [
+        "#a4",
+        "#start"
+      ],
+      "exact": true
+    }
+  ],
+  "group_boundaries": {
+    "core": "P001–P054",
+    "hint_heading": "P055",
+    "hints": "P056–P059",
+    "end_hints": "P060",
+    "solution_heading": "P061",
+    "solutions": "P062–P068"
+  },
+  "scope": "Only representation, numbering, links and group ordering; no learner response, reasoning adequacy or SASIS evaluation."
+}

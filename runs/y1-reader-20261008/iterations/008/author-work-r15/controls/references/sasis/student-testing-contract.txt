@@ -1,0 +1,51 @@
+SASIS reader contract — revision 2026-10-08-r7
+
+Purpose
+
+Open a fresh agent specifically as SASIS, the reader. Evaluate whether every substantive teaching step is intelligible, justified and logically available from the supplied baseline and earlier document, and whether its conclusion follows correctly. The document is evaluated, never the student's ability. A correct answer alone does not establish adequate teaching and a reader question/error alone does not establish a defect.
+
+Sequential whole-document reading is the core procedure. No task-designer stage, held-out examination, learner score or mandatory battery of controls defines SASIS. Existing exercises and help remain teaching content to inspect. Extra author checks must resolve concrete uncertainty and cannot replace full reading.
+
+Inputs and separation
+
+Use the complete frozen operational OCR A four-subject baseline identified by profile-manifest.json. Preserve Mathematics H240, Further Mathematics H245 Pure Core Y540/Y541 plus Statistics Y542 and Mechanics Y543, Physics H556 and Chemistry H432. Its qualification names, a compressed summary or another run's knowledge cannot replace actual content. The stored university scope is bachelor year1 physics/mathematics; different profiles require their own explicit baseline/scope.
+
+The reader has exactly two subject-content inputs: complete baseline and complete document, including all learner-facing representations, exercises and help. The short reader operating instruction is non-content. Required previous-lecture teaching must actually appear in the current document. Author state, completed-session ledgers, raw sources, research, expected issues, prior reports and PROF instructions are not reader inputs.
+
+Use collaboration.spawn_agent with fork_turns: "none". A different document or revision requires a different fresh reader. The author cannot serve as that reader. Current-input recall and supported deductions are allowed; external and cross-call memory may not fill gaps. No instruction can erase pretraining, so every consequential reconstruction needs actual permitted premises.
+
+Author and technical-review roles use inspected authorised sources and checked deductions. These can establish scientific truth, but cannot grant the reader knowledge absent from its two inputs. The author and reviewer inspect the actual operational baseline when establishing what it supplies.
+
+Admission
+
+Freeze input IDs, immutable revisions/locators and hashes when available. Save call/document/baseline IDs, operating-instruction version, agent/history settings, allowed tools, delivery extent, known limits and admission state.
+
+Use verified complete text delivery or explicitly labelled instruction-confined read-only retrieval of the two full artifacts. Prefer technical confinement when available, but do not claim shared-tool agents provide it. Under an instruction whitelist, fetch only the exact baseline/document artifacts; log actual access ranges and failures. Read the complete baseline in coherent chunks and inspect the whole document in order. Do not claim everything was simultaneously in context.
+
+A path, hash, window-size guess or acknowledgement is not delivery evidence. Missing, mismatched, truncated or unreadable input blocks substantive admission. A dispatch to establish access is provisional until evidence establishes the complete inputs were available/read. If it fails, preserve an input failure, not a teaching judgement, repair access, and start a fresh condition. Never silently shorten the baseline. Verified unauthorised subject access invalidates the affected reading.
+
+Reading
+
+Freeze and preserve unedited authored teaching. Supply student-role.txt without author history or suspected defects. Read every substantive claim, definition, equation, figure, example, transition and help section in order. Establish meaning, premise availability, concise inference, conclusion, accessibility and consequential ambiguity, using precise locators. Group only routine already-supported operations.
+
+Premises may come from the baseline, previously encountered teaching or explicit intelligible introductions at that point. A new empirical law, definition or model assumption can be introduced without derivation; check its status, meaning and scope. Independent technical review checks accuracy. A preview need not be taught immediately unless used. Later explanation does not retroactively support earlier reliance.
+
+At a gap, preserve supported understanding, identify the missing connection and inspect the rest. Independent passages remain reviewable; dependent conclusions are blocked or explicitly conditional. Do not silently repair the original. Reasonable alternative deductions may resolve a suspected gap, but expert invention of a substantial untaught theory does not establish accessibility.
+
+Evidence and diagnosis
+
+Preserve the original report unchanged. Record access, chronological coverage, meaningful reconstruction witnesses, all supported gaps/ambiguities, uncertainty, alternative readings and dependencies. Inspect reports against exact inputs. Neither reader agreement nor an author's assertion proves sufficiency.
+
+Maintain a whole-document issue register covering required source portions, reader findings, correctness and applicable teaching duties. For each issue record exact evidence, all supported causes, affected instances, necessary repair, any justified skill change and verification status. Distinguish teaching, source, baseline, delivery/restriction and review faults, plus legitimate pending choices. The earliest gap orders repair; it does not limit the audit.
+
+Follow rewrite-guide.md. Repair supported defects at the responsible passage and its dependencies; preserve adequate teaching. Missing essential connections block acceptance. Also address evidenced irrelevant expansion or redundant baseline reteaching. Word count cannot establish quality.
+
+For a justified PROF change, save a narrow trigger/action/check instruction and regenerate affected teaching with a fresh author using the actual changed skill and original sources. Do not provide the patched answer as a template. Run a fresh SASIS reader on the complete new document and independently check its important results and affected successes. Preserve all original conditions. A manual patch alone does not establish improved generation.
+
+Closure and progression
+
+Close only when full required coverage is inspected and every supported material issue has a verified repair or evidence-backed resolution. Collect newly exposed issues in the same iteration. Pending sources or user decisions stay pending; do not advance as though they passed.
+
+Publish completed iteration edits and evidence to GitHub, verify the commit, reload the actual published PROF, then author the next session afresh and open its new reader. If no skill change is warranted, publish evidence and record why. Preserve the complete assigned queue across recovery. Later changes invalidate affected earlier checks; recheck them before corpus completion.
+
+Report actual reading, technical and mechanical evidence separately. SASIS cannot prove human understanding, retention, universal accessibility, erasure of pretraining or discovery of every possible error.

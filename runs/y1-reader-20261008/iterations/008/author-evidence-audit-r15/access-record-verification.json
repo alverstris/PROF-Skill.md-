@@ -1,0 +1,154 @@
+{
+  "full_input_packets": 35,
+  "continuous_controls": [
+    {
+      "input": "SKILL.md",
+      "range": [
+        0,
+        37809
+      ],
+      "packets": 3,
+      "continuous": true
+    },
+    {
+      "input": "references/execution-protocol.md",
+      "range": [
+        0,
+        26404
+      ],
+      "packets": 2,
+      "continuous": true
+    },
+    {
+      "input": "references/sasis.md",
+      "range": [
+        0,
+        15767
+      ],
+      "packets": 2,
+      "continuous": true
+    },
+    {
+      "input": "references/sasis/profile-manifest.json",
+      "range": [
+        0,
+        8965
+      ],
+      "packets": 1,
+      "continuous": true
+    },
+    {
+      "input": "references/sasis/student-testing-contract.txt",
+      "range": [
+        0,
+        7293
+      ],
+      "packets": 1,
+      "continuous": true
+    },
+    {
+      "input": "references/sasis/rewrite-guide.md",
+      "range": [
+        0,
+        8451
+      ],
+      "packets": 1,
+      "continuous": true
+    },
+    {
+      "input": "references/domain-patterns.md",
+      "range": [
+        0,
+        10289
+      ],
+      "packets": 1,
+      "continuous": true
+    },
+    {
+      "input": "references/state-tool.md",
+      "range": [
+        0,
+        17124
+      ],
+      "packets": 2,
+      "continuous": true
+    },
+    {
+      "input": "scripts/prof_state.py",
+      "range": [
+        0,
+        32995
+      ],
+      "packets": 3,
+      "continuous": true
+    },
+    {
+      "input": "runs/y1-reader-20261008/requests.md",
+      "range": [
+        0,
+        3115
+      ],
+      "packets": 1,
+      "continuous": true
+    },
+    {
+      "input": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "range": [
+        0,
+        246945
+      ],
+      "packets": 18,
+      "continuous": true
+    }
+  ],
+  "baseline_byte_and_extent_binding": true,
+  "full_teaching_range": [
+    0,
+    27792
+  ],
+  "teaching_packets": [
+    {
+      "packet": 1,
+      "range": [
+        0,
+        12701
+      ],
+      "chunk_id": "ef1c71",
+      "status": "read_full_success_no_truncation",
+      "output_tokens": 3193
+    },
+    {
+      "packet": 2,
+      "range": [
+        12701,
+        25348
+      ],
+      "chunk_id": "1e3140",
+      "status": "read_full_success_no_truncation",
+      "output_tokens": 3180
+    },
+    {
+      "packet": 3,
+      "range": [
+        25348,
+        27792
+      ],
+      "chunk_id": "a56c0c",
+      "status": "read_full_success_no_truncation",
+      "output_tokens": 625
+    }
+  ],
+  "author_reported_full_seven_page_text_image_reading": [
+    {
+      "input": "source/lec9-p01.txt through source/lec9-p07.txt",
+      "chunk_id": "ddaba2",
+      "scope": "all seven complete text extractions"
+    },
+    {
+      "input": "source/lec9-p01.png through source/lec9-p07.png",
+      "scope": "personally viewed all seven complete images through tools.view_image, first call pages01–03, next pages04–07",
+      "output_id": "view_image returns no chunk ID; exact call paths identify image outputs"
+    }
+  ],
+  "limits": "Records establish declared scope, ranges, byte identity and output identifiers. The audit cannot replay private historical tool outputs or infer cognitive retention; it is not fresh-reader isolation."
+}

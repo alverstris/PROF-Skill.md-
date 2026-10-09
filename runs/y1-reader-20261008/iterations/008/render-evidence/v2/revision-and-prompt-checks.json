@@ -1,0 +1,89 @@
+{
+  "source_revision_inverse_exactly_recovers_original_bytes": true,
+  "named_operator_reversions": [
+    {
+      "from": "x\\gt 0",
+      "to": "x>0"
+    },
+    {
+      "from": "u\\gt -1",
+      "to": "u>-1"
+    },
+    {
+      "from": "1+x\\gt 0",
+      "to": "1+x>0"
+    },
+    {
+      "from": "x\\gt -1",
+      "to": "x>-1"
+    },
+    {
+      "from": "x\\gt -1",
+      "to": "x>-1"
+    },
+    {
+      "from": "|x|\\lt 1",
+      "to": "|x|<1"
+    },
+    {
+      "from": "T\\gt 0",
+      "to": "T>0"
+    },
+    {
+      "from": "x\\gt 0",
+      "to": "x>0"
+    },
+    {
+      "from": "x\\lt 1/2",
+      "to": "x<1/2"
+    }
+  ],
+  "display_fence_reversions": 27,
+  "added_external_blank_newlines_removed_in_exact_inverse": 54,
+  "wording_reversion": "It need not be zero -> It is not zero, exactly once in inverse check only; no file content edited.",
+  "source_P012": "So the error becomes small compared with the displacement. We abbreviate this property as $`R_1(h)=o(h)`$: the symbol $`o(h)`$ denotes an unspecified remainder whose ratio to $`h`$ tends to zero. It need not be zero, and it is not a stated error bound at a particular nonzero input. Writing $`f(x)\\approx L(x)`$ means using that local model. The guarantee concerns approach to $`x_0`$; it does not say the error must increase monotonically at every step away from $`x_0`$.",
+  "four_prompt_checks": [
+    {
+      "task": "A1",
+      "paragraph": "P016",
+      "plain_task_prose_identical_to_original": true,
+      "actual_destination_exact_occurrences": 1,
+      "task_sha256": "dab2075e99bd3e3ff313e46fcc9dd57deb5f023599ccb171426818c68f31659a"
+    },
+    {
+      "task": "A2",
+      "paragraph": "P061",
+      "plain_task_prose_identical_to_original": true,
+      "actual_destination_exact_occurrences": 1,
+      "task_sha256": "343d2a2a07ebb551bee11ade125e4c09817b6584a20a7b4c6992634c9e6a4b84"
+    },
+    {
+      "task": "A3",
+      "paragraph": "P078",
+      "plain_task_prose_identical_to_original": true,
+      "actual_destination_exact_occurrences": 1,
+      "task_sha256": "4469aba8bd6aaacdf1216315c1003685e5c2998d14563759b2054dfdd4ecad84"
+    },
+    {
+      "task": "A4",
+      "paragraph": "P085",
+      "plain_task_prose_identical_to_original": true,
+      "actual_destination_exact_occurrences": 1,
+      "task_sha256": "1b0fd7780bce4f15189fc70697f418dab6d963d365e83068e168c2cc24dd55c0"
+    }
+  ],
+  "full_destination_prose_math_links_numeric_checks": {
+    "complete_prose_and_math_stream": true,
+    "prose_outside_math_exact": true,
+    "all_numeric_tokens_in_order": true,
+    "all_math_exact": true,
+    "all_source_links_in_order": true,
+    "all_source_targets_in_order": true,
+    "each_internal_target_once": true,
+    "all_four_task_relationships": true,
+    "all_tasks_before_all_hints_before_all_solutions": true,
+    "P001_P145_in_order": true,
+    "no_heading_table_or_emphasis_tags": true,
+    "no_external_constituent_images": true
+  }
+}

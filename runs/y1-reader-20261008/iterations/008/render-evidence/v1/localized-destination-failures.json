@@ -1,0 +1,423 @@
+{
+  "source_math_count": 285,
+  "destination_math_count": 284,
+  "counts": {
+    "exact": 273,
+    "changed_payload": 11,
+    "unwrapped": 1,
+    "extra_wrapper": 0,
+    "entity_payload": 9,
+    "lost_thinspace": 2
+  },
+  "failures": [
+    {
+      "paragraph": "P013",
+      "operation": "replace",
+      "source_math_range": [
+        1,
+        2
+      ],
+      "destination_math_range": [
+        1,
+        2
+      ],
+      "source_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "x>0",
+          "format": "inline",
+          "span": [
+            21,
+            26
+          ],
+          "paragraph": null
+        }
+      ],
+      "destination_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "x&gt;0",
+          "raw_text": "$x&gt;0$"
+        }
+      ],
+      "actual_paragraph_text": null,
+      "paragraph_links": []
+    },
+    {
+      "paragraph": "P013",
+      "operation": "replace",
+      "source_math_range": [
+        13,
+        14
+      ],
+      "destination_math_range": [
+        13,
+        14
+      ],
+      "source_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "u>-1",
+          "format": "inline",
+          "span": [
+            325,
+            331
+          ],
+          "paragraph": null
+        }
+      ],
+      "destination_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "u&gt;-1",
+          "raw_text": "$u&gt;-1$"
+        }
+      ],
+      "actual_paragraph_text": null,
+      "paragraph_links": []
+    },
+    {
+      "paragraph": "P020",
+      "operation": "replace",
+      "source_math_range": [
+        3,
+        4
+      ],
+      "destination_math_range": [
+        3,
+        4
+      ],
+      "source_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "1+x>0",
+          "format": "inline",
+          "span": [
+            265,
+            272
+          ],
+          "paragraph": null
+        }
+      ],
+      "destination_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "1+x&gt;0",
+          "raw_text": "$1+x&gt;0$"
+        }
+      ],
+      "actual_paragraph_text": null,
+      "paragraph_links": []
+    },
+    {
+      "paragraph": "P023",
+      "operation": "replace",
+      "source_math_range": [
+        6,
+        7
+      ],
+      "destination_math_range": [
+        6,
+        7
+      ],
+      "source_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "x>-1",
+          "format": "inline",
+          "span": [
+            238,
+            244
+          ],
+          "paragraph": null
+        }
+      ],
+      "destination_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "x&gt;-1",
+          "raw_text": "$x&gt;-1$"
+        }
+      ],
+      "actual_paragraph_text": null,
+      "paragraph_links": []
+    },
+    {
+      "paragraph": "P025",
+      "operation": "replace",
+      "source_math_range": [
+        1,
+        2
+      ],
+      "destination_math_range": [
+        1,
+        2
+      ],
+      "source_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "x>-1",
+          "format": "inline",
+          "span": [
+            56,
+            62
+          ],
+          "paragraph": null
+        }
+      ],
+      "destination_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "x&gt;-1",
+          "raw_text": "$x&gt;-1$"
+        }
+      ],
+      "actual_paragraph_text": null,
+      "paragraph_links": []
+    },
+    {
+      "paragraph": "P040",
+      "operation": "replace",
+      "source_math_range": [
+        0,
+        1
+      ],
+      "destination_math_range": [
+        0,
+        1
+      ],
+      "source_math": [
+        {
+          "type": "js-display-math",
+          "payload": "f(x_0+h)-f(x_0)=\\int_0^h f'(x_0+t)\\,dt,",
+          "format": "display",
+          "span": [
+            1,
+            44
+          ],
+          "paragraph": null
+        }
+      ],
+      "destination_math": [
+        {
+          "type": "js-display-math",
+          "payload": "f(x_0+h)-f(x_0)=\\int_0^h f'(x_0+t),dt,",
+          "raw_text": "$$f(x_0+h)-f(x_0)=\\int_0^h f'(x_0+t),dt,$$"
+        }
+      ],
+      "actual_paragraph_text": null,
+      "paragraph_links": []
+    },
+    {
+      "paragraph": "P041",
+      "operation": "replace",
+      "source_math_range": [
+        0,
+        1
+      ],
+      "destination_math_range": [
+        0,
+        1
+      ],
+      "source_math": [
+        {
+          "type": "js-display-math",
+          "payload": "f'(x_0+t)=f'(x_0)+f''(x_0)t+\\int_0^t\\bigl[f''(x_0+s)-f''(x_0)\\bigr]\\,ds.",
+          "format": "display",
+          "span": [
+            1,
+            77
+          ],
+          "paragraph": null
+        }
+      ],
+      "destination_math": [
+        {
+          "type": "js-display-math",
+          "payload": "f'(x_0+t)=f'(x_0)+f''(x_0)t+\\int_0^t\\bigl[f''(x_0+s)-f''(x_0)\\bigr],ds.",
+          "raw_text": "$$f'(x_0+t)=f'(x_0)+f''(x_0)t+\\int_0^t\\bigl[f''(x_0+s)-f''(x_0)\\bigr],ds.$$"
+        }
+      ],
+      "actual_paragraph_text": null,
+      "paragraph_links": []
+    },
+    {
+      "paragraph": "P051",
+      "operation": "replace",
+      "source_math_range": [
+        1,
+        2
+      ],
+      "destination_math_range": [
+        1,
+        2
+      ],
+      "source_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "|x|<1",
+          "format": "inline",
+          "span": [
+            275,
+            282
+          ],
+          "paragraph": null
+        }
+      ],
+      "destination_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "|x|&lt;1",
+          "raw_text": "$|x|&lt;1$"
+        }
+      ],
+      "actual_paragraph_text": null,
+      "paragraph_links": []
+    },
+    {
+      "paragraph": "P065",
+      "operation": "replace",
+      "source_math_range": [
+        0,
+        1
+      ],
+      "destination_math_range": [
+        0,
+        1
+      ],
+      "source_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "T>0",
+          "format": "inline",
+          "span": [
+            435,
+            440
+          ],
+          "paragraph": null
+        }
+      ],
+      "destination_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "T&gt;0",
+          "raw_text": "$T&gt;0$"
+        }
+      ],
+      "actual_paragraph_text": null,
+      "paragraph_links": []
+    },
+    {
+      "paragraph": "P115",
+      "operation": "replace",
+      "source_math_range": [
+        4,
+        5
+      ],
+      "destination_math_range": [
+        4,
+        5
+      ],
+      "source_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "x>0",
+          "format": "inline",
+          "span": [
+            69,
+            74
+          ],
+          "paragraph": null
+        }
+      ],
+      "destination_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "x&gt;0",
+          "raw_text": "$x&gt;0$"
+        }
+      ],
+      "actual_paragraph_text": null,
+      "paragraph_links": []
+    },
+    {
+      "paragraph": "P121",
+      "operation": "replace",
+      "source_math_range": [
+        0,
+        1
+      ],
+      "destination_math_range": [
+        0,
+        1
+      ],
+      "source_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "x<1/2",
+          "format": "inline",
+          "span": [
+            4,
+            11
+          ],
+          "paragraph": null
+        }
+      ],
+      "destination_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "x&lt;1/2",
+          "raw_text": "$x&lt;1/2$"
+        }
+      ],
+      "actual_paragraph_text": null,
+      "paragraph_links": []
+    },
+    {
+      "paragraph": "P124",
+      "operation": "delete",
+      "source_math_range": [
+        1,
+        2
+      ],
+      "destination_math_range": [
+        1,
+        1
+      ],
+      "source_math": [
+        {
+          "type": "js-inline-math",
+          "payload": "[(-1/2)(-3/2)/2](-2)^2=3/2",
+          "format": "inline",
+          "span": [
+            98,
+            126
+          ],
+          "paragraph": null
+        }
+      ],
+      "destination_math": [],
+      "actual_paragraph_text": "For the second factor, the linear coefficient is $(-1/2)(-2)=1$ and the quadratic coefficient is $(-1/2)(-3/2)/2^2=3/2$. On multiplication, the linear terms contribute $3+1=4$, and the quadratic terms contribute",
+      "paragraph_links": [
+        {
+          "href": "/alverstris/PROF-Skill.md-/blob/e0f87210f8085487a1fb6e29bb4ca821cadca5e5/runs/y1-reader-20261008/iterations/008/author-work-r14/-2",
+          "text": "(-1/2)(-3/2)/2"
+        }
+      ]
+    }
+  ],
+  "paragraphs_with_math_failure": [
+    "P013",
+    "P020",
+    "P023",
+    "P025",
+    "P040",
+    "P041",
+    "P051",
+    "P065",
+    "P115",
+    "P121",
+    "P124"
+  ],
+  "normalization": "One independent ordinary lxml parse of original richText, no recursive entity unescape. Per-paragraph alignment prevents a missing wrapper from shifting later comparisons. Exact syntax/payload comparison, not mathematical equivalence."
+}

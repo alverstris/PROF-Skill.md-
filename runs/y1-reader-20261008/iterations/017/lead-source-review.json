@@ -1,0 +1,47 @@
+{
+  "material_id": "D017",
+  "status": "root whole-source preparation only; not authoring or closure",
+  "created_utc": "2026-10-09T02:40:46.754766+00:00",
+  "source_sha256": "f3bccf9b801aebb3266932eb8a549f700e5a38f26d377c85f6fd96ed9e7fb3b7",
+  "full_text_pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "full_original_page_images_personally_opened": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "source_review_fully_read": true,
+  "source_map_read_scope": "source metadata only",
+  "read_output_chunks": [
+    "28eb38",
+    "6df683"
+  ],
+  "visual_coverage": [
+    "Cover/course identity.",
+    "FTC1 continuity/antiderivative statement, exact evaluation notation and all three first examples; sine figure endpoints/radian interval and unit peak.",
+    "Position/velocity paragraph, entire round-trip qualification and signed sine figure through2pi.",
+    "Integral additivity curve a<b<c, reversed-limits definition and arbitrary ordering claim.",
+    "Integral comparison and both exponential lower estimates, full general substitution, transformed endpoints and final denominator15."
+  ],
+  "independent_checks": [
+    "FTC with continuous f on[a,b] and primitive F follows by MVT in each subinterval, sum of F increments telescopes, and Riemann-sum limit. Endpoint continuity is needed. This proof is a supplementary check; original merely states theorem.",
+    "Integral x\u00b2 froma tob=(b\u00b3-a\u00b3)/3; sine0..pi=2; x^5 0..1=1/6;sine0..2pi=0. Equal bounds give0 and reversal flips sign.",
+    "x-prime is signed velocity. Integral v is displacement; speed=|v| and integral|v| is distance for increasing time. Constant negative velocity -1 on[0,1] has no sign change but displacement-1 and distance1, so source qualification solely about sign changes is incomplete. Sine velocity round trip has displacement0 but distance4.",
+    "Additivity in any endpoint order follows by telescoping primitive values where applicable, or oriented integrable sums. Comparison f<=g preserves order for a<b and gives equality0 for a=b; reversed limits reverse the inequality.",
+    "For x>=0, e^x>=1; q=e^x-1-x has q(0)=0 and q-prime=e^x-1>=0. Integrating lower bounds gives e>=2 and e>=5/2. They are lower estimates, not exact approximations or upper error bounds.",
+    "If G-prime=g, differentiating G(u(x)) yields g(u(x))u-prime(x); FTC supplies endpoint substitution with oriented u bounds. For continuous g and C1 u this composed-integrand form needs no injectivity. Indefinite statements are families up to constants.",
+    "u=x\u00b3+2,du=3x\u00b2dx; x1=1,x2=2 ->u1=3,u2=10. Integral=(10^5-3^5)/15=99757/15. Differentiating (x\u00b3+2)^5/15 yields (x\u00b3+2)^4x\u00b2 exactly."
+  ],
+  "limits": [
+    "FTC1 numbering preserved as source convention, not universal textbook numbering.",
+    "No author/reader performance is inferred from source checks."
+  ],
+  "unread_original_portions": []
+}

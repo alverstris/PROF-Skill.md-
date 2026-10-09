@@ -1,0 +1,200 @@
+{
+  "prepared_at_utc": "2026-10-09T02:34:22.215395+00:00",
+  "scope": "Bounded local consistency supplement for D001-v4, D002-v1 and D003-v1 retained actual destination captures; not candidate readiness, final regression or live rendering",
+  "mapping": {
+    "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d008-parser-rule-regression-prep/d001-d003/mapping.json",
+    "bytes": 48315,
+    "sha256": "9607521e53140093fb2614c7fcb025aa8a59f47d8c19562dad02ce06931afa9c"
+  },
+  "method": {
+    "source_extraction": "Every protected-inline $`...`$ and fenced ```math newline ... newline ``` payload from the entire accepted teaching, retained exactly and in order within each kind. No payload whitespace normalization.",
+    "actual_capture": "Python standard HTMLParser(convert_charrefs=True) on the retained github-article.html; collect math-renderer text; remove only its single $ or $$ delimiter pair. No second html.unescape or any additional entity-decoding pass.",
+    "comparisons": "Compare source payload sequences to parsed captured sequences; compare both to every entry in original full audit arrays. Record all mismatches with source line/paragraph. Hash current teaching, capture and audit files against mapped identities.",
+    "limits": "No network, source research, original mutation, new preview, image opening or live visual review. Exact string equality is evidence at the parsed-content layer only. Constituent image mathematics is outside this formal inline/display-payload consistency task."
+  },
+  "materials": [
+    {
+      "material_id": "D001",
+      "accepted_commit_from_mapping": "0716ea92991d7f9fe2814e137bcc830d91a27511",
+      "teaching": {
+        "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/001/teaching-v4.md",
+        "bytes": 24315,
+        "sha256": "402485baa2767af9625146721e356f92bad76e4cfb738e5729c6c8b94ea79401"
+      },
+      "teaching_matches_mapping_sha256": true,
+      "captured_page": {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d001-render-review/v4/github-page.html",
+        "bytes": 402122,
+        "sha256": "e17ed975ea3afa2036f7cf048249e7d5faaf76e5ed7db34991b7da7cf53191be"
+      },
+      "captured_page_matches_mapping_sha256": true,
+      "captured_article": {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d001-render-review/v4/github-article.html",
+        "bytes": 62671,
+        "sha256": "1f274a5a1a0e56fec82e8a220ef52e47e04e90ebd36e2ca00986a2d7c0e1fd85"
+      },
+      "article_is_exact_substring_of_retained_page": true,
+      "original_full_audit": {
+        "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/001/render-markup-v4.json",
+        "bytes": 40335,
+        "sha256": "ce8fabfe7484b6ee944057a1ca4054caaf41373a330d89359f1b83594a5f1234"
+      },
+      "original_audit_matches_mapping_sha256": true,
+      "ordinary_single_parse_math_checks": {
+        "inline": {
+          "source_count": 249,
+          "captured_count": 249,
+          "original_audit_source_count": 249,
+          "original_audit_destination_count": 249,
+          "source_equals_captured_in_order": true,
+          "source_equals_original_audit_source_in_order": true,
+          "captured_equals_original_audit_destination_in_order": true,
+          "every_original_audit_pair_equal": true,
+          "differences": [],
+          "source_payload_list_sha256": "839fea26dd668809cb67af0fa04bc0694580079b37cc70c8825cdedce6dbd27e",
+          "captured_payload_list_sha256": "839fea26dd668809cb67af0fa04bc0694580079b37cc70c8825cdedce6dbd27e"
+        },
+        "display": {
+          "source_count": 39,
+          "captured_count": 39,
+          "original_audit_source_count": 39,
+          "original_audit_destination_count": 39,
+          "source_equals_captured_in_order": true,
+          "source_equals_original_audit_source_in_order": true,
+          "captured_equals_original_audit_destination_in_order": true,
+          "every_original_audit_pair_equal": true,
+          "differences": [],
+          "source_payload_list_sha256": "9f4fda6a51adf7e7b5ab377bb4a60704312e6fd0de10834d9a5770c6af0f5904",
+          "captured_payload_list_sha256": "9f4fda6a51adf7e7b5ab377bb4a60704312e6fd0de10834d9a5770c6af0f5904"
+        }
+      },
+      "nested_HTML_tags_inside_math_renderer": [],
+      "unexpected_math_wrappers": [],
+      "visual_review_performed": false,
+      "new_destination_fetch_performed": false,
+      "candidate_readiness_assessed": false
+    },
+    {
+      "material_id": "D002",
+      "accepted_commit_from_mapping": "f1c0e91c24e9140049d50c7ca965f41e36f3e1a2",
+      "teaching": {
+        "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/002/teaching-v1.md",
+        "bytes": 34994,
+        "sha256": "8139080278edb96287576629e7d80933b380c1b82af60d3ede888d500cb68a3a"
+      },
+      "teaching_matches_mapping_sha256": true,
+      "captured_page": {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d002-render-review/v1/github-page.html",
+        "bytes": 466350,
+        "sha256": "c36cce22b52d7ce15a738b4910c5308b12c0eb77ce14695752e2a74f28f713a8"
+      },
+      "captured_page_matches_mapping_sha256": true,
+      "captured_article": {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d002-render-review/v1/github-article.html",
+        "bytes": 83190,
+        "sha256": "fc13929544ab99941883428ba79970a2da0288e2592744b4ef93348ad868b528"
+      },
+      "article_is_exact_substring_of_retained_page": true,
+      "original_full_audit": {
+        "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/002/render-markup-v1.json",
+        "bytes": 54635,
+        "sha256": "71f4ec72a9534503bd432f3d4823a5ec4cd88fd61da787edd91fe11e28aea1c0"
+      },
+      "original_audit_matches_mapping_sha256": true,
+      "ordinary_single_parse_math_checks": {
+        "inline": {
+          "source_count": 330,
+          "captured_count": 330,
+          "original_audit_source_count": 330,
+          "original_audit_destination_count": 330,
+          "source_equals_captured_in_order": true,
+          "source_equals_original_audit_source_in_order": true,
+          "captured_equals_original_audit_destination_in_order": true,
+          "every_original_audit_pair_equal": true,
+          "differences": [],
+          "source_payload_list_sha256": "f18bf8a3278a54dd612fad66053becfe61e4a70dbeb103fb26445d91f573271f",
+          "captured_payload_list_sha256": "f18bf8a3278a54dd612fad66053becfe61e4a70dbeb103fb26445d91f573271f"
+        },
+        "display": {
+          "source_count": 24,
+          "captured_count": 24,
+          "original_audit_source_count": 24,
+          "original_audit_destination_count": 24,
+          "source_equals_captured_in_order": true,
+          "source_equals_original_audit_source_in_order": true,
+          "captured_equals_original_audit_destination_in_order": true,
+          "every_original_audit_pair_equal": true,
+          "differences": [],
+          "source_payload_list_sha256": "0f0ce2b29ce8452013899dd41dea8e023f97490f753e91296c19d2240795fa34",
+          "captured_payload_list_sha256": "0f0ce2b29ce8452013899dd41dea8e023f97490f753e91296c19d2240795fa34"
+        }
+      },
+      "nested_HTML_tags_inside_math_renderer": [],
+      "unexpected_math_wrappers": [],
+      "visual_review_performed": false,
+      "new_destination_fetch_performed": false,
+      "candidate_readiness_assessed": false
+    },
+    {
+      "material_id": "D003",
+      "accepted_commit_from_mapping": "4cbf83f2dc2859d5123fc01a0c311a268d580483",
+      "teaching": {
+        "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/003/teaching-v1.md",
+        "bytes": 25480,
+        "sha256": "cd7426a9b70d0ac41aa3ca0418db8c89c391b67304016a7ad38f8379fe98b5a8"
+      },
+      "teaching_matches_mapping_sha256": true,
+      "captured_page": {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d003-render-review/v1/github-page.html",
+        "bytes": 417122,
+        "sha256": "d2eca9fd26bd54b0bafd8aa1328e5e643cfcd9d24aa116f6aba44140f8c70140"
+      },
+      "captured_page_matches_mapping_sha256": true,
+      "captured_article": {
+        "path": "/workspace/scratch/ac36b9c5ff31/prof-readability/d003-render-review/v1/github-article.html",
+        "bytes": 64160,
+        "sha256": "280362e73c91795baea4da3974a5dd06d75127235d9b41813cd1fd00528b0eee"
+      },
+      "article_is_exact_substring_of_retained_page": true,
+      "original_full_audit": {
+        "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/003/render-markup-v1.json",
+        "bytes": 30307,
+        "sha256": "7a7b5df769e751b230da81491c9a3a16eb49753b7220690290dd2adb21cc8bbd"
+      },
+      "original_audit_matches_mapping_sha256": true,
+      "ordinary_single_parse_math_checks": {
+        "inline": {
+          "source_count": 251,
+          "captured_count": 251,
+          "original_audit_source_count": 251,
+          "original_audit_destination_count": 251,
+          "source_equals_captured_in_order": true,
+          "source_equals_original_audit_source_in_order": true,
+          "captured_equals_original_audit_destination_in_order": true,
+          "every_original_audit_pair_equal": true,
+          "differences": [],
+          "source_payload_list_sha256": "f7e175a9795f3ae4b5f370cd925394440c91f82872aba2d4556686e90d920337",
+          "captured_payload_list_sha256": "f7e175a9795f3ae4b5f370cd925394440c91f82872aba2d4556686e90d920337"
+        },
+        "display": {
+          "source_count": 25,
+          "captured_count": 25,
+          "original_audit_source_count": 25,
+          "original_audit_destination_count": 25,
+          "source_equals_captured_in_order": true,
+          "source_equals_original_audit_source_in_order": true,
+          "captured_equals_original_audit_destination_in_order": true,
+          "every_original_audit_pair_equal": true,
+          "differences": [],
+          "source_payload_list_sha256": "b20180944891664c42ccdf1b03dcddf984ee3105b9e4527452bd60eaab9cf660",
+          "captured_payload_list_sha256": "b20180944891664c42ccdf1b03dcddf984ee3105b9e4527452bd60eaab9cf660"
+        }
+      },
+      "nested_HTML_tags_inside_math_renderer": [],
+      "unexpected_math_wrappers": [],
+      "visual_review_performed": false,
+      "new_destination_fetch_performed": false,
+      "candidate_readiness_assessed": false
+    }
+  ]
+}

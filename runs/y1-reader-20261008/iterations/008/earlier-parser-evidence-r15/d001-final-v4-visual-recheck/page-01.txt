@@ -1,0 +1,51 @@
+[P01] Derivatives: slope, velocity and rate of change
+[P02] Read P03–P30 in order, pausing for attempts A, B and C. Hints are collected at P32–P35;
+complete solutions follow separately at P37–P40. Attempt D at P31 is for a later visit. This lesson
+assumes familiarity with algebra, straight-line gradients, elementary differentiation and the binomial
+expansion. Its purpose is to connect those tools: construct a derivative from changing quantities,
+justify the reciprocal and positive-integer power rules, and use the result in geometry and motion.
+[P03] A derivative measures a local rate of change. A secant slope compares two distinct points;
+a derivative asks what those slopes approach as the second point approaches the first. The
+same construction can describe a graph’s slope, an object’s velocity or the rate of a measured
+quantity in another subject. This lecture develops that meaning and some basic calculations.
+Later differentiation rules can handle more elaborate expressions involving exponentials and inverse
+trigonometric functions; those are a preview, not a prerequisite here.
+[P04] From two points to a quotient. Fix an input x0 for a function f . Write h = ∆x for a nonzero
+change in input. Both x0 and x0 + h must lie in the function’s domain. The two graph points and
+their changes are
+                          P = (x0 , f (x0 )),  Q = (x0 + h, f (x0 + h)),
+                               ∆x = h,        ∆f = f (x0 + h) − f (x0 ).
+Thus the line through P and Q, called a secant, has slope
+
+                                           ∆f   f (x0 + h) − f (x0 )
+                                  msec =      =                      .
+                                           ∆x            h
+To construct the expression, subtract the old output from the new output, and divide by the
+corresponding input change. To read it, the numerator is the vertical change and the denominator
+the horizontal change; the result is output units per input unit.
+[P05] A coordinate description of the geometry. Introduce R = (x0 + h, f (x0 )). Moving from P to R
+changes the horizontal coordinate by h; moving from R to Q changes the vertical coordinate by ∆f .
+These are signed changes, so either can be negative. Keep P fixed while moving Q towards it along
+the graph. If the secant slopes approach one finite value from both sides of x0 , that value is the
+derivative:
+                                                  f (x0 + h) − f (x0 )
+                                  f ′ (x0 ) = lim                      .
+                                              h→0          h
+The prime is read “prime”; f ′ (x0 ) is one number at the chosen input. The limit varies h, while x0
+stays fixed. At an interior point, agreement for positive and negative h is essential. The tangent line
+is the line through P with this limiting slope. A vertical tangent does not have a finite slope under
+this definition.
+[P06] Tangency is a local slope condition, not an intersection count. For example, f (x) = x3 at
+x0 = 0 has quotient h3 /h = h2 for h ̸= 0, which approaches zero. Its tangent is therefore y = 0,
+although the curve crosses that line at the origin. Conversely, the line y = −x meets y = x3 only at
+the origin: x3 = −x gives x(x2 + 1) = 0, whose only real solution is zero. Its slope is −1, rather
+than the tangent slope 0. Even a unique intersection does not establish tangency.
+[P07] The reciprocal function. Take f (x) = 1/x, with x ̸= 0, and choose x0 ̸= 0. We require h = ̸ 0
+           ̸ 0. Directly setting h = 0 in the difference quotient would give 0/0, which has no value.
+and x0 + h =
+
+
+
+
+                                                   1
+

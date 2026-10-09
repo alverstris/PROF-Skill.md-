@@ -1,0 +1,53 @@
+in coordinate square units, for every x0 ̸= 0. For positive x0 the triangle lies in the first quadrant;
+for negative x0 it lies in the third. Absolute values keep lengths positive in both cases.
+[P12] For a concrete picture, x0 = 2 gives contact point (2, 1/2), tangent y = 1 − x/4, and intercepts
+(4, 0), (0, 1). The triangle has base 4 and height 1, hence area 2. Changing x0 changes its shape
+while preserving the product of its perpendicular side lengths. The contact point is the midpoint of
+the segment between the intercepts, because the coordinate averages are x0 and 1/x0 .
+[P13] The reciprocal graph also has a useful symmetry: y = 1/x is equivalent to xy = 1, which is
+unchanged when x and y are exchanged. Reflection in the line y = x therefore takes the graph to
+itself. It sends the contact point (x0 , y0 ) to (y0 , x0 ), its tangent to the tangent there, and the old
+y-intercept to the new x-intercept. Applying the already established x-intercept rule at the reflected
+contact point gives 2y0 . This explains the symmetry shortcut for the original y-intercept; setting
+x = 0 in P11 gives the same result directly.
+[P14] Reading derivative notation. For y = f (x), with the second input written x = x0 + ∆x,
+
+                          ∆y = ∆f = f (x) − f (x0 ) = f (x0 + ∆x) − f (x0 ).
+
+Here ∆f means a change in the output of f , not a new function. The two quotients ∆y/∆x and
+∆f /∆x are the same finite-change slope. Their limit at x0 , when it exists, can be written
+
+                                                           dy
+                                             f ′ (x0 ) =           .
+                                                           dx x=x0
+
+The vertical bar means “evaluate at the stated input”. The fraction-shaped notation dy/dx, called
+Leibniz notation, denotes a derivative; it is not obtained by putting ∆x = 0 in the finite-change
+fraction. In particular, its letter d is not an algebraic factor to cancel.
+[P15] Allow the evaluation input to vary and the derivative becomes a function:
+
+                                                     df
+                                         f ′ (x) =      (x) = (Df )(x).
+                                                     dx
+The symbols f ′ , df /dx and Df all name the derivative function in this one-variable setting. The
+operator d/dx means “differentiate the following expression with respect to x”; parentheses identify
+the whole expression on which it acts. For example,
+                                d    1        1                 d    1          1
+                                                                   
+                                          = − 2,                              =− .
+                               dx    x       x                 dx    x    x=2   4
+The first is a function rule, while the second is its value at one input. Prime notation is also called
+Lagrange notation; this corrects the historical label in the source notes. See the Open University’s
+notation explanation.
+[P16] Why the positive-integer power rule works. Let f (x) = xn , where n is a fixed positive integer.
+We now write the evaluation input as x rather than x0 ; during each limit, this x is still fixed and
+only h varies. We must examine
+                                          (x + h)n − xn
+                                                        .
+                                                h
+When n = 1, it equals h/h = 1 for h ̸= 0, so the derivative of x is 1 at every real input. For n ≥ 2,
+expand the product of n factors x + h.
+
+
+                                                           3
+

@@ -1,0 +1,2320 @@
+{
+  "configuration_reviewed_by_lead": true,
+  "material_id": "D008",
+  "lecture_number": 9,
+  "incoming_commit": "e35a59a64ed1b01f7ae43e4ef46042f23cc7e2d6",
+  "incoming_version": "2026-10-08-r14",
+  "incoming_skill_sha256": "4e28127a6bbff179c4bd140c3c9b09ca78122c4f1f8f1a022170a70226a6f2ee",
+  "outgoing_version": "2026-10-09-r15",
+  "outgoing_change": "substantive_candidate",
+  "phase_a_expected_previous_main": "e35a59a64ed1b01f7ae43e4ef46042f23cc7e2d6",
+  "author_state_relative": ".prof-state",
+  "author_manifest_sha256": "4d01538013fd8cd68a8f17c9cb2714db3a514a1b2e7176caee9c588c5adf6654",
+  "topic_record_sha256": {
+    "approximations": "1a8a20d24bcd794383dcc830315b2030746695f042fbf61b01d51e8ca9a736ad"
+  },
+  "expected_original_defects": [
+    "approximations.T11: not ready: unverified",
+    "output_check.destination_math: not ready: pending",
+    "output_check.destination_typography: not ready: pending",
+    "output_check.destination_navigation: not ready: pending",
+    "output_check.independent_technical: not ready: pending",
+    "output_check.fresh_sasis: not ready: pending",
+    "output_check.final_review: not ready: pending",
+    "output_check.publication: not ready: pending"
+  ],
+  "final_outputs": [
+    {
+      "id": "teaching",
+      "path": "revised-r15-v2/teaching-r15-v2.md",
+      "sha256": "b6e93b986e2a77763c556a4b5fc5cb42f43269742d0af9bd06021d7aa3ad7668",
+      "freeze_commit": "a6b7aaaf2ded04bb6b0c2da2528234d36ca2f6d4",
+      "revision_relation": "parent_reviewed_revision",
+      "delivery_role": "accepted_learner_facing_teaching_publication_pending"
+    },
+    {
+      "id": "original",
+      "path": "author-work-r15/teaching-original.md",
+      "sha256": "86b6338315866e711ddfcefd52e4a84b2bb99093c321ff6b7a8124c66c739718",
+      "freeze_commit": "2d144338ec647166e6fd2a6527fbc96b766e7d5e",
+      "revision_relation": "byte_identical",
+      "delivery_role": "immutable_historical_original_not_learner_facing_known_destination_defects"
+    }
+  ],
+  "state_dir": ".prof-state-r15",
+  "state_evidence_dir": "state-reconciliation-r15",
+  "lead_decisions": {
+    "author_finished_and_originals_frozen": true,
+    "complete_final_document_read": true,
+    "all_report_originals_read": true,
+    "reader_admitted_complete_two_inputs": true,
+    "final_destination_review_complete": true,
+    "whole_preview_inspected": true,
+    "all_supported_issues_resolved": true,
+    "source_and_math_review_complete": true,
+    "revision_carry_review_complete": true,
+    "all_revision_history_declared": true,
+    "candidate_frozen_before_fresh_author": true,
+    "fresh_author_used_frozen_r15": true,
+    "fresh_reader_uses_final_r15_output": true,
+    "affected_earlier_evidence_reviewed": true,
+    "all_applicable_candidate_controls_bound": true
+  },
+  "evidence": {
+    "acceptance": {
+      "path": "acceptance-r15.md",
+      "sha256": "da342e090c48c0802eb498f001efe78de3c2e28189a78e41ba44ae6d2164fcfd",
+      "exact_text": "All applicable content, source, mathematical, final-revision reader and bounded destination checks for the final teaching are accepted; actual main publication is pending."
+    },
+    "parent_technical": {
+      "path": "parent-content-technical-r15-original.md",
+      "sha256": "ae7bd3495799a69ebbf1da9dd49250f2588deb669fbc78d8742dff0d723552ee",
+      "exact_text": "Disposition: no established content or arithmetic defect found in this complete parent review."
+    },
+    "destination": {
+      "path": "parent-render-admission-r15-v2.json",
+      "sha256": "462c2b7d043e8d5d1c18830c81c7593d8b3b352e8968786a6b4ab828362e7e0e",
+      "exact_text": "All305actual immutable GitHub math payloads/types/order, whole prose/numeric/prompt streams, all68visible blocks,37links18targets and15group/task/return checks preserved. Fresh actual static stylesheet/ancestor scope supports ordinary prose typography. All9source-faithful internal preview pages personally inspected by reviewer; exact math/prose AST and compiler evidence inspected. No remaining material representation defect established within this scope."
+    },
+    "fresh_sasis": {
+      "path": "reader-report-r15-v2-original.md",
+      "sha256": "cebc4976dd4d4c230f3ca1f3b391b2922c2cd207403c1ff9dde72b3128176747",
+      "exact_text": "Within the two supplied subject inputs, I found no established missing, invalid or materially ambiguous connection that blocks the document's required conclusions."
+    },
+    "reader_access": {
+      "path": "reader-access-r15-v2-original.json",
+      "sha256": "479b5807f0214f127e10567ed2ff373d0ffe0d77aaefff28ca737fc41bfe9d0e",
+      "exact_text": "\"baseline_fully_read_before_teaching\": true"
+    },
+    "reader_admission": {
+      "path": "reader-admission-r15-v2-final.json",
+      "sha256": "8b1085bedb6e9f8c2ff0d8a8655dfe3ebea26a34d10070b09f32cc14f97da88c",
+      "exact_text": "No established teaching defect, blocked required conclusion or unresolved provisional content gap found in this complete two-input reading."
+    },
+    "revision_review": {
+      "path": "revision-review-r15-v2.md",
+      "sha256": "e068c5776bf2d8c41b7bf487fbd43cc35196c7047413a03b2826e9b3f6ff4461",
+      "exact_text": "No task, expected conclusion, hint, solution, scientific claim or source coverage changed. Their mathematical and source checks therefore carry with an explicit representation-only relation; destination preservation and fresh-reader interpretation are still independently rechecked on final bytes."
+    },
+    "candidate_freeze": {
+      "path": "freeze-skill-r15-candidate.json",
+      "sha256": "7743fd26bfb464d5a6253fdbdc91fe3f02573bf307847fdfd848ca5b75780cec",
+      "exact_text": "actual GitHub candidate frozen for fresh regeneration; not accepted iteration"
+    },
+    "fresh_author_admission": {
+      "path": "fresh-author-admission-r15.json",
+      "sha256": "c9756090b87378a9a4d9cff9adf7fad641bc50ab08789df4ead73d0fe05a897f",
+      "exact_text": "Fresh author was launched fork-none from actual frozen candidate and original sources; instruction-only access confinement."
+    },
+    "affected_earlier_review": {
+      "path": "earlier-parser-regression-r15.json",
+      "sha256": "01b2e6378d035f57e7d6de9da800a58004e316a2a5097c32b059f1c5691f023b",
+      "exact_text": "The exact added r15 paragraph is met by all seven preserved final parsed-expression comparisons including all help. Original final previews plus fresh six-page D001 supplement close the named coverage gap. No teaching change is needed solely for this production duty. Original historical evidence is not relabelled as r15 regeneration."
+    }
+  },
+  "additional_publication_files": [
+    {
+      "path": "acceptance-r15.md",
+      "sha256": "da342e090c48c0802eb498f001efe78de3c2e28189a78e41ba44ae6d2164fcfd"
+    },
+    {
+      "path": "activation.json",
+      "sha256": "0c7fa5c4622ac95045b57a8d4aa6496cb9378bdcaf2b573d3530ee4d21aeb8f4"
+    },
+    {
+      "path": "author-audit-integration.json",
+      "sha256": "64907538cd265e8ed0f9f729abb15e91300fb51aeb9f085d5579ecac8ec402b4"
+    },
+    {
+      "path": "author-evidence-audit/arithmetic-witness.json",
+      "sha256": "9b2f3308d6807099076d426e562e179889082a766bd734c265299d53f077d58a"
+    },
+    {
+      "path": "author-evidence-audit/audit-artifact-sha256.json",
+      "sha256": "22b33fc0d99a4ea7347ba20a60bdebbc50317e7d5591cdae7a1ac26ccf98efb9"
+    },
+    {
+      "path": "author-evidence-audit/audit.md",
+      "sha256": "0f9c0e6433a63ad19d12dfdac4fa6448bba434552ca5f4f5831cdbb7af7fedc0"
+    },
+    {
+      "path": "author-evidence-audit/helper-full-rerun.json",
+      "sha256": "803c4f3bf45ae9e89eb1f77aa5acddd8969f3dccb91ab58e40dfeb10d49669dd"
+    },
+    {
+      "path": "author-evidence-audit/helper-full-rerun.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "author-evidence-audit/helper-full-rerun.txt",
+      "sha256": "6153e3e2388ae491c664be3f7b211074a82696921c278e514305f9d4e8bc9eac"
+    },
+    {
+      "path": "author-evidence-audit/helper-topic-rerun.json",
+      "sha256": "ada0f699437289ffd74dbdfbc8e90447112cfccccc99fe11d69dde7c61c2820b"
+    },
+    {
+      "path": "author-evidence-audit/helper-topic-rerun.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "author-evidence-audit/helper-topic-rerun.txt",
+      "sha256": "0af9938f900099c7918f248ea492f37f7691a3f7fd0e0c084e9f3b69950582ae"
+    },
+    {
+      "path": "author-evidence-audit/local-approximations-without-repeated-dependencies.json",
+      "sha256": "571f5770625df00ed6f8939fe05f3ab555e293865981ba24c2a87305e0525d2f"
+    },
+    {
+      "path": "author-evidence-audit/manifest-without-repeated-dependencies.json",
+      "sha256": "015c39bc2c13e0c009a2e7176aaa12c12489a9232f92b26696bd14cb152e0556"
+    },
+    {
+      "path": "author-evidence-audit/verification.json",
+      "sha256": "a89fe0f008631d9935ce878514da4fee3617a193a98fad14dbeb865eff3dca7d"
+    },
+    {
+      "path": "author-evidence-audit/verify.py",
+      "sha256": "e8d1e12aed36953e184d4b77916af33903add8afb23e6effae715363c730bf16"
+    },
+    {
+      "path": "author-evidence-audit-r15/access-record-verification.json",
+      "sha256": "e12fd1afcb79ae80af466311af5ef544e61fb30ccd84f3cca6023fd97b5f0e26"
+    },
+    {
+      "path": "author-evidence-audit-r15/approximations-state-semantic.json",
+      "sha256": "6dd31b6a52f708b71f50dc154a0bd36e712fcc05105cbd6e25f608162b0d1cd2"
+    },
+    {
+      "path": "author-evidence-audit-r15/artifact-verification.json",
+      "sha256": "e5f035f71603f34461ce675c760f59696b592b242b3998fb30fe75bac55aa579"
+    },
+    {
+      "path": "author-evidence-audit-r15/audit-artifact-manifest.json",
+      "sha256": "f9562796829dfe5f461c8733d76c1f0749ccc5214fd34ae395d708099ef495aa"
+    },
+    {
+      "path": "author-evidence-audit-r15/audit.py",
+      "sha256": "a75010163279d60ac13b5dd16637e30904010c06f3ad7da5e4dab11d41947955"
+    },
+    {
+      "path": "author-evidence-audit-r15/completion.json",
+      "sha256": "4cae9495c6116c9284c4280e857615b1e4e3310d33eb1b9f8e52520ec72daa75"
+    },
+    {
+      "path": "author-evidence-audit-r15/manifest-state-semantic.json",
+      "sha256": "cfffaeeb57e661934cede57b46757b9b8ba83380034ec2cb07fa664fd19c745f"
+    },
+    {
+      "path": "author-evidence-audit-r15/numeric-reproduction.json",
+      "sha256": "41df9baa2e06cda1a752c390a4e8d70ee65c2aed02d7795a5efa0fda286a5221"
+    },
+    {
+      "path": "author-evidence-audit-r15/original-source-preservation.json",
+      "sha256": "3238509fd005d74567486489ee8495b515e1863733ced52b42096777b75ed771"
+    },
+    {
+      "path": "author-evidence-audit-r15/pinned-controls-and-teaching.json",
+      "sha256": "73513b8c4639b9a8afb4b8f5a6cb7771ad012867cf18fcd73e28469bf77b4de7"
+    },
+    {
+      "path": "author-evidence-audit-r15/report.md",
+      "sha256": "7d751952b1c787ecb5db7bf34dfc7124cd0d1531c241dd607a2463da5c57efd2"
+    },
+    {
+      "path": "author-evidence-audit-r15/rerun-full-check.json",
+      "sha256": "299c09fa0fc6eb23679175375f01c72cd199c025b5234317b71e1986fbb98313"
+    },
+    {
+      "path": "author-evidence-audit-r15/rerun-full-dependencies.json",
+      "sha256": "5bfba8d7bd2b49743050a7209925d8ed4ae9d336b4a1ca038b9d0bbdca91e198"
+    },
+    {
+      "path": "author-evidence-audit-r15/rerun-topic-check.json",
+      "sha256": "f4e9cce1a33b502b152735ae27d5a349cc446264dbed065d89daa9a7c4ca7fff"
+    },
+    {
+      "path": "author-evidence-audit-r15/rerun-topic-dependencies.json",
+      "sha256": "ccc229096c5102a42e5723cda656e78654680221fa33bf15052d7e5daf31d861"
+    },
+    {
+      "path": "author-evidence-audit-r15/state-audit.json",
+      "sha256": "ee539967322c6fdf410955b5817d0f30765e45d5c3a90dd48b612c33ad9af13c"
+    },
+    {
+      "path": "author-evidence-audit-r15/verification-reproduction/teaching-original.md",
+      "sha256": "86b6338315866e711ddfcefd52e4a84b2bb99093c321ff6b7a8124c66c739718"
+    },
+    {
+      "path": "author-evidence-audit-r15/verification-reproduction/teaching.md",
+      "sha256": "86b6338315866e711ddfcefd52e4a84b2bb99093c321ff6b7a8124c66c739718"
+    },
+    {
+      "path": "author-evidence-audit-r15/verification-reproduction/verification-results.json",
+      "sha256": "bf5b227a5311323b973627b03a7ca6d8c0e7818a85604ee144fa66ddc5eb9bbe"
+    },
+    {
+      "path": "author-evidence-audit-r15/verification-reproduction/verify.py",
+      "sha256": "a97456364ed175c729fef133e50926f87b692b5036d02e9ba5e616cd7fcdb282"
+    },
+    {
+      "path": "author-work-r14/.prof-state/RUN.md",
+      "sha256": "bc9a319e95938128a154e9a33f90089e7222036df4d10f797b45ee8f18272e8e"
+    },
+    {
+      "path": "author-work-r14/.prof-state/manifest.json",
+      "sha256": "f88a48eed99dc1b15dab30c212046e8cb72ff61c0ace6d4e815e843015bdf0c3"
+    },
+    {
+      "path": "author-work-r14/.prof-state/topics/local-approximations.json",
+      "sha256": "af69abb8b30a7f85b709c986c455f28f70735378d000b1c6ffc1bbf7b91babd6"
+    },
+    {
+      "path": "author-work-r14/AUTHOR-REQUEST.md",
+      "sha256": "092ed56e4ae822631fb8f683a9198217f399162bdc0527afacd60f916f520dab"
+    },
+    {
+      "path": "author-work-r14/HANDOFF.md",
+      "sha256": "9215dfd41fd81dc77aeba1e06eacdaf1818d47191dd0bc9c4a58384285b79583"
+    },
+    {
+      "path": "author-work-r14/artifact-sha256.json",
+      "sha256": "9a4bb087d84259f0262a3d5e2e59bd7bfa9fdc2b29bcfd548266519e6590da09"
+    },
+    {
+      "path": "author-work-r14/author/access-record.md",
+      "sha256": "e2627300622517f464b645975293344359a9090fa5b09fea68cfcffe350537f1"
+    },
+    {
+      "path": "author-work-r14/author/bind_state.py",
+      "sha256": "292e541e6f49ad97afda0f2213d724da2d51d2065375d3f5a02327280746654b"
+    },
+    {
+      "path": "author-work-r14/author/build_teaching.py",
+      "sha256": "e1a9d9c25039981b248f4cac5d11cd590f1f32144d7c9806e4cd8f9cd9ee2274"
+    },
+    {
+      "path": "author-work-r14/author/check_document.py",
+      "sha256": "2af045f954623af00fa7b88c0c457fe4b2bf47143957594051a7a2c5fa07ab16"
+    },
+    {
+      "path": "author-work-r14/author/conventions-prerequisites.md",
+      "sha256": "bfd22ff6980c45221b59887982ce25160e8f95fb5a37df213dc232a60ddd76c1"
+    },
+    {
+      "path": "author-work-r14/author/dependencies-full.json",
+      "sha256": "dfb2d0ab2c9dc46f1e32d6662f032d7f61d9cd8a1de2b075e7a6cb306d093e0f"
+    },
+    {
+      "path": "author-work-r14/author/dependencies-topic.json",
+      "sha256": "fa3c9b8b49130006b75aef987a62ff30cc68135d325b6b27a833695e36bd97e6"
+    },
+    {
+      "path": "author-work-r14/author/failures.md",
+      "sha256": "114dd97df5fc32350803a45a828049ea1edcb3d2f61a293db806b80707b8d046"
+    },
+    {
+      "path": "author-work-r14/author/helper-check-full.txt",
+      "sha256": "507051766844ef0b285818988166cb018629c20fdd3c9260580e8fa2b7d3bb5a"
+    },
+    {
+      "path": "author-work-r14/author/helper-check-topic.txt",
+      "sha256": "ce97a3de0d76094b2100696a5077f6cf55c6339aa11aedeb212af89253cd2374"
+    },
+    {
+      "path": "author-work-r14/author/mechanical-checks.json",
+      "sha256": "c9d204306b3c643934ea847574fb67d56024b03520d9bc4926350dd783627e62"
+    },
+    {
+      "path": "author-work-r14/author/pre-solution-checks.txt",
+      "sha256": "057c88dd036efd9488a31c80d78284cf109f73a67d1a3fd8da9ed02fcab51b7f"
+    },
+    {
+      "path": "author-work-r14/author/reconstruction.md",
+      "sha256": "0f9e8338b40e10a5e0cd0f8ed0771bd50688a22e710458008ee8b223002d4979"
+    },
+    {
+      "path": "author-work-r14/author/requirements.md",
+      "sha256": "8a997b0dbb8da480aa27f66c0201de48f83d1b582e76755b9eab6eb1e3f20556"
+    },
+    {
+      "path": "author-work-r14/author/research.md",
+      "sha256": "f2352bb23faddc12a21aa5f3dbfb3d561c549dfebc69adcc87444e3fda9272fe"
+    },
+    {
+      "path": "author-work-r14/author/source-coverage.md",
+      "sha256": "33d15f62b503690975cd12bc6632350afc6b3641ee39af3d926f63043dcc99b0"
+    },
+    {
+      "path": "author-work-r14/inputs/SKILL.md",
+      "sha256": "4e28127a6bbff179c4bd140c3c9b09ca78122c4f1f8f1a022170a70226a6f2ee"
+    },
+    {
+      "path": "author-work-r14/inputs/original-source/lec9-p01.png",
+      "sha256": "cf38e5a69e5dd2300bf90b52b69cd6ecdaf2d083412ded9643cdcf08cf025ccf"
+    },
+    {
+      "path": "author-work-r14/inputs/original-source/lec9-p01.txt",
+      "sha256": "11c690867bfc86462780321c0a2f505caa77a5b25de25f251a48516b67b1cd34"
+    },
+    {
+      "path": "author-work-r14/inputs/original-source/lec9-p02.png",
+      "sha256": "7042535360332544135dd3665ee491236f3de23940ff586d2cdf64a1c40b8908"
+    },
+    {
+      "path": "author-work-r14/inputs/original-source/lec9-p02.txt",
+      "sha256": "08550e8177b4901ef335ae9001a51ec51c515b3c2e600c37846b1299876bd9e4"
+    },
+    {
+      "path": "author-work-r14/inputs/original-source/lec9-p03.png",
+      "sha256": "7a07b0af47ec2d6cd89930c8f7095f27e1b86e81f9b0faae780ec864cc504d83"
+    },
+    {
+      "path": "author-work-r14/inputs/original-source/lec9-p03.txt",
+      "sha256": "7248fd82b3fd8b0381a90a42c8cf7a4b4f3772556311c6dc860f368973d40090"
+    },
+    {
+      "path": "author-work-r14/inputs/original-source/lec9-p04.png",
+      "sha256": "beb6a89b7ac4d98d7555d354022b3b01d84d64fa13e7ea7b5e8c992b93f99e06"
+    },
+    {
+      "path": "author-work-r14/inputs/original-source/lec9-p04.txt",
+      "sha256": "b74776279fa991a48f6d9d490b34c87d8c488635c24a1900623daffac0d48347"
+    },
+    {
+      "path": "author-work-r14/inputs/original-source/lec9-p05.png",
+      "sha256": "1f939e8b8a6db5129d58ee2ab2492e734ef853da2c4c1b59a732bd38930114ca"
+    },
+    {
+      "path": "author-work-r14/inputs/original-source/lec9-p05.txt",
+      "sha256": "1b5b89bd5e4bc6c6e80e472821b1bda68a1569353b9d791ba2a7a57ce5f50082"
+    },
+    {
+      "path": "author-work-r14/inputs/original-source/lec9-p06.png",
+      "sha256": "dcbad0e531c05f0615fe50d0557bbed05a77b096a8d1f32a2d1915b0335d22bc"
+    },
+    {
+      "path": "author-work-r14/inputs/original-source/lec9-p06.txt",
+      "sha256": "44d6578034012765eee70b2c6271619c0dfefb90bbd68df28a5fad7a20d4589c"
+    },
+    {
+      "path": "author-work-r14/inputs/original-source/lec9-p07.png",
+      "sha256": "9824495876b39cc0f9c0e42240f7f52ab1f13e04dfa560c94ea9845bf9b9a624"
+    },
+    {
+      "path": "author-work-r14/inputs/original-source/lec9-p07.txt",
+      "sha256": "00ce98f669a57d4126b4d7303b9bc25758b450a99733764b3211ba43d43c3313"
+    },
+    {
+      "path": "author-work-r14/inputs/original-source/lec9.pdf",
+      "sha256": "d1b383663f7792bbdaa4d6108e17b11679d4688e413e197486941af337892320"
+    },
+    {
+      "path": "author-work-r14/inputs/references/domain-patterns.md",
+      "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+    },
+    {
+      "path": "author-work-r14/inputs/references/execution-protocol.md",
+      "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+    },
+    {
+      "path": "author-work-r14/inputs/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    {
+      "path": "author-work-r14/inputs/references/sasis/profile-manifest.json",
+      "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+    },
+    {
+      "path": "author-work-r14/inputs/references/sasis/rewrite-guide.md",
+      "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+    },
+    {
+      "path": "author-work-r14/inputs/references/sasis/student-role.txt",
+      "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+    },
+    {
+      "path": "author-work-r14/inputs/references/sasis/student-testing-contract.txt",
+      "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+    },
+    {
+      "path": "author-work-r14/inputs/references/sasis.md",
+      "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+    },
+    {
+      "path": "author-work-r14/inputs/references/state-tool.md",
+      "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+    },
+    {
+      "path": "author-work-r14/inputs/runs/y1-reader-20261008/requests.md",
+      "sha256": "83827f13eae3f98ba89cbf0df6085b6d3430b1b8ac31db2e336c1ca83539d8da"
+    },
+    {
+      "path": "author-work-r14/inputs/scripts/prof_state.py",
+      "sha256": "6949c44d3e9374cf1af522f69436fad71fca186317cd404ff1967985c92a3488"
+    },
+    {
+      "path": "author-work-r14/task-prompts-original.md",
+      "sha256": "e29dbbaacd7ee2112c270762823bdc945f49ac822e6623d83cae07d0318e9d82"
+    },
+    {
+      "path": "author-work-r14/teaching-original.md",
+      "sha256": "006fe68f52c3a4c9177f2da4fbddc5a06823314b49e4e1ac482f23a5cc169ae9"
+    },
+    {
+      "path": "author-work-r14/teaching.md",
+      "sha256": "006fe68f52c3a4c9177f2da4fbddc5a06823314b49e4e1ac482f23a5cc169ae9"
+    },
+    {
+      "path": "author-work-r15/.prof-state/RUN.md",
+      "sha256": "e5a0563ed5ecefe936f4e48647843aadd965678b43296677a441bd7de0f2728f"
+    },
+    {
+      "path": "author-work-r15/.prof-state/manifest.json",
+      "sha256": "4d01538013fd8cd68a8f17c9cb2714db3a514a1b2e7176caee9c588c5adf6654"
+    },
+    {
+      "path": "author-work-r15/.prof-state/topics/approximations.json",
+      "sha256": "1a8a20d24bcd794383dcc830315b2030746695f042fbf61b01d51e8ca9a736ad"
+    },
+    {
+      "path": "author-work-r15/HANDOFF.md",
+      "sha256": "dba5382eae7708c91ec2f8cc0192ad490b755c3da5e6dab13812e38801a7bd67"
+    },
+    {
+      "path": "author-work-r15/artifact-manifest.json",
+      "sha256": "791dd27e1a861fd3747ed32d9aa1b50795c129da29d5199108cb868877e49094"
+    },
+    {
+      "path": "author-work-r15/author-record.md",
+      "sha256": "39a7b974e428a73159187f92c47d3103308da84fa470161874b6dfdecf619add"
+    },
+    {
+      "path": "author-work-r15/control-manifest.json",
+      "sha256": "bfd12aef4029828e8560d31c61076a0c6c6d01ae556863a66ba39b01e34cc27b"
+    },
+    {
+      "path": "author-work-r15/control-supplement-manifest.json",
+      "sha256": "579c6ac1e545543454a6a7d53f9cac8a19c3013b9f2f32f9c7c37c1e54a1d266"
+    },
+    {
+      "path": "author-work-r15/controls/SKILL.md",
+      "sha256": "24b8c2e2d1898384f85eca608f34074d91a78268efcec69d7ceb81052a87659e"
+    },
+    {
+      "path": "author-work-r15/controls/pdf-SKILL.md",
+      "sha256": "6d04fbcd1f8ba2b007223ffe1fbc93495c3cb5a33a2db4b815c92bd923ede0d7"
+    },
+    {
+      "path": "author-work-r15/controls/references/domain-patterns.md",
+      "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+    },
+    {
+      "path": "author-work-r15/controls/references/execution-protocol.md",
+      "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+    },
+    {
+      "path": "author-work-r15/controls/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    {
+      "path": "author-work-r15/controls/references/sasis/profile-manifest.json",
+      "sha256": "dd046f461a7ce4877c0a595246aab3a7d9d0a1f2f32cb5d8e847f9831341e788"
+    },
+    {
+      "path": "author-work-r15/controls/references/sasis/rewrite-guide.md",
+      "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+    },
+    {
+      "path": "author-work-r15/controls/references/sasis/student-role.txt",
+      "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+    },
+    {
+      "path": "author-work-r15/controls/references/sasis/student-testing-contract.txt",
+      "sha256": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10"
+    },
+    {
+      "path": "author-work-r15/controls/references/sasis.md",
+      "sha256": "b1177c96575cb77fb184ba8b00c005a01e5a19027f54ec5d6d06d7581d56a384"
+    },
+    {
+      "path": "author-work-r15/controls/references/state-tool.md",
+      "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+    },
+    {
+      "path": "author-work-r15/controls/runs/y1-reader-20261008/requests.md",
+      "sha256": "83827f13eae3f98ba89cbf0df6085b6d3430b1b8ac31db2e336c1ca83539d8da"
+    },
+    {
+      "path": "author-work-r15/controls/scripts/prof_state.py",
+      "sha256": "6949c44d3e9374cf1af522f69436fad71fca186317cd404ff1967985c92a3488"
+    },
+    {
+      "path": "author-work-r15/coverage-and-reconstruction.md",
+      "sha256": "233fc9138a17190762d8fc1304982c829ead73f80ff0387e84cd835550dc76fc"
+    },
+    {
+      "path": "author-work-r15/delegated-task.txt",
+      "sha256": "c8148f223cdc4dc8bc0eaf8c2af8d264bfdd224b5e8c09ab6cbbda5d2bc7a61a"
+    },
+    {
+      "path": "author-work-r15/final-access.json",
+      "sha256": "5eb9be11e49be596dae184390de3eb402f3d453133587346ecbad4add93305e7"
+    },
+    {
+      "path": "author-work-r15/full-check.json",
+      "sha256": "299c09fa0fc6eb23679175375f01c72cd199c025b5234317b71e1986fbb98313"
+    },
+    {
+      "path": "author-work-r15/full-dependencies.json",
+      "sha256": "5bfba8d7bd2b49743050a7209925d8ed4ae9d336b4a1ca038b9d0bbdca91e198"
+    },
+    {
+      "path": "author-work-r15/full-input-access.json",
+      "sha256": "ed5ec2659e8fd76e6342d4fccf7ca147e743bcd5ed328cdc2a131d7bb0970e84"
+    },
+    {
+      "path": "author-work-r15/pre-solution-check.md",
+      "sha256": "2560a3c5914065ee4edeb8b4a0b7eb8fa0fbc05a7246ae9ad7eaa90da6c23189"
+    },
+    {
+      "path": "author-work-r15/read-packets.json",
+      "sha256": "8ef94b637372a37f7b5a1b4b64f271a57ed391aceaa416e9ba58e863b28ab0e1"
+    },
+    {
+      "path": "author-work-r15/read-success.json",
+      "sha256": "78cafb40356163cb0f9ed64644ed240a3050bf3cf8d5f541f3b92bc44f7df911"
+    },
+    {
+      "path": "author-work-r15/requirements-ledger.md",
+      "sha256": "6bdd017343d1040acaf87aba182dabf2ba6a3d5dc1dc8b41c7f31b2b50535a1b"
+    },
+    {
+      "path": "author-work-r15/source/lec9-p01.png",
+      "sha256": "cf38e5a69e5dd2300bf90b52b69cd6ecdaf2d083412ded9643cdcf08cf025ccf"
+    },
+    {
+      "path": "author-work-r15/source/lec9-p01.txt",
+      "sha256": "11c690867bfc86462780321c0a2f505caa77a5b25de25f251a48516b67b1cd34"
+    },
+    {
+      "path": "author-work-r15/source/lec9-p02.png",
+      "sha256": "7042535360332544135dd3665ee491236f3de23940ff586d2cdf64a1c40b8908"
+    },
+    {
+      "path": "author-work-r15/source/lec9-p02.txt",
+      "sha256": "08550e8177b4901ef335ae9001a51ec51c515b3c2e600c37846b1299876bd9e4"
+    },
+    {
+      "path": "author-work-r15/source/lec9-p03.png",
+      "sha256": "7a07b0af47ec2d6cd89930c8f7095f27e1b86e81f9b0faae780ec864cc504d83"
+    },
+    {
+      "path": "author-work-r15/source/lec9-p03.txt",
+      "sha256": "7248fd82b3fd8b0381a90a42c8cf7a4b4f3772556311c6dc860f368973d40090"
+    },
+    {
+      "path": "author-work-r15/source/lec9-p04.png",
+      "sha256": "beb6a89b7ac4d98d7555d354022b3b01d84d64fa13e7ea7b5e8c992b93f99e06"
+    },
+    {
+      "path": "author-work-r15/source/lec9-p04.txt",
+      "sha256": "b74776279fa991a48f6d9d490b34c87d8c488635c24a1900623daffac0d48347"
+    },
+    {
+      "path": "author-work-r15/source/lec9-p05.png",
+      "sha256": "1f939e8b8a6db5129d58ee2ab2492e734ef853da2c4c1b59a732bd38930114ca"
+    },
+    {
+      "path": "author-work-r15/source/lec9-p05.txt",
+      "sha256": "1b5b89bd5e4bc6c6e80e472821b1bda68a1569353b9d791ba2a7a57ce5f50082"
+    },
+    {
+      "path": "author-work-r15/source/lec9-p06.png",
+      "sha256": "dcbad0e531c05f0615fe50d0557bbed05a77b096a8d1f32a2d1915b0335d22bc"
+    },
+    {
+      "path": "author-work-r15/source/lec9-p06.txt",
+      "sha256": "44d6578034012765eee70b2c6271619c0dfefb90bbd68df28a5fad7a20d4589c"
+    },
+    {
+      "path": "author-work-r15/source/lec9-p07.png",
+      "sha256": "9824495876b39cc0f9c0e42240f7f52ab1f13e04dfa560c94ea9845bf9b9a624"
+    },
+    {
+      "path": "author-work-r15/source/lec9-p07.txt",
+      "sha256": "00ce98f669a57d4126b4d7303b9bc25758b450a99733764b3211ba43d43c3313"
+    },
+    {
+      "path": "author-work-r15/source/lec9.pdf",
+      "sha256": "d1b383663f7792bbdaa4d6108e17b11679d4688e413e197486941af337892320"
+    },
+    {
+      "path": "author-work-r15/source-manifest.json",
+      "sha256": "1e2dd9379064aab0324f4dc82a7412bad7ae70a96ed9628f7517b4fafb5086f9"
+    },
+    {
+      "path": "author-work-r15/task-prompts-original.md",
+      "sha256": "44fa3731a91e6c866c0f08d7e681d52d46a4828ee9c4d5e6b9ae477ea6b46e96"
+    },
+    {
+      "path": "author-work-r15/teaching-original.md",
+      "sha256": "86b6338315866e711ddfcefd52e4a84b2bb99093c321ff6b7a8124c66c739718"
+    },
+    {
+      "path": "author-work-r15/teaching.md",
+      "sha256": "86b6338315866e711ddfcefd52e4a84b2bb99093c321ff6b7a8124c66c739718"
+    },
+    {
+      "path": "author-work-r15/topic-check.json",
+      "sha256": "f4e9cce1a33b502b152735ae27d5a349cc446264dbed065d89daa9a7c4ca7fff"
+    },
+    {
+      "path": "author-work-r15/topic-dependencies.json",
+      "sha256": "ccc229096c5102a42e5723cda656e78654680221fa33bf15052d7e5daf31d861"
+    },
+    {
+      "path": "author-work-r15/verification-results.json",
+      "sha256": "bf5b227a5311323b973627b03a7ca6d8c0e7818a85604ee144fa66ddc5eb9bbe"
+    },
+    {
+      "path": "author-work-r15/verify.py",
+      "sha256": "a97456364ed175c729fef133e50926f87b692b5036d02e9ba5e616cd7fcdb282"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/candidate-paragraph-binding.json",
+      "sha256": "deddf915b0479b3cdf4edd74b5a2a2ac76f3af92627d5cbb101d74e4e1814a17"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/d001-d003/mapping.json",
+      "sha256": "9607521e53140093fb2614c7fcb025aa8a59f47d8c19562dad02ce06931afa9c"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/d001-d003/mapping.md",
+      "sha256": "94cf15008462fcfcab58c6b29f26ee2603471368b717c41805b2f05194571f16"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/d001-d003/retained-capture-recheck.json",
+      "sha256": "b91e67cd5cdd4ccdbb7e18cbbae198496fe6d21d0fd3d349d03f492dd3c210f9"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/d001-final-v4-visual-recheck/inspection.json",
+      "sha256": "6a500efd0e2166df0b7441173b903522045e80fef5506b35ab04563cfcef9bb8"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/d001-final-v4-visual-recheck/page-01.txt",
+      "sha256": "bcc9706249a5c141f3a40dd6703db1cafdace5923be9f078a3e163b06a1f27c4"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/d001-final-v4-visual-recheck/page-03.txt",
+      "sha256": "679857b7a8706fd8a80fcf0d7853f0a663422c611765a7bb1c97aee33007d4ba"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/d001-final-v4-visual-recheck/page-04.txt",
+      "sha256": "99c09c73779a73542b98dcd30166ce0f4038803e0237e3264c800cece6a400c0"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/d001-final-v4-visual-recheck/page-05.txt",
+      "sha256": "89e31d552fe8b7c92a29a9159e77a572dd416e9b5e6ee0ad241bc24fd5226940"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/d001-final-v4-visual-recheck/page-07.txt",
+      "sha256": "78f367f78e3d9c82cfafeb4d8e1f43b277d7323f729ab8455f08ef4c066cfaac"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/d001-final-v4-visual-recheck/page-08.txt",
+      "sha256": "0e3a9ffc32dd98a7352d169493ea42e226e0433f67ad2343b1dade8054d43eb4"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/d001-final-v4-visual-recheck/render-commands.json",
+      "sha256": "f84cb2e42160781a8658be01dd00c6424d1d59c50b75ed1bf0859330d0fc08e1"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/d001-final-v4-visual-recheck/report.md",
+      "sha256": "25356d537d7a416a3b1f6f4e7432e1aecbae58075c2ed9b40fb421320fc81b3d"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/d004-d005/d004-d005-preparation.md",
+      "sha256": "ab447e3b4b536c74848bbe77302a2c66019fa876c9bccb5c516d5ece267d5d75"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/d004-d005/local-evidence-verification.json",
+      "sha256": "0f3fdfd9e85ee6c7998d430b6ce6475af773ea52a1ba2fa9057ccef9cb013d2d"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/d006-d007/mapping.json",
+      "sha256": "05a2398203610f9d1c3e166783926559d2e6cba89ec0db577818314448431a7a"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/exact-bindings.json",
+      "sha256": "4b2c1bbda763a9c0718d86156ab021f642f76431870b5deaa1e89710d3dc0b98"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/preparation.md",
+      "sha256": "3230a5f5d75b642f809938b33d554f72cf0b8e7606e81865b874a9ac6223e445"
+    },
+    {
+      "path": "earlier-parser-evidence-r15/verify_bindings.py",
+      "sha256": "c0d08dbf0e01c8f40d2b17475286e9e7cfdd7e7cbb7c2cbfbadc05f67a2d66cb"
+    },
+    {
+      "path": "earlier-parser-regression-r15.json",
+      "sha256": "01b2e6378d035f57e7d6de9da800a58004e316a2a5097c32b059f1c5691f023b"
+    },
+    {
+      "path": "freeze-first-draft-v1.json",
+      "sha256": "56e577e39666ba4093b0e6cbe84fe8a5ebdb5847fa316f1996bf0524b5c63eb1"
+    },
+    {
+      "path": "freeze-skill-r15-candidate.json",
+      "sha256": "7743fd26bfb464d5a6253fdbdc91fe3f02573bf307847fdfd848ca5b75780cec"
+    },
+    {
+      "path": "freeze-teaching-r15-original.json",
+      "sha256": "4feb037abaf3d597d51135e3541be515c062922bc7c55fd5fedbf1b4a3017c96"
+    },
+    {
+      "path": "freeze-teaching-r15-v2.json",
+      "sha256": "a5dc0f7bedde0a3ecd6c2c30acbb2f0e60e88d49f0573675009ce2792f87ed84"
+    },
+    {
+      "path": "freeze-v2.json",
+      "sha256": "d6c65428d147751c6fc970cbcb7d862dea64d1854803477849e6bb3f86c189d2"
+    },
+    {
+      "path": "fresh-author-admission-r15.json",
+      "sha256": "c9756090b87378a9a4d9cff9adf7fad641bc50ab08789df4ead73d0fe05a897f"
+    },
+    {
+      "path": "lead-content-review-first-draft-access.json",
+      "sha256": "ee1fa7a49fd99eaf6dcfce4784ef1b87a25f63d4a4d9535cc52b160feef75df2"
+    },
+    {
+      "path": "lead-content-review-first-draft-original.md",
+      "sha256": "61964cb5235b9715cdb0e2788d852af3a9587d1a1ef8e883ed705d39ed62c5ff"
+    },
+    {
+      "path": "lead-pre-solution-calculations-original.md",
+      "sha256": "a25658795c1efdbf276bc164af32c499afd7ce952dcac2da1be047d6ad093b88"
+    },
+    {
+      "path": "lead-pre-solution-calculations-r15-numeric.json",
+      "sha256": "7fd8b586bc7b60bcf4c7c9d586474cf5cd02072c50089083ad238769bd34d1de"
+    },
+    {
+      "path": "lead-pre-solution-calculations-r15-original.md",
+      "sha256": "241593e25d3d6f61789c6c6ca371fde6dea910c8bad077df175f1b07f5e18075"
+    },
+    {
+      "path": "lead-pre-solution-numerics-original.json",
+      "sha256": "69fea3378178401c01922686ef858bbe0c340505ea799f384b43baad8ccbb07e"
+    },
+    {
+      "path": "lead-source-review.json",
+      "sha256": "10f9d050f2867fb74ae7929c4853984d1b728e02d0509a5b849b79712e8f0d52"
+    },
+    {
+      "path": "parent-content-technical-r15-original.json",
+      "sha256": "f58a479498dcaadec062c3ef152a79527198333f2c6ef4ef36947e9cd68826d3"
+    },
+    {
+      "path": "parent-content-technical-r15-original.md",
+      "sha256": "ae7bd3495799a69ebbf1da9dd49250f2588deb669fbc78d8742dff0d723552ee"
+    },
+    {
+      "path": "parent-render-admission-r15-v2.json",
+      "sha256": "462c2b7d043e8d5d1c18830c81c7593d8b3b352e8968786a6b4ab828362e7e0e"
+    },
+    {
+      "path": "parent-render-v2-admission.json",
+      "sha256": "51607dc703906acabff6c370b53aac0c31fb8dda13e4f1a2e8a1779a34361fb7"
+    },
+    {
+      "path": "parent-technical-v2.md",
+      "sha256": "560d3d70dce8ea637b18d6db851789f75322daf40cd40bc8169a5754b0d35eb4"
+    },
+    {
+      "path": "reader-access-r15-v2-original.json",
+      "sha256": "479b5807f0214f127e10567ed2ff373d0ffe0d77aaefff28ca737fc41bfe9d0e"
+    },
+    {
+      "path": "reader-access-v2-original.json",
+      "sha256": "e47674f8f59fa4db69672dbd66349878e231d71ea34a2247aa365c6a6798bc68"
+    },
+    {
+      "path": "reader-admission-r15-v2-final.json",
+      "sha256": "8b1085bedb6e9f8c2ff0d8a8655dfe3ebea26a34d10070b09f32cc14f97da88c"
+    },
+    {
+      "path": "reader-admission-r15-v2-provisional.json",
+      "sha256": "0bd8495b243b3a55a2dbff4b1e0e0c0a44629b62a5d962f6915ba9762b492765"
+    },
+    {
+      "path": "reader-admission-v2-final.json",
+      "sha256": "82c10c96e7ec48e9cb707385685a5fa8023320e79b90baf3164ba012a755e42c"
+    },
+    {
+      "path": "reader-admission-v2-provisional.json",
+      "sha256": "8f5304f2133f37cf3c1520203d38939c6f2b8164ac5d78872da576c0da40ac6a"
+    },
+    {
+      "path": "reader-operating-instruction-r15-v2.txt",
+      "sha256": "ed53c51d270490fffe8f1dfa0c5fffd1d1f1793d6652508317ecdffc718d962b"
+    },
+    {
+      "path": "reader-operating-instruction-v2.txt",
+      "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+    },
+    {
+      "path": "reader-report-r15-v2-original.md",
+      "sha256": "cebc4976dd4d4c230f3ca1f3b391b2922c2cd207403c1ff9dde72b3128176747"
+    },
+    {
+      "path": "reader-report-v2-original.md",
+      "sha256": "11dc81dce9c122e8ae46bba71f47d8bbada6a3b8d0c6bca13a5d542f7d11b518"
+    },
+    {
+      "path": "render-evidence/r15-original/actual-prose-math-stream.txt",
+      "sha256": "d1d4672c87295e939aff571327226bf054230bb91f60b72cf0c0c8c4dd4071cf"
+    },
+    {
+      "path": "render-evidence/r15-original/all-css-font-declarations.json",
+      "sha256": "4fdb12a63ef2f9b8f5a52419ed94418ebc1756a81d3cb0f5ab51b5566e7bd133"
+    },
+    {
+      "path": "render-evidence/r15-original/audit_markup.py",
+      "sha256": "795253dbf99dd0f850ebbb08b2dfef3b877e87d0810323eb56e036a61c02b454"
+    },
+    {
+      "path": "render-evidence/r15-original/css-layout-candidates.json",
+      "sha256": "5111ee2d18f78db174eb7c8fa0bded8cd829371801bad88bcb2f517b9ba0d664"
+    },
+    {
+      "path": "render-evidence/r15-original/css-scope-review.json",
+      "sha256": "5dc9876a700b74a389d7e1206d7a5606dc11189d535c66f452e0567fa4a476f3"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/01-light-5c4e9fc574bf49f3.css",
+      "sha256": "bf8e491bcae88932922f977a6d09e85dc3b4957308450041dd1bffbf74997746"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/02-light_high_contrast-fb37c309e0603a69.css",
+      "sha256": "812a21b9443e26fb20c14f271f02ce0ba385b6633be4eda907f21c5d977886f3"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/03-dark-afff6c53aef9b9d1.css",
+      "sha256": "7dbd576ae3e02de3b3b51ccadd9c17f67e1adb324adc69b6da2453ba878349e9"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/04-dark_high_contrast-c409873d7987dffa.css",
+      "sha256": "63908f8936246f1f1df9a9655eacc4df9e81d9a6313acb5e30b6f3462b184849"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/05-primer-primitives-97df7784617ce1ea.css",
+      "sha256": "88a966eb569aa65ffd1442f7c18a056ac0e44d3c87fcdc373fec51456d9371ce"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/06-primer-9be9fe6313f476af.css",
+      "sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/07-global-62747e27e61258dc.css",
+      "sha256": "82d18fcb1c1d9ff94c7b483b263ad9b8250f9f8b8dbb4bc1ed0dfa07d5f911cb"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/08-github-7a418ea859d1654d.css",
+      "sha256": "5c33478825d8ebc514ada9da349c78a2c4e07143328f96f682d53594da29c62d"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/09-repository-72bd7d974b5ac1cc.css",
+      "sha256": "2b2c9480881aa24106e20f781993ea7fd1563f2f1f233853dadf107314347ba2"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/10-code-4c5c0895f723f870.css",
+      "sha256": "4e809cdcb922e4bfa69bfd90a7143f8e4b6a2086f7579819afc95659a6dcafa3"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/11-app-runtime.7ee70a9cd769c13f.module.css",
+      "sha256": "7966626df655c7fbcef158ce64e6ea4d71fc66c69c6fb004550e8f07f1d8cf30"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/12-react-core.be84e87b659d3b98.module.css",
+      "sha256": "910e86c6359f24cce9e42cb444a0f9c920424ef7b364288949af42f2e7bc4588"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/13-primer-react-css.e4334163c54cccf5.module.css",
+      "sha256": "5b027b85151ec86acd34b0d9b054b6bda173d4e5a2a424852c52ab27c01003e0"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/14-45z.922f816fb2d6b268.module.css",
+      "sha256": "2cd4a1f6ca28227032bf1926e1dcc5daa808d358d680c81ef33057fb535c62ff"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/15-oj.ecb4903dbaae6412.module.css",
+      "sha256": "926850f229f5eeb627cc6dcfa46c43708b9481e4546ebb74e9044b15f7a15591"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/16-code-view.4ecacba6da7e1cda.module.css",
+      "sha256": "22d706c6d45790057dfd4b435a8e23e3e77d6e5e60c450b01d1d5335085a563b"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/17-keyboard-shortcuts-dialog.09c66f82910ec55e.module.css",
+      "sha256": "5814a0e012ee75c81ad6cb26a3e385b42035e6b16f0c8d237c65bb311386c616"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/18-app-install-banner-partial.20f8ea0c2ce257b9.module.css",
+      "sha256": "325cdfcbd3a37ba662a87464c7112acba5ea99080f0c6cd8bac437dae51a7052"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/19-primer-react-brand-css.05b219cdb8e80c43.module.css",
+      "sha256": "5540a47f3e2d6791082dc54e443c8a76aa6c402bfb65c65dfa43f9d33a323074"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/20-zn.9fc2e923e926de87.module.css",
+      "sha256": "b8172f8419fb839f9b5e5031b61dbaa5d2e5dee7b72f9fcd274787524b459a62"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css/21-global-nav-bar.fb5c536d8dfb76bf.module.css",
+      "sha256": "4f44974d2ae3513b59fa9bd6a934c41834faade44871362c510f5370f83c34ef"
+    },
+    {
+      "path": "render-evidence/r15-original/current-css-inventory.json",
+      "sha256": "e1fc66d6ae269115706548274f388b4f2e015d0dc8da3a6d0cfb33ce5d931301"
+    },
+    {
+      "path": "render-evidence/r15-original/dependency-frozen_render_review.py",
+      "sha256": "c4f20677ab1197428f2e665b85184e4f617bfb0f402967b5381e5a779d708b6d"
+    },
+    {
+      "path": "render-evidence/r15-original/dependency-review_helpers.py",
+      "sha256": "1b01580e96cb426143d871ef423d839afe3e08e46702b599c8949aed852ba208"
+    },
+    {
+      "path": "render-evidence/r15-original/dom-structure.json",
+      "sha256": "53acf5d6f55ffb03018e5dd65fcb33b14b45c6e02498f46597f9ef73c1ef58f9"
+    },
+    {
+      "path": "render-evidence/r15-original/embedded-data.json",
+      "sha256": "c65763ed5b45eae1e0ef9a89a52a9ee307d7b1ecdb763b5e9c6c0a07235ddfae"
+    },
+    {
+      "path": "render-evidence/r15-original/evidence-manifest.json",
+      "sha256": "a4107c2fbcfc00b784de326f4b4403790718530f45e054236b5ac0e18061e5c9"
+    },
+    {
+      "path": "render-evidence/r15-original/expected-prose-math-stream.txt",
+      "sha256": "cac0e42d85cebba5d5abb94793fb1393f18237cfdaf9ba4a1a79111cda8211fa"
+    },
+    {
+      "path": "render-evidence/r15-original/fetch-records.json",
+      "sha256": "72a863651f39346a6e57cd0e39cb6766326acd367fc128a79cf17bb6928ddb95"
+    },
+    {
+      "path": "render-evidence/r15-original/finish_checks.py",
+      "sha256": "3fcdbac57645e0b51a064c93407a3c3e56a0bf5f9ad4d2c38e2af59f6a130b03"
+    },
+    {
+      "path": "render-evidence/r15-original/github-article.html",
+      "sha256": "915b9d6ae7a617d9fcba5cbfcf021bef8162fae3b8f0d44821f694a56e0cf556"
+    },
+    {
+      "path": "render-evidence/r15-original/github-math.json",
+      "sha256": "f35d2e5098355965be2ead5702168ed3c073ca448dbcca5a92c8d4369bfc62f2"
+    },
+    {
+      "path": "render-evidence/r15-original/github-page.html",
+      "sha256": "4eadf0e5abe96636ad7c645e4459f4bc7a86ecb38f0c8c2e497170d28af03c0f"
+    },
+    {
+      "path": "render-evidence/r15-original/inspect_styles.py",
+      "sha256": "dcb90a599f12f2288b29dd32e31840704c1e2ec1ef7fbeab045148125c9109c7"
+    },
+    {
+      "path": "render-evidence/r15-original/literal-destination-defects.json",
+      "sha256": "94bdbb7d561119995c9bea1479cf17a18eeccbf2f5344da400e19f0c100eeafd"
+    },
+    {
+      "path": "render-evidence/r15-original/localized-math-failures.json",
+      "sha256": "05359f0dde2bef5ee9aacb329f81865e05d8f19f52e8c8ccdd63f4b7cd8b4322"
+    },
+    {
+      "path": "render-evidence/r15-original/manual-style-review.json",
+      "sha256": "b7baf5525544ca7e8b61792ee88acf3f084f0b9fb5f08e28ff190c7468bf7ec7"
+    },
+    {
+      "path": "render-evidence/r15-original/markup-navigation-audit.json",
+      "sha256": "01bb525c4541f1a161cec507590468071654197ed02697b7f446faf53a692571"
+    },
+    {
+      "path": "render-evidence/r15-original/math-comparison.json",
+      "sha256": "03af3b7a9d9a73772d60f64d94aae3a7abb53233ad6b5ce432f604b41f26c705"
+    },
+    {
+      "path": "render-evidence/r15-original/paragraph-block-comparison.json",
+      "sha256": "fd5d988e88969333945613f12822366b2928baaba9d9b73dcb336d2e2d76990f"
+    },
+    {
+      "path": "render-evidence/r15-original/prompt-group-navigation-checks.json",
+      "sha256": "2f7d85f5d9e105eba8fe59d65ab1e66bd9542517f9ebf9a396d1e01ddc93e8ce"
+    },
+    {
+      "path": "render-evidence/r15-original/report.md",
+      "sha256": "66a4fa18d92af1da6f37c88d5dea3b6d5b77b4de49a6b3526e10341ca4d1786b"
+    },
+    {
+      "path": "render-evidence/r15-original/source-identity.json",
+      "sha256": "4d316fca46b82c452104e8352484efbb8c404e8d60c93557e8499e7daadbc118"
+    },
+    {
+      "path": "render-evidence/r15-original/source-math.json",
+      "sha256": "b98443fa8632d4885347804845f1ec5744d93a91ce0089df0f3c865463a20cd4"
+    },
+    {
+      "path": "render-evidence/r15-original/teaching-original.md",
+      "sha256": "86b6338315866e711ddfcefd52e4a84b2bb99093c321ff6b7a8124c66c739718"
+    },
+    {
+      "path": "render-evidence/r15-original/tool-dependencies.json",
+      "sha256": "e71a900b93bde988749da7d0c4b4b14d8e7c3a75143a57f7d3ef314c6c33d48d"
+    },
+    {
+      "path": "render-evidence/r15-v2/actual-prose-math-stream.txt",
+      "sha256": "37f34caf9ef7ca4f421174abd4616f4115c6628264fa77f1a9482cef74c116f8"
+    },
+    {
+      "path": "render-evidence/r15-v2/all-css-font-declarations.json",
+      "sha256": "cea75b4f07720882d96515be3fd3d2818170358ef74f5f4b6e09acadd70a1c47"
+    },
+    {
+      "path": "render-evidence/r15-v2/audit_markup.py",
+      "sha256": "dd533c846488c8d998b289fc252936052a0b13a832a90030f8b6ee86adb7b8f4"
+    },
+    {
+      "path": "render-evidence/r15-v2/build_preview-v2.py",
+      "sha256": "281b77805ee76e08a1682019c634d64825c8a4e3f4fb73732f55f8c4f0f729f6"
+    },
+    {
+      "path": "render-evidence/r15-v2/build_preview.py",
+      "sha256": "41d9232fa226eb85fc7d91be08c3ec1da256c232df59c4a2ce395fed16cf9491"
+    },
+    {
+      "path": "render-evidence/r15-v2/css-scope-review.json",
+      "sha256": "5dc9876a700b74a389d7e1206d7a5606dc11189d535c66f452e0567fa4a476f3"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/01-light-5c4e9fc574bf49f3.css",
+      "sha256": "bf8e491bcae88932922f977a6d09e85dc3b4957308450041dd1bffbf74997746"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/02-light_high_contrast-fb37c309e0603a69.css",
+      "sha256": "812a21b9443e26fb20c14f271f02ce0ba385b6633be4eda907f21c5d977886f3"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/03-dark-afff6c53aef9b9d1.css",
+      "sha256": "7dbd576ae3e02de3b3b51ccadd9c17f67e1adb324adc69b6da2453ba878349e9"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/04-dark_high_contrast-c409873d7987dffa.css",
+      "sha256": "63908f8936246f1f1df9a9655eacc4df9e81d9a6313acb5e30b6f3462b184849"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/05-primer-primitives-97df7784617ce1ea.css",
+      "sha256": "88a966eb569aa65ffd1442f7c18a056ac0e44d3c87fcdc373fec51456d9371ce"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/06-primer-9be9fe6313f476af.css",
+      "sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/07-global-62747e27e61258dc.css",
+      "sha256": "82d18fcb1c1d9ff94c7b483b263ad9b8250f9f8b8dbb4bc1ed0dfa07d5f911cb"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/08-github-7a418ea859d1654d.css",
+      "sha256": "5c33478825d8ebc514ada9da349c78a2c4e07143328f96f682d53594da29c62d"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/09-repository-72bd7d974b5ac1cc.css",
+      "sha256": "2b2c9480881aa24106e20f781993ea7fd1563f2f1f233853dadf107314347ba2"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/10-code-4c5c0895f723f870.css",
+      "sha256": "4e809cdcb922e4bfa69bfd90a7143f8e4b6a2086f7579819afc95659a6dcafa3"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/11-app-runtime.7ee70a9cd769c13f.module.css",
+      "sha256": "7966626df655c7fbcef158ce64e6ea4d71fc66c69c6fb004550e8f07f1d8cf30"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/12-react-core.be84e87b659d3b98.module.css",
+      "sha256": "910e86c6359f24cce9e42cb444a0f9c920424ef7b364288949af42f2e7bc4588"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/13-primer-react-css.e4334163c54cccf5.module.css",
+      "sha256": "5b027b85151ec86acd34b0d9b054b6bda173d4e5a2a424852c52ab27c01003e0"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/14-45z.922f816fb2d6b268.module.css",
+      "sha256": "2cd4a1f6ca28227032bf1926e1dcc5daa808d358d680c81ef33057fb535c62ff"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/15-oj.ecb4903dbaae6412.module.css",
+      "sha256": "926850f229f5eeb627cc6dcfa46c43708b9481e4546ebb74e9044b15f7a15591"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/16-code-view.206bdff86ecd228e.module.css",
+      "sha256": "3f92183a770878ee74b48b7b764de13a2960366c923c781962e880eafd513825"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/17-keyboard-shortcuts-dialog.ac351e8516148495.module.css",
+      "sha256": "7ab6d35f8066b3a8714ec04e9790175a16ea793bd91aa631ad358f0a05107233"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/18-app-install-banner-partial.4ea51448c4f973db.module.css",
+      "sha256": "5a207f8931cb683421ccdea9088bd353f7a82a919127a2fac24437e3b88b0238"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/19-primer-react-brand-css.05b219cdb8e80c43.module.css",
+      "sha256": "5540a47f3e2d6791082dc54e443c8a76aa6c402bfb65c65dfa43f9d33a323074"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/20-zn.9fc2e923e926de87.module.css",
+      "sha256": "b8172f8419fb839f9b5e5031b61dbaa5d2e5dee7b72f9fcd274787524b459a62"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css/21-global-nav-bar.b71e2cfbb18d6882.module.css",
+      "sha256": "ed2ced05935e9a9952111e34eccc0bbdce74cbc6dabc387ed1411f9530d39f3c"
+    },
+    {
+      "path": "render-evidence/r15-v2/current-css-inventory.json",
+      "sha256": "67d96773766dce5bb3b42747b29de038a719d5a31c79e3cb0d6a8b8d0c15c656"
+    },
+    {
+      "path": "render-evidence/r15-v2/dependency-frozen_render_review.py",
+      "sha256": "c4f20677ab1197428f2e665b85184e4f617bfb0f402967b5381e5a779d708b6d"
+    },
+    {
+      "path": "render-evidence/r15-v2/dependency-pdf-SKILL.md",
+      "sha256": "6d04fbcd1f8ba2b007223ffe1fbc93495c3cb5a33a2db4b815c92bd923ede0d7"
+    },
+    {
+      "path": "render-evidence/r15-v2/dependency-review_helpers.py",
+      "sha256": "1b01580e96cb426143d871ef423d839afe3e08e46702b599c8949aed852ba208"
+    },
+    {
+      "path": "render-evidence/r15-v2/dom-structure.json",
+      "sha256": "9da914fa24ee3cea70e3e5e9a417ba86445f793fba0f01c57e671f5c16bf1ea9"
+    },
+    {
+      "path": "render-evidence/r15-v2/embedded-data.json",
+      "sha256": "6cc4026d5a71d0f59cfc4dd17fa91f2179a8bc3d1ce05d649b9fb9c1d6e91a7f"
+    },
+    {
+      "path": "render-evidence/r15-v2/evidence-manifest.json",
+      "sha256": "f279682936526b04628c8181ae3d83c1068ba0c6d2584849aeee033006be5d8a"
+    },
+    {
+      "path": "render-evidence/r15-v2/expected-prose-math-stream.txt",
+      "sha256": "37f34caf9ef7ca4f421174abd4616f4115c6628264fa77f1a9482cef74c116f8"
+    },
+    {
+      "path": "render-evidence/r15-v2/fetch-records.json",
+      "sha256": "8436e8afefb359480b2242641741e6aa33bbc6335722f4664e0bde04b148aa07"
+    },
+    {
+      "path": "render-evidence/r15-v2/finalize_evidence.py",
+      "sha256": "6ed413b135d90b656ff5f6eb61a016b6eeeee5bd89db6c2549aeb750e5d874c3"
+    },
+    {
+      "path": "render-evidence/r15-v2/finish_checks.py",
+      "sha256": "6ed0b52562e35975c21c749dcadf00ef2f8ec7d54b479f8ac44ecf68a196d56b"
+    },
+    {
+      "path": "render-evidence/r15-v2/fresh-CSS-changes.json",
+      "sha256": "c0f7ac1292af871cfe2911086279984eb58676e2d042012fc286989875e29b58"
+    },
+    {
+      "path": "render-evidence/r15-v2/github-article.html",
+      "sha256": "6f174f85c7c2c88c1a3270b4b7cd52a5cb02fc52c15e8487034bbab28ee4e71b"
+    },
+    {
+      "path": "render-evidence/r15-v2/github-math.json",
+      "sha256": "e55519f043411cdffee5973eb1a0ca63c1b2cef5465117ad4a840240a23c1e46"
+    },
+    {
+      "path": "render-evidence/r15-v2/github-page.html",
+      "sha256": "96e8707ff5dd373fd7e8d04c5a836ce9b9e17de755ae631868871f92ccfd12b4"
+    },
+    {
+      "path": "render-evidence/r15-v2/independent-revision-equivalence.json",
+      "sha256": "78cef1439f0b57a5bba73da3b6cf05e0d5152c69be835381e3866fb6069ae576"
+    },
+    {
+      "path": "render-evidence/r15-v2/initial-CSS-identity-assumption-failure.json",
+      "sha256": "2b842b74822507287545cbefa15c2d8091180a80c158a28aa2637ebb0f0f90c5"
+    },
+    {
+      "path": "render-evidence/r15-v2/inspect-styles-output.txt",
+      "sha256": "5dc9876a700b74a389d7e1206d7a5606dc11189d535c66f452e0567fa4a476f3"
+    },
+    {
+      "path": "render-evidence/r15-v2/inspect_styles.py",
+      "sha256": "dcb90a599f12f2288b29dd32e31840704c1e2ec1ef7fbeab045148125c9109c7"
+    },
+    {
+      "path": "render-evidence/r15-v2/literal-destination-defects.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "render-evidence/r15-v2/localized-math-failures.json",
+      "sha256": "965049f625cb2778a13ee0f4752a5e21be4c9e77579d8512448b74f89ec8bf0e"
+    },
+    {
+      "path": "render-evidence/r15-v2/manual-style-review.json",
+      "sha256": "a04618ed89b538363735a27e9cb5c001a0642fe1423eb524d9b3b7a7f2ad0429"
+    },
+    {
+      "path": "render-evidence/r15-v2/markup-navigation-audit.json",
+      "sha256": "8722366208a8b52850a0ea23b2357b8cafca20f4e7dff65a3f53c3a06d5e52a6"
+    },
+    {
+      "path": "render-evidence/r15-v2/math-comparison.json",
+      "sha256": "ec7e3a511bd3702b468b76d2c6bed94010eb81dcbb8eadbe06ec35ff4ad57ee1"
+    },
+    {
+      "path": "render-evidence/r15-v2/paragraph-block-comparison.json",
+      "sha256": "e3943737e71811091d986c3203c0eeeddbb00c89b719e694f85b3720558cae28"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview/AST-prose-math-stream.txt",
+      "sha256": "7e4990ad66222e36c0a806b9257b0c6b8e82d6526116a80f01fbb89dcbb985ac"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview/ast-math-check.json",
+      "sha256": "ce7f1c077d36a56c65d98228988ab51da7e53b0285d9323e3503668d9f96d1a3"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview/initial-prose-check-failure.json",
+      "sha256": "618e3c32a54bcbc205bcadead14777cfaa15a133db80be45afdbfdaeff63112d"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview/pandoc-boundary-normalization.json",
+      "sha256": "f6c105084e069bd99bf5d0edc526825013ed20fb06b391041e996ff4145cdb10"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview/preview-ast.json",
+      "sha256": "c90ecaa092ee6b0b148690e20e28554039cc3c374602965858f92f81832ba930"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview/preview-header.tex",
+      "sha256": "f5c9e3f54fbf3cb055b0dfceede9ed63ad1dbaab9319dcd2a81c05055fc95107"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview/preview-initial-ast.json",
+      "sha256": "45c21514a07fc15f00a0982c2acb8947209f887c3d7411dfc4f5616a86d2daa7"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview/preview.md",
+      "sha256": "06a4f7497ba282af9b68dd8565ea706d3a188d455e94bf765f72c062b465e8a4"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/AST-prose-math-stream.txt",
+      "sha256": "37f34caf9ef7ca4f421174abd4616f4115c6628264fa77f1a9482cef74c116f8"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/ast-math-check.json",
+      "sha256": "6c5417ca0f6340a73d2635087fabce45cbd9fccfaad5d075dcd6b3fe8a6c11e5"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/compiler-and-PDF-navigation-review.json",
+      "sha256": "ef6856456e1cf5e80b3271f30290d4a56b4f6f522581d27c970234a0e7e8aac1"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/compiler-evidence-capture.json",
+      "sha256": "23e3369f447f2d0e06f31139c26776c69b4fcdc689895c0075f47f027007b96f"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/compiler-pass1-capture.json",
+      "sha256": "010d5d1a7c2224078cdd079b16670c0651007ea1716f6df1e045ff777037c223"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/compiler-pass1-tex-log.txt",
+      "sha256": "2040ec4d1951afac2b7bb72317155c3194c4478516305baa2b8efc96c4993570"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/compiler-pass2-capture.json",
+      "sha256": "e824425811172620a737f05fccef7be1983019baa5ef303dcd98605667ae4264"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/compiler-pass2-tex-log.txt",
+      "sha256": "6b01e68962f6f2b18b9ded86a2fa759e24a21c547a6bf19a3e064e37261b773f"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/pandoc-boundary-normalization.json",
+      "sha256": "f6c105084e069bd99bf5d0edc526825013ed20fb06b391041e996ff4145cdb10"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/pandoc.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/pdffonts.txt",
+      "sha256": "e98bab55045d4997d86abb253796eb3617e5aca012b35f1bb0cc24625b6ad88f"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/pdfinfo.txt",
+      "sha256": "50649ee0c2488f1d04588d99c62fcbcbe07c0c73662fbce3dffe3921ce340159"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/pdflatex-pass1.txt",
+      "sha256": "8e0ee4b3d3e073954319cf99569fadca6ea113d24fc24e086654970daccd8373"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/pdflatex-pass2.txt",
+      "sha256": "ee257eff0ce3eae30053b4bae575a0044185da67bdd149062e8237b92b0c8cfc"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/pdftotext.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/preview-ast.json",
+      "sha256": "9a91510a48c255949239854439acd2fd4b541b147b76a0739571a9e4f09d837d"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/preview-check.json",
+      "sha256": "f2a204092069ef00a43c26b8dcfaa477ccc1d44478db5f64c1fc85cf3c87b256"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/preview-header.tex",
+      "sha256": "f5c9e3f54fbf3cb055b0dfceede9ed63ad1dbaab9319dcd2a81c05055fc95107"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/preview-initial-ast.json",
+      "sha256": "ef7001c54a72d851605bf132c5f7e61181024b20e27f7a91fb7d976b9a8b1b02"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/preview-text.txt",
+      "sha256": "09bf2ea7b7887a2b19cab14afe62ceb166d29cd2605d25af0f7722d0820a6663"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/preview.aux",
+      "sha256": "cf1570d028f1fbb4a7269a87c7aee6fa332b53f1c8fb3d1266fdd206a5a330af"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/preview.log",
+      "sha256": "6b01e68962f6f2b18b9ded86a2fa759e24a21c547a6bf19a3e064e37261b773f"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/preview.md",
+      "sha256": "06a4f7497ba282af9b68dd8565ea706d3a188d455e94bf765f72c062b465e8a4"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/preview.tex",
+      "sha256": "26318d17a7e824270766f505acc81b95dd2ba2e47ef9c47638b67bdfa056c260"
+    },
+    {
+      "path": "render-evidence/r15-v2/preview-final/visual-inspection.json",
+      "sha256": "e4e08bc92df3725d7b2171fdd2a0b46bd27025a05db317d98084498bf6bba1f6"
+    },
+    {
+      "path": "render-evidence/r15-v2/prompt-group-navigation-checks.json",
+      "sha256": "6b37f6006dc85d2ab1f42bd1429875688affcc15cadfe84afb8360096e7e2d1b"
+    },
+    {
+      "path": "render-evidence/r15-v2/report.md",
+      "sha256": "3170b7389f9e03009039f73535e8f15103d89ab834ebe4aad5daf355d9487519"
+    },
+    {
+      "path": "render-evidence/r15-v2/source-identity.json",
+      "sha256": "1fe7ecaf9a1f329d58b23c57a3628ce88a9c651be7ca87c593f7211c6e993499"
+    },
+    {
+      "path": "render-evidence/r15-v2/source-math.json",
+      "sha256": "7716ea29944e1709beb1457f01018771031a526b7d4acd7d355aa1aec0e6a52a"
+    },
+    {
+      "path": "render-evidence/r15-v2/teaching-r15-v2.md",
+      "sha256": "b6e93b986e2a77763c556a4b5fc5cb42f43269742d0af9bd06021d7aa3ad7668"
+    },
+    {
+      "path": "render-evidence/r15-v2/tool-dependencies.json",
+      "sha256": "80e4371322f7343b544118076eee27b5d23159ff1f44510f6bdd61029105cb92"
+    },
+    {
+      "path": "render-evidence/v1/actual-prose-math-stream.txt",
+      "sha256": "771fb22818e00f956381f2b0ac87f1a9cbc813f51857d2a864d2221a9569bdd9"
+    },
+    {
+      "path": "render-evidence/v1/all-css-font-declarations.json",
+      "sha256": "6a04ed71a8bf49bb68a0b6107c475c41a2a48b64cc1450dc9b508e3fc78439b3"
+    },
+    {
+      "path": "render-evidence/v1/audit_markup.py",
+      "sha256": "33077b175d3acc578b8e4ab6f878e9ffc73b212ee69ecfe842e94012f811731e"
+    },
+    {
+      "path": "render-evidence/v1/css-scope-review.json",
+      "sha256": "1aa65132504b3116639d818b75ee2f3f24a5b01012cbe14c51c0e4960d34a4f0"
+    },
+    {
+      "path": "render-evidence/v1/current-css/01-light-5c4e9fc574bf49f3.css",
+      "sha256": "bf8e491bcae88932922f977a6d09e85dc3b4957308450041dd1bffbf74997746"
+    },
+    {
+      "path": "render-evidence/v1/current-css/02-light_high_contrast-fb37c309e0603a69.css",
+      "sha256": "812a21b9443e26fb20c14f271f02ce0ba385b6633be4eda907f21c5d977886f3"
+    },
+    {
+      "path": "render-evidence/v1/current-css/03-dark-afff6c53aef9b9d1.css",
+      "sha256": "7dbd576ae3e02de3b3b51ccadd9c17f67e1adb324adc69b6da2453ba878349e9"
+    },
+    {
+      "path": "render-evidence/v1/current-css/04-dark_high_contrast-c409873d7987dffa.css",
+      "sha256": "63908f8936246f1f1df9a9655eacc4df9e81d9a6313acb5e30b6f3462b184849"
+    },
+    {
+      "path": "render-evidence/v1/current-css/05-primer-primitives-97df7784617ce1ea.css",
+      "sha256": "88a966eb569aa65ffd1442f7c18a056ac0e44d3c87fcdc373fec51456d9371ce"
+    },
+    {
+      "path": "render-evidence/v1/current-css/06-primer-9be9fe6313f476af.css",
+      "sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3"
+    },
+    {
+      "path": "render-evidence/v1/current-css/07-global-62747e27e61258dc.css",
+      "sha256": "82d18fcb1c1d9ff94c7b483b263ad9b8250f9f8b8dbb4bc1ed0dfa07d5f911cb"
+    },
+    {
+      "path": "render-evidence/v1/current-css/08-github-7a418ea859d1654d.css",
+      "sha256": "5c33478825d8ebc514ada9da349c78a2c4e07143328f96f682d53594da29c62d"
+    },
+    {
+      "path": "render-evidence/v1/current-css/09-repository-72bd7d974b5ac1cc.css",
+      "sha256": "2b2c9480881aa24106e20f781993ea7fd1563f2f1f233853dadf107314347ba2"
+    },
+    {
+      "path": "render-evidence/v1/current-css/10-code-4c5c0895f723f870.css",
+      "sha256": "4e809cdcb922e4bfa69bfd90a7143f8e4b6a2086f7579819afc95659a6dcafa3"
+    },
+    {
+      "path": "render-evidence/v1/current-css/11-app-runtime.7ee70a9cd769c13f.module.css",
+      "sha256": "7966626df655c7fbcef158ce64e6ea4d71fc66c69c6fb004550e8f07f1d8cf30"
+    },
+    {
+      "path": "render-evidence/v1/current-css/12-react-core.be84e87b659d3b98.module.css",
+      "sha256": "910e86c6359f24cce9e42cb444a0f9c920424ef7b364288949af42f2e7bc4588"
+    },
+    {
+      "path": "render-evidence/v1/current-css/13-primer-react-css.e4334163c54cccf5.module.css",
+      "sha256": "5b027b85151ec86acd34b0d9b054b6bda173d4e5a2a424852c52ab27c01003e0"
+    },
+    {
+      "path": "render-evidence/v1/current-css/14-45z.922f816fb2d6b268.module.css",
+      "sha256": "2cd4a1f6ca28227032bf1926e1dcc5daa808d358d680c81ef33057fb535c62ff"
+    },
+    {
+      "path": "render-evidence/v1/current-css/15-oj.ecb4903dbaae6412.module.css",
+      "sha256": "926850f229f5eeb627cc6dcfa46c43708b9481e4546ebb74e9044b15f7a15591"
+    },
+    {
+      "path": "render-evidence/v1/current-css/16-code-view.6ddc207b15e7653b.module.css",
+      "sha256": "028aaf30de8c5119ef4f5bda1e0b8982b9bd521d7f9b6fb65772487d42681317"
+    },
+    {
+      "path": "render-evidence/v1/current-css/17-keyboard-shortcuts-dialog.19a7626661e73e96.module.css",
+      "sha256": "4116c214c2c387e52688d8f41200847ca20f2274ab04696af14a8f745577752e"
+    },
+    {
+      "path": "render-evidence/v1/current-css/18-app-install-banner-partial.51b002aa525f870c.module.css",
+      "sha256": "889e0b8e96b3956e8cbc83433cbb5b33390fa90a473506651905d09afb344423"
+    },
+    {
+      "path": "render-evidence/v1/current-css/19-primer-react-brand-css.05b219cdb8e80c43.module.css",
+      "sha256": "5540a47f3e2d6791082dc54e443c8a76aa6c402bfb65c65dfa43f9d33a323074"
+    },
+    {
+      "path": "render-evidence/v1/current-css/20-zn.9fc2e923e926de87.module.css",
+      "sha256": "b8172f8419fb839f9b5e5031b61dbaa5d2e5dee7b72f9fcd274787524b459a62"
+    },
+    {
+      "path": "render-evidence/v1/current-css/21-global-nav-bar.d49106bcc686ab36.module.css",
+      "sha256": "c1c702fb2b5a1ff79235912721055568c4594f3256f31f97b6b77eafa8cf8085"
+    },
+    {
+      "path": "render-evidence/v1/current-css-inventory.json",
+      "sha256": "e689c619f40dd973e2dfb5c308eebcb6c40e6372f6e9acc2de940bdcb4ffca89"
+    },
+    {
+      "path": "render-evidence/v1/dom-structure.json",
+      "sha256": "0cbf7db6933c508a941a93401d97e6041a174127ac6af5c6340348828047b45b"
+    },
+    {
+      "path": "render-evidence/v1/embedded-data.json",
+      "sha256": "b7b672aa80c1d39510aeefe34ec2b706182844d617b1530c0a4fefb53bd372bd"
+    },
+    {
+      "path": "render-evidence/v1/evidence-manifest.json",
+      "sha256": "17dd278c0900786b57207754c487af1a02331f88a2a21ad7b6cf87c4755e5b21"
+    },
+    {
+      "path": "render-evidence/v1/expected-prose-math-stream.txt",
+      "sha256": "43357e4d8dbd9733d97eceb61520ac936b6a88f9b5831c73b3c01e2fc8a451bf"
+    },
+    {
+      "path": "render-evidence/v1/fetch-records.json",
+      "sha256": "65580b4d5abc2a93eef6a16ef36776ddc8a47cea93cd54d2064842d805bb1371"
+    },
+    {
+      "path": "render-evidence/v1/github-article.html",
+      "sha256": "2678077adfaaa53c5741478f7947e149048ad98a7012928c0ddf895860323647"
+    },
+    {
+      "path": "render-evidence/v1/github-math.json",
+      "sha256": "4c7a305c2e524acf4ed54f0d181bb5328b15937c70641282d29a9f270bf2ab54"
+    },
+    {
+      "path": "render-evidence/v1/github-page.html",
+      "sha256": "7c3d9c7ab11261ec4f6fae7460f20ef91b7fb555d72f4826c9308bf74adbba09"
+    },
+    {
+      "path": "render-evidence/v1/inspect_styles.py",
+      "sha256": "dcb90a599f12f2288b29dd32e31840704c1e2ec1ef7fbeab045148125c9109c7"
+    },
+    {
+      "path": "render-evidence/v1/localize_failures.py",
+      "sha256": "d1b328c53c6fe4ef34b76bb559907be648e16f91e563e7ad5d2a05db14f0037e"
+    },
+    {
+      "path": "render-evidence/v1/localized-destination-failures.json",
+      "sha256": "5d56c441e2d82cf64cc7556ddd9cf604599e2078046af0d9a4f0670af09340b2"
+    },
+    {
+      "path": "render-evidence/v1/localized-math-failures.json",
+      "sha256": "62ebd5b5eec84594ea21cbb301f5cb83a2961e13d8052f304b1cf7c8f3716b9b"
+    },
+    {
+      "path": "render-evidence/v1/markup-navigation-audit.json",
+      "sha256": "9272abe45d7997f684e9c9f23a1589447fb294502598bb7b05f9975998ca65b4"
+    },
+    {
+      "path": "render-evidence/v1/math-comparison.json",
+      "sha256": "dbd8a56a4665940cd1bda56ec094b484c38509eeffcee6a7c9f75dc1492bc291"
+    },
+    {
+      "path": "render-evidence/v1/paragraph-math-comparison.json",
+      "sha256": "2ed32b4697d37d4f2b6d522ee4de7dd8207060d3057d80b5d303e9e04e22be8a"
+    },
+    {
+      "path": "render-evidence/v1/report.md",
+      "sha256": "269a3786c68deda9840c55f502f22f98759e5f70b1ab3f15fcc963c497202e29"
+    },
+    {
+      "path": "render-evidence/v1/review-disposition.json",
+      "sha256": "bf224ea88c43b2cf0489af03ea2bcf5a0681e4d957809aa3df27af7a9cead20b"
+    },
+    {
+      "path": "render-evidence/v1/source-identity.json",
+      "sha256": "7a746e106971441d0f68806b1d1e0b3a238d70ced925e991c4fd56a3d77448e8"
+    },
+    {
+      "path": "render-evidence/v1/source-math.json",
+      "sha256": "0fb9dec9e08da365eaf81bc9c7ea71afce8a7a8c4ac015d596399bb3470ab11b"
+    },
+    {
+      "path": "render-evidence/v1/teaching-original.md",
+      "sha256": "006fe68f52c3a4c9177f2da4fbddc5a06823314b49e4e1ac482f23a5cc169ae9"
+    },
+    {
+      "path": "render-evidence/v2/actual-prose-math-stream.txt",
+      "sha256": "0140a87bba04f581afc4ad1c6847fbd927210532fc6f59668a74be9131d45039"
+    },
+    {
+      "path": "render-evidence/v2/all-css-font-declarations.json",
+      "sha256": "6a04ed71a8bf49bb68a0b6107c475c41a2a48b64cc1450dc9b508e3fc78439b3"
+    },
+    {
+      "path": "render-evidence/v2/audit_markup.py",
+      "sha256": "2218623e1668f613df146f660f9523f3b04de6cee205ddc8cdeca866aaad3984"
+    },
+    {
+      "path": "render-evidence/v2/build_preview.py",
+      "sha256": "cdb6d2abe8c0d239ed2bf4f1623190bf34339d6194b7c3bc4a121b3268b487b3"
+    },
+    {
+      "path": "render-evidence/v2/check_revision_prompts.py",
+      "sha256": "b108505553ce06060bf5e0ca63dc2878bc1a9c548ed299c544e391ed4e90db1c"
+    },
+    {
+      "path": "render-evidence/v2/complete_review.py",
+      "sha256": "c1b8bfa1816cefec829fa1a63a09d90bd21b978f9f177ce07a6a2a4510b9293c"
+    },
+    {
+      "path": "render-evidence/v2/css-scope-review.json",
+      "sha256": "1aa65132504b3116639d818b75ee2f3f24a5b01012cbe14c51c0e4960d34a4f0"
+    },
+    {
+      "path": "render-evidence/v2/current-css/01-light-5c4e9fc574bf49f3.css",
+      "sha256": "bf8e491bcae88932922f977a6d09e85dc3b4957308450041dd1bffbf74997746"
+    },
+    {
+      "path": "render-evidence/v2/current-css/02-light_high_contrast-fb37c309e0603a69.css",
+      "sha256": "812a21b9443e26fb20c14f271f02ce0ba385b6633be4eda907f21c5d977886f3"
+    },
+    {
+      "path": "render-evidence/v2/current-css/03-dark-afff6c53aef9b9d1.css",
+      "sha256": "7dbd576ae3e02de3b3b51ccadd9c17f67e1adb324adc69b6da2453ba878349e9"
+    },
+    {
+      "path": "render-evidence/v2/current-css/04-dark_high_contrast-c409873d7987dffa.css",
+      "sha256": "63908f8936246f1f1df9a9655eacc4df9e81d9a6313acb5e30b6f3462b184849"
+    },
+    {
+      "path": "render-evidence/v2/current-css/05-primer-primitives-97df7784617ce1ea.css",
+      "sha256": "88a966eb569aa65ffd1442f7c18a056ac0e44d3c87fcdc373fec51456d9371ce"
+    },
+    {
+      "path": "render-evidence/v2/current-css/06-primer-9be9fe6313f476af.css",
+      "sha256": "92ba9f41530ba1da1844d1a0bea93afb5611683f6c2baa01b6df0c9b47e0d6c3"
+    },
+    {
+      "path": "render-evidence/v2/current-css/07-global-62747e27e61258dc.css",
+      "sha256": "82d18fcb1c1d9ff94c7b483b263ad9b8250f9f8b8dbb4bc1ed0dfa07d5f911cb"
+    },
+    {
+      "path": "render-evidence/v2/current-css/08-github-7a418ea859d1654d.css",
+      "sha256": "5c33478825d8ebc514ada9da349c78a2c4e07143328f96f682d53594da29c62d"
+    },
+    {
+      "path": "render-evidence/v2/current-css/09-repository-72bd7d974b5ac1cc.css",
+      "sha256": "2b2c9480881aa24106e20f781993ea7fd1563f2f1f233853dadf107314347ba2"
+    },
+    {
+      "path": "render-evidence/v2/current-css/10-code-4c5c0895f723f870.css",
+      "sha256": "4e809cdcb922e4bfa69bfd90a7143f8e4b6a2086f7579819afc95659a6dcafa3"
+    },
+    {
+      "path": "render-evidence/v2/current-css/11-app-runtime.7ee70a9cd769c13f.module.css",
+      "sha256": "7966626df655c7fbcef158ce64e6ea4d71fc66c69c6fb004550e8f07f1d8cf30"
+    },
+    {
+      "path": "render-evidence/v2/current-css/12-react-core.be84e87b659d3b98.module.css",
+      "sha256": "910e86c6359f24cce9e42cb444a0f9c920424ef7b364288949af42f2e7bc4588"
+    },
+    {
+      "path": "render-evidence/v2/current-css/13-primer-react-css.e4334163c54cccf5.module.css",
+      "sha256": "5b027b85151ec86acd34b0d9b054b6bda173d4e5a2a424852c52ab27c01003e0"
+    },
+    {
+      "path": "render-evidence/v2/current-css/14-45z.922f816fb2d6b268.module.css",
+      "sha256": "2cd4a1f6ca28227032bf1926e1dcc5daa808d358d680c81ef33057fb535c62ff"
+    },
+    {
+      "path": "render-evidence/v2/current-css/15-oj.ecb4903dbaae6412.module.css",
+      "sha256": "926850f229f5eeb627cc6dcfa46c43708b9481e4546ebb74e9044b15f7a15591"
+    },
+    {
+      "path": "render-evidence/v2/current-css/16-code-view.6ddc207b15e7653b.module.css",
+      "sha256": "028aaf30de8c5119ef4f5bda1e0b8982b9bd521d7f9b6fb65772487d42681317"
+    },
+    {
+      "path": "render-evidence/v2/current-css/17-keyboard-shortcuts-dialog.19a7626661e73e96.module.css",
+      "sha256": "4116c214c2c387e52688d8f41200847ca20f2274ab04696af14a8f745577752e"
+    },
+    {
+      "path": "render-evidence/v2/current-css/18-app-install-banner-partial.51b002aa525f870c.module.css",
+      "sha256": "889e0b8e96b3956e8cbc83433cbb5b33390fa90a473506651905d09afb344423"
+    },
+    {
+      "path": "render-evidence/v2/current-css/19-primer-react-brand-css.05b219cdb8e80c43.module.css",
+      "sha256": "5540a47f3e2d6791082dc54e443c8a76aa6c402bfb65c65dfa43f9d33a323074"
+    },
+    {
+      "path": "render-evidence/v2/current-css/20-zn.9fc2e923e926de87.module.css",
+      "sha256": "b8172f8419fb839f9b5e5031b61dbaa5d2e5dee7b72f9fcd274787524b459a62"
+    },
+    {
+      "path": "render-evidence/v2/current-css/21-global-nav-bar.d49106bcc686ab36.module.css",
+      "sha256": "c1c702fb2b5a1ff79235912721055568c4594f3256f31f97b6b77eafa8cf8085"
+    },
+    {
+      "path": "render-evidence/v2/current-css-inventory.json",
+      "sha256": "5d385835802822e2c765c1f9690ed3b153972b2ca9b3d6f5b84fbb97e38dd88c"
+    },
+    {
+      "path": "render-evidence/v2/dom-structure.json",
+      "sha256": "434792be944ece09a8da7ddf8a5a6bb5799a5c56e34666772e6aa5ae13daa9dc"
+    },
+    {
+      "path": "render-evidence/v2/embedded-data.json",
+      "sha256": "50089d1e550d996c1f4e893b0006e7adb35bb2386a05c5187af1ef4e1368e841"
+    },
+    {
+      "path": "render-evidence/v2/evidence-manifest.json",
+      "sha256": "fda05b80a159624f931b6376942f051204b9f37dcb6ca83c859e99063c3b603f"
+    },
+    {
+      "path": "render-evidence/v2/expected-prose-math-stream.txt",
+      "sha256": "0140a87bba04f581afc4ad1c6847fbd927210532fc6f59668a74be9131d45039"
+    },
+    {
+      "path": "render-evidence/v2/fetch-records.json",
+      "sha256": "b2ab1476065f9a4272cf8512e6160a78b68221c009717f9344700e4afc27a974"
+    },
+    {
+      "path": "render-evidence/v2/github-article.html",
+      "sha256": "b28f874a5cd2257b7ac3723eaaac13d77012de50045b190faaf2ea09a0278998"
+    },
+    {
+      "path": "render-evidence/v2/github-math.json",
+      "sha256": "b4b8ef487a9f57e2b59360bd038d6d1245b2a3dd4d6ac58815066107cc52408b"
+    },
+    {
+      "path": "render-evidence/v2/github-page.html",
+      "sha256": "b13430ad25a8b5c7dc96d25ac0b9c595166efe3ce323bc4fa2021bfdfa5db4a8"
+    },
+    {
+      "path": "render-evidence/v2/initial-inverse-check-failure.json",
+      "sha256": "ba26c814f430455820475ca592b5a17080d2ed766a8831b4d21a27de1b484495"
+    },
+    {
+      "path": "render-evidence/v2/inspect_styles.py",
+      "sha256": "dcb90a599f12f2288b29dd32e31840704c1e2ec1ef7fbeab045148125c9109c7"
+    },
+    {
+      "path": "render-evidence/v2/localized-math-failures.json",
+      "sha256": "cd830fd46f300b7f5e43ecb3d58ac4e0cbd01ad0bf27cf58deeb355b7799e62b"
+    },
+    {
+      "path": "render-evidence/v2/markup-navigation-audit.json",
+      "sha256": "1d1ad585ebf311ad95f09ab8ec85831c896b6b8193cdf4d7785568fe3728488d"
+    },
+    {
+      "path": "render-evidence/v2/math-comparison.json",
+      "sha256": "8d8eb40f167cb8d11d3e8f1c5522a51e3dd46f89291882b6c11fc6ba67b29918"
+    },
+    {
+      "path": "render-evidence/v2/preview/ast-math-check.json",
+      "sha256": "ae13f498aaab554efb7884f10fede4b5ae69e8f1769ffced40d197b05710e188"
+    },
+    {
+      "path": "render-evidence/v2/preview/compiler-evidence-capture.json",
+      "sha256": "629cf093af3b4a2e67f8f2dc93c3b2040e2a1dd89f0aa7adeee93266667b089e"
+    },
+    {
+      "path": "render-evidence/v2/preview/compiler-final-review.json",
+      "sha256": "fbd36eab717047413254d1607734681ba87423fb1bac730f9e0368113a78d279"
+    },
+    {
+      "path": "render-evidence/v2/preview/compiler-pass1-tex-log.txt",
+      "sha256": "de723b5f96c5b7117fff0e878d0a4d919bfbe0e2008cf40059bdd1076203b155"
+    },
+    {
+      "path": "render-evidence/v2/preview/compiler-pass2-tex-log.txt",
+      "sha256": "d0d4c8f8a60f8808506534a2b3a9d2cfaf1a1c5aa7abe82ad5c37b7787424139"
+    },
+    {
+      "path": "render-evidence/v2/preview/pandoc.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "render-evidence/v2/preview/pdffonts.txt",
+      "sha256": "bbdbfd0860f22ef6472d4867ca1233dbf10d1f9b23326fadbeef46cf230dcfa3"
+    },
+    {
+      "path": "render-evidence/v2/preview/pdfinfo.txt",
+      "sha256": "6d04cb4552b1e39a6dab4b47d71d5a38965d472199eb8d6e6defac0545100486"
+    },
+    {
+      "path": "render-evidence/v2/preview/pdflatex-pass1.txt",
+      "sha256": "8c118410a3c8fb424a0e8dc637f7484dd0b0dc5fe52736a26e8fb15cefd6d8a1"
+    },
+    {
+      "path": "render-evidence/v2/preview/pdflatex-pass2.txt",
+      "sha256": "12c201430c421d58008d9835356f7a24cb7a7ee5330ff05206b333e615aae06b"
+    },
+    {
+      "path": "render-evidence/v2/preview/pdftotext.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "render-evidence/v2/preview/preview-ast.json",
+      "sha256": "911e249532414a33b0f3350bfa9cd4705c8974c4751d9fb3b97ededdc7864224"
+    },
+    {
+      "path": "render-evidence/v2/preview/preview-check.json",
+      "sha256": "f2ad984c07c4fae5fd71b725376a738bb86ca7cce842cf7c954ffde26390089d"
+    },
+    {
+      "path": "render-evidence/v2/preview/preview-header.tex",
+      "sha256": "f5c9e3f54fbf3cb055b0dfceede9ed63ad1dbaab9319dcd2a81c05055fc95107"
+    },
+    {
+      "path": "render-evidence/v2/preview/preview-text.txt",
+      "sha256": "3e8bcba1d14b085354fb6b353474ff0a61e4828038be57a635124d2f6d04faed"
+    },
+    {
+      "path": "render-evidence/v2/preview/preview.aux",
+      "sha256": "cf1570d028f1fbb4a7269a87c7aee6fa332b53f1c8fb3d1266fdd206a5a330af"
+    },
+    {
+      "path": "render-evidence/v2/preview/preview.log",
+      "sha256": "d0d4c8f8a60f8808506534a2b3a9d2cfaf1a1c5aa7abe82ad5c37b7787424139"
+    },
+    {
+      "path": "render-evidence/v2/preview/preview.md",
+      "sha256": "22fb4cb71bf25853e227485217a4d7dd680f1b5495c2d9721e2e5fba601817a5"
+    },
+    {
+      "path": "render-evidence/v2/preview/preview.tex",
+      "sha256": "9aec865cf43955230519c81be45289dfe8c04e1fb1c18ece5b90f61d689c9eba"
+    },
+    {
+      "path": "render-evidence/v2/preview/visual-inspection.json",
+      "sha256": "9e1371e1316250a1ae8d5e3e69e7dcd52e2066e289ca7df8ae220154c4d92f25"
+    },
+    {
+      "path": "render-evidence/v2/report.md",
+      "sha256": "569644a523ef7e21e10c2548ace0af46f9b8960178a6ce0bc4a118fb07529228"
+    },
+    {
+      "path": "render-evidence/v2/revision-and-prompt-checks.json",
+      "sha256": "8b15628d45b57bc0f3c7dc7f825f7140018ba0e2918ef5ab0abb53310659b19b"
+    },
+    {
+      "path": "render-evidence/v2/source-identity.json",
+      "sha256": "4c376c3778c8188474ebc73027501630cd98f1946d5d3bd81ea4d3bf8e5efc41"
+    },
+    {
+      "path": "render-evidence/v2/source-math.json",
+      "sha256": "5bb5830f35da5f1d96bb6646336de28c649fbdd20bb41341e71385bd1d51a02d"
+    },
+    {
+      "path": "render-evidence/v2/teaching-v2.md",
+      "sha256": "7848e012a83c08cdeedf25c91d1800e646f30a3db77cac034bb9d07802f53b72"
+    },
+    {
+      "path": "render-evidence/v2/typography-review.json",
+      "sha256": "0e00a4b8b21aff789cc082d687bf043b68f0746cec90abfdcc54f6981fde5ce2"
+    },
+    {
+      "path": "render-evidence-v2-integration.json",
+      "sha256": "3836a3e5469c7f9b188bf498c6fe9ef2dd623e6918506f300ad1f05620efdd84"
+    },
+    {
+      "path": "render-integration-r15-original.json",
+      "sha256": "9180e96c5aaed7416802007d0f8049e81a8e06f44a6ff64456ea8a57446bedaa"
+    },
+    {
+      "path": "render-integration-r15-v2.json",
+      "sha256": "8b7b8811cf54e92d562f3f2f841f165c392fb9273d33db666b35c558b0aa0b53"
+    },
+    {
+      "path": "render-integration-v1.json",
+      "sha256": "516f978b0ed48eb6b3ea5b1f0ad6ca0d55d95e8f8960a50d72c58d62326978ed"
+    },
+    {
+      "path": "revised-r15-v2/teaching-r15-v2.md",
+      "sha256": "b6e93b986e2a77763c556a4b5fc5cb42f43269742d0af9bd06021d7aa3ad7668"
+    },
+    {
+      "path": "revised-v2/revision-equivalence.json",
+      "sha256": "29870c399eaacb202f60392be41cac87ad18237c715e56ca9e2067368ce275d4"
+    },
+    {
+      "path": "revised-v2/teaching-v2.md",
+      "sha256": "7848e012a83c08cdeedf25c91d1800e646f30a3db77cac034bb9d07802f53b72"
+    },
+    {
+      "path": "revision-equivalence-r15-v2.json",
+      "sha256": "8644de73a722a5aa942be71dab177e1b285a64b122a5cf7b76084801f116cb9b"
+    },
+    {
+      "path": "revision-review-r15-v2.md",
+      "sha256": "e068c5776bf2d8c41b7bf487fbd43cc35196c7047413a03b2826e9b3f6ff4461"
+    },
+    {
+      "path": "revision-review-v2.md",
+      "sha256": "dfcc410c85971c226c21f7d1b02e2c69624e9615ae6e1256a914ad3d1a32c4a5"
+    },
+    {
+      "path": "skill-change-decision-r15.json",
+      "sha256": "72435e6217762bb0921ce22cd114ce0b051afdad1fe56315982f6afa9ef3d56c"
+    },
+    {
+      "path": "skill-change-proposal.md",
+      "sha256": "d0950769b0c427a3c61246fc38e3b8b479663cc9f8424002d29e755bee8025aa"
+    },
+    {
+      "path": "source-map.json",
+      "sha256": "13d614f3f3493f61899a769d14a42537693608add12a44bedbf90eea21c2c2db"
+    },
+    {
+      "path": "source-review.md",
+      "sha256": "025ef2b74de53a27f762f19e730b4b51f82e5b480dae8fc1d4cd9a6751e113c7"
+    }
+  ],
+  "topic_plans": {
+    "approximations": {
+      "requirements": {
+        "T1": {
+          "action": "retain",
+          "reason": "Full final reread confirms base/displacement, tangent error, quadratic matching and physical model precede dependent uses (P005–008,025–026,040–041).",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review",
+            "fresh_author_admission"
+          ]
+        },
+        "T2": {
+          "action": "retain",
+          "reason": "P006–007 construct/map tangent notation; P025 derives A,B,2C; P033 and037 map substitutions/degree pairings; P041/044 connect time ratio and small variable.",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review",
+            "fresh_author_admission"
+          ]
+        },
+        "T3": {
+          "action": "retain",
+          "reason": "P008/P026 derive both scaled errors; P023/P063–064/P068 justify cancellation; physical law is explicitly scoped and independently verified.",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review",
+            "fresh_author_admission"
+          ]
+        },
+        "T4": {
+          "action": "retain",
+          "reason": "Every connected subcapability has its own consequential worked reasoning: log/tangent, reciprocal product, limit, quadratic models/product, time ratio and size.",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review",
+            "fresh_author_admission"
+          ]
+        },
+        "T5": {
+          "action": "retain",
+          "reason": "A1 follows the first model; A2 changes cancellation/order; A3 changes tolerance with supplied reference; A4 combines a changed product, derivatives and limit.",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review",
+            "fresh_author_admission"
+          ]
+        },
+        "T6": {
+          "action": "retain",
+          "reason": "All four complete prompts specify meaningful response/reason criteria; all incidental data and previously taught methods are available before their positions.",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review",
+            "fresh_author_admission"
+          ]
+        },
+        "T7": {
+          "action": "retain",
+          "reason": "All four task/hint/solution routes and complete help checked; hints grouped separately before full solutions, including returns.",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review",
+            "fresh_author_admission"
+          ]
+        },
+        "T8": {
+          "action": "retain",
+          "reason": "P050–051 provide later retrieval and changed integrated application with adjustable timing; no actual retention or learning outcome is claimed.",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review",
+            "fresh_author_admission"
+          ]
+        },
+        "T9": {
+          "action": "retain",
+          "reason": "Whole baseline and original source read; familiar algebra compressed while local representation/remainder/physical premises are supplied. Four source figure relationships survive.",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review",
+            "fresh_author_admission"
+          ]
+        },
+        "T10": {
+          "action": "retain",
+          "reason": "Root independently computed frozen prompts before answers and checked all remaining content/source claims; nine equivalent comparison repairs preserve those results.",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review",
+            "fresh_author_admission"
+          ]
+        },
+        "T11": {
+          "action": "pass",
+          "reason": "Final teaching ID only: complete actual GitHub payload/prose/link preservation and fresh static typography scope plus source-faithful full9page visual preview admitted. Hints remain separate before solutions. No live-client pixel/click or internal-PDF hyperlink pass; original ID remains failed historical evidence.",
+          "evidence_roles": [
+            "destination",
+            "revision_review"
+          ]
+        },
+        "T12": {
+          "action": "retain",
+          "reason": "Root full final route/source/help and admitted original author evidence reviewed; current destination/reader/final publication gates remain separately identified.",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review",
+            "fresh_author_admission"
+          ]
+        }
+      },
+      "gaps": {
+        "g1-approximate-equality": {
+          "action": "retain_resolved",
+          "reason": "Exact polynomial definitions and approximate function comparisons are distinguished at P006,008,019–020,023.",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review"
+          ]
+        },
+        "g2-limit-warrant": {
+          "action": "retain_resolved",
+          "reason": "The derivative-scaled remainder and C2 double-integration bound justify later divisions; no unspecified approximation licenses an exact derivative.",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review"
+          ]
+        },
+        "g3-time-factor": {
+          "action": "retain_resolved",
+          "reason": "P040–044 preserve proper/frame intervals, dimensionless ratio, multiplying back by T, consistent units and independently checked magnitudes.",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review"
+          ]
+        },
+        "g4-best-fit": {
+          "action": "retain_resolved",
+          "reason": "P025 defines derivative matching as local value/slope/curvature agreement and distinguishes interval data fitting.",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review"
+          ]
+        },
+        "g5-distance-accuracy": {
+          "action": "retain_resolved",
+          "reason": "P007/P027/P048 limit local claims and separate asymptotic degree from finite-input numerical error; reference comparison controls A3.",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review"
+          ]
+        },
+        "g6-clock-precision": {
+          "action": "retain_resolved",
+          "reason": "P044 expressly withholds historical universal atomic-clock precision as current fact and bases neglect on stated accuracy and model scope.",
+          "evidence_roles": [
+            "parent_technical",
+            "revision_review"
+          ]
+        }
+      }
+    }
+  },
+  "output_check_plans": {
+    "coverage": {
+      "action": "retain",
+      "reason": "Whole seven-page source and four visual relationships retained in final teaching; final source map and parent full review agree.",
+      "evidence_roles": [
+        "parent_technical",
+        "revision_review",
+        "fresh_author_admission"
+      ]
+    },
+    "author_full_read": {
+      "action": "retain",
+      "reason": "Author read whole original; root reread complete final P001–068 including all help; exact inverse preserves content.",
+      "evidence_roles": [
+        "parent_technical",
+        "revision_review",
+        "fresh_author_admission"
+      ]
+    },
+    "answer_verification": {
+      "action": "retain",
+      "reason": "Independent root calculations preceded author answers; final math and all numeric claims match.",
+      "evidence_roles": [
+        "parent_technical",
+        "revision_review",
+        "fresh_author_admission"
+      ]
+    },
+    "source_navigation": {
+      "action": "retain",
+      "reason": "All source anchors/task/help/returns retained; nine comparison command changes do not affect links.",
+      "evidence_roles": [
+        "parent_technical",
+        "revision_review",
+        "fresh_author_admission"
+      ]
+    },
+    "destination_math": {
+      "action": "pass",
+      "reason": "Final teaching ID only; historical original is not accepted. All305actual GitHub math payloads exact; final AST source equivalence and all9internal preview pages inspected. Distinguish actual parsed content from secondary visual derivative; no live MathJax claim.",
+      "evidence_roles": [
+        "destination",
+        "revision_review"
+      ]
+    },
+    "destination_typography": {
+      "action": "pass",
+      "reason": "Final teaching ID only; historical original is not accepted. Actual fresh GitHub CSS and matching article/ancestor scopes show normal prose weight/style with no forced emphasis; plain paragraph labels preserved. No computed-browser-style claim.",
+      "evidence_roles": [
+        "destination",
+        "revision_review"
+      ]
+    },
+    "destination_navigation": {
+      "action": "pass",
+      "reason": "Final teaching ID only; historical original is not accepted. All18GitHubtargets37links and task/hint/solution/group/return relationships preserved, with full hint group before solutions. No actual clicked landing or internal-PDF link acceptance.",
+      "evidence_roles": [
+        "destination",
+        "revision_review"
+      ]
+    },
+    "independent_technical": {
+      "action": "pass",
+      "reason": "Complete root content/source/scientific and independent pre-solution reviews establish no unresolved material mathematical defect in final teaching; historical original remains separate.",
+      "evidence_roles": [
+        "parent_technical",
+        "revision_review"
+      ]
+    },
+    "fresh_sasis": {
+      "action": "pass",
+      "reason": "Only final teaching ID: fresh fork-none reader fully read exactly both pinned inputs, found no established gap, and root admitted complete report/access. Historical original is not accepted by this reader.",
+      "evidence_roles": [
+        "fresh_sasis",
+        "reader_access",
+        "reader_admission"
+      ]
+    },
+    "final_review": {
+      "action": "pass",
+      "reason": "Final learner-facing teaching accepted after all applicable content, independent reader, scoped destination and earlier-case checks; original remains immutable failed-destination history. Actual publication gate remains pending.",
+      "evidence_roles": [
+        "acceptance",
+        "reader_admission",
+        "destination",
+        "affected_earlier_review"
+      ]
+    }
+  },
+  "external_dependency_dispositions": {},
+  "candidate_commit": "7ea4148ed1eda90436c0f6f23fde479de3452079",
+  "candidate_tree": "3920d69f8ed4733789b21a9c905e7c3b37c391ba",
+  "candidate_skill_sha256": "24b8c2e2d1898384f85eca608f34074d91a78268efcec69d7ceb81052a87659e",
+  "author_project_relative": "author-work-r15",
+  "author_candidate_control_bindings": [
+    {
+      "source_id": "control-1",
+      "candidate_path": "references/execution-protocol.md"
+    },
+    {
+      "source_id": "control-2",
+      "candidate_path": "references/sasis.md"
+    },
+    {
+      "source_id": "control-3",
+      "candidate_path": "references/sasis/profile-manifest.json"
+    },
+    {
+      "source_id": "control-4",
+      "candidate_path": "references/sasis/student-testing-contract.txt"
+    },
+    {
+      "source_id": "control-5",
+      "candidate_path": "references/sasis/rewrite-guide.md"
+    },
+    {
+      "source_id": "control-6",
+      "candidate_path": "references/domain-patterns.md"
+    },
+    {
+      "source_id": "control-7",
+      "candidate_path": "references/state-tool.md"
+    },
+    {
+      "source_id": "control-8",
+      "candidate_path": "scripts/prof_state.py"
+    },
+    {
+      "source_id": "control-10",
+      "candidate_path": "references/sasis/ocr-baseline-20261007/student-baseline.txt"
+    },
+    {
+      "source_id": "reader-role",
+      "candidate_path": "references/sasis/student-role.txt"
+    }
+  ],
+  "affected_earlier_cases": {
+    "D001": {
+      "teaching_path": "runs/y1-reader-20261008/iterations/001/teaching-v4.md",
+      "freeze_commit": "0716ea92991d7f9fe2814e137bcc830d91a27511",
+      "sha256": "402485baa2767af9625146721e356f92bad76e4cfb738e5729c6c8b94ea79401",
+      "disposition": "rechecked",
+      "reason": "The exact added r15 paragraph is met by all seven preserved final parsed-expression comparisons including all help. Original final previews plus fresh six-page D001 supplement close the named coverage gap. No teaching change is needed solely for this production duty. Original historical evidence is not relabelled as r15 regeneration."
+    },
+    "D002": {
+      "teaching_path": "runs/y1-reader-20261008/iterations/002/teaching-v1.md",
+      "freeze_commit": "f1c0e91c24e9140049d50c7ca965f41e36f3e1a2",
+      "sha256": "8139080278edb96287576629e7d80933b380c1b82af60d3ede888d500cb68a3a",
+      "disposition": "retained",
+      "reason": "The exact added r15 paragraph is met by all seven preserved final parsed-expression comparisons including all help. Original final previews plus fresh six-page D001 supplement close the named coverage gap. No teaching change is needed solely for this production duty. Original historical evidence is not relabelled as r15 regeneration."
+    },
+    "D003": {
+      "teaching_path": "runs/y1-reader-20261008/iterations/003/teaching-v1.md",
+      "freeze_commit": "4cbf83f2dc2859d5123fc01a0c311a268d580483",
+      "sha256": "cd7426a9b70d0ac41aa3ca0418db8c89c391b67304016a7ad38f8379fe98b5a8",
+      "disposition": "retained",
+      "reason": "The exact added r15 paragraph is met by all seven preserved final parsed-expression comparisons including all help. Original final previews plus fresh six-page D001 supplement close the named coverage gap. No teaching change is needed solely for this production duty. Original historical evidence is not relabelled as r15 regeneration."
+    },
+    "D004": {
+      "teaching_path": "runs/y1-reader-20261008/iterations/004/teaching-v1.md",
+      "freeze_commit": "197b57555834d36952e948d4100d2f835c86b20c",
+      "sha256": "5adb3e95c2fa47c94b4c665d85dc2fe669e2c0086dbc2ebc194cd59720d5d8ad",
+      "disposition": "retained",
+      "reason": "The exact added r15 paragraph is met by all seven preserved final parsed-expression comparisons including all help. Original final previews plus fresh six-page D001 supplement close the named coverage gap. No teaching change is needed solely for this production duty. Original historical evidence is not relabelled as r15 regeneration."
+    },
+    "D005": {
+      "teaching_path": "runs/y1-reader-20261008/iterations/005/teaching-v2.md",
+      "freeze_commit": "32c553f279ac1e5771ff05b78a9951cbff3fee38",
+      "sha256": "4ae6d0f33e2957ebaf3bbd31c34e154c4a7c5eaab4bc3a09a9e909574b1a48e6",
+      "disposition": "retained",
+      "reason": "The exact added r15 paragraph is met by all seven preserved final parsed-expression comparisons including all help. Original final previews plus fresh six-page D001 supplement close the named coverage gap. No teaching change is needed solely for this production duty. Original historical evidence is not relabelled as r15 regeneration."
+    },
+    "D006": {
+      "teaching_path": "runs/y1-reader-20261008/iterations/006/regenerated-r13-candidate1/teaching-v3.md",
+      "freeze_commit": "28825d27b93baef43a5751eacecac81fa46841bc",
+      "sha256": "311afdef083a4468f18bcdd11a68975d2e6622661e0be3405a5c9f58b3f3a813",
+      "disposition": "retained",
+      "reason": "The exact added r15 paragraph is met by all seven preserved final parsed-expression comparisons including all help. Original final previews plus fresh six-page D001 supplement close the named coverage gap. No teaching change is needed solely for this production duty. Original historical evidence is not relabelled as r15 regeneration."
+    },
+    "D007": {
+      "teaching_path": "runs/y1-reader-20261008/iterations/007/revised-v3/teaching-v3.md",
+      "freeze_commit": "2c0a49dff10d407296675a9d52a2d664be1bb0f0",
+      "sha256": "6dc2823d9f931c1baaa6eb4ce5076ed2aef1859ba29255d5503eed627824ae54",
+      "disposition": "retained",
+      "reason": "The exact added r15 paragraph is met by all seven preserved final parsed-expression comparisons including all help. Original final previews plus fresh six-page D001 supplement close the named coverage gap. No teaching change is needed solely for this production duty. Original historical evidence is not relabelled as r15 regeneration."
+    }
+  },
+  "expected_applicable_candidate_controls": [
+    "references/execution-protocol.md",
+    "references/sasis.md",
+    "references/sasis/profile-manifest.json",
+    "references/sasis/student-testing-contract.txt",
+    "references/sasis/rewrite-guide.md",
+    "references/domain-patterns.md",
+    "references/state-tool.md",
+    "scripts/prof_state.py",
+    "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+    "references/sasis/student-role.txt"
+  ],
+  "affected_earlier_evidence_dir": "earlier-parser-evidence-r15"
+}

@@ -1,0 +1,60 @@
+{
+  "reruns": [
+    {
+      "record": "topic-check.json",
+      "exit_code": 1,
+      "json_equal": true,
+      "stderr": ""
+    },
+    {
+      "record": "full-check.json",
+      "exit_code": 1,
+      "json_equal": true,
+      "stderr": ""
+    },
+    {
+      "record": "topic-dependencies.json",
+      "exit_code": 0,
+      "json_equal": true,
+      "stderr": ""
+    },
+    {
+      "record": "full-dependencies.json",
+      "exit_code": 0,
+      "json_equal": true,
+      "stderr": ""
+    }
+  ],
+  "all_evidence_hashes_and_text_locators_verified": true,
+  "all_declared_dependencies_equal_current_recomputed_snapshot": true,
+  "sources": 28,
+  "source_portions": 34,
+  "requirements": {
+    "T1": "pass",
+    "T2": "pass",
+    "T3": "pass",
+    "T4": "pass",
+    "T5": "pass",
+    "T6": "pass",
+    "T7": "pass",
+    "T8": "pass",
+    "T9": "pass",
+    "T10": "pass",
+    "T11": "unverified",
+    "T12": "pass"
+  },
+  "output_checks": {
+    "coverage": "pass",
+    "author_full_read": "pass",
+    "answer_verification": "pass",
+    "source_navigation": "pass",
+    "destination_math": "pending",
+    "destination_typography": "pending",
+    "destination_navigation": "pending",
+    "independent_technical": "pending",
+    "fresh_sasis": "pending",
+    "final_review": "pending",
+    "publication": "pending"
+  },
+  "false_parent_gate_pass": false
+}

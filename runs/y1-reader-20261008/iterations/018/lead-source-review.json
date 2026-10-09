@@ -1,0 +1,82 @@
+{
+  "material_id": "D018",
+  "status": "root whole-source preparation only; not authoring or closure",
+  "created_utc": "2026-10-09T02:42:41.831948+00:00",
+  "source_sha256": "711e84263db3b675c39d18aa1951a55a4f026783732924324b6578913360c990",
+  "full_text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "full_original_image_pages_personally_opened": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "source_review_fully_read": true,
+  "source_map_read_scope": "source metadata only",
+  "read_output_chunks": [
+    "0caf89",
+    "9b5835"
+  ],
+  "visual_coverage": [
+    "All cover, FTC1 recall, every new-integrand example, FTC2 hypotheses and geometric limit steps.",
+    "Whole area-strip figure, averaged-integral derivation and all FTC1-from-FTC2 proof.",
+    "Both inconsistent sine/cosine examples are present on original images.",
+    "erf formula and full unnumbered-axis graph; Li definition and entire historical cryptography motivation.",
+    "All powers-of-ten, missing exponent in lower bound, claimed one-significant-figure rounding, Fresnel definitions, Bessel integral, C-prime request, next L(x) definition and final constant-integral footnote."
+  ],
+  "independent_deductions": [
+    "FTC2: subtract f(x) from h^(-1)integral_x^(x+h) f(t)dt. Absolute difference <=sup of |f(t)-f(x)| for |t-x|<=|h|; continuity makes it vanish for either sign h. Uses oriented integrals; does not require f positive. Endpoint statement is one-sided.",
+    "For FTC1, G defined froma has G-prime=f=F-prime; MVT yields F-G constant on a connected interval, G(a)=0, and integral_a^b f=F(b)-F(a). Source sin/cos example needs f=cos and the next-page integrand cos. Testa0,bpi gives integral sin2 but displayed sin endpoint difference0.",
+    "Continuous integral examples have domain conditions: sqrt(x) real x>=0; sinc requires its removable extension1 at0 for crossing; Li from2 remains ordinary continuous integral onx>1; L from1 requiresx>0. No principal-value convention is silently added.",
+    "erf-prime=2exp(-x\u00b2)/sqrt(pi)>0,second=-4x exp(-x\u00b2)/sqrt(pi); even integrand gives odd function, inflection0 and flattening tails. Its positive-infinity normalization is imported from DLMF, not established by FTC alone.",
+    "Source Fresnel C/S are valid conventions with t\u00b2 argument, different from DLMF pi*t\u00b2/2. Substitution gives Csource(x)=sqrt(pi/2) Cstandard(sqrt(2/pi)x), likewiseS; derivatives cos(x\u00b2),sin(x\u00b2).",
+    "Original Bessel coefficient1/(2pi) with limits0..pi yields1/2 atx0. StandardJ0 integral has1/pi and yields1. Equivalent doubled-interval normalization would be1/(2pi) over0..2pi, not original upper limit.",
+    "d-digit positive integers lie[10^(d-1),10^d); therefore original[10^200,10^201] is201 digits. Correct200-digit range[10^199,10^200]. Neither endpoint is prime. Source literal lower bound200 is missing exponent.",
+    "For10^200<=t<=10^201, denominator between200ln10 and201ln10; integral between9e200/(201ln10) and9e200/(200ln10). For200digits analogous bounds9e199/(200ln10),9e199/(199ln10). Constant500 denominator gives1.8e198 for original interval, whose one-significant-figure rounding is2e198, not1e198.",
+    "Calculus bounds control the logarithmic integral, not the difference from exact prime counts. PNT connection is an imported number-theory theorem. Candidate-key count alone cannot establish security without a scheme/attack/probability model. Source unspecified bank claim is unsupported."
+  ],
+  "integral_bounds": {
+    "original201_digit_lower": "1.944602157775754452169233965298231711766E+198",
+    "original201_digit_upper": "1.954325168564633224430080135124722870325E+198",
+    "correct200_digit_lower": "1.954325168564633224430080135124722870325E+197",
+    "correct200_digit_upper": "1.964145898054907763246311693592686301834E+197"
+  },
+  "primary_source_checks": [
+    {
+      "url": "https://dlmf.nist.gov/10.9.E1",
+      "web_ref": "turn220view0",
+      "actual_scope": "Eq10.9.1 and nearby definitions; not whole chapter",
+      "supports": "J0=(1/pi)integral0..pi cos(z sin theta)dtheta."
+    },
+    {
+      "url": "https://dlmf.nist.gov/7.2",
+      "web_ref": "turn221view0",
+      "actual_scope": "definitions7.2.1,7.2.4,7.2.7,7.2.8 and adjacent notation throughline213",
+      "supports": "erf normalization/real positive-infinity limit; standard Fresnel convention."
+    },
+    {
+      "url": "https://dlmf.nist.gov/27.12",
+      "web_ref": "turn221view1",
+      "actual_scope": "prime-count definition and Eq27.12.5 asymptotic theorem with context",
+      "supports": "Number-theory asymptotic link of pi(x) to li(x); no finite numerical error computed. No latest-record claims used."
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc8017.html",
+      "web_ref": "turn223view0 andturn223view1",
+      "actual_scope": "Sections3.1 and3.2 returnedlines384\u2013499; initialopen showedfrontmatteronly and targetedfind recoveredactualsections",
+      "supports": "RSA public key uses modulus product of at leasttwo distinctoddprimes and public exponent; private representation uses modulus/private exponent or factor/CRT data. Not a single unspecified secret prime or current security recommendation."
+    }
+  ],
+  "limits": [
+    "No differential-algebraic proof of non-elementary antiderivatives.",
+    "No exact prime count/security probability or modern key-size guidance.",
+    "Optics/circular-symmetry labels not derived; future teaching must bound these as context or research if consequential."
+  ],
+  "unread_original_portions": []
+}

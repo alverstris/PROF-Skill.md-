@@ -1,0 +1,247 @@
+{
+  "prepared_from_local_published_main": "e35a59a64ed1b01f7ae43e4ef46042f23cc7e2d6",
+  "cases": [
+    {
+      "material_id": "D006",
+      "scope": "Historical final-revision evidence preparation for proposed parser-preservation instruction; not final candidate regression, new authoring/SASIS or fresh visual review.",
+      "final_artifact": {
+        "path": "runs/y1-reader-20261008/iterations/006/regenerated-r13-candidate1/teaching-v3.md",
+        "freeze_commit": "28825d27b93baef43a5751eacecac81fa46841bc",
+        "sha256": "311afdef083a4468f18bcdd11a68975d2e6622661e0be3405a5c9f58b3f3a813",
+        "bytes": 28777,
+        "local_bytes_equal_recorded_sha": true,
+        "local_git_frozen_blob_exact": true,
+        "local_published_main_checked": "e35a59a64ed1b01f7ae43e4ef46042f23cc7e2d6",
+        "local_published_main_blob_exact": true
+      },
+      "reviewed_evidence_identity": [
+        {
+          "path": "runs/y1-reader-20261008/iterations/006/closure.md",
+          "bytes": 2603,
+          "sha256": "b5492f256f7973275efd254eca2e71f42ba034d50feb7f85ed3a11cf29329d56",
+          "equals_local_published_main_blob": true
+        },
+        {
+          "path": "runs/y1-reader-20261008/iterations/006/render-evidence/candidate1-v3-recovery/report.md",
+          "bytes": 5743,
+          "sha256": "61a2a1b15dd0b458ee50ed56d145f0b6a168c8bf8ba1a1879962db68f474e3db",
+          "equals_local_published_main_blob": true
+        },
+        {
+          "path": "runs/y1-reader-20261008/iterations/006/render-evidence/candidate1-v3-recovery/source-identity.json",
+          "bytes": 1735,
+          "sha256": "7377ed15d1d02d49c95951258ae8a509828e081a72a57097313518570d7408be",
+          "equals_local_published_main_blob": true
+        },
+        {
+          "path": "runs/y1-reader-20261008/iterations/006/render-evidence/candidate1-v3-recovery/payload-and-prose-findings.json",
+          "bytes": 340,
+          "sha256": "40e39ebf9d5949bc700bebf8c03433ab2f57428c7f474d223ccf2d1e09808650",
+          "equals_local_published_main_blob": true
+        },
+        {
+          "path": "runs/y1-reader-20261008/iterations/006/render-evidence/candidate1-v3-recovery/task-section-navigation.json",
+          "bytes": 2588,
+          "sha256": "918c697629607bcc9d37b10af64c4fe5d29f685ecc784cf31865a63b6f17b388",
+          "equals_local_published_main_blob": true
+        },
+        {
+          "path": "runs/y1-reader-20261008/iterations/006/parent-acceptance-candidate1-v3.md",
+          "bytes": 7965,
+          "sha256": "1c1fa73c95b441e35b9bde5dc5f2f0c52dee8ae2f9fd1b3a6c309ae3c5f601e6",
+          "equals_local_published_main_blob": true
+        },
+        {
+          "path": "runs/y1-reader-20261008/iterations/006/render-evidence/candidate1-v3-recovery/root-preview/inspection.json",
+          "bytes": 9433,
+          "sha256": "d14bb5d1a564690876b268872cc1715039c0a0efcdeab04e22b19eaacc248cf8",
+          "equals_local_published_main_blob": true
+        }
+      ],
+      "substantive_report_witnesses": [
+        {
+          "lines": [
+            11,
+            11
+          ],
+          "text": "The full embedded rawLines plus terminal newline equal the frozen source, and richTextTruncated is false. The complete article's prose and mathematical stream match after only documented Markdown/whitespace normalization. All337 mathematical payloads match exactly after one ordinary HTML parse:291inline and46display, including internal display newlines, types and order. No extra entity decoding repairs the comparison. Numeric-token order is unchanged. The final percentage spans P177/P179/P182/P183 retain correct signs, factors and units; the source's plain spaces survive. Previous candidate/v2 failures remain original evidence and are not relabelled passes."
+        },
+        {
+          "lines": [
+            13,
+            13
+          ],
+          "text": "All25source anchors and33internal links match the actual article in order; all targets occur once after GitHub's user-content prefix. Every A1\u2013A6 task links to its own hint and solution, each help section returns to its task, and each solution links to its own hint. All tasks precede grouped hints, which precede grouped complete solutions. The one external source link matches. Actual DOM contains218p,59a,337math-renderer,1ul and2li inside the article; no heading, table, caption or explicit prose-emphasis element. AllP001\u2013P194 locator comments remain ordered in source. No external figure asset is required by this document."
+        },
+        {
+          "lines": [
+            21,
+            21
+          ],
+          "text": "The preview input is byte-identical to the frozen Markdown; the Pandoc AST contains all337exact mathematical payloads. The header merely supplies conventional gt/lt command definitions. The unchanged12page PDF is SHA2567afdb856907475961f7372cefa5ede95ab530422b71bf874a00a1795d10ade6b. Original page2 and page11 PNGs fail complete decode although the export command succeeded; both originals are retained. Root produced and fully decoded12new full-page PNGs from that same PDF, then personally opened pages1\u201312 in order. Page-specific observations and hashes are in root-preview/inspection.json. All prose/math is legible; there is no clipped, overlapping or missing mathematical content. In particular, the two long P179percentage expressions on page11 fit their margins and need no width repair."
+        }
+      ],
+      "destination_math": {
+        "inline": 291,
+        "display": 46,
+        "total": 337,
+        "scope": "Original final report compares every ordered source expression/type/payload with actual immutable GitHub served article after one ordinary HTML parse, without recursive entity decoding, and verifies complete prose. Payload identity preserves source operands/operators/grouping at the inspected parser layer."
+      },
+      "independent_local_source_region_inventory": {
+        "method": "Read frozen source bytes for a separate math-span count partitioned at actual hints/solutions anchors; this is source coverage evidence, not a new destination or semantic check.",
+        "counts": {
+          "core_and_tasks": {
+            "inline": 202,
+            "display": 33
+          },
+          "hints": {
+            "inline": 23,
+            "display": 0
+          },
+          "solutions_and_ending": {
+            "inline": 66,
+            "display": 13
+          }
+        }
+      },
+      "help_coverage": "Whole-file expression/prose comparison includes all hints and complete solutions; explicit task-to-hint/solution/return/group-order checks and final source region inventory prevent relying only on core equations.",
+      "secondary_preview": {
+        "pages": 12,
+        "pdf_sha256": "7afdb856907475961f7372cefa5ede95ab530422b71bf874a00a1795d10ade6b",
+        "reviewer": "root",
+        "scope": "Original reviewer reported personally opening every complete final page. I read the full report and per-page findings; I did not re-open images in this preparation. Source/AST equivalence binds the preview mathematics to the final teaching.",
+        "not_a_learner_deliverable": true
+      },
+      "limits": [
+        "Historical immutable-file destination capture, not a fresh poll of current GitHub behavior.",
+        "No live GitHub pixels, MathJax execution, computed cascade, responsive behavior or clicks claimed.",
+        "A secondary PDF is separate evidence of legibility, not evidence of actual-host parsing.",
+        "No regeneration under the proposed future skill, observed human learning, or global closure claimed."
+      ],
+      "specific_limit": "Interrupted initial/recovery renderer sessions are preserved; the final report is explicitly root-completed, not falsely attributed to the interrupted reviewer. Root opened replacement images for all12 pages from unchanged PDF; original truncated pages2/11, pagination seams and20 PDF-target warnings remain disclosed.",
+      "parser_preservation_evidence_assessment": "Adequate explicit historical final-revision evidence for the proposed preservation check at the served parsed-content layer, plus complete separately bounded secondary-preview review.",
+      "minimal_recheck_recommendation": "No new source research, GitHub polling, teaching regeneration or preview reinspection is indicated solely by this proposed paragraph. Root must later confirm the actual adopted wording does not add an unperformed live-visual obligation and record this affected-evidence disposition with the candidate."
+    },
+    {
+      "material_id": "D007",
+      "scope": "Historical final-revision evidence preparation for proposed parser-preservation instruction; not final candidate regression, new authoring/SASIS or fresh visual review.",
+      "final_artifact": {
+        "path": "runs/y1-reader-20261008/iterations/007/revised-v3/teaching-v3.md",
+        "freeze_commit": "2c0a49dff10d407296675a9d52a2d664be1bb0f0",
+        "sha256": "6dc2823d9f931c1baaa6eb4ce5076ed2aef1859ba29255d5503eed627824ae54",
+        "bytes": 31051,
+        "local_bytes_equal_recorded_sha": true,
+        "local_git_frozen_blob_exact": true,
+        "local_published_main_checked": "e35a59a64ed1b01f7ae43e4ef46042f23cc7e2d6",
+        "local_published_main_blob_exact": true
+      },
+      "reviewed_evidence_identity": [
+        {
+          "path": "runs/y1-reader-20261008/iterations/007/closure.md",
+          "bytes": 4081,
+          "sha256": "e8c8c567f0d3d60632056192ce56317c5dbbcacb02ac7f6a77b1aea617a19459",
+          "equals_local_published_main_blob": true
+        },
+        {
+          "path": "runs/y1-reader-20261008/iterations/007/render-evidence/v3/report.md",
+          "bytes": 5584,
+          "sha256": "24349ce230891066df5d237a7dee1d107028f347ac324d0c2005a6514b0e9b17",
+          "equals_local_published_main_blob": true
+        },
+        {
+          "path": "runs/y1-reader-20261008/iterations/007/render-evidence/v3/source-identity.json",
+          "bytes": 1605,
+          "sha256": "51ec426d3a5fbf264d6ca37e4b003605dee20491d5f80fa85c53b098ea8448a4",
+          "equals_local_published_main_blob": true
+        },
+        {
+          "path": "runs/y1-reader-20261008/iterations/007/render-evidence/v3/payload-and-prose-findings.json",
+          "bytes": 338,
+          "sha256": "f04b3bd66c4dfc11ad8e82d18981a4d6e374a07d700421ee59a187ae3a5f0922",
+          "equals_local_published_main_blob": true
+        },
+        {
+          "path": "runs/y1-reader-20261008/iterations/007/render-evidence/v3/task-section-navigation.json",
+          "bytes": 2987,
+          "sha256": "e8ff95a73f52a252a990abbfdc070f54f707d890713de6eed36b6293ba401eea",
+          "equals_local_published_main_blob": true
+        },
+        {
+          "path": "runs/y1-reader-20261008/iterations/007/render-evidence/v3/preview/visual-inspection.json",
+          "bytes": 10459,
+          "sha256": "515f5bdd92ed737674cd3f8310e23939f82cf8131479be9f993114a1f504f1fd",
+          "equals_local_published_main_blob": true
+        },
+        {
+          "path": "runs/y1-reader-20261008/iterations/007/render-evidence/v3/preview/ast-math-check.json",
+          "bytes": 745,
+          "sha256": "75da415a2ea7967b59d2315d704f3ea44e3553c473bee53d9ecfa4e37efe7221",
+          "equals_local_published_main_blob": true
+        }
+      ],
+      "substantive_report_witnesses": [
+        {
+          "lines": [
+            5,
+            5
+          ],
+          "text": "Actual destination representation passes. All 371 mathematical expressions are wrapped correctly, in the correct order and type: 338 inline and 33 display. Every mathematical payload is exact after one ordinary HTML parse; internal display newlines are retained. Fence boundary newlines are delimiter syntax and excluded from the fenced TeX payload. No additional or recursive entity decoding was used. Full prose and mathematics match under documented removal of invisible comments/anchor/link syntax, conversion of mathematical delimiters, and whitespace folding. Prose outside math and numeric tokens are also independently checked. P001\u2013P165 remain ordered and invisible. There are no external constituent assets. V1 and v2 failures are preserved in their separate directories; their failures are not reclassified as passes."
+        },
+        {
+          "lines": [
+            7,
+            7
+          ],
+          "text": "Navigation representation passes. All 32 named targets and 53 internal links match source order/text/hrefs; each target referenced exists once. All seven questions reach their own hints and complete solutions; hints and solutions return to their own question, and solutions link to their own hint. All tasks precede all hints, which precede all solutions. The single external original-source link is retained. GitHub sanitizes anchor names with user-content-; actual client fragment translation/clicking/scrolling has not been observed."
+        },
+        {
+          "lines": [
+            11,
+            11
+          ],
+          "text": "Internal whole-document preview passes legibility and content-preservation checks. The frozen source was converted only between equivalent Markdown mathematical delimiters; the inverse conversion reconstructs the frozen bytes exactly. All 371 Pandoc mathematics AST payloads and types equal both the source and the actual-destination audit expectations. The PDF is 10 pages, SHA-256 ff52aa8cbe4a3825f78ad01ab1334bfd16a7574b4c55c799ef9fb4e003232bb3. I personally opened every complete final page 1\u201310, and reopened pages 2 and 9 individually. The final PNG hashes and per-page findings are recorded in preview/visual-inspection.json. No clipping, overlaps or unreadable mathematics were found; the long final quotient fits within the page. The named comparison operators and retained TeX thinspaces are visibly valid in this secondary renderer."
+        }
+      ],
+      "destination_math": {
+        "inline": 338,
+        "display": 33,
+        "total": 371,
+        "scope": "Original final report compares every ordered source expression/type/payload with actual immutable GitHub served article after one ordinary HTML parse, without recursive entity decoding, and verifies complete prose. Payload identity preserves source operands/operators/grouping at the inspected parser layer."
+      },
+      "independent_local_source_region_inventory": {
+        "method": "Read frozen source bytes for a separate math-span count partitioned at actual hints/solutions anchors; this is source coverage evidence, not a new destination or semantic check.",
+        "counts": {
+          "core_and_tasks": {
+            "inline": 220,
+            "display": 24
+          },
+          "hints": {
+            "inline": 42,
+            "display": 0
+          },
+          "solutions_and_ending": {
+            "inline": 76,
+            "display": 9
+          }
+        }
+      },
+      "help_coverage": "Whole-file expression/prose comparison includes all hints and complete solutions; explicit task-to-hint/solution/return/group-order checks and final source region inventory prevent relying only on core equations.",
+      "secondary_preview": {
+        "pages": 10,
+        "pdf_sha256": "ff52aa8cbe4a3825f78ad01ab1334bfd16a7574b4c55c799ef9fb4e003232bb3",
+        "reviewer": "/root/render_d007_v1",
+        "scope": "Original reviewer reported personally opening every complete final page. I read the full report and per-page findings; I did not re-open images in this preparation. Source/AST equivalence binds the preview mathematics to the final teaching.",
+        "not_a_learner_deliverable": true
+      },
+      "limits": [
+        "Historical immutable-file destination capture, not a fresh poll of current GitHub behavior.",
+        "No live GitHub pixels, MathJax execution, computed cascade, responsive behavior or clicks claimed.",
+        "A secondary PDF is separate evidence of legibility, not evidence of actual-host parsing.",
+        "No regeneration under the proposed future skill, observed human learning, or global closure claimed."
+      ],
+      "specific_limit": "Original renderer opened all10 final pages and reopened2/9; root later verified file hashes/read findings.31 PDF destination warnings, pagination seams and empty-log anomaly remain disclosed; captured compiler output supplies the warning evidence.",
+      "parser_preservation_evidence_assessment": "Adequate explicit historical final-revision evidence for the proposed preservation check at the served parsed-content layer, plus complete separately bounded secondary-preview review.",
+      "minimal_recheck_recommendation": "No new source research, GitHub polling, teaching regeneration or preview reinspection is indicated solely by this proposed paragraph. Root must later confirm the actual adopted wording does not add an unperformed live-visual obligation and record this affected-evidence disposition with the candidate."
+    }
+  ]
+}

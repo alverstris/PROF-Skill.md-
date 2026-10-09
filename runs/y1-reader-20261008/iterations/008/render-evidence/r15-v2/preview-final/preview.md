@@ -1,0 +1,348 @@
+<a id="start"></a>
+
+P001. Linear and quadratic approximations — MIT 18.01, Lecture 9
+
+P002. A derivative lets us replace a complicated function, close to a chosen input, by a simple polynomial. Here you will construct that polynomial, combine approximations without mixing incompatible orders, use them in limits, and decide whether an extra term matters for a stated accuracy. The route covers the supplied Fall 2006 lecture. Read P003–P054 in order, trying A1–A3 when you meet them. A4 is for a later revisit. The [hint group](#hints) and [complete-solution group](#solutions) are separate; each has a link back to its task. A partial attempt is enough to use the help.
+
+P003. We use ordinary algebra, function domains, tangent gradients, differentiation rules and definite integration. Angles in sine and cosine are in radians. You already have the standard small-angle and Maclaurin expansions in your starting material; here we connect them to a deliberate choice of base point, degree and error. No previous university lecture or relativity course is needed.
+
+P004. The base point and the displacement
+
+P005. Choose a fixed base point $a$ where the function and its derivatives are easy to evaluate. Write the nearby input as $x=a+h$, so $h=x-a$ is its signed displacement. A negative $h$ puts the input to the left of the base point. The lecture writes this same base point as $x_0$. We use both names only through the identification $a=x_0$.
+
+P006. The tangent line through $(a,f(a))$ has slope $f'(a)$. Its output at input $x$ is the linear model $L(x)$:
+
+$$
+L(x)=f(a)+f'(a)(x-a),\qquad f(x)\approx L(x)\quad(x\text{ near }a).
+$$
+
+The constant $f(a)$ supplies the starting height; slope times horizontal displacement supplies the change in height. This builds the line from the intended point and slope. Conversely, reading the line tells us those two features. “Linear approximation” includes the case of a constant line when the slope is zero. The equality defines $L$ exactly; the approximate sign compares it with $f$.
+
+P007. The lecture's first figure puts $x$ horizontally and $y$ vertically, marks $(x_0,f(x_0))$ on a curved graph, and draws its tangent through that point. Its line label is $y=b+a(x-x_0)$: there the letter $a$ means slope, whereas our base point $a$ means $x_0$. In our notation that same line is $y=f(a)+f'(a)(x-a)$. Curve and line share a height and direction at contact, but can separate elsewhere. This geometric agreement motivates a local approximation; it does not say their values are equal away from contact or that error always grows monotonically with distance.
+
+P008. There is a precise reason that the tangent gives the first-order change. For $h\ne0$, define $\varepsilon_1(h)$ as the difference between the secant slope and the derivative:
+
+$$
+\varepsilon_1(h)=\frac{f(a+h)-f(a)}{h}-f'(a).
+$$
+
+By the definition of differentiability, $\varepsilon_1(h)\to0$ as $h\to0$. Rearranging gives the exact statement
+
+$$
+f(a+h)=f(a)+f'(a)h+h\varepsilon_1(h).
+$$
+
+Thus the error divided by the displacement tends to zero. This is stronger than merely saying two numbers are “close.” It is what will justify a limit after division by $h$. It does not supply a numerical error bound at any chosen nonzero $h$.
+
+P009. A first worked case: a logarithm near 1
+
+P010. For $f(x)=\ln x$, take $a=1$. The real domain is $x\gt 0$, and $f(1)=0$, $f'(x)=1/x$, $f'(1)=1$. Therefore
+
+$$
+L(x)=0+1(x-1)=x-1,\qquad \ln x\approx x-1.
+$$
+
+At $x=1.02$ the displacement is $0.02$, so $\ln(1.02)\approx0.02$. The chosen base makes the logarithm and slope exact and easy; the target is nearby. If we call the displacement $u=x-1$, then $x=1+u$ and the same result becomes $\ln(1+u)\approx u$ near $u=0$. The function has not changed: the coordinate now measures distance from 1.
+
+<a id="a1"></a>
+
+P011. A1 — early attempt. Construct the tangent approximation to $f(x)=\sqrt{x}$ at $a=4$ and use it to estimate $\sqrt{4.04}$. State the displacement, the derivative at the base point, the resulting approximation and why 4 is useful. Distinguish approximate value from exact equality. This checks that you can build the model at a nonzero base, rather than only copy a zero-base formula. [Hint A1](#h1) · [Solution A1](#s1) · [Continue reading](#after-a1).
+
+<a id="after-a1"></a>
+
+P012. Five useful linear models near zero
+
+P013. With base point zero, the model is $f(0)+f'(0)x$. For sine, $f(0)=0$ and $f'(0)=\cos0=1$, giving $\sin x\approx x$. For cosine, the value is 1 and slope $-\sin0=0$, giving $\cos x\approx1$. The lecture's paired sketches show the line $y=x$ tangent to the sine curve at $(0,0)$, and the horizontal line $y=1$ tangent to cosine at $(0,1)$. A zero slope therefore means no first-order change, not a function that stays constant.
+
+P014. For $e^x$, both value and derivative at zero equal 1, giving $e^x\approx1+x$. For $\ln(1+x)$, the value is zero and derivative $1/(1+x)$ equals 1 at zero, giving $\ln(1+x)\approx x$, with $x\gt -1$. These are instances of the same tangent construction, not separate rules to guess from their shapes.
+
+P015. For a fixed real exponent $r$, let $f(x)=(1+x)^r$ on $1+x\gt 0$. Its value at zero is 1 and its derivative is $r(1+x)^{r-1}$, whose value at zero is $r$. Hence
+
+$$
+(1+x)^r\approx1+rx.
+$$
+
+The exponent stays fixed while $x$ varies. All five approximations are local: the substituted argument must be small. The notation $|x|\ll1$ means its magnitude is much less than 1; it is a scale description, not a promised number of correct decimal places. Coefficients matter too: a large fixed $r$ can require a smaller input for useful accuracy.
+
+P016. Substituting and multiplying consistently
+
+P017. Consider the lecture's function
+
+$$
+f(x)=\frac{e^{-2x}}{\sqrt{1+x}}=e^{-2x}(1+x)^{-1/2},\qquad x>-1.
+$$
+
+We want its linear approximation near zero. In $e^u\approx1+u$, set $u=-2x$ to get $e^{-2x}\approx1-2x$. In the power rule, set $r=-1/2$ to get $(1+x)^{-1/2}\approx1-x/2$. Both substituted arguments are small when $x$ is sufficiently close to zero, and the denominator remains nonzero there.
+
+P018. The source also reaches the reciprocal in two stages: $\sqrt{1+x}\approx1+x/2$, followed by $(1+u)^{-1}\approx1-u$ with $u=x/2$. The direct exponent $-1/2$ in P017 is a shorter way to the same first-order result. Taking a reciprocal is safe locally here because the original denominator and its model approach 1, not zero. A denominator approaching zero needs separate analysis.
+
+P019. Multiply the two linear polynomials exactly:
+
+$$
+(1-2x)(1-x/2)=1-\frac52x+x^2.
+$$
+
+For a linear approximation retain only constant and first-degree terms:
+
+$$
+f(x)\approx1-\frac52x.
+$$
+
+The coefficient of $x$ comes from the first factor's linear term times the second factor's constant, plus the reverse pairing. The displayed $x^2$ is only one contribution to the true quadratic coefficient. Each original factor has its own discarded quadratic term. Keeping just this cross term would pretend to know information we have already omitted.
+
+P020. The linear conclusion can also be checked through derivatives. At zero both factors equal 1; their slopes are $-2$ and $-1/2$. The product rule gives $f'(0)=(-2)(1)+(1)(-1/2)=-5/2$, while $f(0)=1$. Thus P008 licenses an error of the form $x\varepsilon_1(x)$, with $\varepsilon_1(x)\to0$. We can read the exact value and slope from this verified tangent model. An arbitrary numerical statement such as $f(x)\approx1-5x/2$, with no error meaning, would not by itself establish a derivative.
+
+P021. Using first-order information in a limit
+
+P022. The lecture asks for
+
+$$
+\lim_{x\to0}\frac{(1+2x)^{10}-1}{x}.
+$$
+
+Set $F(x)=(1+2x)^{10}$. Since $F(0)=1$, the quotient is the derivative quotient $[F(x)-F(0)]/x$. Differentiation gives $F'(x)=20(1+2x)^9$, so its limit is $F'(0)=20$. This is already a complete solution.
+
+P023. The approximation route expresses the same reasoning. Substituting $u=2x$, $r=10$ in the power model gives the tangent polynomial $1+20x$. More precisely, P008 says $F(x)=1+20x+x\varepsilon_1(x)$, with $\varepsilon_1(x)\to0$. Subtracting 1 and dividing by nonzero $x$ gives $20+\varepsilon_1(x)$, which tends to 20. Tracking the error explains why the approximate numerator is sufficient after division; replacing an expression by an approximation without tracking the division can fail.
+
+P024. Quadratic models: matching the change in slope
+
+P025. A tangent records height and slope. To record how the slope itself changes, use $f''(a)$. Write a degree-at-most-two model in the displacement as $Q(a+h)=A+Bh+Ch^2$. Its value, first derivative and second derivative at $h=0$ are $A$, $B$ and $2C$. Matching these with the function gives $A=f(a)$, $B=f'(a)$ and $C=f''(a)/2$. Therefore
+
+$$
+Q(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}2(x-a)^2.
+$$
+
+The factor $1/2$ compensates for differentiating a square twice. For the exact quadratic $f(x)=A+Bx+Cx^2$ at zero, the formula returns the original polynomial exactly. At a nonzero base, it still matches the value and both derivatives there. The lecture's “best-fit parabola” means this local matching, not a least-squares fit to data over a whole interval.
+
+P026. We will use the following local error fact: if $f''$ is continuous near $a$, then
+
+$$
+f(a+h)=f(a)+f'(a)h+\frac{f''(a)}2h^2+h^2\varepsilon_2(h),\qquad \varepsilon_2(h)\to0.
+$$
+
+Here the error divided by $h^2$ tends to zero. To see why, call the difference between function and quadratic $E(h)$. The matching in P025 gives $E(0)=E'(0)=0$ and $E''(h)=f''(a+h)-f''(a)$. Continuity makes the magnitude of $E''$ at most any chosen small number $\eta\gt 0$ on a sufficiently short interval around zero. Integrating from zero gives $|E'(t)|\le\eta|t|$, and integrating again gives $|E(h)|\le\eta h^2/2$. These bounds follow because an integral's magnitude cannot exceed the integral of a bound on its integrand; they work on either side of zero. Thus $|E(h)/h^2|$ can be made arbitrarily small. This justifies the error fact rather than assuming that derivative matching alone proves accuracy everywhere.
+
+P027. For a smooth function, the quadratic is a more informative local model. It is not guaranteed to beat the linear model at every distant input. A specified numerical accuracy needs a bound or a comparison with a sufficiently accurate value. In particular, a quadratic model can have zero square coefficient. For $\sin x$ at zero, $f''(0)=-\sin0=0$, so its quadratic model is still $x$.
+
+P028. A worked curvature example: cosine
+
+P029. For $f(x)=\cos x$ at zero, the value is 1, the slope $-\sin0$ is zero, and the second derivative $-\cos0$ is $-1$. Hence
+
+$$
+\cos x\approx1-\frac{x^2}{2}.
+$$
+
+The lecture's fourth figure compares this downward-opening parabola with the cosine curve, with $x$ horizontal and $y$ vertical. Both meet at height 1 with horizontal tangent and the same second derivative. The parabola captures the initial drop away from the maximum that the horizontal linear model misses. Far away it continues downward while cosine oscillates: the picture shows local agreement, not a replacement of the full cosine graph. At $x=0.1$, the two models give 1 and 0.995; the supplied check value $\cos(0.1)\approx0.9950041653$ shows the quadratic is much closer in this instance.
+
+P030. The five quadratic models
+
+P031. At zero, sine has values of $f,f',f''$ equal to $0,1,0$, and cosine has $1,0,-1$. Exponential has $1,1,1$. Inserting these triples into P025 gives
+
+$$
+\sin x\approx x,\qquad \cos x\approx1-\frac{x^2}{2},\qquad e^x\approx1+x+\frac{x^2}{2}.
+$$
+
+P032. For the logarithm, $f(x)=\ln(1+x)$ has $f'(x)=(1+x)^{-1}$ and $f''(x)=-(1+x)^{-2}$. Their values at zero are $0,1,-1$, so
+
+$$
+\ln(1+x)\approx x-\frac{x^2}{2},\qquad x>-1.
+$$
+
+For example, at $x=0.02$ this gives $0.02-(0.02)^2/2=0.0198$. The check value $\ln(1.02)\approx0.0198026273$ confirms the improvement over the earlier 0.02 in this case.
+
+P033. For $(1+x)^r$, a second differentiation gives $r(r-1)(1+x)^{r-2}$. Its value at zero is $r(r-1)$, so
+
+$$
+(1+x)^r\approx1+rx+\frac{r(r-1)}2x^2.
+$$
+
+Use a fixed real $r$, $1+x\gt 0$, and $x$ close to zero. If a new expression contains $kx$ in place of $x$, replace every occurrence, including the square: the last term contains $(kx)^2=k^2x^2$. All five functions have continuous second derivatives in a suitable open interval around zero, so P026 supplies the scaled error needed when a later calculation divides by $x^2$.
+
+<a id="a2"></a>
+
+P034. A2 — a changed application. For nonzero $x$ near zero, find the limit of $[\ln(1+2x)-2x]/x^2$. Show what survives subtraction and division. Explain why replacing the logarithm by only its linear approximation cannot settle this limit. Its real domain is $x\gt -1/2$. This tests the choice of approximation degree when leading terms cancel. [Hint A2](#h2) · [Solution A2](#s2) · [Continue reading](#after-a2).
+
+<a id="after-a2"></a>
+
+P035. Combining the quadratic terms
+
+P036. Return to $f(x)=e^{-2x}(1+x)^{-1/2}$. The exponential model uses the whole input $-2x$:
+
+$$
+e^{-2x}\approx1-2x+\frac{(-2x)^2}{2}=1-2x+2x^2.
+$$
+
+For the other factor, $r=-1/2$ gives $r(r-1)/2=(-1/2)(-3/2)/2=3/8$. Thus
+
+$$
+(1+x)^{-1/2}\approx1-\frac{x}{2}+\frac38x^2.
+$$
+
+P037. When multiplying, keep every pairing whose total degree is at most two. The constant is $1\cdot1$. The linear coefficient is $-2-1/2=-5/2$. The quadratic coefficient has three contributions: $2x^2\cdot1$, $(-2x)(-x/2)$, and $1\cdot(3x^2/8)$. Therefore
+
+$$
+f(x)\approx1-\frac52x+\left(2+1+\frac38\right)x^2
+=1-\frac52x+\frac{27}{8}x^2.
+$$
+
+Terms such as $(-2x)(3x^2/8)$ are cubic and are not retained in this quadratic model. This explains why the cross term $x^2$ seen in P019 was not the complete square term. Because each factor's omitted remainder divided by $x^2$ tends to zero and the factors stay bounded near zero, their products with those remainders also vanish after that division; cubic and higher polynomial terms do too.
+
+P038. Comparing with P025 gives $f''(0)/2=27/8$, hence $f''(0)=27/4$. There is also a check independent of collecting the polynomial terms. Write the two factors as $u$ and $w$. Applying the product rule twice yields $(uw)''=u''w+2u'w'+uw''$. At zero the needed values are $u=1,u'=-2,u''=4$ and $w=1,w'=-1/2,w''=3/4$. Therefore $f''(0)=4+2(-2)(-1/2)+3/4=27/4$. This check catches a missing cross term or a forgotten factor of 2.
+
+P039. A physical example: choosing the small variable
+
+P040. The lecture imagines a satellite moving past an observer on Planet Quirk. Its third figure is a schematic: an observer is below the satellite and an arrow shows the satellite moving horizontally. The arrow identifies relative motion; it supplies neither an orbital radius nor a trajectory calculation. For our mathematical model take constant relative speed $v$, ignore gravity, and compare an onboard clock with an inertial observer's frame. An inertial frame is one moving without acceleration. The relation introduced from special relativity is
+
+$$
+T'=\frac{T}{\sqrt{1-v^2/c^2}},\qquad 0\le v<c.
+$$
+
+Here $c$ is the speed of light, $T\gt 0$ is the elapsed time between two ticks on the moving clock, and $T'$ is the interval assigned to those same two events in the observer's frame. The prime on $T'$ labels this second time; it is not a derivative. Comparing event times requires accounting for light-signal travel, rather than timing only when signals reach a wristwatch. The model and this distinction are explained in [OpenStax, University Physics Volume 3, §5.3](https://openstax.org/books/university-physics-volume-3/pages/5-3-time-dilation).
+
+P041. Divide by $T$ to isolate a dimensionless ratio. Define $q=(v/c)^2$. In the power template set $u=-q$ and $r=-1/2$:
+
+$$
+\frac{T'}T=(1-q)^{-1/2}\approx1+\frac q2,
+\qquad T'\approx T\left(1+\frac{v^2}{2c^2}\right).
+$$
+
+The variable that is small here is $q$, not a speed measured in arbitrary units. The correction has positive sign because $ru=(-1/2)(-q)=q/2$. For nonzero speed the frame interval exceeds the onboard interval, consistent with the exact denominator being less than 1. The source's displayed approximation drops a factor $T$; it is restored here so time is never equated to a dimensionless number.
+
+P042. With the lecture's values $v=4\ \mathrm{km/s}$ and $c=3\times10^5\ \mathrm{km/s}$, the units cancel before squaring:
+
+$$
+q=\left(\frac{4}{3\times10^5}\right)^2
+=\frac{16}{9\times10^{10}}\approx1.78\times10^{-10}.
+$$
+
+The fractional increase $(T'-T)/T$ is approximately $q/2\approx8.89\times10^{-11}$. Multiplying by the onboard duration converts this fractional effect to a time: for a model interval $T=86400\ \mathrm{s}$, it is about $7.68\times10^{-6}\ \mathrm{s}$. A tiny fraction can accumulate into a relevant time difference.
+
+P043. Real GPS timing accounts for both motion and gravitational effects; this gravity-free example computes only the motion contribution. NIST's [Putting Einstein to the Test](https://www.nist.gov/atomic-clocks/a-powerful-tool-for-science/putting-einstein-test) explains why relativistic clock corrections matter to GPS. Our simplified number is not a complete prediction for a clock in an actual Earth orbit.
+
+P044. The quadratic power model adds
+
+$$
+\frac{r(r-1)}2u^2=\frac{(-1/2)(-3/2)}2(-q)^2=\frac38q^2.
+$$
+
+Consequently
+
+$$
+\frac{T'}T\approx1+\frac q2+\frac38q^2
+=1+\frac12\left(\frac vc\right)^2+\frac38\left(\frac vc\right)^4.
+$$
+
+This is quadratic in $q$ and fourth degree in $v/c$. At the speed in P042, the extra dimensionless term is about $1.19\times10^{-20}$; for the stated one-day onboard interval it adds about $1.02\times10^{-15}\ \mathrm{s}$. That is far smaller than the first correction. Whether it may be neglected depends on the required accuracy, duration and other model errors. The lecture's historical claim about all atomic clocks is not needed to make that comparison and is not assumed here as a current precision limit.
+
+<a id="a3"></a>
+
+P045. A3 — accuracy in context. Use the model in P040 with $T=100\ \mathrm{s}$ and $v/c=0.01$. Estimate $T'$ first with the linear and then with the quadratic model in $q=(v/c)^2$. The reference value of $T'/T$ is 1.0000500037503125, rounded to 16 decimal places. An estimate is acceptable here if its absolute error in $T'$ is below $10^{-7}\ \mathrm{s}$. Decide which estimate meets that criterion using the reference value, and explain why a term quadratic in $q$ is fourth degree in $v/c$. This checks the small-variable mapping, units and choice of useful accuracy; it asks for no claim about actual instrument capabilities. [Hint A3](#h3) · [Solution A3](#s3) · [Continue reading](#after-a3).
+
+<a id="after-a3"></a>
+
+P046. Choosing what to keep
+
+P047. Start with the quantity you need: a nearby value, a slope, a limit or a physical correction. Select an easy base point near the input and express the displacement or dimensionless small variable. Choose a degree that survives any planned cancellations and divisions. For a product, collect every contribution through that degree. Preserve the original domain and units, then interpret the result. A derivative calculation can be simpler than combining models, as in P022; both routes are legitimate.
+
+P048. There are two distinct checks. A local limit statement asks how an error behaves as the displacement tends to zero; P008 and P026 answer that. A numerical accuracy requirement asks how large the error is at a particular input; use an error bound or a reliable reference value, as in A3. Agreement of two successive approximations by itself is not a proof of their accuracy. It is useful information about the added term, not a universal error certificate.
+
+P049. Later retrieval and application
+
+P050. Revisit A4 after a break, perhaps the next day, adjusting the interval to your own study. The timing is a practical suggestion, not a universal optimum. First try recalling the formula without looking; then use it on the new product. Needing the formula again and miscombining correct recalled formulas are different things to repair. Checking with the lesson is part of the exercise.
+
+<a id="a4"></a>
+
+P051. A4. Write the quadratic approximation about a general base point $a$ and explain the factor $1/2$. Then obtain a quadratic approximation near zero for $g(x)=e^{2x}\sqrt{1-x}$, with $x\lt 1$. Show every coefficient through $x^2$ and use your result to state $g'(0)$, $g''(0)$, and
+
+$$
+\lim_{x\to0}\frac{g(x)-1-(3/2)x}{x^2}.
+$$
+
+Take the limit through nonzero $x$. Distinguish what you recalled from how you combined it; correct either part with the lesson if needed. This joins coefficient construction, derivative interpretation and cancellation in a changed product. [Hint A4](#h4) · [Solution A4](#s4).
+
+P052. Sources and scope
+
+P053. The source is [MIT OpenCourseWare, 18.01 Single Variable Calculus, Fall 2006, Lecture 9: Linear and Quadratic Approximations](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/40cb41807e6d67373f3299ce87c4d9b3_lec9.pdf). Its five examples, both five-function lists and all four visual relationships are covered above. The source's informal approximation equalities are written as approximations; the time factor and physical scope are clarified at their uses. The local error arguments and A1–A4 are added teaching, and the tasks are generated rather than attributed to a source examination.
+
+P054. The core route ends here. Go back to a task if you want another attempt before help. The next group contains hints only; complete solutions follow in their own group. [A1](#a1) · [A2](#a2) · [A3](#a3) · [A4](#a4).
+
+<a id="hints"></a>
+
+P055. Hints — partial help
+
+<a id="h1"></a>
+
+P056. Hint A1. Start with the known height $\sqrt4=2$. Differentiate $x^{1/2}$ and evaluate its slope at 4 before multiplying by the displacement $4.04-4$. The model must pass through $(4,2)$. [Return to A1](#a1).
+
+<a id="h2"></a>
+
+P057. Hint A2. Substitute the whole $2x$ into $u-u^2/2$. The linear term will disappear when you subtract $2x$, leaving the square term to interact with the denominator. For legitimacy after division, use the quadratic scaled-error statement in P026; first-order error alone is not enough. [Return to A2](#a2).
+
+<a id="h3"></a>
+
+P058. Hint A3. First square 0.01 to obtain $q$. Compute $1+q/2$ and then add $3q^2/8$. Each is a ratio: multiply by 100 seconds before comparing with the reference time. Compare the absolute difference to the threshold, rather than rounding both times to the same short decimal. [Return to A3](#a3).
+
+<a id="h4"></a>
+
+P059. Hint A4. A term $C(x-a)^2$ has second derivative $2C$. For the product, use exponential input $2x$ and power input $-x$ with exponent $1/2$. The square coefficient must include the two individual square terms and the product of the two linear terms. To extract $g''(0)$, double that coefficient; to handle the limit, first identify what subtraction removes. [Return to A4](#a4).
+
+P060. End of hints. The complete solutions begin below. [Return to the start](#start) or choose [A1](#a1), [A2](#a2), [A3](#a3), [A4](#a4) before continuing.
+
+<a id="solutions"></a>
+
+P061. Complete solutions — reasoned answers
+
+<a id="s1"></a>
+
+P062. Solution A1. The base point 4 is close to 4.04 and has an exact simple square root. The displacement is $h=0.04$. Since $f'(x)=1/(2\sqrt{x})$ for $x\gt 0$, the slope at 4 is $1/4$. Thus
+
+$$
+L(x)=2+\frac14(x-4),\qquad \sqrt{4.04}\approx L(4.04)=2.01.
+$$
+
+The equality concerns the polynomial value; the square root is approximate. As a quick check, $(2.01)^2=4.0401$, so the estimated root is slightly too large, consistent with the square-root graph bending downward. The central repair for a wrong base displacement is to return to $h=x-a$; using $4.04$ itself as the change would move from the wrong point. That is an anticipated wrong route, not an observed learner error. [Return to A1](#a1) · [Continue core reading](#after-a1).
+
+<a id="s2"></a>
+
+P063. Solution A2. The quadratic logarithm model gives
+
+$$
+\ln(1+2x)=2x-\frac{(2x)^2}{2}+x^2\delta(x)
+=2x-2x^2+x^2\delta(x),\qquad \delta(x)\to0.
+$$
+
+To match P026 exactly, its remainder in input $u=2x$ is $(2x)^2\varepsilon_2(2x)$; writing $\delta(x)=4\varepsilon_2(2x)$ makes the displayed form and its vanishing limit explicit. Subtracting $2x$ and dividing by nonzero $x^2$ leaves $-2+\delta(x)$, so the requested limit is $-2$.
+
+P064. A first-order model would give $\ln(1+2x)=2x+x\delta_1(x)$ with $\delta_1(x)\to0$. After subtraction and division by $x^2$, the unknown part is $\delta_1(x)/x$. Its limit is not fixed merely by $\delta_1(x)\to0$: for example, $\delta_1(x)=kx$ tends to zero for every fixed $k$ but gives quotient $k$. Therefore an answer of zero from cancelling the visible linear terms would discard exactly the information the problem asks for. This is why the changed denominator requires quadratic information. [Return to A2](#a2) · [Continue core reading](#after-a2).
+
+<a id="s3"></a>
+
+P065. Solution A3. Here $q=0.01^2=10^{-4}$. The linear ratio is $1+q/2=1.00005$, so $T'_{\mathrm{linear}}=100.005\ \mathrm{s}$. The extra quadratic ratio is $3q^2/8=3.75\times10^{-9}$, giving
+
+$$
+T'_{\mathrm{quadratic}}=100(1.00005000375)\ \mathrm{s}
+=100.005000375\ \mathrm{s}.
+$$
+
+Multiplying the supplied reference ratio by 100 gives $100.00500037503125\ \mathrm{s}$. The linear absolute error is approximately $3.7503125\times10^{-7}\ \mathrm{s}$, above the allowed $10^{-7}\ \mathrm{s}$. The quadratic absolute error is approximately $3.125\times10^{-11}\ \mathrm{s}$, below it. The reference's rounding contributes at most $5\times10^{-15}\ \mathrm{s}$ after multiplication, too little to change either decision.
+
+P066. Because $q=(v/c)^2$, its square is $q^2=(v/c)^4$. “Quadratic” specifies degree in the chosen expansion variable. The acceptable estimate is quadratic in $q$ for this task's supplied accuracy. This decision uses an actual reference comparison; simply noticing that the extra term is small would not establish the required error. [Return to A3](#a3) · [Continue core reading](#after-a3).
+
+<a id="s4"></a>
+
+P067. Solution A4. The general formula is $Q(x)=g(a)+g'(a)(x-a)+g''(a)(x-a)^2/2$. Differentiating the square term twice gives $g''(a)$ because the second derivative of $(x-a)^2$ is 2. For the new product, the two expansions are
+
+$$
+e^{2x}\approx1+2x+2x^2,
+\qquad
+\sqrt{1-x}\approx1-\frac x2-\frac{x^2}{8}.
+$$
+
+The power square coefficient is $(1/2)(-1/2)/2=-1/8$, and $(-x)^2=x^2$. The linear coefficient of the product is $2-1/2=3/2$. The square coefficient is $2+(2)(-1/2)-1/8=7/8$. Therefore
+
+$$
+g(x)\approx1+\frac32x+\frac78x^2,
+\qquad g'(0)=\frac32,\qquad g''(0)=\frac74.
+$$
+
+P068. Both factors are smooth near zero, and the quadratic remainder of their product divided by $x^2$ tends to zero by the same multiplication argument as P037. Subtracting $1+(3/2)x$ removes the constant and linear terms; division by $x^2$ leaves $7/8$ plus a term tending to zero. The limit is $7/8$. Recalling the general coefficient formula is retrieval; choosing the substituted inputs and collecting all three square contributions is application to a changed expression. If the result differs, compare those three contributions first, then check whether you doubled the square coefficient when reading the second derivative. [Return to A4](#a4) · [Return to the start](#start).

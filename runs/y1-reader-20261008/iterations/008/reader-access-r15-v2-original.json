@@ -1,0 +1,308 @@
+{
+  "schema": "sasis-original-access-report-v1",
+  "role": "SASIS",
+  "revision": "teaching-r15-v2",
+  "isolation": "instruction-only; no claim of erased pretraining or technical memory controls",
+  "original_before_author_feedback": true,
+  "repository": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+  "commit": "a6b7aaaf2ded04bb6b0c2da2528234d36ca2f6d4",
+  "retrieval_method": "read-only git show of exactly the two permitted immutable objects; bytes.decode('utf-8')",
+  "range_convention": "zero-based half-open indices in raw UTF-8-decoded text, with original newline characters retained",
+  "max_chunk_characters": 14500,
+  "baseline_fully_read_before_teaching": true,
+  "inputs": {
+    "baseline": {
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "bytes": 247840,
+      "raw_utf8_characters": 246945,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "sha256_verified": true,
+      "full_read": true,
+      "coverage": [
+        "H240",
+        "H245 Pure Core Y540/Y541",
+        "H245 Statistics Y542",
+        "H245 Mechanics Y543",
+        "H556",
+        "H432"
+      ]
+    },
+    "teaching": {
+      "path": "runs/y1-reader-20261008/iterations/008/revised-r15-v2/teaching-r15-v2.md",
+      "bytes": 27868,
+      "raw_utf8_characters": 27819,
+      "sha256": "b6e93b986e2a77763c556a4b5fc5cb42f43269742d0af9bd06021d7aa3ad7668",
+      "sha256_verified": true,
+      "full_read": true,
+      "coverage": "Opening anchor through P068 and final links; all P001-P068, displayed equations, four prose visual relationships, A1-A4, hints, complete solutions, sources and scope; single complete teaching file"
+    }
+  },
+  "reads": [
+    {
+      "read_order": 1,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 0,
+        "end_exclusive": 14475
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "fc2b80",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 2,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 14475,
+        "end_exclusive": 28847
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "612b9f",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 3,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 28847,
+        "end_exclusive": 43077
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "7e3a90",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 4,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 43077,
+        "end_exclusive": 57266
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "3b7864",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 5,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 57266,
+        "end_exclusive": 71643
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "51c9ae",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 6,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 71643,
+        "end_exclusive": 85718
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "c15805",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 7,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 85718,
+        "end_exclusive": 100166
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "edb08d",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 8,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 100166,
+        "end_exclusive": 114481
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "40a918",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 9,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 114481,
+        "end_exclusive": 128426
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "5e87bb",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 10,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 128426,
+        "end_exclusive": 142727
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "036bb9",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 11,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 142727,
+        "end_exclusive": 157024
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "fe2760",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 12,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 157024,
+        "end_exclusive": 171522
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "a05568",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 13,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 171522,
+        "end_exclusive": 185622
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "020ce2",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 14,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 185622,
+        "end_exclusive": 199958
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "548702",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 15,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 199958,
+        "end_exclusive": 214244
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "2d09c3",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 16,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 214244,
+        "end_exclusive": 228382
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "91ca61",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 17,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 228382,
+        "end_exclusive": 242518
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "b0f378",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 18,
+      "input": "baseline",
+      "raw_character_range": {
+        "start_inclusive": 242518,
+        "end_exclusive": 246945
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "1b0087",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 19,
+      "input": "teaching",
+      "raw_character_range": {
+        "start_inclusive": 0,
+        "end_exclusive": 14239
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "6e2301",
+      "exit_code": 0,
+      "truncated": false
+    },
+    {
+      "read_order": 20,
+      "input": "teaching",
+      "raw_character_range": {
+        "start_inclusive": 14239,
+        "end_exclusive": 27819
+      },
+      "tool": "exec_command",
+      "tool_output_chunk_id": "238f2d",
+      "exit_code": 0,
+      "truncated": false
+    }
+  ],
+  "access_failures": [],
+  "input_limits": [],
+  "external_citations_opened": false,
+  "other_subject_inputs_consulted": false,
+  "other_agent_content_consulted": false,
+  "source_provenance_unverified": [
+    "MIT source completeness and source-specific descriptions",
+    "source omitted time factor",
+    "source historical atomic-clock claim"
+  ],
+  "independent_scientific_validation_not_performed": [
+    "P040 relativity premise",
+    "P043 GPS contextual statement"
+  ],
+  "rendering_limit": "Raw frozen Markdown and mathematical/prose representations read; no separate source-image or application-rendering inspection.",
+  "finding": {
+    "established_teaching_defects": 0,
+    "required_conclusions_blocked": 0,
+    "unresolved_provisional_content_gaps": 0,
+    "scope": "No established defect within permitted premises; not a claim of every latent error discovered or human learning verified."
+  },
+  "report_binding": {
+    "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/008/reader-report-r15-v2-original.md",
+    "sha256": "cebc4976dd4d4c230f3ca1f3b391b2922c2cd207403c1ff9dde72b3128176747",
+    "bytes": 23636
+  }
+}

@@ -1,0 +1,84 @@
+cos(x)
+y
+x
+1-  x2/2
+Figure 4: Quadratic approximation to cos(x). 
+0.0.1 
+Basic Quadratic Approximations 
+: 
+f(x) ≈ f(0) + f 0(0)x + f 00
+2
+(0) x 2 
+(x ≈ 0) 
+1. sin x ≈ x 
+(if x ≈ 0) 
+2 
+x 
+2. cos x ≈ 1 − 2 
+(if x ≈ 0) 
+3. e x ≈ 
+1 
+1 + x + x 2 
+(if x ≈ 0) 
+2 
+4. ln(1 + x) ≈ x − 1 x 2 
+(if x ≈ 0) 
+2 
+5. (1 + x)r ≈ 1 + rx + r(r − 1) x 2 
+(if x ≈ 0) 
+2 
+Proofs: The proof of these is to evaluate f(0), f 0(0), f 00(0) in each case. We carry out Case 4 
+⇒
+f(x) = ln(1 + x)
+= 
+f(0) = ln 1 = 0 
+1 
+f 0(x) = [ln(1 + x)]0 =
+= 
+f 0(0) = 1 
+1 + x 
+⇒ 
+ 
+
+1 
+f 00(x)
+= 
+1 + 
+0 
+−1 
+x 
+= (1 + x)2 
+= ⇒ 
+f 00(0) = −1 
+Let us apply a quadratic approximation to our Planet Quirk example and see where it gives. 
+ 
+1 − v
+c2
+2 −1/2 
+≈ 1 + 2
+1 v
+c2
+2 
++ 
+" 
+( −
+2
+1 )( −
+2 
+2
+1 − 1)  
+− v
+c2
+2 2 # 
+Case 5 with x = −
+c
+v
+2
+2 
+, r = − 2
+1 
+5 
+Lecture 9  
+ 
+ 
+18.01 Fall 2006 

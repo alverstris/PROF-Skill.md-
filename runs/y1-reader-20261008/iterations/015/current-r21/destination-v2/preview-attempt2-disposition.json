@@ -1,0 +1,5 @@
+{
+  "status": "Rejected as final native-navigation preview; preserved intact",
+  "issue": "Attaching the Span fixed Solution Q3, but TeX empty hypertarget in vertical mode still left Q4 target on page7 while paragraph begins page8. Direct target-to-label page comparison caught this.",
+  "repair": "Prepend leavevmode to generated hypertarget commands so the target enters the same horizontal paragraph line. AST and learner content remain unchanged."
+}

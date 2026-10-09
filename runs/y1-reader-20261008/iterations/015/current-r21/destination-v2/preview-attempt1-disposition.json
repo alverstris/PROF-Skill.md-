@@ -1,0 +1,5 @@
+{
+  "status": "Rejected as final native-navigation preview; preserved intact",
+  "issue": "Standalone anchor paragraphs may stay on preceding page; solutions--a3 target page10 but visible Solution Q3 begins page11. Source task q4 also targets preceding page. Initial validity-only target check did not establish landing-label correspondence.",
+  "repair": "Attach each empty anchor Span to following actual paragraph before inserting Needspace. Recheck canonical AST, all native named target pages versus extracted label pages and all final page images."
+}

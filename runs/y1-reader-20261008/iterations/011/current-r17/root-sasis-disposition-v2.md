@@ -1,0 +1,11 @@
+D011 root disposition of complete original SASIS v2
+
+Root read all147 lines of sasis-reader-v2-original.md (SHA256 5e6094041c7d844169f30141a684b249b2f4402190c704bacfe3bb2a4acfd918), including complete baseline access ranges, all51 paragraph reconstructions, four image descriptions, all prompts/hints/solutions and ending. All six input identities match the frozen condition. Original report remains unchanged.
+
+Full subject access is established within an instruction whitelist, not a technical sandbox or erased pretraining. However, first-display text went beyond radar and satellite insertions before their images were viewed; later rereading does not undo that chronological fact. The report is retained as qualified full-content evidence, not final strict sequential-reading admission. Final v3 requires its own fresh reader with text retrieval stopping at every image insertion before any later passage.
+
+P014 minor referent ambiguity is supported: P012 changes to departure, while P014 says “At the specified instant” and resumes the original approach numbers. P013 source-alternative wording and explicit negative sign make the intended relation recoverable; there is no established derivative error or missing mathematical premise. A narrow explicit return to the worked approaching-car example removes the ambiguity without changing mathematics or adding instruction.
+
+All other substantive reader connections agree with root independent source/calculation/full-author audit. Provenance limits are properly separate: root and author actually inspected all original source pages and consequential figures. The conditional mirror discussion does not promise an unavailable numerical model. The local approximation is correctly bounded and RR3 supplies an exact comparison. No student-performance claim follows.
+
+Consolidated repair also includes the independent actual-destination failure detailed in root-destination-v2-disposition.md: protect all185 inline payloads while preserving all201 TeX expressions; two fixed-c instances must become recognized math nodes. Four v2 figures stay unchanged. Original v1/v2 reports, all failures and raw destination evidence remain preserved. No substantive PROF change is justified: existing obligations cover ambiguity, sequential reading and actual parser preservation. D011 remains incomplete;10/76 closed.

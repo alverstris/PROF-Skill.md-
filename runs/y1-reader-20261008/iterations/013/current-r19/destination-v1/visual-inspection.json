@@ -1,0 +1,51 @@
+{
+  "all3_fresh_PNGs_opened": true,
+  "all3_fresh_SVG_fullframe_renders_opened": true,
+  "images": [
+    {
+      "png": "figures/figure-1-parallel-lines.png",
+      "sha256": "802174ba2825a78c2aaeb1e3bb80193398668f9bf8af1fa8185de9c0afe1af1f",
+      "findings": "Figure1: y=x², secant y=4x−3 and tangent y=4x−4 at (2,4), endpoints (1,1),(3,9), lower dashed parallel line and upward arrow agree with sectionA/B. All labels and full frame readable in PNG and fresh-SVG render."
+    },
+    {
+      "png": "figures/figure-2-corner.png",
+      "sha256": "ffcb7418488dcdb45c9e1eab91ac7a554a578e061a9fc9f6653c889e2432712f",
+      "findings": "Figure2: |x| endpoints (−1,1),(2,2), secant slope1/3, first-contact line y=x/3 at (0,0), lower parallel line/upward shift and corner annotation agree with sectionB. Full PNG and SVG frames readable."
+    },
+    {
+      "png": "figures/figure-3-tangent-error.png",
+      "sha256": "ffbd570eb22b77c6016f65841db03776dfab02967b6b197cb79ce4245c54a8f1",
+      "findings": "Figure3: y=x², tangent2x−1 at (1,1), vertical error between (2,3) and (2,4) with output difference1 agree with sectionC. Full PNG and SVG frames readable; no clipping or missing labels."
+    }
+  ],
+  "SVG_renderer": "Inkscape, 150dpi, full SVG page",
+  "SVG_render_results": [
+    {
+      "svg": "figures/figure-1-parallel-lines.svg",
+      "render": "svg-render/figure-1-parallel-lines.png",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "\n** (inkscape:6): WARNING **: 18:13:17.312: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function.\n",
+      "render_sha256": "46694b0ca9de045b713aad2f1c860ff056cd1c9c679cc22275bc18433a2741b4"
+    },
+    {
+      "svg": "figures/figure-2-corner.svg",
+      "render": "svg-render/figure-2-corner.png",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "\n** (inkscape:14): WARNING **: 18:13:17.711: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function.\n",
+      "render_sha256": "cd9439d2631e1054bd80315b585b8a4640d6a562bf0834c4917115b63f33205c"
+    },
+    {
+      "svg": "figures/figure-3-tangent-error.svg",
+      "render": "svg-render/figure-3-tangent-error.png",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "\n** (inkscape:22): WARNING **: 18:13:18.004: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function.\n",
+      "render_sha256": "a9e6c78ad8567cadcf273eef99408d884ac7e379a212d2eefe6b2dd47702dd8b"
+    }
+  ],
+  "SVG_warning_disposition": "All three renders exit0. GtkRecentManager initialization warnings are preserved in svg-render.json; full-frame inspection found no absent or damaged content.",
+  "material_image_defects": [],
+  "internal_PDF_preview": "NOT PERFORMED — root held expensive preview for known actual parser-failing v1; corrected immutable packet requires a fresh final preview."
+}

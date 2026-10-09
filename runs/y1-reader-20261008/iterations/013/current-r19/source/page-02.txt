@@ -1,0 +1,27 @@
+Lecture 14 
+18.01 Fall 2006 
+Lecture 14: Mean Value Theorem and Inequalities 
+Mean-Value Theorem 
+The Mean-Value Theorem (MVT) is the underpinning of calculus. It says: 
+If f is diﬀerentiable on a < x < b, and continuous on a ≤ x ≤ b, then 
+f(b) − f(a) = f 0(c) 
+(for some c, a < c < b)
+b − a 
+f(b) − f(a)
+Here, 
+is the slope of a secant line, while f 0(c) is the slope of a tangent line. 
+b − a 
+secant line
+slope 
+f’(c)
+a
+b
+c
+Figure 1: Illustration of the Mean Value Theorem. 
+Geometric Proof: Take (dotted) lines parallel to the secant line, as in Fig. 1 and shift them up 
+from below the graph until one of them ﬁrst touches the graph. Alternatively, one may have to start 
+with a dotted line above the graph and move it down until it touches. 
+If the function isn’t diﬀerentiable, this approach goes wrong. For instance, it breaks down for 
+the function f(x) = |x|. The dotted line always touches the graph ﬁrst at x = 0, no matter what its 
+slope is, and f 0(0) is undeﬁned (see Fig. 2). 
+1 

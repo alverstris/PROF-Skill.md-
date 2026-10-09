@@ -1,0 +1,42 @@
+{
+  "finite_remainders": [
+    {
+      "n": 0,
+      "R": "exp(x) - 1",
+      "R_at_zero": "0",
+      "derivative": "exp(x)",
+      "derivative_recurrence_exact": true
+    },
+    {
+      "n": 1,
+      "R": "-x + exp(x) - 1",
+      "R_at_zero": "0",
+      "derivative": "exp(x) - 1",
+      "derivative_recurrence_exact": true
+    },
+    {
+      "n": 2,
+      "R": "-x**2/2 - x + exp(x) - 1",
+      "R_at_zero": "0",
+      "derivative": "-x + exp(x) - 1",
+      "derivative_recurrence_exact": true
+    },
+    {
+      "n": 3,
+      "R": "-x**3/6 - x**2/2 - x + exp(x) - 1",
+      "R_at_zero": "0",
+      "derivative": "-x**2/2 - x + exp(x) - 1",
+      "derivative_recurrence_exact": true
+    }
+  ],
+  "absolute_secant": "(a + b)/(-a + b)",
+  "minus_one_quadratic_remainder": "-1/2 + exp(-1)",
+  "minus_one_quadratic_remainder_numeric": -0.13212055882855767,
+  "counterexample_domain": {
+    "f": "-1/x",
+    "derivative": "x**(-2)",
+    "f_minus1": 1,
+    "f_plus1": -1
+  },
+  "limits": "Symbolic checks support algebra, not teaching accessibility or source reading."
+}

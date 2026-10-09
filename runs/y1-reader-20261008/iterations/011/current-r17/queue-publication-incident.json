@@ -1,0 +1,19 @@
+{
+  "faulty_commit": "dd2fbd33e7492e24b44a78b862c4cc3d543fbd11",
+  "faulty_queue_bytes": 300059,
+  "faulty_queue_sha256": "9e598b39c4143eefe31f9c41e051e103b0641f97096cca59fd36a32c071cdb68",
+  "correct_queue_bytes": 304873,
+  "correct_queue_sha256": "5202b47919d20d09bcb12f3a42969fdaa1baf4b69151bd1218359e3dd238d1e9",
+  "cause": "Base64 subprocess output was truncated at requested output-token cap; publisher failed to check length and local blob SHA before accepting API blob. Comparing remote tree to uploaded blob alone did not establish equality to intended local bytes.",
+  "affected_path": "runs/y1-reader-20261008/queue.json",
+  "other_closure_paths": "All other actual commit files compared byte-exact to intended local source and match; RUN local adds new D011 activation prefix only. Skill/content unchanged.",
+  "remedy": "Restore exact original local queue; validate byte length, local Git blob SHA before mutation, published raw bytes and JSON counts afterwards. Preserve corrupt bytes and faulty commit.",
+  "scope": {
+    "original_ids": 147,
+    "eligible": 76,
+    "excluded": 71,
+    "closed": 10,
+    "remaining": 66
+  },
+  "D011_generation_dependency": "Actual r17 skill/source/baseline unchanged; fresh author may continue. This is repository metadata transfer, not a teaching-rule change."
+}

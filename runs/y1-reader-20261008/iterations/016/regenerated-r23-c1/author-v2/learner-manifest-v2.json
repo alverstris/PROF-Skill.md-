@@ -1,0 +1,100 @@
+{
+  "revision": "d016-r23-c1-learner-v2-local-repair",
+  "frozen_at_utc": "2026-10-09T18:03:54.844005+00:00",
+  "immutable": true,
+  "constituents": [
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/author-v2/learner/notes.md",
+      "relative_path": "learner/notes.md",
+      "bytes": 24790,
+      "sha256": "7b91a08087ddfee2137ac13ce7a0dbd276e487166db1fa112ef4b11beda84c3a",
+      "lines": 308,
+      "v1_sha256": "ed58e55175508f36f831dd4340e46f87a62bfb1e0256ffb62f12e3adae4db40f",
+      "changed": true
+    },
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/author-v2/learner/hints.md",
+      "relative_path": "learner/hints.md",
+      "bytes": 2903,
+      "sha256": "1ce9784fb886d58811990954c0a934b91236d7cfadd00a42294b307b9097f3f2",
+      "lines": 51,
+      "v1_sha256": "1ce9784fb886d58811990954c0a934b91236d7cfadd00a42294b307b9097f3f2",
+      "changed": false
+    },
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/author-v2/learner/solutions.md",
+      "relative_path": "learner/solutions.md",
+      "bytes": 9041,
+      "sha256": "77368b5c1607522f2e358b849a9c10ec17b10366265553081c159747d449e2a0",
+      "lines": 186,
+      "v1_sha256": "00b4bebca64c3ff16de23b2456e5769906a0e74b22683be497e82915410fe65e",
+      "changed": true
+    },
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/author-v2/learner/figures/rectangles.png",
+      "relative_path": "learner/figures/rectangles.png",
+      "bytes": 68208,
+      "sha256": "91e367332338640bce2532f89d0b327f7d4404aec075e53cebae3bc380d62112",
+      "lines": null,
+      "v1_sha256": "91e367332338640bce2532f89d0b327f7d4404aec075e53cebae3bc380d62112",
+      "changed": false
+    },
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/author-v2/learner/figures/sample-rectangle.png",
+      "relative_path": "learner/figures/sample-rectangle.png",
+      "bytes": 35502,
+      "sha256": "d029db7107364ecc5736fb618331c3df740374b598d9c75b021a1658e0a5d4a9",
+      "lines": null,
+      "v1_sha256": "d029db7107364ecc5736fb618331c3df740374b598d9c75b021a1658e0a5d4a9",
+      "changed": false
+    },
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/author-v2/learner/figures/staircase.png",
+      "relative_path": "learner/figures/staircase.png",
+      "bytes": 72621,
+      "sha256": "d9a04631c172d3f649600a3331aca41d08bc2e2c372d05c38b6cff72b3b4565d",
+      "lines": null,
+      "v1_sha256": "d9a04631c172d3f649600a3331aca41d08bc2e2c372d05c38b6cff72b3b4565d",
+      "changed": false
+    }
+  ],
+  "read_order": [
+    "learner/notes.md (in order; inspect each inserted figure and caption at its insertion)",
+    "learner/hints.md (Q1–Q6)",
+    "learner/solutions.md (Q1–Q6)"
+  ],
+  "figure_insertions": [
+    {
+      "file": "learner/notes.md",
+      "line": 34,
+      "insertion": "![The region under x squared and four right-endpoint rectangles on the unit interval.](figures/rectangles.png)",
+      "caption_line": 36
+    },
+    {
+      "file": "learner/notes.md",
+      "line": 66,
+      "insertion": "![Top and side views of a four-layer staircase with inner and outer square pyramids.](figures/staircase.png)",
+      "caption_line": 68
+    },
+    {
+      "file": "learner/notes.md",
+      "line": 125,
+      "insertion": "![A general sample rectangle showing its sample point, width and graph height.](figures/sample-rectangle.png)",
+      "caption_line": 127
+    }
+  ],
+  "change_scope": "Exactly 14 affected $$ displays converted to fenced math blocks; all TeX payloads and all other learner bytes preserved. Delimiter line lengths change, line count does not.",
+  "provenance": "Local repair after original fresh candidate generation and complete v1 review, under unchanged r23-candidate1. Not another fresh generation.",
+  "v1_manifest": {
+    "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/author/learner-manifest-v1.json",
+    "sha256": "0e126383a9f0cd339f40cdc3ee7f6f3fd3bebf4ae8bd0fd3c9b046de07e624a3"
+  },
+  "repair_proof": "evidence/exact-repair-proof.json",
+  "pending_gates": [
+    "full author current-route re-audit",
+    "actual repaired GitHub destination full math and native styling/navigation checks",
+    "fresh v2 two-input SASIS",
+    "root final acceptance/publication"
+  ],
+  "isolation": "Instruction-only subject boundaries; current v1 audits explicitly authorized for local repair."
+}

@@ -1,0 +1,7 @@
+D011 root verification of frozen v2
+
+Root independently compared v1/v2 bytes: only Markdown change is figures/radar.png to figures/radar-v2.png; every prose sentence, expression, prompt, hint, solution, caption and link is otherwise identical. All new frozen constituent hashes/sizes match; the other three PNGs are unchanged. Original v1 complete packet remains exact.
+
+Root actually opened the complete radar-v2.png. Its leftward arrow lies horizontally, parallel to the road, immediately beside the car; Approach is separate text. The x(t) dimension arrow, fixed perpendicular30ft offset, right-angle mark, slantD(t), radar/car/road labels are readable and unchanged in meaning. The arrow now unambiguously represents decreasing positive road coordinate, agreeing with P006–P011 and x'=-100. RR1's departure reverses this sign at the same geometry as its text explicitly says. No label collision or new mathematical ambiguity was observed in the repaired image.
+
+R1's local visual cause is repaired. Root full v1 source/math/author/figure review and independent presolutions remain applicable to byte-identical text and other figures; this record supersedes only the radar correspondence judgment. New actual v2 reader admission and whole destination/final checks remain pending. This is a local document-constituent repair under unchanged r17, not revised-skill generation or a human-learning claim.

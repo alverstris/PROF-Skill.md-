@@ -1,0 +1,20 @@
+--- teaching-v1.md
++++ teaching-v2.md
+@@ -16,7 +16,7 @@
+ 
+ ![Figure 1. Logarithm divided by x, with maximizing input and height indicated.](figures/log-over-x.png)
+ 
+-P007. Finding all candidates. An interior input has allowed points on both sides. If a differentiable function has a local maximum at an interior input $`c`$, then for small positive $`h`$ its difference quotient $`[f(c+h)-f(c)]/h`$ is nonpositive, whereas for small negative $`h`$ it is nonnegative. If the two-sided derivative exists, its common limit must be both nonpositive and nonnegative, hence zero. The same argument with signs reversed works for a minimum. This explains why setting the derivative to zero is useful, and why that argument does not cover endpoints or inputs where the derivative fails to exist.
++P007. Finding all candidates. An input is interior if some small open interval around it consists entirely of allowed inputs. If a differentiable function has a local maximum at an interior input $`c`$, then for small positive $`h`$ its difference quotient $`[f(c+h)-f(c)]/h`$ is nonpositive, whereas for small negative $`h`$ it is nonnegative. If the two-sided derivative exists, its common limit must be both nonpositive and nonnegative, hence zero. The same argument with signs reversed works for a minimum. This explains why setting the derivative to zero is useful, and why that argument does not cover endpoints or inputs where the derivative fails to exist.
+ 
+ P008. In these notes a critical input is an interior input where the function is defined and its derivative is zero or does not exist. A corner can be an extremum: $`f(x)=|x|`$ has its minimum at zero, where its left and right slopes are $`-1`$ and $`1`$. Conversely $`f(x)=x^3`$ has derivative zero at zero but keeps increasing, so that stationary input is neither a maximum nor a minimum. Both examples warn against treating the equation $`f'=0`$ as the answer.
+ 
+@@ -26,7 +26,7 @@
+ 
+ ![Figure 2. Candidate heights on a continuous closed-interval curve; an interior peak is highest and the right endpoint lowest.](figures/candidates.png)
+ 
+-P011. Check the domain and continuity before using that guarantee. For $`f(x)=x`$ on $`(0,1)`$, there is no maximum: every allowed input has a larger allowed input, for example $`(x+1)/2`$. The function approaches 1 but never equals it. The number 1 is a least upper bound, meaning a bound that can be approached arbitrarily closely from below. It is not a maximum. At a discontinuity, compare any actual assigned value and the behavior on each side separately. For example, define $`g(x)=x`$ for $`0\le x\lt1`$ and $`g(1)=0`$. On $`[0,1]`$ it still has no maximum, because of the jump at 1. Its minimum is 0, attained at both 0 and 1. A closed domain by itself is not enough.
++P011. Check the domain and continuity before using that guarantee. For $`f(x)=x`$ on $`(0,1)`$, there is no maximum: every allowed input has a larger allowed input, for example $`(x+1)/2`$. The function approaches 1 but never equals it. An upper bound is a number greater than or equal to every output; the least upper bound is the smallest such number. It may or may not be attained. Here 1 is the least upper bound: all outputs are below 1 but approach it arbitrarily closely from below, so no smaller number bounds them all. It is not a maximum. At a discontinuity, compare any actual assigned value and the behavior on each side separately. For example, define $`g(x)=x`$ for $`0\le x\lt1`$ and $`g(1)=0`$. On $`[0,1]`$ it still has no maximum, because of the jump at 1. Its minimum is 0, attained at both 0 and 1. A closed domain by itself is not enough.
+ 
+ <a id="q1"></a>
+ 

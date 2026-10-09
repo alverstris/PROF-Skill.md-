@@ -1,0 +1,15 @@
+# D012 — MIT 18.01 Fall 2006 Lecture 13 — closed
+
+Incoming PROF r18; outgoing r19 changes only metadata.version. Accepted teaching-v2.md SHA256 `04355b5ac132bfdaecf6a165cf332d0e04a0ff29bd59b53e03d6c801c9838d59` and all four PNG constituents were frozen at `12f468d985cbc1cb462e41948f0f017a161a2099`. Complete evidence and r19 were published and read back at `ef9dea1525802ed7f6ba52718f94a558c484e32c`, tree `dfec812d4a6e849b2ca66152d07e9ec3af23ef00`. All 67 new local blob identities match the canonical tree, and all 182 planned fetched files match intended local bytes.
+
+Root and the fresh author independently read every original text/page, all six source figures and the numerical table. The author read the complete frozen four-subject baseline. Root independently solved all four frozen prompts before seeing authored answers and checked the full source, mathematics, models, teaching, figures, help and ending. Newton convergence/failure, the ring's global minimum and degenerate cases, and general ellipse reflection have explicit justified routes.
+
+V1's actual GitHub parser changed 23 comparison signs in 20 inline expressions. V2 uses equivalent TeX comparison commands and normalizes one insignificant display-leading space. The inverse restores every v1 byte. All original reports, failures and 57 original destination files are preserved. A separate fresh fork:none v2 SASIS reader read the whole baseline and teaching/four figures strictly in order; root read and dispositioned its complete original 142-line report. No blocking substantive connection remains.
+
+Actual destination checks preserve all 309 expressions, full prose, 46 paragraph starts, 17 anchors, 28 links, four assets and relevant CSS/source identity. All 13 internal preview pages were inspected; hints are on page 11 and solutions on pages 12–13. Live GitHub pixels, client MathJax, computed styles and clicks remain unobserved. Minor internal preview pagination limits are documented; no user PDF or human learning claim is made. All 99 final destination evidence files are preserved in a verified archive with directly published core reports.
+
+Both topics and the full final helper independently return MECHANICALLY_READY, with all 12 requirements supported for each topic and 10 output checks. Root verified all 187 final inventory files. The state remains bound to frozen incoming r18. No substantive instruction change or affected earlier teaching dependency is established; r19 is required metadata progression only.
+
+This closure corrects a stale derived queue.remaining field and stale change-log header without altering earlier session identities, statuses or evidence. All 147 original IDs, 76 eligible inputs and 71 exclusions remain intact. Twelve of 76 eligible iterations are closed; 64 remain. Historical D009 unknown write outcomes and missing original figures remain honestly preserved. No Windows or installed-skill action occurred.
+
+After this closure/count publication is verified, fully reload the actual published skill and start D013/Lecture 14 afresh. The overall task remains incomplete; keep recurring continuation enabled.

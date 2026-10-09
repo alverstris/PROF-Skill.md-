@@ -1,6 +1,8 @@
 PROF Y1 run change log
 
-Current closure state: D001–D010 closed, 10 of 76 eligible; 66 remaining. R17 is metadata progression only; D010 complete evidence published and verified. Earlier entries retain historical counts.
+Current closure state: D001–D012 closed, 12 of 76 eligible; 64 remaining. PROF r19 is metadata-only progression. Complete D012 evidence and skill publication ef9dea1525802ed7f6ba52718f94a558c484e32c verified. All 147 original IDs and 71 exclusions retained.
+
+Earlier header, superseded at D012 closure: D001–D010 closed, 10 of 76 eligible; 66 remaining. R17 was metadata progression only. Historical entries below retain their original counts.
 
 - Preparation: canonicalr6 (3d90fcfe9f63d4bd7ff465ac11e33eb2c9d02450) → r7 (6486b2afcee950d8d4cc4bfe7f443c05e10beb9f): implemented Jonathan's dedicated fresh whole-document SASIS reader, complete two-input admission and honest instruction-level isolation; froze unchanged baseline. No lecture closed.
 - D001, MIT18.01Fall2006L01, incomingr7: authored full42-paragraphv1; fresh reader and independent technical audit found no supported substantive gap/error; repaired GitHub math delimiters without changing content, and dispatched a freshv2reader. That attempt was interrupted without an admitted report; a new fresh reading remains required. Source figures and rendered output remain unverified; outgoing version not promoted.
@@ -36,3 +38,5 @@ Scope:0closed;D001open;146later sessionspending. No claim of human mastery, rete
 - Closed D010, MIT18.01Fall2006L11: r16→r17, metadata only. Complete original sources/full frozen baseline; two precise definition repairs; fresh v2 whole-document SASIS; independent source, presolution and full mathematics audits; actual156expression destination preservation and all8preview pages. All original failures/reports preserved. Evidence: iterations/010/closure.md. Count10/76,66remain; no new instruction or human learning claim.
 
 - Closed D011, MIT18.01Fall2006L12: r17→r18 metadata only. Full original five-page source/frozenbaseline, independent presolutions/math/author review; arrow, destination markup and referent repairs. Fresh strict-order whole-input SASISv3, actual201mathpayloads/prose/links/assets/CSS and all9previewpages pass. Original failures and reader-order qualification preserved. Complete evidence/r18 publication c07581d03836ad5f02d7367e84cb5a90e012de4d verified. See iterations/011/closure.md. Count11/76,65remain.
+
+- Closed D012, MIT 18.01 Fall 2006 Lecture 13: r18→r19 metadata only. Complete seven-page source/all figures/table and frozen baseline; independent prompt-only calculations and full source/math/author audit; equivalent comparison-markup repair; fresh strict-order complete-input SASIS v2; actual 309 expressions and all 13 internal preview pages checked. Original failures and final helper states preserved. Complete evidence/r19 publication ef9dea1525802ed7f6ba52718f94a558c484e32c verified against local identities and fetched bytes. See iterations/012/closure.md. Count 12/76,64 remaining. Derived queue count and stale log header reconciled from actual session statuses.

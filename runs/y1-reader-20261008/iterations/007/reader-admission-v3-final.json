@@ -1,0 +1,53 @@
+{
+  "condition": "D007-r13-v3-SASIS",
+  "agent": "/root/sasis_d007_v3_fresh",
+  "fork_turns": "none",
+  "status": "admitted_complete_current_two_inputs",
+  "commit": "2c0a49dff10d407296675a9d52a2d664be1bb0f0",
+  "checks": [
+    {
+      "input": "baseline",
+      "actual_bytes": 247840,
+      "actual_raw_characters": 246945,
+      "complete_contiguous_ranges": 16,
+      "all_exits0_and_no_reported_truncation": true,
+      "hash": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    {
+      "input": "teaching",
+      "actual_bytes": 31051,
+      "actual_raw_characters": 30961,
+      "complete_contiguous_ranges": 3,
+      "all_exits0_and_no_reported_truncation": true,
+      "hash": "6dc2823d9f931c1baaa6eb4ce5076ed2aef1859ba29255d5503eed627824ae54"
+    }
+  ],
+  "original_report_sha256": "5f0c5c730139dbb79c7934c29cded2ed8d80aacf2825221bb2f5267d9334bbe3",
+  "original_access_sha256": "2fa2b55d56153febb3062788488a811f741c552c6345c53b0bd9680663407d5c",
+  "parent_full_report_read_ranges": [
+    [
+      0,
+      16000
+    ],
+    [
+      15500,
+      27956
+    ]
+  ],
+  "parent_full_access_read_ranges": [
+    [
+      0,
+      20000
+    ],
+    [
+      19500,
+      22936
+    ]
+  ],
+  "raw_utf8_range_semantics": "zero-based half-open; complete outputs, no truncation",
+  "complete_source_and_help_read_evidence": true,
+  "unauthorized_subject_access_reported_or_established": false,
+  "limitation": "Instruction whitelist, not runtime isolation; access statements include concrete chunk IDs/extents and reader attestations, not an independent replay of every reader tool call. No erased-pretraining or simultaneous-context claim.",
+  "verdict": "Actual complete access to the frozen baseline and final v3 teaching is admitted; the original report is valid for this one instruction-confined condition.",
+  "verified_at": "2026-10-09T01:48:21.394691+00:00"
+}

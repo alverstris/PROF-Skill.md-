@@ -1,0 +1,36 @@
+{
+  "condition_id": "D007-r13-v3-SASIS",
+  "planned_agent": "/root/sasis_d007_v3_fresh",
+  "fork_turns": "none",
+  "role": "Dedicated sequential reader evaluating document; not examination/student grading",
+  "input_count": 2,
+  "frozen_commit": "2c0a49dff10d407296675a9d52a2d664be1bb0f0",
+  "inputs": [
+    {
+      "kind": "complete four-subject operational baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "bytes": 247840,
+      "raw_utf8_characters": 246945,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    {
+      "kind": "complete teaching including allseven prompts/hints/fullsolutions",
+      "path": "runs/y1-reader-20261008/iterations/007/revised-v3/teaching-v3.md",
+      "bytes": 31051,
+      "raw_utf8_characters": 30961,
+      "sha256": "6dc2823d9f931c1baaa6eb4ce5076ed2aef1859ba29255d5503eed627824ae54",
+      "assets": []
+    }
+  ],
+  "operating_instruction_sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+  "delivery": "Instruction-confined read-only git-show retrieval of exactly the two immutable object paths; full sequential reads logged in raw UTF8 character ranges",
+  "allowed_tools": "functions.exec with exec_command for exact immutable git-show reads and writing own original report/access records only; no tools for other subject content",
+  "limitations": [
+    "Shared tools technically remain available; instruction whitelist is not runtime isolation or pretraining erasure.",
+    "No claim that allbytes simultaneously fitin context. Missing/clipped input is an input failure, not teachingverdict.",
+    "Reader has no rawlecture/source, skill, authorstate/history, diagnosis, previousreports or externalfacts."
+  ],
+  "admission_status": "Provisional until exactfull inputaccess established by new reader and parentverifies logs.",
+  "destination_status_at_dispatch": "Actual v3 GitHub identity, all371mathpayloads, fullprose and navigation verified by independentrenderer; staticCSS/fullinternalpreview continuing separately. No finalT11acceptance yet.",
+  "created_at": "2026-10-09T01:39:50.200493+00:00"
+}

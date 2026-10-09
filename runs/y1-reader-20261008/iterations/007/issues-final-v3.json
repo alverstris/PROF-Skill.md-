@@ -1,0 +1,89 @@
+{
+  "material_id": "D007",
+  "current_teaching_sha256": "6dc2823d9f931c1baaa6eb4ce5076ed2aef1859ba29255d5503eed627824ae54",
+  "all_required_source_portions_covered": true,
+  "all_P001_P165_and_help_endings_reviewed": true,
+  "issues": [
+    {
+      "id": "D007-A01",
+      "kind": "author wording",
+      "status": "resolved_before_original_author_handoff",
+      "evidence": "author-work-r13/check-history.md",
+      "finding": "P135 initially described changing F into G imprecisely; corrected to replacing the factor by its reciprocal.",
+      "repair": "Preserved labelled original and exact local corrected wording; unchanged in final v3.",
+      "verification": "Full parent/author/reader content review and composed inverse."
+    },
+    {
+      "id": "D007-O01",
+      "kind": "destination serialization",
+      "status": "resolved",
+      "evidence": "render-evidence/v1/report.md",
+      "finding": "22 inline comparison expressions became literal entity text.",
+      "repair": "Equivalent named inline TeX comparison operators in v3.",
+      "verification": "All371 final v3 mathematical payloads exact after one HTML parse; complete preview and fresh reader."
+    },
+    {
+      "id": "D007-O02",
+      "kind": "destination serialization",
+      "status": "resolved",
+      "evidence": "render-evidence/v1/report.md",
+      "finding": "Seven TeX thinspace backslashes lost and P084 variable r unwrapped.",
+      "repair": "Protected inline/fenced display delimiters in v2, retained v3.",
+      "verification": "Actual v2 and v3 payload inspections; final371expressions exact."
+    },
+    {
+      "id": "D007-R01",
+      "kind": "review-tool mismatch",
+      "status": "resolved",
+      "evidence": "render-evidence/v1/helper-corrections.json",
+      "finding": "Initial helper assumed wrong task IDs and id-only targets; intermediate syntax failure preserved.",
+      "repair": "Read actual name anchors and true task section relationships.",
+      "verification": "32 targets and53 links, all seven mappings correct in actual final destination."
+    },
+    {
+      "id": "D007-R02",
+      "kind": "review-tool normalization",
+      "status": "resolved",
+      "evidence": "render-evidence/v2/report.md",
+      "finding": "Initial fenced-display audit wrongly counted required fence-boundary newlines as payload differences.",
+      "repair": "Compare exact fenced body and internal newlines; preserve failed tool version.",
+      "verification": "33 final fenced bodies exact; no recursive entity decoding."
+    },
+    {
+      "id": "D007-P01",
+      "kind": "provisional explanatory concern",
+      "status": "resolved_without_teaching_change",
+      "evidence": "reader-disposition-v3.md",
+      "finding": "Local existence link for implicit illustration is compressed.",
+      "resolution": "Fresh unprimed reader independently reconstructed monotone explicit inverse relation using actual baseline, matching independent technical check.",
+      "verification": "Original full reader report and parent disposition."
+    },
+    {
+      "id": "D007-L01",
+      "kind": "internal preview limits",
+      "status": "bounded_non_product_limit",
+      "evidence": "render-evidence/v3/report.md",
+      "finding": "Pagination seams/orphan label and31 PDF raw-HTML-anchor destination warnings.",
+      "resolution": "PDF is internal visual review derivative, not learner product. Actual GitHub targets separately pass; no PDF navigation or live client pass claimed."
+    },
+    {
+      "id": "D007-L02",
+      "kind": "preview evidence artifact anomaly",
+      "status": "bounded_with_preserved_independent_evidence",
+      "evidence": "render-evidence/v3/completion-warning-count-assertion-failure.json",
+      "finding": "preview.log later observed empty; cause unknown.",
+      "resolution": "Captured pdflatex-pass2 output preserves31 warnings; build-time diagnostic record and unchanged PDF/PNG hashes verified; no clean-log claim."
+    },
+    {
+      "id": "D007-L03",
+      "kind": "reader verification boundary",
+      "status": "covered_by_separate_review",
+      "evidence": "reader-disposition-v3.md",
+      "finding": "Reader correctly does not verify external source provenance or live rendering.",
+      "resolution": "Complete parent/author source review and separate actual destination audit address their own scopes; no outside content added to reader."
+    }
+  ],
+  "open_material_issues": [],
+  "new_skill_rules": [],
+  "remaining_gate": "Actual main publication and readback; retain counts6/76 until completed."
+}

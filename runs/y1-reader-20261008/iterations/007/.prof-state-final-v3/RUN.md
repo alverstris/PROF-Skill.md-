@@ -1,0 +1,1 @@
+D007 parent final-v3 state: original author evidence/activation preserved at incoming r13; final v3 separately read and reviewed. Phase A publication pending. Keep D007 open and counts 6/76; publish/verify r14 and this evidence, then phase B.

@@ -1,0 +1,537 @@
+{
+  "condition": "D007-r13-v3-SASIS",
+  "reader_role": "SASIS document reader; original report before author feedback",
+  "commit": "2c0a49dff10d407296675a9d52a2d664be1bb0f0",
+  "repository": "/workspace/scratch/ac36b9c5ff31/PROF-repo",
+  "indexing": "Zero-based, half-open raw Unicode-character ranges after bytes.decode('utf8'); no universal-newline normalization.",
+  "identity_check": {
+    "performed_before_content_delivery": true,
+    "tool": "functions.exec -> exec_command",
+    "chunk_id": "032633",
+    "exit_code": 0,
+    "status": "Both exact expected identities matched.",
+    "content_delivery": false,
+    "objects": [
+      {
+        "input": "baseline",
+        "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+        "bytes": 247840,
+        "raw_utf8_characters": 246945,
+        "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+        "CRCRLF_count": 1184
+      },
+      {
+        "input": "teaching",
+        "path": "runs/y1-reader-20261008/iterations/007/revised-v3/teaching-v3.md",
+        "bytes": 31051,
+        "raw_utf8_characters": 30961,
+        "sha256": "6dc2823d9f931c1baaa6eb4ce5076ed2aef1859ba29255d5503eed627824ae54",
+        "CRCRLF_count": 0
+      }
+    ]
+  },
+  "deliveries": [
+    {
+      "sequence": 1,
+      "input": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "raw_character_range": {
+        "start_inclusive": 0,
+        "end_exclusive": 16000
+      },
+      "raw_characters_delivered": 16000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "b9048e",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 4008,
+      "output_token_budget": 10000
+    },
+    {
+      "sequence": 2,
+      "input": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "raw_character_range": {
+        "start_inclusive": 16000,
+        "end_exclusive": 32000
+      },
+      "raw_characters_delivered": 16000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "047d2a",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 4009,
+      "output_token_budget": 10000
+    },
+    {
+      "sequence": 3,
+      "input": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "raw_character_range": {
+        "start_inclusive": 32000,
+        "end_exclusive": 48000
+      },
+      "raw_characters_delivered": 16000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "2f4e11",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 4009,
+      "output_token_budget": 10000
+    },
+    {
+      "sequence": 4,
+      "input": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "raw_character_range": {
+        "start_inclusive": 48000,
+        "end_exclusive": 64000
+      },
+      "raw_characters_delivered": 16000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "95b90a",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 4009,
+      "output_token_budget": 10000
+    },
+    {
+      "sequence": 5,
+      "input": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "raw_character_range": {
+        "start_inclusive": 64000,
+        "end_exclusive": 80000
+      },
+      "raw_characters_delivered": 16000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "00ed75",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 4009,
+      "output_token_budget": 10000
+    },
+    {
+      "sequence": 6,
+      "input": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "raw_character_range": {
+        "start_inclusive": 80000,
+        "end_exclusive": 96000
+      },
+      "raw_characters_delivered": 16000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "dac29c",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 4071,
+      "output_token_budget": 10000
+    },
+    {
+      "sequence": 7,
+      "input": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "raw_character_range": {
+        "start_inclusive": 96000,
+        "end_exclusive": 112000
+      },
+      "raw_characters_delivered": 16000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "5118b8",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 4038,
+      "output_token_budget": 10000
+    },
+    {
+      "sequence": 8,
+      "input": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "raw_character_range": {
+        "start_inclusive": 112000,
+        "end_exclusive": 128000
+      },
+      "raw_characters_delivered": 16000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "087e8a",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 4061,
+      "output_token_budget": 10000
+    },
+    {
+      "sequence": 9,
+      "input": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "raw_character_range": {
+        "start_inclusive": 128000,
+        "end_exclusive": 144000
+      },
+      "raw_characters_delivered": 16000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "ce8740",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 4080,
+      "output_token_budget": 10000
+    },
+    {
+      "sequence": 10,
+      "input": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "raw_character_range": {
+        "start_inclusive": 144000,
+        "end_exclusive": 160000
+      },
+      "raw_characters_delivered": 16000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "8f7348",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 4019,
+      "output_token_budget": 10000
+    },
+    {
+      "sequence": 11,
+      "input": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "raw_character_range": {
+        "start_inclusive": 160000,
+        "end_exclusive": 176000
+      },
+      "raw_characters_delivered": 16000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "113f25",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 4010,
+      "output_token_budget": 10000
+    },
+    {
+      "sequence": 12,
+      "input": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "raw_character_range": {
+        "start_inclusive": 176000,
+        "end_exclusive": 192000
+      },
+      "raw_characters_delivered": 16000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "027b66",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 4009,
+      "output_token_budget": 10000
+    },
+    {
+      "sequence": 13,
+      "input": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "raw_character_range": {
+        "start_inclusive": 192000,
+        "end_exclusive": 208000
+      },
+      "raw_characters_delivered": 16000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "44bd6f",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 4009,
+      "output_token_budget": 10000
+    },
+    {
+      "sequence": 14,
+      "input": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "raw_character_range": {
+        "start_inclusive": 208000,
+        "end_exclusive": 224000
+      },
+      "raw_characters_delivered": 16000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "e2acc8",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 4009,
+      "output_token_budget": 10000
+    },
+    {
+      "sequence": 15,
+      "input": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "raw_character_range": {
+        "start_inclusive": 224000,
+        "end_exclusive": 240000
+      },
+      "raw_characters_delivered": 16000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "21060c",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 4009,
+      "output_token_budget": 10000
+    },
+    {
+      "sequence": 16,
+      "input": "baseline",
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "raw_character_range": {
+        "start_inclusive": 240000,
+        "end_exclusive": 246945
+      },
+      "raw_characters_delivered": 6945,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "2f0026",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 1746,
+      "output_token_budget": 6000
+    },
+    {
+      "sequence": 17,
+      "input": "teaching",
+      "path": "runs/y1-reader-20261008/iterations/007/revised-v3/teaching-v3.md",
+      "raw_character_range": {
+        "start_inclusive": 0,
+        "end_exclusive": 11000
+      },
+      "raw_characters_delivered": 11000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "8375b8",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 2767,
+      "output_token_budget": 8000
+    },
+    {
+      "sequence": 18,
+      "input": "teaching",
+      "path": "runs/y1-reader-20261008/iterations/007/revised-v3/teaching-v3.md",
+      "raw_character_range": {
+        "start_inclusive": 11000,
+        "end_exclusive": 22000
+      },
+      "raw_characters_delivered": 11000,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "ad603b",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 2768,
+      "output_token_budget": 8000
+    },
+    {
+      "sequence": 19,
+      "input": "teaching",
+      "path": "runs/y1-reader-20261008/iterations/007/revised-v3/teaching-v3.md",
+      "raw_character_range": {
+        "start_inclusive": 22000,
+        "end_exclusive": 30961
+      },
+      "raw_characters_delivered": 8961,
+      "retrieval": "git show at the specified immutable commit; stdout bytes.decode('utf8'); requested slice printed with a range header",
+      "tool": "functions.exec -> exec_command",
+      "chunk_id": "460ec4",
+      "exit_code": 0,
+      "access_status": "successful",
+      "content_delivery_status": "complete output actually delivered and read sequentially",
+      "truncated": false,
+      "truncation_basis": "No tool truncation marker or observed clipped ending; output visibly completed the requested slice. One large content output per call.",
+      "recovery_required": false,
+      "original_token_count_reported": 2253,
+      "output_token_budget": 8000
+    }
+  ],
+  "coverage": {
+    "baseline": {
+      "complete": true,
+      "range": [
+        0,
+        246945
+      ],
+      "delivery_calls": 16,
+      "raw_characters_delivered": 246945,
+      "gaps": [],
+      "overlaps": [],
+      "subjects": [
+        "Mathematics H240",
+        "Further Mathematics H245 Pure Core Y540/Y541, Statistics Y542, Mechanics Y543",
+        "Physics H556",
+        "Chemistry H432"
+      ]
+    },
+    "teaching": {
+      "complete": true,
+      "range": [
+        0,
+        30961
+      ],
+      "delivery_calls": 3,
+      "raw_characters_delivered": 30961,
+      "gaps": [],
+      "overlaps": [],
+      "paragraphs": "P001-P165",
+      "includes": [
+        "core",
+        "Q1-Q7 prompts",
+        "all grouped hints",
+        "all complete solutions",
+        "final links"
+      ]
+    },
+    "reading_order": "Entire baseline in order, then entire teaching in order.",
+    "clipping_or_failure_recoveries": [],
+    "admission": "Complete actual access established after all content-delivery calls; no inference from hash identity alone."
+  },
+  "supplemental_structural_check": {
+    "input": "teaching",
+    "tool": "functions.exec -> exec_command",
+    "chunk_id": "5c3ce2",
+    "exit_code": 0,
+    "raw_character_range_processed": [
+      0,
+      30961
+    ],
+    "content_delivery": false,
+    "counted_toward_reading_coverage": false,
+    "result": {
+      "anchor_count": 32,
+      "content_delivery": false,
+      "duplicate_anchors": [],
+      "fragment_link_count": 53,
+      "missing_fragment_targets": [],
+      "paragraph_count": 165,
+      "paragraphs_exactly_P001_through_P165": true,
+      "raw_character_range_processed": [
+        0,
+        30961
+      ]
+    },
+    "purpose": "Check paragraph sequence and text-internal navigation after the complete sequential read; no linked content retrieved."
+  },
+  "constraints": {
+    "retrieval_boundary": "Instruction-confined, not a technical sandbox.",
+    "subject_content_inputs": 2,
+    "other_repository_content_accessed": false,
+    "working_tree_inputs_accessed": false,
+    "git_history_accessed": false,
+    "linked_content_accessed": false,
+    "browsing": false,
+    "other_agent_messaging": false,
+    "external_subject_premises_used": false,
+    "erased_pretraining_claimed": false,
+    "runtime_isolation_claimed": false,
+    "all_input_bytes_simultaneously_in_context_claimed": false,
+    "authorized_writes_only": [
+      "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/007/reader-report-v3-original.md",
+      "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/007/reader-access-v3-original.json"
+    ]
+  },
+  "findings_boundary": {
+    "incomplete_input_limits": [],
+    "external_provenance_verification": "Not performed; linked MIT source and source-relative completeness remain independently unverified.",
+    "rendered_layout_verification": "Not performed; full Markdown text and internal anchor targets inspected.",
+    "human_learning_or_ability_assessment": false
+  },
+  "original_report": {
+    "path": "/workspace/scratch/ac36b9c5ff31/PROF-repo/runs/y1-reader-20261008/iterations/007/reader-report-v3-original.md",
+    "bytes": 28225,
+    "sha256": "5f0c5c730139dbb79c7934c29cded2ed8d80aacf2825221bb2f5267d9334bbe3"
+  },
+  "original_report_write": {
+    "chunk_id": "ea41f1",
+    "exit_code": 0,
+    "mode": "exclusive binary create",
+    "status": "success",
+    "preserved_before_author_feedback": true
+  }
+}

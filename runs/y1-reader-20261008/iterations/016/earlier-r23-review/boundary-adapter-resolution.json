@@ -1,0 +1,11 @@
+{
+  "original_attempt": "boundary-review.py fed Markdown to HTMLParser and failed anchor mapping",
+  "second_attempt": "boundary-review-corrected.py fed initial loose HTML candidate spans; D013 nonmath prose <ln( and <u( still overmatched through subsequent anchors",
+  "final_attempt": "boundary-review-final.py uses syntactically constrained HTML tags/comments; all source anchor mappings exact after GitHub user-content- prefix",
+  "corrected_inventory": "corrected-boundary-inventory.json",
+  "initial_candidate_spans": 952,
+  "actual_HTML_spans": 951,
+  "literal_nonmath_prose_angle_characters": 21,
+  "code_spans": 0,
+  "classification": "Two preserved review-adapter errors, no learner mutation or math comparison failure; complete actual math comparisons were unaffected."
+}

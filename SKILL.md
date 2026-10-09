@@ -2,7 +2,7 @@
 name: prof
 description: "Write, revise, extend, or continue teaching documents, study notes, worked solutions, research primers, and programming or language tutorials using Jonathan's evidence-informed requirements. Apply the source research, prerequisite, explanation, practice, and verification workflow to every topic, with durable recovery for long projects. Default to an Overleaf-ready LaTeX project and compiled PDF. Use whenever explicitly invoked; otherwise applies to teaching-document authoring rather than every short subject answer. Explicit PROF self-iteration uses SASIS; ordinary teaching-document work does not invoke that scheme."
 metadata:
-  version: "2026-10-09-r22"
+  version: "2026-10-09-r23"
 ---
 
 # PROF
@@ -104,7 +104,7 @@ Review important answers before reading the proposed solutions when independent 
 
 Run an available applicable validator or perform its named manual equivalent if automation is unavailable. Mechanical checks include requested-coverage correspondence, unique task IDs, task/hint/answer matching, references, unresolved placeholders, required files, and current check revisions. They cannot certify explanatory bridges or correctness. Semantic review cannot substitute for compilation or visual inspection.
 
-For mathematics delivered through markup, check that the actual destination preserves every intended expression’s operands, operators and grouping, including inline mathematics and help. Use destination-supported syntax to prevent parser collisions; correct source, protected delimiters or another renderer’s preview alone cannot establish preservation. Distinguish parsed-content checks from live visual inspection.
+For mathematics delivered through markup, check that the actual destination preserves every intended expression’s operands, operators and grouping, including inline mathematics and help. Use destination-supported syntax to prevent parser collisions; correct source, protected delimiters or another renderer’s preview alone cannot establish preservation. For GitHub Markdown using dollar/backtick inline mathematics, write strict comparisons with `\lt ` and `\gt ` (retaining a space that terminates each command) instead of literal `<` and `>` inside the mathematical payload. Keep literal code and HTML syntax unchanged; do not apply this substitution globally. Distinguish parsed-content checks from live visual inspection.
 
 For LaTeX/PDF read [references/latex-production.md](references/latex-production.md) before production. Start with [assets/latex/main.tex](assets/latex/main.tex) and [assets/latex/prof.sty](assets/latex/prof.sty), replacing all sample teaching. Compile the whole project, resolve substantive warnings/references, render and inspect every final page, and check actual help destinations. Keep related reasoning together and avoid dense pages, unnecessary covers, empty boxes, and automatic page breaks per unit. Group PDF help sensibly rather than giving every task its own page. Do not shrink text/equations to hide layout defects. Bundle main.tex at ZIP root with all local styles, chapters, figures, bibliography, and BUILD.md. Extract into a fresh directory and compile there. Do not claim an Overleaf test unless one occurred.
 

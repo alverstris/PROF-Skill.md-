@@ -1,0 +1,46 @@
+{
+  "method": "Independent root regex and separate stdlib HTMLParser implementation; all source payloads compared in order after one HTML parse, no html.unescape. Shared underlying parser library, not an independent rendering engine.",
+  "fence_boundary": "Only syntax LF after opening fence and before closing fence omitted from expected fenced payload. No payload stripping, punctuation change or internal whitespace normalization. Ordinary $$ payloads retain boundary LF exactly.",
+  "files": [
+    {
+      "file": "notes",
+      "source_sha256": "7b91a08087ddfee2137ac13ce7a0dbd276e487166db1fa112ef4b11beda84c3a",
+      "article_sha256": "a79250f5ecaea2c4271c2ea3639bc05509fc70f49cac8a441933b23ff4747284",
+      "math_nodes": 252,
+      "inline": 224,
+      "ordinary_displays": 20,
+      "fenced_displays": 8,
+      "thin_space_commands_in_repaired_fences": 8,
+      "all_types_and_payloads_exact": true,
+      "residual_math_delimiters": false
+    },
+    {
+      "file": "hints",
+      "source_sha256": "1ce9784fb886d58811990954c0a934b91236d7cfadd00a42294b307b9097f3f2",
+      "article_sha256": "56122a8ce6bdf979d73ab4cb689cb32666a0e4b2abd4ca733fe1ab99e2d8bd5c",
+      "math_nodes": 21,
+      "inline": 21,
+      "ordinary_displays": 0,
+      "fenced_displays": 0,
+      "thin_space_commands_in_repaired_fences": 0,
+      "all_types_and_payloads_exact": true,
+      "residual_math_delimiters": false
+    },
+    {
+      "file": "solutions",
+      "source_sha256": "77368b5c1607522f2e358b849a9c10ec17b10366265553081c159747d449e2a0",
+      "article_sha256": "c77eccbf2c683d6cf84f82e18a32076d85e281f6d257d0c0c9ce97f3d3d69dab",
+      "math_nodes": 89,
+      "inline": 71,
+      "ordinary_displays": 12,
+      "fenced_displays": 6,
+      "thin_space_commands_in_repaired_fences": 8,
+      "all_types_and_payloads_exact": true,
+      "residual_math_delimiters": false
+    }
+  ],
+  "total": 362,
+  "repaired_backslashes": 16,
+  "result": "All 362 expression types and payloads exact; all 16 formerly lost thin-space commands preserved.",
+  "limits": "Server payload review only, not live MathJax pixels or browser clicks."
+}

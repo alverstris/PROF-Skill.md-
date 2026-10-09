@@ -1,0 +1,35 @@
+{
+  "manifest_sha256": "c2c1e4b8c13cfcd443f17bc6f42b5e0b20b1bb620ccaf7de31355cd883368331",
+  "files_verified": 55,
+  "all58_source_bindings_match": true,
+  "all_outputs_match": true,
+  "checks": [
+    {
+      "command": [
+        "python",
+        "runs/y1-reader-20261008/iterations/016/candidate-r23-1/scripts/prof_state.py",
+        "check",
+        "--state",
+        "runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/final-state/.prof-state",
+        "--topic",
+        "definite-integrals"
+      ],
+      "exit_code": 0,
+      "stdout": "MECHANICALLY_READY \u2014 topic:definite-integrals\nThis checks declared records, file/locator existence and revision freshness only. Source reads, web reads, applicability, waivers and semantic reviews are self-reported. It does not certify teaching quality, learner mastery, authorization, or skill invocation/application.\ndefinite-integrals: pass=12\nAuthor remains responsible for substantive acceptance and honest delivery.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "runs/y1-reader-20261008/iterations/016/candidate-r23-1/scripts/prof_state.py",
+        "check",
+        "--state",
+        "runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/final-state/.prof-state"
+      ],
+      "exit_code": 0,
+      "stdout": "MECHANICALLY_READY \u2014 full declared project\nThis checks declared records, file/locator existence and revision freshness only. Source reads, web reads, applicability, waivers and semantic reviews are self-reported. It does not certify teaching quality, learner mastery, authorization, or skill invocation/application.\ndefinite-integrals: pass=12\nAuthor remains responsible for substantive acceptance and honest delivery.\n",
+      "stderr": ""
+    }
+  ],
+  "semantic_review": "Actual full evidence and current artifacts separately inspected; helper readiness is not semantic proof."
+}

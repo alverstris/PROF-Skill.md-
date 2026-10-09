@@ -1,0 +1,192 @@
+{
+  "mode": "local repair; not fresh generation",
+  "isolation": "instruction-only whitelist, not technical tool isolation",
+  "reads": [
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/candidate-r23-1/SKILL.md",
+      "bytes": 38187,
+      "sha256": "a01b9c28af398f9bdaa1d6b0e532553e2b3f69ece4666beb5e5cfc7f1d13456b",
+      "ranges": [
+        [
+          1,
+          75
+        ],
+        [
+          76,
+          160
+        ]
+      ],
+      "note": "Complete recovery reread; earlier local-repair SKILL reread and repaired T8 clipping retained in prior work."
+    },
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/candidate-r23-1/references/execution-protocol.md",
+      "bytes": 26436,
+      "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7",
+      "ranges": "whole",
+      "note": "Complete recovery read."
+    },
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/candidate-r23-1/references/state-tool.md",
+      "bytes": 17130,
+      "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+      "ranges": "whole",
+      "note": "Complete read before current helper state."
+    },
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/candidate-r23-1/references/sasis/rewrite-guide.md",
+      "bytes": 8451,
+      "sha256": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1",
+      "ranges": "whole",
+      "note": "Read before local repair, prior to the present recovery."
+    },
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/root-destination-v1-disposition.md",
+      "bytes": 2892,
+      "sha256": "e6905f81c23c08b274b6f043cf3d16bc8f20edb2495331ce9ba57ee3f61980bf",
+      "ranges": "whole",
+      "note": "Root authorized current v1 audit; read before delimiter repair."
+    },
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/root-author-v1-audit.md",
+      "bytes": 2607,
+      "sha256": "f214a535b115d62c70790c8b7f68b0d1f354d7421cd7893f78ca398d3c9eb73e",
+      "ranges": "whole",
+      "note": "Root authorized current v1 author audit; read before delimiter repair."
+    },
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/author-v2/learner/notes.md",
+      "bytes": 24790,
+      "sha256": "7b91a08087ddfee2137ac13ce7a0dbd276e487166db1fa112ef4b11beda84c3a",
+      "ranges": [
+        [
+          1,
+          114
+        ],
+        [
+          115,
+          213
+        ],
+        [
+          214,
+          308
+        ]
+      ],
+      "note": "Complete current route; repairs failed earlier context-limited attempt."
+    },
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/author-v2/learner/hints.md",
+      "bytes": 2903,
+      "sha256": "1ce9784fb886d58811990954c0a934b91236d7cfadd00a42294b307b9097f3f2",
+      "ranges": [
+        [
+          1,
+          51
+        ]
+      ],
+      "note": "All six matched hints."
+    },
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/author-v2/learner/solutions.md",
+      "bytes": 9041,
+      "sha256": "77368b5c1607522f2e358b849a9c10ec17b10366265553081c159747d449e2a0",
+      "ranges": [
+        [
+          1,
+          103
+        ],
+        [
+          104,
+          186
+        ]
+      ],
+      "note": "All six complete solutions including six changed display blocks."
+    }
+  ],
+  "visual_reads": [
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/author-v2/learner/figures/rectangles.png",
+      "bytes": 68208,
+      "sha256": "91e367332338640bce2532f89d0b327f7d4404aec075e53cebae3bc380d62112",
+      "scope": "whole current PNG visually inspected; unchanged image bytes"
+    },
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/author-v2/learner/figures/staircase.png",
+      "bytes": 72621,
+      "sha256": "d9a04631c172d3f649600a3331aca41d08bc2e2c372d05c38b6cff72b3b4565d",
+      "scope": "whole current PNG visually inspected; unchanged image bytes"
+    },
+    {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/author-v2/learner/figures/sample-rectangle.png",
+      "bytes": 35502,
+      "sha256": "d029db7107364ecc5736fb618331c3df740374b598d9c75b021a1658e0a5d4a9",
+      "scope": "whole current PNG visually inspected; unchanged image bytes"
+    }
+  ],
+  "retained_reads": {
+    "original_record": {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/regenerated-r23-c1/author/evidence/access-log.json",
+      "bytes": 15056,
+      "sha256": "af47f155ecf24cac873f7294574b714cdd42823785a88e346fe942fd32123dca"
+    },
+    "baseline": {
+      "path": "/workspace/scratch/6a5c7131498d/prof-r22/runs/y1-reader-20261008/iterations/016/candidate-r23-1/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "bytes": 247840,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    "original_complete_baseline_ranges": [
+      [
+        1,
+        150
+      ],
+      [
+        151,
+        300
+      ],
+      [
+        301,
+        450
+      ],
+      [
+        451,
+        600
+      ],
+      [
+        601,
+        730
+      ],
+      [
+        731,
+        860
+      ],
+      [
+        861,
+        990
+      ],
+      [
+        991,
+        1120
+      ],
+      [
+        1121,
+        1250
+      ],
+      [
+        1251,
+        1377
+      ]
+    ],
+    "qualification": "These original author reads are retained unchanged, not performed again in local v2. All original six text pages and consequential visuals remain bound by original source coverage and access evidence."
+  },
+  "clipping_repairs": [
+    "Earlier v2 combined notes/figures read returned only context-limit truncation. Credited zero coverage; replaced with complete notes ranges and separate full visual views above.",
+    "Recovery helper-manifest whole print clipped; no complete prose-read claim. Exact source index/portions and output-check projection was printed and read; JSON loaded in full mechanically for state retention.",
+    "Earlier local-repair full SKILL print clipped 47 tokens in T8; T8 fully reread at that time, followed by complete 1–75/76–160 recovery read."
+  ],
+  "no_access": [
+    "No root presolutions",
+    "No prior corpus teaching",
+    "No current v2 SASIS report",
+    "No actual v2 destination report"
+  ],
+  "research": "No new research in local v2; exact original OpenStax URL and read scope retained in inherited-v1/research.md."
+}

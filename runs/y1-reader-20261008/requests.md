@@ -46,3 +46,11 @@ Continuation, 2026-10-10
 tell me what the scheme is before starting”
 
 The current orchestrator explained the complete reader-based scheme before resuming D017. This authorizes actual continuation of the existing 76-session run. Private inspection observed both existing PROF schedules disabled; this continuation does not change either schedule. GitHub remains canonical and the installed Windows skill remains outside scope.
+
+Controlling correction, 2026-10-10
+
+“1: which PROF? PROF from where?
+2: you are not to repair the document. you are to repair PROF always, to ensure that PROF knows what it should be doing
+3: just push the revised PROF to github. then, from there, cleanse your memory other than the key aspects about what you're doing and the tasks you need to do, then go back to step 1”
+
+This supersedes the local-document-repair option and the earlier practice of using an unpublished candidate for generation. For every independently verified material failure, change PROF's operative instructions or execution requirements, preserve the generated teaching unchanged, publish and verify the revised complete root skill on GitHub main, and then restart with a fresh agent context. Pass only key operational task state and original inputs into generation; keep previous teaching, diagnoses, reports and proposed answers outside that context. No actual erasure of the current agent's context or pretraining is claimed. Historical evidence is preserved as history. A published revision may have pending validation; publication is not lecture acceptance.

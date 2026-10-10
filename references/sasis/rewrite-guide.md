@@ -1,6 +1,8 @@
-# SASIS: diagnose a reading gap and repair its cause
+# SASIS: diagnose a failure and repair PROF
 
-Revision: 2026-10-08-r7. Apply only during explicitly requested PROF self-iteration.
+Revision: 2026-10-10-r24. Apply only during explicitly requested PROF self-iteration.
+
+Repair PROF, never the frozen generated document. Each action below describes the behavior to require in PROF and verify in a new complete generation. It is not permission to patch the evaluated notes. Publish the revised skill to GitHub main before that fresh generation.
 
 SASIS is the dedicated reader. Diagnose what the document makes available at each point, not how well a simulated student performs. Read the full original report and exact frozen document/baseline. Preserve them. A question, an unsupported conclusion or an uncertain interpretation is evidence to investigate, not an automatic teaching verdict.
 
@@ -14,7 +16,7 @@ Collect all supported issues across the entire document, required source portion
 
 ## Choose the concrete repair
 
-| Evidenced cause | Repair to teaching or process | Required evidence |
+| Evidenced cause | Behavior to encode in PROF | Required evidence |
 | --- | --- | --- |
 | Name-only, circular or unclear meaning | Replace the introduction with meaning in available terms, purpose, conditions and a minimal useful instance before reliance. | Fresh reader locates the meaning and reconstructs its first consequential use. |
 | Missing representation mapping | Identify relevant objects, grouping, indices/axes, units, domain and correspondence between words, equations and figures at the transition. Show how the representation expresses the intended relation. | Reader reconstructs the mapped relation and affected later interpretations from supplied passages. |
@@ -35,12 +37,12 @@ Collect all supported issues across the entire document, required source portion
 
 ## Extent, skill change and closure
 
-Use a local rewrite for a local gap and a structural rewrite when dependency order, shared notation, multiple false premises or fragmented source integration require it. Preserve adequate material. Recheck all materially affected passages, help and seams. Missing necessary explanations outweigh modest useful extra detail; neither maximum brevity nor maximum explicitness is the objective.
+Match the scope of the PROF change to the demonstrated cause. Strengthen the relevant operative instruction or execution trigger for a local failure; revise the dependency/authoring procedure for a structural failure. Preserve the evaluated document unchanged and regenerate the full teaching in a fresh context. Recheck affected passages, help and seams in that new output. Missing necessary explanations outweigh modest useful extra detail; neither maximum brevity nor maximum explicitness is the objective.
 
 For each issue retain ID, exact original evidence and locators, supported causes, affected dependencies, chosen repair, before/after passages, relevant source checks, any PROF edit and fresh verification. Unresolved questions have a concrete next action. Do not close with a checkbox, heading, page count or fluent final answer.
 
-A document error does not automatically warrant a PROF change. If an existing rule was ignored, inspect why its activation/execution failed. Strengthen only the demonstrated trigger. If a needed instruction is absent/inadequate, specify the observed trigger, concrete author action and observable evidence of repair. Source, baseline, reader or runner faults warrant skill edits only when PROF's handling was deficient. Do not embed this lecture's answer in general instructions.
+Every independently verified material failure requiring correction warrants a PROF repair in this run. If an existing rule was ignored, repair its activation/execution requirement; if absent or inadequate, repair the rule. For source, baseline, reader or runner failures, encode the required handling and recovery rather than a false subject-matter correction. Specify the demonstrated trigger, concrete action and observable evidence. A disproved concern is not a verified failure. Do not embed this lecture's answer in general instructions.
 
-Freeze actual changed skill files and regenerate affected teaching with a fresh author given the original task/source conditions and candidate skill. Do not give the repaired passage as an answer template. Open a fresh SASIS reader on the complete regenerated document; verify correctness independently. Recheck affected successes and newly exposed issues. Extra checks must resolve a concrete risk, not satisfy a ritual battery.
+Freeze and validate actual changed skill files; push the complete revised PROF to GitHub main and verify actual published bytes. Then start a new author with no inherited conversation, the fetched published skill, original task/source conditions and complete baseline. Retain only operational goals, constraints, identities, queue and outstanding tasks; exclude old documents, diagnoses, reviews and proposed answers from generation inputs. Open a separate fresh SASIS reader on the whole new document; independently check correctness, affected successes and new issues. Preserve old evidence outside this new context. No erasure of live context or pretraining may be claimed without an actual capability.
 
-Close only after the full audit and all supported material issues are resolved with current evidence. Push completed edits/evidence to GitHub, verify the commit, reload its actual PROF, and proceed to fresh material. Later changes reopen affected earlier checks. Preserve corpus state, not reader memory. A first successful document does not complete the assigned corpus.
+Publication of revised PROF happens before regeneration and does not imply acceptance. Close the lecture only after the full audit and material issues are resolved in new generation under that published version. Publish and verify closure evidence, reload actual main, and proceed with fresh contexts to the next material. Later changes reopen affected earlier checks. Preserve corpus state, not author or reader memory. A first successful document does not complete the assigned corpus.

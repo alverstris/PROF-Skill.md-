@@ -84,7 +84,7 @@
     "Original raw-source audit cache: C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\outputs\\ocr-baseline-20261007. The skill can be relocated; use its relative baseline/profile paths and official source URLs.",
     "No new student trial has run under this profile merely because these resources were installed. Verify live editions/placement before claiming freshness for a new run."
   ],
-  "protocol_revision": "2026-10-08-r8",
+  "protocol_revision": "2026-10-10-r24",
   "rewrite_guide": "rewrite-guide.md",
   "student_input_policy": {
     "subject_content_inputs": 2,
@@ -112,14 +112,27 @@
   },
   "control_file_hashes": {
     "student-role.txt": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
-    "student-testing-contract.txt": "4bfe0c1f00af8e767f7116b4e3004f2d2b558291b5fcb439495e7f127a59ff10",
-    "rewrite-guide.md": "ceffec739d45d164868d56ccfebfe0146e3b15af2cb5173f46e543f604affec1"
+    "student-testing-contract.txt": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae",
+    "rewrite-guide.md": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
   },
   "protocol_update_notes": [
     "Original reviewed-release provenance and hashes describe the unchanged 19 baseline/profile payloads.",
     "The 2026-10-08-r5 revision established the protocol, student operating instruction, testing contract and rewrite guide. Revision 2026-10-08-r6 clarifies that SASIS evaluates the notes and their supported connections; simulated responses are diagnostic evidence, and restriction controls establish evidence validity. control_file_hashes bind the current resources.",
     "This update adds instructions and inspectable records; it does not install a runtime that can erase pretraining or mechanically guarantee semantic compliance. The 2026-10-08-r6 clarification runs no SASIS trials and does not claim an empirically validated improvement.",
     "2026-10-08-r7 implements Jonathan's explicit correction: SASIS is a dedicated fresh whole-document reader, not a task solver. Original frozen baseline files and their hashes are unchanged. Protocol preparation is not a lecture iteration or evidence of human outcomes.",
-    "2026-10-08-r8 records the explicitly authorised fully-readable-subset traversal and rolling closure version convention. The four-subject baseline, reader contract, reader role, rewrite guide and ordinary teaching obligations are unchanged. The selection/control update changes no D001 teaching dependency."
-  ]
+    "2026-10-08-r8 records the explicitly authorised fully-readable-subset traversal and rolling closure version convention. The four-subject baseline, reader contract, reader role, rewrite guide and ordinary teaching obligations are unchanged. The selection/control update changes no D001 teaching dependency.",
+    "2026-10-10-r24 implements Jonathan's explicit correction: always repair PROF for verified failures, preserve generated documents unchanged, push and verify revised root PROF before new generation, and restart with fresh agent contexts carrying only operational task state. All frozen baseline payloads and the reader operating instruction remain unchanged. Historical accepted documents and local-patch evidence retain their original status and are not retroactively relabelled."
+  ],
+  "iteration_repair_policy": {
+    "repair_target": "PROF operative instructions and execution requirements for every independently verified material failure",
+    "generated_document_edits_allowed": false,
+    "publish_revised_root_skill_before_generation": true,
+    "canonical_repository": "alverstris/PROF-Skill.md-",
+    "canonical_branch": "main",
+    "author_fork_turns": "none",
+    "handover": "operational goal, exact constraints, verified commit and input identities, active material, queue, remaining tasks and access limits only",
+    "prior_teaching_diagnoses_answers_in_generation_inputs": false,
+    "current_agent_context_erasure_claimed": false,
+    "publication_implies_acceptance": false
+  }
 }

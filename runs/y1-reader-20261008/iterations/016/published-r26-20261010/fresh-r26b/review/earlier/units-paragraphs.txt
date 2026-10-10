@@ -1,0 +1,260 @@
+runs/y1-reader-20261008/iterations/001/teaching-v4.md
+21: ```
+22: To construct the expression, subtract the old output from the new output, and divide by the corresponding input change. To read it, the numerator is the vertical change and the denominator the horizontal change; the result is output units per input unit.
+23: 
+77: ```
+78: in coordinate square units, for every $`x_0\ne0`$. For positive $`x_0`$ the triangle lies in the first quadrant; for negative $`x_0`$ it lies in the third. Absolute values keep lengths positive in both cases.
+79: 
+80: [P12] For a concrete picture, $`x_0=2`$ gives contact point $`(2,1/2)`$, tangent $`y=1-x/4`$, and intercepts $`(4,0)`$, $`(0,1)`$. The triangle has base 4 and height 1, hence area 2. Changing $`x_0`$ changes its shape while preserving the product of its perpendicular side lengths. The contact point is the midpoint of the segment between the intercepts, because the coordinate averages are $`x_0`$ and $`1/x_0`$.
+81: 
+188: ```
+189: Equivalently, with numerical height measured in feet and numerical time in seconds, $`y=400-16t^2`$. These are model assumptions, not a prediction that the same formula describes the collision or the later motion. The factor 16 is half the acceleration magnitude, and its units make the quadratic term a length.
+190: 
+192: 
+193: [P25] An average velocity is displacement divided by elapsed time. An average speed is total distance travelled divided by elapsed time. For the entire downward fall,
+194: 
+197: \qquad
+198: \text{average speed}=\frac{400}{5}=80\,\mathrm{ft/s}.
+199: ```
+200: The displacement is negative because height decreases; the distance is positive. They have the same magnitude here because there is no reversal. With a reversal, distance accumulates on both parts while signed displacements can cancel. This distinction corrects the source's use of “average speed” for the signed height quotient; see [MIT's one-dimensional velocity definition, section 4.3.1](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/mit8_01scs22_chapter4.pdf) and [MIT's velocity and speed notes](https://www.mit.edu/~hlb/1802/pdf/MIT18_02SC_notes_12.pdf).
+201: 
+215: ```
+216: The interval must remain within the falling phase and $`\Delta t\ne0`$. As $`\Delta t\to0`$, its final term disappears, leaving the same instantaneous velocity. The graph has time on the horizontal axis and height on the vertical axis; its secant and tangent slopes now carry velocity units.
+217: 
+223: ```
+224: The notation $`5^-`$ means approaching time 5 from earlier times. We can take the limit of $`v(t)`$ as $`t`$ rises to 5, or use the quotient at $`t=5`$ with negative $`\Delta t`$. Both use only the pre-impact motion. A two-sided derivative of the real motion at the collision is not supplied by this falling model. The impact speed exceeds the average speed because the object accelerates throughout the fall.
+225: 
+233: ```
+234: or about 110 mph. Each conversion factor equals one, and the unwanted feet and seconds cancel. The [NIST length conversion table](https://www.nist.gov/pml/us-surveyfoot/revised-unit-conversion-factors) and [NIST time-unit table](https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-5-units-outside-si) give these unit relations.
+235: 
+236: [P29] Attempt C — choose the rate that answers the question. A different object has prescribed upward position $`z(t)=(t-1)^2`$ metres, with the numerical time $`t`$ in seconds on $`0\le t\le2`$. This is a specified motion, not the preceding gravity model. It moves down to $`z=0`$ at $`t=1`$, then up again. Find its average velocity and average speed over the whole interval, and its velocity and speed at $`t=1.5`$. Explain why the first two answers can differ even though they use the same total time. A complete response must identify the distance on each leg, the signed displacement, and whether an interval quotient or a derivative is needed. Hint C: P34. Solution C: P39.
+237: 
+238: [P30] The same distinction applies beyond motion: a finite output change divided by a finite input change is an average rate, whereas its local limit is a derivative when that limit exists. Always retain the quantity being differentiated, the input with respect to which it changes, the evaluation point or interval, and the domain or physical phase in which the calculation applies.
+239: 
+270: 
+271: [P39] Solution C. The net displacement is $`z(2)-z(0)=1-1=0`$ metres, so average velocity is $`0/2=0\,\mathrm{m/s}`$. The object travels 1 metre down and 1 metre up, for total distance 2 metres and average speed $`2/2=1\,\mathrm{m/s}`$. At a single instant use
+272: 
+275: ```
+276: The velocity is upward and its magnitude, the speed, is $`1\,\mathrm{m/s}`$. Oppositely signed displacements cancel in the whole-interval velocity; positive leg lengths add in distance. This is why taking the magnitude of average velocity would fail to give average speed for this journey. Return to P30.
+277: 
+runs/y1-reader-20261008/iterations/002/teaching-v1.md
+10: 
+11: [P05] Fix a base point $`a`$. In the lecture's first graph, the horizontal change is $`\Delta x`$ and the vertical change is $`\Delta y=f(a+\Delta x)-f(a)`$. Their ratio is the secant slope, or average rate, between the two points. Letting the nonzero horizontal change approach zero gives the derivative when the limit exists as a finite number:
+12: 
+16: 
+17: [P06] The base point stays fixed during this limit. Setting $`x=a+\Delta x`$ makes $`\Delta x=x-a`$, so the same derivative is $`\lim_{x\to a}[f(x)-f(a)]/(x-a)`$. This explains the lecture's interchange of input and increment notation. Neither original quotient permits a zero denominator. Simplifying for nonzero increments and then taking a limit is legitimate; substituting zero into the original quotient is not. A derivative's units are output units divided by input units.
+18: 
+19: [P07] The lecture's examples express the same rate in different settings. If $`q(t)`$ is charge transferred through a cross-section, $`dq/dt`$ is current, in charge per time. If $`s(t)`$ is accumulated distance traveled, $`ds/dt`$ is speed where it exists; if the function instead describes signed position, its derivative is signed velocity, whose magnitude is speed. If $`T(x)`$ is temperature along a spatial coordinate, $`dT/dx`$ is the temperature gradient in temperature units per length, not a rate per time. These interpretations come from identifying what each axis measures before taking the ratio.
+20: 
+35: 
+36: [P12] This ratio is positive: a larger inferred slant distance gives a larger inferred ground distance when altitude is held fixed. It has units length/length. By the definition of derivative, for a sufficiently small nonzero measurement change at a fixed point with $`h\gt s`$, the finite ratio $`\Delta L/\Delta h`$ is close to $`h/L`$, giving the local approximation $`\Delta L\approx(h/L)\Delta h`$. The perturbed range must remain in the domain. Near $`h=s`$, $`L`$ is small and this factor becomes large. At $`h=s`$ itself there is no finite linear sensitivity: for $`\delta\gt0`$ the right-hand change ratio is
+37: 
+47: 
+48: [P14] Q2. Change which measurement varies: hold the slant range $`h`$ fixed and let the estimated altitude $`s`$ vary with $`0\lt s\lt h`$. In the same flat model, find $`dL/ds`$ and interpret its sign and units. Your response should identify the held-fixed quantity and explain whether an overestimated altitude raises or lowers the inferred ground distance. This checks transfer of the sensitivity calculation to a different controlling measurement. [Hint H2](#h2); [solution S2](#s2).
+49: 
+107: 
+108: [P30] The source motion example specifies height $`y(t)=400-16t^2`$ for $`-5\le t\le5`$. Its building drawing is a scene, not a calibrated graph of horizontal motion or a source of a building height. The formula makes $`t=0`$ the highest point: $`t^2\ge0`$ gives $`y(t)\le400`$, with equality at zero. Negative times therefore describe the part of this motion before that chosen time origin; they are not negative elapsed durations. The page does not specify height or time units, so retain its numbers in the source's unspecified units.
+109: 
+110: [P31] For $`-5\lt t\lt5`$, differentiation gives $`y'(t)=-32t`$, a straight decreasing line through the origin. It is signed vertical velocity, in height units per time unit. The height rises before zero because this velocity is positive, has a horizontal tangent at zero because the velocity is zero, and falls afterward because the velocity is negative. For example, at $`t=-2,0,2`$ the heights are $`336,400,336`$, while the velocities are $`64,0,-64`$. Equal heights on the ascent and descent accompany opposite velocities. The height function is even on $`[-5,5]`$, while its interior derivative is odd, as P29 predicts. The vertical speed is $`|y'(t)|`$; it cannot be negative. The source's height and derivative graphs illustrate precisely this transfer from tangent slopes to derivative heights.
+111: 
+117: 
+118: [P34] We now justify the two trigonometric limits that the lecture's small-angle pictures suggest. All angles in this argument are in radians. For radius $`1`$ and a positive angle $`\theta`$, the arc length is $`\theta`$ and sector area is $`\theta/2`$. Initially take $`0\lt\theta\lt\pi/2`$, so every length in the drawing is nonnegative. Place $`O=(0,0)`$, $`A=(1,0)`$ and $`B=(\cos\theta,\sin\theta)`$ on the unit circle. The perpendicular foot is $`C=(\cos\theta,0)`$; the same ray from $`O`$ meets the tangent line $`x=1`$ at $`T=(1,\tan\theta)`$, because its slope is $`\sin\theta/\cos\theta`$.
+119: 
+121: 
+122: ![Unit-circle construction: inner triangle OAB is inside sector OAB, which is inside triangle OAT. OA and OB are 1; OC is cos theta, BC is sin theta, CA is 1 minus cos theta, AT is tan theta, and arc AB has length theta.](figures/unit-circle-proof-v1.png)
+123: 
+253: 
+254: [P62] Its units are length/length and its sign is negative. At fixed slant range, increasing the vertical leg leaves less horizontal length in the same right triangle. Thus a sufficiently small positive altitude estimation error lowers the inferred ground distance, with $`\Delta L\approx-(s/L)\Delta s`$, provided the perturbed altitude stays in the domain and the change is sufficiently small. This differs from P12 because that calculation held altitude fixed and varied slant range. Copying its positive sign would change the question being answered. [Return to Q2](#q2).
+255: 
+runs/y1-reader-20261008/iterations/003/teaching-v1.md
+6: 
+7: [P02] You already have the standard derivative rules. This lecture connects them to the difference quotient: why a changing product has two contributions, why a quotient has a minus sign and a squared denominator, and why the sine and cosine formulas depend on angle units. The aim is to justify and use the rules, including cases where only values and rates at one point are known.
+8: 
+18: 
+19: [P05] Recall the definition below. The fraction is the average rate over the increment $`h\ne0`$; a finite limit as $`h`$ approaches zero from either side is the derivative at $`x`$. Functions are assumed defined on an open interval around the point unless a restriction is stated. We use these finite-limit laws: a sum, a constant multiple and a product of quantities with finite limits have the corresponding sum, multiple and product as limits; a quotient has the quotient limit when the denominator’s limit is nonzero. These are analytic facts used in the proofs, not rules for substituting into an undefined expression. For instance, if $`A(h)\to3`$ and $`B(h)\to0`$, then $`A(h)B(h)\to0`$, whereas these facts alone do not determine $`A(h)/B(h)`$.
+20: 
+50: 
+51: [P09] Attempt A: interpret a combined rate. A different calibration is $`r(t)=2a(t)-b(t)`$, with fixed coefficient 2. At $`t_0`$, $`a'=0.30\ \mathrm{V\,s^{-1}}`$ and $`b'=0.40\ \mathrm{V\,s^{-1}}`$. Find $`r'(t_0)`$ and state whether the reading has a positive or negative instantaneous rate. Give the derivative relation, signed value and units; a statement about this instant is sufficient, without claiming monotonic behaviour over an entire interval. [Hint A](#p34) · [Solution A](#p40) · [Continue](#p10).
+52: 
+82: 
+83: [P13] Angle units are a condition on the input, not a calculator preference that leaves a derivative unchanged. If $`d`$ is a numerical angle in degrees, define $`s(d)=\sin(\pi d/180)`$, where the sine on the right takes radians. In the difference quotient for $`s`$, put $`k=\pi\delta/180`$, where $`\delta`$ is the change in degrees. Then $`\delta=180k/\pi`$ and $`k\to0`$ with $`\delta\to0`$; the quotient is $`\pi/180`$ times the radian sine difference quotient at $`\pi d/180`$. Consequently $`s'(d)=(\pi/180)\cos(\pi d/180)`$. In particular, the slope at zero is $`\pi/180`$ per degree, instead of 1 per radian. The same input conversion gives $`-(\pi/180)\sin(\pi d/180)`$ for the degree-input cosine.
+84: 
+156: 
+157: [P21] Attempt B: use signed rates and justify an approximation. A rectangle has differentiable side lengths $`u(t)`$ and $`v(t)`$. At $`t_0`$, $`u=3\ \mathrm m`$, $`v=4\ \mathrm m`$, $`u'=-0.2\ \mathrm{m\,s^{-1}}`$ and $`v'=0.5\ \mathrm{m\,s^{-1}}`$. Find its instantaneous area rate and interpret the sign. Then assess this argument: “The extra product-increment term can be discarded after dividing by $`h`$ merely because $`\Delta u\Delta v\to0`$.” Give a valid limiting justification instead. A complete response has units and distinguishes decreasing length from negative length. [Hint B](#p35) · [Solution B](#p41) · [Continue](#p22).
+158: 
+216: 
+217: [P30] Attempt D: retrieve formulas and their warrant. Without looking back, state the sum, constant-multiple, product, quotient, sine and cosine derivative rules, including their differentiability, domain and angle-unit conditions. Write the exact product increment identity and show why its cross term contributes zero to the derivative. A satisfactory response includes both the rules and the limiting reason; recalling only the product formula does not complete the task. [Hint D](#p37) · [Solution D](#p43).
+218: 
+232: 
+233: [P34] Hint A. Differentiate the two contributions before substituting the rates: the fixed multiplier stays on $`a'`$, and the subtraction stays on $`b'`$. Compare twice the first rate with the second rate; the difference has units of voltage per time. [Return to A](#p09) · [Solution A](#p40).
+234: 
+runs/y1-reader-20261008/iterations/004/teaching-v1.md
+42: 
+43: For example, at $`t=1`$ the intermediate input is $`1`$, the two rates are $`\cos 1`$ and $`2`$, and the overall rate is $`2\cos 1`$. The cosine factor alone would describe change per unit of $`x`$, not per unit of $`t`$. This is why the inner derivative is necessary.
+44: 
+84: 
+85: Thus the new values are $`t_0+h`$, $`x_0+k`$ and $`y_0+\Delta y`$. The lecture factors the average rate as
+86: 
+158: 
+159: The first derivative assigns a slope to each input where that derivative exists. Differentiating this slope function gives the second derivative: the rate at which slope changes. For example, if $`p(x)=x^3`$, then $`p'(x)=3x^2`$ and $`p''(x)=6x`$. At $`x=1`$ the original slope is $`3`$ and the slope changes locally at rate $`6`$ per unit of $`x`$.
+160: 
+294: 
+295: At $`t=0`$, this is $`0`$. The expression $`-\sin(t^2)`$ gives the outer rate per unit of $`u`$; multiplying by $`2t`$ converts it to the rate per unit of $`t`$. Without that factor the proposed formula is not the derivative as a function of $`t`$, even though both expressions happen to be zero at $`t=0`$. [Return to Task A](#task-a)
+296: 
+runs/y1-reader-20261008/iterations/005/teaching-v2.md
+14: 
+15: [P04] The unit circle gives a first worked case. Solving $`y^2=1-x^2`$ produces the upper and lower branches $`y=\pm\sqrt{1-x^2}`$, defined for $`-1\leq x\leq1`$. On the upper branch and the open interval $`-1\lt x\lt 1`$, the familiar power and chain rules give
+16: 
+runs/y1-reader-20261008/iterations/006/regenerated-r13-candidate1/teaching-v3.md
+83: <!-- P023 -->
+84: These are the comparisons in Figures 2 and 3: a secant measures an average slope between its two points, while a tangent measures the slope at one point. For these strictly upward-curving exponentials, tangent slopes increase along the curve, placing the secant slope between the endpoint tangent slopes. The comparisons locate the slope-one base between 2 and 4 once continuity and increase of $M(a)$ are established. We will identify $M(a)$ explicitly in Part 2, which also verifies those properties. The printed source labels the second secant's right endpoint $(1,0)$; the correct coordinates are $(0,1)$.
+85: 
+404: <!-- P107 -->
+405: The prime now denotes differentiation with respect to time $t$. If $F$ is measured in points and time in days, $F'$ has units points per day and $F'/F$ has units per day. Multiplying by 100 gives an instantaneous percentage rate per day. For a physical measurement, read the logarithm as $\ln(F/F_{\rm ref})$ with a fixed positive reference in the same units; its derivative is still $F'/F$, because the reference is constant. This avoids taking a logarithm of a dimensional quantity.
+406: 
+435: <!-- P115 -->
+436: Two positive index levels are modelled by $F(t)=300e^{-0.02t}$ and $G(t)=10000e^{-0.02t}$, where $t$ is the numerical time in days. At $t=0$, find each absolute rate in points per day and each instantaneous percentage rate per day. Separately compare the exact finite percentage changes caused by a fall of 50 points from 300 and from 10000. For the model $F$, express its exact percentage change from day 0 to day 1 and explain why it differs from the instantaneous percentage rate multiplied by one day. A complete response states which quantities agree, carries signs and units, and separates exact finite change from local approximation; a symbolic expression in $e$ is sufficient.
+437: 
+runs/y1-reader-20261008/iterations/007/revised-v3/teaching-v3.md
+8: <!-- P003 -->
+9: Read the core in order and pause at Q1–Q6 if you want to practise the current connection. Each task links to its own hint and full solution. All hints are grouped after the core; the complete solutions are in a separate group after the hints. Q7 is a later review opportunity. You can bring a partial attempt to the help; there is no need to diagnose your own difficulty first.
+10: 
+runs/y1-reader-20261008/iterations/008/revised-r15-v2/teaching-r15-v2.md
+122: 
+123: Here the error divided by $`h^2`$ tends to zero. To see why, call the difference between function and quadratic $`E(h)`$. The matching in P025 gives $`E(0)=E'(0)=0`$ and $`E''(h)=f''(a+h)-f''(a)`$. Continuity makes the magnitude of $`E''`$ at most any chosen small number $`\eta\gt 0`$ on a sufficiently short interval around zero. Integrating from zero gives $`|E'(t)|\le\eta|t|`$, and integrating again gives $`|E(h)|\le\eta h^2/2`$. These bounds follow because an integral's magnitude cannot exceed the integral of a bound on its integrand; they work on either side of zero. Thus $`|E(h)/h^2|`$ can be made arbitrarily small. This justifies the error fact rather than assuming that derivative matching alone proves accuracy everywhere.
+124: 
+201: 
+202: P041. Divide by $`T`$ to isolate a dimensionless ratio. Define $`q=(v/c)^2`$. In the power template set $`u=-q`$ and $`r=-1/2`$:
+203: 
+208: 
+209: The variable that is small here is $`q`$, not a speed measured in arbitrary units. The correction has positive sign because $`ru=(-1/2)(-q)=q/2`$. For nonzero speed the frame interval exceeds the onboard interval, consistent with the exact denominator being less than 1. The source's displayed approximation drops a factor $`T`$; it is restored here so time is never equated to a dimensionless number.
+210: 
+211: P042. With the lecture's values $`v=4\ \mathrm{km/s}`$ and $`c=3\times10^5\ \mathrm{km/s}`$, the units cancel before squaring:
+212: 
+234: 
+235: This is quadratic in $`q`$ and fourth degree in $`v/c`$. At the speed in P042, the extra dimensionless term is about $`1.19\times10^{-20}`$; for the stated one-day onboard interval it adds about $`1.02\times10^{-15}\ \mathrm{s}`$. That is far smaller than the first correction. Whether it may be neglected depends on the required accuracy, duration and other model errors. The lecture's historical claim about all atomic clocks is not needed to make that comparison and is not assumed here as a current precision limit.
+236: 
+238: 
+239: P045. A3 — accuracy in context. Use the model in P040 with $`T=100\ \mathrm{s}`$ and $`v/c=0.01`$. Estimate $`T'`$ first with the linear and then with the quadratic model in $`q=(v/c)^2`$. The reference value of $`T'/T`$ is 1.0000500037503125, rounded to 16 decimal places. An estimate is acceptable here if its absolute error in $`T'`$ is below $`10^{-7}\ \mathrm{s}`$. Decide which estimate meets that criterion using the reference value, and explain why a term quadratic in $`q`$ is fourth degree in $`v/c`$. This checks the small-variable mapping, units and choice of useful accuracy; it asks for no claim about actual instrument capabilities. [Hint A3](#h3) · [Solution A3](#s3) · [Continue reading](#after-a3).
+240: 
+244: 
+245: P047. Start with the quantity you need: a nearby value, a slope, a limit or a physical correction. Select an easy base point near the input and express the displacement or dimensionless small variable. Choose a degree that survives any planned cancellations and divisions. For a product, collect every contribution through that degree. Preserve the original domain and units, then interpret the result. A derivative calculation can be simpler than combining models, as in P022; both routes are legitimate.
+246: 
+runs/y1-reader-20261008/iterations/009/resumption-20261009/author/teaching-r15-recovery-v3.md
+125: 
+126: P038. For large positive $`x`$, both numerator and denominator grow; that alone does not decide the quotient's limit. Checking only selected values such as $`x=2^n`$ would not yet control all intervening inputs. We can instead bound the quotient for every $`x\ge1`$. On $`1\le t\le x`$, $`\sqrt t\le t`$, so taking positive reciprocals gives $`1/t\le1/\sqrt t`$. Here $`t`$ is the variable running through the integral, while $`x`$ is its upper endpoint. Integrating preserves this inequality because it compares areas under nonnegative curves:
+127: 
+133: 
+134: P039. The first integral is $`\ln x-\ln1=\ln x`$ by the antiderivative rule; the last uses $`t^{-1/2}`$. Dividing the bound by positive $`x`$ gives
+135: 
+runs/y1-reader-20261008/iterations/010/current-r16/author/teaching-v2.md
+68: 
+69: P020. The behavior at the open ends checks the physical interpretation. As $`r\to0^+`$, $`2V/r\to+\infty`$; as $`r\to+\infty`$, $`\pi r^2\to+\infty`$. Area is unbounded above and has no maximum. Figure 4 shows the exact curve for the illustrative fixed volume $`V=\pi`$ cubic units, so $`r_*=1`$ length unit. Its two arms rise without bound; the lowest height is $`3\pi`$ square units. For other positive volumes the numerical scale changes, but P019 proves the same decreasing-then-increasing pattern.
+70: 
+82: 
+83: P022. The least-area open can is as high as its radius; its height is half its diameter. The ratio describes the shape independently of volume. The units also check: $`V^{1/3}`$ is a length and $`V^{2/3}`$ an area. In the original lecture's printed page 3, the first displayed height has a misprinted denominator, and the final surface-area simplification is also misprinted. P016 and P021 give the corrected results directly from the volume and area equations; the source itself is preserved.
+84: 
+86: 
+87: P023. Q2 — changed model, generated. The cylinder now has a lid as well as a bottom. Keep fixed $`V\gt0`$, positive lengths, negligible thickness and seams, and uniform area cost. Find the radius and height minimising its total surface area, the ratio $`h/r`$, and the minimum area. Construct the new area expression, use the volume constraint to reduce it to one variable, and justify a global minimum on the whole feasible domain. A complete response must account for the lid, give the valid domain, and interpret both dimensions and area. [Hint Q2](#h2) · [Solution Q2](#s2).
+88: 
+89: P024. A different outcome from the same search method. Take a wire of total length 1 length unit. Cut it into lengths $`x`$ and $`1-x`$ and bend each piece into a square, with no waste. We first allow $`0\le x\le1`$, where a zero-length piece is understood as a degenerate square of area zero. This convention lets us compare the boundary configurations with the ordinary two-square configurations. We will then impose two strictly positive pieces.
+90: 
+107: 
+108: P028. It vanishes at $`x=1/2`$. But it is negative before that point and positive after it, so this candidate is a minimum. Its area is $`A(1/2)=1/32`$ square units. The endpoints give $`A(0)=A(1)=1/16`$ square units. Continuity on the closed interval and the complete candidate comparison show that the maximum is $`1/16`$, attained at both endpoints. Using the whole wire for one square encloses twice as much area as splitting it equally between two squares.
+109: 
+121: 
+122: P033. The same five decisions connect both physical examples: identify the quantity to optimise, translate geometry into an objective and constraint, use the constraint to find one variable's feasible domain, obtain all relevant candidates and boundary behavior, then return to the requested value and dimensions. A stationary calculation supplies only one part of that chain. A constraint can exclude a tempting boundary value, and a minimum can be the worst answer to a maximum question.
+123: 
+174: 
+175: P045. The height now equals the diameter. Adding the lid increases the area cost of a large radius, so compared with the open can of the same volume the optimal radius is smaller and the can is taller. The added disk changes the controlling condition; reusing the open-can ratio would miss it. Length and area units agree as in P022. [Return to Q2](#q2).
+176: 
+runs/y1-reader-20261008/iterations/011/current-r17/author/teaching-v3.md
+4: 
+5: P003. In a related-rates problem, two quantities depend on the same time $`t`$. For example, a car's distance along a road and its distance from a roadside radar change together, but not at the same rate. Write $`x(t)`$ for the first distance and $`D(t)`$ for the second. The notation $`x'=dx/dt`$ means the instantaneous change in $`x`$ per unit time; the prime in this lesson means differentiation with respect to time unless a different derivative is explicitly written. A negative distance rate means that distance is shrinking. Speed along a straight road is the magnitude of the signed road-coordinate rate.
+6: 
+7: P004. The chain rule connects geometry to motion. If $`D`$ is determined by $`x`$, then $`dD/dt=(dD/dx)(dx/dt)`$. The first factor says how much the radar distance changes per change in road distance; the second says how quickly road distance changes. Their product has distance-per-time units. More generally, differentiating an equation that holds throughout the motion relates the instantaneous rates at the same instant. This is why we first write a relation valid for nearby times, then differentiate, then insert instantaneous values. Fixed constants, such as a permanent road offset, may be inserted before differentiating; an instantaneous value of a changing quantity may not replace that quantity throughout the relation.
+8: 
+14: 
+15: P007. Figure 1. The perpendicular offset and road segment are the two legs of a right triangle; $`D`$ is its hypotenuse. The arrow indicates the approach direction. Thus Pythagoras supplies a relation valid as the car moves. In equations using feet as the length unit, the fixed offset is 30:
+16: 
+56: 
+57: P016. The lecture's tank is an inverted circular cone, point downward, 10 ft high with top radius 4 ft. Water enters at $`2\,\mathrm{ft^3/min}`$. For this worked example assume no water leaves and the level stays horizontal. Let $`h(t)`$ be water depth measured upward from the point, $`r(t)`$ the radius of the water surface, and $`V(t)`$ the water volume. They all change. The fixed tank dimensions are 10 and 4; $`r`$ is not the tank's fixed top radius except when full. We seek $`h'`$ when $`h=5\,\mathrm{ft}`$, using minutes for $`t`$ in this example.
+58: 
+62: 
+63: P018. The cone volume formula applies to the water's dimensions: $`V=\pi r^2h/3`$. Substitute the relation that holds throughout filling, not just at the requested instant:
+64: 
+82: 
+83: P021. The answer is positive, as filling requires. Its units follow from volume-per-time divided by area. Indeed $`4\pi h^2/25=\pi r^2`$ is the area of the current water surface. For a small rise, the added volume is approximately that area times the rise; the derivative gives the limiting ratio exactly. As the cone widens, the same inflow produces a smaller height rate. The rate formula is used for $`h\gt0`$; division by $`h^2`$ does not give a finite initial height rate at the ideal sharp point.
+84: 
+104: 
+105: P028. The derivative has units of length divided by length. A small positive change in the measured $`h`$ produces a positive inferred change in $`L`$. To connect this local rate to an actual finite change, let $`\Delta h`$ be the new measured input minus the original input, and $`\Delta L=L(h+\Delta h)-L(h)`$. The derivative definition says that $`\Delta L/\Delta h`$ approaches $`dL/dh`$ as a nonzero $`\Delta h`$ tends to zero. Therefore for a sufficiently small change at a fixed point with $`L\gt0`$,
+106: 
+113: 
+114: P030. For a concrete sensitivity reading, if $`c=3`$ length units and $`h=5`$, then $`L=4`$ and $`dL/dh=5/4`$. This means that small slant-distance errors are magnified by about 1.25 in the inferred horizontal distance when the same length unit is used for both. It does not mean that the horizontal distance itself is $`1.25h`$. If $`c`$ also changes, differentiating the full equation instead gives $`2LL'+2cc'=2hh'`$; the zero derivative of $`c^2`$ in P029 depended on fixed $`c`$.
+115: 
+123: 
+124: P034. A reusable route is now available: identify the changing quantities and fixed constraints in a diagram; write a relation valid beyond one instant; differentiate using the same independent variable throughout; insert simultaneous values; then interpret sign, units, domain and the model's conditions. For measurement sensitivity, replace a time-rate question by a derivative with respect to the uncertain input, and distinguish the derivative from a finite-error approximation. Eliminating a variable before differentiating is useful when a fixed geometric relation permits it, as in the cone.
+125: 
+129: 
+130: P036. Source and scope. Adapted and independently checked from [MIT OpenCourseWare, 18.01 Single Variable Calculus, Fall 2006, Lecture 12: Related Rates](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/ba3498155dbaa90b2a82c88174a18ee1_lec12.pdf), all five PDF pages (cover plus printed pages 1–4). The two numerical worked examples and satellite relation are the lecture's; figures here are new explanatory redraws. Practice and its supplied leak law are generated, not MIT assessment questions. The original rounds the speed conversion, calls $`V`$ tank volume before switching to changing water dimensions, and leaves the final problem-set sketches abbreviated. These notes make the relevant meanings and limits explicit; they do not reconstruct missing problem-set data.
+131: 
+runs/y1-reader-20261008/iterations/012/current-r18/author/teaching-v2.md
+156: 
+157: For example, the horizontal difference between $`P`$ and $`B`$ is $`x-a`$ and the vertical difference is $`y-b`$; both whole differences are squared. Their signs disappear in the lengths but will matter after differentiation. Every term in the length equation has length units. The locus, meaning the set of allowed ring positions, is an ellipse: by definition an ellipse has constant sum of distances to two fixed points, its foci. Here those foci are the supports, not the ring. We assume $`L\gt \sqrt{a^2+b^2}`$, so the string is longer than the straight support separation and the ellipse is nondegenerate. P027 will explain what happens at or below that boundary.
+158: 
+298: 
+299: At a point $`P`$ on the nondegenerate ellipse, let $`\mathbf u_1`$ and $`\mathbf u_2`$ be unit vectors from the two foci toward $`P`$, and let $`\mathbf t`$ be a tangent direction. The derivative of a distance along motion with velocity $`\mathbf t`$ is its radial component, $`\mathbf u_i\cdot\mathbf t`$. To see this, let $`s`$ be a parameter describing motion along the ellipse; primes in this paragraph mean derivatives with respect to $`s`$. Write the displacement from a fixed focus as $`\mathbf v(s)`$, with length $`r(s)=\sqrt{\mathbf v(s)\cdot\mathbf v(s)}`$. Differentiation gives $`r'=(\mathbf v/r)\cdot\mathbf v'=\mathbf u\cdot\mathbf t`$ when $`\mathbf v'=\mathbf t`$. Along the ellipse, $`r_1+r_2=L`$ is constant, so
+300: 
+304: 
+305: Thus $`\mathbf n=\mathbf u_1+\mathbf u_2`$ is a normal direction. It is nonzero on the nondegenerate ellipse: opposite unit vectors would put $`P`$ between the foci, where the distance sum is only $`AB\lt L`$. Because both unit vectors have length one,
+306: 
+317: 
+318: This drawing uses $`A=(0,0),B=(6,2)`$ and $`L=10`$ in consistent length units. The arrows show travel from $`A`$ to $`P`$ and then to $`B`$. The dashed normal bisects the angle between the two ray segments as viewed from $`P`$; the dotted tangent is perpendicular to it. Figure 3 is the special lowest-point case with a vertical normal. A local normal, rather than the fixed vertical axis, is the reference for reflection elsewhere.
+319: 
+runs/y1-reader-20261008/iterations/013/current-r19/author/learner-v2.md
+12: <a id="a"></a>
+13: A. From an average slope to an actual tangent slope
+14: 
+26: 
+27: The point c is an input, not an average output. Its tangent is parallel to the secant because the two lines have the same slope. The theorem guarantees existence, not a particular c, its uniqueness, or that it is the midpoint. No derivative at either endpoint is required. These are exactly the lecture's closed-interval continuity and open-interval differentiability conditions. [MIT source, printed p. 1](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/1a211af8e4860b63b801aa3d6e7a2e95_lec14.pdf).
+28: 
+80: 
+81: The output/input units are miles/hour. The conclusion is an instantaneous speed of exactly the average at some time; it does not claim the whole journey had that speed. If s instead denotes a signed position allowing backwards motion, its derivative is signed velocity and the direct MVT conclusion concerns average velocity. Using route progress avoids identifying a curving route length with straight-line distance from Boston.
+82: 
+runs/y1-reader-20261008/iterations/014/current-r20/author/teaching-v2.md
+30: 
+31: The second equality is the definition of $`dy`$ at this base. It is exact. The approximation is $`\Delta y\approx dy`$. The tangent passes through $`(a,f(a))`$ with slope $`f'(a)`$, so its value at input $`a+dx`$ is exactly $`f(a)+dy`$. Both changes can be negative. If input and output have units, $`f'(a)`$ has output units per input unit, and multiplying by $`dx`$ gives the output units of $`dy`$.
+32: 
+68: 
+69: Set $`u=h/64`$. This is the relative, dimensionless change inside the brackets, not the original change $`h`$. The familiar first-order binomial approximation $`(1+u)^r\approx1+ru`$ gives
+70: 
+80: 
+81: P2. Estimate $`63.7^{1/3}`$ using base $`64`$. Write both the differential construction and the corresponding small-parameter binomial expression; show that the two estimates agree. Identify the step that introduces approximation. A successful response maps an absolute input change to a dimensionless relative one. Help: [H2](#d014-h2); full solution: [S2](#d014-s2).
+82: 
+86: 
+87: L4. Reading an indefinite integral
+88: 
+94: 
+95: asks for the family of such functions. The integral sign asks for antidifferentiation; $`f(x)`$ is the integrand; $`dx`$ specifies the variable; and $`C`$ is an arbitrary additive constant, fixed as $`x`$ varies. There are no endpoint bounds here. To construct this notation from $`F'=f`$, write the derivative on the integrand side and the original function plus $`C`$ on the other side. Equivalently, $`dF=f(x)dx`$ expresses the same derivative using differentials. For instance, $`(-\cos x)'=\sin x`$, so
+96: 
+171: 
+172: If $`u=g(x)`$, then $`du=g'(x)dx`$. The useful object to replace in an integral is the entire product $`g'(x)dx`$. This rule is justified by the chain rule: whenever $`A'(u)=q(u)`$,
+173: 
+180: 
+181: For the lecture's integral
+182: 
+275: 
+276: Source note. This lesson covers the cover and all four printed pages of MIT OpenCourseWare, 18.01 Single Variable Calculus, Fall 2006, [Lecture 15: Differentials and Antiderivatives](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/c07ab6e13cf8684dd98b2650b64672fb_lec15.pdf). The cube-root and integral examples retain its mathematical content, with the approximation and domain corrections identified above. P1–P7 are generated practice, not quoted exam questions. The supplemental mean value theorem statement is linked at L5.
+277: 
+runs/y1-reader-20261008/iterations/015/current-r21/author/v2/teaching.md
+49: 
+50: It places all dependence on $`y`$ with $`dy`$ and all dependence on $`x`$ with $`dx`$. It is justified here by the chain rule, rather than by treating a derivative as a quotient of two independent numbers. Only one arbitrary constant is needed: if both integrals receive constants, moving one across combines them into their difference.
+51: 
+69: 
+70: At $`x=0`$, $`e^0=1`$, so $`y(0)=a`$. In particular, $`y(0)=1`$ chooses $`y=e^{-x^2/2}`$. Positive $`a`$ scales the height of the curve, negative $`a`$ reflects it below the axis as well as scaling it, and zero gives the axis itself. These are dimensionless mathematical examples; no physical units for $`x`$ or $`y`$ are assigned.
+71: 
+200: 
+201: This is an ellipse centred at the origin: a unit circle stretched horizontally by $`2\sqrt c`$ and vertically by $`\sqrt{2c}`$. To see the mapping, put $`X=x/(2\sqrt c)`$, $`Y=y/\sqrt{2c}`$; the equation becomes $`X^2+Y^2=1`$. The semiaxes, the distances from the centre to the horizontal and vertical ends, are therefore $`2\sqrt c`$ and $`\sqrt{2c}`$. Their ratio is $`\sqrt2`$; the horizontal one is longer. For $`c=0`$, only the origin satisfies the relation, so it is a point rather than an ellipse curve. For $`c\lt 0`$, there are no real points because the left-hand side is nonnegative.
+202: 
+runs/y1-reader-20261008/iterations/015/current-r21/author/v2/hints.md
+runs/y1-reader-20261008/iterations/015/current-r21/author/v2/solutions.md

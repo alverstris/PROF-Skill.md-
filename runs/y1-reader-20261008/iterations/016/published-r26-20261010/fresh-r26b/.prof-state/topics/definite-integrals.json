@@ -1,0 +1,3269 @@
+{
+  "id": "definite-integrals",
+  "activation": {
+    "skill_path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/SKILL.md",
+    "skill_sha256": "a92d012395263f3410152045424c2e6f02300705d81720b5e1fd9590584448a0",
+    "activated_at": "2026-10-10T14:44:02.438546+00:00"
+  },
+  "source_reads": [
+    {
+      "source_id": "baseline",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "note": "Complete bounded read ranges and gap recovery are recorded in author/input-admission.json. Actual specific dependency locators and their use are in author/coverage-and-research.md; calculus, finite sums, geometry, units and graph area are available, while pyramid volume and the general existence statement are introduced locally."
+    },
+    {
+      "source_id": "operative-ref-1",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60",
+      "note": "Source portions, conventions, learner-route reconstruction, full integration and destination-specific checks govern the saved audit; recovery reread also complete."
+    },
+    {
+      "source_id": "operative-ref-2",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356",
+      "note": "Fresh-author/reader boundary, two reader subject inputs, full original report, PROF-only repair and publication-first restart govern this cycle."
+    },
+    {
+      "source_id": "operative-ref-3",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349",
+      "note": "Pins the operational baseline and reader resources; this manifest does not replace their full content."
+    },
+    {
+      "source_id": "operative-ref-4",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+      "note": "The exact short reader operating instruction was passed to the fresh reader."
+    },
+    {
+      "source_id": "operative-ref-5",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae",
+      "note": "Reader continuation after gaps and meaning/premise/connection/conclusion audit, without grading, constrain the separate original report."
+    },
+    {
+      "source_id": "operative-ref-6",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "note": "Every supported issue is audited across the full document; teaching stays frozen and material repairs belong in PROF."
+    },
+    {
+      "source_id": "operative-ref-7",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+      "note": "Mathematics route requires representation, assumptions, inference warrants, connected examples and interpretation; no domain example was treated as mandatory topic."
+    },
+    {
+      "source_id": "operative-ref-8",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+      "note": "The helper only tests recorded identities, locators and freshness; current pending destination status must prevent readiness."
+    },
+    {
+      "source_id": "original-pdf",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "3469042c0ca6aa75aa7e420b2bbf726228c31093aea11ddb2fc0044a4404fec0",
+      "note": "Every source page was read as text and as a full raster image. The separate page declarations bind these actual constituents."
+    },
+    {
+      "source_id": "source-page-1-txt",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "d40c0a82e3ee60897825b8d1987357e7e02ad0cbb00ff159685e39274d02191f",
+      "note": "MIT OCW cover establishes source identity and course/lecture provenance."
+    },
+    {
+      "source_id": "source-page-1-png",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "cd3532cab6f9bb1d811ef810bce00b57b2c0e05b421251a6b21788d4268f08eb",
+      "note": "MIT OCW cover establishes source identity and course/lecture provenance."
+    },
+    {
+      "source_id": "source-page-2-txt",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "cb601606cb9afdf39374040386a5b541e2b8ff8dd06460487011926c16c5f49f",
+      "note": "Curved region, Figure1 rectangle approximation and x\u00b2 right-endpoint total; retained in PartA and Figure1."
+    },
+    {
+      "source_id": "source-page-2-png",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "d0550fc6ff4730d69e75ab232cf673a8c29b0e9eec6d67bf49aed4ff8ee1afb7",
+      "note": "Curved region, Figure1 rectangle approximation and x\u00b2 right-endpoint total; retained in PartA and Figure1."
+    },
+    {
+      "source_id": "source-page-3-txt",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "9f2a6744ad87dac24d61033c00f696d07b79deb003a9b8e87fb7ce6c58187270",
+      "note": "Figures2\u20133, square sum and enclosing pyramids; the source prism wording is corrected through introduced volume theorem and every-height containment in PartB."
+    },
+    {
+      "source_id": "source-page-3-png",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "4c7210caf39e18f2a07901f8f5676df324f5fc80552adc9391d80e69ab4e8ea3",
+      "note": "Figures2\u20133, square sum and enclosing pyramids; the source prism wording is corrected through introduced volume theorem and every-height containment in PartB."
+    },
+    {
+      "source_id": "source-page-4-txt",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "cc616f402b0ab9b2f43abc3c2809fcbc4538de7de21bc5703a45446f94fa25f1",
+      "note": "Common x\u00b2 limit, line/triangle example, Figure4 and area derivative observation; retained in PartsB\u2013D."
+    },
+    {
+      "source_id": "source-page-4-png",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "9bed6409680a6aa03d50a701a13e39d3f11030691a7c892e74cb5f6a3a02773b",
+      "note": "Common x\u00b2 limit, line/triangle example, Figure4 and area derivative observation; retained in PartsB\u2013D."
+    },
+    {
+      "source_id": "source-page-5-txt",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "8c888852df889d9427bdee2e59978330a42ee3889ffe9449da7234a786fb002f",
+      "note": "General equal-width sampled Riemann sum, Figure5, simple-interest law, borrowing-rate units and month samples; retained in PartsD andF."
+    },
+    {
+      "source_id": "source-page-5-png",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "f911ec68b4d215fbfe56d979206f39e47f0434ea3a4ac66796747cdc4dd01861",
+      "note": "General equal-width sampled Riemann sum, Figure5, simple-interest law, borrowing-rate units and month samples; retained in PartsD andF."
+    },
+    {
+      "source_id": "source-page-6-txt",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "9a1be59a284a7d1ee68825ab4ed05b0c4206e7f908e4569e938b5dfe0e7c2bec",
+      "note": "Continuous principal and time-weighted debt; corrected money units and fixed-month versus refining-partition distinction in PartF."
+    },
+    {
+      "source_id": "source-page-6-png",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "73d43d51c96229389f44362bf4ec68343676e481117447f5992a3b1bf637c957",
+      "note": "Continuous principal and time-weighted debt; corrected money units and fixed-month versus refining-partition distinction in PartF."
+    },
+    {
+      "source_id": "source-identity",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "012e7fde22f130b7a11aa3905b970518356d2c9dd8bec713c6a1c643ace56115",
+      "note": "Binds unchanged PDF and all six text/image page representations to their original source; no content substitution."
+    },
+    {
+      "source_id": "scope-research",
+      "portion_id": "read",
+      "status": "read",
+      "reviewed_sha256": "b87b4f9cf25ff20d57705f26eb5158d53c56766c8cde6cfc1f33c0d914d2fa14",
+      "note": "Maps all six declared capabilities to original PDF pages and figures, exact baseline prerequisites and final PartsA\u2013F. It preserves the actually inspected official supplementary passage and source corrections. This is an author record, not subject material supplied to SASIS."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "destination-access",
+      "question": "Does the actual GitHub destination preserve all frozen expressions, prose style, embedded figure readability and help navigation?",
+      "consequential": true,
+      "status": "unverified",
+      "reason": "Two actual attempts returned the GitHub Unicorn page, with no lesson content. No document/PROF cause is established.",
+      "next_action": "Resume the unchanged immutable destination audit when it is available; do not regenerate, invent a PROF defect or advance D016 meanwhile.",
+      "evidence": [
+        {
+          "path": "review/coordinator-disposition.md",
+          "sha256": "c75cbb87c551f8d4fb7ced66bf1bbc20a86facb5af85c9872749f2e354e5cbd3",
+          "locator": {
+            "kind": "text",
+            "value": "The reproducible source-structure check finds231 protected inline expressions,41 fenced display blocks,33 valid local file/anchor links, all task/help pairings, no raw-dollar formulas, no literal strict-angle comparators inside protected inline math, and no prose heading/emphasis markers. It records the two citation punctuation observations. This is a Markdown-source/local-target check, not a GitHub parser, computed-style, pixel or click result. The browser record preserves both actual error-page observations without claiming an HTTP status, authentication wall or global outage."
+          }
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "requirements": {
+    "T1": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "Applicable teaching duty was checked across the actual complete route and help; concrete current passage witnesses and their independent reconciliation are preserved.",
+      "evidence": [
+        {
+          "path": "review/source-prof-original.md",
+          "sha256": "5f14f53bfefa68cc86846ead38a67a194c6fa177b282d6f85f487984807a0bf7",
+          "locator": {
+            "kind": "text",
+            "value": "| T1 Meaning and first use | Applies to the new construction and its conditions. L15\u201324 explains a sampled rectangle before its use; L48\u201370 explains the layer/pyramid construction; L148\u2013157 gives continuity's object, meaning, endpoint rule and x\u00b2 check before L159 relies on it; L232 supplies principal/simple interest before the debt formula. L206\u2013214 gives average purpose and units before P3. | No name-only consequential hypothesis was found. The existence theorem is supplied as a premise; a novice is not asked to derive it from its name. |"
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "frozen-2",
+          "sha256": "52773e071032cb71b964d68fea1d60e9c391276be16efadde057a0fcc1faa18f"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-3",
+          "sha256": "38c038c4384d0bb96ebfdea0fccd4b1363649c514372abd776c9e2e9d36e9358"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-4",
+          "sha256": "68f43a2b8485a5ac751128ac65a42a12b643229760599bb9311a125270cbc7fe"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-5",
+          "sha256": "f8db498eb437546f39916714a35b7a1217dba1d6407d94bde33ed6d2c5ed6014"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-6",
+          "sha256": "48b85e7b62abb2ca9794fa712b24a87124d400e5818a5f483b2a8fd4320eb564"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-7",
+          "sha256": "5a616e257b6c83bce341e5332b036ab92b23f4430b2308b09ac74123b6d57c9a"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "c8ffc1ee9cd5e306b2a7ed86b4d51b153745d4614e11004e0c61a27f832aee8c"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "a92d012395263f3410152045424c2e6f02300705d81720b5e1fd9590584448a0"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-1",
+          "sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-2",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-3",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-4",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-5",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-6",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-7",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-8",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "original-pdf",
+          "sha256": "3469042c0ca6aa75aa7e420b2bbf726228c31093aea11ddb2fc0044a4404fec0"
+        },
+        {
+          "kind": "source",
+          "id": "scope-research",
+          "sha256": "b87b4f9cf25ff20d57705f26eb5158d53c56766c8cde6cfc1f33c0d914d2fa14"
+        },
+        {
+          "kind": "source",
+          "id": "source-identity",
+          "sha256": "012e7fde22f130b7a11aa3905b970518356d2c9dd8bec713c6a1c643ace56115"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-png",
+          "sha256": "cd3532cab6f9bb1d811ef810bce00b57b2c0e05b421251a6b21788d4268f08eb"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-txt",
+          "sha256": "d40c0a82e3ee60897825b8d1987357e7e02ad0cbb00ff159685e39274d02191f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-png",
+          "sha256": "d0550fc6ff4730d69e75ab232cf673a8c29b0e9eec6d67bf49aed4ff8ee1afb7"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-txt",
+          "sha256": "cb601606cb9afdf39374040386a5b541e2b8ff8dd06460487011926c16c5f49f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-png",
+          "sha256": "4c7210caf39e18f2a07901f8f5676df324f5fc80552adc9391d80e69ab4e8ea3"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-txt",
+          "sha256": "9f2a6744ad87dac24d61033c00f696d07b79deb003a9b8e87fb7ce6c58187270"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-png",
+          "sha256": "9bed6409680a6aa03d50a701a13e39d3f11030691a7c892e74cb5f6a3a02773b"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-txt",
+          "sha256": "cc616f402b0ab9b2f43abc3c2809fcbc4538de7de21bc5703a45446f94fa25f1"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-png",
+          "sha256": "f911ec68b4d215fbfe56d979206f39e47f0434ea3a4ac66796747cdc4dd01861"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-txt",
+          "sha256": "8c888852df889d9427bdee2e59978330a42ee3889ffe9449da7234a786fb002f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-png",
+          "sha256": "73d43d51c96229389f44362bf4ec68343676e481117447f5992a3b1bf637c957"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-txt",
+          "sha256": "9a1be59a284a7d1ee68825ab4ed05b0c4206e7f908e4569e938b5dfe0e7c2bec"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "207042146871a2443f44e64bf8f5aa42ff7d43f0a4b5340569a8f69d0dac7dbe"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-1",
+          "sha256": "db45232afd3f9678bb9a5f6158c044df835928d7dcdf98763614cae14187d2f8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-2",
+          "sha256": "9fc2a65e4835259abe4bd71d14a9a13dc424ebb723106aa6aedbf62547667009"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-3",
+          "sha256": "8dee2b2f0b0550bb1de900422798346e83fea7378ac0354f1c4f2f45115cee9f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-4",
+          "sha256": "ade3297da9a27d11daba8c77896cc0ed32c9001013926dead4d34e98503bb76a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-5",
+          "sha256": "998a7ada1589837b0970c673f9e9e4cd477e26d1268f5fe0ac133cf02754eabc"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-6",
+          "sha256": "96985f3c590c4c710281e979eb576ddc4d198b27b429b9b8d77641e20ce1b51b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-7",
+          "sha256": "6bcfb436db6288e7262b1595bc7874ba33c8145004d9db3a832e492de5776736"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-8",
+          "sha256": "257783cc3db8b7b3d6020f584a62c0bbb2743637a8d1b4277058d4ae38479bc1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-pdf",
+          "sha256": "bbd91d9ab4669016b30fe70b9ead873c9da3531c934dd4e8a47160a4a5306730"
+        },
+        {
+          "kind": "source_scope",
+          "id": "scope-research",
+          "sha256": "771f3b3de40d4841ca129d37c5f1d685cbff14a74ec84c1b8c6f80382b55e305"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-identity",
+          "sha256": "a23ae616eeec24860fed26729050a58a5d91665868b028e0855ea6690e5ad04b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-png",
+          "sha256": "b76a70f88dd6868230976689cb5ac22241fae4171ccbb6e056a8d0f3bc8cb6c5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-txt",
+          "sha256": "54af2b76746a5df8af33bd606a03d4733ebb9865da6c5dbdd8a37c8ad870085f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-png",
+          "sha256": "a408a5ea74d3bd2655b97227dc50c0dda28074e0e1639d501e70c1f8ac61fce4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-txt",
+          "sha256": "fc2a5da459c717cbd8732f51916c5789c0c6dfe24dd8f7c47d59ccdb7f57abf2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-png",
+          "sha256": "1bb0a383ab6004eb15095bf7e30df11317067c2d90df07960bdb086825370491"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-txt",
+          "sha256": "13a9dd806567a4c53cf42850e3909a71f59fdbb2f73f5343be1fd64047ffe85e"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-png",
+          "sha256": "aa453be39ccc4c834df1f1860753b22bd2fac247e575a559657f19b5e3eda6bd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-txt",
+          "sha256": "0fff89c074820eced2adbd504ef7f668cd37007734abf7d36e7be60c2810cdf0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-png",
+          "sha256": "89cafb3d0d02b00658cbc5980162f76af9638bf4d5d5a471d5d1ed22150268a8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-txt",
+          "sha256": "34754a25dbb3b98ef80dbca163cd628b7c382550683be431ae75eff18734701b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-png",
+          "sha256": "1ca9e77ff6d1193a44482e5af9bfbbae94293d31094726cc4dca1122ffa6142f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-txt",
+          "sha256": "a2eeaa67132596bf212d6b6593bdfe0304e21675b9f6c9dec388cea698907aa1"
+        },
+        {
+          "kind": "topic",
+          "id": "definite-integrals",
+          "sha256": "4ef101355b61f3e9ec37dda1e31dfb4bb177e7332689ac3dc45ae733ed424c97"
+        }
+      ]
+    },
+    "T2": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "Applicable teaching duty was checked across the actual complete route and help; concrete current passage witnesses and their independent reconciliation are preserved.",
+      "evidence": [
+        {
+          "path": "review/source-prof-original.md",
+          "sha256": "5f14f53bfefa68cc86846ead38a67a194c6fa177b282d6f85f487984807a0bf7",
+          "locator": {
+            "kind": "text",
+            "value": "| T2 Representation | Applies to indexed sums, solid-to-sum mapping, partition/tag notation and weighted integral. L20\u201324 builds/reads the indexed expression; L48\u201354 maps numerical sum to layer volume and back; L70\u201386 maps cross-sections to bounds; L133\u2013178 supplies both construction and reading; P3/S61 reverses a displayed sum; L255\u2013265 labels and interprets both factors of debt. | The existing A-level indexed-sum and antiderivative operations are compressed legitimately. No source equation is retained only as an unexplained image. |"
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "frozen-2",
+          "sha256": "52773e071032cb71b964d68fea1d60e9c391276be16efadde057a0fcc1faa18f"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-3",
+          "sha256": "38c038c4384d0bb96ebfdea0fccd4b1363649c514372abd776c9e2e9d36e9358"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-4",
+          "sha256": "68f43a2b8485a5ac751128ac65a42a12b643229760599bb9311a125270cbc7fe"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-5",
+          "sha256": "f8db498eb437546f39916714a35b7a1217dba1d6407d94bde33ed6d2c5ed6014"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-6",
+          "sha256": "48b85e7b62abb2ca9794fa712b24a87124d400e5818a5f483b2a8fd4320eb564"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-7",
+          "sha256": "5a616e257b6c83bce341e5332b036ab92b23f4430b2308b09ac74123b6d57c9a"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "c8ffc1ee9cd5e306b2a7ed86b4d51b153745d4614e11004e0c61a27f832aee8c"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "a92d012395263f3410152045424c2e6f02300705d81720b5e1fd9590584448a0"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-1",
+          "sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-2",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-3",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-4",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-5",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-6",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-7",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-8",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "original-pdf",
+          "sha256": "3469042c0ca6aa75aa7e420b2bbf726228c31093aea11ddb2fc0044a4404fec0"
+        },
+        {
+          "kind": "source",
+          "id": "scope-research",
+          "sha256": "b87b4f9cf25ff20d57705f26eb5158d53c56766c8cde6cfc1f33c0d914d2fa14"
+        },
+        {
+          "kind": "source",
+          "id": "source-identity",
+          "sha256": "012e7fde22f130b7a11aa3905b970518356d2c9dd8bec713c6a1c643ace56115"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-png",
+          "sha256": "cd3532cab6f9bb1d811ef810bce00b57b2c0e05b421251a6b21788d4268f08eb"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-txt",
+          "sha256": "d40c0a82e3ee60897825b8d1987357e7e02ad0cbb00ff159685e39274d02191f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-png",
+          "sha256": "d0550fc6ff4730d69e75ab232cf673a8c29b0e9eec6d67bf49aed4ff8ee1afb7"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-txt",
+          "sha256": "cb601606cb9afdf39374040386a5b541e2b8ff8dd06460487011926c16c5f49f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-png",
+          "sha256": "4c7210caf39e18f2a07901f8f5676df324f5fc80552adc9391d80e69ab4e8ea3"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-txt",
+          "sha256": "9f2a6744ad87dac24d61033c00f696d07b79deb003a9b8e87fb7ce6c58187270"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-png",
+          "sha256": "9bed6409680a6aa03d50a701a13e39d3f11030691a7c892e74cb5f6a3a02773b"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-txt",
+          "sha256": "cc616f402b0ab9b2f43abc3c2809fcbc4538de7de21bc5703a45446f94fa25f1"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-png",
+          "sha256": "f911ec68b4d215fbfe56d979206f39e47f0434ea3a4ac66796747cdc4dd01861"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-txt",
+          "sha256": "8c888852df889d9427bdee2e59978330a42ee3889ffe9449da7234a786fb002f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-png",
+          "sha256": "73d43d51c96229389f44362bf4ec68343676e481117447f5992a3b1bf637c957"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-txt",
+          "sha256": "9a1be59a284a7d1ee68825ab4ed05b0c4206e7f908e4569e938b5dfe0e7c2bec"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "207042146871a2443f44e64bf8f5aa42ff7d43f0a4b5340569a8f69d0dac7dbe"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-1",
+          "sha256": "db45232afd3f9678bb9a5f6158c044df835928d7dcdf98763614cae14187d2f8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-2",
+          "sha256": "9fc2a65e4835259abe4bd71d14a9a13dc424ebb723106aa6aedbf62547667009"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-3",
+          "sha256": "8dee2b2f0b0550bb1de900422798346e83fea7378ac0354f1c4f2f45115cee9f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-4",
+          "sha256": "ade3297da9a27d11daba8c77896cc0ed32c9001013926dead4d34e98503bb76a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-5",
+          "sha256": "998a7ada1589837b0970c673f9e9e4cd477e26d1268f5fe0ac133cf02754eabc"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-6",
+          "sha256": "96985f3c590c4c710281e979eb576ddc4d198b27b429b9b8d77641e20ce1b51b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-7",
+          "sha256": "6bcfb436db6288e7262b1595bc7874ba33c8145004d9db3a832e492de5776736"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-8",
+          "sha256": "257783cc3db8b7b3d6020f584a62c0bbb2743637a8d1b4277058d4ae38479bc1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-pdf",
+          "sha256": "bbd91d9ab4669016b30fe70b9ead873c9da3531c934dd4e8a47160a4a5306730"
+        },
+        {
+          "kind": "source_scope",
+          "id": "scope-research",
+          "sha256": "771f3b3de40d4841ca129d37c5f1d685cbff14a74ec84c1b8c6f80382b55e305"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-identity",
+          "sha256": "a23ae616eeec24860fed26729050a58a5d91665868b028e0855ea6690e5ad04b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-png",
+          "sha256": "b76a70f88dd6868230976689cb5ac22241fae4171ccbb6e056a8d0f3bc8cb6c5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-txt",
+          "sha256": "54af2b76746a5df8af33bd606a03d4733ebb9865da6c5dbdd8a37c8ad870085f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-png",
+          "sha256": "a408a5ea74d3bd2655b97227dc50c0dda28074e0e1639d501e70c1f8ac61fce4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-txt",
+          "sha256": "fc2a5da459c717cbd8732f51916c5789c0c6dfe24dd8f7c47d59ccdb7f57abf2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-png",
+          "sha256": "1bb0a383ab6004eb15095bf7e30df11317067c2d90df07960bdb086825370491"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-txt",
+          "sha256": "13a9dd806567a4c53cf42850e3909a71f59fdbb2f73f5343be1fd64047ffe85e"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-png",
+          "sha256": "aa453be39ccc4c834df1f1860753b22bd2fac247e575a559657f19b5e3eda6bd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-txt",
+          "sha256": "0fff89c074820eced2adbd504ef7f668cd37007734abf7d36e7be60c2810cdf0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-png",
+          "sha256": "89cafb3d0d02b00658cbc5980162f76af9638bf4d5d5a471d5d1ed22150268a8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-txt",
+          "sha256": "34754a25dbb3b98ef80dbca163cd628b7c382550683be431ae75eff18734701b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-png",
+          "sha256": "1ca9e77ff6d1193a44482e5af9bfbbae94293d31094726cc4dca1122ffa6142f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-txt",
+          "sha256": "a2eeaa67132596bf212d6b6593bdfe0304e21675b9f6c9dec388cea698907aa1"
+        },
+        {
+          "kind": "topic",
+          "id": "definite-integrals",
+          "sha256": "4ef101355b61f3e9ec37dda1e31dfb4bb177e7332689ac3dc45ae733ed424c97"
+        }
+      ]
+    },
+    "T3": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "Applicable teaching duty was checked across the actual complete route and help; concrete current passage witnesses and their independent reconciliation are preserved.",
+      "evidence": [
+        {
+          "path": "review/source-prof-original.md",
+          "sha256": "5f14f53bfefa68cc86846ead38a67a194c6fa177b282d6f85f487984807a0bf7",
+          "locator": {
+            "kind": "text",
+            "value": "| T3 Legitimacy and derivation | Applies throughout. Fixed common factors (L24), monotonicity (L32, L123), a declared geometry theorem (L56\u201362), similarity/containment (L70\u201379), positive scaling and squeeze (L82\u2013101), FTC (L196), and model assumptions (L232\u2013265) provide distinct warrants. L101 admits a simpler sum-formula route; L178 admits finite midpoint exactness for this line only; L280 explains a genuinely different timing model. | The source's \u201cmust\u201d claims are not generalized to arbitrary functions or arbitrary financial rules. Technical truth of all deductions remains a separate review responsibility, despite identifiable warrants. |"
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "frozen-2",
+          "sha256": "52773e071032cb71b964d68fea1d60e9c391276be16efadde057a0fcc1faa18f"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-3",
+          "sha256": "38c038c4384d0bb96ebfdea0fccd4b1363649c514372abd776c9e2e9d36e9358"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-4",
+          "sha256": "68f43a2b8485a5ac751128ac65a42a12b643229760599bb9311a125270cbc7fe"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-5",
+          "sha256": "f8db498eb437546f39916714a35b7a1217dba1d6407d94bde33ed6d2c5ed6014"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-6",
+          "sha256": "48b85e7b62abb2ca9794fa712b24a87124d400e5818a5f483b2a8fd4320eb564"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-7",
+          "sha256": "5a616e257b6c83bce341e5332b036ab92b23f4430b2308b09ac74123b6d57c9a"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "c8ffc1ee9cd5e306b2a7ed86b4d51b153745d4614e11004e0c61a27f832aee8c"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "a92d012395263f3410152045424c2e6f02300705d81720b5e1fd9590584448a0"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-1",
+          "sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-2",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-3",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-4",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-5",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-6",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-7",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-8",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "original-pdf",
+          "sha256": "3469042c0ca6aa75aa7e420b2bbf726228c31093aea11ddb2fc0044a4404fec0"
+        },
+        {
+          "kind": "source",
+          "id": "scope-research",
+          "sha256": "b87b4f9cf25ff20d57705f26eb5158d53c56766c8cde6cfc1f33c0d914d2fa14"
+        },
+        {
+          "kind": "source",
+          "id": "source-identity",
+          "sha256": "012e7fde22f130b7a11aa3905b970518356d2c9dd8bec713c6a1c643ace56115"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-png",
+          "sha256": "cd3532cab6f9bb1d811ef810bce00b57b2c0e05b421251a6b21788d4268f08eb"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-txt",
+          "sha256": "d40c0a82e3ee60897825b8d1987357e7e02ad0cbb00ff159685e39274d02191f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-png",
+          "sha256": "d0550fc6ff4730d69e75ab232cf673a8c29b0e9eec6d67bf49aed4ff8ee1afb7"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-txt",
+          "sha256": "cb601606cb9afdf39374040386a5b541e2b8ff8dd06460487011926c16c5f49f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-png",
+          "sha256": "4c7210caf39e18f2a07901f8f5676df324f5fc80552adc9391d80e69ab4e8ea3"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-txt",
+          "sha256": "9f2a6744ad87dac24d61033c00f696d07b79deb003a9b8e87fb7ce6c58187270"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-png",
+          "sha256": "9bed6409680a6aa03d50a701a13e39d3f11030691a7c892e74cb5f6a3a02773b"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-txt",
+          "sha256": "cc616f402b0ab9b2f43abc3c2809fcbc4538de7de21bc5703a45446f94fa25f1"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-png",
+          "sha256": "f911ec68b4d215fbfe56d979206f39e47f0434ea3a4ac66796747cdc4dd01861"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-txt",
+          "sha256": "8c888852df889d9427bdee2e59978330a42ee3889ffe9449da7234a786fb002f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-png",
+          "sha256": "73d43d51c96229389f44362bf4ec68343676e481117447f5992a3b1bf637c957"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-txt",
+          "sha256": "9a1be59a284a7d1ee68825ab4ed05b0c4206e7f908e4569e938b5dfe0e7c2bec"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "207042146871a2443f44e64bf8f5aa42ff7d43f0a4b5340569a8f69d0dac7dbe"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-1",
+          "sha256": "db45232afd3f9678bb9a5f6158c044df835928d7dcdf98763614cae14187d2f8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-2",
+          "sha256": "9fc2a65e4835259abe4bd71d14a9a13dc424ebb723106aa6aedbf62547667009"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-3",
+          "sha256": "8dee2b2f0b0550bb1de900422798346e83fea7378ac0354f1c4f2f45115cee9f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-4",
+          "sha256": "ade3297da9a27d11daba8c77896cc0ed32c9001013926dead4d34e98503bb76a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-5",
+          "sha256": "998a7ada1589837b0970c673f9e9e4cd477e26d1268f5fe0ac133cf02754eabc"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-6",
+          "sha256": "96985f3c590c4c710281e979eb576ddc4d198b27b429b9b8d77641e20ce1b51b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-7",
+          "sha256": "6bcfb436db6288e7262b1595bc7874ba33c8145004d9db3a832e492de5776736"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-8",
+          "sha256": "257783cc3db8b7b3d6020f584a62c0bbb2743637a8d1b4277058d4ae38479bc1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-pdf",
+          "sha256": "bbd91d9ab4669016b30fe70b9ead873c9da3531c934dd4e8a47160a4a5306730"
+        },
+        {
+          "kind": "source_scope",
+          "id": "scope-research",
+          "sha256": "771f3b3de40d4841ca129d37c5f1d685cbff14a74ec84c1b8c6f80382b55e305"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-identity",
+          "sha256": "a23ae616eeec24860fed26729050a58a5d91665868b028e0855ea6690e5ad04b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-png",
+          "sha256": "b76a70f88dd6868230976689cb5ac22241fae4171ccbb6e056a8d0f3bc8cb6c5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-txt",
+          "sha256": "54af2b76746a5df8af33bd606a03d4733ebb9865da6c5dbdd8a37c8ad870085f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-png",
+          "sha256": "a408a5ea74d3bd2655b97227dc50c0dda28074e0e1639d501e70c1f8ac61fce4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-txt",
+          "sha256": "fc2a5da459c717cbd8732f51916c5789c0c6dfe24dd8f7c47d59ccdb7f57abf2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-png",
+          "sha256": "1bb0a383ab6004eb15095bf7e30df11317067c2d90df07960bdb086825370491"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-txt",
+          "sha256": "13a9dd806567a4c53cf42850e3909a71f59fdbb2f73f5343be1fd64047ffe85e"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-png",
+          "sha256": "aa453be39ccc4c834df1f1860753b22bd2fac247e575a559657f19b5e3eda6bd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-txt",
+          "sha256": "0fff89c074820eced2adbd504ef7f668cd37007734abf7d36e7be60c2810cdf0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-png",
+          "sha256": "89cafb3d0d02b00658cbc5980162f76af9638bf4d5d5a471d5d1ed22150268a8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-txt",
+          "sha256": "34754a25dbb3b98ef80dbca163cd628b7c382550683be431ae75eff18734701b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-png",
+          "sha256": "1ca9e77ff6d1193a44482e5af9bfbbae94293d31094726cc4dca1122ffa6142f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-txt",
+          "sha256": "a2eeaa67132596bf212d6b6593bdfe0304e21675b9f6c9dec388cea698907aa1"
+        },
+        {
+          "kind": "topic",
+          "id": "definite-integrals",
+          "sha256": "4ef101355b61f3e9ec37dda1e31dfb4bb177e7332689ac3dc45ae733ed424c97"
+        }
+      ]
+    },
+    "T4": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "Applicable teaching duty was checked across the actual complete route and help; concrete current passage witnesses and their independent reconciliation are preserved.",
+      "evidence": [
+        {
+          "path": "review/source-prof-original.md",
+          "sha256": "5f14f53bfefa68cc86846ead38a67a194c6fa177b282d6f85f487984807a0bf7",
+          "locator": {
+            "kind": "text",
+            "value": "| T4 Connected worked reasoning | Applies to each newly taught core procedure/reasoning capability. The preceding route table locates a worked rectangle, general/n=4 pyramid squeeze, linear endpoint comparison, constructed midpoint sum, signed/average example and debt model. | Steps stay connected to their interpreted outputs. No disconnected glossary is being counted as a worked case. |"
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "frozen-2",
+          "sha256": "52773e071032cb71b964d68fea1d60e9c391276be16efadde057a0fcc1faa18f"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-3",
+          "sha256": "38c038c4384d0bb96ebfdea0fccd4b1363649c514372abd776c9e2e9d36e9358"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-4",
+          "sha256": "68f43a2b8485a5ac751128ac65a42a12b643229760599bb9311a125270cbc7fe"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-5",
+          "sha256": "f8db498eb437546f39916714a35b7a1217dba1d6407d94bde33ed6d2c5ed6014"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-6",
+          "sha256": "48b85e7b62abb2ca9794fa712b24a87124d400e5818a5f483b2a8fd4320eb564"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-7",
+          "sha256": "5a616e257b6c83bce341e5332b036ab92b23f4430b2308b09ac74123b6d57c9a"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "c8ffc1ee9cd5e306b2a7ed86b4d51b153745d4614e11004e0c61a27f832aee8c"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "a92d012395263f3410152045424c2e6f02300705d81720b5e1fd9590584448a0"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-1",
+          "sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-2",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-3",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-4",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-5",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-6",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-7",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-8",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "original-pdf",
+          "sha256": "3469042c0ca6aa75aa7e420b2bbf726228c31093aea11ddb2fc0044a4404fec0"
+        },
+        {
+          "kind": "source",
+          "id": "scope-research",
+          "sha256": "b87b4f9cf25ff20d57705f26eb5158d53c56766c8cde6cfc1f33c0d914d2fa14"
+        },
+        {
+          "kind": "source",
+          "id": "source-identity",
+          "sha256": "012e7fde22f130b7a11aa3905b970518356d2c9dd8bec713c6a1c643ace56115"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-png",
+          "sha256": "cd3532cab6f9bb1d811ef810bce00b57b2c0e05b421251a6b21788d4268f08eb"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-txt",
+          "sha256": "d40c0a82e3ee60897825b8d1987357e7e02ad0cbb00ff159685e39274d02191f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-png",
+          "sha256": "d0550fc6ff4730d69e75ab232cf673a8c29b0e9eec6d67bf49aed4ff8ee1afb7"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-txt",
+          "sha256": "cb601606cb9afdf39374040386a5b541e2b8ff8dd06460487011926c16c5f49f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-png",
+          "sha256": "4c7210caf39e18f2a07901f8f5676df324f5fc80552adc9391d80e69ab4e8ea3"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-txt",
+          "sha256": "9f2a6744ad87dac24d61033c00f696d07b79deb003a9b8e87fb7ce6c58187270"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-png",
+          "sha256": "9bed6409680a6aa03d50a701a13e39d3f11030691a7c892e74cb5f6a3a02773b"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-txt",
+          "sha256": "cc616f402b0ab9b2f43abc3c2809fcbc4538de7de21bc5703a45446f94fa25f1"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-png",
+          "sha256": "f911ec68b4d215fbfe56d979206f39e47f0434ea3a4ac66796747cdc4dd01861"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-txt",
+          "sha256": "8c888852df889d9427bdee2e59978330a42ee3889ffe9449da7234a786fb002f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-png",
+          "sha256": "73d43d51c96229389f44362bf4ec68343676e481117447f5992a3b1bf637c957"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-txt",
+          "sha256": "9a1be59a284a7d1ee68825ab4ed05b0c4206e7f908e4569e938b5dfe0e7c2bec"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "207042146871a2443f44e64bf8f5aa42ff7d43f0a4b5340569a8f69d0dac7dbe"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-1",
+          "sha256": "db45232afd3f9678bb9a5f6158c044df835928d7dcdf98763614cae14187d2f8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-2",
+          "sha256": "9fc2a65e4835259abe4bd71d14a9a13dc424ebb723106aa6aedbf62547667009"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-3",
+          "sha256": "8dee2b2f0b0550bb1de900422798346e83fea7378ac0354f1c4f2f45115cee9f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-4",
+          "sha256": "ade3297da9a27d11daba8c77896cc0ed32c9001013926dead4d34e98503bb76a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-5",
+          "sha256": "998a7ada1589837b0970c673f9e9e4cd477e26d1268f5fe0ac133cf02754eabc"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-6",
+          "sha256": "96985f3c590c4c710281e979eb576ddc4d198b27b429b9b8d77641e20ce1b51b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-7",
+          "sha256": "6bcfb436db6288e7262b1595bc7874ba33c8145004d9db3a832e492de5776736"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-8",
+          "sha256": "257783cc3db8b7b3d6020f584a62c0bbb2743637a8d1b4277058d4ae38479bc1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-pdf",
+          "sha256": "bbd91d9ab4669016b30fe70b9ead873c9da3531c934dd4e8a47160a4a5306730"
+        },
+        {
+          "kind": "source_scope",
+          "id": "scope-research",
+          "sha256": "771f3b3de40d4841ca129d37c5f1d685cbff14a74ec84c1b8c6f80382b55e305"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-identity",
+          "sha256": "a23ae616eeec24860fed26729050a58a5d91665868b028e0855ea6690e5ad04b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-png",
+          "sha256": "b76a70f88dd6868230976689cb5ac22241fae4171ccbb6e056a8d0f3bc8cb6c5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-txt",
+          "sha256": "54af2b76746a5df8af33bd606a03d4733ebb9865da6c5dbdd8a37c8ad870085f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-png",
+          "sha256": "a408a5ea74d3bd2655b97227dc50c0dda28074e0e1639d501e70c1f8ac61fce4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-txt",
+          "sha256": "fc2a5da459c717cbd8732f51916c5789c0c6dfe24dd8f7c47d59ccdb7f57abf2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-png",
+          "sha256": "1bb0a383ab6004eb15095bf7e30df11317067c2d90df07960bdb086825370491"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-txt",
+          "sha256": "13a9dd806567a4c53cf42850e3909a71f59fdbb2f73f5343be1fd64047ffe85e"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-png",
+          "sha256": "aa453be39ccc4c834df1f1860753b22bd2fac247e575a559657f19b5e3eda6bd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-txt",
+          "sha256": "0fff89c074820eced2adbd504ef7f668cd37007734abf7d36e7be60c2810cdf0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-png",
+          "sha256": "89cafb3d0d02b00658cbc5980162f76af9638bf4d5d5a471d5d1ed22150268a8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-txt",
+          "sha256": "34754a25dbb3b98ef80dbca163cd628b7c382550683be431ae75eff18734701b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-png",
+          "sha256": "1ca9e77ff6d1193a44482e5af9bfbbae94293d31094726cc4dca1122ffa6142f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-txt",
+          "sha256": "a2eeaa67132596bf212d6b6593bdfe0304e21675b9f6c9dec388cea698907aa1"
+        },
+        {
+          "kind": "topic",
+          "id": "definite-integrals",
+          "sha256": "4ef101355b61f3e9ec37dda1e31dfb4bb177e7332689ac3dc45ae733ed424c97"
+        }
+      ]
+    },
+    "T5": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "Applicable teaching duty was checked across the actual complete route and help; concrete current passage witnesses and their independent reconciliation are preserved.",
+      "evidence": [
+        {
+          "path": "review/source-prof-original.md",
+          "sha256": "5f14f53bfefa68cc86846ead38a67a194c6fa177b282d6f85f487984807a0bf7",
+          "locator": {
+            "kind": "text",
+            "value": "| T5 Application and handover | Applies: these are durable study notes, with no waiver of practice. P1 is an early supported attempt after L29's usable result. P2 changes the function while requiring bound/cancellation reasoning; P3 changes representation and sign balance; P4 changes rate/timing; P5 changes physical context and adds initial-value interpretation. | Selected tasks cover the declared overall construction/justification/use capability. A separate exercise for every term or geometric theorem is not required by the contract. P3\u2013P5 integrate capabilities that isolated arithmetic would not establish. |"
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "frozen-2",
+          "sha256": "52773e071032cb71b964d68fea1d60e9c391276be16efadde057a0fcc1faa18f"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-3",
+          "sha256": "38c038c4384d0bb96ebfdea0fccd4b1363649c514372abd776c9e2e9d36e9358"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-4",
+          "sha256": "68f43a2b8485a5ac751128ac65a42a12b643229760599bb9311a125270cbc7fe"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-5",
+          "sha256": "f8db498eb437546f39916714a35b7a1217dba1d6407d94bde33ed6d2c5ed6014"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-6",
+          "sha256": "48b85e7b62abb2ca9794fa712b24a87124d400e5818a5f483b2a8fd4320eb564"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-7",
+          "sha256": "5a616e257b6c83bce341e5332b036ab92b23f4430b2308b09ac74123b6d57c9a"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "c8ffc1ee9cd5e306b2a7ed86b4d51b153745d4614e11004e0c61a27f832aee8c"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "a92d012395263f3410152045424c2e6f02300705d81720b5e1fd9590584448a0"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-1",
+          "sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-2",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-3",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-4",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-5",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-6",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-7",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-8",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "original-pdf",
+          "sha256": "3469042c0ca6aa75aa7e420b2bbf726228c31093aea11ddb2fc0044a4404fec0"
+        },
+        {
+          "kind": "source",
+          "id": "scope-research",
+          "sha256": "b87b4f9cf25ff20d57705f26eb5158d53c56766c8cde6cfc1f33c0d914d2fa14"
+        },
+        {
+          "kind": "source",
+          "id": "source-identity",
+          "sha256": "012e7fde22f130b7a11aa3905b970518356d2c9dd8bec713c6a1c643ace56115"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-png",
+          "sha256": "cd3532cab6f9bb1d811ef810bce00b57b2c0e05b421251a6b21788d4268f08eb"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-txt",
+          "sha256": "d40c0a82e3ee60897825b8d1987357e7e02ad0cbb00ff159685e39274d02191f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-png",
+          "sha256": "d0550fc6ff4730d69e75ab232cf673a8c29b0e9eec6d67bf49aed4ff8ee1afb7"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-txt",
+          "sha256": "cb601606cb9afdf39374040386a5b541e2b8ff8dd06460487011926c16c5f49f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-png",
+          "sha256": "4c7210caf39e18f2a07901f8f5676df324f5fc80552adc9391d80e69ab4e8ea3"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-txt",
+          "sha256": "9f2a6744ad87dac24d61033c00f696d07b79deb003a9b8e87fb7ce6c58187270"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-png",
+          "sha256": "9bed6409680a6aa03d50a701a13e39d3f11030691a7c892e74cb5f6a3a02773b"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-txt",
+          "sha256": "cc616f402b0ab9b2f43abc3c2809fcbc4538de7de21bc5703a45446f94fa25f1"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-png",
+          "sha256": "f911ec68b4d215fbfe56d979206f39e47f0434ea3a4ac66796747cdc4dd01861"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-txt",
+          "sha256": "8c888852df889d9427bdee2e59978330a42ee3889ffe9449da7234a786fb002f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-png",
+          "sha256": "73d43d51c96229389f44362bf4ec68343676e481117447f5992a3b1bf637c957"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-txt",
+          "sha256": "9a1be59a284a7d1ee68825ab4ed05b0c4206e7f908e4569e938b5dfe0e7c2bec"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "207042146871a2443f44e64bf8f5aa42ff7d43f0a4b5340569a8f69d0dac7dbe"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-1",
+          "sha256": "db45232afd3f9678bb9a5f6158c044df835928d7dcdf98763614cae14187d2f8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-2",
+          "sha256": "9fc2a65e4835259abe4bd71d14a9a13dc424ebb723106aa6aedbf62547667009"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-3",
+          "sha256": "8dee2b2f0b0550bb1de900422798346e83fea7378ac0354f1c4f2f45115cee9f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-4",
+          "sha256": "ade3297da9a27d11daba8c77896cc0ed32c9001013926dead4d34e98503bb76a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-5",
+          "sha256": "998a7ada1589837b0970c673f9e9e4cd477e26d1268f5fe0ac133cf02754eabc"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-6",
+          "sha256": "96985f3c590c4c710281e979eb576ddc4d198b27b429b9b8d77641e20ce1b51b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-7",
+          "sha256": "6bcfb436db6288e7262b1595bc7874ba33c8145004d9db3a832e492de5776736"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-8",
+          "sha256": "257783cc3db8b7b3d6020f584a62c0bbb2743637a8d1b4277058d4ae38479bc1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-pdf",
+          "sha256": "bbd91d9ab4669016b30fe70b9ead873c9da3531c934dd4e8a47160a4a5306730"
+        },
+        {
+          "kind": "source_scope",
+          "id": "scope-research",
+          "sha256": "771f3b3de40d4841ca129d37c5f1d685cbff14a74ec84c1b8c6f80382b55e305"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-identity",
+          "sha256": "a23ae616eeec24860fed26729050a58a5d91665868b028e0855ea6690e5ad04b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-png",
+          "sha256": "b76a70f88dd6868230976689cb5ac22241fae4171ccbb6e056a8d0f3bc8cb6c5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-txt",
+          "sha256": "54af2b76746a5df8af33bd606a03d4733ebb9865da6c5dbdd8a37c8ad870085f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-png",
+          "sha256": "a408a5ea74d3bd2655b97227dc50c0dda28074e0e1639d501e70c1f8ac61fce4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-txt",
+          "sha256": "fc2a5da459c717cbd8732f51916c5789c0c6dfe24dd8f7c47d59ccdb7f57abf2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-png",
+          "sha256": "1bb0a383ab6004eb15095bf7e30df11317067c2d90df07960bdb086825370491"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-txt",
+          "sha256": "13a9dd806567a4c53cf42850e3909a71f59fdbb2f73f5343be1fd64047ffe85e"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-png",
+          "sha256": "aa453be39ccc4c834df1f1860753b22bd2fac247e575a559657f19b5e3eda6bd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-txt",
+          "sha256": "0fff89c074820eced2adbd504ef7f668cd37007734abf7d36e7be60c2810cdf0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-png",
+          "sha256": "89cafb3d0d02b00658cbc5980162f76af9638bf4d5d5a471d5d1ed22150268a8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-txt",
+          "sha256": "34754a25dbb3b98ef80dbca163cd628b7c382550683be431ae75eff18734701b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-png",
+          "sha256": "1ca9e77ff6d1193a44482e5af9bfbbae94293d31094726cc4dca1122ffa6142f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-txt",
+          "sha256": "a2eeaa67132596bf212d6b6593bdfe0304e21675b9f6c9dec388cea698907aa1"
+        },
+        {
+          "kind": "topic",
+          "id": "definite-integrals",
+          "sha256": "4ef101355b61f3e9ec37dda1e31dfb4bb177e7332689ac3dc45ae733ed424c97"
+        }
+      ]
+    },
+    "T6": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "Applicable teaching duty was checked across the actual complete route and help; concrete current passage witnesses and their independent reconciliation are preserved.",
+      "evidence": [
+        {
+          "path": "review/source-prof-original.md",
+          "sha256": "5f14f53bfefa68cc86846ead38a67a194c6fa177b282d6f85f487984807a0bf7",
+          "locator": {
+            "kind": "text",
+            "value": "| T6 Purposeful prompts | Applies to all five retained tasks. Each explicitly labels its target and asks for inspectable reasoning. P1 asks for the comparison's reason, P2 disallows an antiderivative quote as a substitute for its proof target, P3 asks to explain the three different quantities, P4 requires timing and calculation, P5 requires why quantities need different operations. | No method-choice assessment is defeated by an answer-bearing heading. Method-scaffolded construction is the intended task in P1/P2, not hidden method selection. |"
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "frozen-2",
+          "sha256": "52773e071032cb71b964d68fea1d60e9c391276be16efadde057a0fcc1faa18f"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-3",
+          "sha256": "38c038c4384d0bb96ebfdea0fccd4b1363649c514372abd776c9e2e9d36e9358"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-4",
+          "sha256": "68f43a2b8485a5ac751128ac65a42a12b643229760599bb9311a125270cbc7fe"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-5",
+          "sha256": "f8db498eb437546f39916714a35b7a1217dba1d6407d94bde33ed6d2c5ed6014"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-6",
+          "sha256": "48b85e7b62abb2ca9794fa712b24a87124d400e5818a5f483b2a8fd4320eb564"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-7",
+          "sha256": "5a616e257b6c83bce341e5332b036ab92b23f4430b2308b09ac74123b6d57c9a"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "c8ffc1ee9cd5e306b2a7ed86b4d51b153745d4614e11004e0c61a27f832aee8c"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "a92d012395263f3410152045424c2e6f02300705d81720b5e1fd9590584448a0"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-1",
+          "sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-2",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-3",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-4",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-5",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-6",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-7",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-8",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "original-pdf",
+          "sha256": "3469042c0ca6aa75aa7e420b2bbf726228c31093aea11ddb2fc0044a4404fec0"
+        },
+        {
+          "kind": "source",
+          "id": "scope-research",
+          "sha256": "b87b4f9cf25ff20d57705f26eb5158d53c56766c8cde6cfc1f33c0d914d2fa14"
+        },
+        {
+          "kind": "source",
+          "id": "source-identity",
+          "sha256": "012e7fde22f130b7a11aa3905b970518356d2c9dd8bec713c6a1c643ace56115"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-png",
+          "sha256": "cd3532cab6f9bb1d811ef810bce00b57b2c0e05b421251a6b21788d4268f08eb"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-txt",
+          "sha256": "d40c0a82e3ee60897825b8d1987357e7e02ad0cbb00ff159685e39274d02191f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-png",
+          "sha256": "d0550fc6ff4730d69e75ab232cf673a8c29b0e9eec6d67bf49aed4ff8ee1afb7"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-txt",
+          "sha256": "cb601606cb9afdf39374040386a5b541e2b8ff8dd06460487011926c16c5f49f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-png",
+          "sha256": "4c7210caf39e18f2a07901f8f5676df324f5fc80552adc9391d80e69ab4e8ea3"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-txt",
+          "sha256": "9f2a6744ad87dac24d61033c00f696d07b79deb003a9b8e87fb7ce6c58187270"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-png",
+          "sha256": "9bed6409680a6aa03d50a701a13e39d3f11030691a7c892e74cb5f6a3a02773b"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-txt",
+          "sha256": "cc616f402b0ab9b2f43abc3c2809fcbc4538de7de21bc5703a45446f94fa25f1"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-png",
+          "sha256": "f911ec68b4d215fbfe56d979206f39e47f0434ea3a4ac66796747cdc4dd01861"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-txt",
+          "sha256": "8c888852df889d9427bdee2e59978330a42ee3889ffe9449da7234a786fb002f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-png",
+          "sha256": "73d43d51c96229389f44362bf4ec68343676e481117447f5992a3b1bf637c957"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-txt",
+          "sha256": "9a1be59a284a7d1ee68825ab4ed05b0c4206e7f908e4569e938b5dfe0e7c2bec"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "207042146871a2443f44e64bf8f5aa42ff7d43f0a4b5340569a8f69d0dac7dbe"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-1",
+          "sha256": "db45232afd3f9678bb9a5f6158c044df835928d7dcdf98763614cae14187d2f8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-2",
+          "sha256": "9fc2a65e4835259abe4bd71d14a9a13dc424ebb723106aa6aedbf62547667009"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-3",
+          "sha256": "8dee2b2f0b0550bb1de900422798346e83fea7378ac0354f1c4f2f45115cee9f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-4",
+          "sha256": "ade3297da9a27d11daba8c77896cc0ed32c9001013926dead4d34e98503bb76a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-5",
+          "sha256": "998a7ada1589837b0970c673f9e9e4cd477e26d1268f5fe0ac133cf02754eabc"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-6",
+          "sha256": "96985f3c590c4c710281e979eb576ddc4d198b27b429b9b8d77641e20ce1b51b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-7",
+          "sha256": "6bcfb436db6288e7262b1595bc7874ba33c8145004d9db3a832e492de5776736"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-8",
+          "sha256": "257783cc3db8b7b3d6020f584a62c0bbb2743637a8d1b4277058d4ae38479bc1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-pdf",
+          "sha256": "bbd91d9ab4669016b30fe70b9ead873c9da3531c934dd4e8a47160a4a5306730"
+        },
+        {
+          "kind": "source_scope",
+          "id": "scope-research",
+          "sha256": "771f3b3de40d4841ca129d37c5f1d685cbff14a74ec84c1b8c6f80382b55e305"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-identity",
+          "sha256": "a23ae616eeec24860fed26729050a58a5d91665868b028e0855ea6690e5ad04b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-png",
+          "sha256": "b76a70f88dd6868230976689cb5ac22241fae4171ccbb6e056a8d0f3bc8cb6c5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-txt",
+          "sha256": "54af2b76746a5df8af33bd606a03d4733ebb9865da6c5dbdd8a37c8ad870085f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-png",
+          "sha256": "a408a5ea74d3bd2655b97227dc50c0dda28074e0e1639d501e70c1f8ac61fce4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-txt",
+          "sha256": "fc2a5da459c717cbd8732f51916c5789c0c6dfe24dd8f7c47d59ccdb7f57abf2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-png",
+          "sha256": "1bb0a383ab6004eb15095bf7e30df11317067c2d90df07960bdb086825370491"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-txt",
+          "sha256": "13a9dd806567a4c53cf42850e3909a71f59fdbb2f73f5343be1fd64047ffe85e"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-png",
+          "sha256": "aa453be39ccc4c834df1f1860753b22bd2fac247e575a559657f19b5e3eda6bd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-txt",
+          "sha256": "0fff89c074820eced2adbd504ef7f668cd37007734abf7d36e7be60c2810cdf0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-png",
+          "sha256": "89cafb3d0d02b00658cbc5980162f76af9638bf4d5d5a471d5d1ed22150268a8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-txt",
+          "sha256": "34754a25dbb3b98ef80dbca163cd628b7c382550683be431ae75eff18734701b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-png",
+          "sha256": "1ca9e77ff6d1193a44482e5af9bfbbae94293d31094726cc4dca1122ffa6142f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-txt",
+          "sha256": "a2eeaa67132596bf212d6b6593bdfe0304e21675b9f6c9dec388cea698907aa1"
+        },
+        {
+          "kind": "topic",
+          "id": "definite-integrals",
+          "sha256": "4ef101355b61f3e9ec37dda1e31dfb4bb177e7332689ac3dc45ae733ed424c97"
+        }
+      ]
+    },
+    "T7": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "Applicable teaching duty was checked across the actual complete route and help; concrete current passage witnesses and their independent reconciliation are preserved.",
+      "evidence": [
+        {
+          "path": "review/source-prof-original.md",
+          "sha256": "5f14f53bfefa68cc86846ead38a67a194c6fa177b282d6f85f487984807a0bf7",
+          "locator": {
+            "kind": "text",
+            "value": "| T7 Help and feedback | Applies to P1\u2013P5; satisfied by the complete table above and verified links. H supplies intermediate constructions/decisions instead of simply repeating prompts. S supplies every requested part with reasons. Alternative approaches are admitted where legitimate (L101, S72\u201380); warnings are hypothetical, not fabricated observations of a learner's error. | No actual learner attempt was provided, so personalized error diagnosis is not applicable. No exercise help is withheld or interleaved with its full answer. |"
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "frozen-2",
+          "sha256": "52773e071032cb71b964d68fea1d60e9c391276be16efadde057a0fcc1faa18f"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-3",
+          "sha256": "38c038c4384d0bb96ebfdea0fccd4b1363649c514372abd776c9e2e9d36e9358"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-4",
+          "sha256": "68f43a2b8485a5ac751128ac65a42a12b643229760599bb9311a125270cbc7fe"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-5",
+          "sha256": "f8db498eb437546f39916714a35b7a1217dba1d6407d94bde33ed6d2c5ed6014"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-6",
+          "sha256": "48b85e7b62abb2ca9794fa712b24a87124d400e5818a5f483b2a8fd4320eb564"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-7",
+          "sha256": "5a616e257b6c83bce341e5332b036ab92b23f4430b2308b09ac74123b6d57c9a"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "c8ffc1ee9cd5e306b2a7ed86b4d51b153745d4614e11004e0c61a27f832aee8c"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "a92d012395263f3410152045424c2e6f02300705d81720b5e1fd9590584448a0"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-1",
+          "sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-2",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-3",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-4",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-5",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-6",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-7",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-8",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "original-pdf",
+          "sha256": "3469042c0ca6aa75aa7e420b2bbf726228c31093aea11ddb2fc0044a4404fec0"
+        },
+        {
+          "kind": "source",
+          "id": "scope-research",
+          "sha256": "b87b4f9cf25ff20d57705f26eb5158d53c56766c8cde6cfc1f33c0d914d2fa14"
+        },
+        {
+          "kind": "source",
+          "id": "source-identity",
+          "sha256": "012e7fde22f130b7a11aa3905b970518356d2c9dd8bec713c6a1c643ace56115"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-png",
+          "sha256": "cd3532cab6f9bb1d811ef810bce00b57b2c0e05b421251a6b21788d4268f08eb"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-txt",
+          "sha256": "d40c0a82e3ee60897825b8d1987357e7e02ad0cbb00ff159685e39274d02191f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-png",
+          "sha256": "d0550fc6ff4730d69e75ab232cf673a8c29b0e9eec6d67bf49aed4ff8ee1afb7"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-txt",
+          "sha256": "cb601606cb9afdf39374040386a5b541e2b8ff8dd06460487011926c16c5f49f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-png",
+          "sha256": "4c7210caf39e18f2a07901f8f5676df324f5fc80552adc9391d80e69ab4e8ea3"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-txt",
+          "sha256": "9f2a6744ad87dac24d61033c00f696d07b79deb003a9b8e87fb7ce6c58187270"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-png",
+          "sha256": "9bed6409680a6aa03d50a701a13e39d3f11030691a7c892e74cb5f6a3a02773b"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-txt",
+          "sha256": "cc616f402b0ab9b2f43abc3c2809fcbc4538de7de21bc5703a45446f94fa25f1"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-png",
+          "sha256": "f911ec68b4d215fbfe56d979206f39e47f0434ea3a4ac66796747cdc4dd01861"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-txt",
+          "sha256": "8c888852df889d9427bdee2e59978330a42ee3889ffe9449da7234a786fb002f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-png",
+          "sha256": "73d43d51c96229389f44362bf4ec68343676e481117447f5992a3b1bf637c957"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-txt",
+          "sha256": "9a1be59a284a7d1ee68825ab4ed05b0c4206e7f908e4569e938b5dfe0e7c2bec"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "207042146871a2443f44e64bf8f5aa42ff7d43f0a4b5340569a8f69d0dac7dbe"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-1",
+          "sha256": "db45232afd3f9678bb9a5f6158c044df835928d7dcdf98763614cae14187d2f8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-2",
+          "sha256": "9fc2a65e4835259abe4bd71d14a9a13dc424ebb723106aa6aedbf62547667009"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-3",
+          "sha256": "8dee2b2f0b0550bb1de900422798346e83fea7378ac0354f1c4f2f45115cee9f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-4",
+          "sha256": "ade3297da9a27d11daba8c77896cc0ed32c9001013926dead4d34e98503bb76a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-5",
+          "sha256": "998a7ada1589837b0970c673f9e9e4cd477e26d1268f5fe0ac133cf02754eabc"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-6",
+          "sha256": "96985f3c590c4c710281e979eb576ddc4d198b27b429b9b8d77641e20ce1b51b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-7",
+          "sha256": "6bcfb436db6288e7262b1595bc7874ba33c8145004d9db3a832e492de5776736"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-8",
+          "sha256": "257783cc3db8b7b3d6020f584a62c0bbb2743637a8d1b4277058d4ae38479bc1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-pdf",
+          "sha256": "bbd91d9ab4669016b30fe70b9ead873c9da3531c934dd4e8a47160a4a5306730"
+        },
+        {
+          "kind": "source_scope",
+          "id": "scope-research",
+          "sha256": "771f3b3de40d4841ca129d37c5f1d685cbff14a74ec84c1b8c6f80382b55e305"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-identity",
+          "sha256": "a23ae616eeec24860fed26729050a58a5d91665868b028e0855ea6690e5ad04b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-png",
+          "sha256": "b76a70f88dd6868230976689cb5ac22241fae4171ccbb6e056a8d0f3bc8cb6c5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-txt",
+          "sha256": "54af2b76746a5df8af33bd606a03d4733ebb9865da6c5dbdd8a37c8ad870085f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-png",
+          "sha256": "a408a5ea74d3bd2655b97227dc50c0dda28074e0e1639d501e70c1f8ac61fce4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-txt",
+          "sha256": "fc2a5da459c717cbd8732f51916c5789c0c6dfe24dd8f7c47d59ccdb7f57abf2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-png",
+          "sha256": "1bb0a383ab6004eb15095bf7e30df11317067c2d90df07960bdb086825370491"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-txt",
+          "sha256": "13a9dd806567a4c53cf42850e3909a71f59fdbb2f73f5343be1fd64047ffe85e"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-png",
+          "sha256": "aa453be39ccc4c834df1f1860753b22bd2fac247e575a559657f19b5e3eda6bd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-txt",
+          "sha256": "0fff89c074820eced2adbd504ef7f668cd37007734abf7d36e7be60c2810cdf0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-png",
+          "sha256": "89cafb3d0d02b00658cbc5980162f76af9638bf4d5d5a471d5d1ed22150268a8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-txt",
+          "sha256": "34754a25dbb3b98ef80dbca163cd628b7c382550683be431ae75eff18734701b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-png",
+          "sha256": "1ca9e77ff6d1193a44482e5af9bfbbae94293d31094726cc4dca1122ffa6142f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-txt",
+          "sha256": "a2eeaa67132596bf212d6b6593bdfe0304e21675b9f6c9dec388cea698907aa1"
+        },
+        {
+          "kind": "topic",
+          "id": "definite-integrals",
+          "sha256": "4ef101355b61f3e9ec37dda1e31dfb4bb177e7332689ac3dc45ae733ed424c97"
+        }
+      ]
+    },
+    "T8": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "Applicable teaching duty was checked across the actual complete route and help; concrete current passage witnesses and their independent reconciliation are preserved.",
+      "evidence": [
+        {
+          "path": "review/source-prof-original.md",
+          "sha256": "5f14f53bfefa68cc86846ead38a67a194c6fa177b282d6f85f487984807a0bf7",
+          "locator": {
+            "kind": "text",
+            "value": "| T8 Retention and transfer | Applies because the product is study notes. L7 and L290 place P5 in a later session, ask an initial attempt before reopening explanation, and explicitly distinguish remembered construction from changed-setting use. The timing is adjustable. | This is an opportunity for later retrieval/transfer, not evidence that retention occurred. No reminders, decks or universal optimal schedule are claimed. |"
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "frozen-2",
+          "sha256": "52773e071032cb71b964d68fea1d60e9c391276be16efadde057a0fcc1faa18f"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-3",
+          "sha256": "38c038c4384d0bb96ebfdea0fccd4b1363649c514372abd776c9e2e9d36e9358"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-4",
+          "sha256": "68f43a2b8485a5ac751128ac65a42a12b643229760599bb9311a125270cbc7fe"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-5",
+          "sha256": "f8db498eb437546f39916714a35b7a1217dba1d6407d94bde33ed6d2c5ed6014"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-6",
+          "sha256": "48b85e7b62abb2ca9794fa712b24a87124d400e5818a5f483b2a8fd4320eb564"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-7",
+          "sha256": "5a616e257b6c83bce341e5332b036ab92b23f4430b2308b09ac74123b6d57c9a"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "c8ffc1ee9cd5e306b2a7ed86b4d51b153745d4614e11004e0c61a27f832aee8c"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "a92d012395263f3410152045424c2e6f02300705d81720b5e1fd9590584448a0"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-1",
+          "sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-2",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-3",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-4",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-5",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-6",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-7",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-8",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "original-pdf",
+          "sha256": "3469042c0ca6aa75aa7e420b2bbf726228c31093aea11ddb2fc0044a4404fec0"
+        },
+        {
+          "kind": "source",
+          "id": "scope-research",
+          "sha256": "b87b4f9cf25ff20d57705f26eb5158d53c56766c8cde6cfc1f33c0d914d2fa14"
+        },
+        {
+          "kind": "source",
+          "id": "source-identity",
+          "sha256": "012e7fde22f130b7a11aa3905b970518356d2c9dd8bec713c6a1c643ace56115"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-png",
+          "sha256": "cd3532cab6f9bb1d811ef810bce00b57b2c0e05b421251a6b21788d4268f08eb"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-txt",
+          "sha256": "d40c0a82e3ee60897825b8d1987357e7e02ad0cbb00ff159685e39274d02191f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-png",
+          "sha256": "d0550fc6ff4730d69e75ab232cf673a8c29b0e9eec6d67bf49aed4ff8ee1afb7"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-txt",
+          "sha256": "cb601606cb9afdf39374040386a5b541e2b8ff8dd06460487011926c16c5f49f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-png",
+          "sha256": "4c7210caf39e18f2a07901f8f5676df324f5fc80552adc9391d80e69ab4e8ea3"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-txt",
+          "sha256": "9f2a6744ad87dac24d61033c00f696d07b79deb003a9b8e87fb7ce6c58187270"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-png",
+          "sha256": "9bed6409680a6aa03d50a701a13e39d3f11030691a7c892e74cb5f6a3a02773b"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-txt",
+          "sha256": "cc616f402b0ab9b2f43abc3c2809fcbc4538de7de21bc5703a45446f94fa25f1"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-png",
+          "sha256": "f911ec68b4d215fbfe56d979206f39e47f0434ea3a4ac66796747cdc4dd01861"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-txt",
+          "sha256": "8c888852df889d9427bdee2e59978330a42ee3889ffe9449da7234a786fb002f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-png",
+          "sha256": "73d43d51c96229389f44362bf4ec68343676e481117447f5992a3b1bf637c957"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-txt",
+          "sha256": "9a1be59a284a7d1ee68825ab4ed05b0c4206e7f908e4569e938b5dfe0e7c2bec"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "207042146871a2443f44e64bf8f5aa42ff7d43f0a4b5340569a8f69d0dac7dbe"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-1",
+          "sha256": "db45232afd3f9678bb9a5f6158c044df835928d7dcdf98763614cae14187d2f8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-2",
+          "sha256": "9fc2a65e4835259abe4bd71d14a9a13dc424ebb723106aa6aedbf62547667009"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-3",
+          "sha256": "8dee2b2f0b0550bb1de900422798346e83fea7378ac0354f1c4f2f45115cee9f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-4",
+          "sha256": "ade3297da9a27d11daba8c77896cc0ed32c9001013926dead4d34e98503bb76a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-5",
+          "sha256": "998a7ada1589837b0970c673f9e9e4cd477e26d1268f5fe0ac133cf02754eabc"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-6",
+          "sha256": "96985f3c590c4c710281e979eb576ddc4d198b27b429b9b8d77641e20ce1b51b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-7",
+          "sha256": "6bcfb436db6288e7262b1595bc7874ba33c8145004d9db3a832e492de5776736"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-8",
+          "sha256": "257783cc3db8b7b3d6020f584a62c0bbb2743637a8d1b4277058d4ae38479bc1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-pdf",
+          "sha256": "bbd91d9ab4669016b30fe70b9ead873c9da3531c934dd4e8a47160a4a5306730"
+        },
+        {
+          "kind": "source_scope",
+          "id": "scope-research",
+          "sha256": "771f3b3de40d4841ca129d37c5f1d685cbff14a74ec84c1b8c6f80382b55e305"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-identity",
+          "sha256": "a23ae616eeec24860fed26729050a58a5d91665868b028e0855ea6690e5ad04b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-png",
+          "sha256": "b76a70f88dd6868230976689cb5ac22241fae4171ccbb6e056a8d0f3bc8cb6c5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-txt",
+          "sha256": "54af2b76746a5df8af33bd606a03d4733ebb9865da6c5dbdd8a37c8ad870085f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-png",
+          "sha256": "a408a5ea74d3bd2655b97227dc50c0dda28074e0e1639d501e70c1f8ac61fce4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-txt",
+          "sha256": "fc2a5da459c717cbd8732f51916c5789c0c6dfe24dd8f7c47d59ccdb7f57abf2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-png",
+          "sha256": "1bb0a383ab6004eb15095bf7e30df11317067c2d90df07960bdb086825370491"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-txt",
+          "sha256": "13a9dd806567a4c53cf42850e3909a71f59fdbb2f73f5343be1fd64047ffe85e"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-png",
+          "sha256": "aa453be39ccc4c834df1f1860753b22bd2fac247e575a559657f19b5e3eda6bd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-txt",
+          "sha256": "0fff89c074820eced2adbd504ef7f668cd37007734abf7d36e7be60c2810cdf0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-png",
+          "sha256": "89cafb3d0d02b00658cbc5980162f76af9638bf4d5d5a471d5d1ed22150268a8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-txt",
+          "sha256": "34754a25dbb3b98ef80dbca163cd628b7c382550683be431ae75eff18734701b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-png",
+          "sha256": "1ca9e77ff6d1193a44482e5af9bfbbae94293d31094726cc4dca1122ffa6142f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-txt",
+          "sha256": "a2eeaa67132596bf212d6b6593bdfe0304e21675b9f6c9dec388cea698907aa1"
+        },
+        {
+          "kind": "topic",
+          "id": "definite-integrals",
+          "sha256": "4ef101355b61f3e9ec37dda1e31dfb4bb177e7332689ac3dc45ae733ed424c97"
+        }
+      ]
+    },
+    "T9": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "Applicable teaching duty was checked across the actual complete route and help; concrete current passage witnesses and their independent reconciliation are preserved.",
+      "evidence": [
+        {
+          "path": "review/source-prof-original.md",
+          "sha256": "5f14f53bfefa68cc86846ead38a67a194c6fa177b282d6f85f487984807a0bf7",
+          "locator": {
+            "kind": "text",
+            "value": "| T9 Load and prior knowledge | Applies. L9 states the relevant familiar operations; actual baseline locators support them. The lesson develops only the locally consequential novelty, especially the pyramid cross-section and continuity condition. Figure captions L36, L68 and L127 explain what the new pictures map to. L54 states the solid analogy's limit. | Reusing antiderivatives/sum formulas is warranted. I found no obstructive baseline reteaching, forced drawing/paraphrase or unsupported exploratory task. |"
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "frozen-2",
+          "sha256": "52773e071032cb71b964d68fea1d60e9c391276be16efadde057a0fcc1faa18f"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-3",
+          "sha256": "38c038c4384d0bb96ebfdea0fccd4b1363649c514372abd776c9e2e9d36e9358"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-4",
+          "sha256": "68f43a2b8485a5ac751128ac65a42a12b643229760599bb9311a125270cbc7fe"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-5",
+          "sha256": "f8db498eb437546f39916714a35b7a1217dba1d6407d94bde33ed6d2c5ed6014"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-6",
+          "sha256": "48b85e7b62abb2ca9794fa712b24a87124d400e5818a5f483b2a8fd4320eb564"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-7",
+          "sha256": "5a616e257b6c83bce341e5332b036ab92b23f4430b2308b09ac74123b6d57c9a"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "c8ffc1ee9cd5e306b2a7ed86b4d51b153745d4614e11004e0c61a27f832aee8c"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "a92d012395263f3410152045424c2e6f02300705d81720b5e1fd9590584448a0"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-1",
+          "sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-2",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-3",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-4",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-5",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-6",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-7",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-8",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "original-pdf",
+          "sha256": "3469042c0ca6aa75aa7e420b2bbf726228c31093aea11ddb2fc0044a4404fec0"
+        },
+        {
+          "kind": "source",
+          "id": "scope-research",
+          "sha256": "b87b4f9cf25ff20d57705f26eb5158d53c56766c8cde6cfc1f33c0d914d2fa14"
+        },
+        {
+          "kind": "source",
+          "id": "source-identity",
+          "sha256": "012e7fde22f130b7a11aa3905b970518356d2c9dd8bec713c6a1c643ace56115"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-png",
+          "sha256": "cd3532cab6f9bb1d811ef810bce00b57b2c0e05b421251a6b21788d4268f08eb"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-txt",
+          "sha256": "d40c0a82e3ee60897825b8d1987357e7e02ad0cbb00ff159685e39274d02191f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-png",
+          "sha256": "d0550fc6ff4730d69e75ab232cf673a8c29b0e9eec6d67bf49aed4ff8ee1afb7"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-txt",
+          "sha256": "cb601606cb9afdf39374040386a5b541e2b8ff8dd06460487011926c16c5f49f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-png",
+          "sha256": "4c7210caf39e18f2a07901f8f5676df324f5fc80552adc9391d80e69ab4e8ea3"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-txt",
+          "sha256": "9f2a6744ad87dac24d61033c00f696d07b79deb003a9b8e87fb7ce6c58187270"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-png",
+          "sha256": "9bed6409680a6aa03d50a701a13e39d3f11030691a7c892e74cb5f6a3a02773b"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-txt",
+          "sha256": "cc616f402b0ab9b2f43abc3c2809fcbc4538de7de21bc5703a45446f94fa25f1"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-png",
+          "sha256": "f911ec68b4d215fbfe56d979206f39e47f0434ea3a4ac66796747cdc4dd01861"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-txt",
+          "sha256": "8c888852df889d9427bdee2e59978330a42ee3889ffe9449da7234a786fb002f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-png",
+          "sha256": "73d43d51c96229389f44362bf4ec68343676e481117447f5992a3b1bf637c957"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-txt",
+          "sha256": "9a1be59a284a7d1ee68825ab4ed05b0c4206e7f908e4569e938b5dfe0e7c2bec"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "207042146871a2443f44e64bf8f5aa42ff7d43f0a4b5340569a8f69d0dac7dbe"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-1",
+          "sha256": "db45232afd3f9678bb9a5f6158c044df835928d7dcdf98763614cae14187d2f8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-2",
+          "sha256": "9fc2a65e4835259abe4bd71d14a9a13dc424ebb723106aa6aedbf62547667009"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-3",
+          "sha256": "8dee2b2f0b0550bb1de900422798346e83fea7378ac0354f1c4f2f45115cee9f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-4",
+          "sha256": "ade3297da9a27d11daba8c77896cc0ed32c9001013926dead4d34e98503bb76a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-5",
+          "sha256": "998a7ada1589837b0970c673f9e9e4cd477e26d1268f5fe0ac133cf02754eabc"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-6",
+          "sha256": "96985f3c590c4c710281e979eb576ddc4d198b27b429b9b8d77641e20ce1b51b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-7",
+          "sha256": "6bcfb436db6288e7262b1595bc7874ba33c8145004d9db3a832e492de5776736"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-8",
+          "sha256": "257783cc3db8b7b3d6020f584a62c0bbb2743637a8d1b4277058d4ae38479bc1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-pdf",
+          "sha256": "bbd91d9ab4669016b30fe70b9ead873c9da3531c934dd4e8a47160a4a5306730"
+        },
+        {
+          "kind": "source_scope",
+          "id": "scope-research",
+          "sha256": "771f3b3de40d4841ca129d37c5f1d685cbff14a74ec84c1b8c6f80382b55e305"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-identity",
+          "sha256": "a23ae616eeec24860fed26729050a58a5d91665868b028e0855ea6690e5ad04b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-png",
+          "sha256": "b76a70f88dd6868230976689cb5ac22241fae4171ccbb6e056a8d0f3bc8cb6c5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-txt",
+          "sha256": "54af2b76746a5df8af33bd606a03d4733ebb9865da6c5dbdd8a37c8ad870085f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-png",
+          "sha256": "a408a5ea74d3bd2655b97227dc50c0dda28074e0e1639d501e70c1f8ac61fce4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-txt",
+          "sha256": "fc2a5da459c717cbd8732f51916c5789c0c6dfe24dd8f7c47d59ccdb7f57abf2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-png",
+          "sha256": "1bb0a383ab6004eb15095bf7e30df11317067c2d90df07960bdb086825370491"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-txt",
+          "sha256": "13a9dd806567a4c53cf42850e3909a71f59fdbb2f73f5343be1fd64047ffe85e"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-png",
+          "sha256": "aa453be39ccc4c834df1f1860753b22bd2fac247e575a559657f19b5e3eda6bd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-txt",
+          "sha256": "0fff89c074820eced2adbd504ef7f668cd37007734abf7d36e7be60c2810cdf0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-png",
+          "sha256": "89cafb3d0d02b00658cbc5980162f76af9638bf4d5d5a471d5d1ed22150268a8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-txt",
+          "sha256": "34754a25dbb3b98ef80dbca163cd628b7c382550683be431ae75eff18734701b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-png",
+          "sha256": "1ca9e77ff6d1193a44482e5af9bfbbae94293d31094726cc4dca1122ffa6142f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-txt",
+          "sha256": "a2eeaa67132596bf212d6b6593bdfe0304e21675b9f6c9dec388cea698907aa1"
+        },
+        {
+          "kind": "topic",
+          "id": "definite-integrals",
+          "sha256": "4ef101355b61f3e9ec37dda1e31dfb4bb177e7332689ac3dc45ae733ed424c97"
+        }
+      ]
+    },
+    "T10": {
+      "applicable": true,
+      "status": "pass",
+      "reason": "Applicable teaching duty was checked across the actual complete route and help; concrete current passage witnesses and their independent reconciliation are preserved.",
+      "evidence": [
+        {
+          "path": "review/source-prof-original.md",
+          "sha256": "5f14f53bfefa68cc86846ead38a67a194c6fa177b282d6f85f487984807a0bf7",
+          "locator": {
+            "kind": "text",
+            "value": "| T10 Technical verification | Applies universally to important content. Within this role, original-source/claim comparisons, the targeted official MIT citation check, baseline checks, source-error discrimination and pre-solution task reconstruction were performed. S72\u201380 provides a discriminating alternate finite-sum check; L259 checks the debt weight at both temporal endpoints; L214 qualifies dimensionless variables. | This is not a blanket T10 pass: the coordinator owns independent mathematics, all qualitative/domain checks and actual published-source identity. Author verification records were deliberately outside my access; I do not certify that the author performed them. |"
+          }
+        },
+        {
+          "path": "review/coordinator-disposition.md",
+          "sha256": "c75cbb87c551f8d4fb7ced66bf1bbc20a86facb5af85c9872749f2e354e5cbd3",
+          "locator": {
+            "kind": "text",
+            "value": "I reconstructed the complete saved lesson, all hints and all solutions and inspected all3 exact PNGs. I compared root's original pre-solution answers and17 checks with the frozen answers and read its full mathematical disposition. The results agree: P1 gives7/4; P2 gives endpoint gap b\u00b3/n and shared limit b\u00b3/3; P3 gives signed total\u22123/2, area5/2 and mean\u22121/2; P4 gives principal6000 and debt6120 against uniform debt6180; P5 gives change4L, stock14L, crossing5L and mean1L/min. Root's methods and each current solution expose the relevant construction and warrants, rather than merely coincident final numbers."
+          }
+        },
+        {
+          "path": "review/root-independent/frozen-mathematics-disposition.md",
+          "sha256": "74d90b9c4a57f47c04b18dca1433dc536ab58e7f0f141e701de65f4049612b01",
+          "locator": {
+            "kind": "text",
+            "value": "All five solution results and their mathematical warrants agree with root's saved pre-solution derivations. P1 gives left width 1/2, correct coordinates/heights and total 7/4, with the monotonic lower-bound reason. P2 cancels the shared square terms, preserves positive width, establishes L_n\u2264S_n\u2264R_n and obtains b\u00b3/3 for every allowed sample choice. P3 identifies [1,4], width 3/n and right samples 1+3i/n; finite sum \u22123/2\u22129/(2n), signed limit \u22123/2, geometric area 5/2 and average \u22121/2 agree. P4 gives principal 6000, debt 6120 and interest 120; uniform borrowing gives debt 6180 and the stated timing explanation supports the difference of 60. P5 gives net change 4 litres, final stock 14 litres, total crossing 5 litres and mean flow 1 litre/minute. Its explicit only-flow assumption supports taking the absolute value of the given signed flow to count the total crossing. No numerical answer needs a changed value."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "output",
+          "id": "frozen-2",
+          "sha256": "52773e071032cb71b964d68fea1d60e9c391276be16efadde057a0fcc1faa18f"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-3",
+          "sha256": "38c038c4384d0bb96ebfdea0fccd4b1363649c514372abd776c9e2e9d36e9358"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-4",
+          "sha256": "68f43a2b8485a5ac751128ac65a42a12b643229760599bb9311a125270cbc7fe"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-5",
+          "sha256": "f8db498eb437546f39916714a35b7a1217dba1d6407d94bde33ed6d2c5ed6014"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-6",
+          "sha256": "48b85e7b62abb2ca9794fa712b24a87124d400e5818a5f483b2a8fd4320eb564"
+        },
+        {
+          "kind": "output",
+          "id": "frozen-7",
+          "sha256": "5a616e257b6c83bce341e5332b036ab92b23f4430b2308b09ac74123b6d57c9a"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "c8ffc1ee9cd5e306b2a7ed86b4d51b153745d4614e11004e0c61a27f832aee8c"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "a92d012395263f3410152045424c2e6f02300705d81720b5e1fd9590584448a0"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-1",
+          "sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-2",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-3",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-4",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-5",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-6",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-7",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "operative-ref-8",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "original-pdf",
+          "sha256": "3469042c0ca6aa75aa7e420b2bbf726228c31093aea11ddb2fc0044a4404fec0"
+        },
+        {
+          "kind": "source",
+          "id": "scope-research",
+          "sha256": "b87b4f9cf25ff20d57705f26eb5158d53c56766c8cde6cfc1f33c0d914d2fa14"
+        },
+        {
+          "kind": "source",
+          "id": "source-identity",
+          "sha256": "012e7fde22f130b7a11aa3905b970518356d2c9dd8bec713c6a1c643ace56115"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-png",
+          "sha256": "cd3532cab6f9bb1d811ef810bce00b57b2c0e05b421251a6b21788d4268f08eb"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1-txt",
+          "sha256": "d40c0a82e3ee60897825b8d1987357e7e02ad0cbb00ff159685e39274d02191f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-png",
+          "sha256": "d0550fc6ff4730d69e75ab232cf673a8c29b0e9eec6d67bf49aed4ff8ee1afb7"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2-txt",
+          "sha256": "cb601606cb9afdf39374040386a5b541e2b8ff8dd06460487011926c16c5f49f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-png",
+          "sha256": "4c7210caf39e18f2a07901f8f5676df324f5fc80552adc9391d80e69ab4e8ea3"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3-txt",
+          "sha256": "9f2a6744ad87dac24d61033c00f696d07b79deb003a9b8e87fb7ce6c58187270"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-png",
+          "sha256": "9bed6409680a6aa03d50a701a13e39d3f11030691a7c892e74cb5f6a3a02773b"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4-txt",
+          "sha256": "cc616f402b0ab9b2f43abc3c2809fcbc4538de7de21bc5703a45446f94fa25f1"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-png",
+          "sha256": "f911ec68b4d215fbfe56d979206f39e47f0434ea3a4ac66796747cdc4dd01861"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5-txt",
+          "sha256": "8c888852df889d9427bdee2e59978330a42ee3889ffe9449da7234a786fb002f"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-png",
+          "sha256": "73d43d51c96229389f44362bf4ec68343676e481117447f5992a3b1bf637c957"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-6-txt",
+          "sha256": "9a1be59a284a7d1ee68825ab4ed05b0c4206e7f908e4569e938b5dfe0e7c2bec"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "207042146871a2443f44e64bf8f5aa42ff7d43f0a4b5340569a8f69d0dac7dbe"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-1",
+          "sha256": "db45232afd3f9678bb9a5f6158c044df835928d7dcdf98763614cae14187d2f8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-2",
+          "sha256": "9fc2a65e4835259abe4bd71d14a9a13dc424ebb723106aa6aedbf62547667009"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-3",
+          "sha256": "8dee2b2f0b0550bb1de900422798346e83fea7378ac0354f1c4f2f45115cee9f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-4",
+          "sha256": "ade3297da9a27d11daba8c77896cc0ed32c9001013926dead4d34e98503bb76a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-5",
+          "sha256": "998a7ada1589837b0970c673f9e9e4cd477e26d1268f5fe0ac133cf02754eabc"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-6",
+          "sha256": "96985f3c590c4c710281e979eb576ddc4d198b27b429b9b8d77641e20ce1b51b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-7",
+          "sha256": "6bcfb436db6288e7262b1595bc7874ba33c8145004d9db3a832e492de5776736"
+        },
+        {
+          "kind": "source_scope",
+          "id": "operative-ref-8",
+          "sha256": "257783cc3db8b7b3d6020f584a62c0bbb2743637a8d1b4277058d4ae38479bc1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-pdf",
+          "sha256": "bbd91d9ab4669016b30fe70b9ead873c9da3531c934dd4e8a47160a4a5306730"
+        },
+        {
+          "kind": "source_scope",
+          "id": "scope-research",
+          "sha256": "771f3b3de40d4841ca129d37c5f1d685cbff14a74ec84c1b8c6f80382b55e305"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-identity",
+          "sha256": "a23ae616eeec24860fed26729050a58a5d91665868b028e0855ea6690e5ad04b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-png",
+          "sha256": "b76a70f88dd6868230976689cb5ac22241fae4171ccbb6e056a8d0f3bc8cb6c5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1-txt",
+          "sha256": "54af2b76746a5df8af33bd606a03d4733ebb9865da6c5dbdd8a37c8ad870085f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-png",
+          "sha256": "a408a5ea74d3bd2655b97227dc50c0dda28074e0e1639d501e70c1f8ac61fce4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2-txt",
+          "sha256": "fc2a5da459c717cbd8732f51916c5789c0c6dfe24dd8f7c47d59ccdb7f57abf2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-png",
+          "sha256": "1bb0a383ab6004eb15095bf7e30df11317067c2d90df07960bdb086825370491"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3-txt",
+          "sha256": "13a9dd806567a4c53cf42850e3909a71f59fdbb2f73f5343be1fd64047ffe85e"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-png",
+          "sha256": "aa453be39ccc4c834df1f1860753b22bd2fac247e575a559657f19b5e3eda6bd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4-txt",
+          "sha256": "0fff89c074820eced2adbd504ef7f668cd37007734abf7d36e7be60c2810cdf0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-png",
+          "sha256": "89cafb3d0d02b00658cbc5980162f76af9638bf4d5d5a471d5d1ed22150268a8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5-txt",
+          "sha256": "34754a25dbb3b98ef80dbca163cd628b7c382550683be431ae75eff18734701b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-png",
+          "sha256": "1ca9e77ff6d1193a44482e5af9bfbbae94293d31094726cc4dca1122ffa6142f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-6-txt",
+          "sha256": "a2eeaa67132596bf212d6b6593bdfe0304e21675b9f6c9dec388cea698907aa1"
+        },
+        {
+          "kind": "topic",
+          "id": "definite-integrals",
+          "sha256": "4ef101355b61f3e9ec37dda1e31dfb4bb177e7332689ac3dc45ae733ed424c97"
+        }
+      ]
+    },
+    "T11": {
+      "applicable": true,
+      "status": "unverified",
+      "reason": "Native/source checks and complete content audits are performed, but actual GitHub destination-dependent preservation/readability/navigation and therefore final acceptance remain unverified after two observed error pages.",
+      "evidence": [
+        {
+          "path": "review/coordinator-disposition.md",
+          "sha256": "c75cbb87c551f8d4fb7ced66bf1bbc20a86facb5af85c9872749f2e354e5cbd3",
+          "locator": {
+            "kind": "text",
+            "value": "The whole frozen generation has no established material mathematical, source-coverage or learner-route defect after the complete fresh SASIS reading, separate independent source/PROF audit, root's prompt-first calculations and full frozen mathematics review, and coordinator reconstruction. This is not D016 acceptance. Actual GitHub expression preservation, destination styling, embedded image readability and working help navigation remain unverified because both root browser attempts at the immutable lesson returned GitHub's Unicorn error page. There is no evidence that the teaching or PROF caused that error. D016 remains pending;15 of76 eligible cases are accepted and61 remain, with all147 stable IDs and71 exclusions preserved."
+          }
+        }
+      ],
+      "dependencies": []
+    },
+    "T12": {
+      "applicable": true,
+      "status": "unverified",
+      "reason": "Native/source checks and complete content audits are performed, but actual GitHub destination-dependent preservation/readability/navigation and therefore final acceptance remain unverified after two observed error pages.",
+      "evidence": [
+        {
+          "path": "review/coordinator-disposition.md",
+          "sha256": "c75cbb87c551f8d4fb7ced66bf1bbc20a86facb5af85c9872749f2e354e5cbd3",
+          "locator": {
+            "kind": "text",
+            "value": "The whole frozen generation has no established material mathematical, source-coverage or learner-route defect after the complete fresh SASIS reading, separate independent source/PROF audit, root's prompt-first calculations and full frozen mathematics review, and coordinator reconstruction. This is not D016 acceptance. Actual GitHub expression preservation, destination styling, embedded image readability and working help navigation remain unverified because both root browser attempts at the immutable lesson returned GitHub's Unicorn error page. There is no evidence that the teaching or PROF caused that error. D016 remains pending;15 of76 eligible cases are accepted and61 remain, with all147 stable IDs and71 exclusions preserved."
+          }
+        }
+      ],
+      "dependencies": []
+    }
+  }
+}

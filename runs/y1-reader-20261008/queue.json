@@ -945,7 +945,7 @@
       "material_kinds": "notes",
       "selection_evidence": "Official lecture-notes index labels row 18: Definite integrals and links its lecture-specific PDF.",
       "status": "pending",
-      "source_access": "All six original source pages and figures fully re-read under actual r25. Complete frozen r25 teaching/source/reader audits are preserved; D016 remains pending fresh generation under the published repair.",
+      "source_access": "Fresh r26b author read all6 original source pages/texts/figures and the full baseline. Complete unchanged teaching, fresh SASIS and independent source/PROF/math audits are preserved; actual GitHub destination checks remain unverified after two error-page attempts.",
       "required_portions": "all assigned lecture assets; resolve exact asset URLs before authoring",
       "evidence": [
         "iterations/016/closure.md",
@@ -959,7 +959,16 @@
         "iterations/016/published-r25-20261010/freeze.json",
         "iterations/016/published-r25-20261010/reviews/coordinator-disposition.md",
         "iterations/016/published-r25-20261010/repair/validation.json",
-        "iterations/016/published-r25-20261010/repair/publication-readback.json"
+        "iterations/016/published-r25-20261010/repair/publication-readback.json",
+        "iterations/016/published-r26-20261010/fresh-r26b/pending-status.json",
+        "iterations/016/published-r26-20261010/fresh-r26b/review/sasis-original.md",
+        "iterations/016/published-r26-20261010/fresh-r26b/review/sasis-access.json",
+        "iterations/016/published-r26-20261010/fresh-r26b/review/source-prof-original.md",
+        "iterations/016/published-r26-20261010/fresh-r26b/review/source-prof-access.json",
+        "iterations/016/published-r26-20261010/fresh-r26b/review/coordinator-disposition.md",
+        "iterations/016/published-r26-20261010/fresh-r26b/review/root-independent/review-disposition.md",
+        "iterations/016/published-r26-20261010/fresh-r26b/review/root-independent/live-destination-attempt.json",
+        "iterations/016/published-r26-20261010/fresh-r26b/review/earlier/coordinator-disposition.md"
       ],
       "material_id": "D016",
       "readability": {
@@ -1000,13 +1009,22 @@
         "prior_source_access": "All six original PDF text/page images and five consequential figures inspected; complete source, independent mathematics, author, fresh whole-input reader, affected earlier, actual destination and final-document evidence accepted."
       },
       "current_iteration": {
-        "incoming_prof": "2026-10-10-r25",
-        "frozen_commit": "18ad505b72fd034589271d70b15d3cae5c50e730",
-        "outgoing_prof": "2026-10-10-r26",
-        "state": "published_r26_verified_fresh_generation_required",
-        "evidence": "iterations/016/published-r25-20261010/reviews/coordinator-disposition.md",
-        "next_action": "Start whole D016 generation in a fresh context using the task-only r26 handover, actual current published package, original source and full frozen baseline; then freeze and complete new SASIS and independent audits.",
-        "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec"
+        "incoming_prof": "2026-10-10-r26",
+        "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec",
+        "frozen_commit": "51a78beccef858072b1da8d057ef3dff09878409",
+        "state": "pending_destination_verification",
+        "evidence": "iterations/016/published-r26-20261010/fresh-r26b/review/coordinator-disposition.md",
+        "pending_status": "iterations/016/published-r26-20261010/fresh-r26b/pending-status.json",
+        "next_action": "Resume the same frozen immutable destination checks when available. Only close D016 after all applicable conditions pass; if a material defect is established, repair/publish/verify PROF first and generate anew in a fresh context.",
+        "previous_iteration": {
+          "incoming_prof": "2026-10-10-r25",
+          "frozen_commit": "18ad505b72fd034589271d70b15d3cae5c50e730",
+          "outgoing_prof": "2026-10-10-r26",
+          "state": "published_r26_verified_fresh_generation_required",
+          "evidence": "iterations/016/published-r25-20261010/reviews/coordinator-disposition.md",
+          "next_action": "Start whole D016 generation in a fresh context using the task-only r26 handover, actual current published package, original source and full frozen baseline; then freeze and complete new SASIS and independent audits.",
+          "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec"
+        }
       }
     },
     {

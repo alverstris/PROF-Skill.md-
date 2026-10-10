@@ -1,0 +1,40 @@
+{
+  "record_date": "2026-10-10",
+  "case": "D016",
+  "generation": "fresh-r26b",
+  "publication_commit": "51a78beccef858072b1da8d057ef3dff09878409",
+  "url": "https://github.com/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/lesson.md",
+  "surface": "Dedicated cloud browser; read-only navigation and inspection",
+  "attempts": [
+    {
+      "ordinal": 1,
+      "action": "Navigate directly to the exact immutable published lesson URL after publication verification",
+      "observations": [
+        "Accessibility tree title: Unicorn! · GitHub",
+        "Visible heading: We're having a really bad day.",
+        "A fresh browser screenshot confirmed the GitHub error page",
+        "No lesson article, mathematics, embedded teaching figures or lesson navigation was available"
+      ]
+    },
+    {
+      "ordinal": 2,
+      "action": "One later reload of the same exact lesson URL after the local mathematical audit",
+      "observations": [
+        "Accessibility tree again showed Unicorn! · GitHub and the same error-page heading",
+        "No lesson article, mathematics, embedded teaching figures or lesson navigation was available"
+      ]
+    }
+  ],
+  "http_status": "Not exposed by the observed browser surface; no status code is claimed",
+  "challenge_observed": false,
+  "challenge_scope": "No CAPTCHA, authentication wall or bot/security challenge was observed",
+  "destination_checks": {
+    "lesson_rendering": "unverified",
+    "mathematics_rendering": "unverified",
+    "embedded_image_readability": "unverified",
+    "relative_help_navigation": "unverified",
+    "destination_preservation_and_styling": "unverified"
+  },
+  "disposition": "External destination access blocked these checks. The observations do not establish a document or PROF cause, nor a global GitHub outage. Published byte verification and local content inspection do not substitute for the unavailable destination checks. No destination pass, case acceptance or queue advancement is justified by these attempts.",
+  "next_action": "Stop repeating this page for this revision; finish and preserve the independent reviews and their dispositions. Leave destination-dependent closure pending unless actual destination access is established."
+}

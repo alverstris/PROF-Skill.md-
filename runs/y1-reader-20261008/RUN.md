@@ -1,3 +1,11 @@
+D016 r26b complete content audit; destination pending, 2026-10-10
+
+Fresh teaching is frozen unchanged at51a78beccef858072b1da8d057ef3dff09878409. Complete fresh SASIS, source/PROF and independent mathematical reviews establish no material content failure. Native figure and source-structure checks and affected-earlier review are preserved under iterations/016/published-r26-20261010/fresh-r26b/. Actual GitHub expression/style/image/navigation checks remain unverified after two Unicorn error-page observations; no document/PROF cause is inferred. See pending-status.json and review/coordinator-disposition.md there. Both topic/full helper checks truthfully remain NOT_READY.
+
+PROF remains actual published r26, package publicationa5e86eac9e9805921473419c48b329bde7bd46ec; all36 package files and all6 frozen teaching constituents are unchanged. D016 remains pending, with15 accepted/61remaining,76eligible/71excluded,all147IDs retained. Do not advance toD017 until D016 is accepted. Next: finish the same immutable destination audit when access is available; no speculative PROF revision or regeneration. No installed-skill, user-computer or automation change. Root regains sole publication ownership after this evidence checkpoint is published and read back.
+
+Earlier dated records follow unchanged.
+
 D016 continuation handover after verified r26 publication, 2026-10-10
 
 Published r26 commit a5e86eac9e9805921473419c48b329bde7bd46ec, tree d49885153f1a733f5fdbcb6558ef627a7ea5eccc, was freshly fetched and all 62 publication files plus all 36 package files match intended saved bytes. Readback evidence is preserved under iterations/016/published-r25-20261010/repair/. D016 remains pending a complete fresh generation and new full checks; counts remain 15 accepted and 61 remaining.
@@ -163,3 +171,4 @@ External block: cloud execution server disconnected, affecting exec and apply_pa
 Next concrete action: recover the cloud runtime; reconcile working tree and recovery draft, preserve all differences, finish author evidence, freeze the COMPLETE document/constituents, then run fresh two-input SASIS plus full independent content/technical/destination checks. Decide skill changes only from evidence. At each valid closure push,verify,FULLreload and start anew. Continue the entire76input queue; this external block is not corpus completion. No user-computer action or permission request is required.
 
 Root full-source preparations D009–D018 are recorded in each lead-source-review.json; authors must independently read their actual original full texts/images. D009 active as above. Additional root source preparations D019 and D020 were saved locally before outage; D021 full reading was completed but its attempted record write failed. The interruption record distinguishes these from remotely preserved artifacts. Repo and current scratch share /workspace/scratch/ac36b9c5ff31. Publication tooling: prof-readability/d008-publish-prep/prepare_repo_publish_binary.py, reviewed binary-safe planner; phase-A plan d008-publication-plan-r15-phase-a. Source binary blobs are actual remote in the phase-A tree; no binary corruption. Closure reconciliation script/config are in prof-readability/d008-closure-prepare/r15-substantive. Keep checkpoints coherent, no user permission needed for authorized Git writes.
+

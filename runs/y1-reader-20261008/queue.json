@@ -958,7 +958,8 @@
         "iterations/017/published-r24-20261010/d016-reopening.json",
         "iterations/016/published-r25-20261010/freeze.json",
         "iterations/016/published-r25-20261010/reviews/coordinator-disposition.md",
-        "iterations/016/published-r25-20261010/repair/validation.json"
+        "iterations/016/published-r25-20261010/repair/validation.json",
+        "iterations/016/published-r25-20261010/repair/publication-readback.json"
       ],
       "material_id": "D016",
       "readability": {
@@ -1002,9 +1003,10 @@
         "incoming_prof": "2026-10-10-r25",
         "frozen_commit": "18ad505b72fd034589271d70b15d3cae5c50e730",
         "outgoing_prof": "2026-10-10-r26",
-        "state": "repair_publication_readback_and_fresh_generation_required",
+        "state": "published_r26_verified_fresh_generation_required",
         "evidence": "iterations/016/published-r25-20261010/reviews/coordinator-disposition.md",
-        "next_action": "Verify published r26 bytes, then fresh-context whole D016 generation from original inputs and full baseline; no old teaching or diagnoses before freeze."
+        "next_action": "Start whole D016 generation in a fresh context using the task-only r26 handover, actual current published package, original source and full frozen baseline; then freeze and complete new SASIS and independent audits.",
+        "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec"
       }
     },
     {

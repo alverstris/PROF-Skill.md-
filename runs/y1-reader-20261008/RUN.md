@@ -1,3 +1,9 @@
+D016 continuation handover after verified r26 publication, 2026-10-10
+
+Published r26 commit a5e86eac9e9805921473419c48b329bde7bd46ec, tree d49885153f1a733f5fdbcb6558ef627a7ea5eccc, was freshly fetched and all 62 publication files plus all 36 package files match intended saved bytes. Readback evidence is preserved under iterations/016/published-r25-20261010/repair/. D016 remains pending a complete fresh generation and new full checks; counts remain 15 accepted and 61 remaining.
+
+Use the task-only handover under iterations/016/published-r26-20261010/. The new author must receive only that handover, actual published package, complete baseline and original source/task. Prior teaching, findings and answers are audit evidence to inspect only after the new complete generation is frozen. The previous coordinator does not regenerate in its current context. Root resumes publication ownership after verifying this evidence-only checkpoint.
+
 D016 r25 audited; focused r26 PROF repair publication, 2026-10-10
 
 The fresh complete D016 r25 generation and original reader/technical reports remain unchanged. Full review confirms a local units overgeneralization and exported title/tick clipping; the six practice answers and source constructions remain correct. The r26 root package strengthens qualitative formula-scope checks and saved-figure inspection. Original reports, additive findings, targeted forward-probe evidence and all earlier-case scope checks are in iterations/016/published-r25-20261010/. No affected earlier accepted case was found.

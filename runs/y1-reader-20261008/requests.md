@@ -38,3 +38,11 @@ Continuation and recurring task, 2026-10-09
 then, please continue iterating @PROF.”
 
 This authorizes recurring cloud-access checks and actual continuation of the existing76-eligible-input run. It does not authorize using the Windows computer, skipping the current incomplete iteration, or waiving verification. The active automation and its disabling condition are recorded in automation.json. A scheduled retry is not proof of runtime access.
+
+Continuation, 2026-10-10
+
+“could you continue the iteration scheme? apply SASIS.
+
+tell me what the scheme is before starting”
+
+The current orchestrator explained the complete reader-based scheme before resuming D017. This authorizes actual continuation of the existing 76-session run. Private inspection observed both existing PROF schedules disabled; this continuation does not change either schedule. GitHub remains canonical and the installed Windows skill remains outside scope.

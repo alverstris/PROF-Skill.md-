@@ -1,3 +1,7 @@
+## D017 resumed in verified cloud runtime, 2026-10-10
+
+Current root recovered main at 23a05fd9f59ecac959832fe62bfe9971dfa5e69c, verified all 36 frozen candidate files and the original Lecture 19 PDF. The scheme was explained before execution as requested. Fresh author /root/author_d017_r24 is generating from the exact candidate, complete baseline and original source in a separate task directory. Independent reviewer /root/review_earlier_r24 owns only iterations/017/earlier-r24-review/ and checks affected accepted D001–D016 evidence. Root is sole publisher. D017 remains open, root skill remains r23, and counts remain 16/76 closed with 60 remaining. Both existing PROF automations were observed disabled; no schedule was changed. See iterations/017/resumption-20261010/recovery.json. Next: freeze fresh generation, dispatch a fresh complete two-input SASIS reader, and complete the independent content/destination/final checks.
+
 ## D017 original audited; r24 candidate prepared
 
 All69original audit publication paths verified at6b052b2bc1d2ed47a13de2521d542ebcc2cbd81c. Source-level checks accepted; actual destination fails2missing nodes and46altered payloads. Frozen candidate iterations/017/candidate-r24-1 has a narrow GitHub math-delimiter instruction. Publication/fresh generation/allfinalchecks pending. See iterations/017/current-r23/RECOVERY.md. Root published skill remainsr23; scope16closed/60remaining; no scheduling change.

@@ -1,3 +1,11 @@
+D016 r25 audited; focused r26 PROF repair publication, 2026-10-10
+
+The fresh complete D016 r25 generation and original reader/technical reports remain unchanged. Full review confirms a local units overgeneralization and exported title/tick clipping; the six practice answers and source constructions remain correct. The r26 root package strengthens qualitative formula-scope checks and saved-figure inspection. Original reports, additive findings, targeted forward-probe evidence and all earlier-case scope checks are in iterations/016/published-r25-20261010/. No affected earlier accepted case was found.
+
+D016 remains pending. Actual GitHub article/live checks were unavailable after recorded server errors; no rendering cause is inferred. The author-state checks truthfully remain NOT_READY. This commit publishes the repair; next verify all published bytes and launch D016 from the actual published package in a fresh context carrying only the original inputs and task necessities. D017 follows D016. Counts remain 15/76 accepted, 61 remaining, 71 excluded and all 147 IDs preserved. No installed-skill, user-computer or automation change.
+
+Earlier records preserved below.
+
 ## r25 hypothesis repair; D016 acceptance reopened, 2026-10-10
 
 The complete fresh D017 r24 generation and original SASIS report remain unchanged. Independent full source/science/PROF checking establishes one missing operational meaning in a new theorem hypothesis. The affected-earlier-case audit independently establishes the same T1 issue in accepted D016. r25 strengthens the general condition reconstruction in T1 and execution-protocol.md and explicitly preserves the PROF-only repair route during self-iteration. D016 is pending revalidation; D017 remains pending. Current counts: 15/76 fully closed, 61 remaining, all 147 IDs and 71 exclusions preserved. Original closure records are historical evidence, not erased. No schedule or installed-skill action occurred.

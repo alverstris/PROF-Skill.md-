@@ -1,0 +1,270 @@
+{
+  "role": "SASIS",
+  "frozen_revision": "D016 r25",
+  "frozen_at": "2026-10-10T14:11:51.625789Z",
+  "report_written_at": "2026-10-10T14:21:31.847663+00:00",
+  "admission": {
+    "initial": "provisional",
+    "after_reading": "complete baseline and complete teaching bundle actually read; hashes matched"
+  },
+  "boundary": {
+    "type": "instruction-confined read-only retrieval; not technically isolated",
+    "subject_inputs": 2,
+    "no_browsing": true,
+    "no_other_file_search_or_read": true,
+    "no_skill_read": true,
+    "no_other_agent_subject_input": true,
+    "no_author_feedback_received": true
+  },
+  "line_convention": {
+    "definition": "1-based logical lines from pathlib.Path.read_text().splitlines() after Python universal-newline decoding",
+    "baseline_initial_heading_correction": "First retrieval heading said physical, but actual indexing was logical throughout. Corrected explicitly after observing mixed CR/LF bytes.",
+    "baseline_logical_lines": 2561,
+    "teaching_logical_lines": 216,
+    "hints_logical_lines": 31,
+    "solutions_logical_lines": 121
+  },
+  "verified_inputs": [
+    {
+      "id": "baseline",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-published-r25/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "bytes": 247840,
+      "expected_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "observed_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "hash_verified_before_reading": true,
+      "hash_reverified_at_report_write": true,
+      "raw_LF_count": 1377,
+      "raw_CR_count": 2561,
+      "logical_line_count": 2561
+    },
+    {
+      "id": "teaching",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-published-r25/output/teaching.md",
+      "bytes": 17504,
+      "expected_sha256": "33bea5d8602892e838a4a2e257b4524d0a23d36ea75944d389d7b83ed6e8da79",
+      "observed_sha256": "33bea5d8602892e838a4a2e257b4524d0a23d36ea75944d389d7b83ed6e8da79",
+      "hash_verified_before_reading": true,
+      "hash_reverified_at_report_write": true,
+      "raw_LF_count": 216,
+      "raw_CR_count": 0,
+      "logical_line_count": 216
+    },
+    {
+      "id": "figure_1",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-published-r25/output/figures/rectangle-sums.png",
+      "bytes": 85787,
+      "expected_sha256": "71c70228ec96b9b50a80060db65b0ff57887a49ca1522aeb1ae7bb9bc5bf4c66",
+      "observed_sha256": "71c70228ec96b9b50a80060db65b0ff57887a49ca1522aeb1ae7bb9bc5bf4c66",
+      "hash_verified_before_reading": true,
+      "hash_reverified_at_report_write": true
+    },
+    {
+      "id": "figure_2",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-published-r25/output/figures/staircase-pyramids.png",
+      "bytes": 62867,
+      "expected_sha256": "242b262c3bedb8cf437f4fb62ee410a1f90336112fd245de79e03a9f223280f8",
+      "observed_sha256": "242b262c3bedb8cf437f4fb62ee410a1f90336112fd245de79e03a9f223280f8",
+      "hash_verified_before_reading": true,
+      "hash_reverified_at_report_write": true
+    },
+    {
+      "id": "figure_3",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-published-r25/output/figures/areas-and-signs.png",
+      "bytes": 70315,
+      "expected_sha256": "6522bab4f911af0c2161c2adaa0eaa8b3e20e50e6af40dcd7f0b5b478b7e39ac",
+      "observed_sha256": "6522bab4f911af0c2161c2adaa0eaa8b3e20e50e6af40dcd7f0b5b478b7e39ac",
+      "hash_verified_before_reading": true,
+      "hash_reverified_at_report_write": true
+    },
+    {
+      "id": "hints",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-published-r25/output/hints.md",
+      "bytes": 1963,
+      "expected_sha256": "6a49e8d78a11340c79773185f70b2cf4d559b3ed61eb5610cd3ba6e7231309b0",
+      "observed_sha256": "6a49e8d78a11340c79773185f70b2cf4d559b3ed61eb5610cd3ba6e7231309b0",
+      "hash_verified_before_reading": true,
+      "hash_reverified_at_report_write": true,
+      "raw_LF_count": 31,
+      "raw_CR_count": 0,
+      "logical_line_count": 31
+    },
+    {
+      "id": "solutions",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-published-r25/output/solutions.md",
+      "bytes": 5207,
+      "expected_sha256": "2143be9783de5db10e08aad7e102abf59af55c98a869a95fa00aebb970aac8b8",
+      "observed_sha256": "2143be9783de5db10e08aad7e102abf59af55c98a869a95fa00aebb970aac8b8",
+      "hash_verified_before_reading": true,
+      "hash_reverified_at_report_write": true,
+      "raw_LF_count": 121,
+      "raw_CR_count": 0,
+      "logical_line_count": 121
+    }
+  ],
+  "baseline_read_ranges": [
+    [
+      1,
+      240
+    ],
+    [
+      241,
+      460
+    ],
+    [
+      461,
+      660
+    ],
+    [
+      661,
+      790
+    ],
+    [
+      791,
+      910
+    ],
+    [
+      911,
+      1040
+    ],
+    [
+      1041,
+      1180
+    ],
+    [
+      1181,
+      1320
+    ],
+    [
+      1321,
+      1480
+    ],
+    [
+      1481,
+      1660
+    ],
+    [
+      1661,
+      1840
+    ],
+    [
+      1841,
+      2050
+    ],
+    [
+      2051,
+      2260
+    ],
+    [
+      2261,
+      2440
+    ],
+    [
+      2441,
+      2561
+    ]
+  ],
+  "baseline_subject_coverage": {
+    "Mathematics_A_H240": [
+      17,
+      662
+    ],
+    "Further_Mathematics_H245_Pure_Core_Statistics_Mechanics": [
+      668,
+      823
+    ],
+    "Physics_A_H556": [
+      828,
+      1385
+    ],
+    "Chemistry_A_H432": [
+      1391,
+      2561
+    ]
+  },
+  "teaching_bundle_read_order": [
+    {
+      "artifact": "teaching",
+      "range": [
+        1,
+        25
+      ]
+    },
+    {
+      "artifact": "figure_1",
+      "operation": "view_image",
+      "after_teaching_line": 25,
+      "before_teaching_line": 26,
+      "readability": "all substantive plotted content and labels legible"
+    },
+    {
+      "artifact": "teaching",
+      "range": [
+        26,
+        43
+      ]
+    },
+    {
+      "artifact": "figure_2",
+      "operation": "view_image",
+      "after_teaching_line": 43,
+      "before_teaching_line": 44,
+      "readability": "all substantive plotted content and labels legible"
+    },
+    {
+      "artifact": "teaching",
+      "range": [
+        44,
+        120
+      ]
+    },
+    {
+      "artifact": "figure_3",
+      "operation": "view_image",
+      "after_teaching_line": 120,
+      "before_teaching_line": 121,
+      "readability": "all substantive plotted content and labels legible"
+    },
+    {
+      "artifact": "teaching",
+      "range": [
+        121,
+        216
+      ]
+    },
+    {
+      "artifact": "hints",
+      "range": [
+        1,
+        31
+      ]
+    },
+    {
+      "artifact": "solutions",
+      "range": [
+        1,
+        121
+      ]
+    }
+  ],
+  "retrieval_truncation": false,
+  "access_failures": [],
+  "unread_authorized_content": [],
+  "external_provenance_unverified": [
+    "Original MIT lecture PDF/page wording referenced at teaching line 214",
+    "External OCR source URLs in baseline; operational text itself was fully read"
+  ],
+  "outputs": {
+    "original_report": "/workspace/scratch/f9c0b7fc7e76/d016-published-r25/reviews/sasis-original.md",
+    "input_access_record": "/workspace/scratch/f9c0b7fc7e76/d016-published-r25/reviews/sasis-access.json"
+  },
+  "findings": {
+    "established_consequential_defects": 0,
+    "established_minor_precision_issues": [
+      "E1: unconditional different-units sentence, T154"
+    ],
+    "provisional_concerns": [
+      "P1: scope of arbitrary borrowing-rate formulas, T160-187"
+    ],
+    "blocked_exercises": []
+  }
+}

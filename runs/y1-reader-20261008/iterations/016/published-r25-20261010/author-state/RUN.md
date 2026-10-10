@@ -1,0 +1,5 @@
+D016 r25 frozen audit recovery
+
+Exact task: author/request.txt. Actual incoming package r25: inputs/prof/SKILL.md, verified at remote main 5699ffff98bdf6cc529338fc3245670f976258c8 with all 36 package bytes matching the pinned release. Complete teaching freeze: freeze.json and output/. Full actual input admission: author/admission.md. Full final audit: reviews/coordinator-disposition.md with preserved original SASIS/technical reports, technical supplement and root evidence. All source assignments and conditions are in manifest.json and topics/definite-integrals.json.
+
+The frozen output remains unchanged. F1 units overgeneralization and F2 exported glyph clipping remain open in this artifact; destination checks remain unverified after external errors. No lesson acceptance or queue advance. Candidate r26 is separately validated in repair/validation.json. Next: guarded canonical PROF publication, fetched-byte verification, and task-only handover for a fresh-context D016 generation. No installed-skill, user-computer or automation changes.

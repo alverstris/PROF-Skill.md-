@@ -1,0 +1,100 @@
+{
+  "prompt_sha256": "159f2d054b08594341e6ed05e7cdfa48d5052ef8d77e298fe72f976816322000",
+  "stage": "Before root inspected new lesson, hints or solutions",
+  "method": "Independent exact-rational calculations; finite P2 examples check arithmetic, not a proof of all n. General containment proof is recorded in independent-prompts.md.",
+  "all_pass": true,
+  "checks": [
+    {
+      "name": "P1 right rectangles",
+      "actual": "15/4",
+      "expected": "15/4",
+      "pass": true
+    },
+    {
+      "name": "P1 left rectangles",
+      "actual": "7/4",
+      "expected": "7/4",
+      "pass": true
+    },
+    {
+      "name": "P2 constructive volume bounds n=1",
+      "pass": true
+    },
+    {
+      "name": "P3 direct endpoint sum n=1",
+      "actual": "6",
+      "expected": "6",
+      "pass": true
+    },
+    {
+      "name": "P2 constructive volume bounds n=2",
+      "pass": true
+    },
+    {
+      "name": "P3 direct endpoint sum n=2",
+      "actual": "4",
+      "expected": "4",
+      "pass": true
+    },
+    {
+      "name": "P2 constructive volume bounds n=4",
+      "pass": true
+    },
+    {
+      "name": "P3 direct endpoint sum n=4",
+      "actual": "3",
+      "expected": "3",
+      "pass": true
+    },
+    {
+      "name": "P2 constructive volume bounds n=10",
+      "pass": true
+    },
+    {
+      "name": "P3 direct endpoint sum n=10",
+      "actual": "12/5",
+      "expected": "12/5",
+      "pass": true
+    },
+    {
+      "name": "P2 constructive volume bounds n=50",
+      "pass": true
+    },
+    {
+      "name": "P3 direct endpoint sum n=50",
+      "actual": "52/25",
+      "expected": "52/25",
+      "pass": true
+    },
+    {
+      "name": "P4 equal-area rectangle",
+      "actual": "10",
+      "expected": "10",
+      "pass": true
+    },
+    {
+      "name": "P5 early debt",
+      "actual": "12540",
+      "expected": "12540",
+      "pass": true
+    },
+    {
+      "name": "P5 uniform debt",
+      "actual": "12360",
+      "expected": "12360",
+      "pass": true
+    },
+    {
+      "name": "P6 principal exact linear quadrature",
+      "actual": "24000",
+      "expected": "24000",
+      "pass": true
+    },
+    {
+      "name": "P6 debt exact quadratic Simpson quadrature",
+      "actual": "26000",
+      "expected": "26000",
+      "pass": true
+    }
+  ]
+}

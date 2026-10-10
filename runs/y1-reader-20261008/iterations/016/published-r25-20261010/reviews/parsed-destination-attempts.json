@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-10",
+  "method": "Executed existing frozen_render_review.py with --markup-only separately for all three immutable Markdown blob URLs at commit 18ad505b72fd034589271d70b15d3cae5c50e730.",
+  "record_kind": "Coordinator observation of actual command results; not a raw HTTP capture",
+  "attempts": [
+    {"file": "teaching.md", "process_exit": 1, "exception": "urllib.error.HTTPError: HTTP Error 503: Service Unavailable", "article_read": false},
+    {"file": "hints.md", "process_exit": 1, "exception": "urllib.error.HTTPError: HTTP Error 503: Service Unavailable", "article_read": false},
+    {"file": "solutions.md", "process_exit": 1, "exception": "urllib.error.HTTPError: HTTP Error 503: Service Unavailable", "article_read": false}
+  ],
+  "actual_parsed_destination": "unverified",
+  "live_pixels": "not checked by these command calls; root browser attempts recorded separately",
+  "inference": "No teaching defect or external error cause inferred. No further repeated preview probes planned for this frozen revision."
+}

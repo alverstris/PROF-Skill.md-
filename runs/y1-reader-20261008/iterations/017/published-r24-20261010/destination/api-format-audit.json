@@ -1,0 +1,116 @@
+{
+  "scope": "Official GitHub Markdown API response to the exact frozen full source; not the repository blob page and not live visual inspection.",
+  "source_sha256": "adaf6fb78d72cfd02b9579dc821e2daa25f770cc05e8a6f99e73cb42c833d62d",
+  "api_response_sha256": "26e8f402d1d9087da32d2475eb0b2693fbe95a2c4bafbf55e69840359c03a000",
+  "inline_count": 184,
+  "display_count": 26,
+  "named_anchor_count": 26,
+  "internal_link_count": 38,
+  "checks": {
+    "all_inline_math_payloads_exact": true,
+    "all_display_math_payloads_exact": true,
+    "all_internal_hrefs_match_source_in_order": true,
+    "plain_prose_no_bold_italic_or_heading_tags": true,
+    "source_has_no_atx_headings": true,
+    "complete_prose_and_math_stream_exact": true,
+    "six_ordered_label_numbers_preserved": true,
+    "named_anchors_preserved_in_order": true,
+    "all_38_internal_targets_have_one_github_prefixed_named_anchor": true,
+    "hints_group_precedes_solutions_group": true,
+    "six_task_hint_solution_routes_match": true
+  },
+  "all_checks_pass": true,
+  "routes": [
+    {
+      "task": "p1",
+      "p1": {
+        "hint-p1": true,
+        "solution-p1": true
+      },
+      "hint-p1": {
+        "p1": true,
+        "solution-p1": true
+      },
+      "solution-p1": {
+        "p1": true
+      }
+    },
+    {
+      "task": "p2",
+      "p2": {
+        "hint-p2": true,
+        "solution-p2": true
+      },
+      "hint-p2": {
+        "p2": true,
+        "solution-p2": true
+      },
+      "solution-p2": {
+        "p2": true
+      }
+    },
+    {
+      "task": "p3",
+      "p3": {
+        "hint-p3": true,
+        "solution-p3": true
+      },
+      "hint-p3": {
+        "p3": true,
+        "solution-p3": true
+      },
+      "solution-p3": {
+        "p3": true
+      }
+    },
+    {
+      "task": "p4",
+      "p4": {
+        "hint-p4": true,
+        "solution-p4": true
+      },
+      "hint-p4": {
+        "p4": true,
+        "solution-p4": true
+      },
+      "solution-p4": {
+        "p4": true
+      }
+    },
+    {
+      "task": "p5",
+      "p5": {
+        "hint-p5": true,
+        "solution-p5": true
+      },
+      "hint-p5": {
+        "p5": true,
+        "solution-p5": true
+      },
+      "solution-p5": {
+        "p5": true
+      }
+    },
+    {
+      "task": "p6",
+      "p6": {
+        "hint-p6": true,
+        "solution-p6": true
+      },
+      "hint-p6": {
+        "p6": true,
+        "solution-p6": true
+      },
+      "solution-p6": {
+        "p6": true
+      }
+    }
+  ],
+  "helper_false_flags_explained": "The earlier helper recognizes id anchors and [P01] labels, whereas this frozen source uses name anchors and P1 labels. It also does not remove numbered-list markers when comparing text nodes. This audit keeps the original output and explicitly checks the actual source format; it does not edit the teaching.",
+  "remaining_unverified": [
+    "live MathJax/CSS pixels",
+    "actual repository richText response",
+    "click/JavaScript hash handling",
+    "embedded image scaling and live image loading"
+  ]
+}

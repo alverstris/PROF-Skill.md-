@@ -1,0 +1,40 @@
+{
+  "checked_at_utc": "2026-10-10T13:28:53.520693+00:00",
+  "environment": "dedicated remote cloud CDP browser, not user Windows computer",
+  "requested_url": "https://github.com/alverstris/PROF-Skill.md-/blob/d75cf7dccff8b59cdd46ab1b07f8c37b5e214544/runs/y1-reader-20261008/iterations/017/published-r24-20261010/generation/lesson.md",
+  "attempts": [
+    "initial direct navigation",
+    "one reload"
+  ],
+  "observed_title": "Unicorn! \u00b7 GitHub",
+  "observed_heading": "We're having a really bad day.",
+  "observed_message": "The Unicorns have taken over. We're doing our best to get them under control and get GitHub back up and running.",
+  "observations": [
+    "accessibility tree on initial navigation",
+    "accessibility tree and screenshot after reload"
+  ],
+  "classification": "GitHub server-error page; no evidence of bot/security/permission challenge",
+  "lesson_pixels_observed": false,
+  "lesson_rendering_verdict": "not established",
+  "lesson_or_skill_edits": false,
+  "subsequent_controls": [
+    {
+      "route": "review branch lesson rendered view",
+      "ref": "d017-r24-review-20261010",
+      "observed_title": "Unicorn! \u00b7 GitHub",
+      "result": "same server-error page"
+    },
+    {
+      "route": "published root SKILL.md",
+      "ref": "bb0083fadf0f40cadca5777cd9736bee35d73678",
+      "result": "full GitHub file preview loaded, including visible r24 metadata and complete operative workflow"
+    },
+    {
+      "route": "review-snapshot root SKILL.md",
+      "ref": "d75cf7dccff8b59cdd46ab1b07f8c37b5e214544",
+      "observed_title": "PROF-Skill.md-/SKILL.md at d75cf7dccff8b59cdd46ab1b07f8c37b5e214544 \u00b7 alverstris/PROF-Skill.md- \u00b7 GitHub",
+      "result": "normal GitHub file route loaded"
+    }
+  ],
+  "narrowed_classification": "The new lesson rendered route fails; both prior and same-new-commit root skill previews load. This rules out a blanket cloud GitHub outage and unavailable new commit as the sole explanation. Exact rendering cause not yet established."
+}

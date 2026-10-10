@@ -1,0 +1,69 @@
+{
+  "method": "stdlib composite Simpson numerical cross-check; analytic calculations separately recorded before authored answers were read",
+  "panels": 10000,
+  "checks": [
+    {
+      "case": "P1",
+      "numerical_integral": 2.9999999999999973,
+      "independent_analytic_value": 3.0,
+      "absolute_error": 2.6645352591003757e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "case": "P2 displacement",
+      "numerical_integral": 1.4822772991374305e-16,
+      "independent_analytic_value": 0.0,
+      "absolute_error": 1.4822772991374305e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "case": "P2 distance",
+      "numerical_integral": 2.0,
+      "independent_analytic_value": 2.0,
+      "absolute_error": 0.0,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "case": "P5",
+      "numerical_integral": 10.125,
+      "independent_analytic_value": 10.125,
+      "absolute_error": 0.0,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "case": "P6 signed",
+      "numerical_integral": 6.489380069187497e-18,
+      "independent_analytic_value": 0.0,
+      "absolute_error": 6.489380069187497e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "case": "P6 area",
+      "numerical_integral": 0.05987211734949671,
+      "independent_analytic_value": 0.05987211734949674,
+      "absolute_error": 2.7755575615628914e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "case": "source substitution",
+      "numerical_integral": 6650.466666666673,
+      "independent_analytic_value": 6650.466666666666,
+      "absolute_error": 6.366462912410498e-12,
+      "tolerance": 1e-08,
+      "passed": true
+    }
+  ],
+  "exact_arithmetic": {
+    "P4_e_lower_bound": "8/3",
+    "P4_improvement": "1/6",
+    "P5": "81/8",
+    "source_substitution": "99757/15"
+  },
+  "calculation_record_sha256": "e23c1d3d3fe850b4ad20d18d7e0cdd4ea1f2170924fc432757def76241e4a470"
+}

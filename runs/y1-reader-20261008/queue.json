@@ -944,8 +944,8 @@
       "session_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/",
       "material_kinds": "notes",
       "selection_evidence": "Official lecture-notes index labels row 18: Definite integrals and links its lecture-specific PDF.",
-      "status": "closed",
-      "source_access": "All six original PDF text/page images and five consequential figures inspected; complete source, independent mathematics, author, fresh whole-input reader, affected earlier, actual destination and final-document evidence accepted.",
+      "status": "pending",
+      "source_access": "All six original source pages and five consequential figures remain inspected and accessible. Historical acceptance is preserved; current complete acceptance is pending because T1 was reopened on 2026-10-10.",
       "required_portions": "all assigned lecture assets; resolve exact asset URLs before authoring",
       "evidence": [
         "iterations/016/closure.md",
@@ -954,7 +954,8 @@
         "iterations/016/regenerated-r23-c1/root-sasis-v2-disposition.md",
         "iterations/016/regenerated-r23-c1/root-destination-v2-disposition.md",
         "iterations/016/root-earlier-r23-disposition.md",
-        "iterations/016/regenerated-r23-c1/root-final-state-disposition.md"
+        "iterations/016/regenerated-r23-c1/root-final-state-disposition.md",
+        "iterations/017/published-r24-20261010/d016-reopening.json"
       ],
       "material_id": "D016",
       "readability": {
@@ -983,7 +984,17 @@
       },
       "incoming_prof": "2026-10-09-r22",
       "outgoing_prof": "2026-10-09-r23",
-      "published_commit": "abfd5ae20c4af75b424b70d612082b07071c2ae6"
+      "published_commit": "abfd5ae20c4af75b424b70d612082b07071c2ae6",
+      "acceptance_reopened": {
+        "date": "2026-10-10",
+        "obligation": "T1",
+        "reason": "The general integrability condition names a bounded function without the operational output-bound meaning. Existing arithmetic and other accepted evidence remain preserved within their scopes.",
+        "evidence": "iterations/017/published-r24-20261010/d016-reopening.json",
+        "prior_status": "closed",
+        "prior_closure": "iterations/016/closure.md",
+        "required_next_action": "Use verified published r25 for complete fresh D016 generation and a new full-document SASIS/independent audit. Do not patch the accepted historical document.",
+        "prior_source_access": "All six original PDF text/page images and five consequential figures inspected; complete source, independent mathematics, author, fresh whole-input reader, affected earlier, actual destination and final-document evidence accepted."
+      }
     },
     {
       "order": 17,
@@ -6047,7 +6058,7 @@
     "selection_manifest": "readability-selection.json",
     "eligible": 76,
     "excluded": 71,
-    "closed": 16,
+    "closed": 15,
     "active_session_ids": [
       "mit-18-01-fall-2006-L01",
       "mit-18-01-fall-2006-L02",
@@ -6126,6 +6137,6 @@
       "mit-8-022-fall2004-L26",
       "mit-8-022-fall2004-L28"
     ],
-    "remaining": 60
+    "remaining": 61
   }
 }

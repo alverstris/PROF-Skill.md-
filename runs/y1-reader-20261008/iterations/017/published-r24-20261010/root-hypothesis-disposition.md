@@ -1,0 +1,13 @@
+# Independent T1 addendum
+
+Artifact: frozen lesson.md, SHA256 adaf6fb78d72cfd02b9579dc821e2daa25f770cc05e8a6f99e73cb42c833d62d. All 352 lesson lines and both figures were previously inspected for root-mathematics-disposition.md. That mathematical disposition remains valid within its stated technical scope.
+
+Decision: the separate audit's localized T1 omission is supported. Lesson line 196 introduces “continuously differentiable” as a hypothesis of the general substitution rule. Line 23 explains continuity of a function, and the baseline supplies differentiation, but the lesson does not say that this particular term requires continuity of the derivative. Knowing that u is continuous and differentiable is not the same condition as knowing that u' is continuous. The unexplained qualifier therefore prevents a reader from interpreting and checking the general rule's stated scope from those familiar component notions alone.
+
+I compared the actual lesson with the specific contrary evidence in independent-source-prof-audit.md, especially lines 152–156, and the unchanged SASIS report's R19 witness at line 72. R19 repeats the continuous-differentiability hypothesis and successfully reconstructs chain-rule and endpoint algebra. It does not reconstruct the technical term's meaning from a permitted premise. Thus its algebraic witness does not resolve this particular omission. This does not invalidate the reader's complete input access or every other reading witness, and it does not imply that the correct concrete exercise answers are wrong.
+
+A targeted full-file search of the baseline for “continuously differentiable”, “continuous derivative” and nearby derivative/continuity wording returned no definition. I do not claim to have reread every baseline line during this addendum; the narrower search is corroboration, alongside the author and SASIS full-baseline readings and the technical auditor's relevant baseline inspection.
+
+Necessary repair: strengthen PROF's operative reconstruction check so that newly introduced technical qualifiers in hypotheses receive their actual object-level meaning before reliance. Repeating a named condition or verifying downstream algebra must not count as explaining that condition. Keep the instruction general and avoid supplying this lecture's answer to the fresh author. Publish the revised PROF, then test it through whole-document fresh generation and a new SASIS reader.
+
+The original lesson and original SASIS report remain unchanged. This addendum is not a retrospective edit of either report and is not a live-render acceptance decision.

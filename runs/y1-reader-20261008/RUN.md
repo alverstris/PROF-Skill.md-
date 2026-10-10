@@ -1,3 +1,11 @@
+## r25 hypothesis repair; D016 acceptance reopened, 2026-10-10
+
+The complete fresh D017 r24 generation and original SASIS report remain unchanged. Independent full source/science/PROF checking establishes one missing operational meaning in a new theorem hypothesis. The affected-earlier-case audit independently establishes the same T1 issue in accepted D016. r25 strengthens the general condition reconstruction in T1 and execution-protocol.md and explicitly preserves the PROF-only repair route during self-iteration. D016 is pending revalidation; D017 remains pending. Current counts: 15/76 fully closed, 61 remaining, all 147 IDs and 71 exclusions preserved. Original closure records are historical evidence, not erased. No schedule or installed-skill action occurred.
+
+Evidence: iterations/017/published-r24-20261010/coordinator-disposition.md and d016-reopening.json. Actual GitHub Markdown API parsing is exact; blob-page/live inspection remains unverified after server errors with nondiscriminating controls. Next: verify the complete published r25 package, then start reopened D016 from only original inputs and complete baseline in a fresh context; return to D017 afterward. Publication is not acceptance.
+
+Earlier records preserved below.
+
 ## User-corrected PROF-only repair cycle, 2026-10-10
 
 Jonathan requires every verified failure to be repaired in PROF, never by patching the generated document; revised root PROF must be pushed and verified before generation restarts with fresh context and only key operational task state. These instructions supersede the old local-repair and unpublished-candidate workflow. Root has prepared 2026-10-10-r24 with this correction and the previously frozen delimiter instruction. The two workers named below were interrupted; their contexts will not be reused for new generation. No new learner document was frozen. D017 remains open, 16/76 iterations are closed, and 60 remain. Exact correction and changed identities: iterations/017/resumption-20261010/user-correction-r24.json. New generation must use the verified published root package and the concise clean-handover.json, not earlier narrative checkpoints. Existing schedules remain disabled and unchanged. Publication of r24 is not acceptance of D017.

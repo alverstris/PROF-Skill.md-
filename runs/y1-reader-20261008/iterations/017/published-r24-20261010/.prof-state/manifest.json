@@ -1,0 +1,1960 @@
+{
+  "schema_version": 1,
+  "project_root": "/workspace/scratch/f9c0b7fc7e76/prof-iteration/runs/y1-reader-20261008/iterations/017/published-r24-20261010",
+  "skill": {
+    "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/prof/SKILL.md",
+    "sha256": "8c157bc21ef93e2c162d2196136afbaa1009dd2e627fef3964dbccf537c8e319"
+  },
+  "request": {
+    "path": "/workspace/scratch/f9c0b7fc7e76/prof-iteration/runs/y1-reader-20261008/iterations/017/published-r24-20261010/request.txt",
+    "sha256": "d5eca9da3b80a4834da684b37971d224dec9ba8f4db59f97721ba069670b7c30"
+  },
+  "required_topics": [
+    {
+      "id": "d017",
+      "title": "First fundamental theorem of calculus: all original Lecture 19 material",
+      "source_portions": [
+        {
+          "source_id": "original-pdf",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "source-page-1",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "source-page-2",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "source-page-3",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "source-page-4",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "source-page-5",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "baseline",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "execution",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "domain",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "sasis",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "profile",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "reader-role",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "reader-contract",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "rewrite",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "state-tool",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "rationale",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "execution-research",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "definition-audit",
+          "portion_id": "all"
+        }
+      ],
+      "outputs": [
+        "lesson",
+        "sine-figure",
+        "additivity-figure"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "original-pdf",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/source/lec19.pdf",
+      "sha256": "f3bccf9b801aebb3266932eb8a549f700e5a38f26d377c85f6fd96ed9e7fb3b7",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Physical pages 1-5, including all three original figures",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "source-page-1",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/source/page-01.png",
+      "sha256": "ddc46ff0e93464f745fe702b373bc95b36e1785b2e0117426ddd5bf2f67d5cb2",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Complete physical page 1",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "source-page-2",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/source/page-02.png",
+      "sha256": "87bc4fa40f6b205691646110a1892f3dd2e2efa0786c6c2040e0514e6ba6b70d",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Complete physical page 2",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "source-page-3",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/source/page-03.png",
+      "sha256": "8fda11b555ecaee6617650b315c471c520f10741609a94463460aa0641823983",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Complete physical page 3",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "source-page-4",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/source/page-04.png",
+      "sha256": "27fcba204a5c4ec62646ee3d5e148aa4dbf48f8092d17008b9357485d7e7f4a8",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Complete physical page 4",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "source-page-5",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/source/page-05.png",
+      "sha256": "49278f45379a3629097a213f074f24ae9584782800ca0bd3050fdac3076fd444",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Complete physical page 5",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "baseline",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "LF lines 1-1377",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "execution",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/prof/references/execution-protocol.md",
+      "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domain",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/prof/references/domain-patterns.md",
+      "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sasis",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/prof/references/sasis.md",
+      "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/prof/references/sasis/profile-manifest.json",
+      "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reader-role",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/prof/references/sasis/student-role.txt",
+      "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reader-contract",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/prof/references/sasis/student-testing-contract.txt",
+      "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rewrite",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/prof/references/sasis/rewrite-guide.md",
+      "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-tool",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/prof/references/state-tool.md",
+      "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rationale",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/prof/references/findings-and-rationale.md",
+      "sha256": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "execution-research",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/prof/references/execution-research.md",
+      "sha256": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "definition-audit",
+      "path": "/workspace/scratch/f9c0b7fc7e76/prof-iteration/runs/y1-reader-20261008/iterations/017/published-r24-20261010/primary-definition-check.md",
+      "sha256": "41a0799cc6f1add662e057f12b82c89dfc30bec530e560d40f6ca6be800e44cb",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "Whole audit note; primary source section 2.1 printed pp9-10",
+          "disposition": "required",
+          "reason": "",
+          "evidence": [
+            {
+              "path": "coordinator-disposition.md",
+              "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+              "locator": {
+                "kind": "lines",
+                "start": 1,
+                "end": 21
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "id": "lesson",
+      "path": "generation/lesson.md",
+      "sha256": "adaf6fb78d72cfd02b9579dc821e2daa25f770cc05e8a6f99e73cb42c833d62d"
+    },
+    {
+      "id": "sine-figure",
+      "path": "generation/figures/sine-areas.png",
+      "sha256": "080ab6b7e608bf3d12ad24669de0ff33034fd048771666da93750bf99d46ac21"
+    },
+    {
+      "id": "additivity-figure",
+      "path": "generation/figures/additivity.png",
+      "sha256": "08c12fcee59c5dd761188918ae5fd20fcd7d2d4ae3d14b43a5d31b291b32e14f"
+    }
+  ],
+  "output_checks": [
+    {
+      "id": "coverage",
+      "description": "All required five-page source portions and three original figure contents are mapped and inspected.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "All required five-page source portions and three original figure contents are mapped and inspected.",
+      "evidence": [
+        {
+          "path": "independent-source-prof-audit.md",
+          "sha256": "04e70359c5bcd0df8449876029e085e54673d4eefa0b12b8ee35a1a0abfd8887",
+          "locator": {
+            "kind": "lines",
+            "start": 37,
+            "end": 55
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "a5799bc6d401cafeb7bbbc00c44aa0a321278f6d78836819d518a3ba1e9052f4"
+        },
+        {
+          "kind": "output",
+          "id": "additivity-figure",
+          "sha256": "08c12fcee59c5dd761188918ae5fd20fcd7d2d4ae3d14b43a5d31b291b32e14f"
+        },
+        {
+          "kind": "output",
+          "id": "lesson",
+          "sha256": "adaf6fb78d72cfd02b9579dc821e2daa25f770cc05e8a6f99e73cb42c833d62d"
+        },
+        {
+          "kind": "output",
+          "id": "sine-figure",
+          "sha256": "080ab6b7e608bf3d12ad24669de0ff33034fd048771666da93750bf99d46ac21"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "d5eca9da3b80a4834da684b37971d224dec9ba8f4db59f97721ba069670b7c30"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "8c157bc21ef93e2c162d2196136afbaa1009dd2e627fef3964dbccf537c8e319"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "definition-audit",
+          "sha256": "41a0799cc6f1add662e057f12b82c89dfc30bec530e560d40f6ca6be800e44cb"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "execution-research",
+          "sha256": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2"
+        },
+        {
+          "kind": "source",
+          "id": "original-pdf",
+          "sha256": "f3bccf9b801aebb3266932eb8a549f700e5a38f26d377c85f6fd96ed9e7fb3b7"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "rationale",
+          "sha256": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1",
+          "sha256": "ddc46ff0e93464f745fe702b373bc95b36e1785b2e0117426ddd5bf2f67d5cb2"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2",
+          "sha256": "87bc4fa40f6b205691646110a1892f3dd2e2efa0786c6c2040e0514e6ba6b70d"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3",
+          "sha256": "8fda11b555ecaee6617650b315c471c520f10741609a94463460aa0641823983"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4",
+          "sha256": "27fcba204a5c4ec62646ee3d5e148aa4dbf48f8092d17008b9357485d7e7f4a8"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5",
+          "sha256": "49278f45379a3629097a213f074f24ae9584782800ca0bd3050fdac3076fd444"
+        },
+        {
+          "kind": "source",
+          "id": "state-tool",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "2e486b1fd1c33d2f9b4072d92f6f5f86e3a88ba7b17841652148d5cc717fa348"
+        },
+        {
+          "kind": "source_scope",
+          "id": "definition-audit",
+          "sha256": "2b5004ddd12777a36b139f81df3baf3f8c56d795201d2b38af86c0b728a39919"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "12006a5ed70c4fd44f4a4ae505f74a154e25274675cb071a65f2d43f6c60c4ea"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "3f54329651234fbf2371df25632c9eb9833c70ce8803845e87a11323929c2fc4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution-research",
+          "sha256": "90c1b7abcf7fdbea3744aa73be2be163ccaf3daff166c5bff4c6181c8e8569f7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-pdf",
+          "sha256": "65c8de58128a778a7abd27b38bb304e501b7ece4d2fcec7c75ee6d073f1471e5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "677ac4f2ab7e99564ffd6558bfde3c4c00e4cb8b22100e1297c40fcbd70e8a43"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rationale",
+          "sha256": "b7ff871bbf9edddb25feb86bafcf65f3ea498bc41703f61eedc89a5b309c2250"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "d04b9544fdda676e8523335ee6ef3f8e0ea3310ba60fda87b97d5d6e73bbceb6"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "ab9e10194cb0c30217624149f4108e61697f3c2f969c7ddc2c5fd81885cf2125"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "96d7b350dad88f0350599e55d00e119696706a9313c2b4de3a658e7a230eac2c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "b3741cd6c2d5b773b2426e35ef430895f6400c249a4dd7b151ada0d627f09636"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1",
+          "sha256": "f76054fc57d69cd232874b413329e39b8a37ca794df70468c3b18091607f40df"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2",
+          "sha256": "f7eece1c2c0cac0921be3b407b61a561f202024f53923d9f7b6cbb2ee3d50f14"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3",
+          "sha256": "88395ac133ffd43d754e9dc1b01eabde7e73dedc4b8c94083c1aa9651bfcf547"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4",
+          "sha256": "b4a7e078c54d94830a943d6641051c721f8af1f3d0f759ecee3f5268e7d701fd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5",
+          "sha256": "cb28ca737eebbc4550fa036286c1de749ffc731b25736c9f7005997c53b211ab"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-tool",
+          "sha256": "b1b1b5934abc5c1c966fc6380cb958cf3701ecbe1fb489ef90ca01dfc5a613b8"
+        },
+        {
+          "kind": "topic",
+          "id": "d017",
+          "sha256": "d0a1c7ed40f25fe097ace8da0d3c0e652115a7c531fdbf0abf3b5257efae337a"
+        }
+      ]
+    },
+    {
+      "id": "final_review",
+      "description": "Complete full audit identifies T1-H1 and the remaining destination limit.",
+      "applicable": true,
+      "status": "fail",
+      "reason": "Complete full audit identifies T1-H1 and the remaining destination limit.",
+      "evidence": [
+        {
+          "path": "coordinator-disposition.md",
+          "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+          "locator": {
+            "kind": "lines",
+            "start": 21,
+            "end": 41
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "a5799bc6d401cafeb7bbbc00c44aa0a321278f6d78836819d518a3ba1e9052f4"
+        },
+        {
+          "kind": "output",
+          "id": "additivity-figure",
+          "sha256": "08c12fcee59c5dd761188918ae5fd20fcd7d2d4ae3d14b43a5d31b291b32e14f"
+        },
+        {
+          "kind": "output",
+          "id": "lesson",
+          "sha256": "adaf6fb78d72cfd02b9579dc821e2daa25f770cc05e8a6f99e73cb42c833d62d"
+        },
+        {
+          "kind": "output",
+          "id": "sine-figure",
+          "sha256": "080ab6b7e608bf3d12ad24669de0ff33034fd048771666da93750bf99d46ac21"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "d5eca9da3b80a4834da684b37971d224dec9ba8f4db59f97721ba069670b7c30"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "8c157bc21ef93e2c162d2196136afbaa1009dd2e627fef3964dbccf537c8e319"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "definition-audit",
+          "sha256": "41a0799cc6f1add662e057f12b82c89dfc30bec530e560d40f6ca6be800e44cb"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "execution-research",
+          "sha256": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2"
+        },
+        {
+          "kind": "source",
+          "id": "original-pdf",
+          "sha256": "f3bccf9b801aebb3266932eb8a549f700e5a38f26d377c85f6fd96ed9e7fb3b7"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "rationale",
+          "sha256": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1",
+          "sha256": "ddc46ff0e93464f745fe702b373bc95b36e1785b2e0117426ddd5bf2f67d5cb2"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2",
+          "sha256": "87bc4fa40f6b205691646110a1892f3dd2e2efa0786c6c2040e0514e6ba6b70d"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3",
+          "sha256": "8fda11b555ecaee6617650b315c471c520f10741609a94463460aa0641823983"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4",
+          "sha256": "27fcba204a5c4ec62646ee3d5e148aa4dbf48f8092d17008b9357485d7e7f4a8"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5",
+          "sha256": "49278f45379a3629097a213f074f24ae9584782800ca0bd3050fdac3076fd444"
+        },
+        {
+          "kind": "source",
+          "id": "state-tool",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "2e486b1fd1c33d2f9b4072d92f6f5f86e3a88ba7b17841652148d5cc717fa348"
+        },
+        {
+          "kind": "source_scope",
+          "id": "definition-audit",
+          "sha256": "2b5004ddd12777a36b139f81df3baf3f8c56d795201d2b38af86c0b728a39919"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "12006a5ed70c4fd44f4a4ae505f74a154e25274675cb071a65f2d43f6c60c4ea"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "3f54329651234fbf2371df25632c9eb9833c70ce8803845e87a11323929c2fc4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution-research",
+          "sha256": "90c1b7abcf7fdbea3744aa73be2be163ccaf3daff166c5bff4c6181c8e8569f7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-pdf",
+          "sha256": "65c8de58128a778a7abd27b38bb304e501b7ece4d2fcec7c75ee6d073f1471e5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "677ac4f2ab7e99564ffd6558bfde3c4c00e4cb8b22100e1297c40fcbd70e8a43"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rationale",
+          "sha256": "b7ff871bbf9edddb25feb86bafcf65f3ea498bc41703f61eedc89a5b309c2250"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "d04b9544fdda676e8523335ee6ef3f8e0ea3310ba60fda87b97d5d6e73bbceb6"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "ab9e10194cb0c30217624149f4108e61697f3c2f969c7ddc2c5fd81885cf2125"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "96d7b350dad88f0350599e55d00e119696706a9313c2b4de3a658e7a230eac2c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "b3741cd6c2d5b773b2426e35ef430895f6400c249a4dd7b151ada0d627f09636"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1",
+          "sha256": "f76054fc57d69cd232874b413329e39b8a37ca794df70468c3b18091607f40df"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2",
+          "sha256": "f7eece1c2c0cac0921be3b407b61a561f202024f53923d9f7b6cbb2ee3d50f14"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3",
+          "sha256": "88395ac133ffd43d754e9dc1b01eabde7e73dedc4b8c94083c1aa9651bfcf547"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4",
+          "sha256": "b4a7e078c54d94830a943d6641051c721f8af1f3d0f759ecee3f5268e7d701fd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5",
+          "sha256": "cb28ca737eebbc4550fa036286c1de749ffc731b25736c9f7005997c53b211ab"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-tool",
+          "sha256": "b1b1b5934abc5c1c966fc6380cb958cf3701ecbe1fb489ef90ca01dfc5a613b8"
+        },
+        {
+          "kind": "topic",
+          "id": "d017",
+          "sha256": "d0a1c7ed40f25fe097ace8da0d3c0e652115a7c531fdbf0abf3b5257efae337a"
+        }
+      ]
+    },
+    {
+      "id": "scientific",
+      "description": "Every source result and full answer independently checked; blind prompt checks separate from solution-aware recomputation.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Every source result and full answer independently checked; blind prompt checks separate from solution-aware recomputation.",
+      "evidence": [
+        {
+          "path": "root-mathematics-disposition.md",
+          "sha256": "401ad3f610f50d936ffe0c5207c6582b1091e4f147382ffba8cde1563addc174",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 15
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "a5799bc6d401cafeb7bbbc00c44aa0a321278f6d78836819d518a3ba1e9052f4"
+        },
+        {
+          "kind": "output",
+          "id": "additivity-figure",
+          "sha256": "08c12fcee59c5dd761188918ae5fd20fcd7d2d4ae3d14b43a5d31b291b32e14f"
+        },
+        {
+          "kind": "output",
+          "id": "lesson",
+          "sha256": "adaf6fb78d72cfd02b9579dc821e2daa25f770cc05e8a6f99e73cb42c833d62d"
+        },
+        {
+          "kind": "output",
+          "id": "sine-figure",
+          "sha256": "080ab6b7e608bf3d12ad24669de0ff33034fd048771666da93750bf99d46ac21"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "d5eca9da3b80a4834da684b37971d224dec9ba8f4db59f97721ba069670b7c30"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "8c157bc21ef93e2c162d2196136afbaa1009dd2e627fef3964dbccf537c8e319"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "definition-audit",
+          "sha256": "41a0799cc6f1add662e057f12b82c89dfc30bec530e560d40f6ca6be800e44cb"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "execution-research",
+          "sha256": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2"
+        },
+        {
+          "kind": "source",
+          "id": "original-pdf",
+          "sha256": "f3bccf9b801aebb3266932eb8a549f700e5a38f26d377c85f6fd96ed9e7fb3b7"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "rationale",
+          "sha256": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1",
+          "sha256": "ddc46ff0e93464f745fe702b373bc95b36e1785b2e0117426ddd5bf2f67d5cb2"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2",
+          "sha256": "87bc4fa40f6b205691646110a1892f3dd2e2efa0786c6c2040e0514e6ba6b70d"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3",
+          "sha256": "8fda11b555ecaee6617650b315c471c520f10741609a94463460aa0641823983"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4",
+          "sha256": "27fcba204a5c4ec62646ee3d5e148aa4dbf48f8092d17008b9357485d7e7f4a8"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5",
+          "sha256": "49278f45379a3629097a213f074f24ae9584782800ca0bd3050fdac3076fd444"
+        },
+        {
+          "kind": "source",
+          "id": "state-tool",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "2e486b1fd1c33d2f9b4072d92f6f5f86e3a88ba7b17841652148d5cc717fa348"
+        },
+        {
+          "kind": "source_scope",
+          "id": "definition-audit",
+          "sha256": "2b5004ddd12777a36b139f81df3baf3f8c56d795201d2b38af86c0b728a39919"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "12006a5ed70c4fd44f4a4ae505f74a154e25274675cb071a65f2d43f6c60c4ea"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "3f54329651234fbf2371df25632c9eb9833c70ce8803845e87a11323929c2fc4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution-research",
+          "sha256": "90c1b7abcf7fdbea3744aa73be2be163ccaf3daff166c5bff4c6181c8e8569f7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-pdf",
+          "sha256": "65c8de58128a778a7abd27b38bb304e501b7ece4d2fcec7c75ee6d073f1471e5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "677ac4f2ab7e99564ffd6558bfde3c4c00e4cb8b22100e1297c40fcbd70e8a43"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rationale",
+          "sha256": "b7ff871bbf9edddb25feb86bafcf65f3ea498bc41703f61eedc89a5b309c2250"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "d04b9544fdda676e8523335ee6ef3f8e0ea3310ba60fda87b97d5d6e73bbceb6"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "ab9e10194cb0c30217624149f4108e61697f3c2f969c7ddc2c5fd81885cf2125"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "96d7b350dad88f0350599e55d00e119696706a9313c2b4de3a658e7a230eac2c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "b3741cd6c2d5b773b2426e35ef430895f6400c249a4dd7b151ada0d627f09636"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1",
+          "sha256": "f76054fc57d69cd232874b413329e39b8a37ca794df70468c3b18091607f40df"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2",
+          "sha256": "f7eece1c2c0cac0921be3b407b61a561f202024f53923d9f7b6cbb2ee3d50f14"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3",
+          "sha256": "88395ac133ffd43d754e9dc1b01eabde7e73dedc4b8c94083c1aa9651bfcf547"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4",
+          "sha256": "b4a7e078c54d94830a943d6641051c721f8af1f3d0f759ecee3f5268e7d701fd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5",
+          "sha256": "cb28ca737eebbc4550fa036286c1de749ffc731b25736c9f7005997c53b211ab"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-tool",
+          "sha256": "b1b1b5934abc5c1c966fc6380cb958cf3701ecbe1fb489ef90ca01dfc5a613b8"
+        },
+        {
+          "kind": "topic",
+          "id": "d017",
+          "sha256": "d0a1c7ed40f25fe097ace8da0d3c0e652115a7c531fdbf0abf3b5257efae337a"
+        }
+      ]
+    },
+    {
+      "id": "fresh_reader",
+      "description": "Complete two-input admission and chronological full report verified; its verdict does not override specific contrary evidence.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Complete two-input admission and chronological full report verified; its verdict does not override specific contrary evidence.",
+      "evidence": [
+        {
+          "path": "coordinator-disposition.md",
+          "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+          "locator": {
+            "kind": "lines",
+            "start": 7,
+            "end": 11
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "a5799bc6d401cafeb7bbbc00c44aa0a321278f6d78836819d518a3ba1e9052f4"
+        },
+        {
+          "kind": "output",
+          "id": "additivity-figure",
+          "sha256": "08c12fcee59c5dd761188918ae5fd20fcd7d2d4ae3d14b43a5d31b291b32e14f"
+        },
+        {
+          "kind": "output",
+          "id": "lesson",
+          "sha256": "adaf6fb78d72cfd02b9579dc821e2daa25f770cc05e8a6f99e73cb42c833d62d"
+        },
+        {
+          "kind": "output",
+          "id": "sine-figure",
+          "sha256": "080ab6b7e608bf3d12ad24669de0ff33034fd048771666da93750bf99d46ac21"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "d5eca9da3b80a4834da684b37971d224dec9ba8f4db59f97721ba069670b7c30"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "8c157bc21ef93e2c162d2196136afbaa1009dd2e627fef3964dbccf537c8e319"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "definition-audit",
+          "sha256": "41a0799cc6f1add662e057f12b82c89dfc30bec530e560d40f6ca6be800e44cb"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "execution-research",
+          "sha256": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2"
+        },
+        {
+          "kind": "source",
+          "id": "original-pdf",
+          "sha256": "f3bccf9b801aebb3266932eb8a549f700e5a38f26d377c85f6fd96ed9e7fb3b7"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "rationale",
+          "sha256": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1",
+          "sha256": "ddc46ff0e93464f745fe702b373bc95b36e1785b2e0117426ddd5bf2f67d5cb2"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2",
+          "sha256": "87bc4fa40f6b205691646110a1892f3dd2e2efa0786c6c2040e0514e6ba6b70d"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3",
+          "sha256": "8fda11b555ecaee6617650b315c471c520f10741609a94463460aa0641823983"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4",
+          "sha256": "27fcba204a5c4ec62646ee3d5e148aa4dbf48f8092d17008b9357485d7e7f4a8"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5",
+          "sha256": "49278f45379a3629097a213f074f24ae9584782800ca0bd3050fdac3076fd444"
+        },
+        {
+          "kind": "source",
+          "id": "state-tool",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "2e486b1fd1c33d2f9b4072d92f6f5f86e3a88ba7b17841652148d5cc717fa348"
+        },
+        {
+          "kind": "source_scope",
+          "id": "definition-audit",
+          "sha256": "2b5004ddd12777a36b139f81df3baf3f8c56d795201d2b38af86c0b728a39919"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "12006a5ed70c4fd44f4a4ae505f74a154e25274675cb071a65f2d43f6c60c4ea"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "3f54329651234fbf2371df25632c9eb9833c70ce8803845e87a11323929c2fc4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution-research",
+          "sha256": "90c1b7abcf7fdbea3744aa73be2be163ccaf3daff166c5bff4c6181c8e8569f7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-pdf",
+          "sha256": "65c8de58128a778a7abd27b38bb304e501b7ece4d2fcec7c75ee6d073f1471e5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "677ac4f2ab7e99564ffd6558bfde3c4c00e4cb8b22100e1297c40fcbd70e8a43"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rationale",
+          "sha256": "b7ff871bbf9edddb25feb86bafcf65f3ea498bc41703f61eedc89a5b309c2250"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "d04b9544fdda676e8523335ee6ef3f8e0ea3310ba60fda87b97d5d6e73bbceb6"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "ab9e10194cb0c30217624149f4108e61697f3c2f969c7ddc2c5fd81885cf2125"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "96d7b350dad88f0350599e55d00e119696706a9313c2b4de3a658e7a230eac2c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "b3741cd6c2d5b773b2426e35ef430895f6400c249a4dd7b151ada0d627f09636"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1",
+          "sha256": "f76054fc57d69cd232874b413329e39b8a37ca794df70468c3b18091607f40df"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2",
+          "sha256": "f7eece1c2c0cac0921be3b407b61a561f202024f53923d9f7b6cbb2ee3d50f14"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3",
+          "sha256": "88395ac133ffd43d754e9dc1b01eabde7e73dedc4b8c94083c1aa9651bfcf547"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4",
+          "sha256": "b4a7e078c54d94830a943d6641051c721f8af1f3d0f759ecee3f5268e7d701fd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5",
+          "sha256": "cb28ca737eebbc4550fa036286c1de749ffc731b25736c9f7005997c53b211ab"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-tool",
+          "sha256": "b1b1b5934abc5c1c966fc6380cb958cf3701ecbe1fb489ef90ca01dfc5a613b8"
+        },
+        {
+          "kind": "topic",
+          "id": "d017",
+          "sha256": "d0a1c7ed40f25fe097ace8da0d3c0e652115a7c531fdbf0abf3b5257efae337a"
+        }
+      ]
+    },
+    {
+      "id": "github_api_parsing",
+      "description": "Exact 210 math payloads plus complete text, anchors and task/help routes checked in actual API response.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Exact 210 math payloads plus complete text, anchors and task/help routes checked in actual API response.",
+      "evidence": [
+        {
+          "path": "destination/api-format-audit.json",
+          "sha256": "376b280efc1ac7810eed5ef55f68ba2a4620f49ddb8f4224816b77c4f0624f2d",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 25
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "a5799bc6d401cafeb7bbbc00c44aa0a321278f6d78836819d518a3ba1e9052f4"
+        },
+        {
+          "kind": "output",
+          "id": "additivity-figure",
+          "sha256": "08c12fcee59c5dd761188918ae5fd20fcd7d2d4ae3d14b43a5d31b291b32e14f"
+        },
+        {
+          "kind": "output",
+          "id": "lesson",
+          "sha256": "adaf6fb78d72cfd02b9579dc821e2daa25f770cc05e8a6f99e73cb42c833d62d"
+        },
+        {
+          "kind": "output",
+          "id": "sine-figure",
+          "sha256": "080ab6b7e608bf3d12ad24669de0ff33034fd048771666da93750bf99d46ac21"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "d5eca9da3b80a4834da684b37971d224dec9ba8f4db59f97721ba069670b7c30"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "8c157bc21ef93e2c162d2196136afbaa1009dd2e627fef3964dbccf537c8e319"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "definition-audit",
+          "sha256": "41a0799cc6f1add662e057f12b82c89dfc30bec530e560d40f6ca6be800e44cb"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "execution-research",
+          "sha256": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2"
+        },
+        {
+          "kind": "source",
+          "id": "original-pdf",
+          "sha256": "f3bccf9b801aebb3266932eb8a549f700e5a38f26d377c85f6fd96ed9e7fb3b7"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "rationale",
+          "sha256": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1",
+          "sha256": "ddc46ff0e93464f745fe702b373bc95b36e1785b2e0117426ddd5bf2f67d5cb2"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2",
+          "sha256": "87bc4fa40f6b205691646110a1892f3dd2e2efa0786c6c2040e0514e6ba6b70d"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3",
+          "sha256": "8fda11b555ecaee6617650b315c471c520f10741609a94463460aa0641823983"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4",
+          "sha256": "27fcba204a5c4ec62646ee3d5e148aa4dbf48f8092d17008b9357485d7e7f4a8"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5",
+          "sha256": "49278f45379a3629097a213f074f24ae9584782800ca0bd3050fdac3076fd444"
+        },
+        {
+          "kind": "source",
+          "id": "state-tool",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "2e486b1fd1c33d2f9b4072d92f6f5f86e3a88ba7b17841652148d5cc717fa348"
+        },
+        {
+          "kind": "source_scope",
+          "id": "definition-audit",
+          "sha256": "2b5004ddd12777a36b139f81df3baf3f8c56d795201d2b38af86c0b728a39919"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "12006a5ed70c4fd44f4a4ae505f74a154e25274675cb071a65f2d43f6c60c4ea"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "3f54329651234fbf2371df25632c9eb9833c70ce8803845e87a11323929c2fc4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution-research",
+          "sha256": "90c1b7abcf7fdbea3744aa73be2be163ccaf3daff166c5bff4c6181c8e8569f7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-pdf",
+          "sha256": "65c8de58128a778a7abd27b38bb304e501b7ece4d2fcec7c75ee6d073f1471e5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "677ac4f2ab7e99564ffd6558bfde3c4c00e4cb8b22100e1297c40fcbd70e8a43"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rationale",
+          "sha256": "b7ff871bbf9edddb25feb86bafcf65f3ea498bc41703f61eedc89a5b309c2250"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "d04b9544fdda676e8523335ee6ef3f8e0ea3310ba60fda87b97d5d6e73bbceb6"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "ab9e10194cb0c30217624149f4108e61697f3c2f969c7ddc2c5fd81885cf2125"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "96d7b350dad88f0350599e55d00e119696706a9313c2b4de3a658e7a230eac2c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "b3741cd6c2d5b773b2426e35ef430895f6400c249a4dd7b151ada0d627f09636"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1",
+          "sha256": "f76054fc57d69cd232874b413329e39b8a37ca794df70468c3b18091607f40df"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2",
+          "sha256": "f7eece1c2c0cac0921be3b407b61a561f202024f53923d9f7b6cbb2ee3d50f14"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3",
+          "sha256": "88395ac133ffd43d754e9dc1b01eabde7e73dedc4b8c94083c1aa9651bfcf547"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4",
+          "sha256": "b4a7e078c54d94830a943d6641051c721f8af1f3d0f759ecee3f5268e7d701fd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5",
+          "sha256": "cb28ca737eebbc4550fa036286c1de749ffc731b25736c9f7005997c53b211ab"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-tool",
+          "sha256": "b1b1b5934abc5c1c966fc6380cb958cf3701ecbe1fb489ef90ca01dfc5a613b8"
+        },
+        {
+          "kind": "topic",
+          "id": "d017",
+          "sha256": "d0a1c7ed40f25fe097ace8da0d3c0e652115a7c531fdbf0abf3b5257efae337a"
+        }
+      ]
+    },
+    {
+      "id": "live_destination",
+      "description": "Actual rich-render blob page and live MathJax/CSS/links remain unobserved due 503; no invented cause.",
+      "applicable": true,
+      "status": "unverified",
+      "reason": "Actual rich-render blob page and live MathJax/CSS/links remain unobserved due 503; no invented cause.",
+      "evidence": [
+        {
+          "path": "coordinator-disposition.md",
+          "sha256": "048a49acee8a0a3a36a922573824e985949534ff4b54ed27b7c322196c16bf26",
+          "locator": {
+            "kind": "lines",
+            "start": 35,
+            "end": 35
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "a5799bc6d401cafeb7bbbc00c44aa0a321278f6d78836819d518a3ba1e9052f4"
+        },
+        {
+          "kind": "output",
+          "id": "additivity-figure",
+          "sha256": "08c12fcee59c5dd761188918ae5fd20fcd7d2d4ae3d14b43a5d31b291b32e14f"
+        },
+        {
+          "kind": "output",
+          "id": "lesson",
+          "sha256": "adaf6fb78d72cfd02b9579dc821e2daa25f770cc05e8a6f99e73cb42c833d62d"
+        },
+        {
+          "kind": "output",
+          "id": "sine-figure",
+          "sha256": "080ab6b7e608bf3d12ad24669de0ff33034fd048771666da93750bf99d46ac21"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "d5eca9da3b80a4834da684b37971d224dec9ba8f4db59f97721ba069670b7c30"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "8c157bc21ef93e2c162d2196136afbaa1009dd2e627fef3964dbccf537c8e319"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "definition-audit",
+          "sha256": "41a0799cc6f1add662e057f12b82c89dfc30bec530e560d40f6ca6be800e44cb"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "f63eda3d1e8dcfd1e802f909d47c4827e94c8bc0eff15552127027a29c5279a7"
+        },
+        {
+          "kind": "source",
+          "id": "execution-research",
+          "sha256": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2"
+        },
+        {
+          "kind": "source",
+          "id": "original-pdf",
+          "sha256": "f3bccf9b801aebb3266932eb8a549f700e5a38f26d377c85f6fd96ed9e7fb3b7"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "rationale",
+          "sha256": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-1",
+          "sha256": "ddc46ff0e93464f745fe702b373bc95b36e1785b2e0117426ddd5bf2f67d5cb2"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-2",
+          "sha256": "87bc4fa40f6b205691646110a1892f3dd2e2efa0786c6c2040e0514e6ba6b70d"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-3",
+          "sha256": "8fda11b555ecaee6617650b315c471c520f10741609a94463460aa0641823983"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-4",
+          "sha256": "27fcba204a5c4ec62646ee3d5e148aa4dbf48f8092d17008b9357485d7e7f4a8"
+        },
+        {
+          "kind": "source",
+          "id": "source-page-5",
+          "sha256": "49278f45379a3629097a213f074f24ae9584782800ca0bd3050fdac3076fd444"
+        },
+        {
+          "kind": "source",
+          "id": "state-tool",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "2e486b1fd1c33d2f9b4072d92f6f5f86e3a88ba7b17841652148d5cc717fa348"
+        },
+        {
+          "kind": "source_scope",
+          "id": "definition-audit",
+          "sha256": "2b5004ddd12777a36b139f81df3baf3f8c56d795201d2b38af86c0b728a39919"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "12006a5ed70c4fd44f4a4ae505f74a154e25274675cb071a65f2d43f6c60c4ea"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "3f54329651234fbf2371df25632c9eb9833c70ce8803845e87a11323929c2fc4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution-research",
+          "sha256": "90c1b7abcf7fdbea3744aa73be2be163ccaf3daff166c5bff4c6181c8e8569f7"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-pdf",
+          "sha256": "65c8de58128a778a7abd27b38bb304e501b7ece4d2fcec7c75ee6d073f1471e5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "677ac4f2ab7e99564ffd6558bfde3c4c00e4cb8b22100e1297c40fcbd70e8a43"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rationale",
+          "sha256": "b7ff871bbf9edddb25feb86bafcf65f3ea498bc41703f61eedc89a5b309c2250"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "d04b9544fdda676e8523335ee6ef3f8e0ea3310ba60fda87b97d5d6e73bbceb6"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "ab9e10194cb0c30217624149f4108e61697f3c2f969c7ddc2c5fd81885cf2125"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "96d7b350dad88f0350599e55d00e119696706a9313c2b4de3a658e7a230eac2c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "b3741cd6c2d5b773b2426e35ef430895f6400c249a4dd7b151ada0d627f09636"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-1",
+          "sha256": "f76054fc57d69cd232874b413329e39b8a37ca794df70468c3b18091607f40df"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-2",
+          "sha256": "f7eece1c2c0cac0921be3b407b61a561f202024f53923d9f7b6cbb2ee3d50f14"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-3",
+          "sha256": "88395ac133ffd43d754e9dc1b01eabde7e73dedc4b8c94083c1aa9651bfcf547"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-4",
+          "sha256": "b4a7e078c54d94830a943d6641051c721f8af1f3d0f759ecee3f5268e7d701fd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "source-page-5",
+          "sha256": "cb28ca737eebbc4550fa036286c1de749ffc731b25736c9f7005997c53b211ab"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-tool",
+          "sha256": "b1b1b5934abc5c1c966fc6380cb958cf3701ecbe1fb489ef90ca01dfc5a613b8"
+        },
+        {
+          "kind": "topic",
+          "id": "d017",
+          "sha256": "d0a1c7ed40f25fe097ace8da0d3c0e652115a7c531fdbf0abf3b5257efae337a"
+        }
+      ]
+    }
+  ]
+}

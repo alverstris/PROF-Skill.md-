@@ -1,0 +1,307 @@
+{
+  "review": "Original SASIS review of D017 frozen published r24",
+  "review_date_utc": "2026-10-10",
+  "report_path": "/workspace/scratch/f9c0b7fc7e76/prof-iteration/runs/y1-reader-20261008/iterations/017/published-r24-20261010/sasis-original-report.md",
+  "admission_status": "complete_inputs_admitted",
+  "original_report_prepared_before_author_feedback": true,
+  "containment": {
+    "mode": "instruction-confined read-only retrieval with explicitly authorised report output writing",
+    "technical_isolation": false,
+    "shared_tools_technically_available": true,
+    "subject_inputs_used": [
+      "complete operational four-subject baseline",
+      "complete frozen teaching document including two figures and all prompts, hints and solutions"
+    ],
+    "browsing_used": false,
+    "other_file_search_or_read_used": false,
+    "personal_context_retrieval_used": false,
+    "other_agent_messaging_used": false,
+    "claim_of_erased_pretraining_or_unavailable_memory_controls": false
+  },
+  "hash_verification": {
+    "method": "sha256sum on only the four exact authorised input files",
+    "tool_output_chunk_id": "4f79d9",
+    "all_expected_hashes_matched": true,
+    "separate_from_full_read_access": true
+  },
+  "baseline": {
+    "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+    "sha256_expected": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+    "sha256_observed": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+    "lf_line_count_supplied": 1377,
+    "complete_lf_range_read": [
+      1,
+      1377
+    ],
+    "subjects": [
+      "OCR A Mathematics H240",
+      "OCR A Further Mathematics H245 Pure Core Y540/Y541; Statistics Y542; Mechanics Y543",
+      "OCR A Physics H556",
+      "OCR A Chemistry H432"
+    ],
+    "line_numbering": "nl -ba piped to sequential sed -n physical-line ranges; extra carriage returns retained rather than used as delimiters",
+    "reads_in_order": [
+      {
+        "start_lf_line": 1,
+        "end_lf_line": 130,
+        "tool_output_chunk_id": "343e6f",
+        "reported_original_token_count": 5066,
+        "requested_max_output_tokens": 18000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      },
+      {
+        "start_lf_line": 131,
+        "end_lf_line": 260,
+        "tool_output_chunk_id": "847da7",
+        "reported_original_token_count": 3878,
+        "requested_max_output_tokens": 18000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      },
+      {
+        "start_lf_line": 261,
+        "end_lf_line": 410,
+        "tool_output_chunk_id": "5331ff",
+        "reported_original_token_count": 7934,
+        "requested_max_output_tokens": 18000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      },
+      {
+        "start_lf_line": 411,
+        "end_lf_line": 560,
+        "tool_output_chunk_id": "e23df0",
+        "reported_original_token_count": 8888,
+        "requested_max_output_tokens": 20000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      },
+      {
+        "start_lf_line": 561,
+        "end_lf_line": 710,
+        "tool_output_chunk_id": "ed3290",
+        "reported_original_token_count": 8547,
+        "requested_max_output_tokens": 18000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      },
+      {
+        "start_lf_line": 711,
+        "end_lf_line": 860,
+        "tool_output_chunk_id": "eb720c",
+        "reported_original_token_count": 7344,
+        "requested_max_output_tokens": 18000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      },
+      {
+        "start_lf_line": 861,
+        "end_lf_line": 1010,
+        "tool_output_chunk_id": "1c03c9",
+        "reported_original_token_count": 5837,
+        "requested_max_output_tokens": 18000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      },
+      {
+        "start_lf_line": 1011,
+        "end_lf_line": 1160,
+        "tool_output_chunk_id": "2507cb",
+        "reported_original_token_count": 6355,
+        "requested_max_output_tokens": 18000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      },
+      {
+        "start_lf_line": 1161,
+        "end_lf_line": 1300,
+        "tool_output_chunk_id": "92d547",
+        "reported_original_token_count": 6116,
+        "requested_max_output_tokens": 18000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      },
+      {
+        "start_lf_line": 1301,
+        "end_lf_line": 1377,
+        "tool_output_chunk_id": "11688d",
+        "reported_original_token_count": 4408,
+        "requested_max_output_tokens": 16000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      }
+    ],
+    "all_read_before_lesson_review": true,
+    "access_failures": []
+  },
+  "teaching_document": {
+    "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/output/lesson.md",
+    "sha256_expected": "adaf6fb78d72cfd02b9579dc821e2daa25f770cc05e8a6f99e73cb42c833d62d",
+    "sha256_observed": "adaf6fb78d72cfd02b9579dc821e2daa25f770cc05e8a6f99e73cb42c833d62d",
+    "lf_line_count_supplied": 352,
+    "complete_lf_range_read": [
+      1,
+      352
+    ],
+    "line_numbering": "nl -ba and sed for fixed LF ranges; sequential awk output stopping at the image-reference line for ranges 46-69 and 70-108",
+    "reads_in_order": [
+      {
+        "start_lf_line": 1,
+        "end_lf_line": 45,
+        "tool_output_chunk_id": "e6f96f",
+        "reported_original_token_count": 769,
+        "requested_max_output_tokens": 10000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      },
+      {
+        "start_lf_line": 46,
+        "end_lf_line": 69,
+        "tool_output_chunk_id": "1b3141",
+        "reported_original_token_count": 318,
+        "requested_max_output_tokens": 12000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      },
+      {
+        "start_lf_line": 70,
+        "end_lf_line": 108,
+        "tool_output_chunk_id": "73799e",
+        "reported_original_token_count": 744,
+        "requested_max_output_tokens": 14000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      },
+      {
+        "start_lf_line": 109,
+        "end_lf_line": 160,
+        "tool_output_chunk_id": "0cf4ab",
+        "reported_original_token_count": 833,
+        "requested_max_output_tokens": 12000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      },
+      {
+        "start_lf_line": 161,
+        "end_lf_line": 224,
+        "tool_output_chunk_id": "56664c",
+        "reported_original_token_count": 921,
+        "requested_max_output_tokens": 14000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      },
+      {
+        "start_lf_line": 225,
+        "end_lf_line": 269,
+        "tool_output_chunk_id": "503268",
+        "reported_original_token_count": 1074,
+        "requested_max_output_tokens": 12000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      },
+      {
+        "start_lf_line": 270,
+        "end_lf_line": 352,
+        "tool_output_chunk_id": "c8d7d6",
+        "reported_original_token_count": 1308,
+        "requested_max_output_tokens": 16000,
+        "complete": true,
+        "truncated": false,
+        "exit_code": 0
+      }
+    ],
+    "figures": [
+      {
+        "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/output/figures/sine-areas.png",
+        "sha256_expected": "080ab6b7e608bf3d12ad24669de0ff33034fd048771666da93750bf99d46ac21",
+        "sha256_observed": "080ab6b7e608bf3d12ad24669de0ff33034fd048771666da93750bf99d46ac21",
+        "first_appearance_lf_line": 69,
+        "inspection_method": "view_image",
+        "inspected_after_reading_through_line": 69,
+        "inspected_before_reading_from_line": 70,
+        "complete_image_readable": true,
+        "observed_content": "Two complete sine panels, axes and ticks, positive first hump, positive and negative full-period humps, and geometric area 2 labels in each hump",
+        "access_failures": []
+      },
+      {
+        "path": "/workspace/scratch/f9c0b7fc7e76/d017-published-r24/output/figures/additivity.png",
+        "sha256_expected": "08c12fcee59c5dd761188918ae5fd20fcd7d2d4ae3d14b43a5d31b291b32e14f",
+        "sha256_observed": "08c12fcee59c5dd761188918ae5fd20fcd7d2d4ae3d14b43a5d31b291b32e14f",
+        "first_appearance_lf_line": 108,
+        "inspection_method": "view_image",
+        "inspected_after_reading_through_line": 108,
+        "inspected_before_reading_from_line": 109,
+        "complete_image_readable": true,
+        "observed_content": "Complete positive-curve schematic with x and f(x) axes, a/b/c interval markers, adjacent blue and orange regions, first and second contribution labels",
+        "access_failures": []
+      }
+    ],
+    "help_read_at_actual_positions": true,
+    "hints_lf_range": [
+      239,
+      269
+    ],
+    "solutions_lf_range": [
+      271,
+      352
+    ],
+    "all_six_prompts_reviewed_at_positions": [
+      55,
+      95,
+      138,
+      173,
+      225,
+      231
+    ],
+    "all_substantive_sections_covered_in_report": true,
+    "access_failures": []
+  },
+  "access_sequence": [
+    "Hash all four exact input constituents",
+    "Baseline LF 1-130",
+    "Baseline LF 131-260",
+    "Baseline LF 261-410",
+    "Baseline LF 411-560",
+    "Baseline LF 561-710",
+    "Baseline LF 711-860",
+    "Baseline LF 861-1010",
+    "Baseline LF 1011-1160",
+    "Baseline LF 1161-1300",
+    "Baseline LF 1301-1377",
+    "Lesson LF 1-45",
+    "Lesson LF 46-69",
+    "Inspect sine-areas.png at first appearance",
+    "Lesson LF 70-108",
+    "Inspect additivity.png at first appearance",
+    "Lesson LF 109-160",
+    "Lesson LF 161-224",
+    "Lesson LF 225-269 including all hints",
+    "Lesson LF 270-352 including all solutions",
+    "Write original report and this access log to the two authorised output paths"
+  ],
+  "findings": {
+    "established_defects": [],
+    "provisional_subject_content_concerns": [],
+    "required_input_limits": [],
+    "blocked_downstream_conclusions": [],
+    "unresolved_course_conventions": [],
+    "boundary": "External MIT source fidelity and provenance assertions not independently checked; no claim of measured human learning, retention or exhaustive latent-error discovery."
+  }
+}

@@ -1,3 +1,9 @@
+## 2026-10-10 — PROF r25 / D017 audit and D016 reopening
+
+Strengthened the existing T1 condition-meaning and reconstruction requirements after independently verified omissions in frozen D017 and historical D016. No teaching was edited. Full original D017 reader/source/science/PROF/output evidence and scoped D001–D016 checks are retained under iterations/017/published-r24-20261010/. D016 reopens only its affected T1 acceptance obligation; D017 remains pending. Current accepted counts are 15/76 with 61 remaining; all 147 IDs and 71 exclusions are unchanged. Next fresh generation starts at D016 using verified published r25. Live GitHub destination remains unverified in this cycle; no renderer cause was invented.
+
+Earlier entries retain their historical counts.
+
 ## 2026-10-09 — PROF r23 / D016
 
 Added evidence-backed safe comparison syntax for GitHub protected inline math. Fresh generation, complete fresh SASIS, source/science/author/destination/final-document checks and all 15 affected earlier cases accepted. A separate local display-delimiter repair preserved learner TeX and required fresh complete checks. D016 closed; 16/76 eligible iterations complete. Release and limitations: `iterations/016/closure.md`.

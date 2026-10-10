@@ -2,7 +2,7 @@
 name: prof
 description: "Write, revise, extend, or continue teaching documents, study notes, worked solutions, research primers, and programming or language tutorials using Jonathan's evidence-informed requirements. Apply the source research, prerequisite, explanation, practice, and verification workflow to every topic, with durable recovery for long projects. Default to an Overleaf-ready LaTeX project and compiled PDF. Use whenever explicitly invoked; otherwise applies to teaching-document authoring rather than every short subject answer. Explicit PROF self-iteration uses SASIS; ordinary teaching-document work does not invoke that scheme."
 metadata:
-  version: "2026-10-10-r24"
+  version: "2026-10-10-r25"
 ---
 
 # PROF
@@ -71,7 +71,7 @@ Allowed statuses: pending, pass, fail, unverified, not_applicable, waived_by_use
 
 | ID | Trigger and acceptance condition |
 | --- | --- |
-| T1 Meaning and first use | Every consequential new concept has its purpose, meaning, relevant conditions, and a usable example or construction before dependent reasoning. A technical synonym is insufficient. State only prerequisites needed for the next coherent task; essential premises cannot be hidden in optional reading. |
+| T1 Meaning and first use | Every consequential new concept has its purpose, meaning, relevant conditions, and a usable example or construction before dependent reasoning. For a new technical condition in a consequential hypothesis, identify the object it constrains and give a usable way to recognise or check it. Familiar component words or a technical synonym do not establish its meaning. State only prerequisites needed for the next coherent task; essential premises cannot be hidden in optional reading. |
 | T2 Representation | For each structurally unfamiliar form, teach its meaningful parts, object roles/types, grouping, and relevant composition rules before reliance. Demonstrate reading it to infer meaning/behaviour and building it from intended meaning/behaviour. Map any expanded form back to the exact original and verify equivalence. Explain relevant units, shape, indices, ordering, basis/frame, domains, or time of evaluation; include only features the operation needs. A glossary or narrated output alone fails. |
 | T3 Legitimacy and derivation | Every consequential transition identifies what licenses it: definition, assumption, law, deduction, approximation, convention, documented API contract, or author choice. Expose newly used substitutions, identities, representation changes, and conversion coefficients. Bound "must" to its actual conditions and show the consequence of a relevant alternative. If a simpler alternative works, say so. Routine established algebra may be compressed. |
 | T4 Connected worked reasoning | Every newly taught procedure or reasoning capability has a representative worked case with the consequential decisions and interpreted result. Keep connected steps together. Split independent untaught demands at prerequisite boundaries, then reconnect them. Keep the first case causally clean; justify or defer optional mechanisms and unused parameters. Do not prescribe a fixed section template. |

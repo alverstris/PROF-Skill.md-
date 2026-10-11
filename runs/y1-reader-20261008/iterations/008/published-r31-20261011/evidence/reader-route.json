@@ -1,0 +1,468 @@
+{
+  "range_convention": "Zero-based bytes, end exclusive. Teaching also lists LF lines 1-based inclusive; all teaching uses LF only. Baseline byte ranges preserve embedded CR CR LF exactly. Retrieve ONLY next listed slice, log before advance, inspect figure exactly where scheduled. Do not batch across entries. Complete baseline first then full teaching in this route, then report. Subject-free routing metadata.",
+  "baseline": {
+    "path": "inputs/student-baseline.txt",
+    "absolute_path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/inputs/student-baseline.txt",
+    "bytes": 247840,
+    "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+    "git_blob": "edc601f173faf6a703545d8c4e41f217d5bbce79"
+  },
+  "baseline_ranges": [
+    {
+      "start_byte": 0,
+      "end_byte_exclusive": 15243
+    },
+    {
+      "start_byte": 15243,
+      "end_byte_exclusive": 30353
+    },
+    {
+      "start_byte": 30353,
+      "end_byte_exclusive": 46307
+    },
+    {
+      "start_byte": 46307,
+      "end_byte_exclusive": 61403
+    },
+    {
+      "start_byte": 61403,
+      "end_byte_exclusive": 76409
+    },
+    {
+      "start_byte": 76409,
+      "end_byte_exclusive": 91469
+    },
+    {
+      "start_byte": 91469,
+      "end_byte_exclusive": 106858
+    },
+    {
+      "start_byte": 106858,
+      "end_byte_exclusive": 121934
+    },
+    {
+      "start_byte": 121934,
+      "end_byte_exclusive": 137074
+    },
+    {
+      "start_byte": 137074,
+      "end_byte_exclusive": 152334
+    },
+    {
+      "start_byte": 152334,
+      "end_byte_exclusive": 167581
+    },
+    {
+      "start_byte": 167581,
+      "end_byte_exclusive": 182862
+    },
+    {
+      "start_byte": 182862,
+      "end_byte_exclusive": 198732
+    },
+    {
+      "start_byte": 198732,
+      "end_byte_exclusive": 214097
+    },
+    {
+      "start_byte": 214097,
+      "end_byte_exclusive": 229236
+    },
+    {
+      "start_byte": 229236,
+      "end_byte_exclusive": 244375
+    },
+    {
+      "start_byte": 244375,
+      "end_byte_exclusive": 247840
+    }
+  ],
+  "teaching_manifest": [
+    {
+      "path": "teaching/README.md",
+      "absolute_path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "bytes": 25716,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f",
+      "git_blob": "dd4faccfb498372c63a2c6bf8b2562c6130d05de"
+    },
+    {
+      "path": "teaching/hints.md",
+      "absolute_path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/hints.md",
+      "bytes": 3119,
+      "sha256": "a49e83e0ecc8df8cd3f4cd17ebd682ed09499b6397670db192829c5d4d556525",
+      "git_blob": "c74c70f97a894776031f205186be2c5203ee1579"
+    },
+    {
+      "path": "teaching/solutions.md",
+      "absolute_path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/solutions.md",
+      "bytes": 7918,
+      "sha256": "005b8969e89493a1ed5ef6b4dfba16068e40b73dfc37adb19e5dc78e175a004e",
+      "git_blob": "898b4905b19bc11dbbc3426a047aa41e96bc79fa"
+    },
+    {
+      "path": "teaching/figures/tangent.png",
+      "absolute_path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/figures/tangent.png",
+      "bytes": 66905,
+      "sha256": "139a6b671403fbc639cd8acefbeec115c547e07570cbb81c9a63eda05a491e0f",
+      "git_blob": "0add507d39ca94b74d5559de2775efebcc398c41"
+    },
+    {
+      "path": "teaching/figures/basic-tangents.png",
+      "absolute_path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/figures/basic-tangents.png",
+      "bytes": 85839,
+      "sha256": "77a3377f0c043a1cc0e9dcedb74eddd1af080b4610cf754dfb804a68c9328f39",
+      "git_blob": "76eb77b9f0e53f62dc077c720ceae9168e8e06ed"
+    },
+    {
+      "path": "teaching/figures/cosine-quadratic.png",
+      "absolute_path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/figures/cosine-quadratic.png",
+      "bytes": 70342,
+      "sha256": "5f90cbd8a07f95035919f5e740a3a7b52e8dacde8efcc0be8a87b8dbe3f6b12e",
+      "git_blob": "67d6fedd4f82331e07d7f874f7956f3f46e350b0"
+    },
+    {
+      "path": "teaching/figures/clock-model.png",
+      "absolute_path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/figures/clock-model.png",
+      "bytes": 45667,
+      "sha256": "0688c1914c407cfa7f4c769a4436e9f58615ca385c41783c265490b8a8d61342",
+      "git_blob": "d7d8c6880589e28154ce0d0b651219f05707f39b"
+    }
+  ],
+  "ordered_teaching_route": [
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 0,
+      "end_byte_exclusive": 3357,
+      "lf_line_start": 1,
+      "lf_line_end": 42,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 3357,
+      "end_byte_exclusive": 3430,
+      "lf_line_start": 43,
+      "lf_line_end": 43,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "figure",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/figures/tangent.png",
+      "sha256": "139a6b671403fbc639cd8acefbeec115c547e07570cbb81c9a63eda05a491e0f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 3430,
+      "end_byte_exclusive": 3840,
+      "lf_line_start": 44,
+      "lf_line_end": 46,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 3840,
+      "end_byte_exclusive": 4199,
+      "lf_line_start": 47,
+      "lf_line_end": 49,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 4199,
+      "end_byte_exclusive": 5927,
+      "lf_line_start": 50,
+      "lf_line_end": 75,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 5927,
+      "end_byte_exclusive": 6028,
+      "lf_line_start": 76,
+      "lf_line_end": 76,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "figure",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/figures/basic-tangents.png",
+      "sha256": "77a3377f0c043a1cc0e9dcedb74eddd1af080b4610cf754dfb804a68c9328f39"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 6028,
+      "end_byte_exclusive": 8812,
+      "lf_line_start": 77,
+      "lf_line_end": 120,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 8812,
+      "end_byte_exclusive": 9389,
+      "lf_line_start": 121,
+      "lf_line_end": 123,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 9389,
+      "end_byte_exclusive": 13867,
+      "lf_line_start": 124,
+      "lf_line_end": 200,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 13867,
+      "end_byte_exclusive": 13973,
+      "lf_line_start": 201,
+      "lf_line_end": 201,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "figure",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/figures/cosine-quadratic.png",
+      "sha256": "5f90cbd8a07f95035919f5e740a3a7b52e8dacde8efcc0be8a87b8dbe3f6b12e"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 13973,
+      "end_byte_exclusive": 15577,
+      "lf_line_start": 202,
+      "lf_line_end": 228,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 15577,
+      "end_byte_exclusive": 16122,
+      "lf_line_start": 229,
+      "lf_line_end": 231,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 16122,
+      "end_byte_exclusive": 16213,
+      "lf_line_start": 232,
+      "lf_line_end": 234,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 16213,
+      "end_byte_exclusive": 16595,
+      "lf_line_start": 235,
+      "lf_line_end": 237,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 16595,
+      "end_byte_exclusive": 17739,
+      "lf_line_start": 238,
+      "lf_line_end": 253,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 17739,
+      "end_byte_exclusive": 17846,
+      "lf_line_start": 254,
+      "lf_line_end": 254,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "figure",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/figures/clock-model.png",
+      "sha256": "0688c1914c407cfa7f4c769a4436e9f58615ca385c41783c265490b8a8d61342"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 17846,
+      "end_byte_exclusive": 20704,
+      "lf_line_start": 255,
+      "lf_line_end": 293,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 20704,
+      "end_byte_exclusive": 21501,
+      "lf_line_start": 294,
+      "lf_line_end": 296,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 21501,
+      "end_byte_exclusive": 24166,
+      "lf_line_start": 297,
+      "lf_line_end": 335,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 24166,
+      "end_byte_exclusive": 24711,
+      "lf_line_start": 336,
+      "lf_line_end": 338,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/README.md",
+      "start_byte": 24711,
+      "end_byte_exclusive": 25716,
+      "lf_line_start": 339,
+      "lf_line_end": 346,
+      "sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/hints.md",
+      "start_byte": 0,
+      "end_byte_exclusive": 331,
+      "lf_line_start": 1,
+      "lf_line_end": 6,
+      "sha256": "a49e83e0ecc8df8cd3f4cd17ebd682ed09499b6397670db192829c5d4d556525"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/hints.md",
+      "start_byte": 331,
+      "end_byte_exclusive": 743,
+      "lf_line_start": 7,
+      "lf_line_end": 14,
+      "sha256": "a49e83e0ecc8df8cd3f4cd17ebd682ed09499b6397670db192829c5d4d556525"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/hints.md",
+      "start_byte": 743,
+      "end_byte_exclusive": 1187,
+      "lf_line_start": 15,
+      "lf_line_end": 22,
+      "sha256": "a49e83e0ecc8df8cd3f4cd17ebd682ed09499b6397670db192829c5d4d556525"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/hints.md",
+      "start_byte": 1187,
+      "end_byte_exclusive": 1628,
+      "lf_line_start": 23,
+      "lf_line_end": 30,
+      "sha256": "a49e83e0ecc8df8cd3f4cd17ebd682ed09499b6397670db192829c5d4d556525"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/hints.md",
+      "start_byte": 1628,
+      "end_byte_exclusive": 2017,
+      "lf_line_start": 31,
+      "lf_line_end": 38,
+      "sha256": "a49e83e0ecc8df8cd3f4cd17ebd682ed09499b6397670db192829c5d4d556525"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/hints.md",
+      "start_byte": 2017,
+      "end_byte_exclusive": 2486,
+      "lf_line_start": 39,
+      "lf_line_end": 46,
+      "sha256": "a49e83e0ecc8df8cd3f4cd17ebd682ed09499b6397670db192829c5d4d556525"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/hints.md",
+      "start_byte": 2486,
+      "end_byte_exclusive": 3119,
+      "lf_line_start": 47,
+      "lf_line_end": 55,
+      "sha256": "a49e83e0ecc8df8cd3f4cd17ebd682ed09499b6397670db192829c5d4d556525"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/solutions.md",
+      "start_byte": 0,
+      "end_byte_exclusive": 322,
+      "lf_line_start": 1,
+      "lf_line_end": 6,
+      "sha256": "005b8969e89493a1ed5ef6b4dfba16068e40b73dfc37adb19e5dc78e175a004e"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/solutions.md",
+      "start_byte": 322,
+      "end_byte_exclusive": 1093,
+      "lf_line_start": 7,
+      "lf_line_end": 26,
+      "sha256": "005b8969e89493a1ed5ef6b4dfba16068e40b73dfc37adb19e5dc78e175a004e"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/solutions.md",
+      "start_byte": 1093,
+      "end_byte_exclusive": 2489,
+      "lf_line_start": 27,
+      "lf_line_end": 51,
+      "sha256": "005b8969e89493a1ed5ef6b4dfba16068e40b73dfc37adb19e5dc78e175a004e"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/solutions.md",
+      "start_byte": 2489,
+      "end_byte_exclusive": 3840,
+      "lf_line_start": 52,
+      "lf_line_end": 85,
+      "sha256": "005b8969e89493a1ed5ef6b4dfba16068e40b73dfc37adb19e5dc78e175a004e"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/solutions.md",
+      "start_byte": 3840,
+      "end_byte_exclusive": 4764,
+      "lf_line_start": 86,
+      "lf_line_end": 107,
+      "sha256": "005b8969e89493a1ed5ef6b4dfba16068e40b73dfc37adb19e5dc78e175a004e"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/solutions.md",
+      "start_byte": 4764,
+      "end_byte_exclusive": 6200,
+      "lf_line_start": 108,
+      "lf_line_end": 146,
+      "sha256": "005b8969e89493a1ed5ef6b4dfba16068e40b73dfc37adb19e5dc78e175a004e"
+    },
+    {
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r31-20261011/teaching/solutions.md",
+      "start_byte": 6200,
+      "end_byte_exclusive": 7918,
+      "lf_line_start": 147,
+      "lf_line_end": 178,
+      "sha256": "005b8969e89493a1ed5ef6b4dfba16068e40b73dfc37adb19e5dc78e175a004e"
+    }
+  ]
+}

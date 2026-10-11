@@ -1,0 +1,68 @@
+{
+  "role": "fresh D017 author/coordinator",
+  "whitelist": "original source packet, complete baseline; no previous output or diagnosis read",
+  "baseline": {
+    "path": "inputs/student-baseline.txt",
+    "bytes": 247840,
+    "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+    "read_physical_line_ranges": [
+      [
+        1,
+        120
+      ],
+      [
+        121,
+        240
+      ],
+      [
+        241,
+        400
+      ],
+      [
+        401,
+        550
+      ],
+      [
+        551,
+        700
+      ],
+      [
+        701,
+        850
+      ],
+      [
+        851,
+        1000
+      ],
+      [
+        1001,
+        1150
+      ],
+      [
+        1151,
+        1280
+      ],
+      [
+        1281,
+        1377
+      ]
+    ],
+    "truncated_outputs": [],
+    "coverage": "complete 1-1377 inclusive"
+  },
+  "source": {
+    "pdf_sha256": "f3bccf9b801aebb3266932eb8a549f700e5a38f26d377c85f6fd96ed9e7fb3b7",
+    "pdf_pages": 5,
+    "extracted_text_read": "page-01.txt through page-05.txt",
+    "page_images_visually_inspected": [
+      "page-01.png",
+      "page-02.png",
+      "page-03.png",
+      "page-04.png",
+      "page-05.png"
+    ],
+    "content": "cover; FTC1 and power/sine evaluations; rate interpretation and signed area; additivity and reversed limits; exponential bounds and substitution"
+  },
+  "authoring_started": false,
+  "awaiting": "published r27 commit and manifest"
+}

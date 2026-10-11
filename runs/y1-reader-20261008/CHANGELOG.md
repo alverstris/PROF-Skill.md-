@@ -1,3 +1,13 @@
+2026-10-11 — PROF r31 repair verified; D008 remains active
+
+D008 r30 complete teaching is preserved at 663311ba27f25206ed868ce9bbfd016447528ef3. Whole source, prompt-first technical, original and replacement SASIS, actual GitHub math/prose/visual/navigation and affected-earlier audits are complete. Content checks found no material subject defect; actual same-fragment sibling help navigation and initial reader order conformance failed. Original reports, all three archive ZIPs and bounded remedy probes remain unchanged.
+
+Complete PROF 2026-10-11-r31 and evidence were published at 7cf8e4745680b2042efae1db73cb2e33665549c9. Coordinator and root independently fetched all 105 intended paths and verified exact bytes, including all 36 package files. Six files change only general navigation/routing/admission procedures and matching revision metadata; other30 and full baseline are unchanged. The helper honestly reports NOT_READY for T11 and destination/final navigation gates. Publication is not D008 acceptance.
+
+Counts remain 14 accepted, 62 remaining, 76 eligible, 71 excluded; all147 original IDs/order retained. D008 remains open; D013 is next after D008 acceptance. Start complete fresh D008 under actual verified published r31 with only operational handover, original seven-page source and full baseline. Root owns browser QA; fresh technical reviewer is /root/technical_d008_r31_prepared. No installed-skill, user-computer, automation or duplicate Library changes.
+
+Earlier records follow unchanged.
+
 2026-10-11 — D007 reaccepted; metadata-only PROF 2026-10-11-r30
 
 The unchanged complete teaching is frozen at 4765d39aa399a0a1ff09223cae21b15ce6c7f720. All whole-source, blind-prompt technical, complete-input SASIS and actual GitHub checks pass within their stated boundaries. The minor caption referent and readable annotation overlap remain recorded; initial GitHub page-loading errors recovered and ordinary retests succeeded. No material defect or behavioral repair is invented.

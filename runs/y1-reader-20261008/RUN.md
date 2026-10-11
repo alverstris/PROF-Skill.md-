@@ -1,3 +1,13 @@
+2026-10-11 — PROF r31 repair verified; D008 remains active
+
+D008 r30 complete teaching is preserved at 663311ba27f25206ed868ce9bbfd016447528ef3. Whole source, prompt-first technical, original and replacement SASIS, actual GitHub math/prose/visual/navigation and affected-earlier audits are complete. Content checks found no material subject defect; actual same-fragment sibling help navigation and initial reader order conformance failed. Original reports, all three archive ZIPs and bounded remedy probes remain unchanged.
+
+Complete PROF 2026-10-11-r31 and evidence were published at 7cf8e4745680b2042efae1db73cb2e33665549c9. Coordinator and root independently fetched all 105 intended paths and verified exact bytes, including all 36 package files. Six files change only general navigation/routing/admission procedures and matching revision metadata; other30 and full baseline are unchanged. The helper honestly reports NOT_READY for T11 and destination/final navigation gates. Publication is not D008 acceptance.
+
+Counts remain 14 accepted, 62 remaining, 76 eligible, 71 excluded; all147 original IDs/order retained. D008 remains open; D013 is next after D008 acceptance. Start complete fresh D008 under actual verified published r31 with only operational handover, original seven-page source and full baseline. Root owns browser QA; fresh technical reviewer is /root/technical_d008_r31_prepared. No installed-skill, user-computer, automation or duplicate Library changes.
+
+Earlier records follow unchanged.
+
 D007 closure and PROF r30 verified; fresh D008 continues, 2026-10-11
 
 Release a99cce571340a15a257c67d162dc94de494d86a7 and closure 0189c8bbc355b6347bee172dd554934ccc580e39 were fetched and exactly compared: all 87 release paths, seven closure paths, and all 36 current root-package files. Root independently verified package/archives and the canonical queue. See iterations/007/published-r29-20261011/closure-final-receipt.json and exact readback receipts.

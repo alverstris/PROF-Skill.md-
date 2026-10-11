@@ -1,0 +1,103 @@
+{
+  "phase": "B",
+  "status": "verified",
+  "checked_at_utc": "2026-10-11T21:07:43.396543+00:00",
+  "commit": "098d9df84c8dfa1a504ff6ed7220d3853e617192",
+  "tree": "2fd0a9b543b8c866d36bd4167f5f8e17ff763663",
+  "parent": "659829bd4010b19e5800c55c44fc0ddfacf1571a",
+  "remote_main_observed": "098d9df84c8dfa1a504ff6ed7220d3853e617192",
+  "method": "Fetch actual origin/main, request planned blob objects from remote, then read every exact commit:path from the fetched Git object store and byte-compare with its planned local file.",
+  "all_planned_paths_and_exact_bytes_match": true,
+  "planned_file_count": 11,
+  "verified_files": [
+    {
+      "path": "runs/y1-reader-20261008/RUN.md",
+      "bytes": 46575,
+      "git_blob": "066f7dde87e5b15e271c51475f8329f223f17cfb",
+      "sha256": "ccfc15fbd5ed5d3818a57f725e7d82238be7d4cfa23b931fa7b528debacc0e48",
+      "exact_bytes_match": true
+    },
+    {
+      "path": "runs/y1-reader-20261008/queue.json",
+      "bytes": 315258,
+      "git_blob": "a461e939e3b89b8326621b5e2edf910e0776584c",
+      "sha256": "4469735c200d7cff0994820028fb110658ea2538f66d6e8a394a4723c58a568d",
+      "exact_bytes_match": true
+    },
+    {
+      "path": "runs/y1-reader-20261008/CHANGELOG.md",
+      "bytes": 14484,
+      "git_blob": "44578891f9f2a1329826f8e3132b4dadd2485efa",
+      "sha256": "9730158eb708814aa06bbd38e38a5317c96871794a8e6b7ab22bf5728def23e2",
+      "exact_bytes_match": true
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure.md",
+      "bytes": 2138,
+      "git_blob": "ab00a5b6948df06260aa2dbc2509b5fa322eb510",
+      "sha256": "ee874f17d1ab3c03b1a0eec94ca3dd6960735703a4ee3bd91963aa5b52f713ba",
+      "exact_bytes_match": true
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure-status.json",
+      "bytes": 1644,
+      "git_blob": "871e3ccac83c5e9996daf5a7088bf7cfad54ec3e",
+      "sha256": "445b97d9111247ed327043de6447b3b979d4a51097fe11cba8dced2b146a469b",
+      "exact_bytes_match": true
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/queue-reconciliation.json",
+      "bytes": 700,
+      "git_blob": "8987918cf7d8614199914242712e489383013c62",
+      "sha256": "e902ee9fb98f460c07cb36733edeba27384354e741b963c2e50c21d4a34039c7",
+      "exact_bytes_match": true
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/phase-a-verification.json",
+      "bytes": 54770,
+      "git_blob": "0dacaa5d0c414e28f42b2902fc1ba96af58c909f",
+      "sha256": "644776b3d766dd942e93a97971a9bde84eb74c09874132013c301a814a6bc5e5",
+      "exact_bytes_match": true
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/verify_publication.py",
+      "bytes": 4115,
+      "git_blob": "c76177ec0c9f31d4c6c0586f05b69c37b104fb60",
+      "sha256": "e38754fbd6a0737f27265e3b0d70390a72315adcbd4d66d577520cb4fd607960",
+      "exact_bytes_match": true
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/prepare_phase_b.py",
+      "bytes": 10916,
+      "git_blob": "5fcff540bdcc72725b593a1444471c0019b63e1a",
+      "sha256": "8575be7ead7a6aceac1fde446b52649e905dca4e97e94eb796b2c5198f3d0604",
+      "exact_bytes_match": true
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/root-r27-readback.json",
+      "bytes": 607,
+      "git_blob": "992bfeefb0d0d02ba9f74bcf7a47194ab1779026",
+      "sha256": "8ddd6a02c71999ee60e6a9eccd0887c6cfe8bac15be6d22b669e948b8f4b1d96",
+      "exact_bytes_match": true
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/publication-plan-phase-b.json",
+      "bytes": 4083,
+      "git_blob": "7620d6a2b54f6c20b628efd8c2fef85edca2da94",
+      "sha256": "79f9aa65ded6e61a140fbf35c69bea82c0bef49c47e2338e11de87c8a975f4ac",
+      "exact_bytes_match": true
+    }
+  ],
+  "changed_paths_exactly_equal_publication_map": true,
+  "frozen_teaching_constituents_unchanged": 6,
+  "other_package_files_unchanged": 35,
+  "queue": {
+    "total_ids": 147,
+    "eligible": 76,
+    "excluded": 71,
+    "accepted": 16,
+    "remaining": 60
+  },
+  "shared_checkout_head": "5699ffff98bdf6cc529338fc3245670f976258c8",
+  "shared_checkout_note": "No checkout, index, local branch, frozen teaching or existing report was edited by publication."
+}

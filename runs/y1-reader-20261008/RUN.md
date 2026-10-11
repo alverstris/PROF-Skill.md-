@@ -1,3 +1,11 @@
+D016 closure verified; D017 next under PROF r27, 2026-10-11
+
+Actual r27 release 659829bd4010b19e5800c55c44fc0ddfacf1571a and D016 closure/count checkpoint 098d9df84c8dfa1a504ff6ed7220d3853e617192 were fetched and read back: all 144 release files and all 11 closure files exactly match. Frozen teaching and the other 35 package files remain unchanged; r27 is version metadata only. See iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure-publication-receipt.json and phase-b-verification.json.
+
+Current counts are 16 accepted, 60 remaining, 76 eligible, 71 excluded, all 147 original IDs/order retained. D017 remains pending and is next. After the closing coordinator confirms this receipt readback and returns sole publication ownership, root continues D017 with a fresh author using only actual published PROF, the full frozen baseline, original source and task, and filtered operational state. Do not provide raw historical queue diagnoses or prior teaching/reports before the new generation freezes. No installed-skill, user-computer or automation change.
+
+Earlier dated records follow unchanged.
+
 D016 r26b accepted; 16 of 76 eligible sessions closed, 2026-10-11
 
 Complete current D016 checks pass. The unchanged r26b teaching is frozen at 51a78beccef858072b1da8d057ef3dff09878409. Metadata-only PROF r27 and all 144 release paths were read back from actual publication 659829bd4010b19e5800c55c44fc0ddfacf1571a; all planned bytes match, the other 35 package files and frozen teaching are unchanged. Full evidence and limits: iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure.md.

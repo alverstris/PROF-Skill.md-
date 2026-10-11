@@ -1,0 +1,155 @@
+{
+  "material_id": "D018",
+  "title": "Lecture 20: Second Fundamental Theorem",
+  "audit_date_utc": "2026-10-11T21:01:23.157605+00:00",
+  "scope": "Independent original-source scientific and mathematical audit only. Not SASIS; not acceptance of teaching; not a PROF verdict. No author outputs or prior diagnoses read. Findings withheld from authors until generation freeze.",
+  "source_assets": [
+    {
+      "filename": "lec20.pdf",
+      "sha256": "711e84263db3b675c39d18aa1951a55a4f026783732924324b6578913360c990",
+      "url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/3cd98c68cec64e9214c8c9003f6cf983_lec20.pdf"
+    }
+  ],
+  "required_pdf_pages": 5,
+  "reading_method": "Complete assigned per-page extracted text read in bounded chunks, and every original full-page PNG inspected visually; consequential equations and figures checked against image, not inferred from extraction alone.",
+  "pages": [
+    {
+      "pdf_page": 1,
+      "printed": "cover",
+      "units": [
+        "MIT OCW 18.01 Fall 2006 identity and terms"
+      ],
+      "visual": "Full page inspected; cover only."
+    },
+    {
+      "pdf_page": 2,
+      "printed": "1",
+      "units": [
+        "FTC1 recall and indefinite-integral endpoint notation",
+        "Existence of antiderivatives; Gaussian integral defines a new function; examples of nonelementary antiderivatives",
+        "FTC2 statement for continuous integrand",
+        "Geometric difference quotient proof"
+      ],
+      "visual": "All equations inspected. Geometric argument continues onto next page."
+    },
+    {
+      "pdf_page": 3,
+      "printed": "2",
+      "units": [
+        "Figure 1 accumulated area and increment",
+        "Integral-average version of FTC2 proof",
+        "FTC1 derived from FTC2 using derivative-zero implies constant",
+        "Sine/cosine antiderivative illustration begins"
+      ],
+      "visual": "Figure 1 shows positive increasing integrand with shaded F(x), narrow increment ΔF between x and x+Δx; consistent for positive Δx."
+    },
+    {
+      "pdf_page": 4,
+      "printed": "3",
+      "units": [
+        "Antiderivative constant cancellation example",
+        "Error function definition and limiting value",
+        "Figure 2 error-function graph",
+        "Offset logarithmic integral defined from 2; prime-count application and encryption motivation",
+        "Prime-count interval and logarithm estimates"
+      ],
+      "visual": "Figure 2 S-shaped odd graph is consistent with erf. Sine integrand typo visible. Integral limits visibly 10^200 and 10^201."
+    },
+    {
+      "pdf_page": 5,
+      "printed": "4",
+      "units": [
+        "Prime-count one-significant-figure estimate and rectangular-integral footnote",
+        "Fresnel integral definitions and derivative of C",
+        "Bessel J0 integral representation",
+        "Next-lecture integral definition of logarithm"
+      ],
+      "visual": "All displayed equations inspected; Bessel coefficient visibly 1/(2π) with upper limit π; first-line lower bound visibly 200."
+    }
+  ],
+  "findings": [
+    {
+      "id": "D018-E1",
+      "kind": "source error",
+      "locator": "lec20.pdf PDF pp.3–4, printed pp.2–3, Remark and continuation",
+      "claim": "The remark says f(x)=sin x, then takes G=∫cos t dt=sin x and F=sin x+21; the continuation displays ∫sin x dx=sin b−sin a.",
+      "correction": "Use f(x)=cos x and ∫cos x dx throughout this illustration. Alternatively an actual sine illustration needs G=1−cos x and a corresponding antiderivative.",
+      "check": "(sin x+21)′=cos x. With a=0,b=π, ∫sin x dx=2 but sin π−sin 0=0."
+    },
+    {
+      "id": "D018-E2",
+      "kind": "source error",
+      "locator": "lec20.pdf PDF pp.4–5, printed pp.3–4, 200-digit-prime application",
+      "claim": "The interval [10^200,10^201] is described as counting 200-digit primes.",
+      "correction": "For 200-digit integers use [10^199,10^200); the shown interval concerns 201-digit integers, with power-of-ten endpoints composite.",
+      "check": "A positive integer n has 200 decimal digits exactly when 10^199≤n<10^200."
+    },
+    {
+      "id": "D018-E3",
+      "kind": "source error",
+      "locator": "lec20.pdf PDF p.5, printed p.4, first line",
+      "claim": "ln t≈500 is asserted for 200≤t≤10^201.",
+      "correction": "The lower endpoint of the intended interval is 10^200 (or 10^199 if fixing the digit count).",
+      "check": "ln(200)≈5.30, whereas ln(10^200)≈460.52."
+    },
+    {
+      "id": "D018-E4",
+      "kind": "source numerical ambiguity/error",
+      "locator": "lec20.pdf PDF p.5, printed p.4, last approximation of prime count",
+      "claim": "After claiming one significant figure, 9·10^200/500≈10^198 is displayed.",
+      "correction": "That expression is exactly 1.8·10^198, hence 2·10^198 to one significant figure. 10^198 is acceptable only as an order-of-magnitude label. Corrected 200-digit interval gives about 2·10^197 by the same rough method.",
+      "check": "9/500=0.018; move exponent down two."
+    },
+    {
+      "id": "D018-E5",
+      "kind": "source error",
+      "locator": "lec20.pdf PDF p.5, printed p.4, Bessel definition",
+      "claim": "J0(x)=(1/(2π))∫_0^π cos(x sin θ)dθ.",
+      "correction": "Coefficient must be 1/π for these limits (or retain 1/(2π) and integrate over a full 2π interval).",
+      "check": "At x=0 the printed expression equals 1/2, whereas standard J0(0)=1. NIST DLMF 10.9.1 confirms the 1/π formula."
+    },
+    {
+      "id": "D018-C1",
+      "kind": "source application overstatement",
+      "locator": "lec20.pdf PDF pp.4–5, printed pp.3–4, encryption prose",
+      "claim": "A secret prime is presented as what decodes messages and abundance of primes is used to infer bank-account security.",
+      "correction": "Treat this as a rough motivation, not a cryptographic security argument. RSA uses a public modulus/exponent and private exponent or factor-based CRT key representation; sheer prime count does not establish security.",
+      "check": "RFC 8017 §3.2 describes (n,d) or a factor/CRT representation. The calculus estimate alone contains no algorithmic attack-cost model."
+    },
+    {
+      "id": "D018-C2",
+      "kind": "scope/convention clarification",
+      "locator": "lec20.pdf PDF pp.2–3 and p.5, printed pp.1–2 and p.4",
+      "claim": "Geometric proof uses ordinary positive area and positive Δx; Fresnel functions use cos(t²), sin(t²).",
+      "correction": "Extend FTC2 via signed integrals and both signs of the increment. Fresnel normalization is a valid unscaled convention; do not label it a mathematical error merely because standard DLMF C,S use πt²/2.",
+      "check": "Average difference quotient tends to f(x) by continuity on either oriented interval. Scaling u=sqrt(2/π)t relates the Fresnel conventions."
+    }
+  ],
+  "checked_deductions": [
+    "FTC2: |(1/h)∫_x^(x+h)f(t)dt−f(x)|≤sup_{t between x and x+h}|f(t)−f(x)|→0 for either sign h.",
+    "FTC1: G′=f=F′ gives F−G constant on the interval, and G(a)=0.",
+    "erf′(x)=2e^(−x²)/sqrt(π)>0 and erf″(x)=−4xe^(−x²)/sqrt(π), matching Figure 2.",
+    "C′(x)=cos(x²); S′(x)=sin(x²). The logarithmic-integral definition from 2 is ordinary only for x>1; the singularity at t=1 must not be crossed without a separate convention."
+  ],
+  "external_primary_references": [
+    {
+      "url": "https://dlmf.nist.gov/10.9",
+      "locator": "10.9.1",
+      "verified": "Standard J0 integral normalization",
+      "retrieval_ref": "turn27search0"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc8017.html",
+      "locator": "§§3.1–3.2",
+      "verified": "RSA key representations; no claim of present-day key-size safety made",
+      "retrieval_ref": "turn28view0"
+    },
+    {
+      "url": "https://dlmf.nist.gov/7.2",
+      "locator": "§7.2(iii)",
+      "verified": "Fresnel normalization reference; source may validly use unscaled Fresnel functions",
+      "retrieval_ref": "turn28view1"
+    }
+  ],
+  "completion": "complete source-only audit"
+}

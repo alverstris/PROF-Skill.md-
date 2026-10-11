@@ -1,0 +1,1 @@
+D018 r28 final failed state. Frozen teaching unchanged. C1/C3 and destination defects prevent acceptance. Publish verified r29 repair, then fresh generation on the earliest reopened material. Evidence/coordinator-disposition.md governs the recorded limits.

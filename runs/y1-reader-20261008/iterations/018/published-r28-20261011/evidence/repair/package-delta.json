@@ -1,0 +1,39 @@
+{
+  "incoming_version": "2026-10-11-r28",
+  "outgoing_version": "2026-10-11-r29",
+  "incoming_package_commit": "91fc297103befb64925817dbeddbbe2c0e267601",
+  "changes": [
+    {
+      "path": "SKILL.md",
+      "before_bytes": 40764,
+      "before_sha256": "5d58064ef37d3c9ec8d6a3180a3b70b4324ccf722c079aba5f21730590fd2bdc",
+      "after_bytes": 41937,
+      "after_sha256": "07d0311f9a8ab43b4391df5846f73393eac62762fd00746e2173da935fff4d3a"
+    },
+    {
+      "path": "references/execution-protocol.md",
+      "before_bytes": 28475,
+      "before_sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60",
+      "after_bytes": 30658,
+      "after_sha256": "833f73a2efa6a0a6291f03ad871e6a36c8825b8daad265b9318f48e309b333d1"
+    }
+  ],
+  "unchanged_files": 34,
+  "file_count": 36,
+  "behavior_change": true,
+  "verified_causes": [
+    "R1 display comparison token loss",
+    "R2 rejected named-function command",
+    "R3 raw display math inside details",
+    "C1 insufficient existence condition",
+    "C3 literal finite-approximation versus limit warrant"
+  ],
+  "non_material_concerns_retained": [
+    "C2 rounded endpoint wording ambiguity with supported exact-symbolic route",
+    "comparison-command adjacency to digits",
+    "two-step disclosure navigation and sticky-header scroll"
+  ],
+  "root_review": "Complete two-file candidate diff reviewed; no further change requested.",
+  "validation": "skill-creator quick_validate.py passed; agents/openai.yaml remains applicable and unchanged.",
+  "scope_limit": "Engineering response to observed defects; full fresh generation and audits still required; no human learning outcome claim."
+}

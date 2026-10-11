@@ -1,0 +1,380 @@
+{
+  "schema": "sasis_frozen_reader_access_v1",
+  "revision": "d018-clean-r28",
+  "input_admission": "established after complete access/read and both figure inspections",
+  "inputs": {
+    "baseline": {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d018-clean-r28/inputs/student-baseline.txt",
+      "bytes": 247840,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "expected_hash_match": true,
+      "lf_line_count": 1377,
+      "python_splitlines_count": 2561
+    },
+    "teaching": {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d018-clean-r28/output/teaching.md",
+      "bytes": 27621,
+      "sha256": "4970a5ae04a73cca02eb62a20de8b5eab8d225c6b9ceb22eee44ec6a6408873c",
+      "expected_hash_match": true,
+      "lf_line_count": 360,
+      "python_splitlines_count": 360
+    },
+    "figure_1": {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d018-clean-r28/output/figures/accumulation-strip.png",
+      "bytes": 41158,
+      "sha256": "e3ba29224f4401a89eda0f676860bde1af6d9c17c837bae113de4aa293516c85",
+      "expected_hash_match": true,
+      "dimensions_px": [
+        1428,
+        781
+      ]
+    },
+    "figure_2": {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d018-clean-r28/output/figures/error-function.png",
+      "bytes": 44982,
+      "sha256": "c03ca91e3ee117d68df1bffd7b29aa4fa18bffa47c23e7e2fc15b360d5ee7899",
+      "expected_hash_match": true,
+      "dimensions_px": [
+        1428,
+        781
+      ]
+    },
+    "role": {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d018-clean-r28/verified-prof/references/sasis/student-role.txt",
+      "bytes": 5607,
+      "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+      "expected_hash_match": null,
+      "lf_line_count": 44,
+      "python_splitlines_count": 44
+    }
+  },
+  "reads": [
+    {
+      "sequence": 0,
+      "artifact": "all_exact_inputs",
+      "action": "read bytes, verify hashes and print complete published role",
+      "tool_chunk_id": "a088e7",
+      "role_lf_range": [
+        1,
+        44
+      ],
+      "truncated": false
+    },
+    {
+      "sequence": 1,
+      "artifact": "baseline",
+      "lf_range": [
+        1,
+        100
+      ],
+      "method": "sed bounded content read",
+      "tool_chunk_id": "02fa61",
+      "original_token_count": 3816,
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 2,
+      "artifact": "baseline",
+      "lf_range": [
+        101,
+        200
+      ],
+      "method": "sed bounded content read",
+      "tool_chunk_id": "947082",
+      "original_token_count": 2531,
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 3,
+      "artifact": "baseline",
+      "lf_range": [
+        201,
+        300
+      ],
+      "method": "sed bounded content read",
+      "tool_chunk_id": "41f4b2",
+      "original_token_count": 4221,
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 4,
+      "artifact": "baseline",
+      "lf_range": [
+        301,
+        400
+      ],
+      "method": "sed bounded content read",
+      "tool_chunk_id": "8c90d5",
+      "original_token_count": 5033,
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 5,
+      "artifact": "baseline",
+      "lf_range": [
+        401,
+        500
+      ],
+      "method": "sed bounded content read",
+      "tool_chunk_id": "3d1100",
+      "original_token_count": 6753,
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 6,
+      "artifact": "baseline",
+      "lf_range": [
+        501,
+        600
+      ],
+      "method": "sed bounded content read",
+      "tool_chunk_id": "7fdd78",
+      "original_token_count": 4361,
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 7,
+      "artifact": "baseline",
+      "lf_range": [
+        601,
+        700
+      ],
+      "method": "sed bounded content read",
+      "tool_chunk_id": "222156",
+      "original_token_count": 5698,
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 8,
+      "artifact": "baseline",
+      "lf_range": [
+        701,
+        800
+      ],
+      "method": "sed bounded content read",
+      "tool_chunk_id": "12d061",
+      "original_token_count": 5509,
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 9,
+      "artifact": "baseline",
+      "lf_range": [
+        801,
+        900
+      ],
+      "method": "sed bounded content read",
+      "tool_chunk_id": "a3cb80",
+      "original_token_count": 3714,
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 10,
+      "artifact": "baseline",
+      "lf_range": [
+        901,
+        1000
+      ],
+      "method": "sed bounded content read",
+      "tool_chunk_id": "bcb88c",
+      "original_token_count": 3664,
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 11,
+      "artifact": "baseline",
+      "lf_range": [
+        1001,
+        1100
+      ],
+      "method": "sed bounded content read",
+      "tool_chunk_id": "94d2fc",
+      "original_token_count": 4000,
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 12,
+      "artifact": "baseline",
+      "lf_range": [
+        1101,
+        1200
+      ],
+      "method": "sed bounded content read",
+      "tool_chunk_id": "d0a492",
+      "original_token_count": 3878,
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 13,
+      "artifact": "baseline",
+      "lf_range": [
+        1201,
+        1300
+      ],
+      "method": "sed bounded content read",
+      "tool_chunk_id": "a13710",
+      "original_token_count": 4514,
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 14,
+      "artifact": "baseline",
+      "lf_range": [
+        1301,
+        1377
+      ],
+      "method": "sed bounded content read",
+      "tool_chunk_id": "2046b1",
+      "original_token_count": 4273,
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 15,
+      "artifact": "teaching",
+      "lf_range": [
+        1,
+        80
+      ],
+      "tool_chunk_id": "af9741",
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 16,
+      "artifact": "figure_1",
+      "method": "view_image; actual visual inspection",
+      "read_complete": true,
+      "caption_lf_range": [
+        61,
+        63
+      ]
+    },
+    {
+      "sequence": 17,
+      "artifact": "teaching",
+      "lf_range": [
+        81,
+        160
+      ],
+      "tool_chunk_id": "065216",
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 18,
+      "artifact": "figure_2",
+      "method": "view_image; actual visual inspection",
+      "read_complete": true,
+      "caption_lf_range": [
+        145,
+        147
+      ]
+    },
+    {
+      "sequence": 19,
+      "artifact": "teaching",
+      "lf_range": [
+        161,
+        240
+      ],
+      "tool_chunk_id": "753a2c",
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 20,
+      "artifact": "teaching",
+      "lf_range": [
+        241,
+        320
+      ],
+      "tool_chunk_id": "43ee9a",
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 21,
+      "artifact": "teaching",
+      "lf_range": [
+        321,
+        360
+      ],
+      "tool_chunk_id": "2286e3",
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 22,
+      "artifact": "baseline",
+      "lf_range": [
+        135,
+        228
+      ],
+      "method": "numbered locator reread of already fully read content",
+      "tool_chunk_id": "446631",
+      "truncated": false,
+      "read_complete": true
+    },
+    {
+      "sequence": 23,
+      "artifact": "all_exact_inputs",
+      "action": "final byte/hash integrity check; counts and PNG dimensions only",
+      "expected_hashes_match": true
+    }
+  ],
+  "coverage": {
+    "baseline_lf_ranges_contiguous": [
+      1,
+      1377
+    ],
+    "teaching_lf_ranges_contiguous": [
+      1,
+      360
+    ],
+    "all_four_baseline_subjects_read": true,
+    "both_figures_visually_inspected": true,
+    "all_tasks_hints_solutions_read": true,
+    "access_failures": [],
+    "truncations": [],
+    "truncation_recovery_needed": false
+  },
+  "ordering_note": "Baseline fully read before teaching. Teaching text read in ascending chunks; each image was displayed after the chunk containing its placement, before the next chunk. The report discloses that actual image exposure was batch-level rather than exactly interleaved at the Markdown line. Earlier-task reconstructions use only baseline and premises available before the task, not later hints or solutions.",
+  "boundaries": {
+    "subject_inputs_only": [
+      "baseline",
+      "teaching",
+      "figure_1",
+      "figure_2"
+    ],
+    "non_subject_instruction_input": "role",
+    "browsing": false,
+    "other_agent_consultation": false,
+    "file_searches": false,
+    "personal_context": false,
+    "external_links_followed": false,
+    "teaching_modified": false,
+    "technical_isolation_claimed": false,
+    "pretraining_erasure_claimed": false
+  },
+  "report": {
+    "path": "/workspace/scratch/f9c0b7fc7e76/d018-clean-r28/work/sasis-report.txt",
+    "sha256": "db386b31053941ffe83eebb30df28e7fb359c2b540fb52eae022e11aca62b785",
+    "bytes": 32489,
+    "original_unedited": true
+  },
+  "disposition": "Main teaching and exercises supported; two localized wording ambiguities (existence scope and rounding bounds) and one finite-rectangle-sum precision concern; no established blocked exercise under stated conditions."
+}

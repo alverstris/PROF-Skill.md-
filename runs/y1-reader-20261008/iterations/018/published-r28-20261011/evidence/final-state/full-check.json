@@ -1,0 +1,29 @@
+{
+  "result": "NOT_READY",
+  "scope": "full declared project",
+  "limits": "This checks declared records, file/locator existence and revision freshness only. Source reads, web reads, applicability, waivers and semantic reviews are self-reported. It does not certify teaching quality, learner mastery, authorization, or skill invocation/application.",
+  "requirements": {
+    "ftc2": {
+      "fail": 5,
+      "not_applicable": 0,
+      "pass": 7,
+      "pending": 0,
+      "unverified": 0,
+      "waived_by_user": 0
+    }
+  },
+  "defects": [
+    "ftc2.gap.c1: unresolved consequential gap",
+    "ftc2.gap.c3: unresolved consequential gap",
+    "ftc2.gap.r1-r3: unresolved consequential gap",
+    "ftc2.T1: not ready: fail",
+    "ftc2.T3: not ready: fail",
+    "ftc2.T7: not ready: fail",
+    "ftc2.T10: not ready: fail",
+    "ftc2.T11: not ready: fail",
+    "output_check.technical: not ready: fail",
+    "output_check.destination: not ready: fail"
+  ],
+  "notes": [],
+  "next_action": "Address the listed readiness items: repair actual defects or await required student information. Recheck affected teaching and dependencies before updating recorded hashes; do not invent resolution to obtain a clean status."
+}

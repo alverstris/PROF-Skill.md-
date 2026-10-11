@@ -1,0 +1,41 @@
+{
+  "report_hash_matches": true,
+  "input_hashes": {
+    "baseline": {
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "matches": true,
+      "bytes": 247840
+    },
+    "teaching": {
+      "sha256": "4970a5ae04a73cca02eb62a20de8b5eab8d225c6b9ceb22eee44ec6a6408873c",
+      "matches": true,
+      "bytes": 27621
+    },
+    "figure_1": {
+      "sha256": "e3ba29224f4401a89eda0f676860bde1af6d9c17c837bae113de4aa293516c85",
+      "matches": true,
+      "bytes": 41158
+    },
+    "figure_2": {
+      "sha256": "c03ca91e3ee117d68df1bffd7b29aa4fa18bffa47c23e7e2fc15b360d5ee7899",
+      "matches": true,
+      "bytes": 44982
+    },
+    "role": {
+      "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+      "matches": true,
+      "bytes": 5607
+    }
+  },
+  "read_range_coverage": {
+    "baseline": {
+      "missing": [],
+      "covered": 1377
+    },
+    "teaching": {
+      "missing": [],
+      "covered": 360
+    }
+  },
+  "scope": "Root checks original reader access-record consistency and exact file identity; the original reader performed full reads. Not a second reader run."
+}

@@ -944,8 +944,8 @@
       "session_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/",
       "material_kinds": "notes",
       "selection_evidence": "Official lecture-notes index labels row 18: Definite integrals and links its lecture-specific PDF.",
-      "status": "pending",
-      "source_access": "Complete original six-page source, baseline, fresh r26b SASIS, source/PROF/math, affected-earlier and actual destination audits pass. All 272 expressions, three embedded figures, prose styling and 30 content links are verified. D016 closure awaits this release readback and the closure/count checkpoint.",
+      "status": "closed",
+      "source_access": "All six original source pages/texts/figures and the complete baseline were read; complete fresh r26b SASIS, source/PROF/math and affected-earlier audits pass. Actual GitHub preserves all 272 expressions, three embedded figures, normal prose styling and all 30 content links. Final topic/full checks pass mechanically; metadata-only r27 and all 144 release paths were independently read back byte-for-byte. Closure evidence preserves all original reports and frozen teaching.",
       "required_portions": "all assigned lecture assets; resolve exact asset URLs before authoring",
       "evidence": [
         "iterations/016/closure.md",
@@ -969,7 +969,10 @@
         "iterations/016/published-r26-20261010/fresh-r26b/review/root-independent/review-disposition.md",
         "iterations/016/published-r26-20261010/fresh-r26b/review/root-independent/live-destination-attempt.json",
         "iterations/016/published-r26-20261010/fresh-r26b/review/earlier/coordinator-disposition.md",
-        "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/final-state/review/final-acceptance-20261011.md"
+        "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/final-state/review/final-acceptance-20261011.md",
+        "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure.md",
+        "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure-status.json",
+        "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/phase-a-verification.json"
       ],
       "material_id": "D016",
       "readability": {
@@ -996,9 +999,9 @@
         ],
         "next_document_authored": false
       },
-      "incoming_prof": "2026-10-09-r22",
-      "outgoing_prof": "2026-10-09-r23",
-      "published_commit": "abfd5ae20c4af75b424b70d612082b07071c2ae6",
+      "incoming_prof": "2026-10-10-r26",
+      "outgoing_prof": "2026-10-11-r27",
+      "published_commit": "659829bd4010b19e5800c55c44fc0ddfacf1571a",
       "acceptance_reopened": {
         "date": "2026-10-10",
         "obligation": "T1",
@@ -1011,32 +1014,62 @@
       },
       "current_iteration": {
         "incoming_prof": "2026-10-10-r26",
-        "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec",
-        "frozen_commit": "51a78beccef858072b1da8d057ef3dff09878409",
-        "state": "final_acceptance_checked_release_readback_pending",
         "outgoing_prof": "2026-10-11-r27",
-        "outgoing_change": "metadata.version only; operative teaching instructions unchanged",
-        "evidence": "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/final-state/review/final-acceptance-20261011.md",
-        "publication_verification": "pending subsequent immutable release readback",
-        "next_action": "Verify release bytes, then publish and verify D016 closure/counts before D017 generation.",
+        "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec",
+        "verified_release_commit": "659829bd4010b19e5800c55c44fc0ddfacf1571a",
+        "frozen_commit": "51a78beccef858072b1da8d057ef3dff09878409",
+        "state": "closed",
+        "evidence": "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure.md",
+        "closure_status": "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure-status.json",
+        "next_action": "Verify this closure/progress checkpoint, then begin D017 from the actual current published r27 package in a fresh author context.",
         "previous_iteration": {
           "incoming_prof": "2026-10-10-r26",
           "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec",
           "frozen_commit": "51a78beccef858072b1da8d057ef3dff09878409",
-          "state": "pending_destination_verification",
-          "evidence": "iterations/016/published-r26-20261010/fresh-r26b/review/coordinator-disposition.md",
-          "pending_status": "iterations/016/published-r26-20261010/fresh-r26b/pending-status.json",
-          "next_action": "Resume the same frozen immutable destination checks when available. Only close D016 after all applicable conditions pass; if a material defect is established, repair/publish/verify PROF first and generate anew in a fresh context.",
+          "state": "final_acceptance_checked_release_readback_pending",
+          "outgoing_prof": "2026-10-11-r27",
+          "outgoing_change": "metadata.version only; operative teaching instructions unchanged",
+          "evidence": "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/final-state/review/final-acceptance-20261011.md",
+          "publication_verification": "pending subsequent immutable release readback",
+          "next_action": "Verify release bytes, then publish and verify D016 closure/counts before D017 generation.",
           "previous_iteration": {
-            "incoming_prof": "2026-10-10-r25",
-            "frozen_commit": "18ad505b72fd034589271d70b15d3cae5c50e730",
-            "outgoing_prof": "2026-10-10-r26",
-            "state": "published_r26_verified_fresh_generation_required",
-            "evidence": "iterations/016/published-r25-20261010/reviews/coordinator-disposition.md",
-            "next_action": "Start whole D016 generation in a fresh context using the task-only r26 handover, actual current published package, original source and full frozen baseline; then freeze and complete new SASIS and independent audits.",
-            "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec"
+            "incoming_prof": "2026-10-10-r26",
+            "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec",
+            "frozen_commit": "51a78beccef858072b1da8d057ef3dff09878409",
+            "state": "pending_destination_verification",
+            "evidence": "iterations/016/published-r26-20261010/fresh-r26b/review/coordinator-disposition.md",
+            "pending_status": "iterations/016/published-r26-20261010/fresh-r26b/pending-status.json",
+            "next_action": "Resume the same frozen immutable destination checks when available. Only close D016 after all applicable conditions pass; if a material defect is established, repair/publish/verify PROF first and generate anew in a fresh context.",
+            "previous_iteration": {
+              "incoming_prof": "2026-10-10-r25",
+              "frozen_commit": "18ad505b72fd034589271d70b15d3cae5c50e730",
+              "outgoing_prof": "2026-10-10-r26",
+              "state": "published_r26_verified_fresh_generation_required",
+              "evidence": "iterations/016/published-r25-20261010/reviews/coordinator-disposition.md",
+              "next_action": "Start whole D016 generation in a fresh context using the task-only r26 handover, actual current published package, original source and full frozen baseline; then freeze and complete new SASIS and independent audits.",
+              "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec"
+            }
           }
         }
+      },
+      "historical_acceptances": [
+        {
+          "incoming_prof": "2026-10-09-r22",
+          "outgoing_prof": "2026-10-09-r23",
+          "published_commit": "abfd5ae20c4af75b424b70d612082b07071c2ae6",
+          "closure": "iterations/016/closure.md",
+          "disposition": "Historical acceptance reopened on 2026-10-10; original record preserved. This is not the current accepted generation."
+        }
+      ],
+      "acceptance_revalidation": {
+        "date": "2026-10-11",
+        "status": "resolved_by_complete_fresh_r26b_generation_and_full_current_checks",
+        "generation": "fresh-r26b",
+        "frozen_commit": "51a78beccef858072b1da8d057ef3dff09878409",
+        "operative_prof": "2026-10-10-r26",
+        "outgoing_prof": "2026-10-11-r27",
+        "verified_release_commit": "659829bd4010b19e5800c55c44fc0ddfacf1571a",
+        "evidence": "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure.md"
       }
     },
     {
@@ -6101,7 +6134,7 @@
     "selection_manifest": "readability-selection.json",
     "eligible": 76,
     "excluded": 71,
-    "closed": 15,
+    "closed": 16,
     "active_session_ids": [
       "mit-18-01-fall-2006-L01",
       "mit-18-01-fall-2006-L02",
@@ -6180,6 +6213,6 @@
       "mit-8-022-fall2004-L26",
       "mit-8-022-fall2004-L28"
     ],
-    "remaining": 61
+    "remaining": 60
   }
 }

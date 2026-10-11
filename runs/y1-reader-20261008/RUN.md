@@ -1,3 +1,11 @@
+D016 r26b accepted; 16 of 76 eligible sessions closed, 2026-10-11
+
+Complete current D016 checks pass. The unchanged r26b teaching is frozen at 51a78beccef858072b1da8d057ef3dff09878409. Metadata-only PROF r27 and all 144 release paths were read back from actual publication 659829bd4010b19e5800c55c44fc0ddfacf1571a; all planned bytes match, the other 35 package files and frozen teaching are unchanged. Full evidence and limits: iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure.md.
+
+Current counts: 16 accepted, 60 remaining, 76 eligible, 71 excluded, all 147 IDs and original order preserved. D017 remains pending and is next; then D018 and D019. Verify this closure/progress checkpoint, reload the actual published r27 package and start D017 with a fresh author context carrying only original inputs and the operational handover. Prior audits do not become new author inputs. Root regains publication ownership only after this closing coordinator returns the verified final pin. No installed-skill, user-computer or automation change.
+
+Earlier dated records follow unchanged.
+
 D016 r26b final checks complete; r27 release readback pending, 2026-10-11
 
 The unchanged fresh-r26b teaching frozen at 51a78beccef858072b1da8d057ef3dff09878409 now has complete actual GitHub destination evidence. All 272 expressions, all three embedded figures, normal prose styling and all 30 content links pass within the recorded desktop-browser scope. Prior complete SASIS/source/PROF/mathematics and affected-earlier evidence remains valid. Final topic and full helper checks are MECHANICALLY_READY; they certify record mechanics only. See iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/final-state/review/final-acceptance-20261011.md.

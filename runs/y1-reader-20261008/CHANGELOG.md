@@ -1,3 +1,9 @@
+## 2026-10-11 — D016 reaccepted; PROF r27 metadata progression verified
+
+The complete fresh r26b generation and all current audits pass, including actual destination preservation of 272 expressions, all three figures, normal prose style and all 30 content links. Release 659829bd4010b19e5800c55c44fc0ddfacf1571a and all 144 planned bytes were fetched back and verified. r27 changes only metadata.version; no new material failure or teaching repair was invented. D016 restores the queue to 16/76 accepted and 60 remaining. All 147 IDs and 71 exclusions remain; historical acceptance/reopening/pending records are preserved. Next: verify this closure checkpoint and start D017 from published r27 in a fresh context.
+
+Earlier dated entries retain their historical states.
+
 ## 2026-10-11 — PROF r27 metadata progression; D016 final checks complete
 
 Complete live destination checks resolve D016 r26b's last pending gate without changing teaching. Final semantic reconciliation and both helper checks pass within their recorded scopes. r27 changes metadata.version only under the rolling convention; the operative rules remain r26. Exact identity/inverse evidence and raw destination records are retained under iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/. Release readback and closure remain separate: current counters are 15/76 accepted, 61 remaining until verified closure.

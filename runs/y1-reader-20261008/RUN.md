@@ -1,3 +1,11 @@
+D017 closure verified; fresh D018 continues under PROF r28, 2026-10-11
+
+Release 70ddebfbfa52e9ec57043e493fff9c01aba5f9f6 and closure checkpoint 49eba459feb990ffaff530d99e2719066722ab05 were fetched back and exactly verified: all 120 release files, all 36 root-package files and all seven closure files. See iterations/017/published-r27-20261011/closure-20261011/closure-publication-receipt.json and phase-b-verification.json.
+
+Current verified counts are 17 accepted, 59 remaining, 76 eligible, 71 excluded, all 147 IDs/order preserved. D018 is next. Fresh successor receives only operational handover, actual published package, complete baseline and original D018 packet. Transfer sole publisher ownership only after this receipt readback. Continue the authorized corpus loop without an autonomous stop after one lecture. Source-audit archives stay outside fresh author context until matching teaching freezes. No installed-skill, computer or automation changes.
+
+Earlier dated records follow unchanged.
+
 D017 accepted; D018 next under verified PROF r28, 2026-10-11
 
 Complete unchanged D017 r27 teaching and all current gates pass. Release 70ddebfbfa52e9ec57043e493fff9c01aba5f9f6 was fetched back: all 120 planned files and all 36 current root-package files match exact bytes. r28 changes only metadata.version. Closure evidence: iterations/017/published-r27-20261011/closure-20261011/closure.md and phase-a-verification.json.

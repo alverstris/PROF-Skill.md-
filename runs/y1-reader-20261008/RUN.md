@@ -1,3 +1,11 @@
+2026-10-11 — Corrected PROF r31 complete package verified; D008 fresh generation next
+
+Complete correction release da856ff6379c75e051e0afc8410a24a5a2822bc9 was fetched and compared against all 48 intended paths, including all 36 package files. All 34 bundled SHA256 declarations now match actual published bytes. First release 7cf8e4745680b2042efae1db73cb2e33665549c9 and its truthful byte-readback receipts remain preserved; two stale internal control references were separately found before any fresh author dispatch, corrected, and verified. Only profile-manifest.json and references/sasis.md change in this correction; 34 other package files and all frozen teaching remain unchanged. See iterations/008/published-r30-20261011/repair/internal-consistency/.
+
+All 147 IDs/order, 76 eligible, 71 excluded, 14 accepted and 62 remaining are unchanged. D008 remains pending; D013 follows its acceptance. Fresh whole D008 generation uses only the current published complete package, full frozen baseline and original seven-page source. Root owns actual browser QA; technical reviewer /root/technical_d008_r31_prepared is prepared. Continue the entire corpus with sole publication ownership transferred only after this checkpoint readback.
+
+Earlier records follow unchanged.
+
 2026-10-11 — PROF r31 repair verified; D008 remains active
 
 D008 r30 complete teaching is preserved at 663311ba27f25206ed868ce9bbfd016447528ef3. Whole source, prompt-first technical, original and replacement SASIS, actual GitHub math/prose/visual/navigation and affected-earlier audits are complete. Content checks found no material subject defect; actual same-fragment sibling help navigation and initial reader order conformance failed. Original reports, all three archive ZIPs and bounded remedy probes remain unchanged.

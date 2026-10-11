@@ -1,3 +1,13 @@
+D007 closed after verified PROF r30 release; fresh D008 next, 2026-10-11
+
+The unchanged complete teaching is frozen at 4765d39aa399a0a1ff09223cae21b15ce6c7f720. All whole-source, blind-prompt technical, complete-input SASIS and actual GitHub checks pass within their stated boundaries. The minor caption referent and readable annotation overlap remain recorded; initial GitHub page-loading errors recovered and ordinary retests succeeded. No material defect or behavioral repair is invented.
+
+Outgoing metadata-only PROF r30 and complete preserved evidence were published at a99cce571340a15a257c67d162dc94de494d86a7 and fetched back exactly: all 87 intended paths, including the complete 36-file root package and four unchanged teaching constituents. Root independently verified all 36 package blobs and four root archive/manifest files. Review originals and all earlier evidence remain intact. Source-audit archives stay out of fresh author inputs until each whole teaching is frozen.
+
+D007 is closed. The canonical queue retains all 147 original IDs/order, 76 eligible and 71 excluded; counts are now 14 accepted and 62 remaining. D008 (MIT 18.01 Fall 2006 Lecture 9) is next. This progress checkpoint itself still requires publication/readback before sole ownership transfers to a fresh coordinator. No installed-skill, user-computer or automation changes were made.
+
+Earlier dated records follow unchanged.
+
 PROF r29 and reopening checkpoint verified; fresh D007 next, 2026-10-11
 
 The complete repair release 3f7066cd66e517a655ad7dce9b54cd3816655440 and progress checkpoint daab62351889f165af744acbf5af77e481912cc1 were fetched and read back: all 80 release files, all seven progress files, and all 36 current root-package files match exact bytes. Independent root readbacks confirm both package and queue. See iterations/018/published-r28-20261011/evidence/repair/repair-publication-receipt.json and phase-a/phase-b verification records.

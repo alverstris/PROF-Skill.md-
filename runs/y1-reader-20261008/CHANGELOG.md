@@ -1,3 +1,13 @@
+2026-10-11 — D007 reaccepted; metadata-only PROF 2026-10-11-r30
+
+The unchanged complete teaching is frozen at 4765d39aa399a0a1ff09223cae21b15ce6c7f720. All whole-source, blind-prompt technical, complete-input SASIS and actual GitHub checks pass within their stated boundaries. The minor caption referent and readable annotation overlap remain recorded; initial GitHub page-loading errors recovered and ordinary retests succeeded. No material defect or behavioral repair is invented.
+
+Outgoing metadata-only PROF r30 and complete preserved evidence were published at a99cce571340a15a257c67d162dc94de494d86a7 and fetched back exactly: all 87 intended paths, including the complete 36-file root package and four unchanged teaching constituents. Root independently verified all 36 package blobs and four root archive/manifest files. Review originals and all earlier evidence remain intact. Source-audit archives stay out of fresh author inputs until each whole teaching is frozen.
+
+D007 is closed. The canonical queue retains all 147 original IDs/order, 76 eligible and 71 excluded; counts are now 14 accepted and 62 remaining. D008 (MIT 18.01 Fall 2006 Lecture 9) is next. This progress checkpoint itself still requires publication/readback before sole ownership transfers to a fresh coordinator. No installed-skill, user-computer or automation changes were made.
+
+Earlier dated records follow unchanged.
+
 2026-10-11 — PROF 2026-10-11-r29
 
 Verified release 3f7066cd66e517a655ad7dce9b54cd3816655440 repairs operation-existence hypotheses, finite-approximation versus limit warrants, and actual GitHub mathematics preservation: complete source inventory, all error/raw slots, comparisons across payload types, supported function-name syntax and display help outside unverified disclosure containers. Only two operative files change; 34 package files remain exact. Full original evidence and targeted positive/negative fixture results are retained. D018 is not accepted. Current live comparison loss reopens D007/D008/D013/D015, giving 13 accepted and 63 remaining; D007 is next. All 147 IDs and 71 exclusions are retained. No frozen teaching edits or installed/user-computer/schedule changes.

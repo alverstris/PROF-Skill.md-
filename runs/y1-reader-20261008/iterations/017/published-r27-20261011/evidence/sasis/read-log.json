@@ -1,0 +1,327 @@
+{
+  "inputs": [
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/inputs/student-baseline.txt",
+      "bytes": 247840,
+      "lines": 2561,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/output/teaching.md",
+      "bytes": 25372,
+      "lines": 536,
+      "sha256": "0317f26777f5285616be96713d79e1731818fea76d40954f3e21be2c6dbcb7b5"
+    },
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/output/figures/signed-sine.svg",
+      "bytes": 34432,
+      "lines": 1282,
+      "sha256": "091bcfe31b315a1cb00a3d4ecc17bb8adfcb31bebdb3b07d8287fe72d9a81c63"
+    },
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/output/figures/interval-addition.svg",
+      "bytes": 26014,
+      "lines": 983,
+      "sha256": "e6f98867fc64fc626b01c47c7864f357ac40621fe907c6f4ee3486c5594bea33"
+    }
+  ],
+  "reads": [
+    {
+      "file": "baseline",
+      "lines": [
+        1,
+        250
+      ],
+      "bytes_0_based_half_open": [
+        0,
+        20246
+      ],
+      "truncation": false
+    },
+    {
+      "file": "baseline",
+      "lines": [
+        251,
+        500
+      ],
+      "bytes_0_based_half_open": [
+        20246,
+        33951
+      ],
+      "truncation": false
+    },
+    {
+      "file": "baseline",
+      "lines": [
+        501,
+        750
+      ],
+      "bytes_0_based_half_open": [
+        33951,
+        69269
+      ],
+      "truncation": false
+    },
+    {
+      "file": "baseline",
+      "lines": [
+        751,
+        1000
+      ],
+      "bytes_0_based_half_open": [
+        69269,
+        104684
+      ],
+      "truncation": false
+    },
+    {
+      "file": "baseline",
+      "lines": [
+        1001,
+        1300
+      ],
+      "bytes_0_based_half_open": [
+        104684,
+        139314
+      ],
+      "truncation": false
+    },
+    {
+      "file": "baseline",
+      "lines": [
+        1301,
+        1600
+      ],
+      "bytes_0_based_half_open": [
+        139314,
+        166318
+      ],
+      "truncation": false
+    },
+    {
+      "file": "baseline",
+      "lines": [
+        1601,
+        1900
+      ],
+      "bytes_0_based_half_open": [
+        166318,
+        189259
+      ],
+      "truncation": false
+    },
+    {
+      "file": "baseline",
+      "lines": [
+        1901,
+        2200
+      ],
+      "bytes_0_based_half_open": [
+        189259,
+        212561
+      ],
+      "truncation": false
+    },
+    {
+      "file": "baseline",
+      "lines": [
+        2201,
+        2460
+      ],
+      "bytes_0_based_half_open": [
+        212561,
+        236417
+      ],
+      "truncation": false
+    },
+    {
+      "file": "baseline",
+      "lines": [
+        2461,
+        2561
+      ],
+      "bytes_0_based_half_open": [
+        236417,
+        247840
+      ],
+      "truncation": false
+    },
+    {
+      "file": "teaching",
+      "lines": [
+        1,
+        150
+      ],
+      "bytes_0_based_half_open": [
+        0,
+        7781
+      ],
+      "truncation": false
+    },
+    {
+      "file": "figures/signed-sine.svg",
+      "bytes_0_based_half_open": [
+        0,
+        34432
+      ],
+      "method": "complete exact SVG rendered using Inkscape; output PNG visually inspected at teaching L136",
+      "access_recovery": "cairosvg unavailable in both Python runtimes; Inkscape succeeded; non-fatal GtkRecentManager warning"
+    },
+    {
+      "file": "teaching",
+      "lines": [
+        151,
+        300
+      ],
+      "bytes_0_based_half_open": [
+        7781,
+        15020
+      ],
+      "truncation": false
+    },
+    {
+      "file": "figures/interval-addition.svg",
+      "bytes_0_based_half_open": [
+        0,
+        26014
+      ],
+      "method": "complete exact SVG rendered using Inkscape; output PNG visually inspected at teaching L173",
+      "access_recovery": "non-fatal GtkRecentManager warning; usable output"
+    },
+    {
+      "file": "teaching",
+      "lines": [
+        301,
+        440
+      ],
+      "bytes_0_based_half_open": [
+        15020,
+        20828
+      ],
+      "truncation": false
+    },
+    {
+      "file": "teaching",
+      "lines": [
+        441,
+        536
+      ],
+      "bytes_0_based_half_open": [
+        20828,
+        25372
+      ],
+      "truncation": false
+    },
+    {
+      "file": "teaching",
+      "pass": "ordered replay",
+      "lines": [
+        1,
+        135
+      ],
+      "bytes_0_based_half_open": [
+        0,
+        6732
+      ],
+      "truncation": false
+    },
+    {
+      "file": "figures/signed-sine.svg",
+      "pass": "ordered replay",
+      "method": "re-inspected exact rendered figure between teaching L135 and L136"
+    },
+    {
+      "file": "teaching",
+      "pass": "ordered replay",
+      "lines": [
+        136,
+        172
+      ],
+      "bytes_0_based_half_open": [
+        6732,
+        8736
+      ],
+      "truncation": false
+    },
+    {
+      "file": "figures/interval-addition.svg",
+      "pass": "ordered replay",
+      "method": "re-inspected exact rendered figure between teaching L172 and L173"
+    },
+    {
+      "file": "teaching",
+      "pass": "ordered replay",
+      "lines": [
+        173,
+        536
+      ],
+      "bytes_0_based_half_open": [
+        8736,
+        25372
+      ],
+      "truncation": false
+    }
+  ],
+  "limits": "Instruction-confined retrieval; no technical memory isolation or erasure of pretraining. Only whitelisted inputs and operating instruction.",
+  "baseline_complete": true,
+  "teaching_complete": true,
+  "operating_instruction": {
+    "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/inputs/prof/references/sasis/student-role.txt",
+    "bytes": 5607,
+    "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+    "read": "complete first retrieval; no truncation"
+  },
+  "line_definition": "1-based logical lines from bytes.splitlines(keepends=True); includes original CR/LF conventions. Byte intervals are 0-based half-open and cover exact bytes.",
+  "coverage_validation": {
+    "baseline": {
+      "ranges_contiguous": true,
+      "end_byte": 247840,
+      "file_bytes": 247840,
+      "complete": true,
+      "all_returned_without_truncation": true
+    },
+    "teaching": {
+      "ranges_contiguous": true,
+      "end_byte": 25372,
+      "file_bytes": 25372,
+      "complete": true,
+      "all_returned_without_truncation": true
+    }
+  },
+  "visual_order_note": "Sequential text was fetched in bounded blocks. Figure 1 was viewed after block 1-150, figure 2 after block 151-300. These blocks include short/long prose tails after the figure link; figure checks are placed at their actual teaching positions in the chronological evaluation. This is not a claim of strict one-element-at-a-time first exposure.",
+  "verification_after_reading": [
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/inputs/student-baseline.txt",
+      "bytes": 247840,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "unchanged": true
+    },
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/output/teaching.md",
+      "bytes": 25372,
+      "sha256": "0317f26777f5285616be96713d79e1731818fea76d40954f3e21be2c6dbcb7b5",
+      "unchanged": true
+    },
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/output/figures/signed-sine.svg",
+      "bytes": 34432,
+      "sha256": "091bcfe31b315a1cb00a3d4ecc17bb8adfcb31bebdb3b07d8287fe72d9a81c63",
+      "unchanged": true
+    },
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/output/figures/interval-addition.svg",
+      "bytes": 26014,
+      "sha256": "e6f98867fc64fc626b01c47c7864f357ac40621fe907c6f4ee3486c5594bea33",
+      "unchanged": true
+    }
+  ],
+  "external_content_accessed": false,
+  "non_subject_operational_access": "System and primary Python imports attempted only for SVG rendering; both lacked cairosvg. command -v queried convert/rsvg-convert/inkscape/magick. Inkscape rendered the two whitelisted SVGs. No other subject-content files, sources, browsing, history, research, or agent messages were used.",
+  "ordered_teaching_replay": "Complete teaching replay in exact display order: L1-135, Figure 1, L136-172, Figure 2, L173-536. All text returned without truncation.",
+  "original_report": {
+    "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/evidence/sasis/report-original.md",
+    "bytes": 24791,
+    "sha256": "0aa291b98c8264e1c5de2c380e393de41e19db0d8cf873175e0f6c072b3c9b76",
+    "status": "preserved original before author feedback"
+  }
+}

@@ -1,0 +1,1080 @@
+{
+  "schema_version": 1,
+  "project_root": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27",
+  "skill": {
+    "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/inputs/prof/SKILL.md",
+    "sha256": "a8220e60802e9dc8f79bade1ad4d73e0d4afcccf8c8f1c0514927e4a08731c8e"
+  },
+  "request": {
+    "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/request.txt",
+    "sha256": "cd971ae67c96d81d375e84b0e34e4cec28aa589a0c10af261c1cbf399fc29858"
+  },
+  "required_topics": [
+    {
+      "id": "ftc",
+      "title": "FTC evaluation, interpretation, interval operations, comparison and substitution",
+      "source_portions": [
+        {
+          "source_id": "original",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "baseline",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "route",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "ref-execution-protocol-md",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "ref-state-tool-md",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "ref-domain-patterns-md",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "ref-sasis-md",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "ref-sasis-profile-manifest-json",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "ref-sasis-student-role-txt",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "ref-sasis-student-testing-contract-txt",
+          "portion_id": "all"
+        },
+        {
+          "source_id": "ref-sasis-rewrite-guide-md",
+          "portion_id": "all"
+        }
+      ],
+      "outputs": [
+        "teaching",
+        "sine",
+        "addition"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "original",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/inputs/source/lec19.pdf",
+      "sha256": "f3bccf9b801aebb3266932eb8a549f700e5a38f26d377c85f6fd96ed9e7fb3b7",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "complete file",
+          "disposition": "required",
+          "reason": "Original five PDF pages and all three source figures read; S01-S11 mapped in evidence/author-reconstruction.txt.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "baseline",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/inputs/student-baseline.txt",
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "complete file",
+          "disposition": "required",
+          "reason": "Complete physical lines 1-1377 read in contiguous bounded chunks; see evidence/input-reading.json.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/author/route.txt",
+      "sha256": "94f11d28ee20b455477e41031c59d694c66c0d6462c9174ea775835cf68afd49",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "complete file",
+          "disposition": "required",
+          "reason": "Current scope, baseline assumptions and convention mapping used before drafting.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "ref-execution-protocol-md",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/inputs/prof/references/execution-protocol.md",
+      "sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "complete reference; required operative control",
+          "disposition": "required",
+          "reason": "Read and applied; actual read and truncation recovery recorded in evidence/author-reconstruction.txt.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "ref-state-tool-md",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/inputs/prof/references/state-tool.md",
+      "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "complete reference; required operative control",
+          "disposition": "required",
+          "reason": "Read and applied; actual read and truncation recovery recorded in evidence/author-reconstruction.txt.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "ref-domain-patterns-md",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/inputs/prof/references/domain-patterns.md",
+      "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "complete reference; required operative control",
+          "disposition": "required",
+          "reason": "Read and applied; actual read and truncation recovery recorded in evidence/author-reconstruction.txt.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "ref-sasis-md",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/inputs/prof/references/sasis.md",
+      "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "complete reference; required operative control",
+          "disposition": "required",
+          "reason": "Read and applied; actual read and truncation recovery recorded in evidence/author-reconstruction.txt.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "ref-sasis-profile-manifest-json",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/inputs/prof/references/sasis/profile-manifest.json",
+      "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "complete reference; required operative control",
+          "disposition": "required",
+          "reason": "Read and applied; actual read and truncation recovery recorded in evidence/author-reconstruction.txt.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "ref-sasis-student-role-txt",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/inputs/prof/references/sasis/student-role.txt",
+      "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "complete reference; required operative control",
+          "disposition": "required",
+          "reason": "Read and applied; actual read and truncation recovery recorded in evidence/author-reconstruction.txt.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "ref-sasis-student-testing-contract-txt",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/inputs/prof/references/sasis/student-testing-contract.txt",
+      "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "complete reference; required operative control",
+          "disposition": "required",
+          "reason": "Read and applied; actual read and truncation recovery recorded in evidence/author-reconstruction.txt.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "ref-sasis-rewrite-guide-md",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/inputs/prof/references/sasis/rewrite-guide.md",
+      "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "portions": [
+        {
+          "id": "all",
+          "locator": "complete reference; required operative control",
+          "disposition": "required",
+          "reason": "Read and applied; actual read and truncation recovery recorded in evidence/author-reconstruction.txt.",
+          "evidence": []
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "id": "teaching",
+      "path": "output/teaching.md",
+      "sha256": "0317f26777f5285616be96713d79e1731818fea76d40954f3e21be2c6dbcb7b5"
+    },
+    {
+      "id": "sine",
+      "path": "output/figures/signed-sine.svg",
+      "sha256": "091bcfe31b315a1cb00a3d4ecc17bb8adfcb31bebdb3b07d8287fe72d9a81c63"
+    },
+    {
+      "id": "addition",
+      "path": "output/figures/interval-addition.svg",
+      "sha256": "e6f98867fc64fc626b01c47c7864f357ac40621fe907c6f4ee3486c5594bea33"
+    }
+  ],
+  "output_checks": [
+    {
+      "id": "coverage",
+      "description": "Compare all requested topics and source portions with final locations.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Current complete independent evidence integrated; see exact substantive witness and preserved original reports. Acceptance is scoped to this frozen revision.",
+      "evidence": [
+        {
+          "path": "evidence/final-acceptance.md",
+          "sha256": "3849ed693259806990b913a4e890b2e0250a09b85316ae35db6a78d1de07a739",
+          "locator": {
+            "kind": "text",
+            "value": "Coverage and prerequisite reconstruction: author-reconstruction.txt maps S01\u2013S11 from all five original pages to the actual teaching. The independent technical original-report.md verifies every source content unit, all examples, all six prompts and solutions, and each T1\u2013T12 duty. Root independently solved the exact prompts before seeing answers, read all source pages and complete frozen teaching, and reached matching results. On recovery the coordinator again read all 536 teaching lines without truncation, full published SKILL and execution protocol, current topic records and exact operational constraints. Continuity meanings precede theorem reliance; the derivative condition for substitution constrains the inner function explicitly; signed velocity, magnitude speed, forward area and reversed orientation stay distinct. All consequential comparison and substitution warrants are in the learner route. These are document audits, not learner observations."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "4518dfd9a8bff0dde60bdbfb0b57c6e814f9d8750a4c3c20859b3fef1e91ecf1"
+        },
+        {
+          "kind": "output",
+          "id": "addition",
+          "sha256": "e6f98867fc64fc626b01c47c7864f357ac40621fe907c6f4ee3486c5594bea33"
+        },
+        {
+          "kind": "output",
+          "id": "sine",
+          "sha256": "091bcfe31b315a1cb00a3d4ecc17bb8adfcb31bebdb3b07d8287fe72d9a81c63"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "0317f26777f5285616be96713d79e1731818fea76d40954f3e21be2c6dbcb7b5"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "cd971ae67c96d81d375e84b0e34e4cec28aa589a0c10af261c1cbf399fc29858"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "a8220e60802e9dc8f79bade1ad4d73e0d4afcccf8c8f1c0514927e4a08731c8e"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "original",
+          "sha256": "f3bccf9b801aebb3266932eb8a549f700e5a38f26d377c85f6fd96ed9e7fb3b7"
+        },
+        {
+          "kind": "source",
+          "id": "ref-domain-patterns-md",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "ref-execution-protocol-md",
+          "sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-md",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-profile-manifest-json",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-rewrite-guide-md",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-student-role-txt",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-student-testing-contract-txt",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "ref-state-tool-md",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "route",
+          "sha256": "94f11d28ee20b455477e41031c59d694c66c0d6462c9174ea775835cf68afd49"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "013e020ed56011b7697b9c2cefd625d2c9f273051865099b0f244b0c563c1c39"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original",
+          "sha256": "a394faf8ed5ed285bc8326e50f65abc8ff9f7425342a8d12ece3dc95fb2191f4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-domain-patterns-md",
+          "sha256": "c07f5e8add418969678aa293a64a9e5a1083bf7b5f4734f0806ce5edf034e73a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-execution-protocol-md",
+          "sha256": "eb643ea407fc1aeafa45b14dd046f2013560ea270417cbfd7bd09fd81c011965"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-md",
+          "sha256": "66ae67d198e87af3c5d9e111cdb37cdff166209f80d3406ca05cd3a1b55757b0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-profile-manifest-json",
+          "sha256": "0b661bd36792ca8ea859cc4a938ed16b2c3d2b59cabf0a2887e04c31f5976656"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-rewrite-guide-md",
+          "sha256": "1cc518fa4c9da6365f40cf8969ad1ea445d18d9cf5de042804e4f61e2820a7bb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-student-role-txt",
+          "sha256": "c4723ad8571d9a7f4364d5d88e35b137b89007fc29ed4535d2af16871ce0c804"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-student-testing-contract-txt",
+          "sha256": "20bea60caaf9684aa9ddc535b6ffd41c3265834d50513ec885fb7e2de915adbf"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-state-tool-md",
+          "sha256": "c2a6728ee26414150a3c80c1760d8a4a1ec36e89c15d1674efec6ab10d1f0bb4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "route",
+          "sha256": "6b9510658603d9499e37a325afcf5ede4e73b8615a14ba6aa28f1a5830019e98"
+        },
+        {
+          "kind": "topic",
+          "id": "ftc",
+          "sha256": "88d64fd8e5b4d43d087636896f2b0a8ad2b294c1b3634c4f272f2947a54dbbac"
+        }
+      ]
+    },
+    {
+      "id": "final_review",
+      "description": "Read and audit the actual complete final route, help and material limits.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Current complete independent evidence integrated; see exact substantive witness and preserved original reports. Acceptance is scoped to this frozen revision.",
+      "evidence": [
+        {
+          "path": "evidence/final-acceptance.md",
+          "sha256": "3849ed693259806990b913a4e890b2e0250a09b85316ae35db6a78d1de07a739",
+          "locator": {
+            "kind": "text",
+            "value": "Decision: the complete unchanged generation is adequate within the stated source, baseline and GitHub destination scope. No verified material teaching, source, mathematics or destination failure remains. Publication of the closure and its exact readback remain separate from this local decision."
+          }
+        },
+        {
+          "path": "evidence/final-acceptance.md",
+          "sha256": "3849ed693259806990b913a4e890b2e0250a09b85316ae35db6a78d1de07a739",
+          "locator": {
+            "kind": "text",
+            "value": "T1\u2013T12 are applicable to this complete teaching product. T1\u2013T4 meanings, representations, warrants and connected examples are witnessed in the author S01\u2013S11 reconstruction and technical report; T5\u2013T8 are witnessed by early Q1, changed structural applications Q2\u2013Q5, separated matched help and delayed recall/mixed Q6; T9 by explicit baseline bridges and the two mapped figures; T10 by the independent source and calculation checks; T11 by the actual GitHub evidence; T12 by this integrated complete-route review and the stated limits. No duty is waived or marked inapplicable to avoid work."
+          }
+        },
+        {
+          "path": "evidence/final-acceptance.md",
+          "sha256": "3849ed693259806990b913a4e890b2e0250a09b85316ae35db6a78d1de07a739",
+          "locator": {
+            "kind": "text",
+            "value": "Limits: no actual human mastery, retention gain, exhaustive defect discovery, browser-environment universality, technical isolation or installed-skill change is claimed. The helper's topic/full results will verify declared record mechanics only. Current next action: run those current checks, publish and read back release, then publish and verify 17 accepted/59 remaining closure with all 147 IDs preserved, and transfer sole publication ownership to a fresh D018 coordinator using only original inputs and operational handover."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "4518dfd9a8bff0dde60bdbfb0b57c6e814f9d8750a4c3c20859b3fef1e91ecf1"
+        },
+        {
+          "kind": "output",
+          "id": "addition",
+          "sha256": "e6f98867fc64fc626b01c47c7864f357ac40621fe907c6f4ee3486c5594bea33"
+        },
+        {
+          "kind": "output",
+          "id": "sine",
+          "sha256": "091bcfe31b315a1cb00a3d4ecc17bb8adfcb31bebdb3b07d8287fe72d9a81c63"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "0317f26777f5285616be96713d79e1731818fea76d40954f3e21be2c6dbcb7b5"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "cd971ae67c96d81d375e84b0e34e4cec28aa589a0c10af261c1cbf399fc29858"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "a8220e60802e9dc8f79bade1ad4d73e0d4afcccf8c8f1c0514927e4a08731c8e"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "original",
+          "sha256": "f3bccf9b801aebb3266932eb8a549f700e5a38f26d377c85f6fd96ed9e7fb3b7"
+        },
+        {
+          "kind": "source",
+          "id": "ref-domain-patterns-md",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "ref-execution-protocol-md",
+          "sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-md",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-profile-manifest-json",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-rewrite-guide-md",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-student-role-txt",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-student-testing-contract-txt",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "ref-state-tool-md",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "route",
+          "sha256": "94f11d28ee20b455477e41031c59d694c66c0d6462c9174ea775835cf68afd49"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "013e020ed56011b7697b9c2cefd625d2c9f273051865099b0f244b0c563c1c39"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original",
+          "sha256": "a394faf8ed5ed285bc8326e50f65abc8ff9f7425342a8d12ece3dc95fb2191f4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-domain-patterns-md",
+          "sha256": "c07f5e8add418969678aa293a64a9e5a1083bf7b5f4734f0806ce5edf034e73a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-execution-protocol-md",
+          "sha256": "eb643ea407fc1aeafa45b14dd046f2013560ea270417cbfd7bd09fd81c011965"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-md",
+          "sha256": "66ae67d198e87af3c5d9e111cdb37cdff166209f80d3406ca05cd3a1b55757b0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-profile-manifest-json",
+          "sha256": "0b661bd36792ca8ea859cc4a938ed16b2c3d2b59cabf0a2887e04c31f5976656"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-rewrite-guide-md",
+          "sha256": "1cc518fa4c9da6365f40cf8969ad1ea445d18d9cf5de042804e4f61e2820a7bb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-student-role-txt",
+          "sha256": "c4723ad8571d9a7f4364d5d88e35b137b89007fc29ed4535d2af16871ce0c804"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-student-testing-contract-txt",
+          "sha256": "20bea60caaf9684aa9ddc535b6ffd41c3265834d50513ec885fb7e2de915adbf"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-state-tool-md",
+          "sha256": "c2a6728ee26414150a3c80c1760d8a4a1ec36e89c15d1674efec6ab10d1f0bb4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "route",
+          "sha256": "6b9510658603d9499e37a325afcf5ede4e73b8615a14ba6aa28f1a5830019e98"
+        },
+        {
+          "kind": "topic",
+          "id": "ftc",
+          "sha256": "88d64fd8e5b4d43d087636896f2b0a8ad2b294c1b3634c4f272f2947a54dbbac"
+        }
+      ]
+    },
+    {
+      "id": "destination",
+      "description": "Actual GitHub math payload, visual/style, figures and navigation",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Current complete independent evidence integrated; see exact substantive witness and preserved original reports. Acceptance is scoped to this frozen revision.",
+      "evidence": [
+        {
+          "path": "evidence/final-acceptance.md",
+          "sha256": "3849ed693259806990b913a4e890b2e0250a09b85316ae35db6a78d1de07a739",
+          "locator": {
+            "kind": "text",
+            "value": "Actual GitHub Preview at the immutable commit preserves all 248 expressions (208 inline and 40 display), whole normalized prose, all 35 textual labels/hrefs and both image alt texts."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "4518dfd9a8bff0dde60bdbfb0b57c6e814f9d8750a4c3c20859b3fef1e91ecf1"
+        },
+        {
+          "kind": "output",
+          "id": "addition",
+          "sha256": "e6f98867fc64fc626b01c47c7864f357ac40621fe907c6f4ee3486c5594bea33"
+        },
+        {
+          "kind": "output",
+          "id": "sine",
+          "sha256": "091bcfe31b315a1cb00a3d4ecc17bb8adfcb31bebdb3b07d8287fe72d9a81c63"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "0317f26777f5285616be96713d79e1731818fea76d40954f3e21be2c6dbcb7b5"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "cd971ae67c96d81d375e84b0e34e4cec28aa589a0c10af261c1cbf399fc29858"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "a8220e60802e9dc8f79bade1ad4d73e0d4afcccf8c8f1c0514927e4a08731c8e"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "original",
+          "sha256": "f3bccf9b801aebb3266932eb8a549f700e5a38f26d377c85f6fd96ed9e7fb3b7"
+        },
+        {
+          "kind": "source",
+          "id": "ref-domain-patterns-md",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "ref-execution-protocol-md",
+          "sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-md",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-profile-manifest-json",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-rewrite-guide-md",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-student-role-txt",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-student-testing-contract-txt",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "ref-state-tool-md",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "route",
+          "sha256": "94f11d28ee20b455477e41031c59d694c66c0d6462c9174ea775835cf68afd49"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "013e020ed56011b7697b9c2cefd625d2c9f273051865099b0f244b0c563c1c39"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original",
+          "sha256": "a394faf8ed5ed285bc8326e50f65abc8ff9f7425342a8d12ece3dc95fb2191f4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-domain-patterns-md",
+          "sha256": "c07f5e8add418969678aa293a64a9e5a1083bf7b5f4734f0806ce5edf034e73a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-execution-protocol-md",
+          "sha256": "eb643ea407fc1aeafa45b14dd046f2013560ea270417cbfd7bd09fd81c011965"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-md",
+          "sha256": "66ae67d198e87af3c5d9e111cdb37cdff166209f80d3406ca05cd3a1b55757b0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-profile-manifest-json",
+          "sha256": "0b661bd36792ca8ea859cc4a938ed16b2c3d2b59cabf0a2887e04c31f5976656"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-rewrite-guide-md",
+          "sha256": "1cc518fa4c9da6365f40cf8969ad1ea445d18d9cf5de042804e4f61e2820a7bb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-student-role-txt",
+          "sha256": "c4723ad8571d9a7f4364d5d88e35b137b89007fc29ed4535d2af16871ce0c804"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-student-testing-contract-txt",
+          "sha256": "20bea60caaf9684aa9ddc535b6ffd41c3265834d50513ec885fb7e2de915adbf"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-state-tool-md",
+          "sha256": "c2a6728ee26414150a3c80c1760d8a4a1ec36e89c15d1674efec6ab10d1f0bb4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "route",
+          "sha256": "6b9510658603d9499e37a325afcf5ede4e73b8615a14ba6aa28f1a5830019e98"
+        },
+        {
+          "kind": "topic",
+          "id": "ftc",
+          "sha256": "88d64fd8e5b4d43d087636896f2b0a8ad2b294c1b3634c4f272f2947a54dbbac"
+        }
+      ]
+    },
+    {
+      "id": "sasis",
+      "description": "Full fresh reader admission and all reported concerns dispositioned",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Current complete independent evidence integrated; see exact substantive witness and preserved original reports. Acceptance is scoped to this frozen revision.",
+      "evidence": [
+        {
+          "path": "evidence/final-acceptance.md",
+          "sha256": "3849ed693259806990b913a4e890b2e0250a09b85316ae35db6a78d1de07a739",
+          "locator": {
+            "kind": "text",
+            "value": "The report's 35 chronological witnesses establish no unsupported connection or blocked downstream branch."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "4518dfd9a8bff0dde60bdbfb0b57c6e814f9d8750a4c3c20859b3fef1e91ecf1"
+        },
+        {
+          "kind": "output",
+          "id": "addition",
+          "sha256": "e6f98867fc64fc626b01c47c7864f357ac40621fe907c6f4ee3486c5594bea33"
+        },
+        {
+          "kind": "output",
+          "id": "sine",
+          "sha256": "091bcfe31b315a1cb00a3d4ecc17bb8adfcb31bebdb3b07d8287fe72d9a81c63"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "0317f26777f5285616be96713d79e1731818fea76d40954f3e21be2c6dbcb7b5"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "cd971ae67c96d81d375e84b0e34e4cec28aa589a0c10af261c1cbf399fc29858"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "a8220e60802e9dc8f79bade1ad4d73e0d4afcccf8c8f1c0514927e4a08731c8e"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "original",
+          "sha256": "f3bccf9b801aebb3266932eb8a549f700e5a38f26d377c85f6fd96ed9e7fb3b7"
+        },
+        {
+          "kind": "source",
+          "id": "ref-domain-patterns-md",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "ref-execution-protocol-md",
+          "sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-md",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-profile-manifest-json",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-rewrite-guide-md",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-student-role-txt",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-student-testing-contract-txt",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "ref-state-tool-md",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "route",
+          "sha256": "94f11d28ee20b455477e41031c59d694c66c0d6462c9174ea775835cf68afd49"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "013e020ed56011b7697b9c2cefd625d2c9f273051865099b0f244b0c563c1c39"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original",
+          "sha256": "a394faf8ed5ed285bc8326e50f65abc8ff9f7425342a8d12ece3dc95fb2191f4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-domain-patterns-md",
+          "sha256": "c07f5e8add418969678aa293a64a9e5a1083bf7b5f4734f0806ce5edf034e73a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-execution-protocol-md",
+          "sha256": "eb643ea407fc1aeafa45b14dd046f2013560ea270417cbfd7bd09fd81c011965"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-md",
+          "sha256": "66ae67d198e87af3c5d9e111cdb37cdff166209f80d3406ca05cd3a1b55757b0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-profile-manifest-json",
+          "sha256": "0b661bd36792ca8ea859cc4a938ed16b2c3d2b59cabf0a2887e04c31f5976656"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-rewrite-guide-md",
+          "sha256": "1cc518fa4c9da6365f40cf8969ad1ea445d18d9cf5de042804e4f61e2820a7bb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-student-role-txt",
+          "sha256": "c4723ad8571d9a7f4364d5d88e35b137b89007fc29ed4535d2af16871ce0c804"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-student-testing-contract-txt",
+          "sha256": "20bea60caaf9684aa9ddc535b6ffd41c3265834d50513ec885fb7e2de915adbf"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-state-tool-md",
+          "sha256": "c2a6728ee26414150a3c80c1760d8a4a1ec36e89c15d1674efec6ab10d1f0bb4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "route",
+          "sha256": "6b9510658603d9499e37a325afcf5ede4e73b8615a14ba6aa28f1a5830019e98"
+        },
+        {
+          "kind": "topic",
+          "id": "ftc",
+          "sha256": "88d64fd8e5b4d43d087636896f2b0a8ad2b294c1b3634c4f272f2947a54dbbac"
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "description": "Independent full source, mathematics and PROF audit",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Current complete independent evidence integrated; see exact substantive witness and preserved original reports. Acceptance is scoped to this frozen revision.",
+      "evidence": [
+        {
+          "path": "evidence/final-acceptance.md",
+          "sha256": "3849ed693259806990b913a4e890b2e0250a09b85316ae35db6a78d1de07a739",
+          "locator": {
+            "kind": "text",
+            "value": "Whole-source coverage, theorem hypotheses, orientation, sign splits, units, exponential bounds, substitution factors and alternative methods were independently reconstructed."
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "4518dfd9a8bff0dde60bdbfb0b57c6e814f9d8750a4c3c20859b3fef1e91ecf1"
+        },
+        {
+          "kind": "output",
+          "id": "addition",
+          "sha256": "e6f98867fc64fc626b01c47c7864f357ac40621fe907c6f4ee3486c5594bea33"
+        },
+        {
+          "kind": "output",
+          "id": "sine",
+          "sha256": "091bcfe31b315a1cb00a3d4ecc17bb8adfcb31bebdb3b07d8287fe72d9a81c63"
+        },
+        {
+          "kind": "output",
+          "id": "teaching",
+          "sha256": "0317f26777f5285616be96713d79e1731818fea76d40954f3e21be2c6dbcb7b5"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "cd971ae67c96d81d375e84b0e34e4cec28aa589a0c10af261c1cbf399fc29858"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "a8220e60802e9dc8f79bade1ad4d73e0d4afcccf8c8f1c0514927e4a08731c8e"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "original",
+          "sha256": "f3bccf9b801aebb3266932eb8a549f700e5a38f26d377c85f6fd96ed9e7fb3b7"
+        },
+        {
+          "kind": "source",
+          "id": "ref-domain-patterns-md",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "ref-execution-protocol-md",
+          "sha256": "ea32dc1af6c2141192eeadabd3f8360570dade0bf010f3f34dade298acdd2a60"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-md",
+          "sha256": "68b80bd01a178c730531cccf2b298b43f6407264a734b0adefc90369cc455356"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-profile-manifest-json",
+          "sha256": "a1f30108c3acf6b56e1b96598b3c2ccb3b21df34b763a546a38517fe12594349"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-rewrite-guide-md",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-student-role-txt",
+          "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+        },
+        {
+          "kind": "source",
+          "id": "ref-sasis-student-testing-contract-txt",
+          "sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae"
+        },
+        {
+          "kind": "source",
+          "id": "ref-state-tool-md",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "route",
+          "sha256": "94f11d28ee20b455477e41031c59d694c66c0d6462c9174ea775835cf68afd49"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "013e020ed56011b7697b9c2cefd625d2c9f273051865099b0f244b0c563c1c39"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original",
+          "sha256": "a394faf8ed5ed285bc8326e50f65abc8ff9f7425342a8d12ece3dc95fb2191f4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-domain-patterns-md",
+          "sha256": "c07f5e8add418969678aa293a64a9e5a1083bf7b5f4734f0806ce5edf034e73a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-execution-protocol-md",
+          "sha256": "eb643ea407fc1aeafa45b14dd046f2013560ea270417cbfd7bd09fd81c011965"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-md",
+          "sha256": "66ae67d198e87af3c5d9e111cdb37cdff166209f80d3406ca05cd3a1b55757b0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-profile-manifest-json",
+          "sha256": "0b661bd36792ca8ea859cc4a938ed16b2c3d2b59cabf0a2887e04c31f5976656"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-rewrite-guide-md",
+          "sha256": "1cc518fa4c9da6365f40cf8969ad1ea445d18d9cf5de042804e4f61e2820a7bb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-student-role-txt",
+          "sha256": "c4723ad8571d9a7f4364d5d88e35b137b89007fc29ed4535d2af16871ce0c804"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-sasis-student-testing-contract-txt",
+          "sha256": "20bea60caaf9684aa9ddc535b6ffd41c3265834d50513ec885fb7e2de915adbf"
+        },
+        {
+          "kind": "source_scope",
+          "id": "ref-state-tool-md",
+          "sha256": "c2a6728ee26414150a3c80c1760d8a4a1ec36e89c15d1674efec6ab10d1f0bb4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "route",
+          "sha256": "6b9510658603d9499e37a325afcf5ede4e73b8615a14ba6aa28f1a5830019e98"
+        },
+        {
+          "kind": "topic",
+          "id": "ftc",
+          "sha256": "88d64fd8e5b4d43d087636896f2b0a8ad2b294c1b3634c4f272f2947a54dbbac"
+        }
+      ]
+    }
+  ]
+}

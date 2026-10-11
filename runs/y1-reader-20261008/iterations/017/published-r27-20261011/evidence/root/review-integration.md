@@ -1,0 +1,5 @@
+# Root review integration for D017 r27
+
+Root read the entire original SASIS report (including recovery of its truncated final portion), full byte-range read log, and entire independent technical/source report (including bounded recovery of the initially truncated beginning). The admission hashes, continuous baseline/teaching byte coverage, both figure inspections, supported-premise reconstruction and independent prompt calculations agree with root separate source/content/destination evidence. SASIS explicitly preserves its initial chunk-order limitation and ordered complete replay; instruction confinement is not technical isolation or erased pretraining. Technical review explicitly claims selected relevant baseline portions only; the fresh SASIS and author own separate full-baseline admission.
+
+No substantive defect is demonstrated by these reports. Root finds the integrated local evidence adequate for the coordinator to close D017 after all declared state gates, publication and exact readback checks pass. This is not a claim of human learning or exhaustive error discovery.

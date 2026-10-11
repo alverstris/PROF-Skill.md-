@@ -1,0 +1,31 @@
+from pathlib import Path
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import numpy as np
+p=Path('/workspace/scratch/f9c0b7fc7e76/d017-clean-r27/output/figures')
+plt.rcParams.update({'font.size':12,'font.weight':'normal','axes.titleweight':'normal','axes.labelweight':'normal','svg.fonttype':'none','font.family':'DejaVu Sans'})
+fig,ax=plt.subplots(figsize=(8.2,3.4),layout='constrained')
+x=np.linspace(0,2*np.pi,500);y=np.sin(x)
+ax.axhline(0,color='#333333',lw=.9)
+ax.fill_between(x,0,y,where=x<=np.pi,color='#3e8fb0',alpha=.23)
+ax.fill_between(x,0,y,where=x>=np.pi,color='#d58a4d',alpha=.25)
+ax.plot(x,y,color='#1d4458',lw=2)
+ax.text(np.pi/2,.43,'signed integral +2',ha='center',fontsize=11)
+ax.text(3*np.pi/2,-.48,'signed integral −2',ha='center',fontsize=11)
+ax.set_xticks([0,np.pi/2,np.pi,3*np.pi/2,2*np.pi],['0','π/2','π','3π/2','2π'])
+ax.set_yticks([-1,0,1]);ax.set_ylim(-1.25,1.25);ax.set_xlim(-.15,2*np.pi+.22)
+ax.set_xlabel('x (radians)');ax.set_ylabel('sin x');ax.spines[['top','right']].set_visible(False)
+fig.savefig(p/'signed-sine.svg');fig.savefig(p/'signed-sine.png',dpi=140);plt.close(fig)
+fig,ax=plt.subplots(figsize=(7.2,3.6),layout='constrained')
+x=np.linspace(0,2,400);y=1+.5*x*x
+ax.fill_between(x,0,y,where=x<=1,color='#3e8fb0',alpha=.25)
+ax.fill_between(x,0,y,where=x>=1,color='#a392bd',alpha=.25)
+ax.plot(x,y,color='#1d4458',lw=2)
+for t in [0,1,2]:ax.vlines(t,0,1+.5*t*t,color='#555555',lw=1)
+ax.text(.46,.47,'first contribution',ha='center',fontsize=11)
+ax.text(1.52,.65,'second contribution',ha='center',fontsize=11)
+ax.set_xticks([0,1,2],['a','b','c']);ax.set_yticks([]);ax.set_xlim(-.15,2.15);ax.set_ylim(0,3.5)
+ax.set_xlabel('x');ax.set_ylabel('f(x)');ax.spines[['top','right']].set_visible(False)
+fig.savefig(p/'interval-addition.svg');fig.savefig(p/'interval-addition.png',dpi=140);plt.close(fig)
+print('Two SVG figures and their matching raster inspection copies created.')

@@ -1,0 +1,13 @@
+interface:
+  display_name: PROF
+  short_description: "Teaching documents; explicit SASIS self-iteration"
+  default_prompt: "Use $prof to write or revise a teaching document from my goal and materials, applying its research, explanation, practice, and verification workflow to every topic and saving recovery state for long work."
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

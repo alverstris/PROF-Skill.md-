@@ -1,0 +1,149 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{prof}[2026/09/12 Readable teaching documents]
+
+% Portable pdfLaTeX defaults. No shell escape or proprietary fonts.
+\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{lmodern}
+\RequirePackage[a4paper,margin=25mm,headheight=15pt,headsep=9mm]{geometry}
+\RequirePackage{microtype}
+\RequirePackage{amsmath,amssymb,mathtools}
+\RequirePackage{xcolor}
+\RequirePackage{graphicx}
+\RequirePackage{booktabs,tabularx,array}
+\RequirePackage{enumitem}
+\RequirePackage{titlesec}
+\RequirePackage{caption}
+\RequirePackage{fancyhdr}
+\RequirePackage{needspace}
+\RequirePackage{listings}
+\RequirePackage{tcolorbox}
+\tcbuselibrary{breakable,skins}
+\RequirePackage{hyperref}
+\RequirePackage{bookmark}
+
+\definecolor{ProfInk}{HTML}{20333D}
+\definecolor{ProfTeal}{HTML}{176C70}
+\definecolor{ProfPale}{HTML}{F3F8F8}
+\definecolor{ProfRule}{HTML}{C8DADB}
+\color{ProfInk}
+\hypersetup{colorlinks=true,linkcolor=ProfTeal,urlcolor=ProfTeal,
+  citecolor=ProfTeal,pdfborder={0 0 0},pdfdisplaydoctitle=true}
+\urlstyle{same}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55\baselineskip}
+\linespread{1.06}
+\setlength{\emergencystretch}{2em}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\setlength{\abovedisplayskip}{9pt plus 2pt minus 2pt}
+\setlength{\belowdisplayskip}{9pt plus 2pt minus 2pt}
+
+% All prose hierarchy uses spacing, size and colour, never bold or italics.
+\titleformat{\section}{\large\sffamily\mdseries\upshape\color{ProfInk}}
+  {\thesection}{0.7em}{}
+\titleformat{\subsection}{\normalsize\sffamily\mdseries\upshape\color{ProfTeal}}
+  {\thesubsection}{0.7em}{}
+\titleformat{\subsubsection}{\normalsize\sffamily\mdseries\upshape\color{ProfInk}}
+  {\thesubsubsection}{0.7em}{}
+\titleformat{\paragraph}[runin]{\normalfont\mdseries\upshape\color{ProfInk}}
+  {}{0pt}{}[.]
+\titleformat{\subparagraph}[runin]{\normalfont\mdseries\upshape\color{ProfInk}}
+  {}{0pt}{}[.]
+\titlespacing*{\section}{0pt}{1.4\baselineskip}{0.3\baselineskip}
+\titlespacing*{\subsection}{0pt}{0.9\baselineskip}{0.2\baselineskip}
+\titlespacing*{\subsubsection}{0pt}{0.7\baselineskip}{0.15\baselineskip}
+\setlist{topsep=3pt,itemsep=3pt,parsep=0pt,leftmargin=*}
+\setlist[description]{font=\normalfont\mdseries\upshape}
+\captionsetup{font=small,labelfont={sf,md,up},textfont={md,up},
+  justification=raggedright,singlelinecheck=false,skip=6pt}
+\renewcommand{\arraystretch}{1.18}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\newcommand{\ProfRunningTitle}{Teaching notes}
+\newcommand{\ProfHeader}[1]{\renewcommand{\ProfRunningTitle}{#1}}
+\fancypagestyle{prof}{%
+  \fancyhf{}%
+  \fancyhead[L]{\small\sffamily\mdseries\upshape\ProfRunningTitle}%
+  \fancyfoot[R]{\small\sffamily\mdseries\upshape\thepage}%
+  \renewcommand{\headrulewidth}{0.3pt}%
+  \renewcommand{\footrulewidth}{0pt}%
+}
+\fancypagestyle{plain}[prof]{}
+\pagestyle{prof}
+
+\newcommand{\ProfTitle}[2]{%
+  \hypersetup{pdftitle={#1}}%
+  {\LARGE\sffamily\mdseries\upshape\color{ProfInk}#1\par}%
+  \vspace{0.2\baselineskip}%
+  {\normalsize\mdseries\upshape #2\par}%
+  \vspace{0.2\baselineskip}%
+}
+
+\lstdefinestyle{prof}{basicstyle=\small\ttfamily\mdseries\upshape,
+  keywordstyle=\color{ProfTeal}\mdseries\upshape,
+  commentstyle=\color{ProfInk!75}\mdseries\upshape,
+  stringstyle=\color{ProfTeal}\mdseries\upshape,
+  showstringspaces=false,breaklines=true,columns=fullflexible,
+  keepspaces=true,frame=single,rulecolor=\color{ProfRule},
+  framerule=0.4pt,framesep=6pt,aboveskip=8pt,belowskip=8pt}
+\lstset{style=prof}
+
+% Use these boxes selectively. Ordinary exposition and full solutions are prose.
+\newtcolorbox{profbox}[1]{enhanced,breakable,colback=ProfPale,
+  colframe=ProfRule,colbacktitle=ProfPale,coltitle=ProfTeal,
+  fonttitle=\normalfont\sffamily\mdseries\upshape,
+  title={#1},boxrule=0.4pt,arc=1mm,left=3mm,right=3mm,
+  top=2mm,bottom=2mm,toptitle=2mm,bottomtitle=0mm,
+  before skip=9pt,after skip=9pt}
+\newenvironment{profworked}[1]
+  {\begin{profbox}{Worked example\quad #1}}
+  {\end{profbox}}
+
+% Unique, stable IDs connect attempts and support without JavaScript.
+\newcounter{profquestion}
+\newcommand{\ProfHintLink}[1]{\hyperlink{hint:#1}{Hint}}
+\newcommand{\ProfSolutionLink}[1]{\hyperlink{solution:#1}{Full solution}}
+\newcommand{\ProfReturnLink}[1]{\hyperlink{question:#1}{Return to attempt}}
+\newcommand{\ProfAttemptLink}[1]{%
+  \hyperlink{question:#1}{Attempt~\ref*{q:#1}}}
+\newenvironment{profattempt}[2]{%
+  \refstepcounter{profquestion}%
+  \def\profcurrentid{#1}%
+  \begin{profbox}{Attempt \theprofquestion\quad #2}%
+  \hypertarget{question:#1}{}\label{q:#1}%
+}{%
+  \par\smallskip
+  {\small\ProfHintLink{\profcurrentid}\quad|\quad
+   \ProfSolutionLink{\profcurrentid}\par}%
+  \end{profbox}%
+}
+\newenvironment{profhint}[2]{%
+  \def\profcurrentid{#1}%
+  \begin{profbox}{Hint for attempt \ref*{q:#1}\quad #2}%
+  \hypertarget{hint:#1}{}%
+}{%
+  \par\smallskip
+  {\small\ProfSolutionLink{\profcurrentid}\quad|\quad
+   \ProfReturnLink{\profcurrentid}\par}%
+  \end{profbox}%
+}
+\newenvironment{profsolution}[2]{%
+  \def\profcurrentid{#1}%
+  \Needspace{5\baselineskip}%
+  \subsection*{Solution to attempt \ref*{q:#1}\quad #2}%
+  \hypertarget{solution:#1}{}%
+}{%
+  \par\smallskip
+  {\small\ProfReturnLink{\profcurrentid}\par}%
+}
+
+% Bibliographic prose also stays upright. Use this simple source list for a
+% small guide; document a normal BibTeX/biblatex build for a larger project.
+\newenvironment{profsources}{\section*{Sources}\begin{enumerate}}
+  {\end{enumerate}}
+
+\endinput

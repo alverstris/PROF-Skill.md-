@@ -1,0 +1,116 @@
+[
+  {
+    "case": "source x^5 on [0,1]",
+    "computed": "1/6",
+    "expected": "1/6",
+    "pass": true
+  },
+  {
+    "case": "Q1 x^2 on [-1,2]",
+    "computed": "3",
+    "expected": "3",
+    "pass": true
+  },
+  {
+    "case": "worked velocity first piece",
+    "computed": "-1/2",
+    "expected": "-1/2",
+    "pass": true
+  },
+  {
+    "case": "worked velocity second piece",
+    "computed": "1/2",
+    "expected": "1/2",
+    "pass": true
+  },
+  {
+    "case": "Q2 first piece",
+    "computed": "-1",
+    "expected": "-1",
+    "pass": true
+  },
+  {
+    "case": "Q2 second piece",
+    "computed": "4",
+    "expected": "4",
+    "pass": true
+  },
+  {
+    "case": "orientation x^2 on [2,1]",
+    "computed": "-7/3",
+    "expected": "-7/3",
+    "pass": true
+  },
+  {
+    "case": "nonordered additivity",
+    "computed": "1/3",
+    "expected": "1/3",
+    "pass": true
+  },
+  {
+    "case": "source linear lower bound integral",
+    "computed": "3/2",
+    "expected": "3/2",
+    "pass": true
+  },
+  {
+    "case": "Q4 linear lower bound integral",
+    "computed": "4",
+    "expected": "4",
+    "pass": true
+  },
+  {
+    "case": "source substitution versus direct expansion",
+    "computed": "99757/15",
+    "expected": "99757/15",
+    "pass": true
+  },
+  {
+    "case": "decreasing substitution direct expansion",
+    "computed": "7/3",
+    "expected": "7/3",
+    "pass": true
+  },
+  {
+    "case": "Q5 direct expansion",
+    "computed": "15/8",
+    "expected": "15/8",
+    "pass": true
+  },
+  {
+    "case": "Q6 first piece",
+    "computed": "-1/4",
+    "expected": "-1/4",
+    "pass": true
+  },
+  {
+    "case": "Q6 second piece",
+    "computed": "9/4",
+    "expected": "9/4",
+    "pass": true
+  },
+  {
+    "case": "Q6 total",
+    "computed": "2",
+    "expected": "2",
+    "pass": true
+  },
+  {
+    "case": "Q6 reversed",
+    "computed": "-2",
+    "expected": "-2",
+    "pass": true
+  },
+  {
+    "case": "Q6 geometric area",
+    "computed": "5/2",
+    "expected": "5/2",
+    "pass": true
+  },
+  {
+    "case": "numerical sanity of exponential bounds (not a proof)",
+    "e_ge_2": true,
+    "e_ge_5_over_2": true,
+    "e_squared_ge_5": true
+  }
+]

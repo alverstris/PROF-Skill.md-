@@ -1,3 +1,9 @@
+## 2026-10-11 — D017 accepted; metadata-only PROF r28 verified
+
+The complete first r27 generation remained unchanged through full original SASIS, independent source/mathematics/PROF, actual GitHub destination and current topic/full state checks. All 248 expressions, both figures, normal prose and every 34 local content link pass. All 120 release paths and the complete 36-file current root package were fetched back exactly from 70ddebfbfa52e9ec57043e493fff9c01aba5f9f6. No material failure or operative rule change was invented; r28 changes version metadata only. Queue advances to 17/76 accepted and 59 remaining while preserving all 147 IDs and 71 exclusions. D018 is next after closure readback. Root's two opaque original-source audit archive files were preserved separately with no acceptance/count consequence.
+
+Earlier dated entries retain their historical states.
+
 ## 2026-10-11 — D016 reaccepted; PROF r27 metadata progression verified
 
 The complete fresh r26b generation and all current audits pass, including actual destination preservation of 272 expressions, all three figures, normal prose style and all 30 content links. Release 659829bd4010b19e5800c55c44fc0ddfacf1571a and all 144 planned bytes were fetched back and verified. r27 changes only metadata.version; no new material failure or teaching repair was invented. D016 restores the queue to 16/76 accepted and 60 remaining. All 147 IDs and 71 exclusions remain; historical acceptance/reopening/pending records are preserved. Next: verify this closure checkpoint and start D017 from published r27 in a fresh context.

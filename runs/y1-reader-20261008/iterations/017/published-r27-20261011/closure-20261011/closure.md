@@ -1,0 +1,7 @@
+D017 accepted, 2026-10-11
+
+The first complete r27 generation frozen at a7b7de5e040882fa605716e3a954ee067d3ce9a6 remains byte-identical. Its complete source, mathematics, prerequisite reconstruction, full-input fresh SASIS, actual GitHub expression/style/figure/navigation and topic/full state gates pass within the recorded scopes. See ../evidence/final-acceptance.md and the unchanged original reports. No material failure or frozen teaching edit occurred.
+
+Metadata-only PROF r28 and all 120 release files were published at 70ddebfbfa52e9ec57043e493fff9c01aba5f9f6, fetched back and independently checked against every intended SHA256, byte count and Git blob. All 36 current root-package file bodies were fetched and verified separately. Only version metadata changed; other 35 files are unchanged. The two source-only audit archive files were also read back exactly; their contents have no queue acceptance consequence and are excluded from future fresh author inputs before freeze.
+
+This closure advances to 17 accepted and 59 remaining of 76 eligible, with all 147 original IDs/order and 71 exclusions preserved. D018, MIT 18.01 Fall 2006 Lecture 20, is next. The closure checkpoint itself must be read back before publisher handover. No human learning outcome, exhaustive error discovery, installed skill, automation change or user-computer operation is claimed. The preserved helper state binds the actual incoming r27 generation; the metadata-only outgoing version does not retroactively replace that provenance.

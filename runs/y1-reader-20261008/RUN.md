@@ -1,3 +1,11 @@
+D017 accepted; D018 next under verified PROF r28, 2026-10-11
+
+Complete unchanged D017 r27 teaching and all current gates pass. Release 70ddebfbfa52e9ec57043e493fff9c01aba5f9f6 was fetched back: all 120 planned files and all 36 current root-package files match exact bytes. r28 changes only metadata.version. Closure evidence: iterations/017/published-r27-20261011/closure-20261011/closure.md and phase-a-verification.json.
+
+Current counts: 17 accepted, 59 remaining, 76 eligible, 71 excluded, all 147 original IDs/order retained. D018 remains pending and is next. Verify this progress checkpoint before transferring sole publication ownership to a fresh author/coordinator using only current published PROF, original D018 source, complete baseline, task and filtered operational state. Do not expose prior teaching, reports, diagnoses, raw queue/RUN or source-audit archives before the fresh generation freezes. Root owns future destination support. Continue all remaining sessions; no installed-skill, computer or automation changes.
+
+Earlier dated records follow unchanged.
+
 D016 closure verified; D017 next under PROF r27, 2026-10-11
 
 Actual r27 release 659829bd4010b19e5800c55c44fc0ddfacf1571a and D016 closure/count checkpoint 098d9df84c8dfa1a504ff6ed7220d3853e617192 were fetched and read back: all 144 release files and all 11 closure files exactly match. Frozen teaching and the other 35 package files remain unchanged; r27 is version metadata only. See iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure-publication-receipt.json and phase-b-verification.json.

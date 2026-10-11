@@ -1,3 +1,11 @@
+D007 closure and PROF r30 verified; fresh D008 continues, 2026-10-11
+
+Release a99cce571340a15a257c67d162dc94de494d86a7 and closure 0189c8bbc355b6347bee172dd554934ccc580e39 were fetched and exactly compared: all 87 release paths, seven closure paths, and all 36 current root-package files. Root independently verified package/archives and the canonical queue. See iterations/007/published-r29-20261011/closure-final-receipt.json and exact readback receipts.
+
+Current verified counts: 14 accepted, 62 remaining, 76 eligible, 71 excluded, all 147 original IDs/order retained. D008 is active. After this receipt publication is verified, transfer sole publication ownership to a fresh coordinator with only the verified package, complete baseline, original seven-page D008 source and operational handover. Continue the whole corpus; no installed-skill, computer or automation changes.
+
+Earlier dated records follow unchanged.
+
 D007 closed after verified PROF r30 release; fresh D008 next, 2026-10-11
 
 The unchanged complete teaching is frozen at 4765d39aa399a0a1ff09223cae21b15ce6c7f720. All whole-source, blind-prompt technical, complete-input SASIS and actual GitHub checks pass within their stated boundaries. The minor caption referent and readable annotation overlap remain recorded; initial GitHub page-loading errors recovered and ordinary retests succeeded. No material defect or behavioral repair is invented.

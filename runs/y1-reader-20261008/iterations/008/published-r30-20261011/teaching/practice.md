@@ -1,0 +1,64 @@
+Practice
+
+Use the section links in the [lesson](lesson.md) to decide when to attempt each task. The response criteria are included in the prompts. [Hints](hints.md) and [Solutions](solutions.md) are separate files; each uses the same exercise identifiers.
+
+<a id="e1"></a>
+E1. Local estimate from a known point
+
+For $`f(x)=\sqrt{x}`$, use $`x_0=4`$ to construct its tangent-line approximation, estimate $`\sqrt{4.04}`$, and identify the displacement used. Explain why using $`x`$ itself in place of $`x-4`$ would fail the requirement at the basepoint. Your response should show the basepoint value, slope, approximate value and basepoint check.
+
+[Hint E1](hints.md#e1) · [Solution E1](solutions.md#e1)
+
+<a id="e2"></a>
+E2. Combining first-order information
+
+Let $`g(x)=e^{3x}/\sqrt{1-2x}`$. Construct the linear approximation at zero by using basic approximations, and infer $`g(0)`$ and $`g'(0)`$. Identify the substituted small inputs and a real domain near zero on which the original expression is defined. Explain why retaining only the $`x^2`$ product of the two linear terms would not yet give a justified quadratic approximation.
+
+[Hint E2](hints.md#e2) · [Solution E2](solutions.md#e2)
+
+<a id="e3"></a>
+E3. A limit from local behaviour
+
+Find
+
+```math
+\lim_{x\to0}\frac{\ln(1+3x)}{x}.
+```
+
+Explain why a numerical approximation symbol alone is insufficient to establish the exact limit, and supply a derivative-definition or remainder argument. State the domain condition relevant near zero.
+
+[Hint E3](hints.md#e3) · [Solution E3](solutions.md#e3)
+
+<a id="e4"></a>
+E4. Curvature and a comparison
+
+Construct the quadratic approximation to $`\ln(1+x)`$ at zero and use it to estimate $`\ln(0.9)`$. Compare the absolute errors of this estimate and the linear estimate, using the supplied reference $`\ln(0.9)=-0.1053605157`$ to the digits shown. Explain the sign of the quadratic correction. Does constructing the quadratic approximation to $`\sin x`$ at zero necessarily produce a nonzero $`x^2`$ term? Justify using its second derivative at zero. Your response should connect the coefficients to derivatives, not only quote a list.
+
+[Hint E4](hints.md#e4) · [Solution E4](solutions.md#e4)
+
+<a id="e5"></a>
+E5. A complete product through second order
+
+Return to $`g(x)=e^{3x}/\sqrt{1-2x}`$. Find its quadratic approximation at zero by expanding both factors through second order. Identify every contribution to the $`x^2`$ coefficient. Infer $`g''(0)`$, and explain why a cubic term produced during multiplication is not retained. Your response should distinguish the polynomial approximation from exact equality to $`g`$.
+
+[Hint E5](hints.md#e5) · [Solution E5](solutions.md#e5)
+
+<a id="e6"></a>
+E6. Choosing accuracy in the clock model
+
+Use the supplied model $`T'=T/\sqrt{1-v^2/c^2}`$, where $`T`$ is the elapsed time on a clock moving at constant speed $`v`$ relative to an inertial reference frame, and $`T'`$ is that frame's elapsed coordinate time for the same two clock events; gravity is neglected. Let $`v/c=0.02`$ and $`T=1000\ \mathrm{s}`$. Obtain both the approximation linear in $`\epsilon=(v/c)^2`$ and the approximation quadratic in $`\epsilon`$.
+
+The exact model value, rounded for comparison, is $`T'=1000.200060020007\ \mathrm{s}`$. A calculation is required to have absolute error below $`0.00001\ \mathrm{s}`$. Which of your two estimates meets this requirement? Report both errors, explain why “linear in $`\epsilon`$” is already quadratic in $`v/c`$, and state one reason this model alone is not a complete GPS clock calculation.
+
+[Hint E6](hints.md#e6) · [Solution E6](solutions.md#e6)
+
+<a id="e7"></a>
+E7. Later return and method choice
+
+Without looking back initially, reconstruct the local linear and quadratic formulas from the requirement to match a function's value, slope and second derivative at a basepoint. Then use $`f(2)=5`$, $`f'(2)=0`$ and $`f''(2)=-6`$ to estimate $`f(2.03)`$ with the quadratic formula, assuming $`f`$ has continuous second derivative near 2. Explain what the linear formula predicts and what the quadratic correction adds.
+
+Finally, assess this claim: “A quadratic approximation must have a nonzero squared term and must be more accurate than a linear approximation at every input.” Give a reasoned correction, identifying what is local and what the derivative data do not certify about a numerical error tolerance.
+
+[Hint E7](hints.md#e7) · [Solution E7](solutions.md#e7)
+
+[Back to lesson](lesson.md) · [All hints](hints.md) · [All solutions](solutions.md)

@@ -1,0 +1,66 @@
+{
+  "timestamp_utc": "2026-10-11T23:03:50.443733+00:00",
+  "prompt_sha256": "4e1a9174104dd053bd5ff29bb3fdbdaa4081ea27c35d0f81c3b138153d607742",
+  "arithmetic_method": "Exact rational polynomial convolution and 65-digit Decimal calculations. No teaching/answer file read.",
+  "E1": {
+    "h": "0.04",
+    "L": "2.01",
+    "square_of_estimate": "4.0401"
+  },
+  "E2_E5": {
+    "exponential_coefficients_0_to_3": [
+      "1",
+      "3",
+      "9/2",
+      "9/2"
+    ],
+    "reciprocal_sqrt_coefficients_0_to_3": [
+      "1",
+      "1",
+      "3/2",
+      "5/2"
+    ],
+    "product_coefficients_0_to_3": [
+      "1",
+      "4",
+      "9",
+      "16"
+    ],
+    "g_0": "1",
+    "g_prime_0": "4",
+    "g_second_0": "18",
+    "log_derivative_at_zero": "4",
+    "derivative_of_log_derivative_at_zero": "2"
+  },
+  "E4": {
+    "linear_estimate": "-0.1",
+    "quadratic_estimate": "-0.105",
+    "linear_absolute_error_vs_supplied_reference": "0.0053605157",
+    "quadratic_absolute_error_vs_supplied_reference": "0.0003605157",
+    "reference_precision_note": "Reference supplied to 10 decimal places; the reported errors are relative to those shown digits."
+  },
+  "E6": {
+    "epsilon": "0.0004",
+    "linear_estimate_s": "1000.2000",
+    "quadratic_estimate_s": "1000.20006000",
+    "linear_absolute_error_vs_supplied_reference_s": "0.000060020007",
+    "quadratic_absolute_error_vs_supplied_reference_s": "2.0007E-8",
+    "independent_model_value_s": "1000.2000600200070025209243433287486384826570251964613211776513841",
+    "linear_absolute_error_vs_model_s": "0.0000600200070025209243433287486384826570251964613211776513841",
+    "quadratic_absolute_error_vs_model_s": "2.00070025209243433287486384826570251964613211776513841E-8",
+    "tolerance_s": "0.00001",
+    "linear_meets_strict_tolerance": false,
+    "quadratic_meets_strict_tolerance": true
+  },
+  "E7": {
+    "h": "0.03",
+    "L": "5",
+    "quadratic_correction": "-0.0027",
+    "Q": "4.9973",
+    "smooth_family": "f_C(2+h)=5-3h^2+C*h^3",
+    "Q_error_at_0_03": "abs(C)*0.000027",
+    "counterexample_C100_actual_value": "5.000000",
+    "counterexample_C100_linear_error": "0",
+    "counterexample_C100_quadratic_error": "0.0027"
+  }
+}

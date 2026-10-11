@@ -1,0 +1,89 @@
+--- r30/SKILL.md
++++ r31/SKILL.md
+@@ -2,7 +2,7 @@
+ name: prof
+ description: "Write, revise, extend, or continue teaching documents, study notes, worked solutions, research primers, and programming or language tutorials using Jonathan's evidence-informed requirements. Apply the source research, prerequisite, explanation, practice, and verification workflow to every topic, with durable recovery for long projects. Default to an Overleaf-ready LaTeX project and compiled PDF. Use whenever explicitly invoked; otherwise applies to teaching-document authoring rather than every short subject answer. Explicit PROF self-iteration uses SASIS; ordinary teaching-document work does not invoke that scheme."
+ metadata:
+-  version: "2026-10-11-r30"
++  version: "2026-10-11-r31"
+ ---
+ 
+ # PROF
+@@ -110,6 +110,8 @@
+ 
+ For GitHub Markdown teaching, use dollar/backtick delimiters for inline mathematics and fenced `math` blocks for display mathematics outside HTML disclosure containers. In every mathematical payload, including displays and help, write strict comparisons with `\lt ` and `\gt ` instead of literal `<` and `>`; retain a terminating space after the command. Keep literal code and HTML syntax unchanged rather than substituting globally. Use commands verified on the actual target; for named functions use a supported representation such as `\mathrm{...}` with the intended argument grouping, rather than assuming `\operatorname` is accepted. Display mathematics inside `<details>` can remain raw source with either fenced or double-dollar syntax even after opening; place such help in separately labelled ordinary sections or linked files unless the exact alternative has been verified at the destination. Preserve separate hints and solutions and their usable navigation. Before reusing unfamiliar math commands or containers throughout a document, check a small representative destination fixture; then inspect the entire final published artifact, including initially hidden help, because a fixture does not certify the document.
+ 
++For linked GitHub teaching files, give anchors document-specific names so corresponding prompts, hints and solutions do not reuse the same fragment across sibling files. Check actual forward and return clicks after the destination has settled, including a later target reached from an already-fragmented URL. Verify that the intended content is visible, not merely that the URL and anchor exist. Preserve a failed route and follow the active repair mode; see execution-protocol.md for the destination check.
++
+ For LaTeX/PDF read [references/latex-production.md](references/latex-production.md) before production. Start with [assets/latex/main.tex](assets/latex/main.tex) and [assets/latex/prof.sty](assets/latex/prof.sty), replacing all sample teaching. Compile the whole project, resolve substantive warnings/references, render and inspect every final page, and check actual help destinations. Keep related reasoning together and avoid dense pages, unnecessary covers, empty boxes, and automatic page breaks per unit. Group PDF help sensibly rather than giving every task its own page. Do not shrink text/equations to hide layout defects. Bundle main.tex at ZIP root with all local styles, chapters, figures, bibliography, and BUILD.md. Extract into a fresh directory and compile there. Do not claim an Overleaf test unless one occurred.
+ 
+ Repair identified defects and recheck affected sections and downstream dependencies. During explicit self-iteration, make the repair in PROF, publish it, and regenerate the whole affected document afresh; never edit the frozen teaching to obtain a pass. Changes to content, requested scope, relevant source/API versions, conventions, or prerequisite assumptions invalidate affected checks even if the prose itself did not change. Do not continuously poll frozen sources; preserve the checked provenance and respond to known changes. Changed content invalidates subsequent render/bundle checks. Match the final delivered artifacts to the checked revision; record a digest when tools expose one, otherwise use explicit revision/path/readback without inventing a hash. Never reuse a stale PASS.
+--- r30/references/execution-protocol.md
++++ r31/references/execution-protocol.md
+@@ -84,6 +84,8 @@
+ 
+ For markup mathematics, build the complete expression inventory from source before inspecting the destination, with locations and inline/display/help-container types. Match each source item to a rendered expression and compare operands, operators, grouping, bounds, scripts and condition text. Retain explicit failed records for absent or raw-code expressions and all visible renderer notices, including generic error boxes; do not let a narrow error selector or a lower rendered-node count silently exclude failures. Open every help group, let the visible rendering settle, and inspect it. If a source construct survives server parsing but fails in the live client, repair the destination representation under the active repair mode. Before selecting a replacement, test its relevant command and container combinations on the actual destination; success outside a disclosure does not establish support inside it. Recheck affected earlier accepted artifacts at their exact identities when the same demonstrated feature occurs; record a narrow absence/preservation result or reopen an actually failed dependency without inventing failures from syntax presence alone.
+ 
++For linked teaching/help, inventory the source and target file and fragment for each route. In GitHub Markdown, use distinct document-specific anchor names across sibling files. Exercise ordinary forward and return clicks, including later targets below the initial viewport and successive cross-file navigation from a URL that already has a fragment. After the article and rendering settle, observe the matching target in the viewport; a correct href, preserved anchor, loaded file or manually opened deep URL does not establish the click route. Separate transient load states and screenshot-induced scrolling from a reproducible settled failure. If an alternative is needed, verify it in a separate bounded destination fixture before using it, and recheck the whole final artifact. Reopen earlier acceptance only where inspection establishes the demonstrated dependency; syntax presence alone is not a browser failure.
++
+ Before final delivery, reconcile the complete required-topic list against the final artifact, including its ending. Check seams: prerequisite before use, symbol/convention consistency, renamed or removed examples, duplicated content, dependency loops, and task/hint/answer navigation. Verify the final artifact and bundle after integration, not only each worker's pieces. Topic checks complement the whole-document audit and format-specific build/render/portability checks; none replaces another.
+ 
+ Bind checks to the actual artifact and their dependencies: exact constraints, skill and applicable skill references, source versions, topic scope/portion assignments, prerequisite/convention records, relevant topic outputs and support. Declare read skill references and shared convention/prerequisite records as local input sources in helper state so their changes are detectable too. A changed dependency invalidates its consumers even when their text is unchanged. Propagate this through the dependency map; use conservative rechecking if it is incomplete. Never refresh a digest merely to make an old pass appear current. Revisit the evidence and record the new check. Do not invalidate frozen sources speculatively or poll for changes without a task reason.
+--- r30/references/sasis/profile-manifest.json
++++ r31/references/sasis/profile-manifest.json
+@@ -84,7 +84,7 @@
+     "Original raw-source audit cache: C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\outputs\\ocr-baseline-20261007. The skill can be relocated; use its relative baseline/profile paths and official source URLs.",
+     "No new student trial has run under this profile merely because these resources were installed. Verify live editions/placement before claiming freshness for a new run."
+   ],
+-  "protocol_revision": "2026-10-10-r24",
++  "protocol_revision": "2026-10-11-r31",
+   "rewrite_guide": "rewrite-guide.md",
+   "student_input_policy": {
+     "subject_content_inputs": 2,
+--- r30/references/sasis/student-role.txt
++++ r31/references/sasis/student-role.txt
+@@ -13,6 +13,8 @@
+ For the stored profile the entire operational four-subject packet is required: OCR A Mathematics H240; Further Mathematics H245 Pure Core Y540/Y541 plus Statistics Y542 and Mechanics Y543; Physics H556; Chemistry H432. Names, summaries and previous reads cannot replace it. If content is missing, truncated or unreadable, report that exact input limit and leave affected conclusions unverified. Do not reconstruct missing input from memory.
+ 
+ Read sequentially
++
++When exact routing metadata is supplied, retrieve only its next text slice or complete figure before advancing. Do not guess boundaries or include later sections in a larger read. Inspect each figure at its listed first-use position. Log actual ordered access and disclose any early exposure or delayed figure inspection; rereading does not restore first exposure.
+ 
+ At every substantive definition, claim, equation, diagram, example and transition, check:
+ 1. Meaning: what the relevant words, referents, objects, symbols and representations denote; consequential grouping, conditions, units and domains.
+--- r30/references/sasis/student-testing-contract.txt
++++ r31/references/sasis/student-testing-contract.txt
+@@ -1,4 +1,4 @@
+-SASIS reader contract — revision 2026-10-10-r24
++SASIS reader contract — revision 2026-10-11-r31
+ 
+ Purpose
+ 
+@@ -21,6 +21,8 @@
+ Freeze input IDs, immutable revisions/locators and hashes when available. Save call/document/baseline IDs, operating-instruction version, agent/history settings, allowed tools, delivery extent, known limits and admission state.
+ 
+ Use verified complete text delivery or explicitly labelled instruction-confined read-only retrieval of the two full artifacts. Prefer technical confinement when available, but do not claim shared-tool agents provide it. Under an instruction whitelist, fetch only the exact baseline/document artifacts; log actual access ranges and failures. Read the complete baseline in coherent chunks and inspect the whole document in order. Do not claim everything was simultaneously in context.
++
++For linked or interleaved retrieval, supply the exact ordered, subject-free file/range/figure route required by sasis.md. Compare the actual access sequence and complete coverage before admission. Preserve order deviations; complete the audit and use a fresh reader after routing repair, without changing the frozen teaching.
+ 
+ A path, hash, window-size guess or acknowledgement is not delivery evidence. Missing, mismatched, truncated or unreadable input blocks substantive admission. A dispatch to establish access is provisional until evidence establishes the complete inputs were available/read. If it fails, preserve an input failure, not a teaching judgement, repair access, and start a fresh condition. Never silently shorten the baseline. Verified unauthorised subject access invalidates the affected reading.
+ 
+--- r30/references/sasis.md
++++ r31/references/sasis.md
+@@ -1,6 +1,6 @@
+ # SASIS — dedicated reader protocol
+ 
+-Protocol revision: 2026-10-10-r24.
++Protocol revision: 2026-10-11-r31.
+ 
+ ## Purpose and activation
+ 
+@@ -33,6 +33,8 @@
+ Before dispatch, freeze the document and baseline and save their IDs, revisions and hashes or exact immutable locators. Record agent identity, history setting, operating-instruction revision, permitted tools, delivery mode, input extent, known truncation/access limits and an explicit admission state.
+ 
+ Use complete full-text delivery when its actual extent can be established. A link, hash, claimed window size or acknowledgement alone does not establish complete delivery. Alternatively use an explicitly labelled instruction-confined read-only retrieval condition: both complete immutable artifacts are available, the reader may fetch only those artifacts, and its access ranges/results are logged. It must inspect the whole document in order and read the full baseline in coherent retrievable chunks. It may re-fetch the authorised baseline when needed. Do not claim that all bytes were simultaneously in context.
++
++For retrieval of linked or interleaved teaching, prepare an exact ordered route before dispatch: file identities, byte or line ranges with their convention, and each complete figure at its first-use position. Verify that the route covers every text byte and constituent, including prompts, help and endings, without exposing a later section early. Supply this subject-free routing metadata, not excerpts, answers or findings, alongside the two subject inputs. The reader retrieves only the next bounded slice or figure, records its actual access, and then advances; do not guess heading boundaries or batch across a scheduled exercise or figure. Before admitting chronological evidence, compare actual ordered access with that route as well as total coverage. Preserve accidental early exposure or delayed required figure access as a reader-procedure failure; rereading cannot restore first exposure. Complete the audit, repair routing, and dispatch a fresh reader on the unchanged frozen inputs. This recovery does not repair a teaching defect or waive the publication-first fresh-generation rule for a verified material iteration failure.
+ 
+ Shared tools remain technically available unless the runtime truly restricts them. State that an instruction whitelist is not a technical access boundary or erasure of pretraining. Do not invent memory controls or capacity figures. Every consequential connection must be traceable to permitted content regardless of how familiar the answer seems.
+ 

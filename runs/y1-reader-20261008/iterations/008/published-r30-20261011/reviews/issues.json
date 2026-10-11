@@ -1,0 +1,44 @@
+{
+  "material": "D008",
+  "frozen_commit": "663311ba27f25206ed868ce9bbfd016447528ef3",
+  "whole_audits_complete": true,
+  "issues": [
+    {
+      "id": "D008-R30-NAV",
+      "kind": "destination_navigation",
+      "obligation": "T11",
+      "status": "verified_material_failure_fresh_generation_required",
+      "evidence": [
+        "reviews/root/navigation-review.md",
+        "reviews/root/navigation-observations.json",
+        "reviews/root/navigation-fixture-observations.json"
+      ],
+      "cause": "Same fragment identifiers reused across sibling help files permit an observed settled click route to load the correct file at its beginning rather than the specified task. Actual fixture distinguishes shared from document-specific IDs; no unobserved browser internal cause is asserted.",
+      "consequence": "Late prompt/solution return navigation fails despite valid hrefs and preserved target anchors.",
+      "repair": "Use document-specific sibling anchor IDs; inspect ordinary forward/return routes from already-fragmented URLs after load settles and confirm matching content visible. Test alternative on separate fixture; final fresh artifact requires own whole destination checks.",
+      "affected_earlier": "All14closed/18Markdown independently inventoried;55cross-file routes only D007/D016 already have distinct p/h/s families. No earlier same-fragment trigger found; no reopening invented."
+    },
+    {
+      "id": "D008-R30-READ",
+      "kind": "reader_delivery_and_admission",
+      "obligation": "SASIS sequential whole-document reading",
+      "status": "verified_material_procedure_failure_fresh_generation_required",
+      "evidence": [
+        "reviews/sasis/sasis-original-report.md",
+        "reviews/sasis/access-record.json",
+        "reviews/sasis/disposition.json",
+        "reviews/sasis-sequential/original-report.md",
+        "reviews/sasis-sequential/access-record.json",
+        "reviews/sasis-sequential/disposition.json"
+      ],
+      "cause": "Manual guessed/oversized retrieval exposed later prompts before their prerequisite sections and deferred a required figure beyond its call; complete byte coverage did not establish chronological first exposure.",
+      "consequence": "First original report cannot certify strict sequential reading. Its substantive observations remain preserved without being relabelled as admissible chronological evidence.",
+      "repair": "Prepare exact subject-free file/range/figure routing before linked/interleaved reader dispatch; fetch only next bounded item and compare ordered actual access as well as coverage. Preserve deviations and complete audit; repair routing and start fresh reader on unchanged inputs.",
+      "verification": "Separate fresh reader completed all23exactroute steps and11contiguousbaselinechunks with no reported out-of-order exposure; no substantive gap. This recovery does not repair frozen navigation or substitute for fresh teaching under published revised PROF."
+    }
+  ],
+  "source_qualifications": "All9 original-only audit qualifications separately dispositioned; already addressed by frozen teaching, not new PROF subject defects.",
+  "technical": "Full independent original-source, full-baseline, prompt-first solution comparison and entire teaching/help audit found no material content failure.",
+  "rendering": "All289expressions/fullprose/60textlinks/21anchors/3alts preserved; all4pages/fullfigures inspected. Live navigation failure remains separate.",
+  "acceptance": "D008 not accepted;14accepted62remaining; original147IDs/order/71exclusions unchanged."
+}

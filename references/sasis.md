@@ -1,6 +1,6 @@
 # SASIS — dedicated reader protocol
 
-Protocol revision: 2026-10-10-r24.
+Protocol revision: 2026-10-11-r31.
 
 ## Purpose and activation
 
@@ -33,6 +33,8 @@ Launch every reader with a fresh agent context and explicitly set `fork_turns: "
 Before dispatch, freeze the document and baseline and save their IDs, revisions and hashes or exact immutable locators. Record agent identity, history setting, operating-instruction revision, permitted tools, delivery mode, input extent, known truncation/access limits and an explicit admission state.
 
 Use complete full-text delivery when its actual extent can be established. A link, hash, claimed window size or acknowledgement alone does not establish complete delivery. Alternatively use an explicitly labelled instruction-confined read-only retrieval condition: both complete immutable artifacts are available, the reader may fetch only those artifacts, and its access ranges/results are logged. It must inspect the whole document in order and read the full baseline in coherent retrievable chunks. It may re-fetch the authorised baseline when needed. Do not claim that all bytes were simultaneously in context.
+
+For retrieval of linked or interleaved teaching, prepare an exact ordered route before dispatch: file identities, byte or line ranges with their convention, and each complete figure at its first-use position. Verify that the route covers every text byte and constituent, including prompts, help and endings, without exposing a later section early. Supply this subject-free routing metadata, not excerpts, answers or findings, alongside the two subject inputs. The reader retrieves only the next bounded slice or figure, records its actual access, and then advances; do not guess heading boundaries or batch across a scheduled exercise or figure. Before admitting chronological evidence, compare actual ordered access with that route as well as total coverage. Preserve accidental early exposure or delayed required figure access as a reader-procedure failure; rereading cannot restore first exposure. Complete the audit, repair routing, and dispatch a fresh reader on the unchanged frozen inputs. This recovery does not repair a teaching defect or waive the publication-first fresh-generation rule for a verified material iteration failure.
 
 Shared tools remain technically available unless the runtime truly restricts them. State that an instruction whitelist is not a technical access boundary or erasure of pretraining. Do not invent memory controls or capacity figures. Every consequential connection must be traceable to permitted content regardless of how familiar the answer seems.
 

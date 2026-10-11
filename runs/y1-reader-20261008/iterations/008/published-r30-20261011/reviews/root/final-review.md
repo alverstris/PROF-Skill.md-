@@ -1,0 +1,17 @@
+D008 r30 root review disposition
+
+D008 remains open. The frozen teaching at 663311ba27f25206ed868ce9bbfd016447528ef3 has a demonstrated help-navigation failure. PROF must be repaired and published before fresh whole-document generation from the original inputs. No local correction to this teaching is permitted or needed as an iteration shortcut.
+
+Root fully read the exact lesson, all practice, hints and solutions, and visually inspected all three complete local figures. Root's independent prompt calculations were sealed before teaching and agree with the independent technical reviewer's separately sealed calculations. The complete independent technical report and its access record were read. No material mathematical, scientific, source-coverage or help-content defect was found in this review. The held original-source audit's nine qualifications are addressed by the frozen teaching; this audit was released only after freeze.
+
+Actual GitHub captures of all four complete article DOMs preserve all 289 expression structures and inline/display types, full prose, 60 textual links, 21 anchors and three figure alt texts. Root read the complete combined preservation report and v4's documented normalization scope. Preservation was independently compared against the exact frozen source; it does not establish click behavior.
+
+A separate fresh visual reviewer inspected all four full captured teaching pages using 20 overlapping, unscaled crops, including three embedded figures. A separate actual hints-opening viewport closed a sticky-toolbar screenshot coverage gap. Root read the complete original visual report. No material visual failure was found; two readable wraps were retained. Root does not claim to have personally viewed every destination crop reviewed by that agent.
+
+The actual ordinary practice/solutions E7 routes fail when both URLs use the same fragment. Clean retests exclude full-page screenshot interference and distinguish transient from settled states. A two-file isolated fixture reproduces the shared-fragment failure in both directions and verifies document-specific fragments in both directions. Exact observations, two fixture viewports and the frozen teaching failure viewport are retained. navigation-review.md supplies the complete bounded conclusion without asserting unobserved GitHub internals.
+
+Root read the full original SASIS report and access record. It found no established substantive gap, but disclosed early E2/E3 prompt exposure and later-than-call Figure 2 inspection. It is not accepted as strict first-exposure evidence. Rereading cannot undo exposure. The original remains preserved unchanged; a separate fresh sequential reader is being used by the coordinator. This is a reader-procedure failure requiring handling/recovery in PROF, not a false claim that the subject teaching lacks a mathematical premise.
+
+Root read the full earlier-navigation inventory: no currently accepted file has the demonstrated repeated-fragment sibling dependency. This supports the affected-case scope; it does not award fresh live-browser passes by syntax alone.
+
+The corpus queue remains 14 accepted and 62 eligible sessions outstanding. All 147 original IDs, order and 71 exclusions remain authoritative. These reports confer no learner-mastery or retention result. The revised skill, its remote verification, new author's fresh generation and new SASIS remain separate required work.

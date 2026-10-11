@@ -1,4 +1,4 @@
-SASIS reader contract — revision 2026-10-10-r24
+SASIS reader contract — revision 2026-10-11-r31
 
 Purpose
 
@@ -21,6 +21,8 @@ Admission
 Freeze input IDs, immutable revisions/locators and hashes when available. Save call/document/baseline IDs, operating-instruction version, agent/history settings, allowed tools, delivery extent, known limits and admission state.
 
 Use verified complete text delivery or explicitly labelled instruction-confined read-only retrieval of the two full artifacts. Prefer technical confinement when available, but do not claim shared-tool agents provide it. Under an instruction whitelist, fetch only the exact baseline/document artifacts; log actual access ranges and failures. Read the complete baseline in coherent chunks and inspect the whole document in order. Do not claim everything was simultaneously in context.
+
+For linked or interleaved retrieval, supply the exact ordered, subject-free file/range/figure route required by sasis.md. Compare the actual access sequence and complete coverage before admission. Preserve order deviations; complete the audit and use a fresh reader after routing repair, without changing the frozen teaching.
 
 A path, hash, window-size guess or acknowledgement is not delivery evidence. Missing, mismatched, truncated or unreadable input blocks substantive admission. A dispatch to establish access is provisional until evidence establishes the complete inputs were available/read. If it fails, preserve an input failure, not a teaching judgement, repair access, and start a fresh condition. Never silently shorten the baseline. Verified unauthorised subject access invalidates the affected reading.
 

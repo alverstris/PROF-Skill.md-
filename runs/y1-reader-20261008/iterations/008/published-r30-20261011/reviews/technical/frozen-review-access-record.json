@@ -1,0 +1,377 @@
+{
+  "record_created_utc": "2026-10-11T23:20:25.740710+00:00",
+  "role": "independent technical reviewer; not SASIS",
+  "outcome": "No verified material defect in the complete frozen teaching within the technical and local-content scope reviewed. This is not global acceptance.",
+  "operative_package_pin_supplied_by_parent": "3c3f28bd75d29ac7f967dde66b5e41e49aae51e4",
+  "remote_pin_verification_by_this_agent": false,
+  "manifest": {
+    "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r30-20261011/freeze-manifest.json",
+    "sha256": "1ef03ca02f165f136deddb767deb40483f92661d7da42717bb415156a59c8f61",
+    "frozen_at": "2026-10-11T23:09:20.571453+00:00"
+  },
+  "files": [
+    {
+      "path": "teaching/figures/clock-model.png",
+      "bytes": 57181,
+      "sha256": "ba89cbc40070e01858b44adc2e824bccbe78b54dadf528ddf0140f7b11d29120",
+      "git_blob": "9a8c605eded7318761fa7d208d3f2295a950ce83",
+      "absolute_path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r30-20261011/teaching/figures/clock-model.png",
+      "closing_identity_verified": true
+    },
+    {
+      "path": "teaching/figures/sine-cosine.png",
+      "bytes": 137797,
+      "sha256": "d324f0daada997d7b22c9044911d9e3ce1fb0fd8b61261379e191b215aed1f15",
+      "git_blob": "2b77b3c50911f22e5ce80fe5bbe255907e31181e",
+      "absolute_path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r30-20261011/teaching/figures/sine-cosine.png",
+      "closing_identity_verified": true
+    },
+    {
+      "path": "teaching/figures/tangent.png",
+      "bytes": 92940,
+      "sha256": "4e3d2326a55144ac97abce58943018c1fe91cf15cc93ef8227e33186a18c598a",
+      "git_blob": "e3885abdfa5c9d116abc87caebf9025cb250b3c9",
+      "absolute_path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r30-20261011/teaching/figures/tangent.png",
+      "closing_identity_verified": true
+    },
+    {
+      "path": "teaching/hints.md",
+      "bytes": 2467,
+      "sha256": "ad229ad84a93b7715a9d2104b82520bb3087959adfb09770eab85ad6b55efa28",
+      "git_blob": "a50aa8d2116884fcf3b75362ded916d1f15df236",
+      "absolute_path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r30-20261011/teaching/hints.md",
+      "closing_identity_verified": true
+    },
+    {
+      "path": "teaching/lesson.md",
+      "bytes": 18555,
+      "sha256": "249872594e606004626a77b7156f2cb9c1bcb8b0855b5f9caa782a7a98046c6e",
+      "git_blob": "9bba9d29370d7259658e6151547649cfda2d5d3d",
+      "absolute_path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r30-20261011/teaching/lesson.md",
+      "closing_identity_verified": true
+    },
+    {
+      "path": "teaching/practice.md",
+      "bytes": 4539,
+      "sha256": "54df8ad37c8c48d71e41a8dd4e64d4581d85e5871fdc3bc254d35437917a2b88",
+      "git_blob": "c8d10e05e50f6f16676db7e72b51256c9c34a3ef",
+      "absolute_path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r30-20261011/teaching/practice.md",
+      "closing_identity_verified": true
+    },
+    {
+      "path": "teaching/solutions.md",
+      "bytes": 7860,
+      "sha256": "4e8992f37dbfe5fd81b62d315b16cb3f62344a786077c34e4811cd7b46e13c44",
+      "git_blob": "33c5cf928bbde0165cbdcf4b748af5d60d6268a2",
+      "absolute_path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r30-20261011/teaching/solutions.md",
+      "closing_identity_verified": true
+    }
+  ],
+  "prior_seals_reverified_at_close": [
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-fresh-independent-technical/SOURCE_PREPARATION_SHA256SUMS",
+      "sha256": "a948294db6eba3c5d67c38b94d726ba698b3f6cac95704c4a4715246a2c5418f",
+      "all_members_still_match": true
+    },
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-fresh-independent-technical/REQUIREMENTS_BASELINE_SHA256SUMS",
+      "sha256": "31d068a693bd5349ae5cd4d802b565506f4cb72647114903a319868f70d36795",
+      "all_members_still_match": true
+    },
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-fresh-independent-technical/PROMPT_SOLUTIONS_SHA256SUMS",
+      "sha256": "6bde22b6c6c7f701b9a42e213477cbc8e705bcf43bcf765fa92117181cb7b44e",
+      "all_members_still_match": true
+    }
+  ],
+  "prompt_independent_seal_utc": "2026-10-11T23:06:20.964879+00:00",
+  "prompt_sha256": "4e1a9174104dd053bd5ff29bb3fdbdaa4081ea27c35d0f81c3b138153d607742",
+  "prompt_seal_preceded_any_teaching_access": true,
+  "complete_freeze_permission_received_before_teaching_access": true,
+  "line_count_convention": "one-based LF-delimited text lines",
+  "semantic_reading_route": [
+    {
+      "step": 1,
+      "read": "teaching/lesson.md",
+      "lines": [
+        1,
+        37
+      ]
+    },
+    {
+      "step": 2,
+      "view": "teaching/figures/tangent.png",
+      "whole_image": true,
+      "first_use_lesson_line": 37
+    },
+    {
+      "step": 3,
+      "read": "teaching/lesson.md",
+      "lines": [
+        38,
+        50
+      ]
+    },
+    {
+      "step": 4,
+      "read": "teaching/practice.md",
+      "lines": [
+        1,
+        12
+      ],
+      "exercise": "E1"
+    },
+    {
+      "step": 5,
+      "read": "teaching/lesson.md",
+      "lines": [
+        51,
+        100
+      ]
+    },
+    {
+      "step": 6,
+      "read": "teaching/practice.md",
+      "lines": [
+        13,
+        19
+      ],
+      "exercise": "E2"
+    },
+    {
+      "step": 7,
+      "read": "teaching/lesson.md",
+      "lines": [
+        101,
+        124
+      ]
+    },
+    {
+      "step": 8,
+      "read": "teaching/practice.md",
+      "lines": [
+        20,
+        32
+      ],
+      "exercise": "E3"
+    },
+    {
+      "step": 9,
+      "read": "teaching/lesson.md",
+      "lines": [
+        125,
+        158
+      ]
+    },
+    {
+      "step": 10,
+      "view": "teaching/figures/sine-cosine.png",
+      "whole_image": true,
+      "first_use_lesson_line": 158
+    },
+    {
+      "step": 11,
+      "read": "teaching/lesson.md",
+      "lines": [
+        159,
+        182
+      ]
+    },
+    {
+      "step": 12,
+      "read": "teaching/practice.md",
+      "lines": [
+        33,
+        39
+      ],
+      "exercise": "E4"
+    },
+    {
+      "step": 13,
+      "read": "teaching/lesson.md",
+      "lines": [
+        183,
+        213
+      ]
+    },
+    {
+      "step": 14,
+      "read": "teaching/practice.md",
+      "lines": [
+        40,
+        46
+      ],
+      "exercise": "E5"
+    },
+    {
+      "step": 15,
+      "read": "teaching/lesson.md",
+      "lines": [
+        214,
+        224
+      ]
+    },
+    {
+      "step": 16,
+      "view": "teaching/figures/clock-model.png",
+      "whole_image": true,
+      "first_use_lesson_line": 224
+    },
+    {
+      "step": 17,
+      "read": "teaching/lesson.md",
+      "lines": [
+        225,
+        263
+      ]
+    },
+    {
+      "step": 18,
+      "read": "teaching/practice.md",
+      "lines": [
+        47,
+        55
+      ],
+      "exercise": "E6"
+    },
+    {
+      "step": 19,
+      "read": "teaching/lesson.md",
+      "lines": [
+        264,
+        274
+      ]
+    },
+    {
+      "step": 20,
+      "read": "teaching/practice.md",
+      "lines": [
+        56,
+        64
+      ],
+      "exercise": "E7"
+    },
+    {
+      "step": 21,
+      "read": "teaching/hints.md",
+      "lines": [
+        1,
+        54
+      ],
+      "exercise": "E1-E7 entire file"
+    },
+    {
+      "step": 22,
+      "read": "teaching/solutions.md",
+      "lines": [
+        1,
+        163
+      ],
+      "exercise": "E1-E7 entire file"
+    }
+  ],
+  "all_semantic_route_tool_outputs_complete": true,
+  "all_figure_edges_and_full_images_inspected": true,
+  "initial_hash_and_heading_index_not_counted_as_semantic_reading": true,
+  "followup_reads_after_complete_route": [
+    "freeze-manifest.json in full, for exact identity",
+    "own source-preparation.md and own prompt/requirements access records, for accurate report scope",
+    "admitted package SKILL.md lines 32-122, for exact T1-T12 and acceptance language",
+    "teaching/lesson.md lines 125-151 and 214-263, to resolve the regularity-condition and clock-premise wording checks",
+    "own frozen-review-mechanical-checks.json, for accurate report of source-only checks"
+  ],
+  "baseline_actual_read": {
+    "path": "/workspace/scratch/f9c0b7fc7e76/d007-clean-r29-20261011/inputs/student-baseline.txt",
+    "bytes": 247840,
+    "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+    "full_lines": [
+      1,
+      1377
+    ],
+    "portions": [
+      "cover",
+      "Mathematics H240",
+      "Further Mathematics H245 Pure Y540/Y541, Statistics Y542, Mechanics Y543",
+      "Physics H556",
+      "Chemistry H432 through final note"
+    ],
+    "separate_duplicate_subject_files_semantically_reread": false,
+    "all_bytes_simultaneously_in_context_claimed": false,
+    "detailed_record": "requirements-baseline-read-ledger.json"
+  },
+  "original_actual_read": {
+    "pdf_path": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D008/lec9.pdf",
+    "sha256": "d1b383663f7792bbdaa4d6108e17b11679d4688e413e197486941af337892320",
+    "all_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "all_page_texts_read": true,
+    "all_whole_page_pngs_viewed": true,
+    "new_pdf_text_extraction_matches_all_cached_texts": true,
+    "detailed_record": "source-read-ledger.json"
+  },
+  "requirements_actual_read": "Complete SKILL.md; references/execution-protocol.md; references/domain-patterns.md; references/sasis.md; references/sasis/profile-manifest.json; references/sasis/student-testing-contract.txt; references/sasis/student-role.txt; references/sasis/rewrite-guide.md. Detailed per-file hashes/read flags in requirements-baseline-read-ledger.json. All 36 local files hashed, not all semantically read.",
+  "public_citation_verification_after_freeze": [
+    {
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/5-3-time-dilation",
+      "web_refs": [
+        "turn103view0"
+      ],
+      "reviewed_relevant_text_lines": [
+        32,
+        85
+      ],
+      "claim_checked": "proper-time meaning and equations 5.1-5.2; T and T-prime mapping",
+      "all_webpage_images_visually_inspected": false
+    },
+    {
+      "url": "https://www.nist.gov/atomic-clocks/a-powerful-tool-for-science/putting-einstein-test",
+      "web_refs": [
+        "turn103view1",
+        "turn104view0",
+        "turn104view1",
+        "turn104view2"
+      ],
+      "reviewed_relevant_text_lines": [
+        [
+          139,
+          157
+        ],
+        [
+          177,
+          177
+        ]
+      ],
+      "claim_checked": "motion and gravity contribute to GPS clock correction; page dates",
+      "current_best_atomic_clock_precision_claim_checked": false
+    }
+  ],
+  "mechanical_checks_file": "frozen-review-mechanical-checks.json",
+  "expression_inventory_file": "frozen-expression-inventory.json",
+  "source_expression_count": 289,
+  "local_links_checked": 60,
+  "report_file": "frozen-technical-review.md",
+  "material_failures": [],
+  "wording_observations_not_failures": [
+    "continuity explanation versus stronger sufficient neighborhood hypothesis",
+    "concise twice-integrated remainder proof",
+    "constant-speed practice within the stipulated constant-velocity clock model",
+    "rounded reference-value notation"
+  ],
+  "no_original_or_frozen_teaching_edits": true,
+  "no_prior_teaching_held_audits_author_reports_sasis_reports_root_calculations_or_other_reviewer_reports_read": true,
+  "no_queue_history_contents_read": true,
+  "no_answers_or_findings_sent_to_author": true,
+  "no_github_access_or_action": true,
+  "no_browser_control": true,
+  "no_publication": true,
+  "live_destination_rendering_verified": false,
+  "learner_understanding_or_mastery_claimed": false,
+  "boundary": "Instruction-defined access on shared files/tools, not technical isolation, erased knowledge, or proof of learning."
+}

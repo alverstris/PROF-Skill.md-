@@ -1,0 +1,25 @@
+{
+  "status": "provisional_until_complete_access_report",
+  "agent": "/root/cycle_d017_clean_r27/cycle_d018_clean_r28/cycle_d007_clean_r29/cycle_d008_clean_r30/sasis_d008_r30",
+  "fork_turns": "none",
+  "mode": "instruction-confined read-only retrieval",
+  "technical_boundary": false,
+  "pretraining_erasure": false,
+  "subject_inputs": 2,
+  "baseline": {
+    "path": "inputs/student-baseline.txt",
+    "bytes": 247840,
+    "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+  },
+  "teaching_manifest": {
+    "path": "freeze-manifest.json",
+    "sha256": "1ef03ca02f165f136deddb767deb40483f92661d7da42717bb415156a59c8f61",
+    "constituents": 7
+  },
+  "operating_instruction": {
+    "path": "verified-prof/references/sasis/student-role.txt",
+    "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469"
+  },
+  "permitted_access": "Only exact baseline, seven teaching constituents, identity/route manifest and short student-role instruction. No raw sources, PROFauthorrules, reports or otheragent queries.",
+  "limits": "Dispatch acknowledgement is not complete delivery. Need full actual access ranges and complete chronological review before admission."
+}

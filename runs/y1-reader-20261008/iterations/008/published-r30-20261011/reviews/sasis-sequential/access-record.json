@@ -1,0 +1,684 @@
+{
+  "material_id": "D008",
+  "revision": "published-r30-20261011",
+  "audit_role": "SASIS fresh sequential reader",
+  "original_before_author_feedback": true,
+  "retrieval_boundary": "Instruction-confined to authorized files; not technical isolation or erased pretraining.",
+  "coordinates": {
+    "bytes": "zero-based half-open raw UTF-8",
+    "lines": "one-based physical LF-delimited lines; CR characters do not create additional lines",
+    "terminal_display_empty_line": "An extra printed empty split element does not expose a byte after the specified end."
+  },
+  "operating_instruction": {
+    "path": "verified-prof/references/sasis/student-role.txt",
+    "bytes": 5607,
+    "lf_lines": 44,
+    "read": "entire file first, cat; complete output"
+  },
+  "baseline": {
+    "path": "inputs/student-baseline.txt",
+    "bytes": 247840,
+    "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+    "actual_read_ranges": [
+      {
+        "order": 1,
+        "byte_range": [
+          0,
+          23842
+        ],
+        "lf_line_range": [
+          1,
+          177
+        ],
+        "complete_output": true
+      },
+      {
+        "order": 2,
+        "byte_range": [
+          23842,
+          47600
+        ],
+        "lf_line_range": [
+          178,
+          334
+        ],
+        "complete_output": true
+      },
+      {
+        "order": 3,
+        "byte_range": [
+          47600,
+          71126
+        ],
+        "lf_line_range": [
+          335,
+          438
+        ],
+        "complete_output": true
+      },
+      {
+        "order": 4,
+        "byte_range": [
+          71126,
+          95001
+        ],
+        "lf_line_range": [
+          439,
+          540
+        ],
+        "complete_output": true
+      },
+      {
+        "order": 5,
+        "byte_range": [
+          95001,
+          118601
+        ],
+        "lf_line_range": [
+          541,
+          655
+        ],
+        "complete_output": true
+      },
+      {
+        "order": 6,
+        "byte_range": [
+          118601,
+          142316
+        ],
+        "lf_line_range": [
+          656,
+          757
+        ],
+        "complete_output": true
+      },
+      {
+        "order": 7,
+        "byte_range": [
+          142316,
+          166261
+        ],
+        "lf_line_range": [
+          758,
+          896
+        ],
+        "complete_output": true
+      },
+      {
+        "order": 8,
+        "byte_range": [
+          166261,
+          190181
+        ],
+        "lf_line_range": [
+          897,
+          1058
+        ],
+        "complete_output": true
+      },
+      {
+        "order": 9,
+        "byte_range": [
+          190181,
+          214097
+        ],
+        "lf_line_range": [
+          1059,
+          1207
+        ],
+        "complete_output": true
+      },
+      {
+        "order": 10,
+        "byte_range": [
+          214097,
+          237716
+        ],
+        "lf_line_range": [
+          1208,
+          1334
+        ],
+        "complete_output": true
+      },
+      {
+        "order": 11,
+        "byte_range": [
+          237716,
+          247840
+        ],
+        "lf_line_range": [
+          1335,
+          1377
+        ],
+        "complete_output": true
+      }
+    ],
+    "coverage": "all bytes contiguous before teaching content",
+    "truncations": [],
+    "recovery_reads": []
+  },
+  "routing_metadata": {
+    "read_after_complete_baseline": true,
+    "paths": [
+      "reviews/reader-route.json",
+      "freeze-manifest.json"
+    ],
+    "purpose": "exact routing and path/hash identity only"
+  },
+  "identity_verification": {
+    "mode": "read full authorized teaching bytes computationally for size and SHA256 only, before first teaching text; no out-of-order subject text displayed",
+    "all_seven_match_manifest": true
+  },
+  "actual_teaching_read_sequence": [
+    {
+      "order": 1,
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        0,
+        2842
+      ],
+      "lf_line_range": [
+        1,
+        37
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 2,
+      "path": "teaching/figures/tangent.png",
+      "mode": "tools.view_image full exact local PNG, high detail, no crop",
+      "complete_image_inspected": true
+    },
+    {
+      "order": 3,
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        2842,
+        3662
+      ],
+      "lf_line_range": [
+        38,
+        50
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 4,
+      "path": "teaching/practice.md",
+      "byte_range": [
+        0,
+        704
+      ],
+      "lf_line_range": [
+        1,
+        11
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 5,
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        3662,
+        6623
+      ],
+      "lf_line_range": [
+        51,
+        100
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 6,
+      "path": "teaching/practice.md",
+      "byte_range": [
+        704,
+        1197
+      ],
+      "lf_line_range": [
+        12,
+        18
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 7,
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        6623,
+        7485
+      ],
+      "lf_line_range": [
+        101,
+        124
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 8,
+      "path": "teaching/practice.md",
+      "byte_range": [
+        1197,
+        1560
+      ],
+      "lf_line_range": [
+        19,
+        31
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 9,
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        7485,
+        10194
+      ],
+      "lf_line_range": [
+        125,
+        158
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 10,
+      "path": "teaching/figures/sine-cosine.png",
+      "mode": "tools.view_image full exact local PNG, high detail, no crop",
+      "complete_image_inspected": true
+    },
+    {
+      "order": 11,
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        10194,
+        11287
+      ],
+      "lf_line_range": [
+        159,
+        182
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 12,
+      "path": "teaching/practice.md",
+      "byte_range": [
+        1560,
+        2201
+      ],
+      "lf_line_range": [
+        32,
+        38
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 13,
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        11287,
+        12644
+      ],
+      "lf_line_range": [
+        183,
+        213
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 14,
+      "path": "teaching/practice.md",
+      "byte_range": [
+        2201,
+        2692
+      ],
+      "lf_line_range": [
+        39,
+        45
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 15,
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        12644,
+        13817
+      ],
+      "lf_line_range": [
+        214,
+        224
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 16,
+      "path": "teaching/figures/clock-model.png",
+      "mode": "tools.view_image full exact local PNG, high detail, no crop",
+      "complete_image_inspected": true
+    },
+    {
+      "order": 17,
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        13817,
+        16925
+      ],
+      "lf_line_range": [
+        225,
+        263
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 18,
+      "path": "teaching/practice.md",
+      "byte_range": [
+        2692,
+        3627
+      ],
+      "lf_line_range": [
+        46,
+        54
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 19,
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        16925,
+        17329
+      ],
+      "lf_line_range": [
+        264,
+        267
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 20,
+      "path": "teaching/practice.md",
+      "byte_range": [
+        3627,
+        4539
+      ],
+      "lf_line_range": [
+        55,
+        64
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 21,
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        17329,
+        18555
+      ],
+      "lf_line_range": [
+        268,
+        274
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 22,
+      "path": "teaching/hints.md",
+      "byte_range": [
+        0,
+        2467
+      ],
+      "lf_line_range": [
+        1,
+        54
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    },
+    {
+      "order": 23,
+      "path": "teaching/solutions.md",
+      "byte_range": [
+        0,
+        7860
+      ],
+      "lf_line_range": [
+        1,
+        163
+      ],
+      "mode": "raw-byte slice decoded as UTF-8; physical LF lines numbered",
+      "complete_output": true
+    }
+  ],
+  "witnesses_recorded_before_advancing": true,
+  "witnesses": [
+    {
+      "order": 1,
+      "locator": "lesson.md LF lines 1–37; bytes [0,2842)",
+      "witness": "The introduced basepoint and h turn the baseline tangent equation into L(x0+h)=f(x0)+f′(x0)h. Subtracting f′(x0) from the defining difference quotient gives R1(h)/h→0, so local relative-to-displacement error follows without a finite-input bound. The baseline ln derivative/domain and ln1=0 give L=x−1 and ln1.02≈0.02.",
+      "premises": "Baseline Mathematics “Differentiation and its applications” LF 136–174; “Exponentials and logarithms” LF 128–134; “Algebra, functions and coordinate geometry” LF 44–80."
+    },
+    {
+      "order": 2,
+      "locator": "figures/tangent.png, full exact PNG at lesson line 37",
+      "witness": "Axes x and y, solid ln(x), dashed x−1 and the annotated contact (1,0) are legible. Both values are zero at x=1; slope agreement is the earlier f′(1)=1. The visible line lies above the concave logarithm and separation shrinks toward the contact. No numerical error claim is inferred from the drawing.",
+      "premises": "Earlier lesson A; baseline derivative/concavity and graph reading."
+    },
+    {
+      "order": 3,
+      "locator": "lesson.md LF 38–50; bytes [2842,3662)",
+      "witness": "The figure caption matches inspected curves. Substituting x=1+u changes x>0 into u>−1 and x−1 into u, so the zero-basepoint form refers to the displacement, not the original x. This supplies the proposed transition to an independently chosen nonzero basepoint.",
+      "premises": "Earlier lesson A and baseline substitution/domain arithmetic."
+    },
+    {
+      "order": 4,
+      "locator": "practice.md E1 LF 1–11; bytes [0,704)",
+      "witness": "The demand is available now: the baseline power derivative gives f(4)=2 and f′(4)=1/4; A then gives L(x)=2+(x−4)/4. h=0.04 produces 2.01. Replacing h by x would give 3 at x=4 rather than 2, demonstrating the requested basepoint failure.",
+      "premises": "Lesson A; baseline Mathematics power derivative and square-root arithmetic."
+    },
+    {
+      "order": 5,
+      "locator": "lesson.md B LF 51–100; bytes [3662,6623)",
+      "witness": "Each zero-basepoint form follows by inserting its value and derivative into A; power differentiation yields slope r with 1+u positive. For the product, inputs −2x and x give slopes −2 and −1/2; their product has constant 1, linear coefficient −5/2 and algebraic x². The omitted individual second-order terms prevent interpreting that x² as the full quadratic coefficient. FM27 supplies the real exponential and binomial expansions used here; their higher powers and bounded near-one factors do not create a new linear term. The displayed product-rule check yields the same slope, and A’s remainder relation justifies reading that coefficient as f′(0).",
+      "premises": "Lesson A; baseline Mathematics trig/exponential/power derivatives and chain/product rules; FM27 Maclaurin expansions."
+    },
+    {
+      "order": 6,
+      "locator": "practice.md E2 LF 12–18; bytes [704,1197)",
+      "witness": "The two small inputs are 3x and −2x; using r=−1/2 gives factors 1+3x and 1+x. B’s accounting gives 1+4x, hence value 1 and derivative 4 by A’s negligible-remainder criterion. The square-root denominator requires 1−2x>0, or x<1/2, and closeness to zero additionally controls the approximation. A lone 3x² omits each factor’s quadratic term, exactly the failure explained in B.",
+      "premises": "Lesson A–B; baseline algebra and square-root domain."
+    },
+    {
+      "order": 7,
+      "locator": "lesson.md C LF 101–124; bytes [6623,7485)",
+      "witness": "With f(0)=1 the numerator is f(x)−f(0), so the quotient is precisely the derivative at zero. Chain/power rules give 20. A supplies R1(x)/x→0, and subtracting 1 then dividing by nonzero x leaves 20+R1(x)/x, which explains the exact limit rather than treating an approximation as equality.",
+      "premises": "Lesson A remainder and B; baseline derivative definition, chain and power rules."
+    },
+    {
+      "order": 8,
+      "locator": "practice.md E3 LF 19–31; bytes [1197,1560)",
+      "witness": "For f(x)=ln(1+3x), f(0)=0 and the chain rule gives f′(0)=3. The domain is x>−1/3, an interval containing zero; C therefore identifies the quotient as a derivative limit. Alternatively A gives f(x)=3x+R1(x) with R1/x→0. A numerical approximation alone specifies no such behaviour after division.",
+      "premises": "Lesson A–C; baseline logarithmic domain and chain derivative."
+    },
+    {
+      "order": 9,
+      "locator": "lesson.md D LF 125–158; bytes [7485,10194)",
+      "witness": "Differentiating A+Bh+Ch² twice gives B+2Ch and 2C, so matching at h=0 fixes A,B,C and the one-half. The stated continuity condition is intelligible and sufficient for the offered bound: if |R2″(t)|≤M and R2′(0)=R2(0)=0, baseline definite integration gives |R2′(t)|≤M|t| and then |R2(h)|≤M h²/2 for either direction. Nearby second derivatives make M→0, giving the displayed negligible remainder. For cosine, values 1,0,−1 give 1−x²/2; at 0.2 this is 0.98 and subtraction from the supplied reference yields the stated error improvement.",
+      "premises": "Baseline Mathematics “Integration and elementary differential equations” LF 176–209 (fundamental theorem at LF 178), and ordinary integral bounds from signed-area/rectangle reasoning; derivative rules LF 136–174; lesson A local error meaning. No general remainder theorem was assumed before this explanation."
+    },
+    {
+      "order": 10,
+      "locator": "figures/sine-cosine.png, full exact PNG at lesson line 158",
+      "witness": "The full two-panel image has legible axes and distinct solid/dashed/dotted legends. On the left sin has value 0, slope 1, second derivative −sin0=0, so L=Q=x is available from the just-read formula. On the right the horizontal L=1 and downward Q=1−x²/2 share the cosine contact (0,1); the quadratic visually follows the curve more closely nearby. Wider separations illustrate locality, without supplying an error bound.",
+      "premises": "Lesson D and baseline sine/cosine derivatives."
+    },
+    {
+      "order": 11,
+      "locator": "lesson.md LF 159–182; bytes [10194,11287)",
+      "witness": "The caption matches the inspected image. Applying the one-half second-derivative coefficient gives respectively 0, −1/2, 1/2, −1/2 and r(r−1)/2 for the five listed forms. The displayed logarithm derivatives follow by reciprocal and chain rules, and the power derivative is obtained by differentiating B’s first derivative. The earlier positivity, fixed-r and radians restrictions carry forward explicitly.",
+      "premises": "Lesson B and D; baseline derivative rules."
+    },
+    {
+      "order": 12,
+      "locator": "practice.md E4 LF 32–38; bytes [1560,2201)",
+      "witness": "D’s derivative values 0,1,−1 construct x−x²/2. ln0.9 uses x=−0.1 (not 0.9), so L=−0.1 and Q=−0.105. Subtraction from the supplied reference yields absolute errors 0.0053605157 and 0.0003605157. The quadratic term is negative on both sides because x²≥0 and f″(0)<0. Sine has f″(0)=0, hence no x² correction despite using the quadratic construction.",
+      "premises": "Lesson A displacement and D; ordinary arithmetic."
+    },
+    {
+      "order": 13,
+      "locator": "lesson.md E LF 183–213; bytes [11287,12644)",
+      "witness": "Substitution squares −2x as a whole, giving 2x², while r(r−1)/2 with r=−1/2 gives 3/8. The three degree-two products contribute 3/8+2+1=27/8. Higher products have degree at least three; D’s remainders divided by x² tend to zero and factors stay finite, preserving the degree-two accounting. The coefficient corresponds to f″(0)/2, and twice applying the baseline product rule gives 4+2+3/4=27/4 independently.",
+      "premises": "Lesson B’s first-order example and D’s quadratic forms/error condition; baseline power/product rules and algebra."
+    },
+    {
+      "order": 14,
+      "locator": "practice.md E5 LF 39–45; bytes [2201,2692)",
+      "witness": "D supplies e^(3x)≈1+3x+(9/2)x² and (1−2x)^(−1/2)≈1+x+(3/2)x². E’s three sources give quadratic coefficient 9/2+3+3/2=9, so Q=1+4x+9x² and g″(0)=18. Cubic products exceed degree two and omit unprovided cubic contributions; the relation to g remains approximate with D’s local error condition.",
+      "premises": "Earlier E2 domain and linear construction; lesson D–E."
+    },
+    {
+      "order": 15,
+      "locator": "lesson.md F LF 214–224; bytes [12644,13817)",
+      "witness": "The passage explicitly introduces a new physical law rather than deriving relativity from baseline mechanics. It identifies the same two events, the moving clock’s elapsed T, and the inertial frame’s synchronized coordinate-time T′; prime is explicitly a name. The interval 0≤v<c makes 1−v²/c² positive and the real denominator nonzero. The claim is a supplied model premise; the external citation is not needed or opened.",
+      "premises": "Introduced law and definitions in this passage; baseline units, speed and square-root domains."
+    },
+    {
+      "order": 16,
+      "locator": "figures/clock-model.png, full exact PNG at lesson line 224",
+      "witness": "The two circles are explicitly labelled the same moving clock at first and later tick, linked by an arrow at constant speed v. T is attached to elapsed time carried from A to B; T′ labels the stationary reference frame’s coordinate interval. Thus the graphic distinguishes event markers from two different clocks and matches the text’s same-events comparison. It is a schematic, not a scaled plot from which a time ratio is inferred.",
+      "premises": "Earlier F definitions and introduced law."
+    },
+    {
+      "order": 17,
+      "locator": "lesson.md F LF 225–263; bytes [13817,16925)",
+      "witness": "With ε=(v/c)², equal speed units cancel. B’s r=−1/2,u=−ε gives +ε/2, and D gives +3ε²/8. For 0<ε<1 the exact denominator is below one, so T′>T for T>0; ε=0 gives equality. Squaring 4/(3×10^5) gives 1.7778×10^−10, half is 8.8889×10^−11 and multiplying by 86400 s gives 7.68 μs. The next ratio contribution is (3/8)ε²≈1.1852×10^−20 and its time contribution ≈1.024×10^−15 s. Baseline binomial cubic coefficient r(r−1)(r−2)/6 with u=−ε gives +5ε³/16. Since ε=(v/c)², powers one and two in ε are powers two and four in v/c. The tolerance/model caveats follow; GPS and historical-clock remarks are contextual claims, not additional derivation premises verified externally in this read.",
+      "premises": "Lesson B,D,F; baseline Mathematics binomial expansion LF 88–97 and FM27 at LF 409; Physics units/prefixes and time reference data."
+    },
+    {
+      "order": 18,
+      "locator": "practice.md E6 LF 46–54; bytes [2692,3627)",
+      "witness": "F makes ε=0.0004 and the two multipliers 1.0002 and 1.00020006, hence times 1000.2 s and 1000.20006 s. Their distances from the supplied rounded reference are 0.000060020007 s and 0.000000020007 s, decisively above/below 0.00001 s even allowing rounding of the displayed reference. The ε substitution explains the speed degree, and the model explicitly omits gravity, providing the requested GPS limitation without outside science.",
+      "premises": "Lesson F and ordinary arithmetic; supplied E6 reference and threshold."
+    },
+    {
+      "order": 19,
+      "locator": "lesson.md G LF 264–267; bytes [16925,17329)",
+      "witness": "This transition frames a later retrieval/application activity and explicitly distinguishes recalling formulas from using them at a stationary point. It does not claim retention or observed mastery. The requested reconstruction can draw on A and D; the delay is an adjustable study suggestion, not a new subject prerequisite.",
+      "premises": "Earlier lesson A and D; ordinary reading."
+    },
+    {
+      "order": 20,
+      "locator": "practice.md E7 LF 55–64; bytes [3627,4539)",
+      "witness": "Matching A+Bh+Ch² at h=0 reconstructs the linear/quadratic formulas from A,D. Here h=0.03, L=5 and Q=5−3(0.03)²=4.9973; the second derivative supplies a downward correction when the slope is zero. The stated continuous-second-derivative hypothesis supplies local R2/h²→0, but no finite-interval numerical bound. Sine already refutes a compulsory nonzero square. The assertion of improvement at every input is also unsupported by a local theorem; an explicit permitted check is cosine at x=4, where Q=−7 and L=1 while baseline cosine lies in [−1,1], so Q is necessarily worse there.",
+      "premises": "Lesson A,D and inspected sine/cosine figure; baseline unit-circle cosine bounds and arithmetic. The cosine x=4 deduction assesses the prompt’s universal claim, not a new learner assessment."
+    },
+    {
+      "order": 21,
+      "locator": "lesson.md source/notation ending LF 268–274; bytes [17329,18555)",
+      "witness": "The notes distinguish newly drawn figures/practice from the cited source and reserve equality for exact relations. Within the permitted teaching, retaining T gives time units and r=−1/2 matches the square-root reciprocal, so those mathematical explanations are reconstructible. The assertions about source pages, its four figures, wording and typographical errors cannot be independently checked against an original PDF in this confined read; the external links were not followed. The final navigation does not add a mathematical dependency.",
+      "premises": "Earlier F and baseline dimensional/power reasoning; source-fidelity assertions treated as unverified provenance, not imported subject knowledge."
+    },
+    {
+      "order": 22,
+      "locator": "hints.md LF 1–54; bytes [0,2467)",
+      "witness": "All seven hints point to available next operations: E1 [8] fixes h=0.04 before applying slope 1/4; E2 [15] exposes the two signs that produce +x and identifies the omitted factor terms; E3 [22] makes F(0)=0 so the quotient is a derivative; E4 [29] separates negative input from positive square and defines absolute error by magnitude; E5 [36] squares the whole −2x and lists every degree-two pairing, retaining the factor 1/2 in the derivative relation; E6 [43] converts the dimensionless ratio into seconds before comparison; E7 [50] differentiates A+Bh+Ch² to recover A,B,2C. None supplies a previously missing prerequisite for its exercise, and none contradicts the earlier prompts.",
+      "premises": "Earlier lesson A–G and E1–E7; baseline algebra/calculus."
+    },
+    {
+      "order": 23,
+      "locator": "solutions.md LF 1–163; bytes [0,7860)",
+      "witness": "E1 [8–15] computes the available slope 1/4, h=0.04 and value 2.01, with the failed replacement giving 3 at the basepoint. E2 [22–31] combines 1+3x and 1+x into the complete linear part 1+4x, checks slope by product rule, and distinguishes domain x<1/2 from small inputs. E3 [38–45] uses F(0)=0 and F′(0)=3, with R1/x→0 showing why division preserves the stated exact limit. E4 [52–76] constructs x−x²/2, inserts −0.1, obtains the earlier two absolute errors, and explains sine’s zero square using its second derivative. E5 [83–104] adds all three square contributions 9/2+3/2+3=9; the direct second-product derivative 9+6+3=18 checks the inferred value. E6 [111–131] computes the dimensionless and seconds corrections consistently; both errors and the threshold decisions match the supplied rounded reference, with rounding too small to reverse either comparison. E7 [138–159] derives A,B,2C, computes 4.9973 from h=0.03, and supplies an accessible cosine counterexample: baseline periodicity makes cos(2π)=1, whereas Q(2π)=1−2π². Its family 5−3h²+Kh³ has the same value/slope/second derivative at h=0 for any finite K; at h=0.03 the omitted 0.000027K can vary without bound over those functions. Thus continuity alone gives locality, not a prescribed finite-input tolerance. All seven solutions and the ending/navigation are read; none was used to retroactively supply an earlier required premise.",
+      "premises": "Baseline calculus, polynomial arithmetic and cosine periodicity; all previously read teaching/practice; no external subject input."
+    }
+  ],
+  "post_read_access": {
+    "paths": [
+      "inputs/student-baseline.txt",
+      "verified-prof/references/sasis/student-role.txt",
+      "teaching/lesson.md",
+      "teaching/practice.md",
+      "teaching/hints.md",
+      "teaching/solutions.md"
+    ],
+    "purpose": "computational heading locator and line-count confirmation of already-read files; only baseline heading labels/line indices and metadata printed"
+  },
+  "truncation_or_access_failure": false,
+  "unread_subject_ranges": [],
+  "outside_subject_sources_read": [],
+  "browser_access": false,
+  "subject_help_requested_or_received": false,
+  "coordinator_messages": "Routine progress only.",
+  "source_truth_limits": [
+    "Original lecture PDF and cited external pages excluded and not opened; source fidelity statements not independently checked.",
+    "Introduced physical law and contextual empirical statements evaluated as declared premises rather than independently researched."
+  ],
+  "written_artifacts": [
+    "reviews/sasis-sequential/original-report.md",
+    "reviews/sasis-sequential/access-record.json"
+  ],
+  "written_at_utc": "2026-10-11T23:27:20.407054+00:00",
+  "frozen_identities": [
+    {
+      "path": "teaching/figures/clock-model.png",
+      "bytes": 57181,
+      "sha256": "ba89cbc40070e01858b44adc2e824bccbe78b54dadf528ddf0140f7b11d29120",
+      "git_blob": "9a8c605eded7318761fa7d208d3f2295a950ce83"
+    },
+    {
+      "path": "teaching/figures/sine-cosine.png",
+      "bytes": 137797,
+      "sha256": "d324f0daada997d7b22c9044911d9e3ce1fb0fd8b61261379e191b215aed1f15",
+      "git_blob": "2b77b3c50911f22e5ce80fe5bbe255907e31181e"
+    },
+    {
+      "path": "teaching/figures/tangent.png",
+      "bytes": 92940,
+      "sha256": "4e3d2326a55144ac97abce58943018c1fe91cf15cc93ef8227e33186a18c598a",
+      "git_blob": "e3885abdfa5c9d116abc87caebf9025cb250b3c9"
+    },
+    {
+      "path": "teaching/hints.md",
+      "bytes": 2467,
+      "sha256": "ad229ad84a93b7715a9d2104b82520bb3087959adfb09770eab85ad6b55efa28",
+      "git_blob": "a50aa8d2116884fcf3b75362ded916d1f15df236"
+    },
+    {
+      "path": "teaching/lesson.md",
+      "bytes": 18555,
+      "sha256": "249872594e606004626a77b7156f2cb9c1bcb8b0855b5f9caa782a7a98046c6e",
+      "git_blob": "9bba9d29370d7259658e6151547649cfda2d5d3d"
+    },
+    {
+      "path": "teaching/practice.md",
+      "bytes": 4539,
+      "sha256": "54df8ad37c8c48d71e41a8dd4e64d4581d85e5871fdc3bc254d35437917a2b88",
+      "git_blob": "c8d10e05e50f6f16676db7e72b51256c9c34a3ef"
+    },
+    {
+      "path": "teaching/solutions.md",
+      "bytes": 7860,
+      "sha256": "4e8992f37dbfe5fd81b62d315b16cb3f62344a786077c34e4811cd7b46e13c44",
+      "git_blob": "33c5cf928bbde0165cbdcf4b748af5d60d6268a2"
+    }
+  ],
+  "post_read_frozen_hash_recheck": "all seven match; computational-only complete-byte reads before report save"
+}

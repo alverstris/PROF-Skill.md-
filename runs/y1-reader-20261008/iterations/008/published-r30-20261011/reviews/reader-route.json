@@ -1,0 +1,159 @@
+{
+  "purpose": "Exact-file read routing only; no subject premises or review findings",
+  "ranges": "half-open raw bytes; decode UTF8 after slice",
+  "baseline_first": "inputs/student-baseline.txt entire file in coherent bounded chunks",
+  "teaching_sequence": [
+    {
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        0,
+        2842
+      ]
+    },
+    {
+      "path": "teaching/figures/tangent.png",
+      "action": "inspect full exact image"
+    },
+    {
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        2842,
+        3662
+      ]
+    },
+    {
+      "path": "teaching/practice.md",
+      "byte_range": [
+        0,
+        704
+      ]
+    },
+    {
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        3662,
+        6623
+      ]
+    },
+    {
+      "path": "teaching/practice.md",
+      "byte_range": [
+        704,
+        1197
+      ]
+    },
+    {
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        6623,
+        7485
+      ]
+    },
+    {
+      "path": "teaching/practice.md",
+      "byte_range": [
+        1197,
+        1560
+      ]
+    },
+    {
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        7485,
+        10194
+      ]
+    },
+    {
+      "path": "teaching/figures/sine-cosine.png",
+      "action": "inspect full exact image"
+    },
+    {
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        10194,
+        11287
+      ]
+    },
+    {
+      "path": "teaching/practice.md",
+      "byte_range": [
+        1560,
+        2201
+      ]
+    },
+    {
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        11287,
+        12644
+      ]
+    },
+    {
+      "path": "teaching/practice.md",
+      "byte_range": [
+        2201,
+        2692
+      ]
+    },
+    {
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        12644,
+        13817
+      ]
+    },
+    {
+      "path": "teaching/figures/clock-model.png",
+      "action": "inspect full exact image"
+    },
+    {
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        13817,
+        16925
+      ]
+    },
+    {
+      "path": "teaching/practice.md",
+      "byte_range": [
+        2692,
+        3627
+      ]
+    },
+    {
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        16925,
+        17329
+      ]
+    },
+    {
+      "path": "teaching/practice.md",
+      "byte_range": [
+        3627,
+        4539
+      ]
+    },
+    {
+      "path": "teaching/lesson.md",
+      "byte_range": [
+        17329,
+        18555
+      ]
+    },
+    {
+      "path": "teaching/hints.md",
+      "byte_range": [
+        0,
+        2467
+      ]
+    },
+    {
+      "path": "teaching/solutions.md",
+      "byte_range": [
+        0,
+        7860
+      ]
+    }
+  ]
+}

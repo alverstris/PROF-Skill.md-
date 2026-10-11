@@ -1,0 +1,31 @@
+D016 r26b — root's frozen-output mathematical and figure inspection
+
+Boundary and actual read extent
+
+Root saved independent P1–P5 derivations and 17 exact arithmetic checks at 2026-10-10T14:47:47.475580+00:00, before reading any proposed teaching or answers. The author subsequently reported the complete freeze at 2026-10-10T14:53:09.061979+00:00. Only after that notice did root read lesson.md 1–296, hints.md 1–33 and solutions.md 1–170, in complete bounded returns without omitted ranges. Root viewed all three exact PNG exports at original detail. The unchanged source is bound by source-binding.json to the six original page texts and six page images root actually inspected in the preceding cycle; no new full-source reading is falsely claimed here. Root did not repeat the full baseline reading and is not the fresh SASIS reader.
+
+Scientific result
+
+All five solution results and their mathematical warrants agree with root's saved pre-solution derivations. P1 gives left width 1/2, correct coordinates/heights and total 7/4, with the monotonic lower-bound reason. P2 cancels the shared square terms, preserves positive width, establishes L_n≤S_n≤R_n and obtains b³/3 for every allowed sample choice. P3 identifies [1,4], width 3/n and right samples 1+3i/n; finite sum −3/2−9/(2n), signed limit −3/2, geometric area 5/2 and average −1/2 agree. P4 gives principal 6000, debt 6120 and interest 120; uniform borrowing gives debt 6180 and the stated timing explanation supports the difference of 60. P5 gives net change 4 litres, final stock 14 litres, total crossing 5 litres and mean flow 1 litre/minute. Its explicit only-flow assumption supports taking the absolute value of the given signed flow to count the total crossing. No numerical answer needs a changed value.
+
+The full worked route is also coherent: R_2=5/8 on [0,1]; the square-layer construction gives the cubic pyramid bounds and their common normalized limit; the linear right/left difference is b²/n; the midpoint sum for 1+x on [1,3] equals 6; signed triangle cancellation differs correctly from geometric area; and principal versus weighted simple-interest debt is distinguished. The continuous constant-rate debt is 12360, while twelve month-end loans give 12330 under the explicitly different timing model. The latter check is correct and does not silently treat monthly contributions as continuous borrowing.
+
+The source's three worked families and five figure relationships remain represented: rectangle approximation; x² sum; inner/outer pyramid comparison; linear triangle; and arbitrary sample location/height/width. Source corrections from prisms to pyramids and from dollars/year to dollars for accumulated borrowing agree with root's inspected original page images. The square-pyramid volume rule is explicitly supplied as a geometric theorem, and the squeeze argument explains why the shared limit follows. The rendered diagram instantiates aligned central square sections; no rotated-square construction is used in the displayed comparison.
+
+Current conditions and units
+
+The continuity paragraph specifies the constrained object, pointwise nearby-value meaning, one-sided endpoint interpretation and an actual x² difference check. The general existence result is explicitly a supplied theorem, with sufficient versus necessary conditions distinguished. The actual practice functions are continuous polynomials. Brief statements about bounded step functions and piecewise continuity do not supply an indispensable premise for any current task; this mathematical check does not certify that every side term has separately been taught from the full baseline. The fresh reader's complete admission/reconstruction remains independent.
+
+The units paragraph now derives the product relation and explicitly allows a dimensionless integration variable. It makes no unconditional different-units assertion. The numerical-time conventions in both physical applications are explicit. This demonstrates the intended units behavior in this generation, not global acceptance of future PROF performance.
+
+Figures and local presentation
+
+All titles, axes, tick labels and legends in the three inspected saved exports are inside the canvas and visually complete. The previously demonstrated canvas clipping is not present in these figures. The rectangle heights/widths, four-layer pyramid section/base/heights, linear triangle and interior sample at c3=1.2 with f(c3)=1.44 and width 0.5 agree with their captions and calculations. Figures are linked beside their explaining text. Hints advance the requested decisions and are grouped separately from complete solutions.
+
+One local visual concern remains for disposition: in triangle-and-tag.png the plotted black curve passes through or very close to glyphs in the green c3=1.2 and blue f(c3)=1.44 annotations. Their intended numbers and arrow targets remain readable at the inspected native size, and the adjacent caption repeats them correctly. This is not a mathematical error or canvas-clipping recurrence. It should be considered in the T11 overlap/readability check at the actual embedded size, preserving this observation even if judged nonmaterial. No image was edited or re-exported.
+
+The supplemental citation labels contain a literal backtick before 5.5. This is a local punctuation imperfection; it does not establish a changed formula or loss of source access. Root has not independently opened that supplemental MIT chapter in this particular audit and does not certify its precise page attribution. The separate source reviewer must retain the actual supplemental-source access extent.
+
+Limits and disposition
+
+The complete mathematical/help comparison found no verified wrong answer, lost original source family or unsupported consequential inference. This is not a full T1–T12 acceptance and not the fresh SASIS result. Destination preservation, embedded visual quality, styling and navigation require actual GitHub evidence; the first immutable-page browser visit showed the GitHub Unicorn error, so those checks are still unverified. Original reader and technical reports must be preserved and reconciled with these scoped findings before closure. The entire generation remains unchanged.

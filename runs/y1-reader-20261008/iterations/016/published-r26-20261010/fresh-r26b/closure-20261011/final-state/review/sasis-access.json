@@ -1,0 +1,399 @@
+{
+  "generation": "d016-r26b",
+  "freeze_timestamp_declared": "2026-10-10T14:53:09.061979+00:00",
+  "reader": "fresh dedicated SASIS reader",
+  "operating_instruction": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/student-role.txt",
+  "subject_input_count": 2,
+  "admission": "complete after full sequential access and recovery of one truncated display",
+  "line_number_basis": "Python str.splitlines(), one-based inclusive; not LF-only wc",
+  "event_timestamps": "Per-read wall-clock timestamps were not recorded; exact event sequence and returned exec chunk identifiers are retained.",
+  "input_manifest": [
+    {
+      "artifact": "student-role.txt",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/student-role.txt",
+      "bytes": 5607,
+      "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+      "role": "non-subject operating instruction",
+      "matched_declared_manifest": true
+    },
+    {
+      "artifact": "student-baseline.txt",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "bytes": 247840,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "role": "subject input 1",
+      "matched_declared_manifest": true
+    },
+    {
+      "artifact": "lesson.md",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/lesson.md",
+      "bytes": 20996,
+      "sha256": "48b85e7b62abb2ca9794fa712b24a87124d400e5818a5f483b2a8fd4320eb564",
+      "role": "subject input 2",
+      "matched_declared_manifest": true
+    },
+    {
+      "artifact": "hints.md",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/hints.md",
+      "bytes": 2241,
+      "sha256": "f8db498eb437546f39916714a35b7a1217dba1d6407d94bde33ed6d2c5ed6014",
+      "role": "subject input 2",
+      "matched_declared_manifest": true
+    },
+    {
+      "artifact": "solutions.md",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/solutions.md",
+      "bytes": 6718,
+      "sha256": "5a616e257b6c83bce341e5332b036ab92b23f4430b2308b09ac74123b6d57c9a",
+      "role": "subject input 2",
+      "matched_declared_manifest": true
+    },
+    {
+      "artifact": "figures/rectangles.png",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/figures/rectangles.png",
+      "bytes": 62579,
+      "sha256": "38c038c4384d0bb96ebfdea0fccd4b1363649c514372abd776c9e2e9d36e9358",
+      "role": "subject input 2",
+      "matched_declared_manifest": true
+    },
+    {
+      "artifact": "figures/pyramids.png",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/figures/pyramids.png",
+      "bytes": 111358,
+      "sha256": "52773e071032cb71b964d68fea1d60e9c391276be16efadde057a0fcc1faa18f",
+      "role": "subject input 2",
+      "matched_declared_manifest": true
+    },
+    {
+      "artifact": "figures/triangle-and-tag.png",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/figures/triangle-and-tag.png",
+      "bytes": 74777,
+      "sha256": "68f43a2b8485a5ac751128ac65a42a12b643229760599bb9311a125270cbc7fe",
+      "role": "subject input 2",
+      "matched_declared_manifest": true
+    }
+  ],
+  "read_events": [
+    {
+      "artifact": "student-role.txt",
+      "range": "complete",
+      "bytes": 5607,
+      "sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+      "status": "read; no truncation",
+      "sequence": 1,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/student-role.txt",
+      "exec_command_chunk_id": "943282",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "student-baseline.txt",
+      "range": "1-160",
+      "line_basis": "Python str.splitlines()",
+      "status": "read; no truncation",
+      "sequence": 2,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "exec_command_chunk_id": "d64195",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "student-baseline.txt",
+      "range": "161-360",
+      "line_basis": "Python str.splitlines()",
+      "status": "read; no truncation",
+      "sequence": 3,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "exec_command_chunk_id": "331345",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "student-baseline.txt",
+      "range": "361-600",
+      "line_basis": "Python str.splitlines()",
+      "status": "read; no truncation",
+      "sequence": 4,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "exec_command_chunk_id": "586476",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "student-baseline.txt",
+      "range": "601-810",
+      "line_basis": "Python str.splitlines()",
+      "status": "output truncated by orchestration cap; visible omission within 721-737; recovered conservatively via 701-750",
+      "sequence": 5,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "exec_command_chunk_id": "8faab8",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "student-baseline.txt",
+      "range": "701-750",
+      "line_basis": "Python str.splitlines()",
+      "purpose": "Immediate conservative overlap recovery of truncation in 601-810 output",
+      "status": "read; no truncation; truncated passage recovered",
+      "sequence": 6,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "exec_command_chunk_id": "506eb1",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "student-baseline.txt",
+      "range": "811-920",
+      "line_basis": "Python str.splitlines()",
+      "status": "read; no truncation",
+      "sequence": 7,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "exec_command_chunk_id": "afa19a",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "student-baseline.txt",
+      "range": "921-1100",
+      "line_basis": "Python str.splitlines()",
+      "status": "read; no truncation",
+      "sequence": 8,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "exec_command_chunk_id": "bb995b",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "student-baseline.txt",
+      "range": "1101-1280",
+      "line_basis": "Python str.splitlines()",
+      "status": "read; no truncation",
+      "sequence": 9,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "exec_command_chunk_id": "896136",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "student-baseline.txt",
+      "range": "1281-1460",
+      "line_basis": "Python str.splitlines()",
+      "status": "read; no truncation",
+      "sequence": 10,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "exec_command_chunk_id": "865906",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "student-baseline.txt",
+      "range": "1461-1640",
+      "line_basis": "Python str.splitlines()",
+      "status": "read; no truncation",
+      "sequence": 11,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "exec_command_chunk_id": "190361",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "student-baseline.txt",
+      "range": "1641-1820",
+      "line_basis": "Python str.splitlines()",
+      "status": "read; no truncation",
+      "sequence": 12,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "exec_command_chunk_id": "3cdf01",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "student-baseline.txt",
+      "range": "1821-2000",
+      "line_basis": "Python str.splitlines()",
+      "status": "read; no truncation",
+      "sequence": 13,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "exec_command_chunk_id": "59600e",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "student-baseline.txt",
+      "range": "2001-2180",
+      "line_basis": "Python str.splitlines()",
+      "status": "read; no truncation",
+      "sequence": 14,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "exec_command_chunk_id": "00b419",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "student-baseline.txt",
+      "range": "2181-2360",
+      "line_basis": "Python str.splitlines()",
+      "status": "read; no truncation",
+      "sequence": 15,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "exec_command_chunk_id": "dbc486",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "student-baseline.txt",
+      "range": "2361-2561",
+      "line_basis": "Python str.splitlines()",
+      "status": "read; no truncation",
+      "sequence": 16,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/inputs/prof/references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "exec_command_chunk_id": "d1c003",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "lesson.md",
+      "range": "1-34",
+      "status": "read; no truncation; stopped at first image",
+      "sequence": 17,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/lesson.md",
+      "exec_command_chunk_id": "84cacb",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "figures/rectangles.png",
+      "position": "lesson.md line 34 before line 35",
+      "status": "visually inspected",
+      "sequence": 18,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/figures/rectangles.png",
+      "exec_command_chunk_id": "04ee3d",
+      "method": "SHA256 of exact file plus tools.view_image visual inspection"
+    },
+    {
+      "artifact": "lesson.md",
+      "range": "35-66",
+      "status": "read; no truncation; stopped at second image",
+      "sequence": 19,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/lesson.md",
+      "exec_command_chunk_id": "422e1a",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "figures/pyramids.png",
+      "position": "lesson.md line 66 before line 67",
+      "status": "visually inspected",
+      "sequence": 20,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/figures/pyramids.png",
+      "exec_command_chunk_id": "5890e3",
+      "method": "SHA256 of exact file plus tools.view_image visual inspection"
+    },
+    {
+      "artifact": "lesson.md",
+      "range": "67-125",
+      "status": "read; no truncation; stopped at third image",
+      "sequence": 21,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/lesson.md",
+      "exec_command_chunk_id": "bfa221",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "figures/triangle-and-tag.png",
+      "position": "lesson.md line 125 before line 126",
+      "status": "visually inspected",
+      "sequence": 22,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/figures/triangle-and-tag.png",
+      "exec_command_chunk_id": "a567a3",
+      "method": "SHA256 of exact file plus tools.view_image visual inspection"
+    },
+    {
+      "artifact": "lesson.md",
+      "range": "126-296",
+      "status": "read; no truncation",
+      "sequence": 23,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/lesson.md",
+      "exec_command_chunk_id": "a87f37",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "hints.md",
+      "range": "1-33",
+      "status": "read; no truncation",
+      "sequence": 24,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/hints.md",
+      "exec_command_chunk_id": "0cf4b8",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    },
+    {
+      "artifact": "solutions.md",
+      "range": "1-170",
+      "status": "read; no truncation",
+      "sequence": 25,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/solutions.md",
+      "exec_command_chunk_id": "4ba3ed",
+      "method": "Exact-file Python UTF-8 read, numbered display using str.splitlines(); operating instruction displayed whole"
+    }
+  ],
+  "coverage": {
+    "baseline": {
+      "line_count": 2561,
+      "covered_range": [
+        1,
+        2561
+      ],
+      "all_four_subject_sections_read": true,
+      "remaining_unread_ranges": []
+    },
+    "lesson": {
+      "line_count": 296,
+      "covered_range": [
+        1,
+        296
+      ],
+      "image_inspection_positions": [
+        34,
+        66,
+        125
+      ],
+      "remaining_unread_ranges": []
+    },
+    "hints": {
+      "line_count": 33,
+      "covered_range": [
+        1,
+        33
+      ],
+      "remaining_unread_ranges": []
+    },
+    "solutions": {
+      "line_count": 170,
+      "covered_range": [
+        1,
+        170
+      ],
+      "remaining_unread_ranges": []
+    },
+    "figures": {
+      "all_three_visually_inspected": true,
+      "unreadable_regions_identified": []
+    }
+  },
+  "truncations": [
+    {
+      "event_sequence": 5,
+      "attempted_baseline_range": [
+        601,
+        810
+      ],
+      "observed": "Orchestration returned a truncation warning and a visible omitted span within lines 721–737.",
+      "recovery_event_sequence": 6,
+      "recovery_range": [
+        701,
+        750
+      ],
+      "recovery_status": "Complete overlap displayed without truncation; no unresolved omission."
+    }
+  ],
+  "retrieval_limits": {
+    "only_authorized_input_paths_retrieved": true,
+    "browsing": false,
+    "directory_searches": false,
+    "external_research": false,
+    "author_material_read": false,
+    "prof_instructions_read": false,
+    "old_reviews_read": false,
+    "other_agent_subject_messages": false,
+    "technical_isolation_claimed": false,
+    "erased_pretraining_claimed": false
+  },
+  "administrative_communication": "One parent-requested access-only coverage checkpoint was sent after all input reading; no subject feedback was received or used.",
+  "output_paths": {
+    "original_report": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/review/sasis-original.md",
+    "access_log": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/review/sasis-access.json"
+  },
+  "original_report_preserved_before_feedback": true
+}

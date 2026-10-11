@@ -1,0 +1,760 @@
+{
+  "url": "https://github.com/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/solutions.md#s1",
+  "observedAt": "2026-10-11T20:48:05.597Z",
+  "anchors": [
+    "user-content-s1",
+    "user-content-s2",
+    "user-content-s3",
+    "user-content-s4",
+    "user-content-s5"
+  ],
+  "html": "<article class=\"markdown-body entry-content container-lg\" itemprop=\"text\"><p dir=\"auto\">D016 · Complete solutions</p>\n<p dir=\"auto\">Try the <a href=\"/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/lesson.md\">tasks in the lesson</a> before reading their solutions. The <a href=\"/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/hints.md\">hints</a> give intermediate help separately. These solutions explain the construction and interpretation as well as the arithmetic.</p>\n<p dir=\"auto\"><a id=\"user-content-s1\"></a></p>\n<p dir=\"auto\">Solution P1</p>\n<p dir=\"auto\">Four equal pieces of <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo stretchy=\"false\">[</mo>\n  <mn>0</mn>\n  <mo>,</mo>\n  <mn>2</mn>\n  <mo stretchy=\"false\">]</mo>\n</math></math-renderer> each have width <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi mathvariant=\"normal\">Δ</mi>\n  <mi>x</mi>\n  <mo>=</mo>\n  <mo stretchy=\"false\">(</mo>\n  <mn>2</mn>\n  <mo>−</mo>\n  <mn>0</mn>\n  <mo stretchy=\"false\">)</mo>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>4</mn>\n  <mo>=</mo>\n  <mn>1</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n</math></math-renderer>. The left endpoints are <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>0</mn>\n  <mo>,</mo>\n  <mn>1</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n  <mo>,</mo>\n  <mn>1</mn>\n  <mo>,</mo>\n  <mn>3</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n</math></math-renderer>, with heights <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>0</mn>\n  <mo>,</mo>\n  <mn>1</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>4</mn>\n  <mo>,</mo>\n  <mn>1</mn>\n  <mo>,</mo>\n  <mn>9</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>4</mn>\n</math></math-renderer>. Thus</p>\n<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msub>\n    <mi>L</mi>\n    <mn>4</mn>\n  </msub>\n  <mo>=</mo>\n  <mfrac>\n    <mn>1</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <mn>0</mn>\n    <mo>+</mo>\n    <mfrac>\n      <mn>1</mn>\n      <mn>4</mn>\n    </mfrac>\n    <mo>+</mo>\n    <mn>1</mn>\n    <mo>+</mo>\n    <mfrac>\n      <mn>9</mn>\n      <mn>4</mn>\n    </mfrac>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n  <mo>=</mo>\n  <mfrac>\n    <mn>7</mn>\n    <mn>4</mn>\n  </mfrac>\n  <mo>.</mo>\n</math></math-renderer>\n<p dir=\"auto\">On each subinterval, <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msup>\n    <mi>x</mi>\n    <mn>2</mn>\n  </msup>\n</math></math-renderer> increases, so the left-endpoint height is no greater than any height of the curve over that piece. Every rectangle lies within the region under the curve. The result is an underestimate; no antiderivative is needed to establish its direction. A sum of heights alone would omit the width and would not be the requested area.</p>\n<p dir=\"auto\"><a href=\"/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/lesson.md#p1\">Return to P1</a></p>\n<p dir=\"auto\"><a id=\"user-content-s2\"></a></p>\n<p dir=\"auto\">Solution P2</p>\n<p dir=\"auto\">The right coordinate is <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>i</mi>\n  <mi>b</mi>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n</math></math-renderer> for <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>i</mi>\n  <mo>=</mo>\n  <mn>1</mn>\n  <mo>,</mo>\n  <mo>…</mo>\n  <mo>,</mo>\n  <mi>n</mi>\n</math></math-renderer>. For the left sum the corresponding coordinates run from zero to <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo stretchy=\"false\">(</mo>\n  <mi>n</mi>\n  <mo>−</mo>\n  <mn>1</mn>\n  <mo stretchy=\"false\">)</mo>\n  <mi>b</mi>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n</math></math-renderer>. Hence</p>\n<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msub>\n    <mi>R</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>=</mo>\n  <mfrac>\n    <msup>\n      <mi>b</mi>\n      <mn>3</mn>\n    </msup>\n    <msup>\n      <mi>n</mi>\n      <mn>3</mn>\n    </msup>\n  </mfrac>\n  <mo stretchy=\"false\">(</mo>\n  <msup>\n    <mn>1</mn>\n    <mn>2</mn>\n  </msup>\n  <mo>+</mo>\n  <msup>\n    <mn>2</mn>\n    <mn>2</mn>\n  </msup>\n  <mo>+</mo>\n  <mo>⋯</mo>\n  <mo>+</mo>\n  <msup>\n    <mi>n</mi>\n    <mn>2</mn>\n  </msup>\n  <mo stretchy=\"false\">)</mo>\n  <mo>,</mo>\n  <mstyle>\n    <mspace width=\"2em\"></mspace>\n  </mstyle>\n  <msub>\n    <mi>L</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>=</mo>\n  <mfrac>\n    <msup>\n      <mi>b</mi>\n      <mn>3</mn>\n    </msup>\n    <msup>\n      <mi>n</mi>\n      <mn>3</mn>\n    </msup>\n  </mfrac>\n  <mo stretchy=\"false\">(</mo>\n  <msup>\n    <mn>0</mn>\n    <mn>2</mn>\n  </msup>\n  <mo>+</mo>\n  <msup>\n    <mn>1</mn>\n    <mn>2</mn>\n  </msup>\n  <mo>+</mo>\n  <mo>⋯</mo>\n  <mo>+</mo>\n  <mo stretchy=\"false\">(</mo>\n  <mi>n</mi>\n  <mo>−</mo>\n  <mn>1</mn>\n  <msup>\n    <mo stretchy=\"false\">)</mo>\n    <mn>2</mn>\n  </msup>\n  <mo stretchy=\"false\">)</mo>\n  <mo>.</mo>\n</math></math-renderer>\n<p dir=\"auto\">Subtracting these finite sums cancels every shared square. Therefore</p>\n<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msub>\n    <mi>R</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>−</mo>\n  <msub>\n    <mi>L</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>=</mo>\n  <mfrac>\n    <msup>\n      <mi>b</mi>\n      <mn>3</mn>\n    </msup>\n    <msup>\n      <mi>n</mi>\n      <mn>3</mn>\n    </msup>\n  </mfrac>\n  <mo stretchy=\"false\">(</mo>\n  <msup>\n    <mi>n</mi>\n    <mn>2</mn>\n  </msup>\n  <mo>−</mo>\n  <msup>\n    <mn>0</mn>\n    <mn>2</mn>\n  </msup>\n  <mo stretchy=\"false\">)</mo>\n  <mo>=</mo>\n  <mfrac>\n    <msup>\n      <mi>b</mi>\n      <mn>3</mn>\n    </msup>\n    <mi>n</mi>\n  </mfrac>\n  <mo>.</mo>\n</math></math-renderer>\n<p dir=\"auto\">For fixed positive <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>b</mi>\n</math></math-renderer>, this tends to zero. Since the pyramid argument supplies <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msub>\n    <mi>R</mi>\n    <mi>n</mi>\n  </msub>\n  <mo accent=\"false\" stretchy=\"false\">→</mo>\n  <msup>\n    <mi>b</mi>\n    <mn>3</mn>\n  </msup>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>3</mn>\n</math></math-renderer>, the identity <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msub>\n    <mi>L</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>=</mo>\n  <msub>\n    <mi>R</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>−</mo>\n  <msup>\n    <mi>b</mi>\n    <mn>3</mn>\n  </msup>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n</math></math-renderer> gives <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msub>\n    <mi>L</mi>\n    <mi>n</mi>\n  </msub>\n  <mo accent=\"false\" stretchy=\"false\">→</mo>\n  <msup>\n    <mi>b</mi>\n    <mn>3</mn>\n  </msup>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>3</mn>\n</math></math-renderer> too.</p>\n<p dir=\"auto\">For any permitted <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msub>\n    <mi>c</mi>\n    <mi>i</mi>\n  </msub>\n  <mo>∈</mo>\n  <mo stretchy=\"false\">[</mo>\n  <mo stretchy=\"false\">(</mo>\n  <mi>i</mi>\n  <mo>−</mo>\n  <mn>1</mn>\n  <mo stretchy=\"false\">)</mo>\n  <mi>b</mi>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n  <mo>,</mo>\n  <mi>i</mi>\n  <mi>b</mi>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n  <mo stretchy=\"false\">]</mo>\n</math></math-renderer>, monotonicity on the nonnegative interval gives</p>\n<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msup>\n    <mrow data-mjx-texclass=\"INNER\">\n      <mo data-mjx-texclass=\"OPEN\">(</mo>\n      <mfrac>\n        <mrow>\n          <mo stretchy=\"false\">(</mo>\n          <mi>i</mi>\n          <mo>−</mo>\n          <mn>1</mn>\n          <mo stretchy=\"false\">)</mo>\n          <mi>b</mi>\n        </mrow>\n        <mi>n</mi>\n      </mfrac>\n      <mo data-mjx-texclass=\"CLOSE\">)</mo>\n    </mrow>\n    <mn>2</mn>\n  </msup>\n  <mo>≤</mo>\n  <msubsup>\n    <mi>c</mi>\n    <mi>i</mi>\n    <mn>2</mn>\n  </msubsup>\n  <mo>≤</mo>\n  <msup>\n    <mrow data-mjx-texclass=\"INNER\">\n      <mo data-mjx-texclass=\"OPEN\">(</mo>\n      <mfrac>\n        <mrow>\n          <mi>i</mi>\n          <mi>b</mi>\n        </mrow>\n        <mi>n</mi>\n      </mfrac>\n      <mo data-mjx-texclass=\"CLOSE\">)</mo>\n    </mrow>\n    <mn>2</mn>\n  </msup>\n  <mo>.</mo>\n</math></math-renderer>\n<p dir=\"auto\">Multiply by the positive width <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>b</mi>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n</math></math-renderer> and add over all subintervals:</p>\n<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msub>\n    <mi>L</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>≤</mo>\n  <msub>\n    <mi>S</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>≤</mo>\n  <msub>\n    <mi>R</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>.</mo>\n</math></math-renderer>\n<p dir=\"auto\">Both bounds approach <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msup>\n    <mi>b</mi>\n    <mn>3</mn>\n  </msup>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>3</mn>\n</math></math-renderer>, so <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msub>\n    <mi>S</mi>\n    <mi>n</mi>\n  </msub>\n</math></math-renderer> must approach it as well. This supports every choice of one sample in each equal subinterval, including choices that change as <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>n</mi>\n</math></math-renderer> changes. It does not say the finite totals are equal.</p>\n<p dir=\"auto\"><a href=\"/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/lesson.md#p2\">Return to P2</a></p>\n<p dir=\"auto\"><a id=\"user-content-s3\"></a></p>\n<p dir=\"auto\">Solution P3</p>\n<p dir=\"auto\">The displayed height is <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>f</mi>\n  <mo stretchy=\"false\">(</mo>\n  <msub>\n    <mi>c</mi>\n    <mi>i</mi>\n  </msub>\n  <mo stretchy=\"false\">)</mo>\n  <mo>=</mo>\n  <mn>2</mn>\n  <mo>−</mo>\n  <msub>\n    <mi>c</mi>\n    <mi>i</mi>\n  </msub>\n</math></math-renderer> with <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msub>\n    <mi>c</mi>\n    <mi>i</mi>\n  </msub>\n  <mo>=</mo>\n  <mn>1</mn>\n  <mo>+</mo>\n  <mn>3</mn>\n  <mi>i</mi>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n</math></math-renderer>. Comparing with right endpoints <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>a</mi>\n  <mo>+</mo>\n  <mi>i</mi>\n  <mi mathvariant=\"normal\">Δ</mi>\n  <mi>x</mi>\n</math></math-renderer> identifies <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>a</mi>\n  <mo>=</mo>\n  <mn>1</mn>\n</math></math-renderer> and <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi mathvariant=\"normal\">Δ</mi>\n  <mi>x</mi>\n  <mo>=</mo>\n  <mn>3</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n</math></math-renderer>. The last endpoint is <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>1</mn>\n  <mo>+</mo>\n  <mn>3</mn>\n  <mi>n</mi>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n  <mo>=</mo>\n  <mn>4</mn>\n</math></math-renderer>, so the interval is <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo stretchy=\"false\">[</mo>\n  <mn>1</mn>\n  <mo>,</mo>\n  <mn>4</mn>\n  <mo stretchy=\"false\">]</mo>\n</math></math-renderer>.</p>\n<p dir=\"auto\">The function <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>2</mn>\n  <mo>−</mo>\n  <mi>x</mi>\n</math></math-renderer> is continuous there: changing the input by <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>h</mi>\n</math></math-renderer> changes the output by <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo>−</mo>\n  <mi>h</mi>\n</math></math-renderer>, which tends to zero. Thus the sum tends to its definite integral:</p>\n<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <munder>\n    <mo data-mjx-texclass=\"OP\" movablelimits=\"true\">lim</mo>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mi>n</mi>\n      <mo accent=\"false\" stretchy=\"false\">→</mo>\n      <mi mathvariant=\"normal\">∞</mi>\n    </mrow>\n  </munder>\n  <msub>\n    <mi>S</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>=</mo>\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>1</mn>\n    <mn>4</mn>\n  </msubsup>\n  <mo stretchy=\"false\">(</mo>\n  <mn>2</mn>\n  <mo>−</mo>\n  <mi>x</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>x</mi>\n  <mo>=</mo>\n  <msubsup>\n    <mrow data-mjx-texclass=\"INNER\">\n      <mo data-mjx-texclass=\"OPEN\">[</mo>\n      <mn>2</mn>\n      <mi>x</mi>\n      <mo>−</mo>\n      <mfrac>\n        <msup>\n          <mi>x</mi>\n          <mn>2</mn>\n        </msup>\n        <mn>2</mn>\n      </mfrac>\n      <mo data-mjx-texclass=\"CLOSE\">]</mo>\n    </mrow>\n    <mn>1</mn>\n    <mn>4</mn>\n  </msubsup>\n  <mo>=</mo>\n  <mn>0</mn>\n  <mo>−</mo>\n  <mfrac>\n    <mn>3</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>=</mo>\n  <mo>−</mo>\n  <mfrac>\n    <mn>3</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>.</mo>\n</math></math-renderer>\n<p dir=\"auto\">An independent sum check is</p>\n<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msub>\n    <mi>S</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>=</mo>\n  <mfrac>\n    <mn>3</mn>\n    <mi>n</mi>\n  </mfrac>\n  <munderover>\n    <mo data-mjx-texclass=\"OP\">∑</mo>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mi>i</mi>\n      <mo>=</mo>\n      <mn>1</mn>\n    </mrow>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mi>n</mi>\n    </mrow>\n  </munderover>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <mn>1</mn>\n    <mo>−</mo>\n    <mfrac>\n      <mrow>\n        <mn>3</mn>\n        <mi>i</mi>\n      </mrow>\n      <mi>n</mi>\n    </mfrac>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n  <mo>=</mo>\n  <mn>3</mn>\n  <mo>−</mo>\n  <mfrac>\n    <mn>9</mn>\n    <msup>\n      <mi>n</mi>\n      <mn>2</mn>\n    </msup>\n  </mfrac>\n  <mfrac>\n    <mrow>\n      <mi>n</mi>\n      <mo stretchy=\"false\">(</mo>\n      <mi>n</mi>\n      <mo>+</mo>\n      <mn>1</mn>\n      <mo stretchy=\"false\">)</mo>\n    </mrow>\n    <mn>2</mn>\n  </mfrac>\n  <mo>=</mo>\n  <mo>−</mo>\n  <mfrac>\n    <mn>3</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>−</mo>\n  <mfrac>\n    <mn>9</mn>\n    <mrow>\n      <mn>2</mn>\n      <mi>n</mi>\n    </mrow>\n  </mfrac>\n  <mo>,</mo>\n</math></math-renderer>\n<p dir=\"auto\">which has the same limit.</p>\n<p dir=\"auto\">The zero at <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>x</mi>\n  <mo>=</mo>\n  <mn>2</mn>\n</math></math-renderer> splits the geometric region. Above the axis, on <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo stretchy=\"false\">[</mo>\n  <mn>1</mn>\n  <mo>,</mo>\n  <mn>2</mn>\n  <mo stretchy=\"false\">]</mo>\n</math></math-renderer>, the triangle has base 1 and height 1, hence area <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>1</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n</math></math-renderer>. Below the axis, on <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo stretchy=\"false\">[</mo>\n  <mn>2</mn>\n  <mo>,</mo>\n  <mn>4</mn>\n  <mo stretchy=\"false\">]</mo>\n</math></math-renderer>, the triangle has base 2 and height 2, hence area 2. Consequently</p>\n<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <mtext>geometric area</mtext>\n  <mo>=</mo>\n  <mfrac>\n    <mn>1</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>+</mo>\n  <mn>2</mn>\n  <mo>=</mo>\n  <mfrac>\n    <mn>5</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>,</mo>\n  <mstyle>\n    <mspace width=\"2em\"></mspace>\n  </mstyle>\n  <mtext>signed integral</mtext>\n  <mo>=</mo>\n  <mfrac>\n    <mn>1</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>−</mo>\n  <mn>2</mn>\n  <mo>=</mo>\n  <mo>−</mo>\n  <mfrac>\n    <mn>3</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>.</mo>\n</math></math-renderer>\n<p dir=\"auto\">The interval length is 3, so the average value is <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo stretchy=\"false\">(</mo>\n  <mo>−</mo>\n  <mn>3</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n  <mo stretchy=\"false\">)</mo>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>3</mn>\n  <mo>=</mo>\n  <mo>−</mo>\n  <mn>1</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n</math></math-renderer>. The integral gives net signed accumulation, the geometric area counts both regions positively, and the average divides the signed total by the interval length. The negative average says that a constant height of <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo>−</mo>\n  <mn>1</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n</math></math-renderer> over this interval would have the same signed total.</p>\n<p dir=\"auto\"><a href=\"/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/lesson.md#p3\">Return to P3</a></p>\n<p dir=\"auto\"><a id=\"user-content-s4\"></a></p>\n<p dir=\"auto\">Solution P4</p>\n<p dir=\"auto\">A short interval contributes approximately <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>12000</mn>\n  <mi>t</mi>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi mathvariant=\"normal\">Δ</mi>\n  <mi>t</mi>\n</math></math-renderer> dollars of principal. Adding and taking the limit gives</p>\n<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <mi>B</mi>\n  <mo>=</mo>\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>0</mn>\n    <mn>1</mn>\n  </msubsup>\n  <mn>12000</mn>\n  <mi>t</mi>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>t</mi>\n  <mo>=</mo>\n  <mn>12000</mn>\n  <msubsup>\n    <mrow data-mjx-texclass=\"INNER\">\n      <mo data-mjx-texclass=\"OPEN\">[</mo>\n      <mfrac>\n        <msup>\n          <mi>t</mi>\n          <mn>2</mn>\n        </msup>\n        <mn>2</mn>\n      </mfrac>\n      <mo data-mjx-texclass=\"CLOSE\">]</mo>\n    </mrow>\n    <mn>0</mn>\n    <mn>1</mn>\n  </msubsup>\n  <mo>=</mo>\n  <mn>6000</mn>\n  <mtext>&nbsp;dollars</mtext>\n  <mo>.</mo>\n</math></math-renderer>\n<p dir=\"auto\">The portion borrowed at time <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>t</mi>\n</math></math-renderer> remains outstanding for <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>1</mn>\n  <mo>−</mo>\n  <mi>t</mi>\n</math></math-renderer> years. Simple interest makes its final multiplier <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>1</mn>\n  <mo>+</mo>\n  <mn>0.06</mn>\n  <mo stretchy=\"false\">(</mo>\n  <mn>1</mn>\n  <mo>−</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n</math></math-renderer>. Thus</p>\n<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <mi>D</mi>\n  <mo stretchy=\"false\">(</mo>\n  <mn>1</mn>\n  <mo stretchy=\"false\">)</mo>\n  <mo>=</mo>\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>0</mn>\n    <mn>1</mn>\n  </msubsup>\n  <mn>12000</mn>\n  <mi>t</mi>\n  <mo stretchy=\"false\">[</mo>\n  <mn>1</mn>\n  <mo>+</mo>\n  <mn>0.06</mn>\n  <mo stretchy=\"false\">(</mo>\n  <mn>1</mn>\n  <mo>−</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mo stretchy=\"false\">]</mo>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>t</mi>\n  <mo>.</mo>\n</math></math-renderer>\n<p dir=\"auto\">Here <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>12000</mn>\n  <mi>t</mi>\n</math></math-renderer> is the rate of borrowing, <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>d</mi>\n  <mi>t</mi>\n</math></math-renderer> supplies the limiting time width, and the bracket converts each principal contribution to what that contribution will cost at the common final time. Numerically,</p>\n<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <mtable displaystyle=\"true\" columnalign=\"right left\" columnspacing=\"0em\" rowspacing=\"3pt\">\n    <mtr>\n      <mtd style=\"text-align: right;\">\n        <mi>D</mi>\n        <mo stretchy=\"false\">(</mo>\n        <mn>1</mn>\n        <mo stretchy=\"false\">)</mo>\n      </mtd>\n      <mtd style=\"text-align: left;\">\n        <mi></mi>\n        <mo>=</mo>\n        <mn>12000</mn>\n        <msubsup>\n          <mo data-mjx-texclass=\"OP\">∫</mo>\n          <mn>0</mn>\n          <mn>1</mn>\n        </msubsup>\n        <mo stretchy=\"false\">(</mo>\n        <mn>1.06</mn>\n        <mi>t</mi>\n        <mo>−</mo>\n        <mn>0.06</mn>\n        <msup>\n          <mi>t</mi>\n          <mn>2</mn>\n        </msup>\n        <mo stretchy=\"false\">)</mo>\n        <mstyle>\n          <mspace width=\"0.167em\"></mspace>\n        </mstyle>\n        <mi>d</mi>\n        <mi>t</mi>\n      </mtd>\n    </mtr>\n    <mtr>\n      <mtd style=\"text-align: right;\">\n        <mtext>&nbsp;</mtext>\n      </mtd>\n      <mtd style=\"text-align: left;\">\n        <mi></mi>\n        <mo>=</mo>\n        <mn>12000</mn>\n        <msubsup>\n          <mrow data-mjx-texclass=\"INNER\">\n            <mo data-mjx-texclass=\"OPEN\">[</mo>\n            <mfrac>\n              <mrow>\n                <mn>1.06</mn>\n                <msup>\n                  <mi>t</mi>\n                  <mn>2</mn>\n                </msup>\n              </mrow>\n              <mn>2</mn>\n            </mfrac>\n            <mo>−</mo>\n            <mfrac>\n              <mrow>\n                <mn>0.06</mn>\n                <msup>\n                  <mi>t</mi>\n                  <mn>3</mn>\n                </msup>\n              </mrow>\n              <mn>3</mn>\n            </mfrac>\n            <mo data-mjx-texclass=\"CLOSE\">]</mo>\n          </mrow>\n          <mn>0</mn>\n          <mn>1</mn>\n        </msubsup>\n      </mtd>\n    </mtr>\n    <mtr>\n      <mtd style=\"text-align: right;\">\n        <mtext>&nbsp;</mtext>\n      </mtd>\n      <mtd style=\"text-align: left;\">\n        <mi></mi>\n        <mo>=</mo>\n        <mn>12000</mn>\n        <mo stretchy=\"false\">(</mo>\n        <mn>0.53</mn>\n        <mo>−</mo>\n        <mn>0.02</mn>\n        <mo stretchy=\"false\">)</mo>\n        <mo>=</mo>\n        <mn>6120</mn>\n        <mtext>&nbsp;dollars</mtext>\n        <mo>.</mo>\n      </mtd>\n    </mtr>\n  </mtable>\n</math></math-renderer>\n<p dir=\"auto\">Interest is therefore 120 dollars. Charging a full year on all 6000 dollars would give <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>6000</mn>\n  <mo stretchy=\"false\">(</mo>\n  <mn>1.06</mn>\n  <mo stretchy=\"false\">)</mo>\n  <mo>=</mo>\n  <mn>6360</mn>\n</math></math-renderer> dollars, 240 dollars too much. That expression assigns the start-of-year holding time to money that was actually borrowed throughout the year.</p>\n<p dir=\"auto\">At a uniform borrowing rate of 6000 dollars per year, the principal is still 6000 dollars but the final debt is</p>\n<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>0</mn>\n    <mn>1</mn>\n  </msubsup>\n  <mn>6000</mn>\n  <mo stretchy=\"false\">[</mo>\n  <mn>1</mn>\n  <mo>+</mo>\n  <mn>0.06</mn>\n  <mo stretchy=\"false\">(</mo>\n  <mn>1</mn>\n  <mo>−</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mo stretchy=\"false\">]</mo>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>t</mi>\n  <mo>=</mo>\n  <mn>6000</mn>\n  <mo stretchy=\"false\">(</mo>\n  <mn>1</mn>\n  <mo>+</mo>\n  <mn>0.03</mn>\n  <mo stretchy=\"false\">)</mo>\n  <mo>=</mo>\n  <mn>6180</mn>\n  <mtext>&nbsp;dollars</mtext>\n  <mo>.</mo>\n</math></math-renderer>\n<p dir=\"auto\">This is 60 dollars more than for the increasing rate. Uniform borrowing puts half the total in each half-year; the increasing rate puts only <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>0</mn>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mn>1</mn>\n      <mrow data-mjx-texclass=\"ORD\">\n        <mo>/</mo>\n      </mrow>\n      <mn>2</mn>\n    </mrow>\n  </msubsup>\n  <mn>12000</mn>\n  <mi>t</mi>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>t</mi>\n  <mo>=</mo>\n  <mn>1500</mn>\n</math></math-renderer> dollars in the first half and 4500 in the second. More of the same principal is therefore borrowed later and held for less time, which agrees with the smaller weighted interest integral. The calculation concerns the stated simple-interest model; no compounding has been introduced.</p>\n<p dir=\"auto\"><a href=\"/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/lesson.md#p4\">Return to P4</a></p>\n<p dir=\"auto\"><a id=\"user-content-s5\"></a></p>\n<p dir=\"auto\">Solution P5</p>\n<p dir=\"auto\">For a sample <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msub>\n    <mi>c</mi>\n    <mi>i</mi>\n  </msub>\n</math></math-renderer> in an interval of duration <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi mathvariant=\"normal\">Δ</mi>\n  <mi>t</mi>\n</math></math-renderer> minutes, the contribution to volume is approximately <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>g</mi>\n  <mo stretchy=\"false\">(</mo>\n  <msub>\n    <mi>c</mi>\n    <mi>i</mi>\n  </msub>\n  <mo stretchy=\"false\">)</mo>\n  <mi mathvariant=\"normal\">Δ</mi>\n  <mi>t</mi>\n  <mo>=</mo>\n  <mo stretchy=\"false\">(</mo>\n  <mn>3</mn>\n  <mo>−</mo>\n  <msub>\n    <mi>c</mi>\n    <mi>i</mi>\n  </msub>\n  <mo stretchy=\"false\">)</mo>\n  <mi mathvariant=\"normal\">Δ</mi>\n  <mi>t</mi>\n</math></math-renderer> litres. The sign tells whether that contribution enters or leaves. The limiting signed total gives the net change:</p>\n<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <mi mathvariant=\"normal\">Δ</mi>\n  <mi>V</mi>\n  <mo>=</mo>\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>0</mn>\n    <mn>4</mn>\n  </msubsup>\n  <mo stretchy=\"false\">(</mo>\n  <mn>3</mn>\n  <mo>−</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>t</mi>\n  <mo>=</mo>\n  <msubsup>\n    <mrow data-mjx-texclass=\"INNER\">\n      <mo data-mjx-texclass=\"OPEN\">[</mo>\n      <mn>3</mn>\n      <mi>t</mi>\n      <mo>−</mo>\n      <mfrac>\n        <msup>\n          <mi>t</mi>\n          <mn>2</mn>\n        </msup>\n        <mn>2</mn>\n      </mfrac>\n      <mo data-mjx-texclass=\"CLOSE\">]</mo>\n    </mrow>\n    <mn>0</mn>\n    <mn>4</mn>\n  </msubsup>\n  <mo>=</mo>\n  <mn>12</mn>\n  <mo>−</mo>\n  <mn>8</mn>\n  <mo>=</mo>\n  <mn>4</mn>\n  <mtext>&nbsp;litres</mtext>\n  <mo>.</mo>\n</math></math-renderer>\n<p dir=\"auto\">The tank already held 10 litres, so its final volume is <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>10</mn>\n  <mo>+</mo>\n  <mn>4</mn>\n  <mo>=</mo>\n  <mn>14</mn>\n</math></math-renderer> litres. The integral is a change; it does not by itself include the initial amount.</p>\n<p dir=\"auto\">The rate vanishes at <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>t</mi>\n  <mo>=</mo>\n  <mn>3</mn>\n</math></math-renderer>. Before that it is positive; after that it is negative. The amount entering in the first part is</p>\n<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>0</mn>\n    <mn>3</mn>\n  </msubsup>\n  <mo stretchy=\"false\">(</mo>\n  <mn>3</mn>\n  <mo>−</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>t</mi>\n  <mo>=</mo>\n  <mfrac>\n    <mn>9</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mtext>&nbsp;litres</mtext>\n  <mo>.</mo>\n</math></math-renderer>\n<p dir=\"auto\">The signed integral from 3 to 4 is <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo>−</mo>\n  <mn>1</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n</math></math-renderer> litre, so the amount leaving is <math-renderer class=\"js-inline-math\" style=\"display: inline-block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>1</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n</math></math-renderer> litre. Because the specified signed flow is the only flow, total fluid crossing either way is</p>\n<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>0</mn>\n    <mn>4</mn>\n  </msubsup>\n  <mo data-mjx-texclass=\"ORD\" stretchy=\"false\">|</mo>\n  <mn>3</mn>\n  <mo>−</mo>\n  <mi>t</mi>\n  <mo data-mjx-texclass=\"ORD\" stretchy=\"false\">|</mo>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>t</mi>\n  <mo>=</mo>\n  <mfrac>\n    <mn>9</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>+</mo>\n  <mfrac>\n    <mn>1</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>=</mo>\n  <mn>5</mn>\n  <mtext>&nbsp;litres</mtext>\n  <mo>.</mo>\n</math></math-renderer>\n<p dir=\"auto\">The mean net flow is the signed total divided by the duration:</p>\n<math-renderer class=\"js-display-math\" style=\"display: block\" data-run-id=\"9bb9afd7f28adee43585d610e5c61bc2\" data-catalyst=\"\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <mfrac>\n    <mn>1</mn>\n    <mn>4</mn>\n  </mfrac>\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>0</mn>\n    <mn>4</mn>\n  </msubsup>\n  <mo stretchy=\"false\">(</mo>\n  <mn>3</mn>\n  <mo>−</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>t</mi>\n  <mo>=</mo>\n  <mn>1</mn>\n  <mtext>&nbsp;litre per minute</mtext>\n  <mo>.</mo>\n</math></math-renderer>\n<p dir=\"auto\">Thus the four questions require, respectively, a signed accumulation, that accumulation plus the initial volume, an accumulation of magnitudes, and a signed accumulation divided by elapsed time. Taking the absolute value of the final signed integral would give 4 litres and would still miss the extra half-litre that first entered and later left. The rate is continuous at its zero; a sign change is not itself a discontinuity.</p>\n<p dir=\"auto\"><a href=\"/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/lesson.md#p5\">Return to P5</a></p>\n</article>",
+  "links": [
+    {
+      "href": "https://github.com/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/lesson.md",
+      "text": "tasks in the lesson"
+    },
+    {
+      "href": "https://github.com/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/hints.md",
+      "text": "hints"
+    },
+    {
+      "href": "https://github.com/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/lesson.md#p1",
+      "text": "Return to P1"
+    },
+    {
+      "href": "https://github.com/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/lesson.md#p2",
+      "text": "Return to P2"
+    },
+    {
+      "href": "https://github.com/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/lesson.md#p3",
+      "text": "Return to P3"
+    },
+    {
+      "href": "https://github.com/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/lesson.md#p4",
+      "text": "Return to P4"
+    },
+    {
+      "href": "https://github.com/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/lesson.md#p5",
+      "text": "Return to P5"
+    }
+  ],
+  "math": [
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo stretchy=\"false\">[</mo>\n  <mn>0</mn>\n  <mo>,</mo>\n  <mn>2</mn>\n  <mo stretchy=\"false\">]</mo>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 1,
+      "text": "[\n0\n,\n2\n]"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi mathvariant=\"normal\">Δ</mi>\n  <mi>x</mi>\n  <mo>=</mo>\n  <mo stretchy=\"false\">(</mo>\n  <mn>2</mn>\n  <mo>−</mo>\n  <mn>0</mn>\n  <mo stretchy=\"false\">)</mo>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>4</mn>\n  <mo>=</mo>\n  <mn>1</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 2,
+      "text": "Δ\n𝑥\n=\n(\n2\n−\n0\n)\n/\n4\n=\n1\n/\n2"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>0</mn>\n  <mo>,</mo>\n  <mn>1</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n  <mo>,</mo>\n  <mn>1</mn>\n  <mo>,</mo>\n  <mn>3</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 3,
+      "text": "0\n,\n1\n/\n2\n,\n1\n,\n3\n/\n2"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>0</mn>\n  <mo>,</mo>\n  <mn>1</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>4</mn>\n  <mo>,</mo>\n  <mn>1</mn>\n  <mo>,</mo>\n  <mn>9</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>4</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 4,
+      "text": "0\n,\n1\n/\n4\n,\n1\n,\n9\n/\n4"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msub>\n    <mi>L</mi>\n    <mn>4</mn>\n  </msub>\n  <mo>=</mo>\n  <mfrac>\n    <mn>1</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <mn>0</mn>\n    <mo>+</mo>\n    <mfrac>\n      <mn>1</mn>\n      <mn>4</mn>\n    </mfrac>\n    <mo>+</mo>\n    <mn>1</mn>\n    <mo>+</mo>\n    <mfrac>\n      <mn>9</mn>\n      <mn>4</mn>\n    </mfrac>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n  <mo>=</mo>\n  <mfrac>\n    <mn>7</mn>\n    <mn>4</mn>\n  </mfrac>\n  <mo>.</mo>\n</math>",
+      "mode": "js-display-math",
+      "ordinal": 5,
+      "text": "𝐿\n4\n=\n1\n2\n(\n0\n+\n1\n4\n+\n1\n+\n9\n4\n)\n=\n7\n4\n."
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msup>\n    <mi>x</mi>\n    <mn>2</mn>\n  </msup>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 6,
+      "text": "𝑥\n2"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>i</mi>\n  <mi>b</mi>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 7,
+      "text": "𝑖\n𝑏\n/\n𝑛"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>i</mi>\n  <mo>=</mo>\n  <mn>1</mn>\n  <mo>,</mo>\n  <mo>…</mo>\n  <mo>,</mo>\n  <mi>n</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 8,
+      "text": "𝑖\n=\n1\n,\n…\n,\n𝑛"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo stretchy=\"false\">(</mo>\n  <mi>n</mi>\n  <mo>−</mo>\n  <mn>1</mn>\n  <mo stretchy=\"false\">)</mo>\n  <mi>b</mi>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 9,
+      "text": "(\n𝑛\n−\n1\n)\n𝑏\n/\n𝑛"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msub>\n    <mi>R</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>=</mo>\n  <mfrac>\n    <msup>\n      <mi>b</mi>\n      <mn>3</mn>\n    </msup>\n    <msup>\n      <mi>n</mi>\n      <mn>3</mn>\n    </msup>\n  </mfrac>\n  <mo stretchy=\"false\">(</mo>\n  <msup>\n    <mn>1</mn>\n    <mn>2</mn>\n  </msup>\n  <mo>+</mo>\n  <msup>\n    <mn>2</mn>\n    <mn>2</mn>\n  </msup>\n  <mo>+</mo>\n  <mo>⋯</mo>\n  <mo>+</mo>\n  <msup>\n    <mi>n</mi>\n    <mn>2</mn>\n  </msup>\n  <mo stretchy=\"false\">)</mo>\n  <mo>,</mo>\n  <mstyle>\n    <mspace width=\"2em\"></mspace>\n  </mstyle>\n  <msub>\n    <mi>L</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>=</mo>\n  <mfrac>\n    <msup>\n      <mi>b</mi>\n      <mn>3</mn>\n    </msup>\n    <msup>\n      <mi>n</mi>\n      <mn>3</mn>\n    </msup>\n  </mfrac>\n  <mo stretchy=\"false\">(</mo>\n  <msup>\n    <mn>0</mn>\n    <mn>2</mn>\n  </msup>\n  <mo>+</mo>\n  <msup>\n    <mn>1</mn>\n    <mn>2</mn>\n  </msup>\n  <mo>+</mo>\n  <mo>⋯</mo>\n  <mo>+</mo>\n  <mo stretchy=\"false\">(</mo>\n  <mi>n</mi>\n  <mo>−</mo>\n  <mn>1</mn>\n  <msup>\n    <mo stretchy=\"false\">)</mo>\n    <mn>2</mn>\n  </msup>\n  <mo stretchy=\"false\">)</mo>\n  <mo>.</mo>\n</math>",
+      "mode": "js-display-math",
+      "ordinal": 10,
+      "text": "𝑅\n𝑛\n=\n𝑏\n3\n𝑛\n3\n(\n1\n2\n+\n2\n2\n+\n⋯\n+\n𝑛\n2\n)\n,\n𝐿\n𝑛\n=\n𝑏\n3\n𝑛\n3\n(\n0\n2\n+\n1\n2\n+\n⋯\n+\n(\n𝑛\n−\n1\n)\n2\n)\n."
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msub>\n    <mi>R</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>−</mo>\n  <msub>\n    <mi>L</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>=</mo>\n  <mfrac>\n    <msup>\n      <mi>b</mi>\n      <mn>3</mn>\n    </msup>\n    <msup>\n      <mi>n</mi>\n      <mn>3</mn>\n    </msup>\n  </mfrac>\n  <mo stretchy=\"false\">(</mo>\n  <msup>\n    <mi>n</mi>\n    <mn>2</mn>\n  </msup>\n  <mo>−</mo>\n  <msup>\n    <mn>0</mn>\n    <mn>2</mn>\n  </msup>\n  <mo stretchy=\"false\">)</mo>\n  <mo>=</mo>\n  <mfrac>\n    <msup>\n      <mi>b</mi>\n      <mn>3</mn>\n    </msup>\n    <mi>n</mi>\n  </mfrac>\n  <mo>.</mo>\n</math>",
+      "mode": "js-display-math",
+      "ordinal": 11,
+      "text": "𝑅\n𝑛\n−\n𝐿\n𝑛\n=\n𝑏\n3\n𝑛\n3\n(\n𝑛\n2\n−\n0\n2\n)\n=\n𝑏\n3\n𝑛\n."
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>b</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 12,
+      "text": "𝑏"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msub>\n    <mi>R</mi>\n    <mi>n</mi>\n  </msub>\n  <mo accent=\"false\" stretchy=\"false\">→</mo>\n  <msup>\n    <mi>b</mi>\n    <mn>3</mn>\n  </msup>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>3</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 13,
+      "text": "𝑅\n𝑛\n→\n𝑏\n3\n/\n3"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msub>\n    <mi>L</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>=</mo>\n  <msub>\n    <mi>R</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>−</mo>\n  <msup>\n    <mi>b</mi>\n    <mn>3</mn>\n  </msup>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 14,
+      "text": "𝐿\n𝑛\n=\n𝑅\n𝑛\n−\n𝑏\n3\n/\n𝑛"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msub>\n    <mi>L</mi>\n    <mi>n</mi>\n  </msub>\n  <mo accent=\"false\" stretchy=\"false\">→</mo>\n  <msup>\n    <mi>b</mi>\n    <mn>3</mn>\n  </msup>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>3</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 15,
+      "text": "𝐿\n𝑛\n→\n𝑏\n3\n/\n3"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msub>\n    <mi>c</mi>\n    <mi>i</mi>\n  </msub>\n  <mo>∈</mo>\n  <mo stretchy=\"false\">[</mo>\n  <mo stretchy=\"false\">(</mo>\n  <mi>i</mi>\n  <mo>−</mo>\n  <mn>1</mn>\n  <mo stretchy=\"false\">)</mo>\n  <mi>b</mi>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n  <mo>,</mo>\n  <mi>i</mi>\n  <mi>b</mi>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n  <mo stretchy=\"false\">]</mo>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 16,
+      "text": "𝑐\n𝑖\n∈\n[\n(\n𝑖\n−\n1\n)\n𝑏\n/\n𝑛\n,\n𝑖\n𝑏\n/\n𝑛\n]"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msup>\n    <mrow data-mjx-texclass=\"INNER\">\n      <mo data-mjx-texclass=\"OPEN\">(</mo>\n      <mfrac>\n        <mrow>\n          <mo stretchy=\"false\">(</mo>\n          <mi>i</mi>\n          <mo>−</mo>\n          <mn>1</mn>\n          <mo stretchy=\"false\">)</mo>\n          <mi>b</mi>\n        </mrow>\n        <mi>n</mi>\n      </mfrac>\n      <mo data-mjx-texclass=\"CLOSE\">)</mo>\n    </mrow>\n    <mn>2</mn>\n  </msup>\n  <mo>≤</mo>\n  <msubsup>\n    <mi>c</mi>\n    <mi>i</mi>\n    <mn>2</mn>\n  </msubsup>\n  <mo>≤</mo>\n  <msup>\n    <mrow data-mjx-texclass=\"INNER\">\n      <mo data-mjx-texclass=\"OPEN\">(</mo>\n      <mfrac>\n        <mrow>\n          <mi>i</mi>\n          <mi>b</mi>\n        </mrow>\n        <mi>n</mi>\n      </mfrac>\n      <mo data-mjx-texclass=\"CLOSE\">)</mo>\n    </mrow>\n    <mn>2</mn>\n  </msup>\n  <mo>.</mo>\n</math>",
+      "mode": "js-display-math",
+      "ordinal": 17,
+      "text": "(\n(\n𝑖\n−\n1\n)\n𝑏\n𝑛\n)\n2\n≤\n𝑐\n𝑖\n2\n≤\n(\n𝑖\n𝑏\n𝑛\n)\n2\n."
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>b</mi>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 18,
+      "text": "𝑏\n/\n𝑛"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msub>\n    <mi>L</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>≤</mo>\n  <msub>\n    <mi>S</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>≤</mo>\n  <msub>\n    <mi>R</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>.</mo>\n</math>",
+      "mode": "js-display-math",
+      "ordinal": 19,
+      "text": "𝐿\n𝑛\n≤\n𝑆\n𝑛\n≤\n𝑅\n𝑛\n."
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msup>\n    <mi>b</mi>\n    <mn>3</mn>\n  </msup>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>3</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 20,
+      "text": "𝑏\n3\n/\n3"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msub>\n    <mi>S</mi>\n    <mi>n</mi>\n  </msub>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 21,
+      "text": "𝑆\n𝑛"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>n</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 22,
+      "text": "𝑛"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>f</mi>\n  <mo stretchy=\"false\">(</mo>\n  <msub>\n    <mi>c</mi>\n    <mi>i</mi>\n  </msub>\n  <mo stretchy=\"false\">)</mo>\n  <mo>=</mo>\n  <mn>2</mn>\n  <mo>−</mo>\n  <msub>\n    <mi>c</mi>\n    <mi>i</mi>\n  </msub>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 23,
+      "text": "𝑓\n(\n𝑐\n𝑖\n)\n=\n2\n−\n𝑐\n𝑖"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msub>\n    <mi>c</mi>\n    <mi>i</mi>\n  </msub>\n  <mo>=</mo>\n  <mn>1</mn>\n  <mo>+</mo>\n  <mn>3</mn>\n  <mi>i</mi>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 24,
+      "text": "𝑐\n𝑖\n=\n1\n+\n3\n𝑖\n/\n𝑛"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>a</mi>\n  <mo>+</mo>\n  <mi>i</mi>\n  <mi mathvariant=\"normal\">Δ</mi>\n  <mi>x</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 25,
+      "text": "𝑎\n+\n𝑖\nΔ\n𝑥"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>a</mi>\n  <mo>=</mo>\n  <mn>1</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 26,
+      "text": "𝑎\n=\n1"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi mathvariant=\"normal\">Δ</mi>\n  <mi>x</mi>\n  <mo>=</mo>\n  <mn>3</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 27,
+      "text": "Δ\n𝑥\n=\n3\n/\n𝑛"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>1</mn>\n  <mo>+</mo>\n  <mn>3</mn>\n  <mi>n</mi>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mi>n</mi>\n  <mo>=</mo>\n  <mn>4</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 28,
+      "text": "1\n+\n3\n𝑛\n/\n𝑛\n=\n4"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo stretchy=\"false\">[</mo>\n  <mn>1</mn>\n  <mo>,</mo>\n  <mn>4</mn>\n  <mo stretchy=\"false\">]</mo>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 29,
+      "text": "[\n1\n,\n4\n]"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>2</mn>\n  <mo>−</mo>\n  <mi>x</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 30,
+      "text": "2\n−\n𝑥"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>h</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 31,
+      "text": "ℎ"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo>−</mo>\n  <mi>h</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 32,
+      "text": "−\nℎ"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <munder>\n    <mo data-mjx-texclass=\"OP\" movablelimits=\"true\">lim</mo>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mi>n</mi>\n      <mo accent=\"false\" stretchy=\"false\">→</mo>\n      <mi mathvariant=\"normal\">∞</mi>\n    </mrow>\n  </munder>\n  <msub>\n    <mi>S</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>=</mo>\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>1</mn>\n    <mn>4</mn>\n  </msubsup>\n  <mo stretchy=\"false\">(</mo>\n  <mn>2</mn>\n  <mo>−</mo>\n  <mi>x</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>x</mi>\n  <mo>=</mo>\n  <msubsup>\n    <mrow data-mjx-texclass=\"INNER\">\n      <mo data-mjx-texclass=\"OPEN\">[</mo>\n      <mn>2</mn>\n      <mi>x</mi>\n      <mo>−</mo>\n      <mfrac>\n        <msup>\n          <mi>x</mi>\n          <mn>2</mn>\n        </msup>\n        <mn>2</mn>\n      </mfrac>\n      <mo data-mjx-texclass=\"CLOSE\">]</mo>\n    </mrow>\n    <mn>1</mn>\n    <mn>4</mn>\n  </msubsup>\n  <mo>=</mo>\n  <mn>0</mn>\n  <mo>−</mo>\n  <mfrac>\n    <mn>3</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>=</mo>\n  <mo>−</mo>\n  <mfrac>\n    <mn>3</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>.</mo>\n</math>",
+      "mode": "js-display-math",
+      "ordinal": 33,
+      "text": "lim\n𝑛\n→\n∞\n𝑆\n𝑛\n=\n∫\n1\n4\n(\n2\n−\n𝑥\n)\n𝑑\n𝑥\n=\n[\n2\n𝑥\n−\n𝑥\n2\n2\n]\n1\n4\n=\n0\n−\n3\n2\n=\n−\n3\n2\n."
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msub>\n    <mi>S</mi>\n    <mi>n</mi>\n  </msub>\n  <mo>=</mo>\n  <mfrac>\n    <mn>3</mn>\n    <mi>n</mi>\n  </mfrac>\n  <munderover>\n    <mo data-mjx-texclass=\"OP\">∑</mo>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mi>i</mi>\n      <mo>=</mo>\n      <mn>1</mn>\n    </mrow>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mi>n</mi>\n    </mrow>\n  </munderover>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <mn>1</mn>\n    <mo>−</mo>\n    <mfrac>\n      <mrow>\n        <mn>3</mn>\n        <mi>i</mi>\n      </mrow>\n      <mi>n</mi>\n    </mfrac>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n  <mo>=</mo>\n  <mn>3</mn>\n  <mo>−</mo>\n  <mfrac>\n    <mn>9</mn>\n    <msup>\n      <mi>n</mi>\n      <mn>2</mn>\n    </msup>\n  </mfrac>\n  <mfrac>\n    <mrow>\n      <mi>n</mi>\n      <mo stretchy=\"false\">(</mo>\n      <mi>n</mi>\n      <mo>+</mo>\n      <mn>1</mn>\n      <mo stretchy=\"false\">)</mo>\n    </mrow>\n    <mn>2</mn>\n  </mfrac>\n  <mo>=</mo>\n  <mo>−</mo>\n  <mfrac>\n    <mn>3</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>−</mo>\n  <mfrac>\n    <mn>9</mn>\n    <mrow>\n      <mn>2</mn>\n      <mi>n</mi>\n    </mrow>\n  </mfrac>\n  <mo>,</mo>\n</math>",
+      "mode": "js-display-math",
+      "ordinal": 34,
+      "text": "𝑆\n𝑛\n=\n3\n𝑛\n∑\n𝑖\n=\n1\n𝑛\n(\n1\n−\n3\n𝑖\n𝑛\n)\n=\n3\n−\n9\n𝑛\n2\n𝑛\n(\n𝑛\n+\n1\n)\n2\n=\n−\n3\n2\n−\n9\n2\n𝑛\n,"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>x</mi>\n  <mo>=</mo>\n  <mn>2</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 35,
+      "text": "𝑥\n=\n2"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo stretchy=\"false\">[</mo>\n  <mn>1</mn>\n  <mo>,</mo>\n  <mn>2</mn>\n  <mo stretchy=\"false\">]</mo>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 36,
+      "text": "[\n1\n,\n2\n]"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>1</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 37,
+      "text": "1\n/\n2"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo stretchy=\"false\">[</mo>\n  <mn>2</mn>\n  <mo>,</mo>\n  <mn>4</mn>\n  <mo stretchy=\"false\">]</mo>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 38,
+      "text": "[\n2\n,\n4\n]"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <mtext>geometric area</mtext>\n  <mo>=</mo>\n  <mfrac>\n    <mn>1</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>+</mo>\n  <mn>2</mn>\n  <mo>=</mo>\n  <mfrac>\n    <mn>5</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>,</mo>\n  <mstyle>\n    <mspace width=\"2em\"></mspace>\n  </mstyle>\n  <mtext>signed integral</mtext>\n  <mo>=</mo>\n  <mfrac>\n    <mn>1</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>−</mo>\n  <mn>2</mn>\n  <mo>=</mo>\n  <mo>−</mo>\n  <mfrac>\n    <mn>3</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>.</mo>\n</math>",
+      "mode": "js-display-math",
+      "ordinal": 39,
+      "text": "geometric area\n=\n1\n2\n+\n2\n=\n5\n2\n,\nsigned integral\n=\n1\n2\n−\n2\n=\n−\n3\n2\n."
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo stretchy=\"false\">(</mo>\n  <mo>−</mo>\n  <mn>3</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n  <mo stretchy=\"false\">)</mo>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>3</mn>\n  <mo>=</mo>\n  <mo>−</mo>\n  <mn>1</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 40,
+      "text": "(\n−\n3\n/\n2\n)\n/\n3\n=\n−\n1\n/\n2"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo>−</mo>\n  <mn>1</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 41,
+      "text": "−\n1\n/\n2"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>12000</mn>\n  <mi>t</mi>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi mathvariant=\"normal\">Δ</mi>\n  <mi>t</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 42,
+      "text": "12000\n𝑡\nΔ\n𝑡"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <mi>B</mi>\n  <mo>=</mo>\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>0</mn>\n    <mn>1</mn>\n  </msubsup>\n  <mn>12000</mn>\n  <mi>t</mi>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>t</mi>\n  <mo>=</mo>\n  <mn>12000</mn>\n  <msubsup>\n    <mrow data-mjx-texclass=\"INNER\">\n      <mo data-mjx-texclass=\"OPEN\">[</mo>\n      <mfrac>\n        <msup>\n          <mi>t</mi>\n          <mn>2</mn>\n        </msup>\n        <mn>2</mn>\n      </mfrac>\n      <mo data-mjx-texclass=\"CLOSE\">]</mo>\n    </mrow>\n    <mn>0</mn>\n    <mn>1</mn>\n  </msubsup>\n  <mo>=</mo>\n  <mn>6000</mn>\n  <mtext>&nbsp;dollars</mtext>\n  <mo>.</mo>\n</math>",
+      "mode": "js-display-math",
+      "ordinal": 43,
+      "text": "𝐵\n=\n∫\n0\n1\n12000\n𝑡\n𝑑\n𝑡\n=\n12000\n[\n𝑡\n2\n2\n]\n0\n1\n=\n6000\n dollars\n."
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>t</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 44,
+      "text": "𝑡"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>1</mn>\n  <mo>−</mo>\n  <mi>t</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 45,
+      "text": "1\n−\n𝑡"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>1</mn>\n  <mo>+</mo>\n  <mn>0.06</mn>\n  <mo stretchy=\"false\">(</mo>\n  <mn>1</mn>\n  <mo>−</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 46,
+      "text": "1\n+\n0.06\n(\n1\n−\n𝑡\n)"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <mi>D</mi>\n  <mo stretchy=\"false\">(</mo>\n  <mn>1</mn>\n  <mo stretchy=\"false\">)</mo>\n  <mo>=</mo>\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>0</mn>\n    <mn>1</mn>\n  </msubsup>\n  <mn>12000</mn>\n  <mi>t</mi>\n  <mo stretchy=\"false\">[</mo>\n  <mn>1</mn>\n  <mo>+</mo>\n  <mn>0.06</mn>\n  <mo stretchy=\"false\">(</mo>\n  <mn>1</mn>\n  <mo>−</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mo stretchy=\"false\">]</mo>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>t</mi>\n  <mo>.</mo>\n</math>",
+      "mode": "js-display-math",
+      "ordinal": 47,
+      "text": "𝐷\n(\n1\n)\n=\n∫\n0\n1\n12000\n𝑡\n[\n1\n+\n0.06\n(\n1\n−\n𝑡\n)\n]\n𝑑\n𝑡\n."
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>12000</mn>\n  <mi>t</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 48,
+      "text": "12000\n𝑡"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>d</mi>\n  <mi>t</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 49,
+      "text": "𝑑\n𝑡"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <mtable displaystyle=\"true\" columnalign=\"right left\" columnspacing=\"0em\" rowspacing=\"3pt\">\n    <mtr>\n      <mtd style=\"text-align: right;\">\n        <mi>D</mi>\n        <mo stretchy=\"false\">(</mo>\n        <mn>1</mn>\n        <mo stretchy=\"false\">)</mo>\n      </mtd>\n      <mtd style=\"text-align: left;\">\n        <mi></mi>\n        <mo>=</mo>\n        <mn>12000</mn>\n        <msubsup>\n          <mo data-mjx-texclass=\"OP\">∫</mo>\n          <mn>0</mn>\n          <mn>1</mn>\n        </msubsup>\n        <mo stretchy=\"false\">(</mo>\n        <mn>1.06</mn>\n        <mi>t</mi>\n        <mo>−</mo>\n        <mn>0.06</mn>\n        <msup>\n          <mi>t</mi>\n          <mn>2</mn>\n        </msup>\n        <mo stretchy=\"false\">)</mo>\n        <mstyle>\n          <mspace width=\"0.167em\"></mspace>\n        </mstyle>\n        <mi>d</mi>\n        <mi>t</mi>\n      </mtd>\n    </mtr>\n    <mtr>\n      <mtd style=\"text-align: right;\">\n        <mtext>&nbsp;</mtext>\n      </mtd>\n      <mtd style=\"text-align: left;\">\n        <mi></mi>\n        <mo>=</mo>\n        <mn>12000</mn>\n        <msubsup>\n          <mrow data-mjx-texclass=\"INNER\">\n            <mo data-mjx-texclass=\"OPEN\">[</mo>\n            <mfrac>\n              <mrow>\n                <mn>1.06</mn>\n                <msup>\n                  <mi>t</mi>\n                  <mn>2</mn>\n                </msup>\n              </mrow>\n              <mn>2</mn>\n            </mfrac>\n            <mo>−</mo>\n            <mfrac>\n              <mrow>\n                <mn>0.06</mn>\n                <msup>\n                  <mi>t</mi>\n                  <mn>3</mn>\n                </msup>\n              </mrow>\n              <mn>3</mn>\n            </mfrac>\n            <mo data-mjx-texclass=\"CLOSE\">]</mo>\n          </mrow>\n          <mn>0</mn>\n          <mn>1</mn>\n        </msubsup>\n      </mtd>\n    </mtr>\n    <mtr>\n      <mtd style=\"text-align: right;\">\n        <mtext>&nbsp;</mtext>\n      </mtd>\n      <mtd style=\"text-align: left;\">\n        <mi></mi>\n        <mo>=</mo>\n        <mn>12000</mn>\n        <mo stretchy=\"false\">(</mo>\n        <mn>0.53</mn>\n        <mo>−</mo>\n        <mn>0.02</mn>\n        <mo stretchy=\"false\">)</mo>\n        <mo>=</mo>\n        <mn>6120</mn>\n        <mtext>&nbsp;dollars</mtext>\n        <mo>.</mo>\n      </mtd>\n    </mtr>\n  </mtable>\n</math>",
+      "mode": "js-display-math",
+      "ordinal": 50,
+      "text": "𝐷\n(\n1\n)\n\t\n=\n12000\n∫\n0\n1\n(\n1.06\n𝑡\n−\n0.06\n𝑡\n2\n)\n𝑑\n𝑡\n\n\n \n\t\n=\n12000\n[\n1.06\n𝑡\n2\n2\n−\n0.06\n𝑡\n3\n3\n]\n0\n1\n\n\n \n\t\n=\n12000\n(\n0.53\n−\n0.02\n)\n=\n6120\n dollars\n."
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>6000</mn>\n  <mo stretchy=\"false\">(</mo>\n  <mn>1.06</mn>\n  <mo stretchy=\"false\">)</mo>\n  <mo>=</mo>\n  <mn>6360</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 51,
+      "text": "6000\n(\n1.06\n)\n=\n6360"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>0</mn>\n    <mn>1</mn>\n  </msubsup>\n  <mn>6000</mn>\n  <mo stretchy=\"false\">[</mo>\n  <mn>1</mn>\n  <mo>+</mo>\n  <mn>0.06</mn>\n  <mo stretchy=\"false\">(</mo>\n  <mn>1</mn>\n  <mo>−</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mo stretchy=\"false\">]</mo>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>t</mi>\n  <mo>=</mo>\n  <mn>6000</mn>\n  <mo stretchy=\"false\">(</mo>\n  <mn>1</mn>\n  <mo>+</mo>\n  <mn>0.03</mn>\n  <mo stretchy=\"false\">)</mo>\n  <mo>=</mo>\n  <mn>6180</mn>\n  <mtext>&nbsp;dollars</mtext>\n  <mo>.</mo>\n</math>",
+      "mode": "js-display-math",
+      "ordinal": 52,
+      "text": "∫\n0\n1\n6000\n[\n1\n+\n0.06\n(\n1\n−\n𝑡\n)\n]\n𝑑\n𝑡\n=\n6000\n(\n1\n+\n0.03\n)\n=\n6180\n dollars\n."
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>0</mn>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mn>1</mn>\n      <mrow data-mjx-texclass=\"ORD\">\n        <mo>/</mo>\n      </mrow>\n      <mn>2</mn>\n    </mrow>\n  </msubsup>\n  <mn>12000</mn>\n  <mi>t</mi>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>t</mi>\n  <mo>=</mo>\n  <mn>1500</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 53,
+      "text": "∫\n0\n1\n/\n2\n12000\n𝑡\n𝑑\n𝑡\n=\n1500"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msub>\n    <mi>c</mi>\n    <mi>i</mi>\n  </msub>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 54,
+      "text": "𝑐\n𝑖"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi mathvariant=\"normal\">Δ</mi>\n  <mi>t</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 55,
+      "text": "Δ\n𝑡"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>g</mi>\n  <mo stretchy=\"false\">(</mo>\n  <msub>\n    <mi>c</mi>\n    <mi>i</mi>\n  </msub>\n  <mo stretchy=\"false\">)</mo>\n  <mi mathvariant=\"normal\">Δ</mi>\n  <mi>t</mi>\n  <mo>=</mo>\n  <mo stretchy=\"false\">(</mo>\n  <mn>3</mn>\n  <mo>−</mo>\n  <msub>\n    <mi>c</mi>\n    <mi>i</mi>\n  </msub>\n  <mo stretchy=\"false\">)</mo>\n  <mi mathvariant=\"normal\">Δ</mi>\n  <mi>t</mi>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 56,
+      "text": "𝑔\n(\n𝑐\n𝑖\n)\nΔ\n𝑡\n=\n(\n3\n−\n𝑐\n𝑖\n)\nΔ\n𝑡"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <mi mathvariant=\"normal\">Δ</mi>\n  <mi>V</mi>\n  <mo>=</mo>\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>0</mn>\n    <mn>4</mn>\n  </msubsup>\n  <mo stretchy=\"false\">(</mo>\n  <mn>3</mn>\n  <mo>−</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>t</mi>\n  <mo>=</mo>\n  <msubsup>\n    <mrow data-mjx-texclass=\"INNER\">\n      <mo data-mjx-texclass=\"OPEN\">[</mo>\n      <mn>3</mn>\n      <mi>t</mi>\n      <mo>−</mo>\n      <mfrac>\n        <msup>\n          <mi>t</mi>\n          <mn>2</mn>\n        </msup>\n        <mn>2</mn>\n      </mfrac>\n      <mo data-mjx-texclass=\"CLOSE\">]</mo>\n    </mrow>\n    <mn>0</mn>\n    <mn>4</mn>\n  </msubsup>\n  <mo>=</mo>\n  <mn>12</mn>\n  <mo>−</mo>\n  <mn>8</mn>\n  <mo>=</mo>\n  <mn>4</mn>\n  <mtext>&nbsp;litres</mtext>\n  <mo>.</mo>\n</math>",
+      "mode": "js-display-math",
+      "ordinal": 57,
+      "text": "Δ\n𝑉\n=\n∫\n0\n4\n(\n3\n−\n𝑡\n)\n𝑑\n𝑡\n=\n[\n3\n𝑡\n−\n𝑡\n2\n2\n]\n0\n4\n=\n12\n−\n8\n=\n4\n litres\n."
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>10</mn>\n  <mo>+</mo>\n  <mn>4</mn>\n  <mo>=</mo>\n  <mn>14</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 58,
+      "text": "10\n+\n4\n=\n14"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>t</mi>\n  <mo>=</mo>\n  <mn>3</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 59,
+      "text": "𝑡\n=\n3"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>0</mn>\n    <mn>3</mn>\n  </msubsup>\n  <mo stretchy=\"false\">(</mo>\n  <mn>3</mn>\n  <mo>−</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>t</mi>\n  <mo>=</mo>\n  <mfrac>\n    <mn>9</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mtext>&nbsp;litres</mtext>\n  <mo>.</mo>\n</math>",
+      "mode": "js-display-math",
+      "ordinal": 60,
+      "text": "∫\n0\n3\n(\n3\n−\n𝑡\n)\n𝑑\n𝑡\n=\n9\n2\n litres\n."
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mo>−</mo>\n  <mn>1</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 61,
+      "text": "−\n1\n/\n2"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mn>1</mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo>/</mo>\n  </mrow>\n  <mn>2</mn>\n</math>",
+      "mode": "js-inline-math",
+      "ordinal": 62,
+      "text": "1\n/\n2"
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>0</mn>\n    <mn>4</mn>\n  </msubsup>\n  <mo data-mjx-texclass=\"ORD\" stretchy=\"false\">|</mo>\n  <mn>3</mn>\n  <mo>−</mo>\n  <mi>t</mi>\n  <mo data-mjx-texclass=\"ORD\" stretchy=\"false\">|</mo>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>t</mi>\n  <mo>=</mo>\n  <mfrac>\n    <mn>9</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>+</mo>\n  <mfrac>\n    <mn>1</mn>\n    <mn>2</mn>\n  </mfrac>\n  <mo>=</mo>\n  <mn>5</mn>\n  <mtext>&nbsp;litres</mtext>\n  <mo>.</mo>\n</math>",
+      "mode": "js-display-math",
+      "ordinal": 63,
+      "text": "∫\n0\n4\n|\n3\n−\n𝑡\n|\n𝑑\n𝑡\n=\n9\n2\n+\n1\n2\n=\n5\n litres\n."
+    },
+    {
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n  <mfrac>\n    <mn>1</mn>\n    <mn>4</mn>\n  </mfrac>\n  <msubsup>\n    <mo data-mjx-texclass=\"OP\">∫</mo>\n    <mn>0</mn>\n    <mn>4</mn>\n  </msubsup>\n  <mo stretchy=\"false\">(</mo>\n  <mn>3</mn>\n  <mo>−</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mstyle>\n    <mspace width=\"0.167em\"></mspace>\n  </mstyle>\n  <mi>d</mi>\n  <mi>t</mi>\n  <mo>=</mo>\n  <mn>1</mn>\n  <mtext>&nbsp;litre per minute</mtext>\n  <mo>.</mo>\n</math>",
+      "mode": "js-display-math",
+      "ordinal": 64,
+      "text": "1\n4\n∫\n0\n4\n(\n3\n−\n𝑡\n)\n𝑑\n𝑡\n=\n1\n litre per minute\n."
+    }
+  ],
+  "prose": [
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "D016 · Complete solutions",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Try the tasks in the lesson before reading their solutions. The hints give intermediate help separately. These solutions explain the construction and interpretation as well as the arithmetic.",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "A",
+      "text": "tasks in the lesson",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "A",
+      "text": "hints",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "A",
+      "text": "",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Solution P1",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Four equal pieces of \n[\n0\n,\n2\n]\n each have width \nΔ\n𝑥\n=\n(\n2\n−\n0\n)\n/\n4\n=\n1\n/\n2\n. The left endpoints are \n0\n,\n1\n/\n2\n,\n1\n,\n3\n/\n2\n, with heights \n0\n,\n1\n/\n4\n,\n1\n,\n9\n/\n4\n. Thus",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "On each subinterval, \n𝑥\n2\n increases, so the left-endpoint height is no greater than any height of the curve over that piece. Every rectangle lies within the region under the curve. The result is an underestimate; no antiderivative is needed to establish its direction. A sum of heights alone would omit the width and would not be the requested area.",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Return to P1",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "A",
+      "text": "Return to P1",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "A",
+      "text": "",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Solution P2",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "The right coordinate is \n𝑖\n𝑏\n/\n𝑛\n for \n𝑖\n=\n1\n,\n…\n,\n𝑛\n. For the left sum the corresponding coordinates run from zero to \n(\n𝑛\n−\n1\n)\n𝑏\n/\n𝑛\n. Hence",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Subtracting these finite sums cancels every shared square. Therefore",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "For fixed positive \n𝑏\n, this tends to zero. Since the pyramid argument supplies \n𝑅\n𝑛\n→\n𝑏\n3\n/\n3\n, the identity \n𝐿\n𝑛\n=\n𝑅\n𝑛\n−\n𝑏\n3\n/\n𝑛\n gives \n𝐿\n𝑛\n→\n𝑏\n3\n/\n3\n too.",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "For any permitted \n𝑐\n𝑖\n∈\n[\n(\n𝑖\n−\n1\n)\n𝑏\n/\n𝑛\n,\n𝑖\n𝑏\n/\n𝑛\n]\n, monotonicity on the nonnegative interval gives",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Multiply by the positive width \n𝑏\n/\n𝑛\n and add over all subintervals:",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Both bounds approach \n𝑏\n3\n/\n3\n, so \n𝑆\n𝑛\n must approach it as well. This supports every choice of one sample in each equal subinterval, including choices that change as \n𝑛\n changes. It does not say the finite totals are equal.",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Return to P2",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "A",
+      "text": "Return to P2",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "A",
+      "text": "",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Solution P3",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "The displayed height is \n𝑓\n(\n𝑐\n𝑖\n)\n=\n2\n−\n𝑐\n𝑖\n with \n𝑐\n𝑖\n=\n1\n+\n3\n𝑖\n/\n𝑛\n. Comparing with right endpoints \n𝑎\n+\n𝑖\nΔ\n𝑥\n identifies \n𝑎\n=\n1\n and \nΔ\n𝑥\n=\n3\n/\n𝑛\n. The last endpoint is \n1\n+\n3\n𝑛\n/\n𝑛\n=\n4\n, so the interval is \n[\n1\n,\n4\n]\n.",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "The function \n2\n−\n𝑥\n is continuous there: changing the input by \nℎ\n changes the output by \n−\nℎ\n, which tends to zero. Thus the sum tends to its definite integral:",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "An independent sum check is",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "which has the same limit.",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "The zero at \n𝑥\n=\n2\n splits the geometric region. Above the axis, on \n[\n1\n,\n2\n]\n, the triangle has base 1 and height 1, hence area \n1\n/\n2\n. Below the axis, on \n[\n2\n,\n4\n]\n, the triangle has base 2 and height 2, hence area 2. Consequently",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "The interval length is 3, so the average value is \n(\n−\n3\n/\n2\n)\n/\n3\n=\n−\n1\n/\n2\n. The integral gives net signed accumulation, the geometric area counts both regions positively, and the average divides the signed total by the interval length. The negative average says that a constant height of \n−\n1\n/\n2\n over this interval would have the same signed total.",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Return to P3",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "A",
+      "text": "Return to P3",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "A",
+      "text": "",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Solution P4",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "A short interval contributes approximately \n12000\n𝑡\nΔ\n𝑡\n dollars of principal. Adding and taking the limit gives",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "The portion borrowed at time \n𝑡\n remains outstanding for \n1\n−\n𝑡\n years. Simple interest makes its final multiplier \n1\n+\n0.06\n(\n1\n−\n𝑡\n)\n. Thus",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Here \n12000\n𝑡\n is the rate of borrowing, \n𝑑\n𝑡\n supplies the limiting time width, and the bracket converts each principal contribution to what that contribution will cost at the common final time. Numerically,",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Interest is therefore 120 dollars. Charging a full year on all 6000 dollars would give \n6000\n(\n1.06\n)\n=\n6360\n dollars, 240 dollars too much. That expression assigns the start-of-year holding time to money that was actually borrowed throughout the year.",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "At a uniform borrowing rate of 6000 dollars per year, the principal is still 6000 dollars but the final debt is",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "This is 60 dollars more than for the increasing rate. Uniform borrowing puts half the total in each half-year; the increasing rate puts only \n∫\n0\n1\n/\n2\n12000\n𝑡\n𝑑\n𝑡\n=\n1500\n dollars in the first half and 4500 in the second. More of the same principal is therefore borrowed later and held for less time, which agrees with the smaller weighted interest integral. The calculation concerns the stated simple-interest model; no compounding has been introduced.",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Return to P4",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "A",
+      "text": "Return to P4",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "A",
+      "text": "",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Solution P5",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "For a sample \n𝑐\n𝑖\n in an interval of duration \nΔ\n𝑡\n minutes, the contribution to volume is approximately \n𝑔\n(\n𝑐\n𝑖\n)\nΔ\n𝑡\n=\n(\n3\n−\n𝑐\n𝑖\n)\nΔ\n𝑡\n litres. The sign tells whether that contribution enters or leaves. The limiting signed total gives the net change:",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "The tank already held 10 litres, so its final volume is \n10\n+\n4\n=\n14\n litres. The integral is a change; it does not by itself include the initial amount.",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "The rate vanishes at \n𝑡\n=\n3\n. Before that it is positive; after that it is negative. The amount entering in the first part is",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "The signed integral from 3 to 4 is \n−\n1\n/\n2\n litre, so the amount leaving is \n1\n/\n2\n litre. Because the specified signed flow is the only flow, total fluid crossing either way is",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "The mean net flow is the signed total divided by the duration:",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Thus the four questions require, respectively, a signed accumulation, that accumulation plus the initial volume, an accumulation of magnitudes, and a signed accumulation divided by elapsed time. Taking the absolute value of the final signed integral would give 4 litres and would still miss the extra half-litre that first entered and later left. The rate is continuous at its zero; a sign change is not itself a discontinuity.",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "P",
+      "text": "Return to P5",
+      "weight": "400"
+    },
+    {
+      "style": "normal",
+      "tag": "A",
+      "text": "Return to P5",
+      "weight": "400"
+    }
+  ]
+}

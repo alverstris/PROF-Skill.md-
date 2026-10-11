@@ -1,0 +1,5598 @@
+{
+  "review": "D016 help-destination MathML preservation comparison",
+  "createdAt": "2026-10-11T20:49:56.481779+00:00",
+  "scope": "Independent read-only comparison of every frozen Markdown math expression against browser-observed actual-destination MathML supplied by the parent agent. I did not operate or visually inspect the browser. This checks preservation, not mathematical/pedagogical correctness, visual layout, or navigation behavior.",
+  "method": "Extract source inline and block math in document order; parse each observed MathML expression; manually compare operands, operators, grouping, subscripts, superscripts, fractions, limits/bounds and aligned rows. Verify exact counts and source/display classification. Separately compare all nonmath prose and link labels after stripping source markup and DOM markup, replacing paired math with ordinal placeholders, decoding HTML entities and collapsing whitespace.",
+  "summary": {
+    "sourceExpressions": 76,
+    "renderedExpressions": 76,
+    "passedExpressions": 76,
+    "defects": 0,
+    "hints": {
+      "inline": 12,
+      "block": 0
+    },
+    "solutions": {
+      "inline": 48,
+      "block": 16
+    },
+    "normalizedNonmathContentPreserved": true
+  },
+  "pages": [
+    {
+      "page": "hints",
+      "sourcePath": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/hints.md",
+      "sourceSha256": "f8db498eb437546f39916714a35b7a1217dba1d6407d94bde33ed6d2c5ed6014",
+      "domEvidencePath": "/workspace/scratch/f9c0b7fc7e76/d016-resume-20261011/help-destination/hints-rendered-dom.json",
+      "domEvidenceSha256": "f51fc74dc4f91a87c6a928cf072302b105906b97d754994e8e6f9586fb06c007",
+      "destinationURL": "https://github.com/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/hints.md",
+      "destinationObservedAt": "2026-10-11T20:46:46.946Z",
+      "sourceCount": 12,
+      "renderedCount": 12,
+      "normalizedNonmathContent": {
+        "status": "pass",
+        "normalization": "Remove source anchor markup; replace Markdown links with visible labels; replace each math expression with its ordinal; remove HTML tags; decode HTML entities; collapse whitespace. No punctuation, word, or character substitutions.",
+        "normalizedLength": 1897,
+        "normalizedSha256": "e45c093e06e6a4bc3b95a797be7536d5822e08c92ffd6c59c30d363ef0ede7f3"
+      },
+      "expressions": [
+        {
+          "ordinal": 1,
+          "sourceLine": 7,
+          "kind": "inline",
+          "sourceTex": "[0,2]",
+          "observedStructureCompact": "[0,2]",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "["
+              },
+              {
+                "tag": "mn",
+                "text": "0"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "]"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Closed interval brackets, endpoints 0 and 2, and comma preserved."
+        },
+        {
+          "ordinal": 2,
+          "sourceLine": 13,
+          "kind": "inline",
+          "sourceTex": "1,\\ldots,n",
+          "observedStructureCompact": "1,…,n",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mo",
+                "text": "…"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mi",
+                "text": "n"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Index sequence starts at 1, includes ellipsis, and ends at n."
+        },
+        {
+          "ordinal": 3,
+          "sourceLine": 13,
+          "kind": "inline",
+          "sourceTex": "0,\\ldots,n-1",
+          "observedStructureCompact": "0,…,n−1",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "0"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mo",
+                "text": "…"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mi",
+                "text": "n"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Index sequence starts at 0 and ends at n−1, with ellipsis and subtraction preserved."
+        },
+        {
+          "ordinal": 4,
+          "sourceLine": 13,
+          "kind": "inline",
+          "sourceTex": "b^3/n^3",
+          "observedStructureCompact": "msup(b,3)/msup(n,3)",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "b"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "3"
+                  }
+                ]
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Both cubes attach to their respective b and n bases; slash order preserved."
+        },
+        {
+          "ordinal": 5,
+          "sourceLine": 13,
+          "kind": "inline",
+          "sourceTex": "x^2",
+          "observedStructureCompact": "msup(x,2)",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "x"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Exponent 2 attaches to x."
+        },
+        {
+          "ordinal": 6,
+          "sourceLine": 13,
+          "kind": "inline",
+          "sourceTex": "[0,b]",
+          "observedStructureCompact": "[0,b]",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "["
+              },
+              {
+                "tag": "mn",
+                "text": "0"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mi",
+                "text": "b"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "]"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Closed interval brackets, endpoints 0 and b, and comma preserved."
+        },
+        {
+          "ordinal": 7,
+          "sourceLine": 19,
+          "kind": "inline",
+          "sourceTex": "1+3i/n",
+          "observedStructureCompact": "1+3i/n",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              },
+              {
+                "tag": "mi",
+                "text": "i"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "n"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Sum 1+3i/n has all operands and slash in source order."
+        },
+        {
+          "ordinal": 8,
+          "sourceLine": 19,
+          "kind": "inline",
+          "sourceTex": "a+i\\Delta x",
+          "observedStructureCompact": "a+iΔx",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "text": "a"
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "mi",
+                "text": "i"
+              },
+              {
+                "tag": "mi",
+                "attributes": {
+                  "mathvariant": "normal"
+                },
+                "text": "Δ"
+              },
+              {
+                "tag": "mi",
+                "text": "x"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "a+iΔx preserves addition and product order."
+        },
+        {
+          "ordinal": 9,
+          "sourceLine": 19,
+          "kind": "inline",
+          "sourceTex": "2-x=0",
+          "observedStructureCompact": "2−x=0",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "2"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mi",
+                "text": "x"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "0"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "2−x=0 preserves subtraction and equality."
+        },
+        {
+          "ordinal": 10,
+          "sourceLine": 25,
+          "kind": "inline",
+          "sourceTex": "12000t\\,\\Delta t",
+          "observedStructureCompact": "12000tΔt",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "12000"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mstyle",
+                "children": [
+                  {
+                    "tag": "mspace",
+                    "attributes": {
+                      "width": "0.167em"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "attributes": {
+                  "mathvariant": "normal"
+                },
+                "text": "Δ"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "12000t Δt preserves both t factors and Delta; thin space exists in MathML."
+        },
+        {
+          "ordinal": 11,
+          "sourceLine": 25,
+          "kind": "inline",
+          "sourceTex": "1-t",
+          "observedStructureCompact": "1−t",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "1−t preserves subtraction."
+        },
+        {
+          "ordinal": 12,
+          "sourceLine": 31,
+          "kind": "inline",
+          "sourceTex": "c_i",
+          "observedStructureCompact": "msub(c,i)",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "c"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "i"
+                  }
+                ]
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "i is the subscript of c."
+        }
+      ]
+    },
+    {
+      "page": "solutions",
+      "sourcePath": "/workspace/scratch/f9c0b7fc7e76/d016-r26b/teaching/solutions.md",
+      "sourceSha256": "5a616e257b6c83bce341e5332b036ab92b23f4430b2308b09ac74123b6d57c9a",
+      "domEvidencePath": "/workspace/scratch/f9c0b7fc7e76/d016-resume-20261011/help-destination/solutions-rendered-dom.json",
+      "domEvidenceSha256": "847e8a8a6337b7a808f95bfe8bbcc9177c7dac1048c875d860cca2ba65892375",
+      "destinationURL": "https://github.com/alverstris/PROF-Skill.md-/blob/51a78beccef858072b1da8d057ef3dff09878409/runs/y1-reader-20261008/iterations/016/published-r26-20261010/fresh-r26b/teaching/solutions.md#s1",
+      "destinationObservedAt": "2026-10-11T20:48:05.597Z",
+      "sourceCount": 64,
+      "renderedCount": 64,
+      "normalizedNonmathContent": {
+        "status": "pass",
+        "normalization": "Remove source anchor markup; replace Markdown links with visible labels; replace each math expression with its ordinal; remove HTML tags; decode HTML entities; collapse whitespace. No punctuation, word, or character substitutions.",
+        "normalizedLength": 4998,
+        "normalizedSha256": "08098d4dd1c57fbf22d274f55320e26ba830cdd035a24e1f30c18c6f2b501533"
+      },
+      "expressions": [
+        {
+          "ordinal": 1,
+          "sourceLine": 9,
+          "kind": "inline",
+          "sourceTex": "[0,2]",
+          "observedStructureCompact": "[0,2]",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "["
+              },
+              {
+                "tag": "mn",
+                "text": "0"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "]"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Closed interval [0,2] preserved."
+        },
+        {
+          "ordinal": 2,
+          "sourceLine": 9,
+          "kind": "inline",
+          "sourceTex": "\\Delta x=(2-0)/4=1/2",
+          "observedStructureCompact": "Δx=(2−0)/4=1/2",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "attributes": {
+                  "mathvariant": "normal"
+                },
+                "text": "Δ"
+              },
+              {
+                "tag": "mi",
+                "text": "x"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mn",
+                "text": "0"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "4"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Delta x, both equalities, grouped (2−0), slash divisors 4 and 2 preserved."
+        },
+        {
+          "ordinal": 3,
+          "sourceLine": 9,
+          "kind": "inline",
+          "sourceTex": "0,1/2,1,3/2",
+          "observedStructureCompact": "0,1/2,1,3/2",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "0"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Four endpoints 0, 1/2, 1, 3/2 remain in order."
+        },
+        {
+          "ordinal": 4,
+          "sourceLine": 9,
+          "kind": "inline",
+          "sourceTex": "0,1/4,1,9/4",
+          "observedStructureCompact": "0,1/4,1,9/4",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "0"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "4"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mn",
+                "text": "9"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "4"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Four heights 0, 1/4, 1, 9/4 remain in order."
+        },
+        {
+          "ordinal": 5,
+          "sourceLine": 11,
+          "kind": "block",
+          "sourceTex": "L_4=\\frac12\\left(0+\\frac14+1+\\frac94\\right)=\\frac74.",
+          "observedStructureCompact": "msub(L,4)=mfrac(1,2)(0+mfrac(1,4)+1+mfrac(9,4))=mfrac(7,4).",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "attributes": {
+              "display": "block"
+            },
+            "children": [
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "L"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "1"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "INNER"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "attributes": {
+                      "data-mjx-texclass": "OPEN"
+                    },
+                    "text": "("
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "0"
+                  },
+                  {
+                    "tag": "mo",
+                    "text": "+"
+                  },
+                  {
+                    "tag": "mfrac",
+                    "children": [
+                      {
+                        "tag": "mn",
+                        "text": "1"
+                      },
+                      {
+                        "tag": "mn",
+                        "text": "4"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "mo",
+                    "text": "+"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "1"
+                  },
+                  {
+                    "tag": "mo",
+                    "text": "+"
+                  },
+                  {
+                    "tag": "mfrac",
+                    "children": [
+                      {
+                        "tag": "mn",
+                        "text": "9"
+                      },
+                      {
+                        "tag": "mn",
+                        "text": "4"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "mo",
+                    "attributes": {
+                      "data-mjx-texclass": "CLOSE"
+                    },
+                    "text": ")"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "7"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "."
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "L has subscript 4; all four fractions, outer parenthesized sum, equality chain and final period preserved."
+        },
+        {
+          "ordinal": 6,
+          "sourceLine": 15,
+          "kind": "inline",
+          "sourceTex": "x^2",
+          "observedStructureCompact": "msup(x,2)",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "x"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "x has exponent 2."
+        },
+        {
+          "ordinal": 7,
+          "sourceLine": 23,
+          "kind": "inline",
+          "sourceTex": "ib/n",
+          "observedStructureCompact": "ib/n",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "text": "i"
+              },
+              {
+                "tag": "mi",
+                "text": "b"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "n"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Product ib divided by n preserved."
+        },
+        {
+          "ordinal": 8,
+          "sourceLine": 23,
+          "kind": "inline",
+          "sourceTex": "i=1,\\ldots,n",
+          "observedStructureCompact": "i=1,…,n",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "text": "i"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mo",
+                "text": "…"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mi",
+                "text": "n"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "i=1,…,n preserves equality, start, ellipsis and end."
+        },
+        {
+          "ordinal": 9,
+          "sourceLine": 23,
+          "kind": "inline",
+          "sourceTex": "(n-1)b/n",
+          "observedStructureCompact": "(n−1)b/n",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "mi",
+                "text": "n"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mi",
+                "text": "b"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "n"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Grouped n−1 followed by b/n preserved."
+        },
+        {
+          "ordinal": 10,
+          "sourceLine": 25,
+          "kind": "block",
+          "sourceTex": "R_n=\\frac{b^3}{n^3}(1^2+2^2+\\cdots+n^2),\n\\qquad\nL_n=\\frac{b^3}{n^3}(0^2+1^2+\\cdots+(n-1)^2).",
+          "observedStructureCompact": "msub(R,n)=mfrac(msup(b,3),msup(n,3))(msup(1,2)+msup(2,2)+⋯+msup(n,2)),msub(L,n)=mfrac(msup(b,3),msup(n,3))(msup(0,2)+msup(1,2)+⋯+(n−1msup(),2)).",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "attributes": {
+              "display": "block"
+            },
+            "children": [
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "R"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "msup",
+                    "children": [
+                      {
+                        "tag": "mi",
+                        "text": "b"
+                      },
+                      {
+                        "tag": "mn",
+                        "text": "3"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "msup",
+                    "children": [
+                      {
+                        "tag": "mi",
+                        "text": "n"
+                      },
+                      {
+                        "tag": "mn",
+                        "text": "3"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "1"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "mo",
+                "text": "⋯"
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mstyle",
+                "children": [
+                  {
+                    "tag": "mspace",
+                    "attributes": {
+                      "width": "2em"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "L"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "msup",
+                    "children": [
+                      {
+                        "tag": "mi",
+                        "text": "b"
+                      },
+                      {
+                        "tag": "mn",
+                        "text": "3"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "msup",
+                    "children": [
+                      {
+                        "tag": "mi",
+                        "text": "n"
+                      },
+                      {
+                        "tag": "mn",
+                        "text": "3"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "0"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "1"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "mo",
+                "text": "⋯"
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "mi",
+                "text": "n"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mo",
+                    "attributes": {
+                      "stretchy": "false"
+                    },
+                    "text": ")"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mo",
+                "text": "."
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "R_n and L_n retain common b³/n³, both parenthesized square lists and ellipses. In ordinary TeX (n-1)^2, MathML attaches superscript 2 to the closing parenthesis; the opening parenthesis and n−1 precede it, preserving displayed grouping. Two-em spacing separates equations."
+        },
+        {
+          "ordinal": 11,
+          "sourceLine": 33,
+          "kind": "block",
+          "sourceTex": "R_n-L_n=\\frac{b^3}{n^3}(n^2-0^2)=\\frac{b^3}{n}.",
+          "observedStructureCompact": "msub(R,n)−msub(L,n)=mfrac(msup(b,3),msup(n,3))(msup(n,2)−msup(0,2))=mfrac(msup(b,3),n).",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "attributes": {
+              "display": "block"
+            },
+            "children": [
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "R"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "L"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "msup",
+                    "children": [
+                      {
+                        "tag": "mi",
+                        "text": "b"
+                      },
+                      {
+                        "tag": "mn",
+                        "text": "3"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "msup",
+                    "children": [
+                      {
+                        "tag": "mi",
+                        "text": "n"
+                      },
+                      {
+                        "tag": "mn",
+                        "text": "3"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "0"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "msup",
+                    "children": [
+                      {
+                        "tag": "mi",
+                        "text": "b"
+                      },
+                      {
+                        "tag": "mn",
+                        "text": "3"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "."
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "R_n−L_n, b³/n³ factor, grouped n²−0², and b³/n final fraction preserved."
+        },
+        {
+          "ordinal": 12,
+          "sourceLine": 37,
+          "kind": "inline",
+          "sourceTex": "b",
+          "observedStructureCompact": "b",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "text": "b"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Variable b preserved."
+        },
+        {
+          "ordinal": 13,
+          "sourceLine": 37,
+          "kind": "inline",
+          "sourceTex": "R_n\\to b^3/3",
+          "observedStructureCompact": "msub(R,n)→msup(b,3)/3",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "R"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "accent": "false",
+                  "stretchy": "false"
+                },
+                "text": "→"
+              },
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "b"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "R subscript n, right arrow and b³/3 preserved."
+        },
+        {
+          "ordinal": 14,
+          "sourceLine": 37,
+          "kind": "inline",
+          "sourceTex": "L_n=R_n-b^3/n",
+          "observedStructureCompact": "msub(L,n)=msub(R,n)−msup(b,3)/n",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "L"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "R"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "b"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "n"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "L_n=R_n−b³/n retains both subscripts, equality, subtraction, cube and slash."
+        },
+        {
+          "ordinal": 15,
+          "sourceLine": 37,
+          "kind": "inline",
+          "sourceTex": "L_n\\to b^3/3",
+          "observedStructureCompact": "msub(L,n)→msup(b,3)/3",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "L"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "accent": "false",
+                  "stretchy": "false"
+                },
+                "text": "→"
+              },
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "b"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "L subscript n, right arrow and b³/3 preserved."
+        },
+        {
+          "ordinal": 16,
+          "sourceLine": 39,
+          "kind": "inline",
+          "sourceTex": "c_i\\in[(i-1)b/n,ib/n]",
+          "observedStructureCompact": "msub(c,i)∈[(i−1)b/n,ib/n]",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "c"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "i"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "∈"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "["
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "mi",
+                "text": "i"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mi",
+                "text": "b"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "n"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mi",
+                "text": "i"
+              },
+              {
+                "tag": "mi",
+                "text": "b"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "n"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "]"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "c_i membership in closed interval [(i−1)b/n,ib/n] preserves subscript, membership, both endpoints and grouping."
+        },
+        {
+          "ordinal": 17,
+          "sourceLine": 41,
+          "kind": "block",
+          "sourceTex": "\\left(\\frac{(i-1)b}{n}\\right)^2\n\\le c_i^2\\le\n\\left(\\frac{ib}{n}\\right)^2.",
+          "observedStructureCompact": "msup((mfrac((i−1)b,n)),2)≤msubsup(c,i,2)≤msup((mfrac(ib,n)),2).",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "attributes": {
+              "display": "block"
+            },
+            "children": [
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mrow",
+                    "attributes": {
+                      "data-mjx-texclass": "INNER"
+                    },
+                    "children": [
+                      {
+                        "tag": "mo",
+                        "attributes": {
+                          "data-mjx-texclass": "OPEN"
+                        },
+                        "text": "("
+                      },
+                      {
+                        "tag": "mfrac",
+                        "children": [
+                          {
+                            "tag": "mrow",
+                            "children": [
+                              {
+                                "tag": "mo",
+                                "attributes": {
+                                  "stretchy": "false"
+                                },
+                                "text": "("
+                              },
+                              {
+                                "tag": "mi",
+                                "text": "i"
+                              },
+                              {
+                                "tag": "mo",
+                                "text": "−"
+                              },
+                              {
+                                "tag": "mn",
+                                "text": "1"
+                              },
+                              {
+                                "tag": "mo",
+                                "attributes": {
+                                  "stretchy": "false"
+                                },
+                                "text": ")"
+                              },
+                              {
+                                "tag": "mi",
+                                "text": "b"
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "mi",
+                            "text": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "mo",
+                        "attributes": {
+                          "data-mjx-texclass": "CLOSE"
+                        },
+                        "text": ")"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "≤"
+              },
+              {
+                "tag": "msubsup",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "c"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "i"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "≤"
+              },
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mrow",
+                    "attributes": {
+                      "data-mjx-texclass": "INNER"
+                    },
+                    "children": [
+                      {
+                        "tag": "mo",
+                        "attributes": {
+                          "data-mjx-texclass": "OPEN"
+                        },
+                        "text": "("
+                      },
+                      {
+                        "tag": "mfrac",
+                        "children": [
+                          {
+                            "tag": "mrow",
+                            "children": [
+                              {
+                                "tag": "mi",
+                                "text": "i"
+                              },
+                              {
+                                "tag": "mi",
+                                "text": "b"
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "mi",
+                            "text": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "mo",
+                        "attributes": {
+                          "data-mjx-texclass": "CLOSE"
+                        },
+                        "text": ")"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "."
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Both fraction-containing parentheses are squared; central c has subscript i and superscript 2; both ≤ signs preserved."
+        },
+        {
+          "ordinal": 18,
+          "sourceLine": 47,
+          "kind": "inline",
+          "sourceTex": "b/n",
+          "observedStructureCompact": "b/n",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "text": "b"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "n"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "b/n slash quotient preserved."
+        },
+        {
+          "ordinal": 19,
+          "sourceLine": 49,
+          "kind": "block",
+          "sourceTex": "L_n\\le S_n\\le R_n.",
+          "observedStructureCompact": "msub(L,n)≤msub(S,n)≤msub(R,n).",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "attributes": {
+              "display": "block"
+            },
+            "children": [
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "L"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "≤"
+              },
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "S"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "≤"
+              },
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "R"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "."
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "L_n≤S_n≤R_n retains all three subscripts and both inequalities."
+        },
+        {
+          "ordinal": 20,
+          "sourceLine": 53,
+          "kind": "inline",
+          "sourceTex": "b^3/3",
+          "observedStructureCompact": "msup(b,3)/3",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "msup",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "b"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "b³/3 retains cube and slash."
+        },
+        {
+          "ordinal": 21,
+          "sourceLine": 53,
+          "kind": "inline",
+          "sourceTex": "S_n",
+          "observedStructureCompact": "msub(S,n)",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "S"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  }
+                ]
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "S subscript n preserved."
+        },
+        {
+          "ordinal": 22,
+          "sourceLine": 53,
+          "kind": "inline",
+          "sourceTex": "n",
+          "observedStructureCompact": "n",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "text": "n"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Variable n preserved."
+        },
+        {
+          "ordinal": 23,
+          "sourceLine": 61,
+          "kind": "inline",
+          "sourceTex": "f(c_i)=2-c_i",
+          "observedStructureCompact": "f(msub(c,i))=2−msub(c,i)",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "text": "f"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "c"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "i"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "c"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "i"
+                  }
+                ]
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "f(c_i)=2−c_i retains argument parentheses, both subscripts and equality/subtraction."
+        },
+        {
+          "ordinal": 24,
+          "sourceLine": 61,
+          "kind": "inline",
+          "sourceTex": "c_i=1+3i/n",
+          "observedStructureCompact": "msub(c,i)=1+3i/n",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "c"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "i"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              },
+              {
+                "tag": "mi",
+                "text": "i"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "n"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "c_i=1+3i/n retains subscript, equality, addition and slash."
+        },
+        {
+          "ordinal": 25,
+          "sourceLine": 61,
+          "kind": "inline",
+          "sourceTex": "a+i\\Delta x",
+          "observedStructureCompact": "a+iΔx",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "text": "a"
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "mi",
+                "text": "i"
+              },
+              {
+                "tag": "mi",
+                "attributes": {
+                  "mathvariant": "normal"
+                },
+                "text": "Δ"
+              },
+              {
+                "tag": "mi",
+                "text": "x"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "a+iΔx preserves addition and product order."
+        },
+        {
+          "ordinal": 26,
+          "sourceLine": 61,
+          "kind": "inline",
+          "sourceTex": "a=1",
+          "observedStructureCompact": "a=1",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "text": "a"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "a=1 equality preserved."
+        },
+        {
+          "ordinal": 27,
+          "sourceLine": 61,
+          "kind": "inline",
+          "sourceTex": "\\Delta x=3/n",
+          "observedStructureCompact": "Δx=3/n",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "attributes": {
+                  "mathvariant": "normal"
+                },
+                "text": "Δ"
+              },
+              {
+                "tag": "mi",
+                "text": "x"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "n"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Δx=3/n equality and quotient preserved."
+        },
+        {
+          "ordinal": 28,
+          "sourceLine": 61,
+          "kind": "inline",
+          "sourceTex": "1+3n/n=4",
+          "observedStructureCompact": "1+3n/n=4",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              },
+              {
+                "tag": "mi",
+                "text": "n"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "n"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "4"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "1+3n/n=4 addition, quotient and equality preserved."
+        },
+        {
+          "ordinal": 29,
+          "sourceLine": 61,
+          "kind": "inline",
+          "sourceTex": "[1,4]",
+          "observedStructureCompact": "[1,4]",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "["
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mn",
+                "text": "4"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "]"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Closed interval [1,4] preserved."
+        },
+        {
+          "ordinal": 30,
+          "sourceLine": 63,
+          "kind": "inline",
+          "sourceTex": "2-x",
+          "observedStructureCompact": "2−x",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "2"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mi",
+                "text": "x"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "2−x subtraction preserved."
+        },
+        {
+          "ordinal": 31,
+          "sourceLine": 63,
+          "kind": "inline",
+          "sourceTex": "h",
+          "observedStructureCompact": "h",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "text": "h"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Variable h preserved."
+        },
+        {
+          "ordinal": 32,
+          "sourceLine": 63,
+          "kind": "inline",
+          "sourceTex": "-h",
+          "observedStructureCompact": "−h",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mi",
+                "text": "h"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Unary minus on h preserved."
+        },
+        {
+          "ordinal": 33,
+          "sourceLine": 65,
+          "kind": "block",
+          "sourceTex": "\\lim_{n\\to\\infty}S_n\n=\\int_1^4(2-x)\\,dx\n=\\left[2x-\\frac{x^2}{2}\\right]_1^4\n=0-\\frac32=-\\frac32.",
+          "observedStructureCompact": "munder(lim,n→∞)msub(S,n)=msubsup(∫,1,4)(2−x)dx=msubsup([2x−mfrac(msup(x,2),2)],1,4)=0−mfrac(3,2)=−mfrac(3,2).",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "attributes": {
+              "display": "block"
+            },
+            "children": [
+              {
+                "tag": "munder",
+                "children": [
+                  {
+                    "tag": "mo",
+                    "attributes": {
+                      "data-mjx-texclass": "OP",
+                      "movablelimits": "true"
+                    },
+                    "text": "lim"
+                  },
+                  {
+                    "tag": "mrow",
+                    "attributes": {
+                      "data-mjx-texclass": "ORD"
+                    },
+                    "children": [
+                      {
+                        "tag": "mi",
+                        "text": "n"
+                      },
+                      {
+                        "tag": "mo",
+                        "attributes": {
+                          "accent": "false",
+                          "stretchy": "false"
+                        },
+                        "text": "→"
+                      },
+                      {
+                        "tag": "mi",
+                        "attributes": {
+                          "mathvariant": "normal"
+                        },
+                        "text": "∞"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "S"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "msubsup",
+                "children": [
+                  {
+                    "tag": "mo",
+                    "attributes": {
+                      "data-mjx-texclass": "OP"
+                    },
+                    "text": "∫"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "1"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mi",
+                "text": "x"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mstyle",
+                "children": [
+                  {
+                    "tag": "mspace",
+                    "attributes": {
+                      "width": "0.167em"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "d"
+              },
+              {
+                "tag": "mi",
+                "text": "x"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "msubsup",
+                "children": [
+                  {
+                    "tag": "mrow",
+                    "attributes": {
+                      "data-mjx-texclass": "INNER"
+                    },
+                    "children": [
+                      {
+                        "tag": "mo",
+                        "attributes": {
+                          "data-mjx-texclass": "OPEN"
+                        },
+                        "text": "["
+                      },
+                      {
+                        "tag": "mn",
+                        "text": "2"
+                      },
+                      {
+                        "tag": "mi",
+                        "text": "x"
+                      },
+                      {
+                        "tag": "mo",
+                        "text": "−"
+                      },
+                      {
+                        "tag": "mfrac",
+                        "children": [
+                          {
+                            "tag": "msup",
+                            "children": [
+                              {
+                                "tag": "mi",
+                                "text": "x"
+                              },
+                              {
+                                "tag": "mn",
+                                "text": "2"
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "mn",
+                            "text": "2"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "mo",
+                        "attributes": {
+                          "data-mjx-texclass": "CLOSE"
+                        },
+                        "text": "]"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "1"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "0"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "3"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "3"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "."
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Limit has n→∞ under lim; S_n; integral bounds 1 and 4; integrand (2−x) and dx; bracketed evaluation 2x−x²/2 with bounds 1 and 4; 0−3/2=−3/2 preserved."
+        },
+        {
+          "ordinal": 34,
+          "sourceLine": 74,
+          "kind": "block",
+          "sourceTex": "S_n=\\frac3n\\sum_{i=1}^{n}\\left(1-\\frac{3i}{n}\\right)\n=3-\\frac9{n^2}\\frac{n(n+1)}2\n=-\\frac32-\\frac9{2n},",
+          "observedStructureCompact": "msub(S,n)=mfrac(3,n)munderover(∑,i=1,n)(1−mfrac(3i,n))=3−mfrac(9,msup(n,2))mfrac(n(n+1),2)=−mfrac(3,2)−mfrac(9,2n),",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "attributes": {
+              "display": "block"
+            },
+            "children": [
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "S"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "3"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "n"
+                  }
+                ]
+              },
+              {
+                "tag": "munderover",
+                "children": [
+                  {
+                    "tag": "mo",
+                    "attributes": {
+                      "data-mjx-texclass": "OP"
+                    },
+                    "text": "∑"
+                  },
+                  {
+                    "tag": "mrow",
+                    "attributes": {
+                      "data-mjx-texclass": "ORD"
+                    },
+                    "children": [
+                      {
+                        "tag": "mi",
+                        "text": "i"
+                      },
+                      {
+                        "tag": "mo",
+                        "text": "="
+                      },
+                      {
+                        "tag": "mn",
+                        "text": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "mrow",
+                    "attributes": {
+                      "data-mjx-texclass": "ORD"
+                    },
+                    "children": [
+                      {
+                        "tag": "mi",
+                        "text": "n"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "INNER"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "attributes": {
+                      "data-mjx-texclass": "OPEN"
+                    },
+                    "text": "("
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "1"
+                  },
+                  {
+                    "tag": "mo",
+                    "text": "−"
+                  },
+                  {
+                    "tag": "mfrac",
+                    "children": [
+                      {
+                        "tag": "mrow",
+                        "children": [
+                          {
+                            "tag": "mn",
+                            "text": "3"
+                          },
+                          {
+                            "tag": "mi",
+                            "text": "i"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "mi",
+                        "text": "n"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "mo",
+                    "attributes": {
+                      "data-mjx-texclass": "CLOSE"
+                    },
+                    "text": ")"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "9"
+                  },
+                  {
+                    "tag": "msup",
+                    "children": [
+                      {
+                        "tag": "mi",
+                        "text": "n"
+                      },
+                      {
+                        "tag": "mn",
+                        "text": "2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mrow",
+                    "children": [
+                      {
+                        "tag": "mi",
+                        "text": "n"
+                      },
+                      {
+                        "tag": "mo",
+                        "attributes": {
+                          "stretchy": "false"
+                        },
+                        "text": "("
+                      },
+                      {
+                        "tag": "mi",
+                        "text": "n"
+                      },
+                      {
+                        "tag": "mo",
+                        "text": "+"
+                      },
+                      {
+                        "tag": "mn",
+                        "text": "1"
+                      },
+                      {
+                        "tag": "mo",
+                        "attributes": {
+                          "stretchy": "false"
+                        },
+                        "text": ")"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "3"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "9"
+                  },
+                  {
+                    "tag": "mrow",
+                    "children": [
+                      {
+                        "tag": "mn",
+                        "text": "2"
+                      },
+                      {
+                        "tag": "mi",
+                        "text": "n"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "S_n; factor 3/n; sum lower i=1 and upper n; grouped 1−3i/n; 3−(9/n²)(n(n+1)/2); final −3/2−9/(2n) all preserved, including trailing comma."
+        },
+        {
+          "ordinal": 35,
+          "sourceLine": 82,
+          "kind": "inline",
+          "sourceTex": "x=2",
+          "observedStructureCompact": "x=2",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "text": "x"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "x=2 equality preserved."
+        },
+        {
+          "ordinal": 36,
+          "sourceLine": 82,
+          "kind": "inline",
+          "sourceTex": "[1,2]",
+          "observedStructureCompact": "[1,2]",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "["
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "]"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Closed interval [1,2] preserved."
+        },
+        {
+          "ordinal": 37,
+          "sourceLine": 82,
+          "kind": "inline",
+          "sourceTex": "1/2",
+          "observedStructureCompact": "1/2",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "1/2 slash quotient preserved."
+        },
+        {
+          "ordinal": 38,
+          "sourceLine": 82,
+          "kind": "inline",
+          "sourceTex": "[2,4]",
+          "observedStructureCompact": "[2,4]",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "["
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mn",
+                "text": "4"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "]"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Closed interval [2,4] preserved."
+        },
+        {
+          "ordinal": 39,
+          "sourceLine": 84,
+          "kind": "block",
+          "sourceTex": "\\text{geometric area}=\\frac12+2=\\frac52,\n\\qquad\n\\text{signed integral}=\\frac12-2=-\\frac32.",
+          "observedStructureCompact": "geometric area=mfrac(1,2)+2=mfrac(5,2),signed integral=mfrac(1,2)−2=−mfrac(3,2).",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "attributes": {
+              "display": "block"
+            },
+            "children": [
+              {
+                "tag": "mtext",
+                "text": "geometric area"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "1"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "5"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": ","
+              },
+              {
+                "tag": "mstyle",
+                "children": [
+                  {
+                    "tag": "mspace",
+                    "attributes": {
+                      "width": "2em"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "mtext",
+                "text": "signed integral"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "1"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "3"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "."
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Both text labels preserved; geometric area 1/2+2=5/2 and signed integral 1/2−2=−3/2 preserve all fractions and signs; two-em separator preserved."
+        },
+        {
+          "ordinal": 40,
+          "sourceLine": 90,
+          "kind": "inline",
+          "sourceTex": "(-3/2)/3=-1/2",
+          "observedStructureCompact": "(−3/2)/3=−1/2",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Parenthesized −3/2 divided by 3 equals −1/2; both unary minus signs preserved."
+        },
+        {
+          "ordinal": 41,
+          "sourceLine": 90,
+          "kind": "inline",
+          "sourceTex": "-1/2",
+          "observedStructureCompact": "−1/2",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Negative 1/2 preserved."
+        },
+        {
+          "ordinal": 42,
+          "sourceLine": 98,
+          "kind": "inline",
+          "sourceTex": "12000t\\,\\Delta t",
+          "observedStructureCompact": "12000tΔt",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "12000"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mstyle",
+                "children": [
+                  {
+                    "tag": "mspace",
+                    "attributes": {
+                      "width": "0.167em"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "attributes": {
+                  "mathvariant": "normal"
+                },
+                "text": "Δ"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "12000t Δt preserves both t factors and thin spacing."
+        },
+        {
+          "ordinal": 43,
+          "sourceLine": 100,
+          "kind": "block",
+          "sourceTex": "B=\\int_0^1 12000t\\,dt\n=12000\\left[\\frac{t^2}{2}\\right]_0^1\n=6000\\text{ dollars}.",
+          "observedStructureCompact": "B=msubsup(∫,0,1)12000tdt=12000msubsup([mfrac(msup(t,2),2)],0,1)=6000 dollars.",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "attributes": {
+              "display": "block"
+            },
+            "children": [
+              {
+                "tag": "mi",
+                "text": "B"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "msubsup",
+                "children": [
+                  {
+                    "tag": "mo",
+                    "attributes": {
+                      "data-mjx-texclass": "OP"
+                    },
+                    "text": "∫"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "0"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "1"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "12000"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mstyle",
+                "children": [
+                  {
+                    "tag": "mspace",
+                    "attributes": {
+                      "width": "0.167em"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "d"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "12000"
+              },
+              {
+                "tag": "msubsup",
+                "children": [
+                  {
+                    "tag": "mrow",
+                    "attributes": {
+                      "data-mjx-texclass": "INNER"
+                    },
+                    "children": [
+                      {
+                        "tag": "mo",
+                        "attributes": {
+                          "data-mjx-texclass": "OPEN"
+                        },
+                        "text": "["
+                      },
+                      {
+                        "tag": "mfrac",
+                        "children": [
+                          {
+                            "tag": "msup",
+                            "children": [
+                              {
+                                "tag": "mi",
+                                "text": "t"
+                              },
+                              {
+                                "tag": "mn",
+                                "text": "2"
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "mn",
+                            "text": "2"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "mo",
+                        "attributes": {
+                          "data-mjx-texclass": "CLOSE"
+                        },
+                        "text": "]"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "0"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "1"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "6000"
+              },
+              {
+                "tag": "mtext",
+                "text": " dollars"
+              },
+              {
+                "tag": "mo",
+                "text": "."
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "B equals integral 0 to 1 of 12000t dt; factor 12000 and bracketed t²/2 with evaluation bounds 0 and 1; 6000 dollars preserved."
+        },
+        {
+          "ordinal": 44,
+          "sourceLine": 106,
+          "kind": "inline",
+          "sourceTex": "t",
+          "observedStructureCompact": "t",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "text": "t"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Variable t preserved."
+        },
+        {
+          "ordinal": 45,
+          "sourceLine": 106,
+          "kind": "inline",
+          "sourceTex": "1-t",
+          "observedStructureCompact": "1−t",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "1−t subtraction preserved."
+        },
+        {
+          "ordinal": 46,
+          "sourceLine": 106,
+          "kind": "inline",
+          "sourceTex": "1+0.06(1-t)",
+          "observedStructureCompact": "1+0.06(1−t)",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "mn",
+                "text": "0.06"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "1+0.06(1−t) retains outer addition, decimal coefficient, multiplication and inner subtraction/grouping."
+        },
+        {
+          "ordinal": 47,
+          "sourceLine": 108,
+          "kind": "block",
+          "sourceTex": "D(1)=\\int_0^1 12000t[1+0.06(1-t)]\\,dt.",
+          "observedStructureCompact": "D(1)=msubsup(∫,0,1)12000t[1+0.06(1−t)]dt.",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "attributes": {
+              "display": "block"
+            },
+            "children": [
+              {
+                "tag": "mi",
+                "text": "D"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "msubsup",
+                "children": [
+                  {
+                    "tag": "mo",
+                    "attributes": {
+                      "data-mjx-texclass": "OP"
+                    },
+                    "text": "∫"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "0"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "1"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "12000"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "["
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "mn",
+                "text": "0.06"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "]"
+              },
+              {
+                "tag": "mstyle",
+                "children": [
+                  {
+                    "tag": "mspace",
+                    "attributes": {
+                      "width": "0.167em"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "d"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "text": "."
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "D(1), integral bounds 0 and 1, 12000t, bracketed 1+0.06(1−t), dt and punctuation preserved."
+        },
+        {
+          "ordinal": 48,
+          "sourceLine": 112,
+          "kind": "inline",
+          "sourceTex": "12000t",
+          "observedStructureCompact": "12000t",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "12000"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "12000t product preserved."
+        },
+        {
+          "ordinal": 49,
+          "sourceLine": 112,
+          "kind": "inline",
+          "sourceTex": "dt",
+          "observedStructureCompact": "dt",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "text": "d"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "dt variable pair preserved."
+        },
+        {
+          "ordinal": 50,
+          "sourceLine": 114,
+          "kind": "block",
+          "sourceTex": "\\begin{aligned}\nD(1)&=12000\\int_0^1(1.06t-0.06t^2)\\,dt\\\\\n&=12000\\left[\\frac{1.06t^2}{2}-\\frac{0.06t^3}{3}\\right]_0^1\\\\\n&=12000(0.53-0.02)=6120\\text{ dollars}.\n\\end{aligned}",
+          "observedStructureCompact": "mtable(mtr(mtd(D,(,1,)),mtd(,=,12000,msubsup(∫,0,1),(,1.06,t,−,0.06,msup(t,2),),,d,t)),mtr(mtd( ),mtd(,=,12000,msubsup([mfrac(1.06msup(t,2),2)−mfrac(0.06msup(t,3),3)],0,1))),mtr(mtd( ),mtd(,=,12000,(,0.53,−,0.02,),=,6120, dollars,.)))",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "attributes": {
+              "display": "block"
+            },
+            "children": [
+              {
+                "tag": "mtable",
+                "attributes": {
+                  "displaystyle": "true",
+                  "columnalign": "right left",
+                  "columnspacing": "0em",
+                  "rowspacing": "3pt"
+                },
+                "children": [
+                  {
+                    "tag": "mtr",
+                    "children": [
+                      {
+                        "tag": "mtd",
+                        "attributes": {
+                          "style": "text-align: right;"
+                        },
+                        "children": [
+                          {
+                            "tag": "mi",
+                            "text": "D"
+                          },
+                          {
+                            "tag": "mo",
+                            "attributes": {
+                              "stretchy": "false"
+                            },
+                            "text": "("
+                          },
+                          {
+                            "tag": "mn",
+                            "text": "1"
+                          },
+                          {
+                            "tag": "mo",
+                            "attributes": {
+                              "stretchy": "false"
+                            },
+                            "text": ")"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "mtd",
+                        "attributes": {
+                          "style": "text-align: left;"
+                        },
+                        "children": [
+                          {
+                            "tag": "mi"
+                          },
+                          {
+                            "tag": "mo",
+                            "text": "="
+                          },
+                          {
+                            "tag": "mn",
+                            "text": "12000"
+                          },
+                          {
+                            "tag": "msubsup",
+                            "children": [
+                              {
+                                "tag": "mo",
+                                "attributes": {
+                                  "data-mjx-texclass": "OP"
+                                },
+                                "text": "∫"
+                              },
+                              {
+                                "tag": "mn",
+                                "text": "0"
+                              },
+                              {
+                                "tag": "mn",
+                                "text": "1"
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "mo",
+                            "attributes": {
+                              "stretchy": "false"
+                            },
+                            "text": "("
+                          },
+                          {
+                            "tag": "mn",
+                            "text": "1.06"
+                          },
+                          {
+                            "tag": "mi",
+                            "text": "t"
+                          },
+                          {
+                            "tag": "mo",
+                            "text": "−"
+                          },
+                          {
+                            "tag": "mn",
+                            "text": "0.06"
+                          },
+                          {
+                            "tag": "msup",
+                            "children": [
+                              {
+                                "tag": "mi",
+                                "text": "t"
+                              },
+                              {
+                                "tag": "mn",
+                                "text": "2"
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "mo",
+                            "attributes": {
+                              "stretchy": "false"
+                            },
+                            "text": ")"
+                          },
+                          {
+                            "tag": "mstyle",
+                            "children": [
+                              {
+                                "tag": "mspace",
+                                "attributes": {
+                                  "width": "0.167em"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "mi",
+                            "text": "d"
+                          },
+                          {
+                            "tag": "mi",
+                            "text": "t"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "mtr",
+                    "children": [
+                      {
+                        "tag": "mtd",
+                        "attributes": {
+                          "style": "text-align: right;"
+                        },
+                        "children": [
+                          {
+                            "tag": "mtext"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "mtd",
+                        "attributes": {
+                          "style": "text-align: left;"
+                        },
+                        "children": [
+                          {
+                            "tag": "mi"
+                          },
+                          {
+                            "tag": "mo",
+                            "text": "="
+                          },
+                          {
+                            "tag": "mn",
+                            "text": "12000"
+                          },
+                          {
+                            "tag": "msubsup",
+                            "children": [
+                              {
+                                "tag": "mrow",
+                                "attributes": {
+                                  "data-mjx-texclass": "INNER"
+                                },
+                                "children": [
+                                  {
+                                    "tag": "mo",
+                                    "attributes": {
+                                      "data-mjx-texclass": "OPEN"
+                                    },
+                                    "text": "["
+                                  },
+                                  {
+                                    "tag": "mfrac",
+                                    "children": [
+                                      {
+                                        "tag": "mrow",
+                                        "children": [
+                                          {
+                                            "tag": "mn",
+                                            "text": "1.06"
+                                          },
+                                          {
+                                            "tag": "msup",
+                                            "children": [
+                                              {
+                                                "tag": "mi",
+                                                "text": "t"
+                                              },
+                                              {
+                                                "tag": "mn",
+                                                "text": "2"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "tag": "mn",
+                                        "text": "2"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "mo",
+                                    "text": "−"
+                                  },
+                                  {
+                                    "tag": "mfrac",
+                                    "children": [
+                                      {
+                                        "tag": "mrow",
+                                        "children": [
+                                          {
+                                            "tag": "mn",
+                                            "text": "0.06"
+                                          },
+                                          {
+                                            "tag": "msup",
+                                            "children": [
+                                              {
+                                                "tag": "mi",
+                                                "text": "t"
+                                              },
+                                              {
+                                                "tag": "mn",
+                                                "text": "3"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "tag": "mn",
+                                        "text": "3"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "mo",
+                                    "attributes": {
+                                      "data-mjx-texclass": "CLOSE"
+                                    },
+                                    "text": "]"
+                                  }
+                                ]
+                              },
+                              {
+                                "tag": "mn",
+                                "text": "0"
+                              },
+                              {
+                                "tag": "mn",
+                                "text": "1"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "mtr",
+                    "children": [
+                      {
+                        "tag": "mtd",
+                        "attributes": {
+                          "style": "text-align: right;"
+                        },
+                        "children": [
+                          {
+                            "tag": "mtext"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "mtd",
+                        "attributes": {
+                          "style": "text-align: left;"
+                        },
+                        "children": [
+                          {
+                            "tag": "mi"
+                          },
+                          {
+                            "tag": "mo",
+                            "text": "="
+                          },
+                          {
+                            "tag": "mn",
+                            "text": "12000"
+                          },
+                          {
+                            "tag": "mo",
+                            "attributes": {
+                              "stretchy": "false"
+                            },
+                            "text": "("
+                          },
+                          {
+                            "tag": "mn",
+                            "text": "0.53"
+                          },
+                          {
+                            "tag": "mo",
+                            "text": "−"
+                          },
+                          {
+                            "tag": "mn",
+                            "text": "0.02"
+                          },
+                          {
+                            "tag": "mo",
+                            "attributes": {
+                              "stretchy": "false"
+                            },
+                            "text": ")"
+                          },
+                          {
+                            "tag": "mo",
+                            "text": "="
+                          },
+                          {
+                            "tag": "mn",
+                            "text": "6120"
+                          },
+                          {
+                            "tag": "mtext",
+                            "text": " dollars"
+                          },
+                          {
+                            "tag": "mo",
+                            "text": "."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Aligned block has exactly three rows with two cells each, right/left column alignment: D(1)=12000 integral 0 to 1 of (1.06t−0.06t²)dt; =12000[1.06t²/2−0.06t³/3] evaluated 0 to 1; =12000(0.53−0.02)=6120 dollars. Every bound, fraction, power, coefficient, sign and equality is preserved."
+        },
+        {
+          "ordinal": 51,
+          "sourceLine": 122,
+          "kind": "inline",
+          "sourceTex": "6000(1.06)=6360",
+          "observedStructureCompact": "6000(1.06)=6360",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "6000"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "mn",
+                "text": "1.06"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "6360"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "6000(1.06)=6360 grouping, coefficient and equality preserved."
+        },
+        {
+          "ordinal": 52,
+          "sourceLine": 126,
+          "kind": "block",
+          "sourceTex": "\\int_0^1 6000[1+0.06(1-t)]\\,dt\n=6000(1+0.03)=6180\\text{ dollars}.",
+          "observedStructureCompact": "msubsup(∫,0,1)6000[1+0.06(1−t)]dt=6000(1+0.03)=6180 dollars.",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "attributes": {
+              "display": "block"
+            },
+            "children": [
+              {
+                "tag": "msubsup",
+                "children": [
+                  {
+                    "tag": "mo",
+                    "attributes": {
+                      "data-mjx-texclass": "OP"
+                    },
+                    "text": "∫"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "0"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "1"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "6000"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "["
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "mn",
+                "text": "0.06"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "]"
+              },
+              {
+                "tag": "mstyle",
+                "children": [
+                  {
+                    "tag": "mspace",
+                    "attributes": {
+                      "width": "0.167em"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "d"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "6000"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "mn",
+                "text": "0.03"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "6180"
+              },
+              {
+                "tag": "mtext",
+                "text": " dollars"
+              },
+              {
+                "tag": "mo",
+                "text": "."
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Integral bounds 0 and 1; 6000[1+0.06(1−t)]dt; equality to 6000(1+0.03)=6180 dollars preserved."
+        },
+        {
+          "ordinal": 53,
+          "sourceLine": 131,
+          "kind": "inline",
+          "sourceTex": "\\int_0^{1/2}12000t\\,dt=1500",
+          "observedStructureCompact": "msubsup(∫,0,1/2)12000tdt=1500",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "msubsup",
+                "children": [
+                  {
+                    "tag": "mo",
+                    "attributes": {
+                      "data-mjx-texclass": "OP"
+                    },
+                    "text": "∫"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "0"
+                  },
+                  {
+                    "tag": "mrow",
+                    "attributes": {
+                      "data-mjx-texclass": "ORD"
+                    },
+                    "children": [
+                      {
+                        "tag": "mn",
+                        "text": "1"
+                      },
+                      {
+                        "tag": "mrow",
+                        "attributes": {
+                          "data-mjx-texclass": "ORD"
+                        },
+                        "children": [
+                          {
+                            "tag": "mo",
+                            "text": "/"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "mn",
+                        "text": "2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "12000"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mstyle",
+                "children": [
+                  {
+                    "tag": "mspace",
+                    "attributes": {
+                      "width": "0.167em"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "d"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "1500"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Integral lower bound 0 and upper bound 1/2, integrand 12000t, dt and =1500 preserved."
+        },
+        {
+          "ordinal": 54,
+          "sourceLine": 139,
+          "kind": "inline",
+          "sourceTex": "c_i",
+          "observedStructureCompact": "msub(c,i)",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "c"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "i"
+                  }
+                ]
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "c subscript i preserved."
+        },
+        {
+          "ordinal": 55,
+          "sourceLine": 139,
+          "kind": "inline",
+          "sourceTex": "\\Delta t",
+          "observedStructureCompact": "Δt",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "attributes": {
+                  "mathvariant": "normal"
+                },
+                "text": "Δ"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Delta t preserved."
+        },
+        {
+          "ordinal": 56,
+          "sourceLine": 139,
+          "kind": "inline",
+          "sourceTex": "g(c_i)\\Delta t=(3-c_i)\\Delta t",
+          "observedStructureCompact": "g(msub(c,i))Δt=(3−msub(c,i))Δt",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "text": "g"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "c"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "i"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mi",
+                "attributes": {
+                  "mathvariant": "normal"
+                },
+                "text": "Δ"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "msub",
+                "children": [
+                  {
+                    "tag": "mi",
+                    "text": "c"
+                  },
+                  {
+                    "tag": "mi",
+                    "text": "i"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mi",
+                "attributes": {
+                  "mathvariant": "normal"
+                },
+                "text": "Δ"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "g(c_i)Δt=(3−c_i)Δt retains both subscripts, both Delta factors, parentheses, equality and subtraction."
+        },
+        {
+          "ordinal": 57,
+          "sourceLine": 141,
+          "kind": "block",
+          "sourceTex": "\\Delta V=\\int_0^4(3-t)\\,dt\n=\\left[3t-\\frac{t^2}{2}\\right]_0^4\n=12-8=4\\text{ litres}.",
+          "observedStructureCompact": "ΔV=msubsup(∫,0,4)(3−t)dt=msubsup([3t−mfrac(msup(t,2),2)],0,4)=12−8=4 litres.",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "attributes": {
+              "display": "block"
+            },
+            "children": [
+              {
+                "tag": "mi",
+                "attributes": {
+                  "mathvariant": "normal"
+                },
+                "text": "Δ"
+              },
+              {
+                "tag": "mi",
+                "text": "V"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "msubsup",
+                "children": [
+                  {
+                    "tag": "mo",
+                    "attributes": {
+                      "data-mjx-texclass": "OP"
+                    },
+                    "text": "∫"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "0"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mstyle",
+                "children": [
+                  {
+                    "tag": "mspace",
+                    "attributes": {
+                      "width": "0.167em"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "d"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "msubsup",
+                "children": [
+                  {
+                    "tag": "mrow",
+                    "attributes": {
+                      "data-mjx-texclass": "INNER"
+                    },
+                    "children": [
+                      {
+                        "tag": "mo",
+                        "attributes": {
+                          "data-mjx-texclass": "OPEN"
+                        },
+                        "text": "["
+                      },
+                      {
+                        "tag": "mn",
+                        "text": "3"
+                      },
+                      {
+                        "tag": "mi",
+                        "text": "t"
+                      },
+                      {
+                        "tag": "mo",
+                        "text": "−"
+                      },
+                      {
+                        "tag": "mfrac",
+                        "children": [
+                          {
+                            "tag": "msup",
+                            "children": [
+                              {
+                                "tag": "mi",
+                                "text": "t"
+                              },
+                              {
+                                "tag": "mn",
+                                "text": "2"
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "mn",
+                            "text": "2"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "mo",
+                        "attributes": {
+                          "data-mjx-texclass": "CLOSE"
+                        },
+                        "text": "]"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "0"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "12"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mn",
+                "text": "8"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "4"
+              },
+              {
+                "tag": "mtext",
+                "text": " litres"
+              },
+              {
+                "tag": "mo",
+                "text": "."
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "ΔV; integral bounds 0 and 4 with (3−t)dt; [3t−t²/2] evaluation bounds 0 and 4; =12−8=4 litres preserved."
+        },
+        {
+          "ordinal": 58,
+          "sourceLine": 147,
+          "kind": "inline",
+          "sourceTex": "10+4=14",
+          "observedStructureCompact": "10+4=14",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "10"
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "mn",
+                "text": "4"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "14"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "10+4=14 preserves addition and equality."
+        },
+        {
+          "ordinal": 59,
+          "sourceLine": 149,
+          "kind": "inline",
+          "sourceTex": "t=3",
+          "observedStructureCompact": "t=3",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "t=3 equality preserved."
+        },
+        {
+          "ordinal": 60,
+          "sourceLine": 151,
+          "kind": "block",
+          "sourceTex": "\\int_0^3(3-t)\\,dt=\\frac92\\text{ litres}.",
+          "observedStructureCompact": "msubsup(∫,0,3)(3−t)dt=mfrac(9,2) litres.",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "attributes": {
+              "display": "block"
+            },
+            "children": [
+              {
+                "tag": "msubsup",
+                "children": [
+                  {
+                    "tag": "mo",
+                    "attributes": {
+                      "data-mjx-texclass": "OP"
+                    },
+                    "text": "∫"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "0"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mstyle",
+                "children": [
+                  {
+                    "tag": "mspace",
+                    "attributes": {
+                      "width": "0.167em"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "d"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "9"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mtext",
+                "text": " litres"
+              },
+              {
+                "tag": "mo",
+                "text": "."
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Integral bounds 0 and 3, integrand (3−t), dt, fraction 9/2 and litres preserved."
+        },
+        {
+          "ordinal": 61,
+          "sourceLine": 155,
+          "kind": "inline",
+          "sourceTex": "-1/2",
+          "observedStructureCompact": "−1/2",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Negative 1/2 preserved."
+        },
+        {
+          "ordinal": 62,
+          "sourceLine": 155,
+          "kind": "inline",
+          "sourceTex": "1/2",
+          "observedStructureCompact": "1/2",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "children": [
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mrow",
+                "attributes": {
+                  "data-mjx-texclass": "ORD"
+                },
+                "children": [
+                  {
+                    "tag": "mo",
+                    "text": "/"
+                  }
+                ]
+              },
+              {
+                "tag": "mn",
+                "text": "2"
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Positive 1/2 preserved."
+        },
+        {
+          "ordinal": 63,
+          "sourceLine": 157,
+          "kind": "block",
+          "sourceTex": "\\int_0^4|3-t|\\,dt=\\frac92+\\frac12=5\\text{ litres}.",
+          "observedStructureCompact": "msubsup(∫,0,4)|3−t|dt=mfrac(9,2)+mfrac(1,2)=5 litres.",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "attributes": {
+              "display": "block"
+            },
+            "children": [
+              {
+                "tag": "msubsup",
+                "children": [
+                  {
+                    "tag": "mo",
+                    "attributes": {
+                      "data-mjx-texclass": "OP"
+                    },
+                    "text": "∫"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "0"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "data-mjx-texclass": "ORD",
+                  "stretchy": "false"
+                },
+                "text": "|"
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "data-mjx-texclass": "ORD",
+                  "stretchy": "false"
+                },
+                "text": "|"
+              },
+              {
+                "tag": "mstyle",
+                "children": [
+                  {
+                    "tag": "mspace",
+                    "attributes": {
+                      "width": "0.167em"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "d"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "9"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "+"
+              },
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "1"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "5"
+              },
+              {
+                "tag": "mtext",
+                "text": " litres"
+              },
+              {
+                "tag": "mo",
+                "text": "."
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Integral bounds 0 and 4, both absolute-value bars around 3−t, dt, fractions 9/2 and 1/2, addition and =5 litres preserved."
+        },
+        {
+          "ordinal": 64,
+          "sourceLine": 163,
+          "kind": "block",
+          "sourceTex": "\\frac{1}{4}\\int_0^4(3-t)\\,dt\n=1\\text{ litre per minute}.",
+          "observedStructureCompact": "mfrac(1,4)msubsup(∫,0,4)(3−t)dt=1 litre per minute.",
+          "observedMathMLStructure": {
+            "tag": "math",
+            "attributes": {
+              "display": "block"
+            },
+            "children": [
+              {
+                "tag": "mfrac",
+                "children": [
+                  {
+                    "tag": "mn",
+                    "text": "1"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "tag": "msubsup",
+                "children": [
+                  {
+                    "tag": "mo",
+                    "attributes": {
+                      "data-mjx-texclass": "OP"
+                    },
+                    "text": "∫"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "0"
+                  },
+                  {
+                    "tag": "mn",
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": "("
+              },
+              {
+                "tag": "mn",
+                "text": "3"
+              },
+              {
+                "tag": "mo",
+                "text": "−"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "attributes": {
+                  "stretchy": "false"
+                },
+                "text": ")"
+              },
+              {
+                "tag": "mstyle",
+                "children": [
+                  {
+                    "tag": "mspace",
+                    "attributes": {
+                      "width": "0.167em"
+                    }
+                  }
+                ]
+              },
+              {
+                "tag": "mi",
+                "text": "d"
+              },
+              {
+                "tag": "mi",
+                "text": "t"
+              },
+              {
+                "tag": "mo",
+                "text": "="
+              },
+              {
+                "tag": "mn",
+                "text": "1"
+              },
+              {
+                "tag": "mtext",
+                "text": " litre per minute"
+              },
+              {
+                "tag": "mo",
+                "text": "."
+              }
+            ]
+          },
+          "status": "pass",
+          "comparisonNote": "Leading fraction 1/4; integral bounds 0 and 4, integrand (3−t), dt, equality and text litre per minute preserved."
+        }
+      ]
+    }
+  ]
+}

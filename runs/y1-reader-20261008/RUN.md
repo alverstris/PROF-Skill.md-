@@ -1,3 +1,11 @@
+D016 r26b final checks complete; r27 release readback pending, 2026-10-11
+
+The unchanged fresh-r26b teaching frozen at 51a78beccef858072b1da8d057ef3dff09878409 now has complete actual GitHub destination evidence. All 272 expressions, all three embedded figures, normal prose styling and all 30 content links pass within the recorded desktop-browser scope. Prior complete SASIS/source/PROF/mathematics and affected-earlier evidence remains valid. Final topic and full helper checks are MECHANICALLY_READY; they certify record mechanics only. See iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/final-state/review/final-acceptance-20261011.md.
+
+PROF 2026-10-11-r27 changes version metadata only; its exact inverse restores the complete r26 SKILL bytes and the other 35 package files are unchanged. This release requires immutable byte readback before D016 closure. Published counters remain 15 accepted/61 remaining; all 147 IDs, 76 eligible and 71 excluded are preserved. Next: verify release, publish and verify 16/60 closure, then start D017 from the actual published package in a fresh context. Original pending/access-failure records and frozen teaching remain unchanged. No installed-skill, user-computer or automation change.
+
+Earlier dated records follow unchanged.
+
 D016 r26b complete content audit; destination pending, 2026-10-10
 
 Fresh teaching is frozen unchanged at51a78beccef858072b1da8d057ef3dff09878409. Complete fresh SASIS, source/PROF and independent mathematical reviews establish no material content failure. Native figure and source-structure checks and affected-earlier review are preserved under iterations/016/published-r26-20261010/fresh-r26b/. Actual GitHub expression/style/image/navigation checks remain unverified after two Unicorn error-page observations; no document/PROF cause is inferred. See pending-status.json and review/coordinator-disposition.md there. Both topic/full helper checks truthfully remain NOT_READY.

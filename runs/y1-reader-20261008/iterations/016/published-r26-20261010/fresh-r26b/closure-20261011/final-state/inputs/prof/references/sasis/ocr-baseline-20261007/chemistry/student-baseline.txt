@@ -1,0 +1,584 @@
+[CH-META] Student baseline: OCR A Level Chemistry A (H432)
+
+Verification date: 7 October 2026. Qualification: Chemistry A only, H432. The scope was checked against the official specification, version 3.1 (May 2026), together with the current linked data sheet and practical handbook. This document supplies original operational explanations of standard chemistry; it is not a reproduction of OCR's specification or a claim about an individual student's measured mastery.
+
+[CH-00] How the baseline is to be used
+
+For a student model, assume the student has completed the full Chemistry A course and can use the knowledge and methods explicitly stated below when studying new notes and attempting first-year bachelor's assessments. Course completion is a declared starting assumption. It is not evidence that a real student always recalls every fact, performs every calculation correctly, or can transfer each idea to a new situation without help.
+
+The student has this baseline and the supplied notes. A topic name alone does not grant unstated university facts, mechanisms or formulae. The allowed starting toolkit is the set of rules actually explained here, plus any separately declared subject baselines. Later notes must supply new chemical premises beyond these boundaries before they can be used. New information given in a question may be combined with these rules. A method not pre-taught in H432 can still be derived legitimately from the stated chemical rules and available Mathematics/Further Mathematics; the scope limits below restrict assumed prior knowledge, not valid reasoning.
+
+Reference availability is part of this restriction. Constants and approximate spectral recognitions actually stated in this baseline are available. The external source links are provenance, not extra lookup inputs, and the complete periodic table and spectral data sheet are not assumed memorised. For each assessment, the visible notes must include any needed relative atomic masses A_r, atomic numbers or other periodic data not stated here, and any finer IR/NMR reference ranges needed beyond the approximate recognitions below. Required tabulated enthalpies, entropies, electrode potentials, calibration data or other numerical reference values must likewise be present in the baseline or assessment notes. An instruction to consult an absent data sheet does not supply its contents.
+
+In formulae, square brackets such as [A] mean molar concentration, normally in mol dm^-3; n means amount in mol; nu means a stoichiometric coefficient; and a delta means final minus initial, or products minus reactants for a stated reaction. A superscript standard symbol means a value under stated standard conditions. Changes of equation direction reverse the sign of an enthalpy or entropy change; multiplying the whole equation multiplies that change.
+
+[CH-01] 1. Quantities, calculation and representation
+
+[CH-01.01] Units and arithmetic
+
+Use a scientific calculator for powers, square roots, exponential functions, base-10 logarithms and natural logarithms. Rearrange equations before or during substitution, retain extra digits in working, and round the final answer to precision justified by the supplied values. A result needs units unless it is a dimensionless relative mass, ratio or pH.
+
+- 1 kg = 1000 g; 1 g = 1000 mg; 1 tonne = 10^6 g.
+- 1 dm^3 = 1000 cm^3 = 10^-3 m^3; 1 cm^3 = 10^-6 m^3. Convert cm^3 to dm^3 before using concentration in mol dm^-3.
+- 1 kPa = 1000 Pa; 1 kJ = 1000 J. Use kelvin for gas, Arrhenius and Gibbs equations: T/K = temperature/degree C + 273, with 273.15 if the precision calls for it. A temperature interval has the same numerical value in K and degree C.
+- Compound units obey ordinary exponent rules: (mol dm^-3)^2 = mol^2 dm^-6. Determine unfamiliar constant units by substituting the units of each measured quantity into the rearranged equation.
+- A number written a x 10^b is in standard form when 1 <= a < 10. Trailing zeroes after a decimal point can carry precision: 0.0050 has two significant figures.
+
+Use ratios rather than treating every chemical equation as 1:1. Keep a label for each intermediate amount or concentration. Draw a line, smooth curve or tangent as appropriate to a graph; use labelled axes and units, a sensible scale, a large gradient triangle, and gradient = change in vertical quantity / change in horizontal quantity. A tangent gives an instantaneous rate of change; a chord gives an average.
+
+[CH-01.02] Atoms, isotopes and relative masses
+
+An atom contains protons (+1 charge, relative mass approximately 1), neutrons (zero charge, relative mass approximately 1) and electrons (-1 charge, much smaller mass). Atomic number Z is proton number. Mass number A is proton plus neutron number. For a species with signed ionic charge z, electron number = Z - z: a 2+ ion has two fewer electrons than the neutral atom and a 1- ion one more. Neutrons = A - Z.
+
+Isotopes share Z but have different neutron numbers and mass numbers. They generally have the same electron structure and chemical behaviour; their masses differ. Relative isotopic mass compares the mass of one isotope with one twelfth of the mass of a carbon-12 atom. Relative atomic mass A_r is an abundance-weighted mean on that scale:
+
+$$A_r=\frac{\sum_i f_i m_i}{\sum_i f_i}.$$
+
+Here m_i is relative isotopic mass and f_i is relative abundance, a percentage, fraction or consistent intensity measure. A_r and relative molecular/formula mass M_r have no units. Obtain M_r by adding each element's A_r multiplied by its count in the formula. A molecular mass refers to a molecule; formula mass is appropriate for an ionic or other extended structure.
+
+A mass spectrum places mass-to-charge ratio m/z on the horizontal axis and relative abundance on the vertical axis. For the singly charged ions considered here, m/z is numerically the ion's relative mass. Isotope masses and relative peak heights permit the weighted mean calculation. An ion's electron count must reflect its charge even when the spectrum concerns an isotope. The mechanism of the mass spectrometer itself is not part of this starting toolkit.
+
+[CH-01.03] Formulae, balanced equations and the mole
+
+An ionic compound has zero net charge. Choose the lowest whole-number ion ratio that cancels charges, and bracket a polyatomic ion when more than one is needed: Ca(NO3)2 and Al2(SO4)3. Common ions include nitrate NO3-, carbonate CO3^2-, sulfate SO4^2-, hydroxide OH-, ammonium NH4+, silver Ag+ and zinc Zn^2+. Main-group metals commonly form +1 or +2 ions; aluminium forms +3, halogens -1, oxygen -2. Use the formula or supplied charge for species outside the usual rules.
+
+Balance equations by changing coefficients, never the internal formula of a substance. Conserve every element and, for ionic equations, total charge. State symbols are (s), (l), (g) and (aq). To obtain a net ionic equation, split dissolved strong electrolytes into ions and cancel unchanged spectator ions. Do not split solids, gases or molecular water into invented ions. Use supplied observations or products to construct an unfamiliar equation.
+
+One mole contains the Avogadro number of specified entities. Use N_A = 6.02 x 10^23 mol^-1 at OCR data-sheet precision. Always identify whether the entities are molecules, atoms, ions or formula units. The molar mass M has units g mol^-1 and is numerically equal to M_r when measured in those units.
+
+$$N=nN_A,\qquad n=\frac mM,\qquad n=cV,\qquad c_{\rm mass}=cM.$$
+
+Here N is particle count; m is mass in g; c is molar concentration in mol dm^-3; V is solution volume in dm^3; and c_mass is mass concentration in g dm^-3. At room temperature and pressure (RTP), the molar gas volume is approximately 24.0 dm^3 mol^-1, so n = V_gas/(24.0 dm^3 mol^-1). This RTP approximation is not a value for every temperature and pressure.
+
+For a gas at specified temperature and pressure use
+
+$$pV=nRT,$$
+
+with p in Pa, V in m^3, n in mol, T in K and R = 8.314 J mol^-1 K^-1. Convert both pressure and volume consistently. This is an ideal-gas model; it is not a grant of a real-gas equation of state.
+
+For a balanced reaction, divide the available moles of each possible limiting reactant by its coefficient. The smallest quotient fixes the maximum reaction extent. Product moles equal that extent times the product coefficient. Excess reactant remains after subtracting its reacted amount. In a dilution, solute moles stay constant, so c1 V1 = c2 V2 if there is no reaction or loss.
+
+To obtain an empirical formula, divide each element's mass by its A_r, divide all mole amounts by the smallest, and multiply the ratios if necessary to obtain small whole numbers. Do not round a ratio such as 1.50 directly to 2. The empirical formula gives the simplest atom ratio. A molecular formula is the empirical formula multiplied by M_r/(empirical formula mass), a whole number. For a hydrated salt, find water lost and remaining anhydrous salt separately, convert each to moles, and calculate their ratio. Heating to constant mass tests whether mass loss has finished; decomposition or loss of material can invalidate a hydration calculation.
+
+$$\%\,\text{yield}=100\frac{\text{actual amount of product}}{\text{theoretical amount of product}},\qquad
+\%\,\text{atom economy}=100\frac{\nu_{\rm useful}M_{\rm useful}}{\sum_{\rm products}\nu_i M_i}.$$
+
+Use consistent amounts or masses of the same product in the yield ratio. Theoretical yield comes from the limiting reactant. Atom economy uses the balanced reaction, not the actual isolated yield: it measures the fraction of reactant mass incorporated in desired product. A high atom economy can reduce material waste but does not by itself establish low energy use, low toxicity or a high practical yield.
+
+[CH-02] 2. Electrons, bonds, structure and periodic patterns
+
+[CH-02.01] Electron structure
+
+Shell n can hold up to 2n^2 electrons: capacities of the first four shells are 2, 8, 18 and 32. A shell contains sub-shells; an s sub-shell has one orbital and capacity 2, p has three and capacity 6, and d has five and capacity 10. An orbital can contain two electrons with opposite spins. s orbitals are spherical; p orbitals have two lobes with different orientations. In equal-energy orbitals, occupy them singly before pairing, with parallel spins for the single electrons.
+
+For the ground-state atoms covered by the course, fill 1s, 2s, 2p, 3s, 3p, 4s, 3d, then 4p, subject to the Cr and Cu exceptions. Use notation such as 1s^2 2s^2 2p^6. Neutral chromium is [Ar]3d^5 4s^1; neutral copper is [Ar]3d^10 4s^1. For transition-metal cations remove 4s electrons before 3d electrons: Fe is [Ar]3d^6 4s^2, Fe^2+ is [Ar]3d^6, Fe^3+ is [Ar]3d^5. Atom and main-group ion configurations are covered to Z = 36; period-4 d-block atom and ion configurations cover Sc to Zn.
+
+An element belongs to the s, p or d block according to the sub-shell associated with its characteristic electron filling. Across a period the proton number increases while electrons enter the same principal outer shell. Down a main-group column another occupied shell is added. Use nuclear charge, distance and shielding together when explaining attraction between nucleus and outer electrons; naming only one factor can produce a wrong trend.
+
+The first ionisation energy is the energy to remove one mole of electrons from one mole of gaseous neutral atoms:
+
+$$X(g)\rightarrow X^+(g)+e^-.$$
+
+Successive ionisation energies remove electrons from successively more positive gaseous ions. A large jump after a particular number of electrons usually shows that the next electron comes from an inner shell, identifying the number of outer-shell electrons in simple main-group cases. First ionisation energy generally rises across periods 2 and 3 as effective attraction strengthens, and falls down a group as extra distance and shielding outweigh increased nuclear charge. The Be-to-B and Mg-to-Al dips arise when the removed electron enters a higher-energy p sub-shell; the N-to-O and P-to-S dips arise from repulsion between paired p electrons. State whether the comparison concerns an atom or an ion.
+
+[CH-02.02] Ionic, covalent and metallic bonding
+
+An ionic bond is the electrostatic attraction of opposite ions. An ionic solid is an extended lattice, with attractions in all directions. In a dot-and-cross diagram show electrons transferred, complete outer shells as appropriate, brackets and ion charges. The large energy needed to separate ions gives generally high melting points. A solid does not conduct because its ions are fixed; a melt or aqueous solution can conduct because ions move. Solubility in water depends on competition between lattice disruption and hydration, so it is not correct to call every ionic solid soluble.
+
+A covalent bond involves a shared electron pair attracted by both nuclei. In a coordinate or dative bond both electrons in the original shared pair came from one donor. After formation it is a covalent bond. Dot-and-cross diagrams show bond pairs and all relevant lone pairs; multiple bonds share two or three pairs. A larger average bond enthalpy indicates a stronger bond.
+
+Metallic bonding involves a lattice of positive metal centres attracted to mobile delocalised electrons. Electrons explain electrical conductivity; non-directional bonding allows layers to move while bonding persists, explaining malleability. Metal melting points vary with attraction and structure; they cannot be assigned solely from a label such as 'metal'.
+
+A simple molecular solid contains strong bonds within molecules and weaker attractions between molecules. Melting or boiling usually overcomes intermolecular attractions without breaking each molecule's covalent bonds. Such substances usually lack mobile charged particles and do not conduct. Giant covalent structures instead contain a network of strong covalent bonds, so melting demands extensive bond breaking. Diamond has four bonds per carbon and no mobile electrons. Graphite has three bonds per carbon in layers, delocalised electrons, strong within-layer bonding and weak interlayer attractions; it conducts and layers can slide. Graphene is one such sheet with high strength and conductivity. Silicon is also a giant covalent solid in this scope.
+
+Across period 3, sodium, magnesium and aluminium have metallic lattices; silicon has a giant covalent structure; phosphorus, sulfur and chlorine form simple molecules (commonly P4, S8 and Cl2); argon is monatomic. Compare the actual particles and attractions to explain melting points. Sulfur's larger molecule has stronger dispersion attractions than phosphorus or chlorine; neither should be explained by breaking all its internal covalent bonds during ordinary melting.
+
+[CH-02.03] Molecular shape, polarity and attractions
+
+Electron regions around a central atom repel and adopt arrangements that minimise repulsion. A multiple bond counts as one directional bonding region when predicting shape. Lone-pair repulsion is stronger than bond-pair repulsion, so lone pairs can compress adjacent bond angles. Use a wedge for a bond towards the viewer, a dashed wedge away, and plain lines in the plane.
+
+| Bonding regions and lone pairs | Molecular shape | Typical angle |
+|---|---|---|
+| 2 bonds, no lone pairs | linear | 180 degrees |
+| 3 bonds, no lone pairs | trigonal planar | 120 degrees |
+| 4 bonds, no lone pairs | tetrahedral | 109.5 degrees |
+| 3 bonds, 1 lone pair | pyramidal, as in NH3 | about 107 degrees |
+| 2 bonds, 2 lone pairs | bent/non-linear, as in H2O | about 104.5 degrees |
+| 6 bonds, no lone pairs | octahedral | 90 and 180 degrees |
+
+Electronegativity measures attraction for a shared bonding electron pair. It generally increases towards fluorine in the periodic table. In an unequal bond, label the more electronegative end delta-minus and the other delta-plus. Molecular polarity depends on the vector directions of all bond dipoles. The two equal opposite C=O dipoles in linear CO2 cancel; the O-H dipoles in bent H2O do not.
+
+All atoms and molecules have London/dispersion attractions: fluctuating electron density produces temporary and induced dipoles. More polarisable electron clouds and greater molecular contact usually strengthen them. Larger unbranched alkanes generally boil at higher temperatures; branching of isomers reduces contact and usually lowers boiling point. Polar molecules also have permanent dipole-dipole attractions. A hydrogen bond occurs between H bonded to N, O or F and a lone pair on N, O or F in another suitable molecule. Show it with a dotted line and the lone-pair acceptor. It is distinct from the covalent N-H or O-H bond itself.
+
+Hydrogen bonding raises water's melting and boiling temperatures relative to similar small molecules. Ice forms an open hydrogen-bonded network and is less dense than liquid water. Small alcohols and carboxylic acids hydrogen-bond with water; their water solubility generally decreases as a larger nonpolar hydrocarbon portion becomes dominant. When comparing boiling points, first identify which intermolecular forces are possible, then compare molecular size/contact and strength.
+
+[CH-03] 3. Acids, redox and inorganic chemistry
+
+[CH-03.01] Acid-base chemistry and oxidation numbers
+
+Common acids are HCl, HNO3, H2SO4 and CH3COOH; common alkalis include NaOH, KOH and NH3(aq). A strong acid dissociates essentially completely in the relevant dilute aqueous model; a weak acid only partly dissociates. Strength is different from concentration. An acid can be weak and concentrated, or strong and dilute. A base accepts H+; an alkali is a soluble base giving OH- in aqueous solution. In the Brønsted-Lowry model an acid is a proton donor and a base a proton acceptor. Conjugate pairs differ by one H+ and corresponding unit of charge: HA/A- or BH+/B. A monobasic, dibasic or tribasic acid can supply one, two or three protons per formula unit in full neutralisation, respectively; that label does not prove all dissociation stages are equally strong.
+
+Neutralisation of H+ and OH- forms water. An acid plus a basic oxide or hydroxide forms a salt and water. An acid plus carbonate produces a salt, water and CO2. Many sufficiently reactive metals plus an appropriate dilute non-oxidising acid form salt and H2. Construct the balanced equation from the actual metal charge and acid anion; do not extend the simple hydrogen-product rule to every concentrated or oxidising acid.
+
+An oxidation number is a formal electron-assignment number. An element in its elemental form has oxidation number 0. A monatomic ion's number equals its charge. The sum is zero in a neutral compound and equals overall charge in an ion. Oxygen is normally -2, but -1 in peroxides; hydrogen is normally +1, but -1 in metal hydrides. Fluorine is -1. Use these and known simple ion charges to calculate the unknown number. A Roman numeral in a name specifies the oxidation number of the stated element, not the number of atoms: iron(III) has iron at +3.
+
+Oxidation means electron loss and a rise in oxidation number; reduction means electron gain and a fall. An oxidising agent accepts electrons and is itself reduced. A reducing agent donates electrons and is itself oxidised. In disproportionation the same element is both oxidised and reduced in the same reaction.
+
+To balance a redox half-equation in acidic solution: conserve the changing element, balance O with H2O, balance H with H+, and balance charge with electrons. Multiply half-equations to make their electron numbers equal, add and cancel. In an alkaline system use supplied OH-/water conditions or convert an acid-balanced equation by adding OH- to cancel H+, forming and cancelling water. Check charge and atoms at the end. Multiplying a half-equation changes amounts but not its electrode potential.
+
+[CH-03.02] Group 2
+
+Group-2 metals Mg to Ba have an outer ns^2 arrangement and form M^2+ by losing two electrons. Down the group the first and second ionisation energies generally decrease and reaction with water or dilute acid becomes easier. Typical equations are
+
+$$2M+O_2\rightarrow2MO,\quad M+2H_2O\rightarrow M(OH)_2+H_2,\quad M+2H^+\rightarrow M^{2+}+H_2.$$
+
+Magnesium reacts very slowly with cold water, but with steam forms MgO and H2; heavier members react more readily with cold water to hydroxides. Group-2 oxides react with water to hydroxides. Mg(OH)2 is sparingly soluble; the increasingly soluble hydroxides down the group can produce more alkaline solutions, ranging from moderately alkaline magnesium hydroxide mixtures (typically around pH 9-10) to calcium hydroxide solutions around pH 12 and strongly alkaline heavier hydroxide solutions around pH 13. These are approximate common laboratory observations, not universal values at every concentration. Explain the amount of OH- present. Ca(OH)2 neutralises acidic soils; Mg(OH)2 and CaCO3 can neutralise stomach acid. For example CaCO3 + 2HCl -> CaCl2 + CO2 + H2O.
+
+[CH-03.03] Halogens and ion tests
+
+Chlorine, bromine and iodine are diatomic, with outer ns^2 np^5 arrangements. They can gain an electron to form halide ions. Going down Cl2, Br2, I2, molecular size/polarisability and boiling point increase. At room conditions chlorine is a pale green gas, bromine a red-brown liquid and iodine a dark grey solid with violet vapour. Aqueous iodine is brown; an organic solvent gives iodine a violet/purple colour, bromine orange and chlorine pale green or very pale.
+
+Halogen oxidising strength decreases down the group because electron gain becomes harder with greater distance and shielding. A more reactive halogen oxidises a less reactive halide:
+
+$$Cl_2+2Br^-\rightarrow2Cl^-+Br_2,\qquad Br_2+2I^-\rightarrow2Br^-+I_2.$$
+
+Chlorine oxidises both bromide and iodide; bromine oxidises iodide; iodine does not displace either chloride or bromide in this model. Interpret observed colours using the halogen actually produced, with awareness of the phase or solvent.
+
+Chlorine disproportionates in water and cold dilute alkali:
+
+$$Cl_2+H_2O\rightleftharpoons HCl+HClO,\qquad Cl_2+2OH^-\rightarrow Cl^-+ClO^-+H_2O.$$
+
+The chlorine atoms change from 0 to -1 and +1. Chlorine-based disinfection kills microorganisms, while handling toxic chlorine and possible chlorinated by-products requires weighing evidence and benefits. Supplied analogous reactions can be analysed by the same oxidation-number rules.
+
+For inorganic identification, work with small fresh aliquots and distinguish reagent from observation and inference:
+
+- Carbonate: add dilute acid; effervescence comes from CO2. Confirm by passing gas into limewater, which turns cloudy from CaCO3. Net equation CO3^2- + 2H+ -> CO2 + H2O.
+- Sulfate: acidify appropriately to remove carbonate interference, then add Ba^2+ solution; a white BaSO4 precipitate remains. Net equation Ba^2+ + SO4^2- -> BaSO4(s). Do not use sulfuric acid as the acidifying reagent when testing sulfate.
+- Halide: acidify with dilute nitric acid, then add AgNO3(aq). AgCl is white, AgBr cream and AgI yellow. Net equation Ag+ + X- -> AgX(s). AgCl dissolves in dilute NH3; AgBr needs concentrated NH3; AgI remains insoluble. Hydrochloric acid would introduce chloride and contaminate this test.
+- Ammonium: warm with NaOH(aq); NH4+ + OH- -> NH3 + H2O. Ammonia turns damp red litmus blue; use the chemical test rather than relying on smell.
+
+For a sequential anion identification scheme, establish/remove carbonate first, sulfate next, then halide. Otherwise BaCO3 or Ag2SO4 can mimic the intended precipitates. Separate aliquots with appropriate acidification are usually clearer. The solubility-product formula is not an assumed memory rule for H432.
+
+[CH-03.04] Transition metals, complexes and reactions
+
+In the course definition, a transition element has an ion with an incomplete d sub-shell. Period-4 Ti to Cu meet that definition; Sc^3+ is d^0 and Zn^2+ d^10. Transition elements commonly show several oxidation states, coloured ions, and catalytic behaviour. Familiar examples include MnO2 catalysing H2O2 decomposition and Cu^2+ assisting zinc reactions with acid. The detailed orbital account of colour or catalytic mechanism is not assumed.
+
+A ligand donates a lone pair to a metal centre to form a coordinate bond. H2O, NH3 and Cl- are monodentate (one donor attachment per ligand). Ethane-1,2-diamine, en = NH2CH2CH2NH2, is bidentate and can attach through both N atoms. A complex contains a central metal and coordinated ligands; its overall charge is metal charge plus ligand charges. Coordination number counts donor bonds, not ligand molecules: three en ligands give six-coordinate bonding.
+
+Six-coordinate examples are octahedral, with 90-degree adjacent bond angles, such as [Fe(H2O)6]^3+. Four-coordinate complexes may be tetrahedral, as in [CuCl4]^2-, or square planar, as in Pt(NH3)2Cl2; use the identified structure or supplied information. In square-planar cis-platin the two Cl ligands are adjacent; the trans isomer has them opposite. Octahedral complexes with appropriate ligand arrangements can also show cis/trans or optical isomerism. A tris-bidentate complex can have non-superimposable mirror forms. Draw the three-dimensional geometry; a flat formula alone cannot establish stereoisomerism. Cis-platin can bind DNA and impede cell division. In haemoglobin, oxygen binds at iron; CO competes strongly for binding and impairs oxygen transport.
+
+Ligand substitution changes ligand identity without necessarily changing metal oxidation number. Examples are
+
+$$[Cu(H_2O)_6]^{2+}+4NH_3\rightleftharpoons[Cu(NH_3)_4(H_2O)_2]^{2+}+4H_2O,$$
+$$[Cu(H_2O)_6]^{2+}+4Cl^-\rightleftharpoons[CuCl_4]^{2-}+6H_2O,$$
+$$[Cr(H_2O)_6]^{3+}+6NH_3\rightleftharpoons[Cr(NH_3)_6]^{3+}+6H_2O.$$
+
+Copper aqua ions are pale blue, the copper ammine complex dark/deep blue and the tetrachlorocuprate complex yellow; mixed solutions may look green. Chromium(III) aqua ions can be pale violet, though common laboratory solutions are green because of other coordinated species; the chromium ammine complex is purple. Use exact complex formulae in substitution equations and distinguish change of coordination geometry from a redox change.
+
+Both aqueous OH- and small additions of NH3 can precipitate metal hydroxides. NH3 acts as a base by NH3 + H2O <=> NH4+ + OH-. Typical precipitation is M^2+ + 2OH- -> M(OH)2(s), or M^3+ + 3OH- -> M(OH)3(s). Expected observations:
+
+| Ion in solution | Hydroxide precipitate from small OH-/NH3 addition | Behaviour with excess reagent in this scope |
+|---|---|---|
+| Cu^2+, pale blue | Cu(OH)2, pale blue | dissolves in excess NH3 to deep-blue ammine; does not dissolve in excess NaOH |
+| Fe^2+, pale green | Fe(OH)2, green | no further dissolution; can brown on oxidation in air |
+| Fe^3+, yellow/orange-brown | Fe(OH)3, orange-brown | no further dissolution |
+| Mn^2+, very pale pink | Mn(OH)2, pale brown | no further dissolution |
+| Cr^3+, violet/green | Cr(OH)3, green | excess NaOH gives green [Cr(OH)6]^3-; excess NH3 gives purple ammine under appropriate conditions |
+
+Complex ions can instead be used in balanced precipitation formulae. For chromium in excess base, Cr(OH)3(s) + 3OH- -> [Cr(OH)6]^3-. Precipitation and subsequent ligand substitution are different stages, so a little NH3 and excess NH3 can give different observations.
+
+For redox interconversion, Fe^2+ can be oxidised to Fe^3+ by acidified MnO4-; Fe^3+ can oxidise I- to I2 and be reduced to Fe^2+. Chromium(III) can be oxidised by H2O2 in alkaline solution to yellow CrO4^2-; acidification connects chromate with orange Cr2O7^2-. Dichromate can be reduced by Zn/H+ to chromium(III). Cu^2+ with I- forms white CuI and iodine:
+
+$$2Cu^{2+}+4I^-\rightarrow2CuI(s)+I_2.$$
+
+In aqueous solution, free Cu+ readily disproportionates: 2Cu+ -> Cu^2+ + Cu(s). Use half-equations or oxidation numbers to construct unfamiliar redox equations; memorising all transition-redox equations is not required. Classify an unfamiliar change by checking oxidation state (redox), insoluble solid production (precipitation), and ligand exchange (substitution).
+
+[CH-04] 4. Rates and equilibrium
+
+[CH-04.01] Collision theory and qualitative energy distributions
+
+Reacting particles must meet with adequate energy and an effective arrangement. Increasing concentration or gas pressure normally increases collision frequency. Increasing temperature makes collisions more frequent and, more substantially, increases the fraction energetic enough to cross the activation-energy barrier. A catalyst provides a different reaction route with a lower activation energy and is regenerated overall. A homogeneous catalyst is in the same phase as the reactants; a heterogeneous catalyst is in a different phase. Lower-temperature operation can reduce energy demand, although production decisions also involve selectivity, waste and catalyst properties.
+
+A qualitative Boltzmann energy-distribution curve begins at zero at zero energy, rises to a maximum and has a tail approaching the horizontal axis. Total area corresponds to the particle population. At higher temperature the peak is lower and shifts towards higher energy, with a greater area above E_a; the distribution does not become a rectangular threshold. A catalyst lowers E_a without changing the energy distribution at the same temperature. This baseline grants the graph and qualitative interpretation, not a probability-density formula, microstate counting or statistical-mechanics derivation.
+
+[CH-04.02] Rate data and rate laws
+
+Reaction rate can be measured from decrease in reactant concentration, increase in product concentration, gas-volume change or mass loss per unit time. Make the sign appropriate to whether the measured quantity rises or falls. Concentration rates commonly have units mol dm^-3 s^-1. For aA -> bB, the species loss rate of A is -d[A]/dt and the species formation rate of B is d[B]/dt. Their coefficient-normalised common reaction rate is r = -(1/a)d[A]/dt = (1/b)d[B]/dt. Specify which rate is being used; the tangent magnitude on an A concentration-time graph is A's loss rate, not automatically r.
+
+$$\text{rate}=k[A]^m[B]^n.$$
+
+Unless another convention is stated, this displayed rate and k refer to the positive concentration loss rate of a chosen reactant A. m and n are empirical orders with respect to A and B, and m+n is the overall order. For this course the individual orders normally considered are 0, 1 or 2. Do not take them from the overall balanced equation. Compare experiments where all but one concentration and the temperature remain constant: rate ratio = (concentration ratio)^order. Doubling concentration gives unchanged rate for zero order, twice the rate for first order and four times the rate for second order. Use an appropriate ratio or logarithm to determine an unknown order.
+
+k = rate/([A]^m[B]^n). With concentration rate units as above, an overall order r gives units (mol dm^-3)^(1-r) s^-1: zero order mol dm^-3 s^-1; first order s^-1; second order dm^3 mol^-1 s^-1; third order dm^6 mol^-2 s^-1. k depends on temperature and the reaction route, not on the concentration changes already represented in a fixed-temperature rate law.
+
+For a reactant A concentration-time graph, zero-order loss gives a straight descending line; first-order loss gives a curve whose successive half-lives are equal. A's loss rate is the magnitude of its tangent gradient. For this species loss rate versus [A], zero order is horizontal, first order a line through the origin, and second order an upward curve, with any other concentrations fixed or incorporated into the stated constant. For first-order disappearance described by -d[A]/dt = k[A], the rate-concentration gradient is k. Its half-life t_1/2 is constant for successive halvings and
+
+$$k=\frac{\ln 2}{t_{1/2}}.$$
+
+Use the time units consistently. If instead a coefficient-normalised rate law is defined as r = -(1/a)d[A]/dt = k_r[A], then A's loss rate is a k_r[A], the decay constant and species-rate graph slope are a k_r, and t_1/2 = ln 2/(a k_r). These constants coincide only when a = 1 or the law has already been expressed as A's loss rate. Integrated rate equations such as concentration as an exponential function of time, and their differential-equation derivation, are not assumed knowledge here.
+
+A mechanism consists of steps whose sum gives the overall equation. The rate-determining step is the slow controlling step. A proposed simple slow step must be consistent with the observed rate law, not merely with the overall stoichiometry. Species used in a slow step can be formed in earlier steps. A rate law constrains possible mechanisms; it does not uniquely prove one mechanism. Cancel intermediates when adding steps and ensure any catalyst is regenerated. More elaborate steady-state or pre-equilibrium derivations require new notes.
+
+For temperature dependence use
+
+$$k=A\exp\!\left(-\frac{E_a}{RT}\right),\qquad \ln k=-\frac{E_a}{R}\frac1T+\ln A.$$
+
+E_a is activation energy in J mol^-1 when R = 8.314 J mol^-1 K^-1, T is absolute temperature, and A is the pre-exponential factor with the same units as k. A plot of ln k versus 1/T is linear in the assumed Arrhenius model: gradient = -E_a/R and intercept = ln A, so E_a = -R(gradient) and A = exp(intercept). If 1000/T is plotted, the scale changes the gradient relation. A molecular explanation of A is not assumed. The two-point relation follows by subtraction: ln(k2/k1) = -(E_a/R)(1/T2 - 1/T1). Increasing T normally increases k for a positive E_a.
+
+[CH-04.03] Dynamic equilibrium and constants
+
+In a closed reversible system at equilibrium, forward and reverse rates are equal and macroscopic composition is constant; molecular reactions continue. Equal rates do not imply equal reactant and product concentrations. Le Chatelier reasoning predicts that a disturbed equilibrium moves in a direction tending to oppose the disturbance. Increasing a reactant concentration tends to favour its consumption. Increasing pressure by compressing an ideal gas mixture tends to favour the side with fewer gas molecules if the gas coefficients differ. Heating favours the endothermic direction. A catalyst accelerates attainment of equilibrium in both directions without changing the equilibrium composition.
+
+Industrial conditions compromise between rate, equilibrium yield, energy use, plant cost and other constraints. For example the exothermic Haber equilibrium N2 + 3H2 <=> 2NH3 favours higher pressure and lower temperature for equilibrium yield, but too low a temperature gives an impractically slow rate; a catalyst assists rate. Be able to reason from any given equation rather than treating one process's operating conditions as a universal rule.
+
+For aA + bB <=> cC + dD, a concentration expression is
+
+$$K_c=\frac{[C]^c[D]^d}{[A]^a[B]^b},$$
+
+using equilibrium, not initial, concentrations. For gas equilibria replace concentrations by gas partial pressures to obtain K_p. A gas's partial pressure is its mole fraction times total pressure: p_i = (n_i/n_total)p_total. Count all gases in n_total; do not include nongaseous substances. In a heterogeneous equilibrium omit pure solid and pure liquid phases from the expression because their effective concentration is constant. Dissolved species remain in K_c expressions; the omission of pure liquids does not mean all substances in a liquid solution are omitted.
+
+Determine equilibrium amounts by a reaction-change balance: initial amount minus coefficient times the reacted extent for a reactant, initial amount plus coefficient times extent for a product. Divide equilibrium moles by the common solution volume for K_c, or use mole fractions for K_p. Set up this balance before solving a non-structured problem. H432 does not require solving quadratic equations in equilibrium assessments. Simple rearrangements, powers and roots are pre-taught here; solving a quadratic that follows from these stated premises is nevertheless legitimate if the student's separate mathematics baseline supplies that skill.
+
+The formal OCR units follow from the expression. K_c units are (mol dm^-3)^(sum of included product coefficients - sum of included reactant coefficients); K_p units are the chosen pressure unit raised to the analogous gas-coefficient difference. A zero difference gives no units. Keep all pressures in the same unit, and do not mix gas pressure units with concentration units. For a fixed written reaction, temperature and concentration/pressure-unit convention, changing concentration, pressure or catalyst does not change K. Composition adjusts to satisfy the same K. Temperature can change K: heating an endothermic forward reaction increases K; heating an exothermic forward reaction decreases it. Within a fixed reaction-equation and unit convention, larger K means a larger equilibrium product-side/reactant-side ratio in that expression, and smaller K a smaller ratio. Numerical labels such as 'large' and 'small' must be interpreted within that convention. Dimensionful K values cannot be universally compared across different reactions or unit choices; reversing or rescaling an equation also changes its K expression and value. The actual equilibrium amounts still require the initial-composition and stoichiometric balances.
+
+K_c/K_p reasoning can be applied to another supplied equilibrium expression. This does not grant a memorised K_sp solubility-product model, activities, chemical potentials, a K_p-K_c conversion formula, van't Hoff temperature equation or a general reaction-quotient free-energy equation.
+
+[CH-05] 5. Quantitative acids, bases and buffers
+
+The course's concentration approximation treats aqueous H+ concentration numerically in mol dm^-3:
+
+$$\mathrm{pH}=-\log_{10}[H^+],\qquad [H^+]=10^{-\mathrm{pH}}.$$
+
+A decrease of one pH unit is a tenfold rise in [H+]. For a dilute strong monobasic acid at the concentrations considered, [H+] is approximately its analytical concentration. For a strong alkali determine [OH-] from concentration and the number of OH- ions supplied by each dissolved formula unit, then use
+
+$$K_w=[H^+][OH^-].$$
+
+At 298 K use K_w = 1.00 x 10^-14 mol^2 dm^-6, so [H+] = K_w/[OH-]. Equivalently pH+pOH = 14.00 at that temperature, where pOH = -log10[OH-]. K_w changes with temperature. Neutrality means [H+] = [OH-], so neutral pH = -log10(sqrt(K_w)); it need not be 7 at every temperature. Extremely dilute strong acid/base solutions for which water's contribution matters need further treatment.
+
+For HA <=> H+ + A-,
+
+$$K_a=\frac{[H^+][A^-]}{[HA]},\qquad \mathrm pK_a=-\log_{10}K_a,\qquad K_a=10^{-\mathrm pK_a}.$$
+
+A larger K_a or lower pK_a indicates greater acid dissociation in comparable conditions. In the course units K_a has mol dm^-3. For a weak monobasic acid alone at starting concentration c, let its dissociation produce x mol dm^-3 of each H+ and A-. If water contributes negligibly and x << c, use [H+] approximately [A-] approximately x and [HA] approximately c:
+
+$$[H^+]\simeq\sqrt{K_a c}.$$
+
+This is a conditional approximation. Check that the calculated x is small compared with c; a stronger weak acid or sufficient dilution can make appreciable acid depletion, and at very low concentrations water can invalidate the other assumption. Recognising failure is included. Retaining acid depletion gives [HA] = c-x and K_a = x^2/(c-x) when water is still negligible, from the same dissociation stoichiometry and equilibrium expression. H432 does not require solving this quadratic, so the exact weak-acid algorithm is not assumed as a memorised chemistry method; a student with quadratic-solving mathematics may derive and solve it. A full coupled water/speciation/charge-balance treatment needs its additional chemical premises stated.
+
+An acid buffer contains substantial amounts of weak acid HA and its conjugate base A-, commonly produced by adding its salt or partially neutralising excess weak acid with strong alkali. The base component consumes added H+ by A- + H+ -> HA. The acid component consumes added OH- by HA + OH- -> A- + H2O. The solution therefore resists small pH changes until one component is substantially exhausted. It does not keep pH exactly fixed or withstand unlimited addition.
+
+From the K_a expression,
+
+$$[H^+]\simeq K_a\frac{[HA]}{[A^-]},\qquad
+\mathrm{pH}\simeq\mathrm pK_a+\log_{10}\!\frac{[A^-]}{[HA]}.$$
+
+The second form is simply the logarithmic rearrangement of the first. Use actual buffer amounts after any strong-acid/base neutralisation. If both share the same total volume their concentration ratio equals their mole ratio. To form a buffer with strong base, first subtract added OH- moles from HA moles and add that amount to A-; HA must remain. If strong acid is added, subtract it from A- and add it to HA. If a component is exhausted, switch to the chemistry of the excess rather than reusing the buffer formula. Diluting both components equally approximately preserves their ratio and pH, while reducing capacity. At equal acid/base component concentrations pH approximately pK_a. The H2CO3/HCO3- system is an important blood-plasma buffer; added acid converts hydrogencarbonate towards carbonic acid and added base consumes acid. The broader biological regulation system requires its own notes.
+
+For acid/base mixing or titration, start from stoichiometric neutralisation moles before deciding which pH formula applies. Divide excess H+ or OH- by the final combined volume if a strong species remains. The equivalence point occurs at the exact chemical ratio; the observed indicator endpoint approximates it. Strong acid/strong base curves have a steep region around neutral pH at 298 K; weak acid/strong base curves have a buffer region and equivalence above pH 7; strong acid/weak base curves have equivalence below 7. Weak acid/weak base titration has no sufficiently sharp pH jump for a suitable ordinary indicator in this scope. Curve direction depends on which solution is added to which.
+
+Choose an indicator whose transition range lies in the steep section around equivalence. Indicators are weak-acid equilibria HIn <=> H+ + In- with differently coloured acid/base forms. Adding acid shifts towards HIn and adding base removes H+ and favours In-. At half-neutralisation of a weak acid its HA and A- amounts are equal, giving pH approximately pK_a. Detailed weak-base K_b, salt hydrolysis and exact equivalence-point calculations are not granted unless supplied.
+
+[CH-06] 6. Enthalpy, lattice cycles, entropy and Gibbs energy
+
+[CH-06.01] Heat and enthalpy
+
+An exothermic reaction has negative reaction enthalpy because the chemical system loses enthalpy to its surroundings; an endothermic one has positive enthalpy. An enthalpy-profile diagram places reactant and product enthalpy on a vertical axis and reaction progress on a horizontal axis. Products are lower for an exothermic change. The activation barrier is measured from reactant level to the transition-state peak; forward and reverse barriers differ. A catalyst lowers the barrier without changing the reactant/product enthalpy difference.
+
+Standard conditions in this course use 100 kPa and a stated temperature, commonly 298 K, with substances in their standard physical states. Standard formation enthalpy is the change to form one mole of compound from its elements in their standard states. Standard combustion enthalpy is for complete burning of one mole of a specified substance in oxygen. Neutralisation enthalpy is for formation of one mole of water by acid/base neutralisation. Always inspect the balanced equation and states: the reaction enthalpy belongs to the equation as written, so it need not be 'per mole of any arbitrarily chosen reactant'. An element in its standard state has standard formation enthalpy zero; its standard entropy is not therefore zero.
+
+For heating a measured substance,
+
+$$q=mc\Delta T.$$
+
+q is heat gained in J, m is the mass that changes temperature, c is its specific heat capacity, and delta T is its temperature rise. For dilute aqueous calorimetry, use c = 4.18 J g^-1 K^-1 and density about 1 g cm^-3 if those water-like assumptions are appropriate or stated. m is the heated solution's mass, not automatically the mass of a small solid reagent. Delta T is a temperature difference, so do not add 273 to it. If the solution warms, its q is positive and the reaction's approximate heat is -q. Divide by the amount corresponding to the equation and convert J to kJ to obtain kJ mol^-1. Heat lost to the environment, absorbed by apparatus, incomplete reaction and evaporation can make the result less accurate; explain the direction of a bias when possible.
+
+Breaking bonds requires energy; forming bonds releases energy. A mean bond enthalpy is a positive average energy to break one mole of a given bond type in gaseous molecules, and actual values depend on chemical environment. An estimate is
+
+$$\Delta H\simeq\sum\text{bond energies broken}-\sum\text{bond energies formed}.$$
+
+Count each bond and coefficient accurately. Using gaseous mean bond energies for a process with liquids/solids omits phase-change effects and makes an approximation.
+
+Hess reasoning uses enthalpy as a state-dependent quantity, so alternative routes between the same initial and final states have the same net change. Reverse an equation to reverse its delta H, and multiply coefficients to multiply delta H. With formation values,
+
+$$\Delta_rH^\circ=\sum_{\rm products}\nu_i\Delta_fH_i^\circ-\sum_{\rm reactants}\nu_i\Delta_fH_i^\circ.$$
+
+With combustion values for routes to identical combustion products, reaction enthalpy = sum of reactant combustion enthalpies minus sum of product combustion enthalpies, with coefficients and consistent product states. For an unfamiliar cycle, follow directed arrows, choose a path, and add signed values; do not guess a remembered triangle direction.
+
+[CH-06.02] Lattice, atomisation, ionisation, electron affinity and hydration
+
+OCR uses lattice formation enthalpy: formation of one mole of ionic solid from separated gaseous ions. This is normally negative. Lattice dissociation is the reverse and normally positive; a question using that convention requires a sign change. Atomisation creates gaseous atoms from an element in its stated form. Ionisation removes electrons from gaseous atoms/ions and costs energy. Electron affinity adds electrons to gaseous atoms/ions; the first affinity is commonly exothermic for nonmetals, while adding an electron to an already negative ion can be endothermic.
+
+A Born-Haber cycle combines these terms. For MX with monovalent ions, write the exact steps: elements in standard states -> gaseous atoms -> M+(g) and X-(g) -> MX(s). The overall formation enthalpy equals atomisation terms plus ionisation plus electron affinity plus lattice formation enthalpy. From X2(g), formation of one mole of X(g) requires half the gaseous X-X bond-dissociation energy. If the standard elemental state is X2(l) or X2(s), first account for vaporisation or sublimation to X2(g), with the appropriate coefficient, then dissociate the gas; alternatively use a supplied atomisation enthalpy that already includes both steps. Thus Br2(l) and I2(s) cannot be treated as gaseous molecules without a phase-change contribution. For MgCl2 there are two chloride electron-affinity/atomisation contributions and both first and second Mg ionisation contributions. Draw and count the actual states and coefficients before rearranging for an unknown term.
+
+Solution enthalpy concerns dissolving one mole of solute; hydration enthalpy concerns gaseous ions becoming aqueous ions. For a salt,
+
+$$\Delta_{\rm sol}H=-\Delta_{\rm lattice,formation}H+\sum_i\nu_i\Delta_{\rm hyd}H_i.$$
+
+The first contribution separates the solid into gaseous ions; hydration then attracts water around those ions. More highly charged and smaller ions generally have more negative lattice-formation and hydration enthalpies because attraction is stronger. Compare both terms; a more negative lattice enthalpy alone does not prove greater solubility. Solution enthalpy can be either sign, and entropy also matters for dissolution.
+
+[CH-06.03] Quantitative entropy and Gibbs feasibility
+
+Entropy describes energy dispersal and the number of ways the system can distribute energy, with greater disorder being a useful qualitative course model. For comparable substances gas entropy is generally larger than liquid entropy, which is generally larger than solid entropy. Melting and vaporisation generally increase entropy. An increase in gas molecule number often suggests positive reaction entropy, and a decrease often negative, but actual tabulated values determine a quantitative result.
+
+$$\Delta_rS^\circ=\sum_{\rm products}\nu_i S_i^\circ-\sum_{\rm reactants}\nu_i S_i^\circ.$$
+
+S_i values are molar entropies, commonly J K^-1 mol^-1. Apply coefficients. Distinguish a substance's absolute standard entropy S from the entropy change of a reaction. Elements can have positive standard entropy while having zero standard formation enthalpy. A reaction with more gas products can have positive delta S even if all reactants/products individually have positive entropies.
+
+For a reaction compared at one common temperature, Gibbs, enthalpy and entropy changes are related by delta G = delta H - T delta S. The forward-feasibility criterion applies at constant temperature and pressure. When the calculation uses tabulated standard reaction enthalpies and entropies, it gives the standard reaction Gibbs change:
+
+$$\Delta_rG^\circ=\Delta_rH^\circ-T\Delta_rS^\circ.$$
+
+T must be kelvin. Use compatible energy units: if delta H is kJ mol^-1, divide delta S in J K^-1 mol^-1 by 1000 before multiplying by T; or convert delta H to J. Negative standard delta G predicts a thermodynamically feasible forward process with reactants and products in their standard states at that temperature; positive standard delta G favours the reverse under those conditions. A zero standard delta G is the standard-condition feasibility boundary. It does not assert that every mixture or composition is at equilibrium. For a specified actual composition, a negative actual reaction delta G indicates forward feasibility and zero actual reaction delta G marks equilibrium at constant T and p; its value need not equal the standard value. Calculation of that composition dependence requires additional premises in the notes. None of these signs establishes a useful reaction speed: a large activation barrier can prevent a feasible reaction occurring observably.
+
+Treating the standard delta H and delta S as approximately temperature-independent over a relevant interval gives these standard-condition sign rules:
+
+| standard delta H | standard delta S | Standard-condition forward feasibility from standard delta G |
+|---|---|---|
+| negative | positive | negative delta G at all positive T in this approximation |
+| positive | negative | positive delta G at all positive T in this approximation |
+| positive | positive | feasible above the crossing temperature |
+| negative | negative | feasible below the crossing temperature |
+
+The standard-condition crossing is T = standard delta H/standard delta S when the ratio is positive and units match. Substitute a representative temperature or use sign reasoning to decide which side is feasible under those conditions. A negative algebraic crossing temperature is not a physical positive-temperature threshold. If phase changes or substantial temperature dependence intervene, the constant-values approximation must be reconsidered. These quantitative entropy, Gibbs and threshold-temperature calculations are fully part of the A-level baseline. They do not grant Boltzmann's S = k_B ln W, partition functions, chemical potentials, heat-capacity integration, or delta G standard = -RT ln K.
+
+[CH-07] 7. Redox titration and electrochemistry
+
+In acidified permanganate/iron(II) titration,
+
+$$MnO_4^-+8H^++5e^-\rightarrow Mn^{2+}+4H_2O,\qquad Fe^{2+}\rightarrow Fe^{3+}+e^-.$$
+
+One mole of permanganate consumes five moles of Fe^2+. Permanganate is purple and acts as its own indicator; in a sufficiently acidic solution its reduced Mn^2+ is very pale, and the endpoint is the first persistent very pale pink from slight excess permanganate. Use an appropriate acid such as dilute sulfuric acid; alternative acids can produce interfering redox chemistry. For iodine/thiosulfate,
+
+$$I_2+2S_2O_3^{2-}\rightarrow2I^-+S_4O_6^{2-}.$$
+
+Iodine is reduced and thiosulfate oxidised. Starch indicates remaining iodine by a blue-black colour; add it when iodine is pale rather than at high iodine concentration, and the endpoint is its disappearance. A liberation step may produce iodine indirectly from the analyte, so use both that equation's ratio and the thiosulfate ratio. Dilution/aliquot factors must be included. Non-familiar titration chemistry can be handled by balanced equations and mole conservation; no universal 1:1 rule applies.
+
+A half-cell contains a redox pair with an electrode allowing electron exchange. A metal electrode can contact its aqueous metal ions. For two aqueous oxidation states or a nonmetal system use an inert conducting electrode such as platinum where appropriate. A cell connects two half-cells by a wire/voltmeter and an ion-conducting salt bridge; the bridge maintains ionic charge balance while the wire carries electrons. Choose bridge ions that do not react significantly with the half-cell contents. A high-resistance voltmeter minimises current and measures cell potential close to equilibrium.
+
+The standard hydrogen electrode has H2 at standard pressure, H+ at the course standard concentration 1 mol dm^-3, and a platinum electrode at a specified standard temperature. Its potential is assigned 0.00 V. The half-reaction is 2H+ + 2e- <=> H2. A standard electrode potential E standard is measured relative to this reference under standard conditions, normally 298 K, 100 kPa for gases and 1 mol dm^-3 for relevant ions. Use supplied tables as reduction potentials.
+
+For a selected cell direction,
+
+$$E^\circ_{\rm cell}=E^\circ_{\rm reduction\,at\,cathode}-E^\circ_{\rm reduction\,pair\,at\,anode}.$$
+
+The more positive reduction potential usually corresponds to the half-reaction that runs as reduction; the other is reversed to oxidation. Electrons flow from the oxidation electrode (anode) to the reduction electrode (cathode) in a discharging galvanic cell. In such a cell the anode is negative and cathode positive. Balance transferred electrons to obtain the chemical equation, but never multiply E values by those electron coefficients. For a forward reaction E standard cell > 0 predicts thermodynamic feasibility under standard conditions; E standard cell < 0 predicts that the opposite direction is favoured. Concentration departures and kinetic barriers limit that prediction. Exact concentration dependence via the Nernst equation, delta G = -nFE and a memorised Faraday-law electrolysis formula are not assumed H432 rules. Stoichiometric electrolysis charge can nevertheless be reconstructed from a supplied half-equation's electron count, N_A, and the separate Physics baseline's elementary charge and Q = It: count transferred electrons, convert between particle counts and moles, and match that amount to the half-equation coefficients. Such a demonstrated route uses available premises and does not require importing a memorised university formula.
+
+A fuel cell continually receives fuel and oxidant and converts chemical energy to electrical energy; fuel is oxidised and oxygen reduced. A storage cell has reagents within it and may be rechargeable by driving its redox chemistry in reverse. For unfamiliar storage/fuel cells, use supplied half-equations, potentials and conditions to establish electrode changes, overall reaction and voltage. Recall of a catalogue of cell designs or every fuel-cell equation is not granted.
+
+[CH-08] 8. Organic language, isomerism and mechanisms
+
+[CH-08.01] Structures and names
+
+An organic structural formula shows connectivity with grouped atoms; a displayed formula shows all atoms/bonds; a skeletal formula uses line ends and corners for carbon atoms and omits attached carbon hydrogens. Add enough H to give an ordinary neutral carbon four bonds, but show heteroatoms and their attached H explicitly. Every substituent must connect to the chemically intended atom: for example a nitrile joins through carbon, R-C triple-bond N, rather than through nitrogen. A general formula describes a homologous series; it is not the formula of every cyclic or multifunctional molecule.
+
+For naming, identify the relevant principal functional group, choose the appropriate longest parent chain/ring, number to locate it and unsaturation/substituents appropriately, state positions, and name substituents. First ten alkane parent names are methane, ethane, propane, butane, pentane, hexane, heptane, octane, nonane and decane; methyl, ethyl etc. are corresponding alkyl groups. Basic suffixes are -ane, -ene, -ol, -al, -one, -oic acid, -amine, -amide and -nitrile, with halogen prefixes fluoro-, chloro-, bromo-, iodo-. Esters are named from the alcohol-side alkyl group followed by acid-side -oate. Use ring locants for substituted benzenes. Where several functional groups occur, the displayed connectivity and specified naming information control the intended structure.
+
+| Family | Structural feature | Simple general formula where applicable |
+|---|---|---|
+| acyclic alkane | C-C single bonds only, hydrocarbon | C_n H_(2n+2) |
+| acyclic alkene with one double bond | C=C | C_n H_(2n) |
+| monohaloalkane | C-X | C_n H_(2n+1)X for a saturated acyclic member |
+| alcohol | carbon-bound -OH, excluding phenol/carboxyl OH | R-OH |
+| phenol | -OH directly on aromatic ring | Ar-OH |
+| aldehyde | terminal -CHO | R-CHO |
+| ketone | internal carbonyl | R-CO-R' |
+| carboxylic acid | -COOH | R-COOH |
+| ester | -COO- between organic portions | R-COO-R' |
+| acyl chloride | -COCl | R-COCl |
+| acid anhydride | -CO-O-CO- | R-CO-O-CO-R' |
+| amine | N with organic substituent(s), not an amide N | R-NH2, R2NH or R3N |
+| amide | carbonyl bonded to N | R-CONH2 or R-CONHR' |
+| nitrile | -C triple-bond N | R-CN |
+
+A homologous series shares a characteristic functional group and similar reactions, with successive members differing by CH2. An aliphatic compound has straight, branched or nonaromatic cyclic carbon arrangements; alicyclic means nonaromatic cyclic; aromatic in this course involves a benzene ring. 'Saturated' and 'unsaturated' refer here to the absence or presence of multiple carbon-carbon bonds, including aromatic bonding; a carbonyl alone is not a carbon-carbon double bond.
+
+Structural isomers have the same molecular formula but different connectivity. Check changes of chain, functional-group position and functional-group type, without counting equivalent redrawings twice. Stereoisomers have the same connectivity but different spatial arrangement. A C=C permits E/Z isomerism only if each double-bond carbon has two different attached groups. Assign priority on each carbon by atomic number of the directly bonded atom, then compare subsequent attached-atom lists at the first difference if necessary. The higher-priority groups on the same side give Z, opposite sides E. Ordinary cis/trans is a special case involving comparable identical groups; it is not a universal synonym for Z/E. Treatment of multiple bonds inside priority side groups is outside this starting toolkit.
+
+A carbon bonded to four distinct groups is a potential chiral centre. Its two mirror arrangements can be non-superimposable enantiomers; draw wedge/dash stereochemistry to show them. Ring paths count as distinct only if their actual connectivity differs. Do not infer chirality merely from four drawn bond lines, and do not label a trigonal carbonyl carbon a tetrahedral chiral centre. R/S naming, quantitative optical rotation and stereoselective synthesis are not assumed.
+
+[CH-08.02] Electron flow and common mechanisms
+
+Homolytic bond breaking gives one electron to each atom and produces radicals, species with unpaired electrons; show radical dots. Heterolytic breaking gives both bond electrons to one atom. A full curly arrow tracks an electron pair: its tail starts at a bond, lone pair or negative charge and its head points where that pair goes. Include relevant bond dipoles and charges. A nucleophile donates an electron pair; an electrophile accepts one. Do not start an arrow at a positive charge or make it represent the physical travel of a whole atom. Routine radical chains are written as equations with radical dots rather than requiring single-electron arrow diagrams.
+
+A sigma bond has orbital overlap along the internuclear line and permits rotation if no other constraint prevents it. A pi bond comes from sideways p-orbital overlap above/below the line and prevents free rotation of a C=C without breaking that overlap. An alkene carbon is approximately trigonal planar, 120 degrees; a saturated alkane carbon tetrahedral, 109.5 degrees. Orbital hybridisation terminology is not needed for these rules.
+
+For an alkane/chlorine or bromine UV substitution chain:
+
+- Initiation: X2 -> 2X radical, a homolytic photochemical cleavage.
+- Propagation: X radical + RH -> HX + R radical; R radical + X2 -> RX + X radical. Each step consumes and regenerates a radical so the chain continues.
+- Termination: two radicals combine, for example X radical + X radical -> X2, R radical + X radical -> RX, or two R radicals -> R-R.
+
+An unsymmetrical alkane can react at several positions and undergo further substitutions, producing a mixture. Alkanes are relatively unreactive with many other reagents because their C-C/C-H sigma bonds are strong and weakly polar. Complete combustion yields CO2 and H2O; insufficient oxygen can produce CO and/or carbon as well, with CO toxicity.
+
+For electrophilic addition of HX to an alkene, the pi-bond electron pair attacks H delta-plus while the H-X bond pair moves to X. The resulting carbocation is attacked by X-'s lone pair. With an unsymmetrical alkene the route through a more stable tertiary rather than secondary rather than primary carbocation generally dominates (Markovnikov prediction). Thus ordinary HBr addition to propene mainly gives 2-bromopropane. The detailed physical origin of carbocation stability is not assumed. Halogen addition starts with polarisation of X2 by the alkene and attack on its delta-plus end; a carbocation or bridged halonium intermediate can be used at this level. Add the halogens across the original double-bond carbons, not both to one by accident.
+
+For nucleophilic substitution of a primary haloalkane, mark C delta-plus and X delta-minus. Draw an arrow from the nucleophile's donor pair to C and from the C-X bond to X. This replaces X with the nucleophile and releases X-. OH- gives an alcohol; CN- attacks through its carbon and adds a carbon to the chain. A university classification or kinetic comparison of SN1 and SN2 is not granted by knowing this diagram.
+
+For nucleophilic addition to an aldehyde or ketone, mark carbonyl C delta-plus and O delta-minus. Attack C with H- (the NaBH4 reducing model) or CN-; simultaneously move the C=O pi pair to O, giving an alkoxide. Its O- then acquires H+ from a suitable source (water/proton donor) to give an alcohol or hydroxynitrile. The carbonyl double bond becomes a single C-O bond; there is no leaving-group substitution at that stage. For HCN formation, CN- attacks via carbon. A planar carbonyl can lead to both mirror products if a new chiral centre is created, but stereochemical control beyond this inference needs notes.
+
+For aromatic electrophilic substitution, an electron pair from the ring attacks E+, producing an intermediate in which the delocalised ring is interrupted at the attacked carbon; then electron movement from the C-H bond restores the ring and H+ is removed. Show the positive intermediate and correct electron arrows. Nitration generates NO2+ with concentrated acids, for example HNO3 + H2SO4 -> NO2+ + HSO4- + H2O; use NO2+ as the electrophile, not neutral NO2. For aromatic halogenation a halogen carrier makes an effective X+ electrophile in the course mechanism. Friedel-Crafts preparation is included as a transformation, but a separately memorised detailed mechanism for every acyl derivative is not granted.
+
+[CH-09] 9. Organic transformations and synthesis
+
+The following is a usable reaction toolkit. R and R' represent specified organic fragments, not a permission to invent new reagents. Use [O] and [H] in organic redox equations while naming the actual reagent and conditions separately. Before applying a route, track its carbon count, functional-group placement and any other group that may react under the chosen conditions.
+
+| Starting feature | Reagent/conditions | Change and essential interpretation |
+|---|---|---|
+| alkene C=C | H2 with a suitable metal catalyst, e.g. Ni | add H across C=C to give alkane |
+| alkene C=C | Cl2 or Br2 | add one halogen to each double-bond carbon; bromine solution decolourises |
+| alkene C=C | HX | form haloalkane; consider alternative carbocations for unsymmetrical alkene |
+| alkene C=C | steam, acid catalyst such as H3PO4 | hydration to alcohol |
+| alcohol | hot acid catalyst such as H2SO4 or H3PO4 | eliminate H2O to give an alkene; consider possible double-bond positions |
+| alcohol | appropriate halide salt plus acid, e.g. NaBr/H2SO4 | replace OH by halogen; supply both halide and proton source |
+| primary alcohol | acidified dichromate, controlled oxidation with distillation | RCH2OH + [O] -> RCHO + H2O; remove aldehyde to limit further oxidation |
+| primary alcohol | excess acidified dichromate, reflux | RCH2OH + 2[O] -> RCOOH + H2O |
+| secondary alcohol | acidified dichromate, heat | RCH(OH)R' + [O] -> RCOR' + H2O |
+| tertiary alcohol | ordinary acidified dichromate conditions | resists oxidation because no H is attached to the OH-bearing carbon |
+| primary haloalkane | aqueous OH-, heat | substitution to alcohol; RX + OH- -> ROH + X- |
+| haloalkane | CN- in ethanol, heat | substitution to RCN; chain extended by one carbon |
+| haloalkane | excess ethanolic NH3, heat | primary amine; RX + 2NH3 -> RNH2 + NH4X |
+| haloalkane plus primary/secondary amine | ethanolic conditions as appropriate | further N-substitution gives secondary/tertiary amines, so excess NH3 helps favour primary product |
+| aldehyde | acidified dichromate | RCHO + [O] -> RCOOH; ketones resist this ordinary oxidation |
+| aldehyde/ketone | NaBH4 | carbonyl reduction to primary/secondary alcohol; add two [H] in a balanced shorthand equation |
+| aldehyde/ketone | HCN generated from CN-/H+ | add H and CN across C=O to a hydroxynitrile, adding one carbon |
+| nitrile | H2/Ni or specified suitable reduction | RCN + 4[H] -> RCH2NH2; retain the nitrile carbon |
+| nitrile | aqueous acid, heat/reflux | RCN + 2H2O + H+ -> RCOOH + NH4+ |
+| carboxylic acid plus alcohol | acid catalyst, heat/reflux | reversible esterification RCOOH + R'OH <=> RCOOR' + H2O |
+| acid anhydride plus alcohol | suitable esterification conditions | ester plus carboxylic acid, not ester plus water |
+| ester | hot aqueous acid | reverse esterification, giving carboxylic acid and alcohol |
+| ester | hot aqueous alkali | RCOOR' + OH- -> RCOO- + R'OH; acidify to obtain free acid if required |
+| carboxylic acid | SOCl2 | RCOOH -> RCOCl, with SO2 and HCl by-products |
+| acyl chloride | water | carboxylic acid plus HCl |
+| acyl chloride | alcohol or phenol | ester plus HCl; phenol is not readily esterified directly by an ordinary carboxylic acid |
+| acyl chloride | ammonia | primary amide; two NH3 are required if one neutralises HCl to NH4Cl |
+| acyl chloride | primary amine | secondary amide; allow an extra amine equivalent/base to neutralise HCl |
+| amine | dilute inorganic acid | ammonium salt, e.g. RNH2 + H+ -> RNH3+ |
+
+Amines act as bases through the N lone pair. Comparison of different amines' basicity is outside the required baseline. An amide's -CONH- is a different functional group from a free amine. An alpha-amino acid RCH(NH2)COOH has both acid and amine functionality: base gives the carboxylate, acid protonates the amine, and its COOH can esterify. Do not apply an alcohol reaction simply because an OH appears inside a carboxyl group. Full zwitterion/isoelectric-point chemistry is not a required memorised rule here.
+
+Benzene has six p orbitals overlapping into a delocalised pi system above and below a planar ring. Its C-C bonds have equal lengths intermediate between simple single and double bonds. Its hydrogenation is less exothermic than three independent alkene hydrogenations would predict, indicating extra stability. It resists ordinary bromine addition more than an alkene because the ring's electron density is delocalised and losing aromatic delocalisation is costly. These observations support the delocalised model over a literal fixed alternating-bond model.
+
+Aromatic substitution transformations include nitration with concentrated HNO3/H2SO4, halogenation with X2 and a halogen carrier such as Fe/FeX3/AlX3, and Friedel-Crafts alkylation/acylation with a haloalkane/acyl chloride and an appropriate carrier. Alkylation adds an R group; acylation adds -COR, both making a C-C bond to the ring. Nitrophenyl groups can be reduced using Sn/concentrated HCl to aromatic amines; subsequent alkali treatment liberates the free amine where the acidic mixture initially contains its salt.
+
+Phenol has OH directly bonded to the aromatic ring. It is weakly acidic: ArOH + OH- -> ArO- + H2O, but does not release CO2 from carbonate in the usual test. An oxygen lone pair can contribute electron density to the ring, making electrophilic attack easier than in benzene. Bromine water is decolourised with a white 2,4,6-tribromophenol precipitate without a halogen carrier; dilute HNO3 gives 2- and 4-nitrophenol without the concentrated sulfuric-acid catalyst required for benzene. OH and NH2 direct further substitution mainly to positions 2 and 4; NO2 directs mainly to position 3. Other directing effects need supplied information. Use existing substituent positions when numbering predicted products; conflicting directives can produce more than one possibility.
+
+Addition polymerisation opens alkene double bonds and joins monomers without a small-molecule by-product. To draw a repeat unit, replace C=C with the C-C backbone, preserve substituents on their original carbons, and show bonds extending through brackets with n. Reverse that operation to obtain the monomer. Condensation polymerisation joins functional groups while releasing a small molecule, commonly H2O (acid/alcohol or acid/amine) or HCl (acyl chloride routes). A diol plus dicarboxylic acid gives ester links -COO-; a diamine plus dicarboxylic acid gives amide links -CONH-. A single monomer with complementary end groups can also polymerise. Infer monomers by cutting the relevant linking bond and restoring functional groups.
+
+Acid hydrolysis of a polyester yields carboxylic-acid and alcohol ends; alkali gives carboxylate and alcohol ends. Hydrolysing a polyamide restores acid/carboxylate and amine/ammonium groups appropriate to the acidic/basic conditions. Retain the whole carbon skeleton on the correct side of the broken link. Ordinary addition-polymer backbones do not contain the ester/amide hydrolysis link. Discuss recycling, use as chemical feedstock, energy recovery, removal of acidic/toxic combustion products (e.g. HCl from chlorinated plastics), and degradable materials using the chemistry and supplied evidence. A polymer's label alone does not establish real-world biodegradation conditions.
+
+For a multistep synthesis, work backwards from the target group and carbon skeleton, then forwards to check each transformation. Nitrile routes and Friedel-Crafts routes can increase carbon number; alcohol/haloalkane substitution or carbonyl redox normally retain it. State reagents and conditions at each arrow, draw actual intermediate structures, avoid silently changing branch positions, and account for multifunctional substrates. New reaction information supplied by a question may extend this toolkit; unstated Grignard, organolithium, coupling, protecting-group or enolate chemistry is not automatically available.
+
+[CH-10] 10. Analysis and spectroscopy
+
+[CH-10.01] Test observations
+
+Use positive results as evidence for a feature and negative results in conjunction with other data; several functional groups can share a test. Keep separate aliquots to avoid one reagent altering a later test.
+
+- Bromine decolourisation supports alkene unsaturation, but activated aromatic phenol also reacts, often with a white precipitate. A general 'bromine positive' does not uniquely prove an alkene.
+- Hydrolysis of a haloalkane in aqueous AgNO3 with ethanol produces AgX; ethanol helps mixing of organic substrate and aqueous reagent. For comparable primary haloalkanes the C-I bond is weaker and hydrolysis faster than C-Br, then C-Cl, with C-F slowest. Explain by bond strength rather than claiming C-I is most polar. This test concerns a covalently bonded halogen, while a direct aqueous halide-ion test already contains free X-.
+- Acidified dichromate changes orange to green when reduced by a suitable primary/secondary alcohol or aldehyde. Tertiary alcohol/ordinary ketone is negative under the usual mild course conditions. A positive test alone does not distinguish every responding group.
+- 2,4-DNPH gives a yellow/orange precipitate with aldehydes or ketones. Isolate/purify the derivative and compare its melting point with reference values for identification. Its detailed reaction equation and derivative structure are not assumed.
+- Tollens reagent gives silver metal, often a silver mirror, with an aldehyde, which is oxidised; ordinary ketones do not give that result. The reagent is ammoniacal silver nitrate.
+- Carboxylic acid gives CO2 effervescence with carbonate; phenol's weaker acidity does not. Both can react with an appropriate strong alkali.
+
+[CH-10.02] Chromatography and quantitative instrumental use
+
+Chromatography separates components through differing distributions between a stationary and moving phase. In TLC, apply small spots to a pencil baseline above the solvent level, develop in the chosen solvent, mark the solvent front promptly, and detect spots appropriately. Define
+
+$$R_f=\frac{\text{distance from baseline to centre of solute spot}}{\text{distance from baseline to solvent front}}.$$
+
+R_f has no units and normally lies from 0 to 1. Compare unknown and standards under the same stationary phase, solvent and conditions. Matching R_f supports an identity but does not prove uniqueness; one spot can contain coeluting species. Stronger attraction to the stationary phase means shorter travel relative to solvent in a comparable system.
+
+A gas chromatogram has detector response versus time. Retention time can identify a component by comparison with a reference under the same conditions. Integrated peak area, not just peak height, measures detector response to amount. If response factors are the same or known, area fractions can give component proportions; otherwise use calibration. Prepare known concentration standards, record integrated areas, plot the calibration relation and interpolate the unknown area within a suitable range; account for any prior dilution. Different retention times alone do not tell amounts, and a shared time does not rule out coelution. Beer-Lambert coefficients or a full chromatographic theory are not assumed.
+
+[CH-10.03] Infrared and mass spectra
+
+IR absorption increases molecular bond vibration. A spectrum shows features at characteristic wavenumbers in cm^-1; a transmittance spectrum has downward absorption features, while an absorbance spectrum has upward ones. Use the supplied/reference ranges rather than expecting every related group at one exact number. Useful recognitions include alcohol/phenol O-H in the approximate 3200-3600 region, the very broad carboxylic-acid O-H extending about 2500-3300, a strong carbonyl feature in roughly 1630-1820, and a nitrile C triple-bond N around 2220-2260. C-H near 3000 is common in organic compounds and rarely sufficient for identification. An acid usually needs both C=O and broad acid O-H evidence; an O-H feature alone may instead be an alcohol/phenol. Ester, amide, aldehyde and ketone carbonyls need supporting information to distinguish them.
+
+IR can detect particular gases, monitor combustion emissions and determine breath ethanol using suitable calibration. Atmospheric absorption by greenhouse gases is a molecular-vibration application, not a grant of a climate model. Predict plausible features from functional groups, and recognise disappearance/appearance when a reaction changes a group; not every fingerprint-region band must be assigned.
+
+In an organic mass spectrum, the molecular-ion peak corresponds to the ionised molecule and can give M_r for a single charge. It is not necessarily the strongest peak and a small M+1 peak from carbon-13 can occur. Fragment peaks indicate positively charged fragments with matching masses. Propose a chemically plausible fragment formula, include its positive charge, and check its elemental count against the parent. Neutral lost fragments are not the ions detected. Combine fragment evidence with molecular mass and other data; one mass can have more than one fragment formula. Interpretation of halogen-containing organic mass spectra is outside the declared H432 requirement.
+
+[CH-10.04] Carbon-13 and proton NMR
+
+NMR chemical shift delta is measured in ppm relative to tetramethylsilane (TMS), defined at zero. Different chemical environments have different shifts. TMS has four equivalent carbons and twelve equivalent H atoms, giving one simple signal for each ordinary reference spectrum. It is relatively unreactive, dissolves in common organic NMR solvents and is volatile enough to remove readily. Deuterated solvents largely avoid the overwhelming ordinary proton solvent signal; deuterium is not seen as a proton in the usual proton spectrum. Chemical shifts vary with solvent, concentration and substituents, so reference intervals guide rather than rigidly determine identification.
+
+The carbon-13 spectra assumed here are proton-decoupled. Count signals to count distinct carbon environments, taking molecular symmetry into account; chemically equivalent carbons give one environment. Do not use carbon peak heights as a simple atom-count integration rule. Match carbon shifts to plausible functional environments, then check a full structure. Typical broad distinctions are saturated carbons at lower shifts, carbons bonded to O/other electron-withdrawing groups higher, alkene/aromatic carbons higher again, and carbonyl carbons furthest downfield. Finer carbon-13 ranges needed for a task must be included in its visible notes; the external data-sheet link does not make those unstated ranges available. Signal count alone does not identify a functional group.
+
+In a high-resolution proton spectrum:
+
+1. Count distinct signal groups to establish proton environments, including symmetry and any exchangeable H.
+2. Use chemical shift to suggest environment. For orientation, ordinary alkyl H is near 0.5-2 ppm; H near C=O/aryl often about 2-3; H on C bonded to electronegative atoms often about 3-4.5; alkene H about 4.5-6; aromatic H about 6-8; aldehyde H about 9-10; acid OH about 10-12. These are approximate recognitions, not exact fixed lines.
+3. Use integrated total group area/ratio to count relative H numbers. A triplet's three lines do not mean three protons in that environment; its area determines that count.
+4. For the simple applicable splitting model, n equivalent neighbouring protons split a signal into n+1 lines: singlet, doublet, triplet, quartet etc. Chemically equivalent protons do not split each other. Adjacent groups separated by a carbonyl or oxygen should not be automatically treated as directly coupling neighbours in this basic model.
+5. Join compatible fragments and require every signal, area, splitting pattern and molecular formula to fit. An ethyl fragment often gives mutually linked CH3 triplet/CH2 quartet with a 3:2 area ratio. Two equivalent methyl groups adjoining one H can give a methyl doublet integrating to six and a partner multiplet for the methine.
+
+OH and NH signals are often broad and variable, normally treated as unsplit in this scope because of exchange. Add D2O: exchangeable OH/NH protons are replaced by D and their proton signals disappear. Do not assign an OH signal solely because a peak happens to lie near an O-bonded carbon-H shift; disappearance and splitting provide additional evidence. Identify aromatic protons from shifts, but analysis of their detailed splitting is not assumed. Spin quantum mechanics, coupling constants, multiplet tree analysis for several non-equivalent neighbour sets and two-dimensional NMR require new notes.
+
+For combined structure determination, first obtain empirical/molecular formula from composition and molecular mass; identify functional groups from IR/chemical tests; use carbon environments, proton shifts/areas/splitting and fragment masses to constrain connectivity; then check the complete candidate against all evidence. A proposed structure that fits one feature but violates the formula or leaves a signal unexplained is not a completed solution. Explicitly distinguish supported deductions from ambiguous alternatives.
+
+[CH-11] 11. Practical reasoning and measurement
+
+[CH-11.01] Planning, data and limitations
+
+Design an experiment around a defined chemical question, a quantity that can answer it, apparatus capable of measuring that quantity, and controllable variables. Identify independent, dependent and controlled variables. Select a useful measurement range and enough data points/repeats, specify quantities and temperatures, and connect a risk-control measure to the actual hazard. A written plan needs enough detail to reproduce it and to recognise its endpoint. Label observations directly: 'blue precipitate' is data, while 'Cu(OH)2' is an interpretation.
+
+For scientific research, identify the question, consult relevant scientific sources, compare their evidence and record enough reference information for another reader to find each source (author/organisation, title, date, publication or URL, and access date for changing web material). Distinguish a proposed model from a measurement and correlation from a demonstrated cause; agreement of independent results, reproducibility and peer review strengthen confidence without guaranteeing a conclusion. Models can change when new evidence explains observations better, as for atomic structure or benzene bonding. Evaluate a chemical application by relating claimed benefits, costs, environmental effects and risks to evidence and uncertainty, and separate empirical findings from value judgements. Communicate the result using appropriate chemical terminology, units, figures and stated limits.
+
+Accuracy concerns closeness to the true/reference value; precision concerns spread of repeated values. Resolution is the smallest displayed/measurable increment. Repeatability concerns agreement under the same method/operator/apparatus, reproducibility under changed conditions. A systematic error biases results consistently; repeated readings do not remove it. Random variation contributes scatter; repeats help estimate/average it. An anomaly is investigated against procedure and other data, not removed solely because it does not fit a preferred answer. Use a mean of valid comparable measurements and explain exclusions.
+
+Record every displayed digit for a digital reading (stopwatch precision may be limited by operator reaction). For an analogue scale, record reliably read digits and a justified estimated digit. With a usual 0.1 cm^3 burette scale, record readings/titres to two decimal places with the final digit 0 or 5. Titre = final minus initial reading. A mean titre can have any final digit justified by its arithmetic; it need not end in 0 or 5. Use concordant accurate titres normally agreeing within 0.10 cm^3, excluding the rough run; if no pair agrees, improve the practical rather than claiming reliable concordance.
+
+Use a stated apparatus tolerance first. Without one, OCR handbook guidance estimates each analogue reading uncertainty as half the smallest division, each digital reading as one resolution step; operator reaction time may dominate a hand-timed event. Absolute uncertainty carries the quantity's units. Relative/percentage uncertainty is
+
+$$\%u=100\frac{u}{|x|}.$$
+
+For a quantity obtained by difference of two independently read values, add their absolute uncertainty bounds in the simple course worst-case treatment: a titre from two readings each +/-0.05 cm^3 has +/-0.10 cm^3, and a temperature rise from two readings each +/-0.5 degrees has +/-1.0 degree. Greater measured change or a higher-resolution/tighter-tolerance instrument can reduce percentage uncertainty. Precision from repeats is different from the instrument tolerance. The Chemistry mathematical handbook explicitly does not require more complex propagation for multiplication/division; those rules must be supplied by notes or another declared baseline before being assumed.
+
+The current chemistry handbook also states that consistent half-division/full-division approaches, and half-resolution/full-resolution digital approaches, are accepted for assessment because reference conventions have differed. The declared default above follows the current recommended guidance. Do not conceal a question's explicit uncertainty or treat an uncertainty interval as a proof of exact error. Compare a measured result with an accepted value using percentage error = 100 x |measured-reference|/|reference|, distinct from estimated percentage uncertainty.
+
+[CH-11.02] Volumetric analysis
+
+For a standard solution, calculate required solute mass, weigh accurately, dissolve in a beaker with deionised water, transfer quantitatively to the volumetric flask with washings, and add water to the mark only after the solution is at the appropriate temperature. Approach the mark dropwise, read the meniscus at eye level, stopper and invert to mix. Lost solute lowers concentration; filling past the mark dilutes it; using a measuring cylinder in place of a volumetric flask generally reduces volumetric accuracy.
+
+Rinse a pipette with the solution it will transfer and a burette with its titrant so residual water does not dilute them. Use a pipette filler; allow the calibrated pipette to drain according to its design rather than blowing out an uncalibrated last drop. Remove burette-tip air, take out the filling funnel before titration and read the meniscus at eye level. The conical flask can be rinsed with deionised water: extra water changes concentration but not the analyte moles already pipetted. Swirl, wash down splashes, use a few drops of suitable indicator and a white tile, and add titrant dropwise near the endpoint. Do a rough run then accurate repeats.
+
+In calculations find titrant moles, convert using the balanced equation to analyte moles in the aliquot, then divide by aliquot volume or scale to the original flask/sample. For back titration, determine the initially added excess reagent, find the unreacted remainder from its titration, subtract to get amount consumed, then use the original reaction ratio. For mixtures, use separate chemical/quantitative constraints rather than assuming all solutes respond identically.
+
+[CH-11.03] Heating, calorimetry and gas/rate methods
+
+Choose a water bath or electric/sand heating source suitable for flammable materials and required temperature. Under reflux a vertical condenser returns vapour to the reaction flask, allowing heating without rapidly losing volatile reactants. Condenser water enters low and exits high to keep the jacket full. Keep the apparatus vented appropriately; a sealed heated system can build pressure. Add anti-bumping granules before heating and use appropriate support/clamping. Distillation instead directs condensed vapour into a receiver, allowing separation or removal of a volatile product; position the thermometer to measure vapour near the take-off, and collect an appropriate boiling fraction. Reflux and distillation serve different purposes.
+
+For aqueous calorimetry, use an insulated container, lid, mixing and a temperature-time record to reduce/estimate heat-exchange effects. When appropriate, extrapolate pre/post-reaction trends back to mixing time rather than taking a cooled late reading as the true peak. Burning-fuel experiments can lose heat to air, produce incomplete combustion and lose volatile fuel, so interpret resulting bias and suggest a relevant improvement. A more accurate thermometer alone will not cure large heat loss.
+
+For a gas-producing reaction use a gas syringe or appropriate collection method, test leaks, account for lost gas before sealing and choose a sensible capacity. Mass loss tracks escaping gas but can also include evaporation/spillage. Continuous monitoring follows one reaction over time (volume, mass, concentration or calibrated colorimeter reading); an initial-rate scheme compares fresh mixtures at varied starting concentration. In a clock method the time to a fixed small chemical change gives an initial-rate proxy proportional to 1/t, only while the endpoint corresponds to the same small amount and reaction is not too far advanced. Keep final mixed volumes and temperature controlled when varying one concentration. Set a colorimeter to a suitable wavelength, blank it, use clean consistently oriented cuvettes and a calibration curve before converting response to concentration. No unstated Beer-Lambert constant is needed for a supplied calibration.
+
+Calibrate/rinse a pH probe appropriately, avoid cross-contaminating samples, immerse its sensing region adequately, allow the reading to settle, and keep temperature controlled. A pH titration record needs many small volume increments near the steep change and enough elsewhere to establish the whole curve. For electrochemical voltage, establish actual electrode/ion identity, bridge contact, concentrations and temperature; nonstandard composition can alter readings.
+
+[CH-11.04] Separation, purification and identity
+
+Use a separating funnel for immiscible liquid phases. Mix appropriately, vent away from people when pressure can build, allow layers to separate, and identify the organic layer from density or a simple test rather than assuming it always floats. Remove the stopper when draining the lower layer as appropriate. Wash with suitable aqueous reagents to remove impurities. An anhydrous drying agent such as MgSO4 or compatible CaCl2 removes residual water from the organic phase; remove the drying solid before redistilling the liquid. Drying a liquid is not the same as evaporating it.
+
+For recrystallisation, dissolve an impure solid in the minimum suitable hot solvent, remove insoluble impurities if necessary while hot, cool to crystallise, filter under reduced pressure, wash crystals with a little cold solvent and dry. A solvent should dissolve much more product hot than cold and not react with it. Too much solvent leaves product dissolved and reduces recovery; a large warm wash redissolves it. A vacuum/Buchner assembly collects crystals rapidly; a fluted paper gravity filter is useful for removing insoluble material from a hot solution. Match the filtration method to the fraction you need to keep.
+
+Dry material before measuring yield or melting point. Impurities commonly depress and broaden a melting range; a pure reference-consistent narrow range supports identity/purity. Heat slowly near melting to observe the range accurately. One melting point does not prove a unique chemical identity. Chromatography, chemical tests or spectra can provide independent evidence. Practical preparation needs both amount/recovery and evidence of the product actually made.
+
+[CH-12] 12. Declared scope and transfer limits
+
+The baseline includes theoretical, mathematical and written practical reasoning across the whole H432 course, not just AS modules. It includes reading new chemical data, constructing equations and planning synthesis using the supplied chemistry. It is fair to expect transfer of stated principles to an unfamiliar but accessible context; it is not fair to assume independent university facts because the same topic label occurs there.
+
+In particular, do not silently grant prior chemistry teaching of: quantum-mechanical orbital derivations or hybridisation theory; molecular-orbital diagrams; crystal-field/ligand-field colour calculations; K_sp/common-ion solubility models; activities, chemical potentials or Nernst equations; general coupled acid/base speciation algorithms; integrated kinetics and steady-state mechanisms; statistical thermodynamics, partition functions or microstate entropy; delta G standard = -RT ln K; advanced organic reactions/mechanism catalogues; R/S stereochemical naming; detailed aromatic NMR splitting, coupling constants or 2D NMR; organic halogen isotope-pattern mass-spectrum interpretation; or quantitative Beer-Lambert coefficients. Formal statistics are not granted by Chemistry A alone, but remain available if actually supplied by another declared subject baseline. None of these scope statements prohibits a legitimate derivation from supplied premises and available mathematics. In particular, the exact weak-monobasic-acid quadratic can follow from the explicit K_a and stoichiometric rules above. General laboratory competency is not established merely by an assumed written curriculum completion.
+
+Conversely, do not withhold actual A-level knowledge such as quantitative entropy, Gibbs feasibility and temperature thresholds; Born-Haber and hydration/solution cycles; K_p and heterogeneous equilibrium expressions; Arrhenius plots; acid-buffer mole balances; CN- carbon-chain extension; chromatography calibration; or integrated IR/MS/NMR structure deduction. Any first-year notes or questions using additional material must teach or supply it explicitly.
+
+The practical endorsement is separately assessed from the written grade. The course requires at least 12 assessed practical activities spanning its skills and apparatus, with independent evidence. An assumed completed curriculum does not prove any particular student's observed laboratory performance, endorsement result, speed, confidence or retention. Those are separate empirical questions. This baseline introduces no additional A-level test requirement; its role is to make the declared starting knowledge concrete for first-year bachelor's assessments.
+
+[CH-REF] Official scope references
+
+- Current OCR Chemistry A H432 specification, version 3.1 (May 2026): https://www.ocr.org.uk/Images/171720-specification-accredited-a-level-gce-chemistry-a-h432.pdf: modules 1-6, mathematical requirements and update history.
+- Official Chemistry A H032/H432 data sheet currently linked by OCR: https://www.ocr.org.uk/Images/363792-unit-h032-and-h432-data-sheet.pdf: constants and spectral reference material.
+- Chemistry practical skills handbook, version 2.1 (January 2026): https://www.ocr.org.uk/Images/208932-chemistry-practical-skills-handbook.pdf: measurement conventions and practical guidance.
+- Chemistry mathematical skills handbook, version 1.1 (June 2019): https://www.ocr.org.uk/Images/295468-chemistry-mathematical-skills-handbook.pdf: operational mathematical skills, with the latest specification controlling scope.
+- OCR's Chemistry A assessment page: https://www.ocr.org.uk/qualifications/as-and-a-level/chemistry-a-h032-h432-from-2015/assessment/: current public data-sheet and assessment links.
+
+Detailed verification notes, source versions, inspection scope and boundaries are recorded separately in research-verification.txt in this output folder.

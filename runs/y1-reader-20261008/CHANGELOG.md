@@ -1,3 +1,9 @@
+## 2026-10-11 — PROF r27 metadata progression; D016 final checks complete
+
+Complete live destination checks resolve D016 r26b's last pending gate without changing teaching. Final semantic reconciliation and both helper checks pass within their recorded scopes. r27 changes metadata.version only under the rolling convention; the operative rules remain r26. Exact identity/inverse evidence and raw destination records are retained under iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/. Release readback and closure remain separate: current counters are 15/76 accepted, 61 remaining until verified closure.
+
+Earlier dated entries retain their historical states.
+
 ## 2026-10-10 — PROF r25 / D017 audit and D016 reopening
 
 Strengthened the existing T1 condition-meaning and reconstruction requirements after independently verified omissions in frozen D017 and historical D016. No teaching was edited. Full original D017 reader/source/science/PROF/output evidence and scoped D001–D016 checks are retained under iterations/017/published-r24-20261010/. D016 reopens only its affected T1 acceptance obligation; D017 remains pending. Current accepted counts are 15/76 with 61 remaining; all 147 IDs and 71 exclusions are unchanged. Next fresh generation starts at D016 using verified published r25. Live GitHub destination remains unverified in this cycle; no renderer cause was invented.

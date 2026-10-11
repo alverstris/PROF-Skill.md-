@@ -1,0 +1,74 @@
+{
+  "checked_date": "2026-10-07",
+  "revision": "OCR-A-4-subjects-r1",
+  "subjects": [
+    {
+      "name": "Mathematics",
+      "code": "H240",
+      "version": "3.1, August 2026",
+      "path": "maths/mathematics-a-h240-baseline.txt",
+      "archive": "01-Mathematics-A-H240.txt",
+      "research": "maths/research-record.md",
+      "url": "https://www.ocr.org.uk/Images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf",
+      "summary": "Proof; algebra and functions; sequences and series; trigonometry; exponentials and logarithms; differentiation, integration, separable differential equations and numerical methods; 2D/3D vectors; descriptive statistics, probability, binomial/normal models and testing; particle dynamics, projectiles, friction and moments.",
+      "words": 6326,
+      "bytes": 48093,
+      "sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3"
+    },
+    {
+      "name": "Further Mathematics",
+      "code": "H245",
+      "version": "2, October 2025",
+      "path": "further-maths/baseline.txt",
+      "archive": "02-Further-Mathematics-A-H245-Statistics-Mechanics.txt",
+      "research": "further-maths/research-verification.txt",
+      "url": "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf",
+      "summary": "Pure Core Y540/Y541, Statistics Y542 and Mechanics Y543 only. Complex numbers; matrices; extended vectors and calculus; hyperbolic functions; induction and differential equations; discrete/continuous moments and distributions; sampling, inference, rank tests and regression; work, energy, elastic models, momentum/restitution, centres of mass, circles and variable-force motion.",
+      "words": 5479,
+      "bytes": 39018,
+      "sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1"
+    },
+    {
+      "name": "Physics",
+      "code": "H556",
+      "version": "3.0, March 2026",
+      "path": "physics/baseline.txt",
+      "archive": "03-Physics-A-H556.txt",
+      "research": "physics/research.md",
+      "url": "https://www.ocr.org.uk/Images/171726-specification-accredited-a-level-gce-physics-a-h556.pdf",
+      "summary": "Measurement and practical reasoning; mechanics, materials and energy; electricity, waves and photon ideas; thermal and kinetic-gas models; oscillation, gravitation, astronomy and cosmology; capacitance, electric/magnetic fields and induction; nuclear/particle physics and medical imaging. Equation-sheet constants and relationships are supplied.",
+      "words": 8910,
+      "bytes": 60163,
+      "sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06"
+    },
+    {
+      "name": "Chemistry",
+      "code": "H432",
+      "version": "3.1, May 2026",
+      "path": "chemistry/student-baseline.txt",
+      "archive": "04-Chemistry-A-H432.txt",
+      "research": "chemistry/research-verification.txt",
+      "url": "https://www.ocr.org.uk/Images/171720-specification-accredited-a-level-gce-chemistry-a-h432.pdf",
+      "summary": "Quantitative amounts and reactions; atomic structure and bonding; periodic/inorganic/transition chemistry; organic mechanisms and synthesis; rates and Arrhenius; Kc/Kp, acids, bases and buffers; enthalpy cycles, entropy and Gibbs; electrode potentials; practical and analytical reasoning including chromatography, IR, mass spectra and NMR.",
+      "words": 14129,
+      "bytes": 96538,
+      "sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268"
+    }
+  ],
+  "total_subject_words": 34844,
+  "combined_baseline_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+  "archive_sha256": "7d0a6a69d7300810d5d997b177ed2ddaf014593e1762b90ea4fc85f430ad60f6",
+  "archive_bytes": 93563,
+  "chemistry_sections": 41,
+  "further_maths_entries": 71,
+  "checks": [
+    "UTF-8 decoded without replacement characters",
+    "exact five ZIP members",
+    "ZIP CRC integrity",
+    "subject payload SHA-256 equality",
+    "FM01–FM71 ordered and unique",
+    "chemistry stable section IDs unique",
+    "year 1 lecture count verified"
+  ],
+  "limits": "File checks establish integrity only. Independent subject/content review is documented in research records. No fresh student trials or human learning measurements were run for this release."
+}

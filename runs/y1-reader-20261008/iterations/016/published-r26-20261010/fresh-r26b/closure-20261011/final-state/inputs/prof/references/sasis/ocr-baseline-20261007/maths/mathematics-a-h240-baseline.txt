@@ -1,0 +1,322 @@
+Mathematics A: operational entry baseline
+
+Scope: Cambridge OCR A Level Mathematics A, H240, checked on 7 October 2026. Mathematics B (MEI) is excluded. This is an explicit mathematical knowledge inventory for a learner who has completed the course. It describes curriculum exposure and usable prior knowledge, not a claim that every learner can perform every operation flawlessly. It may be used with supplied university notes to diagnose whether an explanation contains everything needed for a first-year bachelor's assessment. University material in the notes can extend it. The baseline itself supplies no unlisted university knowledge.
+
+Current authority: H240 specification, version 3.1, August 2026 (https://www.ocr.org.uk/Images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf). The operational mathematics below is newly written explanatory material, using conventional mathematical facts and original examples. It is not a reproduction of OCR's content tables. A separate research record identifies the documents actually inspected.
+
+Prior arithmetic, geometry and mathematical language
+
+Ordinary GCSE mathematics is available: signed arithmetic, fractions, decimals, percentages, ratio, proportion, powers, roots, standard form, rounding, significant figures, elementary estimation, rearranging formulae, substitution, expanding and factorising simple expressions, solving linear equations, coordinates, angle properties, similarity and scale factors, Pythagoras, right-triangle trigonometry, elementary circle geometry, areas and volumes of standard shapes, basic probability, and interpreting elementary tables and graphs. Operations must preserve units and dimensional consistency. A percentage change from a starting value \(A\) to an ending value \(B\) is \(100(B-A)/A\), for \(A\ne0\). A percentage multiplier \(1+r\) applied repeatedly produces \(A(1+r)^n\).
+
+An expression has a value; an equation asserts equality for particular values; an identity holds for all admissible values. Variables range over a specified domain. A constant remains fixed within the problem. An integer is a whole number, possibly negative or zero. A rational number is \(p/q\), where \(p,q\) are integers and \(q\ne0\); an irrational real number cannot be written that way. Set notation includes membership, union, intersection, empty set and complements. \((a,b)\) excludes both endpoints, \([a,b]\) includes them, and mixed brackets include just the indicated endpoint. Write both branches of a solution such as \(x<1\) or \(x>4\).
+
+Logical implication \(P\Rightarrow Q\) means that \(Q\) follows when \(P\) is true; it does not establish the converse. \(P\Leftrightarrow Q\) requires both directions. \(\equiv\) denotes an identity in algebraic work. Division by an expression assumes it is nonzero. Squaring an equation can introduce solutions; taking a root can lose a sign. Check proposed solutions against the original equation, its domain and the physical context.
+
+Useful elementary mensuration is explicit: circle circumference \(2\pi r\) and area \(\pi r^2\); triangle area \(bh/2\) with perpendicular height \(h\); rectangle area \(ab\); trapezium area \((a+b)h/2\) for parallel sides \(a,b\); prism volume \(A\ell\) for constant cross-sectional area \(A\) and length \(\ell\); cylinder volume \(\pi r^2h\); cone volume \(\pi r^2h/3\); sphere volume \(4\pi r^3/3\) and surface area \(4\pi r^2\). Similarity with length factor \(k\) gives area factor \(k^2\) and volume factor \(k^3\). Angles in a triangle sum to \(180^\circ\); angles around a point sum to \(360^\circ\).
+
+Proof and mathematical work
+
+Deduction starts from definitions or given assumptions and maintains valid steps to the conclusion. Exhaustion proves a claim by considering every member of a finite list of cases. A counterexample disproves a universal statement: one admissible case violating it suffices. For example, the claim that every prime is odd fails at 2. A contradiction proof assumes the negation of the desired result and obtains an impossibility.
+
+Two familiar contradiction structures are available. If \(\sqrt2=p/q\) in lowest integer terms, \(p^2=2q^2\) makes \(p\) even, and then makes \(q\) even, contradicting lowest terms. If the only primes were \(p_1,\ldots,p_n\), the integer \(p_1\cdots p_n+1\) would have a prime divisor different from each listed prime, contradicting completeness. An algebraic divisibility proof should use general integers and an explicit factor or remainder. Numerical examples can suggest a pattern but do not prove an unrestricted claim.
+
+Choose a method rather than relying only on a named template. Connect graphs, equations and words; interpret final values in context; explain assumptions and whether they remain plausible. A model can omit influences or idealise behaviour. Test its outputs against the situation, state where the model is useful, and refine assumptions when the predictions fail.
+
+Algebra, functions and coordinate geometry
+
+For a positive base, \(x^a x^b=x^{a+b}\), \(x^a/x^b=x^{a-b}\), \((x^a)^b=x^{ab}\), \(x^0=1\), \(x^{-a}=1/x^a\), and \(x^{m/n}=\sqrt[n]{x^m}\). Real negative bases require attention to whether the relevant root exists. \(\sqrt{x^2}=|x|\), not always \(x\). Simplify surds by extracting square factors. Rationalise \(1/\sqrt a\) by multiplying numerator and denominator by \(\sqrt a\), and \(1/(a+\sqrt b)\) by the conjugate \(a-\sqrt b\), when denominators permit it.
+
+For \(ax^2+bx+c=0\), \(a\ne0\),
+\[
+x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}.
+\]
+The discriminant \(b^2-4ac\) gives two distinct real roots when positive, a repeated real root when zero, and no real roots when negative. Completing the square gives
+\[
+ax^2+bx+c=a\left(x+\frac b{2a}\right)^2+c-\frac{b^2}{4a},
+\]
+which identifies the vertex and axis of symmetry. Substitute \(u=x^2\), \(e^x\), a trigonometric expression or another appropriate expression into equations quadratic in \(u\), then recover admissible \(x\). Solve simultaneous equations by substitution or elimination, including a line with a quadratic curve. Graphically, solutions are intersections.
+
+For an inequality, reverse the inequality when multiplying or dividing by a negative number. For a factored polynomial inequality, place roots on a number line, determine the sign between them, and retain the required intervals and endpoints. A zero of even multiplicity usually touches the axis without a sign change; odd multiplicity crosses it. For rational expressions, factor and cancel common factors while keeping excluded denominator zeros. Polynomial division produces quotient and remainder. The factor theorem gives \(f(a)=0\) exactly when \(x-a\) is a factor. Repeated use can factor and solve cubic or quartic equations when suitable factors are available.
+
+The modulus is \(|x|=x\) for \(x\ge0\), \(-x\) for \(x<0\). For \(c\ge0\), \(|u|=c\) gives \(u=\pm c\); \(|u|<c\) gives \(-c<u<c\); \(|u|>c\) gives \(u<-c\) or \(u>c\). A negative right side needs separate thought. \(y=|ax+b|\) is the corresponding straight line with its negative part reflected above the axis. Solve modulus comparisons by cases or graph intersections.
+
+A function assigns exactly one output to each input in its domain. Its range is the set of resulting outputs. A function can be many-to-one; a one-to-many relation is not a function. A one-to-one function has an inverse on its range. Restricting a domain can make an inverse possible, for example \(x^2\) on \(x\ge0\). To find \(f^{-1}\), set \(y=f(x)\), solve for \(x\), and exchange the variables; its graph reflects the original in \(y=x\). Inverse functions do not mean reciprocals. Composition \((f\circ g)(x)=f(g(x))\) is defined only when \(g(x)\) lies in the domain of \(f\). \(f^2(x)\) in composition notation means \(f(f(x))\), so distinguish it from \([f(x)]^2\).
+
+Relative to \(y=f(x)\): \(f(x)+a\) moves the graph vertically by \(a\); \(f(x-a)\) moves it right by \(a\); \(af(x)\) scales vertical coordinates by \(a\); \(f(ax)\) scales horizontal coordinates by \(1/a\), for \(a\ne0\). Negative factors include reflection. Compound transformations must be applied in a declared order or obtained directly from the transformed equation. Sketches show intercepts, stationary points, asymptotes, endpoint restrictions and large-\(|x|\) behaviour where relevant. A polynomial's leading term governs its large-\(|x|\) behaviour. Direct proportion \(y=kx\) gives a straight line through the origin, inverse proportion \(y=k/x\) a reciprocal graph, and other power relationships \(y=kx^n\) their corresponding power graphs. Graphs of \(a/x\) and \(a/x^2\) have vertical asymptote \(x=0\) and horizontal asymptote \(y=0\), for nonzero \(a\). A horizontal asymptote describes limiting behaviour; it need not be a forbidden crossing for a general function.
+
+Partial fractions use undetermined coefficients or substitution after clearing the denominator. Distinct linear factors give terms such as \(A/(x-a)+B/(x-b)\); a squared factor requires both \(A/(x-a)\) and \(B/(x-a)^2\). Three distinct linear factors may require three fractions. If the original fraction is improper, polynomial division separates its polynomial part before decomposition. These decompositions support integrations and power expansions.
+
+A line has forms \(y=mx+c\), \(y-y_1=m(x-x_1)\), or \(ax+by+c=0\). Between two points, \(m=(y_2-y_1)/(x_2-x_1)\) when the denominator is nonzero. A vertical line has equation \(x=k\). Parallel nonvertical lines have equal gradients; perpendicular ones have \(m_1m_2=-1\); horizontal and vertical lines form the exceptional pair. Midpoint coordinates are averages. Distance is \(\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\).
+
+A circle with centre \((a,b)\) and radius \(r\) has \((x-a)^2+(y-b)^2=r^2\). Complete squares to identify the centre and radius from an expanded equation. The radius is perpendicular to a tangent at contact. A perpendicular from the centre bisects a chord; an angle subtended by a diameter at the circumference is a right angle. To test intersections of a line and circle, substitute the line into the circle and inspect the resulting roots; a repeated root represents tangency. For two circles, subtraction of their equations can yield the line containing their intersections.
+
+Parametric coordinates \(x=f(t),y=g(t)\) define a point by a parameter. Eliminate \(t\) when possible, but preserve the parameter restriction and hence the actual part of the Cartesian curve. For example, \(x=\cos t,y=\sin t\) gives \(x^2+y^2=1\), while the interval of \(t\) determines which arc is traced and its direction. Parametric descriptions can model position and related rates.
+
+Sequences, series and binomial expansion
+
+A sequence is an ordered list; a series is a sum of terms. A rule \(u_n=f(n)\) gives a term directly; \(u_{n+1}=g(u_n)\), with a starting value, generates terms recursively. A strictly increasing sequence has \(u_{n+1}>u_n\), a strictly decreasing one has \(u_{n+1}<u_n\), and a periodic sequence repeats after a fixed number of terms. Convergence means approaching a finite limiting value; a divergent sequence lacks such a limit. Investigate behaviour from terms, algebra and graphs. A fixed limiting value \(L\), when it exists and the recurrence permits passage to a limit, satisfies \(L=g(L)\); a solution of that equation alone does not prove convergence.
+
+\(\sum_{r=1}^n u_r\) means adding the indexed terms from 1 to \(n\). Index limits matter. An arithmetic progression with first term \(a\) and common difference \(d\) has
+\[
+u_n=a+(n-1)d,\qquad S_n=\frac n2\{2a+(n-1)d\}=\frac n2(a+u_n).
+\]
+A geometric progression with first term \(a\) and ratio \(r\) has
+\[
+u_n=ar^{n-1},\qquad S_n=\frac{a(1-r^n)}{1-r}\quad(r\ne1).
+\]
+If \(r=1\), \(S_n=na\). For \(|r|<1\), \(S_\infty=a/(1-r)\). Positive or negative \(r\) and the sign of \(a\) affect monotonicity. Use these models for repeated growth, decay, repayments or accumulated contributions, making the timing of payments explicit. Solving a time inequality often needs logarithms and then a whole-number ceiling or floor, with the original inequality checked.
+
+For nonnegative integer \(n\),
+\[
+(a+bx)^n=\sum_{r=0}^{n}\binom nr a^{n-r}(bx)^r,\qquad
+\binom nr=\frac{n!}{r!(n-r)!},\quad0!=1.
+\]
+Pascal's triangle obtains an interior coefficient by adding the two above it. Match powers carefully when asking for a coefficient. For rational \(n\), the expansion starts
+\[
+(1+u)^n=1+nu+\frac{n(n-1)}{2}u^2+\frac{n(n-1)(n-2)}{6}u^3+\cdots,
+\]
+with \(|u|<1\) for the infinite expansion. First factor \((a+bx)^n=a^n(1+bx/a)^n\), where appropriate; its usable interval is \(|bx/a|<1\). A finite truncation is an approximation, especially useful when \(|u|\) is small. Partial fractions may produce several expansions whose validity intervals must all hold. Binomial coefficients also count placements of successes in binomial probability calculations.
+
+Trigonometry
+
+On the unit circle, cosine is the horizontal coordinate and sine the vertical coordinate; \(\tan\theta=\sin\theta/\cos\theta\), wherever \(\cos\theta\ne0\). Sine and cosine have period \(2\pi\), tangent period \(\pi\). \(\sin(-\theta)=-\sin\theta\), \(\cos(-\theta)=\cos\theta\). Their signs come from the quadrant. Exact sine/cosine values at \(0,\pi/6,\pi/4,\pi/3,\pi/2\) are respectively \((0,1),(1/2,\sqrt3/2),(\sqrt2/2,\sqrt2/2),(\sqrt3/2,1/2),(1,0)\); extend by symmetry and periodicity. Tangent is their ratio and is undefined where cosine vanishes.
+
+Radians satisfy \(\pi\text{ radians}=180^\circ\). For a circle, arc length \(s=r\theta\) and sector area \(A=r^2\theta/2\) require \(\theta\) in radians. For a triangle, sides \(a,b,c\) opposite angles \(A,B,C\) satisfy \(a/\sin A=b/\sin B=c/\sin C\), \(a^2=b^2+c^2-2bc\cos A\), and area \(bc\sin A/2\). With the sine rule, a sine value can correspond to an acute angle or its supplementary obtuse angle; check both against the triangle information. Bearings measure clockwise from north and need the geometry interpreted before choosing an angle.
+
+For a small angle in radians, \(\sin\theta\approx\theta\), \(\tan\theta\approx\theta\), and \(\cos\theta\approx1-\theta^2/2\). Keep the requested order consistently when substituting and simplifying; these are approximations near zero, not identities for arbitrary angles.
+
+Reciprocal functions are \(\sec x=1/\cos x\), \(\cosec x=1/\sin x\), \(\cot x=\cos x/\sin x\). Their denominator zeros give excluded inputs and vertical asymptotes. Secant and cosecant have range \(( -\infty,-1]\cup[1,\infty)\). Cotangent takes all real values on each suitable open branch. Principal inverse functions have \(\arcsin:[-1,1]\to[-\pi/2,\pi/2]\), \(\arccos:[-1,1]\to[0,\pi]\), and \(\arctan:\mathbb R\to(-\pi/2,\pi/2)\). Their graphs reflect the corresponding restricted original graph in \(y=x\). The notation \(\sin^{-1}x\) means arcsine, not cosecant.
+
+The identities
+\[
+\sin^2x+\cos^2x=1,\quad1+\tan^2x=\sec^2x,\quad1+\cot^2x=\cosec^2x
+\]
+hold on their relevant domains. Angle formulae are
+\[
+\sin(A\pm B)=\sin A\cos B\pm\cos A\sin B,
+\]
+\[
+\cos(A\pm B)=\cos A\cos B\mp\sin A\sin B,
+\qquad
+\tan(A\pm B)=\frac{\tan A\pm\tan B}{1\mp\tan A\tan B},
+\]
+where the tangent expression is defined. Thus \(\sin2x=2\sin x\cos x\), \(\cos2x=\cos^2x-\sin^2x=1-2\sin^2x=2\cos^2x-1\), and \(\tan2x=2\tan x/(1-\tan^2x)\) when defined. Addition formulae can be justified geometrically by decomposing components after a rotation, with signs tracked by the chosen angles.
+
+Convert \(a\cos x+b\sin x\) to \(R\cos(x-\alpha)\), with \(R=\sqrt{a^2+b^2}\), \(R\cos\alpha=a\), \(R\sin\alpha=b\), and a quadrant-consistent \(\alpha\); an equivalent sine form is possible. This identifies amplitude, phase, extrema and solutions. A model \(D+A\sin(\omega t+\phi)\) has midline \(D\), amplitude \(|A|\), period \(2\pi/|\omega|\) when \(\omega\ne0\), and phase controlled by \(\phi\).
+
+To solve a trigonometric equation, use identities or a substitution to obtain a basic trigonometric value, then find every solution in the requested interval. For example, \(\sin x=s\) gives \(x=\alpha+2k\pi\) or \(x=\pi-\alpha+2k\pi\), where \(\alpha=\arcsin s\); \(\cos x=c\) gives \(x=\pm\arccos c+2k\pi\); \(\tan x=t\) gives \(x=\arctan t+k\pi\). For a multiple angle, determine its wider transformed interval before filtering back. Dividing by a trigonometric factor can discard roots at its zeros. A proof of an identity may transform one side into the other using known identities, or show both equal a third expression, while respecting denominators.
+
+Exponentials and logarithms
+
+For \(a>0\), \(a^x\) is positive; for \(a>1\) it increases, and for \(0<a<1\) it decreases. \(e^x\) is the exponential with derivative equal to itself. For \(a>0,a\ne1,x>0\), \(\log_a x=y\) means \(a^y=x\); \(\ln x=\log_e x\). Logarithms and the corresponding exponentials are inverse functions. \(\ln1=0\), \(\ln e=1\), \(e^{\ln x}=x\) for \(x>0\), and \(\ln(e^x)=x\) for real \(x\).
+
+For positive \(u,v\), \(\log_a(uv)=\log_a u+\log_a v\), \(\log_a(u/v)=\log_a u-\log_a v\), and \(\log_a(u^k)=k\log_a u\) when the expressions are defined. There is no corresponding rule replacing \(\log(u+v)\) by \(\log u+\log v\). To solve \(a^x=b\), take a logarithm of both sides: \(x\ln a=\ln b\), requiring \(b>0\) and \(a\ne1\). Log inequalities need monotonicity considered, especially for bases below 1.
+
+For \(y=Ax^n\) with positive \(x,y,A\), \(\ln y=\ln A+n\ln x\); a straight plot of \(\ln y\) against \(\ln x\) has gradient \(n\) and intercept \(\ln A\). For \(y=Kb^x\), \(\ln y=\ln K+x\ln b\). For \(y=Ae^{kt}\), the rate is \(ky\); \(k>0\) gives growth, \(k<0\) decay. A doubling time is \(\ln2/k\) for \(k>0\), and a half-life is \(\ln2/(-k)\) for \(k<0\). A constant proportional growth-rate model can be unreasonable indefinitely, for example under finite resources.
+
+Differentiation and its applications
+
+The derivative is a local rate of change and tangent gradient:
+\[
+f'(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}h
+\]
+where the limit exists. The gradient of a chord is an average rate; the limit gives the instantaneous rate. Use \(f'(x)\), \(dy/dx\), \(f''(x)\) and \(d^2y/dx^2\) consistently. First-principles arguments for \(x,x^2,x^3,x^4\) expand the difference, cancel, divide by \(h\), and pass to the limit. For sine and cosine, use the angle-addition formulae together with \(\sin h/h\to1\) and \((\cos h-1)/h\to0\), with radians, to obtain derivatives \(\cos x\) and \(-\sin x\).
+
+Core derivatives, on intervals where the functions are differentiable, are
+\[
+\frac d{dx}x^n=nx^{n-1},\quad
+\frac d{dx}e^{kx}=ke^{kx},\quad
+\frac d{dx}a^{kx}=k\ln(a)a^{kx},\quad
+\frac d{dx}\ln x=\frac1x\ (x>0),
+\]
+\[
+\frac d{dx}\sin(kx)=k\cos(kx),\quad
+\frac d{dx}\cos(kx)=-k\sin(kx),\quad
+\frac d{dx}\tan(kx)=k\sec^2(kx).
+\]
+Trig derivative formulae require radians. Constants differentiate to zero; differentiation distributes over sums and constant multiples. Reciprocal trig derivatives, also usable from their displayed forms, are \((\sec x)'=\sec x\tan x\), \((\cot x)'=-\cosec^2x\), \((\cosec x)'=-\cosec x\cot x\).
+
+For differentiable \(u,v\),
+\[
+(uv)'=u'v+uv',\qquad
+\left(\frac uv\right)'=\frac{u'v-uv'}{v^2}\ (v\ne0),\qquad
+\frac{dy}{dx}=\frac{dy}{du}\frac{du}{dx}.
+\]
+The chain rule differentiates an outer function and multiplies by the derivative of its inner input. For connected rates, \(dy/dt=(dy/dx)(dx/dt)\). The inverse-rate relation \(dx/dy=1/(dy/dx)\) applies where the local inverse and nonzero derivative permit it.
+
+At \((x_0,y_0)\), a nonvertical tangent has \(y-y_0=f'(x_0)(x-x_0)\). Its normal has gradient \(-1/f'(x_0)\) when that derivative is nonzero. A horizontal tangent has a vertical normal. Stationary points satisfy \(f'=0\). A positive-to-negative change of \(f'\) gives a local maximum; negative-to-positive gives a local minimum. At a stationary point, \(f''>0\) gives a minimum and \(f''<0\) a maximum; \(f''=0\) is inconclusive. Increasing and decreasing intervals follow from the sign of \(f'\). To sketch a derivative graph from a curve, place zeros at horizontal tangents, positive values over increasing sections and negative values over decreasing sections; compare slope steepness to estimate derivative size and track whether the gradient increases or decreases.
+
+Positive \(f''\) gives a convex section with increasing gradient; negative \(f''\) gives a concave section. An inflection requires a change in concavity, not merely a zero second derivative. In ordinary smooth examples, test the sign of \(f''\) either side of a candidate root. An inflection is stationary only if \(f'=0\) there as well. For optimisation, express the target in a suitable variable, identify the valid domain, find candidate stationary values and check endpoints or other domain restrictions as necessary.
+
+For an implicit relation, differentiate each side with respect to \(x\), treating \(y\) as a function of \(x\); for example \(x^2+y^2=r^2\) yields \(2x+2y\,dy/dx=0\). For \(x=x(t),y=y(t)\),
+\[
+\frac{dy}{dx}=\frac{dy/dt}{dx/dt},
+\]
+provided \(dx/dt\ne0\). These first derivatives support tangent and normal questions and rates in a model. A differential equation can be constructed from a rate statement, for example proportional increase means \(dy/dt=ky\), with \(k\) having the required sign and units.
+
+Integration and elementary differential equations
+
+An indefinite integral gives a family of antiderivatives: if \(F'=f\), then \(\int f(x)\,dx=F(x)+C\). A condition such as \(F(a)=b\) determines \(C\). For a suitably continuous integrand, the fundamental theorem gives \(\int_a^b f(x)\,dx=F(b)-F(a)\). Integration can also be understood as the limit of rectangle sums, \(\lim_{n\to\infty}\sum_{i=1}^n f(x_i^*)\Delta x\), for a partition whose widths shrink to zero in the usual well-behaved cases.
+
+Standard antiderivatives include
+\[
+\int x^n dx=\frac{x^{n+1}}{n+1}+C\ (n\ne-1),\quad
+\int\frac1x dx=\ln|x|+C\ (x\ne0),\quad
+\int e^{kx}dx=\frac{e^{kx}}k+C\ (k\ne0),
+\]
+\[
+\int\sin(kx)dx=-\frac{\cos(kx)}k+C,\qquad
+\int\cos(kx)dx=\frac{\sin(kx)}k+C\quad(k\ne0).
+\]
+Constants, sums and differences integrate term by term. Use trig identities first when useful, such as \(\cos^2x=(1+\cos2x)/2\). Reverse the chain rule:
+\[
+\int f'(x)[f(x)]^n dx=\frac{[f(x)]^{n+1}}{n+1}+C\ (n\ne-1),\qquad
+\int\frac{f'(x)}{f(x)}dx=\ln|f(x)|+C
+\]
+on intervals where defined. For example, \(\int\tan x\,dx=-\ln|\cos x|+C\).
+
+With substitution \(u=g(x)\), replace the differential consistently, \(du=g'(x)dx\), and rewrite the whole integral in \(u\). For a definite integral, transform both limits or return fully to \(x\) before substituting the old limits. A suitable one-step substitution may remove a root, a composite input or a reciprocal derivative pattern. Integration by parts reverses the product rule:
+\[
+\int u\frac{dv}{dx}\,dx=uv-\int v\frac{du}{dx}\,dx.
+\]
+Choose \(u\) so differentiating it simplifies the remaining integrand, and choose an integrable \(dv/dx\). It can be applied more than once; \(\int\ln x\,dx=x\ln x-x+C\) for \(x>0\). Partial fractions reduce suitable rational integrands to logarithms and powers of linear factors.
+
+A definite integral is signed. Geometric area requires nonnegative contributions: split at crossings of the axis and negate a below-axis integral as necessary, or integrate the upper curve minus the lower curve between their intersections. For a parametric curve, \(\int y\,dx=\int y(t)x'(t)\,dt\); limits, direction of traversal and sign must agree with the requested area. A time integral of velocity is displacement; distance travelled uses the speed and may need splitting where velocity changes sign.
+
+A first-order equation \(dy/dx=p(x)q(y)\) is separable where \(q(y)\ne0\):
+\[
+\int\frac{1}{q(y)}dy=\int p(x)dx+C.
+\]
+An initial condition determines the constant. Dividing by \(q(y)\) may remove constant solutions at its zeros, so check those separately. For \(dy/dt=ky\), \(y=Ae^{kt}\), including \(y=0\). Solve directly by integration when the derivative depends only on the independent variable. Interpret the solution's positivity, units, long-term limit, growth or decay and the range in which the initial model remains plausible.
+
+Numerical methods
+
+If a continuous \(f\) has opposite signs at \(a,b\), it has at least one root between them. Repeated narrowing or bisection locates it more accurately. A sign change across a discontinuity or vertical asymptote need not identify a root; a tangent root can exist without a sign change. To justify a decimal approximation, bracket the root with values that lie inside the corresponding rounding interval rather than merely displaying two nearly equal iterates.
+
+Rearrange an equation as \(x=g(x)\), choose a starting value and compute \(x_{n+1}=g(x_n)\). Cobweb or staircase diagrams alternate between \(y=g(x)\) and \(y=x\). Near a fixed point \(a\), \(|g'(a)|<1\) supports local convergence for a sufficiently close starting value; a negative derivative can cause alternation, and a positive derivative can cause approach from one side. Other rearrangements or starts can diverge, cycle, leave the domain or converge to a different solution. A limiting iterate must still solve the original equation.
+
+Newton-Raphson uses a tangent intercept:
+\[
+x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}.
+\]
+It requires a defined nonzero denominator. A stationary starting point makes this step unavailable, and unfavourable starts can diverge or switch roots. Record iterates and retain internal precision; verify the final accuracy appropriately.
+
+For equal subintervals of width \(h=(b-a)/n\), with \(y_i=f(a+ih)\), the trapezium approximation is
+\[
+\int_a^b f(x)dx\approx\frac h2\left(y_0+y_n+2\sum_{i=1}^{n-1}y_i\right).
+\]
+A convex curve lies below its chords and hence gives an overestimate of the signed integral; a concave curve gives an underestimate. If concavity changes, a single global conclusion needs justification. For a nonnegative monotone curve, left/right endpoint rectangle sums produce lower/upper area bounds in the order determined by whether it is increasing or decreasing. Unequal subintervals can be handled by summing individual trapezia. These methods can solve contextual equations or estimate areas when symbolic methods are unavailable.
+
+Vectors
+
+A scalar has magnitude only; a vector also has direction. Vectors can be written in components, as column vectors, or with basis symbols: \(a_x\mathbf i+a_y\mathbf j\), extended to \(a_z\mathbf k\) in three dimensions. Add and subtract corresponding components; multiply every component by a scalar. \(\overrightarrow{AB}=\mathbf b-\mathbf a\), where \(\mathbf a,\mathbf b\) are position vectors. Parallel nonzero vectors are scalar multiples. Equal vectors have the same components even at different positions.
+
+The magnitude is \(\sqrt{a_x^2+a_y^2}\) in two dimensions or \(\sqrt{a_x^2+a_y^2+a_z^2}\) in three; a unit vector in the nonzero direction \(\mathbf a\) is \(\mathbf a/|\mathbf a|\). The distance between points is \(|\mathbf b-\mathbf a|\). In two dimensions, magnitude \(r\) and direction \(\theta\) from the positive horizontal axis give \((r\cos\theta,r\sin\theta)\). Recover direction using a quadrant-correct inverse tangent, with special attention to zero components. The zero vector has no unique direction.
+
+Geometric vector reasoning includes displacement paths, collinearity, equal or parallel sides, ratios along line segments and identifying a resultant. Apply the same component operations to forces, position, velocity and acceleration. Three-dimensional component and distance calculations are available; three-dimensional angles, scalar products, cross products, line/plane vector equations and matrix methods require a separate baseline or explicit new teaching.
+
+Statistics: data, probability and distributions
+
+A population is the whole group under investigation; a sample is the observed subset. In simple random sampling every sample of the specified size has the same selection chance. Opportunity sampling uses conveniently available units and can overrepresent accessible cases. Understand systematic selection (regular interval after a start), stratified selection (sample within subgroups), cluster selection (choose groups), and quota selection (fill prescribed subgroup counts), and critique their suitability in context. A large sample can reduce random variation but cannot automatically remove systematic bias. A sampling frame must match the target population; nonresponse and selection methods can distort conclusions. Different random samples need not give the same result.
+
+Interpret vertical line charts, dot plots, bar charts, stem-and-leaf plots, box plots, cumulative frequency graphs and histograms, including unfamiliar representations. In a histogram, frequency is proportional to area, so frequency density is frequency divided by class width. Use consistent class boundaries. On a cumulative graph, read a quantile from its cumulative position. A box plot identifies median, quartiles, spread and potentially marked outliers; it does not show every observation.
+
+For observations \(x_i\), \(\bar x=\sum x_i/n\); for frequencies \(f_i\), \(\bar x=\sum f_ix_i/\sum f_i\). A median separates the ordered observations, mode is a most common value, and \(\mathrm{IQR}=Q_3-Q_1\). The descriptive variance and standard deviation are
+\[
+\sigma^2=\frac{\sum(x_i-\bar x)^2}{n}=\frac{\sum x_i^2}{n}-\bar x^2,\qquad\sigma=\sqrt{\sigma^2}.
+\]
+For frequency data, replace each sum by its frequency-weighted sum and \(n\) by \(\sum f_i\). With grouped data, use midpoints to obtain estimates; the actual observations within the classes are unknown. Understand calculator symbols distinguishing denominator \(n\) from denominator \(n-1\). Compare centres and spreads in the units and context of the data. Translating every value by \(b\) shifts the mean by \(b\) but leaves spread unchanged; scaling by \(a\) scales the mean by \(a\), variance by \(a^2\), and standard deviation by \(|a|\).
+
+Potential outliers can be flagged below \(Q_1-1.5\,\mathrm{IQR}\), above \(Q_3+1.5\,\mathrm{IQR}\), or farther than two standard deviations from the mean under a stated rule. A flag does not prove an error. Examine missing entries, units, miscoding, duplicates and genuine exceptional values before deciding how to clean data. State the effect of exclusion or correction when drawing conclusions.
+
+A scatter plot can show a positive or negative association, nonlinear structure, weak association, clusters or distinct subpopulations. A regression line summarises a predictive relationship; use the provided equation with the explanatory input variable. Interpolation within the observed range is usually more defensible than extrapolation. Correlation does not prove a causal relationship: confounding variables, common influences and selection can explain it.
+
+For an event \(A\), \(0\le P(A)\le1\), \(P(A^c)=1-P(A)\). Union means at least one event, intersection means both. Mutually exclusive events have \(P(A\cap B)=0\). Independent events satisfy \(P(A\cap B)=P(A)P(B)\); neither property implies the other, except trivial zero-probability cases. General rules are
+\[
+P(A\cup B)=P(A)+P(B)-P(A\cap B),\qquad
+P(A\mid B)=\frac{P(A\cap B)}{P(B)}\quad(P(B)>0),
+\]
+\[
+P(A\cap B)=P(B)P(A\mid B)=P(A)P(B\mid A).
+\]
+Use a tree, Venn diagram, sample space or two-way table to represent cases. Along a tree path multiply conditional probabilities; add mutually exclusive paths. Sampling without replacement changes subsequent fractions, unless an explicit large-population approximation applies. Conditional probability restricts the reference population to the given event. An elementary reverse conditional can be obtained by constructing and counting a joint table or branches; a separately memorised Bayes theorem is not part of this H240 grant.
+
+A finite discrete random variable has a table or formula for probabilities of its possible values. Every probability is nonnegative and their sum is 1. Determine an unknown normalising constant with that sum, combine requested disjoint values, or use complements. Independent repeated draws multiply their probabilities; enumerate admissible outcomes carefully for sums or order restrictions. For elementary counting, multiply the number of choices at successive stages when each branch has those choices, or add mutually exclusive branches. Arranging \(n\) distinct items gives \(n!\) possibilities; selecting and ordering \(r\) of them gives \(n!/(n-r)!\); dividing by the \(r!\) orders of a fixed selection gives \(\binom nr\) unordered selections. Adjust when repeats or restrictions change the branch counts.
+
+\(X\sim\mathrm{B}(n,p)\) counts successes in \(n\) independent trials, each with the same success probability \(p\) and only success/failure classifications. Its support is \(0,1,\ldots,n\), and
+\[
+P(X=r)=\binom nr p^r(1-p)^{n-r},\qquad
+\mu=np,\quad\sigma^2=np(1-p).
+\]
+Distinguish a fixed trial count, defined outcomes and independence from a modelling assumption that the chance is constant. In a real context, explain why weather, serial dependence, learning or heterogeneous individuals may break the model. Calculate exact and cumulative binomial probabilities with a calculator or summation. For integer \(r\), \(P(X\ge r)=1-P(X\le r-1)\) and \(P(X>r)=1-P(X\le r)\). The mean and variance identify a possible matched normal model for large \(n\); H240 does not demand numerical normal-approximation probability calculations.
+
+\(X\sim\mathrm N(\mu,\sigma^2)\) is a continuous, symmetric bell-shaped model with mean \(\mu\) and positive standard deviation \(\sigma\). A probability is an area under its curve; \(P(X=x)=0\), so strict and non-strict endpoints give the same probability. Standardise using \(Z=(X-\mu)/\sigma\sim\mathrm N(0,1)\). If \(\Phi(z)=P(Z\le z)\), then
+\[
+P(a<X<b)=\Phi\!\left(\frac{b-\mu}{\sigma}\right)-\Phi\!\left(\frac{a-\mu}{\sigma}\right).
+\]
+Use calculator cumulative and inverse-normal functions, or supplied percentile values. To find an unknown boundary or parameter, equate its standardised value to the appropriate quantile. The supplied H240 normal percentiles can be carried explicitly: probabilities \(p=0.75,0.90,0.95,0.975,0.99,0.995,0.9975,0.999,0.9995\) have \(\Phi^{-1}(p)\) approximately \(0.674,1.282,1.645,1.960,2.326,2.576,2.807,3.090,3.291\), respectively. Symmetry gives \(\Phi(-z)=1-\Phi(z)\). Roughly 68%, 95% and 99.7% lie within one, two and three standard deviations; curve inflections occur at \(\mu\pm\sigma\). A symmetric-looking histogram can motivate a normal model, while clear skew, multiple populations or restrictive physical bounds can undermine it. Other normal probabilities or PMCC critical values require the relevant calculator evaluation, table, p-value or numerical result to be provided by the assessment environment or notes; exposure to their use does not imply memorising a full numerical table.
+
+Statistical hypothesis tests
+
+State a null hypothesis \(H_0\) about a population parameter, and an alternative \(H_1\) describing the proposed difference or direction. Define the parameter in context. The alternative determines one or two tails before looking at the result. A significance level \(\alpha\) controls the chance of rejecting a true null under the test model; a discrete test's actual rejection probability can be smaller than its stated maximum. It is not the probability that the null hypothesis is true. A p-value is the probability, calculated under the null model, of a result at least as extreme in the relevant direction(s). Reject when the result belongs to the chosen critical region, or when an appropriate p-value is no larger than the level. Failure to reject does not establish equality or prove the null.
+
+For a binomial proportion test, \(H_0:p=p_0\) supplies \(X\sim\mathrm B(n,p_0)\). For \(H_1:p>p_0\) use the upper probability \(P(X\ge x_{\rm obs})\); for \(H_1:p<p_0\) use \(P(X\le x_{\rm obs})\). Obtain a boundary by finding the first upper, or last lower, count whose relevant tail probability is at most \(\alpha\). For a conventional two-tail test, allocate \(\alpha/2\) to each tail and choose integer critical values meeting those tail limits; do not assume the two actual discrete tail probabilities equal \(\alpha/2\). Report the sampling/model assumptions and evidence for the population claim in words tied to the stated level.
+
+For independent observations from a normal population with known, supplied or assumed variance \(\sigma^2\),
+\[
+\bar X\sim\mathrm N\!\left(\mu,\frac{\sigma^2}{n}\right),\qquad
+Z=\frac{\bar X-\mu_0}{\sigma/\sqrt n}
+\]
+has the standard normal distribution under \(H_0:\mu=\mu_0\). Use the standard error \(\sigma/\sqrt n\), not the individual-observation standard deviation. Compare \(Z\) with a one-tail quantile \(z_{1-\alpha}\), a lower-tail quantile, or \(\pm z_{1-\alpha/2}\) for a two-tail test. At 5%, the common upper one-tail cutoff is about 1.645 and the two-tail magnitudes about 1.960. Equivalent critical bounds can be expressed in units of \(\bar X\). Normality of the population is part of this H240 test model; an unrestricted central-limit-theorem argument for non-normal populations is an additional topic.
+
+Pearson's product-moment coefficient \(r\in[-1,1]\) measures linear association, with its sign giving direction and \(|r|\) giving closeness to a straight line. Zero indicates no linear correlation, while a nonlinear relation can still exist. A hypothesis test uses the population correlation parameter \(\rho\), commonly \(H_0:\rho=0\), and an appropriate directional or two-sided alternative. Use the supplied \(r\), p-value or critical-value table for the sample size and level. The usual H240 inference assumes observations from a bivariate normal population. A significant result is evidence of population linear association, without proving causation. Calculation of \(r\) itself need not be recalled in this baseline.
+
+The current H240 large-data-set context is 2001/2011 census age structure and methods of travel to work for 348 aligned local authorities in England and Wales. Regions and geography codes identify areas. Travel counts concern employed people and their usual main travel method; 2011 retains a separate non-employed category. Age bands have unequal widths, and the final age band is open-ended. Use the right denominator for a proportion, compare corresponding categories, and account for different population sizes. Aggregate counts do not track individual residents: similar counts ten years apart need not imply no migration. The official dataset remains historical; it is not a source of current demographics. Exact cell values need not be memorised. Currently linked OCR H230/H240 data workbook (https://www.ocr.org.uk/Images/308727-units-h230-and-h240-large-data-set-lds-sample-assessment-material.xlsx).
+
+Mechanics
+
+Length, time and mass use metres, seconds and kilograms. Velocity uses \(\mathrm{m\,s^{-1}}\), acceleration \(\mathrm{m\,s^{-2}}\), force and weight newtons, and moment \(\mathrm{N\,m}\). Position, displacement, velocity, acceleration and force are vectors; distance travelled and speed are scalars. In one dimension, signed velocity can be negative while speed is \(|v|\). Displacement is final minus initial position, and total distance can exceed its magnitude. State a coordinate direction before assigning signs.
+
+For constant acceleration \(a\) in a straight line, \(u\) is initial velocity, \(v\) final velocity, \(s\) displacement over elapsed time \(t\):
+\[
+v=u+at,\quad s=ut+\tfrac12at^2,\quad s=\tfrac12(u+v)t,
+\quad v^2=u^2+2as,\quad s=vt-\tfrac12at^2.
+\]
+These formulae need constant acceleration over the interval. They follow by integrating constant acceleration, by displacement as area under a straight velocity-time graph, and by eliminating \(t\). In two dimensions use \(\mathbf v=\mathbf u+\mathbf a t\), \(\mathbf s=\mathbf u t+\tfrac12\mathbf a t^2\), \(\mathbf s=(\mathbf u+\mathbf v)t/2\), and \(\mathbf s=\mathbf v t-\tfrac12\mathbf a t^2\), applied consistently to components. Position is \(\mathbf r=\mathbf r_0+\mathbf s\).
+
+For variable acceleration,
+\[
+\mathbf v=\frac{d\mathbf r}{dt},\qquad
+\mathbf a=\frac{d\mathbf v}{dt}=\frac{d^2\mathbf r}{dt^2},\qquad
+\mathbf r=\int\mathbf v\,dt,\quad\mathbf v=\int\mathbf a\,dt,
+\]
+where vector differentiation/integration is componentwise and initial conditions determine constant vectors. A displacement-time gradient is velocity; a velocity-time gradient is acceleration; signed area under velocity-time is displacement. Turning points in one-dimensional travel require checking where velocity changes sign. In two dimensions speed is \(\sqrt{v_x^2+v_y^2}\), and the velocity direction describes motion, while acceleration describes change in velocity.
+
+For a projectile with only uniform gravity, choose horizontal \(x\), upward \(y\), and \(\mathbf a=(0,-g)\). From \((x_0,y_0)\) with speed \(u\) at launch angle \(\theta\),
+\[
+x=x_0+u\cos\theta\,t,\quad
+y=y_0+u\sin\theta\,t-\tfrac12gt^2,
+\quad v_x=u\cos\theta,\quad v_y=u\sin\theta-gt.
+\]
+If \(u\cos\theta\ne0\), eliminating time gives
+\[
+y=y_0+(x-x_0)\tan\theta-
+\frac{g(x-x_0)^2}{2u^2\cos^2\theta}.
+\]
+The maximum occurs when \(v_y=0\), giving height rise \(u^2\sin^2\theta/(2g)\) for an upward launch. For landing at launch height, positive flight time is \(2u\sin\theta/g\) and horizontal range \(u^2\sin2\theta/g\), assuming a physically appropriate launch. A different landing height needs the vertical equation solved, selecting the positive relevant time. Determine velocity and its direction at any given time or position. The model treats the object as a particle, ignores air resistance and assumes constant gravity; this explains its limitations.
+
+Draw a separate force diagram for each body. Newton's first law says that zero resultant external force means constant velocity, including rest. For constant mass, Newton's second law is \(\sum\mathbf F=m\mathbf a\); \(\mathbf F\) denotes the resultant, not automatically one chosen force. Apply it to components. Newton's third-law pairs are equal and opposite interactions acting on different bodies, so they do not cancel on one body's diagram. Weight is \(mg\) downward; mass is not weight. Near Earth's surface use the problem's \(g\), commonly \(9.8\ \mathrm{m\,s^{-2}}\); gravity is not the same everywhere.
+
+A contact reaction is perpendicular to the surface. On a horizontal surface \(R=mg\) only when other vertical forces and vertical acceleration allow that balance. A smooth surface has no tangential friction. A rough contact has normal reaction \(R\) plus tangential friction \(F\), whose resultant magnitude is \(\sqrt{R^2+F^2}\). A supplied resistance force can be included in a straight-line Newton problem, for example upward air resistance for a falling particle; this is distinct from assuming an unprovided drag law. A light string has negligible mass, an inextensible string fixes its length, and a taut string transmits tension. A smooth light pulley supports the same tension on the two sides in the ideal model. Connected bodies constrained by a taut inextensible string have compatible accelerations. Write one equation for each body, with signs chosen consistently, and solve for tension and acceleration. Alternatively a combined-system equation cancels internal forces but cannot alone recover the tension. Loss of contact requires \(R=0\); a string cannot push and a negative tension may reveal failure of the assumed model.
+
+For an incline at angle \(\alpha\), weight resolves to \(mg\sin\alpha\) down the slope and \(mg\cos\alpha\) into it. Additional forces can alter \(R\), so \(R=mg\cos\alpha\) applies only when the remaining normal-force balance permits it. Equilibrium of a particle requires zero resultant in two independent directions. Resolve parallel/perpendicular to a plane or choose axes simplifying the forces; a closed polygon of forces gives another representation of balance. A time-dependent force in a plane can be used as \(\mathbf a(t)=\sum\mathbf F(t)/m\) and integrated with initial velocity and position.
+
+For the elementary friction model, static friction adjusts as needed within \(0\le F\le\mu R\) and opposes impending relative sliding. At limiting equilibrium \(F=\mu R\); in the course's sliding model the friction magnitude also uses \(\mu R\), opposing actual sliding. \(\mu\) is dimensionless. Do not set \(F=\mu R\) automatically for an ordinary static equilibrium. Determine the necessary friction from balance and test whether it fits the inequality. For motion along a rough incline, combine \(mg\sin\alpha\), friction, other tangential forces and \(ma\), then use the appropriate kinematics; a stop or reversal may change the friction direction and require a new phase.
+
+The moment of a force about a point has magnitude force times the perpendicular distance from that point to the force's line of action, with clockwise and anticlockwise signs chosen consistently. It is measured in \(\mathrm{N\,m}\). A force through the pivot has zero moment. A rigid body in planar static equilibrium needs both zero resultant force and zero resultant moment. Choose a moment point that removes unknown forces, then use horizontal/vertical balances for the remaining reactions. A uniform rod's weight acts at its midpoint; a rectangular lamina's weight acts at its symmetry centre. A nonuniform rod uses a specified centre of mass or one found from moment balance. Apply this to beams, rods and a ladder against a wall, accounting for each smooth/rough contact and any limiting-friction condition.
+
+What needs new teaching beyond this Mathematics A inventory
+
+The positive inventory above is broad: elementary proof, substantial single-variable calculus, numerical iteration, two-/three-dimensional component vectors, applied probability tests and planar mechanics are already available. Merely presenting an unfamiliar symbol for one of these ideas does not make the underlying operation new. Nevertheless the following are not supplied by H240 alone: complex numbers and matrices; induction; general scalar and vector products; general 3D line/plane geometry; Taylor/Maclaurin theory beyond the displayed binomial and small-angle approximations; formal epsilon-delta analysis; multivariable/partial differentiation; multiple integrals; second-order or general nonseparable ODE methods; eigenvalues; general linear algebra; probability density integration and the normal density formula; expectation/variance formulae for arbitrary random variables; Poisson and other distributions; confidence intervals; t, chi-square or other advanced tests; estimator theory; unrestricted CLT inference; mechanics work/energy/power, momentum/impulse, circular motion, rotational dynamics or deformable-body laws. Some of these are available from the separate Further Mathematics or Physics baselines, which must be combined explicitly if the learner has those subjects.
+
+H240's own narrower limits also matter: no required complex-root quadratic solving, modulus graphs beyond a linear function under a single modulus, memorised general logarithm change-of-base, integration reduction formulae, Simpson's rule, calculation of regression-line equations or PMCC, formal unbiased population-variance estimation, Bayes-formula reversal, numerical normal approximation to binomial probabilities, nonnormal-population mean tests, projectile landing on an inclined plane, resistive-projectile problems, 3D direction calculations, moment cross products or the angle of friction. These limits do not prohibit a learner deriving a result from available ideas or using a properly explained result in supplied notes. They identify what the baseline must not silently assume already learned.

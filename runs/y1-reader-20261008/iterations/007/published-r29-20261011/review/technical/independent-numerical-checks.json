@@ -1,0 +1,187 @@
+{
+  "h": 1e-05,
+  "method": "Central differences supplement the explicit derivations; not proofs. All selected points are inside relevant function and derivative domains.",
+  "checks": [
+    {
+      "prompt": "P1",
+      "x": -0.8,
+      "central_difference": -4.751135906677639,
+      "formula_value": -4.75113590640046,
+      "scaled_error": 5.833955794296187e-11,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P1",
+      "x": 0,
+      "central_difference": 0.0,
+      "formula_value": 0.0,
+      "scaled_error": 0.0,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P1",
+      "x": 0.4,
+      "central_difference": 1.7762119644881833,
+      "formula_value": 1.776211964375246,
+      "scaled_error": 6.358318567858143e-11,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P2",
+      "x": -1.2,
+      "central_difference": 0.734021586284994,
+      "formula_value": 0.7340215862639787,
+      "scaled_error": 2.1015300610827126e-11,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P2",
+      "x": 0,
+      "central_difference": 0.5000000000041667,
+      "formula_value": 0.5,
+      "scaled_error": 4.1666670114182125e-12,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P2",
+      "x": 0.9,
+      "central_difference": 0.6166710982108414,
+      "formula_value": 0.6166710982089184,
+      "scaled_error": 1.9230173009532336e-12,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P2",
+      "x": 2.5,
+      "central_difference": 5.028754812119729,
+      "formula_value": 5.028754810917414,
+      "scaled_error": 2.390879526756726e-10,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P3_local_branch",
+      "x": 1.0,
+      "central_difference": -0.7999999999896977,
+      "formula_value": -0.8,
+      "scaled_error": 1.030231455700914e-11,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P4",
+      "x": 0,
+      "central_difference": 0.0,
+      "formula_value": -0.0,
+      "scaled_error": 0.0,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P4",
+      "x": 1.5707963267948966,
+      "central_difference": -0.9999999999898845,
+      "formula_value": -1.0,
+      "scaled_error": 1.0115464021964726e-11,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P4",
+      "x": -0.8,
+      "central_difference": 0.7173560908846354,
+      "formula_value": 0.7173560908995228,
+      "scaled_error": 1.4887424626408574e-11,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P5",
+      "x": 0.2,
+      "central_difference": -0.44170820562294816,
+      "formula_value": -0.44170820520642406,
+      "scaled_error": 4.1652409299430815e-10,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P5",
+      "x": 0.36787944117144233,
+      "central_difference": -8.326672684688673e-11,
+      "formula_value": 0.0,
+      "scaled_error": 8.326672684688673e-11,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P5",
+      "x": 1,
+      "central_difference": 1.0000000000509601,
+      "formula_value": 1.0,
+      "scaled_error": 5.0960125008714385e-11,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P5",
+      "x": 2.718281828459045,
+      "central_difference": 30.308524485711526,
+      "formula_value": 30.308524482958518,
+      "scaled_error": 9.083281138913477e-11,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P6a",
+      "x": -0.4,
+      "central_difference": 3.333333337246502,
+      "formula_value": 3.333333333333334,
+      "scaled_error": 1.173950403554613e-09,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P6a",
+      "x": 0,
+      "central_difference": 2.0000000001333333,
+      "formula_value": 2.0,
+      "scaled_error": 6.66666721826914e-11,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P6a",
+      "x": 0.4,
+      "central_difference": 3.333333337246502,
+      "formula_value": 3.333333333333334,
+      "scaled_error": 1.173950403554613e-09,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P6b",
+      "x": -0.8,
+      "central_difference": 0.9543852560744969,
+      "formula_value": 0.9543852561711071,
+      "scaled_error": 9.661027533525157e-11,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P6b",
+      "x": 0,
+      "central_difference": 1.0547118733938986e-10,
+      "formula_value": 0.0,
+      "scaled_error": 1.0547118733938986e-10,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P6b",
+      "x": 0.5,
+      "central_difference": 0.7452078715775022,
+      "formula_value": 0.7452078714304607,
+      "scaled_error": 1.4704149009503453e-10,
+      "pass_tolerance_1e-7": true
+    },
+    {
+      "prompt": "P6b",
+      "x": 1,
+      "central_difference": 4.541836273741495,
+      "formula_value": 4.541836272700806,
+      "scaled_error": 2.291340440338741e-10,
+      "pass_tolerance_1e-7": true
+    }
+  ],
+  "P3_exact_slope": "-4/5",
+  "P3_tangent_check": true,
+  "P6b_at_1": 4.541836272700806,
+  "all_passed": true,
+  "max_scaled_error": 1.173950403554613e-09
+}

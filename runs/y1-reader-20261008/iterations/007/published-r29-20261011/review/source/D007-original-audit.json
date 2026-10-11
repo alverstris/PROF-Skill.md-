@@ -1,0 +1,134 @@
+{
+  "material_id": "D007",
+  "stable_id": "mit-18-01-fall-2006-L07",
+  "title": "Exam 1 review",
+  "audit_type": "Independent original-source mathematical audit; not teaching acceptance, SASIS or PROF defect finding.",
+  "inputs": "Only original-inputs/D007; canonical source identity fields used during preparation. No prior teaching, source diagnoses or reviewer findings consulted.",
+  "firewall": "Findings ROOT ONLY for post-freeze review; no fresh-author transmission before root confirms new whole freeze.",
+  "source_pdf": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D007/lec7.pdf",
+  "source_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/a30756fe9d577184f205b09bc6d6d005_lec7.pdf",
+  "source_sha256": "47316203594d35c47220c7049238045ff0a2ac73ba3292d17107f13d575f3602",
+  "page_count": 5,
+  "assigned_boundary": "Entire original lecture PDF, beginning through end, all pages.",
+  "hash_verification": "PDF and every source PNG/text derivative recomputed and matched packet identity manifest.",
+  "status": "complete_assigned_original_semantic_and_visual_audit",
+  "coverage_units": [
+    {
+      "pdf_page": 1,
+      "image_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D007/lec7-p01.png",
+      "text_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D007/lec7-p01.txt",
+      "image_sha256": "cf38e5a69e5dd2300bf90b52b69cd6ecdaf2d083412ded9643cdcf08cf025ccf",
+      "text_sha256": "11c690867bfc86462780321c0a2f505caa77a5b25de25f251a48516b67b1cd34",
+      "semantic_reading": "Complete page text and displayed equations read; independently checked within the whole assigned lecture.",
+      "visual_reading": "Full original page PNG individually inspected, including every consequential equation and diagram.",
+      "actual_extent": "Full cover page."
+    },
+    {
+      "pdf_page": 2,
+      "image_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D007/lec7-p02.png",
+      "text_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D007/lec7-p02.txt",
+      "image_sha256": "ab8e5a4e906fb9bfb67d36b2e3a7f43cc07299958b580af11ab9dc3010163094",
+      "text_sha256": "27a74a75fd3547060d476c7ea7c0d407dc01cbc840d8ce5ac9115392e73bdfb4",
+      "semantic_reading": "Complete page text and displayed equations read; independently checked within the whole assigned lecture.",
+      "visual_reading": "Full original page PNG individually inspected, including every consequential equation and diagram.",
+      "actual_extent": "Full hyperbolic definitions, derivatives, identity proof and hyperbola/circle comparison; no diagram."
+    },
+    {
+      "pdf_page": 3,
+      "image_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D007/lec7-p03.png",
+      "text_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D007/lec7-p03.txt",
+      "image_sha256": "7d1eec59afd2e832aca8b71dd686655993d5b0797ba7d341883d033440000924",
+      "text_sha256": "27f09c63bffda35d26728cc42943c742df932c786e61b1ea9f9fd011faa1f77b",
+      "semantic_reading": "Complete page text and displayed equations read; independently checked within the whole assigned lecture.",
+      "visual_reading": "Full original page PNG individually inspected, including every consequential equation and diagram.",
+      "actual_extent": "All general rules and implicit/inverse-sine derivations; no diagram."
+    },
+    {
+      "pdf_page": 4,
+      "image_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D007/lec7-p04.png",
+      "text_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D007/lec7-p04.txt",
+      "image_sha256": "4302342f410b9880ff0d5dc39f5ef5a8831fa5c1d0d1b79c5d048a303d3a6d36",
+      "text_sha256": "d8301a54d88512d039ad643d67f21e7900f162c60e5a615dad9d3621b48878ec",
+      "semantic_reading": "Complete page text and displayed equations read; independently checked within the whole assigned lecture.",
+      "visual_reading": "Full original page PNG individually inspected, including every consequential equation and diagram.",
+      "actual_extent": "All derivative-review prose, secant derivation, limits, derivative definition and both real-power proofs; no diagram."
+    },
+    {
+      "pdf_page": 5,
+      "image_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D007/lec7-p05.png",
+      "text_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D007/lec7-p05.txt",
+      "image_sha256": "f11b921f70aa92bedccdb718f7177b680a38f480fcd77f118d89e2d167a07a7c",
+      "text_sha256": "f289760af3b0812f465592dbdc1b296d419464ff547458fb15d791687399a530",
+      "semantic_reading": "Complete page text and displayed equations read; independently checked within the whole assigned lecture.",
+      "visual_reading": "Full original page PNG individually inspected, including every consequential equation and diagram.",
+      "actual_extent": "Complete final exponential-product example, including all nested parentheses and exponents; no diagram."
+    }
+  ],
+  "findings": [
+    {
+      "id": "D007-F01",
+      "kind": "source_rule_hypotheses",
+      "locator": "PDF p3 / printed p2, General Differentiation Formulas",
+      "source_claim": "Lists sum, constant multiple, product, quotient and chain rules without local hypotheses.",
+      "correction_or_qualification": "Assume the constituent functions are differentiable at the relevant points, c is constant, and v is nonzero for the quotient.",
+      "checked_deduction": "The quotient equals u times v^-1 only where v is nonzero. Chain rule requires u differentiable at x and f differentiable at u(x). Every printed algebraic rule is correct under these standard conditions."
+    },
+    {
+      "id": "D007-F02",
+      "kind": "source_implicit_domain_condition",
+      "locator": "PDF p3 / printed p2, implicit cubic example final fraction",
+      "source_claim": "Gives yprime=-3y^2/(3y^2+6xy) without discussing its zero denominator.",
+      "correction_or_qualification": "Use on a local differentiable branch with 3y^2+6xy nonzero. The source curve has a vertical tangent where this denominator vanishes.",
+      "checked_deduction": "On F=y^3+3xy^2-8=0, y cannot be0. Fy=3y(y+2x)=0 implies y=-2x and4x^3=8, hence x=cuberoot(2), y=-2cuberoot(2). Fx=3y^2 is nonzero there, so a finite yprime is impossible. Away from that point the printed formula follows exactly from Fx+Fy yprime=0."
+    },
+    {
+      "id": "D007-F03",
+      "kind": "source_inverse_branch_domain",
+      "locator": "PDF p3 / printed p2, final inverse-sine derivation",
+      "source_claim": "Concludes 1/cos(y)=1/sqrt(1-x^2) from sin(y)=x.",
+      "correction_or_qualification": "Specify principal arcsin with y in[-pi/2,pi/2] and |x|<1 for the finite derivative.",
+      "checked_deduction": "cos(y) is the positive square root on the principal interior branch. Other local inverse branches may have negative cosine; endpoints x=+/-1 have no finite ordinary derivative. Thus the displayed positive formula is correct only with the intended branch/domain."
+    },
+    {
+      "id": "D007-F04",
+      "kind": "source_real_power_domain",
+      "locator": "PDF p4 / printed p3, both real-power proofs",
+      "source_claim": "Uses x=e^(ln x), ln(f)=r ln(x), and (ln f)prime=fprime/f without stating positivity.",
+      "correction_or_qualification": "For the displayed proof take x>0 and fixed real r, so f=x^r>0. General logarithmic differentiation of a nonzero real f can use ln|f|.",
+      "checked_deduction": "Real ln(x) requires x>0. Arbitrary irrational powers have no standard real definition on a negative open interval; selected rational/integer powers can have wider domains but these logarithmic lines do not establish those cases. Both printed derivations are correct on x>0."
+    },
+    {
+      "id": "D007-F05",
+      "kind": "source_angle_unit_convention",
+      "locator": "PDF p4 / printed p3, trigonometric limit and derivative formulas",
+      "source_claim": "Uses lim sin(h)/h=1 and the unscaled trigonometric derivatives.",
+      "correction_or_qualification": "State that arguments are measured in radians.",
+      "checked_deduction": "With a degree-valued argument t, sin_degrees(t)=sin(pi t/180), so the corresponding limit and derivative acquire pi/180. The displayed formulas are correct with the standard radian convention."
+    }
+  ],
+  "independent_checks": [
+    {
+      "locator": "PDF p1",
+      "check": "Entire attribution/cover page read and visually inspected; no mathematical figure/equation."
+    },
+    {
+      "locator": "PDF p2 / printed p1",
+      "check": "Checked exponential definitions, both hyperbolic derivatives and complete expansion of cosh^2-sinh^2=1. Mixed terms reduce to(2+2)/4. Parameterization u=cosh(t),v=sinh(t) lies on the right branch u>=1 of u^2-v^2=1; the source correctly identifies the hyperbola equation and does not assert both branches are traced. Circular identity and comparison are correct."
+    },
+    {
+      "locator": "PDF p3 / printed p2",
+      "check": "Independently derived quotient from product and reciprocal chain rule. Cubic differentiation gives3y^2 yprime+3y^2+6xy yprime=0, correct. Computed exceptional vertical-tangent point and principal inverse-sine domain as recorded. No graph on this page."
+    },
+    {
+      "locator": "PDF p4 / printed p3",
+      "check": "secprime=sin(x)/cos^2(x)=tan(x)sec(x) wherever cos(x) is nonzero. The two supplied limits plus angle-addition formulas yield sinprime=cos and cosprime=-sin in radians. Difference-quotient definition is correct when the limit exists. Both real-power arguments give r x^(r-1) on x>0."
+    },
+    {
+      "locator": "PDF p5 / printed p4",
+      "check": "Product/chain differentiation of exp(x arctan x) gives exp(x arctan x)[arctan x+x/(1+x^2)], exactly as printed, for every real x. Parentheses/exponent placement confirmed in the page image. No demonstrated formula error found in this lecture."
+    }
+  ],
+  "external_verification": [],
+  "unread_limits": "No unread assigned PDF page or consequential figure/equation. No prior teaching or reviewer findings consulted. External references are limited to the explicitly listed scopes; absence of an external list means deductions were checked directly from the source mathematics.",
+  "completed_utc": "2026-10-11T22:12:01.030157+00:00"
+}

@@ -1,0 +1,11 @@
+D007 r29 teaching acceptance decision
+
+All substantive teaching, source-coverage, technical, fresh-reader and actual-destination gates pass for the unchanged four-file freeze published at 4765d39aa399a0a1ff09223cae21b15ce6c7f720. This is an acceptance decision for the checked document; corpus count advancement still follows exact outgoing-package/evidence publication and readback.
+
+Full original five-page text/image coverage, actual whole frozen baseline reading, prerequisite reconstruction, separate hints and complete reasoned solutions are evidenced in author/read-and-coverage.md, author/reconstruction.md and the original independent reports. Every finalized exercise was independently calculated before supplied answer access. The fresh SASIS agent read the complete baseline and complete teaching in order and recorded concrete warrants for all substantive passages and help. Its original corrections remain visible.
+
+All 308 expressions, whole prose, link/anchor/alt records and normal prose typography are preserved at the actual immutable GitHub destination. Root visually inspected every article portion and the actual embedded figure, and checked eight selected navigation routes. Initial recoverable site-loading failures are recorded separately. The caption referent ambiguity and readable dashed-line annotation overlap are retained as nonmaterial observations with explicit reasoning in issue-disposition.md. No confirmed material failure remains and no frozen constituent was edited.
+
+Outgoing PROF 2026-10-11-r30 changes only root version metadata. Direct 36-file comparison verifies every operative body byte and all other package files remain unchanged; the published skill-creator frontmatter validator passes. No new semantic dependency affects earlier accepted outputs; currently pending cases remain pending and must complete their own fresh generation/review. No behavior repair is invented for a clean cycle.
+
+Helper topic/full checks are mechanical consistency gates, distinct from the actual semantic and visual evidence. AI review is not evidence of human mastery, retention or a guarantee against latent defects. The fresh-context boundary is an operational whitelist and no inherited conversation, not technical isolation or erased pretraining. This cycle makes no installed-skill, user-computer or automation change.

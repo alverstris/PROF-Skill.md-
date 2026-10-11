@@ -1,0 +1,99 @@
+{
+  "reviewer": "/root/technical_d007_r29",
+  "completed_utc": "2026-10-11T22:39:35.110892+00:00",
+  "review_type": "Independent technical/source/prompt review; not SASIS",
+  "freeze_manifest_sha256": "f848e89b8c531e2c4b6e538779b90e169f6e01639ad9d297588e965248f75e22",
+  "file_checks_at_completion": [
+    {
+      "path": "teaching/figures/circle-hyperbola.png",
+      "bytes": 105599,
+      "sha256": "0a97913b20995af483fe384be00ca172ac921c2ca722693280cdd00ed9cb2126",
+      "git_blob": "4622173e30e4241e1ede76dc441b9b011eeb6fc8",
+      "matches_freeze": true
+    },
+    {
+      "path": "teaching/hints.md",
+      "bytes": 2361,
+      "sha256": "d80b7cad63ec6b575b0d567dd4f4213ec4ea77b1ff61525f479859651a659a0c",
+      "git_blob": "bee957570b6b869f703fd6a98f2429d210722520",
+      "matches_freeze": true
+    },
+    {
+      "path": "teaching/lesson.md",
+      "bytes": 19817,
+      "sha256": "fd7a5dc52b8c143c8ba392b494ac879ad2722b0231dd21b3dadb50d0eedd988d",
+      "git_blob": "71c1cc93e58f03a1d2f84519398a062190a965db",
+      "matches_freeze": true
+    },
+    {
+      "path": "teaching/solutions.md",
+      "bytes": 6309,
+      "sha256": "3716815362b8d3c4240fffeb8cc5e95dd524939a99c9d6c0b9a189976ae035de",
+      "git_blob": "5b55ac240e578efe14e81dc71c3122e2815dd00a",
+      "matches_freeze": true
+    }
+  ],
+  "read_order": [
+    {
+      "path": "teaching/lesson.md",
+      "ranges": [
+        [
+          1,
+          115
+        ],
+        [
+          116,
+          235
+        ],
+        [
+          236,
+          341
+        ]
+      ],
+      "complete": true
+    },
+    {
+      "path": "teaching/hints.md",
+      "ranges": [
+        [
+          1,
+          43
+        ]
+      ],
+      "complete": true
+    },
+    {
+      "path": "teaching/solutions.md",
+      "ranges": [
+        [
+          1,
+          149
+        ]
+      ],
+      "complete": true
+    }
+  ],
+  "figure_read": {
+    "path": "teaching/figures/circle-hyperbola.png",
+    "width": 1728,
+    "height": 768,
+    "full_canvas_inspected": true,
+    "timing": "Immediately after first lesson packet containing first reference at line 62, before second lesson packet; later original-detail request."
+  },
+  "baseline_read": "Selected ranges only; full baseline not read by this reviewer. See input-reading-identity.json.",
+  "original_source_read": "All five pages literal text and actual full-page PNGs; independently verified render/text identity.",
+  "independent_calculations_sha256": "a6d9861d89c7472af19a810ec93041c25c07562c5a38930ae43923d53245c3e2",
+  "independent_calculations_preserved": true,
+  "local_link_check": {
+    "total_links_across_files": 42,
+    "missing_file_or_anchor_targets": 0,
+    "duplicate_task_hint_solution_ids": 0,
+    "live_destination_navigation_checked": false
+  },
+  "report_path": "/workspace/scratch/f9c0b7fc7e76/d007-r29-independent-technical/frozen-whole-document-review.md",
+  "report_sha256": "f604f8de6463c9f4a336837a16ae278fa9cadb0b3dfdd4a363da56fdfd113130",
+  "status": "No confirmed material technical/source/task failure; OBS1 caption-reference ambiguity requires lead disposition; OBS2 readable annotation overlap is non-failing. Actual GitHub rendering and SASIS are separate gates.",
+  "no_teaching_edits": true,
+  "no_publication": true,
+  "other_review_findings_or_held_historical_audit_read": false
+}

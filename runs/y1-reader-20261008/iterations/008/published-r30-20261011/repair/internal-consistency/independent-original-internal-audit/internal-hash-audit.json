@@ -1,0 +1,770 @@
+{
+  "audited_utc": "2026-10-11T23:38:54.743970+00:00",
+  "parent_supplied_pin": "7cf8e4745680b2042efae1db73cb2e33665549c9",
+  "local_root": "d008-clean-r30-20261011/release-prof",
+  "scope": "Bounded check of declared internal hashes in the admitted 36 files. No remote verification, no external references fetched, no adjacent directories read.",
+  "local_package_unchanged_against_prior_seal": true,
+  "package_files_scanned_and_rehashed": 36,
+  "sha256_reference_occurrences": 65,
+  "included_target_occurrences": 34,
+  "included_target_matches": 32,
+  "included_target_mismatches": 2,
+  "external_historical_occurrences": 31,
+  "other_digest_sized_hex_literals": [
+    {
+      "file": "references/execution-research.md",
+      "values": [
+        "d813d324dbf0598bbdc9c8e79740ed01"
+      ]
+    },
+    {
+      "file": "references/sasis/ocr-baseline-20261007/year1-course-registry.json",
+      "values": [
+        "6aa4088af61c8191a4b578a4310457ae"
+      ]
+    },
+    {
+      "file": "references/sasis/profile-manifest.json",
+      "values": [
+        "6aa4088af61c8191a4b578a4310457ae"
+      ]
+    }
+  ],
+  "files_with_sha256_literals": [
+    {
+      "file": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "sha256_values": 5
+    },
+    {
+      "file": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "sha256_values": 8
+    },
+    {
+      "file": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+      "sha256_values": 1
+    },
+    {
+      "file": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "sha256_values": 12
+    },
+    {
+      "file": "references/sasis/ocr-baseline-20261007/further-maths/research-verification.txt",
+      "sha256_values": 1
+    },
+    {
+      "file": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "sha256_values": 6
+    },
+    {
+      "file": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "sha256_values": 6
+    },
+    {
+      "file": "references/sasis/profile-manifest.json",
+      "sha256_values": 26
+    }
+  ],
+  "all_references": [
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/subject_files/0/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "expected_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "target_is_included_package_file": true,
+      "actual_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/subject_files/1/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+      "expected_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "target_is_included_package_file": true,
+      "actual_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/subject_files/2/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+      "expected_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "target_is_included_package_file": true,
+      "actual_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/subject_files/3/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "expected_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "target_is_included_package_file": true,
+      "actual_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/student-baseline.txt",
+      "declared_target": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "expected_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "target_is_included_package_file": true,
+      "actual_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/student-input-cover.txt",
+      "declared_target": "references/sasis/ocr-baseline-20261007/student-input-cover.txt",
+      "expected_sha256": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+      "target_is_included_package_file": true,
+      "actual_sha256": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/release-manifest.json",
+      "declared_target": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "expected_sha256": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+      "target_is_included_package_file": true,
+      "actual_sha256": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/maths/mathematics-a-h240-baseline.txt",
+      "declared_target": "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "expected_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "target_is_included_package_file": true,
+      "actual_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/maths/research-record.md",
+      "declared_target": "references/sasis/ocr-baseline-20261007/maths/research-record.md",
+      "expected_sha256": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+      "target_is_included_package_file": true,
+      "actual_sha256": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/maths/research/lds-metadata.json",
+      "declared_target": "references/sasis/ocr-baseline-20261007/maths/research/lds-metadata.json",
+      "expected_sha256": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+      "target_is_included_package_file": true,
+      "actual_sha256": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/further-maths/baseline.txt",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+      "expected_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "target_is_included_package_file": true,
+      "actual_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/further-maths/research-verification.txt",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/research-verification.txt",
+      "expected_sha256": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+      "target_is_included_package_file": true,
+      "actual_sha256": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/further-maths/download-manifest.json",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "expected_sha256": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+      "target_is_included_package_file": true,
+      "actual_sha256": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/physics/baseline.txt",
+      "declared_target": "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+      "expected_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "target_is_included_package_file": true,
+      "actual_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/physics/research.md",
+      "declared_target": "references/sasis/ocr-baseline-20261007/physics/research.md",
+      "expected_sha256": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+      "target_is_included_package_file": true,
+      "actual_sha256": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/physics/source-manifest.json",
+      "declared_target": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "expected_sha256": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+      "target_is_included_package_file": true,
+      "actual_sha256": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/chemistry/student-baseline.txt",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "expected_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "target_is_included_package_file": true,
+      "actual_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/chemistry/research-verification.txt",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+      "expected_sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "target_is_included_package_file": true,
+      "actual_sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/chemistry/baseline-section-index.json",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/baseline-section-index.json",
+      "expected_sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "target_is_included_package_file": true,
+      "actual_sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/chemistry/freeze-manifest.json",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "expected_sha256": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+      "target_is_included_package_file": true,
+      "actual_sha256": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/chemistry/reference/download-manifest.json",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "expected_sha256": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+      "target_is_included_package_file": true,
+      "actual_sha256": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/year1-course-registry.json",
+      "declared_target": "references/sasis/ocr-baseline-20261007/year1-course-registry.json",
+      "expected_sha256": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+      "target_is_included_package_file": true,
+      "actual_sha256": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/year1-lecture-index.csv",
+      "declared_target": "references/sasis/ocr-baseline-20261007/year1-lecture-index.csv",
+      "expected_sha256": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+      "target_is_included_package_file": true,
+      "actual_sha256": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/control_file_hashes/student-role.txt",
+      "declared_target": "references/sasis/student-role.txt",
+      "expected_sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+      "target_is_included_package_file": true,
+      "actual_sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+      "status": "mismatch",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/control_file_hashes/student-testing-contract.txt",
+      "declared_target": "references/sasis/student-testing-contract.txt",
+      "expected_sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae",
+      "target_is_included_package_file": true,
+      "actual_sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+      "status": "mismatch",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/control_file_hashes/rewrite-guide.md",
+      "declared_target": "references/sasis/rewrite-guide.md",
+      "expected_sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "target_is_included_package_file": true,
+      "actual_sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "entry": "/files/0/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "expected_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "target_is_included_package_file": true,
+      "actual_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "entry": "/files/1/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.md",
+      "expected_sha256": "502037a12a302f526da01b4290a8f2ebcc0d708a959fb60919234640e53c1dfe",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "entry": "/files/2/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/baseline-section-index.json",
+      "expected_sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "target_is_included_package_file": true,
+      "actual_sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "entry": "/files/3/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+      "expected_sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "target_is_included_package_file": true,
+      "actual_sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "entry": "/files/4/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.md",
+      "expected_sha256": "163c117efdf67ecd6e5e70beebbaa5a0c6315b5ab4616e2848642d598e72e8c2",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "entry": "/0/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/reference/chemistry-mathematical-handbook.pdf",
+      "expected_sha256": "aad6186690ed290d9f424db5492e7279b46e6adea72471a10d7f8c424a59bc9f",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "entry": "/1/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/reference/chemistry-practical-handbook.pdf",
+      "expected_sha256": "3e38cfae43c9fbf2b66f42a1b8f234fb5565a0323e1c679847b633e4fa457aa7",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "entry": "/2/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/reference/h432-01-2025-examiners-report.pdf",
+      "expected_sha256": "738964fcf240658b4021777c79479ad8856c07e193a47e1ad171766f4e37a1ad",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "entry": "/3/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/reference/h432-02-2025-examiners-report.pdf",
+      "expected_sha256": "fb808075fab44dabc6b1e5beee44624cd06f9a9506a1a3c2dcc9ac14700fce78",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "entry": "/4/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/reference/h432-03-2025-examiners-report.pdf",
+      "expected_sha256": "63432cf8bc74f854b515d51cad253b0a7bda246994a08301458f4849c06fc905",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "entry": "/5/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/reference/h432-data-sheet.pdf",
+      "expected_sha256": "1394b6309479089d0022194daf0bc116a3d87f3f4ff3160280fab2b2a1dbc46a",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "entry": "/6/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/reference/h432-specification-current.pdf",
+      "expected_sha256": "83d7a5c69b585fdae3bbffe223b3cd9c9fca03086c87308cdba17964adf43245",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "entry": "/7/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/reference/inorganic-colours-poster.pdf",
+      "expected_sha256": "6b6c6d2007c661f03c887cf67a41971e11f7efc2fa047e771ed9ff026092a6ec",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "entry": "/0/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/formulae-2025.pdf",
+      "expected_sha256": "f4d026ae4719f90f7d2c0b955d67c668160ff939e01b1336c9ad9a5f4dea23a2",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "entry": "/1/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/H245-specification.pdf",
+      "expected_sha256": "61fb7eddcbf337a3094fb2312e073fcede1fc6fcd8925bc0be562c5007538459",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "entry": "/2/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/Y540-mark-2025.pdf",
+      "expected_sha256": "dab3b71af9e0f0cfaba016ce26066777bd441a417a457252b2443372fa9ad67c",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "entry": "/3/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/Y540-question-2025.pdf",
+      "expected_sha256": "3a1d4339a1c929741e21d5db420f142bf4e6d4aec9ae99672587e31823e378e4",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "entry": "/4/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/Y540-report-2025.pdf",
+      "expected_sha256": "da5dea3e55003709a982da5d773f233af88dd10962290d6fc06d0532a04b1bba",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "entry": "/5/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/Y541-mark-2025.pdf",
+      "expected_sha256": "5e7ffa37b99c0ff318589226b5a357796f67640af06a440da28ada927e231e97",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "entry": "/6/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/Y541-question-2025.pdf",
+      "expected_sha256": "2681d4552c05d9022a1b05bcf9033b56fb099287b8afc12e4abb995856a55fcb",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "entry": "/7/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/Y542-question-2025.pdf",
+      "expected_sha256": "b29e9372e9fb4e679785e9b84b77880a4787cad3d735b8a6c2015f575b5841b6",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "entry": "/8/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/Y542-report-2025.pdf",
+      "expected_sha256": "b5a89c588b6fe368a80602b409c07989d05c10396d746c6978f1cc32ea7a71a4",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "entry": "/9/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/Y543-mark-2025.pdf",
+      "expected_sha256": "b9db596bade3eadffaa8161f2e0219d510a51fec11c6a075430cc801798614e0",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "entry": "/10/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/Y543-question-2025.pdf",
+      "expected_sha256": "b896c2fcb13d43ac94ae2d5a38b71b198411aee4aa051a6cecda32d1badc1bf4",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "entry": "/11/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/Y543-report-2025.pdf",
+      "expected_sha256": "c24d8ba8306f9529400324382857cdd5d5b64e48ab96f2cff7bc2ead8a2d7415",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "entry": "/documents/0/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/physics/h556-spec-current.pdf",
+      "expected_sha256": "c41f1603b7948c5dad4dfd9ae7b65547eb3ce47d283d9ebc58c9e1e3469e14c7",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "entry": "/documents/1/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/physics/physics-a-formula-booklet-2025.pdf",
+      "expected_sha256": "7bedec02d25969eef23cfb03517ae15cd0f0677b22d19d50eaf854fd80d9caab",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "entry": "/documents/2/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/physics/physics-practical-handbook-2026.pdf",
+      "expected_sha256": "cd49ffb20d97fc18e49c04f085642899ebbdcf0e8cae5c90764da22555ebbb02",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "entry": "/documents/3/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/physics/physics-mathematical-handbook-2026.pdf",
+      "expected_sha256": "c3deaae2b0d8755c7210b7940b14c3e976fd40259d339e647f724b17d17c8e07",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "entry": "/documents/4/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/physics/h556-03-examiner-report-2025.pdf",
+      "expected_sha256": "43a25417f9fb2c70b62edff844e5b8846aa6c5a1bcb9e9dfb30ca6503707e4df",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "entry": "/documents/5/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/physics/h556-03-mark-scheme-2025.pdf",
+      "expected_sha256": "0d7afe46041ce8485917eb210a6be5b34924a1c2c2d37d713ddf0e8afb5d87e5",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "entry": "/subjects/0/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "expected_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "target_is_included_package_file": true,
+      "actual_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "entry": "/subjects/1/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+      "expected_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "target_is_included_package_file": true,
+      "actual_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "entry": "/subjects/2/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+      "expected_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "target_is_included_package_file": true,
+      "actual_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "entry": "/subjects/3/sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "expected_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "target_is_included_package_file": true,
+      "actual_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "entry": "/combined_baseline_sha256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "expected_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "target_is_included_package_file": true,
+      "actual_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "status": "match",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "entry": "/archive_sha256",
+      "declared_target": "historical five-member baseline release ZIP (not included or named in current package)",
+      "expected_sha256": "7d0a6a69d7300810d5d997b177ed2ddaf014593e1762b90ea4fc85f430ad60f6",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Historical archive checksum; the current profile provenance explicitly says the earlier release ZIP is not bundled."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+      "entry": "line 11, local verification PDF SHA-256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/chemistry/reference/h432-specification-current.pdf",
+      "expected_sha256": "83d7a5c69b585fdae3bbffe223b3cd9c9fca03086c87308cdba17964adf43245",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/further-maths/research-verification.txt",
+      "entry": "line 11, local verification PDF SHA-256",
+      "declared_target": "references/sasis/ocr-baseline-20261007/further-maths/sources/H245-specification.pdf",
+      "expected_sha256": "61fb7eddcbf337a3094fb2312e073fcede1fc6fcd8925bc0be562c5007538459",
+      "target_is_included_package_file": false,
+      "actual_sha256": null,
+      "status": "external_or_historical_reference_not_bundled",
+      "scope_reason": "Reference describes original downloaded research/cache/release material outside the bundled package; no external file accessed."
+    }
+  ],
+  "mismatches": [
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/control_file_hashes/student-role.txt",
+      "declared_target": "references/sasis/student-role.txt",
+      "expected_sha256": "3dd6e341ca5e22d24d54a3377569e52062ef0f6cfbc54b169fc8d8ccd6de4469",
+      "target_is_included_package_file": true,
+      "actual_sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+      "status": "mismatch",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    },
+    {
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/control_file_hashes/student-testing-contract.txt",
+      "declared_target": "references/sasis/student-testing-contract.txt",
+      "expected_sha256": "d87ddbf9593386b39a6fe7a5bf6a27548fb12bbf528802af4421212cc05b46ae",
+      "target_is_included_package_file": true,
+      "actual_sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+      "status": "mismatch",
+      "scope_reason": "Reference resolves to a file in the exact 36-file admitted package."
+    }
+  ],
+  "access_record": {
+    "structured_metadata_read_fully": [
+      "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "references/sasis/ocr-baseline-20261007/release-manifest.json"
+    ],
+    "research_prose_read_ranges": [
+      {
+        "file": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+        "lines_inclusive": [
+          1,
+          15
+        ],
+        "purpose": "Bounded context for line 11 PDF hash declaration"
+      },
+      {
+        "file": "references/sasis/ocr-baseline-20261007/further-maths/research-verification.txt",
+        "lines_inclusive": [
+          1,
+          15
+        ],
+        "purpose": "Bounded context for line 11 PDF hash declaration"
+      }
+    ],
+    "remaining_package_files": "Programmatically scanned for hash literals/metadata only; no unrelated teaching/review history semantically inspected."
+  },
+  "next_step": "Await corrected publication pin and explicit admission before prompts; preserve existing seals unchanged."
+}

@@ -428,8 +428,8 @@
       "session_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/",
       "material_kinds": "notes",
       "selection_evidence": "Official lecture-notes index labels row 7: Exam 1 review and links its lecture-specific PDF.",
-      "status": "closed",
-      "source_access": "All five original source texts and full page images fully read by source reviewer, fresh author and parent. Complete final source/math, author evidence, actual destination and fresh two-input reader reviews accepted; verified r14 phase-A publication and ready final state recorded in iterations/007.",
+      "status": "pending",
+      "source_access": "Original lecture source remains readable; prior acceptance is reopened by the actual-destination regression evidence. Fresh full generation under verified PROF r29 and all final audits required.",
       "required_portions": "all assigned lecture assets; resolve exact asset URLs before authoring",
       "evidence": [
         "iterations/007/source-review.md",
@@ -452,7 +452,9 @@
         "iterations/007/publication-main-phase-a.json",
         "iterations/007/state-evidence-final-v3/full-check-phase-b.json",
         "iterations/007/dependency-review-v3.md",
-        "iterations/007/closure.md"
+        "iterations/007/closure.md",
+        "iterations/018/published-r28-20261011/evidence/earlier-rendering/live-target-comparison.md",
+        "iterations/018/published-r28-20261011/evidence/root-reports/root-regression-review.md"
       ],
       "material_id": "D007",
       "readability": {
@@ -484,18 +486,48 @@
       "activation": "iterations/007/activation.json",
       "current_teaching": "iterations/007/revised-v3/teaching-v3.md",
       "current_review_status": {
-        "parent_technical": "complete",
-        "destination": "bounded pass; live client unobserved",
-        "fresh_reader": "complete and admitted; no established consequential teaching defect",
-        "reader_agent": "/root/sasis_d007_v3_fresh",
-        "iteration_closure": "closed after verified phase-A publication; closure checkpoint requires final readback"
+        "destination": "fail: actual live mathematical content loss",
+        "iteration_closure": "reopened; historical closure evidence retained",
+        "required_next": "fresh complete generation after verified PROF repair"
       },
       "current_frozen_commit": "2c0a49dff10d407296675a9d52a2d664be1bb0f0",
       "incoming_prof": "2026-10-08-r13",
       "outgoing_prof": "2026-10-08-r14",
       "document_revision": "r13-v3",
       "document_commit": "2c0a49dff10d407296675a9d52a2d664be1bb0f0",
-      "final_document_sha256": "6dc2823d9f931c1baaa6eb4ce5076ed2aef1859ba29255d5503eed627824ae54"
+      "final_document_sha256": "6dc2823d9f931c1baaa6eb4ce5076ed2aef1859ba29255d5503eed627824ae54",
+      "reopening_history": [
+        {
+          "date": "2026-10-11",
+          "previous_state": {
+            "status": "closed",
+            "source_access": "All five original source texts and full page images fully read by source reviewer, fresh author and parent. Complete final source/math, author evidence, actual destination and fresh two-input reader reviews accepted; verified r14 phase-A publication and ready final state recorded in iterations/007.",
+            "current_review_status": {
+              "parent_technical": "complete",
+              "destination": "bounded pass; live client unobserved",
+              "fresh_reader": "complete and admitted; no established consequential teaching defect",
+              "reader_agent": "/root/sasis_d007_v3_fresh",
+              "iteration_closure": "closed after verified phase-A publication; closure checkpoint requires final readback"
+            }
+          },
+          "reason": "Verified actual GitHub destination loses mathematical operands/comparisons in the frozen accepted generation. Earlier server payload evidence did not establish client preservation.",
+          "evidence": [
+            "iterations/018/published-r28-20261011/evidence/earlier-rendering/live-target-comparison.md",
+            "iterations/018/published-r28-20261011/evidence/root-reports/root-regression-review.md",
+            "iterations/018/published-r28-20261011/evidence/earlier-dependency-review.zip",
+            "iterations/018/published-r28-20261011/evidence/root-review-d018-r28.zip"
+          ],
+          "repair_package": "2026-10-11-r29",
+          "verified_package_commit": "3f7066cd66e517a655ad7dce9b54cd3816655440"
+        }
+      ],
+      "current_iteration": {
+        "state": "reopened_pending_fresh_generation",
+        "incoming_prof": "2026-10-11-r29",
+        "verified_package_commit": "3f7066cd66e517a655ad7dce9b54cd3816655440",
+        "evidence": "iterations/018/published-r28-20261011/evidence/earlier-rendering/live-target-comparison.md",
+        "next_action": "Fresh author using only current published package, full frozen baseline and original source; no prior teaching or findings before complete freeze."
+      }
     },
     {
       "order": 8,
@@ -508,8 +540,8 @@
       "session_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/",
       "material_kinds": "notes",
       "selection_evidence": "Official lecture-notes index labels row 9: Linear and quadratic approximations and links its lecture-specific PDF.",
-      "status": "closed",
-      "source_access": "All7 original PDF texts and full page images read; fresh r15 author, independent root technical review, admitted final two-input SASIS and bounded destination/full internal preview accepted. Verified phase-A publication and ready final state recorded in iterations/008.",
+      "status": "pending",
+      "source_access": "Original lecture source remains readable; prior acceptance is reopened by the actual-destination regression evidence. Fresh full generation under verified PROF r29 and all final audits required.",
       "required_portions": "all assigned lecture assets; resolve exact asset URLs before authoring",
       "evidence": [
         "iterations/008/lead-source-review.json",
@@ -527,7 +559,9 @@
         "iterations/008/acceptance-r15.md",
         "iterations/008/publication-phase-a-r15.json",
         "iterations/008/state-reconciliation-r15/full-check-phase-b.json",
-        "iterations/008/closure.md"
+        "iterations/008/closure.md",
+        "iterations/018/published-r28-20261011/evidence/earlier-rendering/live-target-comparison.md",
+        "iterations/018/published-r28-20261011/evidence/root-reports/root-regression-review.md"
       ],
       "material_id": "D008",
       "readability": {
@@ -565,11 +599,41 @@
       "document_commit": "a6b7aaaf2ded04bb6b0c2da2528234d36ca2f6d4",
       "final_document_sha256": "b6e93b986e2a77763c556a4b5fc5cb42f43269742d0af9bd06021d7aa3ad7668",
       "current_review_status": {
-        "parent_technical": "complete",
-        "destination": "bounded pass; live client unobserved",
-        "fresh_reader": "complete and admitted; no established teaching defect",
-        "reader_agent": "/root/sasis_d008_r15_v2_fresh",
-        "iteration_closure": "closed after verified phase-A publication; closure checkpoint requires final readback"
+        "destination": "fail: actual live mathematical content loss",
+        "iteration_closure": "reopened; historical closure evidence retained",
+        "required_next": "fresh complete generation after verified PROF repair"
+      },
+      "reopening_history": [
+        {
+          "date": "2026-10-11",
+          "previous_state": {
+            "status": "closed",
+            "source_access": "All7 original PDF texts and full page images read; fresh r15 author, independent root technical review, admitted final two-input SASIS and bounded destination/full internal preview accepted. Verified phase-A publication and ready final state recorded in iterations/008.",
+            "current_review_status": {
+              "parent_technical": "complete",
+              "destination": "bounded pass; live client unobserved",
+              "fresh_reader": "complete and admitted; no established teaching defect",
+              "reader_agent": "/root/sasis_d008_r15_v2_fresh",
+              "iteration_closure": "closed after verified phase-A publication; closure checkpoint requires final readback"
+            }
+          },
+          "reason": "Verified actual GitHub destination loses mathematical operands/comparisons in the frozen accepted generation. Earlier server payload evidence did not establish client preservation.",
+          "evidence": [
+            "iterations/018/published-r28-20261011/evidence/earlier-rendering/live-target-comparison.md",
+            "iterations/018/published-r28-20261011/evidence/root-reports/root-regression-review.md",
+            "iterations/018/published-r28-20261011/evidence/earlier-dependency-review.zip",
+            "iterations/018/published-r28-20261011/evidence/root-review-d018-r28.zip"
+          ],
+          "repair_package": "2026-10-11-r29",
+          "verified_package_commit": "3f7066cd66e517a655ad7dce9b54cd3816655440"
+        }
+      ],
+      "current_iteration": {
+        "state": "reopened_pending_fresh_generation",
+        "incoming_prof": "2026-10-11-r29",
+        "verified_package_commit": "3f7066cd66e517a655ad7dce9b54cd3816655440",
+        "evidence": "iterations/018/published-r28-20261011/evidence/earlier-rendering/live-target-comparison.md",
+        "next_action": "Fresh author using only current published package, full frozen baseline and original source; no prior teaching or findings before complete freeze."
       }
     },
     {
@@ -791,8 +855,8 @@
       "session_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/",
       "material_kinds": "notes",
       "selection_evidence": "Official lecture-notes index labels row 14: Mean value theorem Inequalities and links its lecture-specific PDF.",
-      "status": "closed",
-      "source_access": "All five original PDF text/page images and three consequential figures independently read; current-r19 complete source, technical, teaching and final evidence verified.",
+      "status": "pending",
+      "source_access": "Original lecture source remains readable; prior acceptance is reopened by the actual-destination regression evidence. Fresh full generation under verified PROF r29 and all final audits required.",
       "required_portions": "all assigned lecture assets; resolve exact asset URLs before authoring",
       "evidence": [
         "iterations/013/closure.md",
@@ -800,7 +864,9 @@
         "iterations/013/current-r19/root-sasis-v2-disposition.md",
         "iterations/013/current-r19/root-destination-v2-disposition.md",
         "iterations/013/current-r19/publication-readback-r20.json",
-        "iterations/013/current-r19/root-final-helper-checks.json"
+        "iterations/013/current-r19/root-final-helper-checks.json",
+        "iterations/018/published-r28-20261011/evidence/earlier-rendering/live-target-comparison.md",
+        "iterations/018/published-r28-20261011/evidence/root-reports/root-regression-review.md"
       ],
       "material_id": "D013",
       "readability": {
@@ -829,7 +895,37 @@
       },
       "incoming_prof": "2026-10-09-r19",
       "outgoing_prof": "2026-10-09-r20",
-      "published_commit": "bce9b1117bb377e65c1dbbeb5d0b253be3eb3bdb"
+      "published_commit": "bce9b1117bb377e65c1dbbeb5d0b253be3eb3bdb",
+      "reopening_history": [
+        {
+          "date": "2026-10-11",
+          "previous_state": {
+            "status": "closed",
+            "source_access": "All five original PDF text/page images and three consequential figures independently read; current-r19 complete source, technical, teaching and final evidence verified."
+          },
+          "reason": "Verified actual GitHub destination loses mathematical operands/comparisons in the frozen accepted generation. Earlier server payload evidence did not establish client preservation.",
+          "evidence": [
+            "iterations/018/published-r28-20261011/evidence/earlier-rendering/live-target-comparison.md",
+            "iterations/018/published-r28-20261011/evidence/root-reports/root-regression-review.md",
+            "iterations/018/published-r28-20261011/evidence/earlier-dependency-review.zip",
+            "iterations/018/published-r28-20261011/evidence/root-review-d018-r28.zip"
+          ],
+          "repair_package": "2026-10-11-r29",
+          "verified_package_commit": "3f7066cd66e517a655ad7dce9b54cd3816655440"
+        }
+      ],
+      "current_review_status": {
+        "destination": "fail: actual live mathematical content loss",
+        "iteration_closure": "reopened; historical closure evidence retained",
+        "required_next": "fresh complete generation after verified PROF repair"
+      },
+      "current_iteration": {
+        "state": "reopened_pending_fresh_generation",
+        "incoming_prof": "2026-10-11-r29",
+        "verified_package_commit": "3f7066cd66e517a655ad7dce9b54cd3816655440",
+        "evidence": "iterations/018/published-r28-20261011/evidence/earlier-rendering/live-target-comparison.md",
+        "next_action": "Fresh author using only current published package, full frozen baseline and original source; no prior teaching or findings before complete freeze."
+      }
     },
     {
       "order": 14,
@@ -893,8 +989,8 @@
       "session_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/",
       "material_kinds": "notes",
       "selection_evidence": "Official lecture-notes index labels row 16: Differential equations, separation of variables and links its lecture-specific PDF.",
-      "status": "closed",
-      "source_access": "All five original PDF text/page images and three figures independently read; complete source, mathematics, author, fresh whole-input reader, actual destination and final-document evidence accepted.",
+      "status": "pending",
+      "source_access": "Original lecture source remains readable; prior acceptance is reopened by the actual-destination regression evidence. Fresh full generation under verified PROF r29 and all final audits required.",
       "required_portions": "all assigned lecture assets; resolve exact asset URLs before authoring",
       "evidence": [
         "iterations/015/closure.md",
@@ -902,7 +998,9 @@
         "iterations/015/current-r21/root-sasis-v2-disposition.md",
         "iterations/015/current-r21/root-destination-v2-disposition.md",
         "iterations/015/current-r21/publication-readback-r22.json",
-        "iterations/015/current-r21/root-final-helper-checks.json"
+        "iterations/015/current-r21/root-final-helper-checks.json",
+        "iterations/018/published-r28-20261011/evidence/earlier-rendering/live-target-comparison.md",
+        "iterations/018/published-r28-20261011/evidence/root-reports/root-regression-review.md"
       ],
       "material_id": "D015",
       "readability": {
@@ -931,7 +1029,37 @@
       },
       "incoming_prof": "2026-10-09-r21",
       "outgoing_prof": "2026-10-09-r22",
-      "published_commit": "1371453b7a6bdc978bfdfcda6a744e6d62165bd2"
+      "published_commit": "1371453b7a6bdc978bfdfcda6a744e6d62165bd2",
+      "reopening_history": [
+        {
+          "date": "2026-10-11",
+          "previous_state": {
+            "status": "closed",
+            "source_access": "All five original PDF text/page images and three figures independently read; complete source, mathematics, author, fresh whole-input reader, actual destination and final-document evidence accepted."
+          },
+          "reason": "Verified actual GitHub destination loses mathematical operands/comparisons in the frozen accepted generation. Earlier server payload evidence did not establish client preservation.",
+          "evidence": [
+            "iterations/018/published-r28-20261011/evidence/earlier-rendering/live-target-comparison.md",
+            "iterations/018/published-r28-20261011/evidence/root-reports/root-regression-review.md",
+            "iterations/018/published-r28-20261011/evidence/earlier-dependency-review.zip",
+            "iterations/018/published-r28-20261011/evidence/root-review-d018-r28.zip"
+          ],
+          "repair_package": "2026-10-11-r29",
+          "verified_package_commit": "3f7066cd66e517a655ad7dce9b54cd3816655440"
+        }
+      ],
+      "current_review_status": {
+        "destination": "fail: actual live mathematical content loss",
+        "iteration_closure": "reopened; historical closure evidence retained",
+        "required_next": "fresh complete generation after verified PROF repair"
+      },
+      "current_iteration": {
+        "state": "reopened_pending_fresh_generation",
+        "incoming_prof": "2026-10-11-r29",
+        "verified_package_commit": "3f7066cd66e517a655ad7dce9b54cd3816655440",
+        "evidence": "iterations/018/published-r28-20261011/evidence/earlier-rendering/live-target-comparison.md",
+        "next_action": "Fresh author using only current published package, full frozen baseline and original source; no prior teaching or findings before complete freeze."
+      }
     },
     {
       "order": 16,
@@ -1149,9 +1277,17 @@
       "material_kinds": "notes",
       "selection_evidence": "Official lecture-notes index labels row 20: Second fundamental theorem and links its lecture-specific PDF.",
       "status": "pending",
-      "source_access": "Complete required source text and original page images inspected by source reviewer; see source_preparation. No teaching iteration completed.",
+      "source_access": "Complete original source, full baseline and frozen teaching audited. Current r28 generation failed actual destination preservation and local condition/warrant checks; frozen files and original reports remain unchanged. Fresh full generation under published repaired PROF is required after earlier reopened material.",
       "required_portions": "all assigned lecture assets; resolve exact asset URLs before authoring",
-      "evidence": [],
+      "evidence": [
+        "iterations/018/published-r28-20261011/evidence/coordinator-disposition.md",
+        "iterations/018/published-r28-20261011/evidence/sasis-report.txt",
+        "iterations/018/published-r28-20261011/evidence/sasis-access.json",
+        "iterations/018/published-r28-20261011/evidence/technical/independent-review.md",
+        "iterations/018/published-r28-20261011/evidence/technical/sasis-concerns-disposition.md",
+        "iterations/018/published-r28-20261011/evidence/root-reports/root-destination-review.md",
+        "iterations/018/published-r28-20261011/evidence/repair/complete-package-manifest.json"
+      ],
       "material_id": "D018",
       "readability": {
         "material_id": "D018",
@@ -1176,6 +1312,19 @@
           "iterations/018/source-map.json"
         ],
         "next_document_authored": false
+      },
+      "incoming_prof": "2026-10-11-r28",
+      "outgoing_prof": "2026-10-11-r29",
+      "published_commit": "3f7066cd66e517a655ad7dce9b54cd3816655440",
+      "current_iteration": {
+        "state": "failed_generation_pending_fresh_regeneration",
+        "incoming_prof": "2026-10-11-r28",
+        "outgoing_prof": "2026-10-11-r29",
+        "verified_package_commit": "3f7066cd66e517a655ad7dce9b54cd3816655440",
+        "frozen_commit": "f8f76d0775051896326fb400ec5782bf1d954971",
+        "frozen_teaching_sha256": "4970a5ae04a73cca02eb62a20de8b5eab8d225c6b9ceb22eee44ec6a6408873c",
+        "evidence": "iterations/018/published-r28-20261011/evidence/coordinator-disposition.md",
+        "next_action": "Finish earlier reopened D007,D008,D013,D015, then regenerate complete D018 afresh."
       }
     },
     {
@@ -6158,7 +6307,7 @@
     "selection_manifest": "readability-selection.json",
     "eligible": 76,
     "excluded": 71,
-    "closed": 17,
+    "closed": 13,
     "active_session_ids": [
       "mit-18-01-fall-2006-L01",
       "mit-18-01-fall-2006-L02",
@@ -6237,6 +6386,7 @@
       "mit-8-022-fall2004-L26",
       "mit-8-022-fall2004-L28"
     ],
-    "remaining": 59
-  }
+    "remaining": 63
+  },
+  "active_material_id": "D007"
 }

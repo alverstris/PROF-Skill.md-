@@ -1,3 +1,9 @@
+2026-10-11 — PROF 2026-10-11-r29
+
+Verified release 3f7066cd66e517a655ad7dce9b54cd3816655440 repairs operation-existence hypotheses, finite-approximation versus limit warrants, and actual GitHub mathematics preservation: complete source inventory, all error/raw slots, comparisons across payload types, supported function-name syntax and display help outside unverified disclosure containers. Only two operative files change; 34 package files remain exact. Full original evidence and targeted positive/negative fixture results are retained. D018 is not accepted. Current live comparison loss reopens D007/D008/D013/D015, giving 13 accepted and 63 remaining; D007 is next. All 147 IDs and 71 exclusions are retained. No frozen teaching edits or installed/user-computer/schedule changes.
+
+Earlier entries follow unchanged.
+
 ## 2026-10-11 — D017 accepted; metadata-only PROF r28 verified
 
 The complete first r27 generation remained unchanged through full original SASIS, independent source/mathematics/PROF, actual GitHub destination and current topic/full state checks. All 248 expressions, both figures, normal prose and every 34 local content link pass. All 120 release paths and the complete 36-file current root package were fetched back exactly from 70ddebfbfa52e9ec57043e493fff9c01aba5f9f6. No material failure or operative rule change was invented; r28 changes version metadata only. Queue advances to 17/76 accepted and 59 remaining while preserving all 147 IDs and 71 exclusions. D018 is next after closure readback. Root's two opaque original-source audit archive files were preserved separately with no acceptance/count consequence.

@@ -1,3 +1,13 @@
+PROF r29 verified; four earlier cases reopened, 2026-10-11
+
+Release 3f7066cd66e517a655ad7dce9b54cd3816655440 was fetched and read back exactly: all 80 intended paths and all 36 root-package files match. Only SKILL.md and references/execution-protocol.md change; 34 package files and all frozen D018 teaching constituents remain unchanged. Complete evidence is under iterations/018/published-r28-20261011/evidence/, including the original SASIS/technical reports, settled actual-destination comparison, failed helper state, repair rationale and publication receipts.
+
+D018 remains pending. Actual GitHub regression checks also reopen D007, D008, D013 and D015; their old teaching and closure evidence remain unchanged. Current counts are 13 accepted, 63 remaining, 76 eligible, 71 excluded, with all 147 original IDs/order preserved. Next: fresh D007 using verified published r29, the complete frozen baseline and original five-page Lecture 7 packet. Then follow the eligible pending queue. No prior teaching, findings, reports, raw queue/RUN or source-audit archives enter the fresh author context before its entire teaching is frozen. Publication is not acceptance.
+
+The closing D018 coordinator retains sole GitHub publication ownership until this checkpoint is read back and a fresh successor is explicitly assigned. Root supplies actual-destination review. Continue the whole authorized corpus; no installed-skill, user-computer or automation changes.
+
+Earlier dated records follow unchanged.
+
 D017 closure verified; fresh D018 continues under PROF r28, 2026-10-11
 
 Release 70ddebfbfa52e9ec57043e493fff9c01aba5f9f6 and closure checkpoint 49eba459feb990ffaff530d99e2719066722ab05 were fetched back and exactly verified: all 120 release files, all 36 root-package files and all seven closure files. See iterations/017/published-r27-20261011/closure-20261011/closure-publication-receipt.json and phase-b-verification.json.

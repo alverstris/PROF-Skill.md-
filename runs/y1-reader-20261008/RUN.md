@@ -1,3 +1,11 @@
+PROF r29 and reopening checkpoint verified; fresh D007 next, 2026-10-11
+
+The complete repair release 3f7066cd66e517a655ad7dce9b54cd3816655440 and progress checkpoint daab62351889f165af744acbf5af77e481912cc1 were fetched and read back: all 80 release files, all seven progress files, and all 36 current root-package files match exact bytes. Independent root readbacks confirm both package and queue. See iterations/018/published-r28-20261011/evidence/repair/repair-publication-receipt.json and phase-a/phase-b verification records.
+
+Current verified counts: 13 accepted, 63 remaining, 76 eligible, 71 excluded, all 147 original IDs/order retained. D007 is active; D008 is next pending. Start the fresh coordinator from the original-only clean packet and operational handover after this final receipt is verified. Continue the complete corpus with sole publication ownership transferred explicitly. No installed-skill, user-computer or automation changes.
+
+Earlier dated records follow unchanged.
+
 PROF r29 verified; four earlier cases reopened, 2026-10-11
 
 Release 3f7066cd66e517a655ad7dce9b54cd3816655440 was fetched and read back exactly: all 80 intended paths and all 36 root-package files match. Only SKILL.md and references/execution-protocol.md change; 34 package files and all frozen D018 teaching constituents remain unchanged. Complete evidence is under iterations/018/published-r28-20261011/evidence/, including the original SASIS/technical reports, settled actual-destination comparison, failed helper state, repair rationale and publication receipts.

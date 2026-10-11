@@ -1,0 +1,159 @@
+{
+  "checks": [
+    {
+      "case": "P1",
+      "x": -0.8,
+      "numeric_derivative": -4.751135906677639,
+      "formula": -4.75113590640046,
+      "absolute_error": 2.771791685063363e-10
+    },
+    {
+      "case": "P1",
+      "x": 0,
+      "numeric_derivative": 0.0,
+      "formula": 0.0,
+      "absolute_error": 0.0
+    },
+    {
+      "case": "P1",
+      "x": 0.6,
+      "numeric_derivative": 3.018922711006677,
+      "formula": 3.018922710824345,
+      "absolute_error": 1.8233192733418946e-10
+    },
+    {
+      "case": "P2",
+      "x": -1,
+      "numeric_derivative": 0.6492232052179858,
+      "formula": 0.6492232052047624,
+      "absolute_error": 1.322342235710039e-11
+    },
+    {
+      "case": "P2",
+      "x": 0,
+      "numeric_derivative": 0.5000000000041667,
+      "formula": 0.5,
+      "absolute_error": 4.1666670114182125e-12
+    },
+    {
+      "case": "P2",
+      "x": 1.3,
+      "numeric_derivative": 0.7889553642559387,
+      "formula": 0.7889553642310969,
+      "absolute_error": 2.484179528750019e-11
+    },
+    {
+      "case": "P4",
+      "x": -0.7,
+      "numeric_derivative": 0.6442176872234473,
+      "formula": 0.644217687237691,
+      "absolute_error": 1.4243717316730908e-11
+    },
+    {
+      "case": "P4",
+      "x": 0,
+      "numeric_derivative": 0.0,
+      "formula": -0.0,
+      "absolute_error": 0.0
+    },
+    {
+      "case": "P4",
+      "x": 1.2,
+      "numeric_derivative": -0.9320390859574034,
+      "formula": -0.9320390859672263,
+      "absolute_error": 9.822920254975998e-12
+    },
+    {
+      "case": "P5",
+      "x": 0.4,
+      "numeric_derivative": 0.05802264745891072,
+      "formula": 0.05802264752572093,
+      "absolute_error": 6.681021014198762e-11
+    },
+    {
+      "case": "P5",
+      "x": 1,
+      "numeric_derivative": 1.0000000000509601,
+      "formula": 1.0,
+      "absolute_error": 5.0960125008714385e-11
+    },
+    {
+      "case": "P5",
+      "x": 2.718281828459045,
+      "numeric_derivative": 30.308524485711526,
+      "formula": 30.308524482958518,
+      "absolute_error": 2.7530084878435446e-09
+    },
+    {
+      "case": "P6a",
+      "x": -0.3,
+      "numeric_derivative": 2.5000000007047163,
+      "formula": 2.5,
+      "absolute_error": 7.047162853268674e-10
+    },
+    {
+      "case": "P6a",
+      "x": 0,
+      "numeric_derivative": 2.0000000001333333,
+      "formula": 2.0,
+      "absolute_error": 1.333333443653828e-10
+    },
+    {
+      "case": "P6a",
+      "x": 0.4,
+      "numeric_derivative": 3.333333337246502,
+      "formula": 3.333333333333334,
+      "absolute_error": 3.913168011848711e-09
+    },
+    {
+      "case": "P6b",
+      "x": -0.6,
+      "numeric_derivative": 0.7517576961213467,
+      "formula": 0.7517576961834134,
+      "absolute_error": 6.206668512476199e-11
+    },
+    {
+      "case": "P6b",
+      "x": 0,
+      "numeric_derivative": 1.0547118733938986e-10,
+      "formula": 0.0,
+      "absolute_error": 1.0547118733938986e-10
+    },
+    {
+      "case": "P6b",
+      "x": 1,
+      "numeric_derivative": 4.541836273741495,
+      "formula": 4.541836272700806,
+      "absolute_error": 1.0406893125036731e-09
+    },
+    {
+      "case": "source final",
+      "x": -0.7,
+      "numeric_derivative": -1.6569107250119506,
+      "formula": -1.6569107249531723,
+      "absolute_error": 5.877831554812474e-11
+    },
+    {
+      "case": "source final",
+      "x": 0,
+      "numeric_derivative": 0.0,
+      "formula": 0.0,
+      "absolute_error": 0.0
+    },
+    {
+      "case": "source final",
+      "x": 1.1,
+      "numeric_derivative": 3.3267593374519673,
+      "formula": 3.326759337306812,
+      "absolute_error": 1.4515544322080132e-10
+    },
+    {
+      "case": "P3 explicit branch",
+      "x": 1,
+      "numeric_derivative": -0.7999999999896977,
+      "formula": -0.8,
+      "absolute_error": 1.030231455700914e-11
+    }
+  ],
+  "scope": "Finite-difference checks at interior points supplement direct algebra/source checking; they do not prove identities or endpoint domains. Symbolic tooling unavailable in both Python runtimes; no symbolic success claimed."
+}

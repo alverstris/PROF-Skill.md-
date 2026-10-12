@@ -598,8 +598,8 @@
       "session_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/",
       "material_kinds": "notes",
       "selection_evidence": "Official lecture-notes index labels row 9: Linear and quadratic approximations and links its lecture-specific PDF.",
-      "status": "closed",
-      "source_access": "All7original PDF pages/texts and full images, complete frozen baseline and whole fresh r31 teaching reviewed. Admitted chronological SASIS, prompt-first whole technical/source audit, all252 actual GitHub expressions/full prose/figures and bounded live navigation accepted with original capture/exposure limits preserved. Complete36-file r32 metadata-only package and110 total release/teaching paths fetched and byte-verified.",
+      "status": "pending",
+      "source_access": "Original sources remain readable. Acceptance reopened only after an actual failed destination route and its demonstrated image-layout dependency; prior content and review evidence are preserved. Fresh full generation and review under the verified repaired package are required.",
       "required_portions": "all assigned lecture assets; resolve exact asset URLs before authoring",
       "evidence": [
         "iterations/008/lead-source-review.json",
@@ -639,7 +639,10 @@
         "iterations/008/published-r31-20261011/evidence/release-publication-readback.json",
         "iterations/008/published-r31-20261011/evidence/helper-topic-check.txt",
         "iterations/008/published-r31-20261011/evidence/helper-full-check.txt",
-        "iterations/008/published-r31-20261011/closure.md"
+        "iterations/008/published-r31-20261011/closure.md",
+        "iterations/013/published-r32-20261012/evidence/final-adjudication.json",
+        "iterations/013/published-r32-20261012/evidence/repair-release-readback.json",
+        "iterations/013/published-r32-20261012/repair-checkpoint.md"
       ],
       "material_id": "D008",
       "readability": {
@@ -677,10 +680,9 @@
       "document_commit": "81076b4c593fc1d685648c72892769c7a025f390",
       "final_document_sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f",
       "current_review_status": {
-        "technical_source": "complete original7pages/fullteaching/all6prompts31demands; prompt-only independent solution seal before authored answers; source9qualifications disposed; U1 separately verified with primary sources",
-        "fresh_reader": "complete247840byte baseline+all7constituents,17baseline ranges then39orderedteaching entries,4immediate figures; originalreport/log admitted",
-        "destination": "all252expressions and29493normalizedprose chars,51links21anchors4alts preserved; whole3screenshots and4figures; late forward/return routes pass bounded retests, isolated offscreen observation and capture artifacts preserved",
-        "iteration_closure": "closed after actual r32 fullpackage/evidence release readback; canonicalprogress checkpoint readback follows"
+        "destination": "fail: actual off-target return and image-layout dependency",
+        "iteration_closure": "reopened; prior evidence preserved",
+        "required_next": "fresh complete generation under current published repaired PROF"
       },
       "reopening_history": [
         {
@@ -705,18 +707,63 @@
           ],
           "repair_package": "2026-10-11-r29",
           "verified_package_commit": "3f7066cd66e517a655ad7dce9b54cd3816655440"
+        },
+        {
+          "date": "2026-10-12",
+          "previous_state": {
+            "status": "closed",
+            "source_access": "All7original PDF pages/texts and full images, complete frozen baseline and whole fresh r31 teaching reviewed. Admitted chronological SASIS, prompt-first whole technical/source audit, all252 actual GitHub expressions/full prose/figures and bounded live navigation accepted with original capture/exposure limits preserved. Complete36-file r32 metadata-only package and110 total release/teaching paths fetched and byte-verified.",
+            "source_preparation": {
+              "state": "full_original_source_and_teaching_reviews_complete",
+              "evidence": [
+                "iterations/008/published-r31-20261011/author/source-and-route.md",
+                "iterations/008/published-r31-20261011/evidence/original-reports/technical-technical-report.md"
+              ],
+              "next_document_authored": true
+            },
+            "incoming_revision": "2026-10-11-r31",
+            "incoming_commit": "db14dd37eb1ee3a69873036a8100fd2a6cb53dce",
+            "activation": "iterations/008/published-r31-20261011/evidence/package-admission.json",
+            "current_teaching": "iterations/008/published-r31-20261011/teaching/README.md",
+            "current_frozen_commit": "81076b4c593fc1d685648c72892769c7a025f390",
+            "incoming_prof": "2026-10-11-r31",
+            "outgoing_prof": "2026-10-12-r32",
+            "document_revision": "published-r31-20261011",
+            "document_commit": "81076b4c593fc1d685648c72892769c7a025f390",
+            "final_document_sha256": "f712c6a16878574c42fa80e97aa76a2afbd6ff7c33f3ac2b3fd790f9977d575f",
+            "current_review_status": {
+              "technical_source": "complete original7pages/fullteaching/all6prompts31demands; prompt-only independent solution seal before authored answers; source9qualifications disposed; U1 separately verified with primary sources",
+              "fresh_reader": "complete247840byte baseline+all7constituents,17baseline ranges then39orderedteaching entries,4immediate figures; originalreport/log admitted",
+              "destination": "all252expressions and29493normalizedprose chars,51links21anchors4alts preserved; whole3screenshots and4figures; late forward/return routes pass bounded retests, isolated offscreen observation and capture artifacts preserved",
+              "iteration_closure": "closed after actual r32 fullpackage/evidence release readback; canonicalprogress checkpoint readback follows"
+            },
+            "current_iteration": {
+              "state": "closed",
+              "incoming_prof": "2026-10-11-r31",
+              "outgoing_prof": "2026-10-12-r32",
+              "release_commit": "02627f9dc0055946f0883d6a9c243375f6fe70a2",
+              "frozen_teaching_commit": "81076b4c593fc1d685648c72892769c7a025f390",
+              "verified_package_commit": "02627f9dc0055946f0883d6a9c243375f6fe70a2",
+              "acceptance": "iterations/008/published-r31-20261011/evidence/final-adjudication.json",
+              "release_readback": "iterations/008/published-r31-20261011/evidence/release-publication-readback.json",
+              "closure": "iterations/008/published-r31-20261011/closure.md"
+            }
+          },
+          "reason": "Actual failed first-use/return navigation with images preceding the fragment target; complete controlled image-reservation diagnosis establishes the relevant dependency. Successful warmed repeats do not erase the recorded failed route.",
+          "evidence": [
+            "iterations/013/published-r32-20261012/evidence/final-adjudication.json",
+            "iterations/013/published-r32-20261012/evidence/earlier-image-dependency-census.json",
+            "iterations/013/published-r32-20261012/evidence/root-complete-original-reassembly.json"
+          ],
+          "repair_package": "2026-10-12-r33",
+          "verified_package_commit": "ea2fba9253430a45f7c4287684c064d86a74af64"
         }
       ],
       "current_iteration": {
-        "state": "closed",
-        "incoming_prof": "2026-10-11-r31",
-        "outgoing_prof": "2026-10-12-r32",
-        "release_commit": "02627f9dc0055946f0883d6a9c243375f6fe70a2",
-        "frozen_teaching_commit": "81076b4c593fc1d685648c72892769c7a025f390",
-        "verified_package_commit": "02627f9dc0055946f0883d6a9c243375f6fe70a2",
-        "acceptance": "iterations/008/published-r31-20261011/evidence/final-adjudication.json",
-        "release_readback": "iterations/008/published-r31-20261011/evidence/release-publication-readback.json",
-        "closure": "iterations/008/published-r31-20261011/closure.md"
+        "state": "reopened_pending_fresh_generation",
+        "incoming_prof": "2026-10-12-r33",
+        "verified_package_commit": "ea2fba9253430a45f7c4287684c064d86a74af64",
+        "evidence": "iterations/013/published-r32-20261012/evidence/final-adjudication.json"
       },
       "iteration_history": [
         {
@@ -1002,7 +1049,7 @@
       "material_kinds": "notes",
       "selection_evidence": "Official lecture-notes index labels row 14: Mean value theorem Inequalities and links its lecture-specific PDF.",
       "status": "pending",
-      "source_access": "Original lecture source remains readable; prior acceptance is reopened by the actual-destination regression evidence. Fresh full generation under verified PROF r29 and all final audits required.",
+      "source_access": "All five original pages/figures, full baseline, six frozen teaching constituents, all42 prompt demands and complete source/reader/technical/destination audits inspected. Content and mathematical preservation pass; actual first-use return navigation fails with demonstrated unreserved-image geometry cause. Frozen teaching remains unchanged and unaccepted.",
       "required_portions": "all assigned lecture assets; resolve exact asset URLs before authoring",
       "evidence": [
         "iterations/013/closure.md",
@@ -1012,7 +1059,10 @@
         "iterations/013/current-r19/publication-readback-r20.json",
         "iterations/013/current-r19/root-final-helper-checks.json",
         "iterations/018/published-r28-20261011/evidence/earlier-rendering/live-target-comparison.md",
-        "iterations/018/published-r28-20261011/evidence/root-reports/root-regression-review.md"
+        "iterations/018/published-r28-20261011/evidence/root-reports/root-regression-review.md",
+        "iterations/013/published-r32-20261012/evidence/final-adjudication.json",
+        "iterations/013/published-r32-20261012/evidence/repair-release-readback.json",
+        "iterations/013/published-r32-20261012/repair-checkpoint.md"
       ],
       "material_id": "D013",
       "readability": {
@@ -1039,9 +1089,9 @@
         ],
         "next_document_authored": false
       },
-      "incoming_prof": "2026-10-09-r19",
-      "outgoing_prof": "2026-10-09-r20",
-      "published_commit": "bce9b1117bb377e65c1dbbeb5d0b253be3eb3bdb",
+      "incoming_prof": "2026-10-12-r32",
+      "outgoing_prof": "2026-10-12-r33",
+      "published_commit": "ea2fba9253430a45f7c4287684c064d86a74af64",
       "reopening_history": [
         {
           "date": "2026-10-11",
@@ -1061,17 +1111,61 @@
         }
       ],
       "current_review_status": {
-        "destination": "fail: actual live mathematical content loss",
-        "iteration_closure": "reopened; historical closure evidence retained",
-        "required_next": "fresh complete generation after verified PROF repair"
+        "technical_source": "complete; no material subject defect",
+        "fresh_reader": "complete and admitted with reconstructed-access-log qualification",
+        "destination": "fail: first-use return target displaced by unreserved images; all314math/prose and native figures preserved",
+        "iteration_closure": "not accepted; full r33 repair published and verified; fresh D013 required"
       },
       "current_iteration": {
-        "state": "reopened_pending_fresh_generation",
-        "incoming_prof": "2026-10-11-r29",
-        "verified_package_commit": "3f7066cd66e517a655ad7dce9b54cd3816655440",
-        "evidence": "iterations/018/published-r28-20261011/evidence/earlier-rendering/live-target-comparison.md",
-        "next_action": "Fresh author using only current published package, full frozen baseline and original source; no prior teaching or findings before complete freeze."
-      }
+        "state": "published_r33_verified_fresh_generation_required",
+        "incoming_prof": "2026-10-12-r32",
+        "outgoing_prof": "2026-10-12-r33",
+        "verified_package_commit": "ea2fba9253430a45f7c4287684c064d86a74af64",
+        "frozen_teaching_commit": "36e3d042ba459f3048e1489fd12045029f61abbb",
+        "evidence": "iterations/013/published-r32-20261012/evidence/final-adjudication.json",
+        "publication_readback": "iterations/013/published-r32-20261012/evidence/repair-release-readback.json",
+        "next_action": "Fresh same-material D013 author reads actual complete published package/full baseline/original source only before whole freeze."
+      },
+      "iteration_history": [
+        {
+          "superseded_by": "published-r32-20261012",
+          "previous_current_fields": {
+            "status": "pending",
+            "source_access": "Original lecture source remains readable; prior acceptance is reopened by the actual-destination regression evidence. Fresh full generation under verified PROF r29 and all final audits required.",
+            "source_preparation": {
+              "state": "technical_source_review_prepared_only",
+              "evidence": [
+                "iterations/013/source-review.md",
+                "iterations/013/source-map.json"
+              ],
+              "next_document_authored": false
+            },
+            "incoming_prof": "2026-10-09-r19",
+            "outgoing_prof": "2026-10-09-r20",
+            "current_review_status": {
+              "destination": "fail: actual live mathematical content loss",
+              "iteration_closure": "reopened; historical closure evidence retained",
+              "required_next": "fresh complete generation after verified PROF repair"
+            },
+            "current_iteration": {
+              "state": "reopened_pending_fresh_generation",
+              "incoming_prof": "2026-10-11-r29",
+              "verified_package_commit": "3f7066cd66e517a655ad7dce9b54cd3816655440",
+              "evidence": "iterations/018/published-r28-20261011/evidence/earlier-rendering/live-target-comparison.md",
+              "next_action": "Fresh author using only current published package, full frozen baseline and original source; no prior teaching or findings before complete freeze."
+            },
+            "published_commit": "bce9b1117bb377e65c1dbbeb5d0b253be3eb3bdb"
+          }
+        }
+      ],
+      "incoming_revision": "2026-10-12-r32",
+      "incoming_commit": "167f268eaa01d3fabb7bea7d00e53298717f8728",
+      "activation": "iterations/013/published-r32-20261012/evidence/package-admission.json",
+      "current_teaching": "iterations/013/published-r32-20261012/teaching/main.md",
+      "current_frozen_commit": "36e3d042ba459f3048e1489fd12045029f61abbb",
+      "document_commit": "36e3d042ba459f3048e1489fd12045029f61abbb",
+      "document_revision": "published-r32-20261012",
+      "final_document_sha256": "fc7ca6bf452873ec74e7e982e55dff5bbc2c857d6f1fd76d88716e24ffcdac1d"
     },
     {
       "order": 14,
@@ -1218,8 +1312,8 @@
       "session_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/",
       "material_kinds": "notes",
       "selection_evidence": "Official lecture-notes index labels row 18: Definite integrals and links its lecture-specific PDF.",
-      "status": "closed",
-      "source_access": "All six original source pages/texts/figures and the complete baseline were read; complete fresh r26b SASIS, source/PROF/math and affected-earlier audits pass. Actual GitHub preserves all 272 expressions, three embedded figures, normal prose styling and all 30 content links. Final topic/full checks pass mechanically; metadata-only r27 and all 144 release paths were independently read back byte-for-byte. Closure evidence preserves all original reports and frozen teaching.",
+      "status": "pending",
+      "source_access": "Original sources remain readable. Acceptance reopened only after an actual failed destination route and its demonstrated image-layout dependency; prior content and review evidence are preserved. Fresh full generation and review under the verified repaired package are required.",
       "required_portions": "all assigned lecture assets; resolve exact asset URLs before authoring",
       "evidence": [
         "iterations/016/closure.md",
@@ -1246,7 +1340,10 @@
         "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/final-state/review/final-acceptance-20261011.md",
         "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure.md",
         "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure-status.json",
-        "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/phase-a-verification.json"
+        "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/phase-a-verification.json",
+        "iterations/013/published-r32-20261012/evidence/final-adjudication.json",
+        "iterations/013/published-r32-20261012/evidence/repair-release-readback.json",
+        "iterations/013/published-r32-20261012/repair-checkpoint.md"
       ],
       "material_id": "D016",
       "readability": {
@@ -1287,44 +1384,10 @@
         "prior_source_access": "All six original PDF text/page images and five consequential figures inspected; complete source, independent mathematics, author, fresh whole-input reader, affected earlier, actual destination and final-document evidence accepted."
       },
       "current_iteration": {
-        "incoming_prof": "2026-10-10-r26",
-        "outgoing_prof": "2026-10-11-r27",
-        "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec",
-        "verified_release_commit": "659829bd4010b19e5800c55c44fc0ddfacf1571a",
-        "frozen_commit": "51a78beccef858072b1da8d057ef3dff09878409",
-        "state": "closed",
-        "evidence": "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure.md",
-        "closure_status": "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure-status.json",
-        "next_action": "Verify this closure/progress checkpoint, then begin D017 from the actual current published r27 package in a fresh author context.",
-        "previous_iteration": {
-          "incoming_prof": "2026-10-10-r26",
-          "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec",
-          "frozen_commit": "51a78beccef858072b1da8d057ef3dff09878409",
-          "state": "final_acceptance_checked_release_readback_pending",
-          "outgoing_prof": "2026-10-11-r27",
-          "outgoing_change": "metadata.version only; operative teaching instructions unchanged",
-          "evidence": "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/final-state/review/final-acceptance-20261011.md",
-          "publication_verification": "pending subsequent immutable release readback",
-          "next_action": "Verify release bytes, then publish and verify D016 closure/counts before D017 generation.",
-          "previous_iteration": {
-            "incoming_prof": "2026-10-10-r26",
-            "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec",
-            "frozen_commit": "51a78beccef858072b1da8d057ef3dff09878409",
-            "state": "pending_destination_verification",
-            "evidence": "iterations/016/published-r26-20261010/fresh-r26b/review/coordinator-disposition.md",
-            "pending_status": "iterations/016/published-r26-20261010/fresh-r26b/pending-status.json",
-            "next_action": "Resume the same frozen immutable destination checks when available. Only close D016 after all applicable conditions pass; if a material defect is established, repair/publish/verify PROF first and generate anew in a fresh context.",
-            "previous_iteration": {
-              "incoming_prof": "2026-10-10-r25",
-              "frozen_commit": "18ad505b72fd034589271d70b15d3cae5c50e730",
-              "outgoing_prof": "2026-10-10-r26",
-              "state": "published_r26_verified_fresh_generation_required",
-              "evidence": "iterations/016/published-r25-20261010/reviews/coordinator-disposition.md",
-              "next_action": "Start whole D016 generation in a fresh context using the task-only r26 handover, actual current published package, original source and full frozen baseline; then freeze and complete new SASIS and independent audits.",
-              "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec"
-            }
-          }
-        }
+        "state": "reopened_pending_fresh_generation",
+        "incoming_prof": "2026-10-12-r33",
+        "verified_package_commit": "ea2fba9253430a45f7c4287684c064d86a74af64",
+        "evidence": "iterations/013/published-r32-20261012/evidence/final-adjudication.json"
       },
       "historical_acceptances": [
         {
@@ -1344,6 +1407,79 @@
         "outgoing_prof": "2026-10-11-r27",
         "verified_release_commit": "659829bd4010b19e5800c55c44fc0ddfacf1571a",
         "evidence": "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure.md"
+      },
+      "reopening_history": [
+        {
+          "date": "2026-10-12",
+          "previous_state": {
+            "status": "closed",
+            "source_access": "All six original source pages/texts/figures and the complete baseline were read; complete fresh r26b SASIS, source/PROF/math and affected-earlier audits pass. Actual GitHub preserves all 272 expressions, three embedded figures, normal prose styling and all 30 content links. Final topic/full checks pass mechanically; metadata-only r27 and all 144 release paths were independently read back byte-for-byte. Closure evidence preserves all original reports and frozen teaching.",
+            "source_preparation": {
+              "state": "technical_source_review_prepared_only",
+              "evidence": [
+                "iterations/016/source-review.md",
+                "iterations/016/source-map.json"
+              ],
+              "next_document_authored": false
+            },
+            "incoming_prof": "2026-10-10-r26",
+            "outgoing_prof": "2026-10-11-r27",
+            "current_iteration": {
+              "incoming_prof": "2026-10-10-r26",
+              "outgoing_prof": "2026-10-11-r27",
+              "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec",
+              "verified_release_commit": "659829bd4010b19e5800c55c44fc0ddfacf1571a",
+              "frozen_commit": "51a78beccef858072b1da8d057ef3dff09878409",
+              "state": "closed",
+              "evidence": "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure.md",
+              "closure_status": "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/closure-status.json",
+              "next_action": "Verify this closure/progress checkpoint, then begin D017 from the actual current published r27 package in a fresh author context.",
+              "previous_iteration": {
+                "incoming_prof": "2026-10-10-r26",
+                "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec",
+                "frozen_commit": "51a78beccef858072b1da8d057ef3dff09878409",
+                "state": "final_acceptance_checked_release_readback_pending",
+                "outgoing_prof": "2026-10-11-r27",
+                "outgoing_change": "metadata.version only; operative teaching instructions unchanged",
+                "evidence": "iterations/016/published-r26-20261010/fresh-r26b/closure-20261011/final-state/review/final-acceptance-20261011.md",
+                "publication_verification": "pending subsequent immutable release readback",
+                "next_action": "Verify release bytes, then publish and verify D016 closure/counts before D017 generation.",
+                "previous_iteration": {
+                  "incoming_prof": "2026-10-10-r26",
+                  "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec",
+                  "frozen_commit": "51a78beccef858072b1da8d057ef3dff09878409",
+                  "state": "pending_destination_verification",
+                  "evidence": "iterations/016/published-r26-20261010/fresh-r26b/review/coordinator-disposition.md",
+                  "pending_status": "iterations/016/published-r26-20261010/fresh-r26b/pending-status.json",
+                  "next_action": "Resume the same frozen immutable destination checks when available. Only close D016 after all applicable conditions pass; if a material defect is established, repair/publish/verify PROF first and generate anew in a fresh context.",
+                  "previous_iteration": {
+                    "incoming_prof": "2026-10-10-r25",
+                    "frozen_commit": "18ad505b72fd034589271d70b15d3cae5c50e730",
+                    "outgoing_prof": "2026-10-10-r26",
+                    "state": "published_r26_verified_fresh_generation_required",
+                    "evidence": "iterations/016/published-r25-20261010/reviews/coordinator-disposition.md",
+                    "next_action": "Start whole D016 generation in a fresh context using the task-only r26 handover, actual current published package, original source and full frozen baseline; then freeze and complete new SASIS and independent audits.",
+                    "verified_package_commit": "a5e86eac9e9805921473419c48b329bde7bd46ec"
+                  }
+                }
+              }
+            },
+            "published_commit": "659829bd4010b19e5800c55c44fc0ddfacf1571a"
+          },
+          "reason": "Actual failed first-use/return navigation with images preceding the fragment target; complete controlled image-reservation diagnosis establishes the relevant dependency. Successful warmed repeats do not erase the recorded failed route.",
+          "evidence": [
+            "iterations/013/published-r32-20261012/evidence/final-adjudication.json",
+            "iterations/013/published-r32-20261012/evidence/earlier-image-dependency-census.json",
+            "iterations/013/published-r32-20261012/evidence/root-complete-original-reassembly.json"
+          ],
+          "repair_package": "2026-10-12-r33",
+          "verified_package_commit": "ea2fba9253430a45f7c4287684c064d86a74af64"
+        }
+      ],
+      "current_review_status": {
+        "destination": "fail: actual off-target return and image-layout dependency",
+        "iteration_closure": "reopened; prior evidence preserved",
+        "required_next": "fresh complete generation under current published repaired PROF"
       }
     },
     {
@@ -6453,7 +6589,7 @@
     "selection_manifest": "readability-selection.json",
     "eligible": 76,
     "excluded": 71,
-    "closed": 15,
+    "closed": 13,
     "active_session_ids": [
       "mit-18-01-fall-2006-L01",
       "mit-18-01-fall-2006-L02",
@@ -6532,7 +6668,7 @@
       "mit-8-022-fall2004-L26",
       "mit-8-022-fall2004-L28"
     ],
-    "remaining": 61
+    "remaining": 63
   },
   "active_material_id": "D013"
 }

@@ -1,0 +1,396 @@
+{
+  "schema": "sasis-fixed-route-v1",
+  "route_id": "D015-r36-frozen",
+  "artifacts": {
+    "baseline": {
+      "id": "OCR-four-subject-full",
+      "revision": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    "teaching": {
+      "id": "D015-r36-whole",
+      "revision": "0f52edf74fe3bf9794a061880c201e423fbc37faa71416828c6c2bf682c2f3bb"
+    }
+  },
+  "files": [
+    {
+      "id": "baseline",
+      "artifact": "baseline",
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/inputs/student-baseline.txt",
+      "size": 247840,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    {
+      "id": "main",
+      "artifact": "teaching",
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/main.md",
+      "size": 19044,
+      "sha256": "cb1798c3320123993edb5bab5f1136037e4367272441576522f11f099de68054"
+    },
+    {
+      "id": "hints",
+      "artifact": "teaching",
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/hints.md",
+      "size": 2935,
+      "sha256": "213956c9eeea4cc7f9d8ce2a31239bb94c814eecc3e9bf0d7cdbcfa91563e204"
+    },
+    {
+      "id": "solutions",
+      "artifact": "teaching",
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/solutions.md",
+      "size": 7011,
+      "sha256": "237080669179279d8b85fe3a7ea0c5ad3242f1654f859d99dd6318e393b0c386"
+    },
+    {
+      "id": "gaussian",
+      "artifact": "teaching",
+      "kind": "image",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/figures/gaussian.png",
+      "size": 30594,
+      "sha256": "48f747d12b85ffb468362594ddb0f9a60329271ce770066797f98aa977243951"
+    },
+    {
+      "id": "ray",
+      "artifact": "teaching",
+      "kind": "image",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/figures/tangent-ray.png",
+      "size": 32937,
+      "sha256": "cd0646d133e98963b96ea10f96ade2528c59fd1a2215cea0fad448c28abd0c61"
+    },
+    {
+      "id": "families",
+      "artifact": "teaching",
+      "kind": "image",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/figures/perpendicular-families.png",
+      "size": 94461,
+      "sha256": "446fd2aff1200e81384520f218e0f371e04d1edd92a75dc0f7bdb6142491b221"
+    }
+  ],
+  "steps": [
+    {
+      "id": "B01",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 0,
+      "end": 22742,
+      "sha256": "ff3b639004160728501d8a0240422bfb1c9eccb33a738285bf0bb2b345cdd209"
+    },
+    {
+      "id": "B02",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 22742,
+      "end": 45162,
+      "sha256": "deee8fb42da3db828000196cdaa51431c81ff234873271a1094f1e64c76ea7aa"
+    },
+    {
+      "id": "B03",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 45162,
+      "end": 67680,
+      "sha256": "df8c08bfaa3d049fb8b79648e623a101d379b20a5baf93ffd081d8d8cb38ea3e"
+    },
+    {
+      "id": "B04",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 67680,
+      "end": 90680,
+      "sha256": "16bc020c98872067669c2e02ad5959e51da92cf01e9a3152d6c0188d22d2fe72"
+    },
+    {
+      "id": "B05",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 90680,
+      "end": 112793,
+      "sha256": "6394a7eb6af83427b45f911978d722cc7c58739cf1f922d73a3489f9a371c02d"
+    },
+    {
+      "id": "B06",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 112793,
+      "end": 135529,
+      "sha256": "47372acae2254877f22af96ef149ac8924ea5a6ba5ff86b0f3369eaaeaa21227"
+    },
+    {
+      "id": "B07",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 135529,
+      "end": 158293,
+      "sha256": "d807437758b76095d199a3547fa295e33a3de95d837c5042195f1ed61153f79a"
+    },
+    {
+      "id": "B08",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 158293,
+      "end": 181219,
+      "sha256": "de82859b360a3e132257bfabfc44ecf187fe51a23548771bc0c8fc2e470f4848"
+    },
+    {
+      "id": "B09",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 181219,
+      "end": 203784,
+      "sha256": "bfa84f492ec1f7e622046af0e48848e6dcc453e82ad7648001cec20562b94059"
+    },
+    {
+      "id": "B10",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 203784,
+      "end": 226523,
+      "sha256": "20452d28636269995d0572875f65bbd5e4d76eb299836001c723d2bd69bfbf8d"
+    },
+    {
+      "id": "B11",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 226523,
+      "end": 247840,
+      "sha256": "37763dfbf42e52ed127bb5246f794392b5c717c440991bd3f3af7f4b75efc8b7"
+    },
+    {
+      "id": "M01",
+      "kind": "text",
+      "file_id": "main",
+      "start": 0,
+      "end": 5102,
+      "sha256": "f132a5bc93704f972f6abff7e79d1fbb2dff82295cf006f86c28786978fbaecf"
+    },
+    {
+      "id": "F01",
+      "kind": "figure",
+      "file_id": "gaussian",
+      "sha256": "48f747d12b85ffb468362594ddb0f9a60329271ce770066797f98aa977243951",
+      "receipt_step_id": "F01R",
+      "receipt_file": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/reader/view-results/F01.json",
+      "first_use": {
+        "text_step_id": "M01",
+        "position": "after"
+      }
+    },
+    {
+      "id": "M02",
+      "kind": "text",
+      "file_id": "main",
+      "start": 5102,
+      "end": 5856,
+      "sha256": "36a2f196d348366be80308678db06bbcda1047c6be54c3bf9801afd11c9c05da"
+    },
+    {
+      "id": "M03",
+      "kind": "text",
+      "file_id": "main",
+      "start": 5856,
+      "end": 9302,
+      "sha256": "2f51a268850ffc935cf00340f4fae32096bc7e7e100c843bd75e61c59284e7e9"
+    },
+    {
+      "id": "M04",
+      "kind": "text",
+      "file_id": "main",
+      "start": 9302,
+      "end": 10165,
+      "sha256": "0105768593b46675eaedad842abaeae7f4fff3820f75d05f0134b99bbaeca5c5"
+    },
+    {
+      "id": "F02",
+      "kind": "figure",
+      "file_id": "ray",
+      "sha256": "cd0646d133e98963b96ea10f96ade2528c59fd1a2215cea0fad448c28abd0c61",
+      "receipt_step_id": "F02R",
+      "receipt_file": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/reader/view-results/F02.json",
+      "first_use": {
+        "text_step_id": "M04",
+        "position": "after"
+      }
+    },
+    {
+      "id": "M05",
+      "kind": "text",
+      "file_id": "main",
+      "start": 10165,
+      "end": 12016,
+      "sha256": "7f208f70310a66e8abeb34b4e595e8907101df4329ee75561a163a134219771f"
+    },
+    {
+      "id": "M06",
+      "kind": "text",
+      "file_id": "main",
+      "start": 12016,
+      "end": 14209,
+      "sha256": "2fbd3e9f0814e4220233a87aeff58cd23d7ab1ef2b3dfd12f77059a073c5dd03"
+    },
+    {
+      "id": "F03",
+      "kind": "figure",
+      "file_id": "families",
+      "sha256": "446fd2aff1200e81384520f218e0f371e04d1edd92a75dc0f7bdb6142491b221",
+      "receipt_step_id": "F03R",
+      "receipt_file": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/reader/view-results/F03.json",
+      "first_use": {
+        "text_step_id": "M06",
+        "position": "after"
+      }
+    },
+    {
+      "id": "M07",
+      "kind": "text",
+      "file_id": "main",
+      "start": 14209,
+      "end": 16146,
+      "sha256": "29fba86e1f38be693fc7c66ba6a38cb9b054754a1387da383776cd93c42000c0"
+    },
+    {
+      "id": "M08",
+      "kind": "text",
+      "file_id": "main",
+      "start": 16146,
+      "end": 17879,
+      "sha256": "3fb96c156deb0a58e862b0c2bfa165f7967142b1faae56a09bc56951694fdc34"
+    },
+    {
+      "id": "M09",
+      "kind": "text",
+      "file_id": "main",
+      "start": 17879,
+      "end": 19044,
+      "sha256": "6bcd32f0ede383489bb2e10325ac9d9a7e6124ee0e3f3b92b2fd788f83623381"
+    },
+    {
+      "id": "H01",
+      "kind": "text",
+      "file_id": "hints",
+      "start": 0,
+      "end": 795,
+      "sha256": "215c85fb400f4a42235bc79779f5e89b144eadee745e2bb037cf509f33689793"
+    },
+    {
+      "id": "H02",
+      "kind": "text",
+      "file_id": "hints",
+      "start": 795,
+      "end": 1246,
+      "sha256": "46cb230ddd6bd648c3dffa229d55d1eed9d2d5c8e60c17e84022705852c79177"
+    },
+    {
+      "id": "H03",
+      "kind": "text",
+      "file_id": "hints",
+      "start": 1246,
+      "end": 1694,
+      "sha256": "dbd297a82944fd28fbe5a3302b9c87ef4f1d7ac2db49e7d9e4359b72423b7143"
+    },
+    {
+      "id": "H04",
+      "kind": "text",
+      "file_id": "hints",
+      "start": 1694,
+      "end": 2172,
+      "sha256": "988eb2658e4d964c45aa36391768007e385aeb168a4cc8f789bc721026d18268"
+    },
+    {
+      "id": "H05",
+      "kind": "text",
+      "file_id": "hints",
+      "start": 2172,
+      "end": 2935,
+      "sha256": "25047315b533f5f5273be574ea31a2565a13781adaaab9b4aec7f594735dc4ba"
+    },
+    {
+      "id": "S01",
+      "kind": "text",
+      "file_id": "solutions",
+      "start": 0,
+      "end": 1248,
+      "sha256": "2cffef6073e9646c3d50bcf4dc589f94d17dd8dea2741f7bcc533fdec691665b"
+    },
+    {
+      "id": "S02",
+      "kind": "text",
+      "file_id": "solutions",
+      "start": 1248,
+      "end": 2326,
+      "sha256": "cd262f088fba38c532573608eab33adc650abd7203d2eb2afc1d4499fbbd5692"
+    },
+    {
+      "id": "S03",
+      "kind": "text",
+      "file_id": "solutions",
+      "start": 2326,
+      "end": 3506,
+      "sha256": "e40df4d026c244984758ecd5ed999825dc49901169f754a4356719ee4c2e7a93"
+    },
+    {
+      "id": "S04",
+      "kind": "text",
+      "file_id": "solutions",
+      "start": 3506,
+      "end": 5225,
+      "sha256": "95994b7688d3f3d3000cd220cf29d664b1585134979fcc4318518afb3bc55f41"
+    },
+    {
+      "id": "S05",
+      "kind": "text",
+      "file_id": "solutions",
+      "start": 5225,
+      "end": 7011,
+      "sha256": "70e938a5371d7ce4671e4b974376de4e620e4a80c7f3507689d1ac853d3f4e7f"
+    }
+  ],
+  "revisits": [
+    {
+      "id": "RB01",
+      "initial_step_id": "B01"
+    },
+    {
+      "id": "RB02",
+      "initial_step_id": "B02"
+    },
+    {
+      "id": "RB03",
+      "initial_step_id": "B03"
+    },
+    {
+      "id": "RB04",
+      "initial_step_id": "B04"
+    },
+    {
+      "id": "RB05",
+      "initial_step_id": "B05"
+    },
+    {
+      "id": "RB06",
+      "initial_step_id": "B06"
+    },
+    {
+      "id": "RB07",
+      "initial_step_id": "B07"
+    },
+    {
+      "id": "RB08",
+      "initial_step_id": "B08"
+    },
+    {
+      "id": "RB09",
+      "initial_step_id": "B09"
+    },
+    {
+      "id": "RB10",
+      "initial_step_id": "B10"
+    },
+    {
+      "id": "RB11",
+      "initial_step_id": "B11"
+    }
+  ]
+}

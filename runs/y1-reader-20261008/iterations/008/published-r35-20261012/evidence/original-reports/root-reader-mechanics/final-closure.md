@@ -1,0 +1,9 @@
+D008 r35 independent mechanical review is complete.
+
+All 556 event-chain entries, 52 actual calls/stages, complete baseline/teaching byte coverage and four original result/URL/receipt bindings pass. The separate final seal verifies all 22 current reader files (including the three original reports) against actual bytes. The original sasis-report.md is 17,328 bytes, SHA256 0591654f23d65e6021cba1f156d2f36386ffbf040f33197b06c6bac453493611. The already audited core and figure inputs remain unchanged.
+
+The original reader explicitly states that each actual tools.view_image invocation used the exact returned path and original detail and that its entire unchanged returned object was immediately saved through apply_patch. Preserved result objects, URL files and receipts are consistent with that statement and bind byte-for-byte to the frozen PNGs. This available evidence is not a cryptographically authenticated platform transcript; no fabrication is inferred and no extra admission requirement is imposed. The core report's separate-witness wording describes this provenance limit, not an added protocol gate. Caller-assigned figure correlation IDs remain distinct from ledger UUIDs and platform tool IDs.
+
+The coordinator's final seal is explicitly a post-handoff preservation seal, not a retrospective pre-dispatch reader seal. The separately retained post-report operation names exactly 11 known own-output files in a sha256sum command, with no frozen subject path argument and no content-display operation. This auditor checked the command text and file identities without executing it. The follow-up remains separate from the unchanged original report.
+
+No browser interaction, fresh image view, reader/helper replay, subject interpretation or source/report mutation was performed. Preflight artifacts are preserved unchanged. See final-reader-verification.json, final-reader-verified-ids.json and final-seal-verification.json for full records.

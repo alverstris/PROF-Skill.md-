@@ -1,0 +1,30 @@
+{
+  "schema": "raw-byte-parts-reassembly-v1",
+  "archive": {
+    "path": "source-audit-archives/d119-d121-prepared-20261012.zip",
+    "bytes": 13270921,
+    "sha256": "fb9b2edff1ce8dd10deac561811ffd644a58011ff421a60b5ca8b609934f8584"
+  },
+  "parts": [
+    {
+      "path": "source-audit-archives/d119-d121-prepared-20261012-parts/d119-d121-prepared-20261012.zip.part001",
+      "bytes": 7000000,
+      "sha256": "e1ebfbc7fe7352b752d86cd6e8573dcc33e418847d61a502b83f480fb8c657d2"
+    },
+    {
+      "path": "source-audit-archives/d119-d121-prepared-20261012-parts/d119-d121-prepared-20261012.zip.part002",
+      "bytes": 6270921,
+      "sha256": "8175646b63db8659861cf4919c8ce1c0913a14e5ac3aca3e380cbfaacc7bcc06"
+    }
+  ],
+  "concatenation_order": [
+    "source-audit-archives/d119-d121-prepared-20261012-parts/d119-d121-prepared-20261012.zip.part001",
+    "source-audit-archives/d119-d121-prepared-20261012-parts/d119-d121-prepared-20261012.zip.part002"
+  ],
+  "maximum_part_bytes": 7000000,
+  "independent_disk_reassembly_bytes": 13270921,
+  "independent_disk_reassembly_sha256": "fb9b2edff1ce8dd10deac561811ffd644a58011ff421a60b5ca8b609934f8584",
+  "reassembly_exact_bytes_match_original": true,
+  "reassembled_zip_crc_passed": true,
+  "original_archive_retained": true
+}

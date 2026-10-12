@@ -1,6 +1,6 @@
 # SASIS — dedicated reader protocol
 
-Protocol revision: 2026-10-12-r35.
+Protocol revision: 2026-10-12-r36.
 
 ## Purpose and activation
 

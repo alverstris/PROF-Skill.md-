@@ -1,0 +1,188 @@
+{
+  "prompt_count": 6,
+  "substantive_demands_in_prior_seal": 31,
+  "all_prompts_and_demands_covered": true,
+  "items": [
+    {
+      "prompt": "P1",
+      "demands": [
+        "input displacement",
+        "basepoint values and derivative",
+        "tangent formula",
+        "numerical estimate",
+        "approximation versus identity"
+      ],
+      "status": "verified against independently sealed solution",
+      "main": [
+        49,
+        49
+      ],
+      "hint": [
+        9,
+        13
+      ],
+      "solution": [
+        9,
+        25
+      ],
+      "result": "h=0.08; L=2+(x-4)/4; estimate 2.02; square 4.0804 proves nonidentity",
+      "sealed_prompt_text": "P1. Approximate the positive square root of 4.08 using a tangent at the nearby base point 4. Write the input displacement, the tangent formula and the estimate. Explain why the resulting number is an approximation rather than an exact identity. A complete response connects the chosen base point and derivative to the estimate.",
+      "frozen_teaching_prompt_text": "P1. Approximate the positive square root of 4.08 using a tangent at the nearby base point 4. Write the input displacement, the tangent formula and the estimate. Explain why the resulting number is an approximation rather than an exact identity. A complete response connects the chosen base point and derivative to the estimate.",
+      "manual_semantic_comparison": "Same substantive demand and supplied data; only mathematical presentation changes.",
+      "independent_solution_agreement": true,
+      "all_demands_have_reasoned_authored_answer": true,
+      "hint_matched_and_mathematically_correct": true
+    },
+    {
+      "prompt": "P2",
+      "demands": [
+        "defined neighborhood",
+        "both substituted small inputs",
+        "combined linear polynomial",
+        "reason quadratic cross term alone is unreliable"
+      ],
+      "status": "verified against independently sealed solution",
+      "main": [
+        123,
+        123
+      ],
+      "hint": [
+        17,
+        21
+      ],
+      "solution": [
+        29,
+        50
+      ],
+      "result": "Domain excludes 1/2; |x|<1/4 is valid neighborhood; small inputs 3x,-2x; L=1+5x; omitted factor squares invalidate coefficient 6; actual coefficient 29/2",
+      "sealed_prompt_text": "P2. For g(x)=e^(3x)/(1-2x), find its linear approximation about x=0 by combining basic approximations. State a neighborhood in which the original expression is defined. Identify the small inputs used in the exponential and reciprocal expansions. A proposed calculation multiplies the two linear factors and reports its x^2 term as g's quadratic coefficient. Explain why that coefficient is not established by this calculation. A complete response supplies the linear polynomial and the reason the extra coefficient is unreliable.",
+      "frozen_teaching_prompt_text": "P2. For $`g(x)=e^{3x}/(1-2x)`$, find its linear approximation about $`x=0`$ by combining basic approximations. State a neighborhood in which the original expression is defined. Identify the small inputs used in the exponential and reciprocal expansions. A proposed calculation multiplies the two linear factors and reports its $`x^2`$ term as $`g`$'s quadratic coefficient. Explain why that coefficient is not established by this calculation. A complete response supplies the linear polynomial and the reason the extra coefficient is unreliable.",
+      "manual_semantic_comparison": "Same substantive demand and supplied data; only mathematical presentation changes.",
+      "independent_solution_agreement": true,
+      "all_demands_have_reasoned_authored_answer": true,
+      "hint_matched_and_mathematically_correct": true
+    },
+    {
+      "prompt": "P3",
+      "demands": [
+        "value/first/second derivative at 2",
+        "linear and quadratic formulas",
+        "both numerical estimates",
+        "absolute error comparison at given precision",
+        "role of squared displacement"
+      ],
+      "status": "verified against independently sealed solution",
+      "main": [
+        231,
+        231
+      ],
+      "hint": [
+        25,
+        29
+      ],
+      "solution": [
+        54,
+        84
+      ],
+      "result": "L=ln2+(x-2)/2; Q=L-(x-2)^2/8; .71314718 and .71294718; shown discrepancies .00019737 and .00000263; rounded-comparison qualification",
+      "sealed_prompt_text": "P3. For f(x)=ln x, construct its linear and quadratic approximations about a=2 and use both to estimate ln(2.04). For the numerical evaluation, use ln 2 approximately 0.69314718. The comparison value ln(2.04) approximately 0.71294981 is supplied only for checking the estimates. Compare their absolute errors at the shown precision and explain the role of (x-2)^2 in the quadratic formula. A complete response derives the coefficients from f(2), f'(2), f''(2) and interprets the comparison.",
+      "frozen_teaching_prompt_text": "P3. For $`f(x)=\\ln x`$, construct its linear and quadratic approximations about $`a=2`$ and use both to estimate $`\\ln(2.04)`$. For the numerical evaluation, use $`\\ln2\\approx0.69314718`$. The comparison value $`\\ln(2.04)\\approx0.71294981`$ is supplied only for checking the estimates. Compare their absolute errors at the shown precision and explain the role of $`(x-2)^2`$ in the quadratic formula. A complete response derives the coefficients from $`f(2)`$, $`f'(2)`$, $`f''(2)`$ and interprets the comparison.",
+      "manual_semantic_comparison": "Same substantive demand and supplied data; only mathematical presentation changes.",
+      "independent_solution_agreement": true,
+      "all_demands_have_reasoned_authored_answer": true,
+      "hint_matched_and_mathematically_correct": true
+    },
+    {
+      "prompt": "P4",
+      "demands": [
+        "limit value",
+        "why linear alone is insufficient",
+        "sufficient error condition",
+        "omitted remainder after division",
+        "validity of condition for exponential"
+      ],
+      "status": "verified against independently sealed solution",
+      "main": [
+        237,
+        237
+      ],
+      "hint": [
+        33,
+        37
+      ],
+      "solution": [
+        88,
+        106
+      ],
+      "result": "Limit 1/2; R2/x^2 tends to zero; C2 sufficient condition proved before prompt; first-order remainder cannot determine square quotient",
+      "sealed_prompt_text": "P4. Determine the limit as x tends to 0 of (e^x-1-x)/x^2. Explain why the linear approximation alone does not determine this limit, and state an error condition that makes the quadratic approximation sufficient. A complete response identifies the surviving coefficient and justifies what happens to the omitted term after division by x^2.",
+      "frozen_teaching_prompt_text": "P4. Determine the limit as $`x`$ tends to 0 of $`(e^x-1-x)/x^2`$. Explain why the linear approximation alone does not determine this limit, and state an error condition that makes the quadratic approximation sufficient. A complete response identifies the surviving coefficient and justifies what happens to the omitted term after division by $`x^2`$.",
+      "manual_semantic_comparison": "Same substantive demand and supplied data; only mathematical presentation changes.",
+      "independent_solution_agreement": true,
+      "all_demands_have_reasoned_authored_answer": true,
+      "hint_matched_and_mathematically_correct": true
+    },
+    {
+      "prompt": "P5",
+      "demands": [
+        "q with matching speed units",
+        "fractional correction",
+        "time correction",
+        "quadratic-in-q fractional contribution",
+        "comparison at fractional scale",
+        "powers of v/c",
+        "next-term comparison versus full remainder bound"
+      ],
+      "status": "verified against independently sealed solution",
+      "main": [
+        296,
+        296
+      ],
+      "hint": [
+        41,
+        45
+      ],
+      "solution": [
+        110,
+        145
+      ],
+      "result": "q=4e-10; fraction 2e-10; 17.28 microseconds; next fractional 6e-20; negligible at absolute fractional scale 1e-12; speed powers 2,4; next-term comparison is not whole-remainder bound",
+      "sealed_prompt_text": "P5. In the stated constant-speed, gravity-free clock model, the elapsed reference-frame time T' and the elapsed moving-clock time T obey T'/T=(1-q)^(-1/2), q=(v/c)^2. Take v=6 km/s, c=3 times 10^5 km/s, and T=86400 s. Estimate (T'-T)/T and T'-T using the term linear in q. Compute the next, quadratic-in-q contribution to the fractional correction. Does adding that contribution change the estimate at a fractional scale of 10^(-12)? State which powers of v/c these two contributions have, and distinguish the comparison of these two terms from a bound on every omitted term. A complete response keeps the fractional ratio separate from the time interval and retains consistent units.",
+      "frozen_teaching_prompt_text": "P5. In the stated constant-speed, gravity-free clock model, the elapsed reference-frame time $`T'`$ and the elapsed moving-clock time $`T`$ obey $`T'/T=(1-q)^{-1/2}`$, $`q=(v/c)^2`$. Take $`v=6\\ \\mathrm{km/s}`$, $`c=3\\times10^5\\ \\mathrm{km/s}`$, and $`T=86400\\ \\mathrm{s}`$. Estimate $`(T'-T)/T`$ and $`T'-T`$ using the term linear in $`q`$. Compute the next, quadratic-in-$`q`$ contribution to the fractional correction. Does adding that contribution change the estimate at a fractional scale of $`10^{-12}`$? State which powers of $`v/c`$ these two contributions have, and distinguish the comparison of these two terms from a bound on every omitted term. A complete response keeps the fractional ratio separate from the time interval and retains consistent units.",
+      "manual_semantic_comparison": "Same substantive demand and supplied data; only mathematical presentation changes.",
+      "independent_solution_agreement": true,
+      "all_demands_have_reasoned_authored_answer": true,
+      "hint_matched_and_mathematically_correct": true
+    },
+    {
+      "prompt": "P6",
+      "demands": [
+        "expansion order selection from cancellation/divisor",
+        "degree-two approximation",
+        "all quadratic contributing products",
+        "limit",
+        "controlled discarded terms after division"
+      ],
+      "status": "verified against independently sealed solution",
+      "main": [
+        338,
+        338
+      ],
+      "hint": [
+        49,
+        53
+      ],
+      "solution": [
+        149,
+        176
+      ],
+      "result": "H=2x-4x^2+R; two nonzero quadratic contributions -2,-2; R/x^2 tends to zero; limit -4; domain x>-1/2",
+      "sealed_prompt_text": "P6. Return later, after a break if useful, and choose how many terms you need rather than starting from a method label. Let H(x)=ln(1+2x)e^(-x), defined near x=0. Find its approximation through degree two, then determine the limit as x tends to 0 of [H(x)-2x]/x^2. Identify which products contribute to the coefficient of x^2 and why discarded terms do not affect the limit. A complete response connects the chosen expansion order to the cancellation in the numerator and the divisor x^2.",
+      "frozen_teaching_prompt_text": "P6. Return later, after a break if useful, and choose how many terms you need rather than starting from a method label. Let $`H(x)=\\ln(1+2x)e^{-x}`$, defined near $`x=0`$. Find its approximation through degree two, then determine the limit as $`x`$ tends to 0 of $`[H(x)-2x]/x^2`$. Identify which products contribute to the coefficient of $`x^2`$ and why discarded terms do not affect the limit. A complete response connects the chosen expansion order to the cancellation in the numerator and the divisor $`x^2`$.",
+      "manual_semantic_comparison": "Same substantive demand and supplied data; only mathematical presentation changes.",
+      "independent_solution_agreement": true,
+      "all_demands_have_reasoned_authored_answer": true,
+      "hint_matched_and_mathematically_correct": true
+    }
+  ]
+}

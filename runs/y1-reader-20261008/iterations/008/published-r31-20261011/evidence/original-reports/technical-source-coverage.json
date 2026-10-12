@@ -1,0 +1,28 @@
+{
+  "original_pages": 7,
+  "cover_included": true,
+  "original_full_text_and_visual_preparation_reused": true,
+  "source_pdf_sha256": "d1b383663f7792bbdaa4d6108e17b11679d4688e413e197486941af337892320",
+  "items": [
+    {"physical_page": 1, "lecture_page": null, "source_topics": ["MIT course/term attribution", "terms/citation notice"], "teaching_lines": [[3,5],[342,344]], "result": "Attribution retained; no mathematical content omitted; notice locators not followed."},
+    {"physical_page": 2, "lecture_page": 1, "source_topics": ["tangent at arbitrary basepoint", "point-slope representation", "ln x at 1", "shift ln(1+u) at 0", "local tangent diagram", "locality versus moving away"], "teaching_lines": [[13,45],[53,55]], "figures": ["tangent.png"], "result": "Verified; local remainder explained; no universal monotone-error assertion."},
+    {"physical_page": 3, "lecture_page": 2, "source_topics": ["five linear models", "sine/cosine tangents", "derivative justifications", "exp(-2x) substituted input"], "teaching_lines": [[53,95]], "figures": ["basic-tangents.png"], "result": "Verified; radians, fixed power parameter and real domains stated; approximation/identity distinction correct."},
+    {"physical_page": 4, "lecture_page": 3, "source_topics": ["reciprocal square root direct route", "alternative square-root then reciprocal route", "combined first-order approximation", "exact derivative from justified model", "difference quotient limit 20", "clock-law premise", "reciprocal shortcut footnote"], "teaching_lines": [[84,119],[127,151],[243,258]], "result": "Verified mathematically and conditionally under supplied physical law; denominator condition and error scaling supplied."},
+    {"physical_page": 5, "lecture_page": 4, "source_topics": ["clock intervals and speed scale", "missing-T dimensional typo", "binomial exponent-template typo", "general quadratic coefficients", "exact reproduction of quadratic", "cosine coefficients"], "teaching_lines": [[153,199],[243,290]], "result": "Verified; source typos corrected; local derivative matching distinguished from least-squares fitting; added sufficient-condition argument proved."},
+    {"physical_page": 6, "lecture_page": 5, "source_topics": ["cosine parabola figure", "five quadratic models", "logarithm second derivative", "clock next coefficient 3/8"], "teaching_lines": [[193,227],[260,290]], "figures": ["cosine-quadratic.png"], "result": "Verified; quadratic means through degree two; speed-power variable named."},
+    {"physical_page": 7, "lecture_page": 6, "source_topics": ["next fractional clock correction", "clock precision qualification", "GPS context", "complete combined quadratic product", "all quadratic contributions"], "teaching_lines": [[274,334]], "result": "Mathematics verified; current clock precision not asserted; GPS external-support access limitation U1 separately retained."}
+  ],
+  "added_teaching_claims_checked": [
+    {"lines": [24,32], "claim": "First-order remainder ratio from differentiability", "status": "verified"},
+    {"lines": [45,45], "claim": "Logarithm below tangent from decreasing derivative", "status": "verified on positive domain"},
+    {"lines": [70,80], "claim": "Real domains, fixed parameter and actual substituted small input", "status": "verified"},
+    {"lines": [111,119], "claim": "Product and reciprocal first-order reasoning", "status": "verified with stated remainders and nonzero denominator"},
+    {"lines": [175,191], "claim": "C2 sufficient condition implies R2/h^2 tends to zero", "status": "verified by double FTC/integral bound, for both signs of h"},
+    {"lines": [221,227], "claim": "Numerical ln(1.02) comparison", "status": "verified to displayed rounding"},
+    {"lines": [243,256], "claim": "Clock model event/interval definitions and figure", "status": "internally consistent conditional model; not independently derived relativity"},
+    {"lines": [288,290], "claim": "Time/fraction conversion, no current precision inference, power-order distinction", "status": "verified"},
+    {"lines": [292,292], "claim": "GPS motion/gravity and oscillator-frequency context with NIST/Ashby support", "status": "U1: linked support not admitted or opened; no falsity established"},
+    {"lines": [322,332], "claim": "Quadratic product remainder and independent second derivative", "status": "verified"},
+    {"lines": [334,340], "claim": "Method selection, tolerance and optional later practice", "status": "mathematical advice consistent; no observed retention/transfer claim"}
+  ]
+}

@@ -1,3 +1,15 @@
+D013 accepted; metadata-only PROF r35 closure — 2026-10-12
+
+Fresh D013 under PROF 2026-10-12-r34 at 75d41178bb87e473d907e852f85f7047e0530a86 is accepted after the complete source/technical, chronological reader and actual destination gates. Frozen teaching remains exactly ce407f3f2a5276700e61f43d7d1c371b9f452121; main SHA-256 6262d74b9e4d146863de712473957c17d7c4ca31f52c924066407a9ed913811a. All original reports and qualifications are preserved.
+
+Complete metadata-only PROF 2026-10-12-r35 release A c4c4fd61579f136b57172e57722f81969a573524 (tree 300a027e3ce4517064e696bcc6d66e8a550acbc5) has actual full-byte readback: 77 paths, 26574259 bytes, 36 package files/907146 bytes, all 34 internal declarations, all 482 archive members, unchanged teaching and canonical inputs. No behavioral PROF repair or teaching/report mutation is introduced at closure.
+
+Canonical totals: 14 accepted / 62 remaining of 76 eligible; 71 excluded; all 147 IDs, order and eligibility preserved. Only D013's session object changes. Active D008; next pending after D008 is D015. Continue the whole corpus with fresh author/reader contexts and original inputs after canonical publication/readback.
+
+Evidence: iterations/013/published-r34-20261012/closure-review/whole-disposition.md; iterations/013/published-r34-20261012/closure-support/release-readback.json; iterations/013/published-r34-20261012/closure-support/closure-invariants.json. Canonical closure publication/readback is a separate publisher step, not asserted by this preparation.
+
+Earlier preserved record follows unchanged.
+
 D013 r33 repair checkpoint — 2026-10-12
 
 Complete PROF 2026-10-12-r34 is published and actual-byte verified at a36a6f0a9f452460a3e0a9c0fdc10d7c4a2a46e0: 36 files, 907146 bytes, all 34 internal declarations. All 79 release paths, 15488873 bytes, match; the 12773551-byte root evidence ZIP reconstructs exactly from its two published raw parts, with all 156 members verified.

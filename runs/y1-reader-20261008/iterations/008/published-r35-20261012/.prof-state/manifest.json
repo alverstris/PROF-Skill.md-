@@ -1,0 +1,2582 @@
+{
+  "schema_version": 1,
+  "project_root": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012",
+  "skill": {
+    "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/verified-prof/SKILL.md",
+    "sha256": "f0afaf8e8d6baf4af5f6d1d228bbaa576b5648e8fcfc8d35767db74503af06ab"
+  },
+  "request": {
+    "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/operational-handover.json",
+    "sha256": "8de61224efefd59a8eef2e2fd13ed11d3e69d067254479710fa22bf86cf37685"
+  },
+  "required_topics": [
+    {
+      "id": "approximations",
+      "title": "D008 linear and quadratic approximations; complete lecture and all help",
+      "source_portions": [
+        {
+          "source_id": "lecture-original",
+          "portion_id": "page-1"
+        },
+        {
+          "source_id": "lecture-original",
+          "portion_id": "page-2"
+        },
+        {
+          "source_id": "lecture-original",
+          "portion_id": "page-3"
+        },
+        {
+          "source_id": "lecture-original",
+          "portion_id": "page-4"
+        },
+        {
+          "source_id": "lecture-original",
+          "portion_id": "page-5"
+        },
+        {
+          "source_id": "lecture-original",
+          "portion_id": "page-6"
+        },
+        {
+          "source_id": "lecture-original",
+          "portion_id": "page-7"
+        },
+        {
+          "source_id": "original-page-1-image",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "original-page-1-text",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "original-page-2-image",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "original-page-2-text",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "original-page-3-image",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "original-page-3-text",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "original-page-4-image",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "original-page-4-text",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "original-page-5-image",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "original-page-5-text",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "original-page-6-image",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "original-page-6-text",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "original-page-7-image",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "original-page-7-text",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "baseline",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "execution",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "sasis",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "profile",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "reader-contract",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "reader-role",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "rewrite",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "domain",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "state-guide",
+          "portion_id": "complete"
+        },
+        {
+          "source_id": "conventions",
+          "portion_id": "complete"
+        }
+      ],
+      "outputs": [
+        "output-1",
+        "output-2",
+        "output-3",
+        "output-4",
+        "output-5",
+        "output-6",
+        "output-7"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "lecture-original",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/source/lec9.pdf",
+      "sha256": "d1b383663f7792bbdaa4d6108e17b11679d4688e413e197486941af337892320",
+      "portions": [
+        {
+          "id": "page-1",
+          "locator": "PDF page 1, complete text and every figure",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        },
+        {
+          "id": "page-2",
+          "locator": "PDF page 2, complete text and every figure",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        },
+        {
+          "id": "page-3",
+          "locator": "PDF page 3, complete text and every figure",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        },
+        {
+          "id": "page-4",
+          "locator": "PDF page 4, complete text and every figure",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        },
+        {
+          "id": "page-5",
+          "locator": "PDF page 5, complete text and every figure",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        },
+        {
+          "id": "page-6",
+          "locator": "PDF page 6, complete text and every figure",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        },
+        {
+          "id": "page-7",
+          "locator": "PDF page 7, complete text and every figure",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ],
+      "url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/40cb41807e6d67373f3299ce87c4d9b3_lec9.pdf"
+    },
+    {
+      "id": "original-page-1-image",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/source/lec9-p01.png",
+      "sha256": "cf38e5a69e5dd2300bf90b52b69cd6ecdaf2d083412ded9643cdcf08cf025ccf",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "original-page-1-text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/source/lec9-p01.txt",
+      "sha256": "11c690867bfc86462780321c0a2f505caa77a5b25de25f251a48516b67b1cd34",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "original-page-2-image",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/source/lec9-p02.png",
+      "sha256": "7042535360332544135dd3665ee491236f3de23940ff586d2cdf64a1c40b8908",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "original-page-2-text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/source/lec9-p02.txt",
+      "sha256": "08550e8177b4901ef335ae9001a51ec51c515b3c2e600c37846b1299876bd9e4",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "original-page-3-image",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/source/lec9-p03.png",
+      "sha256": "7a07b0af47ec2d6cd89930c8f7095f27e1b86e81f9b0faae780ec864cc504d83",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "original-page-3-text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/source/lec9-p03.txt",
+      "sha256": "7248fd82b3fd8b0381a90a42c8cf7a4b4f3772556311c6dc860f368973d40090",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "original-page-4-image",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/source/lec9-p04.png",
+      "sha256": "beb6a89b7ac4d98d7555d354022b3b01d84d64fa13e7ea7b5e8c992b93f99e06",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "original-page-4-text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/source/lec9-p04.txt",
+      "sha256": "b74776279fa991a48f6d9d490b34c87d8c488635c24a1900623daffac0d48347",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "original-page-5-image",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/source/lec9-p05.png",
+      "sha256": "1f939e8b8a6db5129d58ee2ab2492e734ef853da2c4c1b59a732bd38930114ca",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "original-page-5-text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/source/lec9-p05.txt",
+      "sha256": "1b5b89bd5e4bc6c6e80e472821b1bda68a1569353b9d791ba2a7a57ce5f50082",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "original-page-6-image",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/source/lec9-p06.png",
+      "sha256": "dcbad0e531c05f0615fe50d0557bbed05a77b096a8d1f32a2d1915b0335d22bc",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "original-page-6-text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/source/lec9-p06.txt",
+      "sha256": "44d6578034012765eee70b2c6271619c0dfefb90bbd68df28a5fad7a20d4589c",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "original-page-7-image",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/source/lec9-p07.png",
+      "sha256": "9824495876b39cc0f9c0e42240f7f52ab1f13e04dfa560c94ea9845bf9b9a624",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "original-page-7-text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/source/lec9-p07.txt",
+      "sha256": "00ce98f669a57d4126b4d7303b9bc25758b450a99733764b3211ba43d43c3313",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "baseline",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/inputs/student-baseline.txt",
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "execution",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/verified-prof/references/execution-protocol.md",
+      "sha256": "760602402ff2b58bbee0d878f324237dff6676edc1398fe93bb868f16f87071c",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "sasis",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/verified-prof/references/sasis.md",
+      "sha256": "a7e6eb3440527c2481850b7188a25bd5d3d98f234b4aacf56202d5684df71ebb",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/verified-prof/references/sasis/profile-manifest.json",
+      "sha256": "b6a3a5969b0f7c974097b462cdb2a5f1f95da2575cb9a0eb39690ab400754be3",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "reader-contract",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/verified-prof/references/sasis/student-testing-contract.txt",
+      "sha256": "75c635becd009b573c7bd9da345f1286a268765b1785b8027d457dd09ebcc4bf",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "reader-role",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/verified-prof/references/sasis/student-role.txt",
+      "sha256": "3c575ca7751f9fac1ee4a8cd67273404e689695ae238bd9a01e9def7457abacf",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "rewrite",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/verified-prof/references/sasis/rewrite-guide.md",
+      "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "domain",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/verified-prof/references/domain-patterns.md",
+      "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "state-guide",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/verified-prof/references/state-tool.md",
+      "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "conventions",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d008-clean-r35-20261012/author/source-and-prerequisites.txt",
+      "sha256": "4544de1887b65405b2518411799ffcb6574131c4b67c9cfb0a585bb493217841",
+      "portions": [
+        {
+          "id": "complete",
+          "locator": "whole file",
+          "disposition": "required",
+          "reason": "",
+          "evidence": []
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "id": "output-1",
+      "path": "teaching/figures/clock-model.png",
+      "sha256": "5f154706d4163f6eacfb64ea5ca1498dcb0d179c96b96874f3cf286855b3d8be"
+    },
+    {
+      "id": "output-2",
+      "path": "teaching/figures/cosine-quadratic.png",
+      "sha256": "ad60cddb0fa8e7b8b6a8330e2d8162bcc5d4c69037f48bce6ee5aef571dccd94"
+    },
+    {
+      "id": "output-3",
+      "path": "teaching/figures/sine-cosine-linear.png",
+      "sha256": "f0994b23abda13ba561f589bb156277f96a9ffcc681b3d8c0214e9c87d833928"
+    },
+    {
+      "id": "output-4",
+      "path": "teaching/figures/tangent.png",
+      "sha256": "f0fbfb25b9bdc5a1b4a737a2b4c1f13e6da98fb237f6f26e76c32a2656dc3d97"
+    },
+    {
+      "id": "output-5",
+      "path": "teaching/hints.md",
+      "sha256": "1f249ea34d4879407cbc91ce4e30e564607ddc9d845fb0160616e3cd04cb647d"
+    },
+    {
+      "id": "output-6",
+      "path": "teaching/lesson.md",
+      "sha256": "c6208e042063e806a2d0709bc9974994504280c40f5efb592598158ae4ef2938"
+    },
+    {
+      "id": "output-7",
+      "path": "teaching/solutions.md",
+      "sha256": "47fbfc2749aa724863e7e483cc04d0d93909504206136d2e975a07694ddbd5f1"
+    }
+  ],
+  "output_checks": [
+    {
+      "id": "coverage",
+      "description": "Compare all requested topics and source portions with final locations.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Complete original7pages and53item correspondence account for all required mathematics/figure concepts; explicit engineering-context compression and original corrections retained.",
+      "evidence": [
+        {
+          "path": "author/reconstruction-and-coverage.md",
+          "sha256": "af9cb3f59e88defe341b149df379b6f90d4e04283a6d512cf95c5c2cf118d120",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 47
+          }
+        },
+        {
+          "path": "evidence/original-reports/technical-whole/source-to-teaching.json",
+          "sha256": "c3aecfb64baa26f6b11d5e8d33093da1d2c852690ec1ce1cd1f43c1224af6a39",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 717
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "efa50ebd766b0508d01d9b894912f8f9b3fe80109436769c0458841d6234c0f0"
+        },
+        {
+          "kind": "output",
+          "id": "output-1",
+          "sha256": "5f154706d4163f6eacfb64ea5ca1498dcb0d179c96b96874f3cf286855b3d8be"
+        },
+        {
+          "kind": "output",
+          "id": "output-2",
+          "sha256": "ad60cddb0fa8e7b8b6a8330e2d8162bcc5d4c69037f48bce6ee5aef571dccd94"
+        },
+        {
+          "kind": "output",
+          "id": "output-3",
+          "sha256": "f0994b23abda13ba561f589bb156277f96a9ffcc681b3d8c0214e9c87d833928"
+        },
+        {
+          "kind": "output",
+          "id": "output-4",
+          "sha256": "f0fbfb25b9bdc5a1b4a737a2b4c1f13e6da98fb237f6f26e76c32a2656dc3d97"
+        },
+        {
+          "kind": "output",
+          "id": "output-5",
+          "sha256": "1f249ea34d4879407cbc91ce4e30e564607ddc9d845fb0160616e3cd04cb647d"
+        },
+        {
+          "kind": "output",
+          "id": "output-6",
+          "sha256": "c6208e042063e806a2d0709bc9974994504280c40f5efb592598158ae4ef2938"
+        },
+        {
+          "kind": "output",
+          "id": "output-7",
+          "sha256": "47fbfc2749aa724863e7e483cc04d0d93909504206136d2e975a07694ddbd5f1"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "8de61224efefd59a8eef2e2fd13ed11d3e69d067254479710fa22bf86cf37685"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "f0afaf8e8d6baf4af5f6d1d228bbaa576b5648e8fcfc8d35767db74503af06ab"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "conventions",
+          "sha256": "4544de1887b65405b2518411799ffcb6574131c4b67c9cfb0a585bb493217841"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "760602402ff2b58bbee0d878f324237dff6676edc1398fe93bb868f16f87071c"
+        },
+        {
+          "kind": "source",
+          "id": "lecture-original",
+          "sha256": "d1b383663f7792bbdaa4d6108e17b11679d4688e413e197486941af337892320"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-1-image",
+          "sha256": "cf38e5a69e5dd2300bf90b52b69cd6ecdaf2d083412ded9643cdcf08cf025ccf"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-1-text",
+          "sha256": "11c690867bfc86462780321c0a2f505caa77a5b25de25f251a48516b67b1cd34"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-2-image",
+          "sha256": "7042535360332544135dd3665ee491236f3de23940ff586d2cdf64a1c40b8908"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-2-text",
+          "sha256": "08550e8177b4901ef335ae9001a51ec51c515b3c2e600c37846b1299876bd9e4"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-3-image",
+          "sha256": "7a07b0af47ec2d6cd89930c8f7095f27e1b86e81f9b0faae780ec864cc504d83"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-3-text",
+          "sha256": "7248fd82b3fd8b0381a90a42c8cf7a4b4f3772556311c6dc860f368973d40090"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-4-image",
+          "sha256": "beb6a89b7ac4d98d7555d354022b3b01d84d64fa13e7ea7b5e8c992b93f99e06"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-4-text",
+          "sha256": "b74776279fa991a48f6d9d490b34c87d8c488635c24a1900623daffac0d48347"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-5-image",
+          "sha256": "1f939e8b8a6db5129d58ee2ab2492e734ef853da2c4c1b59a732bd38930114ca"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-5-text",
+          "sha256": "1b5b89bd5e4bc6c6e80e472821b1bda68a1569353b9d791ba2a7a57ce5f50082"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-6-image",
+          "sha256": "dcbad0e531c05f0615fe50d0557bbed05a77b096a8d1f32a2d1915b0335d22bc"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-6-text",
+          "sha256": "44d6578034012765eee70b2c6271619c0dfefb90bbd68df28a5fad7a20d4589c"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-7-image",
+          "sha256": "9824495876b39cc0f9c0e42240f7f52ab1f13e04dfa560c94ea9845bf9b9a624"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-7-text",
+          "sha256": "00ce98f669a57d4126b4d7303b9bc25758b450a99733764b3211ba43d43c3313"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "b6a3a5969b0f7c974097b462cdb2a5f1f95da2575cb9a0eb39690ab400754be3"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "75c635becd009b573c7bd9da345f1286a268765b1785b8027d457dd09ebcc4bf"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3c575ca7751f9fac1ee4a8cd67273404e689695ae238bd9a01e9def7457abacf"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "a7e6eb3440527c2481850b7188a25bd5d3d98f234b4aacf56202d5684df71ebb"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "47beda2a07d460261a0afee83e10d378385e0e022043c01956cf3e6a744779db"
+        },
+        {
+          "kind": "source_scope",
+          "id": "conventions",
+          "sha256": "143f972c0789c17d15b48a8ad426dfba9b8f091b7031504f73685becf835bcc8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "2395d7fd5a64ab02d6dadcdcd5c2fe8fe75c5c3a2d61ad6cf169afceb5016188"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "6ea83b065458658eaaa166716f62d6bbf4600d534c570b81c2bfd798f17de077"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture-original",
+          "sha256": "c593c63f6565fdfb76b76d9fd7bde539241e0a99483ab9c8f7df58acbbb36b56"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-1-image",
+          "sha256": "c1f8dd312735eb933ad02f39994d6a658ceea4188d1b06fb1a1ec24059a4c5f2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-1-text",
+          "sha256": "ca3ea71a154d9e1ce746afb94f8719e803b8c49708063e25135cef83e0d3364b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-2-image",
+          "sha256": "5a9b7211b259d56419e94183fafdbb65dfb9786811fcab32682d204e5c382dfe"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-2-text",
+          "sha256": "0dae14e394bb74e410cf1ddd8122424bcafbe21187c5852b9204a1863da2f0ef"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-3-image",
+          "sha256": "238f88d521838e82abd4c9b567028b6c4ebb69821aa362af3cceab7bc12ce7bd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-3-text",
+          "sha256": "83358cf63b47cb2d17a347f5f38d5bb5b1541f656c7d1557499ddf28d661481a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-4-image",
+          "sha256": "7c97025152192f7ef3a314227f7a756c8eb156e2a52e34100e4545ff2d7e585d"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-4-text",
+          "sha256": "f5dba609be66829529b41f6318ba4069262e61ae5a46a39ecff1b9cf8dfdd4ba"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-5-image",
+          "sha256": "214d084bec76cf3b86b30021c15c8f25b44d8e213210a70523f9daf8194ac95f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-5-text",
+          "sha256": "817b06418cba03b90bfe66e2bcb842b78928f035e79de4581bd28a9925fb0fd8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-6-image",
+          "sha256": "70e9778dacfa273e820d110faa8e677e4415e2ec9ba43043b5437967d5fd396b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-6-text",
+          "sha256": "4a6549189151a7619ece5b0ed5a47244d18d8b3aa3c8d949e393031ce0a98710"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-7-image",
+          "sha256": "80205ae53cf11d30efb225099c14eaba392567cf045d470eb402670ef42990b4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-7-text",
+          "sha256": "7cc8a35dfc9a680baa0758412a31f40e3d5b5ea94e6f6591b4363baac07f925c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "12c1a144ab1010bfc7e9ca066da9d1a7a1bfbbdd4be8ca7e62669c96b6f4a2c2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "790f16ea215ceff37dcb0de0209f671787b1153b12ca119e375c6d4cf126a993"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "0a933d792bccdbdfb6695b7a26c349d6e6c667a13c38aeb716fc916e8c151e24"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "e83ba2c86f5733707744654eb6ddec2d5f985d46ceff9d299317ca10bb318352"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "bff585127904a6953c46401157efe26542d6da29c82530d97e5b04738a8ab6bb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "d4ccfba55f48cac2124977a9b3024c511fe0de000c1ce59800ec8638f3bdcf79"
+        },
+        {
+          "kind": "topic",
+          "id": "approximations",
+          "sha256": "13e890908e1a1d87ef9def26eee540c9be2306d6d3814a679414ffc4bdd380f4"
+        }
+      ]
+    },
+    {
+      "id": "final_review",
+      "description": "Read and audit the actual complete final route, help and material limits.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Complete actual bound audit originals independently read and integrated; all applicable content/reader/destination checks pass with preserved qualifications. Publication remains separately pending.",
+      "evidence": [
+        {
+          "path": "evidence/original-reports/root-review/final-root-adjudication.md",
+          "sha256": "1f8a655519b7cc3ba6c4091176eb53159f579cb64c632a0156871c9f9697ed51",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 13
+          }
+        },
+        {
+          "path": "evidence/final-adjudication.json",
+          "sha256": "ed477c368b1af0dbe985366441fa86ba90a2b49d6ec098673f999413d1319fa5",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 53
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "efa50ebd766b0508d01d9b894912f8f9b3fe80109436769c0458841d6234c0f0"
+        },
+        {
+          "kind": "output",
+          "id": "output-1",
+          "sha256": "5f154706d4163f6eacfb64ea5ca1498dcb0d179c96b96874f3cf286855b3d8be"
+        },
+        {
+          "kind": "output",
+          "id": "output-2",
+          "sha256": "ad60cddb0fa8e7b8b6a8330e2d8162bcc5d4c69037f48bce6ee5aef571dccd94"
+        },
+        {
+          "kind": "output",
+          "id": "output-3",
+          "sha256": "f0994b23abda13ba561f589bb156277f96a9ffcc681b3d8c0214e9c87d833928"
+        },
+        {
+          "kind": "output",
+          "id": "output-4",
+          "sha256": "f0fbfb25b9bdc5a1b4a737a2b4c1f13e6da98fb237f6f26e76c32a2656dc3d97"
+        },
+        {
+          "kind": "output",
+          "id": "output-5",
+          "sha256": "1f249ea34d4879407cbc91ce4e30e564607ddc9d845fb0160616e3cd04cb647d"
+        },
+        {
+          "kind": "output",
+          "id": "output-6",
+          "sha256": "c6208e042063e806a2d0709bc9974994504280c40f5efb592598158ae4ef2938"
+        },
+        {
+          "kind": "output",
+          "id": "output-7",
+          "sha256": "47fbfc2749aa724863e7e483cc04d0d93909504206136d2e975a07694ddbd5f1"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "8de61224efefd59a8eef2e2fd13ed11d3e69d067254479710fa22bf86cf37685"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "f0afaf8e8d6baf4af5f6d1d228bbaa576b5648e8fcfc8d35767db74503af06ab"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "conventions",
+          "sha256": "4544de1887b65405b2518411799ffcb6574131c4b67c9cfb0a585bb493217841"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "760602402ff2b58bbee0d878f324237dff6676edc1398fe93bb868f16f87071c"
+        },
+        {
+          "kind": "source",
+          "id": "lecture-original",
+          "sha256": "d1b383663f7792bbdaa4d6108e17b11679d4688e413e197486941af337892320"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-1-image",
+          "sha256": "cf38e5a69e5dd2300bf90b52b69cd6ecdaf2d083412ded9643cdcf08cf025ccf"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-1-text",
+          "sha256": "11c690867bfc86462780321c0a2f505caa77a5b25de25f251a48516b67b1cd34"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-2-image",
+          "sha256": "7042535360332544135dd3665ee491236f3de23940ff586d2cdf64a1c40b8908"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-2-text",
+          "sha256": "08550e8177b4901ef335ae9001a51ec51c515b3c2e600c37846b1299876bd9e4"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-3-image",
+          "sha256": "7a07b0af47ec2d6cd89930c8f7095f27e1b86e81f9b0faae780ec864cc504d83"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-3-text",
+          "sha256": "7248fd82b3fd8b0381a90a42c8cf7a4b4f3772556311c6dc860f368973d40090"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-4-image",
+          "sha256": "beb6a89b7ac4d98d7555d354022b3b01d84d64fa13e7ea7b5e8c992b93f99e06"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-4-text",
+          "sha256": "b74776279fa991a48f6d9d490b34c87d8c488635c24a1900623daffac0d48347"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-5-image",
+          "sha256": "1f939e8b8a6db5129d58ee2ab2492e734ef853da2c4c1b59a732bd38930114ca"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-5-text",
+          "sha256": "1b5b89bd5e4bc6c6e80e472821b1bda68a1569353b9d791ba2a7a57ce5f50082"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-6-image",
+          "sha256": "dcbad0e531c05f0615fe50d0557bbed05a77b096a8d1f32a2d1915b0335d22bc"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-6-text",
+          "sha256": "44d6578034012765eee70b2c6271619c0dfefb90bbd68df28a5fad7a20d4589c"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-7-image",
+          "sha256": "9824495876b39cc0f9c0e42240f7f52ab1f13e04dfa560c94ea9845bf9b9a624"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-7-text",
+          "sha256": "00ce98f669a57d4126b4d7303b9bc25758b450a99733764b3211ba43d43c3313"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "b6a3a5969b0f7c974097b462cdb2a5f1f95da2575cb9a0eb39690ab400754be3"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "75c635becd009b573c7bd9da345f1286a268765b1785b8027d457dd09ebcc4bf"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3c575ca7751f9fac1ee4a8cd67273404e689695ae238bd9a01e9def7457abacf"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "a7e6eb3440527c2481850b7188a25bd5d3d98f234b4aacf56202d5684df71ebb"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "47beda2a07d460261a0afee83e10d378385e0e022043c01956cf3e6a744779db"
+        },
+        {
+          "kind": "source_scope",
+          "id": "conventions",
+          "sha256": "143f972c0789c17d15b48a8ad426dfba9b8f091b7031504f73685becf835bcc8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "2395d7fd5a64ab02d6dadcdcd5c2fe8fe75c5c3a2d61ad6cf169afceb5016188"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "6ea83b065458658eaaa166716f62d6bbf4600d534c570b81c2bfd798f17de077"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture-original",
+          "sha256": "c593c63f6565fdfb76b76d9fd7bde539241e0a99483ab9c8f7df58acbbb36b56"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-1-image",
+          "sha256": "c1f8dd312735eb933ad02f39994d6a658ceea4188d1b06fb1a1ec24059a4c5f2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-1-text",
+          "sha256": "ca3ea71a154d9e1ce746afb94f8719e803b8c49708063e25135cef83e0d3364b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-2-image",
+          "sha256": "5a9b7211b259d56419e94183fafdbb65dfb9786811fcab32682d204e5c382dfe"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-2-text",
+          "sha256": "0dae14e394bb74e410cf1ddd8122424bcafbe21187c5852b9204a1863da2f0ef"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-3-image",
+          "sha256": "238f88d521838e82abd4c9b567028b6c4ebb69821aa362af3cceab7bc12ce7bd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-3-text",
+          "sha256": "83358cf63b47cb2d17a347f5f38d5bb5b1541f656c7d1557499ddf28d661481a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-4-image",
+          "sha256": "7c97025152192f7ef3a314227f7a756c8eb156e2a52e34100e4545ff2d7e585d"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-4-text",
+          "sha256": "f5dba609be66829529b41f6318ba4069262e61ae5a46a39ecff1b9cf8dfdd4ba"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-5-image",
+          "sha256": "214d084bec76cf3b86b30021c15c8f25b44d8e213210a70523f9daf8194ac95f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-5-text",
+          "sha256": "817b06418cba03b90bfe66e2bcb842b78928f035e79de4581bd28a9925fb0fd8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-6-image",
+          "sha256": "70e9778dacfa273e820d110faa8e677e4415e2ec9ba43043b5437967d5fd396b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-6-text",
+          "sha256": "4a6549189151a7619ece5b0ed5a47244d18d8b3aa3c8d949e393031ce0a98710"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-7-image",
+          "sha256": "80205ae53cf11d30efb225099c14eaba392567cf045d470eb402670ef42990b4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-7-text",
+          "sha256": "7cc8a35dfc9a680baa0758412a31f40e3d5b5ea94e6f6591b4363baac07f925c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "12c1a144ab1010bfc7e9ca066da9d1a7a1bfbbdd4be8ca7e62669c96b6f4a2c2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "790f16ea215ceff37dcb0de0209f671787b1153b12ca119e375c6d4cf126a993"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "0a933d792bccdbdfb6695b7a26c349d6e6c667a13c38aeb716fc916e8c151e24"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "e83ba2c86f5733707744654eb6ddec2d5f985d46ceff9d299317ca10bb318352"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "bff585127904a6953c46401157efe26542d6da29c82530d97e5b04738a8ab6bb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "d4ccfba55f48cac2124977a9b3024c511fe0de000c1ce59800ec8638f3bdcf79"
+        },
+        {
+          "kind": "topic",
+          "id": "approximations",
+          "sha256": "13e890908e1a1d87ef9def26eee540c9be2306d6d3814a679414ffc4bdd380f4"
+        }
+      ]
+    },
+    {
+      "id": "source_technical",
+      "description": "Complete original source, primary physical premises, independent prompt-first calculations and full technical audit.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Independent original-source and prompt-first full technical review plus primary external verification and author calculations establish no verified material technical failure; qualifications preserved.",
+      "evidence": [
+        {
+          "path": "evidence/technical-finding-dispositions.md",
+          "sha256": "c7e64ca08720040ec82abafdf4ecd3356ea38e62e67703201f788b23211b7914",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 15
+          }
+        },
+        {
+          "path": "evidence/author-technical-checks.json",
+          "sha256": "75da474268ba3eb8ba9790c81158eac9408e8b877c230f6bb300d3fc00736656",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 116
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "efa50ebd766b0508d01d9b894912f8f9b3fe80109436769c0458841d6234c0f0"
+        },
+        {
+          "kind": "output",
+          "id": "output-1",
+          "sha256": "5f154706d4163f6eacfb64ea5ca1498dcb0d179c96b96874f3cf286855b3d8be"
+        },
+        {
+          "kind": "output",
+          "id": "output-2",
+          "sha256": "ad60cddb0fa8e7b8b6a8330e2d8162bcc5d4c69037f48bce6ee5aef571dccd94"
+        },
+        {
+          "kind": "output",
+          "id": "output-3",
+          "sha256": "f0994b23abda13ba561f589bb156277f96a9ffcc681b3d8c0214e9c87d833928"
+        },
+        {
+          "kind": "output",
+          "id": "output-4",
+          "sha256": "f0fbfb25b9bdc5a1b4a737a2b4c1f13e6da98fb237f6f26e76c32a2656dc3d97"
+        },
+        {
+          "kind": "output",
+          "id": "output-5",
+          "sha256": "1f249ea34d4879407cbc91ce4e30e564607ddc9d845fb0160616e3cd04cb647d"
+        },
+        {
+          "kind": "output",
+          "id": "output-6",
+          "sha256": "c6208e042063e806a2d0709bc9974994504280c40f5efb592598158ae4ef2938"
+        },
+        {
+          "kind": "output",
+          "id": "output-7",
+          "sha256": "47fbfc2749aa724863e7e483cc04d0d93909504206136d2e975a07694ddbd5f1"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "8de61224efefd59a8eef2e2fd13ed11d3e69d067254479710fa22bf86cf37685"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "f0afaf8e8d6baf4af5f6d1d228bbaa576b5648e8fcfc8d35767db74503af06ab"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "conventions",
+          "sha256": "4544de1887b65405b2518411799ffcb6574131c4b67c9cfb0a585bb493217841"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "760602402ff2b58bbee0d878f324237dff6676edc1398fe93bb868f16f87071c"
+        },
+        {
+          "kind": "source",
+          "id": "lecture-original",
+          "sha256": "d1b383663f7792bbdaa4d6108e17b11679d4688e413e197486941af337892320"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-1-image",
+          "sha256": "cf38e5a69e5dd2300bf90b52b69cd6ecdaf2d083412ded9643cdcf08cf025ccf"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-1-text",
+          "sha256": "11c690867bfc86462780321c0a2f505caa77a5b25de25f251a48516b67b1cd34"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-2-image",
+          "sha256": "7042535360332544135dd3665ee491236f3de23940ff586d2cdf64a1c40b8908"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-2-text",
+          "sha256": "08550e8177b4901ef335ae9001a51ec51c515b3c2e600c37846b1299876bd9e4"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-3-image",
+          "sha256": "7a07b0af47ec2d6cd89930c8f7095f27e1b86e81f9b0faae780ec864cc504d83"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-3-text",
+          "sha256": "7248fd82b3fd8b0381a90a42c8cf7a4b4f3772556311c6dc860f368973d40090"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-4-image",
+          "sha256": "beb6a89b7ac4d98d7555d354022b3b01d84d64fa13e7ea7b5e8c992b93f99e06"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-4-text",
+          "sha256": "b74776279fa991a48f6d9d490b34c87d8c488635c24a1900623daffac0d48347"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-5-image",
+          "sha256": "1f939e8b8a6db5129d58ee2ab2492e734ef853da2c4c1b59a732bd38930114ca"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-5-text",
+          "sha256": "1b5b89bd5e4bc6c6e80e472821b1bda68a1569353b9d791ba2a7a57ce5f50082"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-6-image",
+          "sha256": "dcbad0e531c05f0615fe50d0557bbed05a77b096a8d1f32a2d1915b0335d22bc"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-6-text",
+          "sha256": "44d6578034012765eee70b2c6271619c0dfefb90bbd68df28a5fad7a20d4589c"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-7-image",
+          "sha256": "9824495876b39cc0f9c0e42240f7f52ab1f13e04dfa560c94ea9845bf9b9a624"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-7-text",
+          "sha256": "00ce98f669a57d4126b4d7303b9bc25758b450a99733764b3211ba43d43c3313"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "b6a3a5969b0f7c974097b462cdb2a5f1f95da2575cb9a0eb39690ab400754be3"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "75c635becd009b573c7bd9da345f1286a268765b1785b8027d457dd09ebcc4bf"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3c575ca7751f9fac1ee4a8cd67273404e689695ae238bd9a01e9def7457abacf"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "a7e6eb3440527c2481850b7188a25bd5d3d98f234b4aacf56202d5684df71ebb"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "47beda2a07d460261a0afee83e10d378385e0e022043c01956cf3e6a744779db"
+        },
+        {
+          "kind": "source_scope",
+          "id": "conventions",
+          "sha256": "143f972c0789c17d15b48a8ad426dfba9b8f091b7031504f73685becf835bcc8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "2395d7fd5a64ab02d6dadcdcd5c2fe8fe75c5c3a2d61ad6cf169afceb5016188"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "6ea83b065458658eaaa166716f62d6bbf4600d534c570b81c2bfd798f17de077"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture-original",
+          "sha256": "c593c63f6565fdfb76b76d9fd7bde539241e0a99483ab9c8f7df58acbbb36b56"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-1-image",
+          "sha256": "c1f8dd312735eb933ad02f39994d6a658ceea4188d1b06fb1a1ec24059a4c5f2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-1-text",
+          "sha256": "ca3ea71a154d9e1ce746afb94f8719e803b8c49708063e25135cef83e0d3364b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-2-image",
+          "sha256": "5a9b7211b259d56419e94183fafdbb65dfb9786811fcab32682d204e5c382dfe"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-2-text",
+          "sha256": "0dae14e394bb74e410cf1ddd8122424bcafbe21187c5852b9204a1863da2f0ef"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-3-image",
+          "sha256": "238f88d521838e82abd4c9b567028b6c4ebb69821aa362af3cceab7bc12ce7bd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-3-text",
+          "sha256": "83358cf63b47cb2d17a347f5f38d5bb5b1541f656c7d1557499ddf28d661481a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-4-image",
+          "sha256": "7c97025152192f7ef3a314227f7a756c8eb156e2a52e34100e4545ff2d7e585d"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-4-text",
+          "sha256": "f5dba609be66829529b41f6318ba4069262e61ae5a46a39ecff1b9cf8dfdd4ba"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-5-image",
+          "sha256": "214d084bec76cf3b86b30021c15c8f25b44d8e213210a70523f9daf8194ac95f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-5-text",
+          "sha256": "817b06418cba03b90bfe66e2bcb842b78928f035e79de4581bd28a9925fb0fd8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-6-image",
+          "sha256": "70e9778dacfa273e820d110faa8e677e4415e2ec9ba43043b5437967d5fd396b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-6-text",
+          "sha256": "4a6549189151a7619ece5b0ed5a47244d18d8b3aa3c8d949e393031ce0a98710"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-7-image",
+          "sha256": "80205ae53cf11d30efb225099c14eaba392567cf045d470eb402670ef42990b4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-7-text",
+          "sha256": "7cc8a35dfc9a680baa0758412a31f40e3d5b5ea94e6f6591b4363baac07f925c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "12c1a144ab1010bfc7e9ca066da9d1a7a1bfbbdd4be8ca7e62669c96b6f4a2c2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "790f16ea215ceff37dcb0de0209f671787b1153b12ca119e375c6d4cf126a993"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "0a933d792bccdbdfb6695b7a26c349d6e6c667a13c38aeb716fc916e8c151e24"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "e83ba2c86f5733707744654eb6ddec2d5f985d46ceff9d299317ca10bb318352"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "bff585127904a6953c46401157efe26542d6da29c82530d97e5b04738a8ab6bb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "d4ccfba55f48cac2124977a9b3024c511fe0de000c1ce59800ec8638f3bdcf79"
+        },
+        {
+          "kind": "topic",
+          "id": "approximations",
+          "sha256": "13e890908e1a1d87ef9def26eee540c9be2306d6d3814a679414ffc4bdd380f4"
+        }
+      ]
+    },
+    {
+      "id": "reader_admission",
+      "description": "Complete actual baseline/whole document ordered access, every original figure-view result and unedited SASIS report admitted.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Full52stage actual ordered access/556event chain, every returned byte and original4viewobjects admit the unedited complete chronological two-input report with disclosed instruction and platform limits.",
+      "evidence": [
+        {
+          "path": "evidence/reader-admission-and-disposition.md",
+          "sha256": "d2edc3f5086d578d486051f2ad799bdd930bc2f0b936ca60983685a024fa1680",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 17
+          }
+        },
+        {
+          "path": "evidence/reader-actual-access-audit.json",
+          "sha256": "48c8cb04cb34453ff603ccb423b53bc6834e801552cc885f8422b3043aef1843",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 419
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "efa50ebd766b0508d01d9b894912f8f9b3fe80109436769c0458841d6234c0f0"
+        },
+        {
+          "kind": "output",
+          "id": "output-1",
+          "sha256": "5f154706d4163f6eacfb64ea5ca1498dcb0d179c96b96874f3cf286855b3d8be"
+        },
+        {
+          "kind": "output",
+          "id": "output-2",
+          "sha256": "ad60cddb0fa8e7b8b6a8330e2d8162bcc5d4c69037f48bce6ee5aef571dccd94"
+        },
+        {
+          "kind": "output",
+          "id": "output-3",
+          "sha256": "f0994b23abda13ba561f589bb156277f96a9ffcc681b3d8c0214e9c87d833928"
+        },
+        {
+          "kind": "output",
+          "id": "output-4",
+          "sha256": "f0fbfb25b9bdc5a1b4a737a2b4c1f13e6da98fb237f6f26e76c32a2656dc3d97"
+        },
+        {
+          "kind": "output",
+          "id": "output-5",
+          "sha256": "1f249ea34d4879407cbc91ce4e30e564607ddc9d845fb0160616e3cd04cb647d"
+        },
+        {
+          "kind": "output",
+          "id": "output-6",
+          "sha256": "c6208e042063e806a2d0709bc9974994504280c40f5efb592598158ae4ef2938"
+        },
+        {
+          "kind": "output",
+          "id": "output-7",
+          "sha256": "47fbfc2749aa724863e7e483cc04d0d93909504206136d2e975a07694ddbd5f1"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "8de61224efefd59a8eef2e2fd13ed11d3e69d067254479710fa22bf86cf37685"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "f0afaf8e8d6baf4af5f6d1d228bbaa576b5648e8fcfc8d35767db74503af06ab"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "conventions",
+          "sha256": "4544de1887b65405b2518411799ffcb6574131c4b67c9cfb0a585bb493217841"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "760602402ff2b58bbee0d878f324237dff6676edc1398fe93bb868f16f87071c"
+        },
+        {
+          "kind": "source",
+          "id": "lecture-original",
+          "sha256": "d1b383663f7792bbdaa4d6108e17b11679d4688e413e197486941af337892320"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-1-image",
+          "sha256": "cf38e5a69e5dd2300bf90b52b69cd6ecdaf2d083412ded9643cdcf08cf025ccf"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-1-text",
+          "sha256": "11c690867bfc86462780321c0a2f505caa77a5b25de25f251a48516b67b1cd34"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-2-image",
+          "sha256": "7042535360332544135dd3665ee491236f3de23940ff586d2cdf64a1c40b8908"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-2-text",
+          "sha256": "08550e8177b4901ef335ae9001a51ec51c515b3c2e600c37846b1299876bd9e4"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-3-image",
+          "sha256": "7a07b0af47ec2d6cd89930c8f7095f27e1b86e81f9b0faae780ec864cc504d83"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-3-text",
+          "sha256": "7248fd82b3fd8b0381a90a42c8cf7a4b4f3772556311c6dc860f368973d40090"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-4-image",
+          "sha256": "beb6a89b7ac4d98d7555d354022b3b01d84d64fa13e7ea7b5e8c992b93f99e06"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-4-text",
+          "sha256": "b74776279fa991a48f6d9d490b34c87d8c488635c24a1900623daffac0d48347"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-5-image",
+          "sha256": "1f939e8b8a6db5129d58ee2ab2492e734ef853da2c4c1b59a732bd38930114ca"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-5-text",
+          "sha256": "1b5b89bd5e4bc6c6e80e472821b1bda68a1569353b9d791ba2a7a57ce5f50082"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-6-image",
+          "sha256": "dcbad0e531c05f0615fe50d0557bbed05a77b096a8d1f32a2d1915b0335d22bc"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-6-text",
+          "sha256": "44d6578034012765eee70b2c6271619c0dfefb90bbd68df28a5fad7a20d4589c"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-7-image",
+          "sha256": "9824495876b39cc0f9c0e42240f7f52ab1f13e04dfa560c94ea9845bf9b9a624"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-7-text",
+          "sha256": "00ce98f669a57d4126b4d7303b9bc25758b450a99733764b3211ba43d43c3313"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "b6a3a5969b0f7c974097b462cdb2a5f1f95da2575cb9a0eb39690ab400754be3"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "75c635becd009b573c7bd9da345f1286a268765b1785b8027d457dd09ebcc4bf"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3c575ca7751f9fac1ee4a8cd67273404e689695ae238bd9a01e9def7457abacf"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "a7e6eb3440527c2481850b7188a25bd5d3d98f234b4aacf56202d5684df71ebb"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "47beda2a07d460261a0afee83e10d378385e0e022043c01956cf3e6a744779db"
+        },
+        {
+          "kind": "source_scope",
+          "id": "conventions",
+          "sha256": "143f972c0789c17d15b48a8ad426dfba9b8f091b7031504f73685becf835bcc8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "2395d7fd5a64ab02d6dadcdcd5c2fe8fe75c5c3a2d61ad6cf169afceb5016188"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "6ea83b065458658eaaa166716f62d6bbf4600d534c570b81c2bfd798f17de077"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture-original",
+          "sha256": "c593c63f6565fdfb76b76d9fd7bde539241e0a99483ab9c8f7df58acbbb36b56"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-1-image",
+          "sha256": "c1f8dd312735eb933ad02f39994d6a658ceea4188d1b06fb1a1ec24059a4c5f2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-1-text",
+          "sha256": "ca3ea71a154d9e1ce746afb94f8719e803b8c49708063e25135cef83e0d3364b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-2-image",
+          "sha256": "5a9b7211b259d56419e94183fafdbb65dfb9786811fcab32682d204e5c382dfe"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-2-text",
+          "sha256": "0dae14e394bb74e410cf1ddd8122424bcafbe21187c5852b9204a1863da2f0ef"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-3-image",
+          "sha256": "238f88d521838e82abd4c9b567028b6c4ebb69821aa362af3cceab7bc12ce7bd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-3-text",
+          "sha256": "83358cf63b47cb2d17a347f5f38d5bb5b1541f656c7d1557499ddf28d661481a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-4-image",
+          "sha256": "7c97025152192f7ef3a314227f7a756c8eb156e2a52e34100e4545ff2d7e585d"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-4-text",
+          "sha256": "f5dba609be66829529b41f6318ba4069262e61ae5a46a39ecff1b9cf8dfdd4ba"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-5-image",
+          "sha256": "214d084bec76cf3b86b30021c15c8f25b44d8e213210a70523f9daf8194ac95f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-5-text",
+          "sha256": "817b06418cba03b90bfe66e2bcb842b78928f035e79de4581bd28a9925fb0fd8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-6-image",
+          "sha256": "70e9778dacfa273e820d110faa8e677e4415e2ec9ba43043b5437967d5fd396b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-6-text",
+          "sha256": "4a6549189151a7619ece5b0ed5a47244d18d8b3aa3c8d949e393031ce0a98710"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-7-image",
+          "sha256": "80205ae53cf11d30efb225099c14eaba392567cf045d470eb402670ef42990b4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-7-text",
+          "sha256": "7cc8a35dfc9a680baa0758412a31f40e3d5b5ea94e6f6591b4363baac07f925c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "12c1a144ab1010bfc7e9ca066da9d1a7a1bfbbdd4be8ca7e62669c96b6f4a2c2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "790f16ea215ceff37dcb0de0209f671787b1153b12ca119e375c6d4cf126a993"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "0a933d792bccdbdfb6695b7a26c349d6e6c667a13c38aeb716fc916e8c151e24"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "e83ba2c86f5733707744654eb6ddec2d5f985d46ceff9d299317ca10bb318352"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "bff585127904a6953c46401157efe26542d6da29c82530d97e5b04738a8ab6bb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "d4ccfba55f48cac2124977a9b3024c511fe0de000c1ce59800ec8638f3bdcf79"
+        },
+        {
+          "kind": "topic",
+          "id": "approximations",
+          "sha256": "13e890908e1a1d87ef9def26eee540c9be2306d6d3814a679414ffc4bdd380f4"
+        }
+      ]
+    },
+    {
+      "id": "destination",
+      "description": "All actual GitHub source expressions, prose typography, figures, cold and warmed routes preserved.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Complete actual bound audit originals independently read and integrated; all applicable content/reader/destination checks pass with preserved qualifications. Publication remains separately pending.",
+      "evidence": [
+        {
+          "path": "evidence/original-reports/root-review/final-root-adjudication.md",
+          "sha256": "1f8a655519b7cc3ba6c4091176eb53159f579cb64c632a0156871c9f9697ed51",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 13
+          }
+        },
+        {
+          "path": "evidence/final-adjudication.json",
+          "sha256": "ed477c368b1af0dbe985366441fa86ba90a2b49d6ec098673f999413d1319fa5",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 53
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "efa50ebd766b0508d01d9b894912f8f9b3fe80109436769c0458841d6234c0f0"
+        },
+        {
+          "kind": "output",
+          "id": "output-1",
+          "sha256": "5f154706d4163f6eacfb64ea5ca1498dcb0d179c96b96874f3cf286855b3d8be"
+        },
+        {
+          "kind": "output",
+          "id": "output-2",
+          "sha256": "ad60cddb0fa8e7b8b6a8330e2d8162bcc5d4c69037f48bce6ee5aef571dccd94"
+        },
+        {
+          "kind": "output",
+          "id": "output-3",
+          "sha256": "f0994b23abda13ba561f589bb156277f96a9ffcc681b3d8c0214e9c87d833928"
+        },
+        {
+          "kind": "output",
+          "id": "output-4",
+          "sha256": "f0fbfb25b9bdc5a1b4a737a2b4c1f13e6da98fb237f6f26e76c32a2656dc3d97"
+        },
+        {
+          "kind": "output",
+          "id": "output-5",
+          "sha256": "1f249ea34d4879407cbc91ce4e30e564607ddc9d845fb0160616e3cd04cb647d"
+        },
+        {
+          "kind": "output",
+          "id": "output-6",
+          "sha256": "c6208e042063e806a2d0709bc9974994504280c40f5efb592598158ae4ef2938"
+        },
+        {
+          "kind": "output",
+          "id": "output-7",
+          "sha256": "47fbfc2749aa724863e7e483cc04d0d93909504206136d2e975a07694ddbd5f1"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "8de61224efefd59a8eef2e2fd13ed11d3e69d067254479710fa22bf86cf37685"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "f0afaf8e8d6baf4af5f6d1d228bbaa576b5648e8fcfc8d35767db74503af06ab"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "conventions",
+          "sha256": "4544de1887b65405b2518411799ffcb6574131c4b67c9cfb0a585bb493217841"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "760602402ff2b58bbee0d878f324237dff6676edc1398fe93bb868f16f87071c"
+        },
+        {
+          "kind": "source",
+          "id": "lecture-original",
+          "sha256": "d1b383663f7792bbdaa4d6108e17b11679d4688e413e197486941af337892320"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-1-image",
+          "sha256": "cf38e5a69e5dd2300bf90b52b69cd6ecdaf2d083412ded9643cdcf08cf025ccf"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-1-text",
+          "sha256": "11c690867bfc86462780321c0a2f505caa77a5b25de25f251a48516b67b1cd34"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-2-image",
+          "sha256": "7042535360332544135dd3665ee491236f3de23940ff586d2cdf64a1c40b8908"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-2-text",
+          "sha256": "08550e8177b4901ef335ae9001a51ec51c515b3c2e600c37846b1299876bd9e4"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-3-image",
+          "sha256": "7a07b0af47ec2d6cd89930c8f7095f27e1b86e81f9b0faae780ec864cc504d83"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-3-text",
+          "sha256": "7248fd82b3fd8b0381a90a42c8cf7a4b4f3772556311c6dc860f368973d40090"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-4-image",
+          "sha256": "beb6a89b7ac4d98d7555d354022b3b01d84d64fa13e7ea7b5e8c992b93f99e06"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-4-text",
+          "sha256": "b74776279fa991a48f6d9d490b34c87d8c488635c24a1900623daffac0d48347"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-5-image",
+          "sha256": "1f939e8b8a6db5129d58ee2ab2492e734ef853da2c4c1b59a732bd38930114ca"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-5-text",
+          "sha256": "1b5b89bd5e4bc6c6e80e472821b1bda68a1569353b9d791ba2a7a57ce5f50082"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-6-image",
+          "sha256": "dcbad0e531c05f0615fe50d0557bbed05a77b096a8d1f32a2d1915b0335d22bc"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-6-text",
+          "sha256": "44d6578034012765eee70b2c6271619c0dfefb90bbd68df28a5fad7a20d4589c"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-7-image",
+          "sha256": "9824495876b39cc0f9c0e42240f7f52ab1f13e04dfa560c94ea9845bf9b9a624"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-7-text",
+          "sha256": "00ce98f669a57d4126b4d7303b9bc25758b450a99733764b3211ba43d43c3313"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "b6a3a5969b0f7c974097b462cdb2a5f1f95da2575cb9a0eb39690ab400754be3"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "75c635becd009b573c7bd9da345f1286a268765b1785b8027d457dd09ebcc4bf"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3c575ca7751f9fac1ee4a8cd67273404e689695ae238bd9a01e9def7457abacf"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "a7e6eb3440527c2481850b7188a25bd5d3d98f234b4aacf56202d5684df71ebb"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "47beda2a07d460261a0afee83e10d378385e0e022043c01956cf3e6a744779db"
+        },
+        {
+          "kind": "source_scope",
+          "id": "conventions",
+          "sha256": "143f972c0789c17d15b48a8ad426dfba9b8f091b7031504f73685becf835bcc8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "2395d7fd5a64ab02d6dadcdcd5c2fe8fe75c5c3a2d61ad6cf169afceb5016188"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "6ea83b065458658eaaa166716f62d6bbf4600d534c570b81c2bfd798f17de077"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture-original",
+          "sha256": "c593c63f6565fdfb76b76d9fd7bde539241e0a99483ab9c8f7df58acbbb36b56"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-1-image",
+          "sha256": "c1f8dd312735eb933ad02f39994d6a658ceea4188d1b06fb1a1ec24059a4c5f2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-1-text",
+          "sha256": "ca3ea71a154d9e1ce746afb94f8719e803b8c49708063e25135cef83e0d3364b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-2-image",
+          "sha256": "5a9b7211b259d56419e94183fafdbb65dfb9786811fcab32682d204e5c382dfe"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-2-text",
+          "sha256": "0dae14e394bb74e410cf1ddd8122424bcafbe21187c5852b9204a1863da2f0ef"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-3-image",
+          "sha256": "238f88d521838e82abd4c9b567028b6c4ebb69821aa362af3cceab7bc12ce7bd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-3-text",
+          "sha256": "83358cf63b47cb2d17a347f5f38d5bb5b1541f656c7d1557499ddf28d661481a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-4-image",
+          "sha256": "7c97025152192f7ef3a314227f7a756c8eb156e2a52e34100e4545ff2d7e585d"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-4-text",
+          "sha256": "f5dba609be66829529b41f6318ba4069262e61ae5a46a39ecff1b9cf8dfdd4ba"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-5-image",
+          "sha256": "214d084bec76cf3b86b30021c15c8f25b44d8e213210a70523f9daf8194ac95f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-5-text",
+          "sha256": "817b06418cba03b90bfe66e2bcb842b78928f035e79de4581bd28a9925fb0fd8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-6-image",
+          "sha256": "70e9778dacfa273e820d110faa8e677e4415e2ec9ba43043b5437967d5fd396b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-6-text",
+          "sha256": "4a6549189151a7619ece5b0ed5a47244d18d8b3aa3c8d949e393031ce0a98710"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-7-image",
+          "sha256": "80205ae53cf11d30efb225099c14eaba392567cf045d470eb402670ef42990b4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-7-text",
+          "sha256": "7cc8a35dfc9a680baa0758412a31f40e3d5b5ea94e6f6591b4363baac07f925c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "12c1a144ab1010bfc7e9ca066da9d1a7a1bfbbdd4be8ca7e62669c96b6f4a2c2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "790f16ea215ceff37dcb0de0209f671787b1153b12ca119e375c6d4cf126a993"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "0a933d792bccdbdfb6695b7a26c349d6e6c667a13c38aeb716fc916e8c151e24"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "e83ba2c86f5733707744654eb6ddec2d5f985d46ceff9d299317ca10bb318352"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "bff585127904a6953c46401157efe26542d6da29c82530d97e5b04738a8ab6bb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "d4ccfba55f48cac2124977a9b3024c511fe0de000c1ce59800ec8638f3bdcf79"
+        },
+        {
+          "kind": "topic",
+          "id": "approximations",
+          "sha256": "13e890908e1a1d87ef9def26eee540c9be2306d6d3814a679414ffc4bdd380f4"
+        }
+      ]
+    },
+    {
+      "id": "publication",
+      "description": "Actual whole-byte frozen teaching and complete outgoing package/evidence readback, required before advancing canonical acceptance counts; the later canonical checkpoint has its own actual-byte invariant verification.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Actual complete81path31,821,947B release readback matches intended originals, including all36package/all34internaldeclarations and frozen11publicationpaths. Three archives reconstructed exactly; canonical checkpoint readback is a subsequent separate gate.",
+      "evidence": [
+        {
+          "path": "evidence/release-publication-readback.json",
+          "sha256": "b7daa71f54c93d45b0a93996c991a6805a63d1e74b0a02f70c8eda3c78506f6e",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 778
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "efa50ebd766b0508d01d9b894912f8f9b3fe80109436769c0458841d6234c0f0"
+        },
+        {
+          "kind": "output",
+          "id": "output-1",
+          "sha256": "5f154706d4163f6eacfb64ea5ca1498dcb0d179c96b96874f3cf286855b3d8be"
+        },
+        {
+          "kind": "output",
+          "id": "output-2",
+          "sha256": "ad60cddb0fa8e7b8b6a8330e2d8162bcc5d4c69037f48bce6ee5aef571dccd94"
+        },
+        {
+          "kind": "output",
+          "id": "output-3",
+          "sha256": "f0994b23abda13ba561f589bb156277f96a9ffcc681b3d8c0214e9c87d833928"
+        },
+        {
+          "kind": "output",
+          "id": "output-4",
+          "sha256": "f0fbfb25b9bdc5a1b4a737a2b4c1f13e6da98fb237f6f26e76c32a2656dc3d97"
+        },
+        {
+          "kind": "output",
+          "id": "output-5",
+          "sha256": "1f249ea34d4879407cbc91ce4e30e564607ddc9d845fb0160616e3cd04cb647d"
+        },
+        {
+          "kind": "output",
+          "id": "output-6",
+          "sha256": "c6208e042063e806a2d0709bc9974994504280c40f5efb592598158ae4ef2938"
+        },
+        {
+          "kind": "output",
+          "id": "output-7",
+          "sha256": "47fbfc2749aa724863e7e483cc04d0d93909504206136d2e975a07694ddbd5f1"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "8de61224efefd59a8eef2e2fd13ed11d3e69d067254479710fa22bf86cf37685"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "f0afaf8e8d6baf4af5f6d1d228bbaa576b5648e8fcfc8d35767db74503af06ab"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "conventions",
+          "sha256": "4544de1887b65405b2518411799ffcb6574131c4b67c9cfb0a585bb493217841"
+        },
+        {
+          "kind": "source",
+          "id": "domain",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "execution",
+          "sha256": "760602402ff2b58bbee0d878f324237dff6676edc1398fe93bb868f16f87071c"
+        },
+        {
+          "kind": "source",
+          "id": "lecture-original",
+          "sha256": "d1b383663f7792bbdaa4d6108e17b11679d4688e413e197486941af337892320"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-1-image",
+          "sha256": "cf38e5a69e5dd2300bf90b52b69cd6ecdaf2d083412ded9643cdcf08cf025ccf"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-1-text",
+          "sha256": "11c690867bfc86462780321c0a2f505caa77a5b25de25f251a48516b67b1cd34"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-2-image",
+          "sha256": "7042535360332544135dd3665ee491236f3de23940ff586d2cdf64a1c40b8908"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-2-text",
+          "sha256": "08550e8177b4901ef335ae9001a51ec51c515b3c2e600c37846b1299876bd9e4"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-3-image",
+          "sha256": "7a07b0af47ec2d6cd89930c8f7095f27e1b86e81f9b0faae780ec864cc504d83"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-3-text",
+          "sha256": "7248fd82b3fd8b0381a90a42c8cf7a4b4f3772556311c6dc860f368973d40090"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-4-image",
+          "sha256": "beb6a89b7ac4d98d7555d354022b3b01d84d64fa13e7ea7b5e8c992b93f99e06"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-4-text",
+          "sha256": "b74776279fa991a48f6d9d490b34c87d8c488635c24a1900623daffac0d48347"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-5-image",
+          "sha256": "1f939e8b8a6db5129d58ee2ab2492e734ef853da2c4c1b59a732bd38930114ca"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-5-text",
+          "sha256": "1b5b89bd5e4bc6c6e80e472821b1bda68a1569353b9d791ba2a7a57ce5f50082"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-6-image",
+          "sha256": "dcbad0e531c05f0615fe50d0557bbed05a77b096a8d1f32a2d1915b0335d22bc"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-6-text",
+          "sha256": "44d6578034012765eee70b2c6271619c0dfefb90bbd68df28a5fad7a20d4589c"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-7-image",
+          "sha256": "9824495876b39cc0f9c0e42240f7f52ab1f13e04dfa560c94ea9845bf9b9a624"
+        },
+        {
+          "kind": "source",
+          "id": "original-page-7-text",
+          "sha256": "00ce98f669a57d4126b4d7303b9bc25758b450a99733764b3211ba43d43c3313"
+        },
+        {
+          "kind": "source",
+          "id": "profile",
+          "sha256": "b6a3a5969b0f7c974097b462cdb2a5f1f95da2575cb9a0eb39690ab400754be3"
+        },
+        {
+          "kind": "source",
+          "id": "reader-contract",
+          "sha256": "75c635becd009b573c7bd9da345f1286a268765b1785b8027d457dd09ebcc4bf"
+        },
+        {
+          "kind": "source",
+          "id": "reader-role",
+          "sha256": "3c575ca7751f9fac1ee4a8cd67273404e689695ae238bd9a01e9def7457abacf"
+        },
+        {
+          "kind": "source",
+          "id": "rewrite",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "sasis",
+          "sha256": "a7e6eb3440527c2481850b7188a25bd5d3d98f234b4aacf56202d5684df71ebb"
+        },
+        {
+          "kind": "source",
+          "id": "state-guide",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "47beda2a07d460261a0afee83e10d378385e0e022043c01956cf3e6a744779db"
+        },
+        {
+          "kind": "source_scope",
+          "id": "conventions",
+          "sha256": "143f972c0789c17d15b48a8ad426dfba9b8f091b7031504f73685becf835bcc8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "domain",
+          "sha256": "2395d7fd5a64ab02d6dadcdcd5c2fe8fe75c5c3a2d61ad6cf169afceb5016188"
+        },
+        {
+          "kind": "source_scope",
+          "id": "execution",
+          "sha256": "6ea83b065458658eaaa166716f62d6bbf4600d534c570b81c2bfd798f17de077"
+        },
+        {
+          "kind": "source_scope",
+          "id": "lecture-original",
+          "sha256": "c593c63f6565fdfb76b76d9fd7bde539241e0a99483ab9c8f7df58acbbb36b56"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-1-image",
+          "sha256": "c1f8dd312735eb933ad02f39994d6a658ceea4188d1b06fb1a1ec24059a4c5f2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-1-text",
+          "sha256": "ca3ea71a154d9e1ce746afb94f8719e803b8c49708063e25135cef83e0d3364b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-2-image",
+          "sha256": "5a9b7211b259d56419e94183fafdbb65dfb9786811fcab32682d204e5c382dfe"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-2-text",
+          "sha256": "0dae14e394bb74e410cf1ddd8122424bcafbe21187c5852b9204a1863da2f0ef"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-3-image",
+          "sha256": "238f88d521838e82abd4c9b567028b6c4ebb69821aa362af3cceab7bc12ce7bd"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-3-text",
+          "sha256": "83358cf63b47cb2d17a347f5f38d5bb5b1541f656c7d1557499ddf28d661481a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-4-image",
+          "sha256": "7c97025152192f7ef3a314227f7a756c8eb156e2a52e34100e4545ff2d7e585d"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-4-text",
+          "sha256": "f5dba609be66829529b41f6318ba4069262e61ae5a46a39ecff1b9cf8dfdd4ba"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-5-image",
+          "sha256": "214d084bec76cf3b86b30021c15c8f25b44d8e213210a70523f9daf8194ac95f"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-5-text",
+          "sha256": "817b06418cba03b90bfe66e2bcb842b78928f035e79de4581bd28a9925fb0fd8"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-6-image",
+          "sha256": "70e9778dacfa273e820d110faa8e677e4415e2ec9ba43043b5437967d5fd396b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-6-text",
+          "sha256": "4a6549189151a7619ece5b0ed5a47244d18d8b3aa3c8d949e393031ce0a98710"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-7-image",
+          "sha256": "80205ae53cf11d30efb225099c14eaba392567cf045d470eb402670ef42990b4"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original-page-7-text",
+          "sha256": "7cc8a35dfc9a680baa0758412a31f40e3d5b5ea94e6f6591b4363baac07f925c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "profile",
+          "sha256": "12c1a144ab1010bfc7e9ca066da9d1a7a1bfbbdd4be8ca7e62669c96b6f4a2c2"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-contract",
+          "sha256": "790f16ea215ceff37dcb0de0209f671787b1153b12ca119e375c6d4cf126a993"
+        },
+        {
+          "kind": "source_scope",
+          "id": "reader-role",
+          "sha256": "0a933d792bccdbdfb6695b7a26c349d6e6c667a13c38aeb716fc916e8c151e24"
+        },
+        {
+          "kind": "source_scope",
+          "id": "rewrite",
+          "sha256": "e83ba2c86f5733707744654eb6ddec2d5f985d46ceff9d299317ca10bb318352"
+        },
+        {
+          "kind": "source_scope",
+          "id": "sasis",
+          "sha256": "bff585127904a6953c46401157efe26542d6da29c82530d97e5b04738a8ab6bb"
+        },
+        {
+          "kind": "source_scope",
+          "id": "state-guide",
+          "sha256": "d4ccfba55f48cac2124977a9b3024c511fe0de000c1ce59800ec8638f3bdcf79"
+        },
+        {
+          "kind": "topic",
+          "id": "approximations",
+          "sha256": "13e890908e1a1d87ef9def26eee540c9be2306d6d3814a679414ffc4bdd380f4"
+        }
+      ]
+    }
+  ]
+}

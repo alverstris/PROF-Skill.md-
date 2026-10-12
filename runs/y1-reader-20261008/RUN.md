@@ -1,3 +1,15 @@
+D008 accepted; metadata-only PROF r36 closure — 2026-10-12
+
+Complete fresh D008 under published PROF2026-10-12-r35 is accepted after original-source/technical, admitted chronological reader and actual GitHub destination audits. All seven teaching files remain frozen at d1d087414376a6b2d8ac5368075a72a3cb60817a; main SHA256c6208e042063e806a2d0709bc9974994504280c40f5efb592598158ae4ef2938. Original reports, scope ambiguity and operational browser/input limits are preserved. No verified material failure or human-learning outcome is claimed.
+
+Complete36-file PROF2026-10-12-r36 package/evidence release c1e31e7528d6d9582ba07aa6b1324e99e4585be9 has actual whole-byte readback. The package is907146bytes; exactly four revision-metadata/corresponding-hash files change,32files and all instruction bodies remain unchanged; all34internal declarations pass. All published evidence and lossless archive parts reconstruct their exact originals. No frozen teaching, original report, installed skill, automation or user computer was changed.
+
+Canonical totals:15accepted/61remaining of76eligible;71excluded; all147IDs/order/eligibility preserved. Only D008's session object changes; all146others remain identical. Active D015; next pending after it is D016. Continue the complete corpus with fresh author/reader contexts, exact currently published package, complete baseline and original inputs. Root owns actual browser QA; sole publication ownership transfers only by explicit dispatch after this canonical checkpoint's actual readback.
+
+Evidence: iterations/008/published-r35-20261012/evidence/final-adjudication.json; iterations/008/published-r35-20261012/evidence/release-publication-readback.json; iterations/008/published-r35-20261012/evidence/closure-invariants.json; iterations/008/published-r35-20261012/closure.md. The canonical checkpoint's readback is a distinct publisher operation after this commit, not inferred from its local preparation.
+
+Earlier preserved record follows unchanged.
+
 D013 accepted; metadata-only PROF r35 closure — 2026-10-12
 
 Fresh D013 under PROF 2026-10-12-r34 at 75d41178bb87e473d907e852f85f7047e0530a86 is accepted after the complete source/technical, chronological reader and actual destination gates. Frozen teaching remains exactly ce407f3f2a5276700e61f43d7d1c371b9f452121; main SHA-256 6262d74b9e4d146863de712473957c17d7c4ca31f52c924066407a9ed913811a. All original reports and qualifications are preserved.

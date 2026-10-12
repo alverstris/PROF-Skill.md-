@@ -1,0 +1,1588 @@
+{
+  "scope": "Independent mechanical package identity and bundled SHA declaration verification only; no semantic, scientific, SASIS, browser or GitHub review",
+  "verified_utc": "2026-10-12T01:09:30.051087+00:00",
+  "verdict": "PASS",
+  "candidate_path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/candidate-prof-r33-repair",
+  "incoming_actual_package_path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/inputs/prof",
+  "incoming_manifest_path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/inputs/prof-package-manifest.json",
+  "incoming_manifest_sha256": "1a05feac12ce10505299a0b01afaa3c7af5d9fb2bacbbfa929ae0dac44596da5",
+  "incoming_manifest_version": "2026-10-12-r32",
+  "incoming_manifest_verified_commit": "167f268eaa01d3fabb7bea7d00e53298717f8728",
+  "mapping_source_path": "/workspace/scratch/f9c0b7fc7e76/root-review-d008-r31-publication/corrected-release-readback.json",
+  "mapping_source_sha256": "233b4b991a02c03a6b00f3ec22c1c722ea1376a65ff07561f4fa3244a0a004ad",
+  "mapping_key": "all34_internal_bundled_hash_references_checked_on_fetched_bytes",
+  "mapping_use": "Only declaration locations and bundled target paths reused. Each current candidate/incoming declaration is read independently and compared against freshly hashed actual target bytes; historical mapping hash and pass flags are not trusted. file_hashes/control_file_hashes remainder is a single dictionary key even when it contains slashes.",
+  "counts": {
+    "manifest_files": 36,
+    "incoming_actual_files": 36,
+    "candidate_actual_files": 36,
+    "changed": 3,
+    "unchanged": 33,
+    "internal_hash_declarations": 34,
+    "candidate_matching_declarations": 34,
+    "incoming_matching_declarations": 34
+  },
+  "expected_changed_paths": [
+    "SKILL.md",
+    "references/execution-protocol.md",
+    "references/sasis/profile-manifest.json"
+  ],
+  "actual_changed_paths": [
+    "SKILL.md",
+    "references/execution-protocol.md",
+    "references/sasis/profile-manifest.json"
+  ],
+  "unchanged_paths": [
+    "agents/openai.yaml",
+    "assets/icon.svg",
+    "assets/latex/main.tex",
+    "assets/latex/prof.sty",
+    "references/domain-patterns.md",
+    "references/execution-research.md",
+    "references/findings-and-rationale.md",
+    "references/latex-production.md",
+    "references/sasis.md",
+    "references/sasis/ocr-baseline-20261007/chemistry/baseline-section-index.json",
+    "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+    "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+    "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+    "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+    "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+    "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+    "references/sasis/ocr-baseline-20261007/further-maths/research-verification.txt",
+    "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+    "references/sasis/ocr-baseline-20261007/maths/research-record.md",
+    "references/sasis/ocr-baseline-20261007/maths/research/lds-metadata.json",
+    "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+    "references/sasis/ocr-baseline-20261007/physics/research.md",
+    "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+    "references/sasis/ocr-baseline-20261007/release-manifest.json",
+    "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+    "references/sasis/ocr-baseline-20261007/student-input-cover.txt",
+    "references/sasis/ocr-baseline-20261007/year1-course-registry.json",
+    "references/sasis/ocr-baseline-20261007/year1-lecture-index.csv",
+    "references/sasis/rewrite-guide.md",
+    "references/sasis/student-role.txt",
+    "references/sasis/student-testing-contract.txt",
+    "references/state-tool.md",
+    "scripts/prof_state.py"
+  ],
+  "files": [
+    {
+      "path": "SKILL.md",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "SKILL.md",
+        "bytes": 42448,
+        "sha256": "d3358667284ecc1586043b5a56422337222d871c41fba1889edbce44a9a58a51",
+        "git_blob": "7182d9e572f9e69dfb430b782efa5578a24202bd"
+      },
+      "incoming_actual": {
+        "bytes": 42448,
+        "sha256": "d3358667284ecc1586043b5a56422337222d871c41fba1889edbce44a9a58a51",
+        "git_blob": "7182d9e572f9e69dfb430b782efa5578a24202bd"
+      },
+      "candidate_actual": {
+        "bytes": 43243,
+        "sha256": "c0055e4e8ec3ed8ccab1667b8138774970e683a3b833f0c9b2dbc4d84166c847",
+        "git_blob": "bf3f754ab0c60ad76433cd9ab71d0f9e74f477af"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": false,
+      "candidate_matches_incoming_manifest": false,
+      "status": "changed"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "agents/openai.yaml",
+        "bytes": 497,
+        "sha256": "24bcb8b86b0e00692a344a1bcdb196fc2a25848c0fbb9045cc9df150ea3cc119",
+        "git_blob": "82dd9cd9c6f2eddc70e2af387289695c9577cd2e"
+      },
+      "incoming_actual": {
+        "bytes": 497,
+        "sha256": "24bcb8b86b0e00692a344a1bcdb196fc2a25848c0fbb9045cc9df150ea3cc119",
+        "git_blob": "82dd9cd9c6f2eddc70e2af387289695c9577cd2e"
+      },
+      "candidate_actual": {
+        "bytes": 497,
+        "sha256": "24bcb8b86b0e00692a344a1bcdb196fc2a25848c0fbb9045cc9df150ea3cc119",
+        "git_blob": "82dd9cd9c6f2eddc70e2af387289695c9577cd2e"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "assets/icon.svg",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "assets/icon.svg",
+        "bytes": 1210,
+        "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+        "git_blob": "4c3163aa85e15ed80114f93a9a2b140a53012c44"
+      },
+      "incoming_actual": {
+        "bytes": 1210,
+        "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+        "git_blob": "4c3163aa85e15ed80114f93a9a2b140a53012c44"
+      },
+      "candidate_actual": {
+        "bytes": 1210,
+        "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+        "git_blob": "4c3163aa85e15ed80114f93a9a2b140a53012c44"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "assets/latex/main.tex",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "assets/latex/main.tex",
+        "bytes": 7645,
+        "sha256": "f4b0f850c2d2102a9258c3b536e1594c46d7c18a4769d3a4b6e2b0284cfa8c4b",
+        "git_blob": "19321497ccf1d5de19fcec5f777105a90dde3d0f"
+      },
+      "incoming_actual": {
+        "bytes": 7645,
+        "sha256": "f4b0f850c2d2102a9258c3b536e1594c46d7c18a4769d3a4b6e2b0284cfa8c4b",
+        "git_blob": "19321497ccf1d5de19fcec5f777105a90dde3d0f"
+      },
+      "candidate_actual": {
+        "bytes": 7645,
+        "sha256": "f4b0f850c2d2102a9258c3b536e1594c46d7c18a4769d3a4b6e2b0284cfa8c4b",
+        "git_blob": "19321497ccf1d5de19fcec5f777105a90dde3d0f"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "assets/latex/prof.sty",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "assets/latex/prof.sty",
+        "bytes": 5505,
+        "sha256": "f6f241b40e82b9568e6e345ea9591eccc03e8bd23136fe6e4d2a8767fb7b5a2a",
+        "git_blob": "c92e932700e6ff709f23bca46f2d7b7e80b31038"
+      },
+      "incoming_actual": {
+        "bytes": 5505,
+        "sha256": "f6f241b40e82b9568e6e345ea9591eccc03e8bd23136fe6e4d2a8767fb7b5a2a",
+        "git_blob": "c92e932700e6ff709f23bca46f2d7b7e80b31038"
+      },
+      "candidate_actual": {
+        "bytes": 5505,
+        "sha256": "f6f241b40e82b9568e6e345ea9591eccc03e8bd23136fe6e4d2a8767fb7b5a2a",
+        "git_blob": "c92e932700e6ff709f23bca46f2d7b7e80b31038"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/domain-patterns.md",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/domain-patterns.md",
+        "bytes": 10301,
+        "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+        "git_blob": "2b642a8604af2cf0ed833a6b5b33297ddc29c863"
+      },
+      "incoming_actual": {
+        "bytes": 10301,
+        "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+        "git_blob": "2b642a8604af2cf0ed833a6b5b33297ddc29c863"
+      },
+      "candidate_actual": {
+        "bytes": 10301,
+        "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+        "git_blob": "2b642a8604af2cf0ed833a6b5b33297ddc29c863"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/execution-protocol.md",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/execution-protocol.md",
+        "bytes": 31581,
+        "sha256": "d52cacac6caf047cffd0deed49b088a1bc1907379e3421fa04b0c80d3bd7380f",
+        "git_blob": "1cd664002d0f05c9ff00da8ac5a6402db3450d7c"
+      },
+      "incoming_actual": {
+        "bytes": 31581,
+        "sha256": "d52cacac6caf047cffd0deed49b088a1bc1907379e3421fa04b0c80d3bd7380f",
+        "git_blob": "1cd664002d0f05c9ff00da8ac5a6402db3450d7c"
+      },
+      "candidate_actual": {
+        "bytes": 32277,
+        "sha256": "760602402ff2b58bbee0d878f324237dff6676edc1398fe93bb868f16f87071c",
+        "git_blob": "b3732b84609446eded47bebc471c3fd626fbeb44"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": false,
+      "candidate_matches_incoming_manifest": false,
+      "status": "changed"
+    },
+    {
+      "path": "references/execution-research.md",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/execution-research.md",
+        "bytes": 7634,
+        "sha256": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2",
+        "git_blob": "18cabb66d1566a87d905e189b743ac529bf8ab67"
+      },
+      "incoming_actual": {
+        "bytes": 7634,
+        "sha256": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2",
+        "git_blob": "18cabb66d1566a87d905e189b743ac529bf8ab67"
+      },
+      "candidate_actual": {
+        "bytes": 7634,
+        "sha256": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2",
+        "git_blob": "18cabb66d1566a87d905e189b743ac529bf8ab67"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/findings-and-rationale.md",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/findings-and-rationale.md",
+        "bytes": 11597,
+        "sha256": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f",
+        "git_blob": "85c40da508b444f3391855648056570595a64f5f"
+      },
+      "incoming_actual": {
+        "bytes": 11597,
+        "sha256": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f",
+        "git_blob": "85c40da508b444f3391855648056570595a64f5f"
+      },
+      "candidate_actual": {
+        "bytes": 11597,
+        "sha256": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f",
+        "git_blob": "85c40da508b444f3391855648056570595a64f5f"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/latex-production.md",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/latex-production.md",
+        "bytes": 8234,
+        "sha256": "7a30f4e80d8cdf992f4d4d2c60c53c75f507f45a63893101ed1290e8dde70517",
+        "git_blob": "11b675f8e06e022ad116a17e9ce876a2f3e0eed4"
+      },
+      "incoming_actual": {
+        "bytes": 8234,
+        "sha256": "7a30f4e80d8cdf992f4d4d2c60c53c75f507f45a63893101ed1290e8dde70517",
+        "git_blob": "11b675f8e06e022ad116a17e9ce876a2f3e0eed4"
+      },
+      "candidate_actual": {
+        "bytes": 8234,
+        "sha256": "7a30f4e80d8cdf992f4d4d2c60c53c75f507f45a63893101ed1290e8dde70517",
+        "git_blob": "11b675f8e06e022ad116a17e9ce876a2f3e0eed4"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis.md",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis.md",
+        "bytes": 19036,
+        "sha256": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343",
+        "git_blob": "8a48422fff798e7386dbb1df6b151a739aee728d"
+      },
+      "incoming_actual": {
+        "bytes": 19036,
+        "sha256": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343",
+        "git_blob": "8a48422fff798e7386dbb1df6b151a739aee728d"
+      },
+      "candidate_actual": {
+        "bytes": 19036,
+        "sha256": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343",
+        "git_blob": "8a48422fff798e7386dbb1df6b151a739aee728d"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/chemistry/baseline-section-index.json",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/chemistry/baseline-section-index.json",
+        "bytes": 3552,
+        "sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+        "git_blob": "1604084d8fc1bb7230d624ce4264b48d4309b0f6"
+      },
+      "incoming_actual": {
+        "bytes": 3552,
+        "sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+        "git_blob": "1604084d8fc1bb7230d624ce4264b48d4309b0f6"
+      },
+      "candidate_actual": {
+        "bytes": 3552,
+        "sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+        "git_blob": "1604084d8fc1bb7230d624ce4264b48d4309b0f6"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+        "bytes": 1218,
+        "sha256": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+        "git_blob": "424cddf78683a976555942fea848e8b80e4a9170"
+      },
+      "incoming_actual": {
+        "bytes": 1218,
+        "sha256": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+        "git_blob": "424cddf78683a976555942fea848e8b80e4a9170"
+      },
+      "candidate_actual": {
+        "bytes": 1218,
+        "sha256": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+        "git_blob": "424cddf78683a976555942fea848e8b80e4a9170"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+        "bytes": 1452,
+        "sha256": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+        "git_blob": "4bce3b3fd3169d20748bf511b72326eb606f5eec"
+      },
+      "incoming_actual": {
+        "bytes": 1452,
+        "sha256": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+        "git_blob": "4bce3b3fd3169d20748bf511b72326eb606f5eec"
+      },
+      "candidate_actual": {
+        "bytes": 1452,
+        "sha256": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+        "git_blob": "4bce3b3fd3169d20748bf511b72326eb606f5eec"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+        "bytes": 14349,
+        "sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+        "git_blob": "7aaa75d065427f314ef263a29c27ca52ce128ddd"
+      },
+      "incoming_actual": {
+        "bytes": 14349,
+        "sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+        "git_blob": "7aaa75d065427f314ef263a29c27ca52ce128ddd"
+      },
+      "candidate_actual": {
+        "bytes": 14349,
+        "sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+        "git_blob": "7aaa75d065427f314ef263a29c27ca52ce128ddd"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+        "bytes": 96538,
+        "sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+        "git_blob": "50aaaa2584702323c7a8c25b528ab30d3ef85263"
+      },
+      "incoming_actual": {
+        "bytes": 96538,
+        "sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+        "git_blob": "50aaaa2584702323c7a8c25b528ab30d3ef85263"
+      },
+      "candidate_actual": {
+        "bytes": 96538,
+        "sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+        "git_blob": "50aaaa2584702323c7a8c25b528ab30d3ef85263"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+        "bytes": 39018,
+        "sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+        "git_blob": "ea0b6815cfd888ee340f31dcc7542e894b01e4d4"
+      },
+      "incoming_actual": {
+        "bytes": 39018,
+        "sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+        "git_blob": "ea0b6815cfd888ee340f31dcc7542e894b01e4d4"
+      },
+      "candidate_actual": {
+        "bytes": 39018,
+        "sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+        "git_blob": "ea0b6815cfd888ee340f31dcc7542e894b01e4d4"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+        "bytes": 3073,
+        "sha256": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+        "git_blob": "e4bafaa6b6656b25a06279e3dd033bcd04d20913"
+      },
+      "incoming_actual": {
+        "bytes": 3073,
+        "sha256": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+        "git_blob": "e4bafaa6b6656b25a06279e3dd033bcd04d20913"
+      },
+      "candidate_actual": {
+        "bytes": 3073,
+        "sha256": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+        "git_blob": "e4bafaa6b6656b25a06279e3dd033bcd04d20913"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/further-maths/research-verification.txt",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/further-maths/research-verification.txt",
+        "bytes": 9023,
+        "sha256": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+        "git_blob": "478ee72bf8e4e90db6d0a704e87408991297cdbd"
+      },
+      "incoming_actual": {
+        "bytes": 9023,
+        "sha256": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+        "git_blob": "478ee72bf8e4e90db6d0a704e87408991297cdbd"
+      },
+      "candidate_actual": {
+        "bytes": 9023,
+        "sha256": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+        "git_blob": "478ee72bf8e4e90db6d0a704e87408991297cdbd"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+        "bytes": 48093,
+        "sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+        "git_blob": "3dc9323a8276c3b1dc851a61785363eea793bca8"
+      },
+      "incoming_actual": {
+        "bytes": 48093,
+        "sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+        "git_blob": "3dc9323a8276c3b1dc851a61785363eea793bca8"
+      },
+      "candidate_actual": {
+        "bytes": 48093,
+        "sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+        "git_blob": "3dc9323a8276c3b1dc851a61785363eea793bca8"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/maths/research-record.md",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/maths/research-record.md",
+        "bytes": 10511,
+        "sha256": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+        "git_blob": "b650566576ae1056cf940d6c4e8a582508cd21c8"
+      },
+      "incoming_actual": {
+        "bytes": 10511,
+        "sha256": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+        "git_blob": "b650566576ae1056cf940d6c4e8a582508cd21c8"
+      },
+      "candidate_actual": {
+        "bytes": 10511,
+        "sha256": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+        "git_blob": "b650566576ae1056cf940d6c4e8a582508cd21c8"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/maths/research/lds-metadata.json",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/maths/research/lds-metadata.json",
+        "bytes": 23065,
+        "sha256": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+        "git_blob": "8cd64c13f1d3c750d93bf4390c30c8fcbf271e96"
+      },
+      "incoming_actual": {
+        "bytes": 23065,
+        "sha256": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+        "git_blob": "8cd64c13f1d3c750d93bf4390c30c8fcbf271e96"
+      },
+      "candidate_actual": {
+        "bytes": 23065,
+        "sha256": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+        "git_blob": "8cd64c13f1d3c750d93bf4390c30c8fcbf271e96"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+        "bytes": 60163,
+        "sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+        "git_blob": "c2a12c32a6256c1007a0f80e3292381868b01a59"
+      },
+      "incoming_actual": {
+        "bytes": 60163,
+        "sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+        "git_blob": "c2a12c32a6256c1007a0f80e3292381868b01a59"
+      },
+      "candidate_actual": {
+        "bytes": 60163,
+        "sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+        "git_blob": "c2a12c32a6256c1007a0f80e3292381868b01a59"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/physics/research.md",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/physics/research.md",
+        "bytes": 17766,
+        "sha256": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+        "git_blob": "33bf09495fe4ffbb889cbf66545c879ef01461b5"
+      },
+      "incoming_actual": {
+        "bytes": 17766,
+        "sha256": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+        "git_blob": "33bf09495fe4ffbb889cbf66545c879ef01461b5"
+      },
+      "candidate_actual": {
+        "bytes": 17766,
+        "sha256": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+        "git_blob": "33bf09495fe4ffbb889cbf66545c879ef01461b5"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+        "bytes": 2056,
+        "sha256": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+        "git_blob": "1daa5ef2634ca9642f0227d8f46a9d764ec55db5"
+      },
+      "incoming_actual": {
+        "bytes": 2056,
+        "sha256": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+        "git_blob": "1daa5ef2634ca9642f0227d8f46a9d764ec55db5"
+      },
+      "candidate_actual": {
+        "bytes": 2056,
+        "sha256": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+        "git_blob": "1daa5ef2634ca9642f0227d8f46a9d764ec55db5"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+        "bytes": 4380,
+        "sha256": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+        "git_blob": "f5eb8281b91156dc6ff990c5b178f46d45f501d3"
+      },
+      "incoming_actual": {
+        "bytes": 4380,
+        "sha256": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+        "git_blob": "f5eb8281b91156dc6ff990c5b178f46d45f501d3"
+      },
+      "candidate_actual": {
+        "bytes": 4380,
+        "sha256": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+        "git_blob": "f5eb8281b91156dc6ff990c5b178f46d45f501d3"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+        "bytes": 247840,
+        "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+        "git_blob": "edc601f173faf6a703545d8c4e41f217d5bbce79"
+      },
+      "incoming_actual": {
+        "bytes": 247840,
+        "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+        "git_blob": "edc601f173faf6a703545d8c4e41f217d5bbce79"
+      },
+      "candidate_actual": {
+        "bytes": 247840,
+        "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+        "git_blob": "edc601f173faf6a703545d8c4e41f217d5bbce79"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/student-input-cover.txt",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/student-input-cover.txt",
+        "bytes": 2013,
+        "sha256": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+        "git_blob": "20aef206bda0ae68fc2c12bc224caa029117942e"
+      },
+      "incoming_actual": {
+        "bytes": 2013,
+        "sha256": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+        "git_blob": "20aef206bda0ae68fc2c12bc224caa029117942e"
+      },
+      "candidate_actual": {
+        "bytes": 2013,
+        "sha256": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+        "git_blob": "20aef206bda0ae68fc2c12bc224caa029117942e"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/year1-course-registry.json",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/year1-course-registry.json",
+        "bytes": 15954,
+        "sha256": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+        "git_blob": "2176a4f8c63e7686a5af9f10d2f2e211e9d1bdb7"
+      },
+      "incoming_actual": {
+        "bytes": 15954,
+        "sha256": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+        "git_blob": "2176a4f8c63e7686a5af9f10d2f2e211e9d1bdb7"
+      },
+      "candidate_actual": {
+        "bytes": 15954,
+        "sha256": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+        "git_blob": "2176a4f8c63e7686a5af9f10d2f2e211e9d1bdb7"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/year1-lecture-index.csv",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/ocr-baseline-20261007/year1-lecture-index.csv",
+        "bytes": 72388,
+        "sha256": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+        "git_blob": "e79d8a22b8930150090ca736ef4a2f17bb9f0fad"
+      },
+      "incoming_actual": {
+        "bytes": 72388,
+        "sha256": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+        "git_blob": "e79d8a22b8930150090ca736ef4a2f17bb9f0fad"
+      },
+      "candidate_actual": {
+        "bytes": 72388,
+        "sha256": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+        "git_blob": "e79d8a22b8930150090ca736ef4a2f17bb9f0fad"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/profile-manifest.json",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/profile-manifest.json",
+        "bytes": 10165,
+        "sha256": "a1d3d34a59cd33ba45aa7ce3f53ab75182de33b54bc8fc18f79d197df1a899b2",
+        "git_blob": "637da981f7153be6121a4d3d63105b5038d04a4c"
+      },
+      "incoming_actual": {
+        "bytes": 10165,
+        "sha256": "a1d3d34a59cd33ba45aa7ce3f53ab75182de33b54bc8fc18f79d197df1a899b2",
+        "git_blob": "637da981f7153be6121a4d3d63105b5038d04a4c"
+      },
+      "candidate_actual": {
+        "bytes": 10165,
+        "sha256": "69ed9773782a9989e59b23bf090cb9bb0047d91595542cc174b9302ae6d508fd",
+        "git_blob": "76661a1a93ab835522145151f4b148802c72d307"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": false,
+      "candidate_matches_incoming_manifest": false,
+      "status": "changed"
+    },
+    {
+      "path": "references/sasis/rewrite-guide.md",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/rewrite-guide.md",
+        "bytes": 9288,
+        "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+        "git_blob": "ca70c4b2d1b26a4977cd773e82f3079cc799ac0c"
+      },
+      "incoming_actual": {
+        "bytes": 9288,
+        "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+        "git_blob": "ca70c4b2d1b26a4977cd773e82f3079cc799ac0c"
+      },
+      "candidate_actual": {
+        "bytes": 9288,
+        "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+        "git_blob": "ca70c4b2d1b26a4977cd773e82f3079cc799ac0c"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/student-role.txt",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/student-role.txt",
+        "bytes": 5973,
+        "sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+        "git_blob": "b65e6dd27c1ffa1722ae50de704b4e4e833a215b"
+      },
+      "incoming_actual": {
+        "bytes": 5973,
+        "sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+        "git_blob": "b65e6dd27c1ffa1722ae50de704b4e4e833a215b"
+      },
+      "candidate_actual": {
+        "bytes": 5973,
+        "sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+        "git_blob": "b65e6dd27c1ffa1722ae50de704b4e4e833a215b"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/sasis/student-testing-contract.txt",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/sasis/student-testing-contract.txt",
+        "bytes": 7983,
+        "sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+        "git_blob": "f6d5efdf360dd1aa4c6aace446d28188eca0a68e"
+      },
+      "incoming_actual": {
+        "bytes": 7983,
+        "sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+        "git_blob": "f6d5efdf360dd1aa4c6aace446d28188eca0a68e"
+      },
+      "candidate_actual": {
+        "bytes": 7983,
+        "sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+        "git_blob": "f6d5efdf360dd1aa4c6aace446d28188eca0a68e"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "references/state-tool.md",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "references/state-tool.md",
+        "bytes": 17130,
+        "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+        "git_blob": "18ce531930bdd36c55985806a91b981c24f713e2"
+      },
+      "incoming_actual": {
+        "bytes": 17130,
+        "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+        "git_blob": "18ce531930bdd36c55985806a91b981c24f713e2"
+      },
+      "candidate_actual": {
+        "bytes": 17130,
+        "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+        "git_blob": "18ce531930bdd36c55985806a91b981c24f713e2"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    },
+    {
+      "path": "scripts/prof_state.py",
+      "in_manifest": true,
+      "in_incoming": true,
+      "in_candidate": true,
+      "expected_manifest": {
+        "path": "scripts/prof_state.py",
+        "bytes": 32999,
+        "sha256": "6949c44d3e9374cf1af522f69436fad71fca186317cd404ff1967985c92a3488",
+        "git_blob": "fc4b9fe139fa3a34bc077e87f82f9249c5bddf5d"
+      },
+      "incoming_actual": {
+        "bytes": 32999,
+        "sha256": "6949c44d3e9374cf1af522f69436fad71fca186317cd404ff1967985c92a3488",
+        "git_blob": "fc4b9fe139fa3a34bc077e87f82f9249c5bddf5d"
+      },
+      "candidate_actual": {
+        "bytes": 32999,
+        "sha256": "6949c44d3e9374cf1af522f69436fad71fca186317cd404ff1967985c92a3488",
+        "git_blob": "fc4b9fe139fa3a34bc077e87f82f9249c5bddf5d"
+      },
+      "incoming_matches_manifest": true,
+      "candidate_byte_identical_to_incoming": true,
+      "candidate_matches_incoming_manifest": true,
+      "status": "unchanged"
+    }
+  ],
+  "internal_bundled_hash_checks": [
+    {
+      "ordinal": 1,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/subject_files/0/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "candidate_target_actual_bytes": 48093,
+      "candidate_target_actual_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "candidate_match": true,
+      "incoming_declared_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "incoming_target_actual_bytes": 48093,
+      "incoming_target_actual_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3"
+    },
+    {
+      "ordinal": 2,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/subject_files/1/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "candidate_target_actual_bytes": 39018,
+      "candidate_target_actual_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "candidate_match": true,
+      "incoming_declared_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "incoming_target_actual_bytes": 39018,
+      "incoming_target_actual_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1"
+    },
+    {
+      "ordinal": 3,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/subject_files/2/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "candidate_target_actual_bytes": 60163,
+      "candidate_target_actual_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "candidate_match": true,
+      "incoming_declared_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "incoming_target_actual_bytes": 60163,
+      "incoming_target_actual_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06"
+    },
+    {
+      "ordinal": 4,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/subject_files/3/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "candidate_target_actual_bytes": 96538,
+      "candidate_target_actual_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "candidate_match": true,
+      "incoming_declared_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "incoming_target_actual_bytes": 96538,
+      "incoming_target_actual_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268"
+    },
+    {
+      "ordinal": 5,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/student-baseline.txt",
+      "target": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "candidate_target_actual_bytes": 247840,
+      "candidate_target_actual_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "candidate_match": true,
+      "incoming_declared_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "incoming_target_actual_bytes": 247840,
+      "incoming_target_actual_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    {
+      "ordinal": 6,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/student-input-cover.txt",
+      "target": "references/sasis/ocr-baseline-20261007/student-input-cover.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+      "candidate_target_actual_bytes": 2013,
+      "candidate_target_actual_sha256": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+      "candidate_match": true,
+      "incoming_declared_sha256": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+      "incoming_target_actual_bytes": 2013,
+      "incoming_target_actual_sha256": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7"
+    },
+    {
+      "ordinal": 7,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/release-manifest.json",
+      "target": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+      "candidate_target_actual_bytes": 4380,
+      "candidate_target_actual_sha256": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+      "candidate_match": true,
+      "incoming_declared_sha256": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+      "incoming_target_actual_bytes": 4380,
+      "incoming_target_actual_sha256": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8"
+    },
+    {
+      "ordinal": 8,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/maths/mathematics-a-h240-baseline.txt",
+      "target": "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "candidate_target_actual_bytes": 48093,
+      "candidate_target_actual_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "candidate_match": true,
+      "incoming_declared_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "incoming_target_actual_bytes": 48093,
+      "incoming_target_actual_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3"
+    },
+    {
+      "ordinal": 9,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/maths/research-record.md",
+      "target": "references/sasis/ocr-baseline-20261007/maths/research-record.md",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+      "candidate_target_actual_bytes": 10511,
+      "candidate_target_actual_sha256": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+      "candidate_match": true,
+      "incoming_declared_sha256": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+      "incoming_target_actual_bytes": 10511,
+      "incoming_target_actual_sha256": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366"
+    },
+    {
+      "ordinal": 10,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/maths/research/lds-metadata.json",
+      "target": "references/sasis/ocr-baseline-20261007/maths/research/lds-metadata.json",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+      "candidate_target_actual_bytes": 23065,
+      "candidate_target_actual_sha256": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+      "candidate_match": true,
+      "incoming_declared_sha256": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+      "incoming_target_actual_bytes": 23065,
+      "incoming_target_actual_sha256": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae"
+    },
+    {
+      "ordinal": 11,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/further-maths/baseline.txt",
+      "target": "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "candidate_target_actual_bytes": 39018,
+      "candidate_target_actual_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "candidate_match": true,
+      "incoming_declared_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "incoming_target_actual_bytes": 39018,
+      "incoming_target_actual_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1"
+    },
+    {
+      "ordinal": 12,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/further-maths/research-verification.txt",
+      "target": "references/sasis/ocr-baseline-20261007/further-maths/research-verification.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+      "candidate_target_actual_bytes": 9023,
+      "candidate_target_actual_sha256": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+      "candidate_match": true,
+      "incoming_declared_sha256": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+      "incoming_target_actual_bytes": 9023,
+      "incoming_target_actual_sha256": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1"
+    },
+    {
+      "ordinal": 13,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/further-maths/download-manifest.json",
+      "target": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+      "candidate_target_actual_bytes": 3073,
+      "candidate_target_actual_sha256": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+      "candidate_match": true,
+      "incoming_declared_sha256": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+      "incoming_target_actual_bytes": 3073,
+      "incoming_target_actual_sha256": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83"
+    },
+    {
+      "ordinal": 14,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/physics/baseline.txt",
+      "target": "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "candidate_target_actual_bytes": 60163,
+      "candidate_target_actual_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "candidate_match": true,
+      "incoming_declared_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "incoming_target_actual_bytes": 60163,
+      "incoming_target_actual_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06"
+    },
+    {
+      "ordinal": 15,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/physics/research.md",
+      "target": "references/sasis/ocr-baseline-20261007/physics/research.md",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+      "candidate_target_actual_bytes": 17766,
+      "candidate_target_actual_sha256": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+      "candidate_match": true,
+      "incoming_declared_sha256": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+      "incoming_target_actual_bytes": 17766,
+      "incoming_target_actual_sha256": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b"
+    },
+    {
+      "ordinal": 16,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/physics/source-manifest.json",
+      "target": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+      "candidate_target_actual_bytes": 2056,
+      "candidate_target_actual_sha256": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+      "candidate_match": true,
+      "incoming_declared_sha256": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+      "incoming_target_actual_bytes": 2056,
+      "incoming_target_actual_sha256": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3"
+    },
+    {
+      "ordinal": 17,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/chemistry/student-baseline.txt",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "candidate_target_actual_bytes": 96538,
+      "candidate_target_actual_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "candidate_match": true,
+      "incoming_declared_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "incoming_target_actual_bytes": 96538,
+      "incoming_target_actual_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268"
+    },
+    {
+      "ordinal": 18,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/chemistry/research-verification.txt",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "candidate_target_actual_bytes": 14349,
+      "candidate_target_actual_sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "candidate_match": true,
+      "incoming_declared_sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "incoming_target_actual_bytes": 14349,
+      "incoming_target_actual_sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640"
+    },
+    {
+      "ordinal": 19,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/chemistry/baseline-section-index.json",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/baseline-section-index.json",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "candidate_target_actual_bytes": 3552,
+      "candidate_target_actual_sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "candidate_match": true,
+      "incoming_declared_sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "incoming_target_actual_bytes": 3552,
+      "incoming_target_actual_sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76"
+    },
+    {
+      "ordinal": 20,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/chemistry/freeze-manifest.json",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+      "candidate_target_actual_bytes": 1218,
+      "candidate_target_actual_sha256": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+      "candidate_match": true,
+      "incoming_declared_sha256": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+      "incoming_target_actual_bytes": 1218,
+      "incoming_target_actual_sha256": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387"
+    },
+    {
+      "ordinal": 21,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/chemistry/reference/download-manifest.json",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+      "candidate_target_actual_bytes": 1452,
+      "candidate_target_actual_sha256": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+      "candidate_match": true,
+      "incoming_declared_sha256": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+      "incoming_target_actual_bytes": 1452,
+      "incoming_target_actual_sha256": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3"
+    },
+    {
+      "ordinal": 22,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/year1-course-registry.json",
+      "target": "references/sasis/ocr-baseline-20261007/year1-course-registry.json",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+      "candidate_target_actual_bytes": 15954,
+      "candidate_target_actual_sha256": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+      "candidate_match": true,
+      "incoming_declared_sha256": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+      "incoming_target_actual_bytes": 15954,
+      "incoming_target_actual_sha256": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446"
+    },
+    {
+      "ordinal": 23,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/file_hashes/year1-lecture-index.csv",
+      "target": "references/sasis/ocr-baseline-20261007/year1-lecture-index.csv",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+      "candidate_target_actual_bytes": 72388,
+      "candidate_target_actual_sha256": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+      "candidate_match": true,
+      "incoming_declared_sha256": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+      "incoming_target_actual_bytes": 72388,
+      "incoming_target_actual_sha256": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1"
+    },
+    {
+      "ordinal": 24,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/control_file_hashes/student-role.txt",
+      "target": "references/sasis/student-role.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+      "candidate_target_actual_bytes": 5973,
+      "candidate_target_actual_sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+      "candidate_match": true,
+      "incoming_declared_sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+      "incoming_target_actual_bytes": 5973,
+      "incoming_target_actual_sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4"
+    },
+    {
+      "ordinal": 25,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/control_file_hashes/student-testing-contract.txt",
+      "target": "references/sasis/student-testing-contract.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+      "candidate_target_actual_bytes": 7983,
+      "candidate_target_actual_sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+      "candidate_match": true,
+      "incoming_declared_sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+      "incoming_target_actual_bytes": 7983,
+      "incoming_target_actual_sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38"
+    },
+    {
+      "ordinal": 26,
+      "declaring_file": "references/sasis/profile-manifest.json",
+      "entry": "/control_file_hashes/rewrite-guide.md",
+      "target": "references/sasis/rewrite-guide.md",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "candidate_target_actual_bytes": 9288,
+      "candidate_target_actual_sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "candidate_match": true,
+      "incoming_declared_sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "incoming_target_actual_bytes": 9288,
+      "incoming_target_actual_sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+    },
+    {
+      "ordinal": 27,
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "entry": "/files/0/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "candidate_target_actual_bytes": 96538,
+      "candidate_target_actual_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "candidate_match": true,
+      "incoming_declared_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "incoming_target_actual_bytes": 96538,
+      "incoming_target_actual_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268"
+    },
+    {
+      "ordinal": 28,
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "entry": "/files/2/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/baseline-section-index.json",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "candidate_target_actual_bytes": 3552,
+      "candidate_target_actual_sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "candidate_match": true,
+      "incoming_declared_sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "incoming_target_actual_bytes": 3552,
+      "incoming_target_actual_sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76"
+    },
+    {
+      "ordinal": 29,
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "entry": "/files/3/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "candidate_target_actual_bytes": 14349,
+      "candidate_target_actual_sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "candidate_match": true,
+      "incoming_declared_sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "incoming_target_actual_bytes": 14349,
+      "incoming_target_actual_sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640"
+    },
+    {
+      "ordinal": 30,
+      "declaring_file": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "entry": "/subjects/0/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "candidate_target_actual_bytes": 48093,
+      "candidate_target_actual_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "candidate_match": true,
+      "incoming_declared_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "incoming_target_actual_bytes": 48093,
+      "incoming_target_actual_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3"
+    },
+    {
+      "ordinal": 31,
+      "declaring_file": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "entry": "/subjects/1/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "candidate_target_actual_bytes": 39018,
+      "candidate_target_actual_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "candidate_match": true,
+      "incoming_declared_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "incoming_target_actual_bytes": 39018,
+      "incoming_target_actual_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1"
+    },
+    {
+      "ordinal": 32,
+      "declaring_file": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "entry": "/subjects/2/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "candidate_target_actual_bytes": 60163,
+      "candidate_target_actual_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "candidate_match": true,
+      "incoming_declared_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "incoming_target_actual_bytes": 60163,
+      "incoming_target_actual_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06"
+    },
+    {
+      "ordinal": 33,
+      "declaring_file": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "entry": "/subjects/3/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "candidate_target_actual_bytes": 96538,
+      "candidate_target_actual_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "candidate_match": true,
+      "incoming_declared_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "incoming_target_actual_bytes": 96538,
+      "incoming_target_actual_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268"
+    },
+    {
+      "ordinal": 34,
+      "declaring_file": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "entry": "/combined_baseline_sha256",
+      "target": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "target_in_actual_candidate_inventory": true,
+      "candidate_declared_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "candidate_target_actual_bytes": 247840,
+      "candidate_target_actual_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "candidate_match": true,
+      "incoming_declared_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "incoming_target_actual_bytes": 247840,
+      "incoming_target_actual_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "incoming_match": true,
+      "historical_mapping_sha256_not_used_as_expected": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    }
+  ],
+  "unmapped_hash_declaration_locations": [
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "entry": "/files/1/sha256",
+      "disposition": "Outside supplied internal bundled-target mapping; no bundled target identity inferred"
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "entry": "/files/4/sha256",
+      "disposition": "Outside supplied internal bundled-target mapping; no bundled target identity inferred"
+    },
+    {
+      "declaring_file": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "entry": "/archive_sha256",
+      "disposition": "Outside supplied internal bundled-target mapping; no bundled target identity inferred"
+    }
+  ],
+  "checks": {
+    "manifest_declares_36_unique_files": true,
+    "actual_incoming_inventory_exactly_matches_manifest": true,
+    "actual_candidate_inventory_exactly_matches_manifest": true,
+    "all_36_incoming_actual_bytes_sizes_sha256_and_git_blobs_match_manifest": true,
+    "exactly_three_expected_changed_paths": true,
+    "exactly_33_files_byte_identical_to_incoming": true,
+    "all_34_candidate_internal_declarations_match_actual_target_bytes": true,
+    "all_34_incoming_internal_declarations_match_actual_target_bytes": true,
+    "all_file_hashes_and_control_file_hashes_dictionary_keys_covered": true,
+    "all_inputs_reread_unchanged": true
+  },
+  "limitations": [
+    "No semantic meaning, teaching behavior or scientific correctness assessed.",
+    "No source/candidate/frozen teaching changes; no browser or GitHub operation.",
+    "External or historical hashes outside the supplied internal bundled-target mapping are not given an identity verdict."
+  ]
+}

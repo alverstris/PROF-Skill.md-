@@ -1,0 +1,1502 @@
+{
+  "audit": "Read-only package internal hash-reference integrity",
+  "audited_at_utc": "2026-10-12T00:28:43.897039+00:00",
+  "scope": {
+    "package_root": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/verified-prof",
+    "outer_manifest": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/inputs/prof-package-manifest.json",
+    "outer_manifest_sha256": "1a05feac12ce10505299a0b01afaa3c7af5d9fb2bacbbfa929ae0dac44596da5",
+    "version": "2026-10-12-r32",
+    "verified_commit_identity": "167f268eaa01d3fabb7bea7d00e53298717f8728",
+    "limitations": [
+      "Commit identity copied from provided manifest; no repository or remote history accessed.",
+      "No external PDFs or historical archive fetched or revalidated.",
+      "Byte integrity only; no teaching, scientific-content, or learner review performed."
+    ]
+  },
+  "method": [
+    "Enumerated all regular package files and read their exact bytes.",
+    "Searched every package file for complete 64-hex hash literals; separately inspected hash declarations, explicit path bases and original-release provenance.",
+    "Resolved bundled targets by manifest path semantics and computed SHA-256 over raw bytes, preserving original line endings.",
+    "Counted declarations separately even when several declarations bind the same target.",
+    "Excluded explicit external/historical nonbundled identities, preserving every expected hash and source locator in this report.",
+    "Separately verified all provided outer inventory SHA-256, bytes and Git blob SHA-1 identities."
+  ],
+  "summary": {
+    "package_files": 36,
+    "internal_declarations": 34,
+    "unique_internal_targets": 22,
+    "internal_matches": 34,
+    "internal_discrepancies": 0,
+    "excluded_nonbundled_declarations": 31,
+    "package_sha256_literal_occurrences": 65,
+    "unclassified_occurrences": 0,
+    "overclassified_occurrences": 0,
+    "internal_declarations_by_source": {
+      "references/sasis/profile-manifest.json": 26,
+      "references/sasis/ocr-baseline-20261007/release-manifest.json": 5,
+      "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json": 3
+    },
+    "outer_manifest_entries": 36,
+    "outer_manifest_entry_mismatches": 0
+  },
+  "internal_declarations": [
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/subject_files/0/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "algorithm": "sha256",
+      "expected": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "actual": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Path relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/subject_files/1/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+      "algorithm": "sha256",
+      "expected": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "actual": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Path relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/subject_files/2/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+      "algorithm": "sha256",
+      "expected": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "actual": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Path relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/subject_files/3/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "algorithm": "sha256",
+      "expected": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "actual": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Path relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/student-baseline.txt",
+      "target": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "algorithm": "sha256",
+      "expected": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "actual": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/student-input-cover.txt",
+      "target": "references/sasis/ocr-baseline-20261007/student-input-cover.txt",
+      "algorithm": "sha256",
+      "expected": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+      "actual": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/release-manifest.json",
+      "target": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "algorithm": "sha256",
+      "expected": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+      "actual": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/maths~1mathematics-a-h240-baseline.txt",
+      "target": "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "algorithm": "sha256",
+      "expected": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "actual": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/maths~1research-record.md",
+      "target": "references/sasis/ocr-baseline-20261007/maths/research-record.md",
+      "algorithm": "sha256",
+      "expected": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+      "actual": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/maths~1research~1lds-metadata.json",
+      "target": "references/sasis/ocr-baseline-20261007/maths/research/lds-metadata.json",
+      "algorithm": "sha256",
+      "expected": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+      "actual": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/further-maths~1baseline.txt",
+      "target": "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+      "algorithm": "sha256",
+      "expected": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "actual": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/further-maths~1research-verification.txt",
+      "target": "references/sasis/ocr-baseline-20261007/further-maths/research-verification.txt",
+      "algorithm": "sha256",
+      "expected": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+      "actual": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/further-maths~1download-manifest.json",
+      "target": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "algorithm": "sha256",
+      "expected": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+      "actual": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/physics~1baseline.txt",
+      "target": "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+      "algorithm": "sha256",
+      "expected": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "actual": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/physics~1research.md",
+      "target": "references/sasis/ocr-baseline-20261007/physics/research.md",
+      "algorithm": "sha256",
+      "expected": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+      "actual": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/physics~1source-manifest.json",
+      "target": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "algorithm": "sha256",
+      "expected": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+      "actual": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/chemistry~1student-baseline.txt",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "algorithm": "sha256",
+      "expected": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "actual": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/chemistry~1research-verification.txt",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+      "algorithm": "sha256",
+      "expected": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "actual": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/chemistry~1baseline-section-index.json",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/baseline-section-index.json",
+      "algorithm": "sha256",
+      "expected": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "actual": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/chemistry~1freeze-manifest.json",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "algorithm": "sha256",
+      "expected": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+      "actual": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/chemistry~1reference~1download-manifest.json",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "algorithm": "sha256",
+      "expected": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+      "actual": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/year1-course-registry.json",
+      "target": "references/sasis/ocr-baseline-20261007/year1-course-registry.json",
+      "algorithm": "sha256",
+      "expected": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+      "actual": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/year1-lecture-index.csv",
+      "target": "references/sasis/ocr-baseline-20261007/year1-lecture-index.csv",
+      "algorithm": "sha256",
+      "expected": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+      "actual": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/control_file_hashes/student-role.txt",
+      "target": "references/sasis/student-role.txt",
+      "algorithm": "sha256",
+      "expected": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+      "actual": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Control resource path relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/control_file_hashes/student-testing-contract.txt",
+      "target": "references/sasis/student-testing-contract.txt",
+      "algorithm": "sha256",
+      "expected": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+      "actual": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Control resource path relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/control_file_hashes/rewrite-guide.md",
+      "target": "references/sasis/rewrite-guide.md",
+      "algorithm": "sha256",
+      "expected": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "actual": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Control resource path relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "declaration": "/subjects/0/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "algorithm": "sha256",
+      "expected": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "actual": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Subject path relative to release-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "declaration": "/subjects/1/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+      "algorithm": "sha256",
+      "expected": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "actual": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Subject path relative to release-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "declaration": "/subjects/2/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+      "algorithm": "sha256",
+      "expected": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "actual": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Subject path relative to release-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "declaration": "/subjects/3/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "algorithm": "sha256",
+      "expected": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "actual": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Subject path relative to release-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "declaration": "/combined_baseline_sha256",
+      "target": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "algorithm": "sha256",
+      "expected": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "actual": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Combined baseline identified by profile complete_student_baseline and release context."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "declaration": "/files/0/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "algorithm": "sha256",
+      "expected": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "actual": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Frozen file path relative to chemistry freeze manifest; current bundled text/index bytes are verified without rewriting frozen identities."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "declaration": "/files/2/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/baseline-section-index.json",
+      "algorithm": "sha256",
+      "expected": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "actual": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Frozen file path relative to chemistry freeze manifest; current bundled text/index bytes are verified without rewriting frozen identities."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "declaration": "/files/3/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+      "algorithm": "sha256",
+      "expected": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "actual": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "match": true,
+      "target_bundled": true,
+      "resolution": "Frozen file path relative to chemistry freeze manifest; current bundled text/index bytes are verified without rewriting frozen identities."
+    }
+  ],
+  "excluded_nonbundled_identities": [
+    {
+      "source": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "declaration": "/archive_sha256",
+      "target_identity": "earlier release ZIP (no filename declared)",
+      "algorithm": "sha256",
+      "expected": "7d0a6a69d7300810d5d997b177ed2ddaf014593e1762b90ea4fc85f430ad60f6",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Historical release archive. profile-manifest.json provenance_notes explicitly says the earlier release ZIP is not bundled.",
+      "expected_bytes": 93563
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "declaration": "/files/1/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.md",
+      "algorithm": "sha256",
+      "expected": "502037a12a302f526da01b4290a8f2ebcc0d708a959fb60919234640e53c1dfe",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Historical chemistry authoring/research Markdown counterpart from the frozen original release; absent from both installed package inventory and outer package manifest. Bundled .txt counterparts have their own checked hashes.",
+      "expected_bytes": 95704
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "declaration": "/files/4/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.md",
+      "algorithm": "sha256",
+      "expected": "163c117efdf67ecd6e5e70beebbaa5a0c6315b5ab4616e2848642d598e72e8c2",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Historical chemistry authoring/research Markdown counterpart from the frozen original release; absent from both installed package inventory and outer package manifest. Bundled .txt counterparts have their own checked hashes.",
+      "expected_bytes": 14292
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "declaration": "/documents/0/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/physics/reference/h556-spec-current.pdf",
+      "algorithm": "sha256",
+      "expected": "c41f1603b7948c5dad4dfd9ae7b65547eb3ce47d283d9ebc58c9e1e3469e14c7",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 17392606,
+      "url": "https://www.ocr.org.uk/Images/171726-specification-accredited-a-level-gce-physics-a-h556.pdf"
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "declaration": "/documents/1/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/physics/reference/physics-a-formula-booklet-2025.pdf",
+      "algorithm": "sha256",
+      "expected": "7bedec02d25969eef23cfb03517ae15cd0f0677b22d19d50eaf854fd80d9caab",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 1496453,
+      "url": "https://www.ocr.org.uk/Images/363796-units-h156-and-h556-data-formulae-and-relationships-booklet.pdf"
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "declaration": "/documents/2/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/physics/reference/physics-practical-handbook-2026.pdf",
+      "algorithm": "sha256",
+      "expected": "cd49ffb20d97fc18e49c04f085642899ebbdcf0e8cae5c90764da22555ebbb02",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 874943,
+      "url": "https://www.ocr.org.uk/Images/295483-practical-skills-handbook.pdf"
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "declaration": "/documents/3/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/physics/reference/physics-mathematical-handbook-2026.pdf",
+      "algorithm": "sha256",
+      "expected": "c3deaae2b0d8755c7210b7940b14c3e976fd40259d339e647f724b17d17c8e07",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 1778808,
+      "url": "https://www.ocr.org.uk/Images/295471-mathematical-skills-handbook.pdf"
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "declaration": "/documents/4/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/physics/reference/h556-03-examiner-report-2025.pdf",
+      "algorithm": "sha256",
+      "expected": "43a25417f9fb2c70b62edff844e5b8846aa6c5a1bcb9e9dfb30ca6503707e4df",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 5299768,
+      "url": "https://www.ocr.org.uk/Images/751959-examiners-report-unified-physics.pdf"
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "declaration": "/documents/5/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/physics/reference/h556-03-mark-scheme-2025.pdf",
+      "algorithm": "sha256",
+      "expected": "0d7afe46041ce8485917eb210a6be5b34924a1c2c2d37d713ddf0e8afb5d87e5",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 608245,
+      "url": "https://www.ocr.org.uk/Images/752505-mark-scheme-unified-physics.pdf"
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "declaration": "/0/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/further-maths/sources/formulae-2025.pdf",
+      "algorithm": "sha256",
+      "expected": "f4d026ae4719f90f7d2c0b955d67c668160ff939e01b1336c9ad9a5f4dea23a2",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 1191821
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "declaration": "/1/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/further-maths/sources/H245-specification.pdf",
+      "algorithm": "sha256",
+      "expected": "61fb7eddcbf337a3094fb2312e073fcede1fc6fcd8925bc0be562c5007538459",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 2988568
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "declaration": "/2/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/further-maths/sources/Y540-mark-2025.pdf",
+      "algorithm": "sha256",
+      "expected": "dab3b71af9e0f0cfaba016ce26066777bd441a417a457252b2443372fa9ad67c",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 2086913
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "declaration": "/3/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/further-maths/sources/Y540-question-2025.pdf",
+      "algorithm": "sha256",
+      "expected": "3a1d4339a1c929741e21d5db420f142bf4e6d4aec9ae99672587e31823e378e4",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 2847782
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "declaration": "/4/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/further-maths/sources/Y540-report-2025.pdf",
+      "algorithm": "sha256",
+      "expected": "da5dea3e55003709a982da5d773f233af88dd10962290d6fc06d0532a04b1bba",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 2508343
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "declaration": "/5/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/further-maths/sources/Y541-mark-2025.pdf",
+      "algorithm": "sha256",
+      "expected": "5e7ffa37b99c0ff318589226b5a357796f67640af06a440da28ada927e231e97",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 1734162
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "declaration": "/6/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/further-maths/sources/Y541-question-2025.pdf",
+      "algorithm": "sha256",
+      "expected": "2681d4552c05d9022a1b05bcf9033b56fb099287b8afc12e4abb995856a55fcb",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 2909541
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "declaration": "/7/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/further-maths/sources/Y542-question-2025.pdf",
+      "algorithm": "sha256",
+      "expected": "b29e9372e9fb4e679785e9b84b77880a4787cad3d735b8a6c2015f575b5841b6",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 2405279
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "declaration": "/8/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/further-maths/sources/Y542-report-2025.pdf",
+      "algorithm": "sha256",
+      "expected": "b5a89c588b6fe368a80602b409c07989d05c10396d746c6978f1cc32ea7a71a4",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 2074672
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "declaration": "/9/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/further-maths/sources/Y543-mark-2025.pdf",
+      "algorithm": "sha256",
+      "expected": "b9db596bade3eadffaa8161f2e0219d510a51fec11c6a075430cc801798614e0",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 1701393
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "declaration": "/10/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/further-maths/sources/Y543-question-2025.pdf",
+      "algorithm": "sha256",
+      "expected": "b896c2fcb13d43ac94ae2d5a38b71b198411aee4aa051a6cecda32d1badc1bf4",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 2908226
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "declaration": "/11/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/further-maths/sources/Y543-report-2025.pdf",
+      "algorithm": "sha256",
+      "expected": "c24d8ba8306f9529400324382857cdd5d5b64e48ab96f2cff7bc2ead8a2d7415",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 2909860
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "declaration": "/0/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/chemistry/reference/chemistry-mathematical-handbook.pdf",
+      "algorithm": "sha256",
+      "expected": "aad6186690ed290d9f424db5492e7279b46e6adea72471a10d7f8c424a59bc9f",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 1067818
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "declaration": "/1/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/chemistry/reference/chemistry-practical-handbook.pdf",
+      "algorithm": "sha256",
+      "expected": "3e38cfae43c9fbf2b66f42a1b8f234fb5565a0323e1c679847b633e4fa457aa7",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 883911
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "declaration": "/2/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/chemistry/reference/h432-01-2025-examiners-report.pdf",
+      "algorithm": "sha256",
+      "expected": "738964fcf240658b4021777c79479ad8856c07e193a47e1ad171766f4e37a1ad",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 5690254
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "declaration": "/3/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/chemistry/reference/h432-02-2025-examiners-report.pdf",
+      "algorithm": "sha256",
+      "expected": "fb808075fab44dabc6b1e5beee44624cd06f9a9506a1a3c2dcc9ac14700fce78",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 5712379
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "declaration": "/4/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/chemistry/reference/h432-03-2025-examiners-report.pdf",
+      "algorithm": "sha256",
+      "expected": "63432cf8bc74f854b515d51cad253b0a7bda246994a08301458f4849c06fc905",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 4487138
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "declaration": "/5/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/chemistry/reference/h432-data-sheet.pdf",
+      "algorithm": "sha256",
+      "expected": "1394b6309479089d0022194daf0bc116a3d87f3f4ff3160280fab2b2a1dbc46a",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 2165237
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "declaration": "/6/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/chemistry/reference/h432-specification-current.pdf",
+      "algorithm": "sha256",
+      "expected": "83d7a5c69b585fdae3bbffe223b3cd9c9fca03086c87308cdba17964adf43245",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 21464652
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "declaration": "/7/sha256",
+      "target_identity": "references/sasis/ocr-baseline-20261007/chemistry/reference/inorganic-colours-poster.pdf",
+      "algorithm": "sha256",
+      "expected": "6b6c6d2007c661f03c887cf67a41971e11f7efc2fa047e771ed9ff026092a6ec",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Downloaded official raw-source PDF identity from historical research inventory; profile-manifest.json provenance_notes explicitly excludes raw OCR PDFs from the installed package.",
+      "expected_bytes": 129652
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/further-maths/research-verification.txt",
+      "declaration": "line:11",
+      "target_identity": "references/sasis/ocr-baseline-20261007/further-maths/sources/H245-specification.pdf",
+      "algorithm": "sha256",
+      "expected": "61fb7eddcbf337a3094fb2312e073fcede1fc6fcd8925bc0be562c5007538459",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Narrative repetition of a historical downloaded specification PDF hash; raw PDF is explicitly nonbundled.",
+      "declaration_text": "Local copy sources/H245-specification.pdf; SHA-256 61fb7eddcbf337a3094fb2312e073fcede1fc6fcd8925bc0be562c5007538459. The complete downloaded-source inventory, bytes and physical page counts are in download-manifest.json. Text extraction is separately labelled and is not counted as reading."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+      "declaration": "line:11",
+      "target_identity": "references/sasis/ocr-baseline-20261007/chemistry/reference/h432-specification-current.pdf",
+      "algorithm": "sha256",
+      "expected": "83d7a5c69b585fdae3bbffe223b3cd9c9fca03086c87308cdba17964adf43245",
+      "actual": null,
+      "status": "excluded_nonbundled_provenance",
+      "reason": "Narrative repetition of a historical downloaded specification PDF hash; raw PDF is explicitly nonbundled.",
+      "declaration_text": "Local verification copy: `reference/h432-specification-current.pdf`. Bytes: 21,464,652. SHA-256: `83d7a5c69b585fdae3bbffe223b3cd9c9fca03086c87308cdba17964adf43245`."
+    }
+  ],
+  "literal_census": {
+    "unclassified": [],
+    "overclassified": []
+  },
+  "outer_inventory_verification": {
+    "declared_file_count": 36,
+    "actual_file_count": 36,
+    "declared_count_matches": true,
+    "unlisted_package_files": [],
+    "missing_manifest_files": [],
+    "duplicate_manifest_paths": [],
+    "entries": [
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/0",
+        "target": "SKILL.md",
+        "sha256": {
+          "expected": "d3358667284ecc1586043b5a56422337222d871c41fba1889edbce44a9a58a51",
+          "actual": "d3358667284ecc1586043b5a56422337222d871c41fba1889edbce44a9a58a51",
+          "match": true
+        },
+        "bytes": {
+          "expected": 42448,
+          "actual": 42448,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "7182d9e572f9e69dfb430b782efa5578a24202bd",
+          "actual": "7182d9e572f9e69dfb430b782efa5578a24202bd",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/1",
+        "target": "agents/openai.yaml",
+        "sha256": {
+          "expected": "24bcb8b86b0e00692a344a1bcdb196fc2a25848c0fbb9045cc9df150ea3cc119",
+          "actual": "24bcb8b86b0e00692a344a1bcdb196fc2a25848c0fbb9045cc9df150ea3cc119",
+          "match": true
+        },
+        "bytes": {
+          "expected": 497,
+          "actual": 497,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "82dd9cd9c6f2eddc70e2af387289695c9577cd2e",
+          "actual": "82dd9cd9c6f2eddc70e2af387289695c9577cd2e",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/2",
+        "target": "assets/icon.svg",
+        "sha256": {
+          "expected": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+          "actual": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+          "match": true
+        },
+        "bytes": {
+          "expected": 1210,
+          "actual": 1210,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "4c3163aa85e15ed80114f93a9a2b140a53012c44",
+          "actual": "4c3163aa85e15ed80114f93a9a2b140a53012c44",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/3",
+        "target": "assets/latex/main.tex",
+        "sha256": {
+          "expected": "f4b0f850c2d2102a9258c3b536e1594c46d7c18a4769d3a4b6e2b0284cfa8c4b",
+          "actual": "f4b0f850c2d2102a9258c3b536e1594c46d7c18a4769d3a4b6e2b0284cfa8c4b",
+          "match": true
+        },
+        "bytes": {
+          "expected": 7645,
+          "actual": 7645,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "19321497ccf1d5de19fcec5f777105a90dde3d0f",
+          "actual": "19321497ccf1d5de19fcec5f777105a90dde3d0f",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/4",
+        "target": "assets/latex/prof.sty",
+        "sha256": {
+          "expected": "f6f241b40e82b9568e6e345ea9591eccc03e8bd23136fe6e4d2a8767fb7b5a2a",
+          "actual": "f6f241b40e82b9568e6e345ea9591eccc03e8bd23136fe6e4d2a8767fb7b5a2a",
+          "match": true
+        },
+        "bytes": {
+          "expected": 5505,
+          "actual": 5505,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "c92e932700e6ff709f23bca46f2d7b7e80b31038",
+          "actual": "c92e932700e6ff709f23bca46f2d7b7e80b31038",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/5",
+        "target": "references/domain-patterns.md",
+        "sha256": {
+          "expected": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+          "actual": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+          "match": true
+        },
+        "bytes": {
+          "expected": 10301,
+          "actual": 10301,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "2b642a8604af2cf0ed833a6b5b33297ddc29c863",
+          "actual": "2b642a8604af2cf0ed833a6b5b33297ddc29c863",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/6",
+        "target": "references/execution-protocol.md",
+        "sha256": {
+          "expected": "d52cacac6caf047cffd0deed49b088a1bc1907379e3421fa04b0c80d3bd7380f",
+          "actual": "d52cacac6caf047cffd0deed49b088a1bc1907379e3421fa04b0c80d3bd7380f",
+          "match": true
+        },
+        "bytes": {
+          "expected": 31581,
+          "actual": 31581,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "1cd664002d0f05c9ff00da8ac5a6402db3450d7c",
+          "actual": "1cd664002d0f05c9ff00da8ac5a6402db3450d7c",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/7",
+        "target": "references/execution-research.md",
+        "sha256": {
+          "expected": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2",
+          "actual": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2",
+          "match": true
+        },
+        "bytes": {
+          "expected": 7634,
+          "actual": 7634,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "18cabb66d1566a87d905e189b743ac529bf8ab67",
+          "actual": "18cabb66d1566a87d905e189b743ac529bf8ab67",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/8",
+        "target": "references/findings-and-rationale.md",
+        "sha256": {
+          "expected": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f",
+          "actual": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f",
+          "match": true
+        },
+        "bytes": {
+          "expected": 11597,
+          "actual": 11597,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "85c40da508b444f3391855648056570595a64f5f",
+          "actual": "85c40da508b444f3391855648056570595a64f5f",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/9",
+        "target": "references/latex-production.md",
+        "sha256": {
+          "expected": "7a30f4e80d8cdf992f4d4d2c60c53c75f507f45a63893101ed1290e8dde70517",
+          "actual": "7a30f4e80d8cdf992f4d4d2c60c53c75f507f45a63893101ed1290e8dde70517",
+          "match": true
+        },
+        "bytes": {
+          "expected": 8234,
+          "actual": 8234,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "11b675f8e06e022ad116a17e9ce876a2f3e0eed4",
+          "actual": "11b675f8e06e022ad116a17e9ce876a2f3e0eed4",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/10",
+        "target": "references/sasis/ocr-baseline-20261007/chemistry/baseline-section-index.json",
+        "sha256": {
+          "expected": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+          "actual": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+          "match": true
+        },
+        "bytes": {
+          "expected": 3552,
+          "actual": 3552,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "1604084d8fc1bb7230d624ce4264b48d4309b0f6",
+          "actual": "1604084d8fc1bb7230d624ce4264b48d4309b0f6",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/11",
+        "target": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+        "sha256": {
+          "expected": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+          "actual": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+          "match": true
+        },
+        "bytes": {
+          "expected": 1218,
+          "actual": 1218,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "424cddf78683a976555942fea848e8b80e4a9170",
+          "actual": "424cddf78683a976555942fea848e8b80e4a9170",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/12",
+        "target": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+        "sha256": {
+          "expected": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+          "actual": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+          "match": true
+        },
+        "bytes": {
+          "expected": 1452,
+          "actual": 1452,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "4bce3b3fd3169d20748bf511b72326eb606f5eec",
+          "actual": "4bce3b3fd3169d20748bf511b72326eb606f5eec",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/13",
+        "target": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+        "sha256": {
+          "expected": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+          "actual": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+          "match": true
+        },
+        "bytes": {
+          "expected": 14349,
+          "actual": 14349,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "7aaa75d065427f314ef263a29c27ca52ce128ddd",
+          "actual": "7aaa75d065427f314ef263a29c27ca52ce128ddd",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/14",
+        "target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+        "sha256": {
+          "expected": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+          "actual": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+          "match": true
+        },
+        "bytes": {
+          "expected": 96538,
+          "actual": 96538,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "50aaaa2584702323c7a8c25b528ab30d3ef85263",
+          "actual": "50aaaa2584702323c7a8c25b528ab30d3ef85263",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/15",
+        "target": "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+        "sha256": {
+          "expected": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+          "actual": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+          "match": true
+        },
+        "bytes": {
+          "expected": 39018,
+          "actual": 39018,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "ea0b6815cfd888ee340f31dcc7542e894b01e4d4",
+          "actual": "ea0b6815cfd888ee340f31dcc7542e894b01e4d4",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/16",
+        "target": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+        "sha256": {
+          "expected": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+          "actual": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+          "match": true
+        },
+        "bytes": {
+          "expected": 3073,
+          "actual": 3073,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "e4bafaa6b6656b25a06279e3dd033bcd04d20913",
+          "actual": "e4bafaa6b6656b25a06279e3dd033bcd04d20913",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/17",
+        "target": "references/sasis/ocr-baseline-20261007/further-maths/research-verification.txt",
+        "sha256": {
+          "expected": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+          "actual": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+          "match": true
+        },
+        "bytes": {
+          "expected": 9023,
+          "actual": 9023,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "478ee72bf8e4e90db6d0a704e87408991297cdbd",
+          "actual": "478ee72bf8e4e90db6d0a704e87408991297cdbd",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/18",
+        "target": "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+        "sha256": {
+          "expected": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+          "actual": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+          "match": true
+        },
+        "bytes": {
+          "expected": 48093,
+          "actual": 48093,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "3dc9323a8276c3b1dc851a61785363eea793bca8",
+          "actual": "3dc9323a8276c3b1dc851a61785363eea793bca8",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/19",
+        "target": "references/sasis/ocr-baseline-20261007/maths/research/lds-metadata.json",
+        "sha256": {
+          "expected": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+          "actual": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+          "match": true
+        },
+        "bytes": {
+          "expected": 23065,
+          "actual": 23065,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "8cd64c13f1d3c750d93bf4390c30c8fcbf271e96",
+          "actual": "8cd64c13f1d3c750d93bf4390c30c8fcbf271e96",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/20",
+        "target": "references/sasis/ocr-baseline-20261007/maths/research-record.md",
+        "sha256": {
+          "expected": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+          "actual": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+          "match": true
+        },
+        "bytes": {
+          "expected": 10511,
+          "actual": 10511,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "b650566576ae1056cf940d6c4e8a582508cd21c8",
+          "actual": "b650566576ae1056cf940d6c4e8a582508cd21c8",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/21",
+        "target": "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+        "sha256": {
+          "expected": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+          "actual": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+          "match": true
+        },
+        "bytes": {
+          "expected": 60163,
+          "actual": 60163,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "c2a12c32a6256c1007a0f80e3292381868b01a59",
+          "actual": "c2a12c32a6256c1007a0f80e3292381868b01a59",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/22",
+        "target": "references/sasis/ocr-baseline-20261007/physics/research.md",
+        "sha256": {
+          "expected": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+          "actual": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+          "match": true
+        },
+        "bytes": {
+          "expected": 17766,
+          "actual": 17766,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "33bf09495fe4ffbb889cbf66545c879ef01461b5",
+          "actual": "33bf09495fe4ffbb889cbf66545c879ef01461b5",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/23",
+        "target": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+        "sha256": {
+          "expected": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+          "actual": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+          "match": true
+        },
+        "bytes": {
+          "expected": 2056,
+          "actual": 2056,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "1daa5ef2634ca9642f0227d8f46a9d764ec55db5",
+          "actual": "1daa5ef2634ca9642f0227d8f46a9d764ec55db5",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/24",
+        "target": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+        "sha256": {
+          "expected": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+          "actual": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+          "match": true
+        },
+        "bytes": {
+          "expected": 4380,
+          "actual": 4380,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "f5eb8281b91156dc6ff990c5b178f46d45f501d3",
+          "actual": "f5eb8281b91156dc6ff990c5b178f46d45f501d3",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/25",
+        "target": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+        "sha256": {
+          "expected": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+          "actual": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+          "match": true
+        },
+        "bytes": {
+          "expected": 247840,
+          "actual": 247840,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "edc601f173faf6a703545d8c4e41f217d5bbce79",
+          "actual": "edc601f173faf6a703545d8c4e41f217d5bbce79",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/26",
+        "target": "references/sasis/ocr-baseline-20261007/student-input-cover.txt",
+        "sha256": {
+          "expected": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+          "actual": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+          "match": true
+        },
+        "bytes": {
+          "expected": 2013,
+          "actual": 2013,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "20aef206bda0ae68fc2c12bc224caa029117942e",
+          "actual": "20aef206bda0ae68fc2c12bc224caa029117942e",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/27",
+        "target": "references/sasis/ocr-baseline-20261007/year1-course-registry.json",
+        "sha256": {
+          "expected": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+          "actual": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+          "match": true
+        },
+        "bytes": {
+          "expected": 15954,
+          "actual": 15954,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "2176a4f8c63e7686a5af9f10d2f2e211e9d1bdb7",
+          "actual": "2176a4f8c63e7686a5af9f10d2f2e211e9d1bdb7",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/28",
+        "target": "references/sasis/ocr-baseline-20261007/year1-lecture-index.csv",
+        "sha256": {
+          "expected": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+          "actual": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+          "match": true
+        },
+        "bytes": {
+          "expected": 72388,
+          "actual": 72388,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "e79d8a22b8930150090ca736ef4a2f17bb9f0fad",
+          "actual": "e79d8a22b8930150090ca736ef4a2f17bb9f0fad",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/29",
+        "target": "references/sasis/profile-manifest.json",
+        "sha256": {
+          "expected": "a1d3d34a59cd33ba45aa7ce3f53ab75182de33b54bc8fc18f79d197df1a899b2",
+          "actual": "a1d3d34a59cd33ba45aa7ce3f53ab75182de33b54bc8fc18f79d197df1a899b2",
+          "match": true
+        },
+        "bytes": {
+          "expected": 10165,
+          "actual": 10165,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "637da981f7153be6121a4d3d63105b5038d04a4c",
+          "actual": "637da981f7153be6121a4d3d63105b5038d04a4c",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/30",
+        "target": "references/sasis/rewrite-guide.md",
+        "sha256": {
+          "expected": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+          "actual": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+          "match": true
+        },
+        "bytes": {
+          "expected": 9288,
+          "actual": 9288,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "ca70c4b2d1b26a4977cd773e82f3079cc799ac0c",
+          "actual": "ca70c4b2d1b26a4977cd773e82f3079cc799ac0c",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/31",
+        "target": "references/sasis/student-role.txt",
+        "sha256": {
+          "expected": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+          "actual": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+          "match": true
+        },
+        "bytes": {
+          "expected": 5973,
+          "actual": 5973,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "b65e6dd27c1ffa1722ae50de704b4e4e833a215b",
+          "actual": "b65e6dd27c1ffa1722ae50de704b4e4e833a215b",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/32",
+        "target": "references/sasis/student-testing-contract.txt",
+        "sha256": {
+          "expected": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+          "actual": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+          "match": true
+        },
+        "bytes": {
+          "expected": 7983,
+          "actual": 7983,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "f6d5efdf360dd1aa4c6aace446d28188eca0a68e",
+          "actual": "f6d5efdf360dd1aa4c6aace446d28188eca0a68e",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/33",
+        "target": "references/sasis.md",
+        "sha256": {
+          "expected": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343",
+          "actual": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343",
+          "match": true
+        },
+        "bytes": {
+          "expected": 19036,
+          "actual": 19036,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "8a48422fff798e7386dbb1df6b151a739aee728d",
+          "actual": "8a48422fff798e7386dbb1df6b151a739aee728d",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/34",
+        "target": "references/state-tool.md",
+        "sha256": {
+          "expected": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+          "actual": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+          "match": true
+        },
+        "bytes": {
+          "expected": 17130,
+          "actual": 17130,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "18ce531930bdd36c55985806a91b981c24f713e2",
+          "actual": "18ce531930bdd36c55985806a91b981c24f713e2",
+          "match": true
+        }
+      },
+      {
+        "source": "inputs/prof-package-manifest.json",
+        "declaration": "/files/35",
+        "target": "scripts/prof_state.py",
+        "sha256": {
+          "expected": "6949c44d3e9374cf1af522f69436fad71fca186317cd404ff1967985c92a3488",
+          "actual": "6949c44d3e9374cf1af522f69436fad71fca186317cd404ff1967985c92a3488",
+          "match": true
+        },
+        "bytes": {
+          "expected": 32999,
+          "actual": 32999,
+          "match": true
+        },
+        "git_blob_sha1": {
+          "expected": "fc4b9fe139fa3a34bc077e87f82f9249c5bddf5d",
+          "actual": "fc4b9fe139fa3a34bc077e87f82f9249c5bddf5d",
+          "match": true
+        }
+      }
+    ]
+  },
+  "status": "pass"
+}

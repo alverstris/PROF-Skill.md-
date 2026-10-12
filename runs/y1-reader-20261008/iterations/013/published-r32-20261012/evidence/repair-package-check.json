@@ -1,0 +1,2996 @@
+{
+  "audit": "Independent local mechanical repair candidate r33 package audit",
+  "audited_at_utc": "2026-10-12T01:04:40.104039+00:00",
+  "status": "pass",
+  "scope": {
+    "workspace": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012",
+    "candidate_package": "candidate-prof-r33-repair",
+    "current_package": "verified-prof",
+    "candidate_manifest": "evidence/repair-package-manifest.json",
+    "candidate_manifest_sha256": "3b906bb4d8c473893f07e0bba9880810caa6ccef1a7f0be1aaf47b4d97979750",
+    "internal_inventory": "evidence/internal-hashes.json",
+    "internal_inventory_sha256": "04ced56c20cb570cf5efddb68aa5781aa163dd0e0f40ba0111a2c94d121dffbd",
+    "validator": "author/quick_validate.py",
+    "permitted_explicit_paths": [
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/icon.svg",
+      "assets/latex/main.tex",
+      "assets/latex/prof.sty",
+      "references/domain-patterns.md",
+      "references/execution-protocol.md",
+      "references/execution-research.md",
+      "references/findings-and-rationale.md",
+      "references/latex-production.md",
+      "references/sasis/ocr-baseline-20261007/chemistry/baseline-section-index.json",
+      "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+      "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+      "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "references/sasis/ocr-baseline-20261007/further-maths/research-verification.txt",
+      "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "references/sasis/ocr-baseline-20261007/maths/research/lds-metadata.json",
+      "references/sasis/ocr-baseline-20261007/maths/research-record.md",
+      "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+      "references/sasis/ocr-baseline-20261007/physics/research.md",
+      "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "references/sasis/ocr-baseline-20261007/student-input-cover.txt",
+      "references/sasis/ocr-baseline-20261007/year1-course-registry.json",
+      "references/sasis/ocr-baseline-20261007/year1-lecture-index.csv",
+      "references/sasis/profile-manifest.json",
+      "references/sasis/rewrite-guide.md",
+      "references/sasis/student-role.txt",
+      "references/sasis/student-testing-contract.txt",
+      "references/sasis.md",
+      "references/state-tool.md",
+      "scripts/prof_state.py"
+    ],
+    "expected_current_version": "2026-10-12-r32",
+    "expected_candidate_version": "2026-10-12-r33"
+  },
+  "method": [
+    "Read the two specified evidence inventories, author/quick_validate.py, and only the 36 explicit paths in each package.",
+    "Compare raw bytes without newline normalization; compute byte counts, SHA-256, and Git blob SHA-1 using SHA1(\"blob \" + ASCII byte count + NUL + bytes).",
+    "Compute complete line-level differences for the three expected changed files and record exact before/after text, line ranges, byte spans, and hashes.",
+    "Verify root metadata.version plus one navigation paragraph extension, one execution-protocol navigation paragraph replacement, and profile protocol_revision only; forward and inverse substitutions must reproduce the complete counterpart bytes.",
+    "Resolve all 34 inventoried bundled SHA-256 declarations at their source JSON pointers and compare them with freshly calculated target bytes.",
+    "Scan all three changed files for full SHA-256 and SHA-1 literals; reconcile SHA-256 occurrence counts to declared bundled/excluded inventory and check for old hashes of changed targets.",
+    "Run author/quick_validate.py as a subprocess against the separate repair candidate."
+  ],
+  "summary": {
+    "explicit_candidate_manifest_entries": 36,
+    "unique_manifest_paths": 36,
+    "candidate_manifest_version_matches": true,
+    "current_files_compared": 36,
+    "candidate_files_compared": 36,
+    "byte_identical_files": 33,
+    "changed_files": [
+      "SKILL.md",
+      "references/execution-protocol.md",
+      "references/sasis/profile-manifest.json"
+    ],
+    "changed_scope_matches": 3,
+    "changed_scope_discrepancies": [],
+    "candidate_size_sha256_git_blob_matches": 36,
+    "candidate_manifest_mismatches": [],
+    "current_size_sha256_git_blob_matches_inventory": 36,
+    "current_inventory_mismatches": [],
+    "changed_flag_mismatches": [],
+    "bundled_internal_declarations_checked": 34,
+    "unique_bundled_targets": 22,
+    "bundled_internal_declarations_matching_actual_bytes": 34,
+    "bundled_internal_discrepancies": 0,
+    "changed_file_sha256_literal_occurrences": 26,
+    "changed_file_applicable_bundled_hash_declarations": 26,
+    "stale_or_unclassified_changed_file_hash_discrepancies": [],
+    "quick_validate_exit_code": 0,
+    "quick_validate_pass": true
+  },
+  "exact_changed_scope": [
+    {
+      "path": "SKILL.md",
+      "scope": "root metadata.version replacement plus one existing general navigation paragraph extension",
+      "old_paragraph_preserved_as_exact_prefix": true,
+      "extension_text": " When fragment destinations follow images, reserve each image's intrinsic aspect geometry using markup supported by the destination, such as an img element with the exported width and height. Verify that an unloaded image already occupies the correct proportional box and remains undistorted after loading. Check a first-use help-to-main route to a later target before warming the main page or its image URLs, as well as ordinary already-visited forward and return routes. Preserve an observed first-use miss; a successful repeat does not establish that the first-use path works. A controlled diagnostic must keep unrelated text, mathematics, targets and image bytes fixed while varying the suspected layout feature, and distinguish demonstrated cause from remaining timing or cache uncertainty.",
+      "frontmatter_only_version_diff": true,
+      "expected_scope_matches": true,
+      "change_count": 2,
+      "forward_replacements_reproduce_complete_candidate": true,
+      "inverse_replacements_reproduce_complete_current": true,
+      "changes": [
+        {
+          "operation": "replace",
+          "current_line_range_inclusive": [
+            5,
+            5
+          ],
+          "candidate_line_range_inclusive": [
+            5,
+            5
+          ],
+          "current_byte_span": [
+            667,
+            696
+          ],
+          "candidate_byte_span": [
+            667,
+            696
+          ],
+          "current_bytes": 29,
+          "candidate_bytes": 29,
+          "current_sha256": "da45e467ad3a0d32db0215d065260299360fbdd499402641a2187e21085e12dc",
+          "candidate_sha256": "1cc02c081e1dc9c8f58640f705830ddf40854cabe34dc50189aa04b17ad98156",
+          "current_text": "  version: \"2026-10-12-r32\"\r\n",
+          "candidate_text": "  version: \"2026-10-12-r33\"\r\n"
+        },
+        {
+          "operation": "replace",
+          "current_line_range_inclusive": [
+            113,
+            113
+          ],
+          "candidate_line_range_inclusive": [
+            113,
+            113
+          ],
+          "current_byte_span": [
+            31258,
+            31767
+          ],
+          "candidate_byte_span": [
+            31258,
+            32562
+          ],
+          "current_bytes": 509,
+          "candidate_bytes": 1304,
+          "current_sha256": "39f99acb83dece4d93c6a9e9f554506284315a59dd2c76e2e497384fa4e403cd",
+          "candidate_sha256": "4049394eee2ef70f7af687a93b5d607fd1f87b302e8c12ad8b199fabab8bae4c",
+          "current_text": "For linked GitHub teaching files, give anchors document-specific names so corresponding prompts, hints and solutions do not reuse the same fragment across sibling files. Check actual forward and return clicks after the destination has settled, including a later target reached from an already-fragmented URL. Verify that the intended content is visible, not merely that the URL and anchor exist. Preserve a failed route and follow the active repair mode; see execution-protocol.md for the destination check.\r\n",
+          "candidate_text": "For linked GitHub teaching files, give anchors document-specific names so corresponding prompts, hints and solutions do not reuse the same fragment across sibling files. Check actual forward and return clicks after the destination has settled, including a later target reached from an already-fragmented URL. Verify that the intended content is visible, not merely that the URL and anchor exist. Preserve a failed route and follow the active repair mode; see execution-protocol.md for the destination check. When fragment destinations follow images, reserve each image's intrinsic aspect geometry using markup supported by the destination, such as an img element with the exported width and height. Verify that an unloaded image already occupies the correct proportional box and remains undistorted after loading. Check a first-use help-to-main route to a later target before warming the main page or its image URLs, as well as ordinary already-visited forward and return routes. Preserve an observed first-use miss; a successful repeat does not establish that the first-use path works. A controlled diagnostic must keep unrelated text, mathematics, targets and image bytes fixed while varying the suspected layout feature, and distinguish demonstrated cause from remaining timing or cache uncertainty.\r\n"
+        }
+      ],
+      "changed_line_endings_preserved": true
+    },
+    {
+      "path": "references/execution-protocol.md",
+      "scope": "one existing general navigation paragraph replacement",
+      "expected_scope_matches": true,
+      "change_count": 1,
+      "forward_replacements_reproduce_complete_candidate": true,
+      "inverse_replacements_reproduce_complete_current": true,
+      "changes": [
+        {
+          "operation": "replace",
+          "current_line_range_inclusive": [
+            87,
+            87
+          ],
+          "candidate_line_range_inclusive": [
+            87,
+            87
+          ],
+          "current_byte_span": [
+            21954,
+            22875
+          ],
+          "candidate_byte_span": [
+            21954,
+            23571
+          ],
+          "current_bytes": 921,
+          "candidate_bytes": 1617,
+          "current_sha256": "09d713a2b8fb9b251496111c1c26c6e9cacb0c8e9c18d2e1a316e18e53b5f755",
+          "candidate_sha256": "f93d11e0400cccb933e1721cde56cdca4018e22d6b5824d522fb3305bdd02521",
+          "current_text": "For linked teaching/help, inventory the source and target file and fragment for each route. In GitHub Markdown, use distinct document-specific anchor names across sibling files. Exercise ordinary forward and return clicks, including later targets below the initial viewport and successive cross-file navigation from a URL that already has a fragment. After the article and rendering settle, observe the matching target in the viewport; a correct href, preserved anchor, loaded file or manually opened deep URL does not establish the click route. Separate transient load states and screenshot-induced scrolling from a reproducible settled failure. If an alternative is needed, verify it in a separate bounded destination fixture before using it, and recheck the whole final artifact. Reopen earlier acceptance only where inspection establishes the demonstrated dependency; syntax presence alone is not a browser failure.\r\n",
+          "candidate_text": "For linked teaching/help, inventory the source and target file and fragment for each route. In GitHub Markdown, use distinct document-specific anchor names across sibling files. Where images precede a fragment target, reserve their exported aspect ratio with destination-supported width/height markup and inspect the unloaded as well as loaded image boxes. Exercise a first-use route from help to a later main target before visiting that main page or its image URLs; then check ordinary already-visited forward and return clicks, including successive cross-file navigation from an already-fragmented URL. Record cache conditions that cannot be controlled. After the article and rendering settle, observe the matching target in the viewport; a correct href, preserved anchor, loaded file or manually opened deep URL does not establish the click route. Do not scroll or take a full-page capture between the tested click and its settled observation. Separate transient load states and screenshot-induced scrolling from an actual settled failure, and retain a first-use miss even when repeats pass. If collapsed unloaded image boxes expand and move the target out of view, test intrinsic geometry reservation in a bounded fixture with otherwise identical text, mathematics, targets and image bytes. Verify the alternative on the actual destination before using it, then recheck the whole final artifact including image proportions and first-use routes. Reopen earlier acceptance where the same dependency and an actual failed route are evidenced; a markup census alone inventories exposure and is not a browser failure.\r\n"
+        }
+      ],
+      "changed_line_endings_preserved": true
+    },
+    {
+      "path": "references/sasis/profile-manifest.json",
+      "scope": "top-level protocol_revision replacement only",
+      "json_only_protocol_revision_diff": true,
+      "expected_scope_matches": true,
+      "change_count": 1,
+      "forward_replacements_reproduce_complete_candidate": true,
+      "inverse_replacements_reproduce_complete_current": true,
+      "changes": [
+        {
+          "operation": "replace",
+          "current_line_range_inclusive": [
+            87,
+            87
+          ],
+          "candidate_line_range_inclusive": [
+            87,
+            87
+          ],
+          "current_byte_span": [
+            5869,
+            5910
+          ],
+          "candidate_byte_span": [
+            5869,
+            5910
+          ],
+          "current_bytes": 41,
+          "candidate_bytes": 41,
+          "current_sha256": "bffe753035a0eb809e91e4935e4b06d302e2155f6f23462302d9ca578764dfc8",
+          "candidate_sha256": "cfcde8eda0aa77fbb64d023dbfa1feec25c1b79429fe8f54b1f6c80d63f5eb95",
+          "current_text": "  \"protocol_revision\": \"2026-10-12-r32\",\n",
+          "candidate_text": "  \"protocol_revision\": \"2026-10-12-r33\",\n"
+        }
+      ],
+      "changed_line_endings_preserved": true
+    }
+  ],
+  "file_comparisons": [
+    {
+      "path": "SKILL.md",
+      "current": {
+        "bytes": 42448,
+        "sha256": "d3358667284ecc1586043b5a56422337222d871c41fba1889edbce44a9a58a51",
+        "git_blob": "7182d9e572f9e69dfb430b782efa5578a24202bd"
+      },
+      "candidate": {
+        "bytes": 43243,
+        "sha256": "c0055e4e8ec3ed8ccab1667b8138774970e683a3b833f0c9b2dbc4d84166c847",
+        "git_blob": "bf3f754ab0c60ad76433cd9ab71d0f9e74f477af"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 43243,
+          "actual": 43243,
+          "match": true
+        },
+        "sha256": {
+          "expected": "c0055e4e8ec3ed8ccab1667b8138774970e683a3b833f0c9b2dbc4d84166c847",
+          "actual": "c0055e4e8ec3ed8ccab1667b8138774970e683a3b833f0c9b2dbc4d84166c847",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "bf3f754ab0c60ad76433cd9ab71d0f9e74f477af",
+          "actual": "bf3f754ab0c60ad76433cd9ab71d0f9e74f477af",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 42448,
+          "actual": 42448,
+          "match": true
+        },
+        "sha256": {
+          "expected": "d3358667284ecc1586043b5a56422337222d871c41fba1889edbce44a9a58a51",
+          "actual": "d3358667284ecc1586043b5a56422337222d871c41fba1889edbce44a9a58a51",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "7182d9e572f9e69dfb430b782efa5578a24202bd",
+          "actual": "7182d9e572f9e69dfb430b782efa5578a24202bd",
+          "match": true
+        }
+      },
+      "byte_identical": false,
+      "changed_from_r32_flag": {
+        "expected": true,
+        "actual": true,
+        "match": true
+      }
+    },
+    {
+      "path": "agents/openai.yaml",
+      "current": {
+        "bytes": 497,
+        "sha256": "24bcb8b86b0e00692a344a1bcdb196fc2a25848c0fbb9045cc9df150ea3cc119",
+        "git_blob": "82dd9cd9c6f2eddc70e2af387289695c9577cd2e"
+      },
+      "candidate": {
+        "bytes": 497,
+        "sha256": "24bcb8b86b0e00692a344a1bcdb196fc2a25848c0fbb9045cc9df150ea3cc119",
+        "git_blob": "82dd9cd9c6f2eddc70e2af387289695c9577cd2e"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 497,
+          "actual": 497,
+          "match": true
+        },
+        "sha256": {
+          "expected": "24bcb8b86b0e00692a344a1bcdb196fc2a25848c0fbb9045cc9df150ea3cc119",
+          "actual": "24bcb8b86b0e00692a344a1bcdb196fc2a25848c0fbb9045cc9df150ea3cc119",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "82dd9cd9c6f2eddc70e2af387289695c9577cd2e",
+          "actual": "82dd9cd9c6f2eddc70e2af387289695c9577cd2e",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 497,
+          "actual": 497,
+          "match": true
+        },
+        "sha256": {
+          "expected": "24bcb8b86b0e00692a344a1bcdb196fc2a25848c0fbb9045cc9df150ea3cc119",
+          "actual": "24bcb8b86b0e00692a344a1bcdb196fc2a25848c0fbb9045cc9df150ea3cc119",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "82dd9cd9c6f2eddc70e2af387289695c9577cd2e",
+          "actual": "82dd9cd9c6f2eddc70e2af387289695c9577cd2e",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "assets/icon.svg",
+      "current": {
+        "bytes": 1210,
+        "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+        "git_blob": "4c3163aa85e15ed80114f93a9a2b140a53012c44"
+      },
+      "candidate": {
+        "bytes": 1210,
+        "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+        "git_blob": "4c3163aa85e15ed80114f93a9a2b140a53012c44"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 1210,
+          "actual": 1210,
+          "match": true
+        },
+        "sha256": {
+          "expected": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+          "actual": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "4c3163aa85e15ed80114f93a9a2b140a53012c44",
+          "actual": "4c3163aa85e15ed80114f93a9a2b140a53012c44",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 1210,
+          "actual": 1210,
+          "match": true
+        },
+        "sha256": {
+          "expected": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+          "actual": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "4c3163aa85e15ed80114f93a9a2b140a53012c44",
+          "actual": "4c3163aa85e15ed80114f93a9a2b140a53012c44",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "assets/latex/main.tex",
+      "current": {
+        "bytes": 7645,
+        "sha256": "f4b0f850c2d2102a9258c3b536e1594c46d7c18a4769d3a4b6e2b0284cfa8c4b",
+        "git_blob": "19321497ccf1d5de19fcec5f777105a90dde3d0f"
+      },
+      "candidate": {
+        "bytes": 7645,
+        "sha256": "f4b0f850c2d2102a9258c3b536e1594c46d7c18a4769d3a4b6e2b0284cfa8c4b",
+        "git_blob": "19321497ccf1d5de19fcec5f777105a90dde3d0f"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 7645,
+          "actual": 7645,
+          "match": true
+        },
+        "sha256": {
+          "expected": "f4b0f850c2d2102a9258c3b536e1594c46d7c18a4769d3a4b6e2b0284cfa8c4b",
+          "actual": "f4b0f850c2d2102a9258c3b536e1594c46d7c18a4769d3a4b6e2b0284cfa8c4b",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "19321497ccf1d5de19fcec5f777105a90dde3d0f",
+          "actual": "19321497ccf1d5de19fcec5f777105a90dde3d0f",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 7645,
+          "actual": 7645,
+          "match": true
+        },
+        "sha256": {
+          "expected": "f4b0f850c2d2102a9258c3b536e1594c46d7c18a4769d3a4b6e2b0284cfa8c4b",
+          "actual": "f4b0f850c2d2102a9258c3b536e1594c46d7c18a4769d3a4b6e2b0284cfa8c4b",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "19321497ccf1d5de19fcec5f777105a90dde3d0f",
+          "actual": "19321497ccf1d5de19fcec5f777105a90dde3d0f",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "assets/latex/prof.sty",
+      "current": {
+        "bytes": 5505,
+        "sha256": "f6f241b40e82b9568e6e345ea9591eccc03e8bd23136fe6e4d2a8767fb7b5a2a",
+        "git_blob": "c92e932700e6ff709f23bca46f2d7b7e80b31038"
+      },
+      "candidate": {
+        "bytes": 5505,
+        "sha256": "f6f241b40e82b9568e6e345ea9591eccc03e8bd23136fe6e4d2a8767fb7b5a2a",
+        "git_blob": "c92e932700e6ff709f23bca46f2d7b7e80b31038"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 5505,
+          "actual": 5505,
+          "match": true
+        },
+        "sha256": {
+          "expected": "f6f241b40e82b9568e6e345ea9591eccc03e8bd23136fe6e4d2a8767fb7b5a2a",
+          "actual": "f6f241b40e82b9568e6e345ea9591eccc03e8bd23136fe6e4d2a8767fb7b5a2a",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "c92e932700e6ff709f23bca46f2d7b7e80b31038",
+          "actual": "c92e932700e6ff709f23bca46f2d7b7e80b31038",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 5505,
+          "actual": 5505,
+          "match": true
+        },
+        "sha256": {
+          "expected": "f6f241b40e82b9568e6e345ea9591eccc03e8bd23136fe6e4d2a8767fb7b5a2a",
+          "actual": "f6f241b40e82b9568e6e345ea9591eccc03e8bd23136fe6e4d2a8767fb7b5a2a",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "c92e932700e6ff709f23bca46f2d7b7e80b31038",
+          "actual": "c92e932700e6ff709f23bca46f2d7b7e80b31038",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/domain-patterns.md",
+      "current": {
+        "bytes": 10301,
+        "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+        "git_blob": "2b642a8604af2cf0ed833a6b5b33297ddc29c863"
+      },
+      "candidate": {
+        "bytes": 10301,
+        "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+        "git_blob": "2b642a8604af2cf0ed833a6b5b33297ddc29c863"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 10301,
+          "actual": 10301,
+          "match": true
+        },
+        "sha256": {
+          "expected": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+          "actual": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "2b642a8604af2cf0ed833a6b5b33297ddc29c863",
+          "actual": "2b642a8604af2cf0ed833a6b5b33297ddc29c863",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 10301,
+          "actual": 10301,
+          "match": true
+        },
+        "sha256": {
+          "expected": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+          "actual": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "2b642a8604af2cf0ed833a6b5b33297ddc29c863",
+          "actual": "2b642a8604af2cf0ed833a6b5b33297ddc29c863",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/execution-protocol.md",
+      "current": {
+        "bytes": 31581,
+        "sha256": "d52cacac6caf047cffd0deed49b088a1bc1907379e3421fa04b0c80d3bd7380f",
+        "git_blob": "1cd664002d0f05c9ff00da8ac5a6402db3450d7c"
+      },
+      "candidate": {
+        "bytes": 32277,
+        "sha256": "760602402ff2b58bbee0d878f324237dff6676edc1398fe93bb868f16f87071c",
+        "git_blob": "b3732b84609446eded47bebc471c3fd626fbeb44"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 32277,
+          "actual": 32277,
+          "match": true
+        },
+        "sha256": {
+          "expected": "760602402ff2b58bbee0d878f324237dff6676edc1398fe93bb868f16f87071c",
+          "actual": "760602402ff2b58bbee0d878f324237dff6676edc1398fe93bb868f16f87071c",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "b3732b84609446eded47bebc471c3fd626fbeb44",
+          "actual": "b3732b84609446eded47bebc471c3fd626fbeb44",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 31581,
+          "actual": 31581,
+          "match": true
+        },
+        "sha256": {
+          "expected": "d52cacac6caf047cffd0deed49b088a1bc1907379e3421fa04b0c80d3bd7380f",
+          "actual": "d52cacac6caf047cffd0deed49b088a1bc1907379e3421fa04b0c80d3bd7380f",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "1cd664002d0f05c9ff00da8ac5a6402db3450d7c",
+          "actual": "1cd664002d0f05c9ff00da8ac5a6402db3450d7c",
+          "match": true
+        }
+      },
+      "byte_identical": false,
+      "changed_from_r32_flag": {
+        "expected": true,
+        "actual": true,
+        "match": true
+      }
+    },
+    {
+      "path": "references/execution-research.md",
+      "current": {
+        "bytes": 7634,
+        "sha256": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2",
+        "git_blob": "18cabb66d1566a87d905e189b743ac529bf8ab67"
+      },
+      "candidate": {
+        "bytes": 7634,
+        "sha256": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2",
+        "git_blob": "18cabb66d1566a87d905e189b743ac529bf8ab67"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 7634,
+          "actual": 7634,
+          "match": true
+        },
+        "sha256": {
+          "expected": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2",
+          "actual": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "18cabb66d1566a87d905e189b743ac529bf8ab67",
+          "actual": "18cabb66d1566a87d905e189b743ac529bf8ab67",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 7634,
+          "actual": 7634,
+          "match": true
+        },
+        "sha256": {
+          "expected": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2",
+          "actual": "70f9c6ce88afee8b4a90acea7cf2bd57e84ed445beb28d7becac84c5b827f2d2",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "18cabb66d1566a87d905e189b743ac529bf8ab67",
+          "actual": "18cabb66d1566a87d905e189b743ac529bf8ab67",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/findings-and-rationale.md",
+      "current": {
+        "bytes": 11597,
+        "sha256": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f",
+        "git_blob": "85c40da508b444f3391855648056570595a64f5f"
+      },
+      "candidate": {
+        "bytes": 11597,
+        "sha256": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f",
+        "git_blob": "85c40da508b444f3391855648056570595a64f5f"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 11597,
+          "actual": 11597,
+          "match": true
+        },
+        "sha256": {
+          "expected": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f",
+          "actual": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "85c40da508b444f3391855648056570595a64f5f",
+          "actual": "85c40da508b444f3391855648056570595a64f5f",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 11597,
+          "actual": 11597,
+          "match": true
+        },
+        "sha256": {
+          "expected": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f",
+          "actual": "4475f0881a75699322a67ee2eb14cb9ad11500b736a7653c6187d2f6e836315f",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "85c40da508b444f3391855648056570595a64f5f",
+          "actual": "85c40da508b444f3391855648056570595a64f5f",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/latex-production.md",
+      "current": {
+        "bytes": 8234,
+        "sha256": "7a30f4e80d8cdf992f4d4d2c60c53c75f507f45a63893101ed1290e8dde70517",
+        "git_blob": "11b675f8e06e022ad116a17e9ce876a2f3e0eed4"
+      },
+      "candidate": {
+        "bytes": 8234,
+        "sha256": "7a30f4e80d8cdf992f4d4d2c60c53c75f507f45a63893101ed1290e8dde70517",
+        "git_blob": "11b675f8e06e022ad116a17e9ce876a2f3e0eed4"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 8234,
+          "actual": 8234,
+          "match": true
+        },
+        "sha256": {
+          "expected": "7a30f4e80d8cdf992f4d4d2c60c53c75f507f45a63893101ed1290e8dde70517",
+          "actual": "7a30f4e80d8cdf992f4d4d2c60c53c75f507f45a63893101ed1290e8dde70517",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "11b675f8e06e022ad116a17e9ce876a2f3e0eed4",
+          "actual": "11b675f8e06e022ad116a17e9ce876a2f3e0eed4",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 8234,
+          "actual": 8234,
+          "match": true
+        },
+        "sha256": {
+          "expected": "7a30f4e80d8cdf992f4d4d2c60c53c75f507f45a63893101ed1290e8dde70517",
+          "actual": "7a30f4e80d8cdf992f4d4d2c60c53c75f507f45a63893101ed1290e8dde70517",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "11b675f8e06e022ad116a17e9ce876a2f3e0eed4",
+          "actual": "11b675f8e06e022ad116a17e9ce876a2f3e0eed4",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/chemistry/baseline-section-index.json",
+      "current": {
+        "bytes": 3552,
+        "sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+        "git_blob": "1604084d8fc1bb7230d624ce4264b48d4309b0f6"
+      },
+      "candidate": {
+        "bytes": 3552,
+        "sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+        "git_blob": "1604084d8fc1bb7230d624ce4264b48d4309b0f6"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 3552,
+          "actual": 3552,
+          "match": true
+        },
+        "sha256": {
+          "expected": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+          "actual": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "1604084d8fc1bb7230d624ce4264b48d4309b0f6",
+          "actual": "1604084d8fc1bb7230d624ce4264b48d4309b0f6",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 3552,
+          "actual": 3552,
+          "match": true
+        },
+        "sha256": {
+          "expected": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+          "actual": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "1604084d8fc1bb7230d624ce4264b48d4309b0f6",
+          "actual": "1604084d8fc1bb7230d624ce4264b48d4309b0f6",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "current": {
+        "bytes": 1218,
+        "sha256": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+        "git_blob": "424cddf78683a976555942fea848e8b80e4a9170"
+      },
+      "candidate": {
+        "bytes": 1218,
+        "sha256": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+        "git_blob": "424cddf78683a976555942fea848e8b80e4a9170"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 1218,
+          "actual": 1218,
+          "match": true
+        },
+        "sha256": {
+          "expected": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+          "actual": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "424cddf78683a976555942fea848e8b80e4a9170",
+          "actual": "424cddf78683a976555942fea848e8b80e4a9170",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 1218,
+          "actual": 1218,
+          "match": true
+        },
+        "sha256": {
+          "expected": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+          "actual": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "424cddf78683a976555942fea848e8b80e4a9170",
+          "actual": "424cddf78683a976555942fea848e8b80e4a9170",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "current": {
+        "bytes": 1452,
+        "sha256": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+        "git_blob": "4bce3b3fd3169d20748bf511b72326eb606f5eec"
+      },
+      "candidate": {
+        "bytes": 1452,
+        "sha256": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+        "git_blob": "4bce3b3fd3169d20748bf511b72326eb606f5eec"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 1452,
+          "actual": 1452,
+          "match": true
+        },
+        "sha256": {
+          "expected": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+          "actual": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "4bce3b3fd3169d20748bf511b72326eb606f5eec",
+          "actual": "4bce3b3fd3169d20748bf511b72326eb606f5eec",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 1452,
+          "actual": 1452,
+          "match": true
+        },
+        "sha256": {
+          "expected": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+          "actual": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "4bce3b3fd3169d20748bf511b72326eb606f5eec",
+          "actual": "4bce3b3fd3169d20748bf511b72326eb606f5eec",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+      "current": {
+        "bytes": 14349,
+        "sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+        "git_blob": "7aaa75d065427f314ef263a29c27ca52ce128ddd"
+      },
+      "candidate": {
+        "bytes": 14349,
+        "sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+        "git_blob": "7aaa75d065427f314ef263a29c27ca52ce128ddd"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 14349,
+          "actual": 14349,
+          "match": true
+        },
+        "sha256": {
+          "expected": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+          "actual": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "7aaa75d065427f314ef263a29c27ca52ce128ddd",
+          "actual": "7aaa75d065427f314ef263a29c27ca52ce128ddd",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 14349,
+          "actual": 14349,
+          "match": true
+        },
+        "sha256": {
+          "expected": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+          "actual": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "7aaa75d065427f314ef263a29c27ca52ce128ddd",
+          "actual": "7aaa75d065427f314ef263a29c27ca52ce128ddd",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "current": {
+        "bytes": 96538,
+        "sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+        "git_blob": "50aaaa2584702323c7a8c25b528ab30d3ef85263"
+      },
+      "candidate": {
+        "bytes": 96538,
+        "sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+        "git_blob": "50aaaa2584702323c7a8c25b528ab30d3ef85263"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 96538,
+          "actual": 96538,
+          "match": true
+        },
+        "sha256": {
+          "expected": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+          "actual": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "50aaaa2584702323c7a8c25b528ab30d3ef85263",
+          "actual": "50aaaa2584702323c7a8c25b528ab30d3ef85263",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 96538,
+          "actual": 96538,
+          "match": true
+        },
+        "sha256": {
+          "expected": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+          "actual": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "50aaaa2584702323c7a8c25b528ab30d3ef85263",
+          "actual": "50aaaa2584702323c7a8c25b528ab30d3ef85263",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+      "current": {
+        "bytes": 39018,
+        "sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+        "git_blob": "ea0b6815cfd888ee340f31dcc7542e894b01e4d4"
+      },
+      "candidate": {
+        "bytes": 39018,
+        "sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+        "git_blob": "ea0b6815cfd888ee340f31dcc7542e894b01e4d4"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 39018,
+          "actual": 39018,
+          "match": true
+        },
+        "sha256": {
+          "expected": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+          "actual": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "ea0b6815cfd888ee340f31dcc7542e894b01e4d4",
+          "actual": "ea0b6815cfd888ee340f31dcc7542e894b01e4d4",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 39018,
+          "actual": 39018,
+          "match": true
+        },
+        "sha256": {
+          "expected": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+          "actual": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "ea0b6815cfd888ee340f31dcc7542e894b01e4d4",
+          "actual": "ea0b6815cfd888ee340f31dcc7542e894b01e4d4",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "current": {
+        "bytes": 3073,
+        "sha256": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+        "git_blob": "e4bafaa6b6656b25a06279e3dd033bcd04d20913"
+      },
+      "candidate": {
+        "bytes": 3073,
+        "sha256": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+        "git_blob": "e4bafaa6b6656b25a06279e3dd033bcd04d20913"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 3073,
+          "actual": 3073,
+          "match": true
+        },
+        "sha256": {
+          "expected": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+          "actual": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "e4bafaa6b6656b25a06279e3dd033bcd04d20913",
+          "actual": "e4bafaa6b6656b25a06279e3dd033bcd04d20913",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 3073,
+          "actual": 3073,
+          "match": true
+        },
+        "sha256": {
+          "expected": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+          "actual": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "e4bafaa6b6656b25a06279e3dd033bcd04d20913",
+          "actual": "e4bafaa6b6656b25a06279e3dd033bcd04d20913",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/further-maths/research-verification.txt",
+      "current": {
+        "bytes": 9023,
+        "sha256": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+        "git_blob": "478ee72bf8e4e90db6d0a704e87408991297cdbd"
+      },
+      "candidate": {
+        "bytes": 9023,
+        "sha256": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+        "git_blob": "478ee72bf8e4e90db6d0a704e87408991297cdbd"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 9023,
+          "actual": 9023,
+          "match": true
+        },
+        "sha256": {
+          "expected": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+          "actual": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "478ee72bf8e4e90db6d0a704e87408991297cdbd",
+          "actual": "478ee72bf8e4e90db6d0a704e87408991297cdbd",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 9023,
+          "actual": 9023,
+          "match": true
+        },
+        "sha256": {
+          "expected": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+          "actual": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "478ee72bf8e4e90db6d0a704e87408991297cdbd",
+          "actual": "478ee72bf8e4e90db6d0a704e87408991297cdbd",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "current": {
+        "bytes": 48093,
+        "sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+        "git_blob": "3dc9323a8276c3b1dc851a61785363eea793bca8"
+      },
+      "candidate": {
+        "bytes": 48093,
+        "sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+        "git_blob": "3dc9323a8276c3b1dc851a61785363eea793bca8"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 48093,
+          "actual": 48093,
+          "match": true
+        },
+        "sha256": {
+          "expected": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+          "actual": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "3dc9323a8276c3b1dc851a61785363eea793bca8",
+          "actual": "3dc9323a8276c3b1dc851a61785363eea793bca8",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 48093,
+          "actual": 48093,
+          "match": true
+        },
+        "sha256": {
+          "expected": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+          "actual": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "3dc9323a8276c3b1dc851a61785363eea793bca8",
+          "actual": "3dc9323a8276c3b1dc851a61785363eea793bca8",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/maths/research/lds-metadata.json",
+      "current": {
+        "bytes": 23065,
+        "sha256": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+        "git_blob": "8cd64c13f1d3c750d93bf4390c30c8fcbf271e96"
+      },
+      "candidate": {
+        "bytes": 23065,
+        "sha256": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+        "git_blob": "8cd64c13f1d3c750d93bf4390c30c8fcbf271e96"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 23065,
+          "actual": 23065,
+          "match": true
+        },
+        "sha256": {
+          "expected": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+          "actual": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "8cd64c13f1d3c750d93bf4390c30c8fcbf271e96",
+          "actual": "8cd64c13f1d3c750d93bf4390c30c8fcbf271e96",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 23065,
+          "actual": 23065,
+          "match": true
+        },
+        "sha256": {
+          "expected": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+          "actual": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "8cd64c13f1d3c750d93bf4390c30c8fcbf271e96",
+          "actual": "8cd64c13f1d3c750d93bf4390c30c8fcbf271e96",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/maths/research-record.md",
+      "current": {
+        "bytes": 10511,
+        "sha256": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+        "git_blob": "b650566576ae1056cf940d6c4e8a582508cd21c8"
+      },
+      "candidate": {
+        "bytes": 10511,
+        "sha256": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+        "git_blob": "b650566576ae1056cf940d6c4e8a582508cd21c8"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 10511,
+          "actual": 10511,
+          "match": true
+        },
+        "sha256": {
+          "expected": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+          "actual": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "b650566576ae1056cf940d6c4e8a582508cd21c8",
+          "actual": "b650566576ae1056cf940d6c4e8a582508cd21c8",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 10511,
+          "actual": 10511,
+          "match": true
+        },
+        "sha256": {
+          "expected": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+          "actual": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "b650566576ae1056cf940d6c4e8a582508cd21c8",
+          "actual": "b650566576ae1056cf940d6c4e8a582508cd21c8",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+      "current": {
+        "bytes": 60163,
+        "sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+        "git_blob": "c2a12c32a6256c1007a0f80e3292381868b01a59"
+      },
+      "candidate": {
+        "bytes": 60163,
+        "sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+        "git_blob": "c2a12c32a6256c1007a0f80e3292381868b01a59"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 60163,
+          "actual": 60163,
+          "match": true
+        },
+        "sha256": {
+          "expected": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+          "actual": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "c2a12c32a6256c1007a0f80e3292381868b01a59",
+          "actual": "c2a12c32a6256c1007a0f80e3292381868b01a59",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 60163,
+          "actual": 60163,
+          "match": true
+        },
+        "sha256": {
+          "expected": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+          "actual": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "c2a12c32a6256c1007a0f80e3292381868b01a59",
+          "actual": "c2a12c32a6256c1007a0f80e3292381868b01a59",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/physics/research.md",
+      "current": {
+        "bytes": 17766,
+        "sha256": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+        "git_blob": "33bf09495fe4ffbb889cbf66545c879ef01461b5"
+      },
+      "candidate": {
+        "bytes": 17766,
+        "sha256": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+        "git_blob": "33bf09495fe4ffbb889cbf66545c879ef01461b5"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 17766,
+          "actual": 17766,
+          "match": true
+        },
+        "sha256": {
+          "expected": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+          "actual": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "33bf09495fe4ffbb889cbf66545c879ef01461b5",
+          "actual": "33bf09495fe4ffbb889cbf66545c879ef01461b5",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 17766,
+          "actual": 17766,
+          "match": true
+        },
+        "sha256": {
+          "expected": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+          "actual": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "33bf09495fe4ffbb889cbf66545c879ef01461b5",
+          "actual": "33bf09495fe4ffbb889cbf66545c879ef01461b5",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "current": {
+        "bytes": 2056,
+        "sha256": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+        "git_blob": "1daa5ef2634ca9642f0227d8f46a9d764ec55db5"
+      },
+      "candidate": {
+        "bytes": 2056,
+        "sha256": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+        "git_blob": "1daa5ef2634ca9642f0227d8f46a9d764ec55db5"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 2056,
+          "actual": 2056,
+          "match": true
+        },
+        "sha256": {
+          "expected": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+          "actual": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "1daa5ef2634ca9642f0227d8f46a9d764ec55db5",
+          "actual": "1daa5ef2634ca9642f0227d8f46a9d764ec55db5",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 2056,
+          "actual": 2056,
+          "match": true
+        },
+        "sha256": {
+          "expected": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+          "actual": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "1daa5ef2634ca9642f0227d8f46a9d764ec55db5",
+          "actual": "1daa5ef2634ca9642f0227d8f46a9d764ec55db5",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "current": {
+        "bytes": 4380,
+        "sha256": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+        "git_blob": "f5eb8281b91156dc6ff990c5b178f46d45f501d3"
+      },
+      "candidate": {
+        "bytes": 4380,
+        "sha256": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+        "git_blob": "f5eb8281b91156dc6ff990c5b178f46d45f501d3"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 4380,
+          "actual": 4380,
+          "match": true
+        },
+        "sha256": {
+          "expected": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+          "actual": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "f5eb8281b91156dc6ff990c5b178f46d45f501d3",
+          "actual": "f5eb8281b91156dc6ff990c5b178f46d45f501d3",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 4380,
+          "actual": 4380,
+          "match": true
+        },
+        "sha256": {
+          "expected": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+          "actual": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "f5eb8281b91156dc6ff990c5b178f46d45f501d3",
+          "actual": "f5eb8281b91156dc6ff990c5b178f46d45f501d3",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "current": {
+        "bytes": 247840,
+        "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+        "git_blob": "edc601f173faf6a703545d8c4e41f217d5bbce79"
+      },
+      "candidate": {
+        "bytes": 247840,
+        "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+        "git_blob": "edc601f173faf6a703545d8c4e41f217d5bbce79"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 247840,
+          "actual": 247840,
+          "match": true
+        },
+        "sha256": {
+          "expected": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+          "actual": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "edc601f173faf6a703545d8c4e41f217d5bbce79",
+          "actual": "edc601f173faf6a703545d8c4e41f217d5bbce79",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 247840,
+          "actual": 247840,
+          "match": true
+        },
+        "sha256": {
+          "expected": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+          "actual": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "edc601f173faf6a703545d8c4e41f217d5bbce79",
+          "actual": "edc601f173faf6a703545d8c4e41f217d5bbce79",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/student-input-cover.txt",
+      "current": {
+        "bytes": 2013,
+        "sha256": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+        "git_blob": "20aef206bda0ae68fc2c12bc224caa029117942e"
+      },
+      "candidate": {
+        "bytes": 2013,
+        "sha256": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+        "git_blob": "20aef206bda0ae68fc2c12bc224caa029117942e"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 2013,
+          "actual": 2013,
+          "match": true
+        },
+        "sha256": {
+          "expected": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+          "actual": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "20aef206bda0ae68fc2c12bc224caa029117942e",
+          "actual": "20aef206bda0ae68fc2c12bc224caa029117942e",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 2013,
+          "actual": 2013,
+          "match": true
+        },
+        "sha256": {
+          "expected": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+          "actual": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "20aef206bda0ae68fc2c12bc224caa029117942e",
+          "actual": "20aef206bda0ae68fc2c12bc224caa029117942e",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/year1-course-registry.json",
+      "current": {
+        "bytes": 15954,
+        "sha256": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+        "git_blob": "2176a4f8c63e7686a5af9f10d2f2e211e9d1bdb7"
+      },
+      "candidate": {
+        "bytes": 15954,
+        "sha256": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+        "git_blob": "2176a4f8c63e7686a5af9f10d2f2e211e9d1bdb7"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 15954,
+          "actual": 15954,
+          "match": true
+        },
+        "sha256": {
+          "expected": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+          "actual": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "2176a4f8c63e7686a5af9f10d2f2e211e9d1bdb7",
+          "actual": "2176a4f8c63e7686a5af9f10d2f2e211e9d1bdb7",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 15954,
+          "actual": 15954,
+          "match": true
+        },
+        "sha256": {
+          "expected": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+          "actual": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "2176a4f8c63e7686a5af9f10d2f2e211e9d1bdb7",
+          "actual": "2176a4f8c63e7686a5af9f10d2f2e211e9d1bdb7",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/ocr-baseline-20261007/year1-lecture-index.csv",
+      "current": {
+        "bytes": 72388,
+        "sha256": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+        "git_blob": "e79d8a22b8930150090ca736ef4a2f17bb9f0fad"
+      },
+      "candidate": {
+        "bytes": 72388,
+        "sha256": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+        "git_blob": "e79d8a22b8930150090ca736ef4a2f17bb9f0fad"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 72388,
+          "actual": 72388,
+          "match": true
+        },
+        "sha256": {
+          "expected": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+          "actual": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "e79d8a22b8930150090ca736ef4a2f17bb9f0fad",
+          "actual": "e79d8a22b8930150090ca736ef4a2f17bb9f0fad",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 72388,
+          "actual": 72388,
+          "match": true
+        },
+        "sha256": {
+          "expected": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+          "actual": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "e79d8a22b8930150090ca736ef4a2f17bb9f0fad",
+          "actual": "e79d8a22b8930150090ca736ef4a2f17bb9f0fad",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/profile-manifest.json",
+      "current": {
+        "bytes": 10165,
+        "sha256": "a1d3d34a59cd33ba45aa7ce3f53ab75182de33b54bc8fc18f79d197df1a899b2",
+        "git_blob": "637da981f7153be6121a4d3d63105b5038d04a4c"
+      },
+      "candidate": {
+        "bytes": 10165,
+        "sha256": "69ed9773782a9989e59b23bf090cb9bb0047d91595542cc174b9302ae6d508fd",
+        "git_blob": "76661a1a93ab835522145151f4b148802c72d307"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 10165,
+          "actual": 10165,
+          "match": true
+        },
+        "sha256": {
+          "expected": "69ed9773782a9989e59b23bf090cb9bb0047d91595542cc174b9302ae6d508fd",
+          "actual": "69ed9773782a9989e59b23bf090cb9bb0047d91595542cc174b9302ae6d508fd",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "76661a1a93ab835522145151f4b148802c72d307",
+          "actual": "76661a1a93ab835522145151f4b148802c72d307",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 10165,
+          "actual": 10165,
+          "match": true
+        },
+        "sha256": {
+          "expected": "a1d3d34a59cd33ba45aa7ce3f53ab75182de33b54bc8fc18f79d197df1a899b2",
+          "actual": "a1d3d34a59cd33ba45aa7ce3f53ab75182de33b54bc8fc18f79d197df1a899b2",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "637da981f7153be6121a4d3d63105b5038d04a4c",
+          "actual": "637da981f7153be6121a4d3d63105b5038d04a4c",
+          "match": true
+        }
+      },
+      "byte_identical": false,
+      "changed_from_r32_flag": {
+        "expected": true,
+        "actual": true,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/rewrite-guide.md",
+      "current": {
+        "bytes": 9288,
+        "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+        "git_blob": "ca70c4b2d1b26a4977cd773e82f3079cc799ac0c"
+      },
+      "candidate": {
+        "bytes": 9288,
+        "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+        "git_blob": "ca70c4b2d1b26a4977cd773e82f3079cc799ac0c"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 9288,
+          "actual": 9288,
+          "match": true
+        },
+        "sha256": {
+          "expected": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+          "actual": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "ca70c4b2d1b26a4977cd773e82f3079cc799ac0c",
+          "actual": "ca70c4b2d1b26a4977cd773e82f3079cc799ac0c",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 9288,
+          "actual": 9288,
+          "match": true
+        },
+        "sha256": {
+          "expected": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+          "actual": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "ca70c4b2d1b26a4977cd773e82f3079cc799ac0c",
+          "actual": "ca70c4b2d1b26a4977cd773e82f3079cc799ac0c",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/student-role.txt",
+      "current": {
+        "bytes": 5973,
+        "sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+        "git_blob": "b65e6dd27c1ffa1722ae50de704b4e4e833a215b"
+      },
+      "candidate": {
+        "bytes": 5973,
+        "sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+        "git_blob": "b65e6dd27c1ffa1722ae50de704b4e4e833a215b"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 5973,
+          "actual": 5973,
+          "match": true
+        },
+        "sha256": {
+          "expected": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+          "actual": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "b65e6dd27c1ffa1722ae50de704b4e4e833a215b",
+          "actual": "b65e6dd27c1ffa1722ae50de704b4e4e833a215b",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 5973,
+          "actual": 5973,
+          "match": true
+        },
+        "sha256": {
+          "expected": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+          "actual": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "b65e6dd27c1ffa1722ae50de704b4e4e833a215b",
+          "actual": "b65e6dd27c1ffa1722ae50de704b4e4e833a215b",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis/student-testing-contract.txt",
+      "current": {
+        "bytes": 7983,
+        "sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+        "git_blob": "f6d5efdf360dd1aa4c6aace446d28188eca0a68e"
+      },
+      "candidate": {
+        "bytes": 7983,
+        "sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+        "git_blob": "f6d5efdf360dd1aa4c6aace446d28188eca0a68e"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 7983,
+          "actual": 7983,
+          "match": true
+        },
+        "sha256": {
+          "expected": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+          "actual": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "f6d5efdf360dd1aa4c6aace446d28188eca0a68e",
+          "actual": "f6d5efdf360dd1aa4c6aace446d28188eca0a68e",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 7983,
+          "actual": 7983,
+          "match": true
+        },
+        "sha256": {
+          "expected": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+          "actual": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "f6d5efdf360dd1aa4c6aace446d28188eca0a68e",
+          "actual": "f6d5efdf360dd1aa4c6aace446d28188eca0a68e",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/sasis.md",
+      "current": {
+        "bytes": 19036,
+        "sha256": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343",
+        "git_blob": "8a48422fff798e7386dbb1df6b151a739aee728d"
+      },
+      "candidate": {
+        "bytes": 19036,
+        "sha256": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343",
+        "git_blob": "8a48422fff798e7386dbb1df6b151a739aee728d"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 19036,
+          "actual": 19036,
+          "match": true
+        },
+        "sha256": {
+          "expected": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343",
+          "actual": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "8a48422fff798e7386dbb1df6b151a739aee728d",
+          "actual": "8a48422fff798e7386dbb1df6b151a739aee728d",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 19036,
+          "actual": 19036,
+          "match": true
+        },
+        "sha256": {
+          "expected": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343",
+          "actual": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "8a48422fff798e7386dbb1df6b151a739aee728d",
+          "actual": "8a48422fff798e7386dbb1df6b151a739aee728d",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "references/state-tool.md",
+      "current": {
+        "bytes": 17130,
+        "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+        "git_blob": "18ce531930bdd36c55985806a91b981c24f713e2"
+      },
+      "candidate": {
+        "bytes": 17130,
+        "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+        "git_blob": "18ce531930bdd36c55985806a91b981c24f713e2"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 17130,
+          "actual": 17130,
+          "match": true
+        },
+        "sha256": {
+          "expected": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+          "actual": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "18ce531930bdd36c55985806a91b981c24f713e2",
+          "actual": "18ce531930bdd36c55985806a91b981c24f713e2",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 17130,
+          "actual": 17130,
+          "match": true
+        },
+        "sha256": {
+          "expected": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+          "actual": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "18ce531930bdd36c55985806a91b981c24f713e2",
+          "actual": "18ce531930bdd36c55985806a91b981c24f713e2",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    },
+    {
+      "path": "scripts/prof_state.py",
+      "current": {
+        "bytes": 32999,
+        "sha256": "6949c44d3e9374cf1af522f69436fad71fca186317cd404ff1967985c92a3488",
+        "git_blob": "fc4b9fe139fa3a34bc077e87f82f9249c5bddf5d"
+      },
+      "candidate": {
+        "bytes": 32999,
+        "sha256": "6949c44d3e9374cf1af522f69436fad71fca186317cd404ff1967985c92a3488",
+        "git_blob": "fc4b9fe139fa3a34bc077e87f82f9249c5bddf5d"
+      },
+      "candidate_manifest": {
+        "bytes": {
+          "expected": 32999,
+          "actual": 32999,
+          "match": true
+        },
+        "sha256": {
+          "expected": "6949c44d3e9374cf1af522f69436fad71fca186317cd404ff1967985c92a3488",
+          "actual": "6949c44d3e9374cf1af522f69436fad71fca186317cd404ff1967985c92a3488",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "fc4b9fe139fa3a34bc077e87f82f9249c5bddf5d",
+          "actual": "fc4b9fe139fa3a34bc077e87f82f9249c5bddf5d",
+          "match": true
+        }
+      },
+      "current_inventory": {
+        "bytes": {
+          "expected": 32999,
+          "actual": 32999,
+          "match": true
+        },
+        "sha256": {
+          "expected": "6949c44d3e9374cf1af522f69436fad71fca186317cd404ff1967985c92a3488",
+          "actual": "6949c44d3e9374cf1af522f69436fad71fca186317cd404ff1967985c92a3488",
+          "match": true
+        },
+        "git_blob": {
+          "expected": "fc4b9fe139fa3a34bc077e87f82f9249c5bddf5d",
+          "actual": "fc4b9fe139fa3a34bc077e87f82f9249c5bddf5d",
+          "match": true
+        }
+      },
+      "byte_identical": true,
+      "changed_from_r32_flag": {
+        "expected": false,
+        "actual": false,
+        "match": true
+      }
+    }
+  ],
+  "bundled_internal_hash_checks": [
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/subject_files/0/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "current_declared": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "candidate_declared": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "current_target_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "candidate_target_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Path relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/subject_files/1/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "current_declared": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "candidate_declared": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "current_target_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "candidate_target_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Path relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/subject_files/2/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "current_declared": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "candidate_declared": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "current_target_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "candidate_target_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Path relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/subject_files/3/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "current_declared": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "candidate_declared": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "current_target_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "candidate_target_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Path relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/student-baseline.txt",
+      "target": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "current_declared": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "candidate_declared": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "current_target_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "candidate_target_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/student-input-cover.txt",
+      "target": "references/sasis/ocr-baseline-20261007/student-input-cover.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+      "current_declared": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+      "candidate_declared": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+      "current_target_sha256": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+      "candidate_target_sha256": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/release-manifest.json",
+      "target": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "algorithm": "sha256",
+      "inventory_expected": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+      "current_declared": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+      "candidate_declared": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+      "current_target_sha256": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+      "candidate_target_sha256": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/maths~1mathematics-a-h240-baseline.txt",
+      "target": "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "current_declared": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "candidate_declared": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "current_target_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "candidate_target_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/maths~1research-record.md",
+      "target": "references/sasis/ocr-baseline-20261007/maths/research-record.md",
+      "algorithm": "sha256",
+      "inventory_expected": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+      "current_declared": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+      "candidate_declared": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+      "current_target_sha256": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+      "candidate_target_sha256": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/maths~1research~1lds-metadata.json",
+      "target": "references/sasis/ocr-baseline-20261007/maths/research/lds-metadata.json",
+      "algorithm": "sha256",
+      "inventory_expected": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+      "current_declared": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+      "candidate_declared": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+      "current_target_sha256": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+      "candidate_target_sha256": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/further-maths~1baseline.txt",
+      "target": "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "current_declared": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "candidate_declared": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "current_target_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "candidate_target_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/further-maths~1research-verification.txt",
+      "target": "references/sasis/ocr-baseline-20261007/further-maths/research-verification.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+      "current_declared": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+      "candidate_declared": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+      "current_target_sha256": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+      "candidate_target_sha256": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/further-maths~1download-manifest.json",
+      "target": "references/sasis/ocr-baseline-20261007/further-maths/download-manifest.json",
+      "algorithm": "sha256",
+      "inventory_expected": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+      "current_declared": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+      "candidate_declared": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+      "current_target_sha256": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+      "candidate_target_sha256": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/physics~1baseline.txt",
+      "target": "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "current_declared": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "candidate_declared": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "current_target_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "candidate_target_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/physics~1research.md",
+      "target": "references/sasis/ocr-baseline-20261007/physics/research.md",
+      "algorithm": "sha256",
+      "inventory_expected": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+      "current_declared": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+      "candidate_declared": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+      "current_target_sha256": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+      "candidate_target_sha256": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/physics~1source-manifest.json",
+      "target": "references/sasis/ocr-baseline-20261007/physics/source-manifest.json",
+      "algorithm": "sha256",
+      "inventory_expected": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+      "current_declared": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+      "candidate_declared": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+      "current_target_sha256": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+      "candidate_target_sha256": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/chemistry~1student-baseline.txt",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "current_declared": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "candidate_declared": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "current_target_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "candidate_target_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/chemistry~1research-verification.txt",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "current_declared": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "candidate_declared": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "current_target_sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "candidate_target_sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/chemistry~1baseline-section-index.json",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/baseline-section-index.json",
+      "algorithm": "sha256",
+      "inventory_expected": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "current_declared": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "candidate_declared": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "current_target_sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "candidate_target_sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/chemistry~1freeze-manifest.json",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "algorithm": "sha256",
+      "inventory_expected": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+      "current_declared": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+      "candidate_declared": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+      "current_target_sha256": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+      "candidate_target_sha256": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/chemistry~1reference~1download-manifest.json",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/reference/download-manifest.json",
+      "algorithm": "sha256",
+      "inventory_expected": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+      "current_declared": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+      "candidate_declared": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+      "current_target_sha256": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+      "candidate_target_sha256": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/year1-course-registry.json",
+      "target": "references/sasis/ocr-baseline-20261007/year1-course-registry.json",
+      "algorithm": "sha256",
+      "inventory_expected": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+      "current_declared": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+      "candidate_declared": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+      "current_target_sha256": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+      "candidate_target_sha256": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/file_hashes/year1-lecture-index.csv",
+      "target": "references/sasis/ocr-baseline-20261007/year1-lecture-index.csv",
+      "algorithm": "sha256",
+      "inventory_expected": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+      "current_declared": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+      "candidate_declared": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+      "current_target_sha256": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+      "candidate_target_sha256": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Explicit file_hashes_base_directory relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/control_file_hashes/student-role.txt",
+      "target": "references/sasis/student-role.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+      "current_declared": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+      "candidate_declared": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+      "current_target_sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+      "candidate_target_sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Control resource path relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/control_file_hashes/student-testing-contract.txt",
+      "target": "references/sasis/student-testing-contract.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+      "current_declared": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+      "candidate_declared": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+      "current_target_sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+      "candidate_target_sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Control resource path relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/profile-manifest.json",
+      "declaration": "/control_file_hashes/rewrite-guide.md",
+      "target": "references/sasis/rewrite-guide.md",
+      "algorithm": "sha256",
+      "inventory_expected": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "current_declared": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "candidate_declared": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "current_target_sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "candidate_target_sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Control resource path relative to profile-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "declaration": "/subjects/0/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "current_declared": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "candidate_declared": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "current_target_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "candidate_target_sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Subject path relative to release-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "declaration": "/subjects/1/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/further-maths/baseline.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "current_declared": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "candidate_declared": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "current_target_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "candidate_target_sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Subject path relative to release-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "declaration": "/subjects/2/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/physics/baseline.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "current_declared": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "candidate_declared": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "current_target_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "candidate_target_sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Subject path relative to release-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "declaration": "/subjects/3/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "current_declared": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "candidate_declared": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "current_target_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "candidate_target_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Subject path relative to release-manifest.json directory."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/release-manifest.json",
+      "declaration": "/combined_baseline_sha256",
+      "target": "references/sasis/ocr-baseline-20261007/student-baseline.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "current_declared": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "candidate_declared": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "current_target_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "candidate_target_sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Combined baseline identified by profile complete_student_baseline and release context."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "declaration": "/files/0/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "current_declared": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "candidate_declared": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "current_target_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "candidate_target_sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Frozen file path relative to chemistry freeze manifest; current bundled text/index bytes are verified without rewriting frozen identities."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "declaration": "/files/2/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/baseline-section-index.json",
+      "algorithm": "sha256",
+      "inventory_expected": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "current_declared": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "candidate_declared": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "current_target_sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "candidate_target_sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Frozen file path relative to chemistry freeze manifest; current bundled text/index bytes are verified without rewriting frozen identities."
+    },
+    {
+      "source": "references/sasis/ocr-baseline-20261007/chemistry/freeze-manifest.json",
+      "declaration": "/files/3/sha256",
+      "target": "references/sasis/ocr-baseline-20261007/chemistry/research-verification.txt",
+      "algorithm": "sha256",
+      "inventory_expected": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "current_declared": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "candidate_declared": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "current_target_sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "candidate_target_sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+      "declaration_unchanged": true,
+      "matches_inventory": true,
+      "current_matches_actual": true,
+      "candidate_matches_actual": true,
+      "target_byte_identical": true,
+      "target_resolution": "Frozen file path relative to chemistry freeze manifest; current bundled text/index bytes are verified without rewriting frozen identities."
+    }
+  ],
+  "changed_file_declared_hash_scan": [
+    {
+      "path": "SKILL.md",
+      "sha256_literal_occurrences": 0,
+      "sha256_literals": [],
+      "sha1_literal_occurrences": 0,
+      "applicable_bundled_declarations": 0,
+      "applicable_bundled_matches": 0,
+      "inventoried_excluded_declarations": 0,
+      "unclassified_sha256_literals": {},
+      "overclassified_sha256_literals": {},
+      "stale_old_hash_literals_for_changed_targets": [],
+      "all_applicable_declarations_current": true
+    },
+    {
+      "path": "references/execution-protocol.md",
+      "sha256_literal_occurrences": 0,
+      "sha256_literals": [],
+      "sha1_literal_occurrences": 0,
+      "applicable_bundled_declarations": 0,
+      "applicable_bundled_matches": 0,
+      "inventoried_excluded_declarations": 0,
+      "unclassified_sha256_literals": {},
+      "overclassified_sha256_literals": {},
+      "stale_old_hash_literals_for_changed_targets": [],
+      "all_applicable_declarations_current": true
+    },
+    {
+      "path": "references/sasis/profile-manifest.json",
+      "sha256_literal_occurrences": 26,
+      "sha256_literals": [
+        {
+          "sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+          "byte_span": [
+            583,
+            647
+          ],
+          "line": 14
+        },
+        {
+          "sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+          "byte_span": [
+            1052,
+            1116
+          ],
+          "line": 23
+        },
+        {
+          "sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+          "byte_span": [
+            1526,
+            1590
+          ],
+          "line": 32
+        },
+        {
+          "sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+          "byte_span": [
+            1978,
+            2042
+          ],
+          "line": 41
+        },
+        {
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+          "byte_span": [
+            2818,
+            2882
+          ],
+          "line": 59
+        },
+        {
+          "sha256": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+          "byte_span": [
+            2917,
+            2981
+          ],
+          "line": 60
+        },
+        {
+          "sha256": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+          "byte_span": [
+            3014,
+            3078
+          ],
+          "line": 61
+        },
+        {
+          "sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+          "byte_span": [
+            3127,
+            3191
+          ],
+          "line": 62
+        },
+        {
+          "sha256": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+          "byte_span": [
+            3227,
+            3291
+          ],
+          "line": 63
+        },
+        {
+          "sha256": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+          "byte_span": [
+            3335,
+            3399
+          ],
+          "line": 64
+        },
+        {
+          "sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+          "byte_span": [
+            3437,
+            3501
+          ],
+          "line": 65
+        },
+        {
+          "sha256": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+          "byte_span": [
+            3552,
+            3616
+          ],
+          "line": 66
+        },
+        {
+          "sha256": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+          "byte_span": [
+            3664,
+            3728
+          ],
+          "line": 67
+        },
+        {
+          "sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+          "byte_span": [
+            3760,
+            3824
+          ],
+          "line": 68
+        },
+        {
+          "sha256": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+          "byte_span": [
+            3855,
+            3919
+          ],
+          "line": 69
+        },
+        {
+          "sha256": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+          "byte_span": [
+            3959,
+            4023
+          ],
+          "line": 70
+        },
+        {
+          "sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+          "byte_span": [
+            4065,
+            4129
+          ],
+          "line": 71
+        },
+        {
+          "sha256": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+          "byte_span": [
+            4176,
+            4240
+          ],
+          "line": 72
+        },
+        {
+          "sha256": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+          "byte_span": [
+            4289,
+            4353
+          ],
+          "line": 73
+        },
+        {
+          "sha256": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+          "byte_span": [
+            4395,
+            4459
+          ],
+          "line": 74
+        },
+        {
+          "sha256": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+          "byte_span": [
+            4513,
+            4577
+          ],
+          "line": 75
+        },
+        {
+          "sha256": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+          "byte_span": [
+            4615,
+            4679
+          ],
+          "line": 76
+        },
+        {
+          "sha256": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1",
+          "byte_span": [
+            4714,
+            4778
+          ],
+          "line": 77
+        },
+        {
+          "sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+          "byte_span": [
+            7322,
+            7386
+          ],
+          "line": 114
+        },
+        {
+          "sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+          "byte_span": [
+            7426,
+            7490
+          ],
+          "line": 115
+        },
+        {
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+          "byte_span": [
+            7518,
+            7582
+          ],
+          "line": 116
+        }
+      ],
+      "sha1_literal_occurrences": 0,
+      "applicable_bundled_declarations": 26,
+      "applicable_bundled_matches": 26,
+      "inventoried_excluded_declarations": 0,
+      "unclassified_sha256_literals": {},
+      "overclassified_sha256_literals": {},
+      "stale_old_hash_literals_for_changed_targets": [],
+      "all_applicable_declarations_current": true
+    }
+  ],
+  "quick_validate": {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/author/quick_validate.py",
+      "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/candidate-prof-r33-repair"
+    ],
+    "validator_sha256": "6fe29dd01a30abac05ef2999cdf8b962cd065cb23b5f7631981ab15544215efb",
+    "exit_code": 0,
+    "stdout": "Skill is valid!\n",
+    "stderr": "",
+    "pass": true,
+    "coverage": "Minimal SKILL.md YAML frontmatter/name/description validation as implemented by author/quick_validate.py."
+  },
+  "limits": [
+    "Local mechanical byte-integrity and minimal frontmatter validation only; no teaching, scientific-content, learner, or behavioral evaluation was performed.",
+    "Only the named inventories, validator, and 36 explicit files under each named package root were read for this repair audit; no separate teaching/source/reports/history directories were accessed.",
+    "No directory enumeration was performed, so absence of extra unlisted files was not independently asserted.",
+    "The supplied internal-hashes.json defines the 34 bundled declarations and their target resolution; the independent changed-file literal scan found no unclassified hashes there, but no whole-package declaration census was repeated.",
+    "The 31 external/historical nonbundled declarations recorded by the inventory were not fetched or revalidated.",
+    "Current identities were compared with expected identities carried by internal-hashes.json; its original inputs manifest was not opened.",
+    "No GitHub, browser, remote publication, repository history, live installed skill, external source, or access-control verification was performed.",
+    "The previous metadata-only candidate was not used or modified. Neither package nor publication was mutated; this audit writes only evidence/repair-package-check.json."
+  ],
+  "audit_implementation_note": "The initial scope predicate assumed an LF root version-line terminator; it was corrected to accept the observed unchanged CRLF terminator. All exact forward/inverse raw-byte comparisons were rechecked, and all 72 package-file SHA-256 identities remained equal to the audited snapshots."
+}

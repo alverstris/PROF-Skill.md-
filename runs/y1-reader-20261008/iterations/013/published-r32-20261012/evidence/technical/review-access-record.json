@@ -1,0 +1,102 @@
+{
+  "material": "D013",
+  "reviewer": "/root/technical_d013_prepared; independent technical reviewer, not SASIS",
+  "recorded_utc": "2026-10-12T00:42:37.585227+00:00",
+  "new_admissions": [
+    "Only exact whole-freeze manifest and its six listed teaching files"
+  ],
+  "identity_order": [
+    {
+      "event": "Manifest hash verified before manifest decode/display",
+      "tool_chunk": "10af6c"
+    },
+    {
+      "event": "Full verified manifest read",
+      "tool_chunk": "1c3dba"
+    },
+    {
+      "event": "All six actual file lengths, SHA256 and Git blob identities verified before semantic teaching reads; independent before-teaching seal and all six sealed files reverified",
+      "tool_chunk": "28d046"
+    }
+  ],
+  "actual_teaching_reading": [
+    {
+      "file": "main.md",
+      "bytes": [
+        0,
+        12844
+      ],
+      "tool_chunk": "bb9c8c"
+    },
+    {
+      "file": "main.md",
+      "bytes": [
+        12844,
+        24926
+      ],
+      "tool_chunk": "f9048b"
+    },
+    {
+      "file": "hints.md",
+      "bytes": [
+        0,
+        3075
+      ],
+      "tool_chunk": "438cd7"
+    },
+    {
+      "file": "solutions.md",
+      "bytes": [
+        0,
+        7193
+      ],
+      "tool_chunk": "d34651"
+    }
+  ],
+  "image_reading": {
+    "files": [
+      "figures/mvt-parallel.png",
+      "figures/corner.png",
+      "figures/approximation.png"
+    ],
+    "dimensions_each": [
+      1600,
+      1080
+    ],
+    "mode": "RGBA",
+    "tool": "tools.view_image detail original, then original-detail image emission, all three sequentially in one functions call",
+    "scope": "Every complete native-size canvas including titles, axes, labels, legends, annotations and edges; no cropping or image modification"
+  },
+  "reused_prior_actual_reading": {
+    "original": "All five original PDF pages, full page images and texts already inspected in sealed source preparation; all 12 source SHA256SUMS entries reverified, every full per-page text reread now as c94d39. Previously inspected original page images reused rather than freshly viewed in this stage.",
+    "baseline": "Entire 247840-byte exact frozen baseline previously read contiguously through EOF, retained unchanged; own preparation reopened (41c968) and exact relevant original lines checked (900277). No implication that targeted rechecks substitute for prior full reading.",
+    "prof": "Admitted full 36-file r32 package reading/reuse as sealed in PROF-R32-ADMISSION-SHA256SUMS; local bytes and requirements retained.",
+    "independent_answers": "Original two final prompt packets, complete calculations and all 42 demands sealed before teaching; initial before-teaching seal and six constituents reverified unchanged."
+  },
+  "publication_provenance": {
+    "admitted_pin": "02627f9dc0055946f0883d6a9c243375f6fe70a2",
+    "freeze_manifest_pin": "167f268eaa01d3fabb7bea7d00e53298717f8728",
+    "root_attestation": "Root clarified that 02627 full r32 release, da6d936 closure, and 167f268 final-handoff receipts preserve all 36 operative package files byte-for-byte; root fetched at each and verified all 36 and 34 internal declarations. Latest main 167f268 was used by fresh author. No semantic rule changed.",
+    "reviewer_verification_boundary": "Root-attested commit relation only; reviewer personally verified local admitted package but did not fetch commits or read root receipts. Former apparent pin discrepancy is resolved by attribution, not by own remote verification."
+  },
+  "scope_limits": [
+    "No author internal record or other D013 author file beyond the previously admitted two prompt packets was read.",
+    "No root calculations/reports, other audits, SASIS report, queue/history or diagnoses read.",
+    "No author contact or feedback.",
+    "No browser, network or GitHub action.",
+    "Frozen files never edited.",
+    "External OpenStax and MIT URLs were not fetched; original source identity is locally verified, OpenStax wording/provenance remains unverified by this reviewer.",
+    "Source expression/link inventory and full PNG inspection do not substitute for actual GitHub math rendering, destination typography or settled click visibility; root owns those separate checks.",
+    "Procedural restrictions, not technical isolation or memory erasure.",
+    "No inference of human understanding, retention or empirical learning benefit."
+  ],
+  "final_reverification": {
+    "all_six_frozen_constituents_unchanged": true,
+    "both_original_prior_seals_and_all_listed_constituents_unchanged": {
+      "FINAL-PROMPTS-INDEPENDENT-SHA256SUMS": "c60c6cba8b43223324e6dabe1872e3935f137f5a7c0900964662312ebe8f57ea",
+      "PROF-R32-ADMISSION-SHA256SUMS": "ea08cc23cef54f202a71a3efcb49fef4e1a303f0d0c4a1ab1bba1c9ac9b36c69"
+    },
+    "all_36_admitted_prof_file_sha256s_still_match": true,
+    "exact_full_baseline_identity_still_matches": true
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "artifact": "Three requested mathematical figures",
+  "inspection_date_utc": "2026-10-12T00:34:18.773300+00:00",
+  "renderer": "matplotlib 3.10.8, Agg backend; exact functions sampled with NumPy",
+  "generator": {
+    "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/author/generate_figures.py",
+    "bytes": 6657,
+    "sha256": "97bba3929b6f956ede394d69ab9cb7d167bea653a6201773a4da2d36ad2e1809"
+  },
+  "style": {
+    "prose_font": "DejaVu Sans",
+    "prose_font_weight": "normal",
+    "prose_font_style": "normal",
+    "mathematical_symbols": "Conventional math italic where applicable",
+    "image_background": "white",
+    "original_canvas_px": [
+      1600,
+      1080
+    ]
+  },
+  "inspection_method": "Viewed every exact final exported PNG in full with the image tool, including all edges, then viewed separately generated 800-pixel-wide previews. No further edits occurred after these final inspections.",
+  "revision_count": 2,
+  "scope_limits": "Only the supplied graphical functions, intervals, lines, points and labels were used. No teaching, source, prior review, GitHub or sibling-agent artifacts were accessed for this subtask.",
+  "figures": [
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/teaching/figures/mvt-parallel.png",
+      "bytes": 121446,
+      "sha256": "7fd6f04be614d0bf6a507d1f3288a2f3ca3eea05463764b92738cd6c4fd4aac9",
+      "width_px": 1600,
+      "height_px": 1080,
+      "format": "PNG",
+      "mode": "RGBA",
+      "inspection_preview": {
+        "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/author/figure-previews/mvt-parallel.png",
+        "bytes": 92056,
+        "sha256": "ac1cf11cbf6f37cbda98a1ff20063ae20946b2e85a843cdb359c767c76e6e96c",
+        "width_px": 800,
+        "height_px": 540
+      },
+      "observed_layout": [
+        "Exact exported image inspected at 1600 by 1080, including top, bottom, left and right edges; all labels, tick values, title and endpoints remain inside the canvas without clipping.",
+        "The dark t-squared curve, blue secant and red tangent are distinguishable; the red open marker is at (1,1), with a separate c=1 leader. Endpoint coordinates and slope 2 are legible.",
+        "The gray dashed parallel segment remains below the tangent and the vertical upward arrow visibly connects their levels. Shortening the dashed segment removed its collision with the c label.",
+        "The slope label now has a leader to the red tangent and does not sit on the dashed line.",
+        "The 800 by 540 inspection preview was viewed in full; formulas, coordinates, translation text and slope label remain readable."
+      ],
+      "status": "accepted_after_visual_inspection"
+    },
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/teaching/figures/corner.png",
+      "bytes": 74119,
+      "sha256": "be67aa1e3ecb27046ce0bd6a4d4ba36d675bca33075b703231f2dc462ddc3a9f",
+      "width_px": 1600,
+      "height_px": 1080,
+      "format": "PNG",
+      "mode": "RGBA",
+      "inspection_preview": {
+        "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/author/figure-previews/corner.png",
+        "bytes": 57575,
+        "sha256": "1692cf87378311aacb9b3caacb04a8b0222ee3c3cd027501b463d5dd8f75e5c5",
+        "width_px": 800,
+        "height_px": 540
+      },
+      "observed_layout": [
+        "Exact exported image inspected at 1600 by 1080, including all four edges; no title, axis label, tick value or annotation is clipped.",
+        "The V-shaped absolute-value curve meets at the red open marker at (0,0). The blue horizontal secant y=1 and red horizontal line y=0 are distinct.",
+        "Left slope -1 and right slope +1 occupy clear spaces beneath their respective branches. The derivative-at-0 statement and y=0 label do not overlap each other or the axis ticks.",
+        "The 800 by 540 inspection preview was viewed in full; the slope signs and derivative statement remain readable."
+      ],
+      "status": "accepted_after_visual_inspection"
+    },
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/teaching/figures/approximation.png",
+      "bytes": 103600,
+      "sha256": "28db522176fee251ef74d8f5565a36b49fe1032efb956f5c21a083796900cad1",
+      "width_px": 1600,
+      "height_px": 1080,
+      "format": "PNG",
+      "mode": "RGBA",
+      "inspection_preview": {
+        "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/author/figure-previews/approximation.png",
+        "bytes": 77608,
+        "sha256": "10f3e29f40746c623deadb4d765abf76df3dc397f1027b27f882b59ccef1c2fd",
+        "width_px": 800,
+        "height_px": 540
+      },
+      "observed_layout": [
+        "Exact exported image inspected at 1600 by 1080, including all four edges; title, legend, labels, ticks and curve endpoints are fully visible.",
+        "The dark exact curve and red tangent meet at a=1. Distinct markers at x=1.5 show exact value 2.25 and estimate 2. The double-headed blue error arrow lies vertically at x=1.5 between those markers.",
+        "The exact and estimate annotations have separate leaders. Moving Error 0.25 into the open space beyond the plotted line endpoints removed its collision with the tangent.",
+        "The dashed x=1.5 guide and its label remain clear. The 800 by 540 inspection preview was viewed in full; the 0.25 error arrow, values and formulas remain readable."
+      ],
+      "status": "accepted_after_visual_inspection"
+    }
+  ],
+  "status": "complete"
+}

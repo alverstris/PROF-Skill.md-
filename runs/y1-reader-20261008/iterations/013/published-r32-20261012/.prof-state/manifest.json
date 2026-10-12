@@ -1,0 +1,1274 @@
+{
+  "schema_version": 1,
+  "project_root": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012",
+  "skill": {
+    "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/verified-prof/SKILL.md",
+    "sha256": "d3358667284ecc1586043b5a56422337222d871c41fba1889edbce44a9a58a51"
+  },
+  "request": {
+    "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/inputs/operational-handover.json",
+    "sha256": "fc5050612174bebb4e7758a955d8399eadece7e046b7dc2ecc5eda17de95cc42"
+  },
+  "required_topics": [
+    {
+      "id": "mvt-inequalities",
+      "title": "Mean value theorem and inequalities",
+      "source_portions": [
+        {
+          "source_id": "original",
+          "portion_id": "page-1"
+        },
+        {
+          "source_id": "original",
+          "portion_id": "page-2"
+        },
+        {
+          "source_id": "original",
+          "portion_id": "page-3"
+        },
+        {
+          "source_id": "original",
+          "portion_id": "page-4"
+        },
+        {
+          "source_id": "original",
+          "portion_id": "page-5"
+        },
+        {
+          "source_id": "baseline",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "prof-ref-1",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "prof-ref-2",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "prof-ref-3",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "prof-ref-4",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "prof-ref-5",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "prof-ref-6",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "prof-ref-7",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "prof-ref-8",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "decisions",
+          "portion_id": "whole"
+        },
+        {
+          "source_id": "research",
+          "portion_id": "whole"
+        }
+      ],
+      "outputs": [
+        "output-2",
+        "output-3",
+        "output-4",
+        "output-5",
+        "output-6",
+        "output-7"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "original",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/inputs/source/lec14.pdf",
+      "sha256": "67d74be87119ab367516c8a80cc710664e48059bc1184c7042846556b3c0a609",
+      "portions": [
+        {
+          "id": "page-1",
+          "locator": "PDF page 1, complete text and all figures",
+          "disposition": "required",
+          "reason": "Required source or actually used dependency",
+          "evidence": []
+        },
+        {
+          "id": "page-2",
+          "locator": "PDF page 2, complete text and all figures",
+          "disposition": "required",
+          "reason": "Required source or actually used dependency",
+          "evidence": []
+        },
+        {
+          "id": "page-3",
+          "locator": "PDF page 3, complete text and all figures",
+          "disposition": "required",
+          "reason": "Required source or actually used dependency",
+          "evidence": []
+        },
+        {
+          "id": "page-4",
+          "locator": "PDF page 4, complete text and all figures",
+          "disposition": "required",
+          "reason": "Required source or actually used dependency",
+          "evidence": []
+        },
+        {
+          "id": "page-5",
+          "locator": "PDF page 5, complete text and all figures",
+          "disposition": "required",
+          "reason": "Required source or actually used dependency",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "baseline",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/inputs/student-baseline.txt",
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "All247840 raw bytes, ten contiguous ranges in evidence/baseline-read.json",
+          "disposition": "required",
+          "reason": "Required source or actually used dependency",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "prof-ref-1",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/verified-prof/references/execution-protocol.md",
+      "sha256": "d52cacac6caf047cffd0deed49b088a1bc1907379e3421fa04b0c80d3bd7380f",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "Required source or actually used dependency",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "prof-ref-2",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/verified-prof/references/domain-patterns.md",
+      "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "Required source or actually used dependency",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "prof-ref-3",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/verified-prof/references/sasis.md",
+      "sha256": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "Required source or actually used dependency",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "prof-ref-4",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/verified-prof/references/sasis/profile-manifest.json",
+      "sha256": "a1d3d34a59cd33ba45aa7ce3f53ab75182de33b54bc8fc18f79d197df1a899b2",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "Required source or actually used dependency",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "prof-ref-5",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/verified-prof/references/sasis/student-role.txt",
+      "sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "Required source or actually used dependency",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "prof-ref-6",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/verified-prof/references/sasis/student-testing-contract.txt",
+      "sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "Required source or actually used dependency",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "prof-ref-7",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/verified-prof/references/sasis/rewrite-guide.md",
+      "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "Required source or actually used dependency",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "prof-ref-8",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/verified-prof/references/state-tool.md",
+      "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "Whole file",
+          "disposition": "required",
+          "reason": "Required source or actually used dependency",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "decisions",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/author/coverage-and-decisions.md",
+      "sha256": "0eadb721c0087d9942b9ad175ae40aa981fd8dbddb1828661af606ad53cd9046",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "Whole capability, convention and source record",
+          "disposition": "required",
+          "reason": "Required source or actually used dependency",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/evidence/research-record.md",
+      "sha256": "54108988ee903da3df1766e740ce87fdcd03814d3280408625809ce671fb6147",
+      "portions": [
+        {
+          "id": "whole",
+          "locator": "Whole inspected source/research record",
+          "disposition": "required",
+          "reason": "Actually used theorem foundation",
+          "evidence": []
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "id": "output-2",
+      "path": "teaching/figures/approximation.png",
+      "sha256": "28db522176fee251ef74d8f5565a36b49fe1032efb956f5c21a083796900cad1"
+    },
+    {
+      "id": "output-3",
+      "path": "teaching/figures/corner.png",
+      "sha256": "be67aa1e3ecb27046ce0bd6a4d4ba36d675bca33075b703231f2dc462ddc3a9f"
+    },
+    {
+      "id": "output-4",
+      "path": "teaching/figures/mvt-parallel.png",
+      "sha256": "7fd6f04be614d0bf6a507d1f3288a2f3ca3eea05463764b92738cd6c4fd4aac9"
+    },
+    {
+      "id": "output-5",
+      "path": "teaching/hints.md",
+      "sha256": "e6e5311cb893dfeb6a26ee8aeaef1e245c58be608fdfde1c82659ad453293895"
+    },
+    {
+      "id": "output-6",
+      "path": "teaching/main.md",
+      "sha256": "fc7ca6bf452873ec74e7e982e55dff5bbc2c857d6f1fd76d88716e24ffcdac1d"
+    },
+    {
+      "id": "output-7",
+      "path": "teaching/solutions.md",
+      "sha256": "31a2c63fb9cce082a0a92e74ae735b3e47e469af48c61474630ea58c92d729a5"
+    }
+  ],
+  "output_checks": [
+    {
+      "id": "coverage",
+      "description": "Compare all requested topics and source portions with final locations.",
+      "applicable": true,
+      "status": "pass",
+      "reason": "All five source pages,seven source qualifications and complete teaching/help/figures mapped and inspected.",
+      "evidence": [
+        {
+          "path": "evidence/source-audit-dispositions.json",
+          "sha256": "b5fc74f93f5b2c4ad1db09200256659a726f016a6510fc8211917d85f442f1a1",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 78
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "f7a919f1fc8d047cffa04eaee6bb5a5b03cb4d10cf777807c6fd75c8c7b02ac3"
+        },
+        {
+          "kind": "output",
+          "id": "output-2",
+          "sha256": "28db522176fee251ef74d8f5565a36b49fe1032efb956f5c21a083796900cad1"
+        },
+        {
+          "kind": "output",
+          "id": "output-3",
+          "sha256": "be67aa1e3ecb27046ce0bd6a4d4ba36d675bca33075b703231f2dc462ddc3a9f"
+        },
+        {
+          "kind": "output",
+          "id": "output-4",
+          "sha256": "7fd6f04be614d0bf6a507d1f3288a2f3ca3eea05463764b92738cd6c4fd4aac9"
+        },
+        {
+          "kind": "output",
+          "id": "output-5",
+          "sha256": "e6e5311cb893dfeb6a26ee8aeaef1e245c58be608fdfde1c82659ad453293895"
+        },
+        {
+          "kind": "output",
+          "id": "output-6",
+          "sha256": "fc7ca6bf452873ec74e7e982e55dff5bbc2c857d6f1fd76d88716e24ffcdac1d"
+        },
+        {
+          "kind": "output",
+          "id": "output-7",
+          "sha256": "31a2c63fb9cce082a0a92e74ae735b3e47e469af48c61474630ea58c92d729a5"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "fc5050612174bebb4e7758a955d8399eadece7e046b7dc2ecc5eda17de95cc42"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "d3358667284ecc1586043b5a56422337222d871c41fba1889edbce44a9a58a51"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "decisions",
+          "sha256": "0eadb721c0087d9942b9ad175ae40aa981fd8dbddb1828661af606ad53cd9046"
+        },
+        {
+          "kind": "source",
+          "id": "original",
+          "sha256": "67d74be87119ab367516c8a80cc710664e48059bc1184c7042846556b3c0a609"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-1",
+          "sha256": "d52cacac6caf047cffd0deed49b088a1bc1907379e3421fa04b0c80d3bd7380f"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-2",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-3",
+          "sha256": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-4",
+          "sha256": "a1d3d34a59cd33ba45aa7ce3f53ab75182de33b54bc8fc18f79d197df1a899b2"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-5",
+          "sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-6",
+          "sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-7",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-8",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "research",
+          "sha256": "54108988ee903da3df1766e740ce87fdcd03814d3280408625809ce671fb6147"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "daad9451110852aa792b4477dceff9a4b4973eb7ce3c6d4f805ccaee3c269669"
+        },
+        {
+          "kind": "source_scope",
+          "id": "decisions",
+          "sha256": "cdaaa41d72ebbbc26ee95be54cfae6ad0b63f68c4e824073b8a548b0405e8609"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original",
+          "sha256": "d841e8e8025f8deccf3bf26d891f48cde51d0f03fe43ac95388ee9969c45a2ef"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-1",
+          "sha256": "1f3b1dc2df2099333262d7721dfd8de7e5c48383303bacaff3572707f52b0b24"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-2",
+          "sha256": "94d3d4c1ce55aa5410e80988217d8bb13f30f92e24062c80b69e3c09f1a799a1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-3",
+          "sha256": "eec7c98a5a79784a9f9c579be248edbbd4ca73f004b94d88b8fbf59de014c702"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-4",
+          "sha256": "0e8c57446ff54dbb67bc15da19eba544085fd243c29c91586d529a3061132b9c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-5",
+          "sha256": "198f4641cb1356339051a9496ad14ca774f6daedeac13bd40996aa82aef16dac"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-6",
+          "sha256": "6878a6d8fce8b17482e55d240ca05e0138af12cf078f17cf00963f2cef98f91b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-7",
+          "sha256": "e284d01f3c993f68ea44480b2da9b0f1c67953447e9683d9917258e661fe804a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-8",
+          "sha256": "67bd3ef493a4b2a4dcebf900af4c46064777c29107c62d420acb9c71b2c5fbc0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "research",
+          "sha256": "05a9501711657cbe1b78d1d9ed42ed2a1be5473e08ff6d7886a573f9f6ab7b5b"
+        },
+        {
+          "kind": "topic",
+          "id": "mvt-inequalities",
+          "sha256": "d47d896a49a3f8ba094349a24e28ae2dd57c587fca4a30a7c776f15d36e6d885"
+        }
+      ]
+    },
+    {
+      "id": "final_review",
+      "description": "Read and audit the actual complete final route, help and material limits.",
+      "applicable": true,
+      "status": "fail",
+      "reason": "Whole review complete; integrated acceptance fails because the destination navigation fails. Full r33 repair and fresh same-case generation required.",
+      "evidence": [
+        {
+          "path": "evidence/final-adjudication.json",
+          "sha256": "d2616f2074ced1a586355f747802b822c586f4e19c7bfd6a2bf60c83f94b4e0d",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 73
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "f7a919f1fc8d047cffa04eaee6bb5a5b03cb4d10cf777807c6fd75c8c7b02ac3"
+        },
+        {
+          "kind": "output",
+          "id": "output-2",
+          "sha256": "28db522176fee251ef74d8f5565a36b49fe1032efb956f5c21a083796900cad1"
+        },
+        {
+          "kind": "output",
+          "id": "output-3",
+          "sha256": "be67aa1e3ecb27046ce0bd6a4d4ba36d675bca33075b703231f2dc462ddc3a9f"
+        },
+        {
+          "kind": "output",
+          "id": "output-4",
+          "sha256": "7fd6f04be614d0bf6a507d1f3288a2f3ca3eea05463764b92738cd6c4fd4aac9"
+        },
+        {
+          "kind": "output",
+          "id": "output-5",
+          "sha256": "e6e5311cb893dfeb6a26ee8aeaef1e245c58be608fdfde1c82659ad453293895"
+        },
+        {
+          "kind": "output",
+          "id": "output-6",
+          "sha256": "fc7ca6bf452873ec74e7e982e55dff5bbc2c857d6f1fd76d88716e24ffcdac1d"
+        },
+        {
+          "kind": "output",
+          "id": "output-7",
+          "sha256": "31a2c63fb9cce082a0a92e74ae735b3e47e469af48c61474630ea58c92d729a5"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "fc5050612174bebb4e7758a955d8399eadece7e046b7dc2ecc5eda17de95cc42"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "d3358667284ecc1586043b5a56422337222d871c41fba1889edbce44a9a58a51"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "decisions",
+          "sha256": "0eadb721c0087d9942b9ad175ae40aa981fd8dbddb1828661af606ad53cd9046"
+        },
+        {
+          "kind": "source",
+          "id": "original",
+          "sha256": "67d74be87119ab367516c8a80cc710664e48059bc1184c7042846556b3c0a609"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-1",
+          "sha256": "d52cacac6caf047cffd0deed49b088a1bc1907379e3421fa04b0c80d3bd7380f"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-2",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-3",
+          "sha256": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-4",
+          "sha256": "a1d3d34a59cd33ba45aa7ce3f53ab75182de33b54bc8fc18f79d197df1a899b2"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-5",
+          "sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-6",
+          "sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-7",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-8",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "research",
+          "sha256": "54108988ee903da3df1766e740ce87fdcd03814d3280408625809ce671fb6147"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "daad9451110852aa792b4477dceff9a4b4973eb7ce3c6d4f805ccaee3c269669"
+        },
+        {
+          "kind": "source_scope",
+          "id": "decisions",
+          "sha256": "cdaaa41d72ebbbc26ee95be54cfae6ad0b63f68c4e824073b8a548b0405e8609"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original",
+          "sha256": "d841e8e8025f8deccf3bf26d891f48cde51d0f03fe43ac95388ee9969c45a2ef"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-1",
+          "sha256": "1f3b1dc2df2099333262d7721dfd8de7e5c48383303bacaff3572707f52b0b24"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-2",
+          "sha256": "94d3d4c1ce55aa5410e80988217d8bb13f30f92e24062c80b69e3c09f1a799a1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-3",
+          "sha256": "eec7c98a5a79784a9f9c579be248edbbd4ca73f004b94d88b8fbf59de014c702"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-4",
+          "sha256": "0e8c57446ff54dbb67bc15da19eba544085fd243c29c91586d529a3061132b9c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-5",
+          "sha256": "198f4641cb1356339051a9496ad14ca774f6daedeac13bd40996aa82aef16dac"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-6",
+          "sha256": "6878a6d8fce8b17482e55d240ca05e0138af12cf078f17cf00963f2cef98f91b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-7",
+          "sha256": "e284d01f3c993f68ea44480b2da9b0f1c67953447e9683d9917258e661fe804a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-8",
+          "sha256": "67bd3ef493a4b2a4dcebf900af4c46064777c29107c62d420acb9c71b2c5fbc0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "research",
+          "sha256": "05a9501711657cbe1b78d1d9ed42ed2a1be5473e08ff6d7886a573f9f6ab7b5b"
+        },
+        {
+          "kind": "topic",
+          "id": "mvt-inequalities",
+          "sha256": "d47d896a49a3f8ba094349a24e28ae2dd57c587fca4a30a7c776f15d36e6d885"
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "description": "Independent source, mathematical and prompt-first solution audit",
+      "applicable": true,
+      "status": "pass",
+      "reason": "All42 independent prompt demands and full source/teaching/figures checked; no demonstrated subject defect.",
+      "evidence": [
+        {
+          "path": "evidence/technical/full-technical-review.md",
+          "sha256": "f27a97b09149e86e357902aff76b6a45205943867facee7636a115c1f5f88640",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 113
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "f7a919f1fc8d047cffa04eaee6bb5a5b03cb4d10cf777807c6fd75c8c7b02ac3"
+        },
+        {
+          "kind": "output",
+          "id": "output-2",
+          "sha256": "28db522176fee251ef74d8f5565a36b49fe1032efb956f5c21a083796900cad1"
+        },
+        {
+          "kind": "output",
+          "id": "output-3",
+          "sha256": "be67aa1e3ecb27046ce0bd6a4d4ba36d675bca33075b703231f2dc462ddc3a9f"
+        },
+        {
+          "kind": "output",
+          "id": "output-4",
+          "sha256": "7fd6f04be614d0bf6a507d1f3288a2f3ca3eea05463764b92738cd6c4fd4aac9"
+        },
+        {
+          "kind": "output",
+          "id": "output-5",
+          "sha256": "e6e5311cb893dfeb6a26ee8aeaef1e245c58be608fdfde1c82659ad453293895"
+        },
+        {
+          "kind": "output",
+          "id": "output-6",
+          "sha256": "fc7ca6bf452873ec74e7e982e55dff5bbc2c857d6f1fd76d88716e24ffcdac1d"
+        },
+        {
+          "kind": "output",
+          "id": "output-7",
+          "sha256": "31a2c63fb9cce082a0a92e74ae735b3e47e469af48c61474630ea58c92d729a5"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "fc5050612174bebb4e7758a955d8399eadece7e046b7dc2ecc5eda17de95cc42"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "d3358667284ecc1586043b5a56422337222d871c41fba1889edbce44a9a58a51"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "decisions",
+          "sha256": "0eadb721c0087d9942b9ad175ae40aa981fd8dbddb1828661af606ad53cd9046"
+        },
+        {
+          "kind": "source",
+          "id": "original",
+          "sha256": "67d74be87119ab367516c8a80cc710664e48059bc1184c7042846556b3c0a609"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-1",
+          "sha256": "d52cacac6caf047cffd0deed49b088a1bc1907379e3421fa04b0c80d3bd7380f"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-2",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-3",
+          "sha256": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-4",
+          "sha256": "a1d3d34a59cd33ba45aa7ce3f53ab75182de33b54bc8fc18f79d197df1a899b2"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-5",
+          "sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-6",
+          "sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-7",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-8",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "research",
+          "sha256": "54108988ee903da3df1766e740ce87fdcd03814d3280408625809ce671fb6147"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "daad9451110852aa792b4477dceff9a4b4973eb7ce3c6d4f805ccaee3c269669"
+        },
+        {
+          "kind": "source_scope",
+          "id": "decisions",
+          "sha256": "cdaaa41d72ebbbc26ee95be54cfae6ad0b63f68c4e824073b8a548b0405e8609"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original",
+          "sha256": "d841e8e8025f8deccf3bf26d891f48cde51d0f03fe43ac95388ee9969c45a2ef"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-1",
+          "sha256": "1f3b1dc2df2099333262d7721dfd8de7e5c48383303bacaff3572707f52b0b24"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-2",
+          "sha256": "94d3d4c1ce55aa5410e80988217d8bb13f30f92e24062c80b69e3c09f1a799a1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-3",
+          "sha256": "eec7c98a5a79784a9f9c579be248edbbd4ca73f004b94d88b8fbf59de014c702"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-4",
+          "sha256": "0e8c57446ff54dbb67bc15da19eba544085fd243c29c91586d529a3061132b9c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-5",
+          "sha256": "198f4641cb1356339051a9496ad14ca774f6daedeac13bd40996aa82aef16dac"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-6",
+          "sha256": "6878a6d8fce8b17482e55d240ca05e0138af12cf078f17cf00963f2cef98f91b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-7",
+          "sha256": "e284d01f3c993f68ea44480b2da9b0f1c67953447e9683d9917258e661fe804a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-8",
+          "sha256": "67bd3ef493a4b2a4dcebf900af4c46064777c29107c62d420acb9c71b2c5fbc0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "research",
+          "sha256": "05a9501711657cbe1b78d1d9ed42ed2a1be5473e08ff6d7886a573f9f6ab7b5b"
+        },
+        {
+          "kind": "topic",
+          "id": "mvt-inequalities",
+          "sha256": "d47d896a49a3f8ba094349a24e28ae2dd57c587fca4a30a7c776f15d36e6d885"
+        }
+      ]
+    },
+    {
+      "id": "sasis",
+      "description": "Fresh full-baseline whole-teaching reader access/order/admission",
+      "applicable": true,
+      "status": "pass",
+      "reason": "Original complete fresh-reader report admitted with reconstructed-access log qualification; no demonstrated missing read/order/content failure.",
+      "evidence": [
+        {
+          "path": "evidence/sasis-admission-and-dispositions.json",
+          "sha256": "cfd07095d27807a47a3e1c32799e112608f2d40af8ee2c0ed4b04368286c4939",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 44
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "f7a919f1fc8d047cffa04eaee6bb5a5b03cb4d10cf777807c6fd75c8c7b02ac3"
+        },
+        {
+          "kind": "output",
+          "id": "output-2",
+          "sha256": "28db522176fee251ef74d8f5565a36b49fe1032efb956f5c21a083796900cad1"
+        },
+        {
+          "kind": "output",
+          "id": "output-3",
+          "sha256": "be67aa1e3ecb27046ce0bd6a4d4ba36d675bca33075b703231f2dc462ddc3a9f"
+        },
+        {
+          "kind": "output",
+          "id": "output-4",
+          "sha256": "7fd6f04be614d0bf6a507d1f3288a2f3ca3eea05463764b92738cd6c4fd4aac9"
+        },
+        {
+          "kind": "output",
+          "id": "output-5",
+          "sha256": "e6e5311cb893dfeb6a26ee8aeaef1e245c58be608fdfde1c82659ad453293895"
+        },
+        {
+          "kind": "output",
+          "id": "output-6",
+          "sha256": "fc7ca6bf452873ec74e7e982e55dff5bbc2c857d6f1fd76d88716e24ffcdac1d"
+        },
+        {
+          "kind": "output",
+          "id": "output-7",
+          "sha256": "31a2c63fb9cce082a0a92e74ae735b3e47e469af48c61474630ea58c92d729a5"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "fc5050612174bebb4e7758a955d8399eadece7e046b7dc2ecc5eda17de95cc42"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "d3358667284ecc1586043b5a56422337222d871c41fba1889edbce44a9a58a51"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "decisions",
+          "sha256": "0eadb721c0087d9942b9ad175ae40aa981fd8dbddb1828661af606ad53cd9046"
+        },
+        {
+          "kind": "source",
+          "id": "original",
+          "sha256": "67d74be87119ab367516c8a80cc710664e48059bc1184c7042846556b3c0a609"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-1",
+          "sha256": "d52cacac6caf047cffd0deed49b088a1bc1907379e3421fa04b0c80d3bd7380f"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-2",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-3",
+          "sha256": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-4",
+          "sha256": "a1d3d34a59cd33ba45aa7ce3f53ab75182de33b54bc8fc18f79d197df1a899b2"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-5",
+          "sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-6",
+          "sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-7",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-8",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "research",
+          "sha256": "54108988ee903da3df1766e740ce87fdcd03814d3280408625809ce671fb6147"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "daad9451110852aa792b4477dceff9a4b4973eb7ce3c6d4f805ccaee3c269669"
+        },
+        {
+          "kind": "source_scope",
+          "id": "decisions",
+          "sha256": "cdaaa41d72ebbbc26ee95be54cfae6ad0b63f68c4e824073b8a548b0405e8609"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original",
+          "sha256": "d841e8e8025f8deccf3bf26d891f48cde51d0f03fe43ac95388ee9969c45a2ef"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-1",
+          "sha256": "1f3b1dc2df2099333262d7721dfd8de7e5c48383303bacaff3572707f52b0b24"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-2",
+          "sha256": "94d3d4c1ce55aa5410e80988217d8bb13f30f92e24062c80b69e3c09f1a799a1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-3",
+          "sha256": "eec7c98a5a79784a9f9c579be248edbbd4ca73f004b94d88b8fbf59de014c702"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-4",
+          "sha256": "0e8c57446ff54dbb67bc15da19eba544085fd243c29c91586d529a3061132b9c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-5",
+          "sha256": "198f4641cb1356339051a9496ad14ca774f6daedeac13bd40996aa82aef16dac"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-6",
+          "sha256": "6878a6d8fce8b17482e55d240ca05e0138af12cf078f17cf00963f2cef98f91b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-7",
+          "sha256": "e284d01f3c993f68ea44480b2da9b0f1c67953447e9683d9917258e661fe804a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-8",
+          "sha256": "67bd3ef493a4b2a4dcebf900af4c46064777c29107c62d420acb9c71b2c5fbc0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "research",
+          "sha256": "05a9501711657cbe1b78d1d9ed42ed2a1be5473e08ff6d7886a573f9f6ab7b5b"
+        },
+        {
+          "kind": "topic",
+          "id": "mvt-inequalities",
+          "sha256": "d47d896a49a3f8ba094349a24e28ae2dd57c587fca4a30a7c776f15d36e6d885"
+        }
+      ]
+    },
+    {
+      "id": "destination",
+      "description": "Actual GitHub mathematics, regular prose, all figures and forward/return navigation",
+      "applicable": true,
+      "status": "fail",
+      "reason": "Actual first-use target offscreen; successful repeats do not erase observed failure.",
+      "evidence": [
+        {
+          "path": "evidence/root-final/destination/navigation-causal-review.md",
+          "sha256": "c0f4cafb7c96eca039acae925b9612af016f7253aaa85699d173a37e59f15972",
+          "locator": {
+            "kind": "lines",
+            "start": 1,
+            "end": 47
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "kind": "inventory",
+          "id": "",
+          "sha256": "f7a919f1fc8d047cffa04eaee6bb5a5b03cb4d10cf777807c6fd75c8c7b02ac3"
+        },
+        {
+          "kind": "output",
+          "id": "output-2",
+          "sha256": "28db522176fee251ef74d8f5565a36b49fe1032efb956f5c21a083796900cad1"
+        },
+        {
+          "kind": "output",
+          "id": "output-3",
+          "sha256": "be67aa1e3ecb27046ce0bd6a4d4ba36d675bca33075b703231f2dc462ddc3a9f"
+        },
+        {
+          "kind": "output",
+          "id": "output-4",
+          "sha256": "7fd6f04be614d0bf6a507d1f3288a2f3ca3eea05463764b92738cd6c4fd4aac9"
+        },
+        {
+          "kind": "output",
+          "id": "output-5",
+          "sha256": "e6e5311cb893dfeb6a26ee8aeaef1e245c58be608fdfde1c82659ad453293895"
+        },
+        {
+          "kind": "output",
+          "id": "output-6",
+          "sha256": "fc7ca6bf452873ec74e7e982e55dff5bbc2c857d6f1fd76d88716e24ffcdac1d"
+        },
+        {
+          "kind": "output",
+          "id": "output-7",
+          "sha256": "31a2c63fb9cce082a0a92e74ae735b3e47e469af48c61474630ea58c92d729a5"
+        },
+        {
+          "kind": "request",
+          "id": "",
+          "sha256": "fc5050612174bebb4e7758a955d8399eadece7e046b7dc2ecc5eda17de95cc42"
+        },
+        {
+          "kind": "skill",
+          "id": "",
+          "sha256": "d3358667284ecc1586043b5a56422337222d871c41fba1889edbce44a9a58a51"
+        },
+        {
+          "kind": "source",
+          "id": "baseline",
+          "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+        },
+        {
+          "kind": "source",
+          "id": "decisions",
+          "sha256": "0eadb721c0087d9942b9ad175ae40aa981fd8dbddb1828661af606ad53cd9046"
+        },
+        {
+          "kind": "source",
+          "id": "original",
+          "sha256": "67d74be87119ab367516c8a80cc710664e48059bc1184c7042846556b3c0a609"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-1",
+          "sha256": "d52cacac6caf047cffd0deed49b088a1bc1907379e3421fa04b0c80d3bd7380f"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-2",
+          "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-3",
+          "sha256": "729280da141774aad34774f0e6aa986077e893d08054b26b34eed90ffc673343"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-4",
+          "sha256": "a1d3d34a59cd33ba45aa7ce3f53ab75182de33b54bc8fc18f79d197df1a899b2"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-5",
+          "sha256": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-6",
+          "sha256": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-7",
+          "sha256": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+        },
+        {
+          "kind": "source",
+          "id": "prof-ref-8",
+          "sha256": "65c2d63b2cdd13fd09016898a85c007a5a32246d50d9a4c23255f322e029beb5"
+        },
+        {
+          "kind": "source",
+          "id": "research",
+          "sha256": "54108988ee903da3df1766e740ce87fdcd03814d3280408625809ce671fb6147"
+        },
+        {
+          "kind": "source_scope",
+          "id": "baseline",
+          "sha256": "daad9451110852aa792b4477dceff9a4b4973eb7ce3c6d4f805ccaee3c269669"
+        },
+        {
+          "kind": "source_scope",
+          "id": "decisions",
+          "sha256": "cdaaa41d72ebbbc26ee95be54cfae6ad0b63f68c4e824073b8a548b0405e8609"
+        },
+        {
+          "kind": "source_scope",
+          "id": "original",
+          "sha256": "d841e8e8025f8deccf3bf26d891f48cde51d0f03fe43ac95388ee9969c45a2ef"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-1",
+          "sha256": "1f3b1dc2df2099333262d7721dfd8de7e5c48383303bacaff3572707f52b0b24"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-2",
+          "sha256": "94d3d4c1ce55aa5410e80988217d8bb13f30f92e24062c80b69e3c09f1a799a1"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-3",
+          "sha256": "eec7c98a5a79784a9f9c579be248edbbd4ca73f004b94d88b8fbf59de014c702"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-4",
+          "sha256": "0e8c57446ff54dbb67bc15da19eba544085fd243c29c91586d529a3061132b9c"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-5",
+          "sha256": "198f4641cb1356339051a9496ad14ca774f6daedeac13bd40996aa82aef16dac"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-6",
+          "sha256": "6878a6d8fce8b17482e55d240ca05e0138af12cf078f17cf00963f2cef98f91b"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-7",
+          "sha256": "e284d01f3c993f68ea44480b2da9b0f1c67953447e9683d9917258e661fe804a"
+        },
+        {
+          "kind": "source_scope",
+          "id": "prof-ref-8",
+          "sha256": "67bd3ef493a4b2a4dcebf900af4c46064777c29107c62d420acb9c71b2c5fbc0"
+        },
+        {
+          "kind": "source_scope",
+          "id": "research",
+          "sha256": "05a9501711657cbe1b78d1d9ed42ed2a1be5473e08ff6d7886a573f9f6ab7b5b"
+        },
+        {
+          "kind": "topic",
+          "id": "mvt-inequalities",
+          "sha256": "d47d896a49a3f8ba094349a24e28ae2dd57c587fca4a30a7c776f15d36e6d885"
+        }
+      ]
+    }
+  ]
+}

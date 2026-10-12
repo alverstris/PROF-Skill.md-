@@ -1,0 +1,290 @@
+{
+  "review": "Postfreeze checkpoint script: static inspection and independent status projection only",
+  "reviewed_at_utc": "2026-10-12T01:18:00.682981+00:00",
+  "scope": {
+    "read_files": [
+      "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/author/prepare_repair_checkpoint.py",
+      "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/bookkeeping/queue.json",
+      "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/inputs/operational-queue.json"
+    ],
+    "write_file": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/evidence/checkpoint-script-review.json",
+    "script_executed": false,
+    "queue_modified": false,
+    "git_used": false,
+    "history_documents_or_evidence_artifact_contents_read": false
+  },
+  "inputs": [
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/author/prepare_repair_checkpoint.py",
+      "bytes": 8597,
+      "sha256": "f613243562a7d054dc795a4b8cb0db0c9d9db0d2156d59213d1872827fbd6d3a"
+    },
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/bookkeeping/queue.json",
+      "bytes": 338949,
+      "sha256": "cfb026cf42ef31c736a8de5f90e6cd7ad3cf184aeb4d102d3407c7f1d2904133"
+    },
+    {
+      "path": "/workspace/scratch/f9c0b7fc7e76/d013-clean-r32-20261012/inputs/operational-queue.json",
+      "bytes": 83978,
+      "sha256": "9597b4e44b53c2e2fc9ef99e03078fa447068aafcc0d8d0ffda72df775c9b684"
+    }
+  ],
+  "intended_arguments": {
+    "reopen": [
+      "D008",
+      "D016"
+    ],
+    "release_commit": "Must be the actual independently verified r33 release commit; its identity was not supplied to this review."
+  },
+  "actual_data_shapes": {
+    "bookkeeping_sessions": 147,
+    "operational_sessions": 147,
+    "bookkeeping_active_material_id": "D013",
+    "operational_active_material_id": "D013",
+    "bookkeeping_active_readability_scope_shape": "dict",
+    "all_rows_evidence_lists": true,
+    "all_rows_boolean_eligibility": true,
+    "shape_errors": [],
+    "focus_rows": [
+      {
+        "material_id": "D007",
+        "id": "mit-18-01-fall-2006-L07",
+        "order": 7,
+        "before_status": "closed",
+        "projected_after_status": "closed",
+        "original_row_sha256_canonical_json": "4221fc25b7916e6a41c0e600105f3313971d1c2744ec2c974abb93a0e127c682",
+        "prior_evidence_count": 38,
+        "prior_evidence_sha256_canonical_json": "dc2ca92e57424c681e3ce5c6688ce43142029c154b54be0dcb93c0fbc4bb672c",
+        "existing_overwritten_fields": [],
+        "overwritten_existing_fields_missing_from_previous_snapshot": [],
+        "prior_history_fields": {
+          "reopening_history": {
+            "shape": "list",
+            "canonical_sha256": "e42ddb16272d5a7f9a54c2be51e4a4f72ae0229a6e0a5f09ea3d75a14e6acfcf",
+            "length": 1
+          },
+          "iteration_history": {
+            "shape": "list",
+            "canonical_sha256": "d35b497e84f2eb6fb36a49d5edc22b519be910b2c71d3e6ede4d1219c6d765c6",
+            "length": 1
+          }
+        },
+        "history_action": "No row change"
+      },
+      {
+        "material_id": "D008",
+        "id": "mit-18-01-fall-2006-L09",
+        "order": 8,
+        "before_status": "closed",
+        "projected_after_status": "pending",
+        "original_row_sha256_canonical_json": "f48775c753dda643859b9f10a6f4d971a268e88dd5e4be3c85a8cb6b5815387b",
+        "prior_evidence_count": 38,
+        "prior_evidence_sha256_canonical_json": "0943239d62dbffa6c886899f877d9e24d5e735c8b72a9f685afb730238c2bf24",
+        "existing_overwritten_fields": [
+          "current_iteration",
+          "current_review_status",
+          "source_access",
+          "status"
+        ],
+        "overwritten_existing_fields_missing_from_previous_snapshot": [],
+        "prior_history_fields": {
+          "reopening_history": {
+            "shape": "list",
+            "canonical_sha256": "9a4f538217fb379559ac60370055fa4cc6544cf94476276a2ac0084b3b711b57",
+            "length": 1
+          },
+          "iteration_history": {
+            "shape": "list",
+            "canonical_sha256": "67b5a1a1f191686d9b7f35472a65a2cbb64f9acfe8fb6990de6cc23ffe3cf042",
+            "length": 1
+          }
+        },
+        "history_action": "Append previous_state to existing/new reopening_history; existing historical fields remain untouched"
+      },
+      {
+        "material_id": "D013",
+        "id": "mit-18-01-fall-2006-L14",
+        "order": 13,
+        "before_status": "pending",
+        "projected_after_status": "pending",
+        "original_row_sha256_canonical_json": "4587bb8a5389018dc4e4a13072ad96e21d0317f853289bc241d51755977a7a82",
+        "prior_evidence_count": 8,
+        "prior_evidence_sha256_canonical_json": "c997f0e14319ddcbc632e8c768d1e7b4a5979cc866f7dcc0054f8bc14239ca66",
+        "existing_overwritten_fields": [
+          "current_iteration",
+          "current_review_status",
+          "incoming_prof",
+          "outgoing_prof",
+          "published_commit",
+          "source_access",
+          "status"
+        ],
+        "overwritten_existing_fields_missing_from_previous_snapshot": [],
+        "prior_history_fields": {
+          "reopening_history": {
+            "shape": "list",
+            "canonical_sha256": "2ceb9cea535222d42352abdc7e9b402e80c9eb5370ab2d3b3b3723729eb535e9",
+            "length": 1
+          }
+        },
+        "history_action": "Append previous_current_fields to existing/new iteration_history; existing reopening_history remains untouched"
+      },
+      {
+        "material_id": "D016",
+        "id": "mit-18-01-fall-2006-L18",
+        "order": 16,
+        "before_status": "closed",
+        "projected_after_status": "pending",
+        "original_row_sha256_canonical_json": "806b9455e91c12a43ddc36de95b1eee2c205c2b12bfa57db30cbf3c2d5bd58ef",
+        "prior_evidence_count": 25,
+        "prior_evidence_sha256_canonical_json": "a7aaa7025b7fb596e45a76ec782a73d13eedf47802cd517440785e7dbd8e525c",
+        "existing_overwritten_fields": [
+          "current_iteration",
+          "source_access",
+          "status"
+        ],
+        "overwritten_existing_fields_missing_from_previous_snapshot": [],
+        "prior_history_fields": {
+          "acceptance_reopened": {
+            "shape": "dict",
+            "canonical_sha256": "6a5a78d1115d8734404090b3823f46486d77046878b8583e494f4714834b9fce",
+            "length": null
+          },
+          "historical_acceptances": {
+            "shape": "list",
+            "canonical_sha256": "7da6ca34b0685f3873556f2813ce65cba73693f4a42a57e46a6ac257105a1714",
+            "length": 1
+          },
+          "acceptance_revalidation": {
+            "shape": "dict",
+            "canonical_sha256": "fb8b021abf411ab4baf6f4d327e7acb032ae8494f7f0eeee4d8117dd804026d7",
+            "length": null
+          }
+        },
+        "history_action": "Append previous_state to existing/new reopening_history; existing historical fields remain untouched"
+      }
+    ]
+  },
+  "cross_input_identity_checks": {
+    "ordered_id_material_id_order_status_eligibility_match": true,
+    "differences": [],
+    "unique_ids": 147,
+    "unique_material_ids": 147,
+    "unique_order_values": 147,
+    "bookkeeping_active_session_ids_equal_ordered_eligible_ids": true
+  },
+  "projection_for_exact_intended_reopen_arguments": {
+    "record_count": 147,
+    "eligible_count": 76,
+    "excluded_count": 71,
+    "closed_before": 15,
+    "accepted_after": 13,
+    "remaining_after": 63,
+    "accepted_material_ids_after": [
+      "D001",
+      "D002",
+      "D003",
+      "D004",
+      "D005",
+      "D006",
+      "D007",
+      "D009",
+      "D010",
+      "D011",
+      "D012",
+      "D014",
+      "D017"
+    ],
+    "status_changes": [
+      {
+        "id": "mit-18-01-fall-2006-L09",
+        "material_id": "D008",
+        "order": 8,
+        "eligible": true,
+        "before_status": "closed",
+        "after_status": "pending"
+      },
+      {
+        "id": "mit-18-01-fall-2006-L18",
+        "material_id": "D016",
+        "order": 16,
+        "eligible": true,
+        "before_status": "closed",
+        "after_status": "pending"
+      }
+    ],
+    "active_material_id": "D013",
+    "next_pending_after_active": "D008",
+    "all_147_ids_and_order_preserved": true,
+    "eligible_subset_unchanged": true,
+    "D007_retained_unchanged": true,
+    "other_144_records_unchanged": true
+  },
+  "preservation_analysis": [
+    {
+      "script_lines": [
+        12,
+        23
+      ],
+      "finding": "Loads bookkeeping/queue.json, deep-copies it and snapshots all existing overwritten current fields before changing selected rows. The original queue path is never a write target."
+    },
+    {
+      "script_lines": [
+        26,
+        35
+      ],
+      "finding": "D008/D016 reopening_history and D013 iteration_history are appended. Existing list shapes are compatible. D016 has no reopening_history and D013 has no iteration_history, so setdefault creates new lists without replacing historical fields."
+    },
+    {
+      "script_lines": [
+        48,
+        49
+      ],
+      "finding": "Evidence is only extended with missing new strings. Every pre-existing element, ordering and duplicate is retained because no existing list element is removed or reassigned."
+    },
+    {
+      "script_lines": [
+        53,
+        60
+      ],
+      "finding": "Asserts record count, eligible count, ID sequence, order sequence, exclusion count, prior-evidence membership and equality of untouched rows."
+    },
+    {
+      "script_lines": [
+        65,
+        87
+      ],
+      "finding": "Writes target checkpoint/queue.json, checkpoint/RUN.md, checkpoint/CHANGELOG.md, checkpoint/repair-checkpoint.md and evidence/checkpoint-preservation.json. No original evidence or bookkeeping history file is overwritten."
+    },
+    {
+      "script_lines": [
+        81,
+        85
+      ],
+      "finding": "RUN.md and CHANGELOG.md are read as raw bytes and the new text is prepended. Existing bytes are explicitly asserted as the exact suffix. Code-level finding only: those documents were outside the requested content-read scope and were not opened."
+    }
+  ],
+  "findings": [
+    {
+      "severity": "nonblocking_guard_gap",
+      "script_lines": [
+        8,
+        9,
+        21,
+        25,
+        53,
+        64
+      ],
+      "finding": "The intended invocation yields the requested state, but the script accepts any --reopen list and does not assert the exact D008/D016 set, final 13/63 counts or next-pending D008. A different pair of currently closed eligible records would satisfy existing count and preservation assertions.",
+      "recommended_correction": "Before mutation, require len(a.reopen)==2 and set(a.reopen)=={\"D008\",\"D016\"}. Before writes, assert accepted==13, 76-accepted==63 and next_pending==\"D008\".",
+      "blocking_for_exact_intended_arguments": false
+    }
+  ],
+  "limitations": [
+    "Does not authenticate the release commit or the scientific/navigation findings quoted in checkpoint prose.",
+    "No checkpoint output was generated and no script body was executed.",
+    "RUN.md and CHANGELOG.md content preservation is established from raw-byte prepend code, not from running it or reading their contents."
+  ],
+  "conclusion": "No data-shape or preservation correction is required for exact --reopen D008 D016 invocation. Projection: 147 ordered records, 76 eligible, 13 accepted, 63 remaining, 71 excluded; D007 retained; active D013 same-case retry; next pending D008. Exact-scope assertions are recommended so the script rejects unintended reopen arguments."
+}

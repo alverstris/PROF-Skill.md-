@@ -1,0 +1,78 @@
+{
+  "original_audit_sha256": "7801a81c540ff4fb12051faa98ee50d2eff729b7d98583a2fe7ec36f0a817dff",
+  "review_stage": "after_complete_whole_freeze",
+  "scope": "All7heldsourcequalifications independently compared toexactfrozenteaching; sourceerrors not automatically PROF failures.",
+  "findings": [
+    {
+      "original_finding_id": "D013-F01",
+      "source_finding_kind": "demonstrated_reversed_definition",
+      "fresh_teaching_path": "teaching/main.md",
+      "line": 154,
+      "actual_text_witness": "Strictly decreasing means",
+      "disposition": "resolved_in_new_generation_without_postfreeze_edit",
+      "basis": "Section 5 explicitly gives f(a)>f(b) for a<b and derives negative finite difference from fprime(c)(b-a). The original sign error is corrected.",
+      "generated_teaching_failure": false
+    },
+    {
+      "original_finding_id": "D013-F02",
+      "source_finding_kind": "demonstrated_missing_strict_inequality_domain",
+      "fresh_teaching_path": "teaching/main.md",
+      "line": 212,
+      "actual_text_witness": "At zero each displayed comparison becomes equality.",
+      "disposition": "resolved_in_new_generation_without_postfreeze_edit",
+      "basis": "Section 6 scopes each strict lower bound to x>0, states equality at0, and explicitly withholds transfer of all ladder bounds to negative inputs.",
+      "generated_teaching_failure": false
+    },
+    {
+      "original_finding_id": "D013-F03",
+      "source_finding_kind": "source_absolute_value_slope_scope",
+      "fresh_teaching_path": "teaching/main.md",
+      "line": 85,
+      "actual_text_witness": "This example makes a limited, precise claim",
+      "disposition": "resolved_in_new_generation_without_postfreeze_edit",
+      "basis": "Section 3 computes only secant slope0 on[-1,1], identifies derivative-1/+1 and missing derivative0, and expressly rejects every-line slope generalization.",
+      "generated_teaching_failure": false
+    },
+    {
+      "original_finding_id": "D013-F04",
+      "source_finding_kind": "source_geometric_proof_completeness",
+      "fresh_teaching_path": "teaching/main.md",
+      "line": 71,
+      "actual_text_witness": "If $`H`$ is zero everywhere",
+      "disposition": "resolved_in_new_generation_without_postfreeze_edit",
+      "basis": "Section 2 separately handles identical zero difference, positive maximum or negative minimum attained by EVT; endpointzero makes the chosen nonzero extremum interior; derivative fact is derived.",
+      "generated_teaching_failure": false
+    },
+    {
+      "original_finding_id": "D013-F05",
+      "source_finding_kind": "source_interval_hypotheses",
+      "fresh_teaching_path": "teaching/main.md",
+      "line": 156,
+      "actual_text_witness": "Suppose $`f`$ is differentiable on an open interval.",
+      "disposition": "resolved_in_new_generation_without_postfreeze_edit",
+      "basis": "Section 5 uses arbitrary pair inoneinterval, continuityfromdifferentiability, positiveinterval length, and explicit disconnected-domaincounterexample; finiteendpointcontinuity retained.",
+      "generated_teaching_failure": false
+    },
+    {
+      "original_finding_id": "D013-F06",
+      "source_finding_kind": "source_travel_model_qualification",
+      "fresh_teaching_path": "teaching/main.md",
+      "line": 99,
+      "actual_text_witness": "cumulative distance travelled along the journey",
+      "disposition": "resolved_in_new_generation_without_postfreeze_edit",
+      "basis": "Section 4 models cumulative pathdistance under continuity/differentiability, interprets derivative asspeed, and contrasts signedposition/displacement/velocity.",
+      "generated_teaching_failure": false
+    },
+    {
+      "original_finding_id": "D013-F07",
+      "source_finding_kind": "source_endpoint_linearization_condition",
+      "fresh_teaching_path": "teaching/main.md",
+      "line": 122,
+      "actual_text_witness": "tangent line at a differentiable base point",
+      "disposition": "resolved_in_new_generation_without_postfreeze_edit",
+      "basis": "Section 1 doesnotdemand endpointderivatives; Section 4 addsbasepointdifferentiability forlinearization, witherror/inputchange limit and finiteerror distinction.",
+      "generated_teaching_failure": false
+    }
+  ],
+  "unresolved": []
+}

@@ -1,0 +1,591 @@
+{
+  "material_id": "D013",
+  "packet_sha256s": [
+    "ad1c3da78e32b9f13939a31f773983d000ae2cc5a27eb55d40b34c7a2758aec8",
+    "c5e8d386c2ea6698f02d0b1b4b5974a911ab84cc479ca1d63a02f4e01146f3c2"
+  ],
+  "solution_file": "/workspace/scratch/f9c0b7fc7e76/d013-fresh-independent-technical/final-prompts-independent-solutions.md",
+  "solution_sha256": "c2dd799e6d824631e1c988871eebd76284b97736bb102d7a13d7acfa26dab07c",
+  "demand_count": 42,
+  "prompts": [
+    {
+      "prompt": "P1",
+      "solution_locator": "P1 paragraph group in final-prompts-independent-solutions.md",
+      "demands": [
+        {
+          "id": "P1.1",
+          "demand": "Check closed-interval continuity",
+          "independent_result": "Polynomial continuous on [1,4].",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 7\u201313",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 9\u201353",
+            "hints.md line 7"
+          ]
+        },
+        {
+          "id": "P1.2",
+          "demand": "Check open-interval differentiability",
+          "independent_result": "Polynomial differentiable on (1,4); derivative 2x.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 7\u201313",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 9\u201353",
+            "hints.md line 7"
+          ]
+        },
+        {
+          "id": "P1.3",
+          "demand": "Calculate secant slope",
+          "independent_result": "(16-1)/3=5.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 7\u201313",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 9\u201353",
+            "hints.md line 7"
+          ]
+        },
+        {
+          "id": "P1.4",
+          "demand": "Find every interior MVT point",
+          "independent_result": "Only c=5/2, strictly in (1,4).",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 7\u201313",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 9\u201353",
+            "hints.md line 7"
+          ]
+        },
+        {
+          "id": "P1.5",
+          "demand": "Interpret slope equality geometrically",
+          "independent_result": "Parallel tangent and endpoint secant, with both line equations exhibited.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 7\u201313",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 9\u201353",
+            "hints.md line 7"
+          ]
+        }
+      ],
+      "frozen_teaching_locations": {
+        "main": "main.md lines 9\u201353",
+        "hint": "hints.md line 7",
+        "solution": "solutions.md lines 7\u201313",
+        "comparison": "Same hypotheses, slope 5, unique c=5/2 and parallel-line meaning as independent solution."
+      }
+    },
+    {
+      "prompt": "P2",
+      "solution_locator": "P2 paragraph group in final-prompts-independent-solutions.md",
+      "demands": [
+        {
+          "id": "P2.a1",
+          "demand": "Decide MVT applicability and failed hypothesis for absolute value",
+          "independent_result": "Continuity holds; differentiability fails at interior zero.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 19\u201323",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 79\u201395; definitions lines 17\u201333",
+            "hints.md line 13"
+          ]
+        },
+        {
+          "id": "P2.a2",
+          "demand": "Calculate absolute-value secant slope",
+          "independent_result": "1/3.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 19\u201323",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 79\u201395; definitions lines 17\u201333",
+            "hints.md line 13"
+          ]
+        },
+        {
+          "id": "P2.a3",
+          "demand": "List possible interior derivative values",
+          "independent_result": "-1 on (-1,0), +1 on (0,2), undefined at zero.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 19\u201323",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 79\u201395; definitions lines 17\u201333",
+            "hints.md line 13"
+          ]
+        },
+        {
+          "id": "P2.a4",
+          "demand": "Independently check conclusion",
+          "independent_result": "Fails: no existing derivative equals 1/3.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 19\u201323",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 79\u201395; definitions lines 17\u201333",
+            "hints.md line 13"
+          ]
+        },
+        {
+          "id": "P2.b1",
+          "demand": "Decide MVT applicability and failed hypothesis for endpoint jump",
+          "independent_result": "Interior derivative exists; continuity fails at 1 because left limit 1 differs from endpoint value 2.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 19\u201323",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 79\u201395; definitions lines 17\u201333",
+            "hints.md line 13"
+          ]
+        },
+        {
+          "id": "P2.b2",
+          "demand": "Calculate endpoint-jump secant slope",
+          "independent_result": "2.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 19\u201323",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 79\u201395; definitions lines 17\u201333",
+            "hints.md line 13"
+          ]
+        },
+        {
+          "id": "P2.b3",
+          "demand": "List possible interior derivative values",
+          "independent_result": "Only 1 on (0,1).",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 19\u201323",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 79\u201395; definitions lines 17\u201333",
+            "hints.md line 13"
+          ]
+        },
+        {
+          "id": "P2.b4",
+          "demand": "Independently check conclusion",
+          "independent_result": "Fails: no interior derivative equals 2.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 19\u201323",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 79\u201395; definitions lines 17\u201333",
+            "hints.md line 13"
+          ]
+        },
+        {
+          "id": "P2.9",
+          "demand": "Distinguish unavailable guarantee from universally false conclusion",
+          "independent_result": "Hypotheses are sufficient; explicit examples show conclusion can still hold when either hypothesis fails.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 19\u201323",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 79\u201395; definitions lines 17\u201333",
+            "hints.md line 13"
+          ]
+        }
+      ],
+      "frozen_teaching_locations": {
+        "main": "main.md lines 79\u201395; definitions lines 17\u201333",
+        "hint": "hints.md line 13",
+        "solution": "solutions.md lines 19\u201323",
+        "comparison": "Both failed hypotheses and direct slope conclusions match. Independent reviewer supplied two extra counterexamples to illustrate non-necessity; prompt did not require those extra examples, and correct sufficient-hypothesis logic is supplied."
+      }
+    },
+    {
+      "prompt": "P3",
+      "solution_locator": "P3 paragraph group in final-prompts-independent-solutions.md",
+      "demands": [
+        {
+          "id": "P3.1",
+          "demand": "Write tangent estimate at a=2",
+          "independent_result": "L(x)=4+4(x-2).",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 29\u201337",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 97\u2013150",
+            "hints.md line 19"
+          ]
+        },
+        {
+          "id": "P3.2",
+          "demand": "Calculate estimate at 2.2",
+          "independent_result": "24/5=4.8.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 29\u201337",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 97\u2013150",
+            "hints.md line 19"
+          ]
+        },
+        {
+          "id": "P3.3",
+          "demand": "Calculate exact value",
+          "independent_result": "121/25=4.84.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 29\u201337",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 97\u2013150",
+            "hints.md line 19"
+          ]
+        },
+        {
+          "id": "P3.4",
+          "demand": "Calculate signed error exact minus estimate",
+          "independent_result": "+1/25=+0.04.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 29\u201337",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 97\u2013150",
+            "hints.md line 19"
+          ]
+        },
+        {
+          "id": "P3.5",
+          "demand": "Find MVT c between a and x",
+          "independent_result": "Only c=21/10=2.1, with polynomial interval hypotheses checked.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 29\u201337",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 97\u2013150",
+            "hints.md line 19"
+          ]
+        },
+        {
+          "id": "P3.6",
+          "demand": "Distinguish derivative slopes",
+          "independent_result": "Endpoint derivative 4; MVT/secant slope 21/5=4.2.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 29\u201337",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 97\u2013150",
+            "hints.md line 19"
+          ]
+        },
+        {
+          "id": "P3.7",
+          "demand": "Explain exact identity becoming approximation",
+          "independent_result": "Replacing 4.2 by 4 changes increment by 0.04; exact expansion has h squared remainder.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 29\u201337",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 97\u2013150",
+            "hints.md line 19"
+          ]
+        }
+      ],
+      "frozen_teaching_locations": {
+        "main": "main.md lines 97\u2013150",
+        "hint": "hints.md line 19",
+        "solution": "solutions.md lines 29\u201337",
+        "comparison": "All four results and the two slopes match exactly: 4.8, 4.84, +0.04, c=2.1, derivatives 4 and 4.2."
+      }
+    },
+    {
+      "prompt": "P4",
+      "solution_locator": "P4 paragraph group in final-prompts-independent-solutions.md",
+      "demands": [
+        {
+          "id": "P4.1",
+          "demand": "Conclude about p(5)",
+          "independent_result": "p(5)<7 by MVT on [2,5].",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 41\u201350",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 152\u2013174; derivative-to-continuity proof lines 27\u201333",
+            "hints.md line 25"
+          ]
+        },
+        {
+          "id": "P4.2",
+          "demand": "Conclude about p(-1)",
+          "independent_result": "p(-1)>7 by MVT on [-1,2].",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 41\u201350",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 152\u2013174; derivative-to-continuity proof lines 27\u201333",
+            "hints.md line 25"
+          ]
+        },
+        {
+          "id": "P4.3",
+          "demand": "Justify interval conditions",
+          "independent_result": "Differentiability on R implies requisite continuity and interior differentiability.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 41\u201350",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 152\u2013174; derivative-to-continuity proof lines 27\u201333",
+            "hints.md line 25"
+          ]
+        },
+        {
+          "id": "P4.4",
+          "demand": "Decide the strict-positive-derivative converse",
+          "independent_result": "False.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 41\u201350",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 152\u2013174; derivative-to-continuity proof lines 27\u201333",
+            "hints.md line 25"
+          ]
+        },
+        {
+          "id": "P4.5",
+          "demand": "Use q(x)=x^3 and derivative",
+          "independent_result": "q prime=3x squared; q prime at zero is zero.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 41\u201350",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 152\u2013174; derivative-to-continuity proof lines 27\u201333",
+            "hints.md line 25"
+          ]
+        },
+        {
+          "id": "P4.6",
+          "demand": "Establish strict increase without sketch",
+          "independent_result": "For u<v, positive product (v-u)(v squared+vu+u squared); second factor proved strictly positive.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 41\u201350",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 152\u2013174; derivative-to-continuity proof lines 27\u201333",
+            "hints.md line 25"
+          ]
+        }
+      ],
+      "frozen_teaching_locations": {
+        "main": "main.md lines 152\u2013174; derivative-to-continuity proof lines 27\u201333",
+        "hint": "hints.md line 25",
+        "solution": "solutions.md lines 41\u201350",
+        "comparison": "Both p inequalities and false strict converse match; positive factorization proves cubic strict increase rather than relying on a sketch or derivative nonnegativity alone."
+      }
+    },
+    {
+      "prompt": "P5",
+      "solution_locator": "P5 paragraph group in final-prompts-independent-solutions.md",
+      "demands": [
+        {
+          "id": "P5.1",
+          "demand": "Choose a difference function",
+          "independent_result": "H(t)=exp(t)-(1+t+t squared/2+t cubed/6).",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 56\u201370",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 176\u2013243",
+            "hints.md line 31"
+          ]
+        },
+        {
+          "id": "P5.2",
+          "demand": "Evaluate at zero",
+          "independent_result": "H(0)=0.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 56\u201370",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 176\u2013243",
+            "hints.md line 31"
+          ]
+        },
+        {
+          "id": "P5.3",
+          "demand": "Use preceding bound to sign derivative",
+          "independent_result": "H prime=exp(t)-(1+t+t squared/2)>0 for t>0.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 56\u201370",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 176\u2013243",
+            "hints.md line 31"
+          ]
+        },
+        {
+          "id": "P5.4",
+          "demand": "Prove desired strict bound for all x>0",
+          "independent_result": "MVT on [0,x] gives H(x)=x H prime(xi)>0.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 56\u201370",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 176\u2013243",
+            "hints.md line 31"
+          ]
+        },
+        {
+          "id": "P5.5",
+          "demand": "State x=0 behavior",
+          "independent_result": "Equality, both sides 1.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 56\u201370",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 176\u2013243",
+            "hints.md line 31"
+          ]
+        },
+        {
+          "id": "P5.6",
+          "demand": "Explain insufficiency of arbitrary finite lower bounds",
+          "independent_result": "A strict common upper bound need not equal the limit; explicit convergent comparison sequence supplied.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 56\u201370",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 176\u2013243",
+            "hints.md line 31"
+          ]
+        },
+        {
+          "id": "P5.7",
+          "demand": "Name missing limiting claim",
+          "independent_result": "R_N(x)=exp(x)-S_N(x) must tend to zero, not merely remain positive; existing baseline series fact distinguished from this argument.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 56\u201370",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 176\u2013243",
+            "hints.md line 31"
+          ]
+        }
+      ],
+      "frozen_teaching_locations": {
+        "main": "main.md lines 176\u2013243",
+        "hint": "hints.md line 31",
+        "solution": "solutions.md lines 56\u201370",
+        "comparison": "Difference at zero, derivative link, positive-domain MVT proof, zero equality and missing remainder limit match. Supplied positive-gap sequence 1+1/n is a valid alternate counterexample to the limit inference."
+      }
+    },
+    {
+      "prompt": "P6",
+      "solution_locator": "P6 paragraph group in final-prompts-independent-solutions.md",
+      "demands": [
+        {
+          "id": "P6.1",
+          "demand": "State MVT with interval hypotheses",
+          "independent_result": "a<b, real f continuous on [a,b], differentiable on (a,b), exists interior c with derivative equal to endpoint secant.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 76\u201386",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 35\u201343, 182\u2013204 and 245\u2013257",
+            "hints.md line 37"
+          ]
+        },
+        {
+          "id": "P6.2",
+          "demand": "Interpret conclusion",
+          "independent_result": "Instantaneous versus average rate; parallel tangent/secant; no uniqueness guaranteed.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 76\u201386",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 35\u201343, 182\u2013204 and 245\u2013257",
+            "hints.md line 37"
+          ]
+        },
+        {
+          "id": "P6.3",
+          "demand": "Define function for the equation",
+          "independent_result": "F(t)=exp(t)+t-2.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 76\u201386",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 35\u201343, 182\u2013204 and 245\u2013257",
+            "hints.md line 37"
+          ]
+        },
+        {
+          "id": "P6.4",
+          "demand": "Check relevant endpoint signs",
+          "independent_result": "F(0)=-1; F(1)=e-1>0, justified using MVT for the exponential and its positive derivative.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 76\u201386",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 35\u201343, 182\u2013204 and 245\u2013257",
+            "hints.md line 37"
+          ]
+        },
+        {
+          "id": "P6.5",
+          "demand": "Check continuity and prove existence",
+          "independent_result": "F continuous on [0,1]; allowed sign-change theorem gives root strictly inside.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 76\u201386",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 35\u201343, 182\u2013204 and 245\u2013257",
+            "hints.md line 37"
+          ]
+        },
+        {
+          "id": "P6.6",
+          "demand": "Prove uniqueness separately",
+          "independent_result": "Positive F prime; MVT on a hypothetical two-root interval yields contradiction.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 76\u201386",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 35\u201343, 182\u2013204 and 245\u2013257",
+            "hints.md line 37"
+          ]
+        },
+        {
+          "id": "P6.7",
+          "demand": "Avoid estimating root",
+          "independent_result": "No numerical or asymptotic root estimate used.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 76\u201386",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 35\u201343, 182\u2013204 and 245\u2013257",
+            "hints.md line 37"
+          ]
+        },
+        {
+          "id": "P6.8",
+          "demand": "Handle later/no-looking-back direction honestly",
+          "independent_result": "No teaching/solutions consulted; no claim of measured delay, human retention or erased prior knowledge.",
+          "status": "solved",
+          "comparison_status": "pass: same required mathematical result or justified equivalent",
+          "solution_evidence": "solutions.md lines 76\u201386",
+          "earlier_route_and_hint_evidence": [
+            "main.md lines 35\u201343, 182\u2013204 and 245\u2013257",
+            "hints.md line 37"
+          ]
+        }
+      ],
+      "frozen_teaching_locations": {
+        "main": "main.md lines 35\u201343, 182\u2013204 and 245\u2013257",
+        "hint": "hints.md line 37",
+        "solution": "solutions.md lines 76\u201386",
+        "comparison": "Theorem statement and interpretation match. Existence/uniqueness separated. Endpoint-positive proof can reuse exp(1)>1 or the valid alternative using u prime>1; both agree with independent result, with no root estimate."
+      }
+    }
+  ],
+  "unresolved_demands": [],
+  "review_scope": "Every one of the 42 sealed demand items compared, not sampled; technical and prerequisite-route assessment only, no live destination check.",
+  "independent_solution_sha256_unchanged": "c2dd799e6d824631e1c988871eebd76284b97736bb102d7a13d7acfa26dab07c"
+}

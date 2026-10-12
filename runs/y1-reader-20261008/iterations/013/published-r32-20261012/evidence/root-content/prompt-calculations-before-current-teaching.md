@@ -1,0 +1,23 @@
+# D013 r32 root independent prompt calculations
+
+Only the final prompt-only packet has been opened from this current generation. Root has prior corpus context and is not a fresh SASIS reader. These calculations precede receipt of the independent technical worker's answers and precede current authored teaching/hints/solutions. Packet:2598 bytes, SHA256 ad1c3da78e32b9f13939a31f773983d000ae2cc5a27eb55d40b34c7a2758aec8.
+
+P1. A polynomial is continuous on [1,4] and differentiable on (1,4). Secant slope (16-1)/(4-1)=5. Since f'(c)=2c, the only solution is c=5/2, strictly inside. The tangent at c is parallel to the endpoint secant: instantaneous and average slopes agree. The point c is not claimed to be an endpoint or the secant's intersection with the curve.
+
+P2a. Absolute value is continuous on [-1,2] but not differentiable at the interior point0. Its secant slope is (2-1)/3=1/3. Every existing interior derivative is -1 for c<0 or1 for c>0; at0 there is no derivative. Therefore no c gives1/3, independently of inapplicability of the theorem.
+
+P2b. On (0,1), g'=1. The endpoint secant slope is (2-0)/(1-0)=2. Continuity fails at the right endpoint: the left limit is1, whereas g(1)=2. Hence the MVT hypotheses fail and its conclusion independently fails because no interior derivative equals2. Differentiability inside is not the failed condition here.
+
+In general a failed sufficient hypothesis removes the theorem's guarantee; it does not logically force its conclusion to fail. As a separate optional witness, define h(x)=x for0<x<1, h(0)=1 and h(1)=2. The endpoint continuity hypothesis fails, yet both the endpoint secant slope and every interior derivative equal1. This example is not an added requirement that the teaching must use.
+
+P3. At a=2, f(a)=4 and f'(a)=4. L(x)=4+4(x-2), so L(2.2)=4.8. Exact f(2.2)=4.84. Signed error exact-minus-estimate is +0.04. The exact secant slope is (4.84-4)/0.2=4.2, and f'(c)=2c=4.2 gives c=2.1. All four requested numerical results:4.8,4.84,+0.04,2.1. The exact MVT identity is4.84=4+(4.2)(0.2). Replacing the intermediate-point slope4.2 by the basepoint slope4 makes the tangent estimate; these slopes differ by0.2 and their product with the displacement gives the error0.04.
+
+P4. Differentiability on the real line supplies continuity on each closed finite interval. On [2,5], p(5)-p(2)=3p'(c)<0, so p(5)<7. On [-1,2], p(2)-p(-1)=3p'(d)<0, so p(-1)>7. Thus p(5)<7<p(-1), without inventing a magnitude of either change. The proposed converse is false. For a<b, b^3-a^3=(b-a)(a^2+ab+b^2)>0: the second factor is ((a+b)^2+a^2+b^2)/2, positive because distinct a,b cannot both be0. Thus q(x)=x^3 is strictly increasing everywhere, while q'(0)=0 (and q'=3x^2). A nonnegative derivative at every point is consistent with strict increase; a strictly positive derivative at each point is sufficient, not necessary.
+
+P5. Choose D(x)=e^x-1-x-x^2/2-x^3/6. Then D(0)=0 and D'(x)=e^x-1-x-x^2/2>0 forx>0 by the established quadratic lower bound. For a fixed positive x, D is continuous on [0,x] and differentiable on (0,x). MVT gives D(x)=xD'(c)>0 for some0<c<x. Hence the desired strict cubic bound. At0 there is equality, both sides1. Arbitrarily many strict finite lower bounds do not establish that their gaps vanish. The missing claim is R_n(x)=e^x-S_n(x)→0 for each fixed relevant x, equivalently that the partial sums converge to e^x. No uniform or infinite-series theorem is silently assumed. For a logical illustration, 1-2^-n<2 for every n yet tends to1 rather than2; a gap can remain positive.
+
+P6. MVT: if a<b, f is continuous on [a,b] and differentiable on (a,b), there exists c in (a,b) such that f'(c)=[f(b)-f(a)]/(b-a), equivalently f(b)-f(a)=f'(c)(b-a). The conclusion equates some instantaneous slope with the average slope over the interval; c need not be unique or computable explicitly.
+
+Let F(x)=e^x+x-2. It is continuous on [0,1] and differentiable inside. F(0)=-1. To establish F(1)=e-1>0 without a numerical estimate of e or a root: apply MVT to e^x on [0,1], giving e-1=e^d>0 for some0<d<1. Thus the supplied intermediate-value fact gives a root strictly in (0,1). For uniqueness, F'(x)=e^x+1>0. If two roots u<v existed, MVT on [u,v] would give F(v)-F(u)=(v-u)F'(c)>0, contradicting both being0. Existence uses continuity and the sign change; uniqueness uses the derivative/MVT argument. Merely e^1>0 would not by itself prove e-1>0; the extra derivative step or the earlier strict exponential bound supplies this.
+
+All statements are analytic calculations from the prompts and admitted background. No authored answer, current figure or source-audit finding was used. Expert agreement does not show reader availability or retention; those remain separate full-review tasks.

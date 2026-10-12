@@ -1,0 +1,44 @@
+{
+  "material": "D013",
+  "frozen_teaching_sha256": "a32397e7903eb2e4b09827a51175dce760743fb728e4363cf0f82dfb5c4f3749",
+  "reader_agent": "sasis_d013_r32",
+  "fork_turns": "none",
+  "original_report_sha256": "a5bb74e9d74bc48ae858dd81e55f6749c865b08b3bf9e923b41a5ba542000b1c",
+  "complete_report_read_ranges": [
+    [
+      0,
+      12500
+    ],
+    [
+      12500,
+      23058
+    ]
+  ],
+  "admission": "Admitted with reconstructed-access-log qualification; no evidenced missing, premature, misordered or unauthorized subject input.",
+  "basis": [
+    "All55 reported access entries match exact supplied route; all baseline/main/hint/solution bytes contiguous and three full PNGs at first use.",
+    "Complete chronological report supplies concrete correct reconstructions of every section, each figure and every prompt/hint/solution, consistent with actual frozen teaching and operational baseline.",
+    "Reader explicitly discloses accumulator failure, reconstructed log and unavailable per-entry timestamps; original report/log preserved without edits."
+  ],
+  "limits": [
+    "Author cannot independently replay the child tool transcript through an exposed history interface; access facts are self-reported by reader.",
+    "Instruction-only isolation; no erased pretraining or technical confinement.",
+    "No human learning, retention or mastery claim."
+  ],
+  "issues": [
+    {
+      "id": "R01",
+      "location": "solutions.md, Solution P3",
+      "observation": "Finite interval width alone does not universally imply unequal slopes.",
+      "disposition": "Not a verified material failure in local context: P3 concerns x\u00b2, immediately gives slopes4 and4.2 at2 and2.1, and earlier text expressly treats constant-slope straight lines. The exact local inference and all numerical results are correct.",
+      "action": "Preserve original wording and qualification; no frozen-teaching edit or invented general PROF repair."
+    },
+    {
+      "id": "R02",
+      "location": "reader execution/access record",
+      "observation": "In-memory log accumulator remained empty after55 actual deliveries; reader reconstructed log from visible tool-call sequence.",
+      "disposition": "Procedural qualification retained. No demonstrated access/order loss. Self-report admission limitation explicit, not a clean-procedure claim.",
+      "action": "Preserve both original records and route comparison. Future routing should write the actual retrieved entry immediately to an append-only local access file; this is a local logging implementation correction, not a new teaching requirement or material PROF failure."
+    }
+  ]
+}

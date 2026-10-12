@@ -1,0 +1,150 @@
+{
+  "material_id": "D013",
+  "stable_id": "mit-18-01-fall-2006-L14",
+  "title": "Mean value theorem Inequalities",
+  "audit_type": "Independent original-source mathematical audit; not teaching acceptance, SASIS or PROF defect finding.",
+  "inputs": "Only original-inputs/D013; canonical source identity fields used during preparation. No prior teaching, source diagnoses or reviewer findings consulted.",
+  "firewall": "Findings ROOT ONLY for post-freeze review; no fresh-author transmission before root confirms new whole freeze.",
+  "source_pdf": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D013/lec14.pdf",
+  "source_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/1a211af8e4860b63b801aa3d6e7a2e95_lec14.pdf",
+  "source_sha256": "67d74be87119ab367516c8a80cc710664e48059bc1184c7042846556b3c0a609",
+  "page_count": 5,
+  "assigned_boundary": "Entire original lecture PDF, beginning through end, all pages.",
+  "hash_verification": "PDF and every source PNG/text derivative recomputed and matched packet identity manifest.",
+  "status": "complete_assigned_original_semantic_and_visual_audit",
+  "coverage_units": [
+    {
+      "pdf_page": 1,
+      "image_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D013/lec14-p01.png",
+      "text_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D013/lec14-p01.txt",
+      "image_sha256": "ddc46ff0e93464f745fe702b373bc95b36e1785b2e0117426ddd5bf2f67d5cb2",
+      "text_sha256": "11c690867bfc86462780321c0a2f505caa77a5b25de25f251a48516b67b1cd34",
+      "semantic_reading": "Complete page text and displayed equations read; independently checked within the whole assigned lecture.",
+      "visual_reading": "Full original page PNG individually inspected, including every consequential equation and diagram.",
+      "actual_extent": "Entire cover."
+    },
+    {
+      "pdf_page": 2,
+      "image_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D013/lec14-p02.png",
+      "text_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D013/lec14-p02.txt",
+      "image_sha256": "eba04f98b09c05ea4aca5c75ba6fde976152b98d4d2873f28a13a160be00ac5e",
+      "text_sha256": "eda1d18b74c48fa35b8b728bb2ac18236cb8981acc1c5934ffb22a6de9ebdc0b",
+      "semantic_reading": "Complete page text and displayed equations read; independently checked within the whole assigned lecture.",
+      "visual_reading": "Full original page PNG individually inspected, including every consequential equation and diagram.",
+      "actual_extent": "Full MVT theorem, Fig1, geometric proof and absolute-value paragraph."
+    },
+    {
+      "pdf_page": 3,
+      "image_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D013/lec14-p03.png",
+      "text_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D013/lec14-p03.txt",
+      "image_sha256": "2907869f5e0f40f7489d22565396bdb43d7e20e31aeaab91afc051109e205ac4",
+      "text_sha256": "0e8262b2ab49f8b4696dad678b64719a0fc1a89b77125400f46bf1dbd030408f",
+      "semantic_reading": "Complete page text and displayed equations read; independently checked within the whole assigned lecture.",
+      "visual_reading": "Full original page PNG individually inspected, including every consequential equation and diagram.",
+      "actual_extent": "Full Fig2, travel model, alternate MVT formulas and linearization comparison."
+    },
+    {
+      "pdf_page": 4,
+      "image_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D013/lec14-p04.png",
+      "text_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D013/lec14-p04.txt",
+      "image_sha256": "0d80c21b86f184f446f17fce46f025776f20a7f066ac965ad4c026e43408adda",
+      "text_sha256": "0285ce004ea06fcaf8a13858daf07cb2e1eedc83896740a26017e7b516a9943c",
+      "semantic_reading": "Complete page text and displayed equations read; independently checked within the whole assigned lecture.",
+      "visual_reading": "Full original page PNG individually inspected, including every consequential equation and diagram.",
+      "actual_extent": "Full Fig3, all three consequences, definitions and proofs."
+    },
+    {
+      "pdf_page": 5,
+      "image_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D013/lec14-p05.png",
+      "text_file": "/workspace/scratch/f9c0b7fc7e76/original-inputs/D013/lec14-p05.txt",
+      "image_sha256": "a7cf1108875812b317a81ca95bca6c563a956bd49ceead2c15c3a043fff42038",
+      "text_sha256": "7ae9728512f6daec63561b587a3775e81069a12b0f8e16aa1cd563816e865d43",
+      "semantic_reading": "Complete page text and displayed equations read; independently checked within the whole assigned lecture.",
+      "visual_reading": "Full original page PNG individually inspected, including every consequential equation and diagram.",
+      "actual_extent": "Complete exponential-inequality claims, proofs and deferred Taylor-series statement."
+    }
+  ],
+  "findings": [
+    {
+      "id": "D013-F01",
+      "kind": "demonstrated_reversed_definition",
+      "locator": "PDF p4 / printed p3, Definition of increasing/decreasing",
+      "source_claim": "Defines decreasing by a<b implies f(a)<f(b), repeating the increasing inequality.",
+      "correction_or_qualification": "For strictly decreasing use a<b implies f(a)>f(b).",
+      "checked_deduction": "The examplef(x)=-x has negative derivative and f(a)>f(b) whenevera<b. The page image confirms the printed less-than sign. The preceding conclusion about negative derivative is correct; its displayed definition is not."
+    },
+    {
+      "id": "D013-F02",
+      "kind": "demonstrated_missing_strict_inequality_domain",
+      "locator": "PDF p5 / printed p4, numbered property3 and subsequent exponential bounds",
+      "source_claim": "Writes e^x>1+x without a domain on the listed claim, and later writes the quadratic truncation bound similarly.",
+      "correction_or_qualification": "For the displayed derivative-based proof, specify x>0. Globally e^x>=1+x with equality only at0; the quadratic lower bound is not valid for every negative x.",
+      "checked_deduction": "Atx=0 the claimed strict linear inequality fails by equality. Forx<0, h=e^x-1-x has hprime=e^x-1<0 and decreases to0 asx rises to0, so h>0 there as well. For the quadratic expression atx=-1, e^-1<1/2, reversing the asserted lower bound if it is read without the inherited x>0 restriction."
+    },
+    {
+      "id": "D013-F03",
+      "kind": "source_absolute_value_slope_scope",
+      "locator": "PDF p2 final paragraph and Fig2 on p3",
+      "source_claim": "For|x| says a shifted line first touches at0 no matter what its slope is.",
+      "correction_or_qualification": "Restrict to secants across a<0<b, whose slopes lie strictly between-1 and1, as shown in Fig2.",
+      "checked_deduction": "Then |x|-mx has a strict minimum at0. For an arbitrary slopem=2 on[-1,1], |x|-2x is minimized atx=1 instead; the unrestricted wording is false. The illustrated cross-corner counterexample to MVT has the intended scope and is correct."
+    },
+    {
+      "id": "D013-F04",
+      "kind": "source_geometric_proof_completeness",
+      "locator": "PDF p2 / printed p1, Geometric Proof and Fig1",
+      "source_claim": "Shifts a parallel line until first contact, using a line from above alternatively.",
+      "correction_or_qualification": "Explain why an interior contact exists for at least one shift direction; if the curve coincides with the secant, any interior point works.",
+      "checked_deduction": "Setg=f-l where l is the secant line, sog(a)=g(b)=0. Continuity on the compact interval gives extrema. Ifg is nonzero somewhere, a positive maximum or negative minimum occurs in the interior; differentiability givesgprime(c)=0. Ifg is identically0, the desired slope holds everywhere. A first contact from the wrong direction can occur only at endpoints, so this qualification completes the otherwise valid geometric argument."
+    },
+    {
+      "id": "D013-F05",
+      "kind": "source_interval_hypotheses",
+      "locator": "PDF p4 / printed p3, three derivative-sign conclusions and proofs",
+      "source_claim": "Lists derivative-sign and zero-derivative consequences without explicitly saying throughout an interval.",
+      "correction_or_qualification": "Apply the sign condition at every interior point of an interval, with the continuity needed at any included endpoints.",
+      "checked_deduction": "MVT compares anytwo points only when the segment between them lies in the domain and satisfies its hypotheses. A function equal0 on(-infinity,0) and1 on(0,infinity) has derivative0 throughout its disconnected domain but is not globally constant. All supplied MVT proofs are valid with the interval condition."
+    },
+    {
+      "id": "D013-F06",
+      "kind": "source_travel_model_qualification",
+      "locator": "PDF p3 / printed p2, Boston-to-Chicago interpretation",
+      "source_claim": "Defines f(t) as distance from Boston and identifies fprime with speed.",
+      "correction_or_qualification": "Use differentiable cumulative distance along the stated1000-mile trip, or explicitly a one-dimensional forward-motion coordinate. Distance from a fixed point in space generally has derivative only the radial velocity component.",
+      "checked_deduction": "In the intended scalar smooth model, MVT gives fprime(c)=1000/3 mph. A smooth curved1200-mile route traversed at constant400 mph for3h can end1000 miles from its start without ever having speed333.33 mph; radial distance and path length must not be interchanged. The numerical quotient itself is correct."
+    },
+    {
+      "id": "D013-F07",
+      "kind": "source_endpoint_linearization_condition",
+      "locator": "PDF pp3-4, comparison with linear approximation and Fig3",
+      "source_claim": "Contrasts MVT with a tangent of definite slope fprime(a).",
+      "correction_or_qualification": "For that additional linearization, assume a finite derivative at the base pointa; MVT alone requires differentiability only on(a,b).",
+      "checked_deduction": "f(x)=sqrt(x) is continuous on[0,1] and differentiable on(0,1), so MVT applies, but no finite fprime(0) exists. The smooth illustrated example has the required tangent; this is a scope distinction, not a defect in the MVT statement."
+    }
+  ],
+  "independent_checks": [
+    {
+      "locator": "PDF p1",
+      "check": "Complete attribution page read/inspected; no mathematical content."
+    },
+    {
+      "locator": "PDF p2 / printed p1",
+      "check": "The MVT statement correctly includes continuity on[a,b], differentiability on(a,b) anda<c<b, witha<b understood. Secant slope and tangent slope equality correct. Fig1 has a rising secant, parallel shifted lines, and an interior positive-slope tangent; the labelsand directions are consistent. Completed the proof via the compact-interval extremum argument."
+    },
+    {
+      "locator": "PDF p3 / printed p2",
+      "check": "Fig2 crosses both branches of|x|, with intermediate secant slope that equals neither derivative-1 nor+1; failure is due to nondifferentiability at0. Recomputed1000/3 mph and identified modeling conditions. Multiplying the MVT equation byb-a and relabelingb=x correctly gives the two exact alternative forms forx>a. Existence does not determine a unique c."
+    },
+    {
+      "locator": "PDF p4 / printed p3",
+      "check": "Fig3 correctly depicts the tangent approximation below a convex curve and a vertical discrepancy atx. Positive/negative derivative proofs follow from sign offprime(c)(b-a); zero derivative gives equal values for anypair in the interval. Strictly increasing is a sufficient conclusion forpositive derivative, but the converse is not asserted; e.g.x^3 has a zero derivative at0. The decreasing-definition typo is isolated above."
+    },
+    {
+      "locator": "PDF p5 / printed p4",
+      "check": "Forx>0, f1=e^x-1 has positive derivative and value0at0; f2=e^x-1-x has derivativef1>0 and value0at0. Repeating withfn=e^x-sum(k=0..n-1)x^k/k! givespositive remainders forx>0. Printed quadratic and cubic coefficients1/2,1/3! are correct. The infinite-series equality is explicitly deferred rather than proved by the finite bounds; independently a Taylor remainder bound e^|x||x|^(n+1)/(n+1)! tends to0 for fixedrealx, establishing the eventual formula."
+    }
+  ],
+  "external_verification": [],
+  "unread_limits": "No unread assigned PDF page or consequential figure/equation. No prior teaching or reviewer findings consulted. External references are limited to the explicitly listed scopes; absence of an external list means deductions were checked directly from the source mathematics.",
+  "completed_utc": "2026-10-11T22:16:57.884493+00:00"
+}

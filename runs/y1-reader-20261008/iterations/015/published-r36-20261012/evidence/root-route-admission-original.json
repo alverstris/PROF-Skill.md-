@@ -1,0 +1,2910 @@
+{
+  "schema": "d015-independent-mechanical-route-admission-v1",
+  "completed_at": "2026-10-12T04:42:50.122926+00:00",
+  "outcome": "SATISFIED_FOR_PINNED_CURRENT_ROUTE_OPERATIONAL_ADMISSION",
+  "chronology": "Parent reported author dispatched the fresh SASIS run after author validation, while this independent route audit was pending. This admission is post-dispatch; it is not independent pre-dispatch clearance. No active runtime or reader report was opened.",
+  "input_pins": {
+    "author/whole-freeze.json": "0f52edf74fe3bf9794a061880c201e423fbc37faa71416828c6c2bf682c2f3bb",
+    "reader/route.json": "862bf62a76c06706588c45f84597e16c84a93a5c8234fca5599723485d70c4d6",
+    "reader/route-seal.json": "a3a27e00875e6b340da393b9f94dbbb0a1f6ceff904a2c1b96b6f95ad2d804b5",
+    "reader/read-step": "d82d55790f9f0351331d5fc61bb614ee35ece63eb3db7c4593ce52be81c6f9fd",
+    "inputs/operational-tools/read-step": "d82d55790f9f0351331d5fc61bb614ee35ece63eb3db7c4593ce52be81c6f9fd"
+  },
+  "file_records": [
+    {
+      "id": "baseline",
+      "artifact": "baseline",
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/inputs/student-baseline.txt",
+      "size": 247840,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    {
+      "id": "main",
+      "artifact": "teaching",
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/main.md",
+      "size": 19044,
+      "sha256": "cb1798c3320123993edb5bab5f1136037e4367272441576522f11f099de68054"
+    },
+    {
+      "id": "hints",
+      "artifact": "teaching",
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/hints.md",
+      "size": 2935,
+      "sha256": "213956c9eeea4cc7f9d8ce2a31239bb94c814eecc3e9bf0d7cdbcfa91563e204"
+    },
+    {
+      "id": "solutions",
+      "artifact": "teaching",
+      "kind": "text",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/solutions.md",
+      "size": 7011,
+      "sha256": "237080669179279d8b85fe3a7ea0c5ad3242f1654f859d99dd6318e393b0c386"
+    },
+    {
+      "id": "gaussian",
+      "artifact": "teaching",
+      "kind": "image",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/figures/gaussian.png",
+      "size": 30594,
+      "sha256": "48f747d12b85ffb468362594ddb0f9a60329271ce770066797f98aa977243951"
+    },
+    {
+      "id": "ray",
+      "artifact": "teaching",
+      "kind": "image",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/figures/tangent-ray.png",
+      "size": 32937,
+      "sha256": "cd0646d133e98963b96ea10f96ade2528c59fd1a2215cea0fad448c28abd0c61"
+    },
+    {
+      "id": "families",
+      "artifact": "teaching",
+      "kind": "image",
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/figures/perpendicular-families.png",
+      "size": 94461,
+      "sha256": "446fd2aff1200e81384520f218e0f371e04d1edd92a75dc0f7bdb6142491b221"
+    }
+  ],
+  "step_records": [
+    {
+      "index": 0,
+      "id": "B01",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 0,
+      "end": 22742,
+      "sha256": "ff3b639004160728501d8a0240422bfb1c9eccb33a738285bf0bb2b345cdd209",
+      "bytes": 22742,
+      "actual_sha256": "ff3b639004160728501d8a0240422bfb1c9eccb33a738285bf0bb2b345cdd209",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 1,
+      "id": "B02",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 22742,
+      "end": 45162,
+      "sha256": "deee8fb42da3db828000196cdaa51431c81ff234873271a1094f1e64c76ea7aa",
+      "bytes": 22420,
+      "actual_sha256": "deee8fb42da3db828000196cdaa51431c81ff234873271a1094f1e64c76ea7aa",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 2,
+      "id": "B03",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 45162,
+      "end": 67680,
+      "sha256": "df8c08bfaa3d049fb8b79648e623a101d379b20a5baf93ffd081d8d8cb38ea3e",
+      "bytes": 22518,
+      "actual_sha256": "df8c08bfaa3d049fb8b79648e623a101d379b20a5baf93ffd081d8d8cb38ea3e",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 3,
+      "id": "B04",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 67680,
+      "end": 90680,
+      "sha256": "16bc020c98872067669c2e02ad5959e51da92cf01e9a3152d6c0188d22d2fe72",
+      "bytes": 23000,
+      "actual_sha256": "16bc020c98872067669c2e02ad5959e51da92cf01e9a3152d6c0188d22d2fe72",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 4,
+      "id": "B05",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 90680,
+      "end": 112793,
+      "sha256": "6394a7eb6af83427b45f911978d722cc7c58739cf1f922d73a3489f9a371c02d",
+      "bytes": 22113,
+      "actual_sha256": "6394a7eb6af83427b45f911978d722cc7c58739cf1f922d73a3489f9a371c02d",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 5,
+      "id": "B06",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 112793,
+      "end": 135529,
+      "sha256": "47372acae2254877f22af96ef149ac8924ea5a6ba5ff86b0f3369eaaeaa21227",
+      "bytes": 22736,
+      "actual_sha256": "47372acae2254877f22af96ef149ac8924ea5a6ba5ff86b0f3369eaaeaa21227",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 6,
+      "id": "B07",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 135529,
+      "end": 158293,
+      "sha256": "d807437758b76095d199a3547fa295e33a3de95d837c5042195f1ed61153f79a",
+      "bytes": 22764,
+      "actual_sha256": "d807437758b76095d199a3547fa295e33a3de95d837c5042195f1ed61153f79a",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 7,
+      "id": "B08",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 158293,
+      "end": 181219,
+      "sha256": "de82859b360a3e132257bfabfc44ecf187fe51a23548771bc0c8fc2e470f4848",
+      "bytes": 22926,
+      "actual_sha256": "de82859b360a3e132257bfabfc44ecf187fe51a23548771bc0c8fc2e470f4848",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 8,
+      "id": "B09",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 181219,
+      "end": 203784,
+      "sha256": "bfa84f492ec1f7e622046af0e48848e6dcc453e82ad7648001cec20562b94059",
+      "bytes": 22565,
+      "actual_sha256": "bfa84f492ec1f7e622046af0e48848e6dcc453e82ad7648001cec20562b94059",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 9,
+      "id": "B10",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 203784,
+      "end": 226523,
+      "sha256": "20452d28636269995d0572875f65bbd5e4d76eb299836001c723d2bd69bfbf8d",
+      "bytes": 22739,
+      "actual_sha256": "20452d28636269995d0572875f65bbd5e4d76eb299836001c723d2bd69bfbf8d",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 10,
+      "id": "B11",
+      "kind": "text",
+      "file_id": "baseline",
+      "start": 226523,
+      "end": 247840,
+      "sha256": "37763dfbf42e52ed127bb5246f794392b5c717c440991bd3f3af7f4b75efc8b7",
+      "bytes": 21317,
+      "actual_sha256": "37763dfbf42e52ed127bb5246f794392b5c717c440991bd3f3af7f4b75efc8b7",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 11,
+      "id": "M01",
+      "kind": "text",
+      "file_id": "main",
+      "start": 0,
+      "end": 5102,
+      "sha256": "f132a5bc93704f972f6abff7e79d1fbb2dff82295cf006f86c28786978fbaecf",
+      "bytes": 5102,
+      "actual_sha256": "f132a5bc93704f972f6abff7e79d1fbb2dff82295cf006f86c28786978fbaecf",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 12,
+      "id": "F01",
+      "kind": "figure",
+      "file_id": "gaussian",
+      "sha256": "48f747d12b85ffb468362594ddb0f9a60329271ce770066797f98aa977243951",
+      "receipt_step_id": "F01R",
+      "receipt_file": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/reader/view-results/F01.json",
+      "first_use": {
+        "text_step_id": "M01",
+        "position": "after"
+      },
+      "actual_bytes": 30594,
+      "actual_sha256": "48f747d12b85ffb468362594ddb0f9a60329271ce770066797f98aa977243951",
+      "markup_occurrences": [
+        {
+          "file_id": "main",
+          "start": 4922,
+          "end": 5101
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "id": "M02",
+      "kind": "text",
+      "file_id": "main",
+      "start": 5102,
+      "end": 5856,
+      "sha256": "36a2f196d348366be80308678db06bbcda1047c6be54c3bf9801afd11c9c05da",
+      "bytes": 754,
+      "actual_sha256": "36a2f196d348366be80308678db06bbcda1047c6be54c3bf9801afd11c9c05da",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 14,
+      "id": "M03",
+      "kind": "text",
+      "file_id": "main",
+      "start": 5856,
+      "end": 9302,
+      "sha256": "2f51a268850ffc935cf00340f4fae32096bc7e7e100c843bd75e61c59284e7e9",
+      "bytes": 3446,
+      "actual_sha256": "2f51a268850ffc935cf00340f4fae32096bc7e7e100c843bd75e61c59284e7e9",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 15,
+      "id": "M04",
+      "kind": "text",
+      "file_id": "main",
+      "start": 9302,
+      "end": 10165,
+      "sha256": "0105768593b46675eaedad842abaeae7f4fff3820f75d05f0134b99bbaeca5c5",
+      "bytes": 863,
+      "actual_sha256": "0105768593b46675eaedad842abaeae7f4fff3820f75d05f0134b99bbaeca5c5",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 16,
+      "id": "F02",
+      "kind": "figure",
+      "file_id": "ray",
+      "sha256": "cd0646d133e98963b96ea10f96ade2528c59fd1a2215cea0fad448c28abd0c61",
+      "receipt_step_id": "F02R",
+      "receipt_file": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/reader/view-results/F02.json",
+      "first_use": {
+        "text_step_id": "M04",
+        "position": "after"
+      },
+      "actual_bytes": 32937,
+      "actual_sha256": "cd0646d133e98963b96ea10f96ade2528c59fd1a2215cea0fad448c28abd0c61",
+      "markup_occurrences": [
+        {
+          "file_id": "main",
+          "start": 9944,
+          "end": 10164
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "id": "M05",
+      "kind": "text",
+      "file_id": "main",
+      "start": 10165,
+      "end": 12016,
+      "sha256": "7f208f70310a66e8abeb34b4e595e8907101df4329ee75561a163a134219771f",
+      "bytes": 1851,
+      "actual_sha256": "7f208f70310a66e8abeb34b4e595e8907101df4329ee75561a163a134219771f",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 18,
+      "id": "M06",
+      "kind": "text",
+      "file_id": "main",
+      "start": 12016,
+      "end": 14209,
+      "sha256": "2fbd3e9f0814e4220233a87aeff58cd23d7ab1ef2b3dfd12f77059a073c5dd03",
+      "bytes": 2193,
+      "actual_sha256": "2fbd3e9f0814e4220233a87aeff58cd23d7ab1ef2b3dfd12f77059a073c5dd03",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 19,
+      "id": "F03",
+      "kind": "figure",
+      "file_id": "families",
+      "sha256": "446fd2aff1200e81384520f218e0f371e04d1edd92a75dc0f7bdb6142491b221",
+      "receipt_step_id": "F03R",
+      "receipt_file": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/reader/view-results/F03.json",
+      "first_use": {
+        "text_step_id": "M06",
+        "position": "after"
+      },
+      "actual_bytes": 94461,
+      "actual_sha256": "446fd2aff1200e81384520f218e0f371e04d1edd92a75dc0f7bdb6142491b221",
+      "markup_occurrences": [
+        {
+          "file_id": "main",
+          "start": 13963,
+          "end": 14208
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "id": "M07",
+      "kind": "text",
+      "file_id": "main",
+      "start": 14209,
+      "end": 16146,
+      "sha256": "29fba86e1f38be693fc7c66ba6a38cb9b054754a1387da383776cd93c42000c0",
+      "bytes": 1937,
+      "actual_sha256": "29fba86e1f38be693fc7c66ba6a38cb9b054754a1387da383776cd93c42000c0",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 21,
+      "id": "M08",
+      "kind": "text",
+      "file_id": "main",
+      "start": 16146,
+      "end": 17879,
+      "sha256": "3fb96c156deb0a58e862b0c2bfa165f7967142b1faae56a09bc56951694fdc34",
+      "bytes": 1733,
+      "actual_sha256": "3fb96c156deb0a58e862b0c2bfa165f7967142b1faae56a09bc56951694fdc34",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 22,
+      "id": "M09",
+      "kind": "text",
+      "file_id": "main",
+      "start": 17879,
+      "end": 19044,
+      "sha256": "6bcd32f0ede383489bb2e10325ac9d9a7e6124ee0e3f3b92b2fd788f83623381",
+      "bytes": 1165,
+      "actual_sha256": "6bcd32f0ede383489bb2e10325ac9d9a7e6124ee0e3f3b92b2fd788f83623381",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 23,
+      "id": "H01",
+      "kind": "text",
+      "file_id": "hints",
+      "start": 0,
+      "end": 795,
+      "sha256": "215c85fb400f4a42235bc79779f5e89b144eadee745e2bb037cf509f33689793",
+      "bytes": 795,
+      "actual_sha256": "215c85fb400f4a42235bc79779f5e89b144eadee745e2bb037cf509f33689793",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 24,
+      "id": "H02",
+      "kind": "text",
+      "file_id": "hints",
+      "start": 795,
+      "end": 1246,
+      "sha256": "46cb230ddd6bd648c3dffa229d55d1eed9d2d5c8e60c17e84022705852c79177",
+      "bytes": 451,
+      "actual_sha256": "46cb230ddd6bd648c3dffa229d55d1eed9d2d5c8e60c17e84022705852c79177",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 25,
+      "id": "H03",
+      "kind": "text",
+      "file_id": "hints",
+      "start": 1246,
+      "end": 1694,
+      "sha256": "dbd297a82944fd28fbe5a3302b9c87ef4f1d7ac2db49e7d9e4359b72423b7143",
+      "bytes": 448,
+      "actual_sha256": "dbd297a82944fd28fbe5a3302b9c87ef4f1d7ac2db49e7d9e4359b72423b7143",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 26,
+      "id": "H04",
+      "kind": "text",
+      "file_id": "hints",
+      "start": 1694,
+      "end": 2172,
+      "sha256": "988eb2658e4d964c45aa36391768007e385aeb168a4cc8f789bc721026d18268",
+      "bytes": 478,
+      "actual_sha256": "988eb2658e4d964c45aa36391768007e385aeb168a4cc8f789bc721026d18268",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 27,
+      "id": "H05",
+      "kind": "text",
+      "file_id": "hints",
+      "start": 2172,
+      "end": 2935,
+      "sha256": "25047315b533f5f5273be574ea31a2565a13781adaaab9b4aec7f594735dc4ba",
+      "bytes": 763,
+      "actual_sha256": "25047315b533f5f5273be574ea31a2565a13781adaaab9b4aec7f594735dc4ba",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 28,
+      "id": "S01",
+      "kind": "text",
+      "file_id": "solutions",
+      "start": 0,
+      "end": 1248,
+      "sha256": "2cffef6073e9646c3d50bcf4dc589f94d17dd8dea2741f7bcc533fdec691665b",
+      "bytes": 1248,
+      "actual_sha256": "2cffef6073e9646c3d50bcf4dc589f94d17dd8dea2741f7bcc533fdec691665b",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 29,
+      "id": "S02",
+      "kind": "text",
+      "file_id": "solutions",
+      "start": 1248,
+      "end": 2326,
+      "sha256": "cd262f088fba38c532573608eab33adc650abd7203d2eb2afc1d4499fbbd5692",
+      "bytes": 1078,
+      "actual_sha256": "cd262f088fba38c532573608eab33adc650abd7203d2eb2afc1d4499fbbd5692",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 30,
+      "id": "S03",
+      "kind": "text",
+      "file_id": "solutions",
+      "start": 2326,
+      "end": 3506,
+      "sha256": "e40df4d026c244984758ecd5ed999825dc49901169f754a4356719ee4c2e7a93",
+      "bytes": 1180,
+      "actual_sha256": "e40df4d026c244984758ecd5ed999825dc49901169f754a4356719ee4c2e7a93",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 31,
+      "id": "S04",
+      "kind": "text",
+      "file_id": "solutions",
+      "start": 3506,
+      "end": 5225,
+      "sha256": "95994b7688d3f3d3000cd220cf29d664b1585134979fcc4318518afb3bc55f41",
+      "bytes": 1719,
+      "actual_sha256": "95994b7688d3f3d3000cd220cf29d664b1585134979fcc4318518afb3bc55f41",
+      "utf8_boundary_valid": true
+    },
+    {
+      "index": 32,
+      "id": "S05",
+      "kind": "text",
+      "file_id": "solutions",
+      "start": 5225,
+      "end": 7011,
+      "sha256": "70e938a5371d7ce4671e4b974376de4e620e4a80c7f3507689d1ac853d3f4e7f",
+      "bytes": 1786,
+      "actual_sha256": "70e938a5371d7ce4671e4b974376de4e620e4a80c7f3507689d1ac853d3f4e7f",
+      "utf8_boundary_valid": true
+    }
+  ],
+  "expanded_required_success_order": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B09",
+    "B10",
+    "B11",
+    "M01",
+    "F01",
+    "F01R",
+    "M02",
+    "M03",
+    "M04",
+    "F02",
+    "F02R",
+    "M05",
+    "M06",
+    "F03",
+    "F03R",
+    "M07",
+    "M08",
+    "M09",
+    "H01",
+    "H02",
+    "H03",
+    "H04",
+    "H05",
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05"
+  ],
+  "revisits": [
+    {
+      "id": "RB01",
+      "initial_step_id": "B01"
+    },
+    {
+      "id": "RB02",
+      "initial_step_id": "B02"
+    },
+    {
+      "id": "RB03",
+      "initial_step_id": "B03"
+    },
+    {
+      "id": "RB04",
+      "initial_step_id": "B04"
+    },
+    {
+      "id": "RB05",
+      "initial_step_id": "B05"
+    },
+    {
+      "id": "RB06",
+      "initial_step_id": "B06"
+    },
+    {
+      "id": "RB07",
+      "initial_step_id": "B07"
+    },
+    {
+      "id": "RB08",
+      "initial_step_id": "B08"
+    },
+    {
+      "id": "RB09",
+      "initial_step_id": "B09"
+    },
+    {
+      "id": "RB10",
+      "initial_step_id": "B10"
+    },
+    {
+      "id": "RB11",
+      "initial_step_id": "B11"
+    }
+  ],
+  "coverage": {
+    "baseline": [
+      [
+        0,
+        22742
+      ],
+      [
+        22742,
+        45162
+      ],
+      [
+        45162,
+        67680
+      ],
+      [
+        67680,
+        90680
+      ],
+      [
+        90680,
+        112793
+      ],
+      [
+        112793,
+        135529
+      ],
+      [
+        135529,
+        158293
+      ],
+      [
+        158293,
+        181219
+      ],
+      [
+        181219,
+        203784
+      ],
+      [
+        203784,
+        226523
+      ],
+      [
+        226523,
+        247840
+      ]
+    ],
+    "main": [
+      [
+        0,
+        5102
+      ],
+      [
+        5102,
+        5856
+      ],
+      [
+        5856,
+        9302
+      ],
+      [
+        9302,
+        10165
+      ],
+      [
+        10165,
+        12016
+      ],
+      [
+        12016,
+        14209
+      ],
+      [
+        14209,
+        16146
+      ],
+      [
+        16146,
+        17879
+      ],
+      [
+        17879,
+        19044
+      ]
+    ],
+    "hints": [
+      [
+        0,
+        795
+      ],
+      [
+        795,
+        1246
+      ],
+      [
+        1246,
+        1694
+      ],
+      [
+        1694,
+        2172
+      ],
+      [
+        2172,
+        2935
+      ]
+    ],
+    "solutions": [
+      [
+        0,
+        1248
+      ],
+      [
+        1248,
+        2326
+      ],
+      [
+        2326,
+        3506
+      ],
+      [
+        3506,
+        5225
+      ],
+      [
+        5225,
+        7011
+      ]
+    ],
+    "gaussian": [
+      [
+        0,
+        30594
+      ]
+    ],
+    "ray": [
+      [
+        0,
+        32937
+      ]
+    ],
+    "families": [
+      [
+        0,
+        94461
+      ]
+    ]
+  },
+  "counts": {
+    "frozen_files": 6,
+    "route_files": 7,
+    "frozen_bytes": 186982,
+    "baseline_text_steps": 11,
+    "baseline_bytes": 247840,
+    "teaching_text_steps": 19,
+    "teaching_text_bytes": 28990,
+    "figure_dispatch_steps": 3,
+    "figure_bytes": 157992,
+    "figure_receipt_steps": 3,
+    "route_retrieval_steps": 33,
+    "expanded_required_success_stages": 36,
+    "declared_baseline_revisits": 11
+  },
+  "receipt_mechanism": {
+    "launcher_exact_preflighted_bytes": true,
+    "cursor_held_until_fixed_receipt_step": true,
+    "baseline_revisits_allowed_if_already_seen_while_pending": true,
+    "no_later_teaching_advance_while_pending": true,
+    "required_tool": "tools.view_image",
+    "required_detail": "original",
+    "fixed_figure_path_and_sha256": true,
+    "requires_unique_receipt_call_id_and_completion_after_dispatch": true,
+    "receipt_itself_is_not_authenticated_platform_transcript": true,
+    "semantic_inspection_proven_by_launcher": false
+  },
+  "limits": [
+    "This is mechanical identity, exact coverage, source-image markup placement and receipt routing review only. No teaching prose or image semantic interpretation.",
+    "No actual run ledger, outputs, image tool results or final report has been inspected by this current-route audit. Full actual reader evidence remains required after completion.",
+    "First-use is mechanically verified against the first/only literal HTML image reference and its containing text slice, not a semantic teaching judgment.",
+    "Receipt metadata must be corroborated with retained actual result objects and exact decoded image bytes after completion; generated correlation IDs must not be relabeled platform IDs.",
+    "Initial synthetic preflight ledger-shortening anomaly remains preserved with cause unresolved. External recorded ledger tails/snapshots are necessary for detecting loss of a valid suffix."
+  ],
+  "checks": [
+    {
+      "check": "regular nonsymlink path",
+      "pass_": true,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/author/whole-freeze.json"
+    },
+    {
+      "check": "pinned control identity",
+      "pass_": true,
+      "path": "author/whole-freeze.json",
+      "bytes": 2500,
+      "sha256": "0f52edf74fe3bf9794a061880c201e423fbc37faa71416828c6c2bf682c2f3bb"
+    },
+    {
+      "check": "regular nonsymlink path",
+      "pass_": true,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/reader/route.json"
+    },
+    {
+      "check": "pinned control identity",
+      "pass_": true,
+      "path": "reader/route.json",
+      "bytes": 10543,
+      "sha256": "862bf62a76c06706588c45f84597e16c84a93a5c8234fca5599723485d70c4d6"
+    },
+    {
+      "check": "regular nonsymlink path",
+      "pass_": true,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/reader/route-seal.json"
+    },
+    {
+      "check": "pinned control identity",
+      "pass_": true,
+      "path": "reader/route-seal.json",
+      "bytes": 246,
+      "sha256": "a3a27e00875e6b340da393b9f94dbbb0a1f6ceff904a2c1b96b6f95ad2d804b5"
+    },
+    {
+      "check": "regular nonsymlink path",
+      "pass_": true,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/reader/read-step"
+    },
+    {
+      "check": "pinned control identity",
+      "pass_": true,
+      "path": "reader/read-step",
+      "bytes": 25227,
+      "sha256": "d82d55790f9f0351331d5fc61bb614ee35ece63eb3db7c4593ce52be81c6f9fd"
+    },
+    {
+      "check": "regular nonsymlink path",
+      "pass_": true,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/inputs/operational-tools/read-step"
+    },
+    {
+      "check": "pinned control identity",
+      "pass_": true,
+      "path": "inputs/operational-tools/read-step",
+      "bytes": 25227,
+      "sha256": "d82d55790f9f0351331d5fc61bb614ee35ece63eb3db7c4593ce52be81c6f9fd"
+    },
+    {
+      "check": "actual launcher equals provided preflighted launcher",
+      "pass_": true
+    },
+    {
+      "check": "exact six frozen file identities",
+      "pass_": true
+    },
+    {
+      "check": "freeze relative absolute agreement",
+      "pass_": true,
+      "path": "teaching/main.md"
+    },
+    {
+      "check": "regular nonsymlink path",
+      "pass_": true,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/main.md"
+    },
+    {
+      "check": "actual frozen bytes hash and git blob",
+      "pass_": true,
+      "path": "teaching/main.md",
+      "bytes": 19044,
+      "sha256": "cb1798c3320123993edb5bab5f1136037e4367272441576522f11f099de68054",
+      "git_blob": "7ad106d3ad18f071a5cba61bffc39152c651b697"
+    },
+    {
+      "check": "freeze relative absolute agreement",
+      "pass_": true,
+      "path": "teaching/hints.md"
+    },
+    {
+      "check": "regular nonsymlink path",
+      "pass_": true,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/hints.md"
+    },
+    {
+      "check": "actual frozen bytes hash and git blob",
+      "pass_": true,
+      "path": "teaching/hints.md",
+      "bytes": 2935,
+      "sha256": "213956c9eeea4cc7f9d8ce2a31239bb94c814eecc3e9bf0d7cdbcfa91563e204",
+      "git_blob": "c0e3ecbc5e84af3ca3e61b9859e7841479af40ba"
+    },
+    {
+      "check": "freeze relative absolute agreement",
+      "pass_": true,
+      "path": "teaching/solutions.md"
+    },
+    {
+      "check": "regular nonsymlink path",
+      "pass_": true,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/solutions.md"
+    },
+    {
+      "check": "actual frozen bytes hash and git blob",
+      "pass_": true,
+      "path": "teaching/solutions.md",
+      "bytes": 7011,
+      "sha256": "237080669179279d8b85fe3a7ea0c5ad3242f1654f859d99dd6318e393b0c386",
+      "git_blob": "d6a60a827be9bf73df0103f0c33890e2434ad423"
+    },
+    {
+      "check": "freeze relative absolute agreement",
+      "pass_": true,
+      "path": "teaching/figures/gaussian.png"
+    },
+    {
+      "check": "regular nonsymlink path",
+      "pass_": true,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/figures/gaussian.png"
+    },
+    {
+      "check": "actual frozen bytes hash and git blob",
+      "pass_": true,
+      "path": "teaching/figures/gaussian.png",
+      "bytes": 30594,
+      "sha256": "48f747d12b85ffb468362594ddb0f9a60329271ce770066797f98aa977243951",
+      "git_blob": "8df3c793f246fe1ee39e4c000ea19813693230d8"
+    },
+    {
+      "check": "freeze relative absolute agreement",
+      "pass_": true,
+      "path": "teaching/figures/tangent-ray.png"
+    },
+    {
+      "check": "regular nonsymlink path",
+      "pass_": true,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/figures/tangent-ray.png"
+    },
+    {
+      "check": "actual frozen bytes hash and git blob",
+      "pass_": true,
+      "path": "teaching/figures/tangent-ray.png",
+      "bytes": 32937,
+      "sha256": "cd0646d133e98963b96ea10f96ade2528c59fd1a2215cea0fad448c28abd0c61",
+      "git_blob": "e6bb07dc3ee1325d540d7a78aacb2984251436b2"
+    },
+    {
+      "check": "freeze relative absolute agreement",
+      "pass_": true,
+      "path": "teaching/figures/perpendicular-families.png"
+    },
+    {
+      "check": "regular nonsymlink path",
+      "pass_": true,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/teaching/figures/perpendicular-families.png"
+    },
+    {
+      "check": "actual frozen bytes hash and git blob",
+      "pass_": true,
+      "path": "teaching/figures/perpendicular-families.png",
+      "bytes": 94461,
+      "sha256": "446fd2aff1200e81384520f218e0f371e04d1edd92a75dc0f7bdb6142491b221",
+      "git_blob": "934c37b4ece8ec21f8d2a57049dfc5479e007e33"
+    },
+    {
+      "check": "complete teaching bytes",
+      "pass_": true
+    },
+    {
+      "check": "route fields",
+      "pass_": true
+    },
+    {
+      "check": "seal fields",
+      "pass_": true
+    },
+    {
+      "check": "route schema and identity",
+      "pass_": true
+    },
+    {
+      "check": "sealed route launcher linkage",
+      "pass_": true
+    },
+    {
+      "check": "artifact fields",
+      "pass_": true
+    },
+    {
+      "check": "artifact identity fields",
+      "pass_": true
+    },
+    {
+      "check": "nonempty artifact id",
+      "pass_": true
+    },
+    {
+      "check": "artifact identity fields",
+      "pass_": true
+    },
+    {
+      "check": "nonempty artifact id",
+      "pass_": true
+    },
+    {
+      "check": "revisions bind full baseline and frozen generation",
+      "pass_": true
+    },
+    {
+      "check": "file fields",
+      "pass_": true
+    },
+    {
+      "check": "file id",
+      "pass_": true
+    },
+    {
+      "check": "file digest",
+      "pass_": true
+    },
+    {
+      "check": "unique file path and id",
+      "pass_": true
+    },
+    {
+      "check": "positive integer file size",
+      "pass_": true
+    },
+    {
+      "check": "only full baseline as additional subject file",
+      "pass_": true
+    },
+    {
+      "check": "regular nonsymlink path",
+      "pass_": true,
+      "path": "/workspace/scratch/f9c0b7fc7e76/d015-clean-r36-20261012/inputs/student-baseline.txt"
+    },
+    {
+      "check": "route file actual bytes",
+      "pass_": true,
+      "file_id": "baseline",
+      "bytes": 247840,
+      "sha256": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5"
+    },
+    {
+      "check": "file fields",
+      "pass_": true
+    },
+    {
+      "check": "file id",
+      "pass_": true
+    },
+    {
+      "check": "file digest",
+      "pass_": true
+    },
+    {
+      "check": "unique file path and id",
+      "pass_": true
+    },
+    {
+      "check": "positive integer file size",
+      "pass_": true
+    },
+    {
+      "check": "teaching path in frozen six",
+      "pass_": true
+    },
+    {
+      "check": "route matches actual frozen file",
+      "pass_": true
+    },
+    {
+      "check": "route file actual bytes",
+      "pass_": true,
+      "file_id": "main",
+      "bytes": 19044,
+      "sha256": "cb1798c3320123993edb5bab5f1136037e4367272441576522f11f099de68054"
+    },
+    {
+      "check": "file fields",
+      "pass_": true
+    },
+    {
+      "check": "file id",
+      "pass_": true
+    },
+    {
+      "check": "file digest",
+      "pass_": true
+    },
+    {
+      "check": "unique file path and id",
+      "pass_": true
+    },
+    {
+      "check": "positive integer file size",
+      "pass_": true
+    },
+    {
+      "check": "teaching path in frozen six",
+      "pass_": true
+    },
+    {
+      "check": "route matches actual frozen file",
+      "pass_": true
+    },
+    {
+      "check": "route file actual bytes",
+      "pass_": true,
+      "file_id": "hints",
+      "bytes": 2935,
+      "sha256": "213956c9eeea4cc7f9d8ce2a31239bb94c814eecc3e9bf0d7cdbcfa91563e204"
+    },
+    {
+      "check": "file fields",
+      "pass_": true
+    },
+    {
+      "check": "file id",
+      "pass_": true
+    },
+    {
+      "check": "file digest",
+      "pass_": true
+    },
+    {
+      "check": "unique file path and id",
+      "pass_": true
+    },
+    {
+      "check": "positive integer file size",
+      "pass_": true
+    },
+    {
+      "check": "teaching path in frozen six",
+      "pass_": true
+    },
+    {
+      "check": "route matches actual frozen file",
+      "pass_": true
+    },
+    {
+      "check": "route file actual bytes",
+      "pass_": true,
+      "file_id": "solutions",
+      "bytes": 7011,
+      "sha256": "237080669179279d8b85fe3a7ea0c5ad3242f1654f859d99dd6318e393b0c386"
+    },
+    {
+      "check": "file fields",
+      "pass_": true
+    },
+    {
+      "check": "file id",
+      "pass_": true
+    },
+    {
+      "check": "file digest",
+      "pass_": true
+    },
+    {
+      "check": "unique file path and id",
+      "pass_": true
+    },
+    {
+      "check": "positive integer file size",
+      "pass_": true
+    },
+    {
+      "check": "teaching path in frozen six",
+      "pass_": true
+    },
+    {
+      "check": "route matches actual frozen file",
+      "pass_": true
+    },
+    {
+      "check": "route file actual bytes",
+      "pass_": true,
+      "file_id": "gaussian",
+      "bytes": 30594,
+      "sha256": "48f747d12b85ffb468362594ddb0f9a60329271ce770066797f98aa977243951"
+    },
+    {
+      "check": "file fields",
+      "pass_": true
+    },
+    {
+      "check": "file id",
+      "pass_": true
+    },
+    {
+      "check": "file digest",
+      "pass_": true
+    },
+    {
+      "check": "unique file path and id",
+      "pass_": true
+    },
+    {
+      "check": "positive integer file size",
+      "pass_": true
+    },
+    {
+      "check": "teaching path in frozen six",
+      "pass_": true
+    },
+    {
+      "check": "route matches actual frozen file",
+      "pass_": true
+    },
+    {
+      "check": "route file actual bytes",
+      "pass_": true,
+      "file_id": "ray",
+      "bytes": 32937,
+      "sha256": "cd0646d133e98963b96ea10f96ade2528c59fd1a2215cea0fad448c28abd0c61"
+    },
+    {
+      "check": "file fields",
+      "pass_": true
+    },
+    {
+      "check": "file id",
+      "pass_": true
+    },
+    {
+      "check": "file digest",
+      "pass_": true
+    },
+    {
+      "check": "unique file path and id",
+      "pass_": true
+    },
+    {
+      "check": "positive integer file size",
+      "pass_": true
+    },
+    {
+      "check": "teaching path in frozen six",
+      "pass_": true
+    },
+    {
+      "check": "route matches actual frozen file",
+      "pass_": true
+    },
+    {
+      "check": "route file actual bytes",
+      "pass_": true,
+      "file_id": "families",
+      "bytes": 94461,
+      "sha256": "446fd2aff1200e81384520f218e0f371e04d1edd92a75dc0f7bdb6142491b221"
+    },
+    {
+      "check": "route exact full seven files",
+      "pass_": true
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "all baseline before teaching",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "B01"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "B01",
+      "bytes": 22742,
+      "sha256": "ff3b639004160728501d8a0240422bfb1c9eccb33a738285bf0bb2b345cdd209"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "all baseline before teaching",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "B02"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "B02",
+      "bytes": 22420,
+      "sha256": "deee8fb42da3db828000196cdaa51431c81ff234873271a1094f1e64c76ea7aa"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "all baseline before teaching",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "B03"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "B03",
+      "bytes": 22518,
+      "sha256": "df8c08bfaa3d049fb8b79648e623a101d379b20a5baf93ffd081d8d8cb38ea3e"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "all baseline before teaching",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "B04"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "B04",
+      "bytes": 23000,
+      "sha256": "16bc020c98872067669c2e02ad5959e51da92cf01e9a3152d6c0188d22d2fe72"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "all baseline before teaching",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "B05"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "B05",
+      "bytes": 22113,
+      "sha256": "6394a7eb6af83427b45f911978d722cc7c58739cf1f922d73a3489f9a371c02d"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "all baseline before teaching",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "B06"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "B06",
+      "bytes": 22736,
+      "sha256": "47372acae2254877f22af96ef149ac8924ea5a6ba5ff86b0f3369eaaeaa21227"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "all baseline before teaching",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "B07"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "B07",
+      "bytes": 22764,
+      "sha256": "d807437758b76095d199a3547fa295e33a3de95d837c5042195f1ed61153f79a"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "all baseline before teaching",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "B08"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "B08",
+      "bytes": 22926,
+      "sha256": "de82859b360a3e132257bfabfc44ecf187fe51a23548771bc0c8fc2e470f4848"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "all baseline before teaching",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "B09"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "B09",
+      "bytes": 22565,
+      "sha256": "bfa84f492ec1f7e622046af0e48848e6dcc453e82ad7648001cec20562b94059"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "all baseline before teaching",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "B10"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "B10",
+      "bytes": 22739,
+      "sha256": "20452d28636269995d0572875f65bbd5e4d76eb299836001c723d2bd69bfbf8d"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "all baseline before teaching",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "B11"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "B11",
+      "bytes": 21317,
+      "sha256": "37763dfbf42e52ed127bb5246f794392b5c717c440991bd3f3af7f4b75efc8b7"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "M01"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "M01",
+      "bytes": 5102,
+      "sha256": "f132a5bc93704f972f6abff7e79d1fbb2dff82295cf006f86c28786978fbaecf"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "complete actual figure bytes",
+      "pass_": true,
+      "step_id": "F01"
+    },
+    {
+      "check": "receipt id",
+      "pass_": true
+    },
+    {
+      "check": "unique receipt id",
+      "pass_": true
+    },
+    {
+      "check": "fixed external unique receipt path",
+      "pass_": true
+    },
+    {
+      "check": "first-use fields",
+      "pass_": true
+    },
+    {
+      "check": "first-use prior teaching text",
+      "pass_": true
+    },
+    {
+      "check": "no later text before first-use image",
+      "pass_": true,
+      "step_id": "F01"
+    },
+    {
+      "check": "exact one HTML source image reference",
+      "pass_": true,
+      "step_id": "F01",
+      "occurrences": [
+        {
+          "file_id": "main",
+          "start": 4922,
+          "end": 5101
+        }
+      ]
+    },
+    {
+      "check": "source image markup contained in declared first-use text slice",
+      "pass_": true,
+      "step_id": "F01",
+      "text_step_id": "M01",
+      "markup_start": 4922,
+      "markup_end": 5101
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "M02"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "M02",
+      "bytes": 754,
+      "sha256": "36a2f196d348366be80308678db06bbcda1047c6be54c3bf9801afd11c9c05da"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "M03"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "M03",
+      "bytes": 3446,
+      "sha256": "2f51a268850ffc935cf00340f4fae32096bc7e7e100c843bd75e61c59284e7e9"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "M04"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "M04",
+      "bytes": 863,
+      "sha256": "0105768593b46675eaedad842abaeae7f4fff3820f75d05f0134b99bbaeca5c5"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "complete actual figure bytes",
+      "pass_": true,
+      "step_id": "F02"
+    },
+    {
+      "check": "receipt id",
+      "pass_": true
+    },
+    {
+      "check": "unique receipt id",
+      "pass_": true
+    },
+    {
+      "check": "fixed external unique receipt path",
+      "pass_": true
+    },
+    {
+      "check": "first-use fields",
+      "pass_": true
+    },
+    {
+      "check": "first-use prior teaching text",
+      "pass_": true
+    },
+    {
+      "check": "no later text before first-use image",
+      "pass_": true,
+      "step_id": "F02"
+    },
+    {
+      "check": "exact one HTML source image reference",
+      "pass_": true,
+      "step_id": "F02",
+      "occurrences": [
+        {
+          "file_id": "main",
+          "start": 9944,
+          "end": 10164
+        }
+      ]
+    },
+    {
+      "check": "source image markup contained in declared first-use text slice",
+      "pass_": true,
+      "step_id": "F02",
+      "text_step_id": "M04",
+      "markup_start": 9944,
+      "markup_end": 10164
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "M05"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "M05",
+      "bytes": 1851,
+      "sha256": "7f208f70310a66e8abeb34b4e595e8907101df4329ee75561a163a134219771f"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "M06"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "M06",
+      "bytes": 2193,
+      "sha256": "2fbd3e9f0814e4220233a87aeff58cd23d7ab1ef2b3dfd12f77059a073c5dd03"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "complete actual figure bytes",
+      "pass_": true,
+      "step_id": "F03"
+    },
+    {
+      "check": "receipt id",
+      "pass_": true
+    },
+    {
+      "check": "unique receipt id",
+      "pass_": true
+    },
+    {
+      "check": "fixed external unique receipt path",
+      "pass_": true
+    },
+    {
+      "check": "first-use fields",
+      "pass_": true
+    },
+    {
+      "check": "first-use prior teaching text",
+      "pass_": true
+    },
+    {
+      "check": "no later text before first-use image",
+      "pass_": true,
+      "step_id": "F03"
+    },
+    {
+      "check": "exact one HTML source image reference",
+      "pass_": true,
+      "step_id": "F03",
+      "occurrences": [
+        {
+          "file_id": "main",
+          "start": 13963,
+          "end": 14208
+        }
+      ]
+    },
+    {
+      "check": "source image markup contained in declared first-use text slice",
+      "pass_": true,
+      "step_id": "F03",
+      "text_step_id": "M06",
+      "markup_start": 13963,
+      "markup_end": 14208
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "M07"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "M07",
+      "bytes": 1937,
+      "sha256": "29fba86e1f38be693fc7c66ba6a38cb9b054754a1387da383776cd93c42000c0"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "M08"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "M08",
+      "bytes": 1733,
+      "sha256": "3fb96c156deb0a58e862b0c2bfa165f7967142b1faae56a09bc56951694fdc34"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "M09"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "M09",
+      "bytes": 1165,
+      "sha256": "6bcd32f0ede383489bb2e10325ac9d9a7e6124ee0e3f3b92b2fd788f83623381"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "H01"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "H01",
+      "bytes": 795,
+      "sha256": "215c85fb400f4a42235bc79779f5e89b144eadee745e2bb037cf509f33689793"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "H02"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "H02",
+      "bytes": 451,
+      "sha256": "46cb230ddd6bd648c3dffa229d55d1eed9d2d5c8e60c17e84022705852c79177"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "H03"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "H03",
+      "bytes": 448,
+      "sha256": "dbd297a82944fd28fbe5a3302b9c87ef4f1d7ac2db49e7d9e4359b72423b7143"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "H04"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "H04",
+      "bytes": 478,
+      "sha256": "988eb2658e4d964c45aa36391768007e385aeb168a4cc8f789bc721026d18268"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "H05"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "H05",
+      "bytes": 763,
+      "sha256": "25047315b533f5f5273be574ea31a2565a13781adaaab9b4aec7f594735dc4ba"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "S01"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "S01",
+      "bytes": 1248,
+      "sha256": "2cffef6073e9646c3d50bcf4dc589f94d17dd8dea2741f7bcc533fdec691665b"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "S02"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "S02",
+      "bytes": 1078,
+      "sha256": "cd262f088fba38c532573608eab33adc650abd7203d2eb2afc1d4499fbbd5692"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "S03"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "S03",
+      "bytes": 1180,
+      "sha256": "e40df4d026c244984758ecd5ed999825dc49901169f754a4356719ee4c2e7a93"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "S04"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "S04",
+      "bytes": 1719,
+      "sha256": "95994b7688d3f3d3000cd220cf29d664b1585134979fcc4318518afb3bc55f41"
+    },
+    {
+      "check": "known retrieval kind",
+      "pass_": true
+    },
+    {
+      "check": "step fields",
+      "pass_": true
+    },
+    {
+      "check": "step id",
+      "pass_": true
+    },
+    {
+      "check": "step digest",
+      "pass_": true
+    },
+    {
+      "check": "unique valid step id",
+      "pass_": true
+    },
+    {
+      "check": "bounded text range",
+      "pass_": true,
+      "step_id": "S05"
+    },
+    {
+      "check": "actual text slice hash",
+      "pass_": true,
+      "step_id": "S05",
+      "bytes": 1786,
+      "sha256": "70e938a5371d7ce4671e4b974376de4e620e4a80c7f3507689d1ac853d3f4e7f"
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "baseline",
+      "start": 0,
+      "expected_start": 0
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "baseline",
+      "start": 22742,
+      "expected_start": 22742
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "baseline",
+      "start": 45162,
+      "expected_start": 45162
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "baseline",
+      "start": 67680,
+      "expected_start": 67680
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "baseline",
+      "start": 90680,
+      "expected_start": 90680
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "baseline",
+      "start": 112793,
+      "expected_start": 112793
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "baseline",
+      "start": 135529,
+      "expected_start": 135529
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "baseline",
+      "start": 158293,
+      "expected_start": 158293
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "baseline",
+      "start": 181219,
+      "expected_start": 181219
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "baseline",
+      "start": 203784,
+      "expected_start": 203784
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "baseline",
+      "start": 226523,
+      "expected_start": 226523
+    },
+    {
+      "check": "complete exact-once coverage",
+      "pass_": true,
+      "file_id": "baseline",
+      "covered_bytes": 247840
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "main",
+      "start": 0,
+      "expected_start": 0
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "main",
+      "start": 5102,
+      "expected_start": 5102
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "main",
+      "start": 5856,
+      "expected_start": 5856
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "main",
+      "start": 9302,
+      "expected_start": 9302
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "main",
+      "start": 10165,
+      "expected_start": 10165
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "main",
+      "start": 12016,
+      "expected_start": 12016
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "main",
+      "start": 14209,
+      "expected_start": 14209
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "main",
+      "start": 16146,
+      "expected_start": 16146
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "main",
+      "start": 17879,
+      "expected_start": 17879
+    },
+    {
+      "check": "complete exact-once coverage",
+      "pass_": true,
+      "file_id": "main",
+      "covered_bytes": 19044
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "hints",
+      "start": 0,
+      "expected_start": 0
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "hints",
+      "start": 795,
+      "expected_start": 795
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "hints",
+      "start": 1246,
+      "expected_start": 1246
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "hints",
+      "start": 1694,
+      "expected_start": 1694
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "hints",
+      "start": 2172,
+      "expected_start": 2172
+    },
+    {
+      "check": "complete exact-once coverage",
+      "pass_": true,
+      "file_id": "hints",
+      "covered_bytes": 2935
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "solutions",
+      "start": 0,
+      "expected_start": 0
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "solutions",
+      "start": 1248,
+      "expected_start": 1248
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "solutions",
+      "start": 2326,
+      "expected_start": 2326
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "solutions",
+      "start": 3506,
+      "expected_start": 3506
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "solutions",
+      "start": 5225,
+      "expected_start": 5225
+    },
+    {
+      "check": "complete exact-once coverage",
+      "pass_": true,
+      "file_id": "solutions",
+      "covered_bytes": 7011
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "gaussian",
+      "start": 0,
+      "expected_start": 0
+    },
+    {
+      "check": "complete exact-once coverage",
+      "pass_": true,
+      "file_id": "gaussian",
+      "covered_bytes": 30594
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "ray",
+      "start": 0,
+      "expected_start": 0
+    },
+    {
+      "check": "complete exact-once coverage",
+      "pass_": true,
+      "file_id": "ray",
+      "covered_bytes": 32937
+    },
+    {
+      "check": "contiguous ordered coverage",
+      "pass_": true,
+      "file_id": "families",
+      "start": 0,
+      "expected_start": 0
+    },
+    {
+      "check": "complete exact-once coverage",
+      "pass_": true,
+      "file_id": "families",
+      "covered_bytes": 94461
+    },
+    {
+      "check": "revisit fields",
+      "pass_": true
+    },
+    {
+      "check": "revisit id",
+      "pass_": true
+    },
+    {
+      "check": "unique revisit id",
+      "pass_": true
+    },
+    {
+      "check": "revisit confined to bounded initial baseline step",
+      "pass_": true
+    },
+    {
+      "check": "revisit fields",
+      "pass_": true
+    },
+    {
+      "check": "revisit id",
+      "pass_": true
+    },
+    {
+      "check": "unique revisit id",
+      "pass_": true
+    },
+    {
+      "check": "revisit confined to bounded initial baseline step",
+      "pass_": true
+    },
+    {
+      "check": "revisit fields",
+      "pass_": true
+    },
+    {
+      "check": "revisit id",
+      "pass_": true
+    },
+    {
+      "check": "unique revisit id",
+      "pass_": true
+    },
+    {
+      "check": "revisit confined to bounded initial baseline step",
+      "pass_": true
+    },
+    {
+      "check": "revisit fields",
+      "pass_": true
+    },
+    {
+      "check": "revisit id",
+      "pass_": true
+    },
+    {
+      "check": "unique revisit id",
+      "pass_": true
+    },
+    {
+      "check": "revisit confined to bounded initial baseline step",
+      "pass_": true
+    },
+    {
+      "check": "revisit fields",
+      "pass_": true
+    },
+    {
+      "check": "revisit id",
+      "pass_": true
+    },
+    {
+      "check": "unique revisit id",
+      "pass_": true
+    },
+    {
+      "check": "revisit confined to bounded initial baseline step",
+      "pass_": true
+    },
+    {
+      "check": "revisit fields",
+      "pass_": true
+    },
+    {
+      "check": "revisit id",
+      "pass_": true
+    },
+    {
+      "check": "unique revisit id",
+      "pass_": true
+    },
+    {
+      "check": "revisit confined to bounded initial baseline step",
+      "pass_": true
+    },
+    {
+      "check": "revisit fields",
+      "pass_": true
+    },
+    {
+      "check": "revisit id",
+      "pass_": true
+    },
+    {
+      "check": "unique revisit id",
+      "pass_": true
+    },
+    {
+      "check": "revisit confined to bounded initial baseline step",
+      "pass_": true
+    },
+    {
+      "check": "revisit fields",
+      "pass_": true
+    },
+    {
+      "check": "revisit id",
+      "pass_": true
+    },
+    {
+      "check": "unique revisit id",
+      "pass_": true
+    },
+    {
+      "check": "revisit confined to bounded initial baseline step",
+      "pass_": true
+    },
+    {
+      "check": "revisit fields",
+      "pass_": true
+    },
+    {
+      "check": "revisit id",
+      "pass_": true
+    },
+    {
+      "check": "unique revisit id",
+      "pass_": true
+    },
+    {
+      "check": "revisit confined to bounded initial baseline step",
+      "pass_": true
+    },
+    {
+      "check": "revisit fields",
+      "pass_": true
+    },
+    {
+      "check": "revisit id",
+      "pass_": true
+    },
+    {
+      "check": "unique revisit id",
+      "pass_": true
+    },
+    {
+      "check": "revisit confined to bounded initial baseline step",
+      "pass_": true
+    },
+    {
+      "check": "revisit fields",
+      "pass_": true
+    },
+    {
+      "check": "revisit id",
+      "pass_": true
+    },
+    {
+      "check": "unique revisit id",
+      "pass_": true
+    },
+    {
+      "check": "revisit confined to bounded initial baseline step",
+      "pass_": true
+    },
+    {
+      "check": "each baseline step has one declared revisit",
+      "pass_": true
+    },
+    {
+      "check": "independent retrieval and receipt stage counts",
+      "pass_": true
+    }
+  ],
+  "checks_count": 447,
+  "all_checks_pass": true
+}

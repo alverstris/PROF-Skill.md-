@@ -1,0 +1,11 @@
+# Root final disposition: D015 r36
+
+D015 r36 passes the complete current cycle. The frozen six-file teaching remains unchanged. Root's complete source and teaching review, the independent technical review, the original fresh SASIS report, independent final access audit, exact published-byte verification and whole published-destination review establish no demonstrated material failure.
+
+The original SASIS concern about overreading initial-condition selection as a universal uniqueness claim remains preserved and nonblocking for the reasons in reader-semantic-disposition.md. The narrow external-context limits are addressed separately in external-source-verification.md, without changing what either confined reviewer actually accessed. The disclosed preflight ledger anomaly remains unexplained, while every actual reader checkpoint preserves its exact prefix. The post-reading reconstruction edit error remains a disclosed operational transcription, not a manufactured raw result.
+
+The metadata-only r37 candidate passes independent comparison against actual r36 Git bytes: 36 files, 907146 bytes, four changed files containing five metadata/hash lines, 32 unchanged files and all 34 internal hash declarations verified. All instructional bodies are byte-identical. There is no demonstrated cause to repair and no behavioral revision is claimed. Existing successful cases are therefore unaffected by a behavioral change; no additional teaching regeneration is justified by metadata alone.
+
+The sole publisher may publish the unchanged cumulative r37 package and complete evidence, perform actual-byte readback, then record D015 accepted and advance to D016 through the required publication/closure readback sequence. Until that sequence is verified, this acceptance disposition does not claim the moving queue has already changed. The intended resulting count is 16 accepted of 76 eligible, with 60 eligible pending and the same 71 excluded stable IDs.
+
+The next author must start fresh with only the exact verified published complete package, full baseline, original D016 packet, filtered queue and minimal operational handover. It must not receive this disposition, previous teaching, diagnostics, reports, source-review findings or history before freezing its own whole teaching. This is instruction confinement, not a claim of erased model knowledge.

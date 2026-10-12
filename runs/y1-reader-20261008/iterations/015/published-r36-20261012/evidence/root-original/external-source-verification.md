@@ -1,0 +1,9 @@
+# D015 r36 separate external-context verification
+
+This record supplements, without altering, the sealed root whole-teaching report and independent technical report. It records root's actual web retrieval observations from the present review; it is not an original tool-result object.
+
+The exact MIT OpenCourseWare primary lecture PDF at https://ocw.mit.edu/courses/5-61-physical-chemistry-fall-2017/ca914a031c803bf4728976edf1852390_MIT5_61F17_lec9.pdf was opened through web retrieval (reference turn135view0). The retrieved text gives dimensionless ladder operators on printed pages 2–3 and the differential representation on printed page 6. Substitution gives the annihilation operator proportional to d/dx-tilde + x-tilde, as qualified in the teaching. This verifies the contextual association and scaling, not an additional prerequisite for the calculus argument. Screenshot requests were made, but no actual screenshot image was observed by root, so this is a text-based primary-source check only.
+
+The exact original lecture resource at https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec16/ was opened through web retrieval (reference turn137view0). The returned resource identifies Lecture 16, Fall 2006, and instructor Prof. David Jerison. This supports the teaching's source attribution. The original supplied five-page source itself was separately fully reviewed before and after the frozen teaching; the source's specific mathematical corrections and historical review context are addressed in the already sealed source/teaching reports.
+
+The SASIS reader and independent technical reviewer did not verify these external claims within their confined input scopes. Their stated limits remain unchanged. Root's separate source checks close these narrow corroboration items; they do not retroactively expand either reviewer's actual access.

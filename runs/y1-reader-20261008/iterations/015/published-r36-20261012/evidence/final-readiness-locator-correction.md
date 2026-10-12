@@ -1,0 +1,1 @@
+The first final readiness invocation rejected author-supplied evidence line end 17 because the final adjudication has 15 lines. Both original failed JSON results are preserved. Corrected only the evidence locator to the actual final line; no verdict, teaching, dependency, or original report changed. Subsequent readiness results bind the same substantive adjudication bytes.

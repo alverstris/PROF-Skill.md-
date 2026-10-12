@@ -1,0 +1,88 @@
+D015 current r36 whole technical audit
+Reviewer: /root/technical_d015_current
+Date: 2026-10-12
+Final published PROF pin: cb5f12cb9762839fade6841c161cdc8c670894cf
+
+Result
+
+No material mathematical defect was identified in the complete frozen main teaching, hints, solutions, or three figures. Every original mathematical demand and all actual current task parts were compared with independent reconstructions sealed before teaching exposure. The teaching corrects both original-source errors, preserves the lost constant solutions, and distinguishes the relevant graph, differential-equation, geometric-curve, and requested-sign domains. No frozen file was edited.
+
+The core mathematics and its source correspondence pass this technical review. One external contextual citation and an author attribution remain unverified within this reviewer's admitted sources, as detailed below. This report is not an unconditional all-evidence acceptance, a SASIS learner verdict, a live GitHub rendering/navigation verdict, or proof of learning.
+
+Identity and actual scope
+
+Whole freeze: author/whole-freeze.json, SHA256 0f52edf74fe3bf9794a061880c201e423fbc37faa71416828c6c2bf682c2f3bb. All six constituent file sizes, SHA256 hashes and canonical Git blob SHA1 identities independently match the manifest; their total is 186982 bytes. The three text files contain 257, 57 and 157 lines respectively. All were read in full. All three original frozen PNGs were actually passed to view_image at detail original, returned as images, and visually inspected at their native dimensions: 900x500, 900x560 and 900x600. The recorded native image inspection is not a claim about a browser's display of those images.
+
+Current prompts SHA256 8fc93bf77d91aa2a62ef720358be458acab454b58c8104485df89130e247a2f3. All seven task paragraphs, including the Q5 timing paragraph, occur exactly once and byte-for-byte in main.md. These are five question groups and six task parts. They are the same prompts independently solved before any teaching was admitted; no extra generated battery was added.
+
+Earlier admitted evidence remains unchanged: the entire original five-page MIT 18.01 Fall 2006 Lecture 16, all metadata, all five text extractions and original page images; the complete 247840-byte frozen baseline; the published 36-file r36 package and its final-pin equivalence; and independent current-prompt answers. The preparation, package admission, final-pin supplement and answer seals are dependencies of this report. No author checks/reports, root answers, SASIS result, old held audit, sibling teaching or other subject source was opened.
+
+Mathematical and source coverage
+
+1. Source identity and direct integration: original PDF pages 1–2; main.md lines 5, 13–21, 253–255; Q5(a) and its help.
+
+The course, year, lecture number and original lecture resource URL agree with the admitted source identity. The cover is treated as provenance rather than as an extra mathematical topic. The original generic y'=f(x) demand is instantiated by y'=3x^2+1, y(0)=2. The family x^3+x+C, C=2 and derivative 3x^2+1 are correct. The solution/interval and first-order definitions are suitable for the scalar equations studied. An initial condition is used to determine the constant in these examples, without introducing an unsupported general uniqueness theorem. The integral is correctly described as an antiderivative family. Q5(a) later distinguishes this direct method from a y-dependent equation.
+
+2. Operator meaning and Gaussian equation: original PDF page 2 and Figure 1 on page 3; main.md lines 23–77; Q1, hint Q1, solution Q1.
+
+The operator is expanded as y'+xy, not as the derivative of xy or ordinary multiplication. Applying it to u=x^2 gives 2x+x^3. The reading and construction directions are both supplied before its use. Rearrangement gives the correct negative sign in y'=-xy. The chain rule licenses y'/y=(ln|y|)' on a nonzero branch. The separated integrals, constant difference, exponentiation and signed a=±e^C are correct. The division route is explicitly distinguished from recovering a=0 by substitution in the original equation. The independent product-rule check (e^(x^2/2)y)'=e^(x^2/2)(xy+y')=0 proves interval-wise completeness without division by y and rules out unexplained switching of a. The given initial value y(0)=a, particular value 1, positivity, evenness, slope signs and limiting approach to zero agree with the formula. Negative a gives the claimed reflection and positive a rescales its height. These claims were checked against signed and zero cases, not only the pictured positive case.
+
+3. General separation and inverse conditions: original PDF page 3; main.md lines 87–130; Q2 and help.
+
+The correction f=-x, g=y retains F=-x^2/2 consistently. The original f=x assignment would have the wrong sign; the teaching does not reproduce it. Domain checks and g(b)=0 constant solutions precede division. H'=1/g, F'=f, the chain-rule equality and H(y)=F(x)+C are correct on the stated intervals. Continuous f and continuous nonzero g are given as sufficient conditions for these antiderivatives, not as a universal necessary condition. The inverse requires one-to-one H on a selected interval and F(x)+C in its range. The inverse is explicitly separated from the reciprocal, and the branch definition is operational. Differentiating the implicit relation recovers the equation only where the branch and divisor conditions hold. The closing qualification does not falsely assert a complete global uniqueness classification for arbitrary g at its zeros.
+
+The added worked branch example y'=x/y, y(0)=-2 is valid. Integrating yields y^2/2=x^2/2+C and C=2; the selected result is -sqrt(x^2+4). Its derivative -x/sqrt(x^2+4) equals x/y, its initial value is -2, and it stays negative for every real x. The positive branch fails this initial condition; zero is outside the original equation's domain. This is a usable example of the actual inverse/branch decision, not merely a named condition.
+
+4. Constructing the parabola family: original PDF page 4 and Figure 2; main.md lines 140–169; Q3 and help.
+
+The ray slope y/x is derived with x nonzero and the tangent condition becomes y'=2y/x. At (1,1) the two slopes are 1 and 2. The distinction between slopes and angles is correct. Separation retains ln|x|, so exponentiation gives x^2 for either sign of nonzero x. The signed family y=ax^2 and separately recovered a=0 are valid. All listed coefficients, including -2 and 100, are permitted. The corrected member for a=-2 is -2x^2; the original -2y^2 line is not adopted. Direct differentiation and the quotient-rule completeness witness are correct. A coefficient is fixed on each connected solution interval, but independent coefficients may occur on the two components of x≠0. The smooth polynomial extension at the origin is carefully distinguished from satisfying an equation undefined there. The initial point formula a=y0/x0^2 retains x0≠0.
+
+5. Orthogonal trajectories and their interpretation: original PDF page 5 and Figure 3; main.md lines 179–223; Q4 and Q5(b), with all their help.
+
+Differentiation with fixed a gives 2ax; elimination of a gives 2y/x. Taking the negative reciprocal on x≠0, y≠0 yields -x/(2y). The separated integrals preserve both half factors, giving x^2/4+y^2/2=C. Its implicit derivative x/2+yy'=0 returns the required slope. C>0 gives a real nondegenerate ellipse; C=0 is only a point, not an interval solution, and C<0 has no real points. The construction from a scaled unit circle explains the new conic representation and identifies its horizontal and vertical semiaxes 2sqrt(C), sqrt(2C), with ratio sqrt(2). The (1,1) example gives C=3/4, x^2+2y^2=3 and perpendicular slopes 2,-1/2.
+
+The explicit signs in ±sqrt(2C-x^2/2) are fixed graph branches. Each solves the standalone equation on (-2sqrt(C),2sqrt(C)), with y nonzero; the derivation from actual finite-a parabola intersections further excludes x=0. The specified branch through (1,1) therefore has the relevant positive-x portion (0,sqrt(3)). At x-axis endpoints the ellipse has a vertical tangent and is perpendicular to the horizontal zero member of the parabola family. At nonzero y-axis vertices no finite-a parabola passes through the point. A full ellipse is described as geometric continuation, not as one differentiable y(x) around the loop. These qualifications resolve the important axis and domain exceptions rather than hiding them in the figure.
+
+6. Historical exam-review announcement: original PDF page 5; main.md line 255.
+
+All six named topics are preserved: linear/quadratic approximation, curve sketches, extrema, related rates, antiderivatives/separation, and the mean value theorem. The harder-second-exam warning and separate review-sheet reference are correctly treated as historical course context. No questions or theorem premises are invented from the absent review sheet, and no required original problem is lost by not teaching that absent sheet.
+
+All current tasks and matched help
+
+Q1: main 83, hint 13, solution 13–21. The invalid conclusion is diagnosed at division by y. Both y=0 and y=-2e^(-x^2/2), their derivatives and initial values are checked. The hint adds the concrete original-equation substitution and initial-value evaluation. The solution does not claim e^C can equal zero. All real x are valid.
+
+Q2: main 136, hint 21–27, solution 29–50. The hint locates the excluded factor and supplies the separated intermediate relation with a targeted minus-sign cue. The solution obtains -ln|1-y|=x^2/2+C, then y=1+e^(-x^2/2) for the first initial value, and separately checks y=1 for the second. Both derivative and initial checks are present. Strict positivity of the exponential establishes y>1 for every finite real x and justifies its asymptotic approach without finite crossing. Constants in the solution use the alternative 1-y=Ae^(-x^2/2); its A=-1 is equivalent to the independently sealed y=1+Ae^(-x^2/2) convention with A=1.
+
+Q3: main 175, hint 35, solution 58–74. The solution constructs y'=3y/x, retains the absolute value, uses the positive initial y on x<0, and gets y=2|x|^3=-2x^3. Derivative -6x^2 equals 3y/x. At (-1,2) the ray and tangent slopes are -2 and -6. The origin's quotient remains undefined despite a smooth polynomial extension. The excluded zero solution is correctly acknowledged as failing the given point. The hint identifies the consequential negative-x sign rather than revealing only an unexplained answer.
+
+Q4: main 229, hint 43, solution 82–115. The implicit member is x^2/4+y^2/2=3/2, equivalently x^2/6+y^2/3=1. Semiaxes are sqrt(6) and sqrt(3), not full widths. The selected branch is -sqrt(3-x^2/2); strict radicand positivity combined with x>0 gives the requested maximal open interval (0,sqrt(6)). The solution correctly separates the broader square-root domain from this requested restricted interval. At P the slopes are -1 and 1, and the derivative check has the correct positive sign. Both domain boundaries and the full ellipse versus one branch distinction are explained. The hint narrows these exact decisions.
+
+Q5(a): main 245, hint 51, solution 123. The method choice is explained from a right side depending only on x, and x^2+2 satisfies the equation and y(1)=3 on all real x.
+
+Q5(b): main 247, hint 53, solution 125–153. Differentiation of fixed-a reciprocal curves gives -a/x^2, parameter elimination gives -y/x, and the negative reciprocal gives +x/y. Integration gives y^2-x^2=3 through (1,2); the branch is +sqrt(x^2+3) for x>0. The original and new slopes remain finite and nonzero there. At the point they are -2 and 1/2, whose product is -1. The connected steps and the explanation of why the earlier ellipse cannot simply be copied satisfy the changed-family demand. The a=0 member is excluded by the prompt's nonzero-slope qualification, not silently discarded from a claim of universal finite slopes.
+
+All hints add a useful intermediate operation, sign condition or construction; all complete solutions meet the independently sealed response criteria. No hint relies on an otherwise unprovided consequential mathematical premise. The six tasks use real mathematical variables without stated physical units; no missing dimensional data is needed. The complete baseline already supplies ordinary calculus, log/exp, inverse, slope, domain and separation rules, so these do not require artificial re-teaching. New operator notation, branch interpretation and ellipse representation are bridged locally.
+
+Figure inspection
+
+gaussian.png: all ticks, formula legend and canvas margins are readable and complete. The curve is even, positive, peaks at (0,1), and decays on both sides, consistent with the formula and caption. Tiny rendered tails near the axis are not asserted to be exact zeros.
+
+tangent-ray.png: the blue y=x^2 curve, dashed y=x origin line and red tangent y=2x-1 meet at P=(1,1). The tangent intersects the x axis at 1/2 as expected. Equal horizontal and vertical unit scales make the pictured angles meaningful. The point annotation, leader, three legend entries, ticks and edges are legible and uncut.
+
+perpendicular-families.png: positive and negative parabolas and both ellipses have the correct qualitative shape and equal axis scales. The ellipse labels C=0.75 and C=1.5 correspond to horizontal/vertical intercepts (sqrt(3),sqrt(1.5)) and (sqrt(6),sqrt(3)), respectively, matching the observed curves and horizontal elongation by sqrt(2). The caption identifies the zero member on the x axis and retains the domain limits. No y-axis crossing is falsely depicted as an intersection with a finite-a parabola. All legends, ticks and canvas edges are complete and readable.
+
+Supporting checks and evidence boundaries
+
+The mathematical proofs above use differentiation, original-equation substitution, signs, initial values, constant rescaling and domain/end-point reasoning. They were compared with the original-only and exact-prompt independent seals. The pre-exposure answer verification additionally used forward-mode automatic differentiation on eight requested formulas at 37 admissible sample points, plus initial, implicit-identity and geometric checks, all within 1e-12. Those finite checks supplement, and do not replace, the exact all-domain reasoning. The earlier unavailable-SymPy attempt remains honestly recorded in the sealed answer directory; no symbolic-engine success is claimed.
+
+The current static check verifies 47 internal link targets and document-specific fragments, three image references with exported dimensions matching the reserved dimensions, 213 complete inline/display math source expressions, and exact prompt equality. All source math expressions were covered by the full-file semantic reading; their count does not itself prove mathematical correctness. No live destination was opened. The 47 static matches do not certify successful first-use navigation, settled target visibility, browser math rendering, destination typography, or cache behavior. Those remain outside this technical role and must not be inferred from this report.
+
+Narrow unverified external evidence
+
+At main.md line 31, the precise contextual claim about a dimensionless harmonic-oscillator annihilation operator cites MIT 5.61, Lecture 9, pages 2–3 and 6, at the linked Fall 2017 PDF. This specific primary source is not in the admitted source packet, and this reviewer has not opened it. The original D015 source does make the looser quantum-mechanics association; the teaching's wording makes clear that the physical label is not a premise needed to solve the calculus. No mathematical error in the taught calculus follows. The citation's precise page support and identity remain unverified here, rather than failed or falsely certified from its presence.
+
+At main.md line 253, course/year/lecture/URL match the admitted original identity, but the attribution to David Jerison is not independently established by the admitted original pages or identity record. It is unverified within this confinement, not demonstrated false. These two narrow matters can be closed by a separate admission and reading of exact primary-source evidence, preserving this seal; author reports would not substitute for that primary evidence.
+
+Disposition
+
+Whole mathematical review completed without a first-defect stop. No material mathematical failure requiring PROF repair has been established by this audit. The external citation/attribution evidence limit is reported to the root for an exact primary-source admission if closure is required. No frozen teaching changes or publication were performed. Final overall acceptance must combine this bounded technical result with the independently required learner, destination and other review evidence.

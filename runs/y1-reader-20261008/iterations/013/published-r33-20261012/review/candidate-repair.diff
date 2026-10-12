@@ -1,0 +1,92 @@
+--- published/SKILL.md
++++ candidate/SKILL.md
+@@ -2,7 +2,7 @@
+ name: prof
+ description: "Write, revise, extend, or continue teaching documents, study notes, worked solutions, research primers, and programming or language tutorials using Jonathan's evidence-informed requirements. Apply the source research, prerequisite, explanation, practice, and verification workflow to every topic, with durable recovery for long projects. Default to an Overleaf-ready LaTeX project and compiled PDF. Use whenever explicitly invoked; otherwise applies to teaching-document authoring rather than every short subject answer. Explicit PROF self-iteration uses SASIS; ordinary teaching-document work does not invoke that scheme."
+ metadata:
+-  version: "2026-10-12-r33"
++  version: "2026-10-12-r34"
+ ---
+ 
+ # PROF
+--- published/references/sasis/profile-manifest.json
++++ candidate/references/sasis/profile-manifest.json
+@@ -84,7 +84,7 @@
+     "Original raw-source audit cache: C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\outputs\\ocr-baseline-20261007. The skill can be relocated; use its relative baseline/profile paths and official source URLs.",
+     "No new student trial has run under this profile merely because these resources were installed. Verify live editions/placement before claiming freshness for a new run."
+   ],
+-  "protocol_revision": "2026-10-12-r33",
++  "protocol_revision": "2026-10-12-r34",
+   "rewrite_guide": "rewrite-guide.md",
+   "student_input_policy": {
+     "subject_content_inputs": 2,
+@@ -111,8 +111,8 @@
+     "prior_reader_report_is_content": false
+   },
+   "control_file_hashes": {
+-    "student-role.txt": "6d98143c1de5b38bcfb7d350c9110988dae4bcf4e15a2cff925565d9cdef55c4",
+-    "student-testing-contract.txt": "70e49900903a167c058c8cdd056b277ffacff8a933c15358fb9aa747c000ec38",
++    "student-role.txt": "3c575ca7751f9fac1ee4a8cd67273404e689695ae238bd9a01e9def7457abacf",
++    "student-testing-contract.txt": "6448289e900fc124189ff86125ec02a8471026d7ebb83c1a30316584df9a1fb1",
+     "rewrite-guide.md": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
+   },
+   "protocol_update_notes": [
+@@ -121,7 +121,8 @@
+     "This update adds instructions and inspectable records; it does not install a runtime that can erase pretraining or mechanically guarantee semantic compliance. The 2026-10-08-r6 clarification runs no SASIS trials and does not claim an empirically validated improvement.",
+     "2026-10-08-r7 implements Jonathan's explicit correction: SASIS is a dedicated fresh whole-document reader, not a task solver. Original frozen baseline files and their hashes are unchanged. Protocol preparation is not a lecture iteration or evidence of human outcomes.",
+     "2026-10-08-r8 records the explicitly authorised fully-readable-subset traversal and rolling closure version convention. The four-subject baseline, reader contract, reader role, rewrite guide and ordinary teaching obligations are unchanged. The selection/control update changes no D001 teaching dependency.",
+-    "2026-10-10-r24 implements Jonathan's explicit correction: always repair PROF for verified failures, preserve generated documents unchanged, push and verify revised root PROF before new generation, and restart with fresh agent contexts carrying only operational task state. All frozen baseline payloads and the reader operating instruction remain unchanged. Historical accepted documents and local-patch evidence retain their original status and are not retroactively relabelled."
++    "2026-10-10-r24 implements Jonathan's explicit correction: always repair PROF for verified failures, preserve generated documents unchanged, push and verify revised root PROF before new generation, and restart with fresh agent contexts carrying only operational task state. All frozen baseline payloads and the reader operating instruction remain unchanged. Historical accepted documents and local-patch evidence retain their original status and are not retroactively relabelled.",
++    "2026-10-12-r34 requires an orchestrator-prepared fixed route-bound retrieval launcher, preflighted on non-subject fixtures, to separate executable commands from subject paths and reject invalid next-step requests before subject access. Actual bounded access and figure-view receipts remain required; instruction confinement is not technical isolation. Frozen baseline and teaching evidence are unchanged; fresh generation and reading remain pending."
+   ],
+   "iteration_repair_policy": {
+     "repair_target": "PROF operative instructions and execution requirements for every independently verified material failure",
+--- published/references/sasis/student-role.txt
++++ candidate/references/sasis/student-role.txt
+@@ -14,7 +14,7 @@
+ 
+ Read sequentially
+ 
+-When exact routing metadata is supplied, retrieve only its next text slice or complete figure before advancing. Do not guess boundaries or include later sections in a larger read. Inspect each figure at its listed first-use position. Log actual ordered access and disclose any early exposure or delayed figure inspection; rereading does not restore first exposure.
++When exact routing metadata is supplied, use only the fixed launcher command supplied for this reading, followed by its next scheduled step ID or a predeclared revisit ID for an already-read baseline chunk. A baseline revisit must not advance the document route. Do not add subject paths, ranges or interpreter commands; never execute, import, evaluate or compile an input file. If the launcher fails, preserve the exact call/result and report the access limit instead of improvising another retrieval command. Retrieve only that authorized bounded text slice or complete figure; advance the document only through its scheduled route. Do not guess boundaries or include later sections in a larger read. Inspect each figure at its listed first-use position, record the actual view-tool result through the scheduled receipt stage, and only then advance. Log actual ordered access and disclose any early exposure or delayed figure inspection; rereading does not restore first exposure.
+ 
+ At every substantive definition, claim, equation, diagram, example and transition, check:
+ 1. Meaning: what the relevant words, referents, objects, symbols and representations denote; consequential grouping, conditions, units and domains.
+--- published/references/sasis/student-testing-contract.txt
++++ candidate/references/sasis/student-testing-contract.txt
+@@ -1,4 +1,4 @@
+-SASIS reader contract — revision 2026-10-11-r31
++SASIS reader contract — revision 2026-10-12-r34
+ 
+ Purpose
+ 
+@@ -22,7 +22,7 @@
+ 
+ Use verified complete text delivery or explicitly labelled instruction-confined read-only retrieval of the two full artifacts. Prefer technical confinement when available, but do not claim shared-tool agents provide it. Under an instruction whitelist, fetch only the exact baseline/document artifacts; log actual access ranges and failures. Read the complete baseline in coherent chunks and inspect the whole document in order. Do not claim everything was simultaneously in context.
+ 
+-For linked or interleaved retrieval, supply the exact ordered, subject-free file/range/figure route required by sasis.md. Compare the actual access sequence and complete coverage before admission. Preserve order deviations; complete the audit and use a fresh reader after routing repair, without changing the frozen teaching.
++For linked or interleaved retrieval, supply the exact ordered, subject-free file/range/figure route required by sasis.md. Prepare and synthetically preflight its fixed launcher before dispatch. Reader invocations use only that launcher and the next scheduled step ID or a predeclared bounded revisit ID for an already-read baseline chunk; baseline revisits do not move the document cursor and may not expose unread baseline or future teaching; validate arguments/order before subject access, read bounded binary data rather than executing subject files, and require actual figure-view receipts before advancing. Preserve the instrumented rejection checks and actual runtime access ledger; this checks launcher operation, not technical isolation. Compare the actual access sequence and complete coverage before admission. Preserve order deviations; complete the audit and use a fresh reader after routing repair, without changing the frozen teaching.
+ 
+ A path, hash, window-size guess or acknowledgement is not delivery evidence. Missing, mismatched, truncated or unreadable input blocks substantive admission. A dispatch to establish access is provisional until evidence establishes the complete inputs were available/read. If it fails, preserve an input failure, not a teaching judgement, repair access, and start a fresh condition. Never silently shorten the baseline. Verified unauthorised subject access invalidates the affected reading.
+ 
+--- published/references/sasis.md
++++ candidate/references/sasis.md
+@@ -1,6 +1,6 @@
+ # SASIS — dedicated reader protocol
+ 
+-Protocol revision: 2026-10-11-r31.
++Protocol revision: 2026-10-12-r34.
+ 
+ ## Purpose and activation
+ 
+@@ -35,6 +35,10 @@
+ Use complete full-text delivery when its actual extent can be established. A link, hash, claimed window size or acknowledgement alone does not establish complete delivery. Alternatively use an explicitly labelled instruction-confined read-only retrieval condition: both complete immutable artifacts are available, the reader may fetch only those artifacts, and its access ranges/results are logged. It must inspect the whole document in order and read the full baseline in coherent retrievable chunks. It may re-fetch the authorised baseline when needed. Do not claim that all bytes were simultaneously in context.
+ 
+ For retrieval of linked or interleaved teaching, prepare an exact ordered route before dispatch: file identities, byte or line ranges with their convention, and each complete figure at its first-use position. Verify that the route covers every text byte and constituent, including prompts, help and endings, without exposing a later section early. Supply this subject-free routing metadata, not excerpts, answers or findings, alongside the two subject inputs. The reader retrieves only the next bounded slice or figure, records its actual access, and then advances; do not guess heading boundaries or batch across a scheduled exercise or figure. Before admitting chronological evidence, compare actual ordered access with that route as well as total coverage. Preserve accidental early exposure or delayed required figure access as a reader-procedure failure; rereading cannot restore first exposure. Complete the audit, repair routing, and dispatch a fresh reader on the unchanged frozen inputs. This recovery does not repair a teaching defect or waive the publication-first fresh-generation rule for a verified material iteration failure.
++
++Before retrieval dispatch, the orchestrator prepares and validates one fixed route-bound launcher. Each reader command consists only of that launcher and a permitted step ID; subject paths and byte ranges are resolved from the frozen route, never supplied in a per-step interpreter or executable position. A permitted ID is the next scheduled step or a predeclared bounded baseline-revisit ID whose initial baseline chunk has already been read. A baseline revisit does not advance the document cursor, and no future teaching access is allowed. Complete the initial baseline route before teaching. Before opening subject files, reject extra arguments, unknown or out-of-order steps, invalid types/ranges and mismatched route identity. Read text as binary data with a bounded seek/read, verify the exact returned range and its expected hash, and append an actual-access receipt before returning content. Never execute, import, evaluate or compile a subject file to retrieve it. For a figure, return the complete identified image and hold advancement until its actual view-tool result is recorded at the scheduled inspection stage; a checksum or image path alone is not a view. Preserve unsuccessful calls and distinguish internal byte access from content actually displayed.
++
++Preflight the same launcher and invocation shape with non-subject synthetic fixtures: a valid next slice returns only its exact bytes; wrong arguments, a skipped step and an unknown step fail before any subject-file open; a figure cannot be bypassed without its actual view invocation/result receipt; an already-read baseline revisit succeeds without moving the document cursor and a not-yet-read baseline revisit fails before subject access. Record the instrumented open/access evidence, then compare the reader's actual ordered ledger, returned hashes and figure tool receipts with the whole frozen route before admission. The launcher reduces executable/data confusion and checks its own calls; it is not a technical boundary against other available tools, and a recorded view receipt alone does not prove semantic inspection. A verified material runner failure follows the PROF repair and publication-first fresh-generation rule even if visible diagnostic output contains only previously read text.
+ 
+ Shared tools remain technically available unless the runtime truly restricts them. State that an instruction whitelist is not a technical access boundary or erasure of pretraining. Do not invent memory controls or capacity figures. Every consequential connection must be traceable to permitted content regardless of how familiar the answer seems.
+ 

@@ -1,0 +1,669 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "actual": 2,
+      "check": "unknown/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "unknown/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "unknown/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "unknown/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "skipped/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "skipped/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "skipped/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "skipped/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "extra_argument/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "extra_argument/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "extra_argument/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "extra_argument/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "missing_argument/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "missing_argument/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "missing_argument/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "missing_argument/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "path_argument/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "path_argument/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "path_argument/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "path_argument/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "unread_baseline_revisit/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "unread_baseline_revisit/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "unread_baseline_revisit/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "unread_baseline_revisit/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "ordinary_repeated/call-01:exit",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "check": "ordinary_repeated/call-01:subject_opens",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "check": "ordinary_repeated/call-01:exact_stdout",
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "ordinary_repeated/call-02:exit",
+      "passed": true
+    },
+    {
+      "check": "ordinary_repeated/call-02:rejection",
+      "passed": true
+    },
+    {
+      "check": "ordinary_repeated/call-02:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "ordinary_repeated/call-02:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "range_type/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "range_type/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "range_type/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "range_type/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "range_negative/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "range_negative/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "range_negative/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "range_negative/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "range_past_pin/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "range_past_pin/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "range_past_pin/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "range_past_pin/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "range_over_cap/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "range_over_cap/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "range_over_cap/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "range_over_cap/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "hash_syntax/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "hash_syntax/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "hash_syntax/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "hash_syntax/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "unknown_type/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "unknown_type/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "unknown_type/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "unknown_type/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "filename_traversal/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "filename_traversal/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "filename_traversal/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "filename_traversal/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "future_teaching_revisit/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "future_teaching_revisit/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "future_teaching_revisit/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "future_teaching_revisit/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "baseline_after_teaching/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "baseline_after_teaching/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "baseline_after_teaching/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "baseline_after_teaching/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "later_bad_hash/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "later_bad_hash/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "later_bad_hash/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "later_bad_hash/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "route_pin_mismatch/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "route_pin_mismatch/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "route_pin_mismatch/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "route_pin_mismatch/call-01:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "actual_bounds_mismatch/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "actual_bounds_mismatch/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "actual_bounds_mismatch/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "check": "actual_bounds_mismatch/call-01:subject_opens",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "check": "truncated_read_has_actual_range_hash",
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "actual_hash_mismatch/call-01:exit",
+      "passed": true
+    },
+    {
+      "check": "actual_hash_mismatch/call-01:rejection",
+      "passed": true
+    },
+    {
+      "check": "actual_hash_mismatch/call-01:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "check": "actual_hash_mismatch/call-01:subject_opens",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "check": "hash_mismatch_records_actual_hash",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "oversized_figure/call-01:exit",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "check": "oversized_figure/call-01:subject_opens",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "check": "oversized_figure/call-01:exact_stdout",
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "oversized_figure/call-02:exit",
+      "passed": true
+    },
+    {
+      "check": "oversized_figure/call-02:rejection",
+      "passed": true
+    },
+    {
+      "check": "oversized_figure/call-02:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "check": "oversized_figure/call-02:subject_opens",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "check": "bad_figure_not_delivered",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "complete_route/call-01:exit",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "check": "complete_route/call-01:subject_opens",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "check": "complete_route/call-01:exact_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "complete_route/call-02:exit",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "check": "complete_route/call-02:subject_opens",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "check": "complete_route/call-02:exact_stdout",
+      "passed": true
+    },
+    {
+      "check": "baseline_revisit_cursor_unchanged",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "complete_route/call-03:exit",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "check": "complete_route/call-03:subject_opens",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "check": "complete_exact_image",
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "complete_route/call-04:exit",
+      "passed": true
+    },
+    {
+      "check": "complete_route/call-04:rejection",
+      "passed": true
+    },
+    {
+      "check": "complete_route/call-04:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "complete_route/call-04:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "complete_route/call-05:exit",
+      "passed": true
+    },
+    {
+      "check": "complete_route/call-05:rejection",
+      "passed": true
+    },
+    {
+      "check": "complete_route/call-05:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "complete_route/call-05:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "complete_route/call-06:exit",
+      "passed": true
+    },
+    {
+      "check": "complete_route/call-06:rejection",
+      "passed": true
+    },
+    {
+      "check": "complete_route/call-06:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "complete_route/call-06:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "complete_route/call-07:exit",
+      "passed": true
+    },
+    {
+      "check": "complete_route/call-07:rejection",
+      "passed": true
+    },
+    {
+      "check": "complete_route/call-07:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "complete_route/call-07:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "complete_route/call-08:exit",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "complete_route/call-08:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "complete_route/call-09:exit",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "check": "complete_route/call-09:subject_opens",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "check": "complete_route/call-09:exact_stdout",
+      "passed": true
+    },
+    {
+      "actual": 2,
+      "check": "complete_route/call-10:exit",
+      "passed": true
+    },
+    {
+      "check": "complete_route/call-10:rejection",
+      "passed": true
+    },
+    {
+      "check": "complete_route/call-10:no_stdout",
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "complete_route/call-10:subject_opens",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "check": "complete_route/call-11:exit",
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "check": "complete_route/call-11:subject_opens",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "check": "complete_route/call-11:exact_stdout",
+      "passed": true
+    },
+    {
+      "check": "post_route_revisit_cursor_unchanged",
+      "passed": true
+    },
+    {
+      "actual": [
+        "text-01",
+        "text-01",
+        "figure-01",
+        "text-02",
+        "text-01"
+      ],
+      "check": "complete_route_read_order",
+      "passed": true
+    },
+    {
+      "check": "durable_hash_before_emission_5",
+      "passed": true
+    },
+    {
+      "check": "durable_hash_before_emission_12",
+      "passed": true
+    },
+    {
+      "check": "durable_hash_before_emission_34",
+      "passed": true
+    },
+    {
+      "check": "durable_hash_before_emission_42",
+      "passed": true
+    },
+    {
+      "check": "complete_cursor",
+      "passed": true
+    }
+  ],
+  "checks_count": 138,
+  "error": null,
+  "test_receipts": "Synthetic acknowledgements test only parsing/order; live/ records a real view tool call separately."
+}

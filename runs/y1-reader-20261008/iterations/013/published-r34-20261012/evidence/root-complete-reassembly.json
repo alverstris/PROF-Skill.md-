@@ -1,0 +1,22 @@
+{
+  "archive_filename": "root-complete.zip",
+  "archive_bytes": 10952306,
+  "archive_sha256": "199f4675ac2d231e37c67c811a80fe9bc356c1b521f61cdff6deb47688d96498",
+  "reassembly": "Concatenate raw part files in ascending ordinal; verify original byte length and SHA256 before opening ZIP.",
+  "parts": [
+    {
+      "ordinal": 1,
+      "filename": "root-complete.part-001.bin",
+      "offset": 0,
+      "bytes": 7000000,
+      "sha256": "272c4c61a18b072b77c9ce20bd65e43b67d7df16f43855208c055cfc3f2be405"
+    },
+    {
+      "ordinal": 2,
+      "filename": "root-complete.part-002.bin",
+      "offset": 7000000,
+      "bytes": 3952306,
+      "sha256": "d6d6937cf718a027ec5cb28ae60f581b9a624c15d636ac3f4872892abbe03018"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+# Original SASIS report: frozen D013-r34
+
+Route: D013-r34-reader-01. Teaching revision ce407f3f2a5276700e61f43d7d1c371b9f452121. Baseline SHA256 3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5. This is the original report, written before any subject-matter author feedback. Admission remains provisional until the parent compares the complete route with its actual access ledger and figure receipts.
+
+## Finding
+
+I found no established substantive teaching gap or invalid mathematical connection in the complete supplied lesson. The meanings, condition checks, proof, examples, exercises, hints and solutions are reconstructible from the complete operational baseline and earlier teaching at each point. This is a document audit, not a student score, evidence of human learning, or a claim that every latent defect has been discovered.
+
+The main dependency chain is explicit and supported. T001 introduces continuity and differentiability with their distinct endpoint requirements. T004 declares the extreme value theorem as an unproved premise, constructs the endpoint secant, subtracts it, obtains an interior attained extremum, and derives a zero derivative from the signs of the two one-sided quotients. Thus its MVT proof does not silently depend on a missing attainment argument. B001 supplies difference quotients, elementary limits in first-principles differentiation, line equations and inequality arithmetic; the new attainment theorem is intelligibly stated rather than presupposed by name.
+
+T004–T006 distinguish two failures: the modulus corner lacks the common derivative limit, while the reassigned endpoint lacks endpoint continuity. T007–T009 keep the exact intermediate derivative separate from the anchor derivative in a local tangent estimate, account for signed error, and disprove a universal midpoint rule by the cubic example. The route-speed example states the forward-motion and regularity assumptions needed to identify the route derivative with speed rather than silently exchange distance and displacement.
+
+T010–T011 establish global monotonicity or constancy by choosing arbitrary endpoints in one interval. They also explain why zero derivative on two separate intervals does not force their constants to agree. T012–T014 give the exponential inequalities through successive positive derivative differences and zero anchors, with strictness confined to positive inputs. The exponential series is separately warranted by B003 FM27 and explicitly not inferred from finite lower bounds alone. T015 and T030 correctly orient the anchor comparison for negative logarithmic inputs and preserve the real domain t>−1.
+
+All six exercise demands were reconstructible when first encountered, before hints and solutions. Their later help confirms rather than supplies missing premises to those earlier judgments. The chronological witness file records the actual premise, supported connection and conclusion at each of T001–T030 and at all three figures.
+
+## Established defects
+
+None established in the subject-content reasoning. No mathematical dependency was left blocked or conditional on an unsupplied external result. The explicitly assumed extreme value theorem remains a declared teaching premise, as permitted by the audit instructions; its independent proof is outside this lesson's stated scope.
+
+## Provisional presentation concern
+
+In the actual F003 display, the bottom horizontal-axis label appeared close to or partly clipped by the image edge. This is a provisional visual observation, not an established missing mathematical premise: horizontal ticks, the curve/tangent legend, marked anchor, explicit heights and the caption identify the input and compared values. The error arrow is visibly offset horizontally for label space, but the caption explicitly says it compares heights at x=1.8, and the two labelled heights agree with the algebra. No conclusion was blocked. F001 and F002 were legible and their geometry agreed with the preceding calculations.
+
+## Input coverage and access limitations
+
+The full baseline was received through B001–B009: bytes 0–247840, with no reported truncation. The entire teaching text was received in fixed order: main bytes 0–20233, hints 0–2513 and solutions 0–6836. All three complete PNGs were displayed through actual tools.view_image calls with detail original at their first-use positions, before their receipt stages and before later text. No baseline revisit, external link, source file, author history, earlier revision, search or browsing was used. Only the supplied operating files, fixed subject route and authorized operational/report outputs were accessed.
+
+There was one recovered operational rejection. First V001 returned exactly `REJECTED: view receipt: incorrect object fields`, exit 2, because my receipt included an extra tool_call_id_kind field. No later subject content was exposed by that rejection. The corrected receipt removed only that field and retained the actual original view identity, time and result metadata. After the parent's explicit operational recovery authorization, the same fixed V001 command was accepted. The original malformed receipt values and original serialization are preserved in F001-original-rejected-receipt.json; the first receipt had already been overwritten in its fixed location, so this report copy was regenerated from the retained original actual tool result and the original object/serialization, rather than copied from that overwritten path. The exact rejection and recovery are retained separately. V002 and V003 were accepted on their first attempts.
+
+All baseline calls used command output limit 12000 and functions.exec output limit 14000. All teaching text and receipt calls used command limit 10000 and functions.exec limit 11000. F002's dispatch was inside one functions.exec call without an explicit outer override, hence its default outer limit was 10000 rather than 11000; it returned only 118 tokens of operational metadata, with no truncation or subject text. F001/F003 dispatches used 11000. This deviation is disclosed rather than silently replaced by an intended limit.
+
+Figure receipts store the actual data-URL length and SHA256, original detail and completion time. Their call IDs are explicit unique correlation labels tied to the actual calls, not platform-issued identifiers. The returned MIME wrapper was application/octet-stream for all three images. The launcher reports semantic_inspection_proven:false: its receipt validates tool-result metadata and does not itself prove semantic inspection. The actual displayed images and the separate reconstruction witnesses are the evidence of the reading performed. No unavailable technical confinement or erased pretraining is claimed.
+
+The frozen notes' statements about their source or its printed typo were not independently checked against external source material, which was not an authorized input. This limits source-fidelity validation, not reconstruction of the supplied lesson's mathematics.

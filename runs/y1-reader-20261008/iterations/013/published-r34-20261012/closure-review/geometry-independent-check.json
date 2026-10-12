@@ -1,0 +1,47 @@
+{
+  "raw_files_sha256_verified": [
+    {
+      "path": "d013-r34-newpin-image-loading.json",
+      "bytes": 1858,
+      "sha256": "827ebb8ff13095be20730519f89a829dc896588bd88b96c5f5acd30b4e143e40"
+    },
+    {
+      "path": "d013-r34-geometry-unresolved.json",
+      "bytes": 4996,
+      "sha256": "fe8221577ff107b126600dac817c90031368e2fed92d05de307187ef38b84d61"
+    },
+    {
+      "path": "d013-r34-geometry-unresolved-settled.json",
+      "bytes": 4943,
+      "sha256": "9580126ae4fd4c207ea64b34aff6bdcbe72427b13391f76fc196590799c5e056"
+    },
+    {
+      "path": "d013-r34-geometry-loaded.json",
+      "bytes": 4925,
+      "sha256": "4a1f58659239d3c041ad35a3809cb90a5b6e9a3fc655f495c7005e81c18abe9e"
+    },
+    {
+      "path": "d013-r34-geometry-loaded-settled.json",
+      "bytes": 5110,
+      "sha256": "4acd247ee5e5a378aa7b6710d3df1ebab4af70f6280bdad246a73fc209f33fa8"
+    }
+  ],
+  "all3valid_images_pending_then_loaded": true,
+  "pending_boxes": [
+    960,
+    564
+  ],
+  "loaded_ratio_error_under_pixels": 0.01,
+  "article_widths": [
+    1012,
+    929
+  ],
+  "limits": [
+    "Initial direct newpin main capture already loaded; no pending claim for that capture.",
+    "Unresolved arm first image already failed and displayed a 48px alt box while two pending boxes reserved564px. Failed image collapse is preserved and not equated with pending state. All actual frozen assets exist and loaded.",
+    "GitHub hydration narrowed article1012 to929 pixels between valid-image captures. Absolute target coordinates differ; proportional image geometry and22px following gap are verified, not absence of every page layout shift.",
+    "No cache-empty or universal network-timing claim.",
+    "Initial localcopy attempt usedwrongcwd and failed before copying; corrected shared-browser mapping /workspace/scratch used actual original bytes."
+  ],
+  "semantic_basis": "Actual captured pending and loaded states, not inferred from a failed image or a repeat first-use navigation."
+}

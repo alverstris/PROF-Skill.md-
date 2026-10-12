@@ -1,0 +1,49 @@
+D013 r34 root review
+
+Scope and preserved identities
+
+This review concerns the complete fresh teaching frozen by manifest SHA256 2d3abafb01909b498bd74709f4c279499215ed4c1f8668520aca65c8bfdc97fb: main, hints, solutions and three figures, six files totalling 206702 bytes. Teaching was published at ce407f3f2a5276700e61f43d7d1c371b9f452121. PROF r34 was admitted from the full published package, 36 files and all 34 internal declarations, rather than the installed skill. Root is not a fresh-context reader. Fresh author, SASIS reader and independent technical reviewer have separate recorded admissions.
+
+Root solved all six prompts before reading the new teaching and sealed those calculations. Root then read the complete main, hints and solutions, inspected each original-resolution figure and read the complete independent technical review and its 30-unit source coverage. The technical reviewer had read all five original source pages and all baseline bytes, solved the fresh prompts independently before teaching admission, and then reviewed all six frozen constituents. No material mathematical or source-coverage failure was found.
+
+Mathematical and teaching adjudication
+
+The lesson defines continuity with correct one-sided endpoint roles and finite two-sided differentiability. The extreme value theorem is an explicit unproved premise, not silently assumed baseline knowledge. Subtracting the secant, attainment of an interior extremum, and the one-sided quotient signs justify the mean value theorem under that premise. The identically zero difference is separately handled. The cusp example correctly distinguishes contact from differentiability, and the reassigned endpoint exercise isolates continuity rather than contradicting the theorem.
+
+The motion application qualifies forward motion so speed is the derivative of the route coordinate and obtains 1000/3 miles per hour. Exact mean-value change, tangent approximation and signed error remain distinct. The cubic transfer has secant 7, admissible c=sqrt(7/3), estimate 4, exact value 8 and error 4; the midpoint does not supply the required slope. The left-of-anchor formula is correctly reoriented.
+
+Monotonicity is justified for an arbitrary pair in one interval. A disconnected-domain example shows why two locally constant pieces need not be globally constant. Each exponential comparison uses a derivative sign on the connecting interval together with a zero anchor. The fourth-degree exercise follows the previous finite comparison. Finite lower bounds are not presented as a convergence proof; the real exponential series is separately present in the full Further Mathematics baseline, FM27. Logarithm transfer checks the domain, both positive-side comparisons, the negative-side upper bound and equality at zero.
+
+All six questions have usable preceding premises and matched hints and complete solutions. Hints were not counted as prior teaching in the chronological SASIS analysis. Practice changes the examples and requires condition checks, proofs and transfer rather than repeating one calculation. A later revisit is suggested without claiming observed mastery or a guaranteed learning effect.
+
+Root checked the relevant external claims against the actual OpenStax continuity section, OpenStax extreme value theorem and MIT 18.100A Lecture 19 theorems 4–7. This was a check of those claims, not a claim to have read all surrounding chapters. Independent technical review appropriately did not claim to have opened these external citations.
+
+Fresh SASIS review
+
+Root read the entire 518-line fixed launcher, its synthetic preflight report, the original final reader report, all 24214 bytes of chronological witness prose, access-event notes, figure-receipt limitations and the original six-file report seal. An initial context-truncated witness read was recovered in three complete adjacent character intervals; no unreceived text was counted as read.
+
+The reader reports complete baseline-first access, then 30 teaching text steps with each of three actual figure views at its first use, before subsequent text. It reconstructs the important inferences and solves the exercise demands before later hints and solutions. No substantive teaching gap is established. The provisional report of Figure 3's bottom-axis clipping is not confirmed by root and independent visual inspection of the exact original PNG: the full label and canvas edge are visible. The original provisional observation remains preserved unchanged.
+
+One V001 receipt containing an extra field was rejected before subject access. Same-step correction removed that field and retained the actual figure result. The overwritten rejected receipt was later reconstructed from retained state; it is not represented as a preserved original file. The original rejection event remains in the ledger. F002 used a default outer output budget for its 118-token operational dispatch; it did not truncate or retrieve extra teaching. The reader's metadata receipts explicitly do not prove semantic inspection or technical isolation. Independent raw-ledger and original-result verification is recorded separately before final admission.
+
+Destination preservation and use
+
+The complete frozen source was compared with actual GitHub article DOM, preserving all 333 expressions (209 main, 14 hints, 110 solutions), including operators, operands and grouping. The comparison also covers 23939 normalized prose characters, image alt text, declared dimensions and all 46 links. A separate source audit verifies all 42 local links against 18 document-specific anchors; four external links remain external. Parsed-content preservation is distinct from visual inspection and navigation.
+
+The initial capture schema represented display mode using the native MathML attribute; a recorded adaptation obtains the renderer class from the same captured article HTML and leaves all MathML and prose unchanged. The comparison tool was narrowly extended for the observed 960-by-564 dimensions and self-closing img tags. It still rejects an unwitnessed dimension, extra image attribute and unsupported live style. These are tool compatibility changes, not PROF repairs or teaching edits.
+
+Eleven real click routes were inspected after settlement: a first-use later-question return from hints before visiting the new main or image URLs, six later-question routes and four early-question routes. All intended targets were fully visible below the toolbar. Immediate old-page or offscreen states remain recorded and are not counted as passing settled observations. No cache-empty or universal timing claim is made.
+
+The additional geometry fixture at 34e3ee3a2ad66df03d1dcd99dddc4858e10adb90 actually caught all three original images pending, with complete=false and zero natural dimensions, already reserving 960-by-564 boxes. Later all three loaded with their exact intrinsic 960-by-564 dimensions and proportional 929-by-545.78125 boxes (rounding error under 0.01 pixels). Following paragraphs remain 22 pixels after the corresponding image in both observations. GitHub hydration narrowed the article between captures, so absolute target coordinates are not claimed unchanged. The alternate deliberately missing-image arm records failed-image alt-box collapse separately; this is not the pending state, and all frozen teaching assets exist and loaded. The fixture never modified frozen teaching.
+
+Visual inspection
+
+Root and the independent visual reviewer inspected all three native figures and the entire published main, hints and solutions at readable size. The reviewer used 13 overlapping full-width crops with complete page coverage. Two strips initially obscured by GitHub's toolbar were recovered in ordinary viewport captures: the motion explanation and the fifth solution. The restored motion capture uses the identical cached browser screenshot bytes after a shared-directory mapping issue; it is not a later reconstructed picture. Figure 3's parabola crosses part of the estimate label but the value 2.60 remains identifiable; its caption, legend and neighboring comparison supply the same quantity unambiguously. This is a minor presentation observation, not a material blocked inference.
+
+Decision boundary
+
+Content, technical correctness, visual quality, mathematical destination preservation, navigation and actual pending/loaded image geometry pass for this exact freeze. The independent raw reader audit also passed: 486 hash-linked events, 46 calls, 45 successful stages, exact baseline and teaching text coverage, all three original result data URLs decoded to the frozen PNGs, and no subject access/output/commit in the rejected call. Root read its complete report and verified its five sealed outputs. Its detailed machine records were machine-parsed and hash-checked, not claimed as a fully received prose read after an oversized display truncated. Full Git blob readback verified the five checkpoint files, unchanged package and teaching, and the three geometry fixture files. These checks complete final admission, with the limits in root-independent-reader-mechanics/report.md retained.
+
+D013 is accepted at this exact freeze. No new material PROF defect has been demonstrated by this attempt. The subsequent rolling version increment under the existing workflow convention is case-closure metadata only and must preserve all instruction bodies. The original reports, warnings and failed diagnostic states remain evidence; none has been edited to create a pass.
+
+This is an AI review of a document and its delivery, not evidence of student mastery, measured learning gains, universal browser behavior, an erased parent memory or a runtime security sandbox. Case closure and continuation require the exact published checkpoint and a fresh author admitted only to the new package, original inputs, full baseline and minimal operational handover.

@@ -1,0 +1,14 @@
+D013 r33 exercise prompts only
+All five prompts are generated for this lesson, not quoted examination questions.
+
+P1. Use the mean value theorem for f(x)=x^3 on [0,1]. Check its two hypotheses, calculate the secant slope, find every c in (0,1) whose tangent has that slope, and explain why the theorem guarantees at least one such c but does not generally guarantee uniqueness. A complete response includes the interval check for any candidate c.
+
+P2. Decide what the mean value theorem can establish in each case, giving a calculation or counterexample rather than only naming a missing hypothesis. (a) g(x)=|x-1| on [0,3]: compare its secant slope with all derivative values where the derivative exists. (b) r(x)=0 for x<0 and r(x)=1 for x>0, with domain all nonzero real numbers: r'(x)=0 everywhere in its domain. Is r constant on that entire domain? Explain precisely why the constant-function consequence of the theorem does or does not apply between -1 and 1.
+
+P3. Let f(x)=sqrt(x), a=4 and x=4.04. Construct the tangent-line approximation L(4.04). Write the exact mean-value identity with its unknown c and interval. Use the derivative values on (4,4.04) to prove
+2+0.04/(2sqrt(4.04)) < sqrt(4.04) < 2.01.
+State whether L(4.04) overestimates or underestimates the true value. Exact radical expressions are sufficient; no calculator value of sqrt(4.04) is needed. Your reasoning must distinguish the slope at a from the slope at c.
+
+P4. Establish ln(1+x)<x first for x>0 and then for -1<x<0 by a derivative-sign comparison with the value at zero. State the domain and the equality case. Explain how a negative derivative on (-1,0) can still establish that x-ln(1+x) is positive there. Give a connected argument identifying the compared function, its derivative, and the order of the two inputs used in the comparison.
+
+P5. Revisit this after a break, with the earlier derivations covered if useful. State the mean value theorem and explain why its unknown c can still establish an inequality. Then let P_n(x)=sum_{k=0}^n x^k/k!, where n is a nonnegative integer and 0!=1. Using e^x>0, (e^x)'=e^x, and the value e^0=1, prove e^x>P_n(x) for every x>0 by induction starting at n=0. Identify the derivative relation and the value at zero that make the induction step work. Finally, explain why these finite lower bounds alone do not prove that P_n(x) tends to e^x as n tends to infinity, even though the exponential series identity is supplied in your starting knowledge. A complete response separates the finite-inequality proof from the additional convergence claim.

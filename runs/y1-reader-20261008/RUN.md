@@ -1,3 +1,13 @@
+Current checkpoint — 2026-10-12 D008 complete, PROF 2026-10-12-r32
+
+D008 accepted after complete frozen teaching, original source, chronological full-baseline SASIS, prompt-first independent technical review and actual GitHub destination review. All original reports and all9source qualifications are preserved. One offscreen link observation remains an explicit browser uncertainty alongside two successful exact-route retests; no reproducible frozen-source mechanism was established. Capture/exposure/access limits remain recorded.
+
+Full36-file r32 package/evidence release 02627f9dc0055946f0883d6a9c243375f6fe70a2 was fetched and110 intended/preserved paths compared byte-for-byte, including all teaching. Version metadata alone changed; instruction bodies unchanged. Canonical147IDs/order and71exclusions preserved. Accepted15, remaining61 of76eligible. Active next D013. Next author must independently fetch/read current complete package and full baseline, use only original source before whole freeze, and continue the entire remaining corpus.
+
+Detailed closure: iterations/008/published-r31-20261011/closure.md. Package/readback: iterations/008/published-r31-20261011/evidence/release-publication-readback.json.
+
+Earlier checkpoints retained below unchanged.
+
 2026-10-11 — Corrected PROF r31 complete package verified; D008 fresh generation next
 
 Complete correction release da856ff6379c75e051e0afc8410a24a5a2822bc9 was fetched and compared against all 48 intended paths, including all 36 package files. All 34 bundled SHA256 declarations now match actual published bytes. First release 7cf8e4745680b2042efae1db73cb2e33665549c9 and its truthful byte-readback receipts remain preserved; two stale internal control references were separately found before any fresh author dispatch, corrected, and verified. Only profile-manifest.json and references/sasis.md change in this correction; 34 other package files and all frozen teaching remain unchanged. See iterations/008/published-r30-20261011/repair/internal-consistency/.

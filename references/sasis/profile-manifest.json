@@ -84,7 +84,7 @@
     "Original raw-source audit cache: C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\outputs\\ocr-baseline-20261007. The skill can be relocated; use its relative baseline/profile paths and official source URLs.",
     "No new student trial has run under this profile merely because these resources were installed. Verify live editions/placement before claiming freshness for a new run."
   ],
-  "protocol_revision": "2026-10-12-r38",
+  "protocol_revision": "2026-10-14-r39",
   "rewrite_guide": "rewrite-guide.md",
   "student_input_policy": {
     "subject_content_inputs": 2,
@@ -122,7 +122,8 @@
     "2026-10-08-r7 implements Jonathan's explicit correction: SASIS is a dedicated fresh whole-document reader, not a task solver. Original frozen baseline files and their hashes are unchanged. Protocol preparation is not a lecture iteration or evidence of human outcomes.",
     "2026-10-08-r8 records the explicitly authorised fully-readable-subset traversal and rolling closure version convention. The four-subject baseline, reader contract, reader role, rewrite guide and ordinary teaching obligations are unchanged. The selection/control update changes no D001 teaching dependency.",
     "2026-10-10-r24 implements Jonathan's explicit correction: always repair PROF for verified failures, preserve generated documents unchanged, push and verify revised root PROF before new generation, and restart with fresh agent contexts carrying only operational task state. All frozen baseline payloads and the reader operating instruction remain unchanged. Historical accepted documents and local-patch evidence retain their original status and are not retroactively relabelled.",
-    "2026-10-12-r34 requires an orchestrator-prepared fixed route-bound retrieval launcher, preflighted on non-subject fixtures, to separate executable commands from subject paths and reject invalid next-step requests before subject access. Actual bounded access and figure-view receipts remain required; instruction confinement is not technical isolation. Frozen baseline and teaching evidence are unchanged; fresh generation and reading remain pending."
+    "2026-10-12-r34 requires an orchestrator-prepared fixed route-bound retrieval launcher, preflighted on non-subject fixtures, to separate executable commands from subject paths and reject invalid next-step requests before subject access. Actual bounded access and figure-view receipts remain required; instruction confinement is not technical isolation. Frozen baseline and teaching evidence are unchanged; fresh generation and reading remain pending.",
+    "2026-10-14-r39 implements Jonathan's explicit request to download the published GitHub PROF package over the local Windows installation at iteration start and after revised-PROF publication. Stage and verify the complete package, retain a recoverable backup, replace the installation and verify its bytes against one pinned commit before local generation. This supersedes the previous local-update prohibition; frozen baseline files, reader controls, teaching evidence and corpus acceptance counts are unchanged."
   ],
   "iteration_repair_policy": {
     "repair_target": "PROF operative instructions and execution requirements for every independently verified material failure",
@@ -134,6 +135,20 @@
     "handover": "operational goal, exact constraints, verified commit and input identities, active material, queue, remaining tasks and access limits only",
     "prior_teaching_diagnoses_answers_in_generation_inputs": false,
     "current_agent_context_erasure_claimed": false,
-    "publication_implies_acceptance": false
+    "publication_implies_acceptance": false,
+    "installed_skill_sync": {
+      "when": "Working on Jonathan's computer with access to the local PROF installation",
+      "checkpoints": [
+        "iteration start before generation",
+        "after every revised-PROF publication before fresh generation"
+      ],
+      "destination": "C:/Users/alver/.codex/skills/prof",
+      "source": "complete root skill package at one verified published main commit",
+      "package_paths": ["SKILL.md", "agents/", "assets/", "references/", "scripts/"],
+      "backup_before_whole_directory_replacement": true,
+      "verify_staged_and_installed_inventory_and_bytes": true,
+      "record_outside_installed_package_and_reader_inputs": true,
+      "inaccessible_installation": "record unavailable; use verified published package without claiming local synchronisation"
+    }
   }
 }

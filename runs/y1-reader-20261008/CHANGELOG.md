@@ -1,3 +1,9 @@
+Continuation task resumed again — 2026-10-14
+
+After the unexplained pause recorded after the 15:53 UTC invocation, Keep PROF progressing was re-enabled at 16:56 UTC under the current unfinished corpus objective. Its schedule and corrected method remain unchanged. Cloud execution and successful new generation are still unverified. The verified recovery checkpoint cfd37a36fba9fa0f90a646dffe0f93fee563d042 records 15 accepted / 61 pending, D008 active. See recovery-20261014/runtime-and-continuation.json for dated actual observations. No acceptance or skill change is made by resuming the task.
+
+Earlier preserved record follows unchanged.
+
 PROF r38 recovery checkpoint — 2026-10-14
 
 D008 is reopened after new complete targeted domain-check reviews of all 16 formerly accepted lessons independently confirmed its strict comparison at an allowed zero-speed case. Canonical progress is now 15 accepted / 61 pending of 76 eligible, 71 excluded, all 147 original IDs/order preserved. Active D008; next D016, then D018. No new lecture is accepted and no frozen teaching or PROF instruction is patched.

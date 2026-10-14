@@ -1,0 +1,133 @@
+{
+  "files": {
+    "main.md": {
+      "sha256": "f7cb6882bc5fffa953ba98e0013aa124ac63f41cb26b8d39608cf0ff054daf63",
+      "lines": 532,
+      "anchors": [
+        "d008-main-algebra",
+        "d008-main-clock",
+        "d008-main-clock-precision",
+        "d008-main-library",
+        "d008-main-limit",
+        "d008-main-linear",
+        "d008-main-quadratic",
+        "d008-main-quadratic-library",
+        "d008-main-reference",
+        "d008-main-revisit",
+        "d008-main-shift",
+        "d008-main-task-a",
+        "d008-main-task-b",
+        "d008-main-task-c",
+        "d008-main-task-d",
+        "d008-main-task-e",
+        "d008-main-task-f"
+      ],
+      "inline_math": 205,
+      "display_math": 49,
+      "atx_or_setext_headings": [],
+      "bold_markers": 0
+    },
+    "hints.md": {
+      "sha256": "7e2475345119b60dfa3c5dd50d849c3e88382d2634907a00db3ce851c26ba230",
+      "lines": 64,
+      "anchors": [
+        "d008-hints-a",
+        "d008-hints-b",
+        "d008-hints-c",
+        "d008-hints-d",
+        "d008-hints-e",
+        "d008-hints-f",
+        "d008-hints-start"
+      ],
+      "inline_math": 33,
+      "display_math": 1,
+      "atx_or_setext_headings": [],
+      "bold_markers": 0
+    },
+    "solutions.md": {
+      "sha256": "dfaca61b92ff9f324f1f985ee322ce0dacac7dcb09de2abfd419e92e374e8c60",
+      "lines": 221,
+      "anchors": [
+        "d008-solutions-a",
+        "d008-solutions-b",
+        "d008-solutions-c",
+        "d008-solutions-d",
+        "d008-solutions-e",
+        "d008-solutions-f",
+        "d008-solutions-start"
+      ],
+      "inline_math": 92,
+      "display_math": 21,
+      "atx_or_setext_headings": [],
+      "bold_markers": 0
+    }
+  },
+  "local_link_errors": [],
+  "math_payload_issues": [
+    {
+      "file": "main.md",
+      "line": 127,
+      "issue": "missing terminating space after comparison command"
+    },
+    {
+      "file": "main.md",
+      "line": 186,
+      "issue": "missing terminating space after comparison command"
+    },
+    {
+      "file": "main.md",
+      "line": 441,
+      "issue": "missing terminating space after comparison command"
+    },
+    {
+      "file": "solutions.md",
+      "line": 198,
+      "issue": "missing terminating space after comparison command"
+    },
+    {
+      "file": "solutions.md",
+      "line": 198,
+      "issue": "missing terminating space after comparison command"
+    }
+  ],
+  "duplicate_anchors": [],
+  "numerical_checks": {
+    "ln1p1": "0.0953101798043248600439521232807650922206053653086441991852398",
+    "ln0p96": "-0.0408219945202551295545770651553198701772117476335202297285614",
+    "cos0p2": "0.9800665778412416",
+    "cos_linear_error": "0.019933422158758374",
+    "cos_quadratic_error": "6.657784124164401e-05",
+    "composite0p05": "0.883030902267855358968541074435783032140375760883692702609360",
+    "composite0p05_float": "0.8830309022678552",
+    "composite0p05_linear": "0.875",
+    "composite0p05_quadratic": "0.8834375",
+    "composite0p05_true_linear_error": "0.008030902267855358968541074435783032140375760883692702609360",
+    "composite0p05_true_quadratic_error": "0.000406597732144641031458925564216967859624239116307297390640",
+    "sensor_linear_2p1": "3.04",
+    "sensor_quadratic_2p1": "3.039",
+    "sensor_cubic_counterexample_error": "0.002",
+    "sqrt4p04": "2.00997512422417805404385298255191523738900469400527545811457",
+    "clock_extra_86400s": "1.02399999999999999999999999999999999999999999999999999999999E-15",
+    "clock_doubled_extra": "1.89629629629629629629629629629629629629629629629629629629628E-19",
+    "clock_high_speed_L": "1.32",
+    "clock_high_speed_Q": "1.4736"
+  },
+  "prep_seal_matches": {
+    "RECOVERY.txt": true,
+    "access-log.jsonl": true,
+    "baseline-packet-notes.txt": true,
+    "source-reconstruction.md": true,
+    "independent_checks.py": true,
+    "independent-check-results.json": true
+  },
+  "prompt_first_seal_matches": true,
+  "teaching_freeze_matches": {
+    "teaching/figures/clock-intervals.png": true,
+    "teaching/figures/cosine-quadratic.png": true,
+    "teaching/figures/sine-cosine-linear.png": true,
+    "teaching/figures/tangent-log.png": true,
+    "teaching/hints.md": true,
+    "teaching/main.md": true,
+    "teaching/solutions.md": true
+  }
+}

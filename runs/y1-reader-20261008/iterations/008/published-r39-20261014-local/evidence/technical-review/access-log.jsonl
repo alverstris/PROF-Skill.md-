@@ -1,0 +1,25 @@
+{"event":"initial_skill_raw_read","path":"C:/Users/alver/.codex/skills/prof/SKILL.md","requested":"complete","result":"tool truncated output 11099 tokens at T6-T11; repair will read exact bounded lines 1-167"}
+{"path":"installed-prof/SKILL.md","lines":"1-55","result":"bounded direct tool read"}
+{"path":"installed-prof/SKILL.md","lines":"56-112","result":"bounded direct tool read"}
+{"path":"installed-prof/SKILL.md","lines":"113-166","result":"bounded direct tool read; skill complete"}
+{"path":"pdf/SKILL.md","lines":"1-169","result":"complete direct tool read"}
+{"path":"installed-prof/references/execution-protocol.md","lines":"1-58","result":"bounded direct tool read"}
+{"path":"installed-prof/references/execution-protocol.md","lines":"59-117","result":"bounded direct tool read; protocol complete"}
+{"paths":["installed-prof/references/domain-patterns.md","original-inputs/provenance.json"],"scope":"complete","result":"direct tool read"}
+{"path":"student-baseline.txt","lines":"1-180","result":"bounded direct tool read"}
+{"path":"student-baseline.txt","lines":"181-360","result":"bounded direct tool read"}
+{"path":"student-baseline.txt","lines":"361-540","result":"bounded direct tool read"}
+{"path":"student-baseline.txt","lines":"541-720","result":"bounded direct tool read"}
+{"path":"student-baseline.txt","lines":"721-900","result":"bounded direct tool read"}
+{"path":"student-baseline.txt","lines":"901-1080","result":"bounded direct tool read"}
+{"path":"student-baseline.txt","lines":"1081-1260","result":"bounded direct tool read"}
+{"path":"student-baseline.txt","lines":"1261-1440","result":"bounded direct tool read"}
+{"path":"student-baseline.txt","lines":"1441-1620","result":"bounded direct tool read"}
+{"path":"student-baseline.txt","lines":"1621-1800","result":"bounded direct tool read"}
+{"path":"student-baseline.txt","lines":"1801-1980","result":"bounded direct tool read"}
+{"path":"student-baseline.txt","lines":"1981-2160","result":"bounded direct tool read"}
+{"path":"student-baseline.txt","lines":"2161-2340","result":"bounded direct tool read"}
+{"path":"student-baseline.txt","lines":"2341-2561","result":"bounded direct tool read; complete frozen baseline accessed 1-2561"}
+{"paths":["original-inputs/complete-extracted-text.txt","original-inputs/pdfinfo.txt","original-inputs/official-resource-page.html"],"scope":"extracted text and pdfinfo complete; official HTML relevant identity passages","result":"direct tool read; extraction must be checked visually"}
+{"paths":["original-inputs/page-1.png","original-inputs/page-2.png","original-inputs/page-3.png","original-inputs/page-4.png","original-inputs/page-5.png","original-inputs/page-6.png","original-inputs/page-7.png"],"scope":"all seven full page images visually inspected at supplied resolution","result":"figures, equations, source footnote and cover checked; page 5 missing factor T and incorrect exponent 4 visible in original"}
+{"event":"independent_checks","result":"successful exact Fraction and 70-digit Decimal calculations; pypdf/PIL validation; initial sympy/mpmath unavailable and not claimed","output":"independent-check-results.json"}

@@ -1,0 +1,203 @@
+{
+  "calculation_method": "Exact rational binomial/exponential coefficients and convolution; analytic derivative checks recorded independently in source-reconstruction.md. Decimal high-precision numeric check. Initial SymPy/mpmath attempt unavailable, not claimed as executed.",
+  "sin_coefficients_through_cubic": [
+    "0",
+    "1",
+    "0",
+    "-1/6"
+  ],
+  "cos_coefficients_through_cubic": [
+    "1",
+    "0",
+    "-1/2",
+    "0"
+  ],
+  "exp_coefficients_through_cubic": [
+    "1",
+    "1",
+    "1/2",
+    "1/6"
+  ],
+  "log1p_coefficients_through_cubic": [
+    "0",
+    "1",
+    "-1/2",
+    "1/3"
+  ],
+  "exp_minus2_coefficients_through_cubic": [
+    "1",
+    "-2",
+    "2",
+    "-4/3"
+  ],
+  "reciprocal_root_coefficients_through_cubic": [
+    "1",
+    "-1/2",
+    "3/8",
+    "-5/16"
+  ],
+  "composite_coefficients_through_cubic": [
+    "1",
+    "-5/2",
+    "27/8",
+    "-163/48"
+  ],
+  "exam_power_coefficients": [
+    "1",
+    "20",
+    "180",
+    "960",
+    "3360",
+    "8064",
+    "13440",
+    "15360",
+    "11520",
+    "5120",
+    "1024"
+  ],
+  "exam_limit": "20",
+  "quadratic_product_full_coefficients": [
+    "1",
+    "-5/2",
+    "27/8",
+    "-7/4",
+    "3/4"
+  ],
+  "relativity": {
+    "z=(v/c)^2": "1.777777777777777777777777777777777777777777777777777777777777777777777E-10",
+    "gamma-1": "8.8888888900740740742496570644991921963159079408633855317901E-11",
+    "linear_correction=z/2": "8.888888888888888888888888888888888888888888888888888888888888888888885E-11",
+    "quadratic_correction=3z^2/8": "1.185185185185185185185185185185185185185185185185185185185185185185184E-20",
+    "error_after_linear": "1.1851851853607681756103033074270190519744966429012E-20",
+    "error_after_quadratic": "1.755829904251181222418338667893114577160E-30",
+    "kinematic_lag_seconds_per_86400s": "0.0000076800000003413333333636740740774452674901314604481583602499680000"
+  },
+  "composite_numerical": [
+    {
+      "x": "0.1",
+      "exact": "0.7806291437247262832383729333987803080129217841924477102167161543818756",
+      "linear": "0.75",
+      "quadratic": "0.78375",
+      "linear_error": "0.0306291437247262832383729333987803080129217841924477102167161543818756",
+      "quadratic_error": "-0.0031208562752737167616270666012196919870782158075522897832838456181244"
+    },
+    {
+      "x": "-0.1",
+      "exact": "1.287471552065982249378377229887067721114120861752174601545126711225778",
+      "linear": "1.25",
+      "quadratic": "1.28375",
+      "linear_error": "0.037471552065982249378377229887067721114120861752174601545126711225778",
+      "quadratic_error": "0.003721552065982249378377229887067721114120861752174601545126711225778"
+    },
+    {
+      "x": "0.01",
+      "exact": "0.9753341337347128761273332121510840103332802003621477130393205354761031",
+      "linear": "0.975",
+      "quadratic": "0.9753375",
+      "linear_error": "0.0003341337347128761273332121510840103332802003621477130393205354761031",
+      "quadratic_error": "-0.0000033662652871238726667878489159896667197996378522869606794645238969"
+    },
+    {
+      "x": "-0.01",
+      "exact": "1.025340925905011207747281333181022259077514552232896947702124887331632",
+      "linear": "1.025",
+      "quadratic": "1.0253375",
+      "linear_error": "0.000340925905011207747281333181022259077514552232896947702124887331632",
+      "quadratic_error": "0.000003425905011207747281333181022259077514552232896947702124887331632"
+    }
+  ],
+  "pdf_validation": {
+    "sha256": "d1b383663f7792bbdaa4d6108e17b11679d4688e413e197486941af337892320",
+    "bytes": 880629,
+    "pages": 7,
+    "title_page_text": "MIT OpenCourseWare \nhttp://ocw.mit.edu \n18.01 Single Variable Calculus \nFall 2006 \nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms. ",
+    "page_dimensions_points": [
+      [
+        612.0,
+        792.0
+      ],
+      [
+        612.0,
+        792.0
+      ],
+      [
+        612.0,
+        792.0
+      ],
+      [
+        612.0,
+        792.0
+      ],
+      [
+        612.0,
+        792.0
+      ],
+      [
+        612.0,
+        792.0
+      ],
+      [
+        612.0,
+        792.0
+      ]
+    ],
+    "page_images": [
+      {
+        "page": 1,
+        "size": [
+          1275,
+          1650
+        ],
+        "sha256": "e09b3569f70cb7c679ca3f2e09735bfb96c7030c70b74bcbd6eb03018022e99c"
+      },
+      {
+        "page": 2,
+        "size": [
+          1275,
+          1650
+        ],
+        "sha256": "bcb860c43a7f3c70bb6993cf7dca4ee1f4e03d1f2743f8d5be97b1c227cc3b33"
+      },
+      {
+        "page": 3,
+        "size": [
+          1275,
+          1650
+        ],
+        "sha256": "78ad5a4ac351ba939a202bc45eb286424b32da1b82896cb096ca7ac1f8b33c89"
+      },
+      {
+        "page": 4,
+        "size": [
+          1275,
+          1650
+        ],
+        "sha256": "512e5d45c6d90bb9899661ebc0f145c72cf984f4814ce30caeb4683fef36c35f"
+      },
+      {
+        "page": 5,
+        "size": [
+          1275,
+          1650
+        ],
+        "sha256": "057d2b10feb5eb24f8cd954ad67ebb7048ec849212f9fec33ad6b751850cdb36"
+      },
+      {
+        "page": 6,
+        "size": [
+          1275,
+          1650
+        ],
+        "sha256": "137fa2145631366ec1c8c7c44969026f30e9d024bd4b70111ebcdf33804411d2"
+      },
+      {
+        "page": 7,
+        "size": [
+          1275,
+          1650
+        ],
+        "sha256": "d2f1576fa08604722b1c158413835a4bb1a710304391d81004fab72c6b5f43fb"
+      }
+    ]
+  }
+}

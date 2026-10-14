@@ -1,0 +1,11 @@
+const STEP_ID = "B002";
+const cached = load("prof.reader.reuse.synthetic.r40.candidate1");
+if (typeof STEP_ID !== "string" || !/^[A-Za-z][A-Za-z0-9_-]{0,63}$/.test(STEP_ID)) throw new Error("exactly one plain STEP_ID is accepted");
+if (!cached || typeof cached !== "object" || Array.isArray(cached) || cached.schema !== "prof-reader-reuse-store-v1" || cached.binding_sha256 !== "429f43293a9069b2bc642e646e3399363416d100eb8dc4e86ec0906351def41d") throw new Error("missing/stale reader bootstrap; preserve failure and stop");
+const r = await tools.exec_command({cmd: "$v='C:/Users/alver/.codex/.chatgpt-projects/g-p-6aa4088af61c8191a4b578a4310457ae/.prof-sasis/20261014-d008-r39/reader-reuse-candidate/verify_reuse.py'; if ((Get-FileHash -LiteralPath $v -Algorithm SHA256).Hash.ToLowerInvariant() -ne 'cc727c2b2b0fee7e1f5cb8ca71f6eff18fc2006cdc4654bd023f94de8cac209f') { throw 'verifier identity mismatch' }; & 'C:/Users/alver/AppData/Local/Programs/Python/Python314/python.exe' $v 'step' '429f43293a9069b2bc642e646e3399363416d100eb8dc4e86ec0906351def41d' '" + STEP_ID + "'", max_output_tokens: 18000});
+if (r.exit_code !== 0 || r.session_id) throw new Error("reader operational identity verification failed: " + r.output);
+let p;
+try { p = JSON.parse(r.output.trim()); } catch (_) { throw new Error("verification output missing/truncated; preserve failure and stop"); }
+if (!p || Object.keys(p).sort().join(",") !== "mode,schema,seal,step_id" || p.schema !== "prof-reader-reuse-proof-v1" || p.mode !== "step" || p.step_id !== STEP_ID || JSON.stringify(cached) !== JSON.stringify(p.seal)) throw new Error("cached adapter/binding identity mismatch; preserve failure and stop");
+// Only the exact verified operational source enters eval; STEP_ID is a parameter, never source text.
+await eval("(async function(STEP_ID) {\n" + p.seal.adapter_source + "\n})(STEP_ID)");

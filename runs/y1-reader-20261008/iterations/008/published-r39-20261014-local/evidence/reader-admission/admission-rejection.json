@@ -1,0 +1,55 @@
+{
+  "route_id": "D008_R39_FIRST_READER_R1",
+  "route_sha256": "11fd968ea07bc2278cf4af473c2d45fcae6f65df0963e0884351dda4c9175d8d",
+  "complete_route_admitted": false,
+  "teaching_verdict": "unverified outside inspected opening",
+  "valid_completed_prefix_steps": 24,
+  "total_scheduled_steps": 51,
+  "full_baseline_prefix_verified": true,
+  "first_figure_delivery_receipts_verified": true,
+  "later_subject_access_in_fixed_launcher_ledger": false,
+  "event_counts": {
+    "subject_open_attempt": 24,
+    "python_subject_open_audit": 24,
+    "subject_open_succeeded": 24,
+    "bounded_bytes_read": 24,
+    "verified_access_receipt": 24,
+    "launcher_output_prepared": 24,
+    "text_output_delivered": 23,
+    "bounded_cache_verified": 1,
+    "view_invocation": 1,
+    "view_result": 1,
+    "image_output_delivered": 1
+  },
+  "snapshot_files": {
+    "original-access.jsonl": {
+      "bytes": 55265,
+      "sha256": "0041af0e7a7ed8b15131732e7e0fb3ba66b78cd262d0886f0a27a8d5569d2a2a"
+    },
+    "original-state.json": {
+      "bytes": 343,
+      "sha256": "1534edca4502af364e83dd99d87519f0ed852aa935afcf474e2eb5ae02dda391"
+    },
+    "original-reader-report.md": {
+      "bytes": 14120,
+      "sha256": "63ca97ca34af9941b5219aefdf42c8e410c6a519bd8b2d0ba4fe1558d38609b8"
+    },
+    "failed-main-02-call.js": {
+      "bytes": 8566,
+      "sha256": "34b733a74eb654a3db57effa5864a760cbcf0bca3d40664efb76a8a10cd9c10c"
+    },
+    "failed-main-02-result.txt": {
+      "bytes": 163,
+      "sha256": "1f0ce94d34cbc2477358e943f9c4a304b47abb765ac746015a7f2ce763b89e57"
+    }
+  },
+  "full_route_checker_result": {
+    "operational_route_audit_passed": false,
+    "error": "route/display evidence incomplete"
+  },
+  "procedure_failure": "Reader report records changed SHA256 constant order; self-check failed before main-02 launcher invocation.",
+  "archived_failed_call_difference_verified": "Only the reported k-array constant order differs from the authorised adapter with the intended main-02 ID.",
+  "evidence_limit": "Original failed call/result were archived from the former reader conversation after its original report was sealed; this metadata ledger does not authenticate other available tool use or prove semantic inspection.",
+  "technical_confinement_proven": false,
+  "human_learning_proven": false
+}

@@ -1,0 +1,19 @@
+Preserved numerical readback failure
+
+Command:
+& 'C:/Users/alver/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' 'C:/Users/alver/.codex/.chatgpt-projects/g-p-6aa4088af61c8191a4b578a4310457ae/.prof-sasis/20261014-d008-r39/fresh-author/evidence/final_readback.py'
+
+Observed output:
+Traceback (most recent call last):
+  File ".../fresh-author/evidence/final_readback.py", line 10, in <module>
+    assert abs(float(vals["composite.05"])-.8830328)<1e-7
+AssertionError
+Exit code1.
+
+Follow-up direct evaluation:
+& 'C:/Users/alver/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' -c "from decimal import Decimal as D,getcontext;getcontext().prec=80; print((-D('.1')).exp()/D('1.05').sqrt())"
+
+Observed result:
+0.88303090226785535896854107443578303214037576088369270260936254773415768871511462
+
+Original checker is preserved unchanged. final_readback_completed.py records the failed value as a finding and finishes the other numerical/runtime/hash records without asserting that value passes. Frozen teaching main.md line378 remains unchanged. Its printed0.8830328 is inaccurate at the displayed precision. This is an author numerical finding, not a reader report. It affects the stated direct-evaluation number, not L(.05)=.875, Q(.05)=.8834375 or their comparison. No source supplies the incorrect generated number.

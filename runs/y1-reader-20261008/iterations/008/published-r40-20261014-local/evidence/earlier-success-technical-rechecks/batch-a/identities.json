@@ -1,0 +1,670 @@
+{
+  "scope": "D003,D005,D006 source attribution and numerical validation rechecks only",
+  "prof_revision": "2026-10-14-r40",
+  "prof_package_commit": "0c0031cf996d7f47d4db878709f31676594aa08f",
+  "queue_sha256": "14c194c9da38e41d0b86e32d0a1a8ad01bba4434415581ed77d561f1688beb34",
+  "cases": [
+    {
+      "material_id": "D003",
+      "revision": "v1",
+      "accepted_commit": "4cbf83f2dc2859d5123fc01a0c311a268d580483",
+      "teaching_artifact": {
+        "path": "runs/y1-reader-20261008/iterations/003/teaching-v1.md",
+        "blob": "0f3041ba650c0b04321db6b1f6ec0c607fa6f163",
+        "bytes": 25480,
+        "sha256": "cd7426a9b70d0ac41aa3ca0418db8c89c391b67304016a7ad38f8379fe98b5a8",
+        "same_at_frozen_commit": true,
+        "frozen_commit": "4cbf83f2dc2859d5123fc01a0c311a268d580483",
+        "scan": {
+          "link_math": [],
+          "boundary_math": [],
+          "strict_no_space": [],
+          "source_claim_candidates": [
+            {
+              "line": 7,
+              "text": "[P02] You already have the standard derivative rules. This lecture connects them to the difference quotient: why a changing product has two contributions, why a quotient has a minus sign and a squared denominator, and why the sine and cosine formulas depend on angle units. The aim is to justify and use the rules, including cases where only values and rates at one point are known."
+            },
+            {
+              "line": 11,
+              "text": "[P03] Read [P04\u2013P28](#p04) in order, pausing at attempts A\u2013C. [P29\u2013P31](#p29) give later retrieval and a new application. All attempts are original practice written for these notes. Each has links to a useful hint and a complete solution. The [hints](#p33) are grouped separately from the [solutions](#p39); follow a return link to resume the core reading."
+            },
+            {
+              "line": 15,
+              "text": "[P04] Specific derivative formulas concern named functions such as a power or a reciprocal. General rules describe how to differentiate combinations of functions. In the general rules, $`u`$ and $`v`$ are real-valued functions of the same input. Thus $`(u+v)(x)=u(x)+v(x)`$, $`(uv)(x)=u(x)v(x)`$, and $`(u/v)(x)=u(x)/v(x)`$ where $`v(x)\\ne0`$. Multiplication here combines two outputs at the same input; it is not composition $`u(v(x))`$. For example, with $`u(x)=x`$ and $`v(x)=\\sin x`$, the product is $`x\\sin x`$. To construct a quotient from \u201cthe output of $`u`$ divided by the output of $`v`$\u201d, put both outputs at the same input and retain the denominator restriction. We write $`h`$ for the lecture\u2019s input increment $`\\Delta x`$; during a derivative calculation, $`x`$ stays fixed while $`h`$ tends to zero."
+            },
+            {
+              "line": 55,
+              "text": "[P10] For trigonometric functions, take angles in radians. The two familiar limits below are the starting premises used by this lecture. The fractions need not be defined at $`h=0`$ to have limits there. Directly in the derivative definition, $`\\sin0=0`$ and $`\\cos0=1`$ show that they give the sine derivative 1 and cosine derivative 0 at the origin. They do not yet give the derivatives at other inputs; angle addition makes that connection."
+            },
+            {
+              "line": 103,
+              "text": "Expanding the right side cancels $`-u(x+h)v(x)+u(x+h)v(x)`$, recovering the original numerator. This verifies the regrouping."
+            },
+            {
+              "line": 127,
+              "text": "At $`x=\\pi`$, this is $`-\\pi`$: the product is zero there, but its slope is not zero. A proposed rule $`(uv)'=u'v'`$ would instead give $`\\cos x`$. A simpler counterexample also exposes it: $`u=v=x`$ gives $`uv=x^2`$ with derivative $`2x`$, whereas $`u'v'=1`$. At $`x=0`$ these disagree. This is an anticipated wrong rule, not a report of an error you have made."
+            },
+            {
+              "line": 131,
+              "text": "[P18] The lecture\u2019s second view uses increments. For this calculation alone, abbreviate $`u=u(x)`$, $`v=v(x)`$, $`\\Delta u=u(x+h)-u(x)`$, and $`\\Delta v=v(x+h)-v(x)`$. Then the new values are $`u+\\Delta u`$ and $`v+\\Delta v`$. The symbols $`\\Delta u`$ and $`\\Delta v`$ denote finite output changes associated with the same input change $`h`$; neither is a derivative. Expanding the new product gives the exact identity"
+            },
+            {
+              "line": 141,
+              "text": "[P19] The diagram redraws the source\u2019s Figure 1. The orange rectangle has width $`u`$, height $`v`$ and area $`uv`$. Increasing height adds the top red strip $`u\\Delta v`$; increasing width adds the right yellow strip $`v\\Delta u`$. Doing both also adds the white corner $`\\Delta u\\Delta v`$. All four pieces together have area $`(u+\\Delta u)(v+\\Delta v)`$. This literal area picture assumes positive side lengths and positive increments. Negative increments would remove area, and negative function values need not be physical lengths; P18\u2019s algebra remains valid for signed real values and changes."
+            },
+            {
+              "line": 143,
+              "text": "![A rectangle split into an original uv area, a top u Delta-v strip, a right v Delta-u strip, and a corner Delta-u Delta-v area. The bottom lengths are u and Delta-u, and the left heights are v and Delta-v.](product-increment-v1.png)"
+            },
+            {
+              "line": 161,
+              "text": "[P22] For a quotient, the original function $`q=u/v`$ requires $`v(x)\\ne0`$. Suppose also that $`u`$ and $`v`$ are differentiable at $`x`$. We must ensure that $`v(x+h)`$ stays nonzero for all sufficiently small $`h`$ so that nearby quotient values exist. Continuity gives this: choose $`h`$ small enough that $`|v(x+h)-v(x)|\\lt |v(x)|/2`$. Then $`v(x+h)`$ lies within half the distance from $`v(x)`$ to zero, so it cannot equal zero. For example, if $`v(x)=2`$, keeping its change smaller than 1 in magnitude leaves the nearby values between 1 and 3. The same argument works when $`v(x)`$ is negative."
+            },
+            {
+              "line": 187,
+              "text": "The denominator is the square of the original denominator\u2019s value, not the square of its derivative."
+            },
+            {
+              "line": 191,
+              "text": "[P25] A worked use is $`q(x)=(x^2+1)/(x+1)`$, with domain $`x\\ne-1`$. Choose numerator $`u=x^2+1`$ and denominator $`v=x+1`$, giving $`u'=2x`$ and $`v'=1`$. Keeping the numerator grouped prevents a sign error:"
+            },
+            {
+              "line": 213,
+              "text": "[P29] For a later return, leave the next two attempts until after a break if that is useful. The length of the break is adjustable, not a prescribed optimal schedule. Attempt D asks for retrieval of material already studied, with the preceding text covered. Attempt E asks for transfer to a new combination and a changed representation; consulting the notes is appropriate. Comparing with the complete solutions can identify a missing condition or warrant even when a final number agrees."
+            },
+            {
+              "line": 225,
+              "text": "[P32] Source: MIT OpenCourseWare, 18.01 Single Variable Calculus, Fall 2006, [Lecture 3: Derivatives of Products, Quotients, Sine, and Cosine](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/23c2c1b1ab31c9f10745b18e7b0bf131_lec3.pdf). The source\u2019s four teaching pages follow its cover. P19 redraws its Figure 1; the explanations, added worked uses and practice here are newly written. On printed page 1, the constant-multiple listing and sum-proof title omit a prime on the left; the correct derivative statements are used here. The lecture\u2019s cosine calculation and limiting/domain conditions have been made explicit. [Return to the reading route](#p03)."
+            },
+            {
+              "line": 271,
+              "text": "[P42] Solution C. For $`x\\ne1`$, factorisation gives $`q(x)=(x-1)(x+1)/(x-1)=x+1`$. Hence $`q'(x)=1`$ at every point of its domain. The original $`q(1)`$ is undefined, so $`q'(1)`$ is undefined too: its defining difference quotient requires $`q(1)`$. The new function $`Q`$ equals $`x+1`$ for $`x\\ne1`$ and also at 1, since the assigned value is 2. It is therefore the line $`Q(x)=x+1`$ for all real $`x`$. Directly,"
+            },
+            {
+              "line": 277,
+              "text": "Cancelling a factor simplified the original formula on its domain; the separate definition of $`Q(1)`$ is what supplied the formerly missing value. [Return to C](#p26) \u00b7 [Resume core](#p27)."
+            },
+            {
+              "line": 299,
+              "text": "Since $`\\Delta u/h\\to u'(x)`$ is finite and $`\\Delta v\\to0`$, the last term after division has limit $`(\\Delta u/h)\\Delta v\\to0`$. The two remaining terms give the two contributions to the product derivative. A correct formula plus \u201cthe corner is small\u201d leaves this last warrant unstated. [Return to D](#p30) \u00b7 [Transfer attempt E](#p31)."
+            }
+          ],
+          "numerical_check_candidates": [
+            {
+              "line": 55,
+              "text": "[P10] For trigonometric functions, take angles in radians. The two familiar limits below are the starting premises used by this lecture. The fractions need not be defined at $`h=0`$ to have limits there. Directly in the derivative definition, $`\\sin0=0`$ and $`\\cos0=1`$ show that they give the sine derivative 1 and cosine derivative 0 at the origin. They do not yet give the derivatives at other inputs; angle addition makes that connection."
+            },
+            {
+              "line": 83,
+              "text": "[P13] Angle units are a condition on the input, not a calculator preference that leaves a derivative unchanged. If $`d`$ is a numerical angle in degrees, define $`s(d)=\\sin(\\pi d/180)`$, where the sine on the right takes radians. In the difference quotient for $`s`$, put $`k=\\pi\\delta/180`$, where $`\\delta`$ is the change in degrees. Then $`\\delta=180k/\\pi`$ and $`k\\to0`$ with $`\\delta\\to0`$; the quotient is $`\\pi/180`$ times the radian sine difference quotient at $`\\pi d/180`$. Consequently $`s'(d)=(\\pi/180)\\cos(\\pi d/180)`$. In particular, the slope at zero is $`\\pi/180`$ per degree, instead of 1 per radian. The same input conversion gives $`-(\\pi/180)\\sin(\\pi d/180)`$ for the degree-input cosine."
+            },
+            {
+              "line": 147,
+              "text": "[P20] The corner is small, but the derivative is change divided by $`h`$. Its contribution must therefore be checked after division. By differentiability, $`\\Delta u/h\\to u'(x)`$; by P14 applied to $`v`$, $`\\Delta v\\to0`$. Thus"
+            },
+            {
+              "line": 197,
+              "text": "At $`x=1`$, the slope is $`2/4=1/2`$. A check using division gives $`q(x)=x-1+2/(x+1)`$ on the same domain; its derivative is $`1-2/(x+1)^2`$, the same expression. The quotient rule works directly, but simplifying first can be shorter when the algebra permits it."
+            },
+            {
+              "line": 209,
+              "text": "[P28] The proofs share one method: rewrite the exact difference quotient into quantities whose limits are available, then check the conditions before passing to a limit. Sum and constant-multiple changes split immediately; trigonometric changes need angle addition; a product needs an intermediate product or its exact increment expansion; a quotient needs a common denominator and local nonvanishing. These are decisions you can reconstruct, rather than additional formulas to memorise."
+            },
+            {
+              "line": 241,
+              "text": "[P36] Hint C. Factor $`x^2-1`$ before selecting a derivative rule. Write the restriction next to the simplified expression. A derivative at 1 needs a value of the function at 1 in its difference quotient. For $`Q`$, check whether the separately assigned value agrees with the simplified formula. [Return to C](#p26) \u00b7 [Solution C](#p42)."
+            },
+            {
+              "line": 253,
+              "text": "[P39] Complete solutions. Choose [A](#p40), [B](#p41), [C](#p42), [D](#p43) or [E](#p44). Check your reasoning as well as your answer: a disagreement in a condition can matter even when arithmetic agrees. These are model solutions, not claims about an observed attempt."
+            },
+            {
+              "line": 267,
+              "text": "The area has a positive instantaneous rate: the contribution from the increasing side exceeds the loss from the decreasing side. Both lengths are positive; the negative rate says that the first length is decreasing. For an increment $`h`$ in time, differentiability gives $`\\Delta u/h\\to-0.2`$ and continuity gives $`\\Delta v\\to0`$. Therefore $`(\\Delta u\\Delta v)/h=(\\Delta u/h)\\Delta v\\to0`$. Alternatively, $`h(\\Delta u/h)(\\Delta v/h)\\to0\\cdot(-0.2)\\cdot0.5=0`$. Both routes check the term after scaling. The quoted argument omits that check; a numerator tending to zero alone would not warrant it. [Return to B](#p21) \u00b7 [Resume core](#p22)."
+            },
+            {
+              "line": 271,
+              "text": "[P42] Solution C. For $`x\\ne1`$, factorisation gives $`q(x)=(x-1)(x+1)/(x-1)=x+1`$. Hence $`q'(x)=1`$ at every point of its domain. The original $`q(1)`$ is undefined, so $`q'(1)`$ is undefined too: its defining difference quotient requires $`q(1)`$. The new function $`Q`$ equals $`x+1`$ for $`x\\ne1`$ and also at 1, since the assigned value is 2. It is therefore the line $`Q(x)=x+1`$ for all real $`x`$. Directly,"
+            },
+            {
+              "line": 315,
+              "text": "on their common domain $`x\\ne k\\pi`$. At zero, however, $`F(0)=0`$ is defined while $`G(0)`$ is not. We cannot replace the defining quotient for $`F'(0)`$ by $`[G(h)-G(0)]/h`$. Using the valid formula for $`F'`$ gives $`F'(0)=1/2`$. The definition gives an independent route: $`F(h)/h=(\\sin h/h)/(1+\\cos h)\\to1/2`$, using P10 and the continuity of cosine, which follows from its differentiability. There is also a legitimate partial substitution: for sufficiently small nonzero $`h`$, $`G(h)=F(h)`$, so $`[G(h)-F(0)]/h`$ has the same limit. What fails is supplying an undefined $`G(0)`$, not every use of the alternative expression. [Return to E](#p31) \u00b7 [Reading route](#p03)."
+            }
+          ]
+        }
+      },
+      "accepted_copy": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r39\\earlier-success-review\\D003\\teaching__teaching-v1.md",
+      "actual_teaching_sha256": "cd7426a9b70d0ac41aa3ca0418db8c89c391b67304016a7ad38f8379fe98b5a8",
+      "original_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/23c2c1b1ab31c9f10745b18e7b0bf131_lec3.pdf",
+      "original_pdf": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D003\\original.pdf",
+      "original_sha256": "ccf25930cfad63d99e3fd5045e7931860051bbbb3eedd2bd8cd9318ebd32845a",
+      "original_page_count": 5,
+      "rendered_pages": [
+        {
+          "physical_page": 2,
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D003\\original-page-02.png",
+          "sha256": "6a8ad153bcd979d28386b87d39405695e6d75f6f63ba5ff102244599fe8f1c79"
+        }
+      ],
+      "additional_rendered_pages": [
+        {
+          "physical_page": 3,
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D003\\original-page-03.png",
+          "sha256": "ab351d7af56295f5a26fd2f1ab8118630d08763e4fe99f42b1b4cf228731899f"
+        },
+        {
+          "physical_page": 4,
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D003\\original-page-04.png",
+          "sha256": "4286f67db48204cef5d9e4afe0dfe442655cbfca0ce9b5906c454e1093975f80"
+        },
+        {
+          "physical_page": 5,
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D003\\original-page-05.png",
+          "sha256": "90cbd1ac7fae581d830c6efe16b2ae2fd91ec27aed21c9d14a02ad404246908e"
+        }
+      ],
+      "crops": [
+        {
+          "physical_page": 2,
+          "label": "missing-primes-context",
+          "pdf_clip_points": [
+            75,
+            245,
+            535,
+            465
+          ],
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D003\\crop-missing-primes-context.png",
+          "sha256": "50f8450307d862dc9b3cd361aa4417c75ab1f71b1051f42cb33bc9db44f6332b"
+        }
+      ]
+    },
+    {
+      "material_id": "D005",
+      "revision": "v2",
+      "accepted_commit": "32c553f279ac1e5771ff05b78a9951cbff3fee38",
+      "teaching_artifact": {
+        "path": "runs/y1-reader-20261008/iterations/005/teaching-v2.md",
+        "blob": "d8c9a67266e79fec03b069fa3193354882fc3f8b",
+        "bytes": 24261,
+        "sha256": "4ae6d0f33e2957ebaf3bbd31c34e154c4a7c5eaab4bc3a09a9e909574b1a48e6",
+        "same_at_frozen_commit": true,
+        "frozen_commit": "32c553f279ac1e5771ff05b78a9951cbff3fee38",
+        "scan": {
+          "link_math": [],
+          "boundary_math": [
+            {
+              "line": 190,
+              "text": "[P29] H1. Start with $`2x+2yy'=0`$ and substitute the signed coordinates into the coefficient of $`y'`$. Once the slope is $`m`$, construct the tangent as $`y-y_0=m(x-x_0)`$. The two explicit branches explain why the implicit equation can be used at either sign of $`y`$. [Return to Q1](#q1) \u00b7 [Solution S1](#s1).",
+              "label": "Return to Q1",
+              "column": 273
+            }
+          ],
+          "strict_no_space": [],
+          "source_claim_candidates": [
+            {
+              "line": 25,
+              "text": "[P05] Differentiating the original circle equation keeps both branches together:"
+            },
+            {
+              "line": 40,
+              "text": "[P07] When solving for $`y`$ is awkward, keeping the equation is especially useful. The lecture's next curve is $`y^3+xy^2+1=0`$. Suppose we are on a differentiable local branch. The mixed term $`xy^2`$ is a product of two changing quantities; its derivative is"
+            },
+            {
+              "line": 54,
+              "text": "At $`(0,-1)`$, the original equation holds and the formula gives $`y'=-1/3`$; if the branch exists, its tangent is $`y+1=-x/3`$. Both chain-rule factors and both product-rule contributions are necessary. The constant $`1`$ contributes zero."
+            },
+            {
+              "line": 73,
+              "text": "In composition notation these read $`(g\\circ f)(x)=x`$ and $`(f\\circ g)(z)=z`$: evaluate the inner function first. They have different input sets even though both return their inputs. In the lecture's graph, a point $`(a,b)`$ on $`f`$ has $`b=f(a)`$, and its reversed point $`(b,a)`$ lies on $`g`$, with $`a=f^{-1}(b)`$. Swapping the coordinates reflects the point across $`y=x`$. This explains the original figure's black forward curve, blue inverse curve and reflection line; the dashed horizontal and vertical guides connect corresponding input/output coordinates. The pictured shape illustrates the swap, rather than imposing a particular formula for $`f`$."
+            },
+            {
+              "line": 77,
+              "text": "[P14] The lecture obtains a reciprocal slope by differentiating an inverse identity. If both derivatives exist, $`g(f(x))=x`$ gives"
+            },
+            {
+              "line": 83,
+              "text": "At $`a`$ with $`b=f(a)`$ and $`f'(a)\\ne0`$, this yields $`g'(b)=1/f'(a)`$. The inverse slope is evaluated at the forward output $`b`$, while the forward slope is evaluated at the original input $`a`$. In the lecture's notation $`y=f(x)`$, this is $`dx/dy=1/(dy/dx)`$ at the same paired values. The chain rule explains the reciprocal once the inverse is differentiable; it does not yet prove that differentiability."
+            },
+            {
+              "line": 104,
+              "text": "Read the denominator from inside out: recover the original input with $`g`$, then evaluate the forward derivative there. If the forward derivative is zero, this proof and the reciprocal formula are unavailable; a difference quotient or another argument is required."
+            },
+            {
+              "line": 106,
+              "text": "[P18] Return to the source curve $`y^3+xy^2+1=0`$. Because $`y\\ne0`$, it can be solved for the other coordinate:"
+            },
+            {
+              "line": 115,
+              "text": "[P19] The lecture also extends the integer power rule to rational exponents. For $`m`$ an integer, $`n`$ a positive integer and $`x\\gt 0`$, define $`y=x^{m/n}`$ to be the positive $`n`$th root of $`x^m`$. Why may we differentiate this function? On positive inputs $`p(t)=t^n`$ is continuous and strictly increasing, with $`p'(t)=nt^{n-1}\\gt 0`$. Its positive inverse root is differentiable by [P15]\u2013[P17]. Composing that root with the differentiable integer power $`x^m`$ gives a differentiable $`y(x)`$. This supplies the existence premise before using the chain rule."
+            },
+            {
+              "line": 134,
+              "text": "Thus $`(x^{m/n})'=(m/n)x^{m/n-1}`$ for $`x\\gt 0`$, reproducing every exponent step in the lecture's argument. For example, $`y=x^{2/3}`$ satisfies $`y^3=x^2`$, giving $`3y^2y'=2x`$ and $`y'=(2/3)x^{-1/3}`$ on this positive domain."
+            },
+            {
+              "line": 150,
+              "text": "[P23] For the inverse trigonometric example, use radians and the principal $`y=\\arctan x`$, whose range is $`-\\pi/2\\lt y\\lt \\pi/2`$. This is the branch already specified in the baseline and used by the lecture's acute-angle triangle. Tangent on this interval is continuous, strictly increasing, has range all real numbers, and has nonzero derivative $`\\sec^2 y=1/\\cos^2 y`$. The inverse proof therefore justifies differentiability of arctangent for every real input. Differentiating the defining equation now gives"
+            },
+            {
+              "line": 158,
+              "text": "[P24] The lecture's first figure turns this last composition into an expression in $`x`$. For $`x\\gt 0`$, form a right triangle with angle $`y`$ at the top of a vertical side of length $`1`$. The horizontal side opposite $`y`$ has length $`x`$. Hence $`\\tan y=x/1=x`$, so its acute angle is $`y=\\arctan x`$. Pythagoras gives hypotenuse $`\\sqrt{1+x^2}`$, and adjacent over hypotenuse gives"
+            },
+            {
+              "line": 182,
+              "text": "[P27] Q5. Revisit this after a break, first with the explanation closed; a later day is one adjustable option. (a) From memory, state what licenses differentiating an implicit relation and the hypotheses needed for a finite reciprocal inverse derivative. Then reopen the notes and repair omissions. (b) Let $`F(t)=t+\\arctan t`$, with principal arctangent and radians. You may use that $`F`$ is continuous and strictly increasing on all real $`t`$ and has range all real numbers. If $`G=F^{-1}`$, find $`G(1+\\pi/4)`$ and $`G'(1+\\pi/4)`$, then give the tangent line to $`G`$ at that input. Target: (a) retrieve the conditions; (b) transfer them to a sum involving an inverse trigonometric function without solving explicitly for $`G`$. A complete response identifies the forward input, differentiates $`F`$, checks the nonzero condition and builds the tangent with the coordinates in the right order. All supplied facts in (b) are premises; the solution need not prove them. [Hint H5](#h5) \u00b7 [Solution S5](#s5)."
+            },
+            {
+              "line": 233,
+              "text": "At $`(0,-1)`$ the coefficient is $`3`$, the slope is $`1/3`$, and the tangent is $`y+1=x/3`$. The term $`y`$ comes from differentiating the factor $`x`$; the term $`xy'`$ comes from differentiating the factor $`y`$. Omitting either is a product-rule error, rather than a sign slip. The calculation establishes the derivative's value under the branch assumption and nonzero coefficient. It alone does not establish the existence of a differentiable branch. The problem explicitly supplies that assumption. [Return to Q2](#q2)."
+            },
+            {
+              "line": 252,
+              "text": "The first quotient tends to zero from both sides, so $`u'(0)=0`$. The second grows without bound from both sides; it has no finite limit, so $`v`$ has no finite derivative at zero. Infinity is not a real derivative value. Even a plausible extension of a formula to zero needs this separate justification when its original proof divided by a quantity that vanishes there. [Return to Q3](#q3)."
+            },
+            {
+              "line": 281,
+              "text": "Solving $`z=t+\\arctan t`$ explicitly for $`t`$ is unnecessary: the known pair identifies the correct evaluation point. Part (a) asks for retrieval of established conditions; part (b) asks for transfer to a new composition of ideas. Neither an immediate reading nor a worked solution by itself demonstrates delayed retention. [Return to Q5](#q5)."
+            },
+            {
+              "line": 283,
+              "text": "[P41] Source. This lesson reconstructs MIT OpenCourseWare, 18.01 Single Variable Calculus, Fall 2006, Lecture 5, \u201cImplicit Differentiation and Inverses\u201d: [original five-page packet](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/18d6a86a30a4bc046c5f7034d47587f1_lec5.pdf). The course cover is followed by printed pages 1\u20134. The source's rational powers, circle, cubic, inverse derivative, arctangent triangle and inverse graph are all included above. The branch and existence arguments make explicit conditions left compressed in the lecture. Q1\u2013Q5 are generated applications, not quoted MIT assessment questions. The original cover points to [MIT OCW's terms and citation information](https://ocw.mit.edu/terms/)."
+            }
+          ],
+          "numerical_check_candidates": [
+            {
+              "line": 73,
+              "text": "In composition notation these read $`(g\\circ f)(x)=x`$ and $`(f\\circ g)(z)=z`$: evaluate the inner function first. They have different input sets even though both return their inputs. In the lecture's graph, a point $`(a,b)`$ on $`f`$ has $`b=f(a)`$, and its reversed point $`(b,a)`$ lies on $`g`$, with $`a=f^{-1}(b)`$. Swapping the coordinates reflects the point across $`y=x`$. This explains the original figure's black forward curve, blue inverse curve and reflection line; the dashed horizontal and vertical guides connect corresponding input/output coordinates. The pictured shape illustrates the swap, rather than imposing a particular formula for $`f`$."
+            },
+            {
+              "line": 83,
+              "text": "At $`a`$ with $`b=f(a)`$ and $`f'(a)\\ne0`$, this yields $`g'(b)=1/f'(a)`$. The inverse slope is evaluated at the forward output $`b`$, while the forward slope is evaluated at the original input $`a`$. In the lecture's notation $`y=f(x)`$, this is $`dx/dy=1/(dy/dx)`$ at the same paired values. The chain rule explains the reciprocal once the inverse is differentiable; it does not yet prove that differentiability."
+            },
+            {
+              "line": 144,
+              "text": "So $`w'(0)=0`$ follows directly, although the earlier division proof did not cover zero. If an even-root domain ends at zero, only a one-sided endpoint quotient is available, not the ordinary two-sided derivative. A constant function defined as $`w(x)=1`$ has derivative zero wherever defined; this treats a zero exponent without evaluating $`0\\cdot x^{-1}`$ at zero."
+            },
+            {
+              "line": 178,
+              "text": "[P26] Q4. A continuous strictly decreasing function $`f`$ on an open interval $`I`$ has $`f(2)=5`$ and $`f'(2)=-3`$. Write $`g=f^{-1}`$ on the range $`J=f(I)`$. Find $`g(5)`$, $`g'(5)`$, and the corresponding points on the graphs of $`f`$ and $`g`$. State the domains of $`g(f(x))=x`$ and $`f(g(z))=z`$. Explain why the inverse derivative rule uses $`f'(2)`$ here, rather than requiring $`f'(5)`$. Target: match inverse inputs to forward evaluation points and interpret reflection. A complete response names the paired input/output values, the slope's evaluation point and both identity domains. [Hint H4](#h4) \u00b7 [Solution S4](#s4)."
+            },
+            {
+              "line": 182,
+              "text": "[P27] Q5. Revisit this after a break, first with the explanation closed; a later day is one adjustable option. (a) From memory, state what licenses differentiating an implicit relation and the hypotheses needed for a finite reciprocal inverse derivative. Then reopen the notes and repair omissions. (b) Let $`F(t)=t+\\arctan t`$, with principal arctangent and radians. You may use that $`F`$ is continuous and strictly increasing on all real $`t`$ and has range all real numbers. If $`G=F^{-1}`$, find $`G(1+\\pi/4)`$ and $`G'(1+\\pi/4)`$, then give the tangent line to $`G`$ at that input. Target: (a) retrieve the conditions; (b) transfer them to a sum involving an inverse trigonometric function without solving explicitly for $`G`$. A complete response identifies the forward input, differentiates $`F`$, checks the nonzero condition and builds the tangent with the coordinates in the right order. All supplied facts in (b) are premises; the solution need not prove them. [Hint H5](#h5) \u00b7 [Solution S5](#s5)."
+            },
+            {
+              "line": 202,
+              "text": "[P32] H4. Begin with the reversible pair $`2\\mapsto5`$, so the inverse runs $`5\\mapsto2`$. In $`g'(z)=1/f'(g(z))`$, evaluate the inner $`g(z)`$ first. A negative forward slope should give a negative inverse slope as well. [Return to Q4](#q4) \u00b7 [Solution S4](#s4)."
+            },
+            {
+              "line": 262,
+              "text": "The graph points are $`(2,5)`$ on $`f`$ and $`(5,2)`$ on $`g`$, reflected across $`y=x`$. The identities are $`g(f(x))=x`$ for $`x\\in I`$ and $`f(g(z))=z`$ for $`z\\in J`$. The expression $`1/f'(5)`$ evaluates the forward derivative at the wrong input; $`5`$ need not even belong to $`I`$. The condition is about $`f'(2)`$, which is supplied. [Return to Q4](#q4)."
+            },
+            {
+              "line": 266,
+              "text": "[P39] S5. An acceptable response to (a) says that implicit differentiation applies the usual rules to a differentiable local function satisfying the relation; collecting and dividing computes its derivative only where the divisor is nonzero. To justify an inverse derivative here, use a continuous strictly monotone function on an open interval, an interior input $`a`$ where $`f'(a)`$ exists and is nonzero, and the inverse on the corresponding range. At $`b=f(a)`$, the inverse derivative is $`1/f'(a)`$. Equivalent wording is acceptable if it preserves these assumptions and the paired evaluation points."
+            },
+            {
+              "line": 281,
+              "text": "Solving $`z=t+\\arctan t`$ explicitly for $`t`$ is unnecessary: the known pair identifies the correct evaluation point. Part (a) asks for retrieval of established conditions; part (b) asks for transfer to a new composition of ideas. Neither an immediate reading nor a worked solution by itself demonstrates delayed retention. [Return to Q5](#q5)."
+            }
+          ]
+        }
+      },
+      "accepted_copy": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r39\\earlier-success-review\\D005\\teaching__teaching-v2.md",
+      "actual_teaching_sha256": "4ae6d0f33e2957ebaf3bbd31c34e154c4a7c5eaab4bc3a09a9e909574b1a48e6",
+      "original_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/18d6a86a30a4bc046c5f7034d47587f1_lec5.pdf",
+      "original_pdf": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D005\\original.pdf",
+      "original_sha256": "d0ed3d4624b0a15cc5c65cff6aece48f70e185f5c417ba7d37a7c935b652848c",
+      "original_page_count": 5,
+      "rendered_pages": [
+        {
+          "physical_page": 2,
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D005\\original-page-02.png",
+          "sha256": "75a0d3717a95d46b6f777bea7037f34eae238d61676199e2b27fda5d4a3a5756"
+        },
+        {
+          "physical_page": 3,
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D005\\original-page-03.png",
+          "sha256": "d8a97315c3ee6ef7d62028e71a58905e982540e0b40dd42363c470f2f908d69e"
+        },
+        {
+          "physical_page": 4,
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D005\\original-page-04.png",
+          "sha256": "6e52b7eb63ff4bea4adb525e6b928c4658286d6de0d36eee3431037d84786f07"
+        },
+        {
+          "physical_page": 5,
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D005\\original-page-05.png",
+          "sha256": "9940d859ae6de95541ea2e67bee141701d5ce239cbd5c05e7fadda3118aff7cb"
+        }
+      ],
+      "additional_rendered_pages": [],
+      "crops": [
+        {
+          "physical_page": 2,
+          "label": "rational-circle-context",
+          "pdf_clip_points": [
+            75,
+            190,
+            535,
+            670
+          ],
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D005\\crop-rational-circle-context.png",
+          "sha256": "45d643bedcf98dc875b8f7aeeafb9a64ef06c54380a2334271dc8f6607ddf1ea"
+        },
+        {
+          "physical_page": 3,
+          "label": "implicit-inverse-context",
+          "pdf_clip_points": [
+            75,
+            95,
+            535,
+            650
+          ],
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D005\\crop-implicit-inverse-context.png",
+          "sha256": "b388d962687e759d2c2b24bdfb97a15e17524d6be3e24e55c2f55af9dde96bb5"
+        }
+      ]
+    },
+    {
+      "material_id": "D006",
+      "revision": "r13-candidate1-v3",
+      "accepted_commit": "28825d27b93baef43a5751eacecac81fa46841bc",
+      "teaching_artifact": {
+        "path": "runs/y1-reader-20261008/iterations/006/regenerated-r13-candidate1/teaching-v3.md",
+        "blob": "568fd03397f022bf2725a22476d155d470d84788",
+        "bytes": 28777,
+        "sha256": "311afdef083a4468f18bcdd11a68975d2e6622661e0be3405a5c9f58b3f3a813",
+        "same_at_frozen_commit": true,
+        "frozen_commit": "28825d27b93baef43a5751eacecac81fa46841bc",
+        "scan": {
+          "link_math": [],
+          "boundary_math": [],
+          "strict_no_space": [],
+          "source_claim_candidates": [
+            {
+              "line": 5,
+              "text": "MIT 18.01, Fall 2006, Lecture 6"
+            },
+            {
+              "line": 11,
+              "text": "Reading route: read Parts 1\u20135 in order and try A1\u2013A5 where they occur. Keep any partial working; the [hints](#hints) give a next step and the [solutions](#solutions) give complete reasoning in a separate group. Use [A6](#task-a6) on a later return. The source and its corrections are recorded at the end."
+            },
+            {
+              "line": 22,
+              "text": "Start with a fixed base $a\\gt 1$, as in the lecture. In $a^x$, $a$ stays fixed while $x$ changes. The exponent laws give"
+            },
+            {
+              "line": 38,
+              "text": "Write $h$ for a small nonzero change in $x$. The lecture writes $\\Delta x$ for the same change. At a fixed $x$, the difference quotient is"
+            },
+            {
+              "line": 63,
+              "text": "To read this formula, multiply the current height $a^x$ by the base's fixed factor $M(a)$ to get the slope there. To construct it from the graph, first take the tangent slope at $(0,1)$; that number is $M(a)$, because $a^0=1$. Then the slope at any other $x$ is that number times the height. This is the relationship shown by the lecture's first figure."
+            },
+            {
+              "line": 77,
+              "text": "We take the existence of this special base as a foundational property of the real exponential family. The lecture's following geometric comparisons motivate where it lies; pictures alone do not prove existence or uniqueness."
+            },
+            {
+              "line": 84,
+              "text": "These are the comparisons in Figures 2 and 3: a secant measures an average slope between its two points, while a tangent measures the slope at one point. For these strictly upward-curving exponentials, tangent slopes increase along the curve, placing the secant slope between the endpoint tangent slopes. The comparisons locate the slope-one base between 2 and 4 once continuity and increase of $M(a)$ are established. We will identify $M(a)$ explicitly in Part 2, which also verifies those properties. The printed source labels the second secant's right endpoint $(1,0)$; the correct coordinates are $(0,1)$."
+            },
+            {
+              "line": 201,
+              "text": "Even base 10 brings in the natural logarithm: $(10^x)'=(\\ln10)10^x$. The same argument extends the lecture's initial $a\\gt 1$ convention to $0\\lt a\\lt 1$: there $\\ln a\\lt 0$, so $a^x$ decreases. At $a=1$ the function is constant and the derivative is zero. No corresponding general real-variable rule with a negative base is being claimed."
+            },
+            {
+              "line": 232,
+              "text": "This gives a procedure: take the logarithm of a positive expression, simplify using logarithm laws, differentiate the simplified expression, and multiply by the original function. Positivity is a condition for taking the real logarithm in this procedure, not a claim that every differentiable function is positive."
+            },
+            {
+              "line": 235,
+              "text": "Applied to $f(x)=a^x$, it provides the lecture's second method:"
+            },
+            {
+              "line": 251,
+              "text": "Now consider the lecture's worked example $f(x)=x^x$ on $x\\gt 0$. Both the base and exponent change. The ordinary power rule $(x^n)'=nx^{n-1}$ treats $n$ as constant, while the exponential rule $(a^x)'=(\\ln a)a^x$ treats $a$ as constant. Neither rule alone applies to the two changing occurrences of $x$."
+            },
+            {
+              "line": 270,
+              "text": "Multiplying by the original function recovers"
+            },
+            {
+              "line": 309,
+              "text": "The lecture asks for the limit of"
+            },
+            {
+              "line": 345,
+              "text": "The vertical bar means evaluate the derivative at the stated input. We have found the logarithm's limit. To recover the original sequence, use the exact inverse relation $b_k=e^{a_k}$ and continuity of the exponential:"
+            },
+            {
+              "line": 364,
+              "text": "The lecture's first closing remark uses this formula to approximate $e$. With $k=10$, it gives $(1.1)^{10}\\approx2.59374$, whereas $e\\approx2.71828$: the estimate is about 4.58% low. It is useful as a rough approximation, and the limit guarantees convergence as $k$ increases; $k=10$ does not give several correct decimal places."
+            },
+            {
+              "line": 367,
+              "text": "The same route works with a small negative increment as long as the logarithm's input stays positive: the derivative of $\\ln$ at 1 has the same limit from either side. More broadly, if logarithms tend to a finite $L$, exponentiating yields a limit $e^L$. If logarithms instead tend to $+\\infty$, the original positive quantities grow without bound because the exponential is increasing and unbounded. If they tend to $-\\infty$, the original quantities tend to zero."
+            },
+            {
+              "line": 375,
+              "text": "For positive integers $k\\gt 2$, let $b_k=(1-2/k)^{3k}$. Find the limit of $\\ln(b_k)$, then the limit of $b_k$. Show how $h=-2/k$ converts $\\ln(b_k)$ into a multiple of the derivative quotient for $\\ln$ at 1, and state the side from which $h$ approaches zero. A complete response distinguishes the logarithm's limit from the original sequence's limit and justifies returning by the exponential."
+            },
+            {
+              "line": 394,
+              "text": "and multiplying by 100 expresses it as a percentage. The denominator is the starting level, not the final level. This is the distinction behind the lecture's final market example; no actual market observation is needed."
+            },
+            {
+              "line": 535,
+              "text": "Compare the first step where your working differs. A missing chain-rule factor, an invalid logarithm input, and confusing a logarithm's limit with the original limit are different problems. The explanations below describe possible errors, not errors you have been observed making."
+            },
+            {
+              "line": 616,
+              "text": "At $x=0$, $y=1$ and both terms in parentheses vanish, giving slope 0. The term $2x\\ln(1+x)$ comes from the changing exponent. Treating $x^2$ as constant would lose that term. Evaluating only at zero would hide that particular mistake because the missing term happens to vanish there; the full derivative must still include it."
+            },
+            {
+              "line": 651,
+              "text": "A result of $-6$ for the original limit would miss this last inverse operation and would also conflict with positivity of every $b_k$."
+            },
+            {
+              "line": 707,
+              "text": "For $p=x^3$, the exponent is the fixed number 3, so the power rule gives $p'=3x^2$. For $q=3^x$, the base is fixed, so $q'=(\\ln3)3^x$. For $r=x^x$, both parts change; logarithmic differentiation or rewriting as $e^{x\\ln x}$ gives $r'=x^x(\\ln x+1)$. Alternative correct methods are acceptable if they account for every changing part and preserve the domain $x\\gt 0$."
+            },
+            {
+              "line": 719,
+              "text": "The bracketed factor tends to 1 by Part 4. To make the conclusion precise, it is greater than $1/2$ for all sufficiently large $k$, so $\\ln c_k\\gt k/2$ eventually. Thus $\\ln c_k\\to+\\infty$, and $c_k\\to+\\infty$ by the exponential's increase without bound. There is no finite limit. The additional factor $k$ in the exponent changes the conclusion from the lecture's $e$ limit; the base approaching 1 does not determine the answer by itself."
+            },
+            {
+              "line": 725,
+              "text": "Source and scope"
+            },
+            {
+              "line": 728,
+              "text": "This lesson covers the complete supplied [MIT OpenCourseWare 18.01 Fall 2006 Lecture 6 PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/f9af0e98490296c99d330faf47389507_lec6.pdf), comprising a cover and printed pages 1\u20137. The printed title is \u201cExponential and Log, Logarithmic Differentiation, Hyperbolic Functions.\u201d Hyperbolic functions appear in that title but are not developed anywhere in this PDF; no missing continuation is assumed here."
+            },
+            {
+              "line": 731,
+              "text": "The source's worked $x^x$ derivative, exponential limit, three geometric figures and both final remarks are developed above. Tasks A1\u2013A6 are generated applications, not quoted MIT assessment questions. Two source typos are corrected: the point labelled $(1,0)$ in the discussion of $4^x$ and Figure 3 is $(0,1)$, and the inverse box on printed page 4 must read $w=\\ln x\\Rightarrow e^w=x$. The approximation at $k=10$ is quantified in Part 4, and finite percentage change is distinguished from instantaneous relative rate in Part 5."
+            }
+          ],
+          "numerical_check_candidates": [
+            {
+              "line": 103,
+              "text": "For example, to differentiate $e^{3x}$, the outer function is $e^u$ and the inner input is $u=3x$. The outer derivative is evaluated at that same input, giving $e^{3x}$, and the inner derivative is 3. Thus $(e^{3x})'=3e^{3x}$. Changing how quickly the exponent changes changes how quickly the whole expression changes."
+            },
+            {
+              "line": 111,
+              "text": "Let $y=e^{2x-1}$. Find $dy/dx$ and the tangent slope at $x=1/2$. Explain where the factor from the inner expression enters. A complete response connects the chain rule to the factor and evaluates the derivative at the stated point."
+            },
+            {
+              "line": 176,
+              "text": "The numerator is the derivative of the entire inner input; the denominator is that input itself. For example, $\\ln(1+x^2)$ is defined for every real $x$, and its derivative is $2x/(1+x^2)$. A check at $x=0$ gives zero slope, consistent with the expression being unchanged when $x$ is replaced by $-x$ and with the displayed derivative."
+            },
+            {
+              "line": 198,
+              "text": "Comparison with Part 1 identifies $M(a)=\\ln a$. In particular $M$ is continuous and strictly increasing for $a\\gt 0$, and $M(a)=1$ has the unique solution $a=e$. The previous geometric bracket $2\\lt e\\lt 4$ is consistent with this identification. This is a check of the slope-based characterisation, not a new construction of $e$ from the pictures."
+            },
+            {
+              "line": 317,
+              "text": "The subscript labels the term of a sequence; $k\\to\\infty$ means considering larger and larger positive integers. Although the base tends to 1, the exponent grows. Replacing the base by its limit too early loses the effect of many repeated factors. Nor can the competing factors $k$ and $\\ln(1+1/k)$ be evaluated separately as an ordinary product of finite limits."
+            },
+            {
+              "line": 364,
+              "text": "The lecture's first closing remark uses this formula to approximate $e$. With $k=10$, it gives $(1.1)^{10}\\approx2.59374$, whereas $e\\approx2.71828$: the estimate is about 4.58% low. It is useful as a rough approximation, and the limit guarantees convergence as $k$ increases; $k=10$ does not give several correct decimal places."
+            },
+            {
+              "line": 428,
+              "text": "For a worked model, let $F(t)=80e^{0.03t}$, where $t$ is the numerical time in days and $F$ is in points. Its absolute rate is $F'=2.4e^{0.03t}$ points per day. Dividing by its current level gives $F'/F=0.03$ per day, or 3% per day instantaneously. After one day, however, the exact percentage increase is $100(e^{0.03}-1)$, about 3.045%. The level on which growth acts changes during the day. Calling both numbers exactly 3% would confuse a local rate with a finite change."
+            },
+            {
+              "line": 436,
+              "text": "Two positive index levels are modelled by $F(t)=300e^{-0.02t}$ and $G(t)=10000e^{-0.02t}$, where $t$ is the numerical time in days. At $t=0$, find each absolute rate in points per day and each instantaneous percentage rate per day. Separately compare the exact finite percentage changes caused by a fall of 50 points from 300 and from 10000. For the model $F$, express its exact percentage change from day 0 to day 1 and explain why it differs from the instantaneous percentage rate multiplied by one day. A complete response states which quantities agree, carries signs and units, and separates exact finite change from local approximation; a symbolic expression in $e$ is sufficient."
+            },
+            {
+              "line": 543,
+              "text": "The outer function $e^u$ has derivative $e^u$, evaluated at $u=2x-1$. The inner derivative is 2, so"
+            },
+            {
+              "line": 616,
+              "text": "At $x=0$, $y=1$ and both terms in parentheses vanish, giving slope 0. The term $2x\\ln(1+x)$ comes from the changing exponent. Treating $x^2$ as constant would lose that term. Evaluating only at zero would hide that particular mistake because the missing term happens to vanish there; the full derivative must still include it."
+            }
+          ]
+        }
+      },
+      "accepted_copy": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r39\\earlier-success-review\\D006\\teaching__regenerated-r13-candidate1__teaching-v3.md",
+      "actual_teaching_sha256": "311afdef083a4468f18bcdd11a68975d2e6622661e0be3405a5c9f58b3f3a813",
+      "original_url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/f9af0e98490296c99d330faf47389507_lec6.pdf",
+      "original_pdf": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D006\\original.pdf",
+      "original_sha256": "e36b81f73c0e6265a814de8875c3898b1255d2e0aa656547a731b8274a00f66d",
+      "original_page_count": 8,
+      "rendered_pages": [
+        {
+          "physical_page": 3,
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D006\\original-page-03.png",
+          "sha256": "d949eb611d6ede8e9b42d6d2dcb71d1dae643152afa33db8291bd53e04e31514"
+        },
+        {
+          "physical_page": 4,
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D006\\original-page-04.png",
+          "sha256": "b1473617c422e86267074a4734e43bf4fd438928a82ddb5f8814d20d27eb6b3d"
+        },
+        {
+          "physical_page": 5,
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D006\\original-page-05.png",
+          "sha256": "20cbf182c4f41c7496dcc08020318ebe2b40207114d50e6d3d5891d438d9d61e"
+        },
+        {
+          "physical_page": 8,
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D006\\original-page-08.png",
+          "sha256": "bde5d52ef052a08a9a1f1a60100de22c6afea80b0895ecca1fdfd083752f2f78"
+        }
+      ],
+      "additional_rendered_pages": [
+        {
+          "physical_page": 2,
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D006\\original-page-02.png",
+          "sha256": "97a91f6d0d18a08e31efef50e0d0997087e6d49d85477143f368f675898a57d8"
+        },
+        {
+          "physical_page": 6,
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D006\\original-page-06.png",
+          "sha256": "d8f37ee8c7225401e025f25362b18c6241e331a00659ba31587efe1818124189"
+        },
+        {
+          "physical_page": 7,
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D006\\original-page-07.png",
+          "sha256": "45a1ec5b38c18fc77092d3ba94fe02335c292b8a9de98bf33ceb32bf9cef58eb"
+        }
+      ],
+      "crops": [
+        {
+          "physical_page": 3,
+          "label": "coordinate-prose-context",
+          "pdf_clip_points": [
+            75,
+            350,
+            535,
+            535
+          ],
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D006\\crop-coordinate-prose-context.png",
+          "sha256": "465fc0a0ec5a8a8fc78c7ae307880fa5094aa208075cefdd3e6498ac4fbf7b0b"
+        },
+        {
+          "physical_page": 4,
+          "label": "coordinate-figure-context",
+          "pdf_clip_points": [
+            125,
+            425,
+            480,
+            710
+          ],
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D006\\crop-coordinate-figure-context.png",
+          "sha256": "f237fdc40298c9094d483b6e321161ff98688f6121a5ca5670928fb74f6aa45a"
+        },
+        {
+          "physical_page": 5,
+          "label": "inverse-box-context",
+          "pdf_clip_points": [
+            75,
+            280,
+            535,
+            650
+          ],
+          "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\batch-a\\D006\\crop-inverse-box-context.png",
+          "sha256": "aa1a6010e350f57809224efd64dfca9eb8a3c9c3e94836b3fc05658cc4471c5b"
+        }
+      ]
+    }
+  ],
+  "authoritative_main_binding": {
+    "commit": "2102c1fc637c7c97248c9b2c2d2a6e5da39a39ce",
+    "method": "parent independently verified all14 accepted Markdown blobs with ls-tree/cat-file at this commit; this worker independently verified accepted-copy hashes against r39 inventory",
+    "parent_evidence": "../current-main-identity-check.json",
+    "sparse_older_head": "f23c4a7e52743d48ff2bfef1892b44ed57575a54",
+    "sparse_older_head_status": "supplemental older comparison only"
+  },
+  "rules_read": [
+    {
+      "path": "C:\\Users\\alver\\.codex\\skills\\prof\\SKILL.md",
+      "sha256": "46ae3eb9e2729b9e8f70ea610038716937ffc04ab8d6b8efa30ba814196f2ae6",
+      "bytes": 44393,
+      "read_scope": "complete SKILL.md; complete relevant execution content; mathematics/physics domain content, other domain text also retrieved"
+    },
+    {
+      "path": "C:\\Users\\alver\\.codex\\skills\\prof\\references\\execution-protocol.md",
+      "sha256": "b65aa1dd1d41e8ed4e0b8381b4011d1786bb5f926885afd4d0c290c97bc160e9",
+      "bytes": 36750,
+      "read_scope": "complete SKILL.md; complete relevant execution content; mathematics/physics domain content, other domain text also retrieved"
+    },
+    {
+      "path": "C:\\Users\\alver\\.codex\\skills\\prof\\references\\domain-patterns.md",
+      "sha256": "0f78c92b4d5e7af5061dbc3330ec534cef4d99e9697212d646f9e16703967805",
+      "bytes": 10301,
+      "read_scope": "complete SKILL.md; complete relevant execution content; mathematics/physics domain content, other domain text also retrieved"
+    }
+  ],
+  "new_independent_visual_scope": {
+    "D003": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "D005": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "D006": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "cover_page_pixels": "not inspected; parsed for packet identities/counts"
+  }
+}

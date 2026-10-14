@@ -1,0 +1,23 @@
+{
+  "scope":"Five specific paragraphs identified by the complete earlier-success exposure map; actual GitHub mathematics/prose/link boundaries only, not whole-document reacceptance",
+  "source_packet":"../earlier-browser-boundary-source-packets/packets.json",
+  "source_packet_report_sha256":"bbd37d61c3a74457ba707467d652921ca8ee589672ba2d974240e7da890dbc91",
+  "method":"Root opened each exact accepted immutable GitHub page, selected the complete unique paragraph in Preview, and compared every ordered source math payload with its actual MathML operands/operators/grouping. Complete prose text and adjacent link labels/hrefs/styles were inspected. Raw MathML, compact structural output and full rendered paragraph text are preserved in tool transcript and persistent r40EarlierBoundary CUA data.",
+  "paragraphs":[
+    {"id":"D005-H1","commit":"32c553f279ac1e5771ff05b78a9951cbff3fee38","line":190,"source_count":5,"rendered_count":5,"source_payloads":["2x+2yy'=0","y'","m","y-y_0=m(x-x_0)","y"],"links":[["Return to Q1","#q1"],["Solution S1","#s1"]],"finding":"Both primes and tangent grouping preserved; final y stays separate from plain link labels; all prose retained","pass":true},
+    {"id":"D007-P5","commit":"4765d39aa399a0a1ff09223cae21b15ce6c7f720","file":"lesson.md","line":301,"source_count":5,"rendered_count":5,"source_payloads":["x\\gt 0","y=x^x","r=x","(x^r)'=rx^{r-1}","x"],"links":[["Hint P5","hints.md#h5"],["Solution P5","solutions.md#s5"]],"finding":"Strict comparison, changing exponent and parenthesized power-rule derivative preserved; final x remains outside both plain link labels; full practice instructions retained","pass":true},
+    {"id":"D007-P3-hint","commit":"4765d39aa399a0a1ff09223cae21b15ce6c7f720","file":"hints.md","line":21,"source_count":9,"rendered_count":9,"source_payloads":["xy","1\\cdot y+xy'","y^2","2yy'","y'","y'","m","(1,2)","y-2=m(x-1)"],"links":[["Return to P3","lesson.md#p3"]],"finding":"Product-rule operands, repeated primes, ordered point and tangent parentheses preserved; final expression and return label separate; full hint retained","pass":true},
+    {"id":"D007-P5-explanation","commit":"4765d39aa399a0a1ff09223cae21b15ce6c7f720","file":"solutions.md","line":108,"source_count":10,"rendered_count":10,"source_payloads":["e^{x\\ln x}","x","\\ln x","r=x","r","x=1","\\ln1=0","x=e","2e^e","e^e"],"links":[["Return to P5","lesson.md#p5"],["Hint P5","hints.md#h5"]],"finding":"Complete exponential grouping, ln terms and discriminating2e^e versus e^e preserved; final e^e does not merge into adjacent links; full explanation retained. Actual complete paragraph has10 expressions, superseding preliminary9-count locator summary.","pass":true},
+    {"id":"D009-P062","commit":"9840e70de6aa7d2c718b60dd13ace7e6f795a50e","line":227,"source_count":7,"rendered_count":7,"source_payloads":["0^-","0^+","(1,0)","(2,1/4)","(3,2/9)","2","3"],"links":[["Return to Task C","#task-c"],["Hints","#hints"],["Start","#start"]],"finding":"One-sided zero superscripts, ordered-coordinate grouping and fractions preserved; final3 separate from all three plain links; full branch description and ending retained","pass":true}
+  ],
+  "source_math_total":36,
+  "rendered_math_total":36,
+  "plain_links":10,
+  "math_nodes_inside_links":0,
+  "renderer_errors":0,
+  "raw_math_code_nodes":0,
+  "paragraph_and_link_styles":"Every inspected paragraph and link had computed fontWeight400 and fontStyle normal",
+  "controller_limit":"The initial D007 hint selector Differentiate matched two paragraphs; actual text was inspected and narrowed to the unique phrase then substitute the point. No ambiguous match was admitted.",
+  "new_material_defect_established":false,
+  "unperformed":"No new whole-file expression audit, click audit, first-use geometry, SASIS, fullT1-T12 reconstruction, portability or human outcome for these earlier cases"
+}

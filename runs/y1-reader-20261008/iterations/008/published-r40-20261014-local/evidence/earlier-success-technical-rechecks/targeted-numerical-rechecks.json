@@ -1,0 +1,982 @@
+[
+  {
+    "case": "D012",
+    "location": "main59,69; iterate0",
+    "kind": "exact rational/point check",
+    "formula": "x_(k+1)=(x_k+3/x_k)/2",
+    "inputs": {
+      "x0": "1",
+      "k": 0
+    },
+    "result": "1",
+    "expected": "1",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main73-77; error0",
+    "kind": "printed numerical approximation/rounding",
+    "formula": "abs(x_k-sqrt(3))",
+    "inputs": {
+      "x_k": "1"
+    },
+    "result": "0.73205080756887729352744634150587236694280525381038062805580697945193301690880003708114619",
+    "round_quantum": "1e-10",
+    "rounded": "0.7320508076",
+    "printed": ".7320508076",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main59,69; iterate1",
+    "kind": "exact rational/point check",
+    "formula": "x_(k+1)=(x_k+3/x_k)/2",
+    "inputs": {
+      "x0": "1",
+      "k": 1
+    },
+    "result": "2",
+    "expected": "2",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main73-77; error1",
+    "kind": "printed numerical approximation/rounding",
+    "formula": "abs(x_k-sqrt(3))",
+    "inputs": {
+      "x_k": "2"
+    },
+    "result": "0.26794919243112270647255365849412763305719474618961937194419302054806698309119996291885381",
+    "round_quantum": "1e-10",
+    "rounded": "0.2679491924",
+    "printed": ".2679491924",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main59,69; iterate2",
+    "kind": "exact rational/point check",
+    "formula": "x_(k+1)=(x_k+3/x_k)/2",
+    "inputs": {
+      "x0": "1",
+      "k": 2
+    },
+    "result": "7/4",
+    "expected": "7/4",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main73-77; error2",
+    "kind": "printed numerical approximation/rounding",
+    "formula": "abs(x_k-sqrt(3))",
+    "inputs": {
+      "x_k": "7/4"
+    },
+    "result": "0.01794919243112270647255365849412763305719474618961937194419302054806698309119996291885381",
+    "round_quantum": "1e-10",
+    "rounded": "0.0179491924",
+    "printed": ".0179491924",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main59,69; iterate3",
+    "kind": "exact rational/point check",
+    "formula": "x_(k+1)=(x_k+3/x_k)/2",
+    "inputs": {
+      "x0": "1",
+      "k": 3
+    },
+    "result": "97/56",
+    "expected": "97/56",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main73-77; error3",
+    "kind": "printed numerical approximation/rounding",
+    "formula": "abs(x_k-sqrt(3))",
+    "inputs": {
+      "x_k": "97/56"
+    },
+    "result": "0.00009204957397984932969651563698477591433760333247651480133587769092412594834282006171095",
+    "round_quantum": "1e-10",
+    "rounded": "0.0000920496",
+    "printed": ".0000920496",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main59,69; iterate4",
+    "kind": "exact rational/point check",
+    "formula": "x_(k+1)=(x_k+3/x_k)/2",
+    "inputs": {
+      "x0": "1",
+      "k": 4
+    },
+    "result": "18817/10864",
+    "expected": "18817/10864",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main73-77; error4",
+    "kind": "printed numerical approximation/rounding",
+    "formula": "abs(x_k-sqrt(3))",
+    "inputs": {
+      "x_k": "18817/10864"
+    },
+    "result": "2.44585024697329003551916445190844658713218196399132115015042338957131778324285970E-9",
+    "round_quantum": "1e-10",
+    "rounded": "2.4E-9",
+    "printed": ".0000000024",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main84-86",
+    "kind": "exact rational/point check",
+    "formula": "decimal endpoint squared",
+    "inputs": {
+      "endpoint": "1.73205080"
+    },
+    "result": "18749999836129/6250000000000",
+    "expected": "18749999836129/6250000000000",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main84-86",
+    "kind": "exact rational/point check",
+    "formula": "decimal endpoint squared",
+    "inputs": {
+      "endpoint": "1.73205081"
+    },
+    "result": "30000000084216561/10000000000000000",
+    "expected": "30000000084216561/10000000000000000",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main89",
+    "kind": "printed numerical approximation/rounding",
+    "formula": "sqrt(3), bracket-certified seven-decimal rounding",
+    "inputs": {
+      "radicand": "3"
+    },
+    "result": "1.73205080756887729352744634150587236694280525381038062805580697945193301690880003708114619",
+    "round_quantum": "1e-7",
+    "rounded": "1.7320508",
+    "printed": "1.7320508",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main36",
+    "kind": "exact rational/point check",
+    "formula": "f(2)=2\u00b2-3",
+    "inputs": {
+      "x": "2"
+    },
+    "result": "1",
+    "expected": "1",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "solutionQ1 372-375",
+    "kind": "exact rational/point check",
+    "formula": "Newton x1=2-(-1)/4; residual x1\u00b2-5",
+    "inputs": {
+      "f": "x\u00b2-5",
+      "x0": "2"
+    },
+    "result": "1/16",
+    "expected": "1/16",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "solutionQ2 384",
+    "kind": "exact rational/point check",
+    "formula": "Newton map for x\u00b3-2x+2 at0",
+    "inputs": {
+      "x0": "0"
+    },
+    "result": "1",
+    "expected": "1",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "solutionQ2 384",
+    "kind": "exact rational/point check",
+    "formula": "Newton map for x\u00b3-2x+2 at1",
+    "inputs": {
+      "x1": "1"
+    },
+    "result": "0",
+    "expected": "0",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "solutionQ2 389",
+    "kind": "exact rational/point check",
+    "formula": "f(-3/2)=(-3/2)\u00b3-2(-3/2)+2",
+    "inputs": {
+      "x": "-3/2"
+    },
+    "result": "13/8",
+    "expected": "13/8",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "solutionQ4 414",
+    "kind": "exact rational/point check",
+    "formula": "(3-2/6)\u00b2-7",
+    "inputs": {
+      "x0": "3"
+    },
+    "result": "1/9",
+    "expected": "1/9",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution281",
+    "kind": "exact rational/point check",
+    "formula": "y=(b-sqrt(L\u00b2-a\u00b2))/2",
+    "inputs": {
+      "a": 8,
+      "b": 3,
+      "L": 10
+    },
+    "result": "-3/2",
+    "expected": "-3/2",
+    "units": "m",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution281",
+    "kind": "exact rational/point check",
+    "formula": "x=a/2*(1-b/sqrt(L\u00b2-a\u00b2))",
+    "inputs": {
+      "a": 8,
+      "b": 3,
+      "L": 10
+    },
+    "result": "2",
+    "expected": "2",
+    "units": "m",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution281",
+    "kind": "exact rational/point check",
+    "formula": "left distance squared=x\u00b2+y\u00b2",
+    "inputs": {
+      "x": "2",
+      "y": "-3/2"
+    },
+    "result": "25/4",
+    "expected": "25/4",
+    "units": "m\u00b2",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution281",
+    "kind": "exact rational/point check",
+    "formula": "right distance squared=(a-x)\u00b2+(b-y)\u00b2",
+    "inputs": {
+      "a": 8,
+      "b": 3,
+      "x": "2",
+      "y": "-3/2"
+    },
+    "result": "225/4",
+    "expected": "225/4",
+    "units": "m\u00b2",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution281",
+    "kind": "exact rational/point check",
+    "formula": "distance sum",
+    "inputs": {
+      "r1": "5/2",
+      "r2": "15/2"
+    },
+    "result": "10",
+    "expected": "10",
+    "units": "m",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution281",
+    "kind": "exact rational/point check",
+    "formula": "left horizontal/length",
+    "inputs": {
+      "x": "2",
+      "r1": "5/2"
+    },
+    "result": "4/5",
+    "expected": "4/5",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution281",
+    "kind": "exact rational/point check",
+    "formula": "right horizontal/length",
+    "inputs": {
+      "a": 8,
+      "x": "2",
+      "r2": "15/2"
+    },
+    "result": "4/5",
+    "expected": "4/5",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution406",
+    "kind": "exact rational/point check",
+    "formula": "y=(b-sqrt(L\u00b2-a\u00b2))/2",
+    "inputs": {
+      "a": 6,
+      "b": 2,
+      "L": 10
+    },
+    "result": "-3",
+    "expected": "-3",
+    "units": "m",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution406",
+    "kind": "exact rational/point check",
+    "formula": "x=a/2*(1-b/sqrt(L\u00b2-a\u00b2))",
+    "inputs": {
+      "a": 6,
+      "b": 2,
+      "L": 10
+    },
+    "result": "9/4",
+    "expected": "9/4",
+    "units": "m",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution406",
+    "kind": "exact rational/point check",
+    "formula": "left distance squared=x\u00b2+y\u00b2",
+    "inputs": {
+      "x": "9/4",
+      "y": "-3"
+    },
+    "result": "225/16",
+    "expected": "225/16",
+    "units": "m\u00b2",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution406",
+    "kind": "exact rational/point check",
+    "formula": "right distance squared=(a-x)\u00b2+(b-y)\u00b2",
+    "inputs": {
+      "a": 6,
+      "b": 2,
+      "x": "9/4",
+      "y": "-3"
+    },
+    "result": "625/16",
+    "expected": "625/16",
+    "units": "m\u00b2",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution406",
+    "kind": "exact rational/point check",
+    "formula": "distance sum",
+    "inputs": {
+      "r1": "15/4",
+      "r2": "25/4"
+    },
+    "result": "10",
+    "expected": "10",
+    "units": "m",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution406",
+    "kind": "exact rational/point check",
+    "formula": "left horizontal/length",
+    "inputs": {
+      "x": "9/4",
+      "r1": "15/4"
+    },
+    "result": "3/5",
+    "expected": "3/5",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution406",
+    "kind": "exact rational/point check",
+    "formula": "right horizontal/length",
+    "inputs": {
+      "a": 6,
+      "x": "9/4",
+      "r2": "25/4"
+    },
+    "result": "3/5",
+    "expected": "3/5",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution416",
+    "kind": "exact rational/point check",
+    "formula": "y=(b-sqrt(L\u00b2-a\u00b2))/2",
+    "inputs": {
+      "a": 8,
+      "b": 0,
+      "L": 10
+    },
+    "result": "-3",
+    "expected": "-3",
+    "units": "m",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution416",
+    "kind": "exact rational/point check",
+    "formula": "x=a/2*(1-b/sqrt(L\u00b2-a\u00b2))",
+    "inputs": {
+      "a": 8,
+      "b": 0,
+      "L": 10
+    },
+    "result": "4",
+    "expected": "4",
+    "units": "m",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution416",
+    "kind": "exact rational/point check",
+    "formula": "left distance squared=x\u00b2+y\u00b2",
+    "inputs": {
+      "x": "4",
+      "y": "-3"
+    },
+    "result": "25",
+    "expected": "25",
+    "units": "m\u00b2",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution416",
+    "kind": "exact rational/point check",
+    "formula": "right distance squared=(a-x)\u00b2+(b-y)\u00b2",
+    "inputs": {
+      "a": 8,
+      "b": 0,
+      "x": "4",
+      "y": "-3"
+    },
+    "result": "25",
+    "expected": "25",
+    "units": "m\u00b2",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution416",
+    "kind": "exact rational/point check",
+    "formula": "distance sum",
+    "inputs": {
+      "r1": "5",
+      "r2": "5"
+    },
+    "result": "10",
+    "expected": "10",
+    "units": "m",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution416",
+    "kind": "exact rational/point check",
+    "formula": "left horizontal/length",
+    "inputs": {
+      "x": "4",
+      "r1": "5"
+    },
+    "result": "4/5",
+    "expected": "4/5",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution416",
+    "kind": "exact rational/point check",
+    "formula": "right horizontal/length",
+    "inputs": {
+      "a": 8,
+      "x": "4",
+      "r2": "5"
+    },
+    "result": "4/5",
+    "expected": "4/5",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution281",
+    "kind": "printed numerical approximation/rounding",
+    "formula": "asin(ratio)*180/pi",
+    "inputs": {
+      "ratio": "0.8"
+    },
+    "result": "53.13010235415599",
+    "round_quantum": "0.01",
+    "rounded": "53.13",
+    "printed": "53.13",
+    "units": "degrees",
+    "pass": true
+  },
+  {
+    "case": "D012",
+    "location": "main/solution406",
+    "kind": "printed numerical approximation/rounding",
+    "formula": "asin(ratio)*180/pi",
+    "inputs": {
+      "ratio": "0.6"
+    },
+    "result": "36.86989764584402",
+    "round_quantum": "0.01",
+    "rounded": "36.87",
+    "printed": "36.87",
+    "units": "degrees",
+    "pass": true
+  },
+  {
+    "case": "D013",
+    "location": "main117",
+    "kind": "exact rational/point check",
+    "formula": "h\u00b2 exact error",
+    "inputs": {
+      "h": "0.1"
+    },
+    "result": "1/100",
+    "expected": "1/100",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D013",
+    "location": "main117",
+    "kind": "exact rational/point check",
+    "formula": "h\u00b2 exact error",
+    "inputs": {
+      "h": "0.8"
+    },
+    "result": "16/25",
+    "expected": "16/25",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D013",
+    "location": "main119-121",
+    "kind": "exact rational/point check",
+    "formula": "(1.8)\u00b2",
+    "inputs": {
+      "x": "1.8"
+    },
+    "result": "81/25",
+    "expected": "81/25",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D013",
+    "location": "main119-121",
+    "kind": "exact rational/point check",
+    "formula": "1+2(1.8-1)",
+    "inputs": {
+      "a": "1",
+      "x": "1.8"
+    },
+    "result": "13/5",
+    "expected": "13/5",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D013",
+    "location": "main121",
+    "kind": "exact rational/point check",
+    "formula": "(3.24-1)/.8",
+    "inputs": {
+      "f(x)": "3.24",
+      "f(a)": "1",
+      "h": ".8"
+    },
+    "result": "14/5",
+    "expected": "14/5",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D013",
+    "location": "main121",
+    "kind": "exact rational/point check",
+    "formula": "MVT c=secant/2",
+    "inputs": {
+      "secant": "2.8"
+    },
+    "result": "7/5",
+    "expected": "7/5",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D013",
+    "location": "solutions30-34",
+    "kind": "exact rational/point check",
+    "formula": "tangent estimate1+3(2-1)",
+    "inputs": {
+      "f": "t\u00b3",
+      "a": "1",
+      "x": "2"
+    },
+    "result": "4",
+    "expected": "4",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D013",
+    "location": "solutions30-34",
+    "kind": "exact rational/point check",
+    "formula": "exact minus tangent",
+    "inputs": {
+      "f": "t\u00b3",
+      "a": "1",
+      "x": "2"
+    },
+    "result": "4",
+    "expected": "4",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D013",
+    "location": "solutions30-34",
+    "kind": "exact rational/point check",
+    "formula": "(2\u00b3-1\u00b3)/(2-1)",
+    "inputs": {
+      "a": 1,
+      "b": 2
+    },
+    "result": "7",
+    "expected": "7",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D013",
+    "location": "solutions34",
+    "kind": "exact rational/point check",
+    "formula": "midpoint derivative3*(3/2)\u00b2",
+    "inputs": {
+      "c": "3/2"
+    },
+    "result": "27/4",
+    "expected": "27/4",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D007",
+    "location": "lesson130",
+    "kind": "exact rational/point check",
+    "formula": "y\u00b3+3xy\u00b2 at(0,2)",
+    "inputs": {
+      "x": 0,
+      "y": 2
+    },
+    "result": "8",
+    "expected": "8",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D007",
+    "location": "lesson130",
+    "kind": "exact rational/point check",
+    "formula": "-3y\u00b2/(3y\u00b2+6xy)",
+    "inputs": {
+      "x": 0,
+      "y": 2
+    },
+    "result": "-1",
+    "expected": "-1",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D007",
+    "location": "solutions35",
+    "kind": "exact rational/point check",
+    "formula": "1/(1+cos0)",
+    "inputs": {
+      "x": 0,
+      "cos0": 1
+    },
+    "result": "1/2",
+    "expected": "1/2",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D007",
+    "location": "solutions43",
+    "kind": "exact rational/point check",
+    "formula": "x\u00b2+xy+y\u00b2",
+    "inputs": {
+      "x": 1,
+      "y": 2
+    },
+    "result": "7",
+    "expected": "7",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D007",
+    "location": "solutions51-56",
+    "kind": "exact rational/point check",
+    "formula": "-(2x+y)/(x+2y)",
+    "inputs": {
+      "x": 1,
+      "y": 2
+    },
+    "result": "-4/5",
+    "expected": "-4/5",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D015",
+    "location": "main205",
+    "kind": "exact rational/point check",
+    "formula": "original family slope at stated point",
+    "inputs": {
+      "x": 1,
+      "y": 1
+    },
+    "result": "2",
+    "expected": "2",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D015",
+    "location": "main205",
+    "kind": "exact rational/point check",
+    "formula": "perpendicular slope at stated point",
+    "inputs": {
+      "x": 1,
+      "y": 1
+    },
+    "result": "-1/2",
+    "expected": "-1/2",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D015",
+    "location": "main205",
+    "kind": "exact rational/point check",
+    "formula": "slope product",
+    "inputs": {
+      "old": "2",
+      "new": "-1/2"
+    },
+    "result": "-1",
+    "expected": "-1",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D015",
+    "location": "solutions109",
+    "kind": "exact rational/point check",
+    "formula": "original family slope at stated point",
+    "inputs": {
+      "x": 2,
+      "y": -1
+    },
+    "result": "-1",
+    "expected": "-1",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D015",
+    "location": "solutions109",
+    "kind": "exact rational/point check",
+    "formula": "perpendicular slope at stated point",
+    "inputs": {
+      "x": 2,
+      "y": -1
+    },
+    "result": "1",
+    "expected": "1",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D015",
+    "location": "solutions109",
+    "kind": "exact rational/point check",
+    "formula": "slope product",
+    "inputs": {
+      "old": "-1",
+      "new": "1"
+    },
+    "result": "-1",
+    "expected": "-1",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D015",
+    "location": "solutions151",
+    "kind": "exact rational/point check",
+    "formula": "original family slope at stated point",
+    "inputs": {
+      "x": 1,
+      "y": 2
+    },
+    "result": "-2",
+    "expected": "-2",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D015",
+    "location": "solutions151",
+    "kind": "exact rational/point check",
+    "formula": "perpendicular slope at stated point",
+    "inputs": {
+      "x": 1,
+      "y": 2
+    },
+    "result": "1/2",
+    "expected": "1/2",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D015",
+    "location": "solutions151",
+    "kind": "exact rational/point check",
+    "formula": "slope product",
+    "inputs": {
+      "old": "-2",
+      "new": "1/2"
+    },
+    "result": "-1",
+    "expected": "-1",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D015",
+    "location": "solutions72",
+    "kind": "exact rational/point check",
+    "formula": "ray y/x at(-1,2)",
+    "inputs": {
+      "x": -1,
+      "y": 2
+    },
+    "result": "-2",
+    "expected": "-2",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D015",
+    "location": "solutions72",
+    "kind": "exact rational/point check",
+    "formula": "tangent3y/x at(-1,2)",
+    "inputs": {
+      "x": -1,
+      "y": 2
+    },
+    "result": "-6",
+    "expected": "-6",
+    "units": "dimensionless",
+    "pass": true
+  },
+  {
+    "case": "D015",
+    "location": "main205",
+    "kind": "exact rational/point check",
+    "formula": "ellipse constantx\u00b2/4+y\u00b2/2",
+    "inputs": {
+      "x": 1,
+      "y": 1
+    },
+    "result": "3/4",
+    "expected": "3/4",
+    "units": "dimensionless",
+    "pass": true
+  }
+]

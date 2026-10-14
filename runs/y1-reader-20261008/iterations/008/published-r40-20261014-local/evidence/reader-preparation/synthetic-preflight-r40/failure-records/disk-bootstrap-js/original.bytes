@@ -1,0 +1,12 @@
+// Explicitly authorized once: load only the sealed non-subject operating instruction and operational adapter.
+const KEY = "prof.reader.d008.r40.synthetic.preflight1";
+if (load(KEY) !== undefined) throw new Error("reader bootstrap already present; preserve it and stop");
+const r = await tools.exec_command({cmd: "$v='C:/Users/alver/.codex/.chatgpt-projects/g-p-6aa4088af61c8191a4b578a4310457ae/.prof-sasis/20261014-d008-r40/reader-preparation/synthetic-preflight-r40/verify_reuse.py'; if ((Get-FileHash -LiteralPath $v -Algorithm SHA256).Hash.ToLowerInvariant() -ne '31a821375e9bfd377040aa16a2236f67f0895b30753c9fb268a19c889de320a5') { throw 'verifier identity mismatch' }; & 'C:/Users/alver/AppData/Local/Programs/Python/Python314/python.exe' $v 'bootstrap' '240cdd7882e1c760003b948b0201a4c4a5448e9682a16393be5de3de5579d4d1'", max_output_tokens: 18000});
+if (r.exit_code !== 0 || r.session_id) throw new Error("reader bootstrap identity verification failed: " + r.output);
+let p;
+try { p = JSON.parse(r.output.trim()); } catch (_) { throw new Error("bootstrap output missing/truncated; preserve failure and stop"); }
+if (!p || Object.keys(p).sort().join(",") !== "instruction,mode,schema,seal" || p.schema !== "prof-reader-reuse-proof-v1" || p.mode !== "bootstrap" || typeof p.instruction !== "string") throw new Error("invalid bootstrap proof shape");
+if (!p.seal || p.seal.schema !== "prof-reader-reuse-store-v1" || p.seal.binding_sha256 !== "240cdd7882e1c760003b948b0201a4c4a5448e9682a16393be5de3de5579d4d1" || typeof p.seal.adapter_source !== "string") throw new Error("invalid bootstrap seal");
+store(KEY, p.seal);
+text(p.instruction);
+text({bootstrap_verified: true, binding_sha256: p.seal.binding_sha256, bootstrap_sha256: p.seal.bootstrap_sha256, short_call_sha256: p.seal.short_call_sha256, subject_retrieval: false});

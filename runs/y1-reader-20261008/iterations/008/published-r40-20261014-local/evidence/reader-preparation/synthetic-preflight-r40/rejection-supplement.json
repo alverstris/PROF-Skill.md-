@@ -1,0 +1,61 @@
+{
+  "synthetic_only": true,
+  "checks": [
+    {
+      "name": "unread_baseline_revisit",
+      "passed": true,
+      "arguments": [
+        "RB002"
+      ],
+      "exit_code": 2,
+      "stderr": "{\"error\":\"baseline revisit target not yet read\",\"ok\":false}\n",
+      "fixture_opens": 0,
+      "state_created": false
+    },
+    {
+      "name": "extra_subject_path_argument",
+      "passed": true,
+      "arguments": [
+        "B001",
+        "C:/synthetic-unpermitted.txt"
+      ],
+      "exit_code": 2,
+      "stderr": "{\"error\":\"exactly one step ID argument is required\",\"ok\":false}\n",
+      "fixture_opens": 0,
+      "state_created": false
+    },
+    {
+      "name": "premature_teaching",
+      "passed": true,
+      "arguments": [
+        "T001"
+      ],
+      "exit_code": 2,
+      "stderr": "{\"error\":\"step is not the exact next scheduled step\",\"ok\":false}\n",
+      "fixture_opens": 0,
+      "state_created": false
+    },
+    {
+      "name": "skipped_initial_baseline",
+      "passed": true,
+      "arguments": [
+        "B002"
+      ],
+      "exit_code": 2,
+      "stderr": "{\"error\":\"step is not the exact next scheduled step\",\"ok\":false}\n",
+      "fixture_opens": 0,
+      "state_created": false
+    },
+    {
+      "name": "missing_argument",
+      "passed": true,
+      "arguments": [],
+      "exit_code": 2,
+      "stderr": "{\"error\":\"exactly one step ID argument is required\",\"ok\":false}\n",
+      "fixture_opens": 0,
+      "state_created": false
+    }
+  ],
+  "failed_runtime_preserved": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\reader-preparation\\synthetic-preflight-r40\\unread-and-shape-rejection-runtime",
+  "production_access": false
+}

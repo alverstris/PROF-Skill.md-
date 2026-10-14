@@ -1,0 +1,59 @@
+Z 
+ 
+ 
+ 
+ 
+ 
+ 
+Z 
+Z 
+Lecture 16 
+18.01Fall 2006 
+Lecture 16: Diﬀerential Equations and Separation 
+of Variables 
+Ordinary Diﬀerential Equations (ODEs) 
+Example 1. dy = f(x)
+dx 
+Solution: y = 
+f(x)dx. We consider these types of equations as solved. 
+Example 2. 
+d + x
+y = 0 
+or 
+dy + xy = 0 
+dx 
+dx 
+d
+(
++ x 
+is known in quantum mechanics as the annihilation operator.)
+dx 
+Besides integration, we have only one method of solving this so far, namely, substitution. Solving 
+for dy gives: 
+dx 
+dy = −xy
+dx 
+The key step is to separate variables. 
+dy = −xdx 
+y 
+Note that all y-dependence is on the left and all x-dependence is on the right. 
+Next, take the antiderivative of both sides: 
+dy 
+y 
+= − 
+xdx 
+2
+x
+ln |y| = − 2 + c (only need one constant c) 
+|y| = e c e−x 2/2 
+(exponentiate) 
+2
+y = ae−x /2 
+(a = ±e c) 
+c
+Despite the fact that e
+=6
+0, a = 0 is possible along with all a =6
+0, depending on the initial 
+conditions. For instance, if y(0) = 1, then y = e−x 2/2 . If y(0) = a, then y = ae−x 2/2 (See Fig. 1). 
+1 

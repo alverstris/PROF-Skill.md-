@@ -1,0 +1,371 @@
+D008 r40 independent original-source technical audit
+Audit date: 2026-10-14
+Role: independent calculations and source verification only. This is not SASIS,
+not a learner-facing teaching draft, and not a review of an author draft.
+
+SCOPE, INPUTS, AND PROVENANCE
+
+Read only the seven-page original PDF, all seven supplied complete page PNGs,
+the page-04 supplied extraction aid, source-identities.json, and the official resource
+page HTML in original-inputs. No other case, history, prior teaching document,
+or prior report was read. The initial cwd filename search surfaced names of
+unrelated history files but none of those files was opened. All writes are
+inside fresh-author/evidence/independent.
+
+Authority: original-inputs/mit-18.01-fall-2006-lec9.pdf, 880629 bytes,
+SHA256 d1b383663f7792bbdaa4d6108e17b11679d4688e413e197486941af337892320.
+Direct PdfReader inspection confirmed seven PDF pages. Recomputed hashes and
+sizes for every file listed by source-identities.json all matched the supplied
+manifest; see recomputed-values.json. PDF page 1 is the cover, so printed lecture
+page n is PDF page n+1 for n=1,...,6. All locators below give both where useful.
+
+Official MIT resource identity:
+https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec9/
+The supplied HTML has matching canonical URL (line 44), title (line 65), and
+download link to the PDF (lines 1218 and 1245).
+Official PDF:
+https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/40cb41807e6d67373f3299ce87c4d9b3_lec9.pdf
+The live official PDF was independently opened and is seven pages.
+
+Visual review coverage:
+PDF p1/supplied page-1.png: cover, course, term, attribution/terms.
+PDF p2/printed p1/page-2.png: tangent picture, general linearization, ln x.
+PDF p3/printed p2/page-3.png: all five basic linears, proofs, both Figure 2 panels,
+  beginning of Example 2.
+PDF p4/printed p3/page-4.png: Example 2 completion and footnote, Example 3 limit,
+  Planet Quirk formula and explanatory prose.
+PDF p5/printed p4/page-5.png: Figure 3, Quirk meanings and linear expansion,
+  quadratic formula, cos example, general quadratic coefficient derivation.
+PDF p6/printed p5/page-6.png: Figure 4, all five quadratics, ln proof, Quirk
+  quadratic expansion.
+PDF p7/printed p6/page-7.png: Quirk order estimate, atomic-clock sentence,
+  full Example 5 quadratic product and truncation note.
+
+Actual PDF pages 3-5 were also rendered afresh by bundled Poppler at 250 dpi,
+then disputed regions cropped and visually read at readable scale. Poppler
+reported missing display-font warnings for Symbol and ArialUnicode; the relevant
+rendered mathematical glyphs and words remained legible and agreed with the
+supplied PNGs on magnified comparison. Extraction is a finding aid, not authority.
+
+Dependency origins (no installs):
+Python executable:
+C:/Users/alver/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe
+Python 3.12.14; bundled runtime version 26.1013.11914.
+pypdf, pdfplumber and Pillow resolved inside that executable's Lib/site-packages;
+decimal and fractions are its standard library. sympy and mpmath were absent
+and were not installed or required. Numeric arithmetic uses 80-digit Decimal;
+sin/cos use convergent power-series terms until the Decimal sum stops changing.
+Poppler executable:
+C:/Users/alver/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/Library/bin/pdftoppm.exe
+Full module paths and decimal results are preserved in recomputed-values.json.
+Reproducible independent calculation script: recompute.py.
+
+SOURCE DEFECTS, AND A RESOLVED FALSE ALARM
+
+1. PDF p3 / printed p2, Proof of 1, final sentence: rendered f(x)=x is an exact
+   equality although f was defined as sin x. The valid statement is sin x~x
+   (linear approximation) or L(x)=x. The preceding displayed approximation is
+   correct. Evidence: p3-proof-equalities.png.
+
+2. PDF p3 / printed p2, Proof of 5, final display: rendered
+      f(x)=f(0)+f'(0)x=1+rx.
+   The first equality is generally false. Use f(x) approximately 1+rx, or define
+   L(x)=f(0)+f'(0)x=1+rx. Exact equality happens in special cases r=0 or r=1.
+   Evidence: p3-proof-equalities.png.
+
+3. PDF p5 / printed p4, Quirk expansion below the T/T' definitions: rendered
+      T'=T(1-v^2/c^2)^(-1/2) approximately 1+(1/2)(v^2/c^2).
+   A multiplicative T is omitted on the right. The corrected dimensional formula
+   is T' approximately T[1+(1/2)(v^2/c^2)], or the dimensionless ratio
+   T'/T approximately 1+(1/2)(v^2/c^2). Evidence:
+   p5-time-factor-exponent.png. This is a source-rendered defect, not extraction.
+
+4. Same source display, explanatory bracket: rendered
+      (1+u)^4 approximately 1+ru,
+   alongside u=-v^2/c^2, r=-1/2. The visible exponent is 4; the general formula
+   needs exponent r, or the specialized formula needs exponent -1/2. For r=4
+   its true linear term would be 4u, which contradicts the displayed r=-1/2.
+   Evidence: p5-time-factor-exponent.png. This too is present in the actual PDF.
+
+5. IMPORTANT RESOLVED FALSE ALARM: PDF p4 / printed p3 really prints
+      f'(0)=-5/2,
+   correctly. The short numerator minus is easy to miss in a complete-page
+   view. A first visual impression of +5/2 was explicitly withdrawn after the
+   high-resolution crop. The extraction aid also contains -5/2. Do not attribute
+   a derivative-sign error to this source. Evidence: p4-derivative-sign.png
+   from a new actual-PDF rendering and p4-supplied-png-derivative-sign.png from
+   a magnified crop of the supplied page-4.png both show the minus.
+
+6. PDF p5 / printed p4 describes the quadratic as a "best-fit parabola". The
+   precise mathematical property is matching f, f' and f'' at x0, not minimizing
+   a least-squares error on a finite interval. A source interpretation should
+   preserve the local-contact meaning rather than imply a statistical fit.
+
+7. PDF p7 / printed p6 says: "Not even the best atomic clocks can measure time
+   with this level of precision." This is a historical empirical assertion
+   accompanying an order estimate, not a theorem following from that estimate.
+   No current universal claim about all atomic clocks was established by this
+   audit. Relevance of a discarded dimensionless term depends on elapsed time,
+   measurement protocol and requested tolerance. The parent author confirmed
+   that no numerical claim about today's best clocks is planned.
+
+No defect was found in the printed -5/2 coefficient, 27/8 coefficient, limit
+20, quadratic 1/2 factor, listed basic expansions, or sign of the Quirk
+quadratic term. Minor extraction artifacts include replacement characters for
+primes, line-order movement of fractions and exponents, and corrupted roots.
+Those artifacts must not be quoted as the original formula.
+
+INDEPENDENT DERIVATIONS: GENERAL FORM AND BASIC LISTS
+
+Write h=x-x0. At a differentiable point,
+  L(x)=f(x0)+f'(x0)h, and f(x)=L(x)+o(h).
+At a twice differentiable point with suitable local regularity,
+  Q(x)=f(x0)+f'(x0)h+(1/2)f''(x0)h^2,
+  f(x)=Q(x)+o(h^2).
+For the smooth functions here, the respective remainder orders near the base
+point are O(h^2) and O(h^3), except that vanishing next coefficients can improve
+the order. A numerical tolerance requires a remainder bound or comparison,
+not just a small-argument slogan. A zero remainder at a point does not make
+the identity global. Approximation error need not increase monotonically with
+distance for an arbitrary function, despite the source's informal description.
+
+For p(x)=a+bx+cx^2 at x0=0:
+  p(0)=a, p'(x)=b+2cx, p'(0)=b, p''(x)=2c.
+Thus a=p(0), b=p'(0), c=p''(0)/2, verifying the half factor exactly. At arbitrary
+x0, substituting h gives the same derivative matching; Q=p for every x when p
+has degree at most 2. This does not establish exactness for other functions.
+
+Basepoint-zero derivative table (PDF pp3,6 / printed pp2,5):
+function          f(0)  f'(0)  f''(0)     linear L              quadratic Q
+sin x             0     1       0         x                     x
+cos x             1     0      -1         1                     1-x^2/2
+exp x             1     1       1         1+x                   1+x+x^2/2
+ln(1+x)           0     1      -1         x                     x-x^2/2
+(1+x)^r           1     r       r(r-1)    1+rx                  1+rx+r(r-1)x^2/2
+
+Independent derivatives:
+sin'=cos, sin''=-sin; cos'=-sin, cos''=-cos; exp'=exp''=exp;
+[ln(1+x)]'=1/(1+x), [ln(1+x)]''=-1/(1+x)^2;
+[(1+x)^r]'=r(1+x)^(r-1), second derivative=r(r-1)(1+x)^(r-2).
+These agree with every entry in the source lists. The sin quadratic has degree
+at most two with zero x^2 coefficient; it need not have a nonzero x^2 term.
+Leading omitted terms near zero:
+sin x = x-x^3/6+O(x^5);
+cos x = 1-x^2/2+x^4/24+O(x^6);
+exp x = 1+x+x^2/2+x^3/6+O(x^4);
+ln(1+x)=x-x^2/2+x^3/3+O(x^4);
+(1+x)^r=1+rx+r(r-1)x^2/2+r(r-1)(r-2)x^3/6+O(x^4), for fixed real r.
+
+Domain/units checks:
+sin/cos arguments use radians. sin, cos, exp are real and smooth on all R.
+ln(1+x) requires x>-1. For arbitrary real r, using x>-1 gives a positive base
+and smooth real (1+x)^r. Integer or special rational exponents can allow larger
+domains, but no such extension is needed for these local calculations.
+The binomial approximation is for fixed r as x tends to zero; a large |r| can
+make coefficients large, so merely checking |x|<1 is not an accuracy guarantee.
+
+ln x at x0=1 (PDF p2 / printed p1): f(1)=0, f'(x)=1/x, f'(1)=1, so
+  ln x approximately x-1.
+Setting x=1+u gives ln(1+u) approximately u, u0=0, u>-1. Strictly this is a
+change of variable that moves the expansion center to zero in the new variable.
+Because ln is concave on its real domain, ln(1+u)<=u, equality only u=0.
+
+INDEPENDENT DERIVATIONS: e^(-2x)/sqrt(1+x)
+
+Source locators: Example 2 starts PDF p3 / printed p2 and finishes PDF p4 /
+printed p3; Example 5 is PDF p7 / printed p6.
+
+Real domain: x>-1; the original is undefined at x=-1 and not real for x<-1.
+For this domain f(x)=e^(-2x)(1+x)^(-1/2)>0, so f has no real zeros.
+
+Factor expansions:
+  e^(-2x)=1-2x+2x^2+O(x^3),
+  (1+x)^(-1/2)=1-x/2+3x^2/8+O(x^3).
+Linear product: (1-2x)(1-x/2)=1-(5/2)x+x^2.
+The x^2 here cannot be retained as a quadratic approximation because the
+discarded factor terms 2x^2 and 3x^2/8 contribute at the same order.
+Complete quadratic coefficient:
+  2 + (-2)(-1/2) + 3/8 = 2+1+3/8=27/8.
+Therefore
+  L(x)=1-(5/2)x,
+  Q(x)=1-(5/2)x+(27/8)x^2.
+The exact product of the two quadratic truncations is
+  1-(5/2)x+(27/8)x^2-(7/4)x^3+(3/4)x^4.
+Its cubic coefficient is not the true cubic coefficient, since both factor
+cubic terms were omitted. The true series starts
+  f(x)=1-(5/2)x+(27/8)x^2-(163/48)x^3+O(x^4).
+
+Independent derivative route, with z=1+x>0:
+  f'/f=-2-1/(2z),
+  f''/f=4+2/z+3/(4z^2),
+  f'''/f=-8-6/z-9/(2z^2)-15/(8z^3).
+At x=0, f=1, f'=-5/2, f''=27/4, f'''=-163/8; Q coefficient f''/2=27/8.
+Thus f is strictly decreasing and strictly convex over x>-1. f'''<0 there.
+Its tangent L is a strict underestimate away from zero. Taylor's remainder
+shows f(x)<Q(x) for x>0 and f(x)>Q(x) for -1<x<0.
+
+Sign/zero checks on the approximants:
+L has root x=2/5=0.4 and becomes negative for x>0.4, whereas the true function
+is always positive; this demonstrates the local limitation. Q has discriminant
+25/4-27/2=-29/4<0 and positive leading coefficient; its minimum occurs at
+x=10/27 with value 29/54>0. These roots/signs agree with the numerical checks.
+
+Decimal recomputations (true values rounded here to 12 decimals; full 80-digit
+values and signed/relative errors are in recomputed-values.json):
+x       true f           L              Q               true-Q
+-0.2    1.667910717219   1.5            1.635           +0.032910717219
+-0.1    1.287471552066   1.25           1.28375         +0.003721552066
+-0.01   1.025340925905   1.025          1.0253375       +0.000003425905
+ 0      1                1              1                0
+ 0.01   0.975334133735   0.975          0.9753375       -0.000003366265
+ 0.1    0.780629143725   0.75           0.78375         -0.003120856275
+ 0.2    0.611915683269   0.5            0.635           -0.023084316731
+ 0.4    0.379752285796   0              0.54            -0.160247714204
+
+Certified interval bounds can be obtained because |f''| and |f'''| attain their
+largest value on [-a,a], 0<a<1, at -a. For |x|<=0.1,
+max |f''|=9.203037390694 and max |f'''|=29.346933855529, giving
+|f-L|<=0.046015186954 and |f-Q|<=0.004891155643.
+For |x|<=0.01, corresponding bounds are 0.000347868957 and 0.000003517666.
+These are rounded displays of independently evaluated bounds, not claims that
+the source supplied those numbers.
+
+INDEPENDENT DERIVATIONS: LIMIT FOR (1+2x)^10
+
+Locator: PDF p4 / printed p3, Example 3. Define g(x)=(1+2x)^10.
+g(0)=1 and g'(x)=20(1+2x)^9, hence g'(0)=20. By the derivative definition,
+  lim[x->0] ((1+2x)^10-1)/x =20.
+The quotient is defined for every real x other than zero; the removable
+discontinuity at zero is filled by value 20. The polynomial g is defined on R.
+Exact binomial coefficients from degree 0 to 10 are
+  1,20,180,960,3360,8064,13440,15360,11520,5120,1024.
+Thus g=1+20x+180x^2+960x^3+... and the quotient=20+180x+960x^2+...,
+which independently proves the limit and supplies the needed remainder order.
+Writing only g approximately 1+20x without specifying an error small relative
+to x does not by itself rigorously justify division by x followed by a limit.
+
+Decimal quotient checks:
+x=-0.01: 18.292719311245310976
+x=-0.001: 19.820956648050575348485118976
+x=+0.001: 20.180963368077455371525121024
+x=+0.01: 21.899441999475713024
+These approach 20 from the expected sides close to zero.
+True g has its real zero at x=-1/2; its linear truncation has a spurious root
+at -1/20, while quadratic 1+20x+180x^2 has discriminant -320 and no real root.
+No global zero locations should be inferred from those local truncations.
+
+PLANET QUIRK: MODEL MEANING, CALCULATION AND ROUNDING
+
+Source locators: formula PDF p4/printed p3; definitions and linear expansion
+PDF p5/printed p4; quadratic expansion PDF p6/printed p5; order comparison PDF
+p7/printed p6. Figure 3 is an illustration and supplies no numerical scale.
+
+Verified primary official-publisher reference:
+OpenStax, University Physics Volume 3, section 5.3 Time Dilation, equations
+5.1 and 5.2 and the Proper Time section:
+https://openstax.org/books/university-physics-volume-3/pages/5-3-time-dilation
+It derives Delta t=Delta tau/sqrt(1-(v/c)^2)=gamma Delta tau between inertial
+frames. Delta tau is the interval between two events at the single moving
+clock in its own rest frame; Delta t assigns times to those same events in
+the ground frame, where they occur at distinct locations. Constant relative
+velocity is the inertial-frame idealization. Gravity is excluded by this SR
+model. Therefore map T=onboard proper interval Delta tau, T'=ground-frame
+coordinate elapsed interval Delta t. The source's wristwatch description
+needs a synchronized ground-frame time-assignment interpretation when the
+satellite events occur elsewhere; it is not a comparison of light arrival
+times and does not include signal travel delay or Doppler reception effects.
+
+For q=(v/c)^2, gamma(q)=(1-q)^(-1/2), Taylor derivatives give
+gamma(0)=1, gamma'(0)=1/2, gamma''(0)=3/4. Thus
+  T'/T=gamma=1+q/2+3q^2/8+O(q^3).
+Direct binomial coefficient: (-1/2)(-3/2)/2=3/8, with (-q)^2=q^2.
+This is linear/quadratic in q, not in v. The first nonconstant term is order
+v^2; the quadratic-in-q term is order v^4. At v=0, T'=T. For 0<|v|<c,
+gamma>1, T'>T for positive elapsed T, consistent with a moving clock running
+slowly relative to ground-frame time. The factor is even in v. Domain is
+|v|<c or 0<=q<1; gamma diverges as q->1 from below.
+
+Using the SOURCE'S stated numerical inputs in the SAME units,
+v=4 km/s, c=3*10^5 km/s=300000 km/s, yields
+  beta=v/c=1.3333333333333333333333333333...*10^-5,
+  q=16/(9*10^10)=1.7777777777777777777777777777...*10^-10,
+  q^2=3.1604938271604938271604938271...*10^-20,
+  q/2=8.8888888888888888888888888888...*10^-11,
+  3q^2/8=1.1851851851851851851851851851...*10^-20,
+  5q^3/16=1.7558299039780521262002743484...*10^-30.
+Full high-precision recomputation:
+  gamma=1.000000000088888888900740740742496570644991921963159...
+  gamma-1=8.88888889007407407424965706449919219631590794...*10^-11
+  gamma-(1+q/2)=1.18518518536076817561030330742701905197...*10^-20
+  gamma-(1+q/2+3q^2/8)=1.75582990425118122241833866789...*10^-30.
+Rounding examples: q=1.78*10^-10 (3 significant figures), or q approximately
+2*10^-10 (1 significant figure); q has order 10^-10. The source's approximate
+10^-10 is acceptable as an order estimate. Substituting it as an actual
+rounded q in q/2 produces 5*10^-11, which underestimates the source-input
+increment 8.888...*10^-11 by 43.75%. Keep q unrounded through the calculation.
+The source's order-10^-20 statement about q^2 is also reasonable as an order
+estimate; the actual quadratic contribution includes coefficient 3/8.
+
+If T=86400 s is an ONBOARD proper interval, T'-T is
+  7.6800000010240000001517037... microseconds.
+If instead T'=86400 s is the GROUND-frame elapsed interval, the onboard lag
+T'-T=T'[1-sqrt(1-q)] is
+  7.6800000003413333333636741... microseconds.
+The linear approximation is 7.68 microseconds in either case, but precise
+claims must identify which interval is fixed. Neither daily value appears in
+the lecture; these are extra independent scale checks, not source quotations.
+The source does not give T, so the directly available correction is fractional.
+
+Remainder/tolerance statement: gamma'''(q)=15/8*(1-q)^(-7/2)>0. For fixed
+0<=q<1, the linear factor underestimates gamma by approximately 3q^2/8, and the
+quadratic factor underestimates by approximately 5q^3/16. A usable bound is
+  0<=gamma-(1+q/2)<= [3/8]*(1-q)^(-5/2)*q^2,
+and
+  0<=gamma-(1+q/2+3q^2/8)<= [5/16]*(1-q)^(-7/2)*q^3.
+Multiplying by the specified positive T turns factor error into time error.
+This supports a tolerance-based decision without any current-clock assertion.
+
+Cancellation check: ordinary binary floating arithmetic gives gamma-1 as
+8.888889624358853e-11 for these inputs, losing accuracy in the small difference.
+The algebraically stable expression is
+  gamma-1=q/[sqrt(1-q)*(1+sqrt(1-q))].
+It agrees with direct 80-digit Decimal subtraction to the configured precision.
+
+GPS caveat independently confirmed by NIST's official account:
+https://www.nist.gov/atomic-clocks/a-powerful-tool-for-science/putting-einstein-test
+The cited NIST page gives about -7 microseconds/day from satellite motion,
+about +45 microseconds/day from weaker gravity, and net +38 microseconds/day.
+Thus this Quirk calculation isolates a kinematic correction; GPS clock
+calibration involves both kinematic and gravitational effects. Its result
+must not be presented as the full GPS clock correction or the net GPS sign.
+
+BASIC NUMERICAL AND SIGN/ZERO CROSS-CHECKS
+
+At x=0.1, independent values rounded here to 12 decimal places are:
+sin(0.1)=0.099833416647; L=Q=0.1.
+cos(0.1)=0.995004165278; L=1; Q=0.995.
+exp(0.1)=1.105170918076; L=1.1; Q=1.105.
+ln(1.1)=0.095310179804; L=0.1; Q=0.095.
+(1.1)^(-1/2)=0.953462589246; L=0.95; Q=0.95375.
+Checks at x=-0.1 and x=0, signed errors and all digits are also in the JSON.
+
+Zero/sign caution: sin L has root 0 and correct local sign; sin has other roots
+globally. cos Q has roots +/-sqrt(2), not the true nearest roots +/-pi/2; no
+global root claim follows. exp is positive everywhere but its linear truncation
+has spurious root -1. ln(1+x) has only zero 0, whereas its quadratic truncation
+also vanishes at x=2. The inverse square-root true factor is positive on x>-1;
+its linear truncation has spurious root 2. Truncations are local approximations.
+
+LIMITATIONS AND HANDOFF
+
+This audit verifies the source formulas, substitutions, local domains, stated
+inputs, and independently calculated decimals; it does not review the evolving
+teaching document, artwork, practice questions, or any author-proposed numbers
+not supplied to this audit. Parent should compare any final printed numbers
+against the full-precision JSON and state the rounding used. The source itself
+prints mainly exact coefficients and order-of-magnitude powers, not the extra
+decimal comparison table above. No assertion of bit-for-bit live web PDF hash
+identity was made; supplied local PDF identity is verified against its manifest.
+No broad survey of clock performance was performed. All discovered defects
+above were checked against an actual-PDF readable rendering, and the apparent
+derivative-sign defect was rejected on that basis.

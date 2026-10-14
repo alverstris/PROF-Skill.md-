@@ -1,0 +1,83 @@
+{
+  "schema": "sasis-fixed-route-v1",
+  "route_id": "SYNTHETIC_R40",
+  "revision": "non-subject-r1",
+  "range_convention": "zero-based-byte-start-length",
+  "files": {
+    "BFILE": {
+      "artifact_id": "synthetic-BFILE",
+      "revision": "fixture-r1",
+      "kind": "baseline",
+      "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\reader-preparation\\synthetic-preflight-r40\\synthetic-fixtures\\baseline-fixture.txt",
+      "size": 83,
+      "sha256": "5e8d7f8158ad0e6d24bfa7d9c4da5ba2ad32304e7b04276481e229f589f777cf",
+      "encoding": "utf-8"
+    },
+    "TFILE": {
+      "artifact_id": "synthetic-TFILE",
+      "revision": "fixture-r1",
+      "kind": "teaching_text",
+      "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\reader-preparation\\synthetic-preflight-r40\\synthetic-fixtures\\teaching-fixture.txt",
+      "size": 89,
+      "sha256": "0462becd48dcccd1a841571ff0cb270afe5ac56ccfa0505802ca1275b1afc64d",
+      "encoding": "utf-8"
+    },
+    "FIMAGE": {
+      "artifact_id": "synthetic-FIMAGE",
+      "revision": "fixture-r1",
+      "kind": "teaching_figure",
+      "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\reader-preparation\\synthetic-preflight-r40\\synthetic-fixtures\\four-quadrants.png",
+      "size": 382,
+      "sha256": "067b9dfe0854474ec89d5f89ec4c7059b347af5e697ac0be4dff703489699f96",
+      "encoding": "binary-image"
+    }
+  },
+  "steps": [
+    {
+      "id": "B001",
+      "file_id": "BFILE",
+      "start": 0,
+      "length": 41,
+      "sha256": "c4fc04587534cb2edc04b1226ba166148e9c1d6cc190eb42eeba75f625bd8af7",
+      "kind": "text"
+    },
+    {
+      "id": "B002",
+      "file_id": "BFILE",
+      "start": 41,
+      "length": 42,
+      "sha256": "39b01330ae0b42f84afda993a1d578a696b354b82480f1aaf1bcbbbcc1ec0f2d",
+      "kind": "text"
+    },
+    {
+      "id": "T001",
+      "file_id": "TFILE",
+      "start": 0,
+      "length": 45,
+      "sha256": "76b2279c18e076657aa61dc9f993324ecf50d938a6fb9144fa2039417f120ec4",
+      "kind": "text"
+    },
+    {
+      "id": "F001",
+      "file_id": "FIMAGE",
+      "start": 0,
+      "length": 382,
+      "sha256": "067b9dfe0854474ec89d5f89ec4c7059b347af5e697ac0be4dff703489699f96",
+      "kind": "figure"
+    },
+    {
+      "id": "T002",
+      "file_id": "TFILE",
+      "start": 45,
+      "length": 44,
+      "sha256": "1c36a54c16e094847e507ea843fea415bed6e987cbd1db7d54c8d9387d89c3a3",
+      "kind": "text"
+    }
+  ],
+  "baseline_revisits": {
+    "RB001": "B001",
+    "RB002": "B002"
+  }
+}
+
+ 

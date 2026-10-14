@@ -1,0 +1,206 @@
+
+PHYSICAL PDF PAGE 1
+MIT OpenCourseWare 
+http://ocw.mit.edu 
+18.01 Single Variable Calculus 
+Fall 2006 
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms. 
+
+PHYSICAL PDF PAGE 2
+���� 
+Lecture 6 18.01 Fall 2006 
+Lecture 6: Exponential and Log, Logarithmic 
+Diﬀerentiation, Hyperbolic Functions 
+Taking the derivatives of exponentials and logarithms 
+Background 
+We always assume the base, a, is greater than 1. 
+a 0 = 1; a 1 = a; a 2 = a a; . . . · 
+a x1 +x2 = a x1 a x2 
+(a x1 )x2 
+= a x1 x2 
+p qqa = 
+√
+ap (where p and q are integers) 
+rTo deﬁne a for real numbers r, ﬁll in by continuity. 
+d Today’s main task: ﬁnd a x 
+dx 
+We can write 
+d ax+Δx x 
+x a = lim − a
+dx Δx 0 Δx→
+We can factor out the a x:
+x+Δx x Δx Δx
+lim a − a = lim a x a − 1 = a x lim a − 1 
+Δx 0 Δx Δx 0 Δx Δx 0 Δx→ → →
+Let’s call 
+M (a) ≡ lim aΔx − 1 
+Δx 0 Δx→
+We don’t yet know what M (a) is, but we can say 
+d a x = M (a)a x 
+dx 
+Here are two ways to describe M (a): 
+d1. Analytically M (a) = a x at x = 0. dx 
+Indeed, M (a) = lim a0+Δx − a0 
+= d a x 
+Δx 0 Δx dx→ x=0 
+1 
+
+PHYSICAL PDF PAGE 3
+Lecture 6 18.01 Fall 2006 
+M(a) 
+(slope of ax at x=0)
+ax
+Figure 1: Geometric deﬁnition of M (a) 
+x2. Geometrically, M (a) is the slope of the graph y = a at x = 0. 
+The trick to ﬁguring out what M (a) is is to beg the question and deﬁne e as the number such 
+that M (e) = 1. Now can we be sure there is such a number e? First notice that as the base a 
+xincreases, the graph a gets steeper. Next, we will estimate the slope M (a) for a = 2 and a = 4 
+geometrically. Look at the graph of 2x in Fig. 2. The secant line from (0, 1) to (1, 2) of the graph 
+y = 2x has slope 1. Therefore, the slope of y = 2x at x = 0 is less: M (2) < 1 (see Fig. 2). 
+1 1Next, look at the graph of 4x in Fig. 3. The secant line from (− 2 , 2 ) to (1, 0) on the graph of 
+y = 4x has slope 1. Therefore, the slope of y = 4x at x = 0 is greater than M (4) > 1 (see Fig. 3). 
+Somewhere in between 2 and 4 there is a base whose slope at x = 0 is 1. 
+2 
+
+PHYSICAL PDF PAGE 4
+Lecture 6 18.01 Fall 2006 
+y=2x
+slope M(2) 
+slope = 1 (1,2)
+secant line
+Figure 2: Slope M (2) < 1
+y=4x
+secant line
+(1,0)(-1/2, 1/2)
+slope M(4)
+Figure 3: Slope M (4) > 1
+3 
+
+PHYSICAL PDF PAGE 5
+Lecture 6 18.01 Fall 2006 
+Thus we can deﬁne e to be the unique number such that 
+M (e) = 1 
+or, to put it another way, 
+lim eh − 1 = 1 
+h 0 h→
+or, to put it still another way, 
+d (e x) = 1 at x = 0 dx
+d d
+What is (e x)? We just deﬁned M (e) = 1, and (e x) = M (e)e x . So dx dx 
+d (e x) = e x 
+dx 
+Natural log (inverse function of ex) 
+To understand M (a) better, we study the natural log function ln(x). This function is deﬁned as 
+follows: 
+If y = e x , then ln(y) = x 
+(or) 
+If w = ln(x), then e x = w 
+xNote that e is always positive, even if x is negative. 
+Recall that ln(1) = 0; ln(x) < 0 for 0 < x < 1; ln(x) > 0 for x > 1. Recall also that 
+ln(x1x2) = ln x1 + ln x2 
+Let us use implicit diﬀerentiation to ﬁnd d ln(x). w = ln(x). We want to ﬁnd dw . dx dx 
+e w = x 
+d (e w) = d (x)dx dx 
+d (e w) dw = 1 dw dx 
+e w dw = 1 dx 
+dw 1 1 = = dx ew x 
+d 1(ln(x)) = dx x 
+4 
+
+PHYSICAL PDF PAGE 6
+Lecture 6 18.01 Fall 2006 
+d Finally, what about (a x)? dx
+There are two methods we can use: 
+Method 1: Write base e and use chain rule. 
+Rewrite a as eln(a). Then, � �x 
+a x = eln(a) = e x ln(a) 
+That looks like it might be tricky to diﬀerentiate. Let’s work up to it: 
+d e x = e x 
+dx 
+and by the chain rule, 
+d e 3x = 3e 3x 
+dx 
+Remember, ln(a) is just a constant number– not a variable! Therefore, 
+d e(ln a)x = (ln a)e(ln a)x 
+dx 
+or 
+d (a x) = ln(a) a x 
+dx · 
+Recall that d (a x) = M (a) a x 
+dx ·
+So now we know the value of M (a): M (a) = ln(a).
+Even if we insist on starting with another base, like 10, the natural logarithm appears:
+d 10x = (ln 10)10x 
+dx 
+The base e may seem strange at ﬁrst. But, it comes up everywhere. After a while, you’ll learn to 
+appreciate just how natural it is. 
+Method 2: Logarithmic Diﬀerentiation. 
+d dThe idea is to ﬁnd f (x) by ﬁnding ln(f (x)) instead. Sometimes this approach is easier. Let dx dx 
+u = f (x). � � d d ln(u) du 1 duln(u) = = dx du dx u dx 
+duSince u = f and = f �, we can also write dx 
+f �
+(ln f )� = or f � = f (ln f )� 
+f 
+5 
+
+PHYSICAL PDF PAGE 7
+� � 
+� � 
+Lecture 6 18.01 Fall 2006 
+xApply this to f (x) = a . 
+d d dln f (x) = x ln a = ln(f ) = ln(a x) = (x ln(a)) = ln(a).⇒ dx dx dx 
+(Remember, ln(a) is a constant, not a variable.) Hence, 
+d f � d x x(ln f ) = ln(a) = = ln(a) = f � = ln(a)f = a = (ln a)a dx ⇒ f ⇒ ⇒ dx 
+dExample 1. (x x) = ? dx 
+With variable (“moving”) exponents, you should use either base e or logarithmic diﬀerentiation. 
+In this example, we will use the latter. 
+f = x x 
+ln f = x ln x 
+1(ln f )� = 1 (ln x) + x = ln(x) + 1 · x 
+f �
+(ln f )� = f 
+Therefore, 
+f � = f (ln f )� = x x (ln(x) + 1) 
+If you wanted to solve this using the base e approach, you would say f = ex ln x and diﬀerentiate 
+it using the chain rule. It gets you the same answer, but requires a little more writing. 
+� � k1Example 2. Use logs to evaluate lim 1 + . 
+k→∞ k 
+Because the exponent k changes, it is better to ﬁnd the limit of the logarithm. 
+�� � k � 
+1lim ln 1 + 
+k→∞ k 
+We know that �� � k � � �
+1 1
+ln 1 + = k ln 1 + k k 
+1This expression has two competing parts, which balance: k → ∞ while ln 1 + k → 0. 
+�� 1 � k � � 1 � ln 
+� 
+1 + k 
+1 � 
+ln(1 + h) 1ln 1 + = k ln 1 + = 1 = (with h = )k k h kk 
+Next, because ln 1 = 0 �� � k �
+ln 1 + 1 = ln(1 + h) − ln(1)
+k h
+6 
+
+PHYSICAL PDF PAGE 8
+Lecture 6 18.01 Fall 2006 
+1Take the limit: h = k → 0 as k → ∞, so that 
+ln(1 + h) − ln(1) d �� 
+lim = ln(x)� = 1 
+h 0 h dx x=1→
+In all, � � k1lim ln 1 + = 1. 
+k→∞ k 
+� � k1We have just found that ak = ln[ 1 + k ] → 1 as k → ∞. 
+� � k1If bk = 1 + k , then bk = e ak → e 1 as k → ∞. In other words, we have evaluated the limit we 
+wanted: 
+� � k1lim 1 + = e 
+k→∞ k 
+Remark 1. We never ﬁgured out what the exact numerical value of e was. Now we can use this 
+limit formula; k = 10 gives a pretty good approximation to the actual value of e. 
+Remark 2. Logs are used in all sciences and even in ﬁnance. Think about the stock market. If I 
+say the market fell 50 points today, you’d need to know whether the market average before the drop 
+was 300 points or 10, 000. In other words, you care about the percent change, or the ratio of the 
+change to the starting value: 
+f �(t) d = ln(f (t))f (t) dt 
+7 

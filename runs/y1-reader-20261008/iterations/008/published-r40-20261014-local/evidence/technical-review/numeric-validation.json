@@ -1,0 +1,387 @@
+[
+  {
+    "location": "main59",
+    "printed_claim": "ln(1.02)=0.0198026273",
+    "formula": "ln(x)",
+    "inputs": {
+      "x": "1.02"
+    },
+    "computed": "0.019802627296179713026029066885100393108990727511203541085956279078035271634530003",
+    "round_quantum": "0.0000000001",
+    "rounded": "0.0198026273",
+    "expected": "0.0198026273",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main59;solutions20",
+    "printed_claim": "absolute error0.0001973727",
+    "formula": "abs(ln(1.02)-.02)",
+    "inputs": {
+      "x": "1.02",
+      "linear": ".02"
+    },
+    "computed": "0.000197372703820286973970933114899606891009272488796458914043720921964728365469997",
+    "round_quantum": "0.0000000001",
+    "rounded": "0.0001973727",
+    "expected": "0.0001973727",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main250",
+    "printed_claim": "quadratic value.0198",
+    "formula": "h-h\u00b2/2",
+    "inputs": {
+      "h": ".02"
+    },
+    "computed": "0.0198",
+    "round_quantum": ".0001",
+    "rounded": "0.0198",
+    "expected": ".0198",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main250",
+    "printed_claim": "quadratic error.0000026273",
+    "formula": "abs(ln(1.02)-.0198)",
+    "inputs": {
+      "h": ".02"
+    },
+    "computed": "0.000002627296179713026029066885100393108990727511203541085956279078035271634530003",
+    "round_quantum": ".0000000001",
+    "rounded": "0.0000026273",
+    "expected": ".0000026273",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main199",
+    "printed_claim": "daily difference7.68e-6",
+    "formula": "T*q/2",
+    "inputs": {
+      "v_km_s": "4",
+      "c_km_s": "300000",
+      "T_s": "86400"
+    },
+    "computed": "0.0000076799999999999999999999999999999999999999999999999999999999999999999999999999995",
+    "round_quantum": "0.00000001",
+    "rounded": "0.00000768",
+    "expected": "0.00000768",
+    "pass": true,
+    "units": "s"
+  },
+  {
+    "location": "main264",
+    "printed_claim": "3q\u00b2/8=1.185185e-20",
+    "formula": "3q\u00b2/8",
+    "inputs": {
+      "q": "(4/300000)^2"
+    },
+    "computed": "1.1851851851851851851851851851851851851851851851851851851851851851851851851851851E-20",
+    "round_quantum": "1e-26",
+    "rounded": "1.185185E-20",
+    "expected": "1.185185e-20",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main264",
+    "printed_claim": "correction1.2e-20",
+    "formula": "3q\u00b2/8",
+    "inputs": {
+      "q": "(4/300000)^2"
+    },
+    "computed": "1.1851851851851851851851851851851851851851851851851851851851851851851851851851851E-20",
+    "round_quantum": "1e-21",
+    "rounded": "1.2E-20",
+    "expected": "1.2e-20",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main264",
+    "printed_claim": "leading change8.9e-11",
+    "formula": "q/2",
+    "inputs": {
+      "q": "(4/300000)^2"
+    },
+    "computed": "8.8888888888888888888888888888888888888888888888888888888888888888888888888888885E-11",
+    "round_quantum": "1e-12",
+    "rounded": "8.9E-11",
+    "expected": "8.9e-11",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main300",
+    "printed_claim": "f(.02)=.9513233025",
+    "formula": "exp(-2x)/sqrt(1+x)",
+    "inputs": {
+      "x": ".02"
+    },
+    "computed": "0.95132330249460975114164168452615780049273519334266295294809464234343439990278456",
+    "round_quantum": ".0000000001",
+    "rounded": "0.9513233025",
+    "expected": ".9513233025",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main300",
+    "printed_claim": "L=.95",
+    "formula": "1-5x/2",
+    "inputs": {
+      "x": ".02"
+    },
+    "computed": "0.95",
+    "round_quantum": ".01",
+    "rounded": "0.95",
+    "expected": ".95",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main300",
+    "printed_claim": "Q=.95135",
+    "formula": "1-5x/2+27x\u00b2/8",
+    "inputs": {
+      "x": ".02"
+    },
+    "computed": "0.95135",
+    "round_quantum": ".00001",
+    "rounded": "0.95135",
+    "expected": ".95135",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main300",
+    "printed_claim": "linear error.0013233025",
+    "formula": "abs(f(.02)-L(.02))",
+    "inputs": {
+      "x": ".02"
+    },
+    "computed": "0.00132330249460975114164168452615780049273519334266295294809464234343439990278456",
+    "round_quantum": ".0000000001",
+    "rounded": "0.0013233025",
+    "expected": ".0013233025",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main300",
+    "printed_claim": "quadratic error.0000266975",
+    "formula": "abs(f(.02)-Q(.02))",
+    "inputs": {
+      "x": ".02"
+    },
+    "computed": "0.00002669750539024885835831547384219950726480665733704705190535765656560009721544",
+    "round_quantum": ".0000000001",
+    "rounded": "0.0000266975",
+    "expected": ".0000266975",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "solutions16-17",
+    "printed_claim": "A1=.713147",
+    "formula": "supplied ln2+.5*(2.04-2)",
+    "inputs": {
+      "ln2": "0.69314718056",
+      "h": ".04"
+    },
+    "computed": "0.71314718056",
+    "round_quantum": ".000001",
+    "rounded": "0.713147",
+    "expected": ".713147",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "solutions20",
+    "printed_claim": "true ln2.04=.7129498079",
+    "formula": "ln(2.04)",
+    "inputs": {
+      "x": "2.04"
+    },
+    "computed": "0.71294980785612502244326118834327696118449086187145879520663628857142889360422472",
+    "round_quantum": ".0000000001",
+    "rounded": "0.7129498079",
+    "expected": ".7129498079",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "solutions20",
+    "printed_claim": "A1 error.0001973727",
+    "formula": "abs(supplied-ln2 tangent-ln(2.04))",
+    "inputs": {
+      "estimate": "0.71314718056",
+      "x": "2.04"
+    },
+    "computed": "0.00019737270387497755673881165672303881550913812854120479336371142857110639577528",
+    "round_quantum": ".0000000001",
+    "rounded": "0.0001973727",
+    "expected": ".0001973727",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main270;solutions50-65",
+    "printed_claim": "q",
+    "formula": "q=.6\u00b2;L=1+q/2;Q=L+3q\u00b2/8;exact=(1-q)^(-1/2)",
+    "inputs": {
+      "v/c": ".6"
+    },
+    "computed": "0.36",
+    "round_quantum": ".01",
+    "rounded": "0.36",
+    "expected": ".36",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main270;solutions50-65",
+    "printed_claim": "exact",
+    "formula": "q=.6\u00b2;L=1+q/2;Q=L+3q\u00b2/8;exact=(1-q)^(-1/2)",
+    "inputs": {
+      "v/c": ".6"
+    },
+    "computed": "1.25",
+    "round_quantum": ".01",
+    "rounded": "1.25",
+    "expected": "1.25",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main270;solutions50-65",
+    "printed_claim": "linear",
+    "formula": "q=.6\u00b2;L=1+q/2;Q=L+3q\u00b2/8;exact=(1-q)^(-1/2)",
+    "inputs": {
+      "v/c": ".6"
+    },
+    "computed": "1.18",
+    "round_quantum": ".01",
+    "rounded": "1.18",
+    "expected": "1.18",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main270;solutions50-65",
+    "printed_claim": "quadratic correction",
+    "formula": "q=.6\u00b2;L=1+q/2;Q=L+3q\u00b2/8;exact=(1-q)^(-1/2)",
+    "inputs": {
+      "v/c": ".6"
+    },
+    "computed": "0.0486",
+    "round_quantum": ".0001",
+    "rounded": "0.0486",
+    "expected": ".0486",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main270;solutions50-65",
+    "printed_claim": "quadratic",
+    "formula": "q=.6\u00b2;L=1+q/2;Q=L+3q\u00b2/8;exact=(1-q)^(-1/2)",
+    "inputs": {
+      "v/c": ".6"
+    },
+    "computed": "1.2286",
+    "round_quantum": ".0001",
+    "rounded": "1.2286",
+    "expected": "1.2286",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main270;solutions50-65",
+    "printed_claim": "linear error",
+    "formula": "q=.6\u00b2;L=1+q/2;Q=L+3q\u00b2/8;exact=(1-q)^(-1/2)",
+    "inputs": {
+      "v/c": ".6"
+    },
+    "computed": "0.07",
+    "round_quantum": ".01",
+    "rounded": "0.07",
+    "expected": ".07",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main270;solutions50-65",
+    "printed_claim": "quadratic error",
+    "formula": "q=.6\u00b2;L=1+q/2;Q=L+3q\u00b2/8;exact=(1-q)^(-1/2)",
+    "inputs": {
+      "v/c": ".6"
+    },
+    "computed": "0.0214",
+    "round_quantum": ".0001",
+    "rounded": "0.0214",
+    "expected": ".0214",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "main314",
+    "printed_claim": "cos(.2) reference.98006657784",
+    "formula": "decimal cosine alternating series",
+    "inputs": {
+      "x_rad": ".2",
+      "terms": 80
+    },
+    "computed": "0.98006657784124163112419651674816887739352436080656799405254829012618740788273171",
+    "round_quantum": ".00000000001",
+    "rounded": "0.98006657784",
+    "expected": ".98006657784",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "solutions107",
+    "printed_claim": "linear cosine error.01993342216",
+    "formula": "abs(supplied reference-1)",
+    "inputs": {
+      "reference": "0.98006657784"
+    },
+    "computed": "0.01993342216",
+    "round_quantum": ".00000000001",
+    "rounded": "0.01993342216",
+    "expected": ".01993342216",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "solutions109",
+    "printed_claim": "quadratic cosine error.00006657784",
+    "formula": "abs(supplied reference-.98)",
+    "inputs": {
+      "reference": "0.98006657784"
+    },
+    "computed": "0.00006657784",
+    "round_quantum": ".00000000001",
+    "rounded": "0.00006657784",
+    "expected": ".00006657784",
+    "pass": true,
+    "units": "dimensionless"
+  },
+  {
+    "location": "solutions65",
+    "printed_claim": "lecture q1.78e-10",
+    "formula": "(4/300000)^2",
+    "inputs": {
+      "v_km_s": "4",
+      "c_km_s": "300000"
+    },
+    "computed": "1.7777777777777777777777777777777777777777777777777777777777777777777777777777777E-10",
+    "round_quantum": "1e-12",
+    "rounded": "1.78E-10",
+    "expected": "1.78e-10",
+    "pass": true,
+    "units": "dimensionless"
+  }
+]

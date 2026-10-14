@@ -1,0 +1,152 @@
+{
+  "state": "bound_synthetic_preflight_passed_root_review_pending",
+  "published_teaching_commit": "2102c1fc637c7c97248c9b2c2d2a6e5da39a39ce",
+  "root_is_sole_publisher_and_acceptance_owner": true,
+  "production_metadata_binding_passed": true,
+  "metadata_proof_subject_opens": 0,
+  "production_launcher_invoked": false,
+  "production_runtime_exists": false,
+  "reader_dispatched": false,
+  "substantive_admission": "not_admitted",
+  "constituents": 7,
+  "total_exact_covered_bytes": 512898,
+  "baseline_steps": 45,
+  "main_text_steps": 17,
+  "figure_steps": 3,
+  "hint_steps": 6,
+  "solution_steps": 6,
+  "total_scheduled_steps": 77,
+  "bounded_baseline_revisit_ids": 45,
+  "max_text_slice_bytes": 5998,
+  "exercise_boundaries": [
+    {
+      "heading_line": 63,
+      "boundary_byte": 3771,
+      "no_text_chunk_crosses_start": true
+    },
+    {
+      "heading_line": 149,
+      "boundary_byte": 8683,
+      "no_text_chunk_crosses_start": true
+    },
+    {
+      "heading_line": 268,
+      "boundary_byte": 16726,
+      "no_text_chunk_crosses_start": true
+    },
+    {
+      "heading_line": 304,
+      "boundary_byte": 18824,
+      "no_text_chunk_crosses_start": true
+    },
+    {
+      "heading_line": 312,
+      "boundary_byte": 19470,
+      "no_text_chunk_crosses_start": true
+    }
+  ],
+  "figures_at_first_use": [
+    {
+      "kind": "complete_figure_first_use_after_image_tag",
+      "file_id": "MAIN",
+      "byte": 2982,
+      "line": 49,
+      "figure_id": "FIG01",
+      "dimensions": [
+        1350,
+        810
+      ]
+    },
+    {
+      "kind": "complete_figure_first_use_after_image_tag",
+      "file_id": "MAIN",
+      "byte": 5564,
+      "line": 83,
+      "figure_id": "FIG02",
+      "dimensions": [
+        1560,
+        690
+      ]
+    },
+    {
+      "kind": "complete_figure_first_use_after_image_tag",
+      "file_id": "MAIN",
+      "byte": 14286,
+      "line": 236,
+      "figure_id": "FIG03",
+      "dimensions": [
+        1350,
+        810
+      ]
+    }
+  ],
+  "synthetic_negative_checks": 27,
+  "synthetic_supplemental_rejection_checks": 5,
+  "synthetic_undefined_store_check": true,
+  "synthetic_figure_stage_checks": 4,
+  "synthetic_actual_launcher_truncation_failure_preserved": true,
+  "synthetic_whole_route_audit": true,
+  "synthetic_verified_accesses": 7,
+  "same_program_equivalence": [
+    {
+      "file": "fixed_launcher.py",
+      "production_sha256": "2bc1c38a1d92a201ec4bf6f6aaa469e36fab05b2fccdf20af35289bb50f17a26",
+      "synthetic_sha256": "5716dd4fbcd6643690d90a63199fee8fc563ec5be63c40a8dedc785c74018f8a",
+      "logic_equal": true,
+      "allowed_difference": "launcher"
+    },
+    {
+      "file": "operational_adapter.js",
+      "production_sha256": "7dae3a8dbfa6c58bf19a63c20c5549259d7b6bea41c2bee22285aad4f8e16e73",
+      "synthetic_sha256": "69cecfe8f82486cb80bb8fa6e49bb48ee569f588fa00893965f17212f67d974b",
+      "logic_equal": true,
+      "allowed_difference": "adapter"
+    },
+    {
+      "file": "record_receipt.py",
+      "production_sha256": "cfec0ef0f9c7b376c16f16cb8a25340403dfddc3080b66acf8932950b603d4d5",
+      "synthetic_sha256": "cfec0ef0f9c7b376c16f16cb8a25340403dfddc3080b66acf8932950b603d4d5",
+      "logic_equal": true,
+      "allowed_difference": "exact"
+    },
+    {
+      "file": "audit_bound_run.py",
+      "production_sha256": "c093bee7dc1d5568803177163092ebf0cf24d61947708479214f756f668ab9cb",
+      "synthetic_sha256": "c093bee7dc1d5568803177163092ebf0cf24d61947708479214f756f668ab9cb",
+      "logic_equal": true,
+      "allowed_difference": "exact"
+    },
+    {
+      "file": "bootstrap_template.js",
+      "production_sha256": "41946df55fd53e59415b34ed5b234668e9fe00ce89a3f3241778e44f95dae91d",
+      "synthetic_sha256": "41946df55fd53e59415b34ed5b234668e9fe00ce89a3f3241778e44f95dae91d",
+      "logic_equal": true,
+      "allowed_difference": "exact"
+    },
+    {
+      "file": "short_call_template.js",
+      "production_sha256": "e724c97a7a6718d98c61b48087db3755d7b2b0dd7a4c19921f6fe7f837f089cf",
+      "synthetic_sha256": "5e06cdf5a29a90e201642f34551c6824262d90123768a2d0a2fc28651033b99c",
+      "logic_equal": true,
+      "allowed_difference": "call"
+    },
+    {
+      "file": "verify_reuse.py",
+      "production_sha256": "3a7fcbe5b0ef4814bca83877cd3fec2d6628be34376c6bc2f2bb24bc2c716ca1",
+      "synthetic_sha256": "31a821375e9bfd377040aa16a2236f67f0895b30753c9fb268a19c889de320a5",
+      "logic_equal": true,
+      "allowed_difference": "verifier"
+    }
+  ],
+  "core_sha256": "bdfd374e597b3dd936c9f6b6915eec97c1168e816453a12d7a88b303cc7d8184",
+  "route_sha256": "940bb751e8f8146ab41747c79ae20132929d1b7155cb8663cd5c113c90ff49dc",
+  "bootstrap_sha256": "809825a68fe36747edc0bf89058702f92222832e0985df83ede191269cf2820c",
+  "short_call_sha256": "6e95721167265abf588e82d09d74cdd6b866b82983d7d1148cd5ca8af7bd0417",
+  "operating_instruction_sha256": "6197766698199cf1975a6722fc041522d3d72fcb19789a95943e12f04e5d6fa8",
+  "launch_message_sha256": "7e7d4a00ad2d615c6f1a15b8b5a5a95307913551bb48be1d880f3ea7a6f1b04b",
+  "launch_message_bytes": 26580,
+  "subject_free_route_delivery": "complete inline JSON in exact launch message; no arbitrary metadata-read command",
+  "preparation_read_scope": "Frozen subject data for identity/copy/chronological routing only; no SASIS report or teaching diagnosis",
+  "limits": "Instruction confinement only; no technical sandbox, semantic admission or memory-erasure claim. Synthetic fixture views do not establish actual production figure access.",
+  "launch_message_exact_code_blocks_and_complete_route_readback": true
+}

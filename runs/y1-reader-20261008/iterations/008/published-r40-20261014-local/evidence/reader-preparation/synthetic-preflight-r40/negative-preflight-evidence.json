@@ -1,0 +1,280 @@
+{
+  "bootstrap_actual_functions_exec": true,
+  "bootstrap_sha256": "484a285a8022ce5c3d66762acf5affe8a6d8a6d3d9e4eda500f3916ba462927e",
+  "short_call_sha256": "c9d95a32c5f05cbd57f682c5d7ee8b2dfc58dbca09f2c1a0986edf111c4076f7",
+  "bootstrap_subject_opens": 0,
+  "bootstrap_state": null,
+  "checks": [],
+  "actual_tool_events": [],
+  "negative_checks": [
+    {
+      "name": "bootstrap_cannot_be_repeated",
+      "passed": true,
+      "error": "Error: reader bootstrap already present; preserve it and stop",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "invalid_STEP_ID_\"\"",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "invalid_STEP_ID_\"C:/synthetic-unpermitted.txt\"",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "invalid_STEP_ID_\"B001' ; throw 'injection\"",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "invalid_STEP_ID_\"B001\\nT001\"",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "invalid_STEP_ID_[\"B001\",\"C:/synthetic-unpermitted.txt\"]",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "invalid_STEP_ID_{\"STEP_ID\":\"B001\",\"subject_path\":\"C:/synthetic-unpermitted.txt\"}",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "invalid_STEP_ID_4",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "invalid_STEP_ID_null",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "missing_store",
+      "passed": true,
+      "error": "Error: missing/stale reader bootstrap; preserve failure and stop",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "stale_binding_store",
+      "passed": true,
+      "error": "Error: missing/stale reader bootstrap; preserve failure and stop",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "stale_route_store",
+      "passed": true,
+      "error": "Error: cached adapter/binding identity mismatch; preserve failure and stop",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "extra_subject_path_in_store",
+      "passed": true,
+      "error": "Error: cached adapter/binding identity mismatch; preserve failure and stop",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "corrupted_cached_operational_code",
+      "passed": true,
+      "error": "Error: cached adapter/binding identity mismatch; preserve failure and stop",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "truncated_identity_proof",
+      "passed": true,
+      "error": "Error: verification output missing/truncated; preserve failure and stop",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_valid_STEP_ID_skip_figure",
+      "passed": true,
+      "error": "Error: launcher rejected/failed: {\"error\":\"step is not the exact next scheduled step\",\"ok\":false}\n",
+      "launcher_calls": 1,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_valid_STEP_ID_unknown",
+      "passed": true,
+      "error": "Error: launcher rejected/failed: {\"error\":\"unknown step ID\",\"ok\":false}\n",
+      "launcher_calls": 1,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_operational_adapter.js",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"operational identity mismatch: operational_adapter.js\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_fixed_launcher.py",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"operational identity mismatch: fixed_launcher.py\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_record_receipt.py",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"operational identity mismatch: record_receipt.py\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_verify_reuse.py",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: Exception: \r\nLine |\r\n   2 |  … 3c9fb268a19c889de320a5') { throw 'verifier identity mismatch' }; & 'C …\r\n     |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | verifier identity mismatch\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_frozen-route.json",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"operational identity mismatch: frozen-route.json\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_bootstrap.js",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"derived bootstrap/wrapper/instruction identity mismatch: bootstrap.js\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_short_call.js",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"derived bootstrap/wrapper/instruction identity mismatch: short_call.js\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_reader-operating.md",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"derived bootstrap/wrapper/instruction identity mismatch: reader-operating.md\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_seal-core.json",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"sealed binding hash mismatch\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "independent_wrong_k_segment_synthetic_reproduction",
+      "passed": true,
+      "error": "Error: adapter hash self-check failed",
+      "stub_tool_calls": 0,
+      "original_departed_reader_call": false,
+      "subject_opens": 0
+    }
+  ],
+  "negative_checks_passed": true
+}

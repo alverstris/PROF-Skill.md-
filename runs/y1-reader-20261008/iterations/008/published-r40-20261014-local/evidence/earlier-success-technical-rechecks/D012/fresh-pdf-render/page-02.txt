@@ -1,0 +1,35 @@
+Lecture 13
+ 
+ 
+ 
+18.01 Fall 2006 
+Lecture 13: Newton’s Method and Other 
+Applications 
+Newton’s Method 
+Newton’s method is a powerful tool for solving equations of the form f(x) = 0. 
+Example 1. f(x) = x2 − 3. In other words, solve x2 − 3 = 0. We already know that the solution 
+to this is x = 
+√
+3. Newton’s method, gives a good numerical approximation to the answer. The 
+method uses tangent lines (see Fig. 1). 
+x0=1
+x1
+(1,-2)
+y = x2 -3
+Figure 1: Illustration of Newton’s Method, Example 1. 
+The goal is to ﬁnd where the graph crosses the x-axis. We start with a guess of x0 = 1. Plugging 
+that back into the equation for y, we get y0 = 12 − 3 = −2, which isn’t very close to 0. 
+Our next guess is x1, where the tangent line to the function at x0 crosses the x-axis. The equation 
+for the tangent line is: 
+y − y0 = m(x − x0) 
+When the tangent line intercepts the x-axis, y = 0, so 
+−y0 
+= m(x1 − x0) 
+y0 
+− m 
+= x1 − x0 
+y0 
+x1 
+= x0 − m 
+Remember: m is the slope of the tangent line to y = f(x) at the point (x0, y0). 
+1 

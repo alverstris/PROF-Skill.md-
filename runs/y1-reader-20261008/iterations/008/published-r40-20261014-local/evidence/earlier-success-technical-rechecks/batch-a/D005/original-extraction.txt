@@ -1,0 +1,162 @@
+
+PHYSICAL PDF PAGE 1
+MIT OpenCourseWare 
+http://ocw.mit.edu 
+18.01 Single Variable Calculus 
+Fall 2006 
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms. 
+
+PHYSICAL PDF PAGE 2
+� � 
+� � 
+� � 
+Lecture 5 18.01 Fall 2006 
+Lecture  5      
+Implicit
+ 
+Diﬀerentiation  and  Inverses  
+Implicit Diﬀerentiation 
+dExample 1. (x a) = ax a−1 . dx We proved this by an explicit computation for a = 0, 1, 2, .... From this, we also got the formula for 
+a = −1, −2, .... Let us try to extend this formula to cover rational numbers, as well: 
+m m a = ; y = x n where m and n are integers. n 
+We want to compute dy . We can say yn = xm so nyn−1 dy = mx m−1 . Solve for dy : dx dx dx 
+dy = m xm−1 
+dx n yn−1 
+( m 
+We know that y = x n ) is a function of x. 
+dy = m xm−1 
+dx n yn−1 
+m xm−1 
+= n (xm/n)n−1 
+m xm−1 
+= n xm(n−1)/n 
+= x(m−1)− m(n
+n 
+−1)m 
+n 
+m n(m−1)−m(n−1) 
+= x n 
+n 
+m nm−n−nm+m 
+= x n 
+n 
+m m n 
+= x n − n 
+n 
+dy m m 
+So, = x n − 1 
+dx n 
+This is the same answer as we were hoping to get! 
+Example 2. Equation of a circle with a radius of 1: x2 +y2 = 1 which we can write as y2 = 1−x2 . 
+So y = ±
+√
+1 − x2. Let us look at the positive case: 
+� 1
+y = + 1 − x2 = (1 − x 2) 2
+dy = 1 (1 − x 2) 
+−
+2
+1 
+(−2x) = −x = −x 
+dx 2 √
+1 − x2 y 
+1 
+
+PHYSICAL PDF PAGE 3
+Lecture 5	 18.01 Fall 2006 
+Now, let’s do the same thing, using implicit diﬀerentiation. 
+x 2 + y 2 = 1 
+d � 2� d x 2 + y = (1) = 0 dx dx 
+d d(x 2) + (y 2) = 0 dx dx 
+Applying chain rule in the second term, 
+2x + 2y dy = 0 dx 
+2y dy = −2x dx 
+dy = −x 
+dx y 
+Same answer! 
+Example 3. y3 + xy2 + 1 = 0. In this case, it’s not easy to solve for y as a function of x. Instead, 
+we use implicit diﬀerentiation to ﬁnd dy . dx 
+3y 2 dy + y 2 + 2xy dy = 0 dx dx 
+We can now solve for dy in terms of y and x. dx 
+dy 
+dx (3y 2 + 2xy) = −y 2 
+dy = −y2 
+dx 3y2 + 2xy 
+Inverse Functions 
+If y = f (x) and g(y) = x, we call g the inverse function of f , f −1: 
+x = g(y) = f −1(y) 
+Now, let us use implicit diﬀerentiation to ﬁnd the derivative of the inverse function. 
+y = f (x) 
+f −1(y) = x 
+d d(f −1(y)) = (x) = 1 dx	 dx
+By the chain rule: 
+d dy(f −1(y)) = 1 dy dx 
+and
+d 1
+(f −1(y)) = dy	 dy 
+dx 
+2 
+
+PHYSICAL PDF PAGE 4
+� 
+Lecture 5 18.01 Fall 2006 
+So, implicit diﬀerentiation makes it possible to ﬁnd the derivative of the inverse function. 
+Example. y = arctan(x) 
+tan y = x 
+d 
+dx [tan(y)] = dx 
+dx = 1 
+d 
+dy [tan(y)] 
+� 1 
+cos2(y) 
+� 
+dy 
+dx 
+dy 
+dx 
+= 
+= 
+1 
+1 
+dy 
+dx = cos2(y) = cos2(arctan(x)) 
+This form is messy. Let us use some geometry to simplify it. 
+1
+x
+(1+x2)1/2
+y
+Figure 1: Triangle with angles and lengths corresponding to those in the example illustrating diﬀerentiation using 
+the inverse function arctan 
+In this triangle, tan(y) = x so
+arctan(x) = y
+The Pythagorian theorem tells us the length of the hypotenuse: 
+h = 1 + x2 
+From this, we can ﬁnd 
+1cos(y) = √
+1 + x2 
+From this, we get � �21 1 cos2(y) = =√
+1 + x2 1 + x2 
+3 
+
+PHYSICAL PDF PAGE 5
+Lecture 5 18.01 Fall 2006 
+So, 
+dy = 1 
+dx 1 + x2 
+In other words, 
+d 1arctan(x) = dx 1 + x2 
+Graphing an Inverse Function. 
+Suppose y = f (x) and g(y) = f −1(y) = x. To graph g and f together we need to write g as a 
+function of the variable x. If g(x) = y, then x = f (y), and what we have done is to trade the 
+variables x and y. This is illustrated in Fig. 2 
+f −1(f (x)) = x f −1 f (x) = x◦ 
+f (f −1(x)) = x f f −1(x) = x◦ 
+f(x)
+g(x)
+a=f-1(b)
+b=f(a)
+x
+y y=x
+Figure 2: You can think about f −1 as the graph of f reﬂected about the line y = x 
+4 

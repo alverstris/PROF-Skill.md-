@@ -1,0 +1,906 @@
+{
+  "prepared_utc": "2026-10-14T20:53:43.755465+00:00",
+  "scope": "Five exact source paragraphs from specified accepted Git commits. Source inventory only: no browser use, rendered inspection, destination acceptance, or teaching modification. Paragraph identities include the original terminal LF. Git object OIDs validated independently using the Git blob header/hash rule. Line and byte ranges refer to complete immutable blobs.",
+  "packets": [
+    {
+      "packet_id": "D005-H1",
+      "commit": "32c553f279ac1e5771ff05b78a9951cbff3fee38",
+      "repository_path": "runs/y1-reader-20261008/iterations/005/teaching-v2.md",
+      "git_mode": "100644",
+      "git_blob_oid": "d8c9a67266e79fec03b069fa3193354882fc3f8b",
+      "complete_blob_bytes": 24261,
+      "complete_blob_sha256": "4ae6d0f33e2957ebaf3bbd31c34e154c4a7c5eaab4bc3a09a9e909574b1a48e6",
+      "requested_line": 190,
+      "paragraph_lines_one_based_inclusive": [
+        190,
+        190
+      ],
+      "paragraph_byte_range_zero_based_half_open": [
+        17418,
+        17733
+      ],
+      "paragraph_source_identity": {
+        "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-browser-boundary-source-packets\\D005-H1.paragraph-source.txt",
+        "bytes": 315,
+        "sha256": "cab67484a592613380dc1a84e0b00956bdd30b6ff0f8bd21f254f0e517454768"
+      },
+      "paragraph_source": "[P29] H1. Start with $`2x+2yy'=0`$ and substitute the signed coordinates into the coefficient of $`y'`$. Once the slope is $`m`$, construct the tangent as $`y-y_0=m(x-x_0)`$. The two explicit branches explain why the implicit equation can be used at either sign of $`y`$. [Return to Q1](#q1) · [Solution S1](#s1).\n",
+      "immutable_browser_url": "https://github.com/alverstris/PROF-Skill.md-/blob/32c553f279ac1e5771ff05b78a9951cbff3fee38/runs/y1-reader-20261008/iterations/005/teaching-v2.md",
+      "immutable_source_line_url": "https://github.com/alverstris/PROF-Skill.md-/blob/32c553f279ac1e5771ff05b78a9951cbff3fee38/runs/y1-reader-20261008/iterations/005/teaching-v2.md#L190",
+      "nearest_preceding_anchor": "h1",
+      "immutable_nearby_anchor_url": "https://github.com/alverstris/PROF-Skill.md-/blob/32c553f279ac1e5771ff05b78a9951cbff3fee38/runs/y1-reader-20261008/iterations/005/teaching-v2.md#h1",
+      "math_payloads_in_order": [
+        {
+          "ordinal": 1,
+          "payload": "2x+2yy'=0",
+          "source": "$`2x+2yy'=0`$",
+          "char_start": 21,
+          "char_end": 34
+        },
+        {
+          "ordinal": 2,
+          "payload": "y'",
+          "source": "$`y'`$",
+          "char_start": 97,
+          "char_end": 103
+        },
+        {
+          "ordinal": 3,
+          "payload": "m",
+          "source": "$`m`$",
+          "char_start": 123,
+          "char_end": 128
+        },
+        {
+          "ordinal": 4,
+          "payload": "y-y_0=m(x-x_0)",
+          "source": "$`y-y_0=m(x-x_0)`$",
+          "char_start": 155,
+          "char_end": 173
+        },
+        {
+          "ordinal": 5,
+          "payload": "y",
+          "source": "$`y`$",
+          "char_start": 265,
+          "char_end": 270
+        }
+      ],
+      "plain_text_links_in_order": [
+        {
+          "ordinal": 1,
+          "label": "Return to Q1",
+          "href": "#q1",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/32c553f279ac1e5771ff05b78a9951cbff3fee38/runs/y1-reader-20261008/iterations/005/teaching-v2.md#q1",
+          "source": "[Return to Q1](#q1)",
+          "char_start": 272,
+          "char_end": 291
+        },
+        {
+          "ordinal": 2,
+          "label": "Solution S1",
+          "href": "#s1",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/32c553f279ac1e5771ff05b78a9951cbff3fee38/runs/y1-reader-20261008/iterations/005/teaching-v2.md#s1",
+          "source": "[Solution S1](#s1)",
+          "char_start": 294,
+          "char_end": 312
+        }
+      ],
+      "combined_source_token_order": [
+        {
+          "kind": "math",
+          "ordinal": 1,
+          "payload": "2x+2yy'=0",
+          "source": "$`2x+2yy'=0`$",
+          "char_start": 21,
+          "char_end": 34
+        },
+        {
+          "kind": "math",
+          "ordinal": 2,
+          "payload": "y'",
+          "source": "$`y'`$",
+          "char_start": 97,
+          "char_end": 103
+        },
+        {
+          "kind": "math",
+          "ordinal": 3,
+          "payload": "m",
+          "source": "$`m`$",
+          "char_start": 123,
+          "char_end": 128
+        },
+        {
+          "kind": "math",
+          "ordinal": 4,
+          "payload": "y-y_0=m(x-x_0)",
+          "source": "$`y-y_0=m(x-x_0)`$",
+          "char_start": 155,
+          "char_end": 173
+        },
+        {
+          "kind": "math",
+          "ordinal": 5,
+          "payload": "y",
+          "source": "$`y`$",
+          "char_start": 265,
+          "char_end": 270
+        },
+        {
+          "kind": "plain_text_link",
+          "ordinal": 1,
+          "label": "Return to Q1",
+          "href": "#q1",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/32c553f279ac1e5771ff05b78a9951cbff3fee38/runs/y1-reader-20261008/iterations/005/teaching-v2.md#q1",
+          "source": "[Return to Q1](#q1)",
+          "char_start": 272,
+          "char_end": 291
+        },
+        {
+          "kind": "plain_text_link",
+          "ordinal": 2,
+          "label": "Solution S1",
+          "href": "#s1",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/32c553f279ac1e5771ff05b78a9951cbff3fee38/runs/y1-reader-20261008/iterations/005/teaching-v2.md#s1",
+          "source": "[Solution S1](#s1)",
+          "char_start": 294,
+          "char_end": 312
+        }
+      ]
+    },
+    {
+      "packet_id": "D007-P5",
+      "commit": "4765d39aa399a0a1ff09223cae21b15ce6c7f720",
+      "repository_path": "runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/lesson.md",
+      "git_mode": "100644",
+      "git_blob_oid": "71c1cc93e58f03a1d2f84519398a062190a965db",
+      "complete_blob_bytes": 19817,
+      "complete_blob_sha256": "fd7a5dc52b8c143c8ba392b494ac879ad2722b0231dd21b3dadb50d0eedd988d",
+      "requested_line": 301,
+      "paragraph_lines_one_based_inclusive": [
+        301,
+        301
+      ],
+      "paragraph_byte_range_zero_based_half_open": [
+        15924,
+        16336
+      ],
+      "paragraph_source_identity": {
+        "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-browser-boundary-source-packets\\D007-P5.paragraph-source.txt",
+        "bytes": 412,
+        "sha256": "9623ce5dcd038091c988fb975a741ffa1d16d98c0a6118f8fd5496a29a44c221"
+      },
+      "paragraph_source": "P5 — generated transfer practice. For $`x\\gt 0`$, find the derivative of $`y=x^x`$. Explain why inserting $`r=x`$ into the constant-power rule $`(x^r)'=rx^{r-1}`$ is not justified. A complete response states a representation or logarithmic equation that keeps the varying exponent visible, differentiates it, and gives the derivative in terms of $`x`$. [Hint P5](hints.md#h5) · [Solution P5](solutions.md#s5)\n",
+      "immutable_browser_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/lesson.md",
+      "immutable_source_line_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/lesson.md#L301",
+      "nearest_preceding_anchor": "p5",
+      "immutable_nearby_anchor_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/lesson.md#p5",
+      "math_payloads_in_order": [
+        {
+          "ordinal": 1,
+          "payload": "x\\gt 0",
+          "source": "$`x\\gt 0`$",
+          "char_start": 38,
+          "char_end": 48
+        },
+        {
+          "ordinal": 2,
+          "payload": "y=x^x",
+          "source": "$`y=x^x`$",
+          "char_start": 73,
+          "char_end": 82
+        },
+        {
+          "ordinal": 3,
+          "payload": "r=x",
+          "source": "$`r=x`$",
+          "char_start": 106,
+          "char_end": 113
+        },
+        {
+          "ordinal": 4,
+          "payload": "(x^r)'=rx^{r-1}",
+          "source": "$`(x^r)'=rx^{r-1}`$",
+          "char_start": 143,
+          "char_end": 162
+        },
+        {
+          "ordinal": 5,
+          "payload": "x",
+          "source": "$`x`$",
+          "char_start": 346,
+          "char_end": 351
+        }
+      ],
+      "plain_text_links_in_order": [
+        {
+          "ordinal": 1,
+          "label": "Hint P5",
+          "href": "hints.md#h5",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/hints.md#h5",
+          "source": "[Hint P5](hints.md#h5)",
+          "char_start": 353,
+          "char_end": 375
+        },
+        {
+          "ordinal": 2,
+          "label": "Solution P5",
+          "href": "solutions.md#s5",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/solutions.md#s5",
+          "source": "[Solution P5](solutions.md#s5)",
+          "char_start": 378,
+          "char_end": 408
+        }
+      ],
+      "combined_source_token_order": [
+        {
+          "kind": "math",
+          "ordinal": 1,
+          "payload": "x\\gt 0",
+          "source": "$`x\\gt 0`$",
+          "char_start": 38,
+          "char_end": 48
+        },
+        {
+          "kind": "math",
+          "ordinal": 2,
+          "payload": "y=x^x",
+          "source": "$`y=x^x`$",
+          "char_start": 73,
+          "char_end": 82
+        },
+        {
+          "kind": "math",
+          "ordinal": 3,
+          "payload": "r=x",
+          "source": "$`r=x`$",
+          "char_start": 106,
+          "char_end": 113
+        },
+        {
+          "kind": "math",
+          "ordinal": 4,
+          "payload": "(x^r)'=rx^{r-1}",
+          "source": "$`(x^r)'=rx^{r-1}`$",
+          "char_start": 143,
+          "char_end": 162
+        },
+        {
+          "kind": "math",
+          "ordinal": 5,
+          "payload": "x",
+          "source": "$`x`$",
+          "char_start": 346,
+          "char_end": 351
+        },
+        {
+          "kind": "plain_text_link",
+          "ordinal": 1,
+          "label": "Hint P5",
+          "href": "hints.md#h5",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/hints.md#h5",
+          "source": "[Hint P5](hints.md#h5)",
+          "char_start": 353,
+          "char_end": 375
+        },
+        {
+          "kind": "plain_text_link",
+          "ordinal": 2,
+          "label": "Solution P5",
+          "href": "solutions.md#s5",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/solutions.md#s5",
+          "source": "[Solution P5](solutions.md#s5)",
+          "char_start": 378,
+          "char_end": 408
+        }
+      ]
+    },
+    {
+      "packet_id": "D007-P3-hint",
+      "commit": "4765d39aa399a0a1ff09223cae21b15ce6c7f720",
+      "repository_path": "runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/hints.md",
+      "git_mode": "100644",
+      "git_blob_oid": "bee957570b6b869f703fd6a98f2429d210722520",
+      "complete_blob_bytes": 2361,
+      "complete_blob_sha256": "d80b7cad63ec6b575b0d567dd4f4213ec4ea77b1ff61525f479859651a659a0c",
+      "requested_line": 21,
+      "paragraph_lines_one_based_inclusive": [
+        21,
+        21
+      ],
+      "paragraph_byte_range_zero_based_half_open": [
+        847,
+        1116
+      ],
+      "paragraph_source_identity": {
+        "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-browser-boundary-source-packets\\D007-P3-hint.paragraph-source.txt",
+        "bytes": 269,
+        "sha256": "38a94330dd66a8a7da638502dc2e30d350405f660f1d330e1940ea3e1b7ba0f6"
+      },
+      "paragraph_source": "Differentiate $`xy`$ as $`1\\cdot y+xy'`$. The derivative of $`y^2`$ is $`2yy'`$. Put terms containing $`y'`$ on one side, factor out $`y'`$, then substitute the point. A tangent of slope $`m`$ through $`(1,2)`$ has equation $`y-2=m(x-1)`$. [Return to P3](lesson.md#p3)\n",
+      "immutable_browser_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/hints.md",
+      "immutable_source_line_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/hints.md#L21",
+      "nearest_preceding_anchor": "h3",
+      "immutable_nearby_anchor_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/hints.md#h3",
+      "math_payloads_in_order": [
+        {
+          "ordinal": 1,
+          "payload": "xy",
+          "source": "$`xy`$",
+          "char_start": 14,
+          "char_end": 20
+        },
+        {
+          "ordinal": 2,
+          "payload": "1\\cdot y+xy'",
+          "source": "$`1\\cdot y+xy'`$",
+          "char_start": 24,
+          "char_end": 40
+        },
+        {
+          "ordinal": 3,
+          "payload": "y^2",
+          "source": "$`y^2`$",
+          "char_start": 60,
+          "char_end": 67
+        },
+        {
+          "ordinal": 4,
+          "payload": "2yy'",
+          "source": "$`2yy'`$",
+          "char_start": 71,
+          "char_end": 79
+        },
+        {
+          "ordinal": 5,
+          "payload": "y'",
+          "source": "$`y'`$",
+          "char_start": 102,
+          "char_end": 108
+        },
+        {
+          "ordinal": 6,
+          "payload": "y'",
+          "source": "$`y'`$",
+          "char_start": 133,
+          "char_end": 139
+        },
+        {
+          "ordinal": 7,
+          "payload": "m",
+          "source": "$`m`$",
+          "char_start": 187,
+          "char_end": 192
+        },
+        {
+          "ordinal": 8,
+          "payload": "(1,2)",
+          "source": "$`(1,2)`$",
+          "char_start": 201,
+          "char_end": 210
+        },
+        {
+          "ordinal": 9,
+          "payload": "y-2=m(x-1)",
+          "source": "$`y-2=m(x-1)`$",
+          "char_start": 224,
+          "char_end": 238
+        }
+      ],
+      "plain_text_links_in_order": [
+        {
+          "ordinal": 1,
+          "label": "Return to P3",
+          "href": "lesson.md#p3",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/lesson.md#p3",
+          "source": "[Return to P3](lesson.md#p3)",
+          "char_start": 240,
+          "char_end": 268
+        }
+      ],
+      "combined_source_token_order": [
+        {
+          "kind": "math",
+          "ordinal": 1,
+          "payload": "xy",
+          "source": "$`xy`$",
+          "char_start": 14,
+          "char_end": 20
+        },
+        {
+          "kind": "math",
+          "ordinal": 2,
+          "payload": "1\\cdot y+xy'",
+          "source": "$`1\\cdot y+xy'`$",
+          "char_start": 24,
+          "char_end": 40
+        },
+        {
+          "kind": "math",
+          "ordinal": 3,
+          "payload": "y^2",
+          "source": "$`y^2`$",
+          "char_start": 60,
+          "char_end": 67
+        },
+        {
+          "kind": "math",
+          "ordinal": 4,
+          "payload": "2yy'",
+          "source": "$`2yy'`$",
+          "char_start": 71,
+          "char_end": 79
+        },
+        {
+          "kind": "math",
+          "ordinal": 5,
+          "payload": "y'",
+          "source": "$`y'`$",
+          "char_start": 102,
+          "char_end": 108
+        },
+        {
+          "kind": "math",
+          "ordinal": 6,
+          "payload": "y'",
+          "source": "$`y'`$",
+          "char_start": 133,
+          "char_end": 139
+        },
+        {
+          "kind": "math",
+          "ordinal": 7,
+          "payload": "m",
+          "source": "$`m`$",
+          "char_start": 187,
+          "char_end": 192
+        },
+        {
+          "kind": "math",
+          "ordinal": 8,
+          "payload": "(1,2)",
+          "source": "$`(1,2)`$",
+          "char_start": 201,
+          "char_end": 210
+        },
+        {
+          "kind": "math",
+          "ordinal": 9,
+          "payload": "y-2=m(x-1)",
+          "source": "$`y-2=m(x-1)`$",
+          "char_start": 224,
+          "char_end": 238
+        },
+        {
+          "kind": "plain_text_link",
+          "ordinal": 1,
+          "label": "Return to P3",
+          "href": "lesson.md#p3",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/lesson.md#p3",
+          "source": "[Return to P3](lesson.md#p3)",
+          "char_start": 240,
+          "char_end": 268
+        }
+      ]
+    },
+    {
+      "packet_id": "D007-P5-explanation",
+      "commit": "4765d39aa399a0a1ff09223cae21b15ce6c7f720",
+      "repository_path": "runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/solutions.md",
+      "git_mode": "100644",
+      "git_blob_oid": "5b55ac240e578efe14e81dc71c3122e2815dd00a",
+      "complete_blob_bytes": 6309,
+      "complete_blob_sha256": "3716815362b8d3c4240fffeb8cc5e95dd524939a99c9d6c0b9a189976ae035de",
+      "requested_line": 108,
+      "paragraph_lines_one_based_inclusive": [
+        108,
+        108
+      ],
+      "paragraph_byte_range_zero_based_half_open": [
+        3810,
+        4417
+      ],
+      "paragraph_source_identity": {
+        "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-browser-boundary-source-packets\\D007-P5-explanation.paragraph-source.txt",
+        "bytes": 607,
+        "sha256": "fce78eb744ac918705095853edd7aefb00c3ae78ae3a7e72e6a1d9d9a7fd3591"
+      },
+      "paragraph_source": "Equivalently, differentiating $`e^{x\\ln x}`$ by the chain and product rules gives the same expression. The constant-power rule assumed the exponent's derivative was zero. Here the exponent is $`x`$, whose derivative is 1, and its variation creates the $`\\ln x`$ term. Substituting $`r=x`$ into a rule derived for fixed $`r`$ changes that assumption. A check only at $`x=1`$ would miss this mistake because $`\\ln1=0`$; at $`x=e`$ the correct derivative is $`2e^e`$, which distinguishes it from the incorrectly substituted constant-power result $`e^e`$. [Return to P5](lesson.md#p5) · [Hint P5](hints.md#h5)\n",
+      "immutable_browser_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/solutions.md",
+      "immutable_source_line_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/solutions.md#L108",
+      "nearest_preceding_anchor": "s5",
+      "immutable_nearby_anchor_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/solutions.md#s5",
+      "math_payloads_in_order": [
+        {
+          "ordinal": 1,
+          "payload": "e^{x\\ln x}",
+          "source": "$`e^{x\\ln x}`$",
+          "char_start": 30,
+          "char_end": 44
+        },
+        {
+          "ordinal": 2,
+          "payload": "x",
+          "source": "$`x`$",
+          "char_start": 192,
+          "char_end": 197
+        },
+        {
+          "ordinal": 3,
+          "payload": "\\ln x",
+          "source": "$`\\ln x`$",
+          "char_start": 252,
+          "char_end": 261
+        },
+        {
+          "ordinal": 4,
+          "payload": "r=x",
+          "source": "$`r=x`$",
+          "char_start": 281,
+          "char_end": 288
+        },
+        {
+          "ordinal": 5,
+          "payload": "r",
+          "source": "$`r`$",
+          "char_start": 319,
+          "char_end": 324
+        },
+        {
+          "ordinal": 6,
+          "payload": "x=1",
+          "source": "$`x=1`$",
+          "char_start": 366,
+          "char_end": 373
+        },
+        {
+          "ordinal": 7,
+          "payload": "\\ln1=0",
+          "source": "$`\\ln1=0`$",
+          "char_start": 406,
+          "char_end": 416
+        },
+        {
+          "ordinal": 8,
+          "payload": "x=e",
+          "source": "$`x=e`$",
+          "char_start": 421,
+          "char_end": 428
+        },
+        {
+          "ordinal": 9,
+          "payload": "2e^e",
+          "source": "$`2e^e`$",
+          "char_start": 455,
+          "char_end": 463
+        },
+        {
+          "ordinal": 10,
+          "payload": "e^e",
+          "source": "$`e^e`$",
+          "char_start": 543,
+          "char_end": 550
+        }
+      ],
+      "plain_text_links_in_order": [
+        {
+          "ordinal": 1,
+          "label": "Return to P5",
+          "href": "lesson.md#p5",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/lesson.md#p5",
+          "source": "[Return to P5](lesson.md#p5)",
+          "char_start": 552,
+          "char_end": 580
+        },
+        {
+          "ordinal": 2,
+          "label": "Hint P5",
+          "href": "hints.md#h5",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/hints.md#h5",
+          "source": "[Hint P5](hints.md#h5)",
+          "char_start": 583,
+          "char_end": 605
+        }
+      ],
+      "combined_source_token_order": [
+        {
+          "kind": "math",
+          "ordinal": 1,
+          "payload": "e^{x\\ln x}",
+          "source": "$`e^{x\\ln x}`$",
+          "char_start": 30,
+          "char_end": 44
+        },
+        {
+          "kind": "math",
+          "ordinal": 2,
+          "payload": "x",
+          "source": "$`x`$",
+          "char_start": 192,
+          "char_end": 197
+        },
+        {
+          "kind": "math",
+          "ordinal": 3,
+          "payload": "\\ln x",
+          "source": "$`\\ln x`$",
+          "char_start": 252,
+          "char_end": 261
+        },
+        {
+          "kind": "math",
+          "ordinal": 4,
+          "payload": "r=x",
+          "source": "$`r=x`$",
+          "char_start": 281,
+          "char_end": 288
+        },
+        {
+          "kind": "math",
+          "ordinal": 5,
+          "payload": "r",
+          "source": "$`r`$",
+          "char_start": 319,
+          "char_end": 324
+        },
+        {
+          "kind": "math",
+          "ordinal": 6,
+          "payload": "x=1",
+          "source": "$`x=1`$",
+          "char_start": 366,
+          "char_end": 373
+        },
+        {
+          "kind": "math",
+          "ordinal": 7,
+          "payload": "\\ln1=0",
+          "source": "$`\\ln1=0`$",
+          "char_start": 406,
+          "char_end": 416
+        },
+        {
+          "kind": "math",
+          "ordinal": 8,
+          "payload": "x=e",
+          "source": "$`x=e`$",
+          "char_start": 421,
+          "char_end": 428
+        },
+        {
+          "kind": "math",
+          "ordinal": 9,
+          "payload": "2e^e",
+          "source": "$`2e^e`$",
+          "char_start": 455,
+          "char_end": 463
+        },
+        {
+          "kind": "math",
+          "ordinal": 10,
+          "payload": "e^e",
+          "source": "$`e^e`$",
+          "char_start": 543,
+          "char_end": 550
+        },
+        {
+          "kind": "plain_text_link",
+          "ordinal": 1,
+          "label": "Return to P5",
+          "href": "lesson.md#p5",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/lesson.md#p5",
+          "source": "[Return to P5](lesson.md#p5)",
+          "char_start": 552,
+          "char_end": 580
+        },
+        {
+          "kind": "plain_text_link",
+          "ordinal": 2,
+          "label": "Hint P5",
+          "href": "hints.md#h5",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/4765d39aa399a0a1ff09223cae21b15ce6c7f720/runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/hints.md#h5",
+          "source": "[Hint P5](hints.md#h5)",
+          "char_start": 583,
+          "char_end": 605
+        }
+      ]
+    },
+    {
+      "packet_id": "D009-P062",
+      "commit": "9840e70de6aa7d2c718b60dd13ace7e6f795a50e",
+      "repository_path": "runs/y1-reader-20261008/iterations/009/resumption-20261009/author/teaching-r15-recovery-v3.md",
+      "git_mode": "100644",
+      "git_blob_oid": "12692e5b06f7f05fd490dc6a7058a13eb96aa976",
+      "complete_blob_bytes": 29595,
+      "complete_blob_sha256": "5c9e307b08931099316a2d12149ab3d1cd3a75ba2ae75bc48ef60a77b562c244",
+      "requested_line": 227,
+      "paragraph_lines_one_based_inclusive": [
+        227,
+        227
+      ],
+      "paragraph_byte_range_zero_based_half_open": [
+        28912,
+        29595
+      ],
+      "paragraph_source_identity": {
+        "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-browser-boundary-source-packets\\D009-P062.paragraph-source.txt",
+        "bytes": 683,
+        "sha256": "85812ef908b3229182543436ecfdd8ee7926b5c2233d2100bb14593df4e8881b"
+      },
+      "paragraph_source": "P062. To assemble the branches: on the left, begin just below the horizontal axis and descend, becoming steeper, toward negative infinity near $`0^-`$. On the right, begin at arbitrarily negative heights near $`0^+`$, rise through $`(1,0)`$ to the maximum $`(2,1/4)`$, and then descend toward the horizontal asymptote from above. The descending branch is concave down until $`(3,2/9)`$ and concave up afterward, so after that point its negative slope becomes less negative. Leave a gap at zero. This description accounts for every domain interval and distinguishes the maximum at $`2`$ from the inflection at $`3`$. [Return to Task C](#task-c) · [Hints](#hints) · [Start](#start).\n",
+      "immutable_browser_url": "https://github.com/alverstris/PROF-Skill.md-/blob/9840e70de6aa7d2c718b60dd13ace7e6f795a50e/runs/y1-reader-20261008/iterations/009/resumption-20261009/author/teaching-r15-recovery-v3.md",
+      "immutable_source_line_url": "https://github.com/alverstris/PROF-Skill.md-/blob/9840e70de6aa7d2c718b60dd13ace7e6f795a50e/runs/y1-reader-20261008/iterations/009/resumption-20261009/author/teaching-r15-recovery-v3.md#L227",
+      "nearest_preceding_anchor": null,
+      "immutable_nearby_anchor_url": null,
+      "math_payloads_in_order": [
+        {
+          "ordinal": 1,
+          "payload": "0^-",
+          "source": "$`0^-`$",
+          "char_start": 143,
+          "char_end": 150
+        },
+        {
+          "ordinal": 2,
+          "payload": "0^+",
+          "source": "$`0^+`$",
+          "char_start": 209,
+          "char_end": 216
+        },
+        {
+          "ordinal": 3,
+          "payload": "(1,0)",
+          "source": "$`(1,0)`$",
+          "char_start": 231,
+          "char_end": 240
+        },
+        {
+          "ordinal": 4,
+          "payload": "(2,1/4)",
+          "source": "$`(2,1/4)`$",
+          "char_start": 256,
+          "char_end": 267
+        },
+        {
+          "ordinal": 5,
+          "payload": "(3,2/9)",
+          "source": "$`(3,2/9)`$",
+          "char_start": 374,
+          "char_end": 385
+        },
+        {
+          "ordinal": 6,
+          "payload": "2",
+          "source": "$`2`$",
+          "char_start": 580,
+          "char_end": 585
+        },
+        {
+          "ordinal": 7,
+          "payload": "3",
+          "source": "$`3`$",
+          "char_start": 609,
+          "char_end": 614
+        }
+      ],
+      "plain_text_links_in_order": [
+        {
+          "ordinal": 1,
+          "label": "Return to Task C",
+          "href": "#task-c",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/9840e70de6aa7d2c718b60dd13ace7e6f795a50e/runs/y1-reader-20261008/iterations/009/resumption-20261009/author/teaching-r15-recovery-v3.md#task-c",
+          "source": "[Return to Task C](#task-c)",
+          "char_start": 616,
+          "char_end": 643
+        },
+        {
+          "ordinal": 2,
+          "label": "Hints",
+          "href": "#hints",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/9840e70de6aa7d2c718b60dd13ace7e6f795a50e/runs/y1-reader-20261008/iterations/009/resumption-20261009/author/teaching-r15-recovery-v3.md#hints",
+          "source": "[Hints](#hints)",
+          "char_start": 646,
+          "char_end": 661
+        },
+        {
+          "ordinal": 3,
+          "label": "Start",
+          "href": "#start",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/9840e70de6aa7d2c718b60dd13ace7e6f795a50e/runs/y1-reader-20261008/iterations/009/resumption-20261009/author/teaching-r15-recovery-v3.md#start",
+          "source": "[Start](#start)",
+          "char_start": 664,
+          "char_end": 679
+        }
+      ],
+      "combined_source_token_order": [
+        {
+          "kind": "math",
+          "ordinal": 1,
+          "payload": "0^-",
+          "source": "$`0^-`$",
+          "char_start": 143,
+          "char_end": 150
+        },
+        {
+          "kind": "math",
+          "ordinal": 2,
+          "payload": "0^+",
+          "source": "$`0^+`$",
+          "char_start": 209,
+          "char_end": 216
+        },
+        {
+          "kind": "math",
+          "ordinal": 3,
+          "payload": "(1,0)",
+          "source": "$`(1,0)`$",
+          "char_start": 231,
+          "char_end": 240
+        },
+        {
+          "kind": "math",
+          "ordinal": 4,
+          "payload": "(2,1/4)",
+          "source": "$`(2,1/4)`$",
+          "char_start": 256,
+          "char_end": 267
+        },
+        {
+          "kind": "math",
+          "ordinal": 5,
+          "payload": "(3,2/9)",
+          "source": "$`(3,2/9)`$",
+          "char_start": 374,
+          "char_end": 385
+        },
+        {
+          "kind": "math",
+          "ordinal": 6,
+          "payload": "2",
+          "source": "$`2`$",
+          "char_start": 580,
+          "char_end": 585
+        },
+        {
+          "kind": "math",
+          "ordinal": 7,
+          "payload": "3",
+          "source": "$`3`$",
+          "char_start": 609,
+          "char_end": 614
+        },
+        {
+          "kind": "plain_text_link",
+          "ordinal": 1,
+          "label": "Return to Task C",
+          "href": "#task-c",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/9840e70de6aa7d2c718b60dd13ace7e6f795a50e/runs/y1-reader-20261008/iterations/009/resumption-20261009/author/teaching-r15-recovery-v3.md#task-c",
+          "source": "[Return to Task C](#task-c)",
+          "char_start": 616,
+          "char_end": 643
+        },
+        {
+          "kind": "plain_text_link",
+          "ordinal": 2,
+          "label": "Hints",
+          "href": "#hints",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/9840e70de6aa7d2c718b60dd13ace7e6f795a50e/runs/y1-reader-20261008/iterations/009/resumption-20261009/author/teaching-r15-recovery-v3.md#hints",
+          "source": "[Hints](#hints)",
+          "char_start": 646,
+          "char_end": 661
+        },
+        {
+          "kind": "plain_text_link",
+          "ordinal": 3,
+          "label": "Start",
+          "href": "#start",
+          "immutable_resolved_url": "https://github.com/alverstris/PROF-Skill.md-/blob/9840e70de6aa7d2c718b60dd13ace7e6f795a50e/runs/y1-reader-20261008/iterations/009/resumption-20261009/author/teaching-r15-recovery-v3.md#start",
+          "source": "[Start](#start)",
+          "char_start": 664,
+          "char_end": 679
+        }
+      ]
+    }
+  ]
+}

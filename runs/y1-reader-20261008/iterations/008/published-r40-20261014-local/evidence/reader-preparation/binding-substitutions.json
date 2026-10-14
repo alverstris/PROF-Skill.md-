@@ -1,0 +1,93 @@
+{
+  "verifier_template": [
+    {
+      "marker": "__FIXED_ROUTE_FILENAME__",
+      "value": null,
+      "source_after_freeze": "Exact frozen route metadata basename",
+      "constraint": "safe ASCII basename; no quotes, slashes, backslashes or newline"
+    },
+    {
+      "marker": "__FIXED_RUNTIME_DIRNAME__",
+      "value": null,
+      "source_after_freeze": "Fresh isolated runtime basename",
+      "constraint": "safe ASCII basename; no quotes, slashes, backslashes or newline"
+    },
+    {
+      "marker": "__FIXED_SCOPE__",
+      "value": null,
+      "source_after_freeze": "Explicit instruction-confined condition label",
+      "constraint": "safe ASCII label; no quotes, backslashes or newline"
+    },
+    {
+      "marker": "__FIXED_ROUTE_ID__",
+      "value": null,
+      "source_after_freeze": "Exact frozen route ID",
+      "constraint": "[A-Za-z][A-Za-z0-9_-]{0,63}"
+    }
+  ],
+  "wrapper_render": [
+    {
+      "marker": "__VERIFY_COMMAND__",
+      "value": null,
+      "source_after_freeze": "Existing deterministic render of fixed bound verifier path/hash and Python path"
+    },
+    {
+      "marker": "__CORE_SHA256__",
+      "value": null,
+      "source_after_freeze": "SHA256 of exact saved sealed core bytes"
+    },
+    {
+      "marker": "__STORE_KEY__",
+      "value": null,
+      "source_after_freeze": "Fresh simple safe operational store key, fixed by root"
+    }
+  ],
+  "short_call_seed": {
+    "exact_template_datum": "const STEP_ID = \"B001\";",
+    "synthetic_test_seed_only": true,
+    "production_value": null,
+    "source_after_freeze": "Actual first scheduled ID from frozen route, JSON string literal; substitute this one datum before sealing",
+    "remainder_of_template": "byte unchanged"
+  },
+  "operating_instruction": {
+    "file": "operating_instruction_template.md",
+    "preseal_markers": [
+      "FROZEN_BASELINE_ID_AND_REVISION",
+      "FROZEN_ROUTE_ID_AND_HASH",
+      "FROZEN_TEACHING_ID_AND_REVISION",
+      "READER_CONDITION_ID",
+      "READER_REPORT_DESTINATION"
+    ],
+    "replacement_values": {
+      "FROZEN_BASELINE_ID_AND_REVISION": null,
+      "FROZEN_ROUTE_ID_AND_HASH": null,
+      "FROZEN_TEACHING_ID_AND_REVISION": null,
+      "READER_CONDITION_ID": null,
+      "READER_REPORT_DESTINATION": null
+    }
+  },
+  "dispatch_authorization": {
+    "file": "dispatch_authorization_template.md",
+    "preseal_markers": [
+      "BOUND_BOOTSTRAP_SHA256",
+      "BOUND_SHORT_CALL_SHA256",
+      "EXACT_BOUND_BOOTSTRAP_BODY",
+      "EXACT_BOUND_SHORT_CALL_BODY",
+      "FROZEN_BASELINE_ID_AND_REVISION",
+      "FROZEN_TEACHING_ID_AND_REVISION",
+      "READER_REPORT_DESTINATION",
+      "SUBJECT_FREE_ROUTE_DELIVERY_OR_IMMUTABLE_LOCATOR"
+    ],
+    "replacement_values": {
+      "BOUND_BOOTSTRAP_SHA256": null,
+      "BOUND_SHORT_CALL_SHA256": null,
+      "EXACT_BOUND_BOOTSTRAP_BODY": null,
+      "EXACT_BOUND_SHORT_CALL_BODY": null,
+      "FROZEN_BASELINE_ID_AND_REVISION": null,
+      "FROZEN_TEACHING_ID_AND_REVISION": null,
+      "READER_REPORT_DESTINATION": null,
+      "SUBJECT_FREE_ROUTE_DELIVERY_OR_IMMUTABLE_LOCATOR": null
+    }
+  },
+  "production_binding": "pending; no replacement values selected"
+}

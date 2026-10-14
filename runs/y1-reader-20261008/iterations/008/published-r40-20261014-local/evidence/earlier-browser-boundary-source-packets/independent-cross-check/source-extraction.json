@@ -1,0 +1,282 @@
+{
+  "scope": "Source extraction only from exact Git blobs; no rendering, browser, acceptance, or historical-delivery claim.",
+  "repository": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-maintenance\\20261014\\repository",
+  "boundary_method": "Complete nonblank Markdown text block containing the requested line; all five are one-line prose paragraphs bounded by blank lines or EOF.",
+  "inline_math_method": "Retain payload between exact $` and `$ delimiters, in source order, including repetitions and backslashes.",
+  "link_method": "All plain-text inline Markdown label/href pairs in the paragraph, in source order; all ]( occurrences accounted for.",
+  "total_paragraphs": 5,
+  "total_inline_math_payloads": 36,
+  "total_plain_text_markdown_links": 10,
+  "packets": [
+    {
+      "slug": "005-teaching-v2",
+      "commit": "32c553f279ac1e5771ff05b78a9951cbff3fee38",
+      "path": "runs/y1-reader-20261008/iterations/005/teaching-v2.md",
+      "requested_line": 190,
+      "git_blob_oid": "d8c9a67266e79fec03b069fa3193354882fc3f8b",
+      "git_blob_oid_recomputed": "d8c9a67266e79fec03b069fa3193354882fc3f8b",
+      "blob_bytes": 24261,
+      "blob_sha256": "4ae6d0f33e2957ebaf3bbd31c34e154c4a7c5eaab4bc3a09a9e909574b1a48e6",
+      "paragraph_first_line": 190,
+      "paragraph_last_line": 190,
+      "preceding_boundary": {
+        "kind": "blank_line",
+        "line": 189
+      },
+      "following_boundary": {
+        "kind": "blank_line",
+        "line": 191
+      },
+      "blob_line_count": 283,
+      "paragraph_has_terminal_lf": true,
+      "paragraph_bytes": 315,
+      "paragraph_sha256": "cab67484a592613380dc1a84e0b00956bdd30b6ff0f8bd21f254f0e517454768",
+      "paragraph_text": "[P29] H1. Start with $`2x+2yy'=0`$ and substitute the signed coordinates into the coefficient of $`y'`$. Once the slope is $`m`$, construct the tangent as $`y-y_0=m(x-x_0)`$. The two explicit branches explain why the implicit equation can be used at either sign of $`y`$. [Return to Q1](#q1) · [Solution S1](#s1).\n",
+      "inline_math_delimiter": "$`...`$",
+      "inline_math_count": 5,
+      "inline_math_payloads_in_order": [
+        "2x+2yy'=0",
+        "y'",
+        "m",
+        "y-y_0=m(x-x_0)",
+        "y"
+      ],
+      "plain_text_markdown_link_count": 2,
+      "plain_text_markdown_links_in_order": [
+        {
+          "label": "Return to Q1",
+          "href": "#q1"
+        },
+        {
+          "label": "Solution S1",
+          "href": "#s1"
+        }
+      ],
+      "non_ascii_codepoints_in_paragraph": [
+        {
+          "codepoint": "U+00B7",
+          "count": 1
+        }
+      ],
+      "omissions": []
+    },
+    {
+      "slug": "007-lesson",
+      "commit": "4765d39aa399a0a1ff09223cae21b15ce6c7f720",
+      "path": "runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/lesson.md",
+      "requested_line": 301,
+      "git_blob_oid": "71c1cc93e58f03a1d2f84519398a062190a965db",
+      "git_blob_oid_recomputed": "71c1cc93e58f03a1d2f84519398a062190a965db",
+      "blob_bytes": 19817,
+      "blob_sha256": "fd7a5dc52b8c143c8ba392b494ac879ad2722b0231dd21b3dadb50d0eedd988d",
+      "paragraph_first_line": 301,
+      "paragraph_last_line": 301,
+      "preceding_boundary": {
+        "kind": "blank_line",
+        "line": 300
+      },
+      "following_boundary": {
+        "kind": "blank_line",
+        "line": 302
+      },
+      "blob_line_count": 341,
+      "paragraph_has_terminal_lf": true,
+      "paragraph_bytes": 412,
+      "paragraph_sha256": "9623ce5dcd038091c988fb975a741ffa1d16d98c0a6118f8fd5496a29a44c221",
+      "paragraph_text": "P5 — generated transfer practice. For $`x\\gt 0`$, find the derivative of $`y=x^x`$. Explain why inserting $`r=x`$ into the constant-power rule $`(x^r)'=rx^{r-1}`$ is not justified. A complete response states a representation or logarithmic equation that keeps the varying exponent visible, differentiates it, and gives the derivative in terms of $`x`$. [Hint P5](hints.md#h5) · [Solution P5](solutions.md#s5)\n",
+      "inline_math_delimiter": "$`...`$",
+      "inline_math_count": 5,
+      "inline_math_payloads_in_order": [
+        "x\\gt 0",
+        "y=x^x",
+        "r=x",
+        "(x^r)'=rx^{r-1}",
+        "x"
+      ],
+      "plain_text_markdown_link_count": 2,
+      "plain_text_markdown_links_in_order": [
+        {
+          "label": "Hint P5",
+          "href": "hints.md#h5"
+        },
+        {
+          "label": "Solution P5",
+          "href": "solutions.md#s5"
+        }
+      ],
+      "non_ascii_codepoints_in_paragraph": [
+        {
+          "codepoint": "U+00B7",
+          "count": 1
+        },
+        {
+          "codepoint": "U+2014",
+          "count": 1
+        }
+      ],
+      "omissions": []
+    },
+    {
+      "slug": "007-hints",
+      "commit": "4765d39aa399a0a1ff09223cae21b15ce6c7f720",
+      "path": "runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/hints.md",
+      "requested_line": 21,
+      "git_blob_oid": "bee957570b6b869f703fd6a98f2429d210722520",
+      "git_blob_oid_recomputed": "bee957570b6b869f703fd6a98f2429d210722520",
+      "blob_bytes": 2361,
+      "blob_sha256": "d80b7cad63ec6b575b0d567dd4f4213ec4ea77b1ff61525f479859651a659a0c",
+      "paragraph_first_line": 21,
+      "paragraph_last_line": 21,
+      "preceding_boundary": {
+        "kind": "blank_line",
+        "line": 20
+      },
+      "following_boundary": {
+        "kind": "blank_line",
+        "line": 22
+      },
+      "blob_line_count": 43,
+      "paragraph_has_terminal_lf": true,
+      "paragraph_bytes": 269,
+      "paragraph_sha256": "38a94330dd66a8a7da638502dc2e30d350405f660f1d330e1940ea3e1b7ba0f6",
+      "paragraph_text": "Differentiate $`xy`$ as $`1\\cdot y+xy'`$. The derivative of $`y^2`$ is $`2yy'`$. Put terms containing $`y'`$ on one side, factor out $`y'`$, then substitute the point. A tangent of slope $`m`$ through $`(1,2)`$ has equation $`y-2=m(x-1)`$. [Return to P3](lesson.md#p3)\n",
+      "inline_math_delimiter": "$`...`$",
+      "inline_math_count": 9,
+      "inline_math_payloads_in_order": [
+        "xy",
+        "1\\cdot y+xy'",
+        "y^2",
+        "2yy'",
+        "y'",
+        "y'",
+        "m",
+        "(1,2)",
+        "y-2=m(x-1)"
+      ],
+      "plain_text_markdown_link_count": 1,
+      "plain_text_markdown_links_in_order": [
+        {
+          "label": "Return to P3",
+          "href": "lesson.md#p3"
+        }
+      ],
+      "non_ascii_codepoints_in_paragraph": [],
+      "omissions": []
+    },
+    {
+      "slug": "007-solutions",
+      "commit": "4765d39aa399a0a1ff09223cae21b15ce6c7f720",
+      "path": "runs/y1-reader-20261008/iterations/007/published-r29-20261011/teaching/solutions.md",
+      "requested_line": 108,
+      "git_blob_oid": "5b55ac240e578efe14e81dc71c3122e2815dd00a",
+      "git_blob_oid_recomputed": "5b55ac240e578efe14e81dc71c3122e2815dd00a",
+      "blob_bytes": 6309,
+      "blob_sha256": "3716815362b8d3c4240fffeb8cc5e95dd524939a99c9d6c0b9a189976ae035de",
+      "paragraph_first_line": 108,
+      "paragraph_last_line": 108,
+      "preceding_boundary": {
+        "kind": "blank_line",
+        "line": 107
+      },
+      "following_boundary": {
+        "kind": "blank_line",
+        "line": 109
+      },
+      "blob_line_count": 149,
+      "paragraph_has_terminal_lf": true,
+      "paragraph_bytes": 607,
+      "paragraph_sha256": "fce78eb744ac918705095853edd7aefb00c3ae78ae3a7e72e6a1d9d9a7fd3591",
+      "paragraph_text": "Equivalently, differentiating $`e^{x\\ln x}`$ by the chain and product rules gives the same expression. The constant-power rule assumed the exponent's derivative was zero. Here the exponent is $`x`$, whose derivative is 1, and its variation creates the $`\\ln x`$ term. Substituting $`r=x`$ into a rule derived for fixed $`r`$ changes that assumption. A check only at $`x=1`$ would miss this mistake because $`\\ln1=0`$; at $`x=e`$ the correct derivative is $`2e^e`$, which distinguishes it from the incorrectly substituted constant-power result $`e^e`$. [Return to P5](lesson.md#p5) · [Hint P5](hints.md#h5)\n",
+      "inline_math_delimiter": "$`...`$",
+      "inline_math_count": 10,
+      "inline_math_payloads_in_order": [
+        "e^{x\\ln x}",
+        "x",
+        "\\ln x",
+        "r=x",
+        "r",
+        "x=1",
+        "\\ln1=0",
+        "x=e",
+        "2e^e",
+        "e^e"
+      ],
+      "plain_text_markdown_link_count": 2,
+      "plain_text_markdown_links_in_order": [
+        {
+          "label": "Return to P5",
+          "href": "lesson.md#p5"
+        },
+        {
+          "label": "Hint P5",
+          "href": "hints.md#h5"
+        }
+      ],
+      "non_ascii_codepoints_in_paragraph": [
+        {
+          "codepoint": "U+00B7",
+          "count": 1
+        }
+      ],
+      "omissions": []
+    },
+    {
+      "slug": "009-recovery",
+      "commit": "9840e70de6aa7d2c718b60dd13ace7e6f795a50e",
+      "path": "runs/y1-reader-20261008/iterations/009/resumption-20261009/author/teaching-r15-recovery-v3.md",
+      "requested_line": 227,
+      "git_blob_oid": "12692e5b06f7f05fd490dc6a7058a13eb96aa976",
+      "git_blob_oid_recomputed": "12692e5b06f7f05fd490dc6a7058a13eb96aa976",
+      "blob_bytes": 29595,
+      "blob_sha256": "5c9e307b08931099316a2d12149ab3d1cd3a75ba2ae75bc48ef60a77b562c244",
+      "paragraph_first_line": 227,
+      "paragraph_last_line": 227,
+      "preceding_boundary": {
+        "kind": "blank_line",
+        "line": 226
+      },
+      "following_boundary": {
+        "kind": "end_of_blob"
+      },
+      "blob_line_count": 227,
+      "paragraph_has_terminal_lf": true,
+      "paragraph_bytes": 683,
+      "paragraph_sha256": "85812ef908b3229182543436ecfdd8ee7926b5c2233d2100bb14593df4e8881b",
+      "paragraph_text": "P062. To assemble the branches: on the left, begin just below the horizontal axis and descend, becoming steeper, toward negative infinity near $`0^-`$. On the right, begin at arbitrarily negative heights near $`0^+`$, rise through $`(1,0)`$ to the maximum $`(2,1/4)`$, and then descend toward the horizontal asymptote from above. The descending branch is concave down until $`(3,2/9)`$ and concave up afterward, so after that point its negative slope becomes less negative. Leave a gap at zero. This description accounts for every domain interval and distinguishes the maximum at $`2`$ from the inflection at $`3`$. [Return to Task C](#task-c) · [Hints](#hints) · [Start](#start).\n",
+      "inline_math_delimiter": "$`...`$",
+      "inline_math_count": 7,
+      "inline_math_payloads_in_order": [
+        "0^-",
+        "0^+",
+        "(1,0)",
+        "(2,1/4)",
+        "(3,2/9)",
+        "2",
+        "3"
+      ],
+      "plain_text_markdown_link_count": 3,
+      "plain_text_markdown_links_in_order": [
+        {
+          "label": "Return to Task C",
+          "href": "#task-c"
+        },
+        {
+          "label": "Hints",
+          "href": "#hints"
+        },
+        {
+          "label": "Start",
+          "href": "#start"
+        }
+      ],
+      "non_ascii_codepoints_in_paragraph": [
+        {
+          "codepoint": "U+00B7",
+          "count": 2
+        }
+      ],
+      "omissions": []
+    }
+  ],
+  "omissions": []
+}

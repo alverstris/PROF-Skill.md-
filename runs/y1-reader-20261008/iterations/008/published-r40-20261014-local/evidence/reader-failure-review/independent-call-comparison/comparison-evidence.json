@@ -1,0 +1,50 @@
+{
+  "review_scope": "Static comparison of four named procedure/report files only; no reader execution",
+  "source_identities": {
+    "original_report": {
+      "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\reader-report-original.md",
+      "sha256": "e3ebb4470b0d91e149e13ca3d4e564986ec1804be8e3690cf70df285431ba749",
+      "bytes": 9713,
+      "decoded_characters": 9701
+    },
+    "preservation_comparison": {
+      "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\reader-report-preservation\\comparison.md",
+      "sha256": "dc1a19d67bc30190ea525a08150fbc85923e7d52ed04c68462603f54e44e8e26",
+      "bytes": 1437,
+      "decoded_characters": 1437
+    },
+    "authorized_short_call": {
+      "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\reader-inputs\\short_call.js",
+      "sha256": "6e95721167265abf588e82d09d74cdd6b866b82983d7d1148cd5ca8af7bd0417",
+      "bytes": 1853,
+      "decoded_characters": 1853
+    },
+    "verifier_source": {
+      "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\reader-inputs\\verify_reuse.py",
+      "sha256": "3a7fcbe5b0ef4814bca83877cd3fec2d6628be34376c6bc2f2bb24bc2c716ca1",
+      "bytes": 6211,
+      "decoded_characters": 6211
+    }
+  },
+  "normalization": "Only const STEP_ID = \"B0001\"; replaced once with const STEP_ID = \"B0024\"; in authorized source. No line-ending or whitespace normalization.",
+  "reported_call_extraction": "First javascript code fence following **Exact stopping call** in reader-report-original.md; retained fence body including terminal newline",
+  "authorized_call_B0024_sha256": "00ca96684a2ab635b4de8d4648e79fa161ceffee3c2887de521555b5544baad7",
+  "reported_failed_call_sha256": "6573b7c09ac808f6eecce878ac4eb00fb8e5490ed3c303aba6ceb7054953e39f",
+  "expected_line_count": 11,
+  "reported_line_count": 11,
+  "non_datum_differences": [
+    {
+      "line": 9,
+      "expected": "p.schema !== \"prof-reader-reuse-proof-v1\"",
+      "reported": "p.schema !== \"prof-reader-reuse-store-v1\"",
+      "operation": "replace exactly one string literal; all surrounding characters and all other lines identical"
+    }
+  ],
+  "expected_bytes": 1853,
+  "reported_bytes": 1853,
+  "expected_lf_count": 11,
+  "reported_lf_count": 11,
+  "expected_cr_count": 0,
+  "reported_cr_count": 0,
+  "reported_execution_independently_observed": false
+}

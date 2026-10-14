@@ -1,0 +1,55 @@
+Z 
+Z 
+Lecture 16 
+18.01Fall 2006 
+−6
+−4
+−2
+0
+2
+4
+6
+0
+0.2
+0.4
+0.6
+0.8
+1
+X
+Y
+2 
+Figure 1: Graph of y = e− x 
+2 . 
+In general: 
+dy 
+= f(x)g(y)
+dx 
+dy 
+= f(x)dx which we can write as 
+g(y) 
+1 
+h(y)dy = f(x)dx where h(y) = 
+. 
+g(y) 
+Now, we get an implicit formula for y: 
+H(y) = F (x) + c (H(y) = 
+h(y)dy; 
+F (x) = 
+f(x)dx) 
+where H0 = h, F 0 = f, and 
+y = H−1(F (x) + c) 
+(H−1 is the inverse function.) 
+In the previous example: 
+2 
+f(x)
+= x; 
+F (x) = −
+2 
+x ; 
+1
+1 
+g(y)
+= y; 
+h(y) = g(y) = y , 
+H(y) = ln |y| 
+2 

@@ -1,0 +1,174 @@
+{
+  "precision": 70,
+  "method": "Python Decimal exact rational arithmetic and Decimal.exp, independently recomputed from final teaching formulas",
+  "rounded_checks": [
+    {
+      "material_id": "D006",
+      "line": 364,
+      "label": "k=10 sequence value",
+      "learner_formula": "(1+1/k)^k",
+      "stated_inputs": {
+        "k": "10"
+      },
+      "computed_decimal_70_digit_context": "2.5937424601",
+      "printed_value": "2.59374",
+      "decimal_places": 5,
+      "unit": "dimensionless",
+      "rounding_rule": "nearest, half up; no tie occurs",
+      "rounded_result": "2.59374",
+      "printed_line": "The lecture's first closing remark uses this formula to approximate $e$. With $k=10$, it gives $(1.1)^{10}\\approx2.59374$, whereas $e\\approx2.71828$: the estimate is about 4.58% low. It is useful as a rough approximation, and the limit guarantees convergence as $k$ increases; $k=10$ does not give several correct decimal places.",
+      "pass": true
+    },
+    {
+      "material_id": "D006",
+      "line": 364,
+      "label": "comparison e",
+      "learner_formula": "exp(1)",
+      "stated_inputs": {
+        "exponent": "1"
+      },
+      "computed_decimal_70_digit_context": "2.718281828459045235360287471352662497757247093699959574966967627724077",
+      "printed_value": "2.71828",
+      "decimal_places": 5,
+      "unit": "dimensionless",
+      "rounding_rule": "nearest, half up; no tie occurs",
+      "rounded_result": "2.71828",
+      "printed_line": "The lecture's first closing remark uses this formula to approximate $e$. With $k=10$, it gives $(1.1)^{10}\\approx2.59374$, whereas $e\\approx2.71828$: the estimate is about 4.58% low. It is useful as a rough approximation, and the limit guarantees convergence as $k$ increases; $k=10$ does not give several correct decimal places.",
+      "pass": true
+    },
+    {
+      "material_id": "D006",
+      "line": 364,
+      "label": "relative shortfall below e",
+      "learner_formula": "100*(e-(1.1)^10)/e",
+      "stated_inputs": {
+        "denominator": "e"
+      },
+      "computed_decimal_70_digit_context": "4.581547323576996691957081923338551546122183355769904567159370123591049",
+      "printed_value": "4.58",
+      "decimal_places": 2,
+      "unit": "percent below e",
+      "rounding_rule": "nearest, half up; no tie occurs",
+      "rounded_result": "4.58",
+      "printed_line": "The lecture's first closing remark uses this formula to approximate $e$. With $k=10$, it gives $(1.1)^{10}\\approx2.59374$, whereas $e\\approx2.71828$: the estimate is about 4.58% low. It is useful as a rough approximation, and the limit guarantees convergence as $k$ increases; $k=10$ does not give several correct decimal places.",
+      "pass": true
+    },
+    {
+      "material_id": "D006",
+      "line": 428,
+      "label": "one-day positive growth",
+      "learner_formula": "100*(exp(0.03*t)-1)",
+      "stated_inputs": {
+        "t": "1 day",
+        "continuous relative rate": "0.03 per day"
+      },
+      "computed_decimal_70_digit_context": "3.045453395351685561243995383119813290502514298822332566994548298465600",
+      "printed_value": "3.045",
+      "decimal_places": 3,
+      "unit": "percent",
+      "rounding_rule": "nearest, half up; no tie occurs",
+      "rounded_result": "3.045",
+      "printed_line": "For a worked model, let $F(t)=80e^{0.03t}$, where $t$ is the numerical time in days and $F$ is in points. Its absolute rate is $F'=2.4e^{0.03t}$ points per day. Dividing by its current level gives $F'/F=0.03$ per day, or 3% per day instantaneously. After one day, however, the exact percentage increase is $100(e^{0.03}-1)$, about 3.045%. The level on which growth acts changes during the day. Calling both numbers exactly 3% would confuse a local rate with a finite change.",
+      "pass": true
+    },
+    {
+      "material_id": "D006",
+      "line": 677,
+      "label": "50 point fall from 300",
+      "learner_formula": "100*(-50)/300",
+      "stated_inputs": {
+        "initial": "300 points",
+        "change": "-50 points"
+      },
+      "computed_decimal_70_digit_context": "-16.66666666666666666666666666666666666666666666666666666666666666666667",
+      "printed_value": "-16.67",
+      "decimal_places": 2,
+      "unit": "percent",
+      "rounding_rule": "nearest, half up; no tie occurs",
+      "rounded_result": "-16.67",
+      "printed_line": "\\frac{-50}{300}\\times100\\text{ percent}=-\\frac{50}{3}\\text{ percent}\\approx-16.67\\text{ percent},\\qquad",
+      "pass": true
+    },
+    {
+      "material_id": "D006",
+      "line": 678,
+      "label": "50 point fall from 10000",
+      "learner_formula": "100*(-50)/10000",
+      "stated_inputs": {
+        "initial": "10000 points",
+        "change": "-50 points"
+      },
+      "computed_decimal_70_digit_context": "-0.500",
+      "printed_value": "-0.5",
+      "decimal_places": 1,
+      "unit": "percent (exact)",
+      "rounding_rule": "nearest, half up; no tie occurs",
+      "rounded_result": "-0.5",
+      "printed_line": "\\frac{-50}{10000}\\times100\\text{ percent}=-0.5\\text{ percent}.",
+      "pass": true
+    },
+    {
+      "material_id": "D006",
+      "line": 689,
+      "label": "one-day negative growth",
+      "learner_formula": "100*(exp(-0.02*t)-1)",
+      "stated_inputs": {
+        "t": "1 day",
+        "continuous relative rate": "-0.02 per day"
+      },
+      "computed_decimal_70_digit_context": "-1.980132669324469777918589577469113370028759953085592227479606894193320",
+      "printed_value": "-1.9801",
+      "decimal_places": 4,
+      "unit": "percent",
+      "rounding_rule": "nearest, half up; no tie occurs",
+      "rounded_result": "-1.9801",
+      "printed_line": "100(e^{-0.02}-1)\\text{ percent}\\approx-1.9801\\text{ percent}.",
+      "pass": true
+    }
+  ],
+  "supplementary_exact_arithmetic": [
+    {
+      "case": "D003",
+      "line": 47,
+      "formula": "3*0.2-0.5",
+      "exact": "0.1",
+      "unit": "V/s"
+    },
+    {
+      "case": "D003",
+      "line": 257,
+      "formula": "2*0.30-0.40",
+      "exact": "0.20",
+      "unit": "V/s"
+    },
+    {
+      "case": "D003",
+      "line": 264,
+      "formula": "(-0.2)*4+3*0.5",
+      "exact": "0.7",
+      "unit": "m^2/s"
+    },
+    {
+      "case": "D006",
+      "line": 428,
+      "formula": "80*0.03",
+      "exact": "2.40",
+      "unit": "points/day coefficient"
+    },
+    {
+      "case": "D006",
+      "line": 670,
+      "formula": "300*(-0.02), 10000*(-0.02), 100*(-0.02)",
+      "exact": [
+        "-6.00",
+        "-200.00",
+        "-2.00"
+      ],
+      "unit": [
+        "points/day",
+        "points/day",
+        "percent/day"
+      ]
+    }
+  ]
+}

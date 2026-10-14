@@ -1,0 +1,33 @@
+Prerequisites, conventions and coverage
+
+This is one connected topic, local polynomial approximation, with four capability groups: C1 build/recenter a tangent model; C2 substitute and combine standard forms consistently and use a difference quotient; C3 build a quadratic model and preserve its coefficients; C4 identify a physical model's small parameter, dimensions and adequate order. Practice and later revisiting apply to all four. Worked examples and the selected attempts are generated/adapted as labelled; no claim of observed mastery or a student error is made.
+
+Prior knowledge is the explicit operational baseline competence assumption, not an observed learner result. Its complete text was read. Immediate premises:
+
+- B1 Mathematics lines32-176: arithmetic, algebra, domains, function composition, point-slope form (line116), powers, finite/infinite binomial truncation and its validity interval. Used in C1/C2/C3.
+- B2 Mathematics lines178-234: radian conventions, exact trig values and small-angle approximations. Used in C2/C3 and figures.
+- B3 Mathematics lines236-330: logarithms, derivative difference quotient (line256), derivatives, product/chain rules, tangent gradients and second derivatives. Used in C1-C3.
+- B4 Further Mathematics FM27, line731: Maclaurin coefficient rule and five explicit series, real-argument domains and no assumed general remainder theorem. Used to justify consistent truncation for the analytic examples; no general convergence claim is inferred.
+- B5 Physics lines847-933 and surrounding units/measurement text: light-speed reference, units, ratios, retained precision. Used in C4.
+
+Line convention for these locators and input-access.md is the1-based PowerShell Get-Content sequence, which treats the baseline's mixed CR/CRLF forms as line breaks. This is the2561-line displayed sequence. Raw LF-only tools such as rg give different numeric line labels in portions with extra CRs; the headings and FM IDs above disambiguate the actual passages.
+- New P1: T/T' special-relativistic event/frame mapping and its speed-domain model. Taught explicitly before use; not imported from the school baseline. Official OpenStax University Physics Vol3 §5.3 equations5.1-5.2 and Proper Time section inspected (web lines32-85). Source maps Delta tau to T and Delta t to T'.
+
+Convention record: preserve MIT x0 as fixed base point, x as nearby input, f'(x0) as derivative evaluated at base, prime T' as a named second time interval (not differentiation). Introduce h=x-x0 only as equivalent displacement. In standard zero-centred lists use u as replaceable small input and r as fixed real exponent, with1+u>0. Trig inputs are radians. Planet Quirk T is onboard elapsed proper interval, T' ground-frame coordinate interval for the same two onboard events; c>0,0<=v<c,T>0, constant relative velocity, gravity neglected. Domain clear from original timing formula; source wristwatch shorthand interpreted explicitly using official event/frame definition. No unresolved course-choice ambiguity.
+
+Required source map (PDF page counts include cover; printed page is one lower):
+
+- S01 PDFp1 cover: MITOCW, course18.01 Fall2006 and terms; provenance in main opening/source note. No substantive teaching is present.
+- S02 PDFp2: tangent figure1, caption and f(x0)+f'(x0)(x-x0); logarithm example and x=1+u recentering. main linear-model/ln passages; log-tangent.png gives point/slope mapping. A1 changes centre to2.
+- S03 PDFp3 upper: five zero-centred linear forms; proof of sine and power; figure2 sine/cosine tangents and caption. main basic-forms passage, trig-linear.png and adjacent caption.
+- S04 PDFp3 lower andp4 upper including footnote1: exp(-2x)/sqrt(1+x), reciprocal shortcut, products, dropping x2, f(0) andf'(0). main algebra passage preserves both denominator paths, explains why accidental x2 product cannot be accepted as the true quadratic coefficient. Correct source derivative is -5/2, independently reread in high-resolution PDF crop.
+- S05 PDFp4 middle Example3: derivative quotient for(1+2x)^10 and linear approximation route. main limits passage gives both and the residual-over-x warrant. A2 changes numerator constant and function.
+- S06 PDFp4 lower andp5 upper: Planet Quirk timing equation, figure3 with satellite speed arrow, captions, T'/T labels, binomial substitution, v=4km/s,c=3x10^5km/s, rough10^-10 ratio and GPS remark. main timing-model passage explains ground/onboard/event roles and direction-independent speed, computes q=1.777...x10^-10, preserves units/T and cites actual GPS two-effect scope. Genuine rendered source p5 factor/exponent defects are recorded separately, without repeating them as valid teaching.
+- S07 PDFp5 lower: quadratic formula, geometric interpretation, cosine worked case, coefficient1/2 from quadratic exactness. main quadratic passage and cos-quadratic.png; local derivative matching replaces ambiguous global best-fit wording.
+- S08 PDFp6 upper/middle: figure4/caption and five quadratic forms; logarithm derivative proof. main quadratic/basic forms and cosine caption retain all coefficients and explain sine's zero x2 term.
+- S09 PDFp6 lower,p7 upper: second-order timing substitution and10^-20 order argument. main timing refinement usesq, explains degree inq vs degree inv and requested-precision dependence. A3 tests failure of small-parameter accuracy atv=.6c against the exact model.
+- S10 PDFp7 rest Example5: composite quadratic exp and power factors, cross product and27/8, discardx3+. main composite quadratic passage; A4 changes the multiplier to cancel the linear term and asks for the new leading correction.
+
+All four source figures/captions were read. Three newly plotted figures supply the same tangent/curvature relationships with explicit axes and legends; the satellite source illustration is interpreted in words because its speed arrow is not needed to derive the supplied scalar model. The source's no-current-clock precision claim is retained as a contextual comparison to assess, not asserted as a current metrology fact. No required formula/example omitted.
+
+Gap resolution: derivative definition resolves the otherwise unsupported step from approximate numerator to exact limit. Baseline FM27 resolves coefficient preservation for standard series. Original PDF re-render resolves apparent derivative-sign discrepancy. Official event/frame source resolves wristwatch shorthand; T has time units while gamma is dimensionless, independently detecting the source's omitted factor. Current atomic-clock superlative is unnecessary for the mathematical selection criterion and is not made.

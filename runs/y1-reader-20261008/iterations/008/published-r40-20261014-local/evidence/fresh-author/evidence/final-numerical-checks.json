@@ -1,0 +1,286 @@
+{
+  "revision": "D008-r40-fresh-author-1",
+  "checks": [
+    {
+      "file": "main.md",
+      "line": 59,
+      "printed": "0.0198026273",
+      "result": "0.01980262729617973",
+      "formula": "ln(1.02)",
+      "rounding": ".10f",
+      "units": "dimensionless",
+      "expected": "0.0198026273",
+      "pass_check": true
+    },
+    {
+      "file": "main.md",
+      "line": 59,
+      "printed": "0.0001973727",
+      "result": "0.00019737270382027064",
+      "formula": "abs(0.02-ln(1.02))",
+      "rounding": ".10f",
+      "units": "dimensionless",
+      "expected": "0.0001973727",
+      "pass_check": true
+    },
+    {
+      "file": "main.md",
+      "line": 59,
+      "printed": "0.0198",
+      "result": "0.0198",
+      "formula": "0.02-0.02^2/2",
+      "rounding": ".4f",
+      "units": "dimensionless",
+      "expected": "0.0198",
+      "pass_check": true
+    },
+    {
+      "file": "main.md",
+      "line": 250,
+      "printed": "0.0000026273",
+      "result": "2.6272961797281502e-06",
+      "formula": "abs(ln(1.02)-(0.02-0.02^2/2))",
+      "rounding": ".10f",
+      "units": "dimensionless",
+      "expected": "0.0000026273",
+      "pass_check": true
+    },
+    {
+      "file": "main.md",
+      "line": 300,
+      "printed": "0.95",
+      "result": "0.95",
+      "formula": "1-(5/2)(0.02)",
+      "rounding": ".2f",
+      "units": "dimensionless",
+      "expected": "0.95",
+      "pass_check": true
+    },
+    {
+      "file": "main.md",
+      "line": 300,
+      "printed": "0.95135",
+      "result": "0.9513499999999999",
+      "formula": "1-(5/2)(0.02)+(27/8)(0.02)^2",
+      "rounding": ".5f",
+      "units": "dimensionless",
+      "expected": "0.95135",
+      "pass_check": true
+    },
+    {
+      "file": "main.md",
+      "line": 300,
+      "printed": "0.9513233025",
+      "result": "0.9513233024946097",
+      "formula": "exp(-2*0.02)/sqrt(1+0.02)",
+      "rounding": ".10f",
+      "units": "dimensionless",
+      "expected": "0.9513233025",
+      "pass_check": true
+    },
+    {
+      "file": "main.md",
+      "line": 300,
+      "printed": "0.0013233025",
+      "result": "0.0013233024946097682",
+      "formula": "abs(f(0.02)-0.95)",
+      "rounding": ".10f",
+      "units": "dimensionless",
+      "expected": "0.0013233025",
+      "pass_check": true
+    },
+    {
+      "file": "main.md",
+      "line": 300,
+      "printed": "0.0000266975",
+      "result": "2.6697505390305132e-05",
+      "formula": "abs(f(0.02)-0.95135)",
+      "rounding": ".10f",
+      "units": "dimensionless",
+      "expected": "0.0000266975",
+      "pass_check": true
+    },
+    {
+      "file": "main.md",
+      "line": 314,
+      "printed": "0.98006657784",
+      "result": "0.9800665778412416",
+      "formula": "cos(0.2), radians",
+      "rounding": ".11f",
+      "units": "dimensionless",
+      "expected": "0.98006657784",
+      "pass_check": true
+    },
+    {
+      "file": "solutions.md",
+      "line": 20,
+      "printed": "0.7129498079",
+      "result": "0.712949807856125",
+      "formula": "ln(2.04)",
+      "rounding": ".10f",
+      "units": "dimensionless",
+      "expected": "0.7129498079",
+      "pass_check": true
+    },
+    {
+      "file": "solutions.md",
+      "line": 17,
+      "printed": "0.71314718056",
+      "result": "0.71314718056",
+      "formula": "supplied ln2 + (1/2)*0.04",
+      "rounding": ".11f",
+      "units": "dimensionless",
+      "expected": "0.71314718056",
+      "pass_check": true
+    },
+    {
+      "file": "solutions.md",
+      "line": 17,
+      "printed": "0.713147",
+      "result": "0.71314718056",
+      "formula": "same estimate, rounded six decimals",
+      "rounding": ".6f",
+      "units": "dimensionless",
+      "expected": "0.713147",
+      "pass_check": true
+    },
+    {
+      "file": "solutions.md",
+      "line": 20,
+      "printed": "0.0001973727",
+      "result": "0.0001973727038749873",
+      "formula": "abs(estimate-ln(2.04))",
+      "rounding": ".10f",
+      "units": "dimensionless",
+      "expected": "0.0001973727",
+      "pass_check": true
+    },
+    {
+      "file": "main.md",
+      "printed": "7.68\\times10^{-6}",
+      "result": "0.0000076799999999999999999999999999999999999999999999999999999999999995",
+      "formula": "86400*(4/300000)^2/2 seconds",
+      "rounding": ".2E",
+      "expected": "7.68\\times10^{-6}",
+      "pass_check": true
+    },
+    {
+      "file": "main.md",
+      "printed": "1.185185\\times10^{-20}",
+      "result": "1.1851851851851851851851851851851851851851851851851851851851851851E-20",
+      "formula": "3*((4/300000)^2)^2/8",
+      "rounding": ".6E",
+      "expected": "1.185185\\times10^{-20}",
+      "pass_check": true
+    },
+    {
+      "file": "main.md",
+      "printed": "1.2\\times10^{-20}",
+      "result": "1.1851851851851851851851851851851851851851851851851851851851851851E-20",
+      "formula": "same quadratic correction, two significant figures",
+      "rounding": ".1E",
+      "expected": "1.2\\times10^{-20}",
+      "pass_check": true
+    },
+    {
+      "file": "main.md",
+      "printed": "8.9\\times10^{-11}",
+      "result": "8.8888888888888888888888888888888888888888888888888888888888888885E-11",
+      "formula": "(4/300000)^2/2, two significant figures",
+      "rounding": ".1E",
+      "expected": "8.9\\times10^{-11}",
+      "pass_check": true
+    },
+    {
+      "file": "solutions.md",
+      "line": 50,
+      "printed": "0.36",
+      "result": "0.36",
+      "formula": "0.6^2",
+      "rounding": ".2f",
+      "units": "dimensionless",
+      "expected": "0.36",
+      "pass_check": true
+    },
+    {
+      "file": "solutions.md",
+      "line": 53,
+      "printed": "1.18",
+      "result": "1.18",
+      "formula": "1+0.36/2",
+      "rounding": ".2f",
+      "units": "dimensionless",
+      "expected": "1.18",
+      "pass_check": true
+    },
+    {
+      "file": "solutions.md",
+      "line": 55,
+      "printed": "0.0486",
+      "result": "0.0486",
+      "formula": "3*0.36^2/8",
+      "rounding": ".4f",
+      "units": "dimensionless",
+      "expected": "0.0486",
+      "pass_check": true
+    },
+    {
+      "file": "solutions.md",
+      "line": 55,
+      "printed": "1.2286",
+      "result": "1.2286",
+      "formula": "1+0.36/2+3*0.36^2/8",
+      "rounding": ".4f",
+      "units": "dimensionless",
+      "expected": "1.2286",
+      "pass_check": true
+    },
+    {
+      "file": "solutions.md",
+      "line": 61,
+      "printed": "0.07",
+      "result": "0.07",
+      "formula": "abs(1.25-1.18)",
+      "rounding": ".2f",
+      "units": "dimensionless",
+      "expected": "0.07",
+      "pass_check": true
+    },
+    {
+      "file": "solutions.md",
+      "line": 62,
+      "printed": "0.0214",
+      "result": "0.0214",
+      "formula": "abs(1.25-1.2286)",
+      "rounding": ".4f",
+      "units": "dimensionless",
+      "expected": "0.0214",
+      "pass_check": true
+    },
+    {
+      "file": "solutions.md",
+      "line": 107,
+      "printed": "0.01993342216",
+      "result": "0.01993342216",
+      "formula": "abs(supplied0.98006657784-1)",
+      "rounding": ".11f",
+      "units": "dimensionless",
+      "expected": "0.01993342216",
+      "pass_check": true
+    },
+    {
+      "file": "solutions.md",
+      "line": 109,
+      "printed": "0.00006657784",
+      "result": "0.00006657784",
+      "formula": "abs(supplied0.98006657784-0.98)",
+      "rounding": ".11f",
+      "units": "dimensionless",
+      "expected": "0.00006657784",
+      "pass_check": true
+    }
+  ],
+  "count": 26,
+  "failed": [],
+  "note": "Each printed validation value was located in frozen source and compared to a fresh formula/input calculation with declared rounding. Fractions/derivative coefficients checked in author-audit and independent source audit. Nominal sample inputs do not supply experimental uncertainty."
+}

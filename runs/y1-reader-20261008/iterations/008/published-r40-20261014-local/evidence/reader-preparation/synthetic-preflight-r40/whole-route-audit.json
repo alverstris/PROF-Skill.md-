@@ -1,0 +1,147 @@
+{
+  "route_id": "SYNTHETIC_R40",
+  "route_sha256": "5d29302d05256dc81782d0881cf465bd09e28c82704d12426e3a9e18dbce2e06",
+  "operational_route_audit_passed": true,
+  "scheduled_steps": 5,
+  "verified_accesses": [
+    {
+      "ledger_index": 4,
+      "step_id": "B001",
+      "target_step": "B001",
+      "sha256": "c4fc04587534cb2edc04b1226ba166148e9c1d6cc190eb42eeba75f625bd8af7",
+      "byte_length": 41
+    },
+    {
+      "ledger_index": 11,
+      "step_id": "B002",
+      "target_step": "B002",
+      "sha256": "39b01330ae0b42f84afda993a1d578a696b354b82480f1aaf1bcbbbcc1ec0f2d",
+      "byte_length": 42
+    },
+    {
+      "ledger_index": 18,
+      "step_id": "RB001",
+      "target_step": "B001",
+      "sha256": "c4fc04587534cb2edc04b1226ba166148e9c1d6cc190eb42eeba75f625bd8af7",
+      "byte_length": 41
+    },
+    {
+      "ledger_index": 25,
+      "step_id": "T001",
+      "target_step": "T001",
+      "sha256": "76b2279c18e076657aa61dc9f993324ecf50d938a6fb9144fa2039417f120ec4",
+      "byte_length": 45
+    },
+    {
+      "ledger_index": 34,
+      "step_id": "F001",
+      "target_step": "F001",
+      "sha256": "067b9dfe0854474ec89d5f89ec4c7059b347af5e697ac0be4dff703489699f96",
+      "byte_length": 382
+    },
+    {
+      "ledger_index": 47,
+      "step_id": "RB002",
+      "target_step": "B002",
+      "sha256": "39b01330ae0b42f84afda993a1d578a696b354b82480f1aaf1bcbbbcc1ec0f2d",
+      "byte_length": 42
+    },
+    {
+      "ledger_index": 54,
+      "step_id": "T002",
+      "target_step": "T002",
+      "sha256": "1c36a54c16e094847e507ea843fea415bed6e987cbd1db7d54c8d9387d89c3a3",
+      "byte_length": 44
+    }
+  ],
+  "display_receipts": [
+    {
+      "ledger_index": 6,
+      "step_id": "B001",
+      "kind": "text"
+    },
+    {
+      "ledger_index": 13,
+      "step_id": "B002",
+      "kind": "text"
+    },
+    {
+      "ledger_index": 20,
+      "step_id": "RB001",
+      "kind": "text"
+    },
+    {
+      "ledger_index": 27,
+      "step_id": "T001",
+      "kind": "text"
+    },
+    {
+      "ledger_index": 42,
+      "step_id": "F001",
+      "kind": "figure"
+    },
+    {
+      "ledger_index": 49,
+      "step_id": "RB002",
+      "kind": "text"
+    },
+    {
+      "ledger_index": 56,
+      "step_id": "T002",
+      "kind": "text"
+    }
+  ],
+  "subject_open_audit_count": 7,
+  "rejected_or_failed_calls_for_separate_review": [
+    {
+      "ledger_index": 28,
+      "argument_count": 1,
+      "event": "launcher_rejected",
+      "reason": "step is not the exact next scheduled step",
+      "requested_step": "T002",
+      "route_sha256": "5d29302d05256dc81782d0881cf465bd09e28c82704d12426e3a9e18dbce2e06",
+      "time_utc": "2026-10-14T20:12:07.916434+00:00"
+    },
+    {
+      "ledger_index": 29,
+      "argument_count": 1,
+      "event": "launcher_rejected",
+      "reason": "unknown step ID",
+      "requested_step": "UNKNOWN",
+      "route_sha256": "5d29302d05256dc81782d0881cf465bd09e28c82704d12426e3a9e18dbce2e06",
+      "time_utc": "2026-10-14T20:12:09.970556+00:00"
+    },
+    {
+      "ledger_index": 36,
+      "argument_count": 1,
+      "event": "launcher_rejected",
+      "reason": "step is not the exact next scheduled step",
+      "requested_step": "T002",
+      "route_sha256": "5d29302d05256dc81782d0881cf465bd09e28c82704d12426e3a9e18dbce2e06",
+      "time_utc": "2026-10-14T20:13:01.033760+00:00"
+    },
+    {
+      "ledger_index": 39,
+      "argument_count": 1,
+      "event": "launcher_rejected",
+      "reason": "step is not the exact next scheduled step",
+      "requested_step": "T002",
+      "route_sha256": "5d29302d05256dc81782d0881cf465bd09e28c82704d12426e3a9e18dbce2e06",
+      "time_utc": "2026-10-14T20:13:02.899102+00:00"
+    },
+    {
+      "ledger_index": 41,
+      "argument_count": 1,
+      "event": "launcher_rejected",
+      "reason": "step is not the exact next scheduled step",
+      "requested_step": "T002",
+      "route_sha256": "5d29302d05256dc81782d0881cf465bd09e28c82704d12426e3a9e18dbce2e06",
+      "time_utc": "2026-10-14T20:13:04.754631+00:00"
+    }
+  ],
+  "complete_text_byte_coverage_from_exact_route": true,
+  "complete_figure_delivery_receipts_present": true,
+  "semantic_inspection_proven": false,
+  "technical_confinement_proven": false,
+  "reader_admission_automatic": false
+}

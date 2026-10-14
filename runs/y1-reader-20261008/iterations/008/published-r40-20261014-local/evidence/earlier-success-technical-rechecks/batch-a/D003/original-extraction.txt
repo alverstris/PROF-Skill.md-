@@ -1,0 +1,115 @@
+
+PHYSICAL PDF PAGE 1
+MIT OpenCourseWare 
+http://ocw.mit.edu 
+18.01 Single Variable Calculus 
+Fall 2006 
+For information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms. 
+
+PHYSICAL PDF PAGE 2
+Lecture 3 18.01 Fall 2006 
+Lecture 3 (presented by Kobi Kremnizer): 
+Derivatives of Products, Quotients, Sine, and 
+Cosine 
+Derivative Formulas 
+There are two kinds of derivative formulas: 
+d1. Specific Examples: -x" or -
+dx 
+2. General Examples: (u +v)' =u1+v1 and (cu) = cul (where c is a constant) 
+A notational convention we will use today is: 
+Proof of (u+v) = u' +v'. (General) 
+$@rt by using the definition af &hederivative. 
+(U +v)'(x) = lirn (U+U)(X+ax) -(U+v)(x) 
+Ax-0 ax 
+U(X+ax) +V(X+AX)-U(X)-V(X) = lirn 
+Ax-0 ax 
+= lim {u(x +Ax) -u(x) + v (x +Ax) -v(x) 
+AX-O Ax Ax 
+Follow the same procedure to prove that (cu)' = cu'. 
+Derivatives of sin x and cos x. (Specific) 
+Last time, we computed 
+sinxlim -= 1 
+x-0 x 
+d sin(0 +Ax) -sin(0) sin( Ax) -(sinx) IZEo = lirn = lim -= 1dx AX-o ax AX-o ax 
+d COS(O +ax) -COS(O) COS(~X) i-
+-(co~x)I~=~ = lim = lim = 0dx AX-0 ax AZ-O ax 
+d dSo, we know the value of -sin x and of -cos x at x = 0. Let us find these for arbitrary x. dx dx 
+d sin(x +Ax) -sin(x) 
+-sin x = lirndx AX-0 ax 
+
+PHYSICAL PDF PAGE 3
+Lecture 3 18.01 Fall 2006 
+Recall: 
+sin x cos Ax + cos x sin Ax -sin(%) 
+- lirn 
+Ax-0 Ax 
+sin x(cos Ax -1) cos x sin Ax 
+= lim [ 1AX-o Ax Ax+ 
+cos Ax -1 sin Ax = AX-o Ax lim COSX(~)lim sins( )+ asto 
+cos Ax -1 sin Ax Since +0 and that --+ 1,the equation above simplifies to Ax Ax 
+d
+-sinx = cosxdx 
+A similar calculation gives 
+d 
+-cosx = -
+dx 
+Product formula (General) 
+(uv)' = ulv + uvl 
+Proof: 
+(uv)(X + AX)-(UV)(x) u(x + Ax)v(x + Ax) -u(x)v(x)(uv)' = lim = lim 
+hxt~ Ax Axto AX 
+Now obviously, 
+so adding that to the numerator won't change anything. 
+u(x + Ax)v(x) -u(x)v(x) + U(X + AX)V(X+ Ax) -u(x + Ax)v(x)(uv)' = lirn 
+Ax-0 AX 
+We can re-arrange that expression to get 
+(uv)' = lim ) V(X)+ U(X + AX)Ax-0 
+Remember, the limit of a sum is the sum of the limits. 
+u(x + Ax) -u(x) 
+Ax-0 Ax 
+ I > 
+(uv)' =ul(x)v(x) + u(x)vl(x) 
+Note: we also used the fact that 
+lirn u(x + Ax) = u(x) (true because u is continuous) 
+Ax-0 
+This proof of the product rule assumes that u and v have derivatives, which implies both functions 
+are continuous. 
+
+PHYSICAL PDF PAGE 4
+Lecture 3 18.01 Fall 2006 
+Figure 1: A graphical "proof" of the product rule 
+An intuitive justification: 
+We want to find the difference in area between the large rectangle and the smaller, inner rectangle. 
+The inner (orange) rectangle has area uv. Define Au, the change in u, by 
+Au = u(x + Ax) -U(X) 
+We also abbreviate u = u(x), so that u(x + Ax) 
++ 
+= u + Au, and, similarly, v(x + Ax) = v + Av. 
+Therefore the area of the largest rectangle is (u Au) (v + Av). 
+If you let v increase and keep u constant, you add the area shaded in red. If you let u increase 
+and keep v constant, you add the area shaded in yellow. The sum of areas of the red and yellow 
+rectangles is: 
+[u(v+ Av) -uv]+ [v(u+ Au) -uv]= uAv + vAu 
+If Au and Av are small, then (Au)(Av) FZ 0, that is, the area of the white rectangle is very 
+small. Therefore the difference in area between the laxgest rectangle and the orange rectangle is 
+approximately the same as the sum of areas of the red and yellow rectangles. Thus we have: 
+[(u+ Au) (v + Av) -uv]w uAv + vAu 
+(Divide by Ax and let Ax + 0 to finish the argument.) 
+
+PHYSICAL PDF PAGE 5
+-- - - - 
+Lecture 3 18.01 Fall 2006 
+Quotient formula (General) 
+To calculate the derivative of ulv, we use the notations Au and Av above. Thus, 
+u(x +Ax) u(x) u+Au u -
+U(X+Ax) V(X) 
+-
+v+Av v 
+-- (" + -u(v + (common denominator)
+(v +Av)v 
+(Au)~ -u(Av)--
+(v + Av)v (cancel uv -uv) 
+Hence, 
+Therefore. 
+u u'v -uv' 
+u2 

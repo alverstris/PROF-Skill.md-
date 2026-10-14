@@ -1,0 +1,117 @@
+{
+  "D003": {
+    "line_count": 315,
+    "terms": [
+      {
+        "line": 55,
+        "text": "[P10] For trigonometric functions, take angles in radians. The two familiar limits below are the starting premises used by this lecture. The fractions need not be defined at $`h=0`$ to have limits there. Directly in the derivative definition, $`\\sin0=0`$ and $`\\cos0=1`$ show that they give the sine derivative 1 and cosine derivative 0 at the origin. They do not yet give the derivatives at other inputs; angle addition makes that connection."
+      },
+      {
+        "line": 141,
+        "text": "[P19] The diagram redraws the source\u2019s Figure 1. The orange rectangle has width $`u`$, height $`v`$ and area $`uv`$. Increasing height adds the top red strip $`u\\Delta v`$; increasing width adds the right yellow strip $`v\\Delta u`$. Doing both also adds the white corner $`\\Delta u\\Delta v`$. All four pieces together have area $`(u+\\Delta u)(v+\\Delta v)`$. This literal area picture assumes positive side lengths and positive increments. Negative increments would remove area, and negative function values need not be physical lengths; P18\u2019s algebra remains valid for signed real values and changes."
+      },
+      {
+        "line": 157,
+        "text": "[P21] Attempt B: use signed rates and justify an approximation. A rectangle has differentiable side lengths $`u(t)`$ and $`v(t)`$. At $`t_0`$, $`u=3\\ \\mathrm m`$, $`v=4\\ \\mathrm m`$, $`u'=-0.2\\ \\mathrm{m\\,s^{-1}}`$ and $`v'=0.5\\ \\mathrm{m\\,s^{-1}}`$. Find its instantaneous area rate and interpret the sign. Then assess this argument: \u201cThe extra product-increment term can be discarded after dividing by $`h`$ merely because $`\\Delta u\\Delta v\\to0`$.\u201d Give a valid limiting justification instead. A complete response has units and distinguishes decreasing length from negative length. [Hint B](#p35) \u00b7 [Solution B](#p41) \u00b7 [Continue](#p22)."
+      },
+      {
+        "line": 197,
+        "text": "At $`x=1`$, the slope is $`2/4=1/2`$. A check using division gives $`q(x)=x-1+2/(x+1)`$ on the same domain; its derivative is $`1-2/(x+1)^2`$, the same expression. The quotient rule works directly, but simplifying first can be shorter when the algebra permits it."
+      },
+      {
+        "line": 209,
+        "text": "[P28] The proofs share one method: rewrite the exact difference quotient into quantities whose limits are available, then check the conditions before passing to a limit. Sum and constant-multiple changes split immediately; trigonometric changes need angle addition; a product needs an intermediate product or its exact increment expansion; a quotient needs a common denominator and local nonvanishing. These are decisions you can reconstruct, rather than additional formulas to memorise."
+      },
+      {
+        "line": 225,
+        "text": "[P32] Source: MIT OpenCourseWare, 18.01 Single Variable Calculus, Fall 2006, [Lecture 3: Derivatives of Products, Quotients, Sine, and Cosine](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/23c2c1b1ab31c9f10745b18e7b0bf131_lec3.pdf). The source\u2019s four teaching pages follow its cover. P19 redraws its Figure 1; the explanations, added worked uses and practice here are newly written. On printed page 1, the constant-multiple listing and sum-proof title omit a prime on the left; the correct derivative statements are used here. The lecture\u2019s cosine calculation and limiting/domain conditions have been made explicit. [Return to the reading route](#p03)."
+      },
+      {
+        "line": 241,
+        "text": "[P36] Hint C. Factor $`x^2-1`$ before selecting a derivative rule. Write the restriction next to the simplified expression. A derivative at 1 needs a value of the function at 1 in its difference quotient. For $`Q`$, check whether the separately assigned value agrees with the simplified formula. [Return to C](#p26) \u00b7 [Solution C](#p42)."
+      },
+      {
+        "line": 253,
+        "text": "[P39] Complete solutions. Choose [A](#p40), [B](#p41), [C](#p42), [D](#p43) or [E](#p44). Check your reasoning as well as your answer: a disagreement in a condition can matter even when arithmetic agrees. These are model solutions, not claims about an observed attempt."
+      },
+      {
+        "line": 267,
+        "text": "The area has a positive instantaneous rate: the contribution from the increasing side exceeds the loss from the decreasing side. Both lengths are positive; the negative rate says that the first length is decreasing. For an increment $`h`$ in time, differentiability gives $`\\Delta u/h\\to-0.2`$ and continuity gives $`\\Delta v\\to0`$. Therefore $`(\\Delta u\\Delta v)/h=(\\Delta u/h)\\Delta v\\to0`$. Alternatively, $`h(\\Delta u/h)(\\Delta v/h)\\to0\\cdot(-0.2)\\cdot0.5=0`$. Both routes check the term after scaling. The quoted argument omits that check; a numerator tending to zero alone would not warrant it. [Return to B](#p21) \u00b7 [Resume core](#p22)."
+      },
+      {
+        "line": 271,
+        "text": "[P42] Solution C. For $`x\\ne1`$, factorisation gives $`q(x)=(x-1)(x+1)/(x-1)=x+1`$. Hence $`q'(x)=1`$ at every point of its domain. The original $`q(1)`$ is undefined, so $`q'(1)`$ is undefined too: its defining difference quotient requires $`q(1)`$. The new function $`Q`$ equals $`x+1`$ for $`x\\ne1`$ and also at 1, since the assigned value is 2. It is therefore the line $`Q(x)=x+1`$ for all real $`x`$. Directly,"
+      },
+      {
+        "line": 315,
+        "text": "on their common domain $`x\\ne k\\pi`$. At zero, however, $`F(0)=0`$ is defined while $`G(0)`$ is not. We cannot replace the defining quotient for $`F'(0)`$ by $`[G(h)-G(0)]/h`$. Using the valid formula for $`F'`$ gives $`F'(0)=1/2`$. The definition gives an independent route: $`F(h)/h=(\\sin h/h)/(1+\\cos h)\\to1/2`$, using P10 and the continuity of cosine, which follows from its differentiability. There is also a legitimate partial substitution: for sufficiently small nonzero $`h`$, $`G(h)=F(h)`$, so $`[G(h)-F(0)]/h`$ has the same limit. What fails is supplying an undefined $`G(0)`$, not every use of the alternative expression. [Return to E](#p31) \u00b7 [Reading route](#p03)."
+      }
+    ]
+  },
+  "D005": {
+    "line_count": 283,
+    "terms": [
+      {
+        "line": 106,
+        "text": "[P18] Return to the source curve $`y^3+xy^2+1=0`$. Because $`y\\ne0`$, it can be solved for the other coordinate:"
+      },
+      {
+        "line": 144,
+        "text": "So $`w'(0)=0`$ follows directly, although the earlier division proof did not cover zero. If an even-root domain ends at zero, only a one-sided endpoint quotient is available, not the ordinary two-sided derivative. A constant function defined as $`w(x)=1`$ has derivative zero wherever defined; this treats a zero exponent without evaluating $`0\\cdot x^{-1}`$ at zero."
+      },
+      {
+        "line": 283,
+        "text": "[P41] Source. This lesson reconstructs MIT OpenCourseWare, 18.01 Single Variable Calculus, Fall 2006, Lecture 5, \u201cImplicit Differentiation and Inverses\u201d: [original five-page packet](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/18d6a86a30a4bc046c5f7034d47587f1_lec5.pdf). The course cover is followed by printed pages 1\u20134. The source's rational powers, circle, cubic, inverse derivative, arctangent triangle and inverse graph are all included above. The branch and existence arguments make explicit conditions left compressed in the lecture. Q1\u2013Q5 are generated applications, not quoted MIT assessment questions. The original cover points to [MIT OCW's terms and citation information](https://ocw.mit.edu/terms/)."
+      }
+    ]
+  },
+  "D006": {
+    "line_count": 731,
+    "terms": [
+      {
+        "line": 11,
+        "text": "Reading route: read Parts 1\u20135 in order and try A1\u2013A5 where they occur. Keep any partial working; the [hints](#hints) give a next step and the [solutions](#solutions) give complete reasoning in a separate group. Use [A6](#task-a6) on a later return. The source and its corrections are recorded at the end."
+      },
+      {
+        "line": 84,
+        "text": "These are the comparisons in Figures 2 and 3: a secant measures an average slope between its two points, while a tangent measures the slope at one point. For these strictly upward-curving exponentials, tangent slopes increase along the curve, placing the secant slope between the endpoint tangent slopes. The comparisons locate the slope-one base between 2 and 4 once continuity and increase of $M(a)$ are established. We will identify $M(a)$ explicitly in Part 2, which also verifies those properties. The printed source labels the second secant's right endpoint $(1,0)$; the correct coordinates are $(0,1)$."
+      },
+      {
+        "line": 176,
+        "text": "The numerator is the derivative of the entire inner input; the denominator is that input itself. For example, $\\ln(1+x^2)$ is defined for every real $x$, and its derivative is $2x/(1+x^2)$. A check at $x=0$ gives zero slope, consistent with the expression being unchanged when $x$ is replaced by $-x$ and with the displayed derivative."
+      },
+      {
+        "line": 198,
+        "text": "Comparison with Part 1 identifies $M(a)=\\ln a$. In particular $M$ is continuous and strictly increasing for $a\\gt 0$, and $M(a)=1$ has the unique solution $a=e$. The previous geometric bracket $2\\lt e\\lt 4$ is consistent with this identification. This is a check of the slope-based characterisation, not a new construction of $e$ from the pictures."
+      },
+      {
+        "line": 364,
+        "text": "The lecture's first closing remark uses this formula to approximate $e$. With $k=10$, it gives $(1.1)^{10}\\approx2.59374$, whereas $e\\approx2.71828$: the estimate is about 4.58% low. It is useful as a rough approximation, and the limit guarantees convergence as $k$ increases; $k=10$ does not give several correct decimal places."
+      },
+      {
+        "line": 425,
+        "text": "This is a local approximation, not an exact finite-change rule. The exact finite logarithmic change is $\\ln(F_1/F_0)$, which also generally differs from $(F_1-F_0)/F_0$; the two are close for a small fractional change because $(\\ln x)'$ at 1 is 1."
+      },
+      {
+        "line": 436,
+        "text": "Two positive index levels are modelled by $F(t)=300e^{-0.02t}$ and $G(t)=10000e^{-0.02t}$, where $t$ is the numerical time in days. At $t=0$, find each absolute rate in points per day and each instantaneous percentage rate per day. Separately compare the exact finite percentage changes caused by a fall of 50 points from 300 and from 10000. For the model $F$, express its exact percentage change from day 0 to day 1 and explain why it differs from the instantaneous percentage rate multiplied by one day. A complete response states which quantities agree, carries signs and units, and separates exact finite change from local approximation; a symbolic expression in $e$ is sufficient."
+      },
+      {
+        "line": 693,
+        "text": "The initial relative rate times one day gives $-2\\text{ percent}$, a local approximation. As the level falls, its absolute loss rate also becomes smaller in magnitude. The exact one-day fall is therefore slightly smaller than 2% of its starting level. Equal instantaneous percentage rates do not make finite percentages exactly equal to the rate times elapsed time."
+      },
+      {
+        "line": 725,
+        "text": "Source and scope"
+      },
+      {
+        "line": 728,
+        "text": "This lesson covers the complete supplied [MIT OpenCourseWare 18.01 Fall 2006 Lecture 6 PDF](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/f9af0e98490296c99d330faf47389507_lec6.pdf), comprising a cover and printed pages 1\u20137. The printed title is \u201cExponential and Log, Logarithmic Differentiation, Hyperbolic Functions.\u201d Hyperbolic functions appear in that title but are not developed anywhere in this PDF; no missing continuation is assumed here."
+      },
+      {
+        "line": 731,
+        "text": "The source's worked $x^x$ derivative, exponential limit, three geometric figures and both final remarks are developed above. Tasks A1\u2013A6 are generated applications, not quoted MIT assessment questions. Two source typos are corrected: the point labelled $(1,0)$ in the discussion of $4^x$ and Figure 3 is $(0,1)$, and the inverse box on printed page 4 must read $w=\\ln x\\Rightarrow e^w=x$. The approximation at $k=10$ is quantified in Part 4, and finite percentage change is distinguished from instantaneous relative rate in Part 5."
+      }
+    ]
+  }
+}

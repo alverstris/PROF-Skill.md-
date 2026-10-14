@@ -1,0 +1,116 @@
+{
+  "state": "reviewable_pre_reader_final_seal_upload_inventory_not_published",
+  "coverage_groups": {
+    "author": {
+      "files": 34,
+      "bytes": 662172
+    },
+    "d008-independent-technical": {
+      "files": 22,
+      "bytes": 426105
+    },
+    "eight-case-targeted-technical": {
+      "files": 85,
+      "bytes": 2514006
+    },
+    "local-sync-review": {
+      "files": 7,
+      "bytes": 50433
+    },
+    "production-binding-and-synthetic-preflight": {
+      "files": 114,
+      "bytes": 577011
+    },
+    "root-progress-and-dispatch": {
+      "files": 21,
+      "bytes": 451342
+    }
+  },
+  "authoritative_required_records": [
+    "fresh-author/evidence/author-audit.md",
+    "fresh-author/evidence/obligation-ledger.json",
+    "fresh-author/.prof-state/topics/local-approximation.json",
+    "technical-review/full-technical-review.md",
+    "technical-review/numeric-validation.json",
+    "technical-review/original-check-results.json",
+    "earlier-success-technical-rechecks/REPORT.md",
+    "earlier-success-technical-rechecks/batch-a/REPORT.md",
+    "earlier-success-technical-rechecks/targeted-numerical-rechecks.json",
+    "earlier-success-technical-rechecks/targeted-symbolic-rechecks.json",
+    "earlier-success-technical-rechecks/batch-a/exact-validation-witnesses.md",
+    "earlier-success-technical-rechecks/batch-a/numeric-final-value-witnesses.json",
+    "reader-preparation/production-binding-summary.json",
+    "reader-preparation/synthetic-preflight-r40/negative-preflight-evidence.json",
+    "reader-preparation/synthetic-preflight-r40/figure-preflight-evidence.json",
+    "reader-preparation/synthetic-preflight-r40/whole-route-audit.json",
+    "local-sync-review/verification.json",
+    "reader-admission/root-binding-verification.json",
+    "reader-admission/dispatch.json",
+    "destination-review/progress.json"
+  ],
+  "original_report_byte_preservation": true,
+  "semantic_validation_records_preserved": "All text/JSON/ledger/state/calculation records under completed author, D008 technical and eight-case recheck scopes; focused source crops included. No report is rewritten or replaced by this inventory.",
+  "eight_case_scope": [
+    "D003",
+    "D005",
+    "D006",
+    "D007",
+    "D009",
+    "D012",
+    "D013",
+    "D015"
+  ],
+  "original_seal_checks": [
+    {
+      "seal": "technical-review/review-freeze.json",
+      "checked_original_members": 8,
+      "all_bytes_and_sizes_match": true,
+      "selected_members": 8,
+      "omitted_large_members_retained_locally": 0
+    },
+    {
+      "seal": "earlier-success-technical-rechecks/review-freeze.json",
+      "checked_original_members": 166,
+      "all_bytes_and_sizes_match": true,
+      "selected_members": 84,
+      "omitted_large_members_retained_locally": 82
+    },
+    {
+      "seal": "earlier-success-technical-rechecks/batch-a/evidence-manifest.json",
+      "checked_original_members": 39,
+      "all_bytes_and_sizes_match": true,
+      "selected_members": 21,
+      "omitted_large_members_retained_locally": 18
+    }
+  ],
+  "large_asset_omissions": "See omitted-large-asset-identities.json; original PDFs and repeated page renders are represented by complete identities/locators, with targeted crops retained.",
+  "not_traversed": [
+    {
+      "source_prefix": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\earlier-success-technical-rechecks\\runtime",
+      "reason": "Task-local Python packages, binaries and pip cache; no semantic validation records selected from this dependency tree.",
+      "not_traversed": true
+    },
+    {
+      "source_prefix": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\reader-inputs\\runtime",
+      "reason": "Live production reader runtime is pending; not enumerated, read, hashed or included.",
+      "not_traversed": true
+    }
+  ],
+  "other_deliberate_omissions": [
+    {
+      "scope": "fresh-author/cache and task dependency trees",
+      "reason": "Fonts/packages/caches are dependencies, not semantic evidence."
+    },
+    {
+      "scope": "fresh-author/teaching and reader-inputs/subjects",
+      "reason": "The six unchanged teaching constituents were already published at 2102c1fc637c7c97248c9b2c2d2a6e5da39a39ce; baseline is pinned in the published package. Freeze, publication readback, source identities and full route preserve exact immutable identities without another payload copy."
+    },
+    {
+      "scope": "reader-report-original.md and any final reader admission/runtime audit",
+      "reason": "Pending reader work reserved for later final seal. No provisional progress is relabelled as a completed reader report."
+    }
+  ],
+  "progress_snapshot_limit": "Root dispatch/browser/run-state records are current preparation-time snapshots. Binding summaries with reader_dispatched=false/runtime absent are historical pre-dispatch evidence; later dispatch.json records provisional active dispatch. Do not infer completion or current runtime state from either.",
+  "root_prepublication_check": "Rehash every manifest source immediately before upload and stop on any difference; update mutable progress records deliberately. Upload exact bytes without newline/BOM conversion. Preserve original reports unchanged. Root alone publishes and later adds reader report/access/runtime audit/final destination seal.",
+  "mutations": "Only this preparation directory is written; no source evidence, teaching, installed skill, reader input or live runtime is altered."
+}

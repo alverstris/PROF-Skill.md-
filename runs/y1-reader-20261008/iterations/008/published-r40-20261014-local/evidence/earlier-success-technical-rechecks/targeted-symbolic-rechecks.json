@@ -1,0 +1,66 @@
+[
+  {
+    "case": "D007",
+    "locations": [
+      "lesson323"
+    ],
+    "formula": "D(exp(x*atan(x)))=exp(x*atan(x))*(atan(x)+x/(1+x\u00b2)); atx0 both bracket terms0",
+    "result": "0; a zero special case alone does not detect every omitted summand",
+    "pass": true
+  },
+  {
+    "case": "D007",
+    "locations": [
+      "solutions108"
+    ],
+    "formula": "D(x^x)=x^x*(ln(x)+1) forx>0; atx=e gives2e^e, while falsely substitutingr=x intofixedpowerrule givese^e",
+    "result": "2e^e versus e^e; atx1 both1, so x1 cannot discriminate",
+    "pass": true
+  },
+  {
+    "case": "D009",
+    "locations": [
+      "P026",
+      "P056"
+    ],
+    "formula": "D\u00b2(x\u2074)=12x\u00b2>=0 with positive sign onbothsides0; D\u00b2(x\u00b3)=6x changesnegative\u2192positive",
+    "result": "x\u2074: minimum,noinflection; x\u00b3: inflection,noextremum. Both firstandsecond derivatives vanishat0",
+    "pass": true
+  },
+  {
+    "case": "D009",
+    "locations": [
+      "P038-P039"
+    ],
+    "formula": "For1<=t<=x:1/t<=1/sqrt(t); integralbound0<=ln(x)/x<=2(sqrt(x)-1)/x<=2/sqrt(x)\u21920",
+    "result": "All-real x>=1 bound supports tail; selectedsequencevaluesalone would not",
+    "pass": true
+  },
+  {
+    "case": "D015",
+    "locations": [
+      "main64-71"
+    ],
+    "formula": "D(e^(x\u00b2/2)y)=e^(x\u00b2/2)*(xy+yprime)=0 foranydifferentiablesolutionofyprime+xy0",
+    "result": "e^(x\u00b2/2)y constant on eachinterval; no divisionbyy, so zero/nonzerosolutionsincluded",
+    "pass": true
+  },
+  {
+    "case": "D015",
+    "locations": [
+      "main161-167"
+    ],
+    "formula": "D(a*x\u00b2)=2ax=2(a*x\u00b2)/x forx!=0; D(y/x\u00b2)=(x*yprime-2y)/x\u00b3=0",
+    "result": "Complete fixed-coefficient parabola family on each interval excludingx0",
+    "pass": true
+  },
+  {
+    "case": "D015",
+    "locations": [
+      "main253"
+    ],
+    "formula": "D(-x\u00b2/2)=-x; fory=-2x\u00b2,yprime=-4x and2y/x=-4x atx!=0",
+    "result": "Both corrected original terms satisfy definingequations; printed f=xand-2y\u00b2 do not",
+    "pass": true
+  }
+]

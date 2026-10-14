@@ -1,0 +1,1 @@
+Synthetic r40 wrapper preflight only. This non-subject bootstrap is explicitly authorised once and retrieves no fixture bytes. Subsequent calls change STEP_ID only, never operational code. Preserve failures. No real reader or subject binding is exercised. Core __CORE_SHA256__; store __STORE_KEY__.

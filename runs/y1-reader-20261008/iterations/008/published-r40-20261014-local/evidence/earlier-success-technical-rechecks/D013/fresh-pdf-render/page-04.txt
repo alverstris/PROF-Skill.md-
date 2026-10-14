@@ -1,0 +1,37 @@
+Lecture 14 
+18.01 Fall 2006 
+The tangent line in the linear approximation has a deﬁnite slope f 0(a). by contrast formula is an 
+exact formula. It conceals its lack of speciﬁcity in the slope f 0(c), which could be the slope of f at 
+any point between a and x. 
+(a,f(a))
+(x,f(x))
+y=f(a) + f’(a)(x-a)
+error
+Figure 3: MVT vs. Linear Approximation. 
+Uses of the Mean Value Theorem. 
+Key conclusions: (The conclusions from the MVT are theoretical) 
+1. If f 0(x) > 0, then f is increasing. 
+2. If f 0(x) < 0, then f is decreasing. 
+3. If f 0(x) = 0 all x, then f is constant. 
+Deﬁnition of increasing/decreasing: 
+Increasing means a < b 
+f(a) < f(b). Decreasing means a < b = 
+f(a) < f(b).
+⇒
+⇒ 
+Proofs: 
+Proof of 1: 
+a
+<
+b 
+f(b)
+= f(a) + f 0(c)(b − a) 
+Because f 0(c) and (b − a) are both positive, 
+f(b) = f(a) + f 0(c)(b − a) > f(a) 
+(The proof of 2 is omitted because it is similar to the proof of 1) 
+Proof of 3: 
+f(b) = f(a) + f 0(c)(b − a) = f(a) + 0(b − a) = f(a) 
+Conclusions 1,2, and 3 seem obvious, but let me persuade you that they are not. Think back to the 
+deﬁnition of the derivative. It involves inﬁnitesimals. It’s not a sure thing that these inﬁnitesimals 
+have anything to do with the non-inﬁnitesimal behavior of the function. 
+3 

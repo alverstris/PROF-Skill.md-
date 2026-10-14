@@ -1,0 +1,10 @@
+--- authorized short_call.js with STEP_ID B0024
++++ reported failed JavaScript call
+@@ -6,6 +6,6 @@
+ if (r.exit_code !== 0 || r.session_id) throw new Error("reader operational identity verification failed: " + r.output);
+ let p;
+ try { p = JSON.parse(r.output.trim()); } catch (_) { throw new Error("verification output missing/truncated; preserve failure and stop"); }
+-if (!p || Object.keys(p).sort().join(",") !== "mode,schema,seal,step_id" || p.schema !== "prof-reader-reuse-proof-v1" || p.mode !== "step" || p.step_id !== STEP_ID || JSON.stringify(cached) !== JSON.stringify(p.seal)) throw new Error("cached adapter/binding identity mismatch; preserve failure and stop");
++if (!p || Object.keys(p).sort().join(",") !== "mode,schema,seal,step_id" || p.schema !== "prof-reader-reuse-store-v1" || p.mode !== "step" || p.step_id !== STEP_ID || JSON.stringify(cached) !== JSON.stringify(p.seal)) throw new Error("cached adapter/binding identity mismatch; preserve failure and stop");
+ // Only the exact verified operational source enters eval; STEP_ID is a parameter, never source text.
+ await eval("(async function(STEP_ID) {\n" + p.seal.adapter_source + "\n})(STEP_ID)");

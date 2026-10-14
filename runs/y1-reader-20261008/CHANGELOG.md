@@ -1,3 +1,15 @@
+PROF r38 recovery checkpoint — 2026-10-14
+
+D008 is reopened after new complete targeted domain-check reviews of all 16 formerly accepted lessons independently confirmed its strict comparison at an allowed zero-speed case. Canonical progress is now 15 accepted / 61 pending of 76 eligible, 71 excluded, all 147 original IDs/order preserved. Active D008; next D016, then D018. No new lecture is accepted and no frozen teaching or PROF instruction is patched.
+
+Complete unchanged new reports, independently checked Git blob identities, the prior whole D008 object, exact limits and root disposition are preserved in recovery-20261014/. These scoped text reviews do not claim fresh authoring/SASIS, source or visual completeness. Unknown old local write outcomes and historical originals remain preserved as such. Published r38 still awaits fresh-generation validation.
+
+The current continuation task is Keep PROF progressing (6ac8d5d77ac4819194953829a413acc1). It was enabled and an immediate run requested, but latest live state records a task invocation followed by disabled status, no next run and no exposed pause reason. Successful managed cloud execution remains unverified. See recovery-20261014/runtime-and-continuation.json for actual observations; automation.json is dated historical setup metadata.
+
+Next: restore and verify authorised cloud execution, reconcile old write outcomes/evidence honestly, then admit original-only D008 inputs and run the full fresh-author/fresh-SASIS cycle under fetched published r38. Continue the entire recorded corpus after verified closures.
+
+Earlier preserved record follows unchanged.
+
 D015 accepted; metadata-only PROF r37 closure — 2026-10-12
 
 The complete fresh D015 under published PROF 2026-10-12-r36 is accepted after all original-source, whole technical, admitted chronological fresh SASIS, independent access and actual GitHub destination audits. All six teaching/help/figure files remain frozen at 97e10125d66e612e3f0446ab1f8460c6fd4064a5. All 213 equations, complete prose and figures, and 47 navigation edges pass. The original nonblocking uniqueness-overreading concern, unexplained preflight ledger anomaly, operational errors and authentication/source-scope limits remain preserved. No material failure or human learning outcome is claimed.

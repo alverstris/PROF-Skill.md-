@@ -1,0 +1,19 @@
+PROF r38 recovery and retrospective D008 reopening — 2026-10-14
+
+Decision: reopen D008 and correct canonical progress to 15 accepted / 61 pending of 76 eligible. Active D008; next pending materials D016, then D018. No lecture is newly accepted. PROF remains 2026-10-12-r38, whose published repair still requires fresh-generation validation.
+
+Root read all four complete new targeted technical reports and the complete D017 helper report, fetched all five actual Git blobs, and independently recomputed their Git blob identities from returned UTF-8 bytes. The reviews cover 24 complete main/help text blobs from all 16 formerly accepted sessions. Their limitations, incidental historical identity/queue-metadata exposures and original wording concerns remain preserved in the unchanged reports. This is scoped technical verification, not new SASIS, source/figure/destination completeness or acceptance.
+
+D008-DC1 is independently confirmed. Root directly fetched the accepted frozen lesson at d1d087414376a6b2d8ac5368075a72a3cb60817a, lines 232–272. The time-dilation model explicitly permits 0 ≤ v < c, then says its correction is positive and the ground-frame interval longer. With positive elapsed time and v=0, the exact factor is 1 and both displayed corrections are 0. The strict comparison exceeds its stated domain. A later positive-speed numerical example does not restrict the earlier general claim.
+
+No additional material failure is established by these targeted reports. Root also inspected D004 lines 130–141: the immediate equation supports cancellation of explicit minus operators, leaving a sine-valued factor. Its sign-wording concern is preserved without inventing a positive-derivative claim. D008's approximation-scope ambiguity is likewise retained without a second unsupported failure.
+
+The already-published r38 generic domain/sign/order check addresses the confirmed cause. No lecture answer is inserted in PROF and no invented further revision is made. Failed historical teaching, original reports and all previous acceptance evidence remain unchanged. A new complete generation under published r38 and its own fresh SASIS/independent audits are still required before D008 can close.
+
+Preservation: the entire previous D008 session object is saved in previous-session-D008.json. All 146 other whole session objects, all 147 IDs/order/material IDs, 71 exclusions and all source/PROF/baseline/teaching paths remain unchanged. RUN and CHANGELOG receive only this dated prefix; every prior byte follows it unchanged. Invariants are recorded separately.
+
+These reports are new supplemental evidence. They do not purport to recover the unknown 12 October local report/seal/handover write outcomes or the held original archives. Those distinctions remain in runtime-and-continuation.json and the unchanged original interruption record.
+
+Cloud continuation remains blocked in this session. The existing continuation task was resumed and an immediate run requested. A subsequent live lookup records a task invocation followed by disabled status, with no actor/reason or successful cloud execution evidence available. The native cloud/goal controls are not exposed, worker inspection failed, and no Windows operation substitutes for authorised cloud execution.
+
+Next: verify an authorised cloud runtime, reconcile actual outcomes of old pending local writes where available, preserve missing-original distinctions, finish required publication/recovery evidence, admit the original-only D008 inputs at current verified main, establish sole publisher ownership, then start a fresh no-history author. Keep this recovery record, old teaching, diagnoses, reports, answers and raw historical queue/RUN outside generation inputs. Freeze complete new teaching before releasing held audit material to its reviewers.

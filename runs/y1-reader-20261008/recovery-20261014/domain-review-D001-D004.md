@@ -1,0 +1,79 @@
+Independent targeted affected-success review: D001–D004
+
+I inspected the complete accepted teaching text, including every embedded hint and complete solution, identified through the queue at `a512149c36d829405c716f148838b3ddbf2c882a`. Within the reviewed mathematical directional and comparison claims, I found no confirmed material domain or sign/order failure. D004 contains a sign-wording concern described below; its displayed derivative is correct.
+
+This is a targeted technical text review for the general directional/comparison domain check. It is not SASIS, fresh authoring, or a new acceptance decision.
+
+Identity and access evidence
+
+Queue: `runs/y1-reader-20261008/queue.json`, pinned commit `a512149c36d829405c716f148838b3ddbf2c882a`, blob `9c3abcf20778a52b5aa54994cd56caf663850c45`.
+
+The queue records these sessions as closed with the following frozen teaching identities. I fetched each teaching both at its recorded document commit and at the pinned repository commit. Both reads returned the same blob and identical text.
+
+| Material | Exact teaching path | Accepted frozen commit | Teaching blob |
+|---|---|---|---|
+| D001, v4 | `runs/y1-reader-20261008/iterations/001/teaching-v4.md` | `0716ea92991d7f9fe2814e137bcc830d91a27511` | `b5c7ccb11e2d9f2f05e5b8f2c7830d62f26b1d66` |
+| D002, v1 | `runs/y1-reader-20261008/iterations/002/teaching-v1.md` | `f1c0e91c24e9140049d50c7ca965f41e36f3e1a2` | `40377331cacc1b661c5fbb53272a1334a171c402` |
+| D003, v1 | `runs/y1-reader-20261008/iterations/003/teaching-v1.md` | `4cbf83f2dc2859d5123fc01a0c311a268d580483` | `0f3041ba650c0b04321db6b1f6ec0c607fa6f163` |
+| D004, v1 | `runs/y1-reader-20261008/iterations/004/teaching-v1.md` | `197b57555834d36952e948d4100d2f835c86b20c` | `b9128c0ba3110e14cd30ceca8d2c87b07893307c` |
+
+| Material | Complete access extent | Main and help constituents |
+|---|---|---|
+| D001 | All 24,281 characters; lines 1–305; P01–P42 | Main/attempts P01–P31; hints P32–P35; solution introduction and solutions P36–P40; source/scope P41–P42 |
+| D002 | All 34,968 characters; lines 1–313; P01–P72 | Main/attempts/source P01–P51; hints P52–P58; solutions P59–P72 |
+| D003 | All 25,408 characters; lines 1–316; P01–P44 | Main/attempts/source P01–P32; hints P33–P38; solutions P39–P44 |
+| D004 | All 22,645 characters; lines 1–348; P01–P36 | Main/attempts P01–P25; hints P26–P30; solutions P31–P35; source/scope P36 |
+
+All task-to-hint and task-to-solution references resolve to help embedded within these inspected text blobs. I found no separately linked hint or solution document. The illustration links in D002 and D003 and external source/provenance links were not visually or independently source-audited.
+
+Reviewed claim groups
+
+| Material and locators | Declared domain and warrant | Discriminating check and result |
+|---|---|---|
+| D001 P03–P06, P14–P15, P30; A/P32/P37 | Secants use distinct defined inputs and nonzero increments. A derivative is a finite local limit; at interior points both sides must agree. Tangency depends on that slope, rather than intersection count. | For \(x^3\) at zero, quotient \(h^2\to0\), while the unique-intersection line \(y=-x\) has slope \(-1\). The \(h=\pm0.1\) reciprocal secants straddle \(-1/4\), and \(x_0=0\) lacks a starting function value. Conditions and comparisons hold. |
+| D001 P07–P08 | \(1/x\), \(x\ne0\); derivative \(-1/x^2<0\) on each separate branch. The text explicitly excludes bridging zero. | On the negative branch, moving from \(-2\) to \(-1\) changes output from \(-1/2\) to \(-1\), a decrease. Crossing from \(-1\) to \(1\) would reverse that comparison, but is excluded by the stated branch condition. |
+| D001 P10–P13; D/P35/P40 | Tangent intercepts and geometric area require \(x_0\ne0\). Positive geometric lengths use absolute values. Reciprocal reflection exchanges coordinates and intercepts. | At \(x_0=-2\), reciprocal intercepts are \((-4,0)\), \((0,-1)\), giving area \(2\). For \(-2/x\), the same input gives \((-4,0)\), \((0,2)\), positive slope \(1/2\), area \(4\). Negative coordinates do not invalidate the area claim. Reflection sends the contact point to its reciprocal counterpart as stated. |
+| D001 P16–P21 | Power proof is restricted to fixed positive integer \(n\), fixed real evaluation input, and nonzero \(h\). Remainder bounds are in magnitude, with finite \(C\) independent of \(h\). | At \(x=0,n=2\), remainder is \(h^2\), its divided magnitude is \(|h|\to0\). At \(n=1,x=0\), the separate calculation gives \(1\), avoiding an ambiguous \(0^0\) reading. Negative \(h\) is handled by absolute values. No general exponent extension is asserted. |
+| D001 B/P33/P38 | A bounded intercept triangle depends on actual finite nonzero intercepts; reciprocal geometry is not transferred indiscriminately to another curve. | \(q=x^3-3x\) at \(1\) has zero slope and tangent \(y=-2\). It has no \(x\)-intercept, so no bounded triangle. The zero-slope boundary is handled correctly. |
+| D001 P23–P29; C/P34/P39 | Falling model: upward positive, released from rest, constant downward acceleration, \(0\le t\le5\), pre-impact motion only. Speed is magnitude of instantaneous velocity; average speed uses distance. | \(v(0)=0\), and \(v(t)=-32t<0\) for \(0<t\le5\). Pre-impact speed \(160\) exceeds average speed \(80\) for this model. The reversal example \(z=(t-1)^2\) has zero displacement but distance \(2\), so average velocity \(0\) and average speed \(1\). At the turning instant \(t=1\), velocity and speed are both zero. No collision derivative is supplied. |
+| D002 P10–P14; H2/P54; S2/P61–P62 | Flat triangle model, not exact curved-Earth geometry. With fixed \(s>0\), \(h>s\), \(dL/dh=h/L>0\). With fixed \(h\), \(0<s<h\), \(dL/ds=-s/L<0\). Perturbations must remain in domain. | At \(s=3,h=5,L=4\), the sensitivities are \(5/4\) and \(-3/4\). At permitted endpoint \(h=s\), the positive right-hand quotient \(\sqrt{2s/\delta+1}\) diverges, correctly preventing a finite sensitivity claim. The excluded altitude boundary \(s=0\) would have zero altitude sensitivity, consistent with the strict interior condition. |
+| D002 P03–P04, P08–P09, P15–P24; H1/H3; S1/S3 | Finite quotient limits require nonzero limiting denominator. Two-sided limits require agreement of available sides. A point value cannot repair unequal neighboring limits. | At \(-1\), \(R(x)=x\) nearby has limit \(-1\) but no original point value. P18 has limits \(0\) and \(1\), so no assigned point value repairs it. In contrast, \(g_a\) has both limits \(2\), and \(a=2\) repairs it. Reciprocal one-sided infinities have opposite signs. The two sine sequences approach zero with outputs \(1\) and \(-1\), defeating a common limit. |
+| D002 P25–P29 | Reciprocal slope graph is \(-1/x^2\), with \(x\ne0\). Parity uses symmetric domains and existing derivatives at paired interior points. The text explicitly rejects the converse from even derivative to odd original. | At \(x=\pm2\), derivative heights agree at \(-1/4\) despite opposite original heights. As \(|x|\to0\), slopes become arbitrarily negative; as \(|x|\to\infty\), they tend to zero from below. \(x+1\) has even derivative \(1\) but is not odd, confirming the stated converse limitation. |
+| D002 P30–P33; H4/P56; S4/P64–P67 | Motion is restricted to \([-5,5]\); ordinary two-sided derivatives are asserted in the interior, named one-sided derivatives at endpoints. Translating time preserves increments and uses \(dt/d\tau=1\). | At \(t=-2,0,2\), velocity signs are positive, zero, negative. Endpoint limits are \(160\) from the right and \(-160\) from the left. The translated domain is \([0,10]\), which is not symmetric about zero; the text correctly distinguishes symmetry about \(\tau=5\). |
+| D002 P34–P44; H5/P57; S5/P68–P69 | Geometric order initially requires \(0<\theta<\pi/2\), positive divisors, radian angles. Negative angles enter through oddness and absolute-value bounds. Scaled ratios retain their scale. | \(\sin\theta\le\theta\le\tan\theta\) permits the stated division only on the positive initial domain. Negative-angle extension uses \(\sin(-u)/(-u)=\sin u/u\). At zero the ratios remain undefined, while their limits are \(1\) or \(0\). Degree input changes the first limit to \(\pi/180\). The generated limits \(3,0,2\) distinguish numerator scale and denominator order. |
+| D002 P46–P50; H6/P58; S6/P70–P72 | Finite differentiability at an interior point implies continuity, using a finite product limit. No converse or continuity of the derivative function is asserted. | \(g_2\) is continuous with quotient limits \(1\) and \(-1\), hence not differentiable. \(w=x\sin(1/x)\), with \(w(0)=0\), is bounded by \(|x|\) but has derivative quotient \(\sin(1/x)\); the two explicit sequences defeat differentiability. Zero-valued continuity does not supply the missing derivative. |
+| D003 P04–P09; A/P34/P40 | Sum and fixed-multiple rates require differentiability at the point. Numerical conclusions concern an instant, with no claim of interval monotonicity from isolated rates. | \(2(0.30)-0.40=0.20>0\). The text retains the negative subtraction contribution and explicitly limits its conclusion to the instant. Equal competing contributions would give zero rather than obligatory increase. |
+| D003 P10–P14 | Trigonometric derivative signs follow angle addition and finite limits, with real radian inputs. Degree-input conversion changes derivative magnitude. Differentiability supplies continuity. | At \(x=0\), sine and cosine derivatives are \(1,0\). At \(\pi/3\), cosine slope is \(-\sqrt3/2\). Degree sine slope at zero is \(\pi/180\), confirming the unit condition. No all-input sign claim for sine or cosine is made. |
+| D003 P15–P21; B/P35/P41; D/P37/P43 | Product derivative uses signed real values and increments. Literal rectangle geometry separately requires positive lengths and positive added increments. The cross term is tested after division by \(h\). | \(u=v=x\) at zero gives actual derivative \(0\), versus wrong rate product \(1\). The rectangle example has positive lengths and rate contributions \(-0.8,+1.5\), net \(+0.7\). Negative rates do not become negative lengths. The scaled corner term tends to zero through one finite rate factor and one vanishing increment. |
+| D003 P22–P25 | Quotient rule requires differentiable components and nonzero denominator. Directional numerator/denominator comparisons in P23 are explicitly for positive values. Continuity ensures nearby denominator nonvanishing. | For denominator value \(-2\), a change smaller than \(1\) in magnitude keeps it between \(-3,-1\), so the same local proof works. For positive numerator/denominator, increasing the denominator lowers the quotient. A negative numerator would reverse that statement, but is outside P23’s declared positive-value comparison. |
+| D003 P26–P28; C/P36/P42; E/P38/P44 | Rule hypotheses are sufficient, rather than converses. Cancellation preserves original exclusions; equal formulas on common inputs need not share domains. | \(q=(x^2-1)/(x-1)\) has no derivative at its missing point \(1\); the separately filled \(Q(1)=2\) is the line with derivative \(1\). At zero, \(F=\sin x/(1+\cos x)\) is defined and \(F'(0)=1/2\), while \(G=(1-\cos x)/\sin x\) is undefined. At odd multiples of \(\pi\), \(F\) is also excluded. Partial nearby substitution is correctly separated from supplying an undefined base value. |
+| D004 P03–P09; B/P28/P33 | Composition requires the inner output to belong to the outer domain. Order matters in general, but some pairs commute. Derivatives use the actual intermediate input. | At \(x=\sqrt\pi\), sine-of-square is zero while square-of-sine is positive; at zero they agree, so equality at one point does not show general equality. The two linear examples commute. For reverse-derivative insufficiency, take \(g(t)=3t+1\), \(f_A(x)=15-2x\), \(f_B(x)=15-2x+(x-4)^2\). Both match the supplied data, but reverse derivatives at \(1\) are \(-6\) and \(-24\), confirming that those data do not determine the reverse derivative. |
+| D004 P04–P06, P10–P13; A/P27/P32 | Chain rule assumes differentiability at needed inputs and nearby composition defined on an open interval. Proof expressly includes zero intermediate increments. | A constant inner function gives \(k=0\), composition derivative \(0\), and undefined informal \(0/0\); the exact-change proof remains valid. For \(\cos(t^2)\) at zero, both the correct derivative and omitted-inner-factor expression happen to vanish. The solution correctly declines to treat that agreement as a valid function identity. |
+| D004 P14–P15 | Reciprocal composition requires real \(x\ne0\); negative-power result requires positive integer \(n\) and nonzero \(x\). The derivative signs depend on the remaining sine or power factor. | At \(x=2/(3\pi)\), derivative of \(\cos(1/x)\) is negative; at \(x=1/\pi\), it is zero. Both satisfy the displayed formula. For \(n=2,x=-1\), derivative of \(x^{-2}\) is \(+2\); for \(n=1,x=-1\), it is \(-1\). No general decreasing-negative-power claim is made. |
+| D004 P16–P23; C/P29/P34; D/P30/P35 | Repeated differentiation exists only where successive derivative functions are differentiable. Polynomial factorial identity is restricted to positive integers. Derivative order and ordinary power are distinct operations. | At zero, \((\sin(t^2))''=2\) while the squared first derivative is \(0\). At \(x=1/2\), \(D^3(2x-1)^3=48\), while \((Dp)^3=0\). Further differentiation of a constant gives zero. The zero and order boundaries support the distinctions. |
+
+D004 wording concern, without a confirmed material failure
+
+Locator: D004 P14, lines 131–139, in the exact path and blob identified above.
+
+After declaring real \(x\ne0\), the passage gives
+
+\[
+\frac{d}{dx}\cos(1/x)
+=\bigl(-\sin(1/x)\bigr)\left(-\frac1{x^2}\right)
+=\frac{\sin(1/x)}{x^2}.
+\]
+
+The following sentence is: “The two negative factors give the positive sign.”
+
+Read as a claim about the two numerical derivative factors, that wording is too broad: at \(x=2/(3\pi)\), the outer factor is \(+1\), the inner factor is \(-9\pi^2/4\), and their product is negative. At \(x=1/\pi\), the outer factor and product are zero.
+
+The immediate equation also supports a legitimate reading in which “positive sign” describes cancellation of the two explicit minus operators, \((-1)(-1)=+1\), leaving the sine-valued factor intact. The full route does not assert that the resulting derivative is positive everywhere. Accordingly, these witnesses expose ambiguous wording but do not refute the displayed derivative or establish an unconditional directional claim. I do not classify this as a confirmed material domain-check failure.
+
+Review limits and exposure record
+
+The complete queue was fetched for identity resolution. In an initial tool-output mistake, I printed its structured content rather than selected metadata. The resulting output was truncated and exposed historical and later-session queue metadata; the precise visible exposure extent is incomplete/unknown. The review therefore must not be described as blind to all historical metadata or technically isolated from it. Subsequent queue output was restricted to D001–D004 identities.
+
+I did not fetch previous diagnoses, technical-review reports, reader reports, acceptance reports, or future teaching documents, and did not use them as mathematical evidence. Historical records named by queue metadata were not reconstructed or relabelled as original review evidence.
+
+This report establishes only the stated complete-text access, identity matches, targeted claim checks, and their limited results. It does not establish original-source coverage, visual correctness or completeness, render/navigation completeness, SASIS performance, dependency closure, or acceptance. No GitHub mutation, shell command, Windows-computer action, automation, or teaching creation was performed.

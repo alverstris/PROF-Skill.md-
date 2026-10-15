@@ -1,6 +1,6 @@
 # SASIS — dedicated reader protocol
 
-Protocol revision: 2026-10-14-r40.
+Protocol revision: 2026-10-14-r41.
 
 ## Purpose and activation
 
@@ -47,9 +47,9 @@ For retrieval of linked or interleaved teaching, prepare an exact ordered route 
 
 Before retrieval dispatch, the orchestrator prepares and validates one fixed route-bound launcher. Each reader command consists only of that launcher and a permitted step ID; subject paths and byte ranges are resolved from the frozen route, never supplied in a per-step interpreter or executable position. A permitted ID is the next scheduled step or a predeclared bounded baseline-revisit ID whose initial baseline chunk has already been read. A baseline revisit does not advance the document cursor, and no future teaching access is allowed. Complete the initial baseline route before teaching. Before opening subject files, reject extra arguments, unknown or out-of-order steps, invalid types/ranges and mismatched route identity. Read text as binary data with a bounded seek/read, verify the exact returned range and its expected hash, and append an actual-access receipt before returning content. Never execute, import, evaluate or compile a subject file to retrieve it. For a figure, return the complete identified image and hold advancement until its actual view-tool result is recorded at the scheduled inspection stage; a checksum or image path alone is not a view. Preserve unsuccessful calls and distinguish internal byte access from content actually displayed.
 
-When the reader tool interface needs an operational wrapper around that launcher, seal one fixed non-subject adapter with its identity and checks before dispatch. Supply one exact, explicitly authorised bootstrap that verifies and retains that adapter without retrieving subject content; subsequent reader calls reuse that same sealed program through a short step-ID-only surface. Do not require the reader to recopy or edit hash, receipt or retrieval logic for each step. Verify the bound adapter identity before reuse and preserve the launcher's argument, order, range, hash, delivery and figure-view checks. Only the verified non-subject operational code may execute; subject bytes must never enter an executable position. A bootstrap or adapter failure is preserved as an input/execution limit under the existing stop-on-failure rule, not repaired by an improvised command or manual recopy. If this reuse cannot be established, hold dependent retrieval dispatch and report the capability limit.
+When the reader tool interface needs an operational wrapper around that launcher, seal one fixed non-subject invoker containing all per-step schema, identity, retrieval, receipt and view checks. An exact explicitly authorised bootstrap independently verifies and retains that invoker without subject access. Subsequent calls use only a fixed invocation surface and the permitted STEP_ID datum; the reader must not reproduce or edit any guard, proof parser, hash, receipt or retrieval logic. On serializable-store interfaces such as functions.exec, the fixed two-line call may evaluate the retained invoker expression and pass STEP_ID; all guards stay inside the reused program. The expression evaluates before its current retained-source/envelope comparison. That comparison must use independently verified canonical metadata and reject changes before subject launcher or view access; do not claim authentication before evaluation, a persistent callable, or technical confinement. Only the bootstrap-verified designated non-subject program belongs in this position; subject bytes never may. Preserve all existing argument, order, range, hash, delivery and figure-view checks and stop/preserve without retry on failure. If this narrow reuse surface is unavailable, hold dependent dispatch and state the exact capability limit. Extract the four named [sealed invoker templates](#sealed-reader-invoker-templates) programmatically from this published reference and verify their exact bytes before binding; do not manually recreate their logic.
 
-Preflight the same launcher and invocation shape with non-subject synthetic fixtures: a valid next slice returns only its exact bytes; wrong arguments, a skipped step and an unknown step fail before any subject-file open; a figure cannot be bypassed without its actual view invocation/result receipt; an already-read baseline revisit succeeds without moving the document cursor and a not-yet-read baseline revisit fails before subject access. Where a wrapper is needed, preflight that same sealed adapter, exact bootstrap and short call surface too: bootstrap retrieves no subject, successive valid step IDs reuse the same program, and an altered adapter identity fails before subject access. Record the instrumented open/access evidence, then compare the reader's actual ordered ledger, returned hashes and figure tool receipts with the whole frozen route before admission. The launcher reduces executable/data confusion and checks its own calls; it is not a technical boundary against other available tools, and a recorded view receipt alone does not prove semantic inspection. A verified material runner failure follows the PROF repair and publication-first fresh-generation rule even if visible diagnostic output contains only previously read text.
+Preflight the same launcher and invocation shape with non-subject synthetic fixtures: a valid next slice returns only its exact bytes; wrong arguments, a skipped step and an unknown step fail before any subject-file open; a figure cannot be bypassed without its actual view invocation/result receipt; an already-read baseline revisit succeeds without moving the document cursor and a not-yet-read baseline revisit fails before subject access. Where a wrapper is needed, preflight that same sealed invoker, exact bootstrap and minimal invocation surface too: bootstrap retrieves no subject; successive step data reuse the same program without caller-authored guards; an altered retained source/envelope, missing/stale store, invalid/extra/out-of-order step, unread baseline revisit and truncated output stop before dependent access; and the observed proof/store schema-copy mistake is reproduced synthetically and absent from the repeated invocation surface. Check the actual evaluation order and preserve failures; source/envelope comparison occurs after invoker-expression evaluation and before subject launcher/view access. Record the instrumented open/access evidence, then compare the reader's actual ordered ledger, returned hashes and figure tool receipts with the whole frozen route before admission. The launcher reduces executable/data confusion and checks its own calls; it is not a technical boundary against other available tools, and a recorded view receipt alone does not prove semantic inspection. A verified material runner failure follows the PROF repair and publication-first fresh-generation rule even if visible diagnostic output contains only previously read text.
 
 Shared tools remain technically available unless the runtime truly restricts them. State that an instruction whitelist is not a technical access boundary or erasure of pretraining. Do not invent memory controls or capacity figures. Every consequential connection must be traceable to permitted content regardless of how familiar the answer seems.
 
@@ -112,3 +112,167 @@ After a reset, read current published PROF, this protocol, exact user constraint
 Keep author/orchestrator records outside reader inputs, for example `runs/<run-id>/`. Use a small recovery index, full queue, sharded session evidence and immutable original reports. Record actual conditions rather than ceremonial logs. Hashes prove identity, not explanatory sufficiency.
 
 The concise iteration log identifies material, incoming/outgoing revision, all justified skill changes and result. It links to the detailed issue register. At corpus completion provide the final effective PROF and the change log, with actual verification limits. Distinguish protocol editing, author checks, SASIS reading, rendered-artifact checks and human learning evidence.
+
+## Sealed reader invoker templates
+
+These four named blocks are operational source templates, not subject content or reader role text. The orchestrator extracts their exact UTF-8 payload bytes programmatically between the named markers, including the final newline, then binds and seals them before dispatch. Keep them in this existing reference so the complete installed package inventory remains unchanged. The reader receives only the exact authorised bootstrap and two-line invocation, not PROF or these template instructions. The function expression evaluates before the reused program's current identity comparison; no pre-evaluation authentication or persistent-callable claim is made.
+
+<!-- PROF-READER-TEMPLATE-BEGIN: invoker_template.js -->
+```javascript
+(async function retainedReaderInvoker(STEP_ID) {
+if (arguments.length !== 1) throw new Error("exactly one STEP_ID datum is accepted");
+const cached = load("__STORE_KEY__");
+if (typeof STEP_ID !== "string" || !/^[A-Za-z][A-Za-z0-9_-]{0,63}$/.test(STEP_ID)) throw new Error("exactly one plain STEP_ID is accepted");
+if (!cached || typeof cached !== "object" || Array.isArray(cached) || cached.schema !== "prof-reader-invoker-store-v1" || cached.binding_sha256 !== "__CORE_SHA256__") throw new Error("missing/stale reader bootstrap; preserve failure and stop");
+const r = await tools.exec_command({cmd: "__VERIFY_COMMAND__ 'step' '__CORE_SHA256__' '" + STEP_ID + "'", max_output_tokens: 18000});
+if (r.exit_code !== 0 || r.session_id) throw new Error("reader operational identity verification failed: " + r.output);
+let p;
+try { p = JSON.parse(r.output.trim()); } catch (_) { throw new Error("verification output missing/truncated; preserve failure and stop"); }
+if (!p || Object.keys(p).sort().join(",") !== "mode,schema,seal,step_id" || p.schema !== "prof-reader-reuse-proof-v1" || p.mode !== "step" || p.step_id !== STEP_ID || JSON.stringify(cached) !== JSON.stringify(p.seal)) throw new Error("cached adapter/binding identity mismatch; preserve failure and stop");
+// Only the exact verified operational source enters eval; STEP_ID is a parameter, never source text.
+await eval("(async function(STEP_ID) {\n" + p.seal.adapter_source + "\n})(STEP_ID)");
+
+})
+```
+<!-- PROF-READER-TEMPLATE-END: invoker_template.js -->
+
+<!-- PROF-READER-TEMPLATE-BEGIN: bootstrap_template.js -->
+```javascript
+// Explicitly authorized once: load only the sealed non-subject operating instruction and operational adapter.
+const KEY = "__STORE_KEY__";
+if (load(KEY) !== undefined) throw new Error("reader bootstrap already present; preserve it and stop");
+const r = await tools.exec_command({cmd: "__VERIFY_COMMAND__ 'bootstrap' '__CORE_SHA256__'", max_output_tokens: 18000});
+if (r.exit_code !== 0 || r.session_id) throw new Error("reader bootstrap identity verification failed: " + r.output);
+let p;
+try { p = JSON.parse(r.output.trim()); } catch (_) { throw new Error("bootstrap output missing/truncated; preserve failure and stop"); }
+if (!p || Object.keys(p).sort().join(",") !== "instruction,mode,schema,seal" || p.schema !== "prof-reader-reuse-proof-v1" || p.mode !== "bootstrap" || typeof p.instruction !== "string") throw new Error("invalid bootstrap proof shape");
+if (!p.seal || p.seal.schema !== "prof-reader-invoker-store-v1" || p.seal.binding_sha256 !== "__CORE_SHA256__" || typeof p.seal.adapter_source !== "string" || typeof p.seal.invoker_source !== "string") throw new Error("invalid bootstrap seal");
+store(KEY, p.seal);
+text(p.instruction);
+text({bootstrap_verified: true, binding_sha256: p.seal.binding_sha256, bootstrap_sha256: p.seal.bootstrap_sha256, short_call_sha256: p.seal.short_call_sha256, invoker_sha256: p.seal.invoker_sha256, subject_retrieval: false});
+```
+<!-- PROF-READER-TEMPLATE-END: bootstrap_template.js -->
+
+<!-- PROF-READER-TEMPLATE-BEGIN: short_call_template.js -->
+```javascript
+const STEP_ID = "B001";
+await eval(load("__STORE_KEY__").invoker_source)(STEP_ID);
+```
+<!-- PROF-READER-TEMPLATE-END: short_call_template.js -->
+
+<!-- PROF-READER-TEMPLATE-BEGIN: verify_reuse_template.py -->
+```python
+"""Metadata/code-only identity proof. Never reads or executes subject files.
+
+Run only after the fixed wrapper checks this file's SHA256. All paths are fixed
+within this directory. This is instruction confinement, not a caller sandbox.
+"""
+import hashlib
+import importlib.util
+import json
+import re
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+CORE = ROOT / "seal-core.json"
+EXPECTED_NAMES = {
+    "verify_reuse.py", "bootstrap_template.js", "short_call_template.js", "operating_instruction_template.md", "invoker_template.js",
+    "operational_adapter.js", "fixed_launcher.py", "record_receipt.py", "__FIXED_ROUTE_FILENAME__",
+}
+ID = re.compile(r"[A-Za-z][A-Za-z0-9_-]{0,63}\Z")
+
+
+def require(ok, why):
+    if not ok:
+        raise ValueError(why)
+
+
+def sha(data):
+    return hashlib.sha256(data).hexdigest()
+
+
+def unique(raw):
+    def pairs(items):
+        d = {}
+        for k, v in items:
+            require(k not in d, "duplicate metadata key")
+            d[k] = v
+        return d
+    return json.loads(raw.decode("utf-8"), object_pairs_hook=pairs)
+
+
+def render(template, core_hash, core):
+    verifier = str(ROOT / "verify_reuse.py").replace("\\", "/")
+    # Get-FileHash runs before Python executes the identity verifier.
+    command = ("$v='" + verifier + "'; if ((Get-FileHash -LiteralPath $v -Algorithm SHA256).Hash.ToLowerInvariant() -ne '" + core["files"]["verify_reuse.py"]["sha256"] + "') { throw 'verifier identity mismatch' }; & '" + core["python"] + "' $v")
+    for marker, value in {"__VERIFY_COMMAND__": command, "__CORE_SHA256__": core_hash, "__STORE_KEY__": core["store_key"]}.items():
+        template = template.replace(marker, value)
+    require("__" not in template, "unbound wrapper marker")
+    return template
+
+
+def proof(mode, core_hash, step_id=None):
+    raw = CORE.read_bytes()
+    require(len(raw) < 100000 and sha(raw) == core_hash, "sealed binding hash mismatch")
+    core = unique(raw)
+    require(type(core) is dict and set(core) == {"schema", "scope", "python", "store_key", "route_sha256", "route_path", "runtime_path", "files"}, "invalid core shape")
+    require(core["schema"] == "prof-reader-reuse-core-v1" and core["scope"] == "__FIXED_SCOPE__", "wrong binding schema/scope")
+    require(type(core["files"]) is dict and set(core["files"]) == EXPECTED_NAMES, "unpermitted operational path set")
+    sources = {}
+    for name, spec in core["files"].items():
+        require(type(spec) is dict and set(spec) == {"sha256", "bytes"}, "invalid operational identity shape")
+        require(type(spec["bytes"]) is int and 0 < spec["bytes"] < 1000000, "invalid operational extent")
+        data = (ROOT / name).read_bytes()
+        require(len(data) == spec["bytes"] and sha(data) == spec["sha256"], "operational identity mismatch: " + name)
+        sources[name] = data.decode("utf-8")
+    require(core["route_path"] == str(ROOT / "__FIXED_ROUTE_FILENAME__").replace("\\", "/"), "route path binding mismatch")
+    require(core["runtime_path"] == str(ROOT / "__FIXED_RUNTIME_DIRNAME__").replace("\\", "/"), "runtime binding mismatch")
+    require(core["route_sha256"] == core["files"]["__FIXED_ROUTE_FILENAME__"]["sha256"], "route hash binding mismatch")
+    require(Path(core["python"]).is_absolute() and "'" not in core["python"] and "'" not in str(ROOT), "unsafe fixed command path")
+    spec = importlib.util.spec_from_file_location("sealed_metadata_only_launcher", ROOT / "fixed_launcher.py")
+    runner = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(runner)
+    require(str(runner.CONFIG_PATH).replace("\\", "/") == core["route_path"] and runner.EXPECTED_CONFIG_SHA256 == core["route_sha256"] and str(runner.RUNTIME_DIR).replace("\\", "/") == core["runtime_path"], "launcher route/runtime binding mismatch")
+    config = runner.load_config()  # Bounded metadata read + pure metadata validation only.
+    require(config["route_id"] == "__FIXED_ROUTE_ID__", "unpermitted fixture route")
+    adapter = sources["operational_adapter.js"]
+    require(adapter.count("await readerStep(STEP_ID);") == 1 and not re.search(r"const STEP_ID\s*=", adapter), "invalid parameterized adapter shape")
+    require('const ROUTE_SHA256 = "' + core["route_sha256"] + '";' in adapter, "adapter route binding mismatch")
+    invoker = render(sources["invoker_template.js"], core_hash, core)
+    bootstrap = render(sources["bootstrap_template.js"], core_hash, core)
+    short = render(sources["short_call_template.js"], core_hash, core)
+    instruction = render(sources["operating_instruction_template.md"], core_hash, core)
+    for name, text in {"invoker.js": invoker, "bootstrap.js": bootstrap, "short_call.js": short, "reader-operating.md": instruction}.items():
+        require((ROOT / name).read_bytes() == text.encode("utf-8"), "derived bootstrap/wrapper/instruction identity mismatch: " + name)
+    seal = {"schema": "prof-reader-invoker-store-v1", "binding_sha256": core_hash,
+            "adapter_sha256": core["files"]["operational_adapter.js"]["sha256"],
+            "route_sha256": core["route_sha256"], "bootstrap_sha256": sha(bootstrap.encode()),
+            "short_call_sha256": sha(short.encode()), "runtime_path": core["runtime_path"], "invoker_sha256": sha(invoker.encode()), "invoker_source": invoker, "adapter_source": adapter}
+    result = {"schema": "prof-reader-reuse-proof-v1", "mode": mode, "seal": seal}
+    if mode == "bootstrap":
+        result["instruction"] = instruction
+    else:
+        require(type(step_id) is str and ID.fullmatch(step_id), "exactly one plain STEP_ID is accepted")
+        result["step_id"] = step_id
+    return result
+
+
+def main():
+    try:
+        require(len(sys.argv) in (3, 4), "invalid identity-verifier argument shape")
+        mode, digest = sys.argv[1:3]
+        require(mode in ("bootstrap", "step") and re.fullmatch(r"[a-f0-9]{64}", digest), "invalid verification mode/hash")
+        require(len(sys.argv) == (3 if mode == "bootstrap" else 4), "mode argument shape mismatch")
+        result = proof(mode, digest, sys.argv[3] if mode == "step" else None)
+        sys.stdout.buffer.write(json.dumps(result, ensure_ascii=False, separators=(",", ":")).encode("utf-8") + b"\n")
+        return 0
+    except Exception as exc:
+        sys.stderr.write(json.dumps({"ok": False, "error": str(exc)}) + "\n")
+        return 2
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+```
+<!-- PROF-READER-TEMPLATE-END: verify_reuse_template.py -->

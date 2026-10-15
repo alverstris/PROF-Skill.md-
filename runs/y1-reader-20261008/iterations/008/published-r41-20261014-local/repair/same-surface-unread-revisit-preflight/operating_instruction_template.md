@@ -1,0 +1,1 @@
+Synthetic r41 retained-invoker preflight. This exact non-subject bootstrap is authorised once and retrieves no fixture content. Later calls use only the fixed two-line surface and STEP_ID data. The invoker expression evaluates first; current canonical identity checks run inside it before subject launcher/view access. Preserve failures. Core __CORE_SHA256__; key __STORE_KEY__.

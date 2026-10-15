@@ -1,0 +1,164 @@
+{
+  "name": "SASIS OCR A four-subject / bachelor year 1 profile",
+  "installed_date": "2026-10-08",
+  "researched_date": "2026-10-07",
+  "baseline_revision": "OCR-A-4-subjects-r1",
+  "invocation": "Explicit PROF self-iteration only; storage/configuration requests do not run trials.",
+  "complete_student_baseline": "ocr-baseline-20261007/student-baseline.txt",
+  "subject_files": [
+    {
+      "subject": "Mathematics",
+      "qualification": "H240",
+      "version": "3.1, August 2026",
+      "path": "ocr-baseline-20261007/maths/mathematics-a-h240-baseline.txt",
+      "sha256": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+      "official_specification": "https://www.ocr.org.uk/Images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf",
+      "research": "ocr-baseline-20261007/maths/research-record.md"
+    },
+    {
+      "subject": "Further Mathematics",
+      "qualification": "H245",
+      "version": "2, October 2025",
+      "path": "ocr-baseline-20261007/further-maths/baseline.txt",
+      "sha256": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+      "official_specification": "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf",
+      "research": "ocr-baseline-20261007/further-maths/research-verification.txt"
+    },
+    {
+      "subject": "Physics",
+      "qualification": "H556",
+      "version": "3.0, March 2026",
+      "path": "ocr-baseline-20261007/physics/baseline.txt",
+      "sha256": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+      "official_specification": "https://www.ocr.org.uk/Images/171726-specification-accredited-a-level-gce-physics-a-h556.pdf",
+      "research": "ocr-baseline-20261007/physics/research.md"
+    },
+    {
+      "subject": "Chemistry",
+      "qualification": "H432",
+      "version": "3.1, May 2026",
+      "path": "ocr-baseline-20261007/chemistry/student-baseline.txt",
+      "sha256": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+      "official_specification": "https://www.ocr.org.uk/Images/171720-specification-accredited-a-level-gce-chemistry-a-h432.pdf",
+      "research": "ocr-baseline-20261007/chemistry/research-verification.txt"
+    }
+  ],
+  "further_maths_components": [
+    "Y540",
+    "Y541",
+    "Y542 Statistics",
+    "Y543 Mechanics"
+  ],
+  "university_scope": "Bachelor year 1 physics/mathematics; positive university placement evidence required.",
+  "course_registry": "ocr-baseline-20261007/year1-course-registry.json",
+  "lecture_index": "ocr-baseline-20261007/year1-lecture-index.csv",
+  "student_role": "student-role.txt",
+  "testing_contract": "student-testing-contract.txt",
+  "file_hashes_base_directory": "ocr-baseline-20261007",
+  "file_hashes": {
+    "student-baseline.txt": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+    "student-input-cover.txt": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+    "release-manifest.json": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+    "maths/mathematics-a-h240-baseline.txt": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+    "maths/research-record.md": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+    "maths/research/lds-metadata.json": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+    "further-maths/baseline.txt": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+    "further-maths/research-verification.txt": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+    "further-maths/download-manifest.json": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+    "physics/baseline.txt": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+    "physics/research.md": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+    "physics/source-manifest.json": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+    "chemistry/student-baseline.txt": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+    "chemistry/research-verification.txt": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+    "chemistry/baseline-section-index.json": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+    "chemistry/freeze-manifest.json": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+    "chemistry/reference/download-manifest.json": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+    "year1-course-registry.json": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+    "year1-lecture-index.csv": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1"
+  },
+  "provenance_notes": [
+    "These files are exact copies of the reviewed release. Their scientific content is not reauthored during installation.",
+    "Research logs and download inventories are author/evaluator evidence; they are not student inputs.",
+    "Raw OCR PDFs, rendering intermediates, the earlier release ZIP, and university lecture/media assets are not bundled in the installed skill. Obtain actual case sources from the official URLs or an independently checked local cache.",
+    "The registry source_library and historical release metadata identify the original optional cache/release; they are provenance, not required installed paths.",
+    "Original raw-source audit cache: C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\outputs\\ocr-baseline-20261007. The skill can be relocated; use its relative baseline/profile paths and official source URLs.",
+    "No new student trial has run under this profile merely because these resources were installed. Verify live editions/placement before claiming freshness for a new run."
+  ],
+  "protocol_revision": "2026-10-14-r41",
+  "rewrite_guide": "rewrite-guide.md",
+  "student_input_policy": {
+    "subject_content_inputs": 2,
+    "complete_baseline_required": true,
+    "complete_document_including_help_required": true,
+    "dedicated_fresh_reader_agent_required": true,
+    "fork_turns": "none",
+    "baseline_supplied_or_wholly_available_afresh_each_document_revision": true,
+    "full_baseline_read_required": true,
+    "same_call_current_input_recall_and_supported_deduction_allowed": true,
+    "cross_call_memory_may_supply_premises": false,
+    "admission_modes": [
+      "verified complete full-text delivery",
+      "explicitly labelled instruction-confined read-only retrieval of the two immutable artifacts"
+    ],
+    "actual_access_ranges_and_limits_recorded": true,
+    "unestablished_delivery": "provisional input-access dispatch only; no substantive teaching acceptance",
+    "missing_mismatched_incomplete_input": "block substantive admission, repair and dispatch fresh condition",
+    "broad_tools_instruction_whitelist_is_technical_isolation": false,
+    "technical_erasure_of_pretraining_claimed": false,
+    "core_procedure": "sequential entire-document reading with meaning, availability, warrant, conclusion and accessibility evidence",
+    "mandatory_held_out_task_battery": false,
+    "reader_is_graded": false,
+    "prior_reader_report_is_content": false
+  },
+  "control_file_hashes": {
+    "student-role.txt": "b43364db24a239b48899fd7df19cd57cd5b68b2808c5ac130138a9feaad197ad",
+    "student-testing-contract.txt": "97cacfa2eebaf29690e24e502a82caea451563ca07e8f883da4ebceb1f0d3123",
+    "rewrite-guide.md": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
+    "../sasis.md": "a45af8fc59d050e62e247a81e30760ab4ff2c24ecf223993503a9b5f4c84470b",
+    "../../SKILL.md": "f644289b87bc50247bfaccc00a043e2dcce004e422717cf7604a4cfee0903a5a"
+  },
+  "protocol_update_notes": [
+    "Original reviewed-release provenance and hashes describe the unchanged 19 baseline/profile payloads.",
+    "The 2026-10-08-r5 revision established the protocol, student operating instruction, testing contract and rewrite guide. Revision 2026-10-08-r6 clarifies that SASIS evaluates the notes and their supported connections; simulated responses are diagnostic evidence, and restriction controls establish evidence validity. control_file_hashes bind the current resources.",
+    "This update adds instructions and inspectable records; it does not install a runtime that can erase pretraining or mechanically guarantee semantic compliance. The 2026-10-08-r6 clarification runs no SASIS trials and does not claim an empirically validated improvement.",
+    "2026-10-08-r7 implements Jonathan's explicit correction: SASIS is a dedicated fresh whole-document reader, not a task solver. Original frozen baseline files and their hashes are unchanged. Protocol preparation is not a lecture iteration or evidence of human outcomes.",
+    "2026-10-08-r8 records the explicitly authorised fully-readable-subset traversal and rolling closure version convention. The four-subject baseline, reader contract, reader role, rewrite guide and ordinary teaching obligations are unchanged. The selection/control update changes no D001 teaching dependency.",
+    "2026-10-10-r24 implements Jonathan's explicit correction: always repair PROF for verified failures, preserve generated documents unchanged, push and verify revised root PROF before new generation, and restart with fresh agent contexts carrying only operational task state. All frozen baseline payloads and the reader operating instruction remain unchanged. Historical accepted documents and local-patch evidence retain their original status and are not retroactively relabelled.",
+    "2026-10-12-r34 requires an orchestrator-prepared fixed route-bound retrieval launcher, preflighted on non-subject fixtures, to separate executable commands from subject paths and reject invalid next-step requests before subject access. Actual bounded access and figure-view receipts remain required; instruction confinement is not technical isolation. Frozen baseline and teaching evidence are unchanged; fresh generation and reading remain pending.",
+    "2026-10-14-r39 implements Jonathan's explicit request to download the published GitHub PROF package over the local Windows installation at iteration start and after revised-PROF publication. Stage and verify the complete package, retain a recoverable backup, replace the installation and verify its bytes against one pinned commit before local generation. This supersedes the previous local-update prohibition; frozen baseline files, reader controls, teaching evidence and corpus acceptance counts are unchanged.",
+    "2026-10-14-r40 strengthens source-error attribution, final numerical validation, strict-comparison source syntax, citation/math wrapper boundaries and dependency write-destination checks after verified execution and destination findings. A blocked installation-directory rename has a verified equal-inventory fallback. Retrieval wrappers reuse one sealed non-subject adapter through an explicitly authorised verified bootstrap and step-ID-only calls. Frozen baseline/provenance bytes remain unchanged; the incomplete r39 reader provides no whole-document verdict, and fresh generation, complete reading and affected-success checks remain pending.",
+    "2026-10-14-r41 repairs the verified r40 reader failure at B0024: a recopied proof-schema guard used prof-reader-reuse-store-v1 instead of prof-reader-reuse-proof-v1 and stopped before teaching. One independently verified bootstrap now retains the non-subject invoker and all per-step guards; later fixed two-line calls change only STEP_ID. The expression evaluates before the current canonical comparison, which precedes subject access. Frozen baseline/provenance identities are unchanged. Publication, fresh generation, complete fresh reading and affected-success evidence remain pending."
+  ],
+  "iteration_repair_policy": {
+    "repair_target": "PROF operative instructions and execution requirements for every independently verified material failure",
+    "generated_document_edits_allowed": false,
+    "publish_revised_root_skill_before_generation": true,
+    "canonical_repository": "alverstris/PROF-Skill.md-",
+    "canonical_branch": "main",
+    "author_fork_turns": "none",
+    "handover": "operational goal, exact constraints, verified commit and input identities, active material, queue, remaining tasks and access limits only",
+    "prior_teaching_diagnoses_answers_in_generation_inputs": false,
+    "current_agent_context_erasure_claimed": false,
+    "publication_implies_acceptance": false,
+    "installed_skill_sync": {
+      "when": "Working on Jonathan's computer with access to the local PROF installation",
+      "checkpoints": [
+        "iteration start before generation",
+        "after every revised-PROF publication before fresh generation"
+      ],
+      "destination": "C:/Users/alver/.codex/skills/prof",
+      "source": "complete root skill package at one verified published main commit",
+      "package_paths": [
+        "SKILL.md",
+        "agents/",
+        "assets/",
+        "references/",
+        "scripts/"
+      ],
+      "backup_before_whole_directory_replacement": true,
+      "verify_staged_and_installed_inventory_and_bytes": true,
+      "record_outside_installed_package_and_reader_inputs": true,
+      "inaccessible_installation": "record unavailable; use verified published package without claiming local synchronisation"
+    }
+  }
+}

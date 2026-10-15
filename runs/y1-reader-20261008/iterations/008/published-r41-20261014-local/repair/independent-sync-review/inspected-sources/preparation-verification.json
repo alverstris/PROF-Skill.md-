@@ -1,0 +1,93 @@
+{
+  "schema": "prof-sync-helper-preparation-v1",
+  "at": "2026-10-14T21:25:38.865776+00:00",
+  "helper": {
+    "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r41\\local-sync-preparation\\sync_published_prof.py",
+    "sha256": "cb0c8b31a3d857edc3d8ed47f79afea61d7b3a752061c14f94f76a888b86b5f0"
+  },
+  "files": {
+    "sync_published_prof.py": {
+      "bytes": 30691,
+      "sha256": "cb0c8b31a3d857edc3d8ed47f79afea61d7b3a752061c14f94f76a888b86b5f0"
+    },
+    "test_sync_synthetic.py": {
+      "bytes": 14806,
+      "sha256": "4ef6261d8fb22c5439e0715df19c52e1af3817ba56b9823f6bf9d2d90302f5cd"
+    },
+    "README.md": {
+      "bytes": 9722,
+      "sha256": "db490f0e902fc8743f703f7267bd846d07c30edb9b646e125fbba9f788428789"
+    },
+    "verified-published-input.TEMPLATE.json": {
+      "bytes": 10291,
+      "sha256": "c62d39859433f1f38a06436521010304ac3b7a049996054af1095f91049004c8"
+    },
+    "synthetic-test-readback.json": {
+      "bytes": 3411,
+      "sha256": "0932ed1868949c040ab38bbcf11821d8ba80370fc43bdc571cef34a7252068e8"
+    }
+  },
+  "source_identities": {
+    "C:\\Users\\alver\\.codex\\skills\\prof\\SKILL.md": {
+      "bytes": 44393,
+      "sha256": "46ae3eb9e2729b9e8f70ea610038716937ffc04ab8d6b8efa30ba814196f2ae6"
+    },
+    "C:\\Users\\alver\\.codex\\skills\\prof\\references\\sasis.md": {
+      "bytes": 25584,
+      "sha256": "ea9481c96d2a6f91ac1db4d5a786aecaadb1e05333f86496d1c46dc842ee70a7"
+    },
+    "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-maintenance\\20261014\\verify_and_sync_r40.py": {
+      "bytes": 7968,
+      "sha256": "1d431d00c75c8ed7489726ead919b10cadf5cf70b7b8816ee3dba2be2eff409c"
+    },
+    "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-maintenance\\20261014\\r40-installation-verification.json": {
+      "bytes": 5523,
+      "sha256": "aeac49d6ae34bd3736c30fc3084e13e96c33841e446d782142715b6de9347ae8"
+    },
+    "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-maintenance\\20261014\\r40-published-package-readback.json": {
+      "bytes": 5168,
+      "sha256": "6ad19ea6ccc4bd1f56477bfa66be12b94b3000f785438d35c60e5a7e4c81fc97"
+    },
+    "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r40\\local-sync-review\\verify_sync_readonly.py": {
+      "bytes": 9773,
+      "sha256": "c8936583174e1a5b2a13e8ea92d5fbe6e639825426d866554246ce3c51ea07c2"
+    },
+    "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r41\\independent-candidate-review\\package-and-manifests\\package-inventory-and-identities.json": {
+      "bytes": 23704,
+      "sha256": "15ecb3ce3b3fcad0b9896a6a4c938ed2a2785d5e53b3c5221fe53f006ba0f9b3"
+    }
+  },
+  "installed_SKILL_and_sasis_read_completely": true,
+  "historical_helper_and_install_readbacks_inspected": true,
+  "installed_prof_still_r40": true,
+  "installed_file_count": 36,
+  "installed_bytes_equal_existing_r40_record": true,
+  "candidate_template_files": 36,
+  "candidate_template_operative_checks": 28,
+  "template_verified_published": false,
+  "synthetic_tests_passed": 15,
+  "synthetic_tests_failed": 0,
+  "tested_helper_sha256_matches": true,
+  "production_cli_stage_install_verify_invoked": false,
+  "github_publication_performed": false,
+  "installed_prof_modified": false,
+  "repository_candidate_prior_records_reader_inputs_runtime_sources_modified": false,
+  "dependency_installation_performed": false,
+  "independent_safety_review": "Not performed: collaboration spawn rejected because agent thread limit was reached. Root may review the concrete helper.",
+  "goal_counts": {
+    "entire_queue": 147,
+    "eligible": 76,
+    "closed": 8,
+    "pending": 68,
+    "excluded": 71
+  },
+  "generation_acceptance_claimed": false,
+  "limitations": [
+    "Synthetic mocked rename/write failures establish exercised control paths, not all Windows locking/filesystem failure modes.",
+    "Reparse guard is tested using a simulated Windows attribute, not an actual junction.",
+    "No production staging, installation, GitHub publication or post-installation readback was invoked.",
+    "Live GitHub publication and production installation are root responsibilities and remain untested by this preparation.",
+    "Point-in-time ref checks and filesystem path checks are not locks against concurrent external mutation.",
+    "Power loss/process termination or persistent filesystem failure can require manual recovery from the retained complete backup."
+  ]
+}

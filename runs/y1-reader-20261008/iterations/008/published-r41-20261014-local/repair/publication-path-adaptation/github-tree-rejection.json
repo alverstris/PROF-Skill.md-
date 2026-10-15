@@ -1,0 +1,858 @@
+{
+  "state": "tree_creation_rejected_before_commit_or_ref_update",
+  "repository": "alverstris/PROF-Skill.md-",
+  "base_commit": "a673a6d58b5abc803cbed9b1835a6888c94b4346",
+  "base_tree": "bb524d4de21cc987a7f7f297bca7017837685a83",
+  "requested_entries": 3797,
+  "uploaded_raw_blobs": 398,
+  "attempts": [
+    {
+      "attempt": 1,
+      "observed": "Root wrapper reported Tree creation failed; full nested result was not retained; no tree SHA accepted."
+    },
+    {
+      "attempt": 2,
+      "exact_tool_result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "GitHub API error 422: {\"message\":\"tree.path contains a malformed path component\",\"documentation_url\":\"https://docs.github.com/rest/git/trees#create-a-tree\",\"status\":\"422\"}"
+          }
+        ],
+        "structuredContent": {
+          "error": "GitHub API error 422: {\"message\":\"tree.path contains a malformed path component\",\"documentation_url\":\"https://docs.github.com/rest/git/trees#create-a-tree\",\"status\":\"422\"}",
+          "error_code": "INVALID_ARGUMENT",
+          "error_data": {
+            "message": "tree.path contains a malformed path component",
+            "documentation_url": "https://docs.github.com/rest/git/trees#create-a-tree",
+            "status": "422"
+          }
+        },
+        "isError": true
+      }
+    }
+  ],
+  "prohibited_component": ".git",
+  "affected_paths": [
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/COMMIT_EDITMSG",
+      "git_blob_sha": "33b52eecb10df2422459e3f33c0eb3b64f3e79e9"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/config",
+      "git_blob_sha": "d545cdabdbddafca3501d2114506fc86e50e9824"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/description",
+      "git_blob_sha": "498b267a8c7812490d6479839c5577eaaec79d62"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/HEAD",
+      "git_blob_sha": "b870d82622c1a9ca6bcaf5df639680424a1904b0"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/hooks/applypatch-msg.sample",
+      "git_blob_sha": "a5d7b84a673458d14d9aab082183a1968c2c7492"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/hooks/commit-msg.sample",
+      "git_blob_sha": "f7458efe62f2c7f945cbf982e596ab0bccdad641"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/hooks/fsmonitor-watchman.sample",
+      "git_blob_sha": "429e0a51c12efcc3dd2cdad7e7fc1ec971c9b739"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/hooks/post-update.sample",
+      "git_blob_sha": "ec17ec1939b7c3e86b7cb6c0c4de6b0818a7e75e"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/hooks/pre-applypatch.sample",
+      "git_blob_sha": "4142082bcb939bbc17985a69ba748491ac6b62a5"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/hooks/pre-commit.sample",
+      "git_blob_sha": "29ed5ee486a4f07c3f0558101ef8efc46f3d6ab7"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/hooks/pre-merge-commit.sample",
+      "git_blob_sha": "399eab1924e39da570b389b0bef1ca713b3b05c3"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/hooks/pre-push.sample",
+      "git_blob_sha": "4ce688d32b7532862767345f2b991ae856f7d4a8"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/hooks/pre-rebase.sample",
+      "git_blob_sha": "6cbef5c370d8c3486ca85423dd70440c5e0a2aa2"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/hooks/pre-receive.sample",
+      "git_blob_sha": "a1fd29ec14823d8bc4a8d1a2cfe35451580f5118"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/hooks/prepare-commit-msg.sample",
+      "git_blob_sha": "10fa14c5ab0134436e2ae435138bf921eb477c60"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/hooks/push-to-checkout.sample",
+      "git_blob_sha": "af5a0c0018b5e9c04b56ac52f21b4d28f48d99ea"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/hooks/sendemail-validate.sample",
+      "git_blob_sha": "640bcf874dc0bef6d128d09ed4881f0616395ed8"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/hooks/update.sample",
+      "git_blob_sha": "c4d426bc6ee9430ee7813263ce6d5da7ec78c3c6"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/index",
+      "git_blob_sha": "52970ac109a4c1fcfc54a628617de80bf7e467f8"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/info/exclude",
+      "git_blob_sha": "a5196d1be8fb59edf8062bef36d3a602e0812139"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/logs/HEAD",
+      "git_blob_sha": "a944cbf7274e5c21f716875bef039083cdc043d1"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/logs/refs/heads/main",
+      "git_blob_sha": "a944cbf7274e5c21f716875bef039083cdc043d1"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/05/950a25d63217665bcb6de5def1c4dc56d19d65",
+      "git_blob_sha": "1edba9f902372027d9c47d966a5abadc085b8121"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/07/28e9ec2500268c089b2955bdfc44d07ab8d694",
+      "git_blob_sha": "04995854f8b7eae5599d6604c770ea184fed99ae"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/09/7d6adf72d415cf167c1b9d8f68cc34e334a31d",
+      "git_blob_sha": "97b77cc7feeb99a37577abc558be066956ec1af0"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/10/6cced83b303e232d79e0418725c13fa67f1ce8",
+      "git_blob_sha": "ca24c17f04ce85373224d74c7381dbdc7c8f93a7"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/11/919b514bef4cb023de3bcb59ab68b2a5050996",
+      "git_blob_sha": "e8cbd114a588f82d975cd6e777e0d8fd205e702c"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/17/3472db36349c3826b5657640ca6a21c9a327fc",
+      "git_blob_sha": "8f1a5fb4cbdb0a07cb82c4b04854c5f873f1508b"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/1c/92c45e371ecfbdb69cd42ccabc6795274ea4c8",
+      "git_blob_sha": "31597951dcfa533ac1cbb2ce52c7e048f4b98b40"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/1f/f3046191829d35fa0c84a318821e0bfd96a4d5",
+      "git_blob_sha": "a69bc44b694f1877b1f55d7515eeee34fa2efbcd"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/21/9be0a96f9ba8578ea224d3430f4c809d7e240a",
+      "git_blob_sha": "41500690b1418fecb0432177d628dd4ba8bc344b"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/2b/98a9074430a1c75813bc896b7a218873a4b0a6",
+      "git_blob_sha": "1987714a94f2c63d3a1c31ac98fd1c3bb43b14a4"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/36/49c14987e41de7eb4d4531a13c68dda0997792",
+      "git_blob_sha": "54620c42fb452ca651a8f3ffcb084dcb3a4ccc86"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/3d/63eff5e10198cf3a490a09d05f6e822bbd80d4",
+      "git_blob_sha": "154dd3e50e16c02446a5c95d5216a666d978519d"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/59/79c15c6ea280e68669cc9abb3d30d469a6449c",
+      "git_blob_sha": "75de7e9d359a46cffdc22e6c5fc6bceb10a404ce"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/60/dbd608c3950c464be8dc59493978f928bc1208",
+      "git_blob_sha": "3076abd1046ff9a552497f8ed006c235cb5f6d0a"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/66/8d7cd25505909fea1d9d822453bf169aea39f0",
+      "git_blob_sha": "9119d8308bf33b4292a72472790c36a333433a3d"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/66/f7c451df19b55ab328f82899a2bba6644e7f9d",
+      "git_blob_sha": "e36386c376cfe8bed5cb3ed98d4fdff5b1b8012f"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/67/308136f4d73ca140d66fdd151667ba7cdb5aa6",
+      "git_blob_sha": "bd0b56ae23f1a4176475b8680497e83f308878f5"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/6a/ad80877fd16446e6edb6b28ab78191087f850e",
+      "git_blob_sha": "6e597aaa647d66ff6e4b6b26db7336221cc366a8"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/6f/df4b4aa04c10db50289ce113d45cbdeffd5d69",
+      "git_blob_sha": "3f3845918f12a00b914d7a46621f89d8fbeb8c08"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/70/bdd2585a590eb88fc63c00f85c75bad21e9fd3",
+      "git_blob_sha": "e5675524402013b71e2ec9b1cf484f8a42cf6acc"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/71/8e51294ff62f1c43a21d9038dea93238c8b9ed",
+      "git_blob_sha": "3b10ec02667323f0d59fef1a07568932de4c8212"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/73/8dba0dcfb8eb155ee17eefb1f0f522f968561b",
+      "git_blob_sha": "c7d19b589d814a4c28b680acdf02fbeac31c4b7c"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/75/7d5ac4d73d707fc57ad09223831053a712fd5e",
+      "git_blob_sha": "c1ba5f0f26f4b25c8955203c3eb3799c009255e0"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/78/32952eb4d0ed301e2c12e251b1757186a560d7",
+      "git_blob_sha": "e6142b83aba182a54d6aec6a7f716eee04aa0f11"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/7e/de6840457b8349f90e097b1ef2147c0fad3240",
+      "git_blob_sha": "461519a5e00c16b4caee3f687797a7bf33b39639"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/86/730ecce46ac5b0e569a6b2318ffd7cab8c45c2",
+      "git_blob_sha": "9a216cda988cc33719464289c493acd19a608060"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/87/729140a6886a3d805626cd7cd9a4ec2bcfe4b5",
+      "git_blob_sha": "39f2ad097faaef1bd07c2a714bf6468f44b25f1d"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/8e/7a421a39ccb4af8d70f919e5381ab6f494ac1a",
+      "git_blob_sha": "f8e3408284a001f6e5f3eb83384471e073e1519e"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/94/fc8368eea72185fb438508130edde806cfcdc4",
+      "git_blob_sha": "4202fb984d14dbebafe2e8df018edbdeec0f5bf0"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/9e/26dfeeb6e641a33dae4961196235bdb965b21b",
+      "git_blob_sha": "a70f72d58a384e851ecff1211e4794f10281858b"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/a3/20ce39118132e365e80a916f5ed4f69eafa794",
+      "git_blob_sha": "ac7d98f54a0b84129d479975734fe746775c5b20"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/a7/7aaabb4e69ee5d50a6fe6b87f7028b651dccb2",
+      "git_blob_sha": "c10248177c2660a1df0bf889d1f03a0979439f68"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/a9/5ee80803505ec991595aeceac1b056b61d883d",
+      "git_blob_sha": "da110f488e2ea02396aed5ab4e59786142bcb222"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/aa/21075f1f30704fcedd2cb00865ffc3505e3cfc",
+      "git_blob_sha": "2d4ef80ae8df25e4315782d4722570db03320f3f"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/aa/7138b1911a60b2defca2eaa2f3568c58cd3806",
+      "git_blob_sha": "8f241f512ac09d9a574d5add5e2621696e1cbbbf"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/b0/79356ad9c2193d92528ebdb617b79d5dc618cb",
+      "git_blob_sha": "2bfb736bed7c4e57aec74d4b5ac98d07f45ff7c6"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/cc/f8f40e3bea32a29df4eea8bc89c10e7675b3bd",
+      "git_blob_sha": "7cab6f4954a7d103d5e3365a3827b6a6326ff914"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/d1/21e6a96958059d4f4b21250874864ce164ce5b",
+      "git_blob_sha": "177141d9a8005ab0d741c77c9b0296d0ecb86ebd"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/e2/2a0fe1cd5c1614151f85c5ff43fd94f807a320",
+      "git_blob_sha": "b89792ca5f03b8544b763c63b733ac6d5f0a2ebc"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/e9/bf4de441866b0cb6e4d99a9a83ad3056013c34",
+      "git_blob_sha": "fcec07f8b7dd578d1c12abeac341e77bd405784f"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/ef/26c316465d535466ec5fd8b2ba675e9ea62369",
+      "git_blob_sha": "d0d42baa69f9dbd34b2453b4edcafb42b287c30a"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/f0/2a2abd9eef0d4027d5fbd4b6b0fa81ea8c7756",
+      "git_blob_sha": "e148b39ff0aca04280e6a773e859c7d6a60286dc"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/f0/45362c2e7515fa421e76166d56fc425af84d5d",
+      "git_blob_sha": "2ebc97e2809bfe1e5319419e17a549d9df97c06b"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/f2/6156acbe860addcc7a4812d379457df9ac0fac",
+      "git_blob_sha": "15752d6e63cb458cfc5f6c8c0e31bc1dd4c44a38"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/objects/fa/9ad2e039e459d27ef65af8483f2b1e03bac385",
+      "git_blob_sha": "95b8b4b56d0da52267b21c61b7cfc94a103a6abc"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212101818586Z/synthetic-git/.git/refs/heads/main",
+      "git_blob_sha": "fa5c6efbab9f37e54da535d688d2b5f5a9d44b96"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/COMMIT_EDITMSG",
+      "git_blob_sha": "33b52eecb10df2422459e3f33c0eb3b64f3e79e9"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/config",
+      "git_blob_sha": "d545cdabdbddafca3501d2114506fc86e50e9824"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/description",
+      "git_blob_sha": "498b267a8c7812490d6479839c5577eaaec79d62"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/HEAD",
+      "git_blob_sha": "b870d82622c1a9ca6bcaf5df639680424a1904b0"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/hooks/applypatch-msg.sample",
+      "git_blob_sha": "a5d7b84a673458d14d9aab082183a1968c2c7492"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/hooks/commit-msg.sample",
+      "git_blob_sha": "f7458efe62f2c7f945cbf982e596ab0bccdad641"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/hooks/fsmonitor-watchman.sample",
+      "git_blob_sha": "429e0a51c12efcc3dd2cdad7e7fc1ec971c9b739"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/hooks/post-update.sample",
+      "git_blob_sha": "ec17ec1939b7c3e86b7cb6c0c4de6b0818a7e75e"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/hooks/pre-applypatch.sample",
+      "git_blob_sha": "4142082bcb939bbc17985a69ba748491ac6b62a5"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/hooks/pre-commit.sample",
+      "git_blob_sha": "29ed5ee486a4f07c3f0558101ef8efc46f3d6ab7"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/hooks/pre-merge-commit.sample",
+      "git_blob_sha": "399eab1924e39da570b389b0bef1ca713b3b05c3"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/hooks/pre-push.sample",
+      "git_blob_sha": "4ce688d32b7532862767345f2b991ae856f7d4a8"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/hooks/pre-rebase.sample",
+      "git_blob_sha": "6cbef5c370d8c3486ca85423dd70440c5e0a2aa2"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/hooks/pre-receive.sample",
+      "git_blob_sha": "a1fd29ec14823d8bc4a8d1a2cfe35451580f5118"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/hooks/prepare-commit-msg.sample",
+      "git_blob_sha": "10fa14c5ab0134436e2ae435138bf921eb477c60"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/hooks/push-to-checkout.sample",
+      "git_blob_sha": "af5a0c0018b5e9c04b56ac52f21b4d28f48d99ea"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/hooks/sendemail-validate.sample",
+      "git_blob_sha": "640bcf874dc0bef6d128d09ed4881f0616395ed8"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/hooks/update.sample",
+      "git_blob_sha": "c4d426bc6ee9430ee7813263ce6d5da7ec78c3c6"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/index",
+      "git_blob_sha": "1834da8c47c272c6d197b810d605661ddcb90860"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/info/exclude",
+      "git_blob_sha": "a5196d1be8fb59edf8062bef36d3a602e0812139"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/logs/HEAD",
+      "git_blob_sha": "8de1f2b202d1d666402c335de964cac117e71bfa"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/logs/refs/heads/main",
+      "git_blob_sha": "8de1f2b202d1d666402c335de964cac117e71bfa"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/05/950a25d63217665bcb6de5def1c4dc56d19d65",
+      "git_blob_sha": "1edba9f902372027d9c47d966a5abadc085b8121"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/07/28e9ec2500268c089b2955bdfc44d07ab8d694",
+      "git_blob_sha": "04995854f8b7eae5599d6604c770ea184fed99ae"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/09/7d6adf72d415cf167c1b9d8f68cc34e334a31d",
+      "git_blob_sha": "97b77cc7feeb99a37577abc558be066956ec1af0"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/10/6cced83b303e232d79e0418725c13fa67f1ce8",
+      "git_blob_sha": "ca24c17f04ce85373224d74c7381dbdc7c8f93a7"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/11/919b514bef4cb023de3bcb59ab68b2a5050996",
+      "git_blob_sha": "e8cbd114a588f82d975cd6e777e0d8fd205e702c"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/17/3472db36349c3826b5657640ca6a21c9a327fc",
+      "git_blob_sha": "8f1a5fb4cbdb0a07cb82c4b04854c5f873f1508b"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/1c/92c45e371ecfbdb69cd42ccabc6795274ea4c8",
+      "git_blob_sha": "31597951dcfa533ac1cbb2ce52c7e048f4b98b40"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/1f/f3046191829d35fa0c84a318821e0bfd96a4d5",
+      "git_blob_sha": "a69bc44b694f1877b1f55d7515eeee34fa2efbcd"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/21/9be0a96f9ba8578ea224d3430f4c809d7e240a",
+      "git_blob_sha": "41500690b1418fecb0432177d628dd4ba8bc344b"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/2b/98a9074430a1c75813bc896b7a218873a4b0a6",
+      "git_blob_sha": "1987714a94f2c63d3a1c31ac98fd1c3bb43b14a4"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/36/49c14987e41de7eb4d4531a13c68dda0997792",
+      "git_blob_sha": "54620c42fb452ca651a8f3ffcb084dcb3a4ccc86"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/3d/63eff5e10198cf3a490a09d05f6e822bbd80d4",
+      "git_blob_sha": "154dd3e50e16c02446a5c95d5216a666d978519d"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/60/dbd608c3950c464be8dc59493978f928bc1208",
+      "git_blob_sha": "3076abd1046ff9a552497f8ed006c235cb5f6d0a"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/66/8d7cd25505909fea1d9d822453bf169aea39f0",
+      "git_blob_sha": "9119d8308bf33b4292a72472790c36a333433a3d"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/66/f7c451df19b55ab328f82899a2bba6644e7f9d",
+      "git_blob_sha": "e36386c376cfe8bed5cb3ed98d4fdff5b1b8012f"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/67/308136f4d73ca140d66fdd151667ba7cdb5aa6",
+      "git_blob_sha": "bd0b56ae23f1a4176475b8680497e83f308878f5"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/6a/ad80877fd16446e6edb6b28ab78191087f850e",
+      "git_blob_sha": "6e597aaa647d66ff6e4b6b26db7336221cc366a8"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/6f/df4b4aa04c10db50289ce113d45cbdeffd5d69",
+      "git_blob_sha": "3f3845918f12a00b914d7a46621f89d8fbeb8c08"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/70/bdd2585a590eb88fc63c00f85c75bad21e9fd3",
+      "git_blob_sha": "e5675524402013b71e2ec9b1cf484f8a42cf6acc"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/71/8e51294ff62f1c43a21d9038dea93238c8b9ed",
+      "git_blob_sha": "3b10ec02667323f0d59fef1a07568932de4c8212"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/73/8dba0dcfb8eb155ee17eefb1f0f522f968561b",
+      "git_blob_sha": "c7d19b589d814a4c28b680acdf02fbeac31c4b7c"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/75/7d5ac4d73d707fc57ad09223831053a712fd5e",
+      "git_blob_sha": "c1ba5f0f26f4b25c8955203c3eb3799c009255e0"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/78/32952eb4d0ed301e2c12e251b1757186a560d7",
+      "git_blob_sha": "e6142b83aba182a54d6aec6a7f716eee04aa0f11"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/7e/de6840457b8349f90e097b1ef2147c0fad3240",
+      "git_blob_sha": "461519a5e00c16b4caee3f687797a7bf33b39639"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/86/730ecce46ac5b0e569a6b2318ffd7cab8c45c2",
+      "git_blob_sha": "9a216cda988cc33719464289c493acd19a608060"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/87/729140a6886a3d805626cd7cd9a4ec2bcfe4b5",
+      "git_blob_sha": "39f2ad097faaef1bd07c2a714bf6468f44b25f1d"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/8e/7a421a39ccb4af8d70f919e5381ab6f494ac1a",
+      "git_blob_sha": "f8e3408284a001f6e5f3eb83384471e073e1519e"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/94/1bf2e7da47f8fe11eac627472431154966d799",
+      "git_blob_sha": "53dd242d22bc2dbf5ff233b26645b3b9ae99fc62"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/94/fc8368eea72185fb438508130edde806cfcdc4",
+      "git_blob_sha": "4202fb984d14dbebafe2e8df018edbdeec0f5bf0"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/9e/26dfeeb6e641a33dae4961196235bdb965b21b",
+      "git_blob_sha": "a70f72d58a384e851ecff1211e4794f10281858b"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/a3/20ce39118132e365e80a916f5ed4f69eafa794",
+      "git_blob_sha": "ac7d98f54a0b84129d479975734fe746775c5b20"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/a7/7aaabb4e69ee5d50a6fe6b87f7028b651dccb2",
+      "git_blob_sha": "c10248177c2660a1df0bf889d1f03a0979439f68"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/a9/5ee80803505ec991595aeceac1b056b61d883d",
+      "git_blob_sha": "da110f488e2ea02396aed5ab4e59786142bcb222"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/aa/21075f1f30704fcedd2cb00865ffc3505e3cfc",
+      "git_blob_sha": "2d4ef80ae8df25e4315782d4722570db03320f3f"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/aa/7138b1911a60b2defca2eaa2f3568c58cd3806",
+      "git_blob_sha": "8f241f512ac09d9a574d5add5e2621696e1cbbbf"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/b0/79356ad9c2193d92528ebdb617b79d5dc618cb",
+      "git_blob_sha": "2bfb736bed7c4e57aec74d4b5ac98d07f45ff7c6"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/cc/f8f40e3bea32a29df4eea8bc89c10e7675b3bd",
+      "git_blob_sha": "7cab6f4954a7d103d5e3365a3827b6a6326ff914"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/d1/21e6a96958059d4f4b21250874864ce164ce5b",
+      "git_blob_sha": "177141d9a8005ab0d741c77c9b0296d0ecb86ebd"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/e2/2a0fe1cd5c1614151f85c5ff43fd94f807a320",
+      "git_blob_sha": "b89792ca5f03b8544b763c63b733ac6d5f0a2ebc"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/e9/bf4de441866b0cb6e4d99a9a83ad3056013c34",
+      "git_blob_sha": "fcec07f8b7dd578d1c12abeac341e77bd405784f"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/ef/26c316465d535466ec5fd8b2ba675e9ea62369",
+      "git_blob_sha": "d0d42baa69f9dbd34b2453b4edcafb42b287c30a"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/f0/2a2abd9eef0d4027d5fbd4b6b0fa81ea8c7756",
+      "git_blob_sha": "e148b39ff0aca04280e6a773e859c7d6a60286dc"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/f0/45362c2e7515fa421e76166d56fc425af84d5d",
+      "git_blob_sha": "2ebc97e2809bfe1e5319419e17a549d9df97c06b"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/f2/6156acbe860addcc7a4812d379457df9ac0fac",
+      "git_blob_sha": "15752d6e63cb458cfc5f6c8c0e31bc1dd4c44a38"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/objects/fa/9ad2e039e459d27ef65af8483f2b1e03bac385",
+      "git_blob_sha": "95b8b4b56d0da52267b21c61b7cfc94a103a6abc"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212214423986Z/synthetic-git/.git/refs/heads/main",
+      "git_blob_sha": "f5bb6ce0253280e98ccc0a37aa3c7db7d6571dc9"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/COMMIT_EDITMSG",
+      "git_blob_sha": "33b52eecb10df2422459e3f33c0eb3b64f3e79e9"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/config",
+      "git_blob_sha": "d545cdabdbddafca3501d2114506fc86e50e9824"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/description",
+      "git_blob_sha": "498b267a8c7812490d6479839c5577eaaec79d62"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/HEAD",
+      "git_blob_sha": "b870d82622c1a9ca6bcaf5df639680424a1904b0"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/hooks/applypatch-msg.sample",
+      "git_blob_sha": "a5d7b84a673458d14d9aab082183a1968c2c7492"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/hooks/commit-msg.sample",
+      "git_blob_sha": "f7458efe62f2c7f945cbf982e596ab0bccdad641"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/hooks/fsmonitor-watchman.sample",
+      "git_blob_sha": "429e0a51c12efcc3dd2cdad7e7fc1ec971c9b739"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/hooks/post-update.sample",
+      "git_blob_sha": "ec17ec1939b7c3e86b7cb6c0c4de6b0818a7e75e"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/hooks/pre-applypatch.sample",
+      "git_blob_sha": "4142082bcb939bbc17985a69ba748491ac6b62a5"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/hooks/pre-commit.sample",
+      "git_blob_sha": "29ed5ee486a4f07c3f0558101ef8efc46f3d6ab7"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/hooks/pre-merge-commit.sample",
+      "git_blob_sha": "399eab1924e39da570b389b0bef1ca713b3b05c3"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/hooks/pre-push.sample",
+      "git_blob_sha": "4ce688d32b7532862767345f2b991ae856f7d4a8"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/hooks/pre-rebase.sample",
+      "git_blob_sha": "6cbef5c370d8c3486ca85423dd70440c5e0a2aa2"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/hooks/pre-receive.sample",
+      "git_blob_sha": "a1fd29ec14823d8bc4a8d1a2cfe35451580f5118"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/hooks/prepare-commit-msg.sample",
+      "git_blob_sha": "10fa14c5ab0134436e2ae435138bf921eb477c60"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/hooks/push-to-checkout.sample",
+      "git_blob_sha": "af5a0c0018b5e9c04b56ac52f21b4d28f48d99ea"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/hooks/sendemail-validate.sample",
+      "git_blob_sha": "640bcf874dc0bef6d128d09ed4881f0616395ed8"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/hooks/update.sample",
+      "git_blob_sha": "c4d426bc6ee9430ee7813263ce6d5da7ec78c3c6"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/index",
+      "git_blob_sha": "99f2a77cb9bb47a14986a70abbab74d97a9580be"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/info/exclude",
+      "git_blob_sha": "a5196d1be8fb59edf8062bef36d3a602e0812139"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/logs/HEAD",
+      "git_blob_sha": "fa2aa546896bfbd469af1c006690bd85b3fed8f8"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/logs/refs/heads/main",
+      "git_blob_sha": "fa2aa546896bfbd469af1c006690bd85b3fed8f8"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/05/950a25d63217665bcb6de5def1c4dc56d19d65",
+      "git_blob_sha": "1edba9f902372027d9c47d966a5abadc085b8121"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/07/28e9ec2500268c089b2955bdfc44d07ab8d694",
+      "git_blob_sha": "04995854f8b7eae5599d6604c770ea184fed99ae"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/09/7d6adf72d415cf167c1b9d8f68cc34e334a31d",
+      "git_blob_sha": "97b77cc7feeb99a37577abc558be066956ec1af0"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/10/6cced83b303e232d79e0418725c13fa67f1ce8",
+      "git_blob_sha": "ca24c17f04ce85373224d74c7381dbdc7c8f93a7"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/11/919b514bef4cb023de3bcb59ab68b2a5050996",
+      "git_blob_sha": "e8cbd114a588f82d975cd6e777e0d8fd205e702c"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/17/3472db36349c3826b5657640ca6a21c9a327fc",
+      "git_blob_sha": "8f1a5fb4cbdb0a07cb82c4b04854c5f873f1508b"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/1c/92c45e371ecfbdb69cd42ccabc6795274ea4c8",
+      "git_blob_sha": "31597951dcfa533ac1cbb2ce52c7e048f4b98b40"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/1f/f3046191829d35fa0c84a318821e0bfd96a4d5",
+      "git_blob_sha": "a69bc44b694f1877b1f55d7515eeee34fa2efbcd"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/21/9be0a96f9ba8578ea224d3430f4c809d7e240a",
+      "git_blob_sha": "41500690b1418fecb0432177d628dd4ba8bc344b"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/2b/98a9074430a1c75813bc896b7a218873a4b0a6",
+      "git_blob_sha": "1987714a94f2c63d3a1c31ac98fd1c3bb43b14a4"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/36/49c14987e41de7eb4d4531a13c68dda0997792",
+      "git_blob_sha": "54620c42fb452ca651a8f3ffcb084dcb3a4ccc86"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/3d/63eff5e10198cf3a490a09d05f6e822bbd80d4",
+      "git_blob_sha": "154dd3e50e16c02446a5c95d5216a666d978519d"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/60/dbd608c3950c464be8dc59493978f928bc1208",
+      "git_blob_sha": "3076abd1046ff9a552497f8ed006c235cb5f6d0a"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/66/8d7cd25505909fea1d9d822453bf169aea39f0",
+      "git_blob_sha": "9119d8308bf33b4292a72472790c36a333433a3d"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/66/f7c451df19b55ab328f82899a2bba6644e7f9d",
+      "git_blob_sha": "e36386c376cfe8bed5cb3ed98d4fdff5b1b8012f"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/67/308136f4d73ca140d66fdd151667ba7cdb5aa6",
+      "git_blob_sha": "bd0b56ae23f1a4176475b8680497e83f308878f5"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/6a/ad80877fd16446e6edb6b28ab78191087f850e",
+      "git_blob_sha": "6e597aaa647d66ff6e4b6b26db7336221cc366a8"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/6f/df4b4aa04c10db50289ce113d45cbdeffd5d69",
+      "git_blob_sha": "3f3845918f12a00b914d7a46621f89d8fbeb8c08"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/70/bdd2585a590eb88fc63c00f85c75bad21e9fd3",
+      "git_blob_sha": "e5675524402013b71e2ec9b1cf484f8a42cf6acc"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/71/8e51294ff62f1c43a21d9038dea93238c8b9ed",
+      "git_blob_sha": "3b10ec02667323f0d59fef1a07568932de4c8212"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/73/8dba0dcfb8eb155ee17eefb1f0f522f968561b",
+      "git_blob_sha": "c7d19b589d814a4c28b680acdf02fbeac31c4b7c"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/75/7d5ac4d73d707fc57ad09223831053a712fd5e",
+      "git_blob_sha": "c1ba5f0f26f4b25c8955203c3eb3799c009255e0"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/78/32952eb4d0ed301e2c12e251b1757186a560d7",
+      "git_blob_sha": "e6142b83aba182a54d6aec6a7f716eee04aa0f11"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/7e/de6840457b8349f90e097b1ef2147c0fad3240",
+      "git_blob_sha": "461519a5e00c16b4caee3f687797a7bf33b39639"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/86/730ecce46ac5b0e569a6b2318ffd7cab8c45c2",
+      "git_blob_sha": "9a216cda988cc33719464289c493acd19a608060"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/87/729140a6886a3d805626cd7cd9a4ec2bcfe4b5",
+      "git_blob_sha": "39f2ad097faaef1bd07c2a714bf6468f44b25f1d"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/8e/7a421a39ccb4af8d70f919e5381ab6f494ac1a",
+      "git_blob_sha": "f8e3408284a001f6e5f3eb83384471e073e1519e"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/8e/aecdf7c9adedba24518b0e423e3d26d27473c5",
+      "git_blob_sha": "1589660fc64984b344ab871ab8a6b7dde46eaca1"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/94/fc8368eea72185fb438508130edde806cfcdc4",
+      "git_blob_sha": "4202fb984d14dbebafe2e8df018edbdeec0f5bf0"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/9e/26dfeeb6e641a33dae4961196235bdb965b21b",
+      "git_blob_sha": "a70f72d58a384e851ecff1211e4794f10281858b"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/a3/20ce39118132e365e80a916f5ed4f69eafa794",
+      "git_blob_sha": "ac7d98f54a0b84129d479975734fe746775c5b20"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/a7/7aaabb4e69ee5d50a6fe6b87f7028b651dccb2",
+      "git_blob_sha": "c10248177c2660a1df0bf889d1f03a0979439f68"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/a9/5ee80803505ec991595aeceac1b056b61d883d",
+      "git_blob_sha": "da110f488e2ea02396aed5ab4e59786142bcb222"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/aa/21075f1f30704fcedd2cb00865ffc3505e3cfc",
+      "git_blob_sha": "2d4ef80ae8df25e4315782d4722570db03320f3f"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/aa/7138b1911a60b2defca2eaa2f3568c58cd3806",
+      "git_blob_sha": "8f241f512ac09d9a574d5add5e2621696e1cbbbf"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/b0/79356ad9c2193d92528ebdb617b79d5dc618cb",
+      "git_blob_sha": "2bfb736bed7c4e57aec74d4b5ac98d07f45ff7c6"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/cc/f8f40e3bea32a29df4eea8bc89c10e7675b3bd",
+      "git_blob_sha": "7cab6f4954a7d103d5e3365a3827b6a6326ff914"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/d1/21e6a96958059d4f4b21250874864ce164ce5b",
+      "git_blob_sha": "177141d9a8005ab0d741c77c9b0296d0ecb86ebd"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/e2/2a0fe1cd5c1614151f85c5ff43fd94f807a320",
+      "git_blob_sha": "b89792ca5f03b8544b763c63b733ac6d5f0a2ebc"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/e9/bf4de441866b0cb6e4d99a9a83ad3056013c34",
+      "git_blob_sha": "fcec07f8b7dd578d1c12abeac341e77bd405784f"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/ef/26c316465d535466ec5fd8b2ba675e9ea62369",
+      "git_blob_sha": "d0d42baa69f9dbd34b2453b4edcafb42b287c30a"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/f0/2a2abd9eef0d4027d5fbd4b6b0fa81ea8c7756",
+      "git_blob_sha": "e148b39ff0aca04280e6a773e859c7d6a60286dc"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/f0/45362c2e7515fa421e76166d56fc425af84d5d",
+      "git_blob_sha": "2ebc97e2809bfe1e5319419e17a549d9df97c06b"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/f2/6156acbe860addcc7a4812d379457df9ac0fac",
+      "git_blob_sha": "15752d6e63cb458cfc5f6c8c0e31bc1dd4c44a38"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/objects/fa/9ad2e039e459d27ef65af8483f2b1e03bac385",
+      "git_blob_sha": "95b8b4b56d0da52267b21c61b7cfc94a103a6abc"
+    },
+    {
+      "path": "runs/y1-reader-20261008/iterations/008/published-r41-20261014-local/repair/local-sync-preparation/synthetic-fixtures/20261014T212433699002Z/synthetic-git/.git/refs/heads/main",
+      "git_blob_sha": "df5ce5e0fe934d1aa8e0c35a0e4dcff8b2799cae"
+    }
+  ],
+  "local_originals_unchanged": true,
+  "main_update_performed": false,
+  "installation_performed": false,
+  "necessary_action": "Preserve all raw content under a collision-free explicit published path mapping, retaining original path identities and failure."
+}

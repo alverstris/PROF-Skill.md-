@@ -1,0 +1,262 @@
+--- pinned-r40-normalized-for-review/SKILL.md
++++ candidate-r41-normalized-for-review/SKILL.md
+@@ -3,5 +3,5 @@
+ description: "Write, revise, extend, or continue teaching documents, study notes, worked solutions, research primers, and programming or language tutorials using Jonathan's evidence-informed requirements. Apply the source research, prerequisite, explanation, practice, and verification workflow to every topic, with durable recovery for long projects. Default to an Overleaf-ready LaTeX project and compiled PDF. Use whenever explicitly invoked; otherwise applies to teaching-document authoring rather than every short subject answer. Explicit PROF self-iteration uses SASIS; ordinary teaching-document work does not invoke that scheme."
+ metadata:
+-  version: "2026-10-14-r40"
++  version: "2026-10-14-r41"
+ ---
+ 
+--- pinned-r40-normalized-for-review/references/sasis.md
++++ candidate-r41-normalized-for-review/references/sasis.md
+@@ -1,5 +1,5 @@
+ # SASIS — dedicated reader protocol
+ 
+-Protocol revision: 2026-10-14-r40.
++Protocol revision: 2026-10-14-r41.
+ 
+ ## Purpose and activation
+@@ -48,7 +48,7 @@
+ Before retrieval dispatch, the orchestrator prepares and validates one fixed route-bound launcher. Each reader command consists only of that launcher and a permitted step ID; subject paths and byte ranges are resolved from the frozen route, never supplied in a per-step interpreter or executable position. A permitted ID is the next scheduled step or a predeclared bounded baseline-revisit ID whose initial baseline chunk has already been read. A baseline revisit does not advance the document cursor, and no future teaching access is allowed. Complete the initial baseline route before teaching. Before opening subject files, reject extra arguments, unknown or out-of-order steps, invalid types/ranges and mismatched route identity. Read text as binary data with a bounded seek/read, verify the exact returned range and its expected hash, and append an actual-access receipt before returning content. Never execute, import, evaluate or compile a subject file to retrieve it. For a figure, return the complete identified image and hold advancement until its actual view-tool result is recorded at the scheduled inspection stage; a checksum or image path alone is not a view. Preserve unsuccessful calls and distinguish internal byte access from content actually displayed.
+ 
+-When the reader tool interface needs an operational wrapper around that launcher, seal one fixed non-subject adapter with its identity and checks before dispatch. Supply one exact, explicitly authorised bootstrap that verifies and retains that adapter without retrieving subject content; subsequent reader calls reuse that same sealed program through a short step-ID-only surface. Do not require the reader to recopy or edit hash, receipt or retrieval logic for each step. Verify the bound adapter identity before reuse and preserve the launcher's argument, order, range, hash, delivery and figure-view checks. Only the verified non-subject operational code may execute; subject bytes must never enter an executable position. A bootstrap or adapter failure is preserved as an input/execution limit under the existing stop-on-failure rule, not repaired by an improvised command or manual recopy. If this reuse cannot be established, hold dependent retrieval dispatch and report the capability limit.
+-
+-Preflight the same launcher and invocation shape with non-subject synthetic fixtures: a valid next slice returns only its exact bytes; wrong arguments, a skipped step and an unknown step fail before any subject-file open; a figure cannot be bypassed without its actual view invocation/result receipt; an already-read baseline revisit succeeds without moving the document cursor and a not-yet-read baseline revisit fails before subject access. Where a wrapper is needed, preflight that same sealed adapter, exact bootstrap and short call surface too: bootstrap retrieves no subject, successive valid step IDs reuse the same program, and an altered adapter identity fails before subject access. Record the instrumented open/access evidence, then compare the reader's actual ordered ledger, returned hashes and figure tool receipts with the whole frozen route before admission. The launcher reduces executable/data confusion and checks its own calls; it is not a technical boundary against other available tools, and a recorded view receipt alone does not prove semantic inspection. A verified material runner failure follows the PROF repair and publication-first fresh-generation rule even if visible diagnostic output contains only previously read text.
++When the reader tool interface needs an operational wrapper around that launcher, seal one fixed non-subject invoker containing all per-step schema, identity, retrieval, receipt and view checks. An exact explicitly authorised bootstrap independently verifies and retains that invoker without subject access. Subsequent calls use only a fixed invocation surface and the permitted STEP_ID datum; the reader must not reproduce or edit any guard, proof parser, hash, receipt or retrieval logic. On serializable-store interfaces such as functions.exec, the fixed two-line call may evaluate the retained invoker expression and pass STEP_ID; all guards stay inside the reused program. The expression evaluates before its current retained-source/envelope comparison. That comparison must use independently verified canonical metadata and reject changes before subject launcher or view access; do not claim authentication before evaluation, a persistent callable, or technical confinement. Only the bootstrap-verified designated non-subject program belongs in this position; subject bytes never may. Preserve all existing argument, order, range, hash, delivery and figure-view checks and stop/preserve without retry on failure. If this narrow reuse surface is unavailable, hold dependent dispatch and state the exact capability limit. Extract the four named [sealed invoker templates](#sealed-reader-invoker-templates) programmatically from this published reference and verify their exact bytes before binding; do not manually recreate their logic.
++
++Preflight the same launcher and invocation shape with non-subject synthetic fixtures: a valid next slice returns only its exact bytes; wrong arguments, a skipped step and an unknown step fail before any subject-file open; a figure cannot be bypassed without its actual view invocation/result receipt; an already-read baseline revisit succeeds without moving the document cursor and a not-yet-read baseline revisit fails before subject access. Where a wrapper is needed, preflight that same sealed invoker, exact bootstrap and minimal invocation surface too: bootstrap retrieves no subject; successive step data reuse the same program without caller-authored guards; an altered retained source/envelope, missing/stale store, invalid/extra/out-of-order step, unread baseline revisit and truncated output stop before dependent access; and the observed proof/store schema-copy mistake is reproduced synthetically and absent from the repeated invocation surface. Check the actual evaluation order and preserve failures; source/envelope comparison occurs after invoker-expression evaluation and before subject launcher/view access. Record the instrumented open/access evidence, then compare the reader's actual ordered ledger, returned hashes and figure tool receipts with the whole frozen route before admission. The launcher reduces executable/data confusion and checks its own calls; it is not a technical boundary against other available tools, and a recorded view receipt alone does not prove semantic inspection. A verified material runner failure follows the PROF repair and publication-first fresh-generation rule even if visible diagnostic output contains only previously read text.
+ 
+ Shared tools remain technically available unless the runtime truly restricts them. State that an instruction whitelist is not a technical access boundary or erasure of pretraining. Do not invent memory controls or capacity figures. Every consequential connection must be traceable to permitted content regardless of how familiar the answer seems.
+@@ -113,2 +113,166 @@
+ 
+ The concise iteration log identifies material, incoming/outgoing revision, all justified skill changes and result. It links to the detailed issue register. At corpus completion provide the final effective PROF and the change log, with actual verification limits. Distinguish protocol editing, author checks, SASIS reading, rendered-artifact checks and human learning evidence.
++
++## Sealed reader invoker templates
++
++These four named blocks are operational source templates, not subject content or reader role text. The orchestrator extracts their exact UTF-8 payload bytes programmatically between the named markers, including the final newline, then binds and seals them before dispatch. Keep them in this existing reference so the complete installed package inventory remains unchanged. The reader receives only the exact authorised bootstrap and two-line invocation, not PROF or these template instructions. The function expression evaluates before the reused program's current identity comparison; no pre-evaluation authentication or persistent-callable claim is made.
++
++<!-- PROF-READER-TEMPLATE-BEGIN: invoker_template.js -->
++```javascript
++(async function retainedReaderInvoker(STEP_ID) {
++if (arguments.length !== 1) throw new Error("exactly one STEP_ID datum is accepted");
++const cached = load("__STORE_KEY__");
++if (typeof STEP_ID !== "string" || !/^[A-Za-z][A-Za-z0-9_-]{0,63}$/.test(STEP_ID)) throw new Error("exactly one plain STEP_ID is accepted");
++if (!cached || typeof cached !== "object" || Array.isArray(cached) || cached.schema !== "prof-reader-invoker-store-v1" || cached.binding_sha256 !== "__CORE_SHA256__") throw new Error("missing/stale reader bootstrap; preserve failure and stop");
++const r = await tools.exec_command({cmd: "__VERIFY_COMMAND__ 'step' '__CORE_SHA256__' '" + STEP_ID + "'", max_output_tokens: 18000});
++if (r.exit_code !== 0 || r.session_id) throw new Error("reader operational identity verification failed: " + r.output);
++let p;
++try { p = JSON.parse(r.output.trim()); } catch (_) { throw new Error("verification output missing/truncated; preserve failure and stop"); }
++if (!p || Object.keys(p).sort().join(",") !== "mode,schema,seal,step_id" || p.schema !== "prof-reader-reuse-proof-v1" || p.mode !== "step" || p.step_id !== STEP_ID || JSON.stringify(cached) !== JSON.stringify(p.seal)) throw new Error("cached adapter/binding identity mismatch; preserve failure and stop");
++// Only the exact verified operational source enters eval; STEP_ID is a parameter, never source text.
++await eval("(async function(STEP_ID) {\n" + p.seal.adapter_source + "\n})(STEP_ID)");
++
++})
++```
++<!-- PROF-READER-TEMPLATE-END: invoker_template.js -->
++
++<!-- PROF-READER-TEMPLATE-BEGIN: bootstrap_template.js -->
++```javascript
++// Explicitly authorized once: load only the sealed non-subject operating instruction and operational adapter.
++const KEY = "__STORE_KEY__";
++if (load(KEY) !== undefined) throw new Error("reader bootstrap already present; preserve it and stop");
++const r = await tools.exec_command({cmd: "__VERIFY_COMMAND__ 'bootstrap' '__CORE_SHA256__'", max_output_tokens: 18000});
++if (r.exit_code !== 0 || r.session_id) throw new Error("reader bootstrap identity verification failed: " + r.output);
++let p;
++try { p = JSON.parse(r.output.trim()); } catch (_) { throw new Error("bootstrap output missing/truncated; preserve failure and stop"); }
++if (!p || Object.keys(p).sort().join(",") !== "instruction,mode,schema,seal" || p.schema !== "prof-reader-reuse-proof-v1" || p.mode !== "bootstrap" || typeof p.instruction !== "string") throw new Error("invalid bootstrap proof shape");
++if (!p.seal || p.seal.schema !== "prof-reader-invoker-store-v1" || p.seal.binding_sha256 !== "__CORE_SHA256__" || typeof p.seal.adapter_source !== "string" || typeof p.seal.invoker_source !== "string") throw new Error("invalid bootstrap seal");
++store(KEY, p.seal);
++text(p.instruction);
++text({bootstrap_verified: true, binding_sha256: p.seal.binding_sha256, bootstrap_sha256: p.seal.bootstrap_sha256, short_call_sha256: p.seal.short_call_sha256, invoker_sha256: p.seal.invoker_sha256, subject_retrieval: false});
++```
++<!-- PROF-READER-TEMPLATE-END: bootstrap_template.js -->
++
++<!-- PROF-READER-TEMPLATE-BEGIN: short_call_template.js -->
++```javascript
++const STEP_ID = "B001";
++await eval(load("__STORE_KEY__").invoker_source)(STEP_ID);
++```
++<!-- PROF-READER-TEMPLATE-END: short_call_template.js -->
++
++<!-- PROF-READER-TEMPLATE-BEGIN: verify_reuse_template.py -->
++```python
++"""Metadata/code-only identity proof. Never reads or executes subject files.
++
++Run only after the fixed wrapper checks this file's SHA256. All paths are fixed
++within this directory. This is instruction confinement, not a caller sandbox.
++"""
++import hashlib
++import importlib.util
++import json
++import re
++import sys
++from pathlib import Path
++
++ROOT = Path(__file__).resolve().parent
++CORE = ROOT / "seal-core.json"
++EXPECTED_NAMES = {
++    "verify_reuse.py", "bootstrap_template.js", "short_call_template.js", "operating_instruction_template.md", "invoker_template.js",
++    "operational_adapter.js", "fixed_launcher.py", "record_receipt.py", "__FIXED_ROUTE_FILENAME__",
++}
++ID = re.compile(r"[A-Za-z][A-Za-z0-9_-]{0,63}\Z")
++
++
++def require(ok, why):
++    if not ok:
++        raise ValueError(why)
++
++
++def sha(data):
++    return hashlib.sha256(data).hexdigest()
++
++
++def unique(raw):
++    def pairs(items):
++        d = {}
++        for k, v in items:
++            require(k not in d, "duplicate metadata key")
++            d[k] = v
++        return d
++    return json.loads(raw.decode("utf-8"), object_pairs_hook=pairs)
++
++
++def render(template, core_hash, core):
++    verifier = str(ROOT / "verify_reuse.py").replace("\\", "/")
++    # Get-FileHash runs before Python executes the identity verifier.
++    command = ("$v='" + verifier + "'; if ((Get-FileHash -LiteralPath $v -Algorithm SHA256).Hash.ToLowerInvariant() -ne '" + core["files"]["verify_reuse.py"]["sha256"] + "') { throw 'verifier identity mismatch' }; & '" + core["python"] + "' $v")
++    for marker, value in {"__VERIFY_COMMAND__": command, "__CORE_SHA256__": core_hash, "__STORE_KEY__": core["store_key"]}.items():
++        template = template.replace(marker, value)
++    require("__" not in template, "unbound wrapper marker")
++    return template
++
++
++def proof(mode, core_hash, step_id=None):
++    raw = CORE.read_bytes()
++    require(len(raw) < 100000 and sha(raw) == core_hash, "sealed binding hash mismatch")
++    core = unique(raw)
++    require(type(core) is dict and set(core) == {"schema", "scope", "python", "store_key", "route_sha256", "route_path", "runtime_path", "files"}, "invalid core shape")
++    require(core["schema"] == "prof-reader-reuse-core-v1" and core["scope"] == "__FIXED_SCOPE__", "wrong binding schema/scope")
++    require(type(core["files"]) is dict and set(core["files"]) == EXPECTED_NAMES, "unpermitted operational path set")
++    sources = {}
++    for name, spec in core["files"].items():
++        require(type(spec) is dict and set(spec) == {"sha256", "bytes"}, "invalid operational identity shape")
++        require(type(spec["bytes"]) is int and 0 < spec["bytes"] < 1000000, "invalid operational extent")
++        data = (ROOT / name).read_bytes()
++        require(len(data) == spec["bytes"] and sha(data) == spec["sha256"], "operational identity mismatch: " + name)
++        sources[name] = data.decode("utf-8")
++    require(core["route_path"] == str(ROOT / "__FIXED_ROUTE_FILENAME__").replace("\\", "/"), "route path binding mismatch")
++    require(core["runtime_path"] == str(ROOT / "__FIXED_RUNTIME_DIRNAME__").replace("\\", "/"), "runtime binding mismatch")
++    require(core["route_sha256"] == core["files"]["__FIXED_ROUTE_FILENAME__"]["sha256"], "route hash binding mismatch")
++    require(Path(core["python"]).is_absolute() and "'" not in core["python"] and "'" not in str(ROOT), "unsafe fixed command path")
++    spec = importlib.util.spec_from_file_location("sealed_metadata_only_launcher", ROOT / "fixed_launcher.py")
++    runner = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(runner)
++    require(str(runner.CONFIG_PATH).replace("\\", "/") == core["route_path"] and runner.EXPECTED_CONFIG_SHA256 == core["route_sha256"] and str(runner.RUNTIME_DIR).replace("\\", "/") == core["runtime_path"], "launcher route/runtime binding mismatch")
++    config = runner.load_config()  # Bounded metadata read + pure metadata validation only.
++    require(config["route_id"] == "__FIXED_ROUTE_ID__", "unpermitted fixture route")
++    adapter = sources["operational_adapter.js"]
++    require(adapter.count("await readerStep(STEP_ID);") == 1 and not re.search(r"const STEP_ID\s*=", adapter), "invalid parameterized adapter shape")
++    require('const ROUTE_SHA256 = "' + core["route_sha256"] + '";' in adapter, "adapter route binding mismatch")
++    invoker = render(sources["invoker_template.js"], core_hash, core)
++    bootstrap = render(sources["bootstrap_template.js"], core_hash, core)
++    short = render(sources["short_call_template.js"], core_hash, core)
++    instruction = render(sources["operating_instruction_template.md"], core_hash, core)
++    for name, text in {"invoker.js": invoker, "bootstrap.js": bootstrap, "short_call.js": short, "reader-operating.md": instruction}.items():
++        require((ROOT / name).read_bytes() == text.encode("utf-8"), "derived bootstrap/wrapper/instruction identity mismatch: " + name)
++    seal = {"schema": "prof-reader-invoker-store-v1", "binding_sha256": core_hash,
++            "adapter_sha256": core["files"]["operational_adapter.js"]["sha256"],
++            "route_sha256": core["route_sha256"], "bootstrap_sha256": sha(bootstrap.encode()),
++            "short_call_sha256": sha(short.encode()), "runtime_path": core["runtime_path"], "invoker_sha256": sha(invoker.encode()), "invoker_source": invoker, "adapter_source": adapter}
++    result = {"schema": "prof-reader-reuse-proof-v1", "mode": mode, "seal": seal}
++    if mode == "bootstrap":
++        result["instruction"] = instruction
++    else:
++        require(type(step_id) is str and ID.fullmatch(step_id), "exactly one plain STEP_ID is accepted")
++        result["step_id"] = step_id
++    return result
++
++
++def main():
++    try:
++        require(len(sys.argv) in (3, 4), "invalid identity-verifier argument shape")
++        mode, digest = sys.argv[1:3]
++        require(mode in ("bootstrap", "step") and re.fullmatch(r"[a-f0-9]{64}", digest), "invalid verification mode/hash")
++        require(len(sys.argv) == (3 if mode == "bootstrap" else 4), "mode argument shape mismatch")
++        result = proof(mode, digest, sys.argv[3] if mode == "step" else None)
++        sys.stdout.buffer.write(json.dumps(result, ensure_ascii=False, separators=(",", ":")).encode("utf-8") + b"\n")
++        return 0
++    except Exception as exc:
++        sys.stderr.write(json.dumps({"ok": False, "error": str(exc)}) + "\n")
++        return 2
++
++
++if __name__ == "__main__":
++    raise SystemExit(main())
++```
++<!-- PROF-READER-TEMPLATE-END: verify_reuse_template.py -->
+--- pinned-r40-normalized-for-review/references/sasis/profile-manifest.json
++++ candidate-r41-normalized-for-review/references/sasis/profile-manifest.json
+@@ -85,5 +85,5 @@
+     "No new student trial has run under this profile merely because these resources were installed. Verify live editions/placement before claiming freshness for a new run."
+   ],
+-  "protocol_revision": "2026-10-14-r40",
++  "protocol_revision": "2026-10-14-r41",
+   "rewrite_guide": "rewrite-guide.md",
+   "student_input_policy": {
+@@ -112,7 +112,9 @@
+   },
+   "control_file_hashes": {
+-    "student-role.txt": "7fb31bbc84f9ef7b8b9e97c25aa322f295f6745f25e3c2da53bb2767d000dc56",
+-    "student-testing-contract.txt": "31a674a4bb0046ed83de906666cd75ef66f1a97074753f8856bd484a0b2205e8",
+-    "rewrite-guide.md": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7"
++    "student-role.txt": "b43364db24a239b48899fd7df19cd57cd5b68b2808c5ac130138a9feaad197ad",
++    "student-testing-contract.txt": "97cacfa2eebaf29690e24e502a82caea451563ca07e8f883da4ebceb1f0d3123",
++    "rewrite-guide.md": "4d31e54b180a53a49bdbf4a36396b2a32835c29c769710d7f58bf4e7c39bd0b7",
++    "../sasis.md": "a45af8fc59d050e62e247a81e30760ab4ff2c24ecf223993503a9b5f4c84470b",
++    "../../SKILL.md": "f644289b87bc50247bfaccc00a043e2dcce004e422717cf7604a4cfee0903a5a"
+   },
+   "protocol_update_notes": [
+@@ -125,5 +127,6 @@
+     "2026-10-12-r34 requires an orchestrator-prepared fixed route-bound retrieval launcher, preflighted on non-subject fixtures, to separate executable commands from subject paths and reject invalid next-step requests before subject access. Actual bounded access and figure-view receipts remain required; instruction confinement is not technical isolation. Frozen baseline and teaching evidence are unchanged; fresh generation and reading remain pending.",
+     "2026-10-14-r39 implements Jonathan's explicit request to download the published GitHub PROF package over the local Windows installation at iteration start and after revised-PROF publication. Stage and verify the complete package, retain a recoverable backup, replace the installation and verify its bytes against one pinned commit before local generation. This supersedes the previous local-update prohibition; frozen baseline files, reader controls, teaching evidence and corpus acceptance counts are unchanged.",
+-    "2026-10-14-r40 strengthens source-error attribution, final numerical validation, strict-comparison source syntax, citation/math wrapper boundaries and dependency write-destination checks after verified execution and destination findings. A blocked installation-directory rename has a verified equal-inventory fallback. Retrieval wrappers reuse one sealed non-subject adapter through an explicitly authorised verified bootstrap and step-ID-only calls. Frozen baseline/provenance bytes remain unchanged; the incomplete r39 reader provides no whole-document verdict, and fresh generation, complete reading and affected-success checks remain pending."
++    "2026-10-14-r40 strengthens source-error attribution, final numerical validation, strict-comparison source syntax, citation/math wrapper boundaries and dependency write-destination checks after verified execution and destination findings. A blocked installation-directory rename has a verified equal-inventory fallback. Retrieval wrappers reuse one sealed non-subject adapter through an explicitly authorised verified bootstrap and step-ID-only calls. Frozen baseline/provenance bytes remain unchanged; the incomplete r39 reader provides no whole-document verdict, and fresh generation, complete reading and affected-success checks remain pending.",
++    "2026-10-14-r41 repairs the verified r40 reader failure at B0024: a recopied proof-schema guard used prof-reader-reuse-store-v1 instead of prof-reader-reuse-proof-v1 and stopped before teaching. One independently verified bootstrap now retains the non-subject invoker and all per-step guards; later fixed two-line calls change only STEP_ID. The expression evaluates before the current canonical comparison, which precedes subject access. Frozen baseline/provenance identities are unchanged. Publication, fresh generation, complete fresh reading and affected-success evidence remain pending."
+   ],
+   "iteration_repair_policy": {
+@@ -146,5 +149,11 @@
+       "destination": "C:/Users/alver/.codex/skills/prof",
+       "source": "complete root skill package at one verified published main commit",
+-      "package_paths": ["SKILL.md", "agents/", "assets/", "references/", "scripts/"],
++      "package_paths": [
++        "SKILL.md",
++        "agents/",
++        "assets/",
++        "references/",
++        "scripts/"
++      ],
+       "backup_before_whole_directory_replacement": true,
+       "verify_staged_and_installed_inventory_and_bytes": true,
+--- pinned-r40-normalized-for-review/references/sasis/student-role.txt
++++ candidate-r41-normalized-for-review/references/sasis/student-role.txt
+@@ -15,5 +15,5 @@
+ Read sequentially
+ 
+-When exact routing metadata is supplied, use only the fixed launcher command supplied for this reading, followed by its next scheduled step ID or a predeclared revisit ID for an already-read baseline chunk. A baseline revisit must not advance the document route. Do not add subject paths, ranges or interpreter commands; never execute, import, evaluate or compile an input file. If a retrieval wrapper is supplied, use only its exact explicitly authorised verified non-subject bootstrap once, then reuse that same sealed adapter through its short step-ID-only call; change only the ID, without recopying or editing operational logic. Only that verified operational code may execute; subject bytes never may. If the bootstrap, adapter or launcher fails, preserve the exact call/result and report the access limit instead of retrying, improvising another retrieval command or advancing. Retrieve only that authorized bounded text slice or complete figure; advance the document only through its scheduled route. Do not guess boundaries or include later sections in a larger read. Inspect each figure at its listed first-use position, record the actual view-tool result through the scheduled receipt stage, and only then advance. Log actual ordered access and disclose any early exposure or delayed figure inspection; rereading does not restore first exposure.
++When exact routing metadata is supplied, use only the fixed launcher command supplied for this reading, followed by its next scheduled step ID or a predeclared revisit ID for an already-read baseline chunk. A baseline revisit must not advance the document route. Do not add subject paths, ranges or interpreter commands; never execute, import, evaluate or compile an input file. If a retrieval wrapper is supplied, use only its exact explicitly authorised verified non-subject bootstrap once, then the supplied fixed invocation changing only STEP_ID. All schema, identity, retrieval, receipt and view guards belong inside the same retained invoker; never reproduce or edit them in a later call. On the supplied two-line evaluation surface the designated invoker expression evaluates first, then its independent canonical source/envelope comparison must pass before subject launcher/view access; this is not pre-evaluation authentication or a persistent callable. Only the bootstrap-verified designated non-subject program may occupy that executable position; subject bytes never may. If the bootstrap, adapter or launcher fails, preserve the exact call/result and report the access limit instead of retrying, improvising another retrieval command or advancing. Retrieve only that authorized bounded text slice or complete figure; advance the document only through its scheduled route. Do not guess boundaries or include later sections in a larger read. Inspect each figure at its listed first-use position, record the actual view-tool result through the scheduled receipt stage, and only then advance. Log actual ordered access and disclose any early exposure or delayed figure inspection; rereading does not restore first exposure.
+ 
+ At every substantive definition, claim, equation, diagram, example and transition, check:
+--- pinned-r40-normalized-for-review/references/sasis/student-testing-contract.txt
++++ candidate-r41-normalized-for-review/references/sasis/student-testing-contract.txt
+@@ -1,3 +1,3 @@
+-SASIS reader contract — revision 2026-10-14-r40
++SASIS reader contract — revision 2026-10-14-r41
+ 
+ Purpose
+@@ -23,5 +23,5 @@
+ Use verified complete text delivery or explicitly labelled instruction-confined read-only retrieval of the two full artifacts. Prefer technical confinement when available, but do not claim shared-tool agents provide it. Under an instruction whitelist, fetch only the exact baseline/document artifacts; log actual access ranges and failures. Read the complete baseline in coherent chunks and inspect the whole document in order. Do not claim everything was simultaneously in context.
+ 
+-For linked or interleaved retrieval, supply the exact ordered, subject-free file/range/figure route required by sasis.md. Prepare and synthetically preflight its fixed launcher before dispatch. When a tool wrapper is needed, also seal and preflight one non-subject operational adapter and its exact explicitly authorised verified bootstrap, then reuse that same program through a short step-ID-only call; do not recopy hash or receipt logic per step, and never execute subject bytes. Preserve any bootstrap/adapter/launcher failure and stop without retry, improvisation or advancement. Reader invocations use only that launcher and the next scheduled step ID or a predeclared bounded revisit ID for an already-read baseline chunk; baseline revisits do not move the document cursor and may not expose unread baseline or future teaching; validate arguments/order before subject access, read bounded binary data rather than executing subject files, and require actual figure-view receipts before advancing. Preserve the instrumented rejection checks and actual runtime access ledger; this checks launcher operation, not technical isolation. Compare the actual access sequence and complete coverage before admission. Preserve order deviations; complete the audit and use a fresh reader after routing repair, without changing the frozen teaching.
++For linked or interleaved retrieval, supply the exact ordered, subject-free file/range/figure route required by sasis.md. Prepare and synthetically preflight its fixed launcher before dispatch. When a tool wrapper is needed, seal and preflight one non-subject invoker containing every per-step schema/identity/retrieval/receipt/view guard and its exact explicitly authorised verified bootstrap. Later calls must contain only the supplied fixed invocation and permitted STEP_ID datum, with no reproduced guards or parsers. On serializable-store evaluation interfaces, independently verify the designated invoker at bootstrap; its expression evaluates before a current canonical source/envelope comparison that must reject changes before subject launcher/view access. Do not claim a persistent callable or pre-evaluation authentication. Never execute subject bytes. Include concrete same-surface checks for the observed proof/store schema-copy failure, retained identity changes, missing/stale store, bad/extra/out-of-order steps, baseline revisits, figure delivery and truncation. Preserve any bootstrap/adapter/launcher failure and stop without retry, improvisation or advancement. Reader invocations use only that launcher and the next scheduled step ID or a predeclared bounded revisit ID for an already-read baseline chunk; baseline revisits do not move the document cursor and may not expose unread baseline or future teaching; validate arguments/order before subject access, read bounded binary data rather than executing subject files, and require actual figure-view receipts before advancing. Preserve the instrumented rejection checks and actual runtime access ledger; this checks launcher operation, not technical isolation. Compare the actual access sequence and complete coverage before admission. Preserve order deviations; complete the audit and use a fresh reader after routing repair, without changing the frozen teaching.
+ 
+ A path, hash, window-size guess or acknowledgement is not delivery evidence. Missing, mismatched, truncated or unreadable input blocks substantive admission. A dispatch to establish access is provisional until evidence establishes the complete inputs were available/read. If it fails, preserve an input failure, not a teaching judgement, repair access, and start a fresh condition. Never silently shorten the baseline. Verified unauthorised subject access invalidates the affected reading.

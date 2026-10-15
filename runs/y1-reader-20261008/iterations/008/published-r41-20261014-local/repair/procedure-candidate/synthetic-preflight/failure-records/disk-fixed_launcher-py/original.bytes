@@ -1,0 +1,332 @@
+"""Instruction-confined SASIS retrieval. Bind constants before reader use.
+
+This executable never imports or executes a content file. The only reader CLI
+argument is one route step ID. The adapter-only receipt helper is a different
+executable and is not an alternative retrieval interface.
+"""
+from __future__ import annotations
+
+import base64
+import hashlib
+import json
+import os
+import re
+import secrets
+import sys
+from contextlib import contextmanager
+from datetime import datetime, timezone
+from pathlib import Path
+
+CONFIG_PATH = Path("C:/Users/alver/.codex/.chatgpt-projects/g-p-6aa4088af61c8191a4b578a4310457ae/.prof-sasis/20261014-d008-r41/procedure-candidate/synthetic-preflight/frozen-route.json")
+EXPECTED_CONFIG_SHA256 = "93c8cc8f85429e9bf3129688a8cd0d190138aed930c7c60cedd1a6ad06d9285b"
+RUNTIME_DIR = Path("C:/Users/alver/.codex/.chatgpt-projects/g-p-6aa4088af61c8191a4b578a4310457ae/.prof-sasis/20261014-d008-r41/procedure-candidate/synthetic-preflight/runtime")
+MAX_TEXT_BYTES = 12000
+MAX_FIGURE_BYTES = 12 * 1024 * 1024
+ID_RE = re.compile(r"[A-Za-z][A-Za-z0-9_-]{0,63}\Z")
+HEX_RE = re.compile(r"[a-f0-9]{64}\Z")
+
+
+class Denied(Exception):
+    pass
+
+
+def sha(data):
+    return hashlib.sha256(data).hexdigest()
+
+
+def canonical(value):
+    return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
+
+
+def now():
+    return datetime.now(timezone.utc).isoformat()
+
+
+def fail(message):
+    raise Denied(message)
+
+
+def require(condition, message):
+    if not condition:
+        fail(message)
+
+
+def exact_keys(value, expected, label):
+    require(type(value) is dict and set(value) == set(expected), label + ": invalid keys/type")
+
+
+def integer(value, low, high, label):
+    require(type(value) is int and low <= value <= high, label + ": invalid integer/range")
+
+
+def valid_id(value):
+    return type(value) is str and ID_RE.fullmatch(value) is not None
+
+
+def unique_json(raw):
+    def pairs(items):
+        result = {}
+        for key, value in items:
+            require(key not in result, "duplicate JSON key")
+            result[key] = value
+        return result
+    return json.loads(raw.decode("utf-8"), object_pairs_hook=pairs)
+
+
+def validate_config(config):
+    """Pure metadata validation: performs no content stat/open/read."""
+    exact_keys(config, ("schema", "route_id", "revision", "range_convention", "files", "steps", "baseline_revisits"), "config")
+    require(config["schema"] == "sasis-fixed-route-v1", "invalid config schema")
+    require(valid_id(config["route_id"]), "invalid route ID")
+    require(type(config["revision"]) is str and config["revision"], "invalid revision")
+    require(config["range_convention"] == "zero-based-byte-start-length", "invalid range convention")
+    files = config["files"]
+    require(type(files) is dict and files, "files must be nonempty object")
+    paths = set()
+    for file_id, spec in files.items():
+        require(valid_id(file_id), "invalid file ID")
+        exact_keys(spec, ("artifact_id", "revision", "kind", "path", "size", "sha256", "encoding"), "file")
+        require(type(spec["artifact_id"]) is str and spec["artifact_id"], "missing artifact ID")
+        require(type(spec["revision"]) is str and spec["revision"], "missing artifact revision")
+        require(spec["kind"] in ("baseline", "teaching_text", "teaching_figure"), "invalid file kind")
+        require(type(spec["path"]) is str and Path(spec["path"]).is_absolute(), "file path must be absolute")
+        normalized = os.path.normcase(os.path.abspath(spec["path"]))
+        require(normalized not in paths, "duplicate file path")
+        paths.add(normalized)
+        integer(spec["size"], 1, 1024 * 1024 * 1024, "file size")
+        require(type(spec["sha256"]) is str and HEX_RE.fullmatch(spec["sha256"]), "invalid file hash")
+        require(spec["encoding"] == ("binary-image" if spec["kind"] == "teaching_figure" else "utf-8"), "invalid encoding")
+    steps = config["steps"]
+    require(type(steps) is list and steps, "steps must be nonempty list")
+    ids = set()
+    spans = {file_id: [] for file_id in files}
+    teaching_started = False
+    baseline_count = 0
+    for step in steps:
+        exact_keys(step, ("id", "file_id", "start", "length", "sha256", "kind"), "step")
+        require(valid_id(step["id"]) and step["id"] not in ids, "invalid/duplicate step ID")
+        ids.add(step["id"])
+        require(type(step["file_id"]) is str and step["file_id"] in files, "unknown file ID")
+        spec = files[step["file_id"]]
+        figure = spec["kind"] == "teaching_figure"
+        require(step["kind"] == ("figure" if figure else "text"), "step/file type mismatch")
+        integer(step["start"], 0, spec["size"] - 1, "start")
+        integer(step["length"], 1, MAX_FIGURE_BYTES if figure else MAX_TEXT_BYTES, "length")
+        require(step["start"] + step["length"] <= spec["size"], "range exceeds file")
+        require(type(step["sha256"]) is str and HEX_RE.fullmatch(step["sha256"]), "invalid range hash")
+        if figure:
+            require(step["start"] == 0 and step["length"] == spec["size"], "figure must be complete")
+            require(step["sha256"] == spec["sha256"], "figure hash differs from full-file hash")
+        if spec["kind"] == "baseline":
+            require(not teaching_started, "initial baseline occurs after teaching")
+            baseline_count += 1
+        else:
+            teaching_started = True
+        spans[step["file_id"]].append((step["start"], step["length"]))
+    require(baseline_count > 0 and teaching_started, "baseline and teaching are required")
+    for file_id, file_spans in spans.items():
+        position = 0
+        for start, length in file_spans:
+            require(start == position, "file route has gap, overlap, duplicate, or reversal")
+            position += length
+        require(position == files[file_id]["size"], "file route incomplete")
+    revisits = config["baseline_revisits"]
+    require(type(revisits) is dict, "revisits must be an object")
+    by_id = {step["id"]: step for step in steps}
+    for revisit_id, target_id in revisits.items():
+        require(valid_id(revisit_id) and revisit_id not in ids, "invalid/duplicate revisit ID")
+        require(type(target_id) is str and target_id in by_id, "unknown revisit target")
+        require(files[by_id[target_id]["file_id"]]["kind"] == "baseline", "revisit target is not baseline")
+    return config
+
+
+def load_config():
+    # Config is non-subject metadata, bounded independently of any route request.
+    with CONFIG_PATH.open("rb") as handle:
+        raw = handle.read(1024 * 1024 + 1)
+    require(len(raw) <= 1024 * 1024, "route metadata too large")
+    require(sha(raw) == EXPECTED_CONFIG_SHA256, "frozen route identity mismatch")
+    return validate_config(unique_json(raw))
+
+
+def append_event(event, **fields):
+    RUNTIME_DIR.mkdir(parents=True, exist_ok=True)
+    record = {"time_utc": now(), "event": event, "route_sha256": EXPECTED_CONFIG_SHA256, **fields}
+    with (RUNTIME_DIR / "access.jsonl").open("ab") as handle:
+        handle.write(canonical(record) + b"\n")
+        handle.flush()
+        os.fsync(handle.fileno())
+
+
+@contextmanager
+def exclusive():
+    RUNTIME_DIR.mkdir(parents=True, exist_ok=True)
+    lock = RUNTIME_DIR / "state.lock"
+    try:
+        fd = os.open(str(lock), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+    except FileExistsError:
+        fail("runtime locked; preserve evidence and recover outside reader")
+    try:
+        os.write(fd, canonical({"pid": os.getpid(), "time_utc": now()}))
+        os.close(fd)
+        yield
+    finally:
+        lock.unlink(missing_ok=True)
+
+
+def initial_state():
+    return {"schema": "sasis-route-state-v1", "route_sha256": EXPECTED_CONFIG_SHA256,
+            "cursor": 0, "baseline_read": [], "pending_figure": None}
+
+
+def load_state(config):
+    path = RUNTIME_DIR / "state.json"
+    if not path.exists():
+        return initial_state()
+    raw = path.read_bytes()
+    require(len(raw) <= 1024 * 1024, "state too large")
+    state = unique_json(raw)
+    exact_keys(state, ("schema", "route_sha256", "cursor", "baseline_read", "pending_figure"), "state")
+    require(state["schema"] == "sasis-route-state-v1" and state["route_sha256"] == EXPECTED_CONFIG_SHA256, "state route identity mismatch")
+    integer(state["cursor"], 0, len(config["steps"]), "cursor")
+    expected_read = [s["id"] for s in config["steps"][:state["cursor"]] if config["files"][s["file_id"]]["kind"] == "baseline"]
+    require(state["baseline_read"] == expected_read, "baseline read-state mismatch")
+    pending = state["pending_figure"]
+    if pending is not None:
+        exact_keys(pending, ("step_id", "nonce", "sha256", "cache_path", "stages", "byte_length", "result_image_sha256"), "pending figure")
+        require(state["cursor"] < len(config["steps"]), "pending figure beyond route")
+        step = config["steps"][state["cursor"]]
+        require(step["kind"] == "figure" and pending["step_id"] == step["id"] and pending["sha256"] == step["sha256"], "pending figure identity mismatch")
+        require(type(pending["nonce"]) is str and re.fullmatch(r"[a-f0-9]{32}", pending["nonce"]), "invalid figure nonce")
+        require(pending["cache_path"] == str(RUNTIME_DIR / "images" / (step["sha256"] + ".png")), "pending cache mismatch")
+        require(pending["byte_length"] == step["length"], "pending image length mismatch")
+        require(type(pending["stages"]) is list and pending["stages"] in ([], ["view_invocation"], ["view_invocation", "view_result"]), "invalid figure receipt stage")
+        require((pending["result_image_sha256"] is None and len(pending["stages"]) < 2) or
+                (len(pending["stages"]) == 2 and type(pending["result_image_sha256"]) is str and HEX_RE.fullmatch(pending["result_image_sha256"])), "invalid view-result identity")
+    return state
+
+
+def save_state(state):
+    target = RUNTIME_DIR / "state.json"
+    temporary = RUNTIME_DIR / ("state-" + secrets.token_hex(8) + ".tmp")
+    with temporary.open("xb") as handle:
+        handle.write(canonical(state))
+        handle.flush()
+        os.fsync(handle.fileno())
+    os.replace(temporary, target)
+
+
+def install_subject_audit(config):
+    paths = {os.path.normcase(os.path.abspath(spec["path"])) for spec in config["files"].values()}
+    def hook(event, args):
+        if event == "open" and isinstance(args[0], (str, bytes, os.PathLike)):
+            path = os.path.normcase(os.path.abspath(os.fsdecode(args[0])))
+            if path in paths:
+                append_event("python_subject_open_audit", path=path, mode=str(args[1]), flags=args[2])
+    sys.addaudithook(hook)
+
+
+def retrieve(step_id, config, state):
+    steps = config["steps"]
+    by_id = {step["id"]: step for step in steps}
+    revisits = config["baseline_revisits"]
+    require(step_id in by_id or step_id in revisits, "unknown step ID")
+    revisit = step_id in revisits
+    if revisit:
+        target = revisits[step_id]
+        require(target in state["baseline_read"], "baseline revisit target not yet read")
+        # A pending figure also blocks baseline rereads until its scheduled view.
+        require(state["pending_figure"] is None, "scheduled figure has no completed view/display receipt")
+        step = by_id[target]
+    else:
+        require(state["cursor"] < len(steps) and step_id == steps[state["cursor"]]["id"], "step is not the exact next scheduled step")
+        require(state["pending_figure"] is None, "figure already accessed; finish actual view/display receipt before retry/advance")
+        step = by_id[step_id]
+    spec = config["files"][step["file_id"]]
+    if spec["kind"] != "baseline":
+        baseline_ids = [s["id"] for s in steps if config["files"][s["file_id"]]["kind"] == "baseline"]
+        require(state["baseline_read"] == baseline_ids, "complete initial baseline required before teaching")
+    # Every argument, route, state, range, type, order and revisit check above is
+    # complete before the first content open. Audit records capture actual opens.
+    before = state["cursor"]
+    append_event("subject_open_attempt", requested_step=step_id, target_step=step["id"], cursor=before)
+    with open(spec["path"], "rb") as handle:
+        append_event("subject_open_succeeded", requested_step=step_id, target_step=step["id"])
+        require(os.fstat(handle.fileno()).st_size == spec["size"], "frozen file size mismatch")
+        actual_start = handle.seek(step["start"], os.SEEK_SET)
+        require(actual_start == step["start"], "seek did not reach exact start")
+        data = handle.read(step["length"])
+        end = handle.tell()
+        size_after = os.fstat(handle.fileno()).st_size
+    digest = sha(data)
+    append_event("bounded_bytes_read", requested_step=step_id, target_step=step["id"], file_id=step["file_id"],
+                 start=step["start"], requested_length=step["length"], actual_length=len(data), end=end, sha256=digest)
+    require(len(data) == step["length"] and end == step["start"] + step["length"] and size_after == spec["size"], "returned byte extent mismatch")
+    require(digest == step["sha256"], "frozen range hash mismatch")
+    output = {"schema": "sasis-step-result-v1", "route_id": config["route_id"], "route_sha256": EXPECTED_CONFIG_SHA256,
+              "requested_step": step_id, "target_step": step["id"], "file_id": step["file_id"], "kind": step["kind"],
+              "start": step["start"], "byte_length": len(data), "sha256": digest,
+              "cursor_before": before, "baseline_revisit": revisit}
+    if step["kind"] == "text":
+        output["bytes_b64"] = base64.b64encode(data).decode("ascii")
+        try:
+            output["text_utf8"] = data.decode("utf-8", errors="strict")
+        except UnicodeDecodeError:
+            fail("text slice splits UTF-8 or is not UTF-8")
+        if not revisit:
+            state["cursor"] += 1
+            if spec["kind"] == "baseline":
+                state["baseline_read"].append(step["id"])
+    else:
+        require(data.startswith(b"\x89PNG\r\n\x1a\n"), "figure must be a complete PNG in this launcher")
+        cache_dir = RUNTIME_DIR / "images"
+        cache_dir.mkdir(parents=True, exist_ok=True)
+        cache_path = cache_dir / (digest + ".png")
+        with cache_path.open("wb") as handle:
+            handle.write(data)
+            handle.flush()
+            os.fsync(handle.fileno())
+        nonce = secrets.token_hex(16)
+        state["pending_figure"] = {"step_id": step_id, "nonce": nonce, "sha256": digest,
+                                   "cache_path": str(cache_path), "stages": [], "byte_length": len(data), "result_image_sha256": None}
+        output.update({"image_path": str(cache_path), "image_nonce": nonce, "view_required": True,
+                       "mime_type": "image/png", "complete_image_staged": True,
+                       "cursor_held_for_actual_view_and_display": True})
+    output["cursor_after"] = state["cursor"]
+    # This access receipt records verified internal byte access, not tool viewing,
+    # actual output delivery, or semantic understanding. It precedes output.
+    append_event("verified_access_receipt", requested_step=step_id, target_step=step["id"], file_id=step["file_id"],
+                 start=step["start"], byte_length=len(data), sha256=digest, baseline_revisit=revisit,
+                 cursor_before=before, cursor_after=state["cursor"], figure_pending=step["kind"] == "figure")
+    save_state(state)
+    append_event("launcher_output_prepared", requested_step=step_id, byte_length=len(data), sha256=digest)
+    return output
+
+
+def main():
+    try:
+        # Do not even load route metadata for invalid command shape.
+        require(len(sys.argv) == 2, "exactly one step ID argument is required")
+        require(valid_id(sys.argv[1]), "invalid step ID syntax")
+        config = load_config()
+        with exclusive():
+            state = load_state(config)
+            install_subject_audit(config)
+            output = retrieve(sys.argv[1], config, state)
+        sys.stdout.buffer.write(canonical(output) + b"\n")
+        sys.stdout.buffer.flush()
+        return 0
+    except Exception as exc:
+        message = str(exc) if isinstance(exc, Denied) else type(exc).__name__ + ": " + str(exc)
+        try:
+            append_event("launcher_rejected", argument_count=len(sys.argv) - 1,
+                         requested_step=sys.argv[1] if len(sys.argv) == 2 and valid_id(sys.argv[1]) else None,
+                         reason=message)
+        except Exception:
+            pass
+        sys.stderr.buffer.write(canonical({"ok": False, "error": message}) + b"\n")
+        return 2
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

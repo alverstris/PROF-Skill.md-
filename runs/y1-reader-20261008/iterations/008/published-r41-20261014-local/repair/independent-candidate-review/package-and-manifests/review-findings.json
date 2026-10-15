@@ -1,0 +1,81 @@
+{
+  "bounded_package_identity_result": "pass; no inventory, manifest, pinned-blob, installed-byte or sealed-identity discrepancy",
+  "additional_raw_byte_change": {
+    "path": "SKILL.md",
+    "detail": "156 CRLF endings from pinned r40 are converted to LF. After normalizing CRLF solely for content review, the only content edit in SKILL.md is metadata version r40 to r41. This normalization is part of the sealed candidate bytes and their manifest hash, but is not visible in the candidate text diff generated using read_text()."
+  },
+  "validator_generality_gaps": [
+    {
+      "location": "validate_candidate.py:29",
+      "gap": "Asserts five proposed paths are within the old inventory, but does not assert the exact five documented replacement paths.",
+      "current_snapshot": "Independent exact-set check confirms the intended five."
+    },
+    {
+      "location": "validate_candidate.py:43-48",
+      "gap": "Checks operative hashes and total 28 but does not assert exact five control-map keys.",
+      "current_snapshot": "Independent check confirms exact intended keys and all 28 checks; 24 distinct paths."
+    },
+    {
+      "location": "validate_candidate.py:91-92",
+      "gap": "Compares each expected installed path but does not enumerate additional installed files.",
+      "current_snapshot": "Independent recursive enumeration confirms exactly 36 installed paths, no extras/missing and all exact pinned-r40 bytes."
+    }
+  ],
+  "additional_limits": [
+    "Review seal and all 18 named sidecars were hashed. The 111-entry preparation inventory is itself sealed, but this package review does not rerun or substantively re-audit all candidate synthetic tests.",
+    "Git object comparisons prove the pinned operative package, not the absence of unrelated repository working-tree changes.",
+    "The present installed package matches r40; a future r41 synchronization still requires a published immutable commit, staging, recoverable backup and complete installed readback."
+  ],
+  "line_endings": [
+    {
+      "path": "SKILL.md",
+      "source_CRLF": 156,
+      "source_LF": 166,
+      "candidate_CRLF": 0,
+      "candidate_LF": 166,
+      "source_BOM": false,
+      "candidate_BOM": false,
+      "normalized_diff_lines": 9
+    },
+    {
+      "path": "references/sasis.md",
+      "source_CRLF": 0,
+      "source_LF": 114,
+      "candidate_CRLF": 0,
+      "candidate_LF": 278,
+      "source_BOM": false,
+      "candidate_BOM": false,
+      "normalized_diff_lines": 187
+    },
+    {
+      "path": "references/sasis/profile-manifest.json",
+      "source_CRLF": 0,
+      "source_LF": 155,
+      "candidate_CRLF": 0,
+      "candidate_LF": 164,
+      "source_BOM": false,
+      "candidate_BOM": false,
+      "normalized_diff_lines": 43
+    },
+    {
+      "path": "references/sasis/student-role.txt",
+      "source_CRLF": 0,
+      "source_LF": 46,
+      "candidate_CRLF": 0,
+      "candidate_LF": 46,
+      "source_BOM": false,
+      "candidate_BOM": false,
+      "normalized_diff_lines": 9
+    },
+    {
+      "path": "references/sasis/student-testing-contract.txt",
+      "source_CRLF": 0,
+      "source_LF": 53,
+      "candidate_CRLF": 0,
+      "candidate_LF": 53,
+      "source_BOM": false,
+      "candidate_BOM": false,
+      "normalized_diff_lines": 14
+    }
+  ]
+}

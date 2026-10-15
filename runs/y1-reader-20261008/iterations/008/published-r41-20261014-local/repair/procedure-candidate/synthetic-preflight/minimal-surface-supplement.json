@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "label": "extra_argument",
+      "passed": true,
+      "error": "Error: exactly one STEP_ID datum is accepted",
+      "tool_calls": 0,
+      "subject_opens": 0
+    },
+    {
+      "label": "object_argument_with_extra_path",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "tool_calls": 0,
+      "subject_opens": 0
+    },
+    {
+      "label": "actual_undefined_store_value",
+      "passed": true,
+      "error": "TypeError: Cannot read properties of undefined (reading 'invoker_source')",
+      "tool_calls": 0,
+      "actual_functions_load_returned_undefined": true,
+      "injected_loader": true,
+      "subject_opens": 0
+    }
+  ],
+  "passed": true,
+  "all_guard_logic_inside_retained_program": true
+}

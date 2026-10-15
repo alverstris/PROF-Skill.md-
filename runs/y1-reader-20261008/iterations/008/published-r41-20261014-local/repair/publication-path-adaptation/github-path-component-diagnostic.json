@@ -1,0 +1,55 @@
+{
+  "scope": "Controlled GitHub tree validation probe; immutable objects only, no commit/ref or installation update",
+  "base_tree": "bb524d4de21cc987a7f7f297bca7017837685a83",
+  "only_changed_input": "one path component .git to _git_metadata_snapshot; identical body SHA/mode/type/base tree",
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "label": "original_reserved_component",
+        "path": "runs/y1-reader-20261008/iterations/008/publication-path-diagnostic/.git/HEAD",
+        "git_blob_sha": "33b52eecb10df2422459e3f33c0eb3b64f3e79e9",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "GitHub API error 422: {\"message\":\"tree.path contains a malformed path component\",\"documentation_url\":\"https://docs.github.com/rest/git/trees#create-a-tree\",\"status\":\"422\"}"
+            }
+          ],
+          "structuredContent": {
+            "error": "GitHub API error 422: {\"message\":\"tree.path contains a malformed path component\",\"documentation_url\":\"https://docs.github.com/rest/git/trees#create-a-tree\",\"status\":\"422\"}",
+            "error_code": "INVALID_ARGUMENT",
+            "error_data": {
+              "message": "tree.path contains a malformed path component",
+              "documentation_url": "https://docs.github.com/rest/git/trees#create-a-tree",
+              "status": "422"
+            }
+          },
+          "isError": true
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "label": "mapped_component",
+        "path": "runs/y1-reader-20261008/iterations/008/publication-path-diagnostic/_git_metadata_snapshot/HEAD",
+        "git_blob_sha": "33b52eecb10df2422459e3f33c0eb3b64f3e79e9",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Action completed."
+            }
+          ],
+          "structuredContent": {
+            "sha": "69de497b6d0162394442381c0d84477c07657eb4"
+          },
+          "isError": false
+        }
+      }
+    }
+  ],
+  "reserved_component_rejected": true,
+  "mapped_component_accepted": true
+}

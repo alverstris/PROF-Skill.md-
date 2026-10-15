@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "original_items_preserved": 3797,
+  "original_source_byte_checks": 3797,
+  "package_source_byte_checks": 36,
+  "original_unique_blob_ids_reusable": 398,
+  "changed_targets": 204,
+  "mapping_exactly_matches_root_failure_paths_and_blobs": true,
+  "exact_component_only": true,
+  "reverse_mapping_matches_all_original_targets": true,
+  "path_checks": {
+    "paths_checked": 3797,
+    "exact_duplicates": 0,
+    "case_folded_collisions": 0,
+    "file_ancestor_collisions": 0,
+    "invalid_components": 0
+  },
+  "all_five_root_overlays_unchanged": true,
+  "complete_36_package_inventory_unchanged": true,
+  "operative_manifest_checks_carried_forward": 28,
+  "frozen_provenance_identities_carried_forward": 19,
+  "validator_rejections": [
+    {
+      "path": "a/.git/config",
+      "rejected": true,
+      "error": "Git metadata path component is not publishable evidence"
+    },
+    {
+      "path": "a/.GIT/config",
+      "rejected": true,
+      "error": "Git metadata path component is not publishable evidence"
+    },
+    {
+      "path": "/absolute",
+      "rejected": true,
+      "error": "Canonical repository-relative slash path required"
+    },
+    {
+      "path": "a//b",
+      "rejected": true,
+      "error": "Empty/dot/traversal path component"
+    },
+    {
+      "path": "a/../b",
+      "rejected": true,
+      "error": "Empty/dot/traversal path component"
+    },
+    {
+      "path": "a/./b",
+      "rejected": true,
+      "error": "Empty/dot/traversal path component"
+    },
+    {
+      "path": "a\\b",
+      "rejected": true,
+      "error": "Canonical repository-relative slash path required"
+    },
+    {
+      "path": "a/",
+      "rejected": true,
+      "error": "Canonical repository-relative slash path required"
+    },
+    {
+      "path": "a/\u0000b",
+      "rejected": true,
+      "error": "Control character in path"
+    },
+    {
+      "paths": [
+        "a",
+        "a"
+      ],
+      "rejected": true,
+      "error": "Duplicate target path"
+    },
+    {
+      "paths": [
+        "a",
+        "a/b"
+      ],
+      "rejected": true,
+      "error": "File/ancestor target collision: a/b"
+    },
+    {
+      "paths": [
+        "A",
+        "a"
+      ],
+      "rejected": true,
+      "error": "Case-folded target collision: a"
+    }
+  ],
+  "similar_nonreserved_names_accepted": true,
+  "no_source_renamed_or_rewritten": true,
+  "no_publication_installation_or_reader_action": true
+}

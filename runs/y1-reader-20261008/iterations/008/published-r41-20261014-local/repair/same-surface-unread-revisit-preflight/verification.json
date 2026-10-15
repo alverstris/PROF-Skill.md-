@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "scope": "Supplemental exact two-line unread-baseline revisit on fresh non-subject fixture only",
+  "actual_functions_exec_bootstrap": true,
+  "bootstrap_executions": 1,
+  "actual_functions_exec_minimal_call": true,
+  "retrieval_invocations": 1,
+  "exact_call": "const STEP_ID = \"RB002\";\nawait eval(load(\"prof.reader.r41.unread_revisit.supplement1\").invoker_source)(STEP_ID);\n",
+  "requested_step": "RB002",
+  "target_step": "B002",
+  "target_unread_at_invocation": true,
+  "failure": "launcher rejected/failed: {\"error\":\"baseline revisit target not yet read\",\"ok\":false}",
+  "launcher_rejection_count": 1,
+  "effective_cursor_before": 0,
+  "effective_cursor_after": 0,
+  "baseline_read_before": [],
+  "baseline_read_after": [],
+  "state_file_before": false,
+  "state_file_after": false,
+  "reader_access_event_counts": {
+    "subject_open_attempt": 0,
+    "python_subject_open_audit": 0,
+    "subject_open_succeeded": 0,
+    "bounded_bytes_read": 0,
+    "verified_access_receipt": 0,
+    "launcher_output_prepared": 0,
+    "delivery_receipt": 0,
+    "figure_view_receipt": 0
+  },
+  "bootstrap_retained_envelope_matches_independent_canonical_proof": true,
+  "reviewed_candidate_files_unchanged": 113,
+  "identity_normalized_code_comparison_passed": true,
+  "failed_fixture_preserved_without_reset_or_retry": true,
+  "post_failure_runtime_identity_unchanged": {
+    "access.jsonl": {
+      "bytes": 250,
+      "sha256": "ecc1aa51f4e2e90acace2ea1433f751b2b9bf429a4cedc632c63f000327f75ce"
+    }
+  },
+  "core_sha256": "fc7c189d364f94312fdf8daa781e0b1bcce24771942fd6fef7e9396d96d23188",
+  "bootstrap_sha256": "9ab442438842a18dc02c4aea16842744d0715d7fe37fdf33b6950ba079f66ef3",
+  "invoker_sha256": "98a83ee8895b9927b9542b9a09afbb13014e9cdb2cdabf16a97936c0ac568b09",
+  "exact_unread_call_sha256": "f52459f44bc25debe8579a73082e57bf6f1c999149d24e9fc25938318da55609",
+  "no_operational_code_change": true,
+  "production_subject_or_runtime_access": false,
+  "reader_dispatch_teaching_generation_publication_installation": false,
+  "limits": "The invoker expression evaluates before its current canonical check; this supplements instruction-confined execution evidence, not pre-evaluation authentication or technical confinement."
+}

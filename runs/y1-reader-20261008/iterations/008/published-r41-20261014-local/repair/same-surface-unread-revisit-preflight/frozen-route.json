@@ -1,0 +1,81 @@
+{
+  "schema": "sasis-fixed-route-v1",
+  "route_id": "SYNTHETIC_R41",
+  "revision": "non-subject-r41",
+  "range_convention": "zero-based-byte-start-length",
+  "files": {
+    "BFILE": {
+      "artifact_id": "synthetic-BFILE",
+      "revision": "r41-fixture-1",
+      "kind": "baseline",
+      "path": "C:/Users/alver/.codex/.chatgpt-projects/g-p-6aa4088af61c8191a4b578a4310457ae/.prof-sasis/20261014-d008-r41/same-surface-unread-revisit-preflight/baseline.txt",
+      "size": 51,
+      "sha256": "f7cd430fe66be1d3b7a5d8ef83cf3d200cf7c2aecadaf25f3c681d6ff790a9fb",
+      "encoding": "utf-8"
+    },
+    "TFILE": {
+      "artifact_id": "synthetic-TFILE",
+      "revision": "r41-fixture-1",
+      "kind": "teaching_text",
+      "path": "C:/Users/alver/.codex/.chatgpt-projects/g-p-6aa4088af61c8191a4b578a4310457ae/.prof-sasis/20261014-d008-r41/same-surface-unread-revisit-preflight/teaching.txt",
+      "size": 50,
+      "sha256": "10a31a83ef264e465e74d735129079f44670f02735d07e1843be24e55bc83f1d",
+      "encoding": "utf-8"
+    },
+    "FIMAGE": {
+      "artifact_id": "synthetic-FIMAGE",
+      "revision": "r41-fixture-1",
+      "kind": "teaching_figure",
+      "path": "C:/Users/alver/.codex/.chatgpt-projects/g-p-6aa4088af61c8191a4b578a4310457ae/.prof-sasis/20261014-d008-r41/same-surface-unread-revisit-preflight/figure.png",
+      "size": 382,
+      "sha256": "067b9dfe0854474ec89d5f89ec4c7059b347af5e697ac0be4dff703489699f96",
+      "encoding": "binary-image"
+    }
+  },
+  "steps": [
+    {
+      "id": "B001",
+      "file_id": "BFILE",
+      "start": 0,
+      "length": 26,
+      "sha256": "9dd94c20f841e93743e7b266e8ead15718c409023192bd7355f554421e7f6fe3",
+      "kind": "text"
+    },
+    {
+      "id": "B002",
+      "file_id": "BFILE",
+      "start": 26,
+      "length": 25,
+      "sha256": "cfe275e9cf0fd69622d141e01900622e92c95ff1ea2e1f683e2052cecb57637e",
+      "kind": "text"
+    },
+    {
+      "id": "T001",
+      "file_id": "TFILE",
+      "start": 0,
+      "length": 26,
+      "sha256": "d8920ca4bb6f94ca97e26e9e40cce1fc1ef6b6322e7a54427155048246cea7c2",
+      "kind": "text"
+    },
+    {
+      "id": "F001",
+      "file_id": "FIMAGE",
+      "start": 0,
+      "length": 382,
+      "sha256": "067b9dfe0854474ec89d5f89ec4c7059b347af5e697ac0be4dff703489699f96",
+      "kind": "figure"
+    },
+    {
+      "id": "T002",
+      "file_id": "TFILE",
+      "start": 26,
+      "length": 24,
+      "sha256": "7313bbd36dc0ea641cf93a6b4d947c5cf6f1e6b0e7527179d4470ee470296cef",
+      "kind": "text"
+    }
+  ],
+  "baseline_revisits": {
+    "RB001": "B001",
+    "RB002": "B002"
+  }
+}

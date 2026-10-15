@@ -1,0 +1,30 @@
+{
+  "status": "corroborated",
+  "fixture_root": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r41\\local-sync-preparation\\synthetic-fixtures\\20261014T212433699002Z",
+  "helper_sha256": "cb0c8b31a3d857edc3d8ed47f79afea61d7b3a752061c14f94f76a888b86b5f0",
+  "test_script_sha256": "4ef6261d8fb22c5439e0715df19c52e1af3817ba56b9823f6bf9d2d90302f5cd",
+  "readback_sha256": "0932ed1868949c040ab38bbcf11821d8ba80370fc43bdc571cef34a7252068e8",
+  "fixture_files_rehashed": 1221,
+  "fixture_total_bytes": 390904,
+  "transaction_cases": 8,
+  "package_state_comparisons_including_absence": 42,
+  "present_package_trees": 29,
+  "substantive_failure_records": 6,
+  "manifest_check_groups": 5,
+  "local_immutable_git_package_blobs_checked": 36,
+  "synthetic_git_commit": "8eaecdf7c9adedba24518b0e423e3d26d27473c5",
+  "test_claims_accounted_for": 15,
+  "test_claims_with_direct_package_or_Git_byte_corroboration": 11,
+  "test_claims_with_static_guard_and_readback_corroboration_only": 4,
+  "errors": [],
+  "limits": [
+    "No owner helper/test was imported or executed, and no production stage/install or network command was invoked. Only read-only local Git object commands were used.",
+    "Saved files corroborate byte states and substantive failure records, not an independent historical exception transcript or actual test execution trace.",
+    "Rename/write errors and late-live-ref/final-status failures are deliberate mocks; WinError 5 is assigned to the synthetic PermissionError.",
+    "Reparse test uses a simulated lstat Windows attribute on an ordinary file, not an actual junction.",
+    "Rollback-itself-fails refuses the first attempted payload write. Current installation remains exact old bytes; destination_mutated=true marks an attempted replacement path, not observed surviving corruption. This test proves hold/backup policy, not recovery of a partly damaged target when restoration also fails.",
+    "Unsafe-path, alternate-destination, reparse and unverified-input test exceptions are not separately saved; static guard/input consistency and readback claims are distinguished.",
+    "Synthetic local Git has no configured remote. Test source uses local Git and stubbed live checks; no actual GitHub/live-main check or production synchronization result is established.",
+    "No stale fixture tree was read or altered; all writes stay in the independent-fixture-check output directory."
+  ]
+}

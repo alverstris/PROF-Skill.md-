@@ -1,0 +1,113 @@
+{
+  "at": "2026-10-14T21:24:48.838264+00:00",
+  "helper": {
+    "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r41\\local-sync-preparation\\sync_published_prof.py",
+    "sha256": "cb0c8b31a3d857edc3d8ed47f79afea61d7b3a752061c14f94f76a888b86b5f0"
+  },
+  "fixture_root": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r41\\local-sync-preparation\\synthetic-fixtures\\20261014T212433699002Z",
+  "synthetic_tests": [
+    {
+      "test": "dynamic-manifest-26",
+      "pass": true,
+      "actual": 26,
+      "distinct_paths": 22
+    },
+    {
+      "test": "dynamic-manifest-28",
+      "pass": true,
+      "actual": 28,
+      "distinct_paths": 24
+    },
+    {
+      "test": "whole-directory-replaces-obsolete-file",
+      "pass": true,
+      "backup_intact": true,
+      "payload_bom_and_newline_bytes_preserved": true
+    },
+    {
+      "test": "blocked-rename-equal-inventory-fallback",
+      "pass": true,
+      "preserved_winerror": 5,
+      "backup_intact": true
+    },
+    {
+      "test": "blocked-rename-unequal-inventory-refused",
+      "pass": true,
+      "original_and_backup_intact": true,
+      "failure": {
+        "type": "RuntimeError",
+        "message": "Fallback forbidden: existing and staged relative file inventories differ",
+        "errno": null,
+        "winerror": null
+      }
+    },
+    {
+      "test": "partial-fallback-write-rolls-back",
+      "pass": true,
+      "original_and_backup_intact": true,
+      "generation_hold": true
+    },
+    {
+      "test": "failed-stage-directory-promotion-rolls-back",
+      "pass": true,
+      "original_and_backup_intact": true
+    },
+    {
+      "test": "late-live-ref-failure-restores-and-preserves-failed-installation",
+      "pass": true,
+      "backup_intact": true,
+      "generation_hold": true
+    },
+    {
+      "test": "final-status-record-write-failure-restores-and-invalidates-pass",
+      "pass": true,
+      "backup_intact": true,
+      "generation_hold": true
+    },
+    {
+      "test": "rollback-failure-preserves-backup-and-holds",
+      "pass": true,
+      "backup_intact": true,
+      "manual_recovery_required": true
+    },
+    {
+      "test": "unsafe-paths-rejected",
+      "pass": true,
+      "cases": 9
+    },
+    {
+      "test": "alternate-production-destination-rejected",
+      "pass": true
+    },
+    {
+      "test": "windows-reparse-attribute-rejected",
+      "pass": true,
+      "simulated": true
+    },
+    {
+      "test": "complete-immutable-git-package-filter-and-binary-identities",
+      "pass": true,
+      "package_files": 36,
+      "excluded": [
+        "prof.zip",
+        "runs/evidence.json"
+      ],
+      "network_used": false
+    },
+    {
+      "test": "unverified-publication-input-rejected",
+      "pass": true
+    }
+  ],
+  "passed": 15,
+  "failed": 0,
+  "production_cli_invoked": false,
+  "actual_installed_prof_read_or_written_by_tests": false,
+  "network_used": false,
+  "dependency_installation_performed": false,
+  "limitations": [
+    "Synthetic mocked rename/write failures establish exercised control paths, not all Windows locking/filesystem failure modes.",
+    "Reparse guard is tested using a simulated Windows attribute, not an actual junction.",
+    "No production staging, installation, GitHub publication or post-installation readback was invoked."
+  ]
+}

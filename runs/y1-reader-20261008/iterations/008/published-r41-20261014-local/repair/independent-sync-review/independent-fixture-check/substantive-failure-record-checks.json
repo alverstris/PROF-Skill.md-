@@ -1,0 +1,164 @@
+{
+  "failures": [
+    {
+      "case": "rename-blocked-unequal-inventory",
+      "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r41\\local-sync-preparation\\synthetic-fixtures\\20261014T212433699002Z\\rename-blocked-unequal-inventory\\installation-failure.json",
+      "bytes": 9461,
+      "sha256": "dd2d979a99e3f0d088bfa6987ce15e54b017de7501aa378a074b1eafc76641c3",
+      "error": {
+        "type": "RuntimeError",
+        "message": "Fallback forbidden: existing and staged relative file inventories differ",
+        "errno": null,
+        "winerror": null
+      },
+      "original_rename_failure": {
+        "type": "PermissionError",
+        "message": "[WinError 5] Synthetic Windows directory rename refusal",
+        "errno": 13,
+        "winerror": 5
+      },
+      "generation_hold": true,
+      "destination_mutated": false,
+      "rollback": {
+        "attempted": false,
+        "backup_preserved": true
+      },
+      "before_inventory_matches_actual_backup": true
+    },
+    {
+      "case": "fallback-partial-write-rollback",
+      "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r41\\local-sync-preparation\\synthetic-fixtures\\20261014T212433699002Z\\fallback-partial-write-rollback\\installation-failure.json",
+      "bytes": 9520,
+      "sha256": "50044deb3c473f155009b6fc3dd1ee2bac5ab51aa887bc5749fdac3a2c3a3319",
+      "error": {
+        "type": "OSError",
+        "message": "Synthetic fourth payload write failure",
+        "errno": null,
+        "winerror": null
+      },
+      "original_rename_failure": {
+        "type": "PermissionError",
+        "message": "[WinError 5] Synthetic Windows directory rename refusal",
+        "errno": 13,
+        "winerror": 5
+      },
+      "generation_hold": true,
+      "destination_mutated": true,
+      "rollback": {
+        "attempted": true,
+        "restored": true,
+        "method": "equal-inventory complete byte restoration from preserved verified backup",
+        "rollback_rename_failure": {
+          "type": "PermissionError",
+          "message": "[WinError 5] Synthetic Windows directory rename refusal",
+          "errno": 13,
+          "winerror": 5
+        },
+        "backup_preserved": true
+      },
+      "before_inventory_matches_actual_backup": true
+    },
+    {
+      "case": "stage-promotion-failure",
+      "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r41\\local-sync-preparation\\synthetic-fixtures\\20261014T212433699002Z\\stage-promotion-failure\\installation-failure.json",
+      "bytes": 9226,
+      "sha256": "ec55135e0d15fdf9222dee33581b530d209a59b98c5db73345119a4b19138bbc",
+      "error": {
+        "type": "PermissionError",
+        "message": "[WinError 5] Synthetic Windows directory rename refusal",
+        "errno": 13,
+        "winerror": 5
+      },
+      "original_rename_failure": null,
+      "generation_hold": true,
+      "destination_mutated": true,
+      "rollback": {
+        "attempted": true,
+        "restored": true,
+        "method": "complete copy from preserved verified backup into absent destination",
+        "failed_installation_preserved": null,
+        "backup_preserved": true
+      },
+      "before_inventory_matches_actual_backup": true
+    },
+    {
+      "case": "late-live-ref-failure",
+      "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r41\\local-sync-preparation\\synthetic-fixtures\\20261014T212433699002Z\\late-live-ref-failure\\installation-failure.json",
+      "bytes": 9435,
+      "sha256": "81f23bf003a0224a43a09770fd9a144e7bec2342a51ce893e16a5da51b23e3e5",
+      "error": {
+        "type": "RuntimeError",
+        "message": "Synthetic live main changed at final readback",
+        "errno": null,
+        "winerror": null
+      },
+      "original_rename_failure": null,
+      "generation_hold": true,
+      "destination_mutated": true,
+      "rollback": {
+        "attempted": true,
+        "restored": true,
+        "method": "complete copy from preserved verified backup into absent destination",
+        "failed_installation_preserved": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r41\\local-sync-preparation\\synthetic-fixtures\\20261014T212433699002Z\\late-live-ref-failure\\failed-installation",
+        "backup_preserved": true
+      },
+      "before_inventory_matches_actual_backup": true
+    },
+    {
+      "case": "final-status-record-failure",
+      "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r41\\local-sync-preparation\\synthetic-fixtures\\20261014T212433699002Z\\final-status-record-failure\\installation-failure.json",
+      "bytes": 9452,
+      "sha256": "5f93fcbcb35dbc117e5a969e6fffab556b9497386017d64e399eeac227dcc18f",
+      "error": {
+        "type": "OSError",
+        "message": "Synthetic final status-record write failure",
+        "errno": null,
+        "winerror": null
+      },
+      "original_rename_failure": null,
+      "generation_hold": true,
+      "destination_mutated": true,
+      "rollback": {
+        "attempted": true,
+        "restored": true,
+        "method": "complete copy from preserved verified backup into absent destination",
+        "failed_installation_preserved": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r41\\local-sync-preparation\\synthetic-fixtures\\20261014T212433699002Z\\final-status-record-failure\\failed-installation",
+        "backup_preserved": true
+      },
+      "before_inventory_matches_actual_backup": true
+    },
+    {
+      "case": "rollback-itself-fails",
+      "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r41\\local-sync-preparation\\synthetic-fixtures\\20261014T212433699002Z\\rollback-itself-fails\\installation-failure.json",
+      "bytes": 9409,
+      "sha256": "a3251e790a1ee4c4b5ebbd4c13fe94b86c1d9ec7d0af05e63a53e95a10997af0",
+      "error": {
+        "type": "OSError",
+        "message": "Synthetic persistent payload write refusal",
+        "errno": null,
+        "winerror": null
+      },
+      "original_rename_failure": {
+        "type": "PermissionError",
+        "message": "[WinError 5] Synthetic Windows directory rename refusal",
+        "errno": 13,
+        "winerror": 5
+      },
+      "generation_hold": true,
+      "destination_mutated": true,
+      "rollback": {
+        "attempted": true,
+        "restored": false,
+        "error": {
+          "type": "OSError",
+          "message": "Synthetic persistent payload write refusal",
+          "errno": null,
+          "winerror": null
+        },
+        "backup_preserved": true,
+        "manual_recovery_required": true
+      },
+      "before_inventory_matches_actual_backup": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "label": "exact_original_failed_guard",
+      "error": "Error: cached adapter/binding identity mismatch; preserve failure and stop",
+      "metadata_stub_calls": 1,
+      "actual_launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens": 0,
+      "adapter_reached": false
+    },
+    {
+      "label": "only_proof_schema_corrected_diagnostic",
+      "error": "Error: synthetic adapter reached after correct proof guard",
+      "metadata_stub_calls": 1,
+      "actual_launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens": 0,
+      "adapter_reached": true
+    }
+  ],
+  "scope": "Independent synthetic reproduction of the exact saved r40 failed call. No production verifier, launcher, subject or runtime used; the corrected variant is diagnostic only, never a retry."
+}

@@ -1,0 +1,87 @@
+{
+  "claims": [
+    {
+      "test": "dynamic-manifest-26",
+      "basis": "Actual complete 36-file bytes and all manifest hashes independently reconstructed",
+      "corroborated": true
+    },
+    {
+      "test": "dynamic-manifest-28",
+      "basis": "Actual complete 36-file bytes and all manifest hashes independently reconstructed",
+      "corroborated": true
+    },
+    {
+      "test": "whole-directory-replaces-obsolete-file",
+      "basis": "Actual before identities, complete backup/current/displaced/failed/staged byte states and substantive transaction records",
+      "corroborated": true,
+      "historical_exception_execution_independently_observed": false
+    },
+    {
+      "test": "blocked-rename-equal-inventory-fallback",
+      "basis": "Actual before identities, complete backup/current/displaced/failed/staged byte states and substantive transaction records",
+      "corroborated": true,
+      "historical_exception_execution_independently_observed": false
+    },
+    {
+      "test": "blocked-rename-unequal-inventory-refused",
+      "basis": "Actual before identities, complete backup/current/displaced/failed/staged byte states and substantive transaction records",
+      "corroborated": true,
+      "historical_exception_execution_independently_observed": false
+    },
+    {
+      "test": "partial-fallback-write-rolls-back",
+      "basis": "Actual before identities, complete backup/current/displaced/failed/staged byte states and substantive transaction records",
+      "corroborated": true,
+      "historical_exception_execution_independently_observed": false
+    },
+    {
+      "test": "failed-stage-directory-promotion-rolls-back",
+      "basis": "Actual before identities, complete backup/current/displaced/failed/staged byte states and substantive transaction records",
+      "corroborated": true,
+      "historical_exception_execution_independently_observed": false
+    },
+    {
+      "test": "late-live-ref-failure-restores-and-preserves-failed-installation",
+      "basis": "Actual before identities, complete backup/current/displaced/failed/staged byte states and substantive transaction records",
+      "corroborated": true,
+      "historical_exception_execution_independently_observed": false
+    },
+    {
+      "test": "final-status-record-write-failure-restores-and-invalidates-pass",
+      "basis": "Actual before identities, complete backup/current/displaced/failed/staged byte states and substantive transaction records",
+      "corroborated": true,
+      "historical_exception_execution_independently_observed": false
+    },
+    {
+      "test": "rollback-failure-preserves-backup-and-holds",
+      "basis": "Actual before identities, complete backup/current/displaced/failed/staged byte states and substantive transaction records",
+      "corroborated": true,
+      "historical_exception_execution_independently_observed": false
+    },
+    {
+      "test": "complete-immutable-git-package-filter-and-binary-identities",
+      "basis": "Actual 36 immutable local Git blob identities and root/package fixture bytes, with exact two excluded paths and no configured remote",
+      "corroborated": true
+    },
+    {
+      "test": "unsafe-paths-rejected",
+      "basis": "Static inspection accounts for all nine unsafe paths and their rejecting guards; individual exception results are not saved.",
+      "corroboration": "Static code and saved fixture consistency; dynamic rejection is reported by test readback, not independently witnessed"
+    },
+    {
+      "test": "alternate-production-destination-rejected",
+      "basis": "Static patched AUTHORIZED fixture differs from hard-coded production destination; no dedicated rejection record.",
+      "corroboration": "Static code and saved fixture consistency; dynamic rejection is reported by test readback, not independently witnessed"
+    },
+    {
+      "test": "windows-reparse-attribute-rejected",
+      "basis": "Static mock supplies st_file_attributes=0x400; actual fake-reparse is an ordinary file. No actual junction or independent exception record.",
+      "corroboration": "Static code and saved fixture consistency; dynamic rejection is reported by test readback, not independently witnessed"
+    },
+    {
+      "test": "unverified-publication-input-rejected",
+      "basis": "Actual final input has verified=false and helper guard requires true; no independent saved exception trace.",
+      "corroboration": "Static code and saved fixture consistency; dynamic rejection is reported by test readback, not independently witnessed"
+    }
+  ]
+}

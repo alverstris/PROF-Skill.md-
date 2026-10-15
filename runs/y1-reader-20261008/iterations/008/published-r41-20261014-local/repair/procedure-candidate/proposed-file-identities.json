@@ -1,0 +1,60 @@
+{
+  "files": {
+    "SKILL.md": {
+      "bytes": 44237,
+      "sha256": "f644289b87bc50247bfaccc00a043e2dcce004e422717cf7604a4cfee0903a5a",
+      "source_blob": "a12b8d56ec957e308f2c4bb5f41065a5f9ace209"
+    },
+    "references/sasis.md": {
+      "bytes": 37113,
+      "sha256": "a45af8fc59d050e62e247a81e30760ab4ff2c24ecf223993503a9b5f4c84470b",
+      "source_blob": "9d56ee6a77c983e8e1f253d271b74dea45aee10b"
+    },
+    "references/sasis/profile-manifest.json": {
+      "bytes": 13436,
+      "sha256": "aa564e3e2dfaaeeabfdd1e3c6de2bd65aca1fa1245d521ba62a641e9d74cba31",
+      "source_blob": "bb719893154d17e388d73e8b205b7fabe7f5999c"
+    },
+    "references/sasis/student-role.txt": {
+      "bytes": 7341,
+      "sha256": "b43364db24a239b48899fd7df19cd57cd5b68b2808c5ac130138a9feaad197ad",
+      "source_blob": "2efb9c7f982682ed4ffd494a8ed8385a0ce98a4a"
+    },
+    "references/sasis/student-testing-contract.txt": {
+      "bytes": 9595,
+      "sha256": "97cacfa2eebaf29690e24e502a82caea451563ca07e8f883da4ebceb1f0d3123",
+      "source_blob": "26b7b040b2d71ec7c48eb964dd335001978e8400"
+    }
+  },
+  "template_carrier": "references/sasis.md",
+  "template_checks": [
+    {
+      "name": "bootstrap_template.js",
+      "bytes": 1375,
+      "sha256": "43d2d6180c697698fb6eabb0ef9bb501309bb4859312ee9248148ae6245bee0a",
+      "exact_named_block_extraction": true,
+      "same_template_used_in_actual_preflight": true
+    },
+    {
+      "name": "invoker_template.js",
+      "bytes": 1458,
+      "sha256": "5856f22af5ac284cdceadb336212a54a77dcb17be47b55827aa8661fde2864ce",
+      "exact_named_block_extraction": true,
+      "same_template_used_in_actual_preflight": true
+    },
+    {
+      "name": "short_call_template.js",
+      "bytes": 83,
+      "sha256": "7ebec3b5af79d427ad26acc91ed55e4d46e99fa21fc48558fa025c07d940156a",
+      "exact_named_block_extraction": true,
+      "same_template_used_in_actual_preflight": true
+    },
+    {
+      "name": "verify_reuse_template.py",
+      "bytes": 6405,
+      "sha256": "c41a5dd384ff467cd143a3c8f17f20196d9c2098bd8d0d0ea940f4b407fad257",
+      "exact_named_block_extraction": true,
+      "same_template_used_in_actual_preflight": true
+    }
+  ]
+}

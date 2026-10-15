@@ -1,0 +1,107 @@
+{
+  "source_prof_commit": "2102c1fc637c7c97248c9b2c2d2a6e5da39a39ce",
+  "source_prof_version": "2026-10-14-r40",
+  "proposed_version": "2026-10-14-r41",
+  "changed_existing_files": [
+    "SKILL.md",
+    "references/sasis.md",
+    "references/sasis/student-role.txt",
+    "references/sasis/student-testing-contract.txt",
+    "references/sasis/profile-manifest.json"
+  ],
+  "complete_package_file_count_after_integration": 36,
+  "operative_manifest_checks_after_integration": 28,
+  "synthetic_core_sha256": "b94ba0d30d69c826f44314ae870feca8b9641b48f5592f606744e03e5da2985e",
+  "synthetic_seal": {
+    "schema": "prof-reader-invoker-store-v1",
+    "binding_sha256": "b94ba0d30d69c826f44314ae870feca8b9641b48f5592f606744e03e5da2985e",
+    "adapter_sha256": "968808794ea65d85c2beee28bbd3688ec81063c85df0f37cbea3e09423bb4054",
+    "route_sha256": "93c8cc8f85429e9bf3129688a8cd0d190138aed930c7c60cedd1a6ad06d9285b",
+    "bootstrap_sha256": "26df307837a5db1c2081b739510d7387f5ee6447bbc916666d3bfdea3dab9874",
+    "short_call_sha256": "b9a7d6df7cb3fd582696fcbfb7caff336aeb42c30e1f1fa34100c1b0bb04ddee",
+    "runtime_path": "C:/Users/alver/.codex/.chatgpt-projects/g-p-6aa4088af61c8191a4b578a4310457ae/.prof-sasis/20261014-d008-r41/procedure-candidate/synthetic-preflight/runtime",
+    "invoker_sha256": "96e0b1af0e39d6125345349bbf80f48b2543b28f85d062023820a6507c0fcbba"
+  },
+  "installed_or_repository_mutated": false,
+  "subject_or_production_runtime_access": false,
+  "template_carrier": "references/sasis.md#sealed-reader-invoker-templates",
+  "extracted_template_files": [
+    "templates/bootstrap_template.js",
+    "templates/invoker_template.js",
+    "templates/short_call_template.js",
+    "templates/verify_reuse_template.py"
+  ],
+  "state": "unpublished_candidate_pending_root_review_not_accepted",
+  "proposed_visible_and_manifest_protocol_revision": "2026-10-14-r41",
+  "protocol_update_note_appended": "2026-10-14-r41 repairs the verified r40 reader failure at B0024: a recopied proof-schema guard used prof-reader-reuse-store-v1 instead of prof-reader-reuse-proof-v1 and stopped before teaching. One independently verified bootstrap now retains the non-subject invoker and all per-step guards; later fixed two-line calls change only STEP_ID. The expression evaluates before the current canonical comparison, which precedes subject access. Frozen baseline/provenance identities are unchanged. Publication, fresh generation, complete fresh reading and affected-success evidence remain pending.",
+  "frozen_baseline_provenance_hashes_unchanged": {
+    "student-baseline.txt": "3749d2e59631b7981e2dcdf3ec05225a0f375d93728b593ccef44fae916942e5",
+    "student-input-cover.txt": "36a2c1d3341ef90ec209853601e7aeaaa637553d5860230cbf93f12570ed2aa7",
+    "release-manifest.json": "47b0a20328f1b445dca8339087193de42fadb00deb09f0dbd637d203b3b3b9e8",
+    "maths/mathematics-a-h240-baseline.txt": "f9abcc336ca709b48d404f3e4e9047f06d1f1984129db0dcac2f664517c7bad3",
+    "maths/research-record.md": "2a6d50cb4645afde42eb0d8428f1f8c0a4f6b90fe4d70130df396fe91235c366",
+    "maths/research/lds-metadata.json": "d337e0bb90315808573a185334036524435e631c94e0ea42bbb34c85148ca5ae",
+    "further-maths/baseline.txt": "9703dbfc15013ee5724b732a6ce43108fae51ededb05b2d8b7c93f658f4534a1",
+    "further-maths/research-verification.txt": "3717991c842781a1c9ae27be802b8c9e7ac37221331105dfb3120829765992a1",
+    "further-maths/download-manifest.json": "d7f6a928318697b553b54acbfa7efa9eb08d57f4f39d6a4736b28581106a1b83",
+    "physics/baseline.txt": "eb093c904b13394112be16123878219f35e25caab4e64fa9556514063da4ae06",
+    "physics/research.md": "65859d5207218ffd6ec351ab504f947eedc25b7f85363bcac4cd48b0ce78629b",
+    "physics/source-manifest.json": "d151e1917d4b1a63c2fef9f23ec9c2a3244eb435cabfe578c7de293fea7fb9c3",
+    "chemistry/student-baseline.txt": "6fe357a7fc2e2af395075930794cf647d69a5d24c7bc0447095ea254dea25268",
+    "chemistry/research-verification.txt": "f28d3d53fb97b166c04826a6d1cb333866810fad3b313867e74b3dbe271d4640",
+    "chemistry/baseline-section-index.json": "7d474cf1aa2fbe8ed5ddc7e368372b010b5eafd32dd61de6f6fce817f8660d76",
+    "chemistry/freeze-manifest.json": "281cf106734cf54f81721f320e9d7b28a9a007ab728afd562afac821b1687387",
+    "chemistry/reference/download-manifest.json": "ce7f976d7f49a1f1703601831f0637b79b1e0d0fd10735b9e0743b3015c373c3",
+    "year1-course-registry.json": "11d8df6dc96116aa5f1449afd461aa806d586d6348b8710ab568c61ae6068446",
+    "year1-lecture-index.csv": "a595b8849850fc6ae8147051fce6841f9f5e8af6db14c65bb2e2935d3cb0adb1"
+  },
+  "proposed_package_file_identities": {
+    "SKILL.md": {
+      "bytes": 44237,
+      "sha256": "f644289b87bc50247bfaccc00a043e2dcce004e422717cf7604a4cfee0903a5a",
+      "source_blob": "a12b8d56ec957e308f2c4bb5f41065a5f9ace209"
+    },
+    "references/sasis.md": {
+      "bytes": 37113,
+      "sha256": "a45af8fc59d050e62e247a81e30760ab4ff2c24ecf223993503a9b5f4c84470b",
+      "source_blob": "9d56ee6a77c983e8e1f253d271b74dea45aee10b"
+    },
+    "references/sasis/profile-manifest.json": {
+      "bytes": 13436,
+      "sha256": "aa564e3e2dfaaeeabfdd1e3c6de2bd65aca1fa1245d521ba62a641e9d74cba31",
+      "source_blob": "bb719893154d17e388d73e8b205b7fabe7f5999c"
+    },
+    "references/sasis/student-role.txt": {
+      "bytes": 7341,
+      "sha256": "b43364db24a239b48899fd7df19cd57cd5b68b2808c5ac130138a9feaad197ad",
+      "source_blob": "2efb9c7f982682ed4ffd494a8ed8385a0ce98a4a"
+    },
+    "references/sasis/student-testing-contract.txt": {
+      "bytes": 9595,
+      "sha256": "97cacfa2eebaf29690e24e502a82caea451563ca07e8f883da4ebceb1f0d3123",
+      "source_blob": "26b7b040b2d71ec7c48eb964dd335001978e8400"
+    }
+  },
+  "source_control_readback": {
+    "SKILL.md": {
+      "bytes": 44393,
+      "sha256": "46ae3eb9e2729b9e8f70ea610038716937ffc04ab8d6b8efa30ba814196f2ae6"
+    },
+    "references/sasis.md": {
+      "bytes": 25584,
+      "sha256": "ea9481c96d2a6f91ac1db4d5a786aecaadb1e05333f86496d1c46dc842ee70a7"
+    },
+    "references/sasis/student-role.txt": {
+      "bytes": 6965,
+      "sha256": "7fb31bbc84f9ef7b8b9e97c25aa322f295f6745f25e3c2da53bb2767d000dc56"
+    },
+    "references/sasis/student-testing-contract.txt": {
+      "bytes": 8999,
+      "sha256": "31a674a4bb0046ed83de906666cd75ef66f1a97074753f8856bd484a0b2205e8"
+    },
+    "references/sasis/profile-manifest.json": {
+      "bytes": 12614,
+      "sha256": "baa87bd7dc8e6da9ac3012907f5da3cd96950350975c73ae03e94bbe8e447158"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "helper_sha256": "cb0c8b31a3d857edc3d8ed47f79afea61d7b3a752061c14f94f76a888b86b5f0",
+  "source_records_match": true,
+  "template_matches_all_36_reviewed_candidate_identities": true,
+  "template_is_not_verified_publication_input": true,
+  "only_cli_options": [
+    "--commit",
+    "--inventory",
+    "--run-id",
+    "--version"
+  ],
+  "real_installed_r40_files_unchanged": 36,
+  "real_installed_dynamic_manifest_checks": 26,
+  "candidate_template_manifest_checks": 28,
+  "tests": [
+    {
+      "test": "initial-complete-readback",
+      "pass": true
+    },
+    {
+      "test": "read-only-ref-failure-holds-and-preserves-bytes",
+      "pass": true,
+      "error": {
+        "type": "RuntimeError",
+        "message": "Live main differs from installed pin"
+      }
+    },
+    {
+      "test": "fresh-success-clears-hold-with-historical-failure-retained",
+      "pass": true
+    },
+    {
+      "test": "changed-helper-rejected-before-dependent-tree",
+      "pass": true,
+      "error": {
+        "type": "RuntimeError",
+        "message": "Helper changed after staging; create and verify a new run"
+      }
+    },
+    {
+      "test": "semantically-identical-raw-input-byte-change-rejected",
+      "pass": true,
+      "error": {
+        "type": "RuntimeError",
+        "message": "Staged root input record changed"
+      }
+    },
+    {
+      "test": "repeat-install-refused-before-destination-with-original-record-retained",
+      "pass": true,
+      "error": {
+        "type": "RuntimeError",
+        "message": "Installation run already attempted; preserve it and stage a new run"
+      },
+      "interpretation": "A failed command is not permission to reuse an older pass; README requires successful exits and current full readback."
+    }
+  ],
+  "production_stage_or_install_invoked": false,
+  "network_used": false,
+  "owner_files_modified": false,
+  "limits": [
+    "Readback tests route only to synthetic copies inside this review tree.",
+    "No production CLI staging, installation, GitHub fetch or publication was performed.",
+    "Point-in-time checks do not prevent concurrent external mutation."
+  ]
+}

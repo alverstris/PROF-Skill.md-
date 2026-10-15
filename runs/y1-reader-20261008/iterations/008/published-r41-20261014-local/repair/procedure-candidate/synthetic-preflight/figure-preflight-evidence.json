@@ -1,0 +1,384 @@
+{
+  "bootstrap_actual_functions_exec": true,
+  "bootstrap_sha256": "26df307837a5db1c2081b739510d7387f5ee6447bbc916666d3bfdea3dab9874",
+  "short_call_sha256": "b9a7d6df7cb3fd582696fcbfb7caff336aeb42c30e1f1fa34100c1b0bb04ddee",
+  "invoker_sha256": "96e0b1af0e39d6125345349bbf80f48b2543b28f85d062023820a6507c0fcbba",
+  "bootstrap_subject_opens": 0,
+  "bootstrap_state": null,
+  "checks": [],
+  "actual_tool_events": [
+    {
+      "event": "functions.view_image_invoked",
+      "path": "C:\\Users\\alver\\.codex\\.chatgpt-projects\\g-p-6aa4088af61c8191a4b578a4310457ae\\.prof-sasis\\20261014-d008-r41\\procedure-candidate\\synthetic-preflight\\runtime\\images\\067b9dfe0854474ec89d5f89ec4c7059b347af5e697ac0be4dff703489699f96.png",
+      "detail": "original",
+      "time": "2026-10-14T20:54:34.983Z"
+    },
+    {
+      "event": "functions.view_image_returned",
+      "detail": "original",
+      "transport_mime": "application/octet-stream",
+      "time": "2026-10-14T20:54:35.004Z"
+    }
+  ],
+  "negative_checks": [
+    {
+      "name": "bootstrap_cannot_be_repeated",
+      "passed": true,
+      "error": "Error: reader bootstrap already present; preserve it and stop",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "invalid_STEP_ID_\"\"",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "invalid_STEP_ID_\"C:/synthetic-unpermitted.txt\"",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "invalid_STEP_ID_\"B001' ; throw 'injection\"",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "invalid_STEP_ID_\"B001\\nT001\"",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "invalid_STEP_ID_[\"B001\",\"C:/synthetic-unpermitted.txt\"]",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "invalid_STEP_ID_{\"STEP_ID\":\"B001\",\"subject_path\":\"C:/synthetic-unpermitted.txt\"}",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "invalid_STEP_ID_4",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "invalid_STEP_ID_null",
+      "passed": true,
+      "error": "Error: exactly one plain STEP_ID is accepted",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "missing_store",
+      "passed": true,
+      "error": "TypeError: Cannot read properties of null (reading 'invoker_source')",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "stale_binding_store",
+      "passed": true,
+      "error": "Error: missing/stale reader bootstrap; preserve failure and stop",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "stale_route_store",
+      "passed": true,
+      "error": "Error: cached adapter/binding identity mismatch; preserve failure and stop",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "extra_subject_path_in_store",
+      "passed": true,
+      "error": "Error: cached adapter/binding identity mismatch; preserve failure and stop",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "corrupted_cached_operational_code",
+      "passed": true,
+      "error": "Error: cached adapter/binding identity mismatch; preserve failure and stop",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "corrupted_retained_invoker_schema_guard",
+      "passed": true,
+      "error": "Error: cached adapter/binding identity mismatch; preserve failure and stop",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "mutated_retained_invoker_digest",
+      "passed": true,
+      "error": "Error: cached adapter/binding identity mismatch; preserve failure and stop",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "mutated_retained_invoker_source_identity",
+      "passed": true,
+      "error": "Error: cached adapter/binding identity mismatch; preserve failure and stop",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "truncated_identity_proof",
+      "passed": true,
+      "error": "Error: verification output missing/truncated; preserve failure and stop",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_valid_STEP_ID_skip_figure",
+      "passed": true,
+      "error": "Error: launcher rejected/failed: {\"error\":\"step is not the exact next scheduled step\",\"ok\":false}\n",
+      "launcher_calls": 1,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_valid_STEP_ID_unknown",
+      "passed": true,
+      "error": "Error: launcher rejected/failed: {\"error\":\"unknown step ID\",\"ok\":false}\n",
+      "launcher_calls": 1,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_operational_adapter.js",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"operational identity mismatch: operational_adapter.js\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_fixed_launcher.py",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"operational identity mismatch: fixed_launcher.py\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_record_receipt.py",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"operational identity mismatch: record_receipt.py\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_verify_reuse.py",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: Exception: \r\nLine |\r\n   2 |  … 59dba1f5b41d6c1ca9d495') { throw 'verifier identity mismatch' }; & 'C …\r\n     |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | verifier identity mismatch\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_frozen-route.json",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"operational identity mismatch: frozen-route.json\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_bootstrap.js",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"derived bootstrap/wrapper/instruction identity mismatch: bootstrap.js\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_short_call.js",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"derived bootstrap/wrapper/instruction identity mismatch: short_call.js\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_reader-operating.md",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"derived bootstrap/wrapper/instruction identity mismatch: reader-operating.md\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_seal-core.json",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"sealed binding hash mismatch\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_invoker_template.js",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"operational identity mismatch: invoker_template.js\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "changed_disk_invoker.js",
+      "passed": true,
+      "error": "Error: reader operational identity verification failed: {\"ok\": false, \"error\": \"derived bootstrap/wrapper/instruction identity mismatch: invoker.js\"}\r\n",
+      "launcher_calls": 0,
+      "view_calls": 0,
+      "subject_opens_added": 0,
+      "cursor_before": 3,
+      "cursor_after": 3
+    },
+    {
+      "name": "independent_wrong_k_segment_synthetic_reproduction",
+      "passed": true,
+      "error": "Error: adapter hash self-check failed",
+      "stub_tool_calls": 0,
+      "original_departed_reader_call": false,
+      "subject_opens": 0
+    }
+  ],
+  "negative_checks_passed": true,
+  "figure_checks": [
+    {
+      "stage": "full_bytes_staged_before_invocation",
+      "passed": true,
+      "exit_code": 1,
+      "error": "{\"error\":\"step is not the exact next scheduled step\",\"ok\":false}",
+      "subject_opens_added": 0,
+      "stages": [],
+      "cursor": 3
+    },
+    {
+      "stage": "invocation_before_actual_result",
+      "passed": true,
+      "exit_code": 1,
+      "error": "{\"error\":\"step is not the exact next scheduled step\",\"ok\":false}",
+      "subject_opens_added": 0,
+      "stages": [
+        "view_invocation"
+      ],
+      "cursor": 3
+    },
+    {
+      "stage": "actual_result_before_image_output",
+      "passed": true,
+      "exit_code": 1,
+      "error": "{\"error\":\"step is not the exact next scheduled step\",\"ok\":false}",
+      "subject_opens_added": 0,
+      "stages": [
+        "view_invocation",
+        "view_result"
+      ],
+      "cursor": 3
+    },
+    {
+      "stage": "delivered_image_releases_cursor",
+      "passed": true,
+      "cursor": 4
+    }
+  ],
+  "figure_checks_passed": true
+}

@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "scope": "Read-only package and manifest review, no production execution, generation, reader, publication or synchronization performed.",
+  "expected_and_measured_review_seal_sha256": "7679387d9640b65221c959ec314fdd145da419b72389393662933ddd167e65dc",
+  "pinned_r40_commit": "2102c1fc637c7c97248c9b2c2d2a6e5da39a39ce",
+  "pinned_package_files": 36,
+  "proposed_overlay_files": 5,
+  "merged_package_files": 36,
+  "actual_changed_files": [
+    "SKILL.md",
+    "references/sasis.md",
+    "references/sasis/profile-manifest.json",
+    "references/sasis/student-role.txt",
+    "references/sasis/student-testing-contract.txt"
+  ],
+  "unchanged_package_files": 31,
+  "installed_file_count": 36,
+  "installed_missing": [],
+  "installed_extras": [],
+  "installed_changed_from_pinned_r40": [],
+  "operative_manifest_check_records": 28,
+  "operative_manifest_distinct_paths": 24,
+  "manifest_groups": {
+    "frozen-baseline-and-provenance": 19,
+    "control": 5,
+    "subject": 4
+  },
+  "unchanged_frozen_baseline_provenance_identities": 19,
+  "actual_profile_changed_fields": [
+    "control_file_hashes",
+    "protocol_revision",
+    "protocol_update_notes"
+  ],
+  "new_protocol_note_count": 1,
+  "review_seal_named_files_checked": 18,
+  "template_payloads_checked": 4,
+  "errors": [],
+  "limitations": [
+    "The complete proposed package is a virtual merge of five candidate replacements with 31 immutable pinned r40 Git blobs; no staging, installation or publication was performed.",
+    "The 28 operative records cover 24 distinct paths, since four subject records repeat baseline hashes. Whole-package identity is established separately by the complete inventory.",
+    "Candidate validation code was inspected but not run because it writes inside the candidate and invokes synthetic proof logic. Saved synthetic pass flags alone are not adopted as execution proof in this package review.",
+    "The candidate validator checks every expected installed path but does not enumerate extras; this independent recursive inventory check closes that local review gap and found no extras.",
+    "No production binding, runtime, fresh reader, generation, scientific teaching quality or future synchronization result is established. Root retains those actions.",
+    "The repository root prof.zip is a distribution artifact, and runs/ is historical evidence; neither is part of the operative root-package inventory SKILL.md, agents/, assets/, references/, scripts/."
+  ]
+}

@@ -2,7 +2,7 @@
 name: prof
 description: "Write, revise, extend, or continue teaching documents, study notes, worked solutions, research primers, and programming or language tutorials using Jonathan's evidence-informed requirements. Apply the source research, prerequisite, explanation, practice, and verification workflow to every topic, with durable recovery for long projects. Default to an Overleaf-ready LaTeX project and compiled PDF. Use whenever explicitly invoked; otherwise applies to teaching-document authoring rather than every short subject answer. Explicit PROF self-iteration uses SASIS; ordinary teaching-document work does not invoke that scheme."
 metadata:
-  version: "2026-10-14-r41"
+  version: "2026-10-20-r42"
 ---
 
 # PROF
@@ -38,6 +38,8 @@ For Jonathan's run, the complete root skill package on the current main branch o
 ## Execute PROF for each topic
 
 For a teaching-document project, read [references/execution-protocol.md](references/execution-protocol.md) before drafting and on recovery. It specifies how to carry out the contract below under large, sparse, conflicting, or changing inputs. Naming PROF or recording its invocation is not application. At every new or reopened topic, including later chapters and teaching in help/appendices, reread this SKILL.md, load that topic's sources/prerequisites and current record, and apply its relevant obligations before drafting. A previously completed topic does not exempt the next one. During incremental work on the same topic, reload the execution loop and active obligations whenever the source packet, scope, or dependencies change.
+
+When supplied material within the requested scope clearly has chapters, build the notes chapter by chapter with a separate author agent for each covered chapter. Run those agents strictly consecutively: finish, check, integrate and save the current chapter and its handover before starting the next chapter author. Do not delegate the whole chaptered work to one author or draft different chapters concurrently. Give each successor the accumulated project knowledge and completed chapter files from the preceding authors, the exact user constraints, and the same PROF path and revision. Each successor reads PROF and the cumulative handover and reloads the actual earlier teaching needed for its chapter; a claimed memory or a file link alone is not inherited knowledge. Follow [sequential chapter authoring](references/execution-protocol.md#sequential-chapter-authoring), retaining one integrated document and the final whole-document checks.
 
 Use this loop: recover exact constraints → inventory topic/source portions → read a bounded packet → identify consequential gaps → resolve them by evidence, explicit deduction, targeted research or a focused student question → write and integrate a coherent part → test the actual teaching route and dependencies → save state. Continue unaffected work while a material question awaits an answer; leave dependent teaching/checks pending or unverified. Repeat for every required portion and topic; then audit the integrated document and final artifacts. Save after each source packet as well as each coherent unit. Do not replace missing research or an unanswered course decision with confident recollection, extra prose, or repeated rewriting.
 
